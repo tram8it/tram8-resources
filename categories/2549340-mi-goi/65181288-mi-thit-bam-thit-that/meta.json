@@ -26,9 +26,12 @@
   },
   "description": {
     "decision": "WRITE_NEW",
-    "reason": "D1: chưa có mô tả; không có trang hãng/nhãn sau — mô tả ngắn chỉ từ dữ kiện chắc chắn: tên SP + mã vạch Vifon",
-    "source": null,
-    "rubricVersion": "v2"
+    "reason": "D1: chưa có mô tả; mô tả ngắn từ dữ kiện chắc chắn — tên + khối lượng 90 g theo tra mã vạch (tên SP trên Lotte Mart, chỉ đọc nhãn)",
+    "source": {
+      "url": "https://www.google.com/search?q=8935311103275",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v3"
   },
   "question": null,
   "history": [
@@ -49,6 +52,12 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "rubric v2 (owner 13/10: newest packaging, generated description when no source): image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-13T16:30:00.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "rubric v3: weight 90 g from barcode lookup (label facts only)"
     }
   ]
 }

@@ -1,4 +1,4 @@
-# RUBRIC — bộ tiêu chí cố định (phiên bản **v2**)
+# RUBRIC — bộ tiêu chí cố định (phiên bản **v3**)
 
 Áp dụng giống nhau cho mọi SP, mọi phiên. Ghi `rubricVersion` vào mỗi quyết định để biết SP được
 chấm theo bản nào. Sửa tiêu chí = tăng phiên bản + ghi **nhật ký thay đổi** ở cuối file.
@@ -29,6 +29,8 @@ mờ/vỡ/lộ viền xấu → đổi thành `REPLACE`.
 
 **Bao bì mới nhất (v2):** SP cùng mã vạch, hoặc cùng thương hiệu + cùng vị trên trang hãng = cùng SP đã đổi bao bì → luôn dùng ảnh bao bì mới nhất trên trang hãng, kể cả khi ảnh hiện tại đúng nhưng là bao bì đời trước. Mô tả (khối lượng, thành phần) theo bao bì mới đó. Tên trên KiotViet lệch (vd. 74g → 75g) thì báo chủ sửa ở KiotViet.
 
+**Nguồn ảnh (v3):** (1) trang web chính hãng; (2) **kênh chính chủ của hãng**: fanpage đã xác minh, gian hàng do chính hãng vận hành trên Shopee Mall/TikTok Shop/LazMall — ghi kênh + bằng chứng vào `data/brands.json` trước khi dùng. Ảnh của shop thường, siêu thị, người bán lẻ vẫn **cấm**; không vẽ lại/tái tạo ảnh của họ. Ảnh hãng nhỏ (~300px) được phóng tối đa ~3 lần nếu xem lại không vỡ, ghi rõ trong `reason`.
+
 ### Ví dụ chủ đã chốt (13/10/2026, từ tram8.vn)
 
 | Sản phẩm | Kết luận | Vì sao |
@@ -58,7 +60,7 @@ mờ/vỡ/lộ viền xấu → đổi thành `REPLACE`.
 | D4 | Có đủ thông tin cốt lõi theo khuôn dưới (ít nhất: giới thiệu + quy cách)? | `REWRITE` |
 | — | Tất cả “có” | `KEEP` |
 
-**Nguồn mô tả theo thứ tự (v2):** (1) trang chính hãng; (2) ảnh nhãn mặt sau tìm được trên mạng, chỉ đọc chữ in trên nhãn, không lấy ảnh/văn bản của trang đó, không dùng domain trong `blocked-domains.json`; (3) không có hai nguồn trên → mô tả ngắn **chỉ từ dữ kiện chắc chắn** (tên SP, thương hiệu, vị, khối lượng, chữ in mặt trước bao bì), ghi rõ trong `reason`. Thiếu dữ kiện thì bỏ mục đó, tuyệt đối không suy diễn.
+**Nguồn mô tả theo thứ tự (v2):** (1) trang chính hãng; (2) ảnh nhãn mặt sau tìm được trên mạng, chỉ đọc chữ in trên nhãn, không lấy ảnh/văn bản của trang đó (v3: được đọc nhãn trên trang siêu thị/bán lẻ, kể cả domain trong `blocked-domains.json`, chỉ để lấy dữ kiện in trên bao bì); (3) không có hai nguồn trên → mô tả ngắn **chỉ từ dữ kiện chắc chắn** (tên SP, thương hiệu, vị, khối lượng, chữ in mặt trước bao bì), ghi rõ trong `reason`. Thiếu dữ kiện thì bỏ mục đó, tuyệt đối không suy diễn.
 
 Mô tả **đúng nhưng ngắn gọn** vẫn là `KEEP` nếu đạt D1–D4 — không viết lại chỉ vì “có thể hay hơn”.
 
@@ -101,3 +103,4 @@ Category có thể có khuôn riêng chi tiết hơn trong `categories/<id>-<slu
 |---|---|---|---|
 | v1 | 2026-10-13 | Bản đầu. Ví dụ chuẩn từ ảnh chụp tram8.vn; 1:1 là bắt buộc, crop được thì crop rồi kiểm lại. | Chủ |
 | v2 | 2026-10-13 | I2: luôn dùng **bao bì mới nhất** trên trang hãng khi cùng mã vạch/cùng vị. Mô tả: thêm nguồn nhãn mặt sau và mô tả ngắn từ dữ kiện chắc chắn khi không có nguồn. | Chủ (pilot Mì gói) |
+| v3 | 2026-10-13 | Ảnh: thêm kênh chính chủ của hãng (fanpage xác minh, gian hàng chính hãng trên sàn); ảnh hãng nhỏ được phóng ~3 lần nếu không vỡ. Mô tả: được đọc nhãn trên trang siêu thị, chỉ lấy dữ kiện in trên bao bì. | Chủ (pilot Mì gói) |

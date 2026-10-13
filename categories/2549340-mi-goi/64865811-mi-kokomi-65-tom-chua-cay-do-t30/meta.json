@@ -17,12 +17,15 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh; ảnh trang hãng quá nhỏ (SP ~270px, I6) — chụp mặt trước gói",
-    "source": null,
-    "rubricVersion": "v1"
+    "reason": "I1: chưa có ảnh; ảnh trang hãng chỉ ~300px, phóng 3,1 lần (Lanczos + làm nét nhẹ), đã xem lại: hơi mềm nhưng không vỡ",
+    "source": {
+      "url": "https://masanconsumer.com/wp-content/uploads/2024/12/Mi-Kokomi-Tom-chua-cay-65gr-min.png",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v3"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -46,6 +49,12 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "pilot review: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-13T16:30:00.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "rubric v3: upscaled official image, no staff photo needed"
     }
   ]
 }
