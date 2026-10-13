@@ -2,7 +2,7 @@
 
 > Sinh tự động bởi `node tools/status.mjs`. **Không sửa tay.** Nguồn sự thật là `meta.json` của từng SP.
 
-Tổng 2448 SP · đã xem 2147 (88%) · xong 0 · chờ chủ duyệt 1121 · cần chụp 819 · hỏi chủ 207
+Tổng 2448 SP · đã xem 2162 (88%) · xong 0 · chờ chủ duyệt 1135 · cần chụp 820 · hỏi chủ 207
 
 Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` = giữ nguyên + đã lên web.
 
@@ -126,7 +126,7 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 | 116 | Da cá / Da heo | 0.0tr | 7 | 0 | 0 | 0 | 3 | 0 | 4 | 0 | 0 |
 | 117 | Snack khoai mì / khoai lang | 0.0tr | 7 | 0 | 0 | 0 | 0 | 0 | 7 | 0 | 0 |
 | 118 | Sữa rửa mặt NỮ | 0.0tr | 7 | 0 | 0 | 0 | 1 | 1 | 5 | 0 | 0 |
-| 119 | Tẩy da chết - Face | 0.0tr | 7 | 7 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 119 | Tẩy da chết - Face | 0.0tr | 7 | 0 | 0 | 0 | 0 | 0 | 7 | 0 | 0 |
 | 120 | Whisky & Bourbon | 0.0tr | 7 | 7 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 121 | Kem hộp lớn / gia đình | 0.0tr | 7 | 7 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 122 | Thực phẩm chế biến sẵn | 0.0tr | 7 | 7 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -138,7 +138,7 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 | 128 | Son dưỡng môi | 0.0tr | 6 | 6 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 129 | Bánh quy & bánh đóng gói | 0.0tr | 6 | 0 | 0 | 0 | 3 | 1 | 2 | 0 | 0 |
 | 130 | Snack & bim bim theo Trend | 0.0tr | 5 | 0 | 0 | 0 | 5 | 0 | 0 | 0 | 0 |
-| 131 | Vodka | 0.0tr | 5 | 5 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 131 | Vodka | 0.0tr | 5 | 0 | 0 | 0 | 1 | 0 | 4 | 0 | 0 |
 | 132 | Nhập khẩu & premium | 0.0tr | 5 | 5 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 133 | Bông & khăn tẩy trang | 0.0tr | 5 | 5 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 134 | Sữa đặc | 0.0tr | 5 | 5 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -195,11 +195,11 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 | 185 | Socola trứng / đồ chơi | 0.0tr | 2 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 186 | Thịt khô đóng gói khác | 0.0tr | 2 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 187 | Makgeolli | 0.0tr | 2 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 188 | Chỉ nha khoa | 0.0tr | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 188 | Chỉ nha khoa | 0.0tr | 1 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 0 |
 | 189 | Dầu gội - Phục hồi | 0.0tr | 1 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 0 |
 | 190 | Sữa rửa mặt dịu nhẹ | 0.0tr | 1 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 0 |
 | 191 | Kem đánh răng - Trẻ em | 0.0tr | 1 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 0 |
-| 192 | Cạo/vệ sinh lưỡi | 0.0tr | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 192 | Cạo/vệ sinh lưỡi | 0.0tr | 1 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 0 |
 | 193 | Nước rửa tay | 0.0tr | 1 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 0 |
 | 194 | Kem đánh răng - Than/muối/thảo mộc | 0.0tr | 1 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 0 |
 | 195 | Adapter du lịch / ổ cắm đa năng | 0.0tr | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -208,7 +208,7 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 | 198 | Sake | 0.0tr | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 199 | Serum dưỡng tóc | 0.0tr | 1 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 0 |
 | 200 | Tẩy da chết - Body | 0.0tr | 1 | 0 | 0 | 0 | 0 | 1 | 0 | 0 | 0 |
-| 201 | Tẩy lông - Wax | 0.0tr | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 201 | Tẩy lông - Wax | 0.0tr | 1 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 0 |
 | 202 | Sâm Panh | 0.0tr | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 203 | Body mist | 0.0tr | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 204 | Miếng dán ngực | 0.0tr | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
