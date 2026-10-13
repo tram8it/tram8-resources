@@ -2,7 +2,7 @@
 
 > Sinh tự động bởi `node tools/status.mjs`. **Không sửa tay.** Nguồn sự thật là `meta.json` của từng SP.
 
-Tổng 2448 SP · đã xem 2137 (87%) · xong 0 · chờ chủ duyệt 1114 · cần chụp 818 · hỏi chủ 205
+Tổng 2448 SP · đã xem 2147 (88%) · xong 0 · chờ chủ duyệt 1121 · cần chụp 819 · hỏi chủ 207
 
 Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` = giữ nguyên + đã lên web.
 
@@ -165,8 +165,8 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 | 155 | Tampon | 0.0tr | 4 | 0 | 0 | 0 | 0 | 0 | 4 | 0 | 0 |
 | 156 | Ức gà & thịt ăn liền | 0.0tr | 4 | 0 | 0 | 0 | 3 | 0 | 1 | 0 | 0 |
 | 157 | Bánh mì ngọt / mềm | 0.0tr | 4 | 0 | 0 | 0 | 0 | 1 | 3 | 0 | 0 |
-| 158 | BVS ban ngày | 0.0tr | 3 | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 159 | BVS dạng quần | 0.0tr | 3 | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 158 | BVS ban ngày | 0.0tr | 3 | 0 | 0 | 0 | 0 | 1 | 2 | 0 | 0 |
+| 159 | BVS dạng quần | 0.0tr | 3 | 0 | 0 | 0 | 1 | 1 | 1 | 0 | 0 |
 | 160 | Tráng miệng | 0.0tr | 3 | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 161 | Dụng cụ nhà bếp | 0.0tr | 3 | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 162 | Cơm cháy | 0.0tr | 3 | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -196,12 +196,12 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 | 186 | Thịt khô đóng gói khác | 0.0tr | 2 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 187 | Makgeolli | 0.0tr | 2 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 188 | Chỉ nha khoa | 0.0tr | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 189 | Dầu gội - Phục hồi | 0.0tr | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 189 | Dầu gội - Phục hồi | 0.0tr | 1 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 0 |
 | 190 | Sữa rửa mặt dịu nhẹ | 0.0tr | 1 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 0 |
-| 191 | Kem đánh răng - Trẻ em | 0.0tr | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 191 | Kem đánh răng - Trẻ em | 0.0tr | 1 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 0 |
 | 192 | Cạo/vệ sinh lưỡi | 0.0tr | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 193 | Nước rửa tay | 0.0tr | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 194 | Kem đánh răng - Than/muối/thảo mộc | 0.0tr | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 193 | Nước rửa tay | 0.0tr | 1 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 0 |
+| 194 | Kem đánh răng - Than/muối/thảo mộc | 0.0tr | 1 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 0 |
 | 195 | Adapter du lịch / ổ cắm đa năng | 0.0tr | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 196 | Sạc dự phòng | 0.0tr | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 197 | Soju Truyền Thống | 0.0tr | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
