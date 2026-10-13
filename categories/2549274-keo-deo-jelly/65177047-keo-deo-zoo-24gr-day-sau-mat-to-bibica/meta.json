@@ -17,18 +17,24 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "READY",
   "image": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "REPLACE",
+    "reason": "I1: chưa có ảnh; dùng ảnh gói 24 g trên trang Bibica (https://www.bibica.com.vn/keo-deo-zoo-sau-mat-to-sau-tuyet)",
+    "source": {
+      "url": "https://bizweb.dktcdn.net/100/512/219/products/keo-1000x1000-44-c73290ac-c824-4916-b51f-17a8c3d32ba3.jpg",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; theo trang Bibica (Zoo Sâu Mắt To & Sâu Tuyết)",
+    "source": {
+      "url": "https://www.bibica.com.vn/keo-deo-zoo-sau-mat-to-sau-tuyet",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "question": null,
   "history": [
@@ -37,6 +43,12 @@
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:19:58.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "image REPLACE (bibica.com.vn), description WRITE_NEW"
     }
   ]
 }

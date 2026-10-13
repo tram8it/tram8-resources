@@ -2,19 +2,19 @@
 
 > Sinh tự động bởi `node tools/status.mjs`. **Không sửa tay.** Nguồn sự thật là `meta.json` của từng SP.
 
-Tổng 2448 SP · đã xem 163 (7%) · xong 0 · chờ chủ duyệt 111 · cần chụp 37 · hỏi chủ 15
+Tổng 2448 SP · đã xem 319 (13%) · xong 0 · chờ chủ duyệt 179 · cần chụp 99 · hỏi chủ 41
 
 Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` = giữ nguyên + đã lên web.
 
 | # | Category | DT 90 ngày | Tổng | Chưa xem | Giữ nguyên | Đang làm | Cần chụp | Hỏi chủ | Chờ duyệt | Đã duyệt | Đã lên web |
 |---|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| 1 | Snack khoai tây | 0.0tr | 75 | 75 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 1 | Snack khoai tây | 0.0tr | 75 | 0 | 0 | 0 | 16 | 20 | 39 | 0 | 0 |
 | 2 | Snack bắp & phồng | 0.0tr | 64 | 64 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 3 | Kem que | 0.0tr | 60 | 35 | 0 | 0 | 10 | 2 | 13 | 0 | 0 |
 | 4 | Socola thanh | 0.0tr | 53 | 0 | 0 | 0 | 11 | 5 | 37 | 0 | 0 |
 | 5 | Snack đậu phộng / hạt‑đậu | 0.0tr | 47 | 0 | 0 | 0 | 16 | 8 | 23 | 0 | 0 |
-| 6 | Kẹo dẻo / jelly | 0.0tr | 44 | 44 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 7 | Viên ngậm thảo mộc / bạc hà | 0.0tr | 44 | 37 | 0 | 0 | 0 | 0 | 7 | 0 | 0 |
+| 6 | Kẹo dẻo / jelly | 0.0tr | 44 | 0 | 0 | 0 | 26 | 4 | 14 | 0 | 0 |
+| 7 | Viên ngậm thảo mộc / bạc hà | 0.0tr | 44 | 0 | 0 | 0 | 20 | 2 | 22 | 0 | 0 |
 | 8 | Snack que / que cay | 0.0tr | 43 | 43 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 9 | Mì ly / tô / cốc | 0.0tr | 41 | 41 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 10 | Kẹo cao su / singum | 0.0tr | 41 | 41 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |

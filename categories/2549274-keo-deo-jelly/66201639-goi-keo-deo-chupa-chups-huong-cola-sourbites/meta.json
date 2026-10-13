@@ -17,26 +17,32 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "ASK_OWNER",
   "image": {
-    "decision": null,
-    "reason": null,
+    "decision": "ASK_OWNER",
+    "reason": "I2: tên ghi 'Hương Cola & sourbites' nhưng ảnh là Chupa Chups Bites Sour hương trái cây 24 g (không phải cola)",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
+    "decision": "ASK_OWNER",
+    "reason": "Chờ chủ xác nhận vị trước khi viết",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
-  "question": null,
+  "question": "Mã 8935001714361 tên 'Gói kẹo dẻo Chupa Chups Hương Cola & sourbites' nhưng ảnh hiện tại là gói Chupa Chups Bites Sour hương trái cây 24 g. Hàng thật ở cửa hàng là vị nào (cola hay trái cây) và bao nhiêu gam?",
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:19:58.000Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "ask owner: cola vs fruit Bites"
     }
   ]
 }
