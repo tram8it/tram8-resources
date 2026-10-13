@@ -17,18 +17,18 @@
     "description": "Bánh Su Kem Tươi với lớp vỏ bánh mềm thơm, được nướng vừa tới để giữ độ nhẹ và không bị khô cứng.<br>Phần nhân kem tươi mát lạnh, béo mịn, tan nhẹ trên đầu lưỡi cùng vị ngọt thanh, dễ ăn và không gây ngấy.<br>Thương hiệu: À Table Food | Xuất xứ: Việt Nam.<br><p data-assistant-stream-block=\"\" data-assistant-stream-block-index=\"1\" dir=\"ltr\" style=\"margin-top:0.25rem;margin-bottom:0.25rem;text-wrap-style:pretty;box-sizing:border-box;overflow-wrap:break-word;caret-color:oklch(0.159066 0 none);color:oklch(0.159066 0 none);font-family:-apple-system-body, ui-sans-serif, -apple-system, system-ui, 'Segoe UI', Helvetica, 'Apple Color Emoji', Arial, sans-serif, 'Segoe UI Emoji', 'Segoe UI Symbol';\"></p>",
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "READY",
   "image": {
-    "decision": null,
-    "reason": null,
+    "decision": "CROP",
+    "reason": "I9: packshot hộp nền trắng, đúng SP nhưng 450×600; crop 1:1 (phóng ~2,6 lần, hơi mềm nhưng đạt theo v4), đã xem lại (như ví dụ chủ chốt ATB Bánh Su)",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
+    "decision": "REWRITE",
+    "reason": "D4: mô tả cũ thiếu quy cách (khối lượng) và tả cảm quan chưa kiểm chứng; không có trang hãng → viết lại ngắn từ chữ in trên nhãn hộp và khối lượng trong tên SP",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
   "question": null,
   "history": [
@@ -37,6 +37,12 @@
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:22:34.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "b30: image CROP, description REWRITE"
     }
   ]
 }
