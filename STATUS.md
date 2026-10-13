@@ -2,7 +2,7 @@
 
 > Sinh tự động bởi `node tools/status.mjs`. **Không sửa tay.** Nguồn sự thật là `meta.json` của từng SP.
 
-Tổng 2448 SP · đã xem 893 (36%) · xong 0 · chờ chủ duyệt 476 · cần chụp 307 · hỏi chủ 110
+Tổng 2448 SP · đã xem 911 (37%) · xong 0 · chờ chủ duyệt 491 · cần chụp 310 · hỏi chủ 110
 
 Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` = giữ nguyên + đã lên web.
 
@@ -49,7 +49,7 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 | 39 | Soda / nước trái cây có gas | 0.0tr | 20 | 20 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 40 | Snack rong biển | 0.0tr | 20 | 20 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 41 | Snack phồng tôm/mực/cua | 0.0tr | 19 | 19 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 42 | Nước ngọt có gas | 0.0tr | 18 | 18 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 42 | Nước ngọt có gas | 0.0tr | 18 | 0 | 0 | 0 | 3 | 0 | 15 | 0 | 0 |
 | 43 | Bánh que chấm socola | 0.0tr | 18 | 18 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 44 | Kẹo mềm / caramen | 0.0tr | 17 | 17 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 45 | Sữa tiệt trùng có vị | 0.0tr | 17 | 17 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |

@@ -17,18 +17,18 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "NEEDS_PHOTO",
   "image": {
-    "decision": null,
-    "reason": null,
+    "decision": "REPLACE",
+    "reason": "I3, I4, I5: ảnh chụp điện thoại cận lon, nền mờ, lon bị cắt; trang hãng suntorypepsico.vn không có Pepsi hương kem dâu → cần chụp",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; mô tả ngắn từ dữ kiện chắc chắn (tên, chữ in trên lon: \"Không đường\", \"Hương vị kem dâu\")",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
   "question": null,
   "history": [
@@ -37,6 +37,12 @@
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:41:16.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "b17: image needs photo, description WRITE_NEW (pack facts)"
     }
   ]
 }
