@@ -28,4 +28,4 @@ Hướng dẫn sử dụng: <theo hãng: lượng nước, số phút, nấu hay
 | Vifon, Hoàng Gia | vifon.com.vn | chỉ có giới thiệu + cách dùng; nhiều ảnh chỉ 300×300; dòng “Mì Thịt Thật” chưa có |
 | Omachi, Kokomi (Masan) | masanconsumer.com | chỉ có giới thiệu + khối lượng, trang tiếng Anh; bao bì mới (12/2025) nằm ở các trang `/en/uncategorized-en/…` và `/en/omachi-potato-noodles-…`; phải mở bằng trình duyệt thật (Cloudflare) |
 | Nissin Raoh | nissinfoods.vn | đủ thành phần, có mã vạch để đối chiếu |
-| Koreno (Paldo Vina) | — | không có trang chính thức tại VN: ảnh do nhân viên chụp, mô tả chờ chủ |
+| Koreno (Paldo Vina) | — | không có trang chính thức tại VN: ảnh do nhân viên chụp, mô tả ngắn từ chữ in trên bao bì |
