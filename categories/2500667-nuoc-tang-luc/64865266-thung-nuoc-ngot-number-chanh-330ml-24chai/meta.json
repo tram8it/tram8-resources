@@ -17,18 +17,24 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "READY",
   "image": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "REPLACE",
+    "reason": "I3, I4: ảnh chụp điện thoại cận nhãn, nền không trắng; thay bằng ảnh chai PET 330ml trên trang Tân Hiệp Phát (https://www.thp.com.vn/number-1-chanh-va-number-1-dau/)",
+    "source": {
+      "url": "https://d1v5l30g8wuyvb.cloudfront.net/thp.com.vn/uploads/2023/11/06151041/ED-Chanh-Pet.png",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết từ trang hãng",
+    "source": {
+      "url": "https://www.thp.com.vn/number-1-chanh-va-number-1-dau/",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "question": null,
   "history": [
@@ -37,6 +43,12 @@
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:31:42.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "image REPLACE (THP official), description WRITE_NEW"
     }
   ]
 }

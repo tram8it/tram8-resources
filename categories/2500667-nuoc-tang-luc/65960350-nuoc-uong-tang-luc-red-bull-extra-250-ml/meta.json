@@ -17,18 +17,21 @@
     "description": "<p>Nước tăng lực Redbull Extra ít đường</p>",
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "READY",
   "image": {
-    "decision": null,
-    "reason": null,
+    "decision": "CROP",
+    "reason": "I9: packshot nền trắng nhưng không 1:1, SP nhỏ; crop phóng 3,4 lần, xem lại vẫn đạt (v4). Khớp lon Red Bull Extra trên trang TCP",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "REWRITE",
+    "reason": "D4: chỉ một câu, thiếu quy cách; viết lại từ chữ in trên lon và trang nhà sản xuất",
+    "source": {
+      "url": "https://www.tcp.com/en/products/energy-drink/red-bull",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "question": null,
   "history": [
@@ -37,6 +40,12 @@
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:31:42.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "image CROP, description REWRITE"
     }
   ]
 }

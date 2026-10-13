@@ -17,18 +17,21 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "READY",
   "image": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "REPLACE",
+    "reason": "I3, I4: ảnh tay cầm lon, nền không trắng; thay bằng ảnh lon Red Bull Energy Drink 250ml trên redbull.com (https://www.redbull.com/int-en/energydrink/red-bull-energy-drink)",
+    "source": {
+      "url": "https://www.redbull.com/energydrink/v1/resources/storyblok/images/f/287059/528x1348/53e078bcb9/gb_ed_250ml_energy-drink_country_rgb__cold_closed_front_com_full.png",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết ngắn từ tên SP và chữ in trên lon",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
   "question": null,
   "history": [
@@ -37,6 +40,12 @@
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:31:42.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "image REPLACE (redbull.com), description WRITE_NEW"
     }
   ]
 }
