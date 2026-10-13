@@ -17,18 +17,24 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "READY",
   "image": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "REPLACE",
+    "reason": "I3/I4: ảnh chụp điện thoại tay cầm trên thùng carton; thay bằng ảnh chai Number 1 Soya Canxi 268 ml trên trang Tân Hiệp Phát",
+    "source": {
+      "url": "https://d1v5l30g8wuyvb.cloudfront.net/thp.com.vn/uploads/2023/11/06145942/Soya-can-xi-PET.png",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết theo trang hãng + chữ in trên chai",
+    "source": {
+      "url": "https://www.thp.com.vn/number-1-soya-2/",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "question": null,
   "history": [
@@ -37,6 +43,12 @@
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:09:58.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "b19: image REPLACE, description WRITE_NEW"
     }
   ]
 }

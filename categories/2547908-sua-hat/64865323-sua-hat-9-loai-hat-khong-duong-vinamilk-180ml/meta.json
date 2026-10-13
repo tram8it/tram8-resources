@@ -17,18 +17,24 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "READY",
   "image": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "REPLACE",
+    "reason": "I3/I8: ảnh chụp kệ, nhiều hộp, bị khung cắt; thay bằng ảnh hộp 180 ml trên trang Vinamilk (mã vạch 8934673701495 khớp mặt sau hộp)",
+    "source": {
+      "url": "https://d8um25gjecm9v.cloudfront.net/cms/STV_9loaihat_KD_180_01_ccdba92366_7dcd9b3086.png",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết theo trang hãng",
+    "source": {
+      "url": "https://www.vinamilk.com.vn/products/sua-hat-vinamilk-9-loai-hat-khong-duong",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "question": null,
   "history": [
@@ -37,6 +43,12 @@
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:09:58.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "b19: image REPLACE, description WRITE_NEW"
     }
   ]
 }
