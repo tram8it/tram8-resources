@@ -2,7 +2,7 @@
 
 > Sinh tự động bởi `node tools/status.mjs`. **Không sửa tay.** Nguồn sự thật là `meta.json` của từng SP.
 
-Tổng 2448 SP · đã xem 31 (1%) · xong 0 · chờ chủ duyệt 30 · cần chụp 0 · hỏi chủ 1
+Tổng 2448 SP · đã xem 31 (1%) · xong 0 · chờ chủ duyệt 31 · cần chụp 0 · hỏi chủ 0
 
 Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` = giữ nguyên + đã lên web.
 
@@ -22,7 +22,7 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 | 12 | Bánh tráng trộn | 0.0tr | 37 | 37 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 13 | Nước trái cây / ép | 0.0tr | 34 | 34 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 14 | Bánh xốp kem (wafer) | 0.0tr | 31 | 31 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 15 | Mì gói | 0.0tr | 31 | 0 | 0 | 0 | 0 | 1 | 30 | 0 | 0 |
+| 15 | Mì gói | 0.0tr | 31 | 0 | 0 | 0 | 0 | 0 | 31 | 0 | 0 |
 | 16 | Sữa chua uống | 0.0tr | 31 | 31 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 17 | Lager Phổ Thông | 0.0tr | 29 | 29 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 18 | Kem ly / cốc / hộp nhỏ | 0.0tr | 28 | 28 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
