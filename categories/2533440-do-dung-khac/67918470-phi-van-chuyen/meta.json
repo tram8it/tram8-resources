@@ -17,26 +17,32 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "ASK_OWNER",
   "image": {
-    "decision": null,
-    "reason": null,
+    "decision": "ASK_OWNER",
+    "reason": "I2: ảnh là hình minh họa xe tải \"LOGISTICS\" 236×212, không phải sản phẩm; đây là phí dịch vụ",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
+    "decision": "ASK_OWNER",
+    "reason": "Chờ chủ quyết có hiển thị mục phí trên web không",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
-  "question": null,
+  "question": "\"Phí vận chuyển\" là phí dịch vụ, không phải hàng hoá (ảnh hiện là hình minh hoạ xe tải). Có nên ẩn mục này khỏi web không? Nếu vẫn hiển thị thì anh muốn dùng ảnh và mô tả thế nào?",
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:23:02.000Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "b30: image ASK_OWNER, description ASK_OWNER"
     }
   ]
 }

@@ -2,7 +2,7 @@
 
 > Sinh tự động bởi `node tools/status.mjs`. **Không sửa tay.** Nguồn sự thật là `meta.json` của từng SP.
 
-Tổng 2448 SP · đã xem 2172 (89%) · xong 0 · chờ chủ duyệt 1140 · cần chụp 825 · hỏi chủ 207
+Tổng 2448 SP · đã xem 2174 (89%) · xong 0 · chờ chủ duyệt 1140 · cần chụp 827 · hỏi chủ 207
 
 Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` = giữ nguyên + đã lên web.
 
@@ -189,7 +189,7 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 | 179 | Khẩu trang y tế | 0.0tr | 2 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 180 | Pate | 0.0tr | 2 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 181 | Bổ sung khoáng chất | 0.0tr | 2 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 182 | Đồ uống nội địa | 0.0tr | 2 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 182 | Đồ uống nội địa | 0.0tr | 2 | 0 | 0 | 0 | 2 | 0 | 0 | 0 | 0 |
 | 183 | Gin & Tequila | 0.0tr | 2 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 184 | Sáp khử mùi | 0.0tr | 2 | 0 | 0 | 0 | 1 | 0 | 1 | 0 | 0 |
 | 185 | Socola trứng / đồ chơi | 0.0tr | 2 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
