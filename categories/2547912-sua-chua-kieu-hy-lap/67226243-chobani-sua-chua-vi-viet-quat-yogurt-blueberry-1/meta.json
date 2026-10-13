@@ -17,18 +17,24 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "READY",
   "image": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "REPLACE",
+    "reason": "I3/I4/I5: ảnh chụp điện thoại, nền lộn xộn; v2: thay bằng ảnh bao bì 2025 trên trang Chobani Úc (vị việt quất, 160 g) — trang SP https://www.chobani.com.au/our-products/chobani-greek/pots/blueberry/",
+    "source": {
+      "url": "https://www.chobani.com.au/wp-content/uploads/060898r01_CHOB_Core-160g_2025_Blueberry_800x800.png",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết từ trang Chobani Úc (mã vạch 931 = hàng Úc)",
+    "source": {
+      "url": "https://www.chobani.com.au/our-products/chobani-greek/pots/blueberry/",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "question": null,
   "history": [
@@ -37,6 +43,12 @@
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:30:00.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "b20 review: image REPLACE, description WRITE_NEW"
     }
   ]
 }
