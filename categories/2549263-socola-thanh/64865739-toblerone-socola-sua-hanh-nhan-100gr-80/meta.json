@@ -17,18 +17,24 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "READY",
   "image": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "REPLACE",
+    "reason": "I3/I4: ảnh chụp nhiều hộp trên kệ; thay ảnh hãng bao bì mới nhất (v2), trang https://www.toblerone.com/ch-de/produkte/milch",
+    "source": {
+      "url": "https://images.ctfassets.net/fqji69vdivd1/66s9NrrsA0khuFEvPhr91G/8a6ab885152c753548dc7a85c1de86a7/8961_Elevating_Toblerone_CentralHeroPack_Core_Milk.png",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; thành phần theo trang hãng toblerone.com (Thụy Sĩ)",
+    "source": {
+      "url": "https://www.toblerone.com/ch-de/produkte/milch",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "question": null,
   "history": [
@@ -37,6 +43,12 @@
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:14:49.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "image REPLACE (toblerone.com), description WRITE_NEW"
     }
   ]
 }

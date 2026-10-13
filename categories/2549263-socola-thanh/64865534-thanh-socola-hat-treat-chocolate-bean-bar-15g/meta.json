@@ -17,26 +17,32 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "ASK_OWNER",
   "image": {
-    "decision": null,
-    "reason": null,
+    "decision": "ASK_OWNER",
+    "reason": "I2: ảnh là Alёnka nhân sữa–ngũ cốc (hãng bán loại 45 g), tên SP là 'Treat Chocolate Bean Bar 15G'",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
+    "decision": "ASK_OWNER",
+    "reason": "chưa rõ SP thật",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
-  "question": null,
+  "question": "SP 'Thanh Socola Hạt - Treat Chocolate Bean Bar 15G' (mã vạch 4600300078127): ảnh hiện tại là thanh Alёnka nhân sữa–ngũ cốc (hãng chỉ có cỡ 45 g). Hàng thật trên kệ là loại nào, bao nhiêu gram?",
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:14:49.000Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "image/name mismatch, asked owner"
     }
   ]
 }

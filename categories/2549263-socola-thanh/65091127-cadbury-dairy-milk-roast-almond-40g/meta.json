@@ -17,18 +17,18 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "NEEDS_PHOTO",
   "image": {
-    "decision": null,
-    "reason": null,
+    "decision": "REPLACE",
+    "reason": "I2/I6: ảnh nhỏ (262px), bao bì đời cũ, gói in 75g không phải 40g; không tìm được trang hãng Cadbury Malaysia",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết ngắn từ tên SP (thanh 40 g)",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
   "question": null,
   "history": [
@@ -37,6 +37,12 @@
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:14:49.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "image needs photo; description WRITE_NEW"
     }
   ]
 }

@@ -17,26 +17,32 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "ASK_OWNER",
   "image": {
-    "decision": null,
-    "reason": null,
+    "decision": "ASK_OWNER",
+    "reason": "ảnh 165 g giống hệt SP 65141750",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
+    "decision": "ASK_OWNER",
+    "reason": "chưa rõ khối lượng",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
-  "question": null,
+  "question": "Hai SP 'Cadbury Dairy Milk chocolate' (64865660, mã vạch 7622210410511, đơn vị gói) và 'Chocolate Cadbury Dairy Milk' (65141750, mã vạch 7622210410474, đơn vị cái) đang dùng cùng một ảnh thanh 165 g. Mỗi mã là thanh bao nhiêu gram, hay hai mã là cùng một SP?",
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:14:49.000Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "duplicate image across two barcodes, asked owner"
     }
   ]
 }

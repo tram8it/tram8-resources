@@ -17,18 +17,24 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "READY",
   "image": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "REPLACE",
+    "reason": "I3/I4: ảnh chụp trên thùng hàng; thay ảnh hãng, trang https://www.toblerone.com/ch-de/produkte/dunkel",
+    "source": {
+      "url": "https://images.ctfassets.net/fqji69vdivd1/6KGEXo2B0S1LenSXofvZiE/1dfe80d82c99ff7c309ea7d02feeb002/Toblerone_Dunkel.png",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; thành phần theo trang hãng toblerone.com (Thụy Sĩ)",
+    "source": {
+      "url": "https://www.toblerone.com/ch-de/produkte/dunkel",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "question": null,
   "history": [
@@ -37,6 +43,12 @@
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:14:49.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "image REPLACE (toblerone.com), description WRITE_NEW"
     }
   ]
 }

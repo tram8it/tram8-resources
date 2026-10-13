@@ -17,18 +17,18 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "READY",
   "image": {
-    "decision": null,
-    "reason": null,
+    "decision": "CROP",
+    "reason": "I9: packshot nền trắng, không 1:1; crop, xem lại đạt",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết ngắn từ chữ in trên bao bì (ảnh hiện tại) + tên SP, không có trang hãng",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
   "question": null,
   "history": [
@@ -37,6 +37,12 @@
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:14:49.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "image CROP, description WRITE_NEW"
     }
   ]
 }
