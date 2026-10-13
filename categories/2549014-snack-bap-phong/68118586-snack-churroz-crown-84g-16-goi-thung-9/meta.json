@@ -17,18 +17,18 @@
     "description": "<span style=\"\">Bánh snack quế vị quế mật ong Crown Churros, bánh dạng ống giòn rụm hòa quyện cùng hương vị thơm ngọt từ mật ong và bột quế đặc trưng. Món ăn vặt thơm ngon, tiện lợi, thích hợp nhâm nhi trong các buổi xem phim, dã ngoại hoặc tụ họp bạn bè.</span>",
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "NEEDS_PHOTO",
   "image": {
-    "decision": null,
-    "reason": null,
+    "decision": "REPLACE",
+    "reason": "I7: có logo cửa hàng H MART trên ảnh; I5: mép trên bị cắt; trang crown.co.kr chặn truy cập → cần nhân viên chụp",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
+    "decision": "REWRITE",
+    "reason": "D4: thiếu quy cách; viết lại ngắn từ tên hàng (84 g) và mô tả cũ (vị quế mật ong)",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
   "question": null,
   "history": [
@@ -37,6 +37,12 @@
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:00:00.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "image needs staff photo, description REWRITE"
     }
   ]
 }

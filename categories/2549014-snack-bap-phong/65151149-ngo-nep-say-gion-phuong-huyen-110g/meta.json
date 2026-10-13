@@ -17,26 +17,32 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "ASK_OWNER",
   "image": {
-    "decision": null,
-    "reason": null,
+    "decision": "ASK_OWNER",
+    "reason": "I2: tên ghi Phương Huyền 110g nhưng ảnh là túi hiệu TTP \"Ngô nếp sấy giòn – Đặc sản Đà Lạt\"",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
+    "decision": "ASK_OWNER",
+    "reason": "D1: chưa có mô tả; chờ chủ xác nhận hãng và khối lượng",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
-  "question": null,
+  "question": "SP 'Ngô nếp sấy giòn Phương Huyền 110g' (mã 8938522697137): ảnh hiện tại là túi hiệu TTP 'Ngô nếp sấy giòn – Hương Bông Lúa Vàng, Đặc sản Đà Lạt'. Hàng đang bán là của hãng nào (Phương Huyền hay TTP), túi bao nhiêu gam?",
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:00:00.000Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "asked owner: brand mismatch (Phương Huyền vs TTP)"
     }
   ]
 }

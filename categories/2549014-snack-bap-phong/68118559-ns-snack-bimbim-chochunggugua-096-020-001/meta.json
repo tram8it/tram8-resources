@@ -17,18 +17,18 @@
     "description": "<div>Bánh snack gạo lứt vị mạch nha / 조청유과 (Nongshim Jochung Yuwa)</div><div>Bánh gạo giòn xốp thơm ngon được phủ lớp sốt mạch nha (jochung) ngọt thanh, kết hợp cùng hương vị gạo lứt hấp dẫn.</div><div>Món ăn vặt truyền thống Hàn Quốc giòn rụm, ngọt dịu, thích hợp nhâm nhi khi xem phim, giải trí hoặc làm quà vặt tiện lợi cho mọi lứa tuổi.</div>",
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "READY",
   "image": {
-    "decision": null,
-    "reason": null,
+    "decision": "CROP",
+    "reason": "I9: packshot nền trắng, đúng gói 조청유과 Nongshim, chỉ chưa 1:1; đã crop và xem lại",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
+    "decision": "REWRITE",
+    "reason": "D4: thiếu quy cách; viết lại ngắn từ tên hàng (96 g) và chữ in trên bao bì; trang nongshim.com chặn truy cập",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
   "question": null,
   "history": [
@@ -37,6 +37,12 @@
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:00:00.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "image CROP, description REWRITE"
     }
   ]
 }

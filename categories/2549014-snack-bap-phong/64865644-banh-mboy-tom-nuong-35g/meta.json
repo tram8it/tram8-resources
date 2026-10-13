@@ -17,18 +17,24 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "READY",
   "image": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "REPLACE",
+    "reason": "I1: chưa có ảnh; ảnh hộp từ trang hãng Orion (https://orion.vn/san-pham/san-pham/banh-ca-marine-boy-vi-tom-nuong-moi-do/)",
+    "source": {
+      "url": "https://orion.vn/media/s0uc3o5j/orion-post-new-37.png",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết từ trang hãng Orion",
+    "source": {
+      "url": "https://orion.vn/san-pham/san-pham/banh-ca-marine-boy-vi-tom-nuong-moi-do/",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "question": null,
   "history": [
@@ -37,6 +43,12 @@
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:00:00.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "image REPLACE (official Orion), description WRITE_NEW"
     }
   ]
 }

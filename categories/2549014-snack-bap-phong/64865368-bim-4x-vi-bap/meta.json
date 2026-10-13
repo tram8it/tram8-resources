@@ -17,18 +17,24 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "READY",
   "image": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "REPLACE",
+    "reason": "I3/I4/I5: ảnh chụp điện thoại trên kệ, bị cắt khung; thay bằng ảnh bao bì hiện hành trên trang hãng Oishi (4X Snack Bắp 4 Lớp vị Bắp Nướng Bơ; ảnh cũ cho thấy đúng vị bắp nướng bơ, https://oishi.com.vn/category/Snack); ảnh hãng là ảnh chung của vị, không in khối lượng",
+    "source": {
+      "url": "https://oishi.cdn.vccloud.vn/storage/products/November2025/PvmTlQNpoV43HiMadZSk.png",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết từ trang hãng Oishi (tên vị, mô tả dòng) và chữ in mặt trước bao bì; khối lượng theo tên hàng (tên hàng không ghi khối lượng nên bỏ); vị bắp nướng bơ đọc từ ảnh cũ",
+    "source": {
+      "url": "https://oishi.com.vn/category/Snack",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "question": null,
   "history": [
@@ -37,6 +43,12 @@
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:00:00.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "image REPLACE (official Oishi), description WRITE_NEW"
     }
   ]
 }

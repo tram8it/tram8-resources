@@ -17,26 +17,32 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "ASK_OWNER",
   "image": {
-    "decision": null,
-    "reason": null,
+    "decision": "ASK_OWNER",
+    "reason": "I3/I4/I5: ảnh tay cầm, chụp điện thoại; ảnh hãng 145g là bao bì bản Indonesia, khác bản chữ Hàn đang bán",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
+    "decision": "ASK_OWNER",
+    "reason": "D1: chưa có mô tả; chờ chủ chốt bản bao bì",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
-  "question": null,
+  "question": "SP 'Bánh Tortilla chips vị Bắp nướng hiệu Tos Tos 145g' (mã 8995077606472): ảnh hiện tại là gói Tos Tos bản in tiếng Hàn (có nhãn vàng chữ Hàn), chụp điện thoại. Trang hãng Dua Kelinci có ảnh gói Tos Tos Roasted Corn 145g bản Indonesia (không có chữ Hàn). Có dùng ảnh hãng đó thay ảnh chụp không, hay để nhân viên chụp gói đang bán?",
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:00:00.000Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "asked owner: Korean-print pack vs official Indonesian pack image"
     }
   ]
 }
