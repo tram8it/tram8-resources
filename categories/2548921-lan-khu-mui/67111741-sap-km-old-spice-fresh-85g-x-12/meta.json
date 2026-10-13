@@ -17,18 +17,24 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "READY",
   "image": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "REPLACE",
+    "reason": "I3, I4, I8: ảnh chụp ngoài trời 2 SP (Pure Sport + Fresh); ảnh hãng cùng mã UPC 012044038840 trên oldspice.com",
+    "source": {
+      "url": "https://cdn11.bigcommerce.com/s-ut7gqeu5eo/images/stencil/original/products/366/2314/00012044038840_C1N1_NA__52788.1746454256.jpg",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết từ trang Old Spice chính hãng và nhãn mặt sau trên ảnh hãng",
+    "source": {
+      "url": "https://oldspice.com/shop-at-retailers/old-spice-high-endurance-deodorant-for-men-aluminum-free-fresh-scent-3-0-oz/",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "question": null,
   "history": [
@@ -37,6 +43,12 @@
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:35:28.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "image REPLACE, description WRITE_NEW"
     }
   ]
 }

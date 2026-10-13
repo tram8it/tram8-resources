@@ -17,18 +17,24 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "READY",
   "image": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "REPLACE",
+    "reason": "I3: ảnh chỉ là bảng dinh dưỡng mặt sau; thay bằng ảnh gói Cosy quế kem vị dâu trên trang Mondelez Kinh Đô (https://www.snack-central.com/vn-vi/products/cosy-strawberry-wafer-roll-126g-44183/). v2: trang hãng ghi bao bì hiện hành 126 g (tên KiotViet ghi 132 g)",
+    "source": {
+      "url": "https://images-tastehub.mdlzapps.cloud/images/600d5203-5ba2-42cd-b082-95394059de0d.png",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết từ trang hãng, khối lượng theo bao bì hiện hành 126 g",
+    "source": {
+      "url": "https://www.snack-central.com/vn-vi/products/cosy-strawberry-wafer-roll-126g-44183/",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "question": null,
   "history": [
@@ -37,6 +43,12 @@
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:36:40.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "image REPLACE (Mondelez official, 126g pack), description WRITE_NEW"
     }
   ]
 }

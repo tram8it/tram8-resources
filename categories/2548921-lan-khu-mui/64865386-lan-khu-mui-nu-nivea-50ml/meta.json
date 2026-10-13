@@ -17,18 +17,24 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "READY",
   "image": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "REPLACE",
+    "reason": "I3, I4: ảnh chụp 2 lọ trong cửa hàng; ảnh hãng cùng mã vạch 4005808837359 (Pearl & Beauty) trên nivea.com.my",
+    "source": {
+      "url": "https://img.nivea.com/-/media/miscellaneous/media-center-items/f/a/4/5cc3cba21d51406cb658b6a10d7d44e7-online_1180_png.png",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết từ trang NIVEA chính hãng (cùng mã vạch) và chữ in trên bao bì",
+    "source": {
+      "url": "https://www.nivea.com.my/en-my/products/pearl-and-beauty-deodorant-roll-on-40058088373590058.html",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "question": null,
   "history": [
@@ -37,6 +43,12 @@
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:35:28.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "image REPLACE, description WRITE_NEW"
     }
   ]
 }
