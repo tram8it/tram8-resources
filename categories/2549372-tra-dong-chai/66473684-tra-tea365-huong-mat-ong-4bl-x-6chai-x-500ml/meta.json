@@ -17,18 +17,24 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "READY",
   "image": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "REPLACE",
+    "reason": "v2: cùng thương hiệu + cùng vị, trang Masan có bao bì mới (01/2026) → dùng ảnh hãng (trang SP: https://masanconsumer.com/nganh-hang/do-uong/nuoc-giai-khat-tra-dong-chai/bupnon-tea-365-tra-huong-mat-ong/)",
+    "source": {
+      "url": "https://masanconsumer.com/wp-content/uploads/2026/01/Mat-Ong-rs.png",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; theo trang Masan",
+    "source": {
+      "url": "https://masanconsumer.com/nganh-hang/do-uong/nuoc-giai-khat-tra-dong-chai/bupnon-tea-365-tra-huong-mat-ong/",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "question": null,
   "history": [
@@ -37,6 +43,12 @@
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:31:48.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "review b08: image REPLACE, description WRITE_NEW"
     }
   ]
 }

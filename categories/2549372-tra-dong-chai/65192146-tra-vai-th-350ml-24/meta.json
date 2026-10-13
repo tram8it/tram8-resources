@@ -17,18 +17,24 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "READY",
   "image": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "REPLACE",
+    "reason": "I3/I4: ảnh chụp thùng carton, không phải packshot chai; thay bằng ảnh hãng (trang SP: https://thmilk.vn/products/tra-vai-tu-nhien-th-true-tea/)",
+    "source": {
+      "url": "https://thmilk.vn/wp-content/uploads/2024/07/V%E1%BB%89a.png",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; theo trang TH",
+    "source": {
+      "url": "https://thmilk.vn/products/tra-vai-tu-nhien-th-true-tea/",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "question": null,
   "history": [
@@ -37,6 +43,12 @@
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:31:48.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "review b08: image REPLACE, description WRITE_NEW"
     }
   ]
 }

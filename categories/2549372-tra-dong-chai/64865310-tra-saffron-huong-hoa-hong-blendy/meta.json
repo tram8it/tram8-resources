@@ -17,18 +17,24 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "READY",
   "image": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "REPLACE",
+    "reason": "I1: chưa có ảnh; cắt hộp Saffron từ ảnh hãng (ảnh gồm 2 hộp, nền trắng; trang: https://www.ajinomoto.com.vn/vi/san-pham/thuc-pham-bo-sung-blendy)",
+    "source": {
+      "url": "https://www.ajinomoto.com.vn/files/uploads/2025/05/07/1746596992_Thi%E1%BA%BFt%20k%E1%BA%BF%20ch%C6%B0a%20c%C3%B3%20t%C3%AAn%20%283%29.png",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; theo trang Ajinomoto Việt Nam",
+    "source": {
+      "url": "https://www.ajinomoto.com.vn/vi/san-pham/thuc-pham-bo-sung-blendy",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "question": null,
   "history": [
@@ -37,6 +43,12 @@
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:31:48.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "review b08: image REPLACE, description WRITE_NEW"
     }
   ]
 }
