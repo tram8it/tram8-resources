@@ -2,7 +2,7 @@
 
 > Sinh tự động bởi `node tools/status.mjs`. **Không sửa tay.** Nguồn sự thật là `meta.json` của từng SP.
 
-Tổng 2448 SP · đã xem 1726 (71%) · xong 0 · chờ chủ duyệt 893 · cần chụp 659 · hỏi chủ 174
+Tổng 2448 SP · đã xem 1780 (73%) · xong 0 · chờ chủ duyệt 921 · cần chụp 681 · hỏi chủ 178
 
 Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` = giữ nguyên + đã lên web.
 
@@ -59,7 +59,7 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 | 49 | Sữa tắm | 0.0tr | 16 | 0 | 0 | 0 | 4 | 2 | 10 | 0 | 0 |
 | 50 | Thạch – Rau câu | 0.0tr | 16 | 0 | 0 | 0 | 12 | 1 | 3 | 0 | 0 |
 | 51 | Xịt khử mùi | 0.0tr | 16 | 0 | 0 | 0 | 13 | 0 | 3 | 0 | 0 |
-| 52 | Sữa hạt | 0.0tr | 16 | 16 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 52 | Sữa hạt | 0.0tr | 16 | 0 | 0 | 0 | 8 | 1 | 7 | 0 | 0 |
 | 53 | Que cay / tăm cay (latiao) | 0.0tr | 15 | 0 | 0 | 0 | 12 | 1 | 2 | 0 | 0 |
 | 54 | Bánh ngọt | 0.0tr | 15 | 0 | 0 | 0 | 13 | 1 | 1 | 0 | 0 |
 | 55 | Chân gà | 0.0tr | 15 | 0 | 0 | 0 | 9 | 1 | 5 | 0 | 0 |
@@ -71,17 +71,17 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 | 61 | Board games/ Card games | 0.0tr | 14 | 0 | 0 | 0 | 4 | 0 | 10 | 0 | 0 |
 | 62 | Mì cay (Ly/Tô/Cốc) | 0.0tr | 14 | 0 | 0 | 0 | 1 | 1 | 12 | 0 | 0 |
 | 63 | Bánh gạo | 0.0tr | 13 | 0 | 0 | 0 | 3 | 5 | 5 | 0 | 0 |
-| 64 | Tokbokki & bánh gạo Hàn | 0.0tr | 13 | 13 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 64 | Tokbokki & bánh gạo Hàn | 0.0tr | 13 | 0 | 0 | 0 | 3 | 2 | 8 | 0 | 0 |
 | 65 | Sandwiches - Toastes | 0.0tr | 13 | 0 | 0 | 0 | 2 | 3 | 8 | 0 | 0 |
 | 66 | Kem đánh răng - Hơi thở thơm | 0.0tr | 13 | 0 | 0 | 0 | 3 | 0 | 10 | 0 | 0 |
 | 67 | Dung dịch vệ sinh nữ | 0.0tr | 13 | 0 | 0 | 0 | 2 | 2 | 9 | 0 | 0 |
 | 68 | Khăn ướt – khăn giấy | 0.0tr | 13 | 0 | 0 | 0 | 5 | 2 | 6 | 0 | 0 |
 | 69 | Pizza | 0.0tr | 13 | 0 | 0 | 0 | 0 | 0 | 13 | 0 | 0 |
-| 70 | Sữa chua ăn | 0.0tr | 13 | 13 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 70 | Sữa chua ăn | 0.0tr | 13 | 0 | 0 | 0 | 8 | 1 | 4 | 0 | 0 |
 | 71 | Xúc xích lắc & snack | 0.0tr | 13 | 0 | 0 | 0 | 7 | 4 | 2 | 0 | 0 |
 | 72 | Bàn chải - Người lớn | 0.0tr | 12 | 0 | 0 | 0 | 3 | 3 | 6 | 0 | 0 |
 | 73 | Bánh mì kem tươi | 0.0tr | 12 | 0 | 0 | 0 | 1 | 0 | 11 | 0 | 0 |
-| 74 | Nước ngọt ít calories | 0.0tr | 12 | 12 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 74 | Nước ngọt ít calories | 0.0tr | 12 | 0 | 0 | 0 | 3 | 0 | 9 | 0 | 0 |
 | 75 | Snack mì | 0.0tr | 12 | 12 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 76 | Sữa chua đông lạnh | 0.0tr | 12 | 12 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 77 | Củ / bộ sạc | 0.0tr | 11 | 11 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
