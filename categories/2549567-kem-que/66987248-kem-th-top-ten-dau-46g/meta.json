@@ -17,18 +17,24 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "READY",
   "image": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "REPLACE",
+    "reason": "I4: nền đen; thay bằng ảnh chính hãng TOPKID dâu - hương chuối 46 g (TH true mart), trang SP https://thtruemart.vn/products/kem-que-topkid-dau-huong-chuoi-tu-nhien-46g",
+    "source": {
+      "url": "https://cdn.hstatic.net/products/200001185942/que_6_1_6a8b2a1b763a45ac9e4287bb8903590d_2f6728ce5b7c4e25b6e990771cd4f39c.png",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết từ trang TH true mart (kênh chính hãng TH). Tên KiotViet ghi 'TOP ten' — thực tế là TOPKID",
+    "source": {
+      "url": "https://thtruemart.vn/products/kem-que-topkid-dau-huong-chuoi-tu-nhien-46g",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "question": null,
   "history": [
@@ -37,6 +43,12 @@
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:09:54.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "image REPLACE (TH official), description WRITE_NEW"
     }
   ]
 }

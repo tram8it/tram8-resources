@@ -17,18 +17,24 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "READY",
   "image": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "REPLACE",
+    "reason": "I1: chưa có ảnh; ảnh chính hãng vinamilk.com.vn, trang SP https://www.vinamilk.com.vn/products/kem-oc-que-vinamilk-socola-dau-phong",
+    "source": {
+      "url": "https://d8um25gjecm9v.cloudfront.net/cms/KEM_Kemocque_VNM_Socola_Dauphong_01_2_18e073603d_f21af779bd.png",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết từ trang Vinamilk",
+    "source": {
+      "url": "https://www.vinamilk.com.vn/products/kem-oc-que-vinamilk-socola-dau-phong",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "question": null,
   "history": [
@@ -37,6 +43,12 @@
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:09:54.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "image REPLACE (Vinamilk official), description WRITE_NEW"
     }
   ]
 }

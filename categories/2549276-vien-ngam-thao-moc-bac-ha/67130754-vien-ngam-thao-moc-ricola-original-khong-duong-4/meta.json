@@ -17,18 +17,24 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "READY",
   "image": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "REPLACE",
+    "reason": "I2/I6: ảnh hiện tại là hộp bản Đức đời cũ (Kräuter Original ohne Zucker), chỉ 145×200px; v2: thay bằng bao bì mới hộp 40 g HK/SG/MY/PH trên trang hãng (trang sản phẩm https://www.ricola.com/en-asia/products/original-herb/vn/)",
+    "source": {
+      "url": "https://www.datocms-assets.com/131912/1739377131-3d_box_kroz_reb_40g_hk_sg_my_ph_9015857_front_flat.png",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; theo trang Ricola Việt Nam (en-asia/vn) và ảnh mặt sau hộp 40 g trên trang hãng",
+    "source": {
+      "url": "https://www.ricola.com/en-asia/products/original-herb/vn/",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "question": null,
   "history": [
@@ -37,6 +43,12 @@
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:08:01.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "image REPLACE (ricola.com newest pack), description WRITE_NEW"
     }
   ]
 }

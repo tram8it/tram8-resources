@@ -17,26 +17,32 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "ASK_OWNER",
   "image": {
-    "decision": null,
-    "reason": null,
+    "decision": "ASK_OWNER",
+    "reason": "I2: tên ghi đậu ĐỎ nhưng ảnh là Merino X Plus lõi xốt ĐẬU XANH (ảnh còn có watermark thegioikemngon, I7)",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
+    "decision": "ASK_OWNER",
+    "reason": "Chưa rõ vị thật của SP nên chưa viết mô tả",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
-  "question": null,
+  "question": "SP 'Kem Merino x đậu đỏ lõi xốt 60g' (mã 8936011776585): ảnh hiện tại là Merino X Plus lõi xốt ĐẬU XANH. Hàng bán thực tế là vị đậu đỏ hay đậu xanh? (Ảnh nào cũng phải thay vì có watermark; không có trang hãng Merino truy cập được → sẽ cần nhân viên chụp.)",
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:11:16.000Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "ask owner: name says red bean, image shows mung bean"
     }
   ]
 }

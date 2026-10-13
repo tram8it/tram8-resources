@@ -17,26 +17,32 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "ASK_OWNER",
   "image": {
-    "decision": null,
-    "reason": null,
+    "decision": "ASK_OWNER",
+    "reason": "I1: chưa có ảnh; tên SP mơ hồ về vị nên chưa thể tìm/chụp đúng",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
+    "decision": "ASK_OWNER",
+    "reason": "Tên 'CC Celano Passion Xoài' mơ hồ: chưa rõ 'Passion' là chanh dây hay dòng Celano Passion, 'CC' là gì",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
-  "question": null,
+  "question": "SP 'Kem CC Celano Passion Xoài 60g × 20 (PS)' (mã 8936011770767): đây là kem vị chanh dây – xoài, hay dòng Celano Passion vị xoài? 'CC' và '(PS)' nghĩa là gì? SP chưa có ảnh và không có trang hãng truy cập được → sẽ cần nhân viên chụp.",
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:11:16.000Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "ask owner: ambiguous flavour name"
     }
   ]
 }
