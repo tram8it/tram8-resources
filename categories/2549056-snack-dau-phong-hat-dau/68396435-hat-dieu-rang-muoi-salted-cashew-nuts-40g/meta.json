@@ -17,18 +17,24 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "READY",
   "image": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "REPLACE",
+    "reason": "I2 (v2)/I5: ảnh hiện là bao bì đời trước, bị khung cắt sát mép; thay bằng ảnh hãng Salted Cashew Nuts 40g, trang SP https://shop.tonggarden.com.sg/p/tonggarden-salted-cashewnuts",
+    "source": {
+      "url": "https://magentoapi.tonggarden.com.sg/media/catalog/product/s/a/salted_cashews_40g-min.jpg",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; theo trang Tong Garden (hạt điều nêm muối) + chữ trên bao bì (40 g)",
+    "source": {
+      "url": "https://shop.tonggarden.com.sg/p/tonggarden-salted-cashewnuts",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "question": null,
   "history": [
@@ -37,6 +43,12 @@
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:14:56.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "image REPLACE (Tong Garden official shop), description WRITE_NEW"
     }
   ]
 }

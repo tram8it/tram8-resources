@@ -17,18 +17,24 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "READY",
   "image": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "REPLACE",
+    "reason": "I1: chưa có ảnh; ảnh hãng Japanese Rice Cracker Mixed Coated Peanuts 60g, mã vạch mặt sau 8850291115332 khớp; trang SP https://shop.tonggarden.com.sg/p/japanese-rice-cracker-mixed-coated-peanuts-60g",
+    "source": {
+      "url": "https://magentoapi.tonggarden.com.sg/media/catalog/product/t/g/tg-model-japanese_ri..._imresizer.jpeg",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; đọc nhãn mặt sau trên ảnh hãng (thành phần, xuất xứ)",
+    "source": {
+      "url": "https://magentoapi.tonggarden.com.sg/media/catalog/product/t/g/tg-model-japanese_ri..._imresizer_1_.jpeg",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "question": null,
   "history": [
@@ -37,6 +43,12 @@
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:14:56.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "image REPLACE (Tong Garden official shop, barcode match), description WRITE_NEW"
     }
   ]
 }

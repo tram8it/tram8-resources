@@ -17,18 +17,24 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "READY",
   "image": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "REPLACE",
+    "reason": "I3/I4: ảnh chụp đặt trên nền xe, không nền trắng; thay bằng ảnh hãng (cùng vị hải sản siêu cay, gói Party Size 75g). Trang SP: https://oishi.com.vn/san-pham (popup Pinattsu)",
+    "source": {
+      "url": "https://oishi.cdn.vccloud.vn/storage/products/November2025/P7R2HCTI3eggc0jYnOlW.png",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; theo trang Oishi (Pinattsu: rang không dùng dầu, có khối lượng 75g) + chữ trên bao bì (Không chiên, Resealable zip lock)",
+    "source": {
+      "url": "https://oishi.com.vn/san-pham",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "question": null,
   "history": [
@@ -37,6 +43,12 @@
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:14:56.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "image REPLACE (oishi.com.vn), description WRITE_NEW"
     }
   ]
 }

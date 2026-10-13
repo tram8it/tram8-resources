@@ -17,26 +17,32 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "ASK_OWNER",
   "image": {
-    "decision": null,
-    "reason": null,
+    "decision": "ASK_OWNER",
+    "reason": "I2 nghi lệch tên: ảnh là hũ 'Đậu Hà Lan wasabi 180g', tên KiotViet 'Đậu phộng wasabi 190g'",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
+    "decision": "ASK_OWNER",
+    "reason": "D1: chưa có mô tả; chờ chủ xác nhận loại hạt và khối lượng",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
-  "question": null,
+  "question": "SP 'Đậu phộng wasabi 190g' (mã 8938503403627): ảnh là hũ Snack House GOODY! 'Đậu Hà Lan Wasabi' in 180g. Hàng thật là đậu Hà Lan hay đậu phộng, và bao nhiêu gam? Nếu đúng như ảnh thì tên KiotViet cần sửa.",
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:14:56.000Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "asked owner: name says peanut 190g, pack says green peas 180g"
     }
   ]
 }
