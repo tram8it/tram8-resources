@@ -17,26 +17,32 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "ASK_OWNER",
   "image": {
-    "decision": null,
-    "reason": null,
+    "decision": "ASK_OWNER",
+    "reason": "I2: tên ghi sô-cô-la, ảnh là hộp Richeese phô mai",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
+    "decision": "ASK_OWNER",
+    "reason": "Chờ chủ xác nhận SP",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
-  "question": null,
+  "question": "\"Bánh Nabati socola .308\" (mã 8993175542128): ảnh hiện tại là hộp Richeese phô mai, không phải sô-cô-la. SP này là loại nào (Richoco sô-cô-la hay Richeese phô mai), quy cách bao nhiêu gam, và \".308\" nghĩa là gì?",
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:36:29.000Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "b10 review: needs owner answer, nothing changed"
     }
   ]
 }

@@ -2,7 +2,7 @@
 
 > Sinh tự động bởi `node tools/status.mjs`. **Không sửa tay.** Nguồn sự thật là `meta.json` của từng SP.
 
-Tổng 2448 SP · đã xem 675 (28%) · xong 0 · chờ chủ duyệt 349 · cần chụp 236 · hỏi chủ 90
+Tổng 2448 SP · đã xem 783 (32%) · xong 0 · chờ chủ duyệt 414 · cần chụp 273 · hỏi chủ 96
 
 Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` = giữ nguyên + đã lên web.
 
@@ -21,14 +21,14 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 | 11 | Trà đóng chai | 0.0tr | 40 | 0 | 0 | 0 | 17 | 5 | 18 | 0 | 0 |
 | 12 | Bánh tráng trộn | 0.0tr | 37 | 0 | 0 | 0 | 15 | 2 | 20 | 0 | 0 |
 | 13 | Nước trái cây / ép | 0.0tr | 34 | 0 | 0 | 0 | 8 | 3 | 23 | 0 | 0 |
-| 14 | Bánh xốp kem (wafer) | 0.0tr | 31 | 31 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 14 | Bánh xốp kem (wafer) | 0.0tr | 31 | 0 | 0 | 0 | 19 | 3 | 9 | 0 | 0 |
 | 15 | Mì gói | 0.0tr | 31 | 0 | 0 | 0 | 0 | 0 | 31 | 0 | 0 |
-| 16 | Sữa chua uống | 0.0tr | 31 | 31 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 16 | Sữa chua uống | 0.0tr | 31 | 0 | 0 | 0 | 5 | 2 | 24 | 0 | 0 |
 | 17 | Lager Phổ Thông | 0.0tr | 29 | 29 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 18 | Kem ly / cốc / hộp nhỏ | 0.0tr | 28 | 28 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 19 | Mì trộn / mì khô / spaghetti (Gói) | 0.0tr | 27 | 27 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 20 | Thức uống bổ sung dinh dưỡng | 0.0tr | 26 | 26 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 21 | Lăn khử mùi | 0.0tr | 25 | 25 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 21 | Lăn khử mùi | 0.0tr | 25 | 0 | 0 | 0 | 1 | 1 | 23 | 0 | 0 |
 | 22 | Hạt các loại | 0.0tr | 24 | 24 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 23 | Bánh ăn sáng / ngũ cốc / thanh năng lượng | 0.0tr | 23 | 23 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 24 | Bánh quy kem / kẹp kem | 0.0tr | 23 | 23 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -38,7 +38,7 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 | 28 | Món hấp | 0.0tr | 22 | 22 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 29 | Khô mực | 0.0tr | 22 | 22 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 30 | Nước tăng lực | 0.0tr | 21 | 0 | 0 | 0 | 4 | 2 | 15 | 0 | 0 |
-| 31 | Bánh quế / bánh cuộn (wafer roll) | 0.0tr | 21 | 21 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 31 | Bánh quế / bánh cuộn (wafer roll) | 0.0tr | 21 | 0 | 0 | 0 | 12 | 0 | 9 | 0 | 0 |
 | 32 | Cà phê uống liền | 0.0tr | 21 | 21 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 33 | Cơm nắm Onigiri | 0.0tr | 21 | 21 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 34 | Xúc xích tiệt trùng | 0.0tr | 21 | 21 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |

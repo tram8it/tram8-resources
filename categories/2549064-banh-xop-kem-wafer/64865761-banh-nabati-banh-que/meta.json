@@ -17,18 +17,18 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "READY",
   "image": {
-    "decision": null,
-    "reason": null,
+    "decision": "CROP",
+    "reason": "I9: packshot nền trắng, đúng SP bánh quế Richeese Long Stick 105 g, chưa 1:1 → crop, đã xem lại",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; dữ kiện đọc từ chữ in trên gói (không có trang hãng)",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
   "question": null,
   "history": [
@@ -37,6 +37,12 @@
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:36:29.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "b10 review: image CROP, description WRITE_NEW"
     }
   ]
 }

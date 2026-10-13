@@ -17,18 +17,18 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "NEEDS_PHOTO",
   "image": {
-    "decision": null,
-    "reason": null,
+    "decision": "REPLACE",
+    "reason": "I7: gói dán tem mã vạch của cửa hàng; không có nguồn chính hãng (nabatisnack.co.id chỉ có vài ảnh bao bì Indonesia, không có SKU Việt Nam này)",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết ngắn chỉ từ tên SP và chữ in mặt trước bao bì (không có trang hãng)",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
   "question": null,
   "history": [
@@ -37,6 +37,12 @@
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:36:29.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "b10 review: image REPLACE, description WRITE_NEW"
     }
   ]
 }
