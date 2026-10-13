@@ -17,26 +17,32 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "ASK_OWNER",
   "image": {
-    "decision": null,
-    "reason": null,
+    "decision": "ASK_OWNER",
+    "reason": "Chờ chủ trả lời: name vs lid mismatch",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
+    "decision": "ASK_OWNER",
+    "reason": "Chờ chủ trả lời câu hỏi về SP trước khi viết mô tả",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
-  "question": null,
+  "question": "Tên hàng \"Kem sữa chua Nam Vị Dâu Celano H125ML\" nhưng ảnh hiện tại là nắp kem Celano \"Strawberry Dream – Làm từ sữa tươi\" (không thấy chữ sữa chua). Hàng đang bán là kem sữa chua vị dâu hay kem Celano Strawberry Dream? Chữ \"Nam\" trong tên nghĩa là gì?",
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:40:09.000Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "asked owner: name vs lid mismatch"
     }
   ]
 }

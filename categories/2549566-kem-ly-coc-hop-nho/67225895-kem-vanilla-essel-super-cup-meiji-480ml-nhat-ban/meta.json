@@ -17,26 +17,32 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "ASK_OWNER",
   "image": {
-    "decision": null,
-    "reason": null,
+    "decision": "ASK_OWNER",
+    "reason": "Chờ chủ trả lời: 480ml vs single mini cup",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
+    "decision": "ASK_OWNER",
+    "reason": "Chờ chủ trả lời câu hỏi về SP trước khi viết mô tả",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
-  "question": null,
+  "question": "\"Kem vanilla Essel Super Cup Meiji 480ml\" (đơn vị Ly) nhưng ảnh hiện tại là một ly Super Cup MINI. Hàng bán là nguyên hộp 6 ly mini (tổng ~480 ml) hay bán lẻ 1 ly mini? Cho biết để chọn ảnh và mô tả đúng.",
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:40:09.000Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "asked owner: 480ml vs single mini cup"
     }
   ]
 }
