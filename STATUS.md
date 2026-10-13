@@ -2,7 +2,7 @@
 
 > Sinh tự động bởi `node tools/status.mjs`. **Không sửa tay.** Nguồn sự thật là `meta.json` của từng SP.
 
-Tổng 2448 SP · đã xem 2113 (86%) · xong 0 · chờ chủ duyệt 1106 · cần chụp 811 · hỏi chủ 196
+Tổng 2448 SP · đã xem 2126 (87%) · xong 0 · chờ chủ duyệt 1112 · cần chụp 815 · hỏi chủ 199
 
 Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` = giữ nguyên + đã lên web.
 
@@ -106,7 +106,7 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 | 96 | Socola viên / kẹo socola | 0.0tr | 9 | 0 | 0 | 0 | 4 | 0 | 5 | 0 | 0 |
 | 97 | Gia vị - Đồ chấm | 0.0tr | 9 | 0 | 0 | 0 | 0 | 1 | 8 | 0 | 0 |
 | 98 | Sữa rửa mặt NAM | 0.0tr | 9 | 0 | 0 | 0 | 3 | 0 | 6 | 0 | 0 |
-| 99 | Nước gạo / sữa hạt | 0.0tr | 9 | 9 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 99 | Nước gạo / sữa hạt | 0.0tr | 9 | 0 | 0 | 0 | 4 | 2 | 3 | 0 | 0 |
 | 100 | Xà bông | 0.0tr | 9 | 9 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 101 | Dụng cụ mi | 0.0tr | 8 | 8 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 102 | Dao cạo & cạo râu | 0.0tr | 8 | 8 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -164,7 +164,7 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 | 154 | Tăm nha khoa | 0.0tr | 4 | 0 | 0 | 0 | 1 | 0 | 3 | 0 | 0 |
 | 155 | Tampon | 0.0tr | 4 | 0 | 0 | 0 | 0 | 0 | 4 | 0 | 0 |
 | 156 | Ức gà & thịt ăn liền | 0.0tr | 4 | 0 | 0 | 0 | 3 | 0 | 1 | 0 | 0 |
-| 157 | Bánh mì ngọt / mềm | 0.0tr | 4 | 4 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 157 | Bánh mì ngọt / mềm | 0.0tr | 4 | 0 | 0 | 0 | 0 | 1 | 3 | 0 | 0 |
 | 158 | BVS ban ngày | 0.0tr | 3 | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 159 | BVS dạng quần | 0.0tr | 3 | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 160 | Tráng miệng | 0.0tr | 3 | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
