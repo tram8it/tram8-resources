@@ -2,7 +2,7 @@
 
 > Sinh tự động bởi `node tools/status.mjs`. **Không sửa tay.** Nguồn sự thật là `meta.json` của từng SP.
 
-Tổng 2448 SP · đã xem 911 (37%) · xong 0 · chờ chủ duyệt 491 · cần chụp 310 · hỏi chủ 110
+Tổng 2448 SP · đã xem 1045 (43%) · xong 0 · chờ chủ duyệt 541 · cần chụp 387 · hỏi chủ 117
 
 Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` = giữ nguyên + đã lên web.
 
@@ -29,17 +29,17 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 | 19 | Mì trộn / mì khô / spaghetti (Gói) | 0.0tr | 27 | 0 | 0 | 0 | 7 | 4 | 16 | 0 | 0 |
 | 20 | Thức uống bổ sung dinh dưỡng | 0.0tr | 26 | 0 | 0 | 0 | 11 | 3 | 12 | 0 | 0 |
 | 21 | Lăn khử mùi | 0.0tr | 25 | 0 | 0 | 0 | 1 | 1 | 23 | 0 | 0 |
-| 22 | Hạt các loại | 0.0tr | 24 | 24 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 22 | Hạt các loại | 0.0tr | 24 | 0 | 0 | 0 | 11 | 0 | 13 | 0 | 0 |
 | 23 | Bánh ăn sáng / ngũ cốc / thanh năng lượng | 0.0tr | 23 | 23 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 24 | Bánh quy kem / kẹp kem | 0.0tr | 23 | 23 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 25 | Mì cay (Gói) | 0.0tr | 23 | 23 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 26 | Bánh quy giòn / lạt | 0.0tr | 22 | 22 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 27 | Kẹo cứng | 0.0tr | 22 | 22 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 28 | Món hấp | 0.0tr | 22 | 22 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 29 | Khô mực | 0.0tr | 22 | 22 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 26 | Bánh quy giòn / lạt | 0.0tr | 22 | 0 | 0 | 0 | 11 | 3 | 8 | 0 | 0 |
+| 27 | Kẹo cứng | 0.0tr | 22 | 0 | 0 | 0 | 10 | 0 | 12 | 0 | 0 |
+| 28 | Món hấp | 0.0tr | 22 | 0 | 0 | 0 | 22 | 0 | 0 | 0 | 0 |
+| 29 | Khô mực | 0.0tr | 22 | 0 | 0 | 0 | 19 | 1 | 2 | 0 | 0 |
 | 30 | Nước tăng lực | 0.0tr | 21 | 0 | 0 | 0 | 4 | 2 | 15 | 0 | 0 |
 | 31 | Bánh quế / bánh cuộn (wafer roll) | 0.0tr | 21 | 0 | 0 | 0 | 12 | 0 | 9 | 0 | 0 |
-| 32 | Cà phê uống liền | 0.0tr | 21 | 21 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 32 | Cà phê uống liền | 0.0tr | 21 | 0 | 0 | 0 | 4 | 3 | 14 | 0 | 0 |
 | 33 | Cơm nắm Onigiri | 0.0tr | 21 | 21 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 34 | Xúc xích tiệt trùng | 0.0tr | 21 | 21 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 35 | Mì trộn / mì khô / spaghetti (Ly/Tô/Cốc) | 0.0tr | 21 | 21 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -55,7 +55,7 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 | 45 | Sữa tiệt trùng có vị | 0.0tr | 17 | 17 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 46 | Nước suối / bù khoáng / ion | 0.0tr | 16 | 16 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 47 | Kombucha / lên men | 0.0tr | 16 | 16 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 48 | Mặt nạ | 0.0tr | 16 | 16 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 48 | Mặt nạ | 0.0tr | 16 | 15 | 0 | 0 | 0 | 0 | 1 | 0 | 0 |
 | 49 | Sữa tắm | 0.0tr | 16 | 16 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 50 | Thạch – Rau câu | 0.0tr | 16 | 16 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 51 | Xịt khử mùi | 0.0tr | 16 | 16 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
