@@ -17,18 +17,21 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "NEEDS_PHOTO",
   "image": {
-    "decision": null,
-    "reason": null,
+    "decision": "REPLACE",
+    "reason": "I4, I5: ảnh chụp điện thoại cận gói, nền tối, gói bị cắt; trang Mondelez Việt Nam chỉ có ảnh hộp 10 gói kèm gói lẻ (ảnh ghép, I8) → cần chụp",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết từ trang Mondelez Kinh Đô (snack-central.com) cho Oreo Mini sô cô la + khối lượng gói theo tên SP",
+    "source": {
+      "url": "https://www.snack-central.com/vn-en/products/oreo-chocolate-mini-204g-44035/",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "question": null,
   "history": [
@@ -37,6 +40,12 @@
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:46:45.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "b13: image REPLACE, description WRITE_NEW"
     }
   ]
 }

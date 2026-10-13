@@ -17,18 +17,18 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "READY",
   "image": {
-    "decision": null,
-    "reason": null,
+    "decision": "CROP",
+    "reason": "I9: packshot nền trắng, đúng SP nhưng không 1:1; crop về 1:1 (phóng ~2,1 lần, xem lại đạt)",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết ngắn chỉ từ dữ kiện chắc chắn (tên, vị, khối lượng theo tên SP, chữ in mặt trước gói)",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
   "question": null,
   "history": [
@@ -37,6 +37,12 @@
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:46:45.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "b13: image CROP, description WRITE_NEW"
     }
   ]
 }
