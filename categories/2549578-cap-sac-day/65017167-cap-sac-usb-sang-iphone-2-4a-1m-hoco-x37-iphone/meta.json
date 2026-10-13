@@ -17,18 +17,24 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "READY",
   "image": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "REPLACE",
+    "reason": "I7: ảnh có watermark cửa hàng \"Chuẩn Pro9x\"; thay bằng ảnh hãng (mặt trước hộp, cắt từ ảnh hộp trước/sau), trang SP https://hocotech.com/product/mobile-accessories/cables/lightning/cable-usb-to-lightning-x37-cool-power-charging-data-sync/",
+    "source": {
+      "url": "https://hocotech.com/wp-content/uploads/2019/07/hoco-x37-cool-power-charging-data-cable-for-lightning-package-front-back.jpg",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; theo trang hãng và chữ in trên hộp",
+    "source": {
+      "url": "https://hocotech.com/product/mobile-accessories/cables/lightning/cable-usb-to-lightning-x37-cool-power-charging-data-sync/",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "question": null,
   "history": [
@@ -37,6 +43,12 @@
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:18:55.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "image REPLACE (hocotech.com), description WRITE_NEW"
     }
   ]
 }
