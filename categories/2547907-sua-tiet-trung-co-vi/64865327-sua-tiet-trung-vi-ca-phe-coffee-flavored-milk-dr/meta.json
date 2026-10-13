@@ -17,18 +17,24 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "READY",
   "image": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "REPLACE",
+    "reason": "I3/I5: ảnh cũ chụp cận lốc hộp, bị cắt; thay bằng ảnh hãng hộp 200 ml Coffee trên bing.co.kr, phóng ~3,2x",
+    "source": {
+      "url": "https://www.bing.co.kr/upload/product/2025/09/43848282-0d54-4c74-bacd-029d6ded8aa6.png",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết từ chữ in mặt trước hộp (Flavored Milk Drink, UHT 200 mL)",
+    "source": {
+      "url": "https://www.bing.co.kr/en/product/detail?lang=EN&PDT=61",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "question": null,
   "history": [
@@ -37,6 +43,12 @@
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:07:05.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "b18 review (rubric v4): image REPLACE, description WRITE_NEW"
     }
   ]
 }

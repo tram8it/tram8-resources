@@ -17,26 +17,32 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "ASK_OWNER",
   "image": {
-    "decision": null,
-    "reason": null,
+    "decision": "ASK_OWNER",
+    "reason": "I1: chưa có ảnh; tên (sô-cô-la) và mã vạch (sữa chua dâu) mâu thuẫn",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
+    "decision": "ASK_OWNER",
+    "reason": "D1: chưa có mô tả; chờ chủ xác nhận SP",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
-  "question": null,
+  "question": "\"Sữa uống TH Socola 180ml\" có mã vạch 8935217412112 — mã này trên thtruemart.vn là Sữa chua uống tiệt trùng TH true YOGURT hương Dâu 180 ml, không phải sữa sô-cô-la (sữa sô-cô-la 180 ml đã có mã 8935217400454 ở SP 65168925). Hàng thật là loại nào? Nếu trùng SP 65168925 thì có nên ẩn/gộp không?",
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:07:05.000Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "b18 review (rubric v4): image ASK_OWNER, description ASK_OWNER"
     }
   ]
 }

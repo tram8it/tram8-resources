@@ -17,18 +17,24 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "READY",
   "image": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "REPLACE",
+    "reason": "I3/I5: ảnh chụp dãy hộp trên kệ, bị cắt; thay bằng ảnh hộp 180 ml trên thtruemart.vn (mã vạch 8935217400454 khớp)",
+    "source": {
+      "url": "https://cdn.hstatic.net/products/200001185942/socola_png_1_ca8281e91fa448949be072d474e41217_e97ebb24138748208f1d5f189521bbf7.png",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; theo trang TH true mart và nhãn mặt sau trong ảnh hãng",
+    "source": {
+      "url": "https://thtruemart.vn/products/sua-tuoi-tiet-trung-so-co-la-180-ml",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "question": null,
   "history": [
@@ -37,6 +43,12 @@
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:07:05.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "b18 review (rubric v4): image REPLACE, description WRITE_NEW"
     }
   ]
 }

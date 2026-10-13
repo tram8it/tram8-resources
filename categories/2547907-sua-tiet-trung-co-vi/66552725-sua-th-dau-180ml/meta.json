@@ -17,18 +17,24 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "READY",
   "image": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "REPLACE",
+    "reason": "I2: ảnh cũ là lốc TH sô-cô-la 110 ml, sai SP; thay bằng ảnh hộp hương dâu 180 ml trên thtruemart.vn (mã vạch 8935217400256 khớp)",
+    "source": {
+      "url": "https://cdn.hstatic.net/products/200001185942/d_u_png_1_1_ff4c8171faa6492fa126148262c93e49_6c726b88e11a41d488fa9fc9e222f106.png",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; theo trang TH true mart và nhãn mặt sau trong ảnh hãng",
+    "source": {
+      "url": "https://thtruemart.vn/products/sua-tuoi-tiet-trung-huong-dau-180-ml",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "question": null,
   "history": [
@@ -37,6 +43,12 @@
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:07:05.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "b18 review (rubric v4): image REPLACE, description WRITE_NEW"
     }
   ]
 }
