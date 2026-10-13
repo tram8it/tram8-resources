@@ -17,18 +17,18 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "READY",
   "image": {
-    "decision": null,
-    "reason": null,
+    "decision": "CROP",
+    "reason": "I9: packshot nền trắng, đúng SP, chỉ chưa 1:1; đã crop và xem lại đạt",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; mô tả ngắn từ chữ in mặt trước gói (好味屋 Haoweiwu Foods, 柠檬素毛肚 = sách bò chay vị chanh, 酸爽味 = vị chua, 即食魔芋凝胶食品 = thạch konjac ăn liền, 20 g)",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
   "question": null,
   "history": [
@@ -37,6 +37,12 @@
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:55:32.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "image CROP, description WRITE_NEW from front of pack"
     }
   ]
 }
