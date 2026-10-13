@@ -3,4 +3,4 @@ Gel rửa mặt NIVEA Luminous Skin Glow Wash Gel to Foam, dạng gel tạo bọ
 Thành phần chính: AHA (glycolic acid, lactic acid), bột lô hội, chiết xuất hạt guarana, caffeine, glycerin.
 Quy cách: 150 ml · tuýp
 Nhà sản xuất/thương hiệu: NIVEA (Beiersdorf)
-Hướng dẫn sử dụng: làm ướt mặt, lấy lượng vừa đủ tạo bọt rồi mát-xa nhẹ, rửa sạch với nước. Tránh để sản phẩm dính vào mắt.
+Lưu ý: tránh để sản phẩm dính vào mắt; ngưng dùng nếu da có biểu hiện bất thường.

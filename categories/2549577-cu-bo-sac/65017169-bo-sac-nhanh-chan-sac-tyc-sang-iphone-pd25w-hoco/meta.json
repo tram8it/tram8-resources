@@ -17,18 +17,24 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "READY",
   "image": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "REPLACE",
+    "reason": "I3, I4: ảnh chụp tay cầm, nền nhà; thay bằng ảnh vỉ trên trang hãng hoco (mặt sau vỉ in đúng mã vạch 6942007631495), chỉ cắt lấy mặt trước vỉ; trang SP: https://hocotech.com/product/power/wall-chargers/wall-charger-cs53a-surplus-pd25w-eu-cable-set/",
+    "source": {
+      "url": "https://hocotech.com/wp-content/uploads/2025/07/hoco-cs53a-surplus-1port-pd25w-wall-charger-eu-set-usbc-ltn-packaging.jpg",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; theo thông số trên trang hãng hoco",
+    "source": {
+      "url": "https://hocotech.com/product/power/wall-chargers/wall-charger-cs53a-surplus-pd25w-eu-cable-set/",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "question": null,
   "history": [
@@ -37,6 +43,12 @@
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:21:32.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "image REPLACE (hocotech.com, barcode on pack matches), description WRITE_NEW"
     }
   ]
 }

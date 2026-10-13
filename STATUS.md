@@ -2,7 +2,7 @@
 
 > Sinh tự động bởi `node tools/status.mjs`. **Không sửa tay.** Nguồn sự thật là `meta.json` của từng SP.
 
-Tổng 2448 SP · đã xem 2126 (87%) · xong 0 · chờ chủ duyệt 1112 · cần chụp 815 · hỏi chủ 199
+Tổng 2448 SP · đã xem 2137 (87%) · xong 0 · chờ chủ duyệt 1114 · cần chụp 818 · hỏi chủ 205
 
 Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` = giữ nguyên + đã lên web.
 
@@ -84,7 +84,7 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 | 74 | Nước ngọt ít calories | 0.0tr | 12 | 0 | 0 | 0 | 3 | 0 | 9 | 0 | 0 |
 | 75 | Snack mì | 0.0tr | 12 | 0 | 0 | 0 | 4 | 0 | 8 | 0 | 0 |
 | 76 | Sữa chua đông lạnh | 0.0tr | 12 | 0 | 0 | 0 | 12 | 0 | 0 | 0 | 0 |
-| 77 | Củ / bộ sạc | 0.0tr | 11 | 11 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 77 | Củ / bộ sạc | 0.0tr | 11 | 0 | 0 | 0 | 3 | 6 | 2 | 0 | 0 |
 | 78 | Khô bò | 0.0tr | 11 | 0 | 0 | 0 | 6 | 0 | 5 | 0 | 0 |
 | 79 | Đồ chay giả mặn (konjac) | 0.0tr | 11 | 0 | 0 | 0 | 7 | 0 | 4 | 0 | 0 |
 | 80 | Dầu gội - Dành cho nam | 0.0tr | 11 | 0 | 0 | 0 | 1 | 2 | 8 | 0 | 0 |

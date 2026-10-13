@@ -3,4 +3,3 @@ Sữa rửa mặt dạng bọt NIVEA Luminous Skin Glow Whip Wash Foam, làm s�
 Thành phần chính: chiết xuất cam, các dạng sodium hyaluronate, sodium ascorbyl phosphate (dẫn xuất vitamin C), Q10 (ubiquinone), glycerin.
 Quy cách: 100 ml · tuýp
 Nhà sản xuất/thương hiệu: NIVEA (Beiersdorf)
-Hướng dẫn sử dụng: làm ướt mặt, tạo bọt với nước rồi mát-xa nhẹ lên da, rửa sạch lại với nước. Tránh để sản phẩm dính vào mắt.

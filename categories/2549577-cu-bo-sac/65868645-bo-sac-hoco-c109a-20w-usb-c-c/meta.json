@@ -17,26 +17,32 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "ASK_OWNER",
   "image": {
-    "decision": null,
-    "reason": null,
+    "decision": "ASK_OWNER",
+    "reason": "I7: packshot nền trắng đúng SP nhưng có tem nhãn phụ ghi giá VND trên mặt hộp; không chắc tem này có được chấp nhận; hocotech.com không có bản này",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
+    "decision": "ASK_OWNER",
+    "reason": "chờ chủ quyết về ảnh; mô tả để lượt sau",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
-  "question": null,
+  "question": "Hoco C109A 20W USB-A + USB-C (mã vạch 6942007656733): Ảnh hiện tại là hộp/vỉ nền trắng, đúng SP, nhưng trên mặt trước có tem nhãn phụ ghi giá (VND) của nhà nhập khẩu/cửa hàng (RUBRIC I7 cấm tem giá). Tem này có trên mọi hộp hàng nhập không? Anh chấp nhận ảnh có tem (chỉ crop về 1:1) hay cần chụp lại / tìm ảnh hãng không tem?",
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:21:32.000Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "price sticker on pack (I7) → ask owner"
     }
   ]
 }

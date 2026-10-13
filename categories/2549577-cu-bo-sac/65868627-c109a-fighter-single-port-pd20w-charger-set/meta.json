@@ -17,18 +17,18 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "NEEDS_PHOTO",
   "image": {
-    "decision": null,
-    "reason": null,
+    "decision": "REPLACE",
+    "reason": "I4: ảnh chụp vỉ trên nền đá đen, không phải nền trắng; hocotech.com chỉ có C109A bản QC3.0 cổng USB-A, không có bản PD20W USB-C → cần chụp",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; mô tả ngắn chỉ từ tên SP và chữ in trên vỉ ('C109A', 'PD20W', 'Single port USB-C charger set', 'USB-C to iP 1.0m')",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
   "question": null,
   "history": [
@@ -37,6 +37,12 @@
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:21:32.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "dark-background photo, no official image → NEEDS_PHOTO; description WRITE_NEW"
     }
   ]
 }
