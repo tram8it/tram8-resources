@@ -106,11 +106,21 @@ giữ ảnh nhưng viết lại mô tả.
 
 ## 8. Đầu vào cần có
 
-| Đầu vào | Từ đâu |
+Nguồn chính là **API nội dung của Hub** (`docs/24-api-noi-dung-san-pham.md` trong tram8-hub),
+không cần ai SSH lên VPS:
+
+| Việc | Endpoint (Bearer token, biến môi trường `TRAM8_API_TOKEN`) |
 |---|---|
-| Danh mục + sản phẩm thật | `scripts/export-product-content.sh` của tram8-hub, chạy trên VPS → `inbox/` → `node tools/init-from-export.mjs inbox/<thư mục>` |
-| Ảnh hiện tại | URL CDN KiotViet trong `meta.json` (cần mở mạng cho `cdn1/cdn2-retail-images.kiotviet.vn`), hoặc thư mục `originals/` của script audit |
-| Trang chính hãng | Mạng của phiên làm việc phải cho phép truy cập web |
+| Cây danh mục | `GET https://hub.tram8.vn/api/v1/content/categories` |
+| Sản phẩm theo danh mục | `GET …/api/v1/content/products?categoryId=<id>&baseOnly=true` |
+| Chi tiết / ảnh Hub đã lưu | `GET …/content/products/:id`, `…/:id/image` |
+| Ghi ảnh + mô tả (chỉ SP `APPROVED`) | `PUT …/content/products/:id` — body `{ description, image }` |
+
+Ảnh hiện tại tải từ `kiotviet.imageUrl` (CDN KiotViet). Mạng của phiên phải cho phép
+`hub.tram8.vn`, `cdn1/cdn2-retail-images.kiotviet.vn` và các trang chính hãng.
+
+Dự phòng khi API chưa dùng được: `scripts/export-product-content.sh` của tram8-hub chạy trên VPS →
+`inbox/` → `node tools/init-from-export.mjs inbox/<thư mục>`.
 
 ## 9. Ước lượng
 
