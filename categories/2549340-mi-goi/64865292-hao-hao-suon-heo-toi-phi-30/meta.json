@@ -19,19 +19,22 @@
   },
   "status": "READY",
   "image": {
-    "decision": "KEEP",
-    "reason": "Đạt I1–I9: packshot nền trắng 1:1, đúng vị (bao bì đời trước, chưa có huy hiệu canxi)",
-    "source": null,
-    "rubricVersion": "v1"
+    "decision": "REPLACE",
+    "reason": "v2: thay bằng bao bì mới nhất trên trang hãng (cùng dòng/vị; chủ chốt 13/10 lấy bao bì mới nhất)",
+    "source": {
+      "url": "https://acecookvietnam.vn/wp/wp-content/uploads/2025/11/3D-BB-HH-SHTP-DBA.png",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v2"
   },
   "description": {
     "decision": "WRITE_NEW",
-    "reason": "D1: chưa có mô tả; bỏ thành phần/khối lượng vì bao bì đời trước có thể khác công thức hiện tại trên trang hãng",
+    "reason": "D1: chưa có mô tả",
     "source": {
       "url": "https://acecookvietnam.vn/product/mi-hao-hao/",
       "fetchedAt": "2026-10-13"
     },
-    "rubricVersion": "v1"
+    "rubricVersion": "v2"
   },
   "question": null,
   "history": [
@@ -46,6 +49,12 @@
       "by": "ai",
       "status": "READY",
       "note": "pilot review: image KEEP, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-13T15:30:00.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "rubric v2 (owner 13/10: newest packaging, generated description when no source): image REPLACE, description WRITE_NEW"
     }
   ]
 }

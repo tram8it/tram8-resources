@@ -19,7 +19,8 @@ và `STATUS.md` rồi làm tiếp đúng chỗ — không dựa vào trí nhớ 
    (Bách Hóa Xanh, WinMart, Shopee, …). Không tìm được trên trang hãng → **CẦN CHỤP**, không lấy tạm.
 2. **Không sửa cái đang đúng.** Khoảng 1/3 sản phẩm đã đúng: chỉ sửa cái **chắc chắn sai**.
 3. **Không chắc thì không đoán** → trạng thái `ASK_OWNER` kèm câu hỏi cụ thể.
-4. **Không bịa thông tin** trong mô tả. Thiếu dữ kiện thì bỏ trống mục đó.
+4. **Không bịa thông tin** trong mô tả. Thiếu dữ kiện thì bỏ trống mục đó. Thứ tự nguồn mô tả khi trang hãng
+   không có: xem `RUBRIC.md` v2 (nhãn mặt sau → mô tả ngắn từ dữ kiện chắc chắn).
 5. **Repo này chỉ chuẩn bị.** Không phiên nào gọi API ghi vào Hub/KiotViet. Đưa lên web là bước
    riêng (§7), chỉ cho sản phẩm `APPROVED`.
 

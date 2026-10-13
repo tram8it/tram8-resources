@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "ASK_OWNER",
+  "status": "READY",
   "image": {
     "decision": "CROP",
     "reason": "I9: 450×549; crop 1:1 đã xem lại, hơi mềm nhưng không vỡ",
@@ -25,12 +25,15 @@
     "rubricVersion": "v1"
   },
   "description": {
-    "decision": "ASK_OWNER",
-    "reason": "Paldo Vina không có trang web chính thức tại Việt Nam — chưa có nguồn",
-    "source": null,
-    "rubricVersion": "v1"
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; không có trang hãng/nhãn sau — mô tả từ chữ in mặt trước bao bì: Paldo Koreno Jumbo, mì vị bò cay, nấu 4 phút, 1 kg",
+    "source": {
+      "url": "https://cdn2-retail-images.kiotviet.vn/2026/04/26/tram8/2bb3057c742b47c897d930147f4742f8.jpeg",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v2"
   },
-  "question": "Paldo (Koreno) không có trang web chính thức tại Việt Nam nên chưa viết được mô tả (ảnh đã crop xong). Cho phép viết mô tả từ chữ in trên bao bì không? Nếu đồng ý, nhờ nhân viên chụp mặt sau gói (thành phần, khối lượng, HSD).",
+  "question": null,
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -43,6 +46,12 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "pilot review: image CROP, description ASK_OWNER"
+    },
+    {
+      "at": "2026-10-13T15:30:00.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "rubric v2 (owner 13/10: newest packaging, generated description when no source): image CROP, description WRITE_NEW"
     }
   ]
 }

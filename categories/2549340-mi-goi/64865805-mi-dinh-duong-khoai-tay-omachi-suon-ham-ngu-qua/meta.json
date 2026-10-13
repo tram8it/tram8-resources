@@ -20,21 +20,21 @@
   "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh; dùng ảnh trang hãng (80 g, khớp tên)",
+    "reason": "I1: chưa có ảnh; v2: thay bằng bao bì mới nhất trên trang hãng (cùng dòng/vị; chủ chốt 13/10 lấy bao bì mới nhất)",
     "source": {
-      "url": "https://masanconsumer.com/wp-content/uploads/2024/12/Mi-dinh-duong-khoai-tay-Omachi-Suon-ham-ngu-qua.webp",
+      "url": "https://masanconsumer.com/wp-content/uploads/2025/12/Mockup-goi-Suon-scaled.png",
       "fetchedAt": "2026-10-13"
     },
-    "rubricVersion": "v1"
+    "rubricVersion": "v2"
   },
   "description": {
     "decision": "WRITE_NEW",
     "reason": "D1: chưa có mô tả; trang hãng chỉ có giới thiệu + khối lượng",
     "source": {
-      "url": "https://masanconsumer.com/en/omachi-potato-instant-noodles-stewed-ribs-with-five-fruits-flavor/",
+      "url": "https://masanconsumer.com/en/uncategorized-en/mi-dinh-duong-khoai-tay-omachi-suon-ham-ngu-qua-goi-80gr/",
       "fetchedAt": "2026-10-13"
     },
-    "rubricVersion": "v1"
+    "rubricVersion": "v2"
   },
   "question": null,
   "history": [
@@ -49,6 +49,12 @@
       "by": "ai",
       "status": "READY",
       "note": "pilot review: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-13T15:30:00.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "rubric v2 (owner 13/10: newest packaging, generated description when no source): image REPLACE, description WRITE_NEW"
     }
   ]
 }

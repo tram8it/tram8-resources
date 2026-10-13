@@ -17,18 +17,24 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I5: chụp cận nhãn, SP bị cắt; trang Masan không có vị này — chụp mặt trước + mặt sau gói",
-    "source": null,
-    "rubricVersion": "v1"
+    "reason": "I3/I5: chụp cận nhãn; thay bằng bao bì mới nhất trên trang hãng (khớp ‘Hải Sản chua cay’)",
+    "source": {
+      "url": "https://masanconsumer.com/wp-content/uploads/2025/12/Mockup_OMC-Core-TCC_low.png",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v2"
   },
   "description": {
     "decision": "WRITE_NEW",
-    "reason": "D1: chưa có mô tả; trang hãng không có SP này — viết sau khi có ảnh nhãn mặt sau (chờ chủ đồng ý dùng nhãn làm nguồn)",
-    "source": null,
-    "rubricVersion": "v1"
+    "reason": "D1: chưa có mô tả; trang hãng chỉ có giới thiệu + khối lượng",
+    "source": {
+      "url": "https://masanconsumer.com/en/omachi-potato-noodles-hot-and-sour-shirmp-80gr/",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v2"
   },
   "question": null,
   "history": [
@@ -43,6 +49,12 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "pilot review: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-13T15:30:00.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "rubric v2 (owner 13/10: newest packaging, generated description when no source): image REPLACE, description WRITE_NEW"
     }
   ]
 }

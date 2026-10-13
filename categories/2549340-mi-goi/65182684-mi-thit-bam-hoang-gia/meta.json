@@ -20,15 +20,18 @@
   "status": "NEEDS_PHOTO",
   "image": {
     "decision": "REPLACE",
-    "reason": "I5: SP bị cắt mất mép trái; bao bì đang bán khác ảnh trang hãng (130 g) — chụp mặt trước + mặt sau gói",
+    "reason": "I5: SP bị cắt mép trái; bao bì đang bán mới hơn ảnh trên vifon.com.vn — chụp mặt trước + mặt sau gói",
     "source": null,
-    "rubricVersion": "v1"
+    "rubricVersion": "v2"
   },
   "description": {
     "decision": "WRITE_NEW",
-    "reason": "D1: chưa có mô tả; chưa chắc khối lượng (trang hãng 130 g, bao bì khác đời) — viết sau khi có ảnh nhãn",
-    "source": null,
-    "rubricVersion": "v1"
+    "reason": "D1: chưa có mô tả; giới thiệu từ trang Hoàng Gia mì thịt bằm, bỏ khối lượng vì bao bì khác đời",
+    "source": {
+      "url": "https://vifon.com.vn/vn/hoang-gia-mi-thit-bam-co-goi-thit-bam-that-130g.html",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v2"
   },
   "question": null,
   "history": [
@@ -43,6 +46,12 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "pilot review: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-13T15:30:00.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "rubric v2 (owner 13/10: newest packaging, generated description when no source): image REPLACE, description WRITE_NEW"
     }
   ]
 }

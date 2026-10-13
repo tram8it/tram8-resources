@@ -17,20 +17,26 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "ASK_OWNER",
+  "status": "READY",
   "image": {
-    "decision": "ASK_OWNER",
-    "reason": "I2: bao bì đời cũ ‘Sa tế hành cay’; hãng hiện bán ‘Sa Tế Hành Tím’ 75 g",
-    "source": null,
-    "rubricVersion": "v1"
+    "decision": "REPLACE",
+    "reason": "v2: thay bằng bao bì mới nhất trên trang hãng (cùng dòng/vị; chủ chốt 13/10 lấy bao bì mới nhất); tên mới ‘Sa Tế Hành Tím’ 75 g",
+    "source": {
+      "url": "https://acecookvietnam.vn/wp/wp-content/uploads/2025/11/3D-BB-HH-STH-DBA.png",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v2"
   },
   "description": {
-    "decision": "ASK_OWNER",
-    "reason": "Chờ biết đang bán bao bì nào mới viết đúng tên vị và khối lượng",
-    "source": null,
-    "rubricVersion": "v1"
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; theo bao bì mới 75 g",
+    "source": {
+      "url": "https://acecookvietnam.vn/product/mi-hao-hao/",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v2"
   },
-  "question": "Ảnh hiện tại là bao bì cũ ‘Sa tế hành cay’, tên trên KiotViet ghi 74g; trang Acecook hiện chỉ có ‘Hảo Hảo Sa Tế Hành Tím’ 75g. Cửa hàng đang bán bao bì nào? Nếu là bao bì mới: tôi thay ảnh bằng ảnh trang hãng và viết mô tả theo 75g (tên trên KiotViet nên sửa ở KiotViet).",
+  "question": null,
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -43,6 +49,12 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "pilot review: image ASK_OWNER, description ASK_OWNER"
+    },
+    {
+      "at": "2026-10-13T15:30:00.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "rubric v2 (owner 13/10: newest packaging, generated description when no source): image REPLACE, description WRITE_NEW"
     }
   ]
 }

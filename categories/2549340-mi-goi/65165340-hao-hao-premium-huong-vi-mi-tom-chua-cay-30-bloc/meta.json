@@ -19,19 +19,22 @@
   },
   "status": "READY",
   "image": {
-    "decision": "CROP",
-    "reason": "I9: 779×584; crop 1:1 đã xem lại đạt",
-    "source": null,
-    "rubricVersion": "v1"
+    "decision": "REPLACE",
+    "reason": "v2: thay bằng bao bì mới nhất trên trang hãng (cùng dòng/vị; chủ chốt 13/10 lấy bao bì mới nhất); bao bì mới 88 g",
+    "source": {
+      "url": "https://acecookvietnam.vn/wp/wp-content/uploads/2026/04/3D-GOI-HH-PREMIUM-TCC-DBA.png",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v2"
   },
   "description": {
     "decision": "WRITE_NEW",
-    "reason": "D1: chưa có mô tả",
+    "reason": "D1: chưa có mô tả; theo bao bì mới 88 g",
     "source": {
       "url": "https://acecookvietnam.vn/product/mi-hao-hao-premium/",
       "fetchedAt": "2026-10-13"
     },
-    "rubricVersion": "v1"
+    "rubricVersion": "v2"
   },
   "question": null,
   "history": [
@@ -46,6 +49,12 @@
       "by": "ai",
       "status": "READY",
       "note": "pilot review: image CROP, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-13T15:30:00.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "rubric v2 (owner 13/10: newest packaging, generated description when no source): image REPLACE, description WRITE_NEW"
     }
   ]
 }

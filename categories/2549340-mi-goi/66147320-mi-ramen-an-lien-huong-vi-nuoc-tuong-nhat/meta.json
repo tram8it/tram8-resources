@@ -19,10 +19,13 @@
   },
   "status": "READY",
   "image": {
-    "decision": "CROP",
-    "reason": "I9: SP lệch trái; crop 1:1 đã xem lại đạt (bao bì đời trước, cùng mã vạch)",
-    "source": null,
-    "rubricVersion": "v1"
+    "decision": "REPLACE",
+    "reason": "Mã vạch khớp trang hãng → bao bì mới nhất (chủ chốt 13/10)",
+    "source": {
+      "url": "https://nissinfoods.vn/vnt_upload/product/03_2025/Nuoctuong_600x600.jpg",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v2"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -46,6 +49,12 @@
       "by": "ai",
       "status": "READY",
       "note": "pilot review: image CROP, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-13T15:30:00.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "rubric v2 (owner 13/10: newest packaging, generated description when no source): image REPLACE, description WRITE_NEW"
     }
   ]
 }

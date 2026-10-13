@@ -19,10 +19,13 @@
   },
   "status": "READY",
   "image": {
-    "decision": "CROP",
-    "reason": "I9: 450×600, SP nhỏ; crop 1:1 đã xem lại, hơi mềm do phóng 2,6 lần nhưng không vỡ",
-    "source": null,
-    "rubricVersion": "v1"
+    "decision": "REPLACE",
+    "reason": "v2: thay bằng bao bì mới nhất trên trang hãng (cùng dòng/vị; chủ chốt 13/10 lấy bao bì mới nhất)",
+    "source": {
+      "url": "https://acecookvietnam.vn/wp/wp-content/uploads/2025/11/3D-BB-HH-TCC-DBA.png",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v2"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -46,6 +49,12 @@
       "by": "ai",
       "status": "READY",
       "note": "pilot review: image CROP, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-13T15:30:00.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "rubric v2 (owner 13/10: newest packaging, generated description when no source): image REPLACE, description WRITE_NEW"
     }
   ]
 }

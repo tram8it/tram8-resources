@@ -20,15 +20,15 @@
   "status": "NEEDS_PHOTO",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh; trang Masan không có vị này — chụp mặt trước + mặt sau gói",
+    "reason": "I1: chưa có ảnh; trang Masan chưa có vị lẩu tôm càng — chụp mặt trước + mặt sau gói",
     "source": null,
-    "rubricVersion": "v1"
+    "rubricVersion": "v2"
   },
   "description": {
     "decision": "WRITE_NEW",
-    "reason": "D1: chưa có mô tả; trang hãng không có SP này — viết sau khi có ảnh nhãn mặt sau (chờ chủ đồng ý dùng nhãn làm nguồn)",
+    "reason": "D1: chưa có mô tả; không có trang hãng/nhãn sau — mô tả ngắn chỉ từ dữ kiện chắc chắn: tên SP (Omachi, lẩu tôm càng, 80 g)",
     "source": null,
-    "rubricVersion": "v1"
+    "rubricVersion": "v2"
   },
   "question": null,
   "history": [
@@ -43,6 +43,12 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "pilot review: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-13T15:30:00.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "rubric v2 (owner 13/10: newest packaging, generated description when no source): image REPLACE, description WRITE_NEW"
     }
   ]
 }

@@ -17,20 +17,26 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "ASK_OWNER",
+  "status": "READY",
   "image": {
-    "decision": "ASK_OWNER",
-    "reason": "I2: bao bì rất cũ (logo Vina Acecook); hãng hiện bán bao bì mới 81 g",
-    "source": null,
-    "rubricVersion": "v1"
+    "decision": "REPLACE",
+    "reason": "I2: bao bì Vina Acecook rất cũ; v2: thay bằng bao bì mới nhất trên trang hãng (cùng dòng/vị; chủ chốt 13/10 lấy bao bì mới nhất), 81 g",
+    "source": {
+      "url": "https://acecookvietnam.vn/wp/wp-content/uploads/2025/06/3D-BB-MI-LAU-THAI-min-1.png",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v2"
   },
   "description": {
-    "decision": "ASK_OWNER",
-    "reason": "Chờ biết đang bán bao bì nào mới viết đúng khối lượng/thành phần",
-    "source": null,
-    "rubricVersion": "v1"
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; theo bao bì mới 81 g",
+    "source": {
+      "url": "https://acecookvietnam.vn/product/mi-lau-thai/",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v2"
   },
-  "question": "Ảnh hiện tại là bao bì rất cũ (logo Vina Acecook), tên ghi 80GR; trang Acecook hiện là bao bì mới ‘Mì Lẩu Thái Tôm’ 81g. Cửa hàng đang bán bao bì nào? Nếu là bao bì mới, tôi thay bằng ảnh trang hãng và viết mô tả theo 81g.",
+  "question": null,
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -43,6 +49,12 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "pilot review: image ASK_OWNER, description ASK_OWNER"
+    },
+    {
+      "at": "2026-10-13T15:30:00.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "rubric v2 (owner 13/10: newest packaging, generated description when no source): image REPLACE, description WRITE_NEW"
     }
   ]
 }

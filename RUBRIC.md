@@ -1,4 +1,4 @@
-# RUBRIC — bộ tiêu chí cố định (phiên bản **v1**)
+# RUBRIC — bộ tiêu chí cố định (phiên bản **v2**)
 
 Áp dụng giống nhau cho mọi SP, mọi phiên. Ghi `rubricVersion` vào mỗi quyết định để biết SP được
 chấm theo bản nào. Sửa tiêu chí = tăng phiên bản + ghi **nhật ký thay đổi** ở cuối file.
@@ -14,7 +14,7 @@ Mở ảnh ra xem, trả lời theo thứ tự. Câu đầu tiên trả lời �
 | # | Câu hỏi | “Không” → |
 |---|---|---|
 | I1 | Có ảnh, mở được? | `REPLACE` |
-| I2 | **Đúng sản phẩm** — đúng tên, đúng vị/màu, đúng dung tích/quy cách, bao bì không quá cũ? | `REPLACE` (không chắc → `ASK_OWNER`) |
+| I2 | **Đúng sản phẩm** — đúng tên, đúng vị/màu, đúng dung tích/quy cách, **bao bì mới nhất**? | `REPLACE` (không chắc → `ASK_OWNER`) |
 | I3 | Ảnh **sản phẩm** (packshot), không phải ảnh chụp cận nhãn/kệ/tay cầm/bối cảnh? | `REPLACE` |
 | I4 | **Nền trắng** sạch (hoặc trong suốt)? | `REPLACE` — nền màu/ảnh điện thoại không tự tách được cho đẹp |
 | I5 | Thấy **nguyên vẹn** sản phẩm, không bị khung ảnh cắt? | `REPLACE` |
@@ -26,6 +26,8 @@ Mở ảnh ra xem, trả lời theo thứ tự. Câu đầu tiên trả lời �
 
 **CROP** = cắt sát sản phẩm, đặt giữa nền trắng 1:1. **Bắt buộc mở ảnh sau crop ra xem lại**;
 mờ/vỡ/lộ viền xấu → đổi thành `REPLACE`.
+
+**Bao bì mới nhất (v2):** SP cùng mã vạch, hoặc cùng thương hiệu + cùng vị trên trang hãng = cùng SP đã đổi bao bì → luôn dùng ảnh bao bì mới nhất trên trang hãng, kể cả khi ảnh hiện tại đúng nhưng là bao bì đời trước. Mô tả (khối lượng, thành phần) theo bao bì mới đó. Tên trên KiotViet lệch (vd. 74g → 75g) thì báo chủ sửa ở KiotViet.
 
 ### Ví dụ chủ đã chốt (13/10/2026, từ tram8.vn)
 
@@ -55,6 +57,8 @@ mờ/vỡ/lộ viền xấu → đổi thành `REPLACE`.
 | D3 | Viết chuyên nghiệp: tiếng Việt có dấu chuẩn, không viết hoa lung tung, không quảng cáo quá đà, không emoji? | `REWRITE` |
 | D4 | Có đủ thông tin cốt lõi theo khuôn dưới (ít nhất: giới thiệu + quy cách)? | `REWRITE` |
 | — | Tất cả “có” | `KEEP` |
+
+**Nguồn mô tả theo thứ tự (v2):** (1) trang chính hãng; (2) ảnh nhãn mặt sau tìm được trên mạng, chỉ đọc chữ in trên nhãn, không lấy ảnh/văn bản của trang đó, không dùng domain trong `blocked-domains.json`; (3) không có hai nguồn trên → mô tả ngắn **chỉ từ dữ kiện chắc chắn** (tên SP, thương hiệu, vị, khối lượng, chữ in mặt trước bao bì), ghi rõ trong `reason`. Thiếu dữ kiện thì bỏ mục đó, tuyệt đối không suy diễn.
 
 Mô tả **đúng nhưng ngắn gọn** vẫn là `KEEP` nếu đạt D1–D4 — không viết lại chỉ vì “có thể hay hơn”.
 
@@ -96,3 +100,4 @@ Category có thể có khuôn riêng chi tiết hơn trong `categories/<id>-<slu
 | Phiên bản | Ngày | Thay đổi | Theo yêu cầu của |
 |---|---|---|---|
 | v1 | 2026-10-13 | Bản đầu. Ví dụ chuẩn từ ảnh chụp tram8.vn; 1:1 là bắt buộc, crop được thì crop rồi kiểm lại. | Chủ |
+| v2 | 2026-10-13 | I2: luôn dùng **bao bì mới nhất** trên trang hãng khi cùng mã vạch/cùng vị. Mô tả: thêm nguồn nhãn mặt sau và mô tả ngắn từ dữ kiện chắc chắn khi không có nguồn. | Chủ (pilot Mì gói) |
