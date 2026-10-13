@@ -2,7 +2,7 @@
 
 > Sinh tự động bởi `node tools/status.mjs`. **Không sửa tay.** Nguồn sự thật là `meta.json` của từng SP.
 
-Tổng 2448 SP · đã xem 2174 (89%) · xong 0 · chờ chủ duyệt 1140 · cần chụp 827 · hỏi chủ 207
+Tổng 2448 SP · đã xem 2178 (89%) · xong 0 · chờ chủ duyệt 1140 · cần chụp 829 · hỏi chủ 209
 
 Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` = giữ nguyên + đã lên web.
 
@@ -155,7 +155,7 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 | 145 | Dầu xả | 0.0tr | 4 | 4 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 146 | Nước dừa / thạch uống | 0.0tr | 4 | 4 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 147 | Kem đánh răng - Trắng răng | 0.0tr | 4 | 4 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 148 | Đồ dùng khác | 0.0tr | 4 | 4 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 148 | Đồ dùng khác | 0.0tr | 4 | 0 | 0 | 0 | 2 | 2 | 0 | 0 | 0 |
 | 149 | Kem viên / kim cương | 0.0tr | 4 | 4 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 150 | Kẹo mút | 0.0tr | 4 | 4 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 151 | Miếng dán mụn | 0.0tr | 4 | 4 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
