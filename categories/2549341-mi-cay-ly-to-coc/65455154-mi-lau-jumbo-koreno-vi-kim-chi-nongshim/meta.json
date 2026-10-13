@@ -17,26 +17,32 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "ASK_OWNER",
   "image": {
-    "decision": null,
-    "reason": null,
+    "decision": "ASK_OWNER",
+    "reason": "I2: tên SP (Koreno Jumbo) và ảnh (Nongshim Kimchi sabalmyeon) không khớp; ảnh còn chèn logo Nongshim (I7)",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
+    "decision": "ASK_OWNER",
+    "reason": "Chờ chủ xác nhận SP",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
-  "question": null,
+  "question": "'Mì lẩu Jumbo KORENO vị kim Chi Nongshim' (mã vạch 8801043015639, thương hiệu KiotViet ghi KORENO): ảnh hiện tại là tô Nongshim 김치사발면 (Kimchi, tô 86 g), không phải Koreno (Koreno là của Paldo). SP đang bán là tô Nongshim Kimchi 86 g, tô lớn 김치큰사발 112 g, hay mì Koreno Jumbo kim chi của Paldo?",
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:01:52.000Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "b21: image ASK_OWNER, description ASK_OWNER"
     }
   ]
 }

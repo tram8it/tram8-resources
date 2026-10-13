@@ -17,18 +17,24 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "READY",
   "image": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "REPLACE",
+    "reason": "I9: ảnh hiện tại nền trắng nhưng nhỏ, crop thử phóng 2,8 lần bị mờ, viền tách nền răng cưa → thay bằng ảnh hãng (cùng mã vạch 8934572351227), trang SP: https://vissanmart.com/xx-tr-n-d-u-x-t-bbq-vissan-62g-4-cay.html",
+    "source": {
+      "url": "https://vissanmart.com/pub/media/catalog/product/x/x/xx_tr_n_u_bbq_4_c_y.png",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; theo tên SP trên cửa hàng trực tuyến của VISSAN (62 g, 4 cây); trang ghi thành phần không đầy đủ nên bỏ mục thành phần",
+    "source": {
+      "url": "https://vissanmart.com/xx-tr-n-d-u-x-t-bbq-vissan-62g-4-cay.html",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "question": null,
   "history": [
@@ -37,6 +43,12 @@
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:57:41.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "image REPLACE (VISSAN official store image, same barcode), description WRITE_NEW"
     }
   ]
 }

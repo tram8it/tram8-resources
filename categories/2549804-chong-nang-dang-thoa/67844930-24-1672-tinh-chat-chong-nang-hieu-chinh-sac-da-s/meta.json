@@ -17,18 +17,24 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "READY",
   "image": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "REPLACE",
+    "reason": "I3/I4: ảnh tay cầm tại cửa hàng; thay bằng ảnh Rohto VN đúng màu Rose 50g (hộp + tuýp). Trang SP: https://rohto.com.vn/san-pham/san-pham-noi-dia-viet-nam/cham-soc-da/sunplay/tinh-chat-chong-nang-hieu-chinh-sac-da-sunplay-skin-aqua-tone-up-uv-essence-rose.html",
+    "source": {
+      "url": "https://rohto.com.vn/images/2024/sunplay-skin-aqua-tone-up-uv-essence-happiness-aura-rose-20240326-1.jpg",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết từ trang Rohto-Mentholatum VN",
+    "source": {
+      "url": "https://rohto.com.vn/san-pham/san-pham-noi-dia-viet-nam/cham-soc-da/sunplay/tinh-chat-chong-nang-hieu-chinh-sac-da-sunplay-skin-aqua-tone-up-uv-essence-rose.html",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "question": null,
   "history": [
@@ -37,6 +43,12 @@
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:04:31.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "b26: image REPLACE, description WRITE_NEW"
     }
   ]
 }

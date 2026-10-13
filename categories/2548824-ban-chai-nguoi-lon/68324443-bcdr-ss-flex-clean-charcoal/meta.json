@@ -17,26 +17,32 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "ASK_OWNER",
   "image": {
-    "decision": null,
-    "reason": null,
+    "decision": "ASK_OWNER",
+    "reason": "I3, I4: ảnh chụp tay cầm, nền thùng hàng (cần thay); SP thật là vỉ 2 cây bao bì tiếng Anh (mã vạch Thái Lan 885…), khác vỉ tiếng Việt trên colgate.com.vn; đơn vị KiotViet là 'cây'",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
+    "decision": "ASK_OWNER",
+    "reason": "quy cách bán chưa rõ (vỉ 2 cây hay 1 cây)",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
-  "question": null,
+  "question": "Colgate Slim Soft Flex Clean Charcoal (mã vạch 8850006332559): ảnh là vỉ 2 cây (bao bì tiếng Anh, hàng Thái) nhưng đơn vị KiotViet là 'cây'. Cửa hàng bán cả vỉ 2 cây hay tách lẻ 1 cây? (bao bì này khác bản tiếng Việt trên trang hãng nên cần nhân viên chụp)",
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:03:56.000Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "2-pack vs unit 'cây' unclear; Thai pack differs from VN official → ask owner"
     }
   ]
 }

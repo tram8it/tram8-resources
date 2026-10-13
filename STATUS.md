@@ -2,7 +2,7 @@
 
 > Sinh tự động bởi `node tools/status.mjs`. **Không sửa tay.** Nguồn sự thật là `meta.json` của từng SP.
 
-Tổng 2448 SP · đã xem 1553 (63%) · xong 0 · chờ chủ duyệt 772 · cần chụp 617 · hỏi chủ 164
+Tổng 2448 SP · đã xem 1562 (64%) · xong 0 · chờ chủ duyệt 780 · cần chụp 618 · hỏi chủ 164
 
 Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` = giữ nguyên + đã lên web.
 
@@ -102,7 +102,7 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 | 92 | Bắp & khoai giòn | 0.0tr | 9 | 9 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 93 | Bao cao su | 0.0tr | 9 | 9 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 94 | Dụng cụ tắm và vệ sinh cá nhân | 0.0tr | 9 | 9 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 95 | Chống nắng dạng thoa | 0.0tr | 9 | 9 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 95 | Chống nắng dạng thoa | 0.0tr | 9 | 0 | 0 | 0 | 1 | 0 | 8 | 0 | 0 |
 | 96 | Socola viên / kẹo socola | 0.0tr | 9 | 9 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 97 | Gia vị - Đồ chấm | 0.0tr | 9 | 9 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 98 | Sữa rửa mặt NAM | 0.0tr | 9 | 9 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |

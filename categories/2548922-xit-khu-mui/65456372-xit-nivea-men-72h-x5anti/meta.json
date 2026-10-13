@@ -17,18 +17,18 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "NEEDS_PHOTO",
   "image": {
-    "decision": null,
-    "reason": null,
+    "decision": "REPLACE",
+    "reason": "I3/I4: ảnh chụp điện thoại, nền cửa hàng/không trắng (tường gạch), chai bị khung cắt; ảnh là Silver Protect Dynamic Power 48h trong khi tên ghi 72H; nivea.com.vn không có SP mã vạch này (chỉ có vài mã 400580… bao bì cũ) → cần chụp",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết ngắn chỉ từ tên hàng (chưa có ảnh, không có trang hãng cho mã này)",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
   "question": null,
   "history": [
@@ -37,6 +37,12 @@
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:58:51.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "b19: image REPLACE, description WRITE_NEW"
     }
   ]
 }

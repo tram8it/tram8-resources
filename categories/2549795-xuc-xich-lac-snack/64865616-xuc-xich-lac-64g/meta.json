@@ -17,18 +17,18 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "NEEDS_PHOTO",
   "image": {
-    "decision": null,
-    "reason": null,
+    "decision": "REPLACE",
+    "reason": "I3, I4: ảnh chụp điện thoại cầm tay, nền không trắng; Heo Cao Bồi không có trang hãng/kênh chính chủ có ảnh SP (đã tìm masanconsumer.com, masanmeatlife.com.vn) → cần chụp",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; mô tả ngắn chỉ từ dữ kiện chắc chắn (tên KiotViet, chữ mặt trước hũ), không có nguồn hãng; tên KiotViet không ghi vị nên không nêu vị",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
   "question": null,
   "history": [
@@ -37,6 +37,12 @@
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:57:41.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "image REPLACE (no official source) → NEEDS_PHOTO, description WRITE_NEW from pack front"
     }
   ]
 }

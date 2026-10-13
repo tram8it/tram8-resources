@@ -1,0 +1,6 @@
+Sữa chống nắng toàn thân NIVEA Sun Protect & Moisture SPF50+, chống tia UVA/UVB, có vitamin C, vitamin E và hyaluron giúp dưỡng ẩm cho da. Kháng nước, không để lại vệt trắng, kết cấu nhẹ, thấm nhanh, phù hợp khi đi biển, bơi lội và hoạt động ngoài trời.
+
+Thành phần: Aqua, Alcohol Denat., Glycerin, Butyl Methoxydibenzoylmethane, C12-15 Alkyl Benzoate, Dibutyl Adipate, Isopropyl Palmitate, Bis-Ethylhexyloxyphenol Methoxyphenyl Triazine, Diethylamino Hydroxybenzoyl Hexyl Benzoate, Dipropylene Glycol Dibenzoate, Ethylhexyl Triazone, Cetyl Alcohol, Copernicia Cerifera Cera, Silica Dimethyl Silylate, Phenylbenzimidazole Sulfonic Acid, Sodium Ascorbyl Phosphate, Tocopheryl Acetate, Sodium Hyaluronate, Polyglyceryl-3 Methylglucose Distearate, Glyceryl Stearate Citrate, Glyceryl Stearate, C18-38 Alkyl Hydroxystearoyl Stearate, Xanthan Gum, Cetyl Palmitate, Trisodium Ethylenediamine Disuccinate, Sodium Hydroxide, Phenoxyethanol, Hydroxyacetophenone, Linalool, Benzyl Alcohol, Linalyl Acetate, Alpha-Isomethyl Ionone, Citronellol, Vanillin, Parfum.
+Quy cách: 75 ml · chai
+Nhà sản xuất/thương hiệu: Beiersdorf · NIVEA Sun
+Hướng dẫn sử dụng: Thoa đều lên da trước khi ra nắng, thoa đủ lượng; thoa lại sau khi bơi, lau khô hoặc ra nhiều mồ hôi.

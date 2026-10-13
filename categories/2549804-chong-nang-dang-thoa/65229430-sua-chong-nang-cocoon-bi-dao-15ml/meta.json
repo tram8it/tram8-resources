@@ -17,18 +17,24 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "READY",
   "image": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "REPLACE",
+    "reason": "I1: chưa có ảnh; dùng ảnh hãng Cocoon bản 15ml (nền be trơn của studio được đưa về trắng, không đổi bao bì). Trang SP: https://cocoonvietnam.com/san-pham/sua-chong-nang-bi-dao-15ml (mã 8936217700742 có trên trang)",
+    "source": {
+      "url": "https://image.cocoonvietnam.com/uploads/Ecom_Skin_BD_Sua_chong_nang_bi_dao_15ml_01_2_777849abe3.png",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết từ trang Cocoon, chỉ giữ dữ kiện sản phẩm",
+    "source": {
+      "url": "https://cocoonvietnam.com/san-pham/sua-chong-nang-bi-dao-15ml",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "question": null,
   "history": [
@@ -37,6 +43,12 @@
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:04:31.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "b26: image REPLACE, description WRITE_NEW"
     }
   ]
 }

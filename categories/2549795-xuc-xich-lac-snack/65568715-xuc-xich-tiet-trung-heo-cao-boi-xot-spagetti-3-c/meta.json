@@ -17,26 +17,32 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "ASK_OWNER",
   "image": {
-    "decision": null,
-    "reason": null,
+    "decision": "ASK_OWNER",
+    "reason": "I2: ảnh nền trắng đúng dòng 'Xốt Spaghetti' nhưng là bao bì 'Nguồn dinh dưỡng từ THỊT', khác bao bì 'Snack dinh dưỡng' của các vị Heo Cao Bồi khác đang bán — không chắc còn là bao bì hiện hành",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
+    "decision": "ASK_OWNER",
+    "reason": "chờ chủ xác nhận bao bì",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
-  "question": null,
+  "question": "Xúc xích Heo Cao Bồi xốt Spaghetti (mã vạch 8936034877726): ảnh hiện tại là hũ đỏ in 'Nguồn dinh dưỡng từ THỊT', trong khi các vị khác ở cửa hàng là bao bì mới 'Snack dinh dưỡng / Săn quà bí mật'. Hũ đang bán có giống ảnh hiện tại không? Nếu khác thì cần nhân viên chụp lại.",
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:57:41.000Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "possible old packaging on white-background render → ask owner"
     }
   ]
 }

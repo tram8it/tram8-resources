@@ -17,18 +17,21 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "READY",
   "image": {
-    "decision": null,
-    "reason": null,
+    "decision": "KEEP",
+    "reason": "Đạt I1–I9: packshot nền trắng, đúng SP (NIVEA MEN Invisible for Black & White, cùng bao bì với ảnh trên nivea.com.vn mã 4005808073870), 1:1, căn giữa",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết theo trang hãng (cùng mã vạch, mã hàng 82241)",
+    "source": {
+      "url": "https://www.nivea.com.vn/san-pham/x%E1%BB%8Bt-ng%C4%83n-m%C3%B9i-nivea-men-gi%E1%BA%A3m-h%C3%ACnh-th%C3%A0nh-v%E1%BB%87t-%E1%BB%91-v%C3%A0ng-tr%C3%AAn-ao-40058080738700243.html",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "question": null,
   "history": [
@@ -37,6 +40,12 @@
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:58:51.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "b19: image KEEP, description WRITE_NEW"
     }
   ]
 }

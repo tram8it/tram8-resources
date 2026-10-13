@@ -17,18 +17,18 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "READY",
   "image": {
-    "decision": null,
-    "reason": null,
+    "decision": "CROP",
+    "reason": "I9: packshot nền trắng đúng SP Daily Moist 180ml nhưng không 1:1; crop về 1:1, đã xem lại (phóng 1,9 lần, đạt theo v4). Không tìm thấy mã 42397526 trên trang NIVEA để thay bản mới hơn",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; mô tả ngắn chỉ từ chữ in mặt trước bao bì (SPF50, vitamin E, 180 ml) vì không có trang hãng cho mã này",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
   "question": null,
   "history": [
@@ -37,6 +37,12 @@
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:04:31.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "b26: image CROP, description WRITE_NEW"
     }
   ]
 }

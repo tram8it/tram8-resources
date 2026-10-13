@@ -17,18 +17,24 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "READY",
   "image": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "REPLACE",
+    "reason": "I2 (v2): ảnh hiện tại là bao bì cũ ('Yeah!!! Ngon tuyệt'); thay bằng ảnh bao bì mới trên cửa hàng trực tuyến của VISSAN (cùng mã vạch 8934572350220), trang SP: https://vissanmart.com/xx-l-c-k-u-v-pho-mai-vissan-56g-4-cay.html",
+    "source": {
+      "url": "https://vissanmart.com/pub/media/catalog/product/x/x/xx_l_c_k_u_ph_mai_4_c_y.png",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; theo tên SP trên cửa hàng trực tuyến của VISSAN (56 g, 4 cây)",
+    "source": {
+      "url": "https://vissanmart.com/xx-l-c-k-u-v-pho-mai-vissan-56g-4-cay.html",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "question": null,
   "history": [
@@ -37,6 +43,12 @@
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:57:41.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "image REPLACE (newest pack from VISSAN official store), description WRITE_NEW"
     }
   ]
 }

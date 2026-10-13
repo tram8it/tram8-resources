@@ -17,18 +17,24 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "READY",
   "image": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "REPLACE",
+    "reason": "I2 (v2): ảnh cũ là bao bì Saeutang cốc đời trước, mờ; thay bằng bao bì mới 새우탕컵면 67 g trên trang Nongshim. Trang SP: https://brand.nongshim.com/shrimpnoodle/main/index",
+    "source": {
+      "url": "https://image.nongshim.com/non/pro/434_shrimpcup.jpg",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; theo trang Nongshim (새우탕컵면 67 g)",
+    "source": {
+      "url": "https://brand.nongshim.com/shrimpnoodle/main/index",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "question": null,
   "history": [
@@ -37,6 +43,12 @@
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:01:52.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "b21: image REPLACE, description WRITE_NEW"
     }
   ]
 }

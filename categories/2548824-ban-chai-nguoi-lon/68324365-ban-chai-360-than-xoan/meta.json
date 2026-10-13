@@ -17,26 +17,32 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "ASK_OWNER",
   "image": {
-    "decision": null,
-    "reason": null,
+    "decision": "ASK_OWNER",
+    "reason": "I3, I4: ảnh chụp tay cầm, nền thùng hàng (cần thay); ảnh hãng 'Colgate 360 Charcoal Spiral' cùng vỉ '360° Siêu mềm' nhưng vỉ thật có thẻ 'Charcoal – Đầu lông chải nhỏ phủ than', không chắc cùng SP (ảnh ứng viên: work/2548824-ban-chai-nguoi-lon/68324365/candidate-official.png)",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
+    "decision": "ASK_OWNER",
+    "reason": "chờ chủ xác nhận đúng dòng SP",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
-  "question": null,
+  "question": "Bàn chải 'Colgate 360 than xoắn' (mã vạch 8935102114114): vỉ đang bán có thẻ đỏ 'CHARCOAL – Đầu Lông Chải Nhỏ Phủ Than'. Trên colgate.com.vn có 'Colgate 360 Charcoal Spiral' (cán xám có điểm xanh, vỉ '360° Siêu mềm'). Đây có đúng là SP đó không (cán có điểm xanh không)? Đúng thì dùng ảnh hãng; không thì cần chụp.",
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:03:56.000Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "possible match with 360 Charcoal Spiral official image → ask owner"
     }
   ]
 }

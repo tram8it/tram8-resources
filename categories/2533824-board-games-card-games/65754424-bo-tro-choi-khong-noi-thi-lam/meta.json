@@ -17,18 +17,18 @@
     "description": "<p data-path-to-node=\"3\">Bạn đang tìm kiếm một tựa game siêu \"lầy lội\", cực kỳ hài hước để khuấy động không khí trong các buổi tiệc tùng, dã ngoại, sinh nhật hay những buổi tụ tập cuối tuần cùng hội bạn thân? <strong>Bộ trò chơi \"Không Nói Thì Làm\"</strong> chính là \"vũ khí bí mật\" giúp phá băng mọi khoảng cách, mang lại những tràng cười bể bụng và những khoảnh khắc \"khó đỡ\" cho tất cả mọi người!</p><h2 data-path-to-node=\"5\">🌟 THÔNG TIN CHI TIẾT SẢN PHẨM</h2><ul data-path-to-node=\"6\"><li><p data-path-to-node=\"6,0,0\"><strong>Tên sản phẩm:</strong> Bộ trò chơi \"Không Nói Thì Làm\"</p></li><li><p data-path-to-node=\"6,1,0\"><strong>Chất liệu:</strong> Giấy bìa cứng cao cấp, cán màng chống thấm nước và chống bám bẩn hiệu quả, thoải mái chơi trong các buổi tiệc mà không lo gãy góc hay ẩm ướt.</p></li><li><p data-path-to-node=\"6,2,0\"><strong>Kích thước nhỏ gọn:</strong> Dễ dàng bỏ túi xách, balo mang đi du lịch, dã ngoại, quán cafe hay pub/bar.</p></li><li><p data-path-to-node=\"6,3,0\"><strong>Số lượng người chơi:</strong> Thích hợp cho nhóm từ 3 người trở lên (càng đông càng vui).</p></li><li><p data-path-to-node=\"6,4,0\"><strong>Độ tuổi phù hợp:</strong> Từ 12+ hoặc 18+ (tùy phiên bản chọn lựa cho hội nhóm).</p></li></ul><h2 data-path-to-node=\"11\">HƯỚNG DẪN CÁCH CHƠI CƠ BẢN</h2><ol data-path-to-node=\"12\"><li><p data-path-to-node=\"12,0,0\">Xáo đều chồng bài và đặt úp ở trung tâm bàn chơi.</p></li><li><p data-path-to-node=\"12,1,0\">Người chơi lần lượt bốc một lá bài theo vòng tròn.</p></li><li><p data-path-to-node=\"12,2,0\">Đọc to nội dung thử thách hoặc câu hỏi trên lá bài.</p></li><li><p data-path-to-node=\"12,3,0\"><strong>Không nói thì làm:</strong> Phải thực hiện ngay thử thách được giao hoặc trả lời thật lòng; nếu từ chối hoặc không hoàn thành, hình phạt \"vui vẻ\" (hoặc theo quy định chung của nhóm) sẽ được kích hoạt!</p></li></ol>",
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "NEEDS_PHOTO",
   "image": {
-    "decision": null,
-    "reason": null,
+    "decision": "REPLACE",
+    "reason": "I3, I4: ảnh điện thoại chụp hộp trên mặt đá. Không có trang nhà phát hành → cần chụp",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
+    "decision": "REWRITE",
+    "reason": "D3: mô tả cũ là văn quảng cáo kiểu chatbot (HTML, lời lẽ quá đà); viết lại ngắn từ tên SP và chữ in trên hộp",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
   "question": null,
   "history": [
@@ -37,6 +37,12 @@
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:56:37.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "b21: image REPLACE, description REWRITE"
     }
   ]
 }

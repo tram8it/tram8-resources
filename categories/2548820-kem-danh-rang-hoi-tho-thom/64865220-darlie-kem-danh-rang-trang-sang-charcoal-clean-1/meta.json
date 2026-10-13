@@ -17,18 +17,21 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "NEEDS_PHOTO",
   "image": {
-    "decision": null,
-    "reason": null,
+    "decision": "REPLACE",
+    "reason": "I3/I5/I8: ảnh chụp kệ, nhiều hộp, bị cắt. Trang Darlie Việt Nam chỉ có ảnh bao bì Hồng Kông (khác bao bì VN đang bán: có hình than tre, \"14 Days Whitening\") → cần chụp",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết từ trang Darlie Việt Nam (trang ghi 1 cỡ 140 g)",
+    "source": {
+      "url": "https://www.darlie.com.vn/vi/products/all-products/darlie-all-shiny-white-charcoal-clean-toothpaste",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "question": null,
   "history": [
@@ -37,6 +40,12 @@
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:58:06.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "needs photo; description WRITE_NEW from darlie.com.vn"
     }
   ]
 }
