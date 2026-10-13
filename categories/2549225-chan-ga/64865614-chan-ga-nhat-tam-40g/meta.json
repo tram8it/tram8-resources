@@ -17,26 +17,32 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "ASK_OWNER",
   "image": {
-    "decision": null,
-    "reason": null,
+    "decision": "ASK_OWNER",
+    "reason": "I3/I7: ảnh là banner quảng cáo của cửa hàng ZonZon Food (nhiều gói chân gà cay Hey Yo); tên hàng ghi 'Nhất Tâm' nên không rõ SP thật",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
+    "decision": "ASK_OWNER",
+    "reason": "Chờ chủ xác nhận thương hiệu/vị trước khi viết",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
-  "question": null,
+  "question": "'Chân gà NHẤT TÂM 40g' (mã 8938545001041, thương hiệu ghi HEY YO): ảnh hiện tại là banner ZonZon Food với chân gà cay Hey Yo. SP này là chân gà của hãng nào (Nhất Tâm hay Hey Yo), vị gì?",
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:30:00.000Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "b20 review: image ASK_OWNER, description ASK_OWNER"
     }
   ]
 }
