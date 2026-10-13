@@ -17,18 +17,24 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "READY",
   "image": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "REPLACE",
+    "reason": "I1: chưa có ảnh → ảnh hãng Oishi Leju nước lê đường phèn 180 ml. Trang SP: https://oishi.com.vn/category/beverages",
+    "source": {
+      "url": "https://oishi.cdn.vccloud.vn/storage/products/May2026/Qfdq3Cl24QKm6IdYGfcM.png",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; theo trang hãng Oishi (Leju nước lê đường phèn 180 ml)",
+    "source": {
+      "url": "https://oishi.com.vn/category/beverages",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "question": null,
   "history": [
@@ -37,6 +43,12 @@
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:32:10.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "batch b09 review: image REPLACE, description WRITE_NEW"
     }
   ]
 }

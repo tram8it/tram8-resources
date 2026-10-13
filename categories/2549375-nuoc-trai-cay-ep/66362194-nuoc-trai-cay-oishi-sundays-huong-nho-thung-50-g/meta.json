@@ -17,26 +17,32 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "ASK_OWNER",
   "image": {
-    "decision": null,
-    "reason": null,
+    "decision": "ASK_OWNER",
+    "reason": "I8: tên ghi 'Thùng 50 gói x 180ml' nhưng đơn vị là Gói và ảnh là 1 túi",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
+    "decision": "ASK_OWNER",
+    "reason": "Chờ chủ xác nhận quy cách bán trước khi viết",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
-  "question": null,
+  "question": "SP \"Nước Trái cây Oishi Sundays hương nho - Thùng 50 gói x 180ml\" (đơn vị Gói) bán lẻ 1 túi 180 ml hay bán nguyên thùng 50 túi? Nếu bán 1 túi thì dùng ảnh hãng túi Sundays nước nho và sửa tên trên KiotViet.",
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:32:10.000Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "batch b09 review: image ASK_OWNER, description ASK_OWNER"
     }
   ]
 }
