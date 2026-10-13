@@ -17,18 +17,24 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "READY",
   "image": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "REPLACE",
+    "reason": "I3/I4: ảnh hiện tại là banner quảng cáo; thay bằng chai 85 ml hương dâu từ cửa hàng chính hãng thtruemart.vn (mã vạch chai 8935217411580 trùng)",
+    "source": {
+      "url": "https://cdn.hstatic.net/products/200001185942/sua-uong-len-men-th-true-yogurt-dau_2_a151c52749bf45d7a06a6445445cf46c_54c9cb0491424539b466b3a910278508.jpg",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; theo trang SP thtruemart.vn",
+    "source": {
+      "url": "https://thtruemart.vn/products/chai-sua-uong-len-men-huong-dau-tu-nhien-th-true-yogurt-probiotics-85ml",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "question": null,
   "history": [
@@ -37,6 +43,12 @@
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:36:29.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "b10 review: image REPLACE, description WRITE_NEW"
     }
   ]
 }

@@ -17,18 +17,24 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "READY",
   "image": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "REPLACE",
+    "reason": "I3/I4: ảnh chụp điện thoại tay cầm; thay bằng chai 85 ml ít đường từ thtruemart.vn (mã vạch chai 8935217411689 trùng)",
+    "source": {
+      "url": "https://cdn.hstatic.net/products/200001185942/pack_3d_sulm_id_vi_aff89e34465344b5b037f2a76a977a32_7bd7c43c1e244ae88c34a6211219c154.png",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; theo trang SP thtruemart.vn",
+    "source": {
+      "url": "https://thtruemart.vn/products/sua-uong-len-men-it-duong-th-true-yogurt-probiotics-85-ml",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "question": null,
   "history": [
@@ -37,6 +43,12 @@
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:36:29.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "b10 review: image REPLACE, description WRITE_NEW"
     }
   ]
 }

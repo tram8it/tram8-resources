@@ -17,18 +17,24 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "READY",
   "image": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "REPLACE",
+    "reason": "I1: chưa có ảnh; ảnh chai 65 ml \"vị ngon truyền thống\" trên vinamilk.com.vn/products/sua-chua-uong-probi-co-duong",
+    "source": {
+      "url": "https://d8um25gjecm9v.cloudfront.net/cms/PROBI_CD_65_1_a83f5f09f5_f5bb926613.png",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; theo trang hãng",
+    "source": {
+      "url": "https://www.vinamilk.com.vn/products/sua-chua-uong-probi-co-duong",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "question": null,
   "history": [
@@ -37,6 +43,12 @@
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:36:29.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "b10 review: image REPLACE, description WRITE_NEW"
     }
   ]
 }
