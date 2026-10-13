@@ -58,6 +58,12 @@
       "by": "ai",
       "status": "READY",
       "note": "unit: túi (1 kg bag)"
+    },
+    {
+      "at": "2026-10-13T16:19:03.544Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: name, weightGram, brand, description, image"
     }
   ],
   "master": {
@@ -66,5 +72,16 @@
     "brand": "Koreno",
     "reason": "Mẫu tên: Loại + Thương hiệu + Vị + Khối lượng (chủ chốt 13/10); khối lượng tịnh và thương hiệu theo bao bì",
     "rubricVersion": "v4"
+  },
+  "submitted": {
+    "at": "2026-10-13T16:19:03.544Z",
+    "fields": [
+      "name",
+      "weightGram",
+      "brand",
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
   }
 }
