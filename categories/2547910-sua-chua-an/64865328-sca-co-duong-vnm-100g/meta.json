@@ -17,18 +17,21 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "NEEDS_PHOTO",
   "image": {
-    "decision": null,
-    "reason": null,
+    "decision": "REPLACE",
+    "reason": "I1: chưa có ảnh; trang Vinamilk (https://www.vinamilk.com.vn/products/sua-chua-vinamilk-co-duong, mã vạch trùng) chỉ có ảnh lốc 4 hộp và thùng, không có ảnh 1 hộp → cần chụp",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết từ trang Vinamilk (mã vạch trùng), bỏ câu quảng cáo/công dụng",
+    "source": {
+      "url": "https://www.vinamilk.com.vn/products/sua-chua-vinamilk-co-duong",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "question": null,
   "history": [
@@ -37,6 +40,12 @@
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:10:12.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "needs photo; description WRITE_NEW (vinamilk.com.vn)"
     }
   ]
 }

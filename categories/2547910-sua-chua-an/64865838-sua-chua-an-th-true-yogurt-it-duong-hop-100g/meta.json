@@ -17,18 +17,24 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "READY",
   "image": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "REPLACE",
+    "reason": "I8: ảnh cũ là lốc 4 hộp, SP bán lẻ 1 hộp 100 g; thay ảnh 1 hộp trên cửa hàng chính hãng TH (https://thtruemart.vn/products/sua-chua-it-duong-th-true-yogurt-100-g)",
+    "source": {
+      "url": "https://cdn.hstatic.net/products/200001185942/1__1__3c644b47c910440892b992fa6cbb3b33_b1abbb719db64907a84b106c436079b5.png",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết từ trang TH true mart",
+    "source": {
+      "url": "https://thtruemart.vn/products/sua-chua-it-duong-th-true-yogurt-100-g",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "question": null,
   "history": [
@@ -37,6 +43,12 @@
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:10:12.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "image REPLACE, description WRITE_NEW (thtruemart.vn)"
     }
   ]
 }

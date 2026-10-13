@@ -17,26 +17,32 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "ASK_OWNER",
   "image": {
-    "decision": null,
-    "reason": null,
+    "decision": "ASK_OWNER",
+    "reason": "I2: nghi bao bì đời trước (Yogus), chưa chắc",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
+    "decision": "ASK_OWNER",
+    "reason": "chờ xác nhận bao bì",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
-  "question": null,
+  "question": "Sữa chua Dalat Milk dâu tây 100g: ảnh hiện tại là hộp in chữ \"Yogus Dalat Milk\" (thiết kế cũ, khác nắp mới của các vị đào/không đường). Hộp dâu đang bán còn in \"Yogus\" không? Nếu không thì cần nhân viên chụp lại.",
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:10:12.000Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "ask owner: Yogus packaging still current?"
     }
   ]
 }

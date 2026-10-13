@@ -17,18 +17,24 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "READY",
   "image": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "REPLACE",
+    "reason": "I3/I4: ảnh tay cầm chụp điện thoại, nền không trắng; thay ảnh 1 hộp trên cửa hàng chính hãng TH (https://thtruemart.vn/products/s-a-chua-ngu-c-c-ca-cao-t-nhien-th-true-yogurt)",
+    "source": {
+      "url": "https://cdn.hstatic.net/products/200001185942/h_p_l__ng__c_c_616a11a1c3a14bbda410671ec0f70d1c_67ed37576f384a5d82ab367e299b8796.png",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết từ trang TH true mart",
+    "source": {
+      "url": "https://thtruemart.vn/products/s-a-chua-ngu-c-c-ca-cao-t-nhien-th-true-yogurt",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "question": null,
   "history": [
@@ -37,6 +43,12 @@
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:10:12.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "image REPLACE, description WRITE_NEW (thtruemart.vn)"
     }
   ]
 }
