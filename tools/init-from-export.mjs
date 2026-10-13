@@ -150,7 +150,7 @@ for (const p of scope) {
 }
 await writeJson(join(ROOT, "data", "categories.json"), {
   exportedAt,
-  categories: [...revenueByCategory.values()].sort((a, b) => b.revenue90d - a.revenue90d),
+  categories: [...revenueByCategory.values()].sort((a, b) => b.revenue90d - a.revenue90d || b.products - a.products),
 });
 
 console.log(`created ${created} · refreshed ${refreshed} · moved ${moved}`);
