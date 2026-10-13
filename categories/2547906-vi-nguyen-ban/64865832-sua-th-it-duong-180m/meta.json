@@ -17,18 +17,24 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "READY",
   "image": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "REPLACE",
+    "reason": "I6/I9: ảnh chụp tối màu, crop ra xám xấu; thay bằng hộp 180 ml cùng bao bì trên https://thtruemart.vn/products/sua-tuoi-tiet-trung-it-duong-180-ml (mặt sau mã 8935217400355 trùng)",
+    "source": {
+      "url": "https://cdn.hstatic.net/products/200001185942/_t_ng_png_1_fa518fff50d241bd8351b6e7eaa392b2_00555b95980c4f7683ab652da1bdc8c2.png",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết từ trang thtruemart.vn (kênh bán lẻ của TH) + đọc nhãn mặt sau trên ảnh của trang đó",
+    "source": {
+      "url": "https://thtruemart.vn/products/sua-tuoi-tiet-trung-it-duong-180-ml",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "question": null,
   "history": [
@@ -37,6 +43,12 @@
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:19:03.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "b16 review: image REPLACE, description WRITE_NEW"
     }
   ]
 }

@@ -17,18 +17,24 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "READY",
   "image": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "REPLACE",
+    "reason": "I2: ảnh là TH true YOGURT (sai SP); thay bằng hộp có đường 180 ml trên https://thtruemart.vn/products/sua-tuoi-tiet-trung-co-duong-180-ml (mặt sau mã 8935217400157 trùng)",
+    "source": {
+      "url": "https://cdn.hstatic.net/products/200001185942/c_ng_png_1_d0dc03ff825a4b3191d199ac6965e6d1_e37cb60ec1a24eababfee2b8b5fdcb2a.png",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết từ trang thtruemart.vn (kênh bán lẻ của TH) + đọc nhãn mặt sau trên ảnh của trang đó",
+    "source": {
+      "url": "https://thtruemart.vn/products/sua-tuoi-tiet-trung-co-duong-180-ml",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "question": null,
   "history": [
@@ -37,6 +43,12 @@
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:19:03.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "b16 review: image REPLACE, description WRITE_NEW"
     }
   ]
 }

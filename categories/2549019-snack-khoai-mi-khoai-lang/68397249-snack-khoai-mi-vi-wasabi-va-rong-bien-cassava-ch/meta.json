@@ -17,18 +17,24 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "READY",
   "image": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "REPLACE",
+    "reason": "I1: chưa có ảnh; ảnh hãng NOi Seaweed Wasabi Cassava Chips 85g từ cửa hàng Tong Garden Food (Singapore), mã vạch mặt sau 8850291112423 khớp; trang https://shop.tonggarden.com.sg/p/tonggarden-noi-seaweed-wasabi-cassava-chips-85g",
+    "source": {
+      "url": "https://magentoapi.tonggarden.com.sg/media/catalog/product/n/o/noi-seaweed-_-wasabi-cassava-chips-85g-f-min.jpg",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết từ nhãn mặt sau trên ảnh hãng (thành phần, nơi sản xuất)",
+    "source": {
+      "url": "https://magentoapi.tonggarden.com.sg/media/catalog/product/n/o/noi-seaweed-_-wasabi-cassava-chips-85g-b-min.jpg",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "question": null,
   "history": [
@@ -37,6 +43,12 @@
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:17:41.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "b28 review: image REPLACE, description WRITE_NEW"
     }
   ]
 }

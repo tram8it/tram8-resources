@@ -17,18 +17,24 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "READY",
   "image": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "REPLACE",
+    "reason": "I3/I4/I7: ảnh chụp điện thoại cầm tay trong kho, nền lộn xộn, có tem khuyến mãi dán thêm; thay bằng ảnh bao bì trên trang CJ Foods (https://cjfoods.com.vn/product/rong-bien-nuong-gion-tron-cha-bong-tom/), cùng vị và quy cách",
+    "source": {
+      "url": "https://cdn.cjfoods.com.vn/wp-content/uploads/2026/06/Rong-bien-nuong-gion-tom-cha-bong_45g.webp",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết từ trang CJ Foods",
+    "source": {
+      "url": "https://cjfoods.com.vn/product/rong-bien-nuong-gion-tron-cha-bong-tom/",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "question": null,
   "history": [
@@ -37,6 +43,12 @@
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:19:36.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "image REPLACE (cjfoods.com.vn), description WRITE_NEW"
     }
   ]
 }

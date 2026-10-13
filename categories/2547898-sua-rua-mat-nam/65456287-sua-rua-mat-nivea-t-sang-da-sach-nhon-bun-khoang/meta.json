@@ -17,18 +17,24 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "READY",
   "image": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "REPLACE",
+    "reason": "I3/I4: ảnh chụp điện thoại tại kệ, nền không trắng; thay bằng ảnh hãng cùng mã 8850029014630. Trang SP: https://www.nivea.co.th/products/nivea-men-bright-oil-clear-face-mud-foam-100g-88500290146300077.html",
+    "source": {
+      "url": "https://img.nivea.com/-/media/miscellaneous/media-center-items/a/3/a/d6c1a4a1e515436a9d3f1b59ca8d105c-web_1010x1180_transparent_png.png",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết từ trang NIVEA Thái Lan (cùng mã vạch)",
+    "source": {
+      "url": "https://www.nivea.co.th/products/nivea-men-bright-oil-clear-face-mud-foam-100g-88500290146300077.html",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "question": null,
   "history": [
@@ -37,6 +43,12 @@
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:18:26.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "b26: image REPLACE, description WRITE_NEW"
     }
   ]
 }

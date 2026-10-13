@@ -17,26 +17,32 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "ASK_OWNER",
   "image": {
-    "decision": null,
-    "reason": null,
+    "decision": "ASK_OWNER",
+    "reason": "I1: chưa có ảnh; chưa chắc SP là gói 110g hay ly/khay nên chưa chọn ảnh",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
+    "decision": "ASK_OWNER",
+    "reason": "chờ chủ xác nhận quy cách",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
-  "question": null,
+  "question": "SP 'Mì trộn tương đen Vifon' (mã 8935311102476) là loại nào: gói 110g (bao vàng, nấu 4 phút) hay dạng ly/khay? Trang Vifon chỉ có gói 110g, còn khay 90g mang mã khác (8935311101073).",
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:17:11.000Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "b16 review: image ASK_OWNER, description ASK_OWNER"
     }
   ]
 }

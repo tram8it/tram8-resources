@@ -17,18 +17,18 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "NEEDS_PHOTO",
   "image": {
-    "decision": null,
-    "reason": null,
+    "decision": "REPLACE",
+    "reason": "I1: chưa có ảnh. Mã vạch 42429036 không có trên nivea.com.vn (trang VN chỉ có sáp Ngọc trai 42219415); không xác định được đúng phiên bản (Extra White/Extra Brightening…) trên các trang NIVEA khác → cần chụp",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết ngắn chỉ từ tên SP (thương hiệu, dạng sáp, 50ml) — không có nguồn hãng cho mã vạch này",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
   "question": null,
   "history": [
@@ -37,6 +37,12 @@
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:20:01.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "no official image for barcode 42429036; description from name only"
     }
   ]
 }

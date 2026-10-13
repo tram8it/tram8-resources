@@ -17,18 +17,24 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "READY",
   "image": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "REPLACE",
+    "reason": "I3, I4: ảnh chụp điện thoại tay cầm, nền không trắng; thay bằng packshot bao bì mới nhất (Goldfish Cheddar 6.6 oz/187 g) trên trang hãng pepperidgefarm.com/product/goldfish-cheddar/",
+    "source": {
+      "url": "https://images.salsify.com/image/upload/s--E7j9JUv---/c3fe187294a9bc83386aa189cabf5e4ccd99bd7e.png",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; thành phần theo trang hãng, khối lượng theo bao bì",
+    "source": {
+      "url": "https://www.pepperidgefarm.com/product/goldfish-cheddar/",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "question": null,
   "history": [
@@ -37,6 +43,12 @@
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:18:49.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "b29: image REPLACE, description WRITE_NEW"
     }
   ]
 }

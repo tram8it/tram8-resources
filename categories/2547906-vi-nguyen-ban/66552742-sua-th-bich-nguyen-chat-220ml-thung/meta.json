@@ -17,18 +17,24 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "READY",
   "image": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "REPLACE",
+    "reason": "I2: ảnh là bịch 'có đường', SP là nguyên chất; thay bằng bịch nguyên chất 220 ml trên https://thtruemart.vn/products/sua-tuoi-sach-nguyen-chat-bich-giay-220-ml",
+    "source": {
+      "url": "https://cdn.hstatic.net/products/200001185942/nguyen-chat-220ml-2024_1_07a4f460de8c449a83444e8be0e49a5c_6fa11f639c464478b12c1abb594e8ce6.jpg",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết từ trang thtruemart.vn (kênh bán lẻ của TH); thành phần theo dòng nguyên chất 100% sữa tươi",
+    "source": {
+      "url": "https://thtruemart.vn/products/sua-tuoi-sach-nguyen-chat-bich-giay-220-ml",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "question": null,
   "history": [
@@ -37,6 +43,12 @@
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:19:03.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "b16 review: image REPLACE, description WRITE_NEW"
     }
   ]
 }

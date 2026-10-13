@@ -17,18 +17,24 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "READY",
   "image": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "REPLACE",
+    "reason": "I7: ảnh hiện tại có chữ chèn và dải banner '100g'; thay bằng ảnh hãng cùng mã 4005900740779 (mã hàng 88521), đã cắt bỏ dải chữ '100 ml Face wash' của hãng ở dưới, sản phẩm nguyên vẹn. Trang SP: https://www.nivea.com.my/en-my/products/deep-acne-oil-clear-scrub-mud-foam-40059007407790058.html",
+    "source": {
+      "url": "https://img.nivea.com/-/media/miscellaneous/media-center-items/d/6/6/1fad62d26c1141bbb385495ba957020d-online_1180_png.png",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết từ trang NIVEA Malaysia (cùng mã vạch), không ghi công dụng trị mụn",
+    "source": {
+      "url": "https://www.nivea.com.my/en-my/products/deep-acne-oil-clear-scrub-mud-foam-40059007407790058.html",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "question": null,
   "history": [
@@ -37,6 +43,12 @@
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:18:26.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "b26: image REPLACE, description WRITE_NEW"
     }
   ]
 }

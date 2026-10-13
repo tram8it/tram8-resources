@@ -17,18 +17,21 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "READY",
   "image": {
-    "decision": null,
-    "reason": null,
+    "decision": "KEEP",
+    "reason": "Ảnh render nền trắng 1:1, đúng tô Omachi trộn thịt xiên nướng, trùng bao bì trên trang hãng",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết lại từ trang hãng + chữ in trên tô",
+    "source": {
+      "url": "https://masanconsumer.com/mi-khoai-tay/mi-dinh-duong-khoai-tay-omachi-tron-thit-xien-nuong-12to-x-104gr/",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "question": null,
   "history": [
@@ -37,6 +40,12 @@
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:17:11.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "b16 review: image KEEP, description WRITE_NEW"
     }
   ]
 }

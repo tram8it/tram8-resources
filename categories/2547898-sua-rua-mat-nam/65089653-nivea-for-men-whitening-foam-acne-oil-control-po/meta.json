@@ -17,18 +17,24 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "READY",
   "image": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "REPLACE",
+    "reason": "I2 (v2): ảnh hiện tại là bao bì cũ 'Whitening Foam'; trang NIVEA Thái cùng mã 4005808888696 có bao bì mới 'Bright 8H Oil Clear Pore Minimizing Foam' → dùng bao bì mới. Trang SP: https://www.nivea.co.th/products/nivea-men-bright-oil-clear-face-foam-100g-40058088886960077.html",
+    "source": {
+      "url": "https://img.nivea.com/-/media/miscellaneous/media-center-items/c/2/9/6c740b6e822448958f699f9aa2b4ea00-screen.jpg",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết từ trang NIVEA Thái Lan (cùng mã vạch), bỏ các câu công dụng",
+    "source": {
+      "url": "https://www.nivea.co.th/products/nivea-men-bright-oil-clear-face-foam-100g-40058088886960077.html",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "question": null,
   "history": [
@@ -37,6 +43,12 @@
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:18:26.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "b26: image REPLACE, description WRITE_NEW"
     }
   ]
 }

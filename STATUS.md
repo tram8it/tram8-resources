@@ -2,7 +2,7 @@
 
 > Sinh tự động bởi `node tools/status.mjs`. **Không sửa tay.** Nguồn sự thật là `meta.json` của từng SP.
 
-Tổng 2448 SP · đã xem 2094 (86%) · xong 0 · chờ chủ duyệt 1100 · cần chụp 799 · hỏi chủ 195
+Tổng 2448 SP · đã xem 2098 (86%) · xong 0 · chờ chủ duyệt 1101 · cần chụp 802 · hỏi chủ 195
 
 Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` = giữ nguyên + đã lên web.
 
@@ -163,7 +163,7 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 | 153 | Socola hộp / quà tặng | 0.0tr | 4 | 0 | 0 | 0 | 0 | 1 | 3 | 0 | 0 |
 | 154 | Tăm nha khoa | 0.0tr | 4 | 0 | 0 | 0 | 1 | 0 | 3 | 0 | 0 |
 | 155 | Tampon | 0.0tr | 4 | 0 | 0 | 0 | 0 | 0 | 4 | 0 | 0 |
-| 156 | Ức gà & thịt ăn liền | 0.0tr | 4 | 4 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 156 | Ức gà & thịt ăn liền | 0.0tr | 4 | 0 | 0 | 0 | 3 | 0 | 1 | 0 | 0 |
 | 157 | Bánh mì ngọt / mềm | 0.0tr | 4 | 4 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 158 | BVS ban ngày | 0.0tr | 3 | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 159 | BVS dạng quần | 0.0tr | 3 | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |

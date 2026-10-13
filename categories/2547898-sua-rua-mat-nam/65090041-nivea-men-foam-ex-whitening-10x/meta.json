@@ -17,18 +17,24 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "READY",
   "image": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "REPLACE",
+    "reason": "I2 (v2): ảnh hiện tại là bao bì cũ 'Extra White'; NIVEA Malaysia cùng mã 4005808888368 có bao bì mới 'Extra Bright 10x Effect Brightening Foam'. Trang SP: https://www.nivea.com.my/en-my/products/nivea-men-extra-bright-10x-effect-anti-dark-spots-foam-100g-40058088883680058.html",
+    "source": {
+      "url": "https://img.nivea.com/-/media/miscellaneous/media-center-items/5/7/8/09fa228b750d4225b08dd80b12685a02-screen.jpg",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết từ trang NIVEA Malaysia (cùng mã vạch), bỏ câu công dụng",
+    "source": {
+      "url": "https://www.nivea.com.my/en-my/products/nivea-men-extra-bright-10x-effect-anti-dark-spots-foam-100g-40058088883680058.html",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "question": null,
   "history": [
@@ -37,6 +43,12 @@
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:18:26.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "b26: image REPLACE, description WRITE_NEW"
     }
   ]
 }

@@ -17,18 +17,24 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "READY",
   "image": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "REPLACE",
+    "reason": "I6: ảnh 204×192 quá nhỏ, chạm khung; thay bằng ảnh gói Dunkle Vollmilch 125 g của hãng (Storck). Trang SP: https://www.merci.de/de/produkte/merci-petits#dunkle-vollmilch",
+    "source": {
+      "url": "https://images.storck.com/de_DE/merci_petits_dunkle_vollmilch_125g.webp",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết từ trang hãng merci.de",
+    "source": {
+      "url": "https://www.merci.de/de/produkte/merci-petits",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "question": null,
   "history": [
@@ -37,6 +43,12 @@
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:18:53.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "b30: image REPLACE, description WRITE_NEW"
     }
   ]
 }

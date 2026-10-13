@@ -17,18 +17,24 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "READY",
   "image": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "REPLACE",
+    "reason": "I3, I4: ảnh chụp điện thoại, nền thùng/kệ hàng; thay bằng ảnh gói cùng vị trên trang hãng Oishi (oishi.com.vn › Snack › Pillows/Bola)",
+    "source": {
+      "url": "https://oishi.cdn.vccloud.vn/storage/products/November2025/fieSoF5dUkaipmYpHqRt.png",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; theo trang hãng (tên vị, khối lượng) và chữ in trên gói; trang hãng không ghi thành phần",
+    "source": {
+      "url": "https://oishi.com.vn/category/Snack",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "question": null,
   "history": [
@@ -37,6 +43,12 @@
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:16:41.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "image REPLACE (oishi.com.vn), description WRITE_NEW"
     }
   ]
 }

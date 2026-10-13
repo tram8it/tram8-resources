@@ -17,26 +17,32 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "ASK_OWNER",
   "image": {
-    "decision": null,
-    "reason": null,
+    "decision": "REPLACE",
+    "reason": "I3, I4: ảnh chụp điện thoại tay cầm trong cửa hàng; hộp trong ảnh là Ritz Nhật (Nabisco/Mondelez Japan, 25 bánh × 3 gói), không khớp '82.5g' trong tên → chờ chủ xác nhận quy cách rồi mới tìm ảnh/chụp",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
+    "decision": "ASK_OWNER",
+    "reason": "Không chắc quy cách thật (82,5 g hay hộp 25 bánh × 3 gói) và thương hiệu KiotViet ghi KINH DO trong khi hộp là Nabisco/Mondelez Nhật",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
-  "question": null,
+  "question": "Bánh Ritz 68312404: ảnh hiện tại là hộp Ritz nhập Nhật (chữ Nhật, 25 bánh × 3 gói, ~20 g/6 bánh) — tên ghi 82.5g, thương hiệu ghi KINH DO. Hàng đang bán đúng là hộp Nhật này không, và khối lượng tịnh in trên hộp là bao nhiêu? (Nếu đúng hộp Nhật thì thương hiệu nên là Ritz/Mondelez, không phải Kinh Đô.)",
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:20:11.000Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "b29: image REPLACE, description ASK_OWNER"
     }
   ]
 }

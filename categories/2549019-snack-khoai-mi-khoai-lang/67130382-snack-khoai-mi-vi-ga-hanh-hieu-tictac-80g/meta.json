@@ -17,18 +17,24 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "READY",
   "image": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "REPLACE",
+    "reason": "I3/I4: ảnh điện thoại tay cầm, nền không trắng; thay bằng ảnh hãng Dua Kelinci (Tic Tac Ayam Bawang 80g), trang https://duakelinci.com/brand/tictac",
+    "source": {
+      "url": "https://duakelinci.com/storage/tic-tac-ayam-bawang-80g-uyCo.webp",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết ngắn từ chữ in mặt trước bao bì (trang hãng không có mô tả chi tiết)",
+    "source": {
+      "url": "https://duakelinci.com/brand/tictac",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "question": null,
   "history": [
@@ -37,6 +43,12 @@
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:17:41.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "b28 review: image REPLACE, description WRITE_NEW"
     }
   ]
 }

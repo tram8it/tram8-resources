@@ -17,18 +17,24 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "READY",
   "image": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "REPLACE",
+    "reason": "I1: chưa có ảnh; dùng ảnh hãng Tương ớt CHIN-SU Cay 100 110g. Trang SP: https://masanconsumer.com/nganh-hang/gia-vi/tuong-ot/tuong-ot-chin-su-cay-100-110gr/",
+    "source": {
+      "url": "https://masanconsumer.com/wp-content/uploads/2025/12/Cay100_Vuong-scaled.png",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết từ trang Masan Consumer",
+    "source": {
+      "url": "https://masanconsumer.com/nganh-hang/gia-vi/tuong-ot/tuong-ot-chin-su-cay-100-110gr/",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "question": null,
   "history": [
@@ -37,6 +43,12 @@
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:14:49.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "b26: image REPLACE, description WRITE_NEW"
     }
   ]
 }

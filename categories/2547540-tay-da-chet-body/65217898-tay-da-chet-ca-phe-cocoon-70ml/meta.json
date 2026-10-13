@@ -17,26 +17,32 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "ASK_OWNER",
   "image": {
-    "decision": null,
-    "reason": null,
+    "decision": "ASK_OWNER",
+    "reason": "I1: chưa có ảnh, nhưng mã vạch 8936217701084 trên trang Cocoon là 'Túi Refill Cà Phê Đắk Lắk Làm Sạch Da Chết Cơ Thể 200ml', khác tên KiotViet (70ml) → chưa biết lấy ảnh SP nào",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
+    "decision": "ASK_OWNER",
+    "reason": "D1: chưa có mô tả; chờ chủ xác nhận quy cách (70ml hay túi refill 200ml)",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
-  "question": null,
+  "question": "Tẩy da chết cà phê Cocoon (mã vạch 8936217701084): trên trang Cocoon mã vạch này là Túi refill cà phê Đắk Lắk làm sạch da chết cơ thể 200ml, còn tên KiotViet ghi 70ml. Hàng đang bán là túi refill 200ml hay loại 70ml (mã vạch khác)?",
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:18:50.000Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "barcode = Cocoon refill pouch 200ml, name says 70ml; asked owner"
     }
   ]
 }

@@ -17,26 +17,32 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "ASK_OWNER",
   "image": {
-    "decision": null,
-    "reason": null,
+    "decision": "ASK_OWNER",
+    "reason": "I2: tên 'có đường' nhưng ảnh là 'rất ít đường'; chưa chắc SP thật",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
+    "decision": "ASK_OWNER",
+    "reason": "chờ chủ xác nhận vị",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
-  "question": null,
+  "question": "SP 'Sữa tươi Vinamilk 100% Green Farm 180ml có đường' (mã 8934673100427) nhưng ảnh là Green Farm 'rất ít đường'; Vinamilk hiện chỉ có Green Farm rất ít đường/không đường, và đã có SP riêng 'STTT Rất Ít Đường Green Farm 180ml' (mã 8934673100458). Mã ...427 là loại nào, có phải SP trùng/ngừng bán?",
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:19:03.000Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "b16 review: image ASK_OWNER, description ASK_OWNER"
     }
   ]
 }

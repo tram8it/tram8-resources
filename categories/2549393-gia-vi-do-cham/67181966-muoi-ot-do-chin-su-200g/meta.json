@@ -17,18 +17,24 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "READY",
   "image": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "REPLACE",
+    "reason": "I3/I4: ảnh tay cầm trên thùng hàng; thay bằng ảnh hãng Xốt muối ớt đỏ CHIN-SU 200g. Trang SP: https://masanconsumer.com/nganh-hang/gia-vi/xot-muoi-ot/xot-muoi-ot-do-chin-su/",
+    "source": {
+      "url": "https://masanconsumer.com/wp-content/uploads/2025/06/Mockup_MOD_2.png",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết từ trang Masan Consumer và chữ in trên nhãn (ớt sừng cay, chấm lẩu nướng)",
+    "source": {
+      "url": "https://masanconsumer.com/nganh-hang/gia-vi/xot-muoi-ot/xot-muoi-ot-do-chin-su/",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "question": null,
   "history": [
@@ -37,6 +43,12 @@
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:14:49.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "b26: image REPLACE, description WRITE_NEW"
     }
   ]
 }
