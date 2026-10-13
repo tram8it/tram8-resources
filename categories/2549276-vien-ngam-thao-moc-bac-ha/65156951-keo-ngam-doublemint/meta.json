@@ -17,26 +17,32 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "ASK_OWNER",
   "image": {
-    "decision": null,
-    "reason": null,
+    "decision": "ASK_OWNER",
+    "reason": "I2: ảnh là túi Doublemint 39 g (khoảng 30 gói nhỏ) nhưng đơn vị bán là 'tuýp' — chưa chắc đúng SP",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
+    "decision": "ASK_OWNER",
+    "reason": "Chờ chủ xác nhận quy cách trước khi viết",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
-  "question": null,
+  "question": "Kẹo ngậm Doublemint (mã 8997018480769, đơn vị 'tuýp'): hàng thật là túi 39 g khoảng 30 gói nhỏ như ảnh, hay là tuýp/thỏi? Nếu là túi thì nên sửa đơn vị trên KiotViet.",
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:19:58.000Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "ask owner: bag vs tube"
     }
   ]
 }

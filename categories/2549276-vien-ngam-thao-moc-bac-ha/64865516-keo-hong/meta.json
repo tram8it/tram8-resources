@@ -17,26 +17,32 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "ASK_OWNER",
   "image": {
-    "decision": null,
-    "reason": null,
+    "decision": "ASK_OWNER",
+    "reason": "I3: ảnh chụp cận hộp Kẹo Họng 2 vị; đơn vị bán là 'Viên' nên chưa rõ bán lẻ viên vị nào hay cả hộp",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
+    "decision": "ASK_OWNER",
+    "reason": "Chờ chủ xác nhận quy cách/vị trước khi viết",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
-  "question": null,
+  "question": "Kẹo Họng Orion (mã 8936029423679, đơn vị 'Viên'): cửa hàng bán lẻ từng viên hay bán cả hộp/gói? Nếu bán viên thì vị nào (quất mật ong, gừng mật ong hay bạc hà thảo mộc)? Trang orion.vn có ảnh gói Kẹo Họng Mix 2 vị 84 g/168 g.",
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:19:58.000Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "ask owner: unit/flavour of Kẹo Họng"
     }
   ]
 }
