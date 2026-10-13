@@ -1,4 +1,4 @@
-# RUBRIC — bộ tiêu chí cố định (phiên bản **v3**)
+# RUBRIC — bộ tiêu chí cố định (phiên bản **v4**)
 
 Áp dụng giống nhau cho mọi SP, mọi phiên. Ghi `rubricVersion` vào mỗi quyết định để biết SP được
 chấm theo bản nào. Sửa tiêu chí = tăng phiên bản + ghi **nhật ký thay đổi** ở cuối file.
@@ -18,7 +18,7 @@ Mở ảnh ra xem, trả lời theo thứ tự. Câu đầu tiên trả lời �
 | I3 | Ảnh **sản phẩm** (packshot), không phải ảnh chụp cận nhãn/kệ/tay cầm/bối cảnh? | `REPLACE` |
 | I4 | **Nền trắng** sạch (hoặc trong suốt)? | `REPLACE` — nền màu/ảnh điện thoại không tự tách được cho đẹp |
 | I5 | Thấy **nguyên vẹn** sản phẩm, không bị khung ảnh cắt? | `REPLACE` |
-| I6 | Nét, đủ lớn (cạnh ngắn ≥ 300px, không vỡ khi hiện 1000px)? | `REPLACE` |
+| I6 | Nét, đủ lớn (cạnh ngắn ≥ 300px)? Web hiện ảnh nhỏ (~200px trên thẻ SP) nên ảnh phóng to hơi mềm/vỡ nhẹ vẫn **đạt** (v4) | `REPLACE` |
 | I7 | Không watermark, logo/tem giá cửa hàng khác, chữ chèn, khung viền? | `REPLACE` |
 | I8 | Chỉ một sản phẩm (trừ khi SKU là lốc/thùng/combo — khi đó phải đúng số lượng)? | `REPLACE` |
 | I9 | **1:1** và sản phẩm **nằm giữa**, lề vừa phải? | `CROP` |
@@ -104,3 +104,4 @@ Category có thể có khuôn riêng chi tiết hơn trong `categories/<id>-<slu
 | v1 | 2026-10-13 | Bản đầu. Ví dụ chuẩn từ ảnh chụp tram8.vn; 1:1 là bắt buộc, crop được thì crop rồi kiểm lại. | Chủ |
 | v2 | 2026-10-13 | I2: luôn dùng **bao bì mới nhất** trên trang hãng khi cùng mã vạch/cùng vị. Mô tả: thêm nguồn nhãn mặt sau và mô tả ngắn từ dữ kiện chắc chắn khi không có nguồn. | Chủ (pilot Mì gói) |
 | v3 | 2026-10-13 | Ảnh: thêm kênh chính chủ của hãng (fanpage xác minh, gian hàng chính hãng trên sàn); ảnh hãng nhỏ được phóng ~3 lần nếu không vỡ. Mô tả: được đọc nhãn trên trang siêu thị, chỉ lấy dữ kiện in trên bao bì. | Chủ (pilot Mì gói) |
+| v4 | 2026-10-13 | I6 nới: web hiển thị ảnh nhỏ nên ảnh hãng phóng to hơi mềm, vỡ nhẹ vẫn đạt; ưu tiên ảnh hãng phóng to hơn là bắt nhân viên chụp. | Chủ (xem tram8.vn) |
