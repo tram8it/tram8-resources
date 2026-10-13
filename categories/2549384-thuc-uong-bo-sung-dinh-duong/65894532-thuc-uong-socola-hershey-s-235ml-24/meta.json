@@ -17,26 +17,32 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "ASK_OWNER",
   "image": {
-    "decision": null,
-    "reason": null,
+    "decision": "ASK_OWNER",
+    "reason": "I2: tên không ghi vị, ảnh là Hershey's Protein; không xác minh được mã vạch 8801121032435",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
+    "decision": "ASK_OWNER",
+    "reason": "Chờ xác định vị",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
-  "question": null,
+  "question": "SP \"THỨC UỐNG SÔCÔLA HERSHEY'S 235ML*24\" (mã vạch 8801121032435) không ghi vị; ảnh hiện tại là hộp Hershey's PROTEIN (8g đạm). Hàng thực tế có phải Hershey's Protein không? Nếu đúng thì giữ ảnh (crop) và viết mô tả theo Protein.",
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:39:43.000Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "image ASK_OWNER, description ASK_OWNER"
     }
   ]
 }
