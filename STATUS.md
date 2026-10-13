@@ -2,7 +2,7 @@
 
 > Sinh tự động bởi `node tools/status.mjs`. **Không sửa tay.** Nguồn sự thật là `meta.json` của từng SP.
 
-Tổng 2448 SP · đã xem 1383 (56%) · xong 0 · chờ chủ duyệt 687 · cần chụp 549 · hỏi chủ 147
+Tổng 2448 SP · đã xem 1553 (63%) · xong 0 · chờ chủ duyệt 772 · cần chụp 617 · hỏi chủ 164
 
 Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` = giữ nguyên + đã lên web.
 
@@ -58,7 +58,7 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 | 48 | Mặt nạ | 0.0tr | 16 | 0 | 0 | 0 | 3 | 4 | 9 | 0 | 0 |
 | 49 | Sữa tắm | 0.0tr | 16 | 0 | 0 | 0 | 4 | 2 | 10 | 0 | 0 |
 | 50 | Thạch – Rau câu | 0.0tr | 16 | 0 | 0 | 0 | 12 | 1 | 3 | 0 | 0 |
-| 51 | Xịt khử mùi | 0.0tr | 16 | 16 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 51 | Xịt khử mùi | 0.0tr | 16 | 0 | 0 | 0 | 13 | 0 | 3 | 0 | 0 |
 | 52 | Sữa hạt | 0.0tr | 16 | 16 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 53 | Que cay / tăm cay (latiao) | 0.0tr | 15 | 0 | 0 | 0 | 12 | 1 | 2 | 0 | 0 |
 | 54 | Bánh ngọt | 0.0tr | 15 | 0 | 0 | 0 | 13 | 1 | 1 | 0 | 0 |
@@ -68,31 +68,31 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 | 58 | Măng & rau ngâm cay | 0.0tr | 15 | 0 | 0 | 0 | 11 | 0 | 4 | 0 | 0 |
 | 59 | Khô heo | 0.0tr | 14 | 0 | 0 | 0 | 4 | 4 | 6 | 0 | 0 |
 | 60 | Bánh pie / cake mềm | 0.0tr | 14 | 0 | 0 | 0 | 8 | 1 | 5 | 0 | 0 |
-| 61 | Board games/ Card games | 0.0tr | 14 | 14 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 62 | Mì cay (Ly/Tô/Cốc) | 0.0tr | 14 | 14 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 61 | Board games/ Card games | 0.0tr | 14 | 0 | 0 | 0 | 4 | 0 | 10 | 0 | 0 |
+| 62 | Mì cay (Ly/Tô/Cốc) | 0.0tr | 14 | 0 | 0 | 0 | 1 | 1 | 12 | 0 | 0 |
 | 63 | Bánh gạo | 0.0tr | 13 | 13 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 64 | Tokbokki & bánh gạo Hàn | 0.0tr | 13 | 13 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 65 | Sandwiches - Toastes | 0.0tr | 13 | 0 | 0 | 0 | 2 | 3 | 8 | 0 | 0 |
-| 66 | Kem đánh răng - Hơi thở thơm | 0.0tr | 13 | 13 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 67 | Dung dịch vệ sinh nữ | 0.0tr | 13 | 13 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 66 | Kem đánh răng - Hơi thở thơm | 0.0tr | 13 | 0 | 0 | 0 | 3 | 0 | 10 | 0 | 0 |
+| 67 | Dung dịch vệ sinh nữ | 0.0tr | 13 | 0 | 0 | 0 | 2 | 2 | 9 | 0 | 0 |
 | 68 | Khăn ướt – khăn giấy | 0.0tr | 13 | 13 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 69 | Pizza | 0.0tr | 13 | 13 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 70 | Sữa chua ăn | 0.0tr | 13 | 13 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 71 | Xúc xích lắc & snack | 0.0tr | 13 | 13 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 72 | Bàn chải - Người lớn | 0.0tr | 12 | 12 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 71 | Xúc xích lắc & snack | 0.0tr | 13 | 0 | 0 | 0 | 7 | 4 | 2 | 0 | 0 |
+| 72 | Bàn chải - Người lớn | 0.0tr | 12 | 0 | 0 | 0 | 3 | 3 | 6 | 0 | 0 |
 | 73 | Bánh mì kem tươi | 0.0tr | 12 | 12 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 74 | Nước ngọt ít calories | 0.0tr | 12 | 12 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 75 | Snack mì | 0.0tr | 12 | 12 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 76 | Sữa chua đông lạnh | 0.0tr | 12 | 12 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 77 | Củ / bộ sạc | 0.0tr | 11 | 11 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 78 | Khô bò | 0.0tr | 11 | 0 | 0 | 0 | 6 | 0 | 5 | 0 | 0 |
-| 79 | Đồ chay giả mặn (konjac) | 0.0tr | 11 | 11 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 80 | Dầu gội - Dành cho nam | 0.0tr | 11 | 11 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 81 | Kem ốc quế | 0.0tr | 11 | 11 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 82 | Kẹo sáng tạo / đồ chơi | 0.0tr | 11 | 11 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 83 | Khô gà | 0.0tr | 11 | 11 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 84 | Dụng cụ sơ cứu | 0.0tr | 10 | 10 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 85 | Bắp rang bơ - Popcorn | 0.0tr | 10 | 10 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 79 | Đồ chay giả mặn (konjac) | 0.0tr | 11 | 0 | 0 | 0 | 7 | 0 | 4 | 0 | 0 |
+| 80 | Dầu gội - Dành cho nam | 0.0tr | 11 | 0 | 0 | 0 | 1 | 2 | 8 | 0 | 0 |
+| 81 | Kem ốc quế | 0.0tr | 11 | 0 | 0 | 0 | 4 | 0 | 7 | 0 | 0 |
+| 82 | Kẹo sáng tạo / đồ chơi | 0.0tr | 11 | 0 | 0 | 0 | 9 | 1 | 1 | 0 | 0 |
+| 83 | Khô gà | 0.0tr | 11 | 0 | 0 | 0 | 4 | 3 | 4 | 0 | 0 |
+| 84 | Dụng cụ sơ cứu | 0.0tr | 10 | 0 | 0 | 0 | 0 | 1 | 9 | 0 | 0 |
+| 85 | Bắp rang bơ - Popcorn | 0.0tr | 10 | 0 | 0 | 0 | 10 | 0 | 0 | 0 | 0 |
 | 86 | Cáp sạc & dây | 0.0tr | 10 | 10 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 87 | Thịt & hải sản ăn liền | 0.0tr | 10 | 10 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 88 | Toner - Xịt khoáng - Dưỡng ẩm | 0.0tr | 10 | 10 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
