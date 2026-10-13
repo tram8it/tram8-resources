@@ -17,26 +17,32 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "ASK_OWNER",
   "image": {
-    "decision": null,
-    "reason": null,
+    "decision": "ASK_OWNER",
+    "reason": "I2/I4: ảnh chụp điện thoại nền xám; gói Weisiel trên ảnh ghi 'Barley Germ Flavored Cake' (mầm lúa mạch), không phải vị vải như tên",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
+    "decision": "ASK_OWNER",
+    "reason": "Chờ chủ xác nhận vị trước khi viết",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
-  "question": null,
+  "question": "'Bánh bông lan tam giác vị vải Weisiel (2kg/thùng)' (mã 489710655215): ảnh hiện tại là gói Weisiel vàng ghi 'Barley Germ Flavored Cake' (vị mầm lúa mạch). SP này là vị vải hay vị lúa mạch? Mã vạch 12 số có bị thiếu số không?",
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:30:00.000Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "b20 review: image ASK_OWNER, description ASK_OWNER"
     }
   ]
 }
