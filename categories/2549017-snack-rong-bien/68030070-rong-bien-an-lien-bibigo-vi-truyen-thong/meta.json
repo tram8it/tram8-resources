@@ -17,26 +17,32 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "ASK_OWNER",
   "image": {
-    "decision": null,
-    "reason": null,
+    "decision": "ASK_OWNER",
+    "reason": "I3, I4: ảnh chụp trên thùng hàng; cần thay nhưng chưa chắc quy cách \"dây\" (số gói) và mã vạch khác lốc 3 gói trên cjfoods.com.vn",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
+    "decision": "ASK_OWNER",
+    "reason": "D1: chưa có mô tả; chờ chủ xác nhận quy cách dây (số gói) trước khi viết",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
-  "question": null,
+  "question": "\"Rong biển ăn liền bibigo vị truyền thống\" (đơn vị: dây, mã 8935297104389): một dây gồm mấy gói 4 g? Trang CJ Foods có lốc 3 gói × 4 g = 12 g nhưng mã vạch khác (8935297104525). Nếu dây = lốc 3 gói này thì em dùng ảnh hãng và ghi 12 g (3 gói × 4 g).",
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:51:33.000Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "b17: asked owner about pack count (dây) / barcode mismatch"
     }
   ]
 }

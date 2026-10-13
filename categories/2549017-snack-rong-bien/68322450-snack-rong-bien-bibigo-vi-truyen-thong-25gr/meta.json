@@ -17,18 +17,24 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "READY",
   "image": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "REPLACE",
+    "reason": "I2 (v2): ảnh hiện tại là bao bì đời trước có in HSD 2019–2020, nền không trắng (I4); thay bằng bao bì mới nhất cùng vị 25 g trên https://cjfoods.com.vn/product/snack-rong-bien-vi-truyen-thong/",
+    "source": {
+      "url": "https://cdn.cjfoods.com.vn/wp-content/uploads/2026/06/BBMT-Snack-rong-bien-Original-25g.webp",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; theo trang hãng CJ Foods (khối lượng, thành phần, bảo quản)",
+    "source": {
+      "url": "https://cjfoods.com.vn/product/snack-rong-bien-vi-truyen-thong/",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "question": null,
   "history": [
@@ -37,6 +43,12 @@
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:51:33.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "b17: image REPLACE (official newest pack), description WRITE_NEW"
     }
   ]
 }
