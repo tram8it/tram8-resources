@@ -17,18 +17,24 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "READY",
   "image": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "REPLACE",
+    "reason": "I3, I4: ảnh chụp điện thoại nền đá; thay bằng ảnh gói trên trang hãng (mã vạch 8936071070340, 72 g). Trang SP: https://nissinfoods.vn/vn/mi-xao-ga-cay-pho-mai.html",
+    "source": {
+      "url": "https://nissinfoods.vn/vnt_upload/product/01_2025/WEB_600x600_gaphomai.png",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết từ trang hãng",
+    "source": {
+      "url": "https://nissinfoods.vn/vn/mi-xao-ga-cay-pho-mai.html",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "question": null,
   "history": [
@@ -37,6 +43,12 @@
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:46:45.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "b13: image REPLACE, description WRITE_NEW"
     }
   ]
 }

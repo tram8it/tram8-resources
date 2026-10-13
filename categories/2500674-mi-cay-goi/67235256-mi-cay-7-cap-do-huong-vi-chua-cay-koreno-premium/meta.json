@@ -17,18 +17,24 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "READY",
   "image": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "REPLACE",
+    "reason": "I1: chưa có ảnh; lấy ảnh gói 104 g trên trang hãng Paldo Vina. Trang SP: https://paldovina.com/vi/koreno-premium-mi-cay-7-cap-do-huong-vi-chua-cay-p160",
+    "source": {
+      "url": "https://paldovina.com/upload/goi-premium-7-cap-do-800x.png",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết từ trang hãng Paldo Vina",
+    "source": {
+      "url": "https://paldovina.com/vi/koreno-premium-mi-cay-7-cap-do-huong-vi-chua-cay-p160",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "question": null,
   "history": [
@@ -37,6 +43,12 @@
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:46:45.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "b13: image REPLACE, description WRITE_NEW"
     }
   ]
 }
