@@ -2,7 +2,7 @@
 
 > Sinh tự động bởi `node tools/status.mjs`. **Không sửa tay.** Nguồn sự thật là `meta.json` của từng SP.
 
-Tổng 2448 SP · đã xem 502 (21%) · xong 0 · chờ chủ duyệt 261 · cần chụp 168 · hỏi chủ 73
+Tổng 2448 SP · đã xem 675 (28%) · xong 0 · chờ chủ duyệt 349 · cần chụp 236 · hỏi chủ 90
 
 Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` = giữ nguyên + đã lên web.
 
@@ -17,10 +17,10 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 | 7 | Viên ngậm thảo mộc / bạc hà | 0.0tr | 44 | 0 | 0 | 0 | 20 | 2 | 22 | 0 | 0 |
 | 8 | Snack que / que cay | 0.0tr | 43 | 0 | 0 | 0 | 26 | 10 | 7 | 0 | 0 |
 | 9 | Mì ly / tô / cốc | 0.0tr | 41 | 0 | 0 | 0 | 10 | 4 | 27 | 0 | 0 |
-| 10 | Kẹo cao su / singum | 0.0tr | 41 | 41 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 11 | Trà đóng chai | 0.0tr | 40 | 40 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 12 | Bánh tráng trộn | 0.0tr | 37 | 37 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 13 | Nước trái cây / ép | 0.0tr | 34 | 34 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 10 | Kẹo cao su / singum | 0.0tr | 41 | 0 | 0 | 0 | 24 | 5 | 12 | 0 | 0 |
+| 11 | Trà đóng chai | 0.0tr | 40 | 0 | 0 | 0 | 17 | 5 | 18 | 0 | 0 |
+| 12 | Bánh tráng trộn | 0.0tr | 37 | 0 | 0 | 0 | 15 | 2 | 20 | 0 | 0 |
+| 13 | Nước trái cây / ép | 0.0tr | 34 | 0 | 0 | 0 | 8 | 3 | 23 | 0 | 0 |
 | 14 | Bánh xốp kem (wafer) | 0.0tr | 31 | 31 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 15 | Mì gói | 0.0tr | 31 | 0 | 0 | 0 | 0 | 0 | 31 | 0 | 0 |
 | 16 | Sữa chua uống | 0.0tr | 31 | 31 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -37,7 +37,7 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 | 27 | Kẹo cứng | 0.0tr | 22 | 22 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 28 | Món hấp | 0.0tr | 22 | 22 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 29 | Khô mực | 0.0tr | 22 | 22 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 30 | Nước tăng lực | 0.0tr | 21 | 21 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 30 | Nước tăng lực | 0.0tr | 21 | 0 | 0 | 0 | 4 | 2 | 15 | 0 | 0 |
 | 31 | Bánh quế / bánh cuộn (wafer roll) | 0.0tr | 21 | 21 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 32 | Cà phê uống liền | 0.0tr | 21 | 21 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 33 | Cơm nắm Onigiri | 0.0tr | 21 | 21 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
