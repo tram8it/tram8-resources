@@ -17,18 +17,24 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "READY",
   "image": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "REPLACE",
+    "reason": "I7: ảnh có logo cửa hàng khác ('Tã sữa Subin'); thay bằng ảnh trang hãng Bourbon (JAN 4901360353040 khớp), trang SP: https://www.bourbon.co.jp/product/detail/35304-03.html",
+    "source": {
+      "url": "https://www.bourbon.co.jp/product/product_file/file/35304-03%E3%83%81%E3%83%A7%E3%82%B3%E3%81%82%E3%82%93%E3%81%B1%E3%82%93_%E7%AB%8B%E4%BD%93%E6%96%9C%E9%9D%A2.jpg",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; theo trang hãng Bourbon (thành phần dịch từ tiếng Nhật)",
+    "source": {
+      "url": "https://www.bourbon.co.jp/product/detail/35304-03.html",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "question": null,
   "history": [
@@ -37,6 +43,12 @@
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T22:00:00.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "batch b14 review (rubric v4): image REPLACE, description WRITE_NEW"
     }
   ]
 }

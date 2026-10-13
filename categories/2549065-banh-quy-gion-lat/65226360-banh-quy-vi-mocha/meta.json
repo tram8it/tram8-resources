@@ -17,18 +17,21 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "NEEDS_PHOTO",
   "image": {
-    "decision": null,
-    "reason": null,
+    "decision": "REPLACE",
+    "reason": "I3/I4: ảnh chụp bằng điện thoại, nền không trắng; savoria.co.id (chủ thương hiệu Krizzi) chỉ có ảnh nhóm nhỏ → cần chụp",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; theo trang thương hiệu Savoria (Krizzi) + chữ in mặt trước bao bì",
+    "source": {
+      "url": "https://www.savoria.co.id/our-brands/krizzi",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "question": null,
   "history": [
@@ -37,6 +40,12 @@
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T22:00:00.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "batch b14 review (rubric v4): image REPLACE, description WRITE_NEW"
     }
   ]
 }

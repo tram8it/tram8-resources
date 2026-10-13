@@ -17,18 +17,18 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "NEEDS_PHOTO",
   "image": {
-    "decision": null,
-    "reason": null,
+    "decision": "REPLACE",
+    "reason": "I2/I4: ảnh là gói Fres vị táo đào (Apple Peach), không phải Barley, nền không trắng; mayora.com lỗi chứng chỉ; mayoraindah.co.id chỉ có ảnh thương hiệu 165px — không có nguồn hãng",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; không có trang hãng, không có ảnh bao bì — mô tả ngắn chỉ từ tên SP",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
   "question": null,
   "history": [
@@ -37,6 +37,12 @@
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T22:00:00.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "batch b14 review (rubric v4): image REPLACE, description WRITE_NEW"
     }
   ]
 }

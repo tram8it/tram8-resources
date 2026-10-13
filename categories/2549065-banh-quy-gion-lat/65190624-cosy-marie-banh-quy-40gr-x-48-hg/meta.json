@@ -17,26 +17,32 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "ASK_OWNER",
   "image": {
-    "decision": null,
-    "reason": null,
+    "decision": "ASK_OWNER",
+    "reason": "I2: không chắc ảnh hộp Cosy Marie hiện tại là quy cách 40 g",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
+    "decision": "ASK_OWNER",
+    "reason": "chờ chủ xác nhận quy cách bán",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
-  "question": null,
+  "question": "Cosy Marie (mã 8934680113823): Trạm 8 bán lẻ 1 gói/hộp 40 g hay cả thùng 48 hộp? Ảnh hiện tại là hộp Cosy Marie cỡ lớn, không thấy khối lượng — nếu bán gói 40 g thì cần chụp lại.",
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T22:00:00.000Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "batch b14 review (rubric v4): image ASK_OWNER, description ASK_OWNER"
     }
   ]
 }

@@ -17,26 +17,32 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "ASK_OWNER",
   "image": {
-    "decision": null,
-    "reason": null,
+    "decision": "REPLACE",
+    "reason": "I4: ảnh chụp điện thoại, nền không trắng",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
+    "decision": "ASK_OWNER",
+    "reason": "chờ chủ xác nhận khối lượng (ảnh 35 g, tên 50 g)",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
-  "question": null,
+  "question": "Posi/Poso mực khô xé sợi (mã 8938520099261): tên KiotViet ghi 50 g nhưng ảnh bao bì ghi 35 g (vị cay). Gói Trạm 8 đang bán là 35 g hay 50 g, vị gì? Ảnh hiện tại chụp điện thoại nên cũng cần chụp lại.",
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T22:00:00.000Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "batch b14 review (rubric v4): image REPLACE, description ASK_OWNER"
     }
   ]
 }

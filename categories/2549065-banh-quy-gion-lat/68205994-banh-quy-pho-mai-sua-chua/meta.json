@@ -17,26 +17,32 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "ASK_OWNER",
   "image": {
-    "decision": null,
-    "reason": null,
+    "decision": "ASK_OWNER",
+    "reason": "I1: chưa có ảnh; trang hãng chỉ có ảnh túi 120 g (6 gói × 20 g), đơn vị KiotViet là 'Cái'",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
+    "decision": "ASK_OWNER",
+    "reason": "chờ chủ xác nhận quy cách bán",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
-  "question": null,
+  "question": "Bánh quy nhân Phô mai & Sữa chua CoBi Bread (mã 8935299667103, đơn vị 'Cái'): Trạm 8 bán gói lẻ 20 g hay túi 120 g (6 gói)? Nếu túi 120 g thì dùng được ảnh trên cobibread.com; nếu gói lẻ thì cần chụp.",
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T22:00:00.000Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "batch b14 review (rubric v4): image ASK_OWNER, description ASK_OWNER"
     }
   ]
 }

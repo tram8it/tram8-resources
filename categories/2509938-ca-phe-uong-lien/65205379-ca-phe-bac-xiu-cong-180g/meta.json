@@ -17,18 +17,24 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "READY",
   "image": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "REPLACE",
+    "reason": "I3, I4, I5: ảnh chụp điện thoại cận mặt hộp, nền không trắng, hộp bị cắt; thay bằng ảnh hộp Bạc Xỉu 12 gói × 15 g (kèm 1 gói minh hoạ) trên cửa hàng chính hãng của Cộng (https://shop.congcaphe.com/products/bac-xiu)",
+    "source": {
+      "url": "https://cdn.hstatic.net/products/200000189081/bac_xiu_15gr_x_12_7ae729b1c9d642af85c61b45e6b0ff7e.png",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết từ trang hãng",
+    "source": {
+      "url": "https://shop.congcaphe.com/products/bac-xiu",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "question": null,
   "history": [
@@ -37,6 +43,12 @@
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:42:31.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "image REPLACE (Cộng official shop), description WRITE_NEW"
     }
   ]
 }
