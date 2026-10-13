@@ -2,7 +2,7 @@
 
 > Sinh tự động bởi `node tools/status.mjs`. **Không sửa tay.** Nguồn sự thật là `meta.json` của từng SP.
 
-Tổng 2448 SP · đã xem 1369 (56%) · xong 0 · chờ chủ duyệt 682 · cần chụp 541 · hỏi chủ 146
+Tổng 2448 SP · đã xem 1383 (56%) · xong 0 · chờ chủ duyệt 687 · cần chụp 549 · hỏi chủ 147
 
 Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` = giữ nguyên + đã lên web.
 
@@ -67,7 +67,7 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 | 57 | Sữa chua kiểu Hy Lạp | 0.0tr | 15 | 0 | 0 | 0 | 11 | 0 | 4 | 0 | 0 |
 | 58 | Măng & rau ngâm cay | 0.0tr | 15 | 0 | 0 | 0 | 11 | 0 | 4 | 0 | 0 |
 | 59 | Khô heo | 0.0tr | 14 | 0 | 0 | 0 | 4 | 4 | 6 | 0 | 0 |
-| 60 | Bánh pie / cake mềm | 0.0tr | 14 | 14 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 60 | Bánh pie / cake mềm | 0.0tr | 14 | 0 | 0 | 0 | 8 | 1 | 5 | 0 | 0 |
 | 61 | Board games/ Card games | 0.0tr | 14 | 14 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 62 | Mì cay (Ly/Tô/Cốc) | 0.0tr | 14 | 14 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 63 | Bánh gạo | 0.0tr | 13 | 13 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |

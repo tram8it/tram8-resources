@@ -17,18 +17,21 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "READY",
   "image": {
-    "decision": null,
-    "reason": null,
+    "decision": "KEEP",
+    "reason": "Đạt I1–I9: packshot nền trắng, 1:1, đúng hộp Custas kem trứng 2 bánh, cùng bao bì đang đăng trên orion.vn",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; theo trang Orion và ảnh hộp 2P chính hãng (NET WT 47 g)",
+    "source": {
+      "url": "https://orion.vn/san-pham/san-pham/banh-bong-lan-custas-nhan-kem-trung/",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "question": null,
   "history": [
@@ -37,6 +40,12 @@
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:55:08.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "b21: image KEEP, description WRITE_NEW"
     }
   ]
 }

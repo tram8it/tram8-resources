@@ -17,26 +17,32 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "ASK_OWNER",
   "image": {
-    "decision": null,
-    "reason": null,
+    "decision": "ASK_OWNER",
+    "reason": "I2: hộp trên ảnh ghi 180 g, tên SP ghi 168g; không có trang hãng Mondelēz Kinh Đô để đối chiếu",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
+    "decision": "ASK_OWNER",
+    "reason": "Chờ chủ xác nhận khối lượng",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
-  "question": null,
+  "question": "OREO PIE SOCOLA (mã vạch 8934680045971): tên KiotViet ghi 168g nhưng ảnh hiện tại là hộp 'Cadbury Oreo Socola-Pie' 180 g (6 gói x 30 g). Hộp đang bán ở cửa hàng là 168 g hay 180 g? Nếu là 168 g thì cần nhân viên chụp lại hộp đúng.",
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:55:08.000Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "b21: image ASK_OWNER, description ASK_OWNER"
     }
   ]
 }
