@@ -17,18 +17,21 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "READY",
   "image": {
-    "decision": null,
-    "reason": null,
+    "decision": "CROP",
+    "reason": "I9: packshot nền trắng, cùng bao bì Cup Noodles Sườn Chanh Thái Lan trên nissinfoods.vn (mã vạch khớp); crop 1:1 phóng ~3 lần, đã xem lại: hơi mềm nhưng đạt (v4)",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết lại từ trang hãng (mã vạch khớp)",
+    "source": {
+      "url": "https://nissinfoods.vn/vn/suon-chanh-thai-lan.html",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "question": null,
   "history": [
@@ -37,6 +40,12 @@
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:21:20.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "b07 review: image CROP, description WRITE_NEW"
     }
   ]
 }

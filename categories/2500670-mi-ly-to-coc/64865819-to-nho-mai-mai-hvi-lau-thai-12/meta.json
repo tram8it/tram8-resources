@@ -17,18 +17,24 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "READY",
   "image": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "REPLACE",
+    "reason": "I2/v2: ảnh cũ là nắp tô bao bì 'Vina Acecook' đời trước; thay bằng bao bì mới nhất trên trang hãng (cùng dòng Nhớ Mãi Mãi, cùng vị Lẩu Thái)",
+    "source": {
+      "url": "https://acecookvietnam.vn/wp/wp-content/uploads/2025/06/3-D-TO-NHO-LAU-THAI-TUV.png",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết lại từ trang hãng (trang không ghi khối lượng nên bỏ)",
+    "source": {
+      "url": "https://acecookvietnam.vn/product/to-nho-mai-mai/",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "question": null,
   "history": [
@@ -37,6 +43,12 @@
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:21:20.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "b07 review: image REPLACE, description WRITE_NEW"
     }
   ]
 }
