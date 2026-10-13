@@ -17,18 +17,24 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "READY",
   "image": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "REPLACE",
+    "reason": "I4: nền tối, ảnh chụp; thay bằng ảnh Oishi Snack Tôm vị mực nướng muối ớt trên oishi.com.vn (cùng vị)",
+    "source": {
+      "url": "https://oishi.cdn.vccloud.vn/storage/products/November2025/lt7s2gp2e7izw7UYWdX7.png",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; theo trang hãng Oishi (Snack Tôm vị mực nướng muối ớt, có loại 34 g và 68 g); tên SP không ghi khối lượng nên bỏ khối lượng",
+    "source": {
+      "url": "https://oishi.com.vn/san-pham",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "question": null,
   "history": [
@@ -37,6 +43,12 @@
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:48:23.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "b17: image REPLACE (official), description WRITE_NEW"
     }
   ]
 }

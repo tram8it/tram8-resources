@@ -17,18 +17,24 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "READY",
   "image": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "REPLACE",
+    "reason": "I3, I4, I5: ảnh chụp trên kệ, gói bị cắt; thay bằng ảnh Spicy Shrimp Cracker 75 g trên nongshimusa.com (đúng gói Mỹ, mã vạch 031146… của Nongshim America) — trang https://nongshimusa.com/product-detail?pid=55",
+    "source": {
+      "url": "https://nongshimusa.com/html5/imgs/products/imgs/1217Shrimp-Crackers-Spicy.jpg",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; theo trang hãng Nongshim USA (Spicy Shrimp Cracker, thành phần, 75 g in trên gói)",
+    "source": {
+      "url": "https://nongshimusa.com/product-detail?pid=55",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "question": null,
   "history": [
@@ -37,6 +43,12 @@
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:48:23.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "b17: image REPLACE (official Nongshim USA), description WRITE_NEW"
     }
   ]
 }

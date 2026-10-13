@@ -17,18 +17,24 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "READY",
   "image": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "REPLACE",
+    "reason": "I3, I4: ảnh tay cầm, nền cửa hàng; thay bằng ảnh Oishi Snack Tôm xốt tương mật ong 65 g trên oishi.com.vn",
+    "source": {
+      "url": "https://oishi.cdn.vccloud.vn/storage/products/November2025/KOy6UPf9e272lDztsZwa.png",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; theo trang hãng Oishi (Snack Tôm xốt tương mật ong 65 g) + chữ in trên bao bì (Không chiên, zip)",
+    "source": {
+      "url": "https://oishi.com.vn/san-pham",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "question": null,
   "history": [
@@ -37,6 +43,12 @@
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:48:23.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "b17: image REPLACE (official), description WRITE_NEW"
     }
   ]
 }
