@@ -2,7 +2,7 @@
 
 > Sinh tự động bởi `node tools/status.mjs`. **Không sửa tay.** Nguồn sự thật là `meta.json` của từng SP.
 
-Tổng 2448 SP · đã xem 1780 (73%) · xong 0 · chờ chủ duyệt 921 · cần chụp 681 · hỏi chủ 178
+Tổng 2448 SP · đã xem 1788 (73%) · xong 0 · chờ chủ duyệt 927 · cần chụp 681 · hỏi chủ 180
 
 Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` = giữ nguyên + đã lên web.
 
@@ -112,7 +112,7 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 | 102 | Dao cạo & cạo râu | 0.0tr | 8 | 8 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 103 | Hoa quả sấy | 0.0tr | 8 | 8 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 104 | Dầu gội - Suôn mượt | 0.0tr | 8 | 8 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 105 | Dưỡng da body | 0.0tr | 8 | 8 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 105 | Dưỡng da body | 0.0tr | 8 | 0 | 0 | 0 | 0 | 2 | 6 | 0 | 0 |
 | 106 | Pin các loại | 0.0tr | 8 | 8 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 107 | Soju Vị Trái Cây | 0.0tr | 8 | 8 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 108 | Trái cây tươi | 0.0tr | 8 | 8 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
