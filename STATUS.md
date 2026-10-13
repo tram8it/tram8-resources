@@ -2,7 +2,7 @@
 
 > Sinh tự động bởi `node tools/status.mjs`. **Không sửa tay.** Nguồn sự thật là `meta.json` của từng SP.
 
-Tổng 2448 SP · đã xem 783 (32%) · xong 0 · chờ chủ duyệt 414 · cần chụp 273 · hỏi chủ 96
+Tổng 2448 SP · đã xem 893 (36%) · xong 0 · chờ chủ duyệt 476 · cần chụp 307 · hỏi chủ 110
 
 Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` = giữ nguyên + đã lên web.
 
@@ -24,10 +24,10 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 | 14 | Bánh xốp kem (wafer) | 0.0tr | 31 | 0 | 0 | 0 | 19 | 3 | 9 | 0 | 0 |
 | 15 | Mì gói | 0.0tr | 31 | 0 | 0 | 0 | 0 | 0 | 31 | 0 | 0 |
 | 16 | Sữa chua uống | 0.0tr | 31 | 0 | 0 | 0 | 5 | 2 | 24 | 0 | 0 |
-| 17 | Lager Phổ Thông | 0.0tr | 29 | 29 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 18 | Kem ly / cốc / hộp nhỏ | 0.0tr | 28 | 28 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 19 | Mì trộn / mì khô / spaghetti (Gói) | 0.0tr | 27 | 27 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 20 | Thức uống bổ sung dinh dưỡng | 0.0tr | 26 | 26 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 17 | Lager Phổ Thông | 0.0tr | 29 | 0 | 0 | 0 | 2 | 4 | 23 | 0 | 0 |
+| 18 | Kem ly / cốc / hộp nhỏ | 0.0tr | 28 | 0 | 0 | 0 | 14 | 3 | 11 | 0 | 0 |
+| 19 | Mì trộn / mì khô / spaghetti (Gói) | 0.0tr | 27 | 0 | 0 | 0 | 7 | 4 | 16 | 0 | 0 |
+| 20 | Thức uống bổ sung dinh dưỡng | 0.0tr | 26 | 0 | 0 | 0 | 11 | 3 | 12 | 0 | 0 |
 | 21 | Lăn khử mùi | 0.0tr | 25 | 0 | 0 | 0 | 1 | 1 | 23 | 0 | 0 |
 | 22 | Hạt các loại | 0.0tr | 24 | 24 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 23 | Bánh ăn sáng / ngũ cốc / thanh năng lượng | 0.0tr | 23 | 23 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |

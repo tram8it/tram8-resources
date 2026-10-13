@@ -17,18 +17,21 @@
     "description": "<h3 data-path-to-node=\"5\"><strong>Mô tả sản phẩm:</strong></h3><p data-path-to-node=\"6\"><strong>1. Giới thiệu sản phẩm</strong></p><ul data-path-to-node=\"7\"><li><p data-path-to-node=\"7,0,0\"><strong>Bia 333 (Ba Ba Ba)</strong> là một trong những thương hiệu bia lâu đời và mang tính biểu tượng tại thị trường Việt Nam, thuộc sở hữu của <strong>Tổng công ty Cổ phần Bia - Rượu - Nước giải khát Sài Gòn (SABECO)</strong>.</p></li><li><p data-path-to-node=\"7,1,0\">Với hương vị đậm đà, thơm ngon đặc trưng đã khẳng định qua nhiều thập kỷ, sản phẩm là người bạn đồng hành quen thuộc trong các bữa tiệc sum họp gia đình, liên hoan hay gặp gỡ bạn bè.</p></li></ul><p data-path-to-node=\"10\"><strong>2. Thông tin chi tiết</strong></p><ul data-path-to-node=\"11\"><li><p data-path-to-node=\"11,0,0\"><strong>Thương hiệu:</strong> 333 (SABECO)</p></li><li><p data-path-to-node=\"11,1,0\"><strong>Công ty sản xuất:</strong> Tổng công ty Cổ phần Bia - Rượu - Nước giải khát Sài Gòn (SABECO)</p></li><li><p data-path-to-node=\"11,2,0\"><strong>Xuất xứ:</strong> Việt Nam</p></li><li><p data-path-to-node=\"11,3,0\"><strong>Loại sản phẩm:</strong> Bia Lager / Bia vàng truyền thống</p></li><li><p data-path-to-node=\"11,4,0\"><strong>Dung tích:</strong> 330ml / lon</p></li><li><p data-path-to-node=\"11,5,0\"><strong>Quy cách đóng gói:</strong> 24 lon / thùng</p></li><li><p data-path-to-node=\"11,6,0\"><strong>Hạn sử dụng:</strong> In rõ trên bao bì sản phẩm (thường 6–12 tháng kể từ ngày sản xuất)</p></li></ul><p data-path-to-node=\"12\"><strong>3. Hướng dẫn sử dụng và bảo quản</strong></p><ul data-path-to-node=\"13\"><li><p data-path-to-node=\"13,0,0\"><strong>Cách dùng:</strong> Ngon hơn khi uống lạnh, nhiệt độ thưởng thức lý tưởng từ 8°C - 12°C. Nên ướp lạnh trước khi uống, có thể uống trực tiếp từ lon hoặc dùng kèm đá tùy sở thích.</p></li><li><p data-path-to-node=\"13,1,0\"><strong>Bảo quản:</strong> Nơi khô ráo, thoáng mát, tránh ánh nắng trực tiếp hoặc nơi có nhiệt độ cao.</p></li><li><p data-path-to-node=\"13,2,0\"><strong>Lưu ý:</strong> Sản phẩm không dành cho người dưới 18 tuổi và phụ nữ có thai hoặc đang cho con bú. <em>\"Đã uống rượu bia – Không lái xe\"</em>.</p></li></ul>",
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "NEEDS_PHOTO",
   "image": {
-    "decision": null,
-    "reason": null,
+    "decision": "REPLACE",
+    "reason": "I2/v2: ảnh là bao bì 333 Export đời cũ; trang sabeco.com.vn (bia-333-nguyen-ban) cho thấy lon 333 bao bì mới \"Triple The Excellence\" nhưng chỉ có ảnh banner nền màu, không có packshot nền trắng → cần nhân viên chụp",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "REWRITE",
+    "reason": "D2/D3: mô tả cũ do chatbot sinh (HTML), quảng cáo quá đà và có dữ kiện phỏng đoán/không kiểm chứng; viết lại theo trang SABECO",
+    "source": {
+      "url": "https://www.sabeco.com.vn/san-pham/bia/bia-333-nguyen-ban",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "question": null,
   "history": [
@@ -37,6 +40,12 @@
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:40:09.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "rubric v4: image REPLACE, description REWRITE"
     }
   ]
 }

@@ -17,18 +17,18 @@
     "description": "<h3 data-path-to-node=\"5\"><strong>Mô tả sản phẩm:</strong></h3><p data-path-to-node=\"6\"><strong>1. Giới thiệu sản phẩm</strong></p><ul data-path-to-node=\"7\"><li><p data-path-to-node=\"7,0,0\"><strong>Bia Camel Đỏ 500ml</strong> là một trong những dòng sản phẩm chủ lực và được ưa chuộng nhất của <strong>Công ty TNHH A&B Việt Nam</strong>.</p></li><li><p data-path-to-node=\"7,1,0\">Khoác lên mình thiết kế lon lớn 500ml với sắc đỏ mạnh mẽ, sang trọng, sản phẩm mang đến hương vị đậm đà, sảng khoái, là sự lựa chọn hoàn hảo cho các buổi tiệc tùng, liên hoan, sum họp gia đình hoặc làm quà biếu tặng trong các dịp lễ Tết.</p></li></ul><p data-path-to-node=\"10\"><strong>2. Thông tin chi tiết</strong></p><ul data-path-to-node=\"11\"><li><p data-path-to-node=\"11,0,0\"><strong>Thương hiệu:</strong> Camel (A&B Vietnam)</p></li><li><p data-path-to-node=\"11,1,0\"><strong>Công ty sản xuất:</strong> Công ty TNHH A&B Việt Nam</p></li><li><p data-path-to-node=\"11,2,0\"><strong>Xuất xứ:</strong> Việt Nam</p></li><li><p data-path-to-node=\"11,3,0\"><strong>Loại bia:</strong> Bia Lager / Bia vàng cao cấp</p></li><li><p data-path-to-node=\"11,4,0\"><strong>Dung tích:</strong> 500ml / lon</p></li><li><p data-path-to-node=\"11,5,0\"><strong>Quy cách đóng gói:</strong> 24 lon / thùng</p></li><li><p data-path-to-node=\"11,6,0\"><strong>Hạn sử dụng:</strong> In rõ trên bao bì sản phẩm (thường 9–12 tháng kể từ ngày sản xuất)</p></li></ul><p data-path-to-node=\"12\"><strong>3. Hướng dẫn sử dụng và bảo quản</strong></p><ul data-path-to-node=\"13\"><li><p data-path-to-node=\"13,0,0\"><strong>Cách dùng:</strong> Ngon hơn khi uống lạnh, nhiệt độ thưởng thức lý tưởng từ 8°C - 12°C. Nên ướp lạnh trước khi uống, hạn chế dùng kèm đá trực tiếp để giữ trọn vẹn vị đậm đà nguyên bản.</p></li><li><p data-path-to-node=\"13,1,0\"><strong>Bảo quản:</strong> Nơi khô ráo, thoáng mát, tránh ánh nắng trực tiếp hoặc nơi có nhiệt độ cao.</p></li><li><p data-path-to-node=\"13,2,0\"><strong>Lưu ý:</strong> Sản phẩm không dành cho người dưới 18 tuổi và phụ nữ có thai hoặc đang cho con bú. <em>\"Đã uống rượu bia – Không lái xe\"</em>.</p></li></ul>",
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "READY",
   "image": {
-    "decision": null,
-    "reason": null,
+    "decision": "KEEP",
+    "reason": "I1–I9 đạt: packshot nền trắng, đúng SP, 1:1, căn giữa",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
+    "decision": "REWRITE",
+    "reason": "D2/D3: mô tả cũ do chatbot sinh (HTML), quảng cáo quá đà và có dữ kiện phỏng đoán/không kiểm chứng (nhà sản xuất chưa kiểm chứng); viết ngắn từ chữ in trên lon (Camel Red Edition Beer, 500 ml, 4,8% vol)",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
   "question": null,
   "history": [
@@ -37,6 +37,12 @@
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:40:09.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "rubric v4: image KEEP, description REWRITE"
     }
   ]
 }

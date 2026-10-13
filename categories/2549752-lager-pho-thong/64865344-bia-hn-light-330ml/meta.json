@@ -17,18 +17,18 @@
     "description": "<h3 data-path-to-node=\"5\"><strong>Mô tả sản phẩm:</strong></h3><p data-path-to-node=\"6\"><strong>1. Giới thiệu sản phẩm</strong></p><ul data-path-to-node=\"7\"><li><p data-path-to-node=\"7,0,0\"><strong>Bia Hà Nội Light 330ml</strong> là dòng sản phẩm bia cao cấp mang phong cách nhẹ nhàng, hiện đại đến từ Tổng công ty Cổ phần Bia - Rượu - Nước giải khát Hà Nội (<strong>HABECO</strong>).</p></li><li><p data-path-to-node=\"7,1,0\">Được nghiên cứu để đáp ứng xu hướng thưởng thức tinh tế và thanh nhẹ, sản phẩm là sự lựa chọn lý tưởng cho các buổi gặp gỡ bạn bè, tiệc nhẹ, bữa cơm gia đình hoặc dành cho những ai yêu thích dòng bia êm dịu, dễ uống.</p></li></ul><p data-path-to-node=\"10\"><strong>2. Thông tin chi tiết</strong></p><ul data-path-to-node=\"11\"><li><p data-path-to-node=\"11,0,0\"><strong>Thương hiệu:</strong> Bia Hà Nội Light (HABECO)</p></li><li><p data-path-to-node=\"11,1,0\"><strong>Công ty sản xuất:</strong> Tổng công ty Cổ phần Bia - Rượu - Nước giải khát Hà Nội</p></li><li><p data-path-to-node=\"11,2,0\"><strong>Xuất xứ:</strong> Việt Nam</p></li><li><p data-path-to-node=\"11,3,0\"><strong>Loại sản phẩm:</strong> Bia vàng nhẹ / Bia Light cao cấp</p></li><li><p data-path-to-node=\"11,4,0\"><strong>Dung tích:</strong> 330ml / đơn vị (chai hoặc lon tùy quy cách thực tế)</p></li><li><p data-path-to-node=\"11,5,0\"><strong>Quy cách đóng gói:</strong> 24 đơn vị / thùng</p></li><li><p data-path-to-node=\"11,6,0\"><strong>Hạn sử dụng:</strong> In rõ trên bao bì sản phẩm (thường 6–9 tháng kể từ ngày sản xuất)</p></li></ul><p data-path-to-node=\"12\"><strong>3. Hướng dẫn sử dụng và bảo quản</strong></p><ul data-path-to-node=\"13\"><li><p data-path-to-node=\"13,0,0\"><strong>Cách dùng:</strong> Ngon hơn khi uống lạnh, nhiệt độ thưởng thức lý tưởng từ 8°C - 12°C. Nên ướp lạnh trước khi uống để cảm nhận trọn vẹn vị thanh mát nguyên bản.</p></li><li><p data-path-to-node=\"13,1,0\"><strong>Bảo quản:</strong> Nơi khô ráo, thoáng mát, tránh ánh nắng trực tiếp hoặc nơi có nhiệt độ cao.</p></li><li><p data-path-to-node=\"13,2,0\"><strong>Lưu ý:</strong> Sản phẩm không dành cho người dưới 18 tuổi và phụ nữ có thai hoặc đang cho con bú. <em>\"Đã uống rượu bia – Không lái xe\"</em>.</p></li></ul>",
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "READY",
   "image": {
-    "decision": null,
-    "reason": null,
+    "decision": "KEEP",
+    "reason": "I1–I9 đạt: packshot nền trắng, đúng SP, 1:1, căn giữa",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
+    "decision": "REWRITE",
+    "reason": "D2/D3: mô tả cũ do chatbot sinh (HTML), quảng cáo quá đà và có dữ kiện phỏng đoán/không kiểm chứng; viết ngắn từ chữ in trên lon (Hanoi Light, HABECO) và tên hàng",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
   "question": null,
   "history": [
@@ -37,6 +37,12 @@
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:40:09.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "rubric v4: image KEEP, description REWRITE"
     }
   ]
 }
