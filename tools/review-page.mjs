@@ -4,8 +4,9 @@
  *   node tools/review-page.mjs <category-dir | kiotCategoryId>
  *   → review/<category-dir>.html   (open it from a clone of this repo)
  *
- * Current images load from the KiotViet CDN URL in meta.json; new ones from
- * the image.webp next to it, so the page works offline only for new images.
+ * Current images load from the KiotViet CDN URL in meta.json; new ones are
+ * embedded from the image.webp next to it, so the page still shows them when
+ * the HTML file is downloaded and opened on its own.
  */
 import { existsSync } from "node:fs";
 import { readFile, writeFile } from "node:fs/promises";
@@ -47,7 +48,9 @@ products.sort(
 const cards = [];
 for (const p of products) {
   const m = p.meta;
-  const newImage = existsSync(join(p.path, "image.webp")) ? relative(reviewDir, join(p.path, "image.webp")) : null;
+  const newImage = existsSync(join(p.path, "image.webp"))
+    ? `data:image/webp;base64,${(await readFile(join(p.path, "image.webp"))).toString("base64")}`
+    : null;
   const newText = existsSync(join(p.path, "description.md"))
     ? await readFile(join(p.path, "description.md"), "utf8")
     : null;
