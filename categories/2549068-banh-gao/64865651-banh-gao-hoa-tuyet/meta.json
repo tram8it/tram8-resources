@@ -17,18 +17,21 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "READY",
   "image": {
-    "decision": null,
-    "reason": null,
+    "decision": "KEEP",
+    "reason": "Đạt I1–I9: packshot nền trắng, 1:1, trùng ảnh hiện hành trên wantwant.vn (Hoa Tuyết 110 g)",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; theo trang Want Want (ảnh gói hiện tại trùng ảnh trang này, 110 g)",
+    "source": {
+      "url": "https://wantwant.vn/vn/banh-gao-want-want-hoa-tuyet-vi-nuoc-tuong-Nhat-Ban-thanh-cay-110g.html",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "question": null,
   "history": [
@@ -37,6 +40,12 @@
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:06:39.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "b21: image KEEP, description WRITE_NEW"
     }
   ]
 }

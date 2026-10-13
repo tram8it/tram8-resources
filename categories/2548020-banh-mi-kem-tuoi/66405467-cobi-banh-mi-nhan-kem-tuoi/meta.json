@@ -17,18 +17,21 @@
     "description": "<span style=\"color:#162a52;font-family:Inter, sans-serif;background-color:#ffffff;\">1. Tên sản phẩm: BÁNH MÌ ĐÔNG LẠNH KEM TƯƠI – FRESH CREAM BREAD</span><br style=\"box-sizing:border-box;color:#162a52;font-family:Inter, sans-serif;background-color:#ffffff;\"><span style=\"color:#162a52;font-family:Inter, sans-serif;background-color:#ffffff;\">2. Thành phần: Bột mì 40 %, kem không sữa 17 %, kem đánh tiệt trùng 13 %, sữa, bơ thay thế, trứng, men bánh mì 2 %, phụ gia làm bánh 1 % (tinh bột, chất nhũ hóa (INS 472e), đường, chất chống oxy hóa (INS 300), chất xử lý bột (INS 1100(i)).</span><br style=\"box-sizing:border-box;color:#162a52;font-family:Inter, sans-serif;background-color:#ffffff;\"><span style=\"color:#162a52;font-family:Inter, sans-serif;background-color:#ffffff;\">3. Thời hạn sử dụng sản phẩm: HSD: 12 tháng | Sau khi rã đông: 3 ngày</span><br style=\"box-sizing:border-box;color:#162a52;font-family:Inter, sans-serif;background-color:#ffffff;\"><span style=\"color:#162a52;font-family:Inter, sans-serif;background-color:#ffffff;\">4. Quy cách đóng gói và chất liệu bao bì:</span><br style=\"box-sizing:border-box;color:#162a52;font-family:Inter, sans-serif;background-color:#ffffff;\"><span style=\"color:#162a52;font-family:Inter, sans-serif;background-color:#ffffff;\">– Quy cách đóng gói: Đóng gói kín.</span><br style=\"box-sizing:border-box;color:#162a52;font-family:Inter, sans-serif;background-color:#ffffff;\"><span style=\"color:#162a52;font-family:Inter, sans-serif;background-color:#ffffff;\">Khối lượng tịnh: 75 g. Hoặc khối lượng tịnh khác theo yêu cầu khách hàng và được thể hiện rõ trên bao bì sản phẩm.</span><br style=\"box-sizing:border-box;color:#162a52;font-family:Inter, sans-serif;background-color:#ffffff;\"><span style=\"color:#162a52;font-family:Inter, sans-serif;background-color:#ffffff;\">– Chất liệu bao bì: Sản phẩm được đóng gói trực tiếp trong bao bì nhựa OPP hoặc nhựa PET/CPP hoặc PA/ PE. Cam kết bao bì đảm bảo vệ sinh an toàn thực phẩm theo quy định của Bộ Y Tế.</span>",
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "READY",
   "image": {
-    "decision": null,
-    "reason": null,
+    "decision": "KEEP",
+    "reason": "Đạt I1–I9: ảnh SP của hãng Cobi Bread (gói + bánh cắt đôi) nền trắng, 1:1, nằm giữa, khớp ảnh trên cobibread.com",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "REWRITE",
+    "reason": "D3: mô tả cũ dán nguyên văn HTML và lời quảng cáo của trang hãng ('HOT TREND', 'Best seller'…); viết lại bằng lời mình theo dữ kiện trang hãng",
+    "source": {
+      "url": "https://cobibread.com/product/banh-mi-dong-lanh-kem-tuoi/",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "question": null,
   "history": [
@@ -37,6 +40,12 @@
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:06:23.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "image KEEP, description REWRITE from cobibread.com"
     }
   ]
 }

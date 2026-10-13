@@ -17,18 +17,24 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "READY",
   "image": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "REPLACE",
+    "reason": "I5/I9: ảnh hiện tại bị cắt hai mép bao bì; thay bằng ảnh hãng Phở Bò 65 g (trang SP https://vifon.com.vn/vn/pho-bo-65g.html); ảnh hãng 300px phóng ~2,8 lần, xem lại đạt (v4)",
+    "source": {
+      "url": "https://vifon.com.vn/vnt_upload/product/ph%E1%BB%9F-bo.png",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; theo trang hãng và chữ in mặt trước bao bì (trang hãng không ghi thành phần)",
+    "source": {
+      "url": "https://vifon.com.vn/vn/pho-bo-65g.html",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "question": null,
   "history": [
@@ -37,6 +43,12 @@
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:05:18.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "image REPLACE (Vifon official 65g), description WRITE_NEW"
     }
   ]
 }

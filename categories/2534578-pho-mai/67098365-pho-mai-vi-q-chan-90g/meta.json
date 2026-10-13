@@ -17,26 +17,32 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "ASK_OWNER",
   "image": {
-    "decision": null,
-    "reason": null,
+    "decision": "ASK_OWNER",
+    "reason": "I3/I7: ảnh là ảnh ghép 8 vị có chữ chèn và dòng \"Activate Windows\"; không xác định được vị \"Q-chan\"",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
+    "decision": "ASK_OWNER",
+    "reason": "Chưa có mô tả; chưa biết vị cụ thể nên chưa viết",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
-  "question": null,
+  "question": "\"Phô mai vị Q-chan 90g\" (mã 4903308010107) là vị gì? Ảnh hiện tại là ảnh ghép 8 vị Cheese Dessert. Nhờ chủ xem hộp thật (chữ in trên nắp) hoặc chụp mặt nắp.",
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:07:35.000Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "name \"vị Q-chan\" does not identify a flavour; asked owner"
     }
   ]
 }

@@ -17,26 +17,32 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "ASK_OWNER",
   "image": {
-    "decision": null,
-    "reason": null,
+    "decision": "ASK_OWNER",
+    "reason": "Ảnh hiện tại là cả gói 170 g, tên SP ghi '1 thanh' → chưa rõ đơn vị bán",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
+    "decision": "ASK_OWNER",
+    "reason": "Chưa rõ quy cách bán (1 thanh hay gói 170 g)",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
-  "question": null,
+  "question": "Bánh gạo cuộn Want Want vị bắp thanh ngọt – tên KiotViet ghi '1 thanh 18CM 170GR'. Gói 170 g gồm 10 thanh gói riêng (17 g/thanh). Cửa hàng bán lẻ từng thanh hay bán cả gói 170 g? (Ảnh hiện tại là cả gói; nếu bán lẻ từng thanh thì cần ảnh 1 thanh.)",
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:06:39.000Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "b21: image ASK_OWNER, description ASK_OWNER"
     }
   ]
 }
