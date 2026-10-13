@@ -17,26 +17,32 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "ASK_OWNER",
   "image": {
-    "decision": null,
-    "reason": null,
+    "decision": "ASK_OWNER",
+    "reason": "I2 chưa rõ: packshot nền trắng vị Dưa leo (chưa 1:1), nhưng tên không ghi vị và có mã khác trùng tên",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
+    "decision": "ASK_OWNER",
+    "reason": "D1: chưa có mô tả; chờ chủ xác nhận vị/khối lượng",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
-  "question": null,
+  "question": "Hai SP cùng tên 'Bim bim Oishi snack tater thins khoai Tây siêu mỏng 75g' (mã 8934803070217 và 8934803053524) không ghi vị; ảnh của cả hai đều là vị Dưa leo. Mỗi mã là vị gì (dưa leo / tảo biển / vị khác), gói bao nhiêu gam? Trang Oishi chỉ ghi cỡ 12g/30g/65g.",
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:20:32.000Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "batch b01: image ASK_OWNER, description ASK_OWNER"
     }
   ]
 }

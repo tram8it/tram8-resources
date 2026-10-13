@@ -17,18 +17,24 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "READY",
   "image": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "REPLACE",
+    "reason": "I3/I4: ảnh cầm tay, nền văn phòng → ảnh hãng cùng bao bì Flutes vị muối (ảnh hãng không in khối lượng; gói 80g trong ảnh cũ cùng thiết kế). Trang SP: https://oishi.com.vn/category/Snack",
+    "source": {
+      "url": "https://oishi.cdn.vccloud.vn/storage/products/November2025/i5ZkaLJ1JF3gcDWtl2RH.png",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; từ trang Oishi (tên vị) + khối lượng theo tên SP",
+    "source": {
+      "url": "https://oishi.com.vn/category/Snack",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "question": null,
   "history": [
@@ -37,6 +43,12 @@
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:20:32.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "batch b01: image REPLACE, description WRITE_NEW"
     }
   ]
 }

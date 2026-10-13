@@ -17,26 +17,32 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "ASK_OWNER",
   "image": {
-    "decision": null,
-    "reason": null,
+    "decision": "REPLACE",
+    "reason": "I3/I4/I5: ảnh điện thoại chụp cận gói (vị phô mai cay); chưa thay vì chưa rõ vị/khối lượng",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
+    "decision": "ASK_OWNER",
+    "reason": "D1: chưa có mô tả; chờ chủ xác nhận vị/khối lượng",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
-  "question": null,
+  "question": "Hai SP 'Bim Orion 2MIX' (mã 8936029425314) và 'Bim bim 2 mix vị phô mai' (mã 8936029425321): Orion có 2 vị 2Mix là phô mai cay và pizza cà chua; ảnh SP thứ nhất là vị phô mai cay. Mỗi mã là vị nào, gói bao nhiêu gam? (Trang Orion không có ảnh packshot 2Mix nên ảnh sẽ cần chụp.)",
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:20:32.000Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "batch b01: image REPLACE, description ASK_OWNER"
     }
   ]
 }

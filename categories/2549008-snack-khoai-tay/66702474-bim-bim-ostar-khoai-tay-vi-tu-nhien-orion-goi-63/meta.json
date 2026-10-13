@@ -17,18 +17,21 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "READY",
   "image": {
-    "decision": null,
-    "reason": null,
+    "decision": "CROP",
+    "reason": "I9: packshot nền trắng, đúng bao bì O'Star khoai tây tự nhiên như trang hãng, chưa 1:1 → crop; đã xem lại",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; thành phần từ hồ sơ tự công bố 72/OFV/2026 trên orion.vn, khối lượng theo tên SP",
+    "source": {
+      "url": "https://orion.vn/media/mnibyjyx/72-tcb-os-tự-nhiên-hscb-07y26.pdf",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "question": null,
   "history": [
@@ -37,6 +40,12 @@
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:20:32.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "batch b01: image CROP, description WRITE_NEW"
     }
   ]
 }

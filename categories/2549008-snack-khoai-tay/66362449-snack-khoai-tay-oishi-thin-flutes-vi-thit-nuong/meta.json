@@ -17,26 +17,32 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "ASK_OWNER",
   "image": {
-    "decision": null,
-    "reason": null,
+    "decision": "REPLACE",
+    "reason": "I7: ảnh quảng cáo của shop khác (logo 'Trạm ăn vặt', chữ 'Bán chạy', nền xanh); đã có ảnh hãng 1 gói (oishi.cdn.vccloud.vn/.../lVdixxf2THxy2aGcXZwo.png) nhưng chờ chủ",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
+    "decision": "ASK_OWNER",
+    "reason": "D1: chưa có mô tả; chờ chủ xác nhận quy cách bán (gói/thùng)",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
-  "question": null,
+  "question": "Tên SP ghi 'Snack khoai tây Oishi Thin Flutes vị thịt nướng phô mai - Thùng 20 gói x 50gr' nhưng đơn vị bán là 'Gói'. SP này bán lẻ 1 gói 50g hay nguyên thùng 20 gói? (Nếu gói lẻ: dùng ảnh hãng 1 gói và nên bỏ chữ 'Thùng 20 gói' khỏi tên.)",
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:20:32.000Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "batch b01: image REPLACE, description ASK_OWNER"
     }
   ]
 }

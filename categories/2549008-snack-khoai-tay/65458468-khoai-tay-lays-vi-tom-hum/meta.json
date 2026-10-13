@@ -17,26 +17,32 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "ASK_OWNER",
   "image": {
-    "decision": null,
-    "reason": null,
+    "decision": "REPLACE",
+    "reason": "I3/I4/I8: ảnh chụp thùng nhiều lon Lay's Stax; chưa thay vì tên không ghi khối lượng",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
+    "decision": "ASK_OWNER",
+    "reason": "D1: chưa có mô tả; chờ chủ xác nhận khối lượng",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
-  "question": null,
+  "question": "SP 'Khoai Tây Lays vị tôm hùm' (mã 8850718816057, mã Thái Lan) không ghi khối lượng; ảnh là thùng lon Lay's Stax. Đây là lon Lay's Stax vị gì (tôm hùm cay?), bao nhiêu gam? (Không có nguồn ảnh hãng, sẽ cần chụp.)",
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:20:32.000Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "batch b01: image REPLACE, description ASK_OWNER"
     }
   ]
 }

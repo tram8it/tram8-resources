@@ -17,18 +17,24 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "READY",
   "image": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "REPLACE",
+    "reason": "I1: không có ảnh → ảnh hãng O'Star vị tảo biển (gói 33g có trong hồ sơ công bố 78/OFV/2025). Trang SP: https://orion.vn/san-pham/san-pham/banh-snack-ostar-vi-tao-bien/",
+    "source": {
+      "url": "https://orion.vn/media/ccznjudi/orion-post-new-21.png",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; từ hồ sơ tự công bố 78/OFV/2025 trên orion.vn",
+    "source": {
+      "url": "https://orion.vn/media/30ab01zw/78-tcb-ostar-tảo-biển.pdf",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "question": null,
   "history": [
@@ -37,6 +43,12 @@
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:20:32.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "batch b01: image REPLACE, description WRITE_NEW"
     }
   ]
 }

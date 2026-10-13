@@ -17,18 +17,21 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "NEEDS_PHOTO",
   "image": {
-    "decision": null,
-    "reason": null,
+    "decision": "REPLACE",
+    "reason": "I3/I4/I5: ảnh điện thoại chụp cận gói; trang Orion không có ảnh packshot Swing Maxx xốt cay ngọt → cần chụp",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; từ hồ sơ tự công bố 84/OFV/2024 trên orion.vn (có cỡ 30g)",
+    "source": {
+      "url": "https://orion.vn/media/0uono0es/84_tcb-bánh-snack-swing-maxx-vị-xốt-cay-ngọt-hàn-quốc.pdf",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "question": null,
   "history": [
@@ -37,6 +40,12 @@
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:20:32.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "batch b01: image REPLACE, description WRITE_NEW"
     }
   ]
 }
