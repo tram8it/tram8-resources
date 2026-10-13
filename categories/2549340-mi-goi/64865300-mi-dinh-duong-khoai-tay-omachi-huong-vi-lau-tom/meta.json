@@ -17,18 +17,25 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh; trang Masan chưa có vị lẩu tôm càng — chụp mặt trước + mặt sau gói",
-    "source": null,
-    "rubricVersion": "v2"
+    "reason": "I1: chưa có ảnh; ảnh chủ gửi từ gian hàng chính hãng Omachi, đã cắt bỏ khung/chữ quảng cáo. Bao bì ghi ‘Tôm chua cay Thái’ — tên KiotViet ‘lẩu tôm càng’ nên sửa",
+    "source": {
+      "ownerProvided": true,
+      "channel": "Omachi — gian hàng chính hãng (sàn TMĐT)",
+      "receivedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "description": {
     "decision": "WRITE_NEW",
-    "reason": "D1: chưa có mô tả; không có trang hãng/nhãn sau — mô tả ngắn chỉ từ dữ kiện chắc chắn: tên SP (Omachi, lẩu tôm càng, 80 g)",
-    "source": null,
-    "rubricVersion": "v2"
+    "reason": "D1: chưa có mô tả; theo bao bì chủ xác nhận + trang Masan (sợi trứng + khoai tây, 80 g)",
+    "source": {
+      "url": "https://masanconsumer.com/en/omachi-potato-noodles-hot-and-sour-shirmp-80gr/",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "question": null,
   "history": [
@@ -49,6 +56,12 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "rubric v2 (owner 13/10: newest packaging, generated description when no source): image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-13T17:30:00.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "owner-provided official-store image; READY"
     }
   ]
 }

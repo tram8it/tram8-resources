@@ -17,21 +17,24 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I5: SP bị cắt mép trái; bao bì đang bán mới hơn ảnh trên vifon.com.vn — chụp mặt trước + mặt sau gói",
-    "source": null,
-    "rubricVersion": "v2"
+    "reason": "I5: SP bị cắt mép; chủ xác nhận bao bì 130 g như ảnh trên vifon.com.vn → dùng ảnh trang hãng",
+    "source": {
+      "url": "https://vifon.com.vn/vnt_upload/product/web-02-2.png",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "description": {
     "decision": "WRITE_NEW",
-    "reason": "D1: chưa có mô tả; giới thiệu từ trang Hoàng Gia mì thịt bằm, bỏ khối lượng vì bao bì khác đời",
+    "reason": "D1: chưa có mô tả",
     "source": {
       "url": "https://vifon.com.vn/vn/hoang-gia-mi-thit-bam-co-goi-thit-bam-that-130g.html",
       "fetchedAt": "2026-10-13"
     },
-    "rubricVersion": "v2"
+    "rubricVersion": "v4"
   },
   "question": null,
   "history": [
@@ -52,6 +55,12 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "rubric v2 (owner 13/10: newest packaging, generated description when no source): image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-13T17:30:00.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "owner-provided official-store image; READY"
     }
   ]
 }

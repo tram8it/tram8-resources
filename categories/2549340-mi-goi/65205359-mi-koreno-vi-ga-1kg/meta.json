@@ -17,18 +17,26 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I2: ảnh là Koreno vị Nấm 100 g, không phải vị gà 1 kg; không có trang hãng — chụp mặt trước + mặt sau gói",
-    "source": null,
-    "rubricVersion": "v1"
+    "reason": "I2: ảnh cũ sai vị; ảnh chủ gửi (Koreno Jumbo vị gà 1 kg)",
+    "source": {
+      "ownerProvided": true,
+      "channel": "Paldo Koreno — ảnh chủ cung cấp",
+      "receivedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "description": {
     "decision": "WRITE_NEW",
-    "reason": "D1: chưa có mô tả; không có trang hãng/nhãn sau — mô tả ngắn chỉ từ dữ kiện chắc chắn: tên SP (Koreno vị gà 1 kg) + mã vạch Paldo",
-    "source": null,
-    "rubricVersion": "v2"
+    "reason": "D1: chưa có mô tả; từ chữ in trên bao bì (Jumbo, mì vị gà, nấu 4 phút, 1 kg)",
+    "source": {
+      "ownerProvided": true,
+      "channel": "Paldo Koreno — ảnh chủ cung cấp",
+      "receivedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "question": null,
   "history": [
@@ -49,6 +57,12 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "rubric v2 (owner 13/10: newest packaging, generated description when no source): image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-13T17:30:00.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "owner-provided official-store image; READY"
     }
   ]
 }
