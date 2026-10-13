@@ -17,18 +17,24 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "READY",
   "image": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "REPLACE",
+    "reason": "I3/I6: chụp cận, mờ, không thấy nguyên gói; thay bằng ảnh trang hãng (cùng mã vạch, bao bì hiện hành)",
+    "source": {
+      "url": "https://nissinfoods.vn/vnt_upload/product/03_2025/thitham_600x600.jpg",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v1"
   },
   "description": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; mã vạch khớp trang hãng",
+    "source": {
+      "url": "https://nissinfoods.vn/vn/mi-ramen-an-lien-huong-vi-thit-ham-tonkotsu.html",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v1"
   },
   "question": null,
   "history": [
@@ -37,6 +43,12 @@
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T14:00:00.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "pilot review: image REPLACE, description WRITE_NEW"
     }
   ]
 }

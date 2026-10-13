@@ -17,26 +17,32 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "ASK_OWNER",
   "image": {
-    "decision": null,
-    "reason": null,
+    "decision": "ASK_OWNER",
+    "reason": "I2: bao bì rất cũ (logo Vina Acecook); hãng hiện bán bao bì mới 81 g",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v1"
   },
   "description": {
-    "decision": null,
-    "reason": null,
+    "decision": "ASK_OWNER",
+    "reason": "Chờ biết đang bán bao bì nào mới viết đúng khối lượng/thành phần",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v1"
   },
-  "question": null,
+  "question": "Ảnh hiện tại là bao bì rất cũ (logo Vina Acecook), tên ghi 80GR; trang Acecook hiện là bao bì mới ‘Mì Lẩu Thái Tôm’ 81g. Cửa hàng đang bán bao bì nào? Nếu là bao bì mới, tôi thay bằng ảnh trang hãng và viết mô tả theo 81g.",
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T14:00:00.000Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "pilot review: image ASK_OWNER, description ASK_OWNER"
     }
   ]
 }

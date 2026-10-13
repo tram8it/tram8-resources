@@ -17,18 +17,24 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "READY",
   "image": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "REPLACE",
+    "reason": "I1: chưa có ảnh; dùng ảnh trang hãng (80 g, khớp tên)",
+    "source": {
+      "url": "https://masanconsumer.com/wp-content/uploads/2024/12/Mi-dinh-duong-khoai-tay-Omachi-Suon-ham-ngu-qua.webp",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v1"
   },
   "description": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; trang hãng chỉ có giới thiệu + khối lượng",
+    "source": {
+      "url": "https://masanconsumer.com/en/omachi-potato-instant-noodles-stewed-ribs-with-five-fruits-flavor/",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v1"
   },
   "question": null,
   "history": [
@@ -37,6 +43,12 @@
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T14:00:00.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "pilot review: image REPLACE, description WRITE_NEW"
     }
   ]
 }

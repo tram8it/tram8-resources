@@ -17,18 +17,21 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "NEEDS_PHOTO",
   "image": {
-    "decision": null,
-    "reason": null,
+    "decision": "REPLACE",
+    "reason": "I1: chưa có ảnh; ảnh trang hãng quá nhỏ (SP ~270px, I6) — chụp mặt trước gói",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v1"
   },
   "description": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; trang hãng chỉ có giới thiệu + khối lượng",
+    "source": {
+      "url": "https://masanconsumer.com/en/industry/thuc-pham-tien-loi-industry/mi-goi-thuc-pham-tien-loi-industry/kokomi-spicy-and-sour-shrimp-flavor-65gr/",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v1"
   },
   "question": null,
   "history": [
@@ -37,6 +40,12 @@
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T14:00:00.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "pilot review: image REPLACE, description WRITE_NEW"
     }
   ]
 }

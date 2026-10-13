@@ -17,26 +17,32 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "ASK_OWNER",
   "image": {
-    "decision": null,
-    "reason": null,
+    "decision": "ASK_OWNER",
+    "reason": "I2: bao bì đời cũ ‘Sa tế hành cay’; hãng hiện bán ‘Sa Tế Hành Tím’ 75 g",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v1"
   },
   "description": {
-    "decision": null,
-    "reason": null,
+    "decision": "ASK_OWNER",
+    "reason": "Chờ biết đang bán bao bì nào mới viết đúng tên vị và khối lượng",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v1"
   },
-  "question": null,
+  "question": "Ảnh hiện tại là bao bì cũ ‘Sa tế hành cay’, tên trên KiotViet ghi 74g; trang Acecook hiện chỉ có ‘Hảo Hảo Sa Tế Hành Tím’ 75g. Cửa hàng đang bán bao bì nào? Nếu là bao bì mới: tôi thay ảnh bằng ảnh trang hãng và viết mô tả theo 75g (tên trên KiotViet nên sửa ở KiotViet).",
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T14:00:00.000Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "pilot review: image ASK_OWNER, description ASK_OWNER"
     }
   ]
 }

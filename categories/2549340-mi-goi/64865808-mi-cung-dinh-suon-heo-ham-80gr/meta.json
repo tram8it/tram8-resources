@@ -17,26 +17,32 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "ASK_OWNER",
   "image": {
-    "decision": null,
-    "reason": null,
+    "decision": "ASK_OWNER",
+    "reason": "I7: watermark META.vn, bao bì Micoem cũ — phải thay, nhưng chưa rõ vị nào",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v1"
   },
   "description": {
-    "decision": null,
-    "reason": null,
+    "decision": "ASK_OWNER",
+    "reason": "Chưa rõ vị để lấy đúng thành phần",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v1"
   },
-  "question": null,
+  "question": "Ảnh hiện tại có watermark META.vn (bao bì Micoem cũ) nên phải thay. Tên ghi ‘sườn heo hầm 80GR’ nhưng Cung Đình hiện có 2 vị gần giống: ‘Sườn Heo Hầm Măng’ (79g) và ‘Sườn Hầm Ngũ Quả’ (80g). Hàng mình là vị nào?",
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T14:00:00.000Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "pilot review: image ASK_OWNER, description ASK_OWNER"
     }
   ]
 }
