@@ -97,13 +97,20 @@ giữ ảnh nhưng viết lại mô tả.
   lại — chỉ khi chủ yêu cầu.
 - Chủ báo lại “SP này chưa đúng” bất cứ lúc nào → SP về `IN_PROGRESS`, ghi lý do vào `history`.
 
-## 7. Đưa lên web (bước riêng, sau cùng)
+## 7. Đưa lên web và KiotViet (bước riêng, sau cùng)
 
-- Làm ở repo **tram8-hub**, một PR riêng: API hẹp `PUT /api/v1/products/:kiotProductId/content`
-  **chỉ nhận ảnh + mô tả**, scope riêng, ghi log giá trị cũ để rollback; trường do Hub sở hữu nên
-  sync KiotViet không ghi đè. (Thiết kế chi tiết khi tới bước này.)
-- Chỉ đẩy SP `APPROVED`. Thử 20 SP → kiểm tram8.vn → đẩy phần còn lại theo category.
-- Sau khi đẩy: `UPLOADED` + ngày + hash ảnh.
+Chủ quyết 13/10/2026: nội dung đã duyệt về **thẳng bản ghi sản phẩm trên KiotViet** — tên (mẫu
+"Loại + Thương hiệu + Vị + Khối lượng"), trọng lượng (khối lượng tịnh), thương hiệu (in trên gói),
+ảnh, mô tả. **Tên trên hoá đơn điện tử không bao giờ đổi.** Hub: `docs/25-ghi-san-pham-kiotviet.md`.
+
+1. Chủ duyệt trên trang duyệt (gồm bảng tên/trọng lượng/thương hiệu đề xuất) → SP thành `APPROVED`.
+2. Token `products:read` + `products:content:write` + `products:kiotviet:write`, **hạn ngắn**.
+3. `node tools/push-kiotviet.mjs <category>` — chạy thử: xem sẽ đổi gì, thương hiệu nào cần tạo
+   trước trên KiotViet.
+4. `--only <id> --live` cho **1 SP** → mở KiotViet kiểm tên, **tên HĐĐT**, ảnh, giá, tồn.
+   Tool dừng ngay nếu KiotViet đổi thêm trường ngoài bản vá (`unexpectedChanges`).
+5. Ổn → `--live` cả category → SP thành `UPLOADED`. Thu hồi token.
+6. Vị trí kệ chưa ghi qua API được — đặt trên KiotViet (vd. "Kệ đồ khô").
 
 ## 8. Đầu vào cần có
 
