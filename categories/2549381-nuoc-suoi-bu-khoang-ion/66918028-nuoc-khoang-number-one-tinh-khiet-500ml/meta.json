@@ -17,18 +17,24 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "READY",
   "image": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "REPLACE",
+    "reason": "I8 + v2: ảnh cũ là lốc 6 chai nhãn đời trước; thay bằng ảnh chai Number 1 nhãn mới trên thp.com.vn/number-1-pure-water/ (ảnh không in dung tích)",
+    "source": {
+      "url": "https://www.thp.com.vn/wp-content/uploads/2025/12/NTK-2025-3-scaled.jpg",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; theo trang Tân Hiệp Phát",
+    "source": {
+      "url": "https://www.thp.com.vn/number-1-pure-water/",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "question": null,
   "history": [
@@ -37,6 +43,12 @@
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:07:05.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "b18 review (rubric v4): image REPLACE, description WRITE_NEW"
     }
   ]
 }

@@ -17,18 +17,24 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "READY",
   "image": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "REPLACE",
+    "reason": "I2: ảnh cũ là chai 500 ml, tên là 1.5 L; thay bằng ảnh chai 1,5 L trên thtruemart.vn",
+    "source": {
+      "url": "https://cdn.hstatic.net/products/200001185942/water-1.5l-800x800_679c7cd230484ec4af07d104be80a6dd_114c4dc4f3214ce28a23cff5a32829c5.png",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; theo trang TH true mart",
+    "source": {
+      "url": "https://thtruemart.vn/products/nuoc-tinh-khiet-th-true-water-1-5-l",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "question": null,
   "history": [
@@ -37,6 +43,12 @@
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:07:05.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "b18 review (rubric v4): image REPLACE, description WRITE_NEW"
     }
   ]
 }

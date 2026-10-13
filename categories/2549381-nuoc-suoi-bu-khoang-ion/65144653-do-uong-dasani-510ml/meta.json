@@ -17,26 +17,32 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "ASK_OWNER",
   "image": {
-    "decision": null,
-    "reason": null,
+    "decision": "ASK_OWNER",
+    "reason": "I2: ảnh hiện tại là Dasani tinh khiết nhãn xanh lá 500 ml; tên ghi 510 ml — trên trang hãng 510 ml là Dasani bổ sung khoáng (nhãn xanh dương)",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
+    "decision": "ASK_OWNER",
+    "reason": "D1: chưa có mô tả; chờ xác định đúng loại",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
-  "question": null,
+  "question": "\"Đồ uống DASANI 510ML\" (mã 8935049510864): hàng là Dasani bổ sung khoáng 510 ml (nhãn xanh dương, trên coca-cola.com/vn) hay Dasani tinh khiết 500 ml nhãn xanh lá như ảnh hiện tại?",
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:07:05.000Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "b18 review (rubric v4): image ASK_OWNER, description ASK_OWNER"
     }
   ]
 }

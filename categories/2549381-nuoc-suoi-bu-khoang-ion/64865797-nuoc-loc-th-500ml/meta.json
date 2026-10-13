@@ -17,18 +17,24 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "READY",
   "image": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "REPLACE",
+    "reason": "I2: ảnh cũ là chai 350 ml, tên là 500 ml; thay bằng ảnh chai 500 ml trên thtruemart.vn",
+    "source": {
+      "url": "https://cdn.hstatic.net/products/200001185942/nuoc_500_800x800_fe123f4399764aca9235b8f20797cac6_f0f2476449df40cba8da14a88b2c113f.png",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; theo trang TH true mart",
+    "source": {
+      "url": "https://thtruemart.vn/products/nuoc-tinh-khiet-th-true-water-500-ml",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "question": null,
   "history": [
@@ -37,6 +43,12 @@
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:07:05.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "b18 review (rubric v4): image REPLACE, description WRITE_NEW"
     }
   ]
 }
