@@ -2,7 +2,7 @@
 
 > Sinh tự động bởi `node tools/status.mjs`. **Không sửa tay.** Nguồn sự thật là `meta.json` của từng SP.
 
-Tổng 2448 SP · đã xem 1066 (44%) · xong 0 · chờ chủ duyệt 546 · cần chụp 402 · hỏi chủ 118
+Tổng 2448 SP · đã xem 1081 (44%) · xong 0 · chờ chủ duyệt 554 · cần chụp 405 · hỏi chủ 122
 
 Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` = giữ nguyên + đã lên web.
 
@@ -55,7 +55,7 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 | 45 | Sữa tiệt trùng có vị | 0.0tr | 17 | 17 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 46 | Nước suối / bù khoáng / ion | 0.0tr | 16 | 16 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 47 | Kombucha / lên men | 0.0tr | 16 | 16 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 48 | Mặt nạ | 0.0tr | 16 | 15 | 0 | 0 | 0 | 0 | 1 | 0 | 0 |
+| 48 | Mặt nạ | 0.0tr | 16 | 0 | 0 | 0 | 3 | 4 | 9 | 0 | 0 |
 | 49 | Sữa tắm | 0.0tr | 16 | 16 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 50 | Thạch – Rau câu | 0.0tr | 16 | 16 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 51 | Xịt khử mùi | 0.0tr | 16 | 16 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
