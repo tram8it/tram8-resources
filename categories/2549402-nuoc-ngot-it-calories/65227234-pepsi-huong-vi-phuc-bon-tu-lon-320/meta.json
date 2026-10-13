@@ -17,18 +17,18 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "READY",
   "image": {
-    "decision": null,
-    "reason": null,
+    "decision": "CROP",
+    "reason": "I9: packshot nền trắng, đúng SP (lon Pepsi không đường hương vị phúc bồn tử) nhưng không phải 1:1; crop về 1:1 (phóng 2,8 lần, xem lại đạt)",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; mô tả ngắn từ tên SP và chữ in trên lon ('Không đường', 'Hương vị phúc bồn tử'); trang hãng hiện không liệt kê vị này",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
   "question": null,
   "history": [
@@ -37,6 +37,12 @@
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:10:57.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "image CROP, description WRITE_NEW from can front"
     }
   ]
 }

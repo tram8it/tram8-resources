@@ -17,26 +17,32 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "ASK_OWNER",
   "image": {
-    "decision": null,
-    "reason": null,
+    "decision": "ASK_OWNER",
+    "reason": "I2: ảnh là vị Rosé, tên là vị phô mai; ảnh cũng là ảnh điện thoại (I3, I4)",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
+    "decision": "ASK_OWNER",
+    "reason": "Chưa rõ vị",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
-  "question": null,
+  "question": "'Bánh gạo Pororo Hàn Quốc Vị phô mai 115g' (mã vạch 8809380344474): ảnh hiện tại là ly Pororo 로제 떡볶이 (vị Rosé), không phải vị phô mai; vị phô mai đã có SP riêng 'Bánh gạo sốt phô mai Pororo 115g' (8809380343408). SP này thật ra là vị Rosé (cần đổi tên KiotViet) hay vị phô mai?",
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:10:45.000Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "b21: image ASK_OWNER, description ASK_OWNER"
     }
   ]
 }

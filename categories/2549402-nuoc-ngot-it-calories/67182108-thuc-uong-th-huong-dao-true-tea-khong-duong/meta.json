@@ -17,18 +17,24 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "READY",
   "image": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "REPLACE",
+    "reason": "I1: chưa có ảnh; dùng ảnh chai trên trang hãng: https://thmilk.vn/products/tra-huong-dao-tu-nhien-khong-duong-th-true-tea-350-ml/",
+    "source": {
+      "url": "https://thmilk.vn/wp-content/uploads/2026/07/Chai-800x800.png",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; theo trang hãng",
+    "source": {
+      "url": "https://thmilk.vn/products/tra-huong-dao-tu-nhien-khong-duong-th-true-tea-350-ml/",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "question": null,
   "history": [
@@ -37,6 +43,12 @@
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:10:57.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "image REPLACE (thmilk.vn), description WRITE_NEW"
     }
   ]
 }

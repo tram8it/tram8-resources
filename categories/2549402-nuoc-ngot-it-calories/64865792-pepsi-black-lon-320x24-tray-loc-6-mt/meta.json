@@ -17,18 +17,24 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "READY",
   "image": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "REPLACE",
+    "reason": "I2 (v2): ảnh hiện tại là bao bì cũ (logo 'pepsi' chữ thường, 'Không calo'); thay bằng lon bao bì mới cùng dòng Pepsi không calo trên trang hãng https://www.suntorypepsico.vn/thuong-hieu-cua-chung-toi/pepsi-3 (ảnh hãng nhỏ, phóng 1,7 lần, xem lại đạt)",
+    "source": {
+      "url": "https://api.suntorypepsico.vn/assets/3aa8803a-58e1-4b70-b9b5-df6ca045ac43",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; theo trang hãng (Pepsi không calo); trang hãng không ghi thành phần",
+    "source": {
+      "url": "https://www.suntorypepsico.vn/thuong-hieu-cua-chung-toi/pepsi-3",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "question": null,
   "history": [
@@ -37,6 +43,12 @@
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:10:57.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "image REPLACE (newest pack from suntorypepsico.vn), description WRITE_NEW"
     }
   ]
 }
