@@ -2,7 +2,7 @@
 
 > Sinh tự động bởi `node tools/status.mjs`. **Không sửa tay.** Nguồn sự thật là `meta.json` của từng SP.
 
-Tổng 2448 SP · đã xem 403 (16%) · xong 0 · chờ chủ duyệt 213 · cần chụp 135 · hỏi chủ 55
+Tổng 2448 SP · đã xem 438 (18%) · xong 0 · chờ chủ duyệt 231 · cần chụp 149 · hỏi chủ 58
 
 Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` = giữ nguyên + đã lên web.
 
@@ -10,7 +10,7 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 |---|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
 | 1 | Snack khoai tây | 0.0tr | 75 | 0 | 0 | 0 | 16 | 20 | 39 | 0 | 0 |
 | 2 | Snack bắp & phồng | 0.0tr | 64 | 64 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 3 | Kem que | 0.0tr | 60 | 35 | 0 | 0 | 10 | 2 | 13 | 0 | 0 |
+| 3 | Kem que | 0.0tr | 60 | 0 | 0 | 0 | 24 | 5 | 31 | 0 | 0 |
 | 4 | Socola thanh | 0.0tr | 53 | 0 | 0 | 0 | 11 | 5 | 37 | 0 | 0 |
 | 5 | Snack đậu phộng / hạt‑đậu | 0.0tr | 47 | 0 | 0 | 0 | 16 | 8 | 23 | 0 | 0 |
 | 6 | Kẹo dẻo / jelly | 0.0tr | 44 | 0 | 0 | 0 | 26 | 4 | 14 | 0 | 0 |
