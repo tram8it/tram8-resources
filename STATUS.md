@@ -2,7 +2,7 @@
 
 > Sinh tự động bởi `node tools/status.mjs`. **Không sửa tay.** Nguồn sự thật là `meta.json` của từng SP.
 
-Tổng 2448 SP · đã xem 1150 (47%) · xong 0 · chờ chủ duyệt 588 · cần chụp 431 · hỏi chủ 131
+Tổng 2448 SP · đã xem 1358 (55%) · xong 0 · chờ chủ duyệt 677 · cần chụp 535 · hỏi chủ 146
 
 Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` = giữ nguyên + đã lên web.
 
@@ -46,9 +46,9 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 | 36 | Vị nguyên bản | 0.0tr | 21 | 21 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 37 | Thuốc lá (18+) | 0.0tr | 20 | 20 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 38 | Nước tẩy trang - Dầu tẩy trang | 0.0tr | 20 | 20 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 39 | Soda / nước trái cây có gas | 0.0tr | 20 | 20 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 40 | Snack rong biển | 0.0tr | 20 | 20 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 41 | Snack phồng tôm/mực/cua | 0.0tr | 19 | 19 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 39 | Soda / nước trái cây có gas | 0.0tr | 20 | 0 | 0 | 0 | 2 | 1 | 17 | 0 | 0 |
+| 40 | Snack rong biển | 0.0tr | 20 | 0 | 0 | 0 | 13 | 1 | 6 | 0 | 0 |
+| 41 | Snack phồng tôm/mực/cua | 0.0tr | 19 | 0 | 0 | 0 | 8 | 0 | 11 | 0 | 0 |
 | 42 | Nước ngọt có gas | 0.0tr | 18 | 0 | 0 | 0 | 3 | 0 | 15 | 0 | 0 |
 | 43 | Bánh que chấm socola | 0.0tr | 18 | 18 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 44 | Kẹo mềm / caramen | 0.0tr | 17 | 17 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -56,23 +56,23 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 | 46 | Nước suối / bù khoáng / ion | 0.0tr | 16 | 16 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 47 | Kombucha / lên men | 0.0tr | 16 | 16 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 48 | Mặt nạ | 0.0tr | 16 | 0 | 0 | 0 | 3 | 4 | 9 | 0 | 0 |
-| 49 | Sữa tắm | 0.0tr | 16 | 16 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 50 | Thạch – Rau câu | 0.0tr | 16 | 16 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 49 | Sữa tắm | 0.0tr | 16 | 0 | 0 | 0 | 4 | 2 | 10 | 0 | 0 |
+| 50 | Thạch – Rau câu | 0.0tr | 16 | 0 | 0 | 0 | 12 | 1 | 3 | 0 | 0 |
 | 51 | Xịt khử mùi | 0.0tr | 16 | 16 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 52 | Sữa hạt | 0.0tr | 16 | 16 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 53 | Que cay / tăm cay (latiao) | 0.0tr | 15 | 15 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 54 | Bánh ngọt | 0.0tr | 15 | 15 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 55 | Chân gà | 0.0tr | 15 | 15 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 56 | Cocktail lon RTD | 0.0tr | 15 | 15 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 57 | Sữa chua kiểu Hy Lạp | 0.0tr | 15 | 15 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 58 | Măng & rau ngâm cay | 0.0tr | 15 | 15 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 59 | Khô heo | 0.0tr | 14 | 14 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 53 | Que cay / tăm cay (latiao) | 0.0tr | 15 | 0 | 0 | 0 | 12 | 1 | 2 | 0 | 0 |
+| 54 | Bánh ngọt | 0.0tr | 15 | 0 | 0 | 0 | 13 | 1 | 1 | 0 | 0 |
+| 55 | Chân gà | 0.0tr | 15 | 0 | 0 | 0 | 9 | 1 | 5 | 0 | 0 |
+| 56 | Cocktail lon RTD | 0.0tr | 15 | 0 | 0 | 0 | 3 | 0 | 12 | 0 | 0 |
+| 57 | Sữa chua kiểu Hy Lạp | 0.0tr | 15 | 0 | 0 | 0 | 11 | 0 | 4 | 0 | 0 |
+| 58 | Măng & rau ngâm cay | 0.0tr | 15 | 0 | 0 | 0 | 11 | 0 | 4 | 0 | 0 |
+| 59 | Khô heo | 0.0tr | 14 | 0 | 0 | 0 | 4 | 4 | 6 | 0 | 0 |
 | 60 | Bánh pie / cake mềm | 0.0tr | 14 | 14 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 61 | Board games/ Card games | 0.0tr | 14 | 14 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 62 | Mì cay (Ly/Tô/Cốc) | 0.0tr | 14 | 14 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 63 | Bánh gạo | 0.0tr | 13 | 13 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 64 | Tokbokki & bánh gạo Hàn | 0.0tr | 13 | 13 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 65 | Sandwiches - Toastes | 0.0tr | 13 | 13 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 65 | Sandwiches - Toastes | 0.0tr | 13 | 0 | 0 | 0 | 2 | 3 | 8 | 0 | 0 |
 | 66 | Kem đánh răng - Hơi thở thơm | 0.0tr | 13 | 13 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 67 | Dung dịch vệ sinh nữ | 0.0tr | 13 | 13 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 68 | Khăn ướt – khăn giấy | 0.0tr | 13 | 13 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |

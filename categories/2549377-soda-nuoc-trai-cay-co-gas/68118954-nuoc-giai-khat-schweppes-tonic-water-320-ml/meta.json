@@ -17,18 +17,24 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "READY",
   "image": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "REPLACE",
+    "reason": "I2, I4: ảnh là lon Schweppes Tonic đời cũ thị trường Malaysia (chữ \"Mengandungi Kuinin\"), nền có vệt chữ mờ; thay bằng lon Việt Nam 320 ml trên https://www.coca-cola.com/vn/vi/brands/schweppes",
+    "source": {
+      "url": "https://www.coca-cola.com/content/dam/onexp/vn/vi/brands/schweppes/vn-schweppes-tonic.png",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; theo trang hãng (thành phần Schweppes Tonic)",
+    "source": {
+      "url": "https://www.coca-cola.com/vn/vi/brands/schweppes",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "question": null,
   "history": [
@@ -37,6 +43,12 @@
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:53:05.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "b17: image REPLACE (official), description WRITE_NEW"
     }
   ]
 }

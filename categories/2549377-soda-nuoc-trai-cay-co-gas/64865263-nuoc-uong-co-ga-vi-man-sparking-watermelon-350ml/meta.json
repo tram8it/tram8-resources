@@ -17,26 +17,32 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "ASK_OWNER",
   "image": {
-    "decision": null,
-    "reason": null,
+    "decision": "ASK_OWNER",
+    "reason": "I3, I4: ảnh chụp 2 lon trên kệ (cần thay); tên SP mâu thuẫn mận/dưa hấu, chưa rõ thương hiệu",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
+    "decision": "ASK_OWNER",
+    "reason": "D1: chưa có mô tả; tên mâu thuẫn (Mận vs Watermelon) → chờ chủ xác nhận vị",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
-  "question": null,
+  "question": "\"Nước Uống Có Ga Vị Mận Sparking Watermelon 350ml\" (mã 8809005029571): ảnh hiện tại là lon Sparkling PLUM (자두소다 – soda mận, nhãn Mexico). Sản phẩm đang bán là vị mận hay vị dưa hấu (watermelon)? Thương hiệu là gì? Ảnh cần chụp lại vì ảnh hiện tại chụp trên kệ.",
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:53:05.000Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "b17: asked owner (plum vs watermelon name conflict)"
     }
   ]
 }
