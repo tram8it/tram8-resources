@@ -17,18 +17,18 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "NEEDS_PHOTO",
   "image": {
-    "decision": null,
-    "reason": null,
+    "decision": "REPLACE",
+    "reason": "I4/I7: ảnh quảng cáo có khung xanh, chữ chèn, bục trưng bày; trang hãng Kumano (kumano-cosme.co.jp) không truy cập được, kumanoyushi.co.jp không có catalogue SP → cần chụp",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết ngắn từ tên SP và chữ in trên bao bì (đọc nhãn trên trang bán lẻ Nhật, chỉ lấy dữ kiện), không nêu công dụng",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
   "question": null,
   "history": [
@@ -37,6 +37,12 @@
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:21:15.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "b28 review: image REPLACE, description WRITE_NEW"
     }
   ]
 }

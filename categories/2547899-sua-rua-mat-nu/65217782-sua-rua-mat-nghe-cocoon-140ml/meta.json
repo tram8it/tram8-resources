@@ -17,18 +17,24 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "READY",
   "image": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "REPLACE",
+    "reason": "I1: chưa có ảnh; ảnh nền trong suốt trên trang hãng (mã vạch 8936217700452 khớp, trang SP https://cocoonvietnam.com/san-pham/sua-rua-mat-nghe-hung-yen-140ml), phóng ~2 lần",
+    "source": {
+      "url": "https://image.cocoonvietnam.com/uploads/29892133_transparent_29b6652de5.png",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết từ trang SP Cocoon (thành phần chính, cách dùng, xuất xứ), không nêu công dụng ngoài bao bì",
+    "source": {
+      "url": "https://cocoonvietnam.com/san-pham/sua-rua-mat-nghe-hung-yen-140ml",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "question": null,
   "history": [
@@ -37,6 +43,12 @@
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:21:15.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "b28 review: image REPLACE, description WRITE_NEW"
     }
   ]
 }

@@ -2,7 +2,7 @@
 
 > Sinh tự động bởi `node tools/status.mjs`. **Không sửa tay.** Nguồn sự thật là `meta.json` của từng SP.
 
-Tổng 2448 SP · đã xem 2098 (86%) · xong 0 · chờ chủ duyệt 1101 · cần chụp 802 · hỏi chủ 195
+Tổng 2448 SP · đã xem 2113 (86%) · xong 0 · chờ chủ duyệt 1106 · cần chụp 811 · hỏi chủ 196
 
 Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` = giữ nguyên + đã lên web.
 
@@ -117,7 +117,7 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 | 107 | Soju Vị Trái Cây | 0.0tr | 8 | 0 | 0 | 0 | 0 | 1 | 7 | 0 | 0 |
 | 108 | Trái cây tươi | 0.0tr | 8 | 0 | 0 | 0 | 8 | 0 | 0 | 0 | 0 |
 | 109 | Trà sữa | 0.0tr | 8 | 0 | 0 | 0 | 8 | 0 | 0 | 0 | 0 |
-| 110 | Bánh gạo / cơm cháy / bánh ngọt | 0.0tr | 8 | 8 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 110 | Bánh gạo / cơm cháy / bánh ngọt | 0.0tr | 8 | 0 | 0 | 0 | 8 | 0 | 0 | 0 | 0 |
 | 111 | Rong biển ăn liền | 0.0tr | 8 | 0 | 0 | 0 | 1 | 0 | 7 | 0 | 0 |
 | 112 | Dụng cụ móng | 0.0tr | 7 | 0 | 0 | 0 | 1 | 0 | 6 | 0 | 0 |
 | 113 | Xịt chống nắng | 0.0tr | 7 | 0 | 0 | 0 | 4 | 0 | 3 | 0 | 0 |
@@ -125,7 +125,7 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 | 115 | Món ăn no | 0.0tr | 7 | 0 | 0 | 0 | 6 | 0 | 1 | 0 | 0 |
 | 116 | Da cá / Da heo | 0.0tr | 7 | 0 | 0 | 0 | 3 | 0 | 4 | 0 | 0 |
 | 117 | Snack khoai mì / khoai lang | 0.0tr | 7 | 0 | 0 | 0 | 0 | 0 | 7 | 0 | 0 |
-| 118 | Sữa rửa mặt NỮ | 0.0tr | 7 | 7 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 118 | Sữa rửa mặt NỮ | 0.0tr | 7 | 0 | 0 | 0 | 1 | 1 | 5 | 0 | 0 |
 | 119 | Tẩy da chết - Face | 0.0tr | 7 | 7 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 120 | Whisky & Bourbon | 0.0tr | 7 | 7 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 121 | Kem hộp lớn / gia đình | 0.0tr | 7 | 7 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |

@@ -17,26 +17,32 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "ASK_OWNER",
   "image": {
-    "decision": null,
-    "reason": null,
+    "decision": "ASK_OWNER",
+    "reason": "I2: ảnh là SP khác (sữa rửa mặt Nhật), nhưng không tìm được ảnh hãng cho mã vạch 4005900747891 để biết chắc SP đang bán",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
+    "decision": "ASK_OWNER",
+    "reason": "Chưa rõ SP thật đang bán nên chưa viết mô tả",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
-  "question": null,
+  "question": "Ảnh hiện tại của SP '81295 N NU SRM NGOC TRAI DUONGSANG 100G' là một tuýp sữa rửa mặt Nhật (chữ 洗顔フォーム), không phải NIVEA; mã vạch 4005900747891 không có trên các trang NIVEA. Cửa hàng đang bán đúng sữa rửa mặt NIVEA ngọc trai dưỡng sáng 100g (mã 81295) không? Nếu có, nhờ nhân viên chụp ảnh tuýp đang bán (mặt trước + mặt sau).",
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:21:15.000Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "b28 review: image ASK_OWNER, description ASK_OWNER"
     }
   ]
 }

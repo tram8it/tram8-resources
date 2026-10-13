@@ -17,18 +17,24 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "READY",
   "image": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "REPLACE",
+    "reason": "I4/I5: ảnh điện thoại nền gạch, tuýp bị cắt; thay bằng ảnh hãng NIVEA Thái Lan cùng mã vạch 8850029043647 (Luminous Skin Glow Whip Wash Foam 100 ml), trang https://www.nivea.co.th/products/nivea-luminous-skin-glow-whip-wash-foam-100ml-88500290436470077.html",
+    "source": {
+      "url": "https://img.nivea.com/-/media/miscellaneous/media-center-items/e/b/9/2771969e526e4978a5cca43552b0c085-web_1010x1180_transparent_png.png",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết từ trang SP NIVEA Thái Lan cùng mã vạch (dung tích 100 ml, thành phần), không nêu công dụng ngoài bao bì",
+    "source": {
+      "url": "https://www.nivea.co.th/products/nivea-luminous-skin-glow-whip-wash-foam-100ml-88500290436470077.html",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "question": null,
   "history": [
@@ -37,6 +43,12 @@
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:21:15.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "b28 review: image REPLACE, description WRITE_NEW"
     }
   ]
 }
