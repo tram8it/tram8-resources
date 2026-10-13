@@ -17,18 +17,24 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "READY",
   "image": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "REPLACE",
+    "reason": "I9/I6: ảnh 450×600, SP nhỏ (phải phóng ~3 lần); thay bằng packshot trang Nissin Việt Nam (mã vạch 8936071070456 khớp), trang SP https://nissinfoods.vn/vn/mi-xao-thai-tom-y.html",
+    "source": {
+      "url": "https://nissinfoods.vn/vnt_upload/product/01_2025/WEB_600x600_tomyumi.png",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; theo trang Nissin Việt Nam (mã vạch khớp)",
+    "source": {
+      "url": "https://nissinfoods.vn/vn/mi-xao-thai-tom-y.html",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "question": null,
   "history": [
@@ -37,6 +43,12 @@
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:40:09.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "rubric v4: image REPLACE, description WRITE_NEW"
     }
   ]
 }

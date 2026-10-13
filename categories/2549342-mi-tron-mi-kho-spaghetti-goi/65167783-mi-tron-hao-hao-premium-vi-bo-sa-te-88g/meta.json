@@ -17,18 +17,24 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "READY",
   "image": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "REPLACE",
+    "reason": "I9 + v2: ảnh 779×584 là bao bì đời trước; thay bằng bao bì mới nhất trên trang Acecook (Hảo Hảo Premium Mì Trộn Bò Sa Tế 88 g), trang SP https://acecookvietnam.vn/product/mi-hao-hao-premium/",
+    "source": {
+      "url": "https://acecookvietnam.vn/wp/wp-content/uploads/2026/04/3D-GOI-HH-PREMIUM-BO-DBA-scaled.png",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; theo trang Acecook (Hảo Hảo Premium hương vị Mì Trộn Bò Sa Tế)",
+    "source": {
+      "url": "https://acecookvietnam.vn/product/mi-hao-hao-premium/",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "question": null,
   "history": [
@@ -37,6 +43,12 @@
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:40:09.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "rubric v4: image REPLACE, description WRITE_NEW"
     }
   ]
 }
