@@ -17,18 +17,24 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "READY",
   "image": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "REPLACE",
+    "reason": "I4, I9: ảnh quảng cáo nền hồng, có chữ chèn; ảnh hãng bao bì 50 g trên kazoriginaltaste.com",
+    "source": {
+      "url": "https://kazoriginaltaste.com/wp-content/uploads/2024/10/z5912492841808_1ede5f7d6d5574f610998bdaf919d887-e1730169480133.jpg",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết từ trang Kaz chính hãng và chữ in trên bao bì 50 g (trang hãng ghi thành phần cho gói 100/200 g nên không dùng)",
+    "source": {
+      "url": "https://kazoriginaltaste.com/san-pham/soft-dried-ruby-guava/",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "question": null,
   "history": [
@@ -37,6 +43,12 @@
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:43:14.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "image REPLACE, description WRITE_NEW"
     }
   ]
 }
