@@ -97,20 +97,23 @@ giữ ảnh nhưng viết lại mô tả.
   lại — chỉ khi chủ yêu cầu.
 - Chủ báo lại “SP này chưa đúng” bất cứ lúc nào → SP về `IN_PROGRESS`, ghi lý do vào `history`.
 
-## 7. Đưa lên web và KiotViet (bước riêng, sau cùng)
+## 7. Đưa lên web và KiotViet — chủ duyệt tay trên Hub
 
-Chủ quyết 13/10/2026: nội dung đã duyệt về **thẳng bản ghi sản phẩm trên KiotViet** — tên (mẫu
+Chủ quyết 13/10/2026: nội dung về **thẳng bản ghi sản phẩm trên KiotViet** — tên (mẫu
 "Loại + Thương hiệu + Vị + Khối lượng"), trọng lượng (khối lượng tịnh), thương hiệu (in trên gói),
-ảnh, mô tả. **Tên trên hoá đơn điện tử không bao giờ đổi.** Hub: `docs/25-ghi-san-pham-kiotviet.md`.
+ảnh, mô tả — nhưng **mọi thay đổi do chủ duyệt bằng tay trên Hub**. **Tên trên hoá đơn điện tử không
+bao giờ đổi.** Hub: `docs/25-ghi-san-pham-kiotviet.md`.
 
-1. Chủ duyệt trên trang duyệt (gồm bảng tên/trọng lượng/thương hiệu đề xuất) → SP thành `APPROVED`.
-2. Token `products:read` + `products:content:write` + `products:kiotviet:write`, **hạn ngắn**.
-3. `node tools/push-kiotviet.mjs <category>` — chạy thử: xem sẽ đổi gì, thương hiệu nào cần tạo
-   trước trên KiotViet.
-4. `--only <id> --live` cho **1 SP** → mở KiotViet kiểm tên, **tên HĐĐT**, ảnh, giá, tồn.
-   Tool dừng ngay nếu KiotViet đổi thêm trường ngoài bản vá (`unexpectedChanges`).
-5. Ổn → `--live` cả category → SP thành `UPLOADED`. Thu hồi token.
-6. Vị trí kệ chưa ghi qua API được — đặt trên KiotViet (vd. "Kệ đồ khô").
+1. SP làm xong (`READY`) → `node tools/proposals.mjs submit <category>` (xem trước) → `--send`.
+   Token: `products:read` + `products:proposals:write` (không có quyền ghi KiotViet).
+2. Chủ mở **Hub › Công cụ › Duyệt nội dung SP**: so KiotViet hiện tại với đề xuất từng trường, bỏ
+   chọn/sửa nếu cần, **Áp dụng** hoặc **Từ chối** kèm lý do. Sau khi áp dụng, đối chiếu trên KiotViet.
+3. `node tools/proposals.mjs sync` → đã áp dụng thành `UPLOADED`; bị từ chối về `IN_PROGRESS` kèm lý do
+   trong `history` — sửa rồi gửi lại.
+4. Thương hiệu chưa có trên KiotViet → trang duyệt báo trước; chủ tạo trên KiotViet rồi áp dụng.
+5. Vị trí kệ chưa ghi qua API — đặt trên KiotViet (vd. "Kệ đồ khô").
+
+`review/<category>.html` vẫn dùng được để tự xem lại trước khi gửi.
 
 ## 8. Đầu vào cần có
 

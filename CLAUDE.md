@@ -33,7 +33,9 @@ Repo chuẩn bị **ảnh + mô tả sản phẩm** cho tram8.vn (chuỗi cửa 
                    "source": { "url": "…", "fetchedAt": "…" } | null, "rubricVersion": "v1" },
   "master": { "name": "Mì Hảo Hảo tôm chua cay 75g", "weightGram": 75, "brand": "Hảo Hảo",   // đề xuất ghi lên KiotViet
               "reason": "…", "rubricVersion": "v4" },                                      // (tên HĐĐT không bao giờ đổi)
-  "uploaded": { "at": "…", "imageHash": "…", "kiotviet": { … }, "unexpectedChanges": { … } }, // tool ghi khi đẩy
+  "submitted": { "at": "…", "fields": ["name", "…"] },                                       // tool ghi khi gửi đề xuất
+  "review": { "status": "APPLIED|REJECTED|FAILED", "reviewedBy": "…", "reviewedAt": "…", "note": "…" }, // tool sync ghi
+  "uploaded": { "at": "…", "by": "…", "kiotviet": { … }, "unexpectedChanges": { … } },        // khi chủ đã áp dụng
   "question": null,
   "history": [ { "at": "ISO", "by": "ai|owner|init", "status": "…", "note": "…" } ]
 }
@@ -47,7 +49,8 @@ Thành phẩm nằm cạnh `meta.json`: `image.webp` (1000×1000, chuẩn trong 
 | `node tools/status.mjs` | sinh lại STATUS.md / NEEDS_PHOTO.csv / ASK_OWNER.md, báo bản ghi lỗi |
 | `node tools/review-page.mjs <category>` | trang duyệt trước/sau cho chủ → `review/` (ảnh mới nhúng sẵn) |
 | `node tools/pull-from-hub.mjs` | kéo danh mục + SP từ API nội dung của Hub (chỉ GET) → `inbox/` |
-| `node tools/push-kiotviet.mjs <category> [--only <id>] [--live]` | đẩy SP **APPROVED** lên Hub rồi KiotViet; mặc định chạy thử (hub docs/25) |
+| `node tools/proposals.mjs submit <category> [--only <id>] [--send]` | gửi SP **READY** vào hàng chờ duyệt trên Hub (mặc định chỉ liệt kê) |
+| `node tools/proposals.mjs sync` | đọc quyết định của chủ về: áp dụng → `UPLOADED`, từ chối → `IN_PROGRESS` + lý do |
 
 ## Ngôn ngữ
 Tài liệu tiếng Việt. Code, comment, commit message tiếng Anh.
