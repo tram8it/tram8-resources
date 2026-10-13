@@ -17,18 +17,21 @@
     "description": "<p>KHỐI LƯỢNG TỊNH: 137,5G (27,5G/GÓI, 5 GÓI/TÚI)</p><p><span style=\"font-family:Helvetica;\">THÔNG TIN SẢN PHẨM CHI TIẾT, NGÀY SẢN XUẤT, HẠN SỬ DỤNG: XEM TRÊN BAO BÌ CỦA MỖI SẢN PHẨM BÊN TRONG. (*) HẠN SỬ DỤNG CỦA SẢN PHẨM HẾT HẠN GẦN NHẤT (NGÀY/ THÁNG/NĂM).</span></p><p><span style=\"font-family:Helvetica;\"></span>THÀNH PHẦN: DẦU THỰC VẬT, ĐƯỜNG, BỘT MÌ, TRỨNG, MALTODEXTRIN, CHẤT BÉO THỰC VẬT (CÓ CHỨA CHẤT NHŨ HÓA 322(I)), CHẤT LÀM ẨM (420(II), 422, 1520), BỘT KEM SỮA, CHẤT ỔN ĐỊNH (1442, 1440, 415, 170(i), 401), CƠM DỪA SẤY KHÔ 1,9%, CHẤT NHŨ HÓA (1450, 477, 471, 475, 473, 322(I), 491, 470(I)), MẠCH NHA GLUCOSE, GLUTEN LÚA MÌ, HỖN HỢP CỐM DẠNG BỘT 1%, CỒN THỰC PHẨM, MẠCH NHA ISOMALTO OLIGO, BỘT LÒNG TRẮNG TRỨNG, BỘT SỮA DỪA 0,7%, BỘT SỮA NGUYÊN KEM, SHORT-ENING THỰC VẬT, MẠCH NHA MALTOSE, HƯƠNG LIỆU NHÂN TẠO (LÁ DỨA, DỪA, SỮA, CỐM), CHẤT TẠO XỐP (575, 500(I)), MUỐI, CHẤT XỬ LÝ BỘT (1100(III), TINH BỘT BẮP, MUỐI I- ỐT, CHẤT CHỐNG OXY HÓA (307B), CHẤT TẠO MÀU TỰ NHIÊN (141 (II)), CHẤT ĐIỀU CHỈNH ĐỘ ACID (330), TINH BỘT GẠO, CHẤT TẠO MÀU TỔNG HỢP (160A(I)).</p>",
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "READY",
   "image": {
-    "decision": null,
-    "reason": null,
+    "decision": "KEEP",
+    "reason": "Packshot nền trắng, 1:1, đúng bao bì 'Bản sắc' như trang hãng, căn giữa",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "REWRITE",
+    "reason": "D3, D4: mô tả cũ viết hoa toàn bộ, chỉ có khối lượng và thành phần; viết lại theo trang hãng + dữ kiện bao bì trong mô tả cũ",
+    "source": {
+      "url": "https://orion.vn/san-pham/san-pham/banh-c-est-bon-phu-mochi-com-dua/",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "question": null,
   "history": [
@@ -37,6 +40,12 @@
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:46:45.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "b13: image KEEP, description REWRITE"
     }
   ]
 }

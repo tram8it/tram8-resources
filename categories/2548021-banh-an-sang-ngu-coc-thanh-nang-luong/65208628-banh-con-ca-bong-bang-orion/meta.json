@@ -17,18 +17,18 @@
     "description": "<p data-path-to-node=\"3\"><strong>Bánh con cá Orion nhân Mochi Socola Đậu đỏ 145g</strong></p><ul data-path-to-node=\"4\"><li><p data-path-to-node=\"4,0,0\"><strong>Thương hiệu:</strong> Orion (Hàn Quốc)</p></li><li><p data-path-to-node=\"4,1,0\"><strong>Nơi sản xuất:</strong> Việt Nam</p></li><li><p data-path-to-node=\"4,2,0\"><strong>Quy cách:</strong> Hộp 145g (5 gói x 29g)</p></li><li><p data-path-to-node=\"4,3,0\"><strong>Năng lượng:</strong> 120 kcal/gói 29g</p></li><li><p data-path-to-node=\"4,4,0\"><strong>Thành phần:</strong> Trứng (23%), bột mì, đường, nhân đậu đỏ (3.7%), socola sữa (1.4%), bột cacao (0.5%), tinh bột gạo nếp, kem sữa,...</p></li><li><p data-path-to-node=\"4,5,0\"><strong>Độ tuổi sử dụng:</strong> Trẻ từ 4 tuổi trở lên và người lớn.</p></li><li><p data-path-to-node=\"4,6,0\"><strong>Khuyên dùng:</strong> Trẻ 4 - 9 tuổi (80g/ngày), trên 10 tuổi & người lớn (125g/ngày).</p></li><li><p data-path-to-node=\"4,7,0\"><strong>Bảo quản:</strong> Để nơi khô ráo, thoáng mát, tránh ánh nắng trực tiếp.</p></li><li><p data-path-to-node=\"4,8,0\"><strong>Lưu ý dị ứng:</strong> Sản phẩm có chứa trứng, sữa, lúa mì, đậu nành và có thể chứa cá.</p></li></ul><h3 data-path-to-node=\"6\"></h3>",
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "READY",
   "image": {
-    "decision": null,
-    "reason": null,
+    "decision": "CROP",
+    "reason": "I9: packshot nền trắng, đúng SP nhưng nhỏ trong khung (~64%); crop về chuẩn (phóng ~2,2 lần, xem lại đạt)",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
+    "decision": "KEEP",
+    "reason": "Mô tả đúng SP (145 g, 5 gói x 29 g, thành phần, bảo quản), trình bày rõ ràng",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
   "question": null,
   "history": [
@@ -37,6 +37,12 @@
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:46:45.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "b13: image CROP, description KEEP"
     }
   ]
 }

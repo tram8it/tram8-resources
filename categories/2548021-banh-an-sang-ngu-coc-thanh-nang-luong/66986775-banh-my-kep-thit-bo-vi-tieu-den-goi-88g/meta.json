@@ -17,26 +17,32 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "ASK_OWNER",
   "image": {
-    "decision": null,
-    "reason": null,
+    "decision": "ASK_OWNER",
+    "reason": "I2: ảnh trùng SP mã khác (85 g), không chắc đúng SP 88 g",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
+    "decision": "ASK_OWNER",
+    "reason": "Chờ chủ xác nhận SP",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
-  "question": null,
+  "question": "SP 'Bánh mỳ kẹp thịt bò vị tiêu đen gói 88g' (mã 6970766913224) đang dùng ảnh bánh Dominatte bò tiêu đen — cùng ảnh với SP 'Bánh mỳ sandwich kẹp thịt vị bò tiêu đen 85g' (mã 6980016910798). Hai mã này có phải cùng một bánh không (85 g hay 88 g)? Nếu khác, cần chụp gói mã 6970766913224.",
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:46:45.000Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "b13: ASK_OWNER"
     }
   ]
 }

@@ -17,18 +17,24 @@
     "description": "<p style=\"box-sizing:border-box;margin-bottom:1rem;font-family:SVN-Gilroy;background-color:#ffffff;\"><span style=\"box-sizing:border-box;\">Thương hiệu: Orion</span></p><p style=\"box-sizing:border-box;margin-bottom:1rem;font-family:SVN-Gilroy;background-color:#ffffff;\"><span style=\"box-sizing:border-box;\">Xuất xứ: Việt Nam</span></p><p style=\"box-sizing:border-box;margin-bottom:1rem;font-family:SVN-Gilroy;background-color:#ffffff;\"><span style=\"box-sizing:border-box;\">Thành phần: Đường, bột mì, trứng, dầu thực vật, chất béo thực vật, chà bông (ruốc thịt gà) (4,4%), bột kem sữa, chất làm ẩm (420(ii), 1520, 422), mạch nha glucose, chất nhũ hóa (477, 471, 475, 473, 322(i), 491, 470(1)), mạch nha maltose, bột sữa gầy, bố thực vật (1,2%), bột lòng trắng trứng, cồn thực phẩm, bột sữa nguyên kem, chất tạo xốp (575, 500(ii)), bột phô mai (0,4%), maltodextrin, chất ôn định (1442, 415), calci carbonat (0,3%), muối, bột whey, mứt chanh, muối i-ốt, bố lạt-xuất xứ new zealand (0,1%), hương liệu tổng hợp (bơ phô mai, kem phô mai, bố, sữa), chất xử lý bột (1100(ii), hương liệu bơ giống tự nhiên, chất tạo màu tổng hợp (160a(i)).</span></p><p style=\"box-sizing:border-box;margin-bottom:1rem;font-family:SVN-Gilroy;background-color:#ffffff;\"><span style=\"box-sizing:border-box;\">HDSD: Dùng trực tiếp</span></p><p style=\"box-sizing:border-box;margin-bottom:1rem;font-family:SVN-Gilroy;background-color:#ffffff;\"><span style=\"box-sizing:border-box;\">Bảo quản: Để nơi khô ráo, thoáng mát, tránh ánh nắng trực tiếp</span></p><p style=\"box-sizing:border-box;margin:0px;font-family:SVN-Gilroy;background-color:#ffffff;\"><span style=\"box-sizing:border-box;\">Khối lượng tịnh: 147gr (6 gói x 24,5gr)</span></p>",
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "READY",
   "image": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "REPLACE",
+    "reason": "I9, I6: ảnh hiện tại nhỏ (SP chiếm < 1/2 khung), crop phải phóng > 3 lần; thay bằng ảnh túi 6P trên trang hãng, cùng bao bì. Trang SP: https://orion.vn/san-pham/san-pham/banh-an-sang-cest-bon-sandwich-sot-bo-pho-mai-cha-bong/",
+    "source": {
+      "url": "https://orion.vn/media/c1nkkwnk/230731-cestbon_sandwich_film.png",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "REWRITE",
+    "reason": "D3: mô tả cũ nhiều lỗi chính tả (bố/bơ, ôn định); viết lại theo trang hãng + dữ kiện bao bì trong mô tả cũ",
+    "source": {
+      "url": "https://orion.vn/san-pham/san-pham/banh-an-sang-cest-bon-sandwich-sot-bo-pho-mai-cha-bong/",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "question": null,
   "history": [
@@ -37,6 +43,12 @@
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:46:45.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "b13: image REPLACE, description REWRITE"
     }
   ]
 }

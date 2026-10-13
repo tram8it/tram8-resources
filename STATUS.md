@@ -2,7 +2,7 @@
 
 > Sinh tự động bởi `node tools/status.mjs`. **Không sửa tay.** Nguồn sự thật là `meta.json` của từng SP.
 
-Tổng 2448 SP · đã xem 1081 (44%) · xong 0 · chờ chủ duyệt 554 · cần chụp 405 · hỏi chủ 122
+Tổng 2448 SP · đã xem 1150 (47%) · xong 0 · chờ chủ duyệt 588 · cần chụp 431 · hỏi chủ 131
 
 Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` = giữ nguyên + đã lên web.
 
@@ -30,9 +30,9 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 | 20 | Thức uống bổ sung dinh dưỡng | 0.0tr | 26 | 0 | 0 | 0 | 11 | 3 | 12 | 0 | 0 |
 | 21 | Lăn khử mùi | 0.0tr | 25 | 0 | 0 | 0 | 1 | 1 | 23 | 0 | 0 |
 | 22 | Hạt các loại | 0.0tr | 24 | 0 | 0 | 0 | 11 | 0 | 13 | 0 | 0 |
-| 23 | Bánh ăn sáng / ngũ cốc / thanh năng lượng | 0.0tr | 23 | 23 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 24 | Bánh quy kem / kẹp kem | 0.0tr | 23 | 23 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 25 | Mì cay (Gói) | 0.0tr | 23 | 23 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 23 | Bánh ăn sáng / ngũ cốc / thanh năng lượng | 0.0tr | 23 | 0 | 0 | 0 | 8 | 6 | 9 | 0 | 0 |
+| 24 | Bánh quy kem / kẹp kem | 0.0tr | 23 | 0 | 0 | 0 | 9 | 1 | 13 | 0 | 0 |
+| 25 | Mì cay (Gói) | 0.0tr | 23 | 0 | 0 | 0 | 9 | 2 | 12 | 0 | 0 |
 | 26 | Bánh quy giòn / lạt | 0.0tr | 22 | 0 | 0 | 0 | 11 | 3 | 8 | 0 | 0 |
 | 27 | Kẹo cứng | 0.0tr | 22 | 0 | 0 | 0 | 10 | 0 | 12 | 0 | 0 |
 | 28 | Món hấp | 0.0tr | 22 | 0 | 0 | 0 | 22 | 0 | 0 | 0 | 0 |
