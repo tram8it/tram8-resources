@@ -17,26 +17,32 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "ASK_OWNER",
   "image": {
-    "decision": null,
-    "reason": null,
+    "decision": "ASK_OWNER",
+    "reason": "I2: tên không ghi vị; ảnh hiện tại là mặt sau gói Phô mai 40g, không khớp 46g trong tên",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
+    "decision": "ASK_OWNER",
+    "reason": "Chờ chủ xác nhận vị/khối lượng trước khi viết",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
-  "question": null,
+  "question": "SP \"Bánh tráng trộn miss 46g\" (mã vạch 8938549708182) là vị nào? Ảnh hiện tại là mặt sau gói Miss Bánh Tráng vị Phô mai, in KLT 40g — đúng SP này không, và khối lượng là 40g hay 46g?",
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:32:10.000Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "batch b09 review: image ASK_OWNER, description ASK_OWNER"
     }
   ]
 }
