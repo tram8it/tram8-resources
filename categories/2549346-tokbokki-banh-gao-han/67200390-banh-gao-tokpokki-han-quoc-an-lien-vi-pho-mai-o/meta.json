@@ -20,10 +20,10 @@
   "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "Chưa có ảnh. Ảnh chủ gửi (nhân viên chụp ly trên quầy), tách nền bằng cutout.py; ly nguyên vẹn",
+    "reason": "Chưa có ảnh; hãng (daesang.vn) chỉ có bản gói 140g, không có ly 105g. Ảnh chủ gửi (nhân viên chụp riêng ly trên quầy, lần 2, chính diện), tách nền bằng cutout.py; ly nguyên vẹn",
     "source": {
       "ownerProvided": true,
-      "note": "ảnh chủ gửi qua chat, tách nền",
+      "note": "ảnh chủ gửi qua chat (chụp lại chính diện), tách nền",
       "receivedAt": "2026-10-14"
     },
     "rubricVersion": "v5"
@@ -65,10 +65,22 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-14T13:00:00.000Z",
+      "by": "owner",
+      "status": "READY",
+      "note": "owner re-shot the cup straight on; image replaced"
+    },
+    {
+      "at": "2026-10-14T12:20:36.893Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-14T12:04:38.038Z",
+    "at": "2026-10-14T12:20:36.893Z",
     "fields": [
       "description",
       "image"
