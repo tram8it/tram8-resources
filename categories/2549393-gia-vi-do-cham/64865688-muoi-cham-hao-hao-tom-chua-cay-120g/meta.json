@@ -20,9 +20,9 @@
   "status": "READY",
   "image": {
     "decision": "CROP",
-    "reason": "I9: packshot nền trắng, đúng hũ 120g, cùng bao bì với ảnh trên acecookvietnam.vn; chỉ không 1:1 → crop, phóng ~2,4 lần, xem lại đạt (v4)",
+    "reason": "I9: packshot nền trắng, đúng hũ 120g, cùng bao bì với ảnh trên acecookvietnam.vn; chỉ không 1:1 → crop, phóng ~2,4 lần, xem lại đạt (v4); chỉnh sáng/cân bằng trắng bằng tools/tone.py (RUBRIC v7), đã so trước/sau",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v7"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -52,10 +52,22 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-14T08:54:33Z",
+      "by": "owner",
+      "status": "READY",
+      "note": "Chủ thấy ảnh tối; chỉnh sáng bằng tools/tone.py, gửi lại"
+    },
+    {
+      "at": "2026-10-14T08:54:48.074Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-14T07:51:34.052Z",
+    "at": "2026-10-14T08:54:48.074Z",
     "fields": [
       "description",
       "image"

@@ -20,12 +20,12 @@
   "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh; dùng ảnh hãng Tương ớt CHIN-SU Cay 100 110g. Trang SP: https://masanconsumer.com/nganh-hang/gia-vi/tuong-ot/tuong-ot-chin-su-cay-100-110gr/",
+    "reason": "I1: chưa có ảnh; dùng ảnh hãng Tương ớt CHIN-SU Cay 100 110g. Trang SP: https://masanconsumer.com/nganh-hang/gia-vi/tuong-ot/tuong-ot-chin-su-cay-100-110gr/; chỉnh sáng/cân bằng trắng bằng tools/tone.py (RUBRIC v7), đã so trước/sau",
     "source": {
       "url": "https://masanconsumer.com/wp-content/uploads/2025/12/Cay100_Vuong-scaled.png",
       "fetchedAt": "2026-10-13"
     },
-    "rubricVersion": "v4"
+    "rubricVersion": "v7"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -55,10 +55,22 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-14T08:54:33Z",
+      "by": "owner",
+      "status": "READY",
+      "note": "Chủ thấy ảnh tối; chỉnh sáng bằng tools/tone.py, gửi lại"
+    },
+    {
+      "at": "2026-10-14T08:54:34.128Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-14T07:51:34.052Z",
+    "at": "2026-10-14T08:54:34.128Z",
     "fields": [
       "description",
       "image"
