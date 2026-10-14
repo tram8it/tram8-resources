@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I3/I4: ảnh điện thoại chụp ly trên nền gạch. Thay bằng ảnh chủ gửi (ly cầm tay trong cửa hàng), tách nền bằng cutout.py, bỏ tay và nền kệ; ly nguyên vẹn",
@@ -65,6 +65,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-14T13:39:56.212Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -74,5 +80,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-14T12:07:37.416Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-14T12:07:37.416Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/f0dbb82578ecf00d6742f663bc03fe55e6f8fedb3e65af75e4e56e2509969519.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/20/tram8/b6d70848dcb54affa460a3d897b90464.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Bún ốc Liễu Châu (luosifen) vị truyền thống Luosiking dạng ly ăn liền, kèm nước dùng ốc kiểu Liễu Châu.\n\nQuy cách: 188 g · ly\nXuất xứ: Trung Quốc · Nhà sản xuất/thương hiệu: Luosiking",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

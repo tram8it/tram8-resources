@@ -2,7 +2,7 @@
 
 > Sinh tự động bởi `node tools/status.mjs`. **Không sửa tay.** Nguồn sự thật là `meta.json` của từng SP.
 
-Tổng 2448 SP · đã xem 2428 (99%) · xong 120 · chờ chủ duyệt 1169 · cần chụp 898 · hỏi chủ 228
+Tổng 2448 SP · đã xem 2428 (99%) · xong 149 · chờ chủ duyệt 1140 · cần chụp 898 · hỏi chủ 228
 
 Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` = giữ nguyên + đã lên web.
 
@@ -32,7 +32,7 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 | 22 | Hạt các loại | 0.0tr | 24 | 0 | 0 | 0 | 11 | 0 | 13 | 0 | 0 |
 | 23 | Bánh ăn sáng / ngũ cốc / thanh năng lượng | 0.0tr | 23 | 0 | 0 | 0 | 8 | 6 | 9 | 0 | 0 |
 | 24 | Bánh quy kem / kẹp kem | 0.0tr | 23 | 0 | 0 | 0 | 9 | 1 | 13 | 0 | 0 |
-| 25 | Mì cay (Gói) | 0.0tr | 23 | 0 | 0 | 0 | 0 | 0 | 23 | 0 | 0 |
+| 25 | Mì cay (Gói) | 0.0tr | 23 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 22 |
 | 26 | Bánh quy giòn / lạt | 0.0tr | 22 | 0 | 0 | 0 | 11 | 3 | 8 | 0 | 0 |
 | 27 | Kẹo cứng | 0.0tr | 22 | 0 | 0 | 0 | 10 | 0 | 12 | 0 | 0 |
 | 28 | Món hấp | 0.0tr | 22 | 0 | 0 | 0 | 22 | 0 | 0 | 0 | 0 |
@@ -71,7 +71,7 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 | 61 | Board games/ Card games | 0.0tr | 14 | 0 | 0 | 0 | 4 | 0 | 10 | 0 | 0 |
 | 62 | Mì cay (Ly/Tô/Cốc) | 0.0tr | 14 | 0 | 0 | 0 | 1 | 1 | 12 | 0 | 0 |
 | 63 | Bánh gạo | 0.0tr | 13 | 0 | 0 | 0 | 3 | 5 | 5 | 0 | 0 |
-| 64 | Tokbokki & bánh gạo Hàn | 0.0tr | 13 | 0 | 0 | 0 | 0 | 0 | 5 | 0 | 8 |
+| 64 | Tokbokki & bánh gạo Hàn | 0.0tr | 13 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 13 |
 | 65 | Sandwiches - Toastes | 0.0tr | 13 | 0 | 0 | 0 | 2 | 3 | 8 | 0 | 0 |
 | 66 | Kem đánh răng - Hơi thở thơm | 0.0tr | 13 | 0 | 0 | 0 | 3 | 0 | 10 | 0 | 0 |
 | 67 | Dung dịch vệ sinh nữ | 0.0tr | 13 | 0 | 0 | 0 | 2 | 2 | 9 | 0 | 0 |
@@ -132,7 +132,7 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 | 122 | Thực phẩm chế biến sẵn | 0.0tr | 7 | 0 | 0 | 0 | 1 | 1 | 5 | 0 | 0 |
 | 123 | Thịt chua | 0.0tr | 7 | 0 | 0 | 0 | 3 | 1 | 3 | 0 | 0 |
 | 124 | Sữa thanh trùng | 0.0tr | 7 | 0 | 0 | 0 | 6 | 0 | 1 | 0 | 0 |
-| 125 | Bún / hủ tiếu ăn liền | 0.0tr | 6 | 0 | 0 | 0 | 0 | 0 | 2 | 0 | 4 |
+| 125 | Bún / hủ tiếu ăn liền | 0.0tr | 6 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 6 |
 | 126 | Dầu gội khô | 0.0tr | 6 | 0 | 0 | 0 | 1 | 0 | 5 | 0 | 0 |
 | 127 | Ô mai - Xí muội | 0.0tr | 6 | 0 | 0 | 0 | 4 | 1 | 1 | 0 | 0 |
 | 128 | Son dưỡng môi | 0.0tr | 6 | 0 | 0 | 0 | 3 | 1 | 2 | 0 | 0 |
