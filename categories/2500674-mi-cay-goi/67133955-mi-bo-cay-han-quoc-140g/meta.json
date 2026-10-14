@@ -17,20 +17,24 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "ASK_OWNER",
+  "status": "READY",
   "image": {
-    "decision": "ASK_OWNER",
-    "reason": "I1: chưa có ảnh; tên SP không có thương hiệu, không xác định được SP",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "REPLACE",
+    "reason": "Chưa có ảnh; chủ gửi ảnh render tô Vifon Mì bò cay Hàn Quốc 140g, chuẩn hoá bằng make_image.py (phóng ~2,2 lần, xem lại không vỡ)",
+    "source": {
+      "ownerProvided": true,
+      "note": "ảnh render nền trắng chủ gửi qua chat",
+      "receivedAt": "2026-10-14"
+    },
+    "rubricVersion": "v6"
   },
   "description": {
-    "decision": "ASK_OWNER",
-    "reason": "Chờ chủ xác nhận SP",
+    "decision": "WRITE_NEW",
+    "reason": "D1: viết từ chữ in trên tô trong ảnh chủ gửi (Vifon, Mì Xuất Khẩu, Mì bò cay Hàn Quốc, có gói bò thật 57 g, 140 g)",
     "source": null,
     "rubricVersion": "v4"
   },
-  "question": "SP 'Mì bò cay Hàn Quốc 140g' (mã 8935311102674, đơn vị Hộp) là của hãng nào, dạng gói hay tô/hộp? Chưa có ảnh; không tìm được nguồn theo mã vạch.",
+  "question": null,
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -43,6 +47,26 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "b13: ASK_OWNER"
+    },
+    {
+      "at": "2026-10-14T15:30:00.000Z",
+      "by": "owner",
+      "status": "READY",
+      "note": "owner: Vifon bowl, image sent"
+    },
+    {
+      "at": "2026-10-14T13:02:50.720Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-14T13:02:50.720Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }
