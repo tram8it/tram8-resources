@@ -19,10 +19,13 @@
   },
   "status": "READY",
   "image": {
-    "decision": "CROP",
-    "reason": "I9: packshot nền trắng, đúng tô Samyang Rosé Buldak Big Bowl, chưa 1:1; đã crop và xem lại",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "REPLACE",
+    "reason": "Thay bằng packshot chính hãng trên buldak.com/vn (tên trang khớp tên KiotViet): https://buldak.com/vn/product/buldak-ramen-rose-big-bowl/",
+    "source": {
+      "url": "https://cdn.buldak.com/images_dev/1758256679555-23_Buldak%20Ramen%20Rose_105g.webp",
+      "fetchedAt": "2026-10-14"
+    },
+    "rubricVersion": "v6"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +46,26 @@
       "by": "ai",
       "status": "READY",
       "note": "b21: image CROP, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-14T17:40:00.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "brand packshot from buldak.com/vn"
+    },
+    {
+      "at": "2026-10-14T13:43:14.970Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-14T13:43:14.970Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }
