@@ -19,10 +19,14 @@
   },
   "status": "READY",
   "image": {
-    "decision": "CROP",
-    "reason": "I9: packshot nền trắng, đúng tô phở trộn Kool 80 g; chỉ chưa 1:1 → crop, đã xem lại đạt",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "REPLACE",
+    "reason": "Chủ gửi ảnh render thố Phở Trộn Cung Đình Kool hương vị bò xốt tương đen kiểu Hong Kong 80 g (cùng cỡ 1250×1513 với render chính hãng afotech.vn), thay ảnh cắt cũ; chuẩn hoá bằng make_image.py",
+    "source": {
+      "ownerProvided": true,
+      "note": "render thố Phở Trộn Kool bò xốt tương đen 80g, chủ gửi qua chat",
+      "receivedAt": "2026-10-14"
+    },
+    "rubricVersion": "v6"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -49,10 +53,22 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-14T19:40:00.000Z",
+      "by": "owner",
+      "status": "READY",
+      "note": "owner sent brand render"
+    },
+    {
+      "at": "2026-10-14T14:24:12.222Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-14T14:17:48.675Z",
+    "at": "2026-10-14T14:24:12.222Z",
     "fields": [
       "description",
       "image"
