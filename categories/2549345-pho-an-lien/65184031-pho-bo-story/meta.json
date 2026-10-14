@@ -19,14 +19,18 @@
   },
   "status": "READY",
   "image": {
-    "decision": "CROP",
-    "reason": "I9: ảnh không 1:1; crop về 1:1, đã xem lại đạt (trang hãng Masan không có trang SP này)",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "REPLACE",
+    "reason": "Chủ chọn ảnh hãng (RUBRIC v6): render chính hãng Chin-su Phở Story phở bò truyền thống 80 g chủ gửi, nền trắng, chuẩn hoá bằng make_image.py; đẹp hơn ảnh KiotViet crop",
+    "source": {
+      "ownerProvided": true,
+      "note": "Ảnh render chính hãng Masan (Chin-su Phở Story), chủ gửi qua chat",
+      "receivedAt": "2026-10-14"
+    },
+    "rubricVersion": "v6"
   },
   "description": {
     "decision": "WRITE_NEW",
-    "reason": "D1: chưa có mô tả; mô tả ngắn từ chữ in mặt trước bao bì (không có trang SP chính hãng)",
+    "reason": "D1: chưa có mô tả; mô tả ngắn từ chữ in mặt trước bao bì (không có trang SP chính hãng); thêm khối lượng 80 g in trên bao bì",
     "source": null,
     "rubricVersion": "v4"
   },
@@ -49,10 +53,22 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-14T08:22:59Z",
+      "by": "owner",
+      "status": "READY",
+      "note": "Chủ gửi ảnh hãng Phở Story cho đẹp; thêm 80 g vào mô tả"
+    },
+    {
+      "at": "2026-10-14T08:23:00.047Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-14T07:50:17.159Z",
+    "at": "2026-10-14T08:23:00.047Z",
     "fields": [
       "description",
       "image"
