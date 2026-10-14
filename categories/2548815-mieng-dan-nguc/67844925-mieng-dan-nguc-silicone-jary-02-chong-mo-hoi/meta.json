@@ -17,18 +17,18 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "NEEDS_PHOTO",
   "image": {
-    "decision": null,
-    "reason": null,
+    "decision": "REPLACE",
+    "reason": "I7: ảnh có logo cửa hàng khác ('RN Cosmetics') và hình chú thích kích thước chèn thêm; không tìm được trang hãng/kênh chính chủ của Jary → cần chụp",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết ngắn chỉ từ chữ in trên hộp (Nipple Covers, 02 - With hole, 1 pair / 8cm x 8cm, Anti-sweat silicone nipple covers)",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
   "question": null,
   "history": [
@@ -37,6 +37,12 @@
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:28:04.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "third-party shop logo on image; no official source; description from pack text"
     }
   ]
 }
