@@ -17,18 +17,24 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "READY",
   "image": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "REPLACE",
+    "reason": "I2/v2: ảnh hiện tại là bao bì đời trước (chưa có nhãn 'Mì tươi – dai ngon'); thay bằng bao bì mới trên trang hãng. Ảnh hãng 300px phóng ~2,8 lần, xem lại hơi mềm, đạt theo v4. Trang SP: https://vifon.com.vn/vn/mi-bo-xot-vang-vifon.html",
+    "source": {
+      "url": "https://vifon.com.vn/vnt_upload/product/mi_update_230623/WEDMI-15.png",
+      "fetchedAt": "2026-10-14"
+    },
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết từ trang hãng",
+    "source": {
+      "url": "https://vifon.com.vn/vn/mi-bo-xot-vang-vifon.html",
+      "fetchedAt": "2026-10-14"
+    },
+    "rubricVersion": "v4"
   },
   "question": null,
   "history": [
@@ -37,6 +43,12 @@
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-14T00:39:42.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "batch f1: image REPLACE (newest pack, vifon.com.vn), description WRITE_NEW"
     }
   ]
 }
