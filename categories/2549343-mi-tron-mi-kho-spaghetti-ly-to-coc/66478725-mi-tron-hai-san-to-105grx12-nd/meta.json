@@ -19,14 +19,10 @@
   },
   "status": "READY",
   "image": {
-    "decision": "REPLACE",
-    "reason": "Chủ gửi banner 'Gian hàng chính hãng' của Vifon (tô Mì trộn Hải Sản 105 g trên thùng); tách tô bằng cutout.py, bỏ nền/chữ khuyến mãi/thùng (v5). Đáy tô bị thùng che nên mép dưới thẳng; phóng ~2,5 lần",
-    "source": {
-      "ownerProvided": true,
-      "note": "banner gian hàng chính hãng Vifon chủ gửi qua chat, tách tô",
-      "receivedAt": "2026-10-14"
-    },
-    "rubricVersion": "v6"
+    "decision": "CROP",
+    "reason": "I9: packshot nền trắng, đúng tô Vifon mì trộn hải sản 105 g; chỉ chưa 1:1 → crop, đã xem lại đạt — giữ ảnh này; ảnh tách từ banner Vifon bị cụt đáy (thùng che), chủ thấy lệch (14/10/2026)",
+    "source": null,
+    "rubricVersion": "v4"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -65,10 +61,22 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-14T20:30:00.000Z",
+      "by": "owner",
+      "status": "READY",
+      "note": "banner cut-out looked off-centre (bowl base hidden); reverted to previous whole-bowl image"
+    },
+    {
+      "at": "2026-10-14T14:55:01.082Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-14T14:28:50.834Z",
+    "at": "2026-10-14T14:55:01.082Z",
     "fields": [
       "description",
       "image"
