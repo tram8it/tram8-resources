@@ -19,10 +19,13 @@
   },
   "status": "READY",
   "image": {
-    "decision": "CROP",
-    "reason": "I9: ảnh KiotViet hiện tại đúng SP (Phở Gà Hà Nội Bát To Đặc Biệt 76 g, mã 8936010681118), nền trắng, chỉ chưa 1:1 → crop. Bản trước dùng nhầm ảnh gói phở gà thường của mã 8936010681422 (chủ phát hiện 2 mã cùng ảnh); trang Afotech không có bản Bát To",
-    "source": null,
-    "rubricVersion": "v5"
+    "decision": "REPLACE",
+    "reason": "Chủ chọn ảnh hãng (RUBRIC v6): ảnh render chính hãng Phở Gà Hà Nội Cung Đình trên afotech.vn, đẹp hơn ảnh KiotViet bản Bát To 76 g (450 px, mềm). Ảnh hãng là bao bì gói thường, không có nhãn 'Bát To Đặc Biệt' — chủ chấp nhận; mô tả vẫn ghi 76 g theo SP đang bán",
+    "source": {
+      "url": "https://afotech.vn/storage/products/cung-dinh/rice-noodle/pho-ga-01.png",
+      "fetchedAt": "2026-10-14"
+    },
+    "rubricVersion": "v6"
   },
   "description": {
     "decision": "REWRITE",
@@ -61,10 +64,22 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-14T08:12:03Z",
+      "by": "owner",
+      "status": "READY",
+      "note": "Chủ: dùng ảnh hãng Cung Đình cho đẹp, ưu tiên ảnh hãng hơn ảnh tự chụp"
+    },
+    {
+      "at": "2026-10-14T08:12:03.845Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-14T07:58:39.776Z",
+    "at": "2026-10-14T08:12:03.845Z",
     "fields": [
       "description",
       "image"
