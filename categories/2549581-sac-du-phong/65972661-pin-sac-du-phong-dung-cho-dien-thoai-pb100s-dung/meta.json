@@ -17,18 +17,18 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "NEEDS_PHOTO",
   "image": {
-    "decision": null,
-    "reason": null,
+    "decision": "REPLACE",
+    "reason": "I7: ảnh hộp có tem mã vạch + giá của cửa hàng (599,000 VND) và nhãn dán 'Màu xám, bảo hành 18 tháng'; cuktech.com chặn bằng trang xác minh bot (không vượt), không có nguồn hãng khác → cần chụp (bóc tem giá)",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết ngắn chỉ từ chữ in trên hộp (CUKTECH Power Bank 10000mAh 30W) và màu; không ghi thông số khác (33W, số cổng trong tên KiotViet) vì không in trên mặt hộp thấy được",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
   "question": null,
   "history": [
@@ -37,6 +37,12 @@
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:27:10.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "store price sticker on box; official site behind bot wall; description from pack text"
     }
   ]
 }
