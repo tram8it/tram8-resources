@@ -17,20 +17,24 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "ASK_OWNER",
+  "status": "READY",
   "image": {
-    "decision": "ASK_OWNER",
-    "reason": "I1: chưa có ảnh; nghi trùng với SP 67200290 nên chưa gán ảnh",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "REPLACE",
+    "reason": "Chưa có ảnh. Ảnh chủ gửi (nhân viên chụp ly trên quầy), tách nền bằng cutout.py; ly nguyên vẹn",
+    "source": {
+      "ownerProvided": true,
+      "note": "ảnh chủ gửi qua chat, tách nền",
+      "receivedAt": "2026-10-14"
+    },
+    "rubricVersion": "v5"
   },
   "description": {
-    "decision": "ASK_OWNER",
-    "reason": "Chờ chủ xác nhận có trùng SP không",
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết từ chữ in trên ly (Tokpokki Hàn Quốc tròn vị phô mai, Không cay, 105 g, O'food)",
     "source": null,
     "rubricVersion": "v4"
   },
-  "question": "'Bánh gạo tokpokki Hàn Quốc ăn liền vị phô mai O'food ly 105g' (mã vạch 8935304200608) trùng tên/vị với 'Tokppokki Hàn Quốc Vị phô mai O'food 105g' (8935304200141). Đây là hai SP khác nhau (ví dụ một loại 'Tokpokki tròn vị phô mai' không cay) hay một SP bị tạo trùng trên KiotViet? Trang Daesang chỉ có một ly phô mai 105 g.",
+  "question": null,
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -43,6 +47,26 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "b21: image ASK_OWNER, description ASK_OWNER"
+    },
+    {
+      "at": "2026-10-14T11:00:00.000Z",
+      "by": "owner",
+      "status": "READY",
+      "note": "owner: …0608 is the round 'tròn vị phô mai' (not spicy) cup, a different product from …0141; photo sent"
+    },
+    {
+      "at": "2026-10-14T11:59:17.307Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-14T11:59:17.307Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }
