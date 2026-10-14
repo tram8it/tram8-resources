@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "CROP",
     "reason": "I9: packshot nền trắng, cùng bao bì với ảnh trên masanconsumer.com; chỉ không 1:1 → crop, phóng ~2,3 lần, xem lại đạt (v4); chỉnh sáng/cân bằng trắng bằng tools/tone.py (RUBRIC v7), đã so trước/sau",
@@ -64,6 +64,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-14T09:24:31.419Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -73,5 +79,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-14T09:20:53.890Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-14T09:20:53.890Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/512cfc555b82edb130e20a7d29d26f9675fe1da70b7d2c2ee3b92e4080526db5.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/30/tram8/3f9420f8e67b48ab8d1fcd9e62cafc03.png"
+        ]
+      },
+      "description": {
+        "to": "Muối tôm chua cay CHIN-SU, kết hợp muối hạt mịn với tôm sấy, vị chua cay mặn ngọt cân bằng. Dùng chấm trái cây chua, trái cây ngọt, thịt luộc hoặc hải sản.\n\nQuy cách: 120 g · hũ\nXuất xứ: Việt Nam · Nhà sản xuất/thương hiệu: Masan Consumer · CHIN-SU",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

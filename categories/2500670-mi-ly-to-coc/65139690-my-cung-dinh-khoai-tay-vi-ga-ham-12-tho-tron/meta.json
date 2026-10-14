@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I2: chủ quét mã vạch 8936010680500 = thố khoai tây THỊT HẦM NẤM 79 g (tên KiotViet ghi 'Gà Hầm' là sai). Thay ảnh gà hầm đã áp dụng bằng ảnh render chính hãng thịt hầm nấm chủ gửi; chuẩn hoá bằng make_image.py",
@@ -71,6 +71,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-14T09:24:31.419Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -80,5 +86,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-14T07:47:24.668Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-14T07:47:24.668Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/b66f95f4ff4dccdd4b49b97ca2fac12d1c5607a44f52bed9f6375d2e1b748d9a.webp"
+        ],
+        "from": [
+          "https://img.tram8.vn/products/02bf00ddd74b49391f1e47e96623294cc851a53dd43117c21ce97b5d96918fa4.webp"
+        ]
+      },
+      "description": {
+        "to": "Mì khoai tây Cung Đình dạng thố, hương vị thịt hầm nấm; sợi mì có khoai tây và trứng.\n\nQuy cách: 79 g · thố\nXuất xứ: Việt Nam · Nhà sản xuất/thương hiệu: Afotech · Cung Đình",
+        "from": "Mì khoai tây Cung Đình dạng thố hương vị Gà Hầm, lấy cảm hứng từ món gà hầm nấm hương, sợi mì có khoai tây và trứng.\n\nThành phần: Vắt mì: bột mì, dầu cọ, tinh bột khoai mì, tinh bột khoai tây, muối, bột trứng và phụ gia. Gói xốt: nước, dầu cọ, muối, hành, đường, cốt nước tương, bột hành, bột tiêu, bột gừng, chiết xuất nấm men, nước mắm, hương gà, hương nấm, gừng và phụ gia. Gói rau: giả thịt từ protein lúa mì, hành lá, hành tây, cà rốt sấy.\nQuy cách: 79 g · thố\nXuất xứ: Việt Nam · Nhà sản xuất/thương hiệu: Afotech · Cung Đình\nHướng dẫn sử dụng: Cho gói xốt và gói rau vào thố, chế nước sôi đến vạch, đậy nắp chờ khoảng 3 phút rồi dùng."
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

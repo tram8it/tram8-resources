@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I2/I7: ảnh cũ là Phở Hoàng Gia, có watermark eBEST; chủ xác nhận là Mì thịt bò Hoàng Gia 130g → ảnh trang hãng (300px) phóng 2,8 lần",
@@ -61,6 +61,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: name, weightGram, brand, description, image"
+    },
+    {
+      "at": "2026-10-14T09:24:31.419Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "master": {
@@ -80,5 +86,34 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-13T18:10:01.553Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-13T18:10:01.553Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://hub.tram8.vn/media/product-images/8d22ee821b68334a867633becdd51352498ef1c9bef12268c89d3bc4f1601d16.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/04/25/tram8/2b9f675aa0364714b8f8510fc91e19e3.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Mì Hoàng Gia vị thịt bò của Vifon, kèm gói thịt bò thật 61 g đóng túi retort tiệt trùng. Theo hãng, sản phẩm không dùng phẩm màu tổng hợp.\n\nQuy cách: 130 g · gói\nNhà sản xuất/thương hiệu: Công ty CP Kỹ nghệ Thực phẩm Việt Nam (VIFON) · Hoàng Gia\nHướng dẫn sử dụng: Cho vắt mì và các gói gia vị vào tô, rót khoảng 400 ml nước sôi, đậy nắp chờ 3 phút; mở nắp, cho gói thịt bò vào, khuấy đều và dùng.",
+        "from": null
+      },
+      "tradeMarkId": {
+        "to": 748899,
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

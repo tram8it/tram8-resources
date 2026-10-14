@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I5: SP bị cắt mép; chủ xác nhận bao bì 130 g như ảnh trên vifon.com.vn → dùng ảnh trang hãng",
@@ -67,6 +67,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: name, weightGram, brand, description, image"
+    },
+    {
+      "at": "2026-10-14T09:24:31.419Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "master": {
@@ -86,5 +92,34 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-13T18:10:12.671Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-13T18:10:12.671Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://hub.tram8.vn/media/product-images/dcb4148232f69ad05fc1a96596122e91748d4be9d32eebec3c333b0b0a72d8f5.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/27/tram8/51f8d991857f4d94a5d426f22ff6b033.png"
+        ]
+      },
+      "description": {
+        "to": "Mì Hoàng Gia vị thịt bằm của Vifon, kèm gói thịt bằm thật 61 g đóng túi retort tiệt trùng. Theo hãng, sản phẩm không dùng phẩm màu tổng hợp.\n\nQuy cách: 130 g · gói\nNhà sản xuất/thương hiệu: Công ty CP Kỹ nghệ Thực phẩm Việt Nam (VIFON) · Hoàng Gia\nHướng dẫn sử dụng: Cho vắt mì và các gói gia vị vào tô, rót khoảng 400 ml nước sôi, đậy nắp chờ 3 phút; mở nắp, cho gói thịt bằm vào, khuấy đều và dùng.",
+        "from": ""
+      },
+      "tradeMarkId": {
+        "to": 748899,
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

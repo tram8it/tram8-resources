@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I1: chưa có ảnh; ảnh chủ gửi từ gian hàng chính hãng Vifon, đã cắt bỏ khung logo",
@@ -75,6 +75,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: name, weightGram, brand, description, image"
+    },
+    {
+      "at": "2026-10-14T09:24:31.419Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "master": {
@@ -94,5 +100,32 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-13T18:08:09.096Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-13T18:08:09.096Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://hub.tram8.vn/media/product-images/2ed856cc830e683940551cd1bb8cebe636a502d03c05db67377bb3a666e1d3a2.webp"
+        ],
+        "from": null
+      },
+      "description": {
+        "to": "Mì Vifon dòng Mì Thịt Thật vị thịt bằm, có thịt heo bằm thật. Chín trong 3 phút.\n\nQuy cách: 90 g · gói\nNhà sản xuất/thương hiệu: Công ty CP Kỹ nghệ Thực phẩm Việt Nam (VIFON)",
+        "from": ""
+      },
+      "tradeMarkId": {
+        "to": 729098,
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

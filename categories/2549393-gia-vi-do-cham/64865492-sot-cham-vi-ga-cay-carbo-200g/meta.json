@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "CROP",
     "reason": "I9: packshot nền trắng đúng chai Buldak Carbonara (hồng) 200g nhưng không 1:1; crop, xem lại đạt; chỉnh sáng/cân bằng trắng bằng tools/tone.py (RUBRIC v7), đã so trước/sau",
@@ -61,6 +61,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-14T09:24:31.419Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -70,5 +76,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-14T09:21:58.458Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-14T09:21:58.458Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/ba32ce4e3f6f663c5aafc9dc86f4fdea479525b93a576a605e169e18d10ea2e6.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/30/tram8/5d9b36d12d0c4af3891e509b6244a42c.png"
+        ]
+      },
+      "description": {
+        "to": "Xốt ớt cay Samyang Buldak Hot Sauce vị Carbonara (chai hồng), đựng trong chai nhựa tiện dùng để chấm hoặc rưới lên món ăn. Bao bì có chứng nhận Halal.\n\nQuy cách: 200 g · chai\nNhà sản xuất/thương hiệu: Samyang · Buldak",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

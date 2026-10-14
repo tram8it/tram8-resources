@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I1: chưa có ảnh. Ảnh render Kokomi 90 tôm chua cay chủ gửi, nền trắng, chuẩn hoá bằng make_image.py",
@@ -59,6 +59,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-14T09:24:31.419Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -68,5 +74,28 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-14T07:43:49.732Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-14T07:43:49.732Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/30e3ac6c2beb8378de993c4135977e76c97f9b7548092ff79ae12b80c00125a3.webp"
+        ],
+        "from": null
+      },
+      "description": {
+        "to": "Mì ly Kokomi 90 hương vị tôm chua cay của Masan, trong ly có kèm một cây thịt (xúc xích).\n\nQuy cách: ly\nNhà sản xuất/thương hiệu: Masan Consumer · Kokomi",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

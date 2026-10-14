@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I3/I4: ảnh điện thoại, tay cầm, nền phòng; thay bằng ảnh trang hãng (bao bì hiện hành)",
@@ -55,6 +55,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: name, weightGram, brand, description, image"
+    },
+    {
+      "at": "2026-10-14T09:24:31.419Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "master": {
@@ -74,5 +80,67 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-13T17:01:03.642Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-13T17:01:03.642Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "name": {
+        "to": "Mì Cung Đình bò hầm 77g",
+        "from": "Mì Cung Đình bò hầm"
+      },
+      "images": {
+        "to": [
+          "https://hub.tram8.vn/media/product-images/45dee7ea2528c0417dd132df49d8e31c9b6f8c69156a8d9584e9995fcb975b91.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/03/22/tongpenhchtl/8e0ef484654c409ba10d8a94549c4338.jpeg"
+        ]
+      },
+      "weight": {
+        "to": 77,
+        "from": 0
+      },
+      "description": {
+        "to": "Mì khoai tây Cung Đình hương vị bò hầm, sợi mì có tinh bột khoai tây và bột trứng, kèm gói xốt bò hầm và gói rau sấy. Nước dùng vị bò hầm đậm, thơm mùi thảo quả.\n\nThành phần: Vắt sợi: bột mì, dầu cọ, tinh bột khoai mì, tinh bột khoai tây, muối, bột trứng và phụ gia. Gói xốt: nước, dầu cọ, muối, hành, đường, cốt nước tương, bột hành, bột tiêu, bột thảo quả, tỏi, gừng, bột sữa dừa, hương bò và phụ gia. Gói rau: giả thịt từ protein lúa mì, hành lá, cà rốt sấy.\nQuy cách: 77 g · gói\nNhà sản xuất/thương hiệu: Afotech · Cung Đình",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {
+      "units": {
+        "to": [
+          {
+            "id": 64865931,
+            "code": "SP000920",
+            "name": "Mì Cung Đình bò hầm",
+            "unit": "Thùng",
+            "fullName": "Mì Cung Đình bò hầm 77g (Thùng)",
+            "basePrice": 264000,
+            "allowssale": true,
+            "masterUnitId": 0,
+            "conversionValue": 30
+          }
+        ],
+        "from": [
+          {
+            "id": 64865931,
+            "code": "SP000920",
+            "name": "Mì Cung Đình bò hầm",
+            "unit": "Thùng",
+            "fullName": "Mì Cung Đình bò hầm (Thùng)",
+            "basePrice": 264000,
+            "allowssale": true,
+            "masterUnitId": 0,
+            "conversionValue": 30
+          }
+        ]
+      }
+    }
   }
 }

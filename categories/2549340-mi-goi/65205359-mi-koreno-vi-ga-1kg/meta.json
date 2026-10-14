@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I2: ảnh cũ sai vị; ảnh chủ gửi (Koreno Jumbo vị gà 1 kg)",
@@ -69,6 +69,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: name, weightGram, brand, description, image"
+    },
+    {
+      "at": "2026-10-14T09:24:31.419Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "master": {
@@ -88,5 +94,34 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-13T18:10:32.826Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-13T18:10:32.826Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://hub.tram8.vn/media/product-images/de2a225659988e384f1557b3c1eccb4bd85add6e4e1d53d03d57effb2e6a378b.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/04/26/tram8/7943950615f74ae68d8817dc7f0a7cee.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Mì Koreno Jumbo vị gà của Paldo, mì Hàn Quốc dùng để nấu, chín sau 4 phút. Túi lớn 1 kg.\n\nQuy cách: 1 kg · túi\nNhà sản xuất/thương hiệu: Paldo · Koreno Jumbo",
+        "from": null
+      },
+      "tradeMarkId": {
+        "to": 734329,
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

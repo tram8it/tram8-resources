@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "CROP",
     "reason": "I9: ảnh 450×600 không 1:1; ảnh tách nền trắng, tô nguyên vẹn → crop 1:1 (phóng ~2,1 lần, xem lại đạt)",
@@ -49,6 +49,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-14T09:24:31.419Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -58,5 +64,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-14T09:19:28.330Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-14T09:19:28.330Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/b7440961104fbf6c08143fa17000e313a05cda522a19f3b4f3c3c53695c75cd6.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/30/tram8/0363159611a745ac8afd40e9e1225f11.png"
+        ]
+      },
+      "description": {
+        "to": "Tô miến kết hợp mì ăn liền Jinmailang (今麦郎) 'Rau – Miến – Mì – Trứng' vị bò kho tàu (hồng thiêu), gồm bánh miến, vắt mì chiên, gói gia vị và trứng kho.\n\nQuy cách: 157 g (bánh miến 35 g, vắt mì 55 g) · tô\nXuất xứ: Trung Quốc · Nhà sản xuất/thương hiệu: Jinmailang (今麦郎)",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

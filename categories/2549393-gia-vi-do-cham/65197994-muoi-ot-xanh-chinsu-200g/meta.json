@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "CROP",
     "reason": "I9: packshot nền trắng, cùng bao bì với ảnh trên masanconsumer.com (200 g); chỉ không 1:1 → crop, phóng ~2,3 lần, xem lại đạt (v4); chỉnh sáng/cân bằng trắng bằng tools/tone.py (RUBRIC v7), đã so trước/sau",
@@ -64,6 +64,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-14T09:24:31.419Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -73,5 +79,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-14T09:21:44.227Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-14T09:21:44.227Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/721b37fbb415e9e6146746fcbbc727e34403055a4d3ded728f0ac496ca0ca7b7.webp"
+        ],
+        "from": [
+          "https://cdn1-retail-images.kiotviet.vn/2026/07/30/tram8/9743c3f92e1b49128f218c6f4b70a4a2.png"
+        ]
+      },
+      "description": {
+        "to": "Xốt muối ớt xanh CHIN-SU, làm từ ớt xiêm xanh, nước cốt chanh và lá chanh, vị chua cay mặn ngọt hài hòa. Thích hợp để chấm hải sản.\n\nQuy cách: 200 g · chai\nXuất xứ: Việt Nam · Nhà sản xuất/thương hiệu: Masan Consumer · CHIN-SU",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

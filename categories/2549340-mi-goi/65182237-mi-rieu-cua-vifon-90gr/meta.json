@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "CROP",
     "reason": "I9: 450×600, SP nhỏ; crop 1:1 đã xem lại đạt",
@@ -58,6 +58,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: name, weightGram, brand, description, image"
+    },
+    {
+      "at": "2026-10-14T09:24:31.419Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "master": {
@@ -77,5 +83,34 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-13T18:09:04.756Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-13T18:09:04.756Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://hub.tram8.vn/media/product-images/fa901ab66bfce898022d592b9f3d67d1c6b881762e0734770bd971d4237f1e46.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/30/tram8/aaf12ff106b74d41ba8c39bda4bfad16.png"
+        ]
+      },
+      "description": {
+        "to": "Mì Vifon vị riêu cua, có kèm gói riêu cua thật.\n\nQuy cách: 90 g · gói\nNhà sản xuất/thương hiệu: Công ty CP Kỹ nghệ Thực phẩm Việt Nam (VIFON)",
+        "from": ""
+      },
+      "tradeMarkId": {
+        "to": 729098,
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I2: ảnh cũ sai vị; ảnh chủ gửi (Koreno Jumbo vị kim chi 1 kg)",
@@ -69,6 +69,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: name, weightGram, brand, description, image"
+    },
+    {
+      "at": "2026-10-14T09:24:31.419Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "master": {
@@ -88,5 +94,31 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-13T18:10:40.079Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-13T18:10:40.079Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://hub.tram8.vn/media/product-images/3d5a34e8551d825a046640cd9a5cabe961e8bfdb12aa6b2f893096d94c8bfb7e.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/05/04/tram8/ce8792640b524d3397a53b32866e5e79.jpeg",
+          "https://cdn2-retail-images.kiotviet.vn/2026/05/04/tram8/c0bbf14c75a343dab3c8694387c7570d.png"
+        ]
+      },
+      "description": {
+        "to": "Mì Koreno Jumbo vị kim chi của Paldo, mì Hàn Quốc dùng để nấu, chín sau 4 phút. Túi lớn 1 kg.\n\nQuy cách: 1 kg · túi\nNhà sản xuất/thương hiệu: Paldo · Koreno Jumbo",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

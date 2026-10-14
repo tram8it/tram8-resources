@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "CROP",
     "reason": "I9: 450×549; crop 1:1 đã xem lại, hơi mềm nhưng không vỡ",
@@ -64,6 +64,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: name, weightGram, brand, description, image"
+    },
+    {
+      "at": "2026-10-14T09:24:31.419Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "master": {
@@ -83,5 +89,34 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-13T18:10:26.587Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-13T18:10:26.587Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://hub.tram8.vn/media/product-images/ea83d3d4f6420baa260af21797ec0cfda792fe3f7a610a7515b5083315821219.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/04/26/tram8/2bb3057c742b47c897d930147f4742f8.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Mì Koreno Jumbo vị bò cay của Paldo, gói lớn 1 kg dùng để nấu, chín sau 4 phút.\n\nQuy cách: 1 kg · túi\nNhà sản xuất/thương hiệu: Paldo · Koreno",
+        "from": null
+      },
+      "tradeMarkId": {
+        "to": 734329,
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }
