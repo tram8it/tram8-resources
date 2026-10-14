@@ -17,26 +17,32 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "ASK_OWNER",
   "image": {
-    "decision": null,
-    "reason": null,
+    "decision": "ASK_OWNER",
+    "reason": "I3/I7: ảnh hiện tại là banner quảng cáo (chữ chèn, nền xanh, hũ bao bì cũ); trang hãng gộp 'Truyền thống' thành 'Thịt chua Vị Xưa' nhưng mã vạch khác SP Vị Xưa đang bán",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
+    "decision": "ASK_OWNER",
+    "reason": "Chờ chủ xác nhận SP thật đang bán",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
-  "question": null,
+  "question": "SP 'Thịt Chua Truyền Thống' (mã vạch 8938556154026) và 'Thịt Chua Trường Foods Vị Xưa' (8938556154460) đều đang có trên KiotViet. Trang hãng truongfoods.vn ghi 'Thịt chua vị Truyền thống' nay là 'Thịt chua Vị Xưa' (hũ 180 g). Cửa hàng còn bán hũ Truyền thống bao bì cũ không? Nếu không, có nên ẩn/gộp mã này; nếu có, dùng ảnh hũ Vị Xưa của hãng cho mã này được không?",
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:29:30.000Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "b28 review: image ASK_OWNER, description ASK_OWNER"
     }
   ]
 }
