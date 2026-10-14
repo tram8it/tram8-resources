@@ -17,18 +17,26 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh — trang hãng masanconsumer.com chặn truy cập (403), không có nguồn chính hãng dùng được → cần nhân viên chụp",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I1: chưa có ảnh. Dùng ảnh chính hãng Masan do chủ gửi; tách nền + bỏ huy hiệu/chữ khuyến mãi bằng tools/cutout.py (RUBRIC v5), đã xem viền",
+    "source": {
+      "ownerProvided": true,
+      "note": "Ảnh banner chính hãng Masan Consumer (huy hiệu 'Masan consumer | Chính hãng'), chủ gửi qua chat",
+      "receivedAt": "2026-10-14"
+    },
+    "rubricVersion": "v5"
   },
   "description": {
     "decision": "WRITE_NEW",
-    "reason": "D1: chưa có mô tả; mô tả ngắn chỉ từ tên hàng",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "D1: chưa có mô tả; viết lại từ thông tin sản phẩm chính hãng Masan do chủ gửi (thành phần, 95 g, hướng dẫn), bỏ câu quảng cáo",
+    "source": {
+      "ownerProvided": true,
+      "note": "Thông tin sản phẩm Masan (Mì Omachi quán xá Châu Á bò Đài Loan 12 hộp x 95 gr), chủ gửi qua chat",
+      "receivedAt": "2026-10-14"
+    },
+    "rubricVersion": "v5"
   },
   "question": null,
   "history": [
@@ -43,6 +51,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "b07 review: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-14T07:02:04Z",
+      "by": "owner",
+      "status": "READY",
+      "note": "Chủ gửi ảnh + thông tin Masan; tách nền bằng tools/cutout.py, viết mô tả"
+    },
+    {
+      "at": "2026-10-14T07:02:18.564Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-14T07:02:18.564Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

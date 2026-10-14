@@ -16,7 +16,7 @@ Mở ảnh ra xem, trả lời theo thứ tự. Câu đầu tiên trả lời �
 | I1 | Có ảnh, mở được? | `REPLACE` |
 | I2 | **Đúng sản phẩm** — đúng tên, đúng vị/màu, đúng dung tích/quy cách, **bao bì mới nhất**? | `REPLACE` (không chắc → `ASK_OWNER`) |
 | I3 | Ảnh **sản phẩm** (packshot), không phải ảnh chụp cận nhãn/kệ/tay cầm/bối cảnh? | `REPLACE` |
-| I4 | **Nền trắng** sạch (hoặc trong suốt)? | `REPLACE` — nền màu/ảnh điện thoại không tự tách được cho đẹp |
+| I4 | **Nền trắng** sạch (hoặc trong suốt)? | `REPLACE` — trừ khi tách nền bằng `tools/cutout.py` ra viền sạch (v5) |
 | I5 | Thấy **nguyên vẹn** sản phẩm, không bị khung ảnh cắt? | `REPLACE` |
 | I6 | Nét, đủ lớn (cạnh ngắn ≥ 300px)? Web hiện ảnh nhỏ (~200px trên thẻ SP) nên ảnh phóng to hơi mềm/vỡ nhẹ vẫn **đạt** (v4) | `REPLACE` |
 | I7 | Không watermark, logo/tem giá cửa hàng khác, chữ chèn, khung viền? | `REPLACE` |
@@ -105,3 +105,4 @@ Category có thể có khuôn riêng chi tiết hơn trong `categories/<id>-<slu
 | v2 | 2026-10-13 | I2: luôn dùng **bao bì mới nhất** trên trang hãng khi cùng mã vạch/cùng vị. Mô tả: thêm nguồn nhãn mặt sau và mô tả ngắn từ dữ kiện chắc chắn khi không có nguồn. | Chủ (pilot Mì gói) |
 | v3 | 2026-10-13 | Ảnh: thêm kênh chính chủ của hãng (fanpage xác minh, gian hàng chính hãng trên sàn); ảnh hãng nhỏ được phóng ~3 lần nếu không vỡ. Mô tả: được đọc nhãn trên trang siêu thị, chỉ lấy dữ kiện in trên bao bì. | Chủ (pilot Mì gói) |
 | v4 | 2026-10-13 | I6 nới: web hiển thị ảnh nhỏ nên ảnh hãng phóng to hơi mềm, vỡ nhẹ vẫn đạt; ưu tiên ảnh hãng phóng to hơn là bắt nhân viên chụp. | Chủ (xem tram8.vn) |
+| v5 | 2026-10-14 | I4: ảnh đúng SP nhưng nền màu (ảnh nhân viên chụp, banner chính hãng có nền/hiệu ứng/chữ khuyến mãi) được **tách nền** bằng `tools/cutout.py` (cắt sát SP, bỏ huy hiệu/chữ ngoài SP). Chỉ cắt, **không** vẽ lại/sửa SP; mở ảnh xem viền, nắp/vành trắng; viền xấu → không dùng. Nguồn ảnh vẫn theo v3. | Chủ (Omachi Quán Xá Châu Á) |

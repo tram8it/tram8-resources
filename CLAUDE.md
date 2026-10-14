@@ -48,6 +48,7 @@ Thành phẩm nằm cạnh `meta.json`: `image.webp` (1000×1000, chuẩn trong 
 | `node tools/init-from-export.mjs inbox/<export>` | tạo/cập nhật thư mục từ file export của tram8-hub |
 | `node tools/status.mjs` | sinh lại STATUS.md / NEEDS_PHOTO.csv / ASK_OWNER.md, báo bản ghi lỗi |
 | `node tools/review-page.mjs <category>` | trang duyệt trước/sau cho chủ → `review/` (ảnh mới nhúng sẵn) |
+| `python3 tools/cutout.py <ảnh> <out.webp> [--box X0,Y0,X1,Y1]` | tách nền màu/banner (ảnh nhân viên chụp, ảnh hãng có nền/chữ khuyến mãi) rồi chuẩn hoá như `make_image.py`; cần `pip install "rembg[cpu]"`. **Mở ảnh ra xem viền** |
 | `node tools/pull-from-hub.mjs` | kéo danh mục + SP từ API nội dung của Hub (chỉ GET) → `inbox/` |
 | `node tools/proposals.mjs submit <category> [--only <id>] [--send]` | gửi SP **READY** vào hàng chờ duyệt trên Hub (mặc định chỉ liệt kê) |
 | `node tools/proposals.mjs sync` | đọc quyết định của chủ về: áp dụng → `UPLOADED`, từ chối → `IN_PROGRESS` + lý do |
