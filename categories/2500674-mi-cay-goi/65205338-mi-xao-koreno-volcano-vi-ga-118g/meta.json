@@ -19,10 +19,13 @@
   },
   "status": "READY",
   "image": {
-    "decision": "CROP",
-    "reason": "I9: packshot nền trắng, đúng bao bì 118 g như trang hãng nhưng không 1:1; crop về 1:1 (phóng ~2,2 lần, xem lại đạt)",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "REPLACE",
+    "reason": "Thay bằng packshot chính hãng trên paldovina.com (cùng bao bì 118 g; bản render màu hồng tươi hơn gói thật đỏ đậm), chuẩn hoá bằng make_image.py. Trang SP: https://paldovina.com/vi/koreno-volcano-ga-p68",
+    "source": {
+      "url": "https://paldovina.com/upload/san-pham-noi-dia/goi-volcano-ga-800x.png",
+      "fetchedAt": "2026-10-14"
+    },
+    "rubricVersion": "v6"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -52,10 +55,22 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-14T16:00:00.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "owner asked for brand image; replaced with Paldo Vina packshot"
+    },
+    {
+      "at": "2026-10-14T13:13:44.516Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-14T12:31:08.786Z",
+    "at": "2026-10-14T13:13:44.516Z",
     "fields": [
       "description",
       "image"
