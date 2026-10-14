@@ -17,18 +17,18 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "READY",
   "image": {
-    "decision": null,
-    "reason": null,
+    "decision": "CROP",
+    "reason": "I9: ảnh nền trắng, đúng SP nhưng không 1:1; đã crop, xem lại đạt (hơi mềm, chấp nhận theo v4)",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; không tìm trang hãng Lotte Việt Nam cho SP này, viết ngắn chỉ từ chữ in mặt trước bao bì",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
   "question": null,
   "history": [
@@ -37,6 +37,12 @@
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-14T00:38:56.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "batch f1: image CROP, description WRITE_NEW short (watermelon)"
     }
   ]
 }
