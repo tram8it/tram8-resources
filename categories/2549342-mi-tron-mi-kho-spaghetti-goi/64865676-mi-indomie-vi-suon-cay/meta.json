@@ -19,10 +19,13 @@
   },
   "status": "READY",
   "image": {
-    "decision": "KEEP",
-    "reason": "I1–I9 đạt: packshot nền trắng, đúng SP, 1:1, căn giữa",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "REPLACE",
+    "reason": "Thay bằng packshot chính hãng trên indomie.vn (trang chính thức IndoMie Việt Nam, mục Mì xào khô vị sườn bò cay (Mi Goreng Iga Penyet)); phóng ~2,5 lần, xem lại không vỡ",
+    "source": {
+      "url": "https://www.indomie.vn/uploads/product/mi-xao-kho-v-sun-bo-cay_detail_144910626.png",
+      "fetchedAt": "2026-10-14"
+    },
+    "rubricVersion": "v6"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +46,26 @@
       "by": "ai",
       "status": "READY",
       "note": "rubric v4: image KEEP, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-14T18:20:00.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "brand packshot from indomie.vn"
+    },
+    {
+      "at": "2026-10-14T13:54:16.261Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-14T13:54:16.261Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }
