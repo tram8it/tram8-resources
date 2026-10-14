@@ -2,7 +2,7 @@
 
 > Sinh tự động bởi `node tools/status.mjs`. **Không sửa tay.** Nguồn sự thật là `meta.json` của từng SP.
 
-Tổng 2448 SP · đã xem 2406 (98%) · xong 0 · chờ chủ duyệt 1258 · cần chụp 916 · hỏi chủ 232
+Tổng 2448 SP · đã xem 2428 (99%) · xong 0 · chờ chủ duyệt 1271 · cần chụp 922 · hỏi chủ 235
 
 Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` = giữ nguyên + đã lên web.
 
@@ -146,7 +146,7 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 | 136 | Gel bôi trơn | 0.0tr | 5 | 0 | 0 | 0 | 1 | 0 | 4 | 0 | 0 |
 | 137 | Sữa rửa mặt cho da mụn | 0.0tr | 5 | 0 | 0 | 0 | 0 | 0 | 5 | 0 | 0 |
 | 138 | Lương khô | 0.0tr | 5 | 0 | 0 | 0 | 4 | 0 | 1 | 0 | 0 |
-| 139 | Dụng cụ lông mày / mũi | 0.0tr | 5 | 5 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 139 | Dụng cụ lông mày / mũi | 0.0tr | 5 | 0 | 0 | 0 | 0 | 1 | 4 | 0 | 0 |
 | 140 | Vang Đỏ | 0.0tr | 5 | 0 | 0 | 0 | 0 | 0 | 5 | 0 | 0 |
 | 141 | Snack bánh mì nướng / crouton | 0.0tr | 4 | 0 | 0 | 0 | 2 | 0 | 2 | 0 | 0 |
 | 142 | Bánh mì que | 0.0tr | 4 | 0 | 0 | 0 | 4 | 0 | 0 | 0 | 0 |
@@ -156,8 +156,8 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 | 146 | Nước dừa / thạch uống | 0.0tr | 4 | 0 | 0 | 0 | 2 | 0 | 2 | 0 | 0 |
 | 147 | Kem đánh răng - Trắng răng | 0.0tr | 4 | 0 | 0 | 0 | 0 | 0 | 4 | 0 | 0 |
 | 148 | Đồ dùng khác | 0.0tr | 4 | 0 | 0 | 0 | 2 | 2 | 0 | 0 | 0 |
-| 149 | Kem viên / kim cương | 0.0tr | 4 | 4 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 150 | Kẹo mút | 0.0tr | 4 | 4 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 149 | Kem viên / kim cương | 0.0tr | 4 | 0 | 0 | 0 | 0 | 2 | 2 | 0 | 0 |
+| 150 | Kẹo mút | 0.0tr | 4 | 0 | 0 | 0 | 1 | 0 | 3 | 0 | 0 |
 | 151 | Miếng dán mụn | 0.0tr | 4 | 0 | 0 | 0 | 0 | 0 | 4 | 0 | 0 |
 | 152 | Miến ăn liền | 0.0tr | 4 | 0 | 0 | 0 | 0 | 0 | 4 | 0 | 0 |
 | 153 | Socola hộp / quà tặng | 0.0tr | 4 | 0 | 0 | 0 | 0 | 1 | 3 | 0 | 0 |
@@ -177,14 +177,14 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 | 167 | Kem đánh răng - Ngừa sâu răng | 0.0tr | 3 | 0 | 0 | 0 | 1 | 1 | 1 | 0 | 0 |
 | 168 | Kem mochi | 0.0tr | 3 | 0 | 0 | 0 | 2 | 0 | 1 | 0 | 0 |
 | 169 | Marshmallow/kẹo xốp | 0.0tr | 3 | 0 | 0 | 0 | 3 | 0 | 0 | 0 | 0 |
-| 170 | Udon & mì tươi | 0.0tr | 3 | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 171 | Nem chua | 0.0tr | 3 | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 170 | Udon & mì tươi | 0.0tr | 3 | 0 | 0 | 0 | 2 | 0 | 1 | 0 | 0 |
+| 171 | Nem chua | 0.0tr | 3 | 0 | 0 | 0 | 3 | 0 | 0 | 0 | 0 |
 | 172 | Nước súc miệng - Thơm miệng | 0.0tr | 3 | 0 | 0 | 0 | 0 | 1 | 2 | 0 | 0 |
 | 173 | Rong biển & vị biển | 0.0tr | 3 | 0 | 0 | 0 | 3 | 0 | 0 | 0 | 0 |
 | 174 | Rượu Mùi | 0.0tr | 3 | 0 | 0 | 0 | 1 | 0 | 2 | 0 | 0 |
 | 175 | BVS đêm | 0.0tr | 2 | 0 | 0 | 0 | 0 | 0 | 2 | 0 | 0 |
 | 176 | Áo mưa | 0.0tr | 2 | 0 | 0 | 0 | 2 | 0 | 0 | 0 | 0 |
-| 177 | Hơi/tươi | 0.0tr | 2 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 177 | Hơi/tươi | 0.0tr | 2 | 0 | 0 | 0 | 0 | 0 | 2 | 0 | 0 |
 | 178 | Giò chả / chả lụa | 0.0tr | 2 | 0 | 0 | 0 | 2 | 0 | 0 | 0 | 0 |
 | 179 | Khẩu trang y tế | 0.0tr | 2 | 0 | 0 | 0 | 1 | 0 | 1 | 0 | 0 |
 | 180 | Pate | 0.0tr | 2 | 0 | 0 | 0 | 0 | 1 | 1 | 0 | 0 |
@@ -209,7 +209,7 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 | 199 | Serum dưỡng tóc | 0.0tr | 1 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 0 |
 | 200 | Tẩy da chết - Body | 0.0tr | 1 | 0 | 0 | 0 | 0 | 1 | 0 | 0 | 0 |
 | 201 | Tẩy lông - Wax | 0.0tr | 1 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 0 |
-| 202 | Sâm Panh | 0.0tr | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 202 | Sâm Panh | 0.0tr | 1 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 0 |
 | 203 | Body mist | 0.0tr | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
 | 204 | Miếng dán ngực | 0.0tr | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
 | 205 | Chăm sóc cơ thể | 0.0tr | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
