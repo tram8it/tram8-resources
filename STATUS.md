@@ -2,7 +2,7 @@
 
 > Sinh tự động bởi `node tools/status.mjs`. **Không sửa tay.** Nguồn sự thật là `meta.json` của từng SP.
 
-Tổng 2448 SP · đã xem 2428 (99%) · xong 111 · chờ chủ duyệt 1160 · cần chụp 912 · hỏi chủ 232
+Tổng 2448 SP · đã xem 2428 (99%) · xong 112 · chờ chủ duyệt 1159 · cần chụp 912 · hỏi chủ 232
 
 Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` = giữ nguyên + đã lên web.
 
@@ -118,7 +118,7 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 | 108 | Trái cây tươi | 0.0tr | 8 | 0 | 0 | 0 | 8 | 0 | 0 | 0 | 0 |
 | 109 | Trà sữa | 0.0tr | 8 | 0 | 0 | 0 | 8 | 0 | 0 | 0 | 0 |
 | 110 | Bánh gạo / cơm cháy / bánh ngọt | 0.0tr | 8 | 0 | 0 | 0 | 8 | 0 | 0 | 0 | 0 |
-| 111 | Rong biển ăn liền | 0.0tr | 8 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 7 |
+| 111 | Rong biển ăn liền | 0.0tr | 8 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 8 |
 | 112 | Dụng cụ móng | 0.0tr | 7 | 0 | 0 | 0 | 1 | 0 | 6 | 0 | 0 |
 | 113 | Xịt chống nắng | 0.0tr | 7 | 0 | 0 | 0 | 4 | 0 | 3 | 0 | 0 |
 | 114 | Burger - Hotdog - Bánh mì | 0.0tr | 7 | 0 | 0 | 0 | 3 | 0 | 4 | 0 | 0 |
