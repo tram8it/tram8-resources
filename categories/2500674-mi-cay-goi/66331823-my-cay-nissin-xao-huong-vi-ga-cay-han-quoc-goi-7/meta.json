@@ -19,10 +19,14 @@
   },
   "status": "READY",
   "image": {
-    "decision": "CROP",
-    "reason": "I9: packshot nền trắng, đúng bao bì 71 g như trang hãng nhưng nhỏ và không 1:1; crop về 1:1 (phóng ~2,7 lần, xem lại đạt)",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "REPLACE",
+    "reason": "Chủ gửi ảnh render gói Mì cay Nissin xào gà cay Hàn Quốc 71g (đúng bao bì, nền trắng), thay ảnh chụp cũ; chuẩn hoá bằng make_image.py",
+    "source": {
+      "ownerProvided": true,
+      "note": "render gói Nissin gà cay Hàn Quốc 71g, chủ gửi qua chat",
+      "receivedAt": "2026-10-14"
+    },
+    "rubricVersion": "v6"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -52,10 +56,22 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-14T16:30:00.000Z",
+      "by": "owner",
+      "status": "READY",
+      "note": "owner sent pack render"
+    },
+    {
+      "at": "2026-10-14T13:22:15.691Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-14T12:31:08.786Z",
+    "at": "2026-10-14T13:22:15.691Z",
     "fields": [
       "description",
       "image"
