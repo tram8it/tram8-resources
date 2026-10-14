@@ -17,16 +17,20 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh; không rõ thương hiệu (mã vạch Hàn Quốc 880…), không có nguồn chính hãng → cần nhân viên chụp",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "Chủ gửi render gói Samyang Chacharoni (짜짜로니) 140 g, khớp mã 8801073… (Samyang); chuẩn hoá bằng make_image.py",
+    "source": {
+      "ownerProvided": true,
+      "note": "render gói Chacharoni 140g chủ gửi",
+      "receivedAt": "2026-10-14"
+    },
+    "rubricVersion": "v6"
   },
   "description": {
     "decision": "WRITE_NEW",
-    "reason": "D1: chưa có mô tả; mô tả ngắn chỉ từ tên hàng",
+    "reason": "D1: viết từ chữ in trên gói trong ảnh chủ gửi (Samyang, 짜짜로니, olive oil, 춘장, 140 g)",
     "source": null,
     "rubricVersion": "v4"
   },
@@ -43,6 +47,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "rubric v4: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-14T21:20:00.000Z",
+      "by": "owner",
+      "status": "READY",
+      "note": "owner sent Chacharoni pack render"
+    },
+    {
+      "at": "2026-10-14T15:23:17.407Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-14T15:23:17.407Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }
