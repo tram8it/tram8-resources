@@ -17,20 +17,24 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "ASK_OWNER",
+  "status": "READY",
   "image": {
-    "decision": "ASK_OWNER",
-    "reason": "I1: chưa có ảnh; không chắc 'Bát vị gà hầm 80g' là thố khoai tây gà hầm 79 g trên trang hãng (đã có mã riêng 8936010680500 cho thố tròn)",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "REPLACE",
+    "reason": "I1: chưa có ảnh. Chủ gửi ảnh render chính hãng thố khoai tây gà hầm 79 g cho mã 'Bát vị gà hầm 80g' (mã vạch 8936010680487, khác thố tròn 8936010680500): cùng thương hiệu + cùng vị → dùng bao bì mới nhất (RUBRIC v2); nền trắng, chuẩn hoá bằng make_image.py",
+    "source": {
+      "ownerProvided": true,
+      "note": "Ảnh render chính hãng Cung Đình, chủ gửi qua chat",
+      "receivedAt": "2026-10-14"
+    },
+    "rubricVersion": "v5"
   },
   "description": {
-    "decision": "ASK_OWNER",
-    "reason": "Chờ chủ xác nhận quy cách",
+    "decision": "WRITE_NEW",
+    "reason": "D1: viết từ chữ in mặt trước bao bì mới (79 g, gà hầm, sợi khoai tây + trứng)",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v5"
   },
-  "question": "'Mỳ Cung Đình Bát Vị Gà Hầm 80g' (mã 8936010680487) và 'Mỳ Cung Đình Khoai Tây Vị Gà Hầm 12 Thố Tròn' (mã 8936010680500) là hai mã khác nhau. Trên afotech.vn chỉ có thố tròn gà hầm 79 g. Mã 'Bát' có còn bán không, có phải cùng là thố tròn không? Nếu là loại bát cũ thì cần chụp ảnh.",
+  "question": null,
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -43,6 +47,26 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "b07 review: image ASK_OWNER, description ASK_OWNER"
+    },
+    {
+      "at": "2026-10-14T07:31:04Z",
+      "by": "owner",
+      "status": "READY",
+      "note": "Chủ gửi ảnh thố gà hầm cho mã 'Bát' = trả lời ASK_OWNER; dùng bao bì mới nhất"
+    },
+    {
+      "at": "2026-10-14T07:31:15.744Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-14T07:31:15.744Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }
