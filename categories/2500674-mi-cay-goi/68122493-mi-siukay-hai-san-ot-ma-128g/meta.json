@@ -17,16 +17,20 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3, I4: ảnh chụp điện thoại trên bàn, nền không trắng; bản Hải Sản Ớt Ma chỉ có trong banner quảng cáo trên acecookvietnam.vn (không có ảnh gói riêng) → cần chụp",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I3/I4: ảnh điện thoại trên bàn. Thay bằng ảnh chủ gửi (gói chụp trên nền tường), tách nền bằng cutout.py; gói nguyên vẹn",
+    "source": {
+      "ownerProvided": true,
+      "note": "ảnh chủ gửi qua chat, tách nền",
+      "receivedAt": "2026-10-14"
+    },
+    "rubricVersion": "v5"
   },
   "description": {
     "decision": "WRITE_NEW",
-    "reason": "D1: chưa có mô tả; viết ngắn chỉ từ chữ in mặt trước gói (tên, vị, 128 g) và banner của hãng",
+    "reason": "D1: chưa có mô tả; viết ngắn chỉ từ chữ in mặt trước gói (tên, vị, 128 g) và banner của hãng; bỏ 'nấu 4 phút' (gói đang bán không in)",
     "source": null,
     "rubricVersion": "v4"
   },
@@ -43,6 +47,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "b13: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-14T15:00:00.000Z",
+      "by": "owner",
+      "status": "READY",
+      "note": "owner sent image"
+    },
+    {
+      "at": "2026-10-14T12:51:20.701Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-14T12:51:20.701Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }
