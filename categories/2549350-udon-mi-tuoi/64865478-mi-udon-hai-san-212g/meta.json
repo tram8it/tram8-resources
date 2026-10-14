@@ -17,12 +17,17 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3, I4: ảnh chụp tay cầm bằng điện thoại, nền rèm hoa, hạn in 2022 (có thể bao bì cũ). Hãng Hàn Quốc (본고장), không tìm thấy trang chính hãng có ảnh → cần chụp",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "Chủ gửi ảnh AI tạo lại gói 본고장 해물맛 우동 212 g (chữ nhỏ dòng thành phần méo); tô trắng nền, cắt sát gói",
+    "source": {
+      "ownerProvided": true,
+      "aiGenerated": true,
+      "note": "ảnh AI chủ tạo lại và gửi qua chat",
+      "receivedAt": "2026-10-14"
+    },
+    "rubricVersion": "v8"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +48,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "batch f1: image REPLACE→NEEDS_PHOTO, description WRITE_NEW short"
+    },
+    {
+      "at": "2026-10-14T22:50:00.000Z",
+      "by": "owner",
+      "status": "READY",
+      "note": "owner sent AI-recreated pack image"
+    },
+    {
+      "at": "2026-10-14T15:58:55.216Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-14T15:58:55.216Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

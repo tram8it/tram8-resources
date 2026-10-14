@@ -2,7 +2,7 @@
 
 > Sinh tự động bởi `node tools/status.mjs`. **Không sửa tay.** Nguồn sự thật là `meta.json` của từng SP.
 
-Tổng 2448 SP · đã xem 2428 (99%) · xong 206 · chờ chủ duyệt 1097 · cần chụp 888 · hỏi chủ 224
+Tổng 2448 SP · đã xem 2428 (99%) · xong 206 · chờ chủ duyệt 1100 · cần chụp 886 · hỏi chủ 224
 
 Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` = giữ nguyên + đã lên web.
 
@@ -22,7 +22,7 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 | 12 | Bánh tráng trộn | 0.0tr | 37 | 0 | 0 | 0 | 15 | 2 | 20 | 0 | 0 |
 | 13 | Nước trái cây / ép | 0.0tr | 34 | 0 | 0 | 0 | 8 | 3 | 23 | 0 | 0 |
 | 14 | Bánh xốp kem (wafer) | 0.0tr | 31 | 0 | 0 | 0 | 19 | 3 | 9 | 0 | 0 |
-| 15 | Mì gói | 0.0tr | 31 | 0 | 0 | 1 | 0 | 0 | 0 | 0 | 30 |
+| 15 | Mì gói | 0.0tr | 31 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 30 |
 | 16 | Sữa chua uống | 0.0tr | 31 | 0 | 0 | 0 | 5 | 2 | 24 | 0 | 0 |
 | 17 | Lager Phổ Thông | 0.0tr | 29 | 0 | 0 | 0 | 2 | 4 | 23 | 0 | 0 |
 | 18 | Kem ly / cốc / hộp nhỏ | 0.0tr | 28 | 0 | 0 | 0 | 14 | 3 | 11 | 0 | 0 |
@@ -177,7 +177,7 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 | 167 | Kem đánh răng - Ngừa sâu răng | 0.0tr | 3 | 0 | 0 | 0 | 1 | 1 | 1 | 0 | 0 |
 | 168 | Kem mochi | 0.0tr | 3 | 0 | 0 | 0 | 2 | 0 | 1 | 0 | 0 |
 | 169 | Marshmallow/kẹo xốp | 0.0tr | 3 | 0 | 0 | 0 | 3 | 0 | 0 | 0 | 0 |
-| 170 | Udon & mì tươi | 0.0tr | 3 | 0 | 0 | 0 | 2 | 0 | 0 | 0 | 1 |
+| 170 | Udon & mì tươi | 0.0tr | 3 | 0 | 0 | 0 | 0 | 0 | 2 | 0 | 1 |
 | 171 | Nem chua | 0.0tr | 3 | 0 | 0 | 0 | 3 | 0 | 0 | 0 | 0 |
 | 172 | Nước súc miệng - Thơm miệng | 0.0tr | 3 | 0 | 0 | 0 | 0 | 1 | 2 | 0 | 0 |
 | 173 | Rong biển & vị biển | 0.0tr | 3 | 0 | 0 | 0 | 3 | 0 | 0 | 0 | 0 |

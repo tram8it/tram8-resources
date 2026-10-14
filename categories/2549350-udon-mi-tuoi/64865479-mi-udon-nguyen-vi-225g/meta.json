@@ -17,12 +17,17 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3, I4, I5: ảnh chụp điện thoại cận bao bì, bị cắt khung. Hãng Hàn Quốc (본고장), không tìm thấy trang chính hãng có ảnh → cần chụp",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "Chủ gửi ảnh AI tạo lại gói 본고장 엔우동 225 g; tô trắng nền, cắt sát gói. Ô hạn dùng trên gói in '20.01.2023' — đã báo chủ",
+    "source": {
+      "ownerProvided": true,
+      "aiGenerated": true,
+      "note": "ảnh AI chủ tạo lại và gửi qua chat",
+      "receivedAt": "2026-10-14"
+    },
+    "rubricVersion": "v8"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +48,12 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "batch f1: image REPLACE→NEEDS_PHOTO, description WRITE_NEW short"
+    },
+    {
+      "at": "2026-10-14T22:50:00.000Z",
+      "by": "owner",
+      "status": "READY",
+      "note": "owner sent AI-recreated pack image"
     }
   ]
 }
