@@ -17,18 +17,18 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "READY",
   "image": {
-    "decision": null,
-    "reason": null,
+    "decision": "CROP",
+    "reason": "I9: ảnh 450×600 không 1:1; ảnh tách nền trắng, ly nguyên vẹn → crop 1:1 (phóng ~2,9 lần, hơi mềm nhưng đạt theo v4)",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết ngắn chỉ từ chữ in trên ly (植光 草莓奶昔 – sữa lắc dâu, đồ uống hương sữa dâu, tịnh 400 g, chất rắn ≥ 2%)",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
   "question": null,
   "history": [
@@ -37,6 +37,12 @@
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-14T00:28:47.224Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "batch f3: image CROP, description WRITE_NEW"
     }
   ]
 }

@@ -17,18 +17,21 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "NEEDS_PHOTO",
   "image": {
-    "decision": null,
-    "reason": null,
+    "decision": "REPLACE",
+    "reason": "I3/I4/I8: ảnh điện thoại chụp nhiều vỉ trên kệ. nivea.com.vn có đúng mã vạch 8850029850726 nhưng ảnh là bao bì cũ 'Fruity Shine', khác vỉ đang bán (Strawberry Shine, 'With natural ingredients', 24h); nivea.ph lại là vỉ khác → không có ảnh hãng khớp bao bì hiện hành, cần chụp 1 vỉ",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết ngắn theo trang hãng (đúng mã vạch, mã 85083), chỉ giữ dữ kiện chung vì công thức in trên vỉ mới có thể khác",
+    "source": {
+      "url": "https://www.nivea.com.vn/san-pham/son-d%c6%b0%e1%bb%a1ng-%e1%ba%a9m-s%e1%ba%afc-%c4%91%e1%bb%8f-d%c3%a2u-t%c3%a2y-88500298507260243.html",
+      "fetchedAt": "2026-10-14"
+    },
+    "rubricVersion": "v4"
   },
   "question": null,
   "history": [
@@ -37,6 +40,12 @@
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-14T00:25:41.833Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "batch f3: image REPLACE, description WRITE_NEW"
     }
   ]
 }

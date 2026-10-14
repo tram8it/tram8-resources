@@ -17,18 +17,18 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "READY",
   "image": {
-    "decision": null,
-    "reason": null,
+    "decision": "CROP",
+    "reason": "I9: ảnh 450×600 không 1:1; ảnh tách nền trắng, ly nguyên vẹn → crop 1:1 (phóng ~2,6 lần, xem lại đạt)",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết ngắn chỉ từ chữ in mặt trước ly (Luosiking, 香菜螺蛳粉 – bún ốc vị rau mùi, 188 g), không có trang hãng",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
   "question": null,
   "history": [
@@ -37,6 +37,12 @@
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-14T00:27:51.908Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "batch f3: image CROP, description WRITE_NEW"
     }
   ]
 }

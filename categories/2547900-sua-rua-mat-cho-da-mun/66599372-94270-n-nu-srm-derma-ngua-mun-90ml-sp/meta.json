@@ -17,18 +17,24 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "READY",
   "image": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "REPLACE",
+    "reason": "I3, I4 + v2: ảnh chụp tay cầm, bao bì cũ 'Acne Repair'; NIVEA Thái cùng mã 8850029036410 đã đổi sang bao bì 'Derma Acne Care Cleanser Gel to Foam' 90 ml. Trang SP: https://www.nivea.co.th/products/nivea-derma-acne-care-cleanser-gel-to-foam-90ml-88500290364100077.html",
+    "source": {
+      "url": "https://img.nivea.com/-/media/miscellaneous/media-center-items/3/8/c/47721fb16fa149898163e7da3d3eb50c-web_1010x1180_transparent_png.png",
+      "fetchedAt": "2026-10-14"
+    },
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết ngắn từ chữ in trên bao bì mới (ảnh trang hãng), không thêm công dụng",
+    "source": {
+      "url": "https://www.nivea.co.th/products/nivea-derma-acne-care-cleanser-gel-to-foam-90ml-88500290364100077.html",
+      "fetchedAt": "2026-10-14"
+    },
+    "rubricVersion": "v4"
   },
   "question": null,
   "history": [
@@ -37,6 +43,12 @@
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-14T00:30:14.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "batch f1: image REPLACE (newest pack from NIVEA TH), description WRITE_NEW short"
     }
   ]
 }

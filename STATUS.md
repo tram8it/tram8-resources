@@ -2,7 +2,7 @@
 
 > Sinh tự động bởi `node tools/status.mjs`. **Không sửa tay.** Nguồn sự thật là `meta.json` của từng SP.
 
-Tổng 2448 SP · đã xem 2382 (97%) · xong 0 · chờ chủ duyệt 1243 · cần chụp 911 · hỏi chủ 228
+Tổng 2448 SP · đã xem 2387 (98%) · xong 0 · chờ chủ duyệt 1248 · cần chụp 911 · hỏi chủ 228
 
 Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` = giữ nguyên + đã lên web.
 
@@ -144,7 +144,7 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 | 134 | Sữa đặc | 0.0tr | 5 | 0 | 0 | 0 | 0 | 1 | 4 | 0 | 0 |
 | 135 | Dầu gội - Ngăn rụng tóc | 0.0tr | 5 | 0 | 0 | 0 | 1 | 0 | 4 | 0 | 0 |
 | 136 | Gel bôi trơn | 0.0tr | 5 | 0 | 0 | 0 | 1 | 0 | 4 | 0 | 0 |
-| 137 | Sữa rửa mặt cho da mụn | 0.0tr | 5 | 5 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 137 | Sữa rửa mặt cho da mụn | 0.0tr | 5 | 0 | 0 | 0 | 0 | 0 | 5 | 0 | 0 |
 | 138 | Lương khô | 0.0tr | 5 | 5 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 139 | Dụng cụ lông mày / mũi | 0.0tr | 5 | 5 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 140 | Vang Đỏ | 0.0tr | 5 | 0 | 0 | 0 | 0 | 0 | 5 | 0 | 0 |

@@ -17,18 +17,18 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "READY",
   "image": {
-    "decision": null,
-    "reason": null,
+    "decision": "CROP",
+    "reason": "I9: ảnh 450×600 không 1:1; ảnh tách nền trắng, tô nguyên vẹn → crop 1:1 (phóng ~2,3 lần, xem lại đạt)",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết ngắn chỉ từ chữ in trên tô (今麦郎 菜粉面蛋 酸辣牛肉味 – vị bò chua cay; tịnh 160 g gồm bánh miến 35 g, vắt mì 55 g, gói gia vị và trứng kho)",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
   "question": null,
   "history": [
@@ -37,6 +37,12 @@
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-14T00:27:51.908Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "batch f3: image CROP, description WRITE_NEW"
     }
   ]
 }

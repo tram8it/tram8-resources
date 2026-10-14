@@ -17,18 +17,24 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "READY",
   "image": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "REPLACE",
+    "reason": "I6/I5: ảnh 224×224 quá nhỏ, sát khung; thay bằng ảnh gói Bún Giò Heo Hằng Nga 75 g trên trang Acecook (cùng bao bì). Trang SP: https://acecookvietnam.vn/product/bun-hang-nga/",
+    "source": {
+      "url": "https://acecookvietnam.vn/wp/wp-content/uploads/2025/06/3D-BUN-HANG-NGA-GIO-HEO-BG.png",
+      "fetchedAt": "2026-10-14"
+    },
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết theo trang hãng (thành phần, hướng dẫn) + chữ in trên gói (75 g, sợi tròn)",
+    "source": {
+      "url": "https://acecookvietnam.vn/product/bun-hang-nga/",
+      "fetchedAt": "2026-10-14"
+    },
+    "rubricVersion": "v4"
   },
   "question": null,
   "history": [
@@ -37,6 +43,12 @@
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-14T00:27:51.908Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "batch f3: image REPLACE, description WRITE_NEW"
     }
   ]
 }

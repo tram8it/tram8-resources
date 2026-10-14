@@ -17,18 +17,24 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "READY",
   "image": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "REPLACE",
+    "reason": "I2/v2: ảnh hiện tại là bao bì đời trước (logo Vinamilk cũ); thay bằng bao bì mới nhất trên trang hãng, hộp giấy 1,284 kg. Trang SP: https://www.vinamilk.com.vn/products/creamer-dac-ngoi-sao-phuong-nam-xanh-la",
+    "source": {
+      "url": "https://d8um25gjecm9v.cloudfront.net/cms/NSPN_Xanh_La_1284g_01_2901cc1c57.png",
+      "fetchedAt": "2026-10-14"
+    },
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết từ trang hãng (thành phần, quy cách)",
+    "source": {
+      "url": "https://www.vinamilk.com.vn/products/creamer-dac-ngoi-sao-phuong-nam-xanh-la",
+      "fetchedAt": "2026-10-14"
+    },
+    "rubricVersion": "v4"
   },
   "question": null,
   "history": [
@@ -37,6 +43,12 @@
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-14T00:25:56.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "batch f1: image REPLACE (newest pack from vinamilk.com.vn), description WRITE_NEW"
     }
   ]
 }

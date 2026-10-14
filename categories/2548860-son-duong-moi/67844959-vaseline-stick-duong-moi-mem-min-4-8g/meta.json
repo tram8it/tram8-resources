@@ -17,26 +17,32 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "ASK_OWNER",
   "image": {
-    "decision": null,
-    "reason": null,
+    "decision": "ASK_OWNER",
+    "reason": "I2/I3: ảnh chụp điện thoại vỉ Rosy Lips, có vẻ là SP khác (trùng ảnh 'Hồng xinh'); chưa rõ loại 'mềm mịn'",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
+    "decision": "ASK_OWNER",
+    "reason": "chưa có mô tả; chờ chủ xác nhận loại sản phẩm",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
-  "question": null,
+  "question": "'Vaseline Stick – Dưỡng môi mềm mịn 4.8g' (mã vạch 8801619047552) đang dùng ảnh vỉ 'Rosy Lips' – trùng ảnh với SP 'Hồng xinh'. Thỏi 'mềm mịn' thực tế là loại nào (Original / Cocoa Butter / Rosy Lips…)? Chủ cho biết tên in trên vỉ để AI ghi đúng; ảnh sẽ cần nhân viên chụp (trang Vaseline chặn truy cập).",
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-14T00:25:41.833Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "batch f3: image ASK_OWNER, description ASK_OWNER"
     }
   ]
 }

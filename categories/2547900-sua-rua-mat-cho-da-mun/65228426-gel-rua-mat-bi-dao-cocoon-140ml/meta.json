@@ -17,18 +17,24 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "READY",
   "image": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "REPLACE",
+    "reason": "I1: chưa có ảnh; ảnh nền trong suốt trên trang hãng (mã vạch 8936217700162 khớp, trang SP https://cocoonvietnam.com/san-pham/gel-bi-dao-rua-mat-140ml), ảnh hãng 512px phóng ~2 lần",
+    "source": {
+      "url": "https://image.cocoonvietnam.com/uploads/29892181_transparent_37e22b7474.png",
+      "fetchedAt": "2026-10-14"
+    },
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết từ trang hãng",
+    "source": {
+      "url": "https://cocoonvietnam.com/san-pham/gel-bi-dao-rua-mat-140ml",
+      "fetchedAt": "2026-10-14"
+    },
+    "rubricVersion": "v4"
   },
   "question": null,
   "history": [
@@ -37,6 +43,12 @@
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-14T00:30:14.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "batch f1: image REPLACE (no image; official), description WRITE_NEW"
     }
   ]
 }

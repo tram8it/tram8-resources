@@ -17,26 +17,32 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "ASK_OWNER",
   "image": {
-    "decision": null,
-    "reason": null,
+    "decision": "ASK_OWNER",
+    "reason": "I8: mã vạch 8934673302814 là mã in trên từng hộp 40g, nhưng ảnh hiện tại là vỉ 6 hộp (bao bì đời trước); trang hãng chỉ có ảnh vỉ 6 hộp bao bì mới (https://d8um25gjecm9v.cloudfront.net/cms/Ong_Tho_Vi_01_467177cf81.png)",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
+    "decision": "ASK_OWNER",
+    "reason": "Chờ chủ xác nhận đơn vị bán (hộp lẻ hay vỉ) trước khi viết mô tả",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
-  "question": null,
+  "question": "Sữa đặc Ông Thọ 40g (mã 8934673302814) bán lẻ từng hộp 40g hay bán cả vỉ 6 hộp? Trang Vinamilk chỉ có ảnh vỉ 6 hộp (bao bì mới, nhãn 'Cao cấp'). Nếu bán vỉ: dùng ảnh vỉ đó và nên đổi tên/đơn vị trên KiotViet thành 'vỉ 6 hộp x 40g'; nếu bán từng hộp: cần nhân viên chụp 1 hộp.",
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-14T00:25:56.000Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "batch f1: ASK_OWNER: single 40g cup vs 6-cup tray"
     }
   ]
 }

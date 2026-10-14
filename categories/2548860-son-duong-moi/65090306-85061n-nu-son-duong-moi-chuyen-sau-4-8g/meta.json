@@ -17,18 +17,21 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "READY",
   "image": {
-    "decision": null,
-    "reason": null,
+    "decision": "CROP",
+    "reason": "I7/I9: ảnh banner có chữ chèn ('24h', '4,8 g/5,5 ml', 'son dưỡng ẩm chuyên sâu'); vỉ NIVEA Original Care nằm trọn trên nền trắng → cắt riêng vỉ, đặt giữa 1:1, phóng ~1,9 lần, đã xem lại đạt. (Trang hãng VN chỉ có ảnh 'Essential Care' đời cũ nên không dùng)",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết từ trang hãng (đúng mã vạch 8850029850009, mã 85061) + chữ in trên vỉ (Original Care, bơ hạt mỡ & dầu tự nhiên, không dầu khoáng); không chép bảng thành phần vì trang hãng ghi theo công thức cũ",
+    "source": {
+      "url": "https://www.nivea.com.vn/san-pham/son-d%c6%b0%e1%bb%a1ng-%e1%ba%a9m-chuy%c3%aan-s%c3%a2u-essential-88500298500090243.html",
+      "fetchedAt": "2026-10-14"
+    },
+    "rubricVersion": "v4"
   },
   "question": null,
   "history": [
@@ -37,6 +40,12 @@
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-14T00:25:41.833Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "batch f3: image CROP, description WRITE_NEW"
     }
   ]
 }
