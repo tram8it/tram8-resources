@@ -20,7 +20,7 @@
   "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh. Chủ gửi ảnh render chính hãng thố khoai tây gà hầm 79 g cho mã 'Bát vị gà hầm 80g' (mã vạch 8936010680487, khác thố tròn 8936010680500): cùng thương hiệu + cùng vị → dùng bao bì mới nhất (RUBRIC v2); nền trắng, chuẩn hoá bằng make_image.py",
+    "reason": "I1: chưa có ảnh. Chủ quét xác nhận mã 8936010680487 = thố khoai tây GÀ HẦM 79 g (tên KiotViet 'Bát ... 80g' là tên cũ); ảnh render chính hãng chủ gửi, nền trắng, chuẩn hoá bằng make_image.py",
     "source": {
       "ownerProvided": true,
       "note": "Ảnh render chính hãng Cung Đình, chủ gửi qua chat",
@@ -74,6 +74,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-14T07:40:46Z",
+      "by": "owner",
+      "status": "READY",
+      "note": "Chủ quét mã ...0487 = gà hầm thố 79 g (xác nhận)"
     }
   ],
   "submitted": {
