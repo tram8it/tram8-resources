@@ -17,23 +17,27 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "ASK_OWNER",
+  "status": "READY",
   "image": {
-    "decision": "ASK_OWNER",
-    "reason": "Mã vạch là của túi 10 gói, chủ nói bán gói lẻ Jumbo 101 g; ảnh BHX chủ tìm không được dùng (domain cấm)",
-    "source": null,
+    "decision": "REPLACE",
+    "reason": "Chủ chọn: cắt gói lẻ Koreno Jumbo mì cay 7 cấp độ 101 g từ ảnh chủ gửi (túi 10 gói + gói lẻ); ảnh nhỏ, phóng ~4,2 lần (vượt mức ~3 lần, chữ nhỏ hơi mờ) — chủ đồng ý dùng",
+    "source": {
+      "ownerProvided": true,
+      "note": "ảnh 'Mì cay 7 cấp độ Koreno 10 gói' chủ gửi, cắt gói lẻ bên phải",
+      "receivedAt": "2026-10-14"
+    },
     "rubricVersion": "v6"
   },
   "description": {
-    "decision": "ASK_OWNER",
-    "reason": "Chờ chủ chốt SP là gói lẻ hay túi 10 gói",
+    "decision": "WRITE_NEW",
+    "reason": "D1: viết từ hồ sơ tự công bố của Paldo Vina (nhãn gói lẻ 101 g: gói ớt bột, nấu 4 phút, 450 ml nước, mức ớt bột theo cấp độ)",
     "source": {
       "url": "https://paldovina.com/upload/702025-hscb-mi-cay-7-cap-do-huong-vi-chua-cay-koreno-jumbo-1.pdf",
       "fetchedAt": "2026-10-14"
     },
     "rubricVersion": "v4"
   },
-  "question": "Mã vạch 8936028643481 của SP này là mã của TÚI Koreno Jumbo mì cay 7 cấp độ 10 gói (1,01 kg) theo hồ sơ tự công bố của Paldo Vina; gói lẻ 101 g có mã khác: 8936028643498. Đề xuất đã gửi (ảnh gói Koreno 104 g 'Thật cay') là SAI SP — chủ từ chối trên Hub. Chủ cần chọn: (a) SP này là gói lẻ 101 g → sửa/thêm mã vạch …3498 trên KiotViet; ảnh: bản in nhãn phẳng trong hồ sơ hãng hoặc chụp gói; (b) SP này là cả túi 10 gói → dùng ảnh túi trên paldovina.com.",
+  "question": null,
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -64,10 +68,22 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "wrong product sent earlier (Koreno 104g); barcode …3481 is the 10-pack Jumbo per Paldo self-declaration; single pack is …3498"
+    },
+    {
+      "at": "2026-10-14T17:20:00.000Z",
+      "by": "owner",
+      "status": "READY",
+      "note": "owner: sells single 101g Jumbo pack; use cropped pack from sent image"
+    },
+    {
+      "at": "2026-10-14T13:39:44.785Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-14T13:02:46.516Z",
+    "at": "2026-10-14T13:39:44.785Z",
     "fields": [
       "description",
       "image"

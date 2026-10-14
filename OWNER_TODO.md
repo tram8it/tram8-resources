@@ -22,6 +22,7 @@ còn gì), đọc file này và **nhắc chủ từng mục còn mở**. Ghi th�
   - 64865694 "Mỳ tô Cung Đình vị sườn heo 80g": thực tế thố khoai tây sườn heo hầm măng 79 g
   - 65139544 "Mỳ Cung Đình Bát Vị Gà Hầm 80g" (mã …0487): thực tế thố khoai tây gà hầm 79 g
   - 65139690 "…Khoai Tây Vị Gà Hầm 12 Thố Tròn" (mã …0500): thực tế **thịt hầm nấm** 79 g
+  - 65205357 "Mì cay 7 cấp độ": đang gắn mã vạch **8936028643481 = túi Koreno Jumbo 10 gói**; gói lẻ 101 g đang bán có mã **8936028643498** (hồ sơ tự công bố Paldo Vina) — thêm/sửa mã để quầy quét được gói lẻ; tên nên ghi 'Koreno Jumbo … 101g'
   - 66610094 "Bánh gạo Pororo Hàn Quốc Vị phô mai 115g" (mã 8809380344474): thực tế là **vị Rosé** (ảnh lúc tạo SP là ly 로제 떡볶이; vị phô mai là mã …3408)
   - 67200390 "Bánh gạo tokpokki… vị phô mai O'food ly 105g" (mã 8935304200608): thực tế là ly **tròn vị phô mai, không cay** — tên nên ghi rõ để khỏi nhầm với …0141
 - [ ] Thương hiệu sửa tay: xem `reports/thuong-hieu-can-sua-tay-mi-goi.csv`
