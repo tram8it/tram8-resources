@@ -17,16 +17,20 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh; vifon.com.vn không có cốc Nhất Vị bò Texas → cần chụp",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "Chủ gửi ảnh gian hàng chính hãng Vifon (Nhất Vị bò Texas chua ngọt 115 g); tách cốc bằng cutout.py, bỏ chữ/khung bán hàng (v5)",
+    "source": {
+      "ownerProvided": true,
+      "note": "ảnh gian hàng chính hãng Vifon chủ gửi, tách cốc",
+      "receivedAt": "2026-10-14"
+    },
+    "rubricVersion": "v6"
   },
   "description": {
     "decision": "WRITE_NEW",
-    "reason": "D1: chưa có mô tả; viết ngắn chỉ từ dữ kiện chắc chắn (tên SP, chữ in mặt trước bao bì), không có trang hãng truy cập được",
+    "reason": "D1: chưa có mô tả; viết ngắn chỉ từ dữ kiện chắc chắn (tên SP, chữ in mặt trước bao bì), không có trang hãng truy cập được; thêm gói xốt theo ảnh gian hàng chính hãng Vifon",
     "source": null,
     "rubricVersion": "v4"
   },
@@ -43,6 +47,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "b16 review: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-14T20:10:00.000Z",
+      "by": "owner",
+      "status": "READY",
+      "note": "owner sent brand images"
+    },
+    {
+      "at": "2026-10-14T14:49:14.901Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-14T14:49:14.901Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

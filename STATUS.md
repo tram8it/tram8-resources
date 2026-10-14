@@ -2,7 +2,7 @@
 
 > Sinh tự động bởi `node tools/status.mjs`. **Không sửa tay.** Nguồn sự thật là `meta.json` của từng SP.
 
-Tổng 2448 SP · đã xem 2428 (99%) · xong 149 · chờ chủ duyệt 1140 · cần chụp 898 · hỏi chủ 228
+Tổng 2448 SP · đã xem 2428 (99%) · xong 149 · chờ chủ duyệt 1141 · cần chụp 897 · hỏi chủ 228
 
 Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` = giữ nguyên + đã lên web.
 
@@ -42,7 +42,7 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 | 32 | Cà phê uống liền | 0.0tr | 21 | 0 | 0 | 0 | 4 | 3 | 14 | 0 | 0 |
 | 33 | Cơm nắm Onigiri | 0.0tr | 21 | 0 | 0 | 0 | 15 | 1 | 5 | 0 | 0 |
 | 34 | Xúc xích tiệt trùng | 0.0tr | 21 | 0 | 0 | 0 | 13 | 2 | 6 | 0 | 0 |
-| 35 | Mì trộn / mì khô / spaghetti (Ly/Tô/Cốc) | 0.0tr | 21 | 0 | 0 | 0 | 2 | 1 | 18 | 0 | 0 |
+| 35 | Mì trộn / mì khô / spaghetti (Ly/Tô/Cốc) | 0.0tr | 21 | 0 | 0 | 0 | 1 | 1 | 19 | 0 | 0 |
 | 36 | Vị nguyên bản | 0.0tr | 21 | 0 | 0 | 0 | 3 | 1 | 17 | 0 | 0 |
 | 37 | Thuốc lá (18+) | 0.0tr | 20 | 20 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 38 | Nước tẩy trang - Dầu tẩy trang | 0.0tr | 20 | 0 | 0 | 0 | 2 | 3 | 15 | 0 | 0 |

@@ -19,14 +19,18 @@
   },
   "status": "READY",
   "image": {
-    "decision": "CROP",
-    "reason": "I9: packshot nền trắng, đúng cốc Nhất Vị cua xốt kem 115 g; chỉ chưa 1:1 → crop, đã xem lại đạt",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "REPLACE",
+    "reason": "Chủ gửi ảnh gian hàng chính hãng Vifon (Nhất Vị cua xốt kem 115 g); tách cốc bằng cutout.py, bỏ chữ/khung bán hàng (v5)",
+    "source": {
+      "ownerProvided": true,
+      "note": "ảnh gian hàng chính hãng Vifon chủ gửi, tách cốc",
+      "receivedAt": "2026-10-14"
+    },
+    "rubricVersion": "v6"
   },
   "description": {
     "decision": "WRITE_NEW",
-    "reason": "D1: chưa có mô tả; viết ngắn chỉ từ dữ kiện chắc chắn (tên SP, chữ in mặt trước bao bì), không có trang hãng truy cập được; vifon.com.vn không có SP này",
+    "reason": "D1: chưa có mô tả; viết ngắn chỉ từ dữ kiện chắc chắn (tên SP, chữ in mặt trước bao bì), không có trang hãng truy cập được; vifon.com.vn không có SP này; thêm gói xốt theo ảnh gian hàng chính hãng Vifon",
     "source": null,
     "rubricVersion": "v4"
   },
@@ -49,10 +53,22 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-14T20:10:00.000Z",
+      "by": "owner",
+      "status": "READY",
+      "note": "owner sent brand images"
+    },
+    {
+      "at": "2026-10-14T14:49:11.482Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-14T14:17:48.675Z",
+    "at": "2026-10-14T14:49:11.482Z",
     "fields": [
       "description",
       "image"

@@ -19,10 +19,14 @@
   },
   "status": "READY",
   "image": {
-    "decision": "CROP",
-    "reason": "I9: packshot nền trắng, đúng cốc Vifon Sol hải sản 115 g; chỉ chưa 1:1 → crop, đã xem lại đạt",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "REPLACE",
+    "reason": "Chủ gửi ảnh gian hàng chính hãng Vifon (Sol hải sản 115 g); tách cốc bằng cutout.py, bỏ chữ/khung bán hàng (v5)",
+    "source": {
+      "ownerProvided": true,
+      "note": "ảnh gian hàng chính hãng Vifon chủ gửi, tách cốc",
+      "receivedAt": "2026-10-14"
+    },
+    "rubricVersion": "v6"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -49,10 +53,22 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-14T20:10:00.000Z",
+      "by": "owner",
+      "status": "READY",
+      "note": "owner sent brand images"
+    },
+    {
+      "at": "2026-10-14T14:49:08.205Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-14T14:17:48.675Z",
+    "at": "2026-10-14T14:49:08.205Z",
     "fields": [
       "description",
       "image"

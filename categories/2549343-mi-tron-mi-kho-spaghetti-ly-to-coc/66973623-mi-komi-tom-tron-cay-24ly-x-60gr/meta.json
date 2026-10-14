@@ -19,10 +19,14 @@
   },
   "status": "READY",
   "image": {
-    "decision": "CROP",
-    "reason": "I9: packshot nền trắng, cùng bao bì ly Komi trộn cay trên trang hãng; chỉ chưa 1:1 → crop, đã xem lại đạt",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "REPLACE",
+    "reason": "Chủ gửi render ly Komi 'Trộn cay bốc lửa – vị Tôm', chuẩn hoá bằng make_image.py (phóng ~2,3 lần)",
+    "source": {
+      "ownerProvided": true,
+      "note": "render ly Komi chủ gửi (nền trong suốt)",
+      "receivedAt": "2026-10-14"
+    },
+    "rubricVersion": "v6"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -52,10 +56,22 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-14T20:10:00.000Z",
+      "by": "owner",
+      "status": "READY",
+      "note": "owner sent brand images"
+    },
+    {
+      "at": "2026-10-14T14:49:05.320Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-14T14:17:48.675Z",
+    "at": "2026-10-14T14:49:05.320Z",
     "fields": [
       "description",
       "image"
