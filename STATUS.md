@@ -2,7 +2,7 @@
 
 > Sinh tự động bởi `node tools/status.mjs`. **Không sửa tay.** Nguồn sự thật là `meta.json` của từng SP.
 
-Tổng 2448 SP · đã xem 2428 (99%) · xong 197 · chờ chủ duyệt 1101 · cần chụp 892 · hỏi chủ 225
+Tổng 2448 SP · đã xem 2428 (99%) · xong 197 · chờ chủ duyệt 1102 · cần chụp 892 · hỏi chủ 224
 
 Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` = giữ nguyên + đã lên web.
 
@@ -150,7 +150,7 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 | 140 | Vang Đỏ | 0.0tr | 5 | 0 | 0 | 0 | 0 | 0 | 5 | 0 | 0 |
 | 141 | Snack bánh mì nướng / crouton | 0.0tr | 4 | 0 | 0 | 0 | 2 | 0 | 2 | 0 | 0 |
 | 142 | Bánh mì que | 0.0tr | 4 | 0 | 0 | 0 | 4 | 0 | 0 | 0 | 0 |
-| 143 | Cháo ăn liền | 0.0tr | 4 | 0 | 0 | 0 | 0 | 1 | 1 | 0 | 2 |
+| 143 | Cháo ăn liền | 0.0tr | 4 | 0 | 0 | 0 | 0 | 0 | 2 | 0 | 2 |
 | 144 | Dầu gội - Trị gàu | 0.0tr | 4 | 0 | 0 | 0 | 0 | 3 | 1 | 0 | 0 |
 | 145 | Dầu xả | 0.0tr | 4 | 0 | 0 | 0 | 0 | 1 | 3 | 0 | 0 |
 | 146 | Nước dừa / thạch uống | 0.0tr | 4 | 0 | 0 | 0 | 2 | 0 | 2 | 0 | 0 |

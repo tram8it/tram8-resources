@@ -17,20 +17,24 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "ASK_OWNER",
+  "status": "READY",
   "image": {
-    "decision": "ASK_OWNER",
-    "reason": "I2: khối lượng in trên ly có vẻ 60 g, tên SP ghi 50 g; ảnh nền trắng nhưng không 1:1 (crop được nếu đúng SP)",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "REPLACE",
+    "reason": "Chủ gửi ảnh ly Cháo tổ yến thịt bằm (in 50 g, khớp tên SP); tách nền bằng cutout.py, ly nguyên vẹn",
+    "source": {
+      "ownerProvided": true,
+      "note": "ảnh ly cháo tổ yến thịt bằm chủ gửi, tách nền",
+      "receivedAt": "2026-10-14"
+    },
+    "rubricVersion": "v5"
   },
   "description": {
-    "decision": "ASK_OWNER",
-    "reason": "Chưa có mô tả; chờ chủ xác nhận khối lượng",
+    "decision": "WRITE_NEW",
+    "reason": "D1: viết từ chữ in trên ly (Cháo tổ yến, Thịt bằm, từ Khánh Hòa, Lifesnest, 50 g)",
     "source": null,
     "rubricVersion": "v4"
   },
-  "question": "\"Cháo tổ yến Lifesnest ly 50g thịt bằm\" (mã vạch 8938505549651): trên ảnh ly, khối lượng in ở góc phải có vẻ là 60 g, không phải 50 g. Ly đang bán là bao nhiêu gam? Nếu đúng ảnh (60 g) thì crop ảnh này dùng được và cần sửa tên trên KiotViet.",
+  "question": null,
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -43,6 +47,26 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "batch f2: ASK_OWNER: weight on cup (60 g?) vs name 50 g"
+    },
+    {
+      "at": "2026-10-14T21:55:00.000Z",
+      "by": "owner",
+      "status": "READY",
+      "note": "owner sent cup photo; weight 50 g confirmed on pack"
+    },
+    {
+      "at": "2026-10-14T15:41:22.877Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-14T15:41:22.877Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }
