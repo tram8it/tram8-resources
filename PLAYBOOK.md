@@ -89,6 +89,27 @@ giữ ảnh nhưng viết lại mô tả.
 3. Commit theo lô: `review(<category>): <n> SP — X giữ, Y sửa, Z cần chụp, W hỏi chủ`. Push.
 4. Báo chủ: link trang duyệt + danh sách `ASK_OWNER` + danh sách `NEEDS_PHOTO`.
 
+## 5b. Cách chủ làm việc (đã thống nhất 14/10/2026)
+
+Mọi phiên AI làm theo đúng nhịp này:
+
+1. **Cuốn chiếu từng danh mục, làm xong hẳn mới sang danh mục khác.** "Xong" = trên tram8.vn mọi SP
+   của danh mục có ảnh đúng + mô tả, Hub không còn đề xuất chờ, chỉ còn câu hỏi chủ đã thấy.
+   Trước khi báo xong: `proposals.mjs sync`, đối chiếu `tram8.vn/data/catalog.json` (SP không ảnh),
+   liệt kê đủ những gì còn lại — đừng nói "xong" khi còn sót.
+2. **Ưu tiên ảnh hãng.** Tìm kỹ trên trang/kênh chính chủ (cả trang theo nước: buldak.com/vn,
+   indomie.vn, afotech.vn, paldovina.com, hồ sơ tự công bố PDF…), **kể cả khi ảnh hiện tại đã đạt**.
+   Trang chặn bot thì nói thẳng và nhờ chủ lấy ảnh — không vượt chặn.
+3. **Chủ gửi ảnh vào chat** (render hãng, ảnh gian hàng chính hãng, ảnh nhân viên chụp, ảnh AI chủ tạo):
+   xử lý ngay — tách nền/cắt sát/tô trắng nền, chuẩn hoá 1:1, **mở ảnh ra xem mép, nắp, đáy, chữ**
+   (hay bị cắt cụt hoặc dính vật bên cạnh), so với ảnh cũ, rồi gửi đề xuất. Ảnh AI: báo chủ chỗ khác
+   gói thật (RUBRIC v8).
+4. **Hỏi ít, hỏi đúng, gom lại.** Câu hỏi nêu mã vạch, ảnh đang thấy, các phương án; chủ trả lời ngắn
+   ("đúng hình đấy", "bán gói lẻ") là đủ để làm tiếp.
+5. **Việc phải sửa tay trên KiotViet** (tên sai, mã trùng, đổi danh mục) → ghi `OWNER_TODO.md`, không chặn.
+6. Sau mỗi lô: commit + push; báo chủ ngắn gọn bằng tiếng Việt, bảng SP → ảnh → ghi chú; lỗi của mình
+   thì nhận và nói đã sửa thế nào.
+
 ## 6. Chủ duyệt và tiêu chí được học thêm
 
 - Chủ duyệt theo lô trên trang duyệt; trả lời bằng tin nhắn hoặc file trong `answers/`.
