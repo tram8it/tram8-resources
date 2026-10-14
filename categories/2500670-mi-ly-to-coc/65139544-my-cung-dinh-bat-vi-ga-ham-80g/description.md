@@ -1,4 +1,5 @@
-Mì khoai tây Cung Đình dạng hộp, hương vị gà hầm, sợi mì có khoai tây và trứng.
+Mì khoai tây Cung Đình dạng thố, hương vị gà hầm; sợi mì có khoai tây và trứng.
 
-Quy cách: 79 g · hộp
-Nhà sản xuất/thương hiệu: Cung Đình Foods · Cung Đình
+Thành phần: Vắt mì: bột mì, dầu cọ, tinh bột khoai mì, tinh bột khoai tây, muối, bột trứng và phụ gia. Gói xốt: nước, dầu cọ, muối, hành, đường, cốt nước tương, bột hành, bột tiêu, bột gừng, chiết xuất nấm men, nước mắm, hương gà, hương nấm, gừng và phụ gia. Gói rau: giả thịt từ protein lúa mì, hành lá, hành tây, cà rốt sấy.
+Quy cách: 79 g · thố
+Xuất xứ: Việt Nam · Nhà sản xuất/thương hiệu: Afotech · Cung Đình

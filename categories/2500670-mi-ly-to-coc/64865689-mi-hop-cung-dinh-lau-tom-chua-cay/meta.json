@@ -30,8 +30,11 @@
   },
   "description": {
     "decision": "WRITE_NEW",
-    "reason": "D1: viết từ chữ in mặt trước bao bì (85 g, sợi khoai tây + trứng, thêm viên tôm)",
-    "source": null,
+    "reason": "D1: viết lại từ thành phần trên trang chính hãng Afotech (thố khoai tây lẩu tôm chua cay) + khối lượng in trên bao bì; nhà sản xuất Afotech",
+    "source": {
+      "url": "https://afotech.vn/san-pham/mi-khoai-tay-cung-dinh/cung-dinh-lau-tom-chua-cay-copy.html",
+      "fetchedAt": "2026-10-14"
+    },
     "rubricVersion": "v5"
   },
   "question": null,
@@ -59,10 +62,22 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-14T07:36:12Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Mô tả: thêm thành phần từ afotech.vn, sửa nhà sản xuất Afotech, quy cách thố"
+    },
+    {
+      "at": "2026-10-14T07:36:12.298Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-14T07:29:48.273Z",
+    "at": "2026-10-14T07:36:12.298Z",
     "fields": [
       "description",
       "image"

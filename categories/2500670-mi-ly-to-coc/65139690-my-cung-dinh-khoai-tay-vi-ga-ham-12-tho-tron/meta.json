@@ -20,21 +20,19 @@
   "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh; dùng ảnh thố Mì khoai tây Cung Đình Gà Hầm trên trang hãng (khớp tên 'khoai tây … thố tròn'), 79 g",
+    "reason": "I2: chủ quét mã vạch 8936010680500 = thố khoai tây THỊT HẦM NẤM 79 g (tên KiotViet ghi 'Gà Hầm' là sai). Thay ảnh gà hầm đã áp dụng bằng ảnh render chính hãng thịt hầm nấm chủ gửi; chuẩn hoá bằng make_image.py",
     "source": {
-      "url": "https://afotech.vn/storage/products/cung-dinh/instant-noodle/pc-tho-cd-ga.png",
-      "fetchedAt": "2026-10-13"
+      "ownerProvided": true,
+      "note": "Ảnh render chính hãng Cung Đình (thịt hầm nấm), chủ gửi qua chat kèm mã vạch",
+      "receivedAt": "2026-10-14"
     },
-    "rubricVersion": "v4"
+    "rubricVersion": "v5"
   },
   "description": {
-    "decision": "WRITE_NEW",
-    "reason": "D1: chưa có mô tả; viết lại từ trang hãng",
-    "source": {
-      "url": "https://afotech.vn/san-pham/mi-khoai-tay-cung-dinh/tho-cung-dinh-ga-ham-copy.html",
-      "fetchedAt": "2026-10-13"
-    },
-    "rubricVersion": "v4"
+    "decision": "REWRITE",
+    "reason": "D2: mô tả cũ ghi gà hầm, sai vị theo mã vạch; viết từ chữ in mặt trước bao bì thịt hầm nấm (79 g, sợi khoai tây + trứng). Trang Afotech 'Vị Thịt Hầm Nấm' là bản gói, không dùng thành phần cho thố",
+    "source": null,
+    "rubricVersion": "v5"
   },
   "question": null,
   "history": [
@@ -55,10 +53,28 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-14T07:34:38Z",
+      "by": "owner",
+      "status": "READY",
+      "note": "Chủ quét mã ...0500 = thịt hầm nấm; thay ảnh + mô tả, gửi lại để duyệt"
+    },
+    {
+      "at": "2026-10-14T07:34:38.810Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-14T07:36:23.438Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-14T02:46:24.248Z",
+    "at": "2026-10-14T07:36:23.438Z",
     "fields": [
       "description",
       "image"
