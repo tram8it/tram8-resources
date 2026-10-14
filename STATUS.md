@@ -2,7 +2,7 @@
 
 > Sinh tự động bởi `node tools/status.mjs`. **Không sửa tay.** Nguồn sự thật là `meta.json` của từng SP.
 
-Tổng 2448 SP · đã xem 2428 (99%) · xong 197 · chờ chủ duyệt 1093 · cần chụp 897 · hỏi chủ 228
+Tổng 2448 SP · đã xem 2428 (99%) · xong 197 · chờ chủ duyệt 1096 · cần chụp 894 · hỏi chủ 228
 
 Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` = giữ nguyên + đã lên web.
 
@@ -26,7 +26,7 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 | 16 | Sữa chua uống | 0.0tr | 31 | 0 | 0 | 0 | 5 | 2 | 24 | 0 | 0 |
 | 17 | Lager Phổ Thông | 0.0tr | 29 | 0 | 0 | 0 | 2 | 4 | 23 | 0 | 0 |
 | 18 | Kem ly / cốc / hộp nhỏ | 0.0tr | 28 | 0 | 0 | 0 | 14 | 3 | 11 | 0 | 0 |
-| 19 | Mì trộn / mì khô / spaghetti (Gói) | 0.0tr | 27 | 0 | 0 | 0 | 7 | 4 | 0 | 0 | 16 |
+| 19 | Mì trộn / mì khô / spaghetti (Gói) | 0.0tr | 27 | 0 | 0 | 0 | 5 | 4 | 2 | 0 | 16 |
 | 20 | Thức uống bổ sung dinh dưỡng | 0.0tr | 26 | 0 | 0 | 0 | 11 | 3 | 12 | 0 | 0 |
 | 21 | Lăn khử mùi | 0.0tr | 25 | 0 | 0 | 0 | 1 | 1 | 23 | 0 | 0 |
 | 22 | Hạt các loại | 0.0tr | 24 | 0 | 0 | 0 | 11 | 0 | 13 | 0 | 0 |
@@ -42,7 +42,7 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 | 32 | Cà phê uống liền | 0.0tr | 21 | 0 | 0 | 0 | 4 | 3 | 14 | 0 | 0 |
 | 33 | Cơm nắm Onigiri | 0.0tr | 21 | 0 | 0 | 0 | 15 | 1 | 5 | 0 | 0 |
 | 34 | Xúc xích tiệt trùng | 0.0tr | 21 | 0 | 0 | 0 | 13 | 2 | 6 | 0 | 0 |
-| 35 | Mì trộn / mì khô / spaghetti (Ly/Tô/Cốc) | 0.0tr | 21 | 0 | 0 | 0 | 1 | 1 | 0 | 0 | 19 |
+| 35 | Mì trộn / mì khô / spaghetti (Ly/Tô/Cốc) | 0.0tr | 21 | 0 | 0 | 0 | 0 | 1 | 1 | 0 | 19 |
 | 36 | Vị nguyên bản | 0.0tr | 21 | 0 | 0 | 0 | 3 | 1 | 17 | 0 | 0 |
 | 37 | Thuốc lá (18+) | 0.0tr | 20 | 20 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 38 | Nước tẩy trang - Dầu tẩy trang | 0.0tr | 20 | 0 | 0 | 0 | 2 | 3 | 15 | 0 | 0 |

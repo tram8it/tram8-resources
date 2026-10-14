@@ -17,16 +17,20 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh; trang hãng masanconsumer.com chặn truy cập (403) → cần nhân viên chụp",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "Chủ gửi render gói Omachi mì trộn xốt Spaghetti (xốt bò bằm cà chua, thêm gói vị phô mai, 90 g); chuẩn hoá bằng make_image.py",
+    "source": {
+      "ownerProvided": true,
+      "note": "render gói Omachi spaghetti chủ gửi",
+      "receivedAt": "2026-10-14"
+    },
+    "rubricVersion": "v6"
   },
   "description": {
     "decision": "WRITE_NEW",
-    "reason": "D1: chưa có mô tả; mô tả ngắn chỉ từ tên hàng",
+    "reason": "D1: chưa có mô tả; mô tả ngắn chỉ từ tên hàng; khối lượng 90 g theo ảnh bao bì chủ gửi",
     "source": null,
     "rubricVersion": "v4"
   },
@@ -43,6 +47,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "rubric v4: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-14T21:00:00.000Z",
+      "by": "owner",
+      "status": "READY",
+      "note": "owner sent pack render"
+    },
+    {
+      "at": "2026-10-14T15:21:21.867Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-14T15:21:21.867Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

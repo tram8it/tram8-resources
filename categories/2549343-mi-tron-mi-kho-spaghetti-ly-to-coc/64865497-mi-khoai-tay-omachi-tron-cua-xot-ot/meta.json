@@ -17,16 +17,20 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh; masanconsumer.com không có hộp mì trộn cua xốt ớt (chỉ có gói Omachi Thần Ớt 126 g, khác SP); mã 8936236470732 không tra được → cần chụp",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "Chủ gửi render hộp Omachi mì trộn cua xốt ớt Singapore cực cay 96 g; chuẩn hoá bằng make_image.py",
+    "source": {
+      "ownerProvided": true,
+      "note": "render hộp Omachi cua xốt ớt chủ gửi",
+      "receivedAt": "2026-10-14"
+    },
+    "rubricVersion": "v6"
   },
   "description": {
     "decision": "WRITE_NEW",
-    "reason": "D1: chưa có mô tả; viết ngắn chỉ từ dữ kiện chắc chắn (tên SP, chữ in mặt trước bao bì), không có trang hãng truy cập được",
+    "reason": "D1: chưa có mô tả; viết ngắn chỉ từ dữ kiện chắc chắn (tên SP, chữ in mặt trước bao bì), không có trang hãng truy cập được; khối lượng 96 g theo ảnh bao bì chủ gửi",
     "source": null,
     "rubricVersion": "v4"
   },
@@ -43,6 +47,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "b16 review: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-14T21:00:00.000Z",
+      "by": "owner",
+      "status": "READY",
+      "note": "owner sent pack render"
+    },
+    {
+      "at": "2026-10-14T15:21:28.832Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-14T15:21:28.832Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

@@ -15,6 +15,10 @@ còn gì), đọc file này và **nhắc chủ từng mục còn mở**. Ghi th�
       14/10/2026). `python3 tools/tone.py --scan` lúc tạo công cụ: 274 ảnh thiếu sáng. Chỉnh, xem
       so trước/sau từng danh mục, rồi gửi lại đề xuất ảnh.
 
+## Đổi danh mục trên KiotViet
+
+- [ ] 65175893 "Mì ý xúc xích xốt bò bằm" (món làm sẵn, không có mã vạch): chuyển khỏi  sang danh mục món ăn sẵn (chủ dặn 14/10/2026)
+
 ## Sửa tay trên KiotViet (Hub không ghi tên/thương hiệu)
 
 - [ ] Tên cũ sai khối lượng/loại (chủ: "vụ tên tính sau", 14/10/2026):
