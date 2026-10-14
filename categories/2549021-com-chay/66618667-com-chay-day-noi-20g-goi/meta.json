@@ -17,26 +17,32 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "ASK_OWNER",
   "image": {
-    "decision": null,
-    "reason": null,
+    "decision": "ASK_OWNER",
+    "reason": "I2: tên ghi \"20g (Gói)\" nhưng ảnh là túi lớn nhiều miếng cơm cháy đáy nồi siêu chà bông; không chắc quy cách",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
+    "decision": "ASK_OWNER",
+    "reason": "Chờ chủ xác nhận quy cách",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
-  "question": null,
+  "question": "\"Cơm cháy đáy nồi 20g (Gói)\" (mã vạch 8936236143124): ảnh hiện tại là túi lớn chứa nhiều miếng \"Cơm cháy đáy nồi siêu chà bông\". Hàng bán là gói nhỏ 20 g hay túi lớn này (nặng bao nhiêu)? Nếu là gói 20 g thì cần nhân viên chụp gói đó.",
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:25:35.000Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "b30: image ASK_OWNER, description ASK_OWNER"
     }
   ]
 }
