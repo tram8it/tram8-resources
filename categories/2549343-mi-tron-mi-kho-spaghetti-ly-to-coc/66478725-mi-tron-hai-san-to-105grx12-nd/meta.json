@@ -19,10 +19,14 @@
   },
   "status": "READY",
   "image": {
-    "decision": "CROP",
-    "reason": "I9: packshot nền trắng, đúng tô Vifon mì trộn hải sản 105 g; chỉ chưa 1:1 → crop, đã xem lại đạt — giữ ảnh này; ảnh tách từ banner Vifon bị cụt đáy (thùng che), chủ thấy lệch (14/10/2026)",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "REPLACE",
+    "reason": "Chủ gửi render tô Vifon Mì trộn Hải Sản 105 g đứng riêng, nền trắng, nguyên đáy; chuẩn hoá bằng make_image.py (phóng ~1,8 lần)",
+    "source": {
+      "ownerProvided": true,
+      "note": "render tô Mì trộn Hải Sản Vifon, chủ gửi qua chat",
+      "receivedAt": "2026-10-14"
+    },
+    "rubricVersion": "v6"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -73,10 +77,22 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-14T20:40:00.000Z",
+      "by": "owner",
+      "status": "READY",
+      "note": "owner sent standalone bowl render"
+    },
+    {
+      "at": "2026-10-14T14:58:35.785Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-14T14:55:01.082Z",
+    "at": "2026-10-14T14:58:35.785Z",
     "fields": [
       "description",
       "image"
