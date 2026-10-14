@@ -17,24 +17,23 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "READY",
+  "status": "ASK_OWNER",
   "image": {
-    "decision": "REPLACE",
-    "reason": "Ảnh cũ là túi Jumbo 10 gói; chủ xác nhận bán gói lẻ và gửi ảnh render gói Koreno 7 cấp độ 104g (bản thường 'Thật cay', khác bản Premium 67235256); chuẩn hoá bằng make_image.py",
-    "source": {
-      "ownerProvided": true,
-      "note": "ảnh render nền trắng chủ gửi qua chat",
-      "receivedAt": "2026-10-14"
-    },
+    "decision": "ASK_OWNER",
+    "reason": "Mã vạch là của túi 10 gói, chủ nói bán gói lẻ Jumbo 101 g; ảnh BHX chủ tìm không được dùng (domain cấm)",
+    "source": null,
     "rubricVersion": "v6"
   },
   "description": {
-    "decision": "WRITE_NEW",
-    "reason": "D1: viết từ chữ in trên gói trong ảnh chủ gửi (Koreno, Paldo, mì cay 7 cấp độ, hương vị chua cay, Thật cay, Nấu 4 phút, 104 g)",
-    "source": null,
+    "decision": "ASK_OWNER",
+    "reason": "Chờ chủ chốt SP là gói lẻ hay túi 10 gói",
+    "source": {
+      "url": "https://paldovina.com/upload/702025-hscb-mi-cay-7-cap-do-huong-vi-chua-cay-koreno-jumbo-1.pdf",
+      "fetchedAt": "2026-10-14"
+    },
     "rubricVersion": "v4"
   },
-  "question": null,
+  "question": "Mã vạch 8936028643481 của SP này là mã của TÚI Koreno Jumbo mì cay 7 cấp độ 10 gói (1,01 kg) theo hồ sơ tự công bố của Paldo Vina; gói lẻ 101 g có mã khác: 8936028643498. Đề xuất đã gửi (ảnh gói Koreno 104 g 'Thật cay') là SAI SP — chủ từ chối trên Hub. Chủ cần chọn: (a) SP này là gói lẻ 101 g → sửa/thêm mã vạch …3498 trên KiotViet; ảnh: bản in nhãn phẳng trong hồ sơ hãng hoặc chụp gói; (b) SP này là cả túi 10 gói → dùng ảnh túi trên paldovina.com.",
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -59,6 +58,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-14T17:00:00.000Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "wrong product sent earlier (Koreno 104g); barcode …3481 is the 10-pack Jumbo per Paldo self-declaration; single pack is …3498"
     }
   ],
   "submitted": {
