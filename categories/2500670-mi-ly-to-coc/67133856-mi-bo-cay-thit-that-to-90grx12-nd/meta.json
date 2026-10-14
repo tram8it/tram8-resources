@@ -17,18 +17,22 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh — vifon.com.vn không có SP này (đã xem danh mục Mì/Phở) → cần nhân viên chụp",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I1: chưa có ảnh. Ảnh từ banner gian hàng chính hãng Vifon chủ gửi; tách nền, bỏ thùng/chữ khuyến mãi bằng tools/cutout.py (birefnet), đã xem viền",
+    "source": {
+      "ownerProvided": true,
+      "note": "Banner 'Gian hàng chính hãng' Vifon, chủ gửi qua chat",
+      "receivedAt": "2026-10-14"
+    },
+    "rubricVersion": "v5"
   },
   "description": {
     "decision": "WRITE_NEW",
-    "reason": "D1: chưa có mô tả; mô tả ngắn chỉ từ tên hàng",
+    "reason": "D1: viết từ chữ in trên bao bì (90 g, mì bò cay, thịt bò thật, 3 phút)",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v5"
   },
   "question": null,
   "history": [
@@ -43,6 +47,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "b07 review: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-14T07:29:35Z",
+      "by": "owner",
+      "status": "READY",
+      "note": "Chủ gửi ảnh qua chat; chuẩn hoá/tách nền, xem lại"
+    },
+    {
+      "at": "2026-10-14T07:29:41.068Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-14T07:29:41.068Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

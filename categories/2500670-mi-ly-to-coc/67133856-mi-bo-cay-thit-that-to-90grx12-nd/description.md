@@ -1,4 +1,4 @@
-Mì Vifon bò cay dòng thịt thật, mì ăn liền dạng tô có gói thịt thật.
+Mì bò cay Vifon dạng tô ăn liền, kèm thịt bò thật. Chín sau 3 phút.
 
 Quy cách: 90 g · tô
 Xuất xứ: Việt Nam · Nhà sản xuất/thương hiệu: Vifon

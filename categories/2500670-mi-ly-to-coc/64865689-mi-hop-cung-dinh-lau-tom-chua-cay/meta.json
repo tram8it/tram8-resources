@@ -17,20 +17,24 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "ASK_OWNER",
+  "status": "READY",
   "image": {
-    "decision": "ASK_OWNER",
-    "reason": "I1: chưa có ảnh; không chắc 'Mì hộp' là thố khoai tây trên trang hãng",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "REPLACE",
+    "reason": "I1: chưa có ảnh. Ảnh render chính hãng chủ gửi (hộp khoai tây lẩu tôm chua cay 85 g), nền trắng, chuẩn hoá bằng make_image.py; chủ gửi ảnh = trả lời câu hỏi 'Mì hộp' là loại nào",
+    "source": {
+      "ownerProvided": true,
+      "note": "Ảnh render chính hãng Cung Đình, chủ gửi qua chat",
+      "receivedAt": "2026-10-14"
+    },
+    "rubricVersion": "v5"
   },
   "description": {
-    "decision": "ASK_OWNER",
-    "reason": "Chờ chủ xác nhận quy cách",
+    "decision": "WRITE_NEW",
+    "reason": "D1: viết từ chữ in mặt trước bao bì (85 g, sợi khoai tây + trứng, thêm viên tôm)",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v5"
   },
-  "question": "Trên afotech.vn (hãng Cung Đình) dạng tô hiện chỉ còn 'thố' Mì khoai tây Cung Đình Lẩu Tôm Chua Cay (85 g). SP 'Mì Hộp Cung Đình Lẩu Tôm Chua Cay' (mã 8936010680425) có phải chính là thố này không, hay là loại hộp đời cũ khác mã? Nếu đúng là thố thì dùng ảnh thố trên trang hãng.",
+  "question": null,
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -43,6 +47,26 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "b07 review: image ASK_OWNER, description ASK_OWNER"
+    },
+    {
+      "at": "2026-10-14T07:29:35Z",
+      "by": "owner",
+      "status": "READY",
+      "note": "Chủ gửi ảnh qua chat; chuẩn hoá/tách nền, xem lại"
+    },
+    {
+      "at": "2026-10-14T07:29:48.273Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-14T07:29:48.273Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

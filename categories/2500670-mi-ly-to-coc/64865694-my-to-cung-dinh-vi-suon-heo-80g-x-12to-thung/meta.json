@@ -17,20 +17,24 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "ASK_OWNER",
+  "status": "READY",
   "image": {
-    "decision": "ASK_OWNER",
-    "reason": "I1: chưa có ảnh; không chắc 'tô 80g' là thố khoai tây 79 g trên trang hãng",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "REPLACE",
+    "reason": "I1: chưa có ảnh. Ảnh render chính hãng chủ gửi (hộp khoai tây sườn heo hầm măng 79 g), nền trắng; tên KiotViet ghi 'tô ... 80g'",
+    "source": {
+      "ownerProvided": true,
+      "note": "Ảnh render chính hãng Cung Đình, chủ gửi qua chat",
+      "receivedAt": "2026-10-14"
+    },
+    "rubricVersion": "v5"
   },
   "description": {
-    "decision": "ASK_OWNER",
-    "reason": "Chờ chủ xác nhận quy cách",
+    "decision": "WRITE_NEW",
+    "reason": "D1: viết từ chữ in mặt trước bao bì (79 g, sườn heo hầm măng, sợi khoai tây + trứng)",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v5"
   },
-  "question": "Trên afotech.vn (hãng Cung Đình) dạng tô hiện chỉ còn 'thố' Mì khoai tây Cung Đình Sườn Heo Hầm Măng (79 g). SP 'Mỳ tô Cung Đình vị sườn heo 80g' (mã 8936010680470) có phải chính là thố này không, hay là loại tô đời cũ khác mã? Nếu đúng là thố thì dùng ảnh thố trên trang hãng.",
+  "question": null,
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -43,6 +47,26 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "b07 review: image ASK_OWNER, description ASK_OWNER"
+    },
+    {
+      "at": "2026-10-14T07:29:35Z",
+      "by": "owner",
+      "status": "READY",
+      "note": "Chủ gửi ảnh qua chat; chuẩn hoá/tách nền, xem lại"
+    },
+    {
+      "at": "2026-10-14T07:29:51.528Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-14T07:29:51.528Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }
