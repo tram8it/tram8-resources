@@ -17,16 +17,20 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I4: ảnh điện thoại chụp ly trên nền gạch; Luosiking không có trang hãng truy cập được → cần chụp",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I3/I4: ảnh điện thoại chụp ly trên nền gạch. Thay bằng ảnh chủ gửi (ly cầm tay trong cửa hàng), tách nền bằng cutout.py, bỏ tay và nền kệ; ly nguyên vẹn",
+    "source": {
+      "ownerProvided": true,
+      "note": "ảnh chủ gửi qua chat, tách nền",
+      "receivedAt": "2026-10-14"
+    },
+    "rubricVersion": "v5"
   },
   "description": {
     "decision": "WRITE_NEW",
-    "reason": "D1: chưa có mô tả; viết ngắn chỉ từ chữ in mặt trước ly (柳州螺蛳粉, Luosiking, 188 g)",
+    "reason": "D1: chưa có mô tả; viết từ chữ in trên ly trong ảnh chủ gửi (柳州螺蛳粉, Luosiking, 含有炸蛋, 188 g: 米粉60g 配料128g)",
     "source": null,
     "rubricVersion": "v4"
   },
@@ -43,6 +47,32 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "batch f3: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-14T10:00:00.000Z",
+      "by": "owner",
+      "status": "READY",
+      "note": "owner sent photo; image processed"
+    },
+    {
+      "at": "2026-10-14T11:56:27.914Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description"
+    },
+    {
+      "at": "2026-10-14T11:56:53.967Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-14T11:56:53.967Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

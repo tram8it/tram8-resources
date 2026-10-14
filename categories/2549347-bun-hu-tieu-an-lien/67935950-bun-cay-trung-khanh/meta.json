@@ -17,12 +17,16 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I4/I5: ảnh chụp tô trên kệ, nền không trắng, bị khung cắt; thương hiệu 顾大嫂 (Trung Quốc) không có trang hãng tìm được → cần chụp",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I3/I4/I5: ảnh chụp tô trên kệ. Thay bằng ảnh chủ gửi (ảnh render nền trắng của 顾大嫂 重庆酸辣粉), chỉ chuẩn hoá bằng make_image.py",
+    "source": {
+      "ownerProvided": true,
+      "note": "ảnh render nền trắng chủ gửi qua chat",
+      "receivedAt": "2026-10-14"
+    },
+    "rubricVersion": "v6"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +47,32 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "batch f3: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-14T10:00:00.000Z",
+      "by": "owner",
+      "status": "READY",
+      "note": "owner sent photo; image processed"
+    },
+    {
+      "at": "2026-10-14T11:56:27.914Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description"
+    },
+    {
+      "at": "2026-10-14T11:56:56.937Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-14T11:56:56.937Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }
