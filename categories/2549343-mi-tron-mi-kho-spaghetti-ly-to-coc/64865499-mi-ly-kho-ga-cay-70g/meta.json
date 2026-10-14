@@ -19,10 +19,13 @@
   },
   "status": "READY",
   "image": {
-    "decision": "CROP",
-    "reason": "I9: packshot nền trắng, đúng ly Buldak gà cay nguyên bản; chỉ chưa 1:1 → crop, đã xem lại đạt",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "REPLACE",
+    "reason": "Thay bằng packshot chính hãng trên buldak.com/vn (Mì ly khô gà cay Buldak 70g): https://buldak.com/vn/product/buldak-ramen-original-cup/",
+    "source": {
+      "url": "https://cdn.buldak.com/images_dev/1758256153286-7_Buldak%20Ramen%20Original%20Cup_70g.webp",
+      "fetchedAt": "2026-10-14"
+    },
+    "rubricVersion": "v6"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +46,26 @@
       "by": "ai",
       "status": "READY",
       "note": "b16 review: image CROP, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-14T19:20:00.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "brand packshot"
+    },
+    {
+      "at": "2026-10-14T14:17:48.675Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-14T14:17:48.675Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }
