@@ -7,6 +7,7 @@ Repo chuẩn bị **ảnh + mô tả sản phẩm** cho tram8.vn (chuỗi cửa 
 1. `PLAYBOOK.md` — kế hoạch dài hạn và quy trình một phiên (§5). Làm đúng thứ tự, không nhảy bước.
 2. `RUBRIC.md` — bộ tiêu chí cố định, **gồm nhật ký thay đổi ở cuối**. Mọi quyết định ghi `rubricVersion`.
 3. `STATUS.md` — đang ở đâu. Chạy `node tools/status.mjs` trước để chắc nó mới.
+4. `OWNER_TODO.md` — việc chủ hẹn làm sau. **Nhắc chủ** các mục còn mở khi xong hết sản phẩm hoặc khi chủ hỏi còn gì; ghi thêm việc mới chủ hẹn.
 
 ## Luật cứng (vi phạm là dừng lại, hỏi chủ)
 - **Xem từng sản phẩm bằng mắt** (mở ảnh ra xem). Script chỉ hỗ trợ đo/crop/tải — không quyết định thay.
