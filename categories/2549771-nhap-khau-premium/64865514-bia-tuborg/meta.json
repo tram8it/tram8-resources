@@ -17,18 +17,24 @@
     "description": "<h3 data-path-to-node=\"5\"><strong>Mô tả sản phẩm:</strong></h3><p data-path-to-node=\"6\"><strong>1. Giới thiệu sản phẩm</strong></p><ul data-path-to-node=\"7\"><li><p data-path-to-node=\"7,0,0\"><strong>Bia Tuborg Ice 330ml</strong> là dòng sản phẩm đột phá mang phong cách trẻ trung, hiện đại đến từ thương hiệu quốc tế <strong>Tuborg thuộc tập đoàn Carlsberg (Đan Mạch)</strong>.</p></li><li><p data-path-to-node=\"7,1,0\">Được ứng dụng công nghệ lọc lạnh sâu tiên tiến, Tuborg Ice mang đến trải nghiệm giải khát cực mạnh, sảng khoái tột độ, là người bạn đồng hành không thể thiếu cho giới trẻ trong các buổi tiệc tùng, âm nhạc hay những ngày hè oi ả.</p></li></ul><p data-path-to-node=\"10\"><strong>2. Thông tin chi tiết</strong></p><ul data-path-to-node=\"11\"><li><p data-path-to-node=\"11,0,0\"><strong>Thương hiệu:</strong> Tuborg Ice (Tập đoàn Carlsberg)</p></li><li><p data-path-to-node=\"11,1,0\"><strong>Xuất xứ:</strong> Việt Nam (Sản xuất theo tiêu chuẩn bản quyền của Carlsberg Đan Mạch)</p></li><li><p data-path-to-node=\"11,2,0\"><strong>Loại sản phẩm:</strong> Bia Lager lọc lạnh cao cấp</p></li><li><p data-path-to-node=\"11,3,0\"><strong>Nồng độ cồn (ABV):</strong> Khoảng 4.3% - 4.6% (tùy phiên bản thị trường)</p></li><li><p data-path-to-node=\"11,4,0\"><strong>Dung tích:</strong> 330ml / lon</p></li><li><p data-path-to-node=\"11,5,0\"><strong>Quy cách đóng gói:</strong> 24 lon / thùng</p></li><li><p data-path-to-node=\"11,6,0\"><strong>Hạn sử dụng:</strong> In rõ trên bao bì sản phẩm (thường 9–12 tháng kể từ ngày sản xuất)</p></li></ul><p data-path-to-node=\"12\"><strong>3. Hướng dẫn sử dụng và bảo quản</strong></p><ul data-path-to-node=\"13\"><li><p data-path-to-node=\"13,0,0\"><strong>Cách dùng:</strong> Kéo khoen để giật mở nắp lon. Ngon hơn khi uống lạnh sâu (nhiệt độ từ 3°C - 6°C). Nên ướp lạnh trong tủ lạnh hoặc xô đá trước khi uống, hạn chế dùng kèm đá trực tiếp để cảm nhận trọn vẹn vị băng giá sảng khoái.</p></li><li><p data-path-to-node=\"13,1,0\"><strong>Bảo quản:</strong> Nơi khô ráo, thoáng mát, tránh ánh nắng trực tiếp hoặc nơi có nhiệt độ cao.</p></li><li><p data-path-to-node=\"13,2,0\"><strong>Lưu ý:</strong> Sản phẩm không dành cho người dưới 18 tuổi và phụ nữ có thai hoặc đang cho con bú. <em>\"Đã uống rượu bia – Không lái xe\"</em>.</p></li></ul>",
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "READY",
   "image": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "REPLACE",
+    "reason": "I2/v2: ảnh lon Tuborg Ice lùn đời cũ, mờ; thay bằng lon Tuborg Ice 330 ml bao bì hiện hành trên trang hãng carlsbergvietnam.vn/vi/products/tuborg/tuborg-ice-lon-330ml/ (đã cắt bỏ dòng cảnh báo 18+ bên dưới ảnh). Tên KiotViet chỉ ghi 'Bia Tuborg' nhưng ảnh và mô tả cũ đều là Tuborg Ice",
+    "source": {
+      "url": "https://www.carlsbergvietnam.vn/media/e50bfkqq/ng%C6%B0%E1%BB%9Di-d%C6%B0%E1%BB%9Bi-18-tu%E1%BB%95i-kh%C3%B4ng-%C4%91%C6%B0%E1%BB%A3c-u%E1%BB%91ng-r%C6%B0%E1%BB%A3u-bia-15-1.png",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "REWRITE",
+    "reason": "D3: mô tả cũ dạng HTML do chatbot viết, quảng cáo quá đà, dữ kiện không kiểm chứng; viết lại theo trang hãng Carlsberg Việt Nam, thêm dòng 18+",
+    "source": {
+      "url": "https://www.carlsbergvietnam.vn/vi/products/tuborg/tuborg-ice-lon-330ml/",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "question": null,
   "history": [
@@ -37,6 +43,12 @@
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:26:02.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "b29: image REPLACE, description REWRITE"
     }
   ]
 }
