@@ -20,7 +20,7 @@
   "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "Chủ gửi ảnh gian hàng chính hãng Vifon (Sol gà cay 115 g); tách cốc bằng cutout.py, bỏ chữ/khung bán hàng (v5)",
+    "reason": "Chủ gửi ảnh gian hàng chính hãng Vifon (Sol gà cay 115 g); tách cốc bằng cutout.py, bỏ chữ/khung bán hàng (v5); cắt lại 14/10 (lần đầu khung cắt hụt mép trái cốc)",
     "source": {
       "ownerProvided": true,
       "note": "ảnh gian hàng chính hãng Vifon chủ gửi, tách cốc",
@@ -59,10 +59,22 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-14T22:05:00.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "recut: first crop box clipped the cup's left side"
+    },
+    {
+      "at": "2026-10-14T15:43:42.828Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-14T15:37:10.713Z",
+    "at": "2026-10-14T15:43:42.828Z",
     "fields": [
       "description",
       "image"
