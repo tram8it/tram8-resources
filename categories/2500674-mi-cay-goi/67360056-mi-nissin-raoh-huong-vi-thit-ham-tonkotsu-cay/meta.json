@@ -19,10 +19,14 @@
   },
   "status": "READY",
   "image": {
-    "decision": "CROP",
-    "reason": "I9: packshot nền trắng, đúng SP 95 g nhưng không 1:1; crop về 1:1 (phóng ~1,5 lần, xem lại đạt). Ảnh trang hãng là phiên bản bao bì khác, không chắc bản nào mới hơn nên giữ ảnh hiện tại",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "REPLACE",
+    "reason": "Chủ gửi ảnh render gói Nissin Raoh thịt hầm Tonkotsu cay 95g (đúng bao bì, nền trắng), thay ảnh chụp cũ; chuẩn hoá bằng make_image.py",
+    "source": {
+      "ownerProvided": true,
+      "note": "render gói Nissin Raoh Tonkotsu cay 95g, chủ gửi qua chat",
+      "receivedAt": "2026-10-14"
+    },
+    "rubricVersion": "v6"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -52,10 +56,22 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-14T16:40:00.000Z",
+      "by": "owner",
+      "status": "READY",
+      "note": "owner sent pack render"
+    },
+    {
+      "at": "2026-10-14T13:25:07.074Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-14T12:31:08.786Z",
+    "at": "2026-10-14T13:25:07.074Z",
     "fields": [
       "description",
       "image"
