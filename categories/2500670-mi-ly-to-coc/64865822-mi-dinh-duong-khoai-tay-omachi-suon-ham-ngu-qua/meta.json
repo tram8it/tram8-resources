@@ -17,12 +17,16 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh — trang hãng masanconsumer.com chặn truy cập (403), không có nguồn chính hãng dùng được → cần nhân viên chụp",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I1: chưa có ảnh. Ảnh render chính hãng Masan chủ gửi, nền trắng, chuẩn hoá bằng make_image.py",
+    "source": {
+      "ownerProvided": true,
+      "note": "Ảnh render chính hãng Masan (mã BGNM00130 trên nắp), chủ gửi qua chat",
+      "receivedAt": "2026-10-14"
+    },
+    "rubricVersion": "v5"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +47,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "b07 review: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-14T07:23:51Z",
+      "by": "owner",
+      "status": "READY",
+      "note": "Chủ gửi ảnh qua chat; chuẩn hoá/tách nền, xem lại"
+    },
+    {
+      "at": "2026-10-14T07:24:00.372Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-14T07:24:00.372Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

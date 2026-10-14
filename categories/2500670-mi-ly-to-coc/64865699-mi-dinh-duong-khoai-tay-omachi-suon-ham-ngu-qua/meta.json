@@ -17,18 +17,22 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh — trang hãng masanconsumer.com chặn truy cập (403), không có nguồn chính hãng dùng được → cần nhân viên chụp",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I1: chưa có ảnh. Ảnh chủ gửi, nền trắng, chuẩn hoá bằng make_image.py. Bao bì mới ghi 72 g (tên KiotViet ghi 70gr)",
+    "source": {
+      "ownerProvided": true,
+      "note": "Ảnh packshot nền trắng, chủ gửi qua chat (chưa rõ trang gốc)",
+      "receivedAt": "2026-10-14"
+    },
+    "rubricVersion": "v5"
   },
   "description": {
     "decision": "WRITE_NEW",
-    "reason": "D1: chưa có mô tả; mô tả ngắn chỉ từ tên hàng",
+    "reason": "D1: chưa có mô tả; viết từ chữ in mặt trước bao bì trong ảnh (72 g, mì ly, trứng + khoai tây)",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v5"
   },
   "question": null,
   "history": [
@@ -43,6 +47,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "b07 review: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-14T07:23:51Z",
+      "by": "owner",
+      "status": "READY",
+      "note": "Chủ gửi ảnh qua chat; chuẩn hoá/tách nền, xem lại"
+    },
+    {
+      "at": "2026-10-14T07:23:53.598Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-14T07:23:53.598Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

@@ -1,4 +1,4 @@
-Phở bò thịt thật dạng hộp, phở ăn liền có gói thịt bò thật.
+Phở bò Vifon dạng tô ăn liền, bánh phở hấp kèm thịt bò thật.
 
-Quy cách: hộp
+Quy cách: 90 g · tô
 Xuất xứ: Việt Nam · Nhà sản xuất/thương hiệu: Vifon
