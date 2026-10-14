@@ -19,10 +19,14 @@
   },
   "status": "READY",
   "image": {
-    "decision": "CROP",
-    "reason": "I9: packshot nền trắng, đúng SP nhưng không 1:1; crop về 1:1 (phóng ~2,2 lần, xem lại đạt)",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "REPLACE",
+    "reason": "Chủ chọn thay bằng ảnh render gói Shin Ramyun Kimchi 120g (bản Mỹ, cùng SP cùng vị; mã đang bán 8801043… là bản Hàn), chuẩn hoá bằng make_image.py",
+    "source": {
+      "ownerProvided": true,
+      "note": "render nền trắng gói Shin Ramyun Kimchi 120g, chủ gửi qua chat",
+      "receivedAt": "2026-10-14"
+    },
+    "rubricVersion": "v6"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -49,10 +53,22 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-14T15:45:00.000Z",
+      "by": "owner",
+      "status": "READY",
+      "note": "owner: replace with this image"
+    },
+    {
+      "at": "2026-10-14T13:11:37.204Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-14T12:31:08.786Z",
+    "at": "2026-10-14T13:11:37.204Z",
     "fields": [
       "description",
       "image"
