@@ -17,26 +17,32 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "ASK_OWNER",
   "image": {
-    "decision": null,
-    "reason": null,
+    "decision": "ASK_OWNER",
+    "reason": "I1: chưa có ảnh; tên không ghi hãng/khối lượng, trang Vifon không có SP dạng hộp",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
+    "decision": "ASK_OWNER",
+    "reason": "Không xác định được SP",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
-  "question": null,
+  "question": "\"Cháo thịt bằm hộp\" (mã vạch 8935311112185, chưa có ảnh, không ghi hãng): đầu mã vạch 8935311 là Vifon, nhưng trang vifon.com.vn chỉ có cháo thịt bằm gói 70 g. Đây là cháo hãng nào, dạng hộp/tô hay ly, khối lượng bao nhiêu? Cần nhân viên chụp.",
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-14T00:28:46.000Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "batch f2: ASK_OWNER: product unidentified, no image"
     }
   ]
 }
