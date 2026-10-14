@@ -11,6 +11,10 @@ còn gì), đọc file này và **nhắc chủ từng mục còn mở**. Ghi th�
       Sau khi chủ chuyển: chạy `node tools/pull-from-hub.mjs` + `init-from-export` để thư mục
       `categories/2549391-…` nhận đường dẫn mới.
 
+- [ ] **Chỉnh sáng/cân bằng trắng hàng loạt** bằng `tools/tone.py` (chủ dặn "sau này làm lại 1 thể",
+      14/10/2026). `python3 tools/tone.py --scan` lúc tạo công cụ: 274 ảnh thiếu sáng. Chỉnh, xem
+      so trước/sau từng danh mục, rồi gửi lại đề xuất ảnh.
+
 ## Sửa tay trên KiotViet (Hub không ghi tên/thương hiệu)
 
 - [ ] Tên cũ sai khối lượng/loại (chủ: "vụ tên tính sau", 14/10/2026):
