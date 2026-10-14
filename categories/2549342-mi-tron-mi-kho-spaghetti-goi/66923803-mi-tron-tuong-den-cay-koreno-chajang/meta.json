@@ -17,20 +17,24 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "ASK_OWNER",
+  "status": "READY",
   "image": {
-    "decision": "ASK_OWNER",
-    "reason": "Chờ chủ trả lời: barcode mismatch / duplicate",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "REPLACE",
+    "reason": "Chủ gửi render gói Koreno Chajang cay 78 g (paldovina.com); chuẩn hoá bằng make_image.py",
+    "source": {
+      "ownerProvided": true,
+      "note": "render gói Koreno Chajang cay 78g chủ gửi",
+      "receivedAt": "2026-10-14"
+    },
+    "rubricVersion": "v6"
   },
   "description": {
-    "decision": "ASK_OWNER",
-    "reason": "Chờ chủ trả lời câu hỏi về SP trước khi viết mô tả",
+    "decision": "WRITE_NEW",
+    "reason": "D1: viết từ chữ in trên gói (Koreno Chajang, mì trộn tương đen, cay, úp 4 phút, 78 g); chủ xác nhận SP",
     "source": null,
     "rubricVersion": "v4"
   },
-  "question": "\"Mì trộn tương đen cay Koreno Chajang\" mã 66923803 có mã vạch 6951454407706 (đầu 695 = Trung Quốc, cùng dãy với mì Ý trộn/mì gạch cua Trung Quốc), trong khi Koreno do Paldo Vina sản xuất (mã 893…) và đã có mã 65205363 cùng tên. Mã vạch này có nhập nhầm không, hay đây là SP khác? Có phải trùng hàng với 65205363?",
+  "question": null,
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -43,6 +47,26 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "asked owner: barcode mismatch / duplicate"
+    },
+    {
+      "at": "2026-10-14T23:20:00.000Z",
+      "by": "owner",
+      "status": "READY",
+      "note": "owner answered / sent image"
+    },
+    {
+      "at": "2026-10-14T16:12:58.286Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-14T16:12:58.286Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

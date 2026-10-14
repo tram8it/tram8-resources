@@ -17,20 +17,24 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "ASK_OWNER",
+  "status": "READY",
   "image": {
-    "decision": "ASK_OWNER",
-    "reason": "Chờ chủ trả lời: Japanese-market packaging in photo",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "REPLACE",
+    "reason": "Chủ gửi render gói Shin Ramyun Stir Fry phô mai (bản có chữ Việt 'Mì Shin xào khô phô mai'); chuẩn hoá bằng make_image.py",
+    "source": {
+      "ownerProvided": true,
+      "note": "render gói Shin Stir Fry Cheese chủ gửi",
+      "receivedAt": "2026-10-14"
+    },
+    "rubricVersion": "v6"
   },
   "description": {
-    "decision": "ASK_OWNER",
-    "reason": "Chờ chủ trả lời câu hỏi về SP trước khi viết mô tả",
+    "decision": "WRITE_NEW",
+    "reason": "D1: viết từ chữ in trên gói (Nongshim, Shin Ramyun Stir Fry, 치즈 with Cheese, Mì Shin xào khô phô mai); khối lượng theo tên SP",
     "source": null,
     "rubricVersion": "v4"
   },
-  "question": "\"Mỳ Shin Stir with cheese 136g\": ảnh hiện tại là bao bì Nongshim bán ở Nhật (chữ Nhật 焼きそば チーズ). Hàng đang bán có đúng bao bì này không, hay là bao bì tiếng Anh/Hàn? Nếu khác thì cần chụp lại.",
+  "question": null,
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -43,6 +47,26 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "asked owner: Japanese-market packaging in photo"
+    },
+    {
+      "at": "2026-10-14T23:20:00.000Z",
+      "by": "owner",
+      "status": "READY",
+      "note": "owner answered / sent image"
+    },
+    {
+      "at": "2026-10-14T16:12:54.560Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-14T16:12:54.560Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }
