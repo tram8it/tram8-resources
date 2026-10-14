@@ -17,18 +17,21 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "NEEDS_PHOTO",
   "image": {
-    "decision": null,
-    "reason": null,
+    "decision": "REPLACE",
+    "reason": "I1: chưa có ảnh. Trang hãng truongfoods.vn chỉ có ảnh banner nền màu có chữ chèn (I4, I7), không có packshot → cần chụp",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết từ trang hãng (Nem cối Đổi mới). Không ghi khối lượng vì trang hãng ghi 160 g cho nem cối thường, chưa rõ loại 'to'",
+    "source": {
+      "url": "https://truongfoods.vn/nem-coi-doi-moi/",
+      "fetchedAt": "2026-10-14"
+    },
+    "rubricVersion": "v4"
   },
   "question": null,
   "history": [
@@ -37,6 +40,12 @@
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-14T00:45:59.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "batch f1: image REPLACE→NEEDS_PHOTO (only banners on brand site), description WRITE_NEW"
     }
   ]
 }
