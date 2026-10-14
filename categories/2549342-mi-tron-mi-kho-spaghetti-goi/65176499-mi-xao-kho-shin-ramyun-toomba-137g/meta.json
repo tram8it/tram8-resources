@@ -19,10 +19,14 @@
   },
   "status": "READY",
   "image": {
-    "decision": "CROP",
-    "reason": "I9: ảnh 450×600 → crop 1:1, đã xem lại đạt",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "REPLACE",
+    "reason": "Chủ gửi ảnh render gói Shin Ramyun Toomba Stir Fry 137g; cắt bỏ dòng chữ của người bán bên dưới, chỉ giữ gói; chuẩn hoá bằng make_image.py (phóng ~2 lần)",
+    "source": {
+      "ownerProvided": true,
+      "note": "render gói Toomba 137g chủ gửi, cắt bỏ chú thích",
+      "receivedAt": "2026-10-14"
+    },
+    "rubricVersion": "v6"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -49,10 +53,22 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-14T18:40:00.000Z",
+      "by": "owner",
+      "status": "READY",
+      "note": "owner sent pack render"
+    },
+    {
+      "at": "2026-10-14T14:00:46.525Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-14T13:54:16.261Z",
+    "at": "2026-10-14T14:00:46.525Z",
     "fields": [
       "description",
       "image"
