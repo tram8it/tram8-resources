@@ -19,14 +19,17 @@
   },
   "status": "READY",
   "image": {
-    "decision": "CROP",
-    "reason": "I9: packshot nền trắng, đúng SP nhưng không 1:1; crop về 1:1 (phóng ~2,2 lần, xem lại đạt)",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "REPLACE",
+    "reason": "Thay bằng packshot chính hãng trên buldak.com/vn (trang VN của Samyang, tên SP trên trang khớp tên KiotViet): https://buldak.com/vn/product/buldak-ramen-stew/",
+    "source": {
+      "url": "https://cdn.buldak.com/images_dev/1758256590389-24_Buldak%20Ramen%20Stew_145.webp",
+      "fetchedAt": "2026-10-14"
+    },
+    "rubricVersion": "v6"
   },
   "description": {
     "decision": "WRITE_NEW",
-    "reason": "D1: chưa có mô tả; viết ngắn chỉ từ tên SP và chữ in mặt trước gói (không đọc được khối lượng)",
+    "reason": "D1: chưa có mô tả; viết ngắn chỉ từ tên SP và chữ in mặt trước gói (không đọc được khối lượng); khối lượng 145 g theo buldak.com/vn",
     "source": null,
     "rubricVersion": "v4"
   },
@@ -43,6 +46,26 @@
       "by": "ai",
       "status": "READY",
       "note": "b13: image CROP, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-14T14:00:00.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "brand packshot from buldak.com/vn"
+    },
+    {
+      "at": "2026-10-14T12:31:08.786Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-14T12:31:08.786Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }
