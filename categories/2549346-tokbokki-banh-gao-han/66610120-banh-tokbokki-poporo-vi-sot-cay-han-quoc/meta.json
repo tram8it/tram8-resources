@@ -17,12 +17,15 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3, I4: ảnh điện thoại cầm tay chụp cận. Earnest F&B (Pororo) không có trang hãng tìm được → cần chụp",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I3/I4: ảnh điện thoại. Thay bằng render ly 매콤 (cay) cắt từ ảnh tổng 9 vị trên gian hàng chính chủ Earnest F&B tại 11st (ảnh nhỏ, phóng ~2,7 lần, xem lại không vỡ)",
+    "source": {
+      "url": "https://www.11st.co.kr/products/8659628133",
+      "fetchedAt": "2026-10-14"
+    },
+    "rubricVersion": "v6"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +46,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "b21: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-14T12:30:00.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "brand render from Earnest F&B's own 11st store"
+    },
+    {
+      "at": "2026-10-14T12:04:38.038Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-14T12:04:38.038Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

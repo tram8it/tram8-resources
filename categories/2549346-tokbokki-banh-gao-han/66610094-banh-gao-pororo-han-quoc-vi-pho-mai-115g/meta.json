@@ -17,20 +17,26 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "ASK_OWNER",
+  "status": "READY",
   "image": {
-    "decision": "ASK_OWNER",
-    "reason": "I2: ảnh là vị Rosé, tên là vị phô mai; ảnh cũng là ảnh điện thoại (I3, I4)",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "REPLACE",
+    "reason": "I3/I4: ảnh điện thoại. Thay bằng render ly 로제 (Rosé) cắt từ ảnh tổng 9 vị trên gian hàng chính chủ Earnest F&B tại 11st (ảnh nhỏ, phóng ~2,7 lần, xem lại không vỡ)",
+    "source": {
+      "url": "https://www.11st.co.kr/products/8659628133",
+      "fetchedAt": "2026-10-14"
+    },
+    "rubricVersion": "v6"
   },
   "description": {
-    "decision": "ASK_OWNER",
-    "reason": "Chưa rõ vị",
-    "source": null,
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả. SP là vị Rosé: ảnh KiotViet hiện có (chụp lúc tạo SP) là ly 뽀로로 로제 떡볶이, và hãng bán Rosé, phô mai thành hai vị riêng (phô mai đã có mã …3408). Tên KiotViet ghi 'vị phô mai' là sai — sửa tay sau",
+    "source": {
+      "url": "https://www.11st.co.kr/products/8659628133",
+      "fetchedAt": "2026-10-14"
+    },
     "rubricVersion": "v4"
   },
-  "question": "'Bánh gạo Pororo Hàn Quốc Vị phô mai 115g' (mã vạch 8809380344474): ảnh hiện tại là ly Pororo 로제 떡볶이 (vị Rosé), không phải vị phô mai; vị phô mai đã có SP riêng 'Bánh gạo sốt phô mai Pororo 115g' (8809380343408). SP này thật ra là vị Rosé (cần đổi tên KiotViet) hay vị phô mai?",
+  "question": null,
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -43,6 +49,26 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "b21: image ASK_OWNER, description ASK_OWNER"
+    },
+    {
+      "at": "2026-10-14T12:30:00.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "brand render from Earnest F&B's own 11st store"
+    },
+    {
+      "at": "2026-10-14T12:04:38.038Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-14T12:04:38.038Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }
