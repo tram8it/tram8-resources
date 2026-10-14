@@ -19,22 +19,16 @@
   },
   "status": "READY",
   "image": {
-    "decision": "REPLACE",
-    "reason": "I2: bao bì cũ 76 g (vàng nhũ); v2: thay bằng bao bì mới nhất trên trang hãng 79 g, trang SP https://afotech.vn/san-pham/pho-ha-noi-cung-dinh/cung-dinh-pho-ga-ha-noi.html",
-    "source": {
-      "url": "https://afotech.vn/storage/products/cung-dinh/rice-noodle/pho-ga-01.png",
-      "fetchedAt": "2026-10-13"
-    },
-    "rubricVersion": "v4"
+    "decision": "CROP",
+    "reason": "I9: ảnh KiotViet hiện tại đúng SP (Phở Gà Hà Nội Bát To Đặc Biệt 76 g, mã 8936010681118), nền trắng, chỉ chưa 1:1 → crop. Bản trước dùng nhầm ảnh gói phở gà thường của mã 8936010681422 (chủ phát hiện 2 mã cùng ảnh); trang Afotech không có bản Bát To",
+    "source": null,
+    "rubricVersion": "v5"
   },
   "description": {
-    "decision": "WRITE_NEW",
-    "reason": "D1: chưa có mô tả; theo trang hãng (bao bì mới 79 g)",
-    "source": {
-      "url": "https://afotech.vn/san-pham/pho-ha-noi-cung-dinh/cung-dinh-pho-ga-ha-noi.html",
-      "fetchedAt": "2026-10-13"
-    },
-    "rubricVersion": "v4"
+    "decision": "REWRITE",
+    "reason": "D2: bản trước ghi 79 g và thành phần của gói thường; viết lại chỉ từ chữ in mặt trước bao bì Bát To (76 g, gạo ST25, nước cốt xương hầm)",
+    "source": null,
+    "rubricVersion": "v5"
   },
   "question": null,
   "history": [
@@ -55,10 +49,22 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-14T07:58:39Z",
+      "by": "owner",
+      "status": "READY",
+      "note": "Chủ thấy 2 mã phở gà Cung Đình cùng ảnh; mã ...1118 là Bát To 76 g → crop ảnh KiotViet hiện tại, sửa mô tả, gửi lại"
+    },
+    {
+      "at": "2026-10-14T07:58:39.776Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-14T07:50:17.159Z",
+    "at": "2026-10-14T07:58:39.776Z",
     "fields": [
       "description",
       "image"
