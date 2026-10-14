@@ -17,12 +17,16 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I4: ảnh tay cầm, chụp điện thoại — trang hãng masanconsumer.com chặn truy cập (403), không có nguồn chính hãng dùng được → cần nhân viên chụp",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "Chủ gửi render hộp Omachi Quán Xá Châu Á – Mì Tomyum Bangkok; chuẩn hoá bằng make_image.py (phóng ~1,5 lần)",
+    "source": {
+      "ownerProvided": true,
+      "note": "render hộp Omachi Quán Xá Châu Á Tomyum chủ gửi",
+      "receivedAt": "2026-10-14"
+    },
+    "rubricVersion": "v6"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +47,12 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "b07 review: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-14T22:30:00.000Z",
+      "by": "owner",
+      "status": "READY",
+      "note": "owner sent image"
     }
   ]
 }
