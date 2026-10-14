@@ -17,26 +17,32 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "ASK_OWNER",
   "image": {
-    "decision": null,
-    "reason": null,
+    "decision": "ASK_OWNER",
+    "reason": "Bản ghi 'Ngày rã đông' không có ảnh, mã vạch, đơn vị; không rõ có phải sản phẩm bán không",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
+    "decision": "ASK_OWNER",
+    "reason": "Chưa rõ đây là SP gì nên chưa viết mô tả",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
-  "question": null,
+  "question": "Bản ghi 'Ngày rã đông' (mã 66405418) trong danh mục Thực phẩm chế biến sẵn không có ảnh, mã vạch hay đơn vị. Đây có phải sản phẩm bán cho khách không? Nếu không (ví dụ chỉ là nhãn ghi ngày rã đông nội bộ), có nên ẩn khỏi web không; nếu có thì là SP gì?",
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:27:27.000Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "b28 review: image ASK_OWNER, description ASK_OWNER"
     }
   ]
 }
