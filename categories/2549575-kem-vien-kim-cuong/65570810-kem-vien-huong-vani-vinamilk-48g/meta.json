@@ -17,18 +17,24 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "READY",
   "image": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "REPLACE",
+    "reason": "I1: chưa có ảnh; ảnh bao bì túi 4 viên trên trang hãng (ảnh dựng dở của phiên trước đã kiểm lại, làm lại từ ảnh gốc). Trang SP: https://www.vinamilk.com.vn/products/kem-vien-huong-vani-vinamilk-56ml",
+    "source": {
+      "url": "https://d8um25gjecm9v.cloudfront.net/cms/KEM_Kemvien_VNM_Vani_01_1_dcde9481fe_16b9b02a72.png",
+      "fetchedAt": "2026-10-14"
+    },
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; trang hãng không tải được phần thành phần, viết ngắn từ trang hãng (tên, thể tích) và chữ in trên bao bì. Hãng ghi 56 ml/túi, tên KiotViet ghi 48g",
+    "source": {
+      "url": "https://www.vinamilk.com.vn/products/kem-vien-huong-vani-vinamilk-56ml",
+      "fetchedAt": "2026-10-14"
+    },
+    "rubricVersion": "v4"
   },
   "question": null,
   "history": [
@@ -37,6 +43,12 @@
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-14T00:44:23.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "batch f1: image REPLACE (no image; official; rebuilt half-written file), description WRITE_NEW"
     }
   ]
 }
