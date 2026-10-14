@@ -19,10 +19,14 @@
   },
   "status": "READY",
   "image": {
-    "decision": "CROP",
-    "reason": "I9: packshot nền trắng, đúng tô Samyang Buldak Stew Type (mì nước), chưa 1:1; đã crop và xem lại",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "REPLACE",
+    "reason": "Chủ gửi ảnh render tô Samyang 불닭볶음탕면 큰컵 (Buldak Stew, tô lớn) nền trắng, thay ảnh cũ; chuẩn hoá bằng make_image.py (phóng ~1,5 lần, tô nguyên vẹn)",
+    "source": {
+      "ownerProvided": true,
+      "note": "render tô Buldak Stew chủ gửi qua chat",
+      "receivedAt": "2026-10-14"
+    },
+    "rubricVersion": "v6"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -49,10 +53,22 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-14T18:00:00.000Z",
+      "by": "owner",
+      "status": "READY",
+      "note": "owner sent bowl render"
+    },
+    {
+      "at": "2026-10-14T13:46:55.576Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-14T13:43:14.970Z",
+    "at": "2026-10-14T13:46:55.576Z",
     "fields": [
       "description",
       "image"
