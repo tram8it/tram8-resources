@@ -17,18 +17,21 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "NEEDS_PHOTO",
   "image": {
-    "decision": null,
-    "reason": null,
+    "decision": "REPLACE",
+    "reason": "I7/I5: ảnh bản Trung Quốc có chữ vàng chèn thêm ('女孩版') và thông tin người bán, quả trứng sát mép khung; kinder.com/vn chỉ có banner, không có packshot Kinder Joy For Girls → cần chụp",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết ngắn từ trang Kinder Việt Nam (khẩu phần 20g, dạng kem sữa ca cao + bánh) và chữ in trên trứng (có đồ chơi); mã vạch 80768258 = Kinder Joy For Girls 20g; không ghi thành phần vì bản trong ảnh là hàng Trung Quốc, có thể khác bản VN",
+    "source": {
+      "url": "https://www.kinder.com/vn/vi/kinder-joy",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
   },
   "question": null,
   "history": [
@@ -37,6 +40,12 @@
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:29:09.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "overlay text on image, no official packshot; description from kinder.com/vn"
     }
   ]
 }
