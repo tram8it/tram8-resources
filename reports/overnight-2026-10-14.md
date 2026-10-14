@@ -1,11 +1,37 @@
 # Báo cáo làm ảnh + mô tả qua đêm (13→14/10/2026)
 
-**Tổng 2448 SP** · xong (chờ duyệt) **1194** · cần chụp ảnh **876** · hỏi chủ **219** · chưa làm **159**
+**Tổng 2448 SP** · xong (chờ duyệt) **1271** · cần chụp ảnh **922** · hỏi chủ **235** · chưa làm **20**
 
 Ghi chú: *xong* = ảnh + mô tả đã đạt RUBRIC v4 (READY, chờ anh duyệt). *Cần chụp* = không có nguồn ảnh chính hãng hợp lệ — mô tả vẫn đã viết. *Hỏi chủ* = cần anh quyết (câu hỏi ở `ASK_OWNER.md`), chưa sửa gì.
 
 
-## Trạm 8 / Đồ ăn vặt — 626 SP: 259 xong · 280 cần chụp · 74 hỏi chủ · 13 chưa làm
+## Cần anh xem trước
+
+1. **"Banh Bao TP Chay Vi XXiu NCam400g" (64865681):** bao bì cùng mã vạch ghi "Xá xíu kiểu Hồng Kông", **không** ghi "chay". Tên trên KiotViet có thể làm khách ăn chay hiểu nhầm.
+2. **Pizza 4P's (8 SP):** pizza4ps.com không có trang sản phẩm bán lẻ. Mô tả giữ các dữ kiện lấy từ **mô tả cũ trên KiotViet** (thành phần, cách nướng), không phải từ trang hãng. Anh nên đối chiếu với hộp.
+3. **Thuốc lá (18+), 20 SP:** chưa làm. Luật Việt Nam cấm quảng cáo thuốc lá, nên việc có đưa ảnh và mô tả lên web hay không là việc anh quyết.
+4. **Ảnh cần anh nhìn qua:**
+   - 3 SP mì Siukay: ảnh chính hãng bị mất dải mép dán ở đáy gói.
+   - Một số SP NIVEA dùng ảnh trang Thái Lan hoặc Việt Nam cùng mã sản phẩm, nhưng mã vạch của mình là hàng Đức.
+   - Toblerone: ảnh không in khối lượng.
+5. **Mô tả cũ bị viết lại hàng loạt:** phần lớn mô tả cũ (bia, cocktail, mỹ phẩm, board game…) do chatbot viết, có sai sự thật, có câu quảng cáo công dụng, có cả câu nháp như "Dưới đây là mẫu mô tả…". Tất cả đã được viết lại, chỉ dùng dữ kiện từ trang hãng hoặc chữ in trên bao bì. Đồ có cồn có dòng 18+.
+
+## Vì sao nhiều SP "cần chụp"
+
+- Nhiều hàng nội địa nhỏ, hàng nhập Trung Quốc, đồ ăn tự làm (Thọ Phát, onigiri, khô bò/gà, bắp rang…) **không có trang chính hãng**.
+- Một số trang chính hãng **không truy cập được** từ máy làm việc (bị chặn hoặc lỗi chứng chỉ): laysvietnam.com, pringles.com, perfettivanmelle.vn, lotte.vn, ferrero.vn, merino.vn / kidofoods.vn (Celano, Merino), nongshim.com, crown.co.kr, thtruemilk.vn, habeco.com.vn, mayora.com, uniben.vn, taokaenoi.co.th, dalatmilk.vn, monsterenergy.com, panasonic.com.
+  Nếu anh mở được các trang này hoặc có kênh chính chủ, ta làm lại được nhóm đó.
+- File `NEEDS_PHOTO.csv` có danh sách đầy đủ để nhân viên đi chụp (xem `PHOTO-GUIDE.md`).
+
+## Lỗi tên/mã trên KiotViet đã phát hiện
+
+Các agent ghi lại nhiều lỗi: sai khối lượng so với bao bì, sai chính tả ("Lottte", "Hamberger", "Toboerone"…), số thùng nằm trong tên SP bán lẻ ("×24", "Thùng 50 gói"), sai thương hiệu, nghi trùng SP (khác mã vạch, cùng ảnh), ô đơn vị chứa giá ("18000")… Danh sách chi tiết theo từng lô nằm trong `reports/overnight-2026-10-14/` (mục "KiotViet name fixes" của mỗi file, cùng file `notes.md`).
+
+Repo này **không sửa KiotViet**. Các lỗi trên là để anh sửa tay hoặc giao nhân viên.
+
+## Theo từng danh mục
+
+## Trạm 8 / Đồ ăn vặt — 626 SP: 262 xong · 289 cần chụp · 75 hỏi chủ
 
 | Danh mục | SP | Xong | Cần chụp | Hỏi chủ | Chưa làm |
 |---|---:|---:|---:|---:|---:|
@@ -18,8 +44,8 @@ Ghi chú: *xong* = ảnh + mô tả đã đạt RUBRIC v4 (READY, chờ anh duy�
 | Trạm 8 / Đồ ăn vặt / Cơm cháy | 3 | 1 | 1 | 1 |  |
 | Trạm 8 / Đồ ăn vặt / Hạt các loại · Hoa quả sấy / Hoa quả sấy | 8 | 1 | 7 | 0 |  |
 | Trạm 8 / Đồ ăn vặt / Hạt các loại · Hoa quả sấy / Hạt các loại | 24 | 13 | 11 | 0 |  |
-| Trạm 8 / Đồ ăn vặt / Hạt các loại · Hoa quả sấy / Ô mai - Xí muội | 6 | 0 | 0 | 0 | 6 |
-| Trạm 8 / Đồ ăn vặt / Snacks / Snack bánh mì nướng / crouton | 4 | 0 | 0 | 0 | 4 |
+| Trạm 8 / Đồ ăn vặt / Hạt các loại · Hoa quả sấy / Ô mai - Xí muội | 6 | 1 | 4 | 1 |  |
+| Trạm 8 / Đồ ăn vặt / Snacks / Snack bánh mì nướng / crouton | 4 | 2 | 2 | 0 |  |
 | Trạm 8 / Đồ ăn vặt / Snacks / Snack bắp & phồng | 64 | 30 | 19 | 15 |  |
 | Trạm 8 / Đồ ăn vặt / Snacks / Snack khoai mì / khoai lang | 7 | 7 | 0 | 0 |  |
 | Trạm 8 / Đồ ăn vặt / Snacks / Snack khoai tây | 75 | 39 | 16 | 20 |  |
@@ -41,18 +67,18 @@ Ghi chú: *xong* = ảnh + mô tả đã đạt RUBRIC v4 (READY, chờ anh duy�
 | Trạm 8 / Đồ ăn vặt / Đồ nội địa Trung / Bắp & khoai giòn | 9 | 2 | 7 | 0 |  |
 | Trạm 8 / Đồ ăn vặt / Đồ nội địa Trung / Măng & rau ngâm cay | 15 | 4 | 11 | 0 |  |
 | Trạm 8 / Đồ ăn vặt / Đồ nội địa Trung / Que cay / tăm cay (latiao) | 15 | 2 | 12 | 1 |  |
-| Trạm 8 / Đồ ăn vặt / Đồ nội địa Trung / Rong biển & vị biển | 3 | 0 | 0 | 0 | 3 |
+| Trạm 8 / Đồ ăn vặt / Đồ nội địa Trung / Rong biển & vị biển | 3 | 0 | 3 | 0 |  |
 | Trạm 8 / Đồ ăn vặt / Đồ nội địa Trung / Snack & bim bim theo Trend | 5 | 0 | 5 | 0 |  |
 | Trạm 8 / Đồ ăn vặt / Đồ nội địa Trung / Thịt & hải sản ăn liền | 10 | 6 | 4 | 0 |  |
 | Trạm 8 / Đồ ăn vặt / Đồ nội địa Trung / Đồ chay giả mặn (konjac) | 11 | 4 | 7 | 0 |  |
 | Trạm 8 / Đồ ăn vặt / Đồ nội địa Trung / Đồ uống nội địa | 2 | 0 | 2 | 0 |  |
 
-## Trạm 8 / Chăm sóc cá nhân — 346 SP: 198 xong · 67 cần chụp · 27 hỏi chủ · 54 chưa làm
+## Trạm 8 / Chăm sóc cá nhân — 346 SP: 236 xong · 74 cần chụp · 36 hỏi chủ
 
 | Danh mục | SP | Xong | Cần chụp | Hỏi chủ | Chưa làm |
 |---|---:|---:|---:|---:|---:|
 | Trạm 8 / Chăm sóc cá nhân / Bao cao su & Gel bôi trơn / Bao cao su | 9 | 9 | 0 | 0 |  |
-| Trạm 8 / Chăm sóc cá nhân / Bao cao su & Gel bôi trơn / Gel bôi trơn | 5 | 0 | 0 | 0 | 5 |
+| Trạm 8 / Chăm sóc cá nhân / Bao cao su & Gel bôi trơn / Gel bôi trơn | 5 | 4 | 1 | 0 |  |
 | Trạm 8 / Chăm sóc cá nhân / Chăm sóc cơ thể | 1 | 0 | 1 | 0 |  |
 | Trạm 8 / Chăm sóc cá nhân / Chăm sóc cơ thể / Dưỡng da body | 8 | 6 | 0 | 2 |  |
 | Trạm 8 / Chăm sóc cá nhân / Chăm sóc cơ thể / Dụng cụ tắm và vệ sinh cá nhân | 9 | 1 | 8 | 0 |  |
@@ -61,7 +87,7 @@ Ghi chú: *xong* = ảnh + mô tả đã đạt RUBRIC v4 (READY, chờ anh duy�
 | Trạm 8 / Chăm sóc cá nhân / Chăm sóc cơ thể / Tẩy lông - Wax | 1 | 1 | 0 | 0 |  |
 | Trạm 8 / Chăm sóc cá nhân / Chăm sóc cơ thể / Xà bông | 9 | 7 | 1 | 1 |  |
 | Trạm 8 / Chăm sóc cá nhân / Chăm sóc da mặt / Bông & khăn tẩy trang | 5 | 4 | 1 | 0 |  |
-| Trạm 8 / Chăm sóc cá nhân / Chăm sóc da mặt / Miếng dán mụn | 4 | 0 | 0 | 0 | 4 |
+| Trạm 8 / Chăm sóc cá nhân / Chăm sóc da mặt / Miếng dán mụn | 4 | 4 | 0 | 0 |  |
 | Trạm 8 / Chăm sóc cá nhân / Chăm sóc da mặt / Mặt nạ | 16 | 9 | 3 | 4 |  |
 | Trạm 8 / Chăm sóc cá nhân / Chăm sóc da mặt / Nước tẩy trang - Dầu tẩy trang | 20 | 15 | 2 | 3 |  |
 | Trạm 8 / Chăm sóc cá nhân / Chăm sóc da mặt / Toner - Xịt khoáng - Dưỡng ẩm | 10 | 9 | 1 | 0 |  |
@@ -70,25 +96,25 @@ Ghi chú: *xong* = ảnh + mô tả đã đạt RUBRIC v4 (READY, chờ anh duy�
 | Trạm 8 / Chăm sóc cá nhân / Chăm sóc răng miệng / Chỉ nha khoa | 1 | 1 | 0 | 0 |  |
 | Trạm 8 / Chăm sóc cá nhân / Chăm sóc răng miệng / Cạo/vệ sinh lưỡi | 1 | 1 | 0 | 0 |  |
 | Trạm 8 / Chăm sóc cá nhân / Chăm sóc răng miệng / Kem đánh răng - Hơi thở thơm | 13 | 10 | 3 | 0 |  |
-| Trạm 8 / Chăm sóc cá nhân / Chăm sóc răng miệng / Kem đánh răng - Ngừa sâu răng | 3 | 0 | 0 | 0 | 3 |
+| Trạm 8 / Chăm sóc cá nhân / Chăm sóc răng miệng / Kem đánh răng - Ngừa sâu răng | 3 | 1 | 1 | 1 |  |
 | Trạm 8 / Chăm sóc cá nhân / Chăm sóc răng miệng / Kem đánh răng - Than/muối/thảo mộc | 1 | 1 | 0 | 0 |  |
-| Trạm 8 / Chăm sóc cá nhân / Chăm sóc răng miệng / Kem đánh răng - Trắng răng | 4 | 0 | 0 | 0 | 4 |
+| Trạm 8 / Chăm sóc cá nhân / Chăm sóc răng miệng / Kem đánh răng - Trắng răng | 4 | 4 | 0 | 0 |  |
 | Trạm 8 / Chăm sóc cá nhân / Chăm sóc răng miệng / Kem đánh răng - Trẻ em | 1 | 1 | 0 | 0 |  |
-| Trạm 8 / Chăm sóc cá nhân / Chăm sóc răng miệng / Nước súc miệng - Thơm miệng | 3 | 0 | 0 | 0 | 3 |
+| Trạm 8 / Chăm sóc cá nhân / Chăm sóc răng miệng / Nước súc miệng - Thơm miệng | 3 | 2 | 0 | 1 |  |
 | Trạm 8 / Chăm sóc cá nhân / Chăm sóc răng miệng / Tăm nha khoa | 4 | 3 | 1 | 0 |  |
 | Trạm 8 / Chăm sóc cá nhân / Chăm sóc tóc / Dầu gội - Dành cho nam | 11 | 8 | 1 | 2 |  |
-| Trạm 8 / Chăm sóc cá nhân / Chăm sóc tóc / Dầu gội - Ngăn rụng tóc | 5 | 0 | 0 | 0 | 5 |
+| Trạm 8 / Chăm sóc cá nhân / Chăm sóc tóc / Dầu gội - Ngăn rụng tóc | 5 | 4 | 1 | 0 |  |
 | Trạm 8 / Chăm sóc cá nhân / Chăm sóc tóc / Dầu gội - Phục hồi | 1 | 1 | 0 | 0 |  |
-| Trạm 8 / Chăm sóc cá nhân / Chăm sóc tóc / Dầu gội - Suôn mượt | 8 | 5 | 0 | 3 |  |
-| Trạm 8 / Chăm sóc cá nhân / Chăm sóc tóc / Dầu gội - Trị gàu | 4 | 0 | 0 | 0 | 4 |
-| Trạm 8 / Chăm sóc cá nhân / Chăm sóc tóc / Dầu gội khô | 6 | 0 | 0 | 0 | 6 |
-| Trạm 8 / Chăm sóc cá nhân / Chăm sóc tóc / Dầu xả | 4 | 0 | 0 | 0 | 4 |
+| Trạm 8 / Chăm sóc cá nhân / Chăm sóc tóc / Dầu gội - Suôn mượt | 8 | 4 | 0 | 4 |  |
+| Trạm 8 / Chăm sóc cá nhân / Chăm sóc tóc / Dầu gội - Trị gàu | 4 | 1 | 0 | 3 |  |
+| Trạm 8 / Chăm sóc cá nhân / Chăm sóc tóc / Dầu gội khô | 6 | 5 | 1 | 0 |  |
+| Trạm 8 / Chăm sóc cá nhân / Chăm sóc tóc / Dầu xả | 4 | 3 | 0 | 1 |  |
 | Trạm 8 / Chăm sóc cá nhân / Chăm sóc tóc / Serum dưỡng tóc | 1 | 1 | 0 | 0 |  |
 | Trạm 8 / Chăm sóc cá nhân / Dụng cụ làm đẹp / Dao cạo & cạo râu | 8 | 8 | 0 | 0 |  |
-| Trạm 8 / Chăm sóc cá nhân / Dụng cụ làm đẹp / Dụng cụ lông mày / mũi | 5 | 0 | 0 | 0 | 5 |
+| Trạm 8 / Chăm sóc cá nhân / Dụng cụ làm đẹp / Dụng cụ lông mày / mũi | 5 | 4 | 0 | 1 |  |
 | Trạm 8 / Chăm sóc cá nhân / Dụng cụ làm đẹp / Dụng cụ móng | 7 | 6 | 1 | 0 |  |
 | Trạm 8 / Chăm sóc cá nhân / Dụng cụ trang điểm / Dụng cụ mi | 8 | 0 | 8 | 0 |  |
-| Trạm 8 / Chăm sóc cá nhân / Dụng cụ trang điểm / Son dưỡng môi | 6 | 0 | 0 | 0 | 6 |
+| Trạm 8 / Chăm sóc cá nhân / Dụng cụ trang điểm / Son dưỡng môi | 6 | 2 | 3 | 1 |  |
 | Trạm 8 / Chăm sóc cá nhân / Khử mùi và ngăn mồ hôi / Body mist | 1 | 0 | 1 | 0 |  |
 | Trạm 8 / Chăm sóc cá nhân / Khử mùi và ngăn mồ hôi / Lăn khử mùi | 25 | 23 | 1 | 1 |  |
 | Trạm 8 / Chăm sóc cá nhân / Khử mùi và ngăn mồ hôi / Sáp khử mùi | 2 | 1 | 1 | 0 |  |
@@ -97,7 +123,7 @@ Ghi chú: *xong* = ảnh + mô tả đã đạt RUBRIC v4 (READY, chờ anh duy�
 | Trạm 8 / Chăm sóc cá nhân / Sản phẩm chống nắng / Xịt chống nắng | 7 | 3 | 4 | 0 |  |
 | Trạm 8 / Chăm sóc cá nhân / Sữa rửa mặt / Sữa rửa mặt NAM | 9 | 6 | 3 | 0 |  |
 | Trạm 8 / Chăm sóc cá nhân / Sữa rửa mặt / Sữa rửa mặt NỮ | 7 | 5 | 1 | 1 |  |
-| Trạm 8 / Chăm sóc cá nhân / Sữa rửa mặt / Sữa rửa mặt cho da mụn | 5 | 0 | 0 | 0 | 5 |
+| Trạm 8 / Chăm sóc cá nhân / Sữa rửa mặt / Sữa rửa mặt cho da mụn | 5 | 5 | 0 | 0 |  |
 | Trạm 8 / Chăm sóc cá nhân / Sữa rửa mặt / Sữa rửa mặt dịu nhẹ | 1 | 1 | 0 | 0 |  |
 | Trạm 8 / Chăm sóc cá nhân / Vệ sinh & chăm sóc phụ nữ / BVS ban ngày | 3 | 2 | 0 | 1 |  |
 | Trạm 8 / Chăm sóc cá nhân / Vệ sinh & chăm sóc phụ nữ / BVS dạng quần | 3 | 1 | 1 | 1 |  |
@@ -106,13 +132,13 @@ Ghi chú: *xong* = ảnh + mô tả đã đạt RUBRIC v4 (READY, chờ anh duy�
 | Trạm 8 / Chăm sóc cá nhân / Vệ sinh & chăm sóc phụ nữ / Miếng dán ngực | 1 | 0 | 1 | 0 |  |
 | Trạm 8 / Chăm sóc cá nhân / Vệ sinh & chăm sóc phụ nữ / Tampon | 4 | 4 | 0 | 0 |  |
 
-## Trạm 8 / Đồ uống đóng chai — 237 SP: 148 xong · 65 cần chụp · 20 hỏi chủ · 4 chưa làm
+## Trạm 8 / Đồ uống đóng chai — 237 SP: 150 xong · 67 cần chụp · 20 hỏi chủ
 
 | Danh mục | SP | Xong | Cần chụp | Hỏi chủ | Chưa làm |
 |---|---:|---:|---:|---:|---:|
 | Trạm 8 / Đồ uống đóng chai / Cà phê uống liền | 21 | 14 | 4 | 3 |  |
 | Trạm 8 / Đồ uống đóng chai / Kombucha / lên men | 16 | 14 | 2 | 0 |  |
-| Trạm 8 / Đồ uống đóng chai / Nước dừa / thạch uống | 4 | 0 | 0 | 0 | 4 |
+| Trạm 8 / Đồ uống đóng chai / Nước dừa / thạch uống | 4 | 2 | 2 | 0 |  |
 | Trạm 8 / Đồ uống đóng chai / Nước gạo / sữa hạt | 9 | 3 | 4 | 2 |  |
 | Trạm 8 / Đồ uống đóng chai / Nước ngọt có gas | 18 | 15 | 3 | 0 |  |
 | Trạm 8 / Đồ uống đóng chai / Nước ngọt ít calories | 12 | 9 | 3 | 0 |  |
@@ -123,12 +149,12 @@ Ghi chú: *xong* = ảnh + mô tả đã đạt RUBRIC v4 (READY, chờ anh duy�
 | Trạm 8 / Đồ uống đóng chai / Thức uống bổ sung dinh dưỡng | 26 | 12 | 11 | 3 |  |
 | Trạm 8 / Đồ uống đóng chai / Trà đóng chai | 40 | 18 | 17 | 5 |  |
 
-## Trạm 8 / Đồ khô - Mì Gói — 214 SP: 153 xong · 33 cần chụp · 15 hỏi chủ · 13 chưa làm
+## Trạm 8 / Đồ khô - Mì Gói — 214 SP: 160 xong · 37 cần chụp · 17 hỏi chủ
 
 | Danh mục | SP | Xong | Cần chụp | Hỏi chủ | Chưa làm |
 |---|---:|---:|---:|---:|---:|
-| Trạm 8 / Đồ khô - Mì Gói / Bún / hủ tiếu ăn liền | 6 | 0 | 0 | 0 | 6 |
-| Trạm 8 / Đồ khô - Mì Gói / Cháo ăn liền | 4 | 0 | 0 | 0 | 4 |
+| Trạm 8 / Đồ khô - Mì Gói / Bún / hủ tiếu ăn liền | 6 | 4 | 2 | 0 |  |
+| Trạm 8 / Đồ khô - Mì Gói / Cháo ăn liền | 4 | 2 | 0 | 2 |  |
 | Trạm 8 / Đồ khô - Mì Gói / Gia vị - Đồ chấm | 9 | 8 | 0 | 1 |  |
 | Trạm 8 / Đồ khô - Mì Gói / Miến ăn liền | 4 | 4 | 0 | 0 |  |
 | Trạm 8 / Đồ khô - Mì Gói / Mì cay (Gói) | 23 | 12 | 9 | 2 |  |
@@ -140,22 +166,22 @@ Ghi chú: *xong* = ảnh + mô tả đã đạt RUBRIC v4 (READY, chờ anh duy�
 | Trạm 8 / Đồ khô - Mì Gói / Phở ăn liền | 10 | 10 | 0 | 0 |  |
 | Trạm 8 / Đồ khô - Mì Gói / Rong biển ăn liền | 8 | 7 | 1 | 0 |  |
 | Trạm 8 / Đồ khô - Mì Gói / Tokbokki & bánh gạo Hàn | 13 | 8 | 3 | 2 |  |
-| Trạm 8 / Đồ khô - Mì Gói / Udon & mì tươi | 3 | 0 | 0 | 0 | 3 |
+| Trạm 8 / Đồ khô - Mì Gói / Udon & mì tươi | 3 | 1 | 2 | 0 |  |
 
-## Trạm 8 / Các loại kẹo — 186 SP: 70 xong · 97 cần chụp · 12 hỏi chủ · 7 chưa làm
+## Trạm 8 / Các loại kẹo — 186 SP: 73 xong · 101 cần chụp · 12 hỏi chủ
 
 | Danh mục | SP | Xong | Cần chụp | Hỏi chủ | Chưa làm |
 |---|---:|---:|---:|---:|---:|
 | Trạm 8 / Các loại kẹo / Kẹo cao su / singum | 41 | 12 | 24 | 5 |  |
 | Trạm 8 / Các loại kẹo / Kẹo cứng | 22 | 12 | 10 | 0 |  |
 | Trạm 8 / Các loại kẹo / Kẹo dẻo / jelly | 44 | 14 | 26 | 4 |  |
-| Trạm 8 / Các loại kẹo / Kẹo mút | 4 | 0 | 0 | 0 | 4 |
+| Trạm 8 / Các loại kẹo / Kẹo mút | 4 | 3 | 1 | 0 |  |
 | Trạm 8 / Các loại kẹo / Kẹo mềm / caramen | 17 | 9 | 8 | 0 |  |
 | Trạm 8 / Các loại kẹo / Kẹo sáng tạo / đồ chơi | 11 | 1 | 9 | 1 |  |
-| Trạm 8 / Các loại kẹo / Marshmallow/kẹo xốp | 3 | 0 | 0 | 0 | 3 |
+| Trạm 8 / Các loại kẹo / Marshmallow/kẹo xốp | 3 | 0 | 3 | 0 |  |
 | Trạm 8 / Các loại kẹo / Viên ngậm thảo mộc / bạc hà | 44 | 22 | 20 | 2 |  |
 
-## Trạm 8 / Bánh quy & bánh đóng gói — 153 SP: 62 xong · 72 cần chụp · 14 hỏi chủ · 5 chưa làm
+## Trạm 8 / Bánh quy & bánh đóng gói — 153 SP: 63 xong · 76 cần chụp · 14 hỏi chủ
 
 | Danh mục | SP | Xong | Cần chụp | Hỏi chủ | Chưa làm |
 |---|---:|---:|---:|---:|---:|
@@ -167,23 +193,23 @@ Ghi chú: *xong* = ảnh + mô tả đã đạt RUBRIC v4 (READY, chờ anh duy�
 | Trạm 8 / Bánh quy & bánh đóng gói / Bánh quy kem / kẹp kem | 23 | 13 | 9 | 1 |  |
 | Trạm 8 / Bánh quy & bánh đóng gói / Bánh quế / bánh cuộn (wafer roll) | 21 | 9 | 12 | 0 |  |
 | Trạm 8 / Bánh quy & bánh đóng gói / Bánh xốp kem (wafer) | 31 | 9 | 19 | 3 |  |
-| Trạm 8 / Bánh quy & bánh đóng gói / Lương khô | 5 | 0 | 0 | 0 | 5 |
+| Trạm 8 / Bánh quy & bánh đóng gói / Lương khô | 5 | 1 | 4 | 0 |  |
 
-## Trạm 8 / Kem & Đồ đông lạnh — 142 SP: 60 xong · 63 cần chụp · 12 hỏi chủ · 7 chưa làm
+## Trạm 8 / Kem & Đồ đông lạnh — 142 SP: 63 xong · 65 cần chụp · 14 hỏi chủ
 
 | Danh mục | SP | Xong | Cần chụp | Hỏi chủ | Chưa làm |
 |---|---:|---:|---:|---:|---:|
 | Trạm 8 / Kem & Đồ đông lạnh / Kem bánh | 10 | 3 | 4 | 3 |  |
 | Trạm 8 / Kem & Đồ đông lạnh / Kem hộp lớn / gia đình | 7 | 3 | 4 | 0 |  |
 | Trạm 8 / Kem & Đồ đông lạnh / Kem ly / cốc / hộp nhỏ | 28 | 11 | 14 | 3 |  |
-| Trạm 8 / Kem & Đồ đông lạnh / Kem mochi | 3 | 0 | 0 | 0 | 3 |
+| Trạm 8 / Kem & Đồ đông lạnh / Kem mochi | 3 | 1 | 2 | 0 |  |
 | Trạm 8 / Kem & Đồ đông lạnh / Kem que | 60 | 31 | 24 | 5 |  |
-| Trạm 8 / Kem & Đồ đông lạnh / Kem viên / kim cương | 4 | 0 | 0 | 0 | 4 |
+| Trạm 8 / Kem & Đồ đông lạnh / Kem viên / kim cương | 4 | 2 | 0 | 2 |  |
 | Trạm 8 / Kem & Đồ đông lạnh / Kem ốc quế | 11 | 7 | 4 | 0 |  |
 | Trạm 8 / Kem & Đồ đông lạnh / Sữa chua đông lạnh | 12 | 0 | 12 | 0 |  |
 | Trạm 8 / Kem & Đồ đông lạnh / Thực phẩm chế biến sẵn | 7 | 5 | 1 | 1 |  |
 
-## Trạm 8 / Sữa và các sản phẩm từ sữa — 135 SP: 77 xong · 39 cần chụp · 7 hỏi chủ · 12 chưa làm
+## Trạm 8 / Sữa và các sản phẩm từ sữa — 135 SP: 82 xong · 45 cần chụp · 8 hỏi chủ
 
 | Danh mục | SP | Xong | Cần chụp | Hỏi chủ | Chưa làm |
 |---|---:|---:|---:|---:|---:|
@@ -191,18 +217,18 @@ Ghi chú: *xong* = ảnh + mô tả đã đạt RUBRIC v4 (READY, chờ anh duy�
 | Trạm 8 / Sữa và các sản phẩm từ sữa / Sữa chua / Sữa chua kiểu Hy Lạp | 15 | 4 | 11 | 0 |  |
 | Trạm 8 / Sữa và các sản phẩm từ sữa / Sữa chua / Sữa chua uống | 31 | 24 | 5 | 2 |  |
 | Trạm 8 / Sữa và các sản phẩm từ sữa / Sữa chua / Sữa chua ăn | 13 | 4 | 8 | 1 |  |
-| Trạm 8 / Sữa và các sản phẩm từ sữa / Sữa thanh trùng | 7 | 0 | 0 | 0 | 7 |
+| Trạm 8 / Sữa và các sản phẩm từ sữa / Sữa thanh trùng | 7 | 1 | 6 | 0 |  |
 | Trạm 8 / Sữa và các sản phẩm từ sữa / Sữa tiệt trùng / Sữa hạt | 16 | 7 | 8 | 1 |  |
 | Trạm 8 / Sữa và các sản phẩm từ sữa / Sữa tiệt trùng / Sữa tiệt trùng có vị | 17 | 16 | 0 | 1 |  |
 | Trạm 8 / Sữa và các sản phẩm từ sữa / Sữa tiệt trùng / Vị nguyên bản | 21 | 17 | 3 | 1 |  |
-| Trạm 8 / Sữa và các sản phẩm từ sữa / Sữa đặc | 5 | 0 | 0 | 0 | 5 |
+| Trạm 8 / Sữa và các sản phẩm từ sữa / Sữa đặc | 5 | 4 | 0 | 1 |  |
 
-## Trạm 8 / Các loại bánh — 91 SP: 49 xong · 27 cần chụp · 11 hỏi chủ · 4 chưa làm
+## Trạm 8 / Các loại bánh — 91 SP: 49 xong · 31 cần chụp · 11 hỏi chủ
 
 | Danh mục | SP | Xong | Cần chụp | Hỏi chủ | Chưa làm |
 |---|---:|---:|---:|---:|---:|
 | Trạm 8 / Các loại bánh / Burger - Hotdog - Bánh mì | 7 | 4 | 3 | 0 |  |
-| Trạm 8 / Các loại bánh / Bánh mì que | 4 | 0 | 0 | 0 | 4 |
+| Trạm 8 / Các loại bánh / Bánh mì que | 4 | 0 | 4 | 0 |  |
 | Trạm 8 / Các loại bánh / Bánh ngọt | 15 | 1 | 13 | 1 |  |
 | Trạm 8 / Các loại bánh / Bánh ngọt / Bánh mì kem tươi | 12 | 11 | 1 | 0 |  |
 | Trạm 8 / Các loại bánh / Bánh ngọt / Bánh mì ngọt / mềm | 4 | 3 | 0 | 1 |  |
@@ -210,25 +236,25 @@ Ghi chú: *xong* = ảnh + mô tả đã đạt RUBRIC v4 (READY, chờ anh duy�
 | Trạm 8 / Các loại bánh / Pizza | 13 | 13 | 0 | 0 |  |
 | Trạm 8 / Các loại bánh / Sandwiches - Toastes | 13 | 8 | 2 | 3 |  |
 
-## Trạm 8 / Đồ uống có cồn (18+) — 89 SP: 57 xong · 10 cần chụp · 5 hỏi chủ · 17 chưa làm
+## Trạm 8 / Đồ uống có cồn (18+) — 89 SP: 72 xong · 11 cần chụp · 6 hỏi chủ
 
 | Danh mục | SP | Xong | Cần chụp | Hỏi chủ | Chưa làm |
 |---|---:|---:|---:|---:|---:|
-| Trạm 8 / Đồ uống có cồn (18+) / Bia / Hơi/tươi | 2 | 0 | 0 | 0 | 2 |
+| Trạm 8 / Đồ uống có cồn (18+) / Bia / Hơi/tươi | 2 | 2 | 0 | 0 |  |
 | Trạm 8 / Đồ uống có cồn (18+) / Bia / Lager Phổ Thông | 29 | 23 | 2 | 4 |  |
 | Trạm 8 / Đồ uống có cồn (18+) / Bia / Nhập khẩu & premium | 5 | 4 | 1 | 0 |  |
 | Trạm 8 / Đồ uống có cồn (18+) / Cocktail & Cider Pha Sẵn / Cider | 3 | 3 | 0 | 0 |  |
 | Trạm 8 / Đồ uống có cồn (18+) / Cocktail & Cider Pha Sẵn / Cocktail lon RTD | 15 | 12 | 3 | 0 |  |
-| Trạm 8 / Đồ uống có cồn (18+) / Rượu mạnh / Gin & Tequila | 2 | 0 | 0 | 0 | 2 |
-| Trạm 8 / Đồ uống có cồn (18+) / Rượu mạnh / Rượu Mùi | 3 | 0 | 0 | 0 | 3 |
-| Trạm 8 / Đồ uống có cồn (18+) / Rượu mạnh / Sake | 1 | 0 | 0 | 0 | 1 |
+| Trạm 8 / Đồ uống có cồn (18+) / Rượu mạnh / Gin & Tequila | 2 | 2 | 0 | 0 |  |
+| Trạm 8 / Đồ uống có cồn (18+) / Rượu mạnh / Rượu Mùi | 3 | 2 | 1 | 0 |  |
+| Trạm 8 / Đồ uống có cồn (18+) / Rượu mạnh / Sake | 1 | 1 | 0 | 0 |  |
 | Trạm 8 / Đồ uống có cồn (18+) / Rượu mạnh / Vodka | 5 | 4 | 1 | 0 |  |
 | Trạm 8 / Đồ uống có cồn (18+) / Rượu mạnh / Whisky & Bourbon | 7 | 4 | 3 | 0 |  |
-| Trạm 8 / Đồ uống có cồn (18+) / Soju Và Rượu Gạo / Makgeolli | 2 | 0 | 0 | 0 | 2 |
-| Trạm 8 / Đồ uống có cồn (18+) / Soju Và Rượu Gạo / Soju Truyền Thống | 1 | 0 | 0 | 0 | 1 |
+| Trạm 8 / Đồ uống có cồn (18+) / Soju Và Rượu Gạo / Makgeolli | 2 | 2 | 0 | 0 |  |
+| Trạm 8 / Đồ uống có cồn (18+) / Soju Và Rượu Gạo / Soju Truyền Thống | 1 | 0 | 0 | 1 |  |
 | Trạm 8 / Đồ uống có cồn (18+) / Soju Và Rượu Gạo / Soju Vị Trái Cây | 8 | 7 | 0 | 1 |  |
-| Trạm 8 / Đồ uống có cồn (18+) / Vang Và Sâm Panh / Sâm Panh | 1 | 0 | 0 | 0 | 1 |
-| Trạm 8 / Đồ uống có cồn (18+) / Vang Và Sâm Panh / Vang Đỏ | 5 | 0 | 0 | 0 | 5 |
+| Trạm 8 / Đồ uống có cồn (18+) / Vang Và Sâm Panh / Sâm Panh | 1 | 1 | 0 | 0 |  |
+| Trạm 8 / Đồ uống có cồn (18+) / Vang Và Sâm Panh / Vang Đỏ | 5 | 5 | 0 | 0 |  |
 
 ## Trạm 8 / Món ngon Trạm 8 — 61 SP: 9 xong · 51 cần chụp · 1 hỏi chủ
 
@@ -240,12 +266,12 @@ Ghi chú: *xong* = ảnh + mô tả đã đạt RUBRIC v4 (READY, chờ anh duy�
 | Trạm 8 / Món ngon Trạm 8 / Tráng miệng | 3 | 3 | 0 | 0 |  |
 | Trạm 8 / Món ngon Trạm 8 / Đồ uống pha chế / Trà sữa | 8 | 0 | 8 | 0 |  |
 
-## Trạm 8 / Xúc Xích & Thịt Nguội — 52 SP: 13 xong · 28 cần chụp · 8 hỏi chủ · 3 chưa làm
+## Trạm 8 / Xúc Xích & Thịt Nguội — 52 SP: 13 xong · 31 cần chụp · 8 hỏi chủ
 
 | Danh mục | SP | Xong | Cần chụp | Hỏi chủ | Chưa làm |
 |---|---:|---:|---:|---:|---:|
 | Trạm 8 / Xúc Xích & Thịt Nguội / Giò chả / chả lụa | 2 | 0 | 2 | 0 |  |
-| Trạm 8 / Xúc Xích & Thịt Nguội / Nem chua | 3 | 0 | 0 | 0 | 3 |
+| Trạm 8 / Xúc Xích & Thịt Nguội / Nem chua | 3 | 0 | 3 | 0 |  |
 | Trạm 8 / Xúc Xích & Thịt Nguội / Pate | 2 | 1 | 0 | 1 |  |
 | Trạm 8 / Xúc Xích & Thịt Nguội / Thịt chua | 7 | 3 | 3 | 1 |  |
 | Trạm 8 / Xúc Xích & Thịt Nguội / Xúc xích lắc & snack | 13 | 2 | 7 | 4 |  |
