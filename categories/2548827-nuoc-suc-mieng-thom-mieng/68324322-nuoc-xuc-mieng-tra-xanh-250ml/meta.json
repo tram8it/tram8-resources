@@ -17,18 +17,24 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "READY",
   "image": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "REPLACE",
+    "reason": "I1: chưa có ảnh; dùng packshot Colgate MaxFresh Fresh Tea trên colgate.com.vn (trang SP: https://www.colgate.com.vn/products/mouthwash/colgate-maxfresh-fresh-tea), cùng dáng chai với SP bạc hà 250 ml",
+    "source": {
+      "url": "https://pxmshare.colgatepalmolive.com/JPEG_1500/oqgGjk2YMGkllsQULkbs6.jpg",
+      "fetchedAt": "2026-10-14"
+    },
+    "rubricVersion": "v4"
   },
   "description": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết theo trang hãng",
+    "source": {
+      "url": "https://www.colgate.com.vn/products/mouthwash/colgate-maxfresh-fresh-tea",
+      "fetchedAt": "2026-10-14"
+    },
+    "rubricVersion": "v4"
   },
   "question": null,
   "history": [
@@ -37,6 +43,12 @@
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-14T00:27:37.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "batch f2: image REPLACE (colgate official), description WRITE_NEW"
     }
   ]
 }
