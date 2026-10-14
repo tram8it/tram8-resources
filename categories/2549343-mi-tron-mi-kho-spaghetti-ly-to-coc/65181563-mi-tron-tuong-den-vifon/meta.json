@@ -17,20 +17,24 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "ASK_OWNER",
+  "status": "READY",
   "image": {
-    "decision": "ASK_OWNER",
-    "reason": "I1: chưa có ảnh; chưa chắc SP là gói 110g hay ly/khay nên chưa chọn ảnh",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "REPLACE",
+    "reason": "Chủ xác nhận gói 110 g và gửi render; chuẩn hoá bằng make_image.py (phóng ~2,8 lần, xem lại không vỡ)",
+    "source": {
+      "ownerProvided": true,
+      "note": "render gói Mì Trộn Tương Đen Vifon 110g chủ gửi",
+      "receivedAt": "2026-10-14"
+    },
+    "rubricVersion": "v6"
   },
   "description": {
-    "decision": "ASK_OWNER",
-    "reason": "chờ chủ xác nhận quy cách",
+    "decision": "WRITE_NEW",
+    "reason": "D1: viết từ chữ in trên gói (Vifon Premium, Mì trộn tương đen, 짜장면, nấu 4 phút, 110 g)",
     "source": null,
     "rubricVersion": "v4"
   },
-  "question": "SP 'Mì trộn tương đen Vifon' (mã 8935311102476) là loại nào: gói 110g (bao vàng, nấu 4 phút) hay dạng ly/khay? Trang Vifon chỉ có gói 110g, còn khay 90g mang mã khác (8935311101073).",
+  "question": null,
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -43,6 +47,26 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "b16 review: image ASK_OWNER, description ASK_OWNER"
+    },
+    {
+      "at": "2026-10-14T21:40:00.000Z",
+      "by": "owner",
+      "status": "READY",
+      "note": "owner answered and sent image"
+    },
+    {
+      "at": "2026-10-14T15:37:19.940Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-14T15:37:19.940Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

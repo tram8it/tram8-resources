@@ -17,16 +17,20 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh; thương hiệu 'Sol' và mã vạch 8935311103411 không tra được trang hãng → cần chụp",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "Chủ gửi ảnh gian hàng chính hãng Vifon (Sol gà cay 115 g); tách cốc bằng cutout.py, bỏ chữ/khung bán hàng (v5)",
+    "source": {
+      "ownerProvided": true,
+      "note": "ảnh gian hàng chính hãng Vifon chủ gửi, tách cốc",
+      "receivedAt": "2026-10-14"
+    },
+    "rubricVersion": "v6"
   },
   "description": {
     "decision": "WRITE_NEW",
-    "reason": "D1: chưa có mô tả; chỉ từ dữ kiện tên SP (RUBRIC v2 nguồn 3), bổ sung khi có ảnh bao bì",
+    "reason": "D1: viết từ chữ in trên cốc (Sol gà cay, có gói thịt gà hầm thật 20 g, 115 g)",
     "source": null,
     "rubricVersion": "v4"
   },
@@ -43,6 +47,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "b21: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-14T21:40:00.000Z",
+      "by": "owner",
+      "status": "READY",
+      "note": "owner answered and sent image"
+    },
+    {
+      "at": "2026-10-14T15:37:10.713Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-14T15:37:10.713Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

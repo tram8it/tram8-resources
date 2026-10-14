@@ -17,20 +17,24 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "ASK_OWNER",
+  "status": "READY",
   "image": {
-    "decision": "ASK_OWNER",
-    "reason": "Chờ chủ trả lời: ambiguous, possible duplicate",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "REPLACE",
+    "reason": "Chủ gửi ảnh gói Koreno Volcano vị gà phomai 118 g; tách nền xám bằng cutout.py. Chữ nhỏ dòng khối lượng trên ảnh bị méo (dấu hiệu ảnh AI/ảnh xử lý), chữ lớn đúng bao bì",
+    "source": {
+      "ownerProvided": true,
+      "note": "ảnh gói Volcano gà phô mai chủ gửi, tách nền",
+      "receivedAt": "2026-10-14"
+    },
+    "rubricVersion": "v6"
   },
   "description": {
-    "decision": "ASK_OWNER",
-    "reason": "Chờ chủ trả lời câu hỏi về SP trước khi viết mô tả",
+    "decision": "WRITE_NEW",
+    "reason": "D1: viết từ chữ in trên gói (Volcano, vị gà phomai, cay cực đã, 118 g) và hồ sơ Paldo Vina",
     "source": null,
     "rubricVersion": "v4"
   },
-  "question": "\"Mì xào vị Gà phomai\" (mã vạch 8936028643153, chưa có ảnh) là SP nào? Đã có mã 68270021 \"Mì Xào Vị Gà Phô Mai 118g Volcano Koreno\" (mã vạch 8936028641104). Mã …153 là loại ly/tô, gói khác cỡ, hay trùng hàng?",
+  "question": null,
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -43,6 +47,26 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "asked owner: ambiguous, possible duplicate"
+    },
+    {
+      "at": "2026-10-14T21:40:00.000Z",
+      "by": "owner",
+      "status": "READY",
+      "note": "owner answered and sent image"
+    },
+    {
+      "at": "2026-10-14T15:37:16.948Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-14T15:37:16.948Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }
