@@ -19,17 +19,14 @@
   },
   "status": "READY",
   "image": {
-    "decision": "CROP",
-    "reason": "I9: packshot nền trắng, đúng bao bì Swing vị bít tết như trang hãng, chưa 1:1 → crop; đã xem lại",
-    "source": null,
-    "rubricVersion": "v4",
-    "vivid": {
-      "rubricVersion": "v10",
-      "saturationGain": 1.105,
-      "contrastGain": 1.034,
-      "toneGain": 1.029,
-      "gamma": 1
-    }
+    "decision": "REPLACE",
+    "reason": "I2: ảnh cũ là bao bì đời trước; mockup chính hãng Orion mới nhất (super pack). Gói mới in 'ÚP 60g' — tên KiotViet ghi khối lượng khác, chủ xem khi duyệt (v6)",
+    "source": {
+      "url": "https://orion.vn/media/qfjgd2do/tt_superpack_swing_newyork_mockup.png",
+      "page": "https://orion.vn/san-pham/san-pham/banh-snack-khoai-tay-swing-vi-bittet-kieu-new-york/",
+      "fetchedAt": "2026-10-15"
+    },
+    "rubricVersion": "v15"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -71,10 +68,22 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-15T15:36:00Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "outdated pack replaced with Orion brand mockup"
+    },
+    {
+      "at": "2026-10-15T15:36:10.521Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-15T09:19:46.316Z",
+    "at": "2026-10-15T15:36:10.521Z",
     "fields": [
       "description",
       "image"

@@ -17,19 +17,12 @@
     "description": "<p style=\"margin-bottom:0px;text-align:justify;font-style:normal;font-variant-caps:normal;font-width:normal;font-family:'Helvetica Neue';font-kerning:auto;font-variant-alternates:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variant-position:normal;font-variant-emoji:normal;font-feature-settings:normal;font-optical-sizing:auto;font-variation-settings:normal;\">Snack khoai tây Pringles vị cheesy cheese hộp 120g được tẩm ướp kỹ lưỡng mang đến hương vị hấp dẫn của những lát khoai tây giòn rụm hoà quyện cùng phô mai béo ngậy. Sản phẩm có thiết kế đóng lon kín, nhỏ gọn, tiện lợi và rất dễ bảo quản.</p><p style=\"margin-bottom:0px;font-style:normal;font-variant-caps:normal;font-width:normal;font-family:'Helvetica Neue';font-kerning:auto;font-variant-alternates:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variant-position:normal;font-variant-emoji:normal;font-feature-settings:normal;font-optical-sizing:auto;font-variation-settings:normal;min-height:15px;\"></p><p style=\"margin-bottom:0px;font-style:normal;font-variant-caps:normal;font-width:normal;font-family:'Helvetica Neue';font-kerning:auto;font-variant-alternates:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variant-position:normal;font-variant-emoji:normal;font-feature-settings:normal;font-optical-sizing:auto;font-variation-settings:normal;\">Thành phần: Khoai tây chiên (47.5%), dầu thực vật (dầu cọ) (có chứa chất chống oxy hóa (tertiary butylhydroquinone (INS 319), bột bắp, tinh bột mì, chất nhũ hóa (mono-and diglycerides of fatty acids (có nguồn gốc thực vật) (INS 471), maltodextrin, muối, chất điều chỉnh độ acid (acid citric) (INS 330)</p><p style=\"margin-bottom:0px;font-style:normal;font-variant-caps:normal;font-width:normal;font-family:'Helvetica Neue';font-kerning:auto;font-variant-alternates:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variant-position:normal;font-variant-emoji:normal;font-feature-settings:normal;font-optical-sizing:auto;font-variation-settings:normal;min-height:15px;\"></p><p style=\"margin-bottom:0px;font-style:normal;font-variant-caps:normal;font-width:normal;font-family:'Helvetica Neue';font-kerning:auto;font-variant-alternates:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variant-position:normal;font-variant-emoji:normal;font-feature-settings:normal;font-optical-sizing:auto;font-variation-settings:normal;\">Thương hiệu/ xuất sử sản phẩm: Pringles (Mỹ)</p><p style=\"margin-bottom:0px;font-style:normal;font-variant-caps:normal;font-width:normal;font-family:'Helvetica Neue';font-kerning:auto;font-variant-alternates:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variant-position:normal;font-variant-emoji:normal;font-feature-settings:normal;font-optical-sizing:auto;font-variation-settings:normal;min-height:15px;\"></p><p style=\"margin-bottom:0px;font-style:normal;font-variant-caps:normal;font-width:normal;font-family:'Helvetica Neue';font-kerning:auto;font-variant-alternates:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variant-position:normal;font-variant-emoji:normal;font-feature-settings:normal;font-optical-sizing:auto;font-variation-settings:normal;\">Bảo quản sản phẩm ở nơi khô ráo, thoáng mát. </p><p style=\"margin-bottom:0px;font-style:normal;font-variant-caps:normal;font-width:normal;font-family:'Helvetica Neue';font-kerning:auto;font-variant-alternates:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variant-position:normal;font-variant-emoji:normal;font-feature-settings:normal;font-optical-sizing:auto;font-variation-settings:normal;min-height:15px;\"></p><p style=\"margin-bottom:0px;font-style:normal;font-variant-caps:normal;font-width:normal;font-family:'Helvetica Neue';font-kerning:auto;font-variant-alternates:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variant-position:normal;font-variant-emoji:normal;font-feature-settings:normal;font-optical-sizing:auto;font-variation-settings:normal;\">Sản phẩm có thể dùng ăn trực tiếp.</p>",
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "READY",
+  "status": "IN_PROGRESS",
   "image": {
-    "decision": "CROP",
-    "reason": "I9: packshot nền trắng, đúng SP, chưa 1:1 → crop; đã xem lại sau crop",
+    "decision": "REPLACE",
+    "reason": "I2: chủ báo ảnh đang chờ duyệt phần lớn là bao bì cũ/không đạt (15/10) → vẽ lại bằng Gemini theo bao bì mới nhất; mẫu: catalogue NPP Hương Thủy (MT Chanel), trang 18 — bao bì Pringles hiện hành 'MORE POP-TASTIC!' — CHEESY CHEESE 102g. Gemini hết lượt 15/10, mở lại 16/10 20:48",
     "source": null,
-    "rubricVersion": "v4",
-    "vivid": {
-      "rubricVersion": "v10",
-      "saturationGain": 1.059,
-      "contrastGain": 1.019,
-      "toneGain": 1.038,
-      "gamma": 1
-    }
+    "rubricVersion": "v15"
   },
   "description": {
     "decision": "REWRITE",
@@ -68,6 +61,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-15T15:36:00Z",
+      "by": "ai",
+      "status": "IN_PROGRESS",
+      "note": "owner: pending image not acceptable (outdated pack); redo with Gemini from current-pack reference"
     }
   ],
   "submitted": {

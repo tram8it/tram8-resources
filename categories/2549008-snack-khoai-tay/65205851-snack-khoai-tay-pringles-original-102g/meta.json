@@ -19,17 +19,15 @@
   },
   "status": "READY",
   "image": {
-    "decision": "CROP",
-    "reason": "I9: packshot nền trắng (lon phiên bản bóng đá), sát mép trên/dưới → crop; phóng ~2,9 lần, hơi mềm nhưng đạt v4",
-    "source": null,
-    "rubricVersion": "v4",
-    "vivid": {
-      "rubricVersion": "v10",
-      "saturationGain": 1.25,
-      "contrastGain": 1.08,
-      "toneGain": 1.013,
-      "gamma": 1
-    }
+    "decision": "REPLACE",
+    "reason": "I2: ảnh cũ là lon phiên bản bóng đá (đã cũ, chủ báo); Gemini vẽ lại theo bao bì hiện hành 'MORE POP-TASTIC!' — khớp mẫu: PRINGLES, ORIGINAL; chữ nhỏ là chữ giả",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Google Gemini",
+      "generatedAt": "2026-10-15",
+      "reference": "catalogue NPP Hương Thủy (MT Chanel), trang 18 — bao bì Pringles hiện hành 'MORE POP-TASTIC!'"
+    },
+    "rubricVersion": "v15"
   },
   "description": {
     "decision": "KEEP",
@@ -80,10 +78,22 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: image"
+    },
+    {
+      "at": "2026-10-15T15:36:00Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "outdated football-edition can replaced by Gemini redraw of current pack"
+    },
+    {
+      "at": "2026-10-15T15:36:24.721Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: image"
     }
   ],
   "submitted": {
-    "at": "2026-10-15T09:19:39.364Z",
+    "at": "2026-10-15T15:36:24.721Z",
     "fields": [
       "image"
     ],
