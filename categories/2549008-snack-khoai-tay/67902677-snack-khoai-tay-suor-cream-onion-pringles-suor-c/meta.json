@@ -17,12 +17,16 @@
     "description": "<p style=\"margin-bottom:0px;font-style:normal;font-variant-caps:normal;font-width:normal;font-family:'Helvetica Neue';font-kerning:auto;font-variant-alternates:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variant-position:normal;font-variant-emoji:normal;font-feature-settings:normal;font-optical-sizing:auto;font-variation-settings:normal;\">Snack khoai tây Pringles Sour Cream với thành phần khoai tây và tinh bột mỳ chứa nhiều dưỡng chất giúp bạn bổ sung năng lượng cần thiết cho cơ thể, là món ăn vặt lý tưởng cho các buổi tụ tập hoặc đơn giản là những buổi thư giãn, giải trí.</p><p style=\"margin-bottom:0px;font-style:normal;font-variant-caps:normal;font-width:normal;font-family:'Helvetica Neue';font-kerning:auto;font-variant-alternates:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variant-position:normal;font-variant-emoji:normal;font-feature-settings:normal;font-optical-sizing:auto;font-variation-settings:normal;min-height:15px;\"></p><p style=\"margin-bottom:0px;font-style:normal;font-variant-caps:normal;font-width:normal;font-family:'Helvetica Neue';font-kerning:auto;font-variant-alternates:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variant-position:normal;font-variant-emoji:normal;font-feature-settings:normal;font-optical-sizing:auto;font-variation-settings:normal;\">Thành phần: Khoai tây sấy khô (42%), dầu cọ olein, bột ngô, tinh bột, gia vị hành tây & kem chua (5,5%) [maltodextrin, đường, muối, chất điều vị (INS 621, 631, 627), hương liệu tự nhiên và nhân tạo, bột hành tây (0,1%), bột kem chua (0,1%), chất điều chỉnh độ acid (INS 330, 327, 260), rau mùi tây, chất ổn định (INS 341 (iii)), chất chống đông vón (INS 551), dầu thực vật (hướng dương)), chất nhũ hóa (INS 471), maltodextrin, chất điều chỉnh độ acid (INS 330)</p><p style=\"margin-bottom:0px;font-style:normal;font-variant-caps:normal;font-width:normal;font-family:'Helvetica Neue';font-kerning:auto;font-variant-alternates:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variant-position:normal;font-variant-emoji:normal;font-feature-settings:normal;font-optical-sizing:auto;font-variation-settings:normal;min-height:15px;\"></p><p style=\"margin-bottom:0px;font-style:normal;font-variant-caps:normal;font-width:normal;font-family:'Helvetica Neue';font-kerning:auto;font-variant-alternates:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variant-position:normal;font-variant-emoji:normal;font-feature-settings:normal;font-optical-sizing:auto;font-variation-settings:normal;\">Thương hiệu/ xuất sử sản phẩm: Pringles (Mỹ)</p><p style=\"margin-bottom:0px;font-style:normal;font-variant-caps:normal;font-width:normal;font-family:'Helvetica Neue';font-kerning:auto;font-variant-alternates:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variant-position:normal;font-variant-emoji:normal;font-feature-settings:normal;font-optical-sizing:auto;font-variation-settings:normal;min-height:15px;\"></p><p style=\"margin-bottom:0px;font-style:normal;font-variant-caps:normal;font-width:normal;font-family:'Helvetica Neue';font-kerning:auto;font-variant-alternates:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variant-position:normal;font-variant-emoji:normal;font-feature-settings:normal;font-optical-sizing:auto;font-variation-settings:normal;\">Bảo quản sản phẩm ở nơi khô ráo, thoáng mát. </p><p style=\"margin-bottom:0px;font-style:normal;font-variant-caps:normal;font-width:normal;font-family:'Helvetica Neue';font-kerning:auto;font-variant-alternates:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variant-position:normal;font-variant-emoji:normal;font-feature-settings:normal;font-optical-sizing:auto;font-variation-settings:normal;min-height:15px;\"></p><p style=\"margin-bottom:0px;font-style:normal;font-variant-caps:normal;font-width:normal;font-family:'Helvetica Neue';font-kerning:auto;font-variant-alternates:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variant-position:normal;font-variant-emoji:normal;font-feature-settings:normal;font-optical-sizing:auto;font-variation-settings:normal;\">Sản phẩm có thể dùng ăn trực tiếp.</p>",
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I4: ảnh cầm tay chụp trong siêu thị; pringles.com chặn truy cập (405), không có nguồn chính hãng dùng được → cần chụp",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I3/I4: ảnh cầm tay trong siêu thị → cắt bỏ tay/kệ, tách nền, cân bằng trắng, tăng độ tươi (v10); chủ chấp nhận vì không lấy được ảnh hãng",
+    "source": {
+      "ownerAccepted": true,
+      "acceptedAt": "2026-10-15",
+      "note": "ảnh KiotViet hiện có, chủ chấp nhận dùng vì pringles.com chặn bot (Akamai 405, cả trình duyệt); tách nền + tone.py + tăng độ tươi (bão hoà ×1,25, tương phản ×1,08) theo ý chủ"
+    },
+    "rubricVersion": "v10"
   },
   "description": {
     "decision": "REWRITE",
@@ -43,6 +47,12 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "batch b01: image REPLACE, description REWRITE"
+    },
+    {
+      "at": "2026-10-15T08:11:41Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "owner accepted current photo; cutout + tone + vivid (v10)"
     }
   ]
 }

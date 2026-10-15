@@ -17,20 +17,24 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "ASK_OWNER",
+  "status": "READY",
   "image": {
-    "decision": "ASK_OWNER",
-    "reason": "I2 chưa rõ: tên ghi 'Nori Seaweed' nhưng ảnh là lon 'Salt & Seaweed — Bursting with flavour'",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "REPLACE",
+    "reason": "I9: lon Salt & Seaweed nền trắng, chưa chuẩn → chuẩn hoá 1:1, tăng độ tươi (v10); chủ chấp nhận ảnh hiện tại là đúng lon đang bán",
+    "source": {
+      "ownerAccepted": true,
+      "acceptedAt": "2026-10-15",
+      "note": "ảnh KiotViet hiện có, chủ chấp nhận dùng vì pringles.com chặn bot (Akamai 405, cả trình duyệt); tách nền + tone.py + tăng độ tươi (bão hoà ×1,25, tương phản ×1,08) theo ý chủ"
+    },
+    "rubricVersion": "v10"
   },
   "description": {
-    "decision": "ASK_OWNER",
-    "reason": "D1: chưa có mô tả; chờ chủ xác nhận đúng SP",
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; chủ chấp nhận ảnh = xác nhận vị → mô tả ngắn từ chữ mặt trước lon",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v10"
   },
-  "question": "SP 'SNACK KHOAI TÂY PRINGLES NORI SEAWEED BUST 102G' (mã 8886467100062): ảnh hiện tại là lon Pringles 'Salt & Seaweed' (Bursting with flavour). Lon bán ở cửa hàng có đúng là loại này không, hay là lon 'Nori Seaweed' khác?",
+  "question": null,
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -43,6 +47,12 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "batch b01: image ASK_OWNER, description ASK_OWNER"
+    },
+    {
+      "at": "2026-10-15T08:11:41Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "owner accepted current photo; cutout + tone + vivid (v10); description WRITE_NEW"
     }
   ]
 }
