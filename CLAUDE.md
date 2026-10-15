@@ -51,6 +51,7 @@ Thành phẩm nằm cạnh `meta.json`: `image.webp` (1000×1000, chuẩn trong 
 | `node tools/review-page.mjs <category>` | trang duyệt trước/sau cho chủ → `review/` (ảnh mới nhúng sẵn) |
 | `python3 tools/cutout.py <ảnh> <out.webp> [--box X0,Y0,X1,Y1]` | tách nền màu/banner (ảnh nhân viên chụp, ảnh hãng có nền/chữ khuyến mãi) rồi chuẩn hoá như `make_image.py`; cần `pip install "rembg[cpu]"`. **Mở ảnh ra xem viền** |
 | `python3 tools/tone.py <image.webp> <out.webp>` · `--scan` | cân bằng trắng + độ sáng (chỉ chỉnh toàn ảnh, nền giữ trắng) cho ảnh thiếu sáng; `--scan` liệt kê ảnh thiếu sáng; `--vivid` = tone + tăng độ tươi cho giống ảnh hãng (RUBRIC v10, tự giảm cho ảnh đã tươi). **Mở ảnh so trước/sau** |
+| `python3 tools/size_tag.py <image.webp> <out.webp> 53g` | gắn nhãn khối lượng khi nhiều cỡ dùng chung một ảnh (RUBRIC v16); chạy trên ảnh **chưa** gắn nhãn |
 | `node tools/pull-from-hub.mjs` | kéo danh mục + SP từ API nội dung của Hub (chỉ GET) → `inbox/` |
 | `node tools/proposals.mjs submit <category> [--only <id>] [--send]` | gửi SP **READY** vào hàng chờ duyệt trên Hub (mặc định chỉ liệt kê) |
 | `node tools/proposals.mjs sync` | đọc quyết định của chủ về: áp dụng → `UPLOADED`, từ chối → `IN_PROGRESS` + lý do |
