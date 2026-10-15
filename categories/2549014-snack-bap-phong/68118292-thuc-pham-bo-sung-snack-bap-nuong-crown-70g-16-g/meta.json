@@ -17,12 +17,17 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh; trang crown.co.kr chặn truy cập → cần nhân viên chụp",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I1/I3: ảnh cũ chụp trên kệ/không có ảnh; Gemini vẽ lại packshot chính diện theo ảnh mẫu Lotte Mart (chỉ làm mẫu) — khớp chữ/logo (v15)",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Google Gemini Pro",
+      "generatedAt": "2026-10-16",
+      "referenceUrl": "https://www.lottemart.vn/media/catalog/product/cache/0x0/8/8/8801111611312.jpg.webp"
+    },
+    "rubricVersion": "v15"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +48,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "image needs staff photo, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-15T18:21:25Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini redraw from current-pack reference"
+    },
+    {
+      "at": "2026-10-15T18:21:26.842Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-15T18:21:26.842Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }
