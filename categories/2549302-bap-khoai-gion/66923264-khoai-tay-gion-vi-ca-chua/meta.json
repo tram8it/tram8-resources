@@ -19,10 +19,15 @@
   },
   "status": "READY",
   "image": {
-    "decision": "CROP",
-    "reason": "I9: ảnh không 1:1; packshot nền trắng, crop về 1:1, đã xem lại đạt",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "REPLACE",
+    "reason": "Chủ gửi ảnh gói KALANXI 浓茄脆薯 45 g nền trắng (ảnh AI/ảnh xử lý); tô trắng nền xám, cắt sát gói, chuẩn hoá bằng make_image.py",
+    "source": {
+      "ownerProvided": true,
+      "aiGenerated": true,
+      "note": "ảnh chủ gửi qua chat",
+      "receivedAt": "2026-10-15"
+    },
+    "rubricVersion": "v8"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -49,10 +54,22 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-15T01:40:00.000Z",
+      "by": "owner",
+      "status": "READY",
+      "note": "owner sent cleaner pack image"
+    },
+    {
+      "at": "2026-10-15T02:48:13.624Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-15T02:41:31.197Z",
+    "at": "2026-10-15T02:48:13.624Z",
     "fields": [
       "description",
       "image"
