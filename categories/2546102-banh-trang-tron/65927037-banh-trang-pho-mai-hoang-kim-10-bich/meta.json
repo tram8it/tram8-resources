@@ -19,10 +19,14 @@
   },
   "status": "ASK_OWNER",
   "image": {
-    "decision": "ASK_OWNER",
-    "reason": "I8: tên ghi '10 Bịch' nhưng đơn vị là Gói và ảnh chỉ có 1 gói 70g",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "REPLACE",
+    "reason": "Ảnh 'Gian hàng chính hãng' Mèo Food chủ gửi (Bánh tráng phô mai hoàng kim 70 g); tách gói khỏi nền cam banner (tô nền bằng flood fill, bỏ logo/khung gian hàng); giữ nguyên đạo cụ hãng đặt chồng lên góc gói (ớt/tôm/phô mai)",
+    "source": {
+      "ownerProvided": true,
+      "note": "ảnh gian hàng chính hãng Mèo Food (banhtrangmeofood.com) chủ gửi",
+      "receivedAt": "2026-10-15"
+    },
+    "rubricVersion": "v6"
   },
   "description": {
     "decision": "ASK_OWNER",
@@ -43,6 +47,12 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "batch b09 review: image ASK_OWNER, description ASK_OWNER"
+    },
+    {
+      "at": "2026-10-15T02:30:00.000Z",
+      "by": "owner",
+      "status": "ASK_OWNER",
+      "note": "brand image from Mèo Food official store"
     }
   ]
 }

@@ -19,10 +19,14 @@
   },
   "status": "READY",
   "image": {
-    "decision": "CROP",
-    "reason": "I9: packshot nền trắng, đúng SP, chỉ chưa 1:1 → crop (phóng ~2x, xem lại đạt)",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "REPLACE",
+    "reason": "Ảnh 'Gian hàng chính hãng' Mèo Food chủ gửi (Bánh tráng cuộn tôm bơ 70 g); tách gói khỏi nền cam banner (tô nền bằng flood fill, bỏ logo/khung gian hàng); giữ nguyên đạo cụ hãng đặt chồng lên góc gói (ớt/tôm/phô mai)",
+    "source": {
+      "ownerProvided": true,
+      "note": "ảnh gian hàng chính hãng Mèo Food (banhtrangmeofood.com) chủ gửi",
+      "receivedAt": "2026-10-15"
+    },
+    "rubricVersion": "v6"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -49,10 +53,22 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-15T02:30:00.000Z",
+      "by": "owner",
+      "status": "READY",
+      "note": "brand image from Mèo Food official store"
+    },
+    {
+      "at": "2026-10-15T03:18:04.929Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-15T02:50:29.267Z",
+    "at": "2026-10-15T03:18:04.929Z",
     "fields": [
       "description",
       "image"
