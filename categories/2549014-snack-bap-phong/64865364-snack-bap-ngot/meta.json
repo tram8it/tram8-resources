@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "IN_PROGRESS",
+  "status": "ASK_OWNER",
   "image": {
     "decision": "REPLACE",
     "reason": "I3/I4: ảnh chụp điện thoại cầm tay, nền nhà; thay bằng ảnh bao bì hiện hành trên trang hãng Oishi (Snack Bắp Ngọt, https://oishi.com.vn/category/Snack); ảnh hãng là ảnh chung của vị, không in khối lượng",
@@ -36,7 +36,7 @@
     },
     "rubricVersion": "v4"
   },
-  "question": null,
+  "question": "\"Snack bắp ngọt\" (mã 8934803026078) đang dùng chung ảnh với \"Snack Oishi bắp ngọt 40g\" (mã 8934803043075), tên KiotViet không ghi khối lượng. Ảnh cũ trên KiotViet là gói ghi 80g. Mã này có đúng là gói 80g không? Nếu đúng thì gắn nhãn \"80g\" lên ảnh (RUBRIC v16) và nên thêm 80g vào tên.",
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -55,6 +55,12 @@
       "by": "ai",
       "status": "IN_PROGRESS",
       "note": "Giữ lại: image.webp trùng hệt ảnh của SP 66064306 (mã vạch khác) — kiểm lại vị/quy cách bằng mắt trước khi gửi"
+    },
+    {
+      "at": "2026-10-15T17:17:54.573Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "ask owner: pack size (shares image with 40g SP 66064306)"
     }
   ]
 }

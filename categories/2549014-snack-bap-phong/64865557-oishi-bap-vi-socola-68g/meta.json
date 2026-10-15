@@ -17,19 +17,20 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "IN_PROGRESS",
+  "status": "READY",
   "image": {
     "decision": "CROP",
-    "reason": "I9: packshot nền trắng, đúng bao bì Snack Bắp Vị Sôcôla như trang hãng, chỉ chưa 1:1 (ảnh hãng chỉ 200px nên giữ ảnh này); đã crop và xem lại",
+    "reason": "I9: packshot nền trắng, đúng bao bì Snack Bắp Vị Sôcôla như trang hãng, chỉ chưa 1:1 (ảnh hãng chỉ 200px nên giữ ảnh này); đã crop và xem lại; gắn nhãn \"68g\" (v16, ảnh dùng chung với SP 64865765; khối lượng theo tên KiotViet)",
     "source": null,
-    "rubricVersion": "v4",
+    "rubricVersion": "v16",
     "vivid": {
       "rubricVersion": "v10",
       "saturationGain": 1.089,
       "contrastGain": 1.028,
       "toneGain": 1.016,
-      "gamma": 1.0
-    }
+      "gamma": 1
+    },
+    "sizeTag": "68g"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -65,6 +66,26 @@
       "by": "ai",
       "status": "IN_PROGRESS",
       "note": "tone.py --vivid: white balance/levels + brand-like colour (owner request)"
+    },
+    {
+      "at": "2026-10-15T17:17:34.611Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "size tag \"68g\" added (RUBRIC v16): same pack as 64865765, different weight — checked by eye"
+    },
+    {
+      "at": "2026-10-15T17:18:06.871Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-15T17:18:06.871Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }
