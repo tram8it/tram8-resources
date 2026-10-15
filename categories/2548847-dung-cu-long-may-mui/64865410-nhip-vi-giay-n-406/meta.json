@@ -22,7 +22,14 @@
     "decision": "CROP",
     "reason": "I8/I9: ảnh gồm cả mặt trước và mặt sau vỉ; cắt giữ mặt trước rồi đưa về 1:1, xem lại đạt (hơi mềm, chấp nhận theo v4)",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v4",
+    "vivid": {
+      "rubricVersion": "v10",
+      "saturationGain": 1.25,
+      "contrastGain": 1.08,
+      "toneGain": 1.079,
+      "gamma": 1.0
+    }
   },
   "description": {
     "decision": "REWRITE",
@@ -46,6 +53,12 @@
       "by": "ai",
       "status": "READY",
       "note": "batch f1: image CROP (front of blister only), description REWRITE from nghia.vn"
+    },
+    {
+      "at": "2026-10-15T09:16:17Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "tone.py --vivid: white balance/levels + brand-like colour (owner request)"
     }
   ]
 }

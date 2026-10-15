@@ -22,7 +22,14 @@
     "decision": "CROP",
     "reason": "I9: ảnh hũ đã tách nền trắng, đúng SP (mã vạch 8936236143087 trên nhãn), chỉ chưa 1:1; đã crop, hơi mềm nhưng đạt (v4)",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v4",
+    "vivid": {
+      "rubricVersion": "v10",
+      "saturationGain": 1.249,
+      "contrastGain": 1.08,
+      "toneGain": 1.121,
+      "gamma": 1.0
+    }
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -49,6 +56,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-15T09:16:17Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "tone.py --vivid: white balance/levels + brand-like colour (owner request)"
     }
   ],
   "submitted": {

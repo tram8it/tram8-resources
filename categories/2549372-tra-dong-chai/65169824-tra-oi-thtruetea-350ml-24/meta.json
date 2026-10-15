@@ -22,7 +22,14 @@
     "decision": "CROP",
     "reason": "I9: packshot nền trắng đúng SP (Trà Ổi Tự Nhiên 350 ml), chỉ chưa 1:1; xem lại sau crop đạt (hơi mềm, v4)",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v4",
+    "vivid": {
+      "rubricVersion": "v10",
+      "saturationGain": 1.051,
+      "contrastGain": 1.016,
+      "toneGain": 1.056,
+      "gamma": 1.0
+    }
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -46,6 +53,12 @@
       "by": "ai",
       "status": "READY",
       "note": "review b08: image CROP, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-15T09:16:17Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "tone.py --vivid: white balance/levels + brand-like colour (owner request)"
     }
   ]
 }

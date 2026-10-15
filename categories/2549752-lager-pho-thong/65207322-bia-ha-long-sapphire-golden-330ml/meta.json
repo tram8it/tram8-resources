@@ -22,7 +22,14 @@
     "decision": "CROP",
     "reason": "I9: ảnh 450×600, SP nhỏ → crop 1:1, đã xem lại đạt",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v4",
+    "vivid": {
+      "rubricVersion": "v10",
+      "saturationGain": 1.04,
+      "contrastGain": 1.013,
+      "toneGain": 1.07,
+      "gamma": 1.0
+    }
   },
   "description": {
     "decision": "KEEP",
@@ -49,6 +56,12 @@
       "by": "ai",
       "status": "READY",
       "note": "description review v9: keep existing KiotViet description"
+    },
+    {
+      "at": "2026-10-15T09:16:17Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "tone.py --vivid: white balance/levels + brand-like colour (owner request)"
     }
   ]
 }

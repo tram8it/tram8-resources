@@ -22,7 +22,14 @@
     "decision": "CROP",
     "reason": "I9: packshot nền trắng, đúng SP nhưng nhỏ trong khung (~64%); crop về chuẩn (phóng ~2,2 lần, xem lại đạt)",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v4",
+    "vivid": {
+      "rubricVersion": "v10",
+      "saturationGain": 1.049,
+      "contrastGain": 1.016,
+      "toneGain": 1.0,
+      "gamma": 1.0
+    }
   },
   "description": {
     "decision": "KEEP",
@@ -43,6 +50,12 @@
       "by": "ai",
       "status": "READY",
       "note": "b13: image CROP, description KEEP"
+    },
+    {
+      "at": "2026-10-15T09:16:17Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "tone.py --vivid: white balance/levels + brand-like colour (owner request)"
     }
   ]
 }

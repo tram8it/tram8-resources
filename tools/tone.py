@@ -4,6 +4,7 @@
     python3 tools/tone.py <image.webp> <out.webp>      # adjust one image
     python3 tools/tone.py --check <image.webp>          # measure only
     python3 tools/tone.py --scan [categories/<dir>]     # list underexposed finished images
+    python3 tools/tone.py --vivid <image.webp> <out.webp>  # tone, then brand-like colour (RUBRIC v10)
 
 Works on finished images (white background, product centred, from
 make_image.py / cutout.py). Only the product pixels (non-white) are measured.
@@ -110,6 +111,39 @@ def adjust(path: str, out: str) -> dict:
     }
 
 
+VIVID_SAT = 1.25       # saturation boost for a dull photo (RUBRIC v10)
+VIVID_CONTRAST = 1.08  # contrast boost around the product's mean luminance
+VIVID_FULL_BELOW = 0.40  # product mean saturation at or below this gets the full boost
+VIVID_NONE_ABOVE = 0.75  # at or above this it is already as vivid as a brand render: no boost
+
+
+def vivid(path: str, out: str) -> dict:
+    """tone.py first, then saturation/contrast on product pixels only, scaled down for
+    images that are already vivid so a brand render is not pushed into clipping."""
+    import numpy as np
+
+    info = adjust(path, out)
+    img = Image.open(out).convert("RGB")
+    rgb = np.asarray(img).astype(np.float32)
+    mask = rgb.min(axis=2) < WHITE
+    if not mask.any():
+        return {**info, "vivid": 0.0}
+    hsv = np.asarray(img.convert("HSV")).astype(np.float32)
+    sat = float(hsv[..., 1][mask].mean() / 255)
+    t = min(1.0, max(0.0, (VIVID_NONE_ABOVE - sat) / (VIVID_NONE_ABOVE - VIVID_FULL_BELOW)))
+    s_gain = 1 + (VIVID_SAT - 1) * t
+    c_gain = 1 + (VIVID_CONTRAST - 1) * t
+    if t > 0:
+        lum = 0.299 * rgb[..., 0] + 0.587 * rgb[..., 1] + 0.114 * rgb[..., 2]
+        mean_l = float(lum[mask].mean())
+        boosted = lum[..., None] + (rgb - lum[..., None]) * s_gain  # saturation around own grey
+        boosted = mean_l + (boosted - mean_l) * c_gain  # contrast around product mean
+        rgb = np.where(mask[..., None], np.clip(boosted, 0, 255), rgb)
+        Image.fromarray(rgb.round().astype(np.uint8)).save(out, "WEBP", quality=86, method=6)
+    return {**info, "saturationBefore": round(sat, 3), "saturationGain": round(s_gain, 3),
+            "contrastGain": round(c_gain, 3), "changed": info["changed"] or t > 0}
+
+
 def scan(root: str):
     rows = []
     for f in sorted(Path(root).glob("**/image.webp")):
@@ -125,6 +159,8 @@ def scan(root: str):
 def main(argv):
     if len(argv) == 3 and argv[1] == "--check":
         print(json.dumps(measure(argv[2]), ensure_ascii=False))
+    elif len(argv) == 4 and argv[1] == "--vivid":
+        print(json.dumps(vivid(argv[2], argv[3]), ensure_ascii=False))
     elif len(argv) in (2, 3) and argv[1] == "--scan":
         scan(argv[2] if len(argv) == 3 else "categories")
     elif len(argv) == 3:

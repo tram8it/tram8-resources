@@ -22,7 +22,14 @@
     "decision": "CROP",
     "reason": "I7/I8: ảnh catalogue có logo \"hoco.\" và chú thích chữ chèn, gồm cả mặt trước + mặt sau hộp; cắt lấy mặt trước hộp, đặt 1:1, đã xem lại (hơi mềm, đạt v4)",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v4",
+    "vivid": {
+      "rubricVersion": "v10",
+      "saturationGain": 1.25,
+      "contrastGain": 1.08,
+      "toneGain": 1.0,
+      "gamma": 1.0
+    }
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +50,12 @@
       "by": "ai",
       "status": "READY",
       "note": "image CROP (front of pack only), description WRITE_NEW (pack text)"
+    },
+    {
+      "at": "2026-10-15T09:16:17Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "tone.py --vivid: white balance/levels + brand-like colour (owner request)"
     }
   ]
 }

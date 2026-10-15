@@ -22,7 +22,14 @@
     "decision": "CROP",
     "reason": "I9: packshot nền trắng, đúng SP nhưng không phải 1:1; crop 1:1 đã xem lại đạt (phóng ~2,5x, v4); gói 素耳尖 泡椒味 16 g (vị ớt ngâm)",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v4",
+    "vivid": {
+      "rubricVersion": "v10",
+      "saturationGain": 1.25,
+      "contrastGain": 1.08,
+      "toneGain": 1.15,
+      "gamma": 1.0
+    }
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -49,6 +56,12 @@
       "by": "ai",
       "status": "IN_PROGRESS",
       "note": "Giữ lại: image.webp trùng hệt ảnh của SP 67201485 (mã vạch khác) — kiểm lại vị/quy cách bằng mắt trước khi gửi"
+    },
+    {
+      "at": "2026-10-15T09:16:17Z",
+      "by": "ai",
+      "status": "IN_PROGRESS",
+      "note": "tone.py --vivid: white balance/levels + brand-like colour (owner request)"
     }
   ]
 }

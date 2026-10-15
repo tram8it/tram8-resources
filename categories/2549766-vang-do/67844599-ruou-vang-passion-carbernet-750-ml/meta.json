@@ -22,7 +22,14 @@
     "decision": "CROP",
     "reason": "I8/I9: ảnh gồm mặt trước và mặt sau 2 chai, có viền xám, không 1:1; cắt lấy chai mặt trước, đặt giữa nền trắng, xem lại đạt",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v4",
+    "vivid": {
+      "rubricVersion": "v10",
+      "saturationGain": 1.25,
+      "contrastGain": 1.08,
+      "toneGain": 1.149,
+      "gamma": 0.8
+    }
   },
   "description": {
     "decision": "KEEP",
@@ -49,6 +56,12 @@
       "by": "ai",
       "status": "READY",
       "note": "description review v9: keep existing KiotViet description"
+    },
+    {
+      "at": "2026-10-15T09:16:17Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "tone.py --vivid: white balance/levels + brand-like colour (owner request)"
     }
   ]
 }

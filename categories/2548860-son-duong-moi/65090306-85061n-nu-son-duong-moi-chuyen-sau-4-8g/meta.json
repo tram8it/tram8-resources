@@ -22,7 +22,14 @@
     "decision": "CROP",
     "reason": "I7/I9: ảnh banner có chữ chèn ('24h', '4,8 g/5,5 ml', 'son dưỡng ẩm chuyên sâu'); vỉ NIVEA Original Care nằm trọn trên nền trắng → cắt riêng vỉ, đặt giữa 1:1, phóng ~1,9 lần, đã xem lại đạt. (Trang hãng VN chỉ có ảnh 'Essential Care' đời cũ nên không dùng)",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v4",
+    "vivid": {
+      "rubricVersion": "v10",
+      "saturationGain": 1.032,
+      "contrastGain": 1.01,
+      "toneGain": 1.0,
+      "gamma": 1.0
+    }
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -46,6 +53,12 @@
       "by": "ai",
       "status": "READY",
       "note": "batch f3: image CROP, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-15T09:16:17Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "tone.py --vivid: white balance/levels + brand-like colour (owner request)"
     }
   ]
 }

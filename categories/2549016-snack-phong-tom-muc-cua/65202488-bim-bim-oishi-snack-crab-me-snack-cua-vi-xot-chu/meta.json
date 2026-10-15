@@ -22,7 +22,14 @@
     "decision": "CROP",
     "reason": "I9: packshot nền trắng, đúng bao bì Crab Me! như trên oishi.com.vn nhưng không phải 1:1; crop về 1:1 (xem lại đạt)",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v4",
+    "vivid": {
+      "rubricVersion": "v10",
+      "saturationGain": 1.031,
+      "contrastGain": 1.01,
+      "toneGain": 1.076,
+      "gamma": 0.8
+    }
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -52,6 +59,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-15T09:16:17Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "tone.py --vivid: white balance/levels + brand-like colour (owner request)"
     }
   ],
   "submitted": {

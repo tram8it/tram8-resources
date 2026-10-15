@@ -22,7 +22,14 @@
     "decision": "CROP",
     "reason": "I9: ảnh 450×600 không 1:1; ảnh tách nền trắng chai mini Jägermeister 0,02 L nguyên vẹn → crop 1:1, phóng ~2,6 lần, hơi mềm nhưng đạt theo v4",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v4",
+    "vivid": {
+      "rubricVersion": "v10",
+      "saturationGain": 1.227,
+      "contrastGain": 1.073,
+      "toneGain": 1.103,
+      "gamma": 0.8
+    }
   },
   "description": {
     "decision": "REWRITE",
@@ -43,6 +50,12 @@
       "by": "ai",
       "status": "READY",
       "note": "batch f3: image CROP, description REWRITE"
+    },
+    {
+      "at": "2026-10-15T09:16:17Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "tone.py --vivid: white balance/levels + brand-like colour (owner request)"
     }
   ]
 }

@@ -22,7 +22,14 @@
     "decision": "CROP",
     "reason": "I9: packshot nền trắng, đúng SP nhưng không phải 1:1; crop 1:1 đã xem lại đạt (phóng ~2,4x, v4); lon Chill Light 'Mlem' vị việt quất, đúng bao bì trên trang hãng",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v4",
+    "vivid": {
+      "rubricVersion": "v10",
+      "saturationGain": 1.25,
+      "contrastGain": 1.08,
+      "toneGain": 1.079,
+      "gamma": 1.0
+    }
   },
   "description": {
     "decision": "REWRITE",
@@ -46,6 +53,12 @@
       "by": "ai",
       "status": "READY",
       "note": "b20 review: image CROP, description REWRITE"
+    },
+    {
+      "at": "2026-10-15T09:16:17Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "tone.py --vivid: white balance/levels + brand-like colour (owner request)"
     }
   ]
 }

@@ -22,7 +22,14 @@
     "decision": "CROP",
     "reason": "I9: ảnh không 1:1; packshot nền trắng, crop về 1:1, đã xem lại đạt",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v4",
+    "vivid": {
+      "rubricVersion": "v10",
+      "saturationGain": 1.25,
+      "contrastGain": 1.08,
+      "toneGain": 1.15,
+      "gamma": 1.0
+    }
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -49,6 +56,12 @@
       "by": "ai",
       "status": "IN_PROGRESS",
       "note": "Giữ lại: image.webp trùng hệt ảnh của SP 66922789 (mã vạch khác) — kiểm lại vị/quy cách bằng mắt trước khi gửi"
+    },
+    {
+      "at": "2026-10-15T09:16:17Z",
+      "by": "ai",
+      "status": "IN_PROGRESS",
+      "note": "tone.py --vivid: white balance/levels + brand-like colour (owner request)"
     }
   ]
 }

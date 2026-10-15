@@ -22,7 +22,14 @@
     "decision": "CROP",
     "reason": "I9: ảnh 300 px nền trắng, đúng chai Nivea Bright Acne Oil Control Makeup Clear 125 ml nhưng sát mép trên; crop thêm lề (phóng ~3 lần, hơi mềm nhưng đạt theo v4). SP không còn trên trang Nivea",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v4",
+    "vivid": {
+      "rubricVersion": "v10",
+      "saturationGain": 1.25,
+      "contrastGain": 1.08,
+      "toneGain": 1.0,
+      "gamma": 1.0
+    }
   },
   "description": {
     "decision": "REWRITE",
@@ -43,6 +50,12 @@
       "by": "ai",
       "status": "READY",
       "note": "b16 review: image CROP, description REWRITE"
+    },
+    {
+      "at": "2026-10-15T09:16:17Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "tone.py --vivid: white balance/levels + brand-like colour (owner request)"
     }
   ]
 }
