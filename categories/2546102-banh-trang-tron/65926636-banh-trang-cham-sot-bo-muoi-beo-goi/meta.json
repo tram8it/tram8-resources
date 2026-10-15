@@ -19,10 +19,15 @@
   },
   "status": "READY",
   "image": {
-    "decision": "CROP",
-    "reason": "I9: packshot nền trắng, đúng SP, chỉ chưa 1:1 → crop (phóng ~2x, xem lại đạt)",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "REPLACE",
+    "reason": "Chủ gửi ảnh render gói Chấm sốt Bơ muối béo nét hơn ảnh cũ (cùng bao bì); nền trắng sẵn, chỉ chuẩn hoá 1000×1000. Có thể là ảnh AI làm nét lại: chữ con dấu nhỏ có thể méo",
+    "source": {
+      "ownerProvided": true,
+      "aiGenerated": true,
+      "note": "ảnh chủ gửi qua chat, có dấu hiệu AI làm lại",
+      "receivedAt": "2026-10-15"
+    },
+    "rubricVersion": "v8"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -49,6 +54,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-15T08:19:36Z",
+      "by": "owner",
+      "status": "READY",
+      "note": "owner sent a sharper pack render; replaced image"
     }
   ],
   "submitted": {
