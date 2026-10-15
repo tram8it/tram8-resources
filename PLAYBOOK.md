@@ -15,6 +15,7 @@ và `STATUS.md` rồi làm tiếp đúng chỗ — không dựa vào trí nhớ 
 **Giới hạn cứng (vi phạm là dừng):**
 
 1. **Nguồn ảnh/mô tả chỉ từ trang chính hãng** của nhà sản xuất/thương hiệu (danh sách trong
+   `data/brands.json`), hoặc trang **nhà phân phối đang cấp hàng cho Trạm 8** (RUBRIC v11, `role: "distributor"` trong
    `data/brands.json`). **Cấm** lấy từ nhà bán lẻ/sàn: xem `data/blocked-domains.json`
    (Bách Hóa Xanh, WinMart, Shopee, …). Không tìm được trên trang hãng → **CẦN CHỤP**, không lấy tạm.
 2. **Không sửa cái đang đúng.** Khoảng 1/3 sản phẩm đã đúng: chỉ sửa cái **chắc chắn sai**.

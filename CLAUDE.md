@@ -12,7 +12,7 @@ Repo chuẩn bị **ảnh + mô tả sản phẩm** cho tram8.vn (chuỗi cửa 
 ## Luật cứng (vi phạm là dừng lại, hỏi chủ)
 - **Xem từng sản phẩm bằng mắt** (mở ảnh ra xem). Script chỉ hỗ trợ đo/crop/tải — không quyết định thay.
 - **Chỉ sửa cái chắc chắn sai.** Không chắc → `status: "ASK_OWNER"` + `question` cụ thể. Không đoán.
-- **Nguồn chỉ từ trang chính hãng** trong `data/brands.json`. Domain trong `data/blocked-domains.json`
+- **Nguồn chỉ từ trang chính hãng** hoặc **trang NPP đang cấp hàng cho Trạm 8** (RUBRIC v11) trong `data/brands.json`. Domain trong `data/blocked-domains.json`
   (Bách Hóa Xanh, WinMart, sàn TMĐT…) **cấm tuyệt đối**. Không tìm được → `NEEDS_PHOTO`.
 - **Không bịa** dữ kiện mô tả. Không chép nguyên văn quảng cáo của hãng.
 - `meta.json` là nguồn sự thật; `STATUS.md`, `NEEDS_PHOTO.csv`, `ASK_OWNER.md`, `review/*.html`
