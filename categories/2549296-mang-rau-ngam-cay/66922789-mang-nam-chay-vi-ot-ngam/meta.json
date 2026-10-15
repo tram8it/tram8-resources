@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "IN_PROGRESS",
+  "status": "ASK_OWNER",
   "image": {
     "decision": "CROP",
     "reason": "I9: packshot nền trắng, đúng SP nhưng không phải 1:1; crop 1:1 đã xem lại đạt (phóng ~2,5x, v4); gói 素耳尖 泡椒味 16 g (vị ớt ngâm)",
@@ -37,7 +37,7 @@
     "source": null,
     "rubricVersion": "v4"
   },
-  "question": null,
+  "question": "\"Măng Nấm Chay Vị Ớt Ngâm\" (mã 6947093141040) đang dùng đúng ảnh gói 素耳尖 泡椒味 16 g — đây là \"Tai heo chay vị ớt ngâm\" (mã 6947093141095), ảnh trên KiotViet của hai mã cũng giống hệt nhau. Măng nấm chay là gói khác (cần ảnh riêng — chủ gửi ảnh/ cho biết tên in trên gói), hay hai mã là cùng một SP?",
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -62,6 +62,12 @@
       "by": "ai",
       "status": "IN_PROGRESS",
       "note": "tone.py --vivid: white balance/levels + brand-like colour (owner request)"
+    },
+    {
+      "at": "2026-10-15T17:17:54.573Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "ask owner: image is the 素耳尖 (vegetarian ear) pack, same as SP 67201485"
     }
   ]
 }
