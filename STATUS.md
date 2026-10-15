@@ -2,13 +2,13 @@
 
 > Sinh tự động bởi `node tools/status.mjs`. **Không sửa tay.** Nguồn sự thật là `meta.json` của từng SP.
 
-Tổng 2448 SP · đã xem 2428 (99%) · xong 352 · chờ chủ duyệt 988 · cần chụp 868 · hỏi chủ 220
+Tổng 2448 SP · đã xem 2428 (99%) · xong 352 · chờ chủ duyệt 986 · cần chụp 868 · hỏi chủ 222
 
 Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` = giữ nguyên + đã lên web.
 
 | # | Category | DT 90 ngày | Tổng | Chưa xem | Giữ nguyên | Đang làm | Cần chụp | Hỏi chủ | Chờ duyệt | Đã duyệt | Đã lên web |
 |---|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| 1 | Snack khoai tây | 0.0tr | 75 | 0 | 0 | 0 | 0 | 18 | 57 | 0 | 0 |
+| 1 | Snack khoai tây | 0.0tr | 75 | 0 | 0 | 0 | 0 | 19 | 56 | 0 | 0 |
 | 2 | Snack bắp & phồng | 0.0tr | 64 | 0 | 0 | 0 | 19 | 16 | 29 | 0 | 0 |
 | 3 | Kem que | 0.0tr | 60 | 0 | 0 | 0 | 24 | 5 | 31 | 0 | 0 |
 | 4 | Socola thanh | 0.0tr | 53 | 0 | 0 | 0 | 11 | 5 | 37 | 0 | 0 |
@@ -62,7 +62,7 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 | 52 | Sữa hạt | 0.0tr | 16 | 0 | 0 | 0 | 8 | 1 | 7 | 0 | 0 |
 | 53 | Que cay / tăm cay (latiao) | 0.0tr | 15 | 0 | 0 | 0 | 12 | 1 | 2 | 0 | 0 |
 | 54 | Bánh ngọt | 0.0tr | 15 | 0 | 0 | 0 | 13 | 1 | 1 | 0 | 0 |
-| 55 | Chân gà | 0.0tr | 15 | 0 | 0 | 0 | 9 | 1 | 5 | 0 | 0 |
+| 55 | Chân gà | 0.0tr | 15 | 0 | 0 | 0 | 9 | 2 | 4 | 0 | 0 |
 | 56 | Cocktail lon RTD | 0.0tr | 15 | 0 | 3 | 0 | 3 | 0 | 9 | 0 | 0 |
 | 57 | Sữa chua kiểu Hy Lạp | 0.0tr | 15 | 0 | 0 | 0 | 11 | 0 | 4 | 0 | 0 |
 | 58 | Măng & rau ngâm cay | 0.0tr | 15 | 0 | 0 | 0 | 11 | 1 | 3 | 0 | 0 |

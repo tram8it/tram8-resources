@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "READY",
+  "status": "ASK_OWNER",
   "image": {
     "decision": "CROP",
     "reason": "I9: packshot nền trắng, đúng SP nhưng không phải 1:1; crop 1:1 đã xem lại đạt (phóng ~2,0x, v4); gói Ponnie Meat Snack chân gà xốt mật ong 33 g",
@@ -37,7 +37,7 @@
     "source": null,
     "rubricVersion": "v4"
   },
-  "question": null,
+  "question": "Chân gà PÖNNIE xốt mật ong: Gemini vẽ lại 4 lần đều sai logo thành 'PÖNME' (ảnh gốc nhăn che chữ). Ảnh cũ đang chờ duyệt vẫn nghiêng. Chọn: (a) giữ ảnh cũ, (b) nhân viên chụp thẳng 1 gói rồi vẽ lại, (c) gửi ảnh gói phẳng/ảnh hãng.",
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -68,6 +68,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-15T18:09:39Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "image redo blocked; question for owner"
     }
   ],
   "submitted": {

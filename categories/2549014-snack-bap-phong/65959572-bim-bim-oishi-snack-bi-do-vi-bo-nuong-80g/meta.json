@@ -19,17 +19,15 @@
   },
   "status": "READY",
   "image": {
-    "decision": "CROP",
-    "reason": "I9: packshot nền trắng, đúng bao bì Snack Bí Đỏ Vị Bò Nướng như trang hãng, chỉ chưa 1:1; đã crop và xem lại",
-    "source": null,
-    "rubricVersion": "v4",
-    "vivid": {
-      "rubricVersion": "v10",
-      "saturationGain": 1.067,
-      "contrastGain": 1.022,
-      "toneGain": 1.036,
-      "gamma": 1
-    }
+    "decision": "REPLACE",
+    "reason": "I3/I5: ảnh cũ chụp nghiêng/nhăn/méo (chủ báo chưa đạt 16/10) → nắn phối cảnh ảnh hiện tại rồi Gemini vẽ lại packshot chính diện, thẳng đứng, nền trắng (v15); đã so chữ/logo với ảnh mẫu",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Google Gemini Pro (chủ yêu cầu)",
+      "generatedAt": "2026-10-16",
+      "reference": "ảnh KiotViet hiện tại, nắn phối cảnh"
+    },
+    "rubricVersion": "v16"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -71,10 +69,22 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-15T18:09:39Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "owner flagged pending image; Gemini front-on redraw from perspective-corrected photo"
+    },
+    {
+      "at": "2026-10-15T18:10:02.844Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-15T09:21:05.318Z",
+    "at": "2026-10-15T18:10:02.844Z",
     "fields": [
       "description",
       "image"
