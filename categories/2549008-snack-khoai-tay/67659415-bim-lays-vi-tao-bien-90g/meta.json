@@ -17,12 +17,15 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I4/I5: ảnh điện thoại chụp cận nhãn, không thấy nguyên gói; trang Lay's Việt Nam (laysvietnam.com) chặn bot, không có kênh chính chủ xác minh được → cần chụp",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I3: ảnh hiện tại chụp cận nhãn; dùng ảnh gói 53g cùng vị, cùng thiết kế (v6) — ảnh nhân viên không thấy phần trên gói 90g, cần chủ xác nhận khi duyệt",
+    "source": {
+      "sameAsProduct": "64865762",
+      "note": "dùng ảnh Lay's Vị Tảo Biển Nori 53g (cùng thiết kế, cùng vị) — RUBRIC v6"
+    },
+    "rubricVersion": "v15"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +46,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "batch b01: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-15T15:16:21Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "image replaced per RUBRIC v15 (brand / Gemini redraw)"
+    },
+    {
+      "at": "2026-10-15T15:18:01.867Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-15T15:18:01.867Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }
