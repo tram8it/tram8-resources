@@ -76,14 +76,16 @@ if (command === "submit") {
     if (m.master?.weightGram) body.weightGram = m.master.weightGram;
     if (m.master?.brand) body.brand = m.master.brand;
     const descriptionPath = join(p.path, "description.md");
-    if (existsSync(descriptionPath)) body.description = (await readFile(descriptionPath, "utf8")).trim();
+    // A kept description (KEEP) stays as it is on KiotViet; only rewritten ones are proposed.
+    const rewritesDescription = ["REWRITE", "WRITE_NEW"].includes(m.description?.decision);
+    if (rewritesDescription && existsSync(descriptionPath)) body.description = (await readFile(descriptionPath, "utf8")).trim();
     const imagePath = join(p.path, "image.webp");
     if (existsSync(imagePath))
       body.image = { mime: "image/webp", base64: (await readFile(imagePath)).toString("base64") };
     body.note = [
       m.image?.reason && `Ảnh: ${m.image.reason}`,
       m.image?.source?.url && `Nguồn ảnh: ${m.image.source.url}`,
-      m.description?.source?.url && `Nguồn mô tả: ${m.description.source.url}`,
+      rewritesDescription && m.description?.source?.url && `Nguồn mô tả: ${m.description.source.url}`,
       m.master?.reason,
     ]
       .filter(Boolean)
