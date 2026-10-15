@@ -19,10 +19,14 @@
   },
   "status": "READY",
   "image": {
-    "decision": "CROP",
-    "reason": "I9: packshot nền trắng, đúng SP, chỉ chưa 1:1 → crop (phóng ~2x, xem lại đạt)",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "REPLACE",
+    "reason": "Ảnh 'Gian hàng chính hãng' Mèo Food chủ gửi (Bánh tráng tỏi bò 70 g); tách gói khỏi nền cam banner, giữ đạo cụ hãng (thịt bò) chồng lên góc gói",
+    "source": {
+      "ownerProvided": true,
+      "note": "ảnh gian hàng chính hãng Mèo Food chủ gửi",
+      "receivedAt": "2026-10-15"
+    },
+    "rubricVersion": "v6"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -49,10 +53,22 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-15T02:45:00.000Z",
+      "by": "owner",
+      "status": "READY",
+      "note": "brand image from Mèo Food official store"
+    },
+    {
+      "at": "2026-10-15T03:21:14.387Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-15T02:50:29.267Z",
+    "at": "2026-10-15T03:21:14.387Z",
     "fields": [
       "description",
       "image"
