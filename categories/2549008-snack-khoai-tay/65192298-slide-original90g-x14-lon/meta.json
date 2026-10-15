@@ -17,11 +17,16 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "IN_PROGRESS",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I2: chủ báo ảnh đang chờ duyệt phần lớn là bao bì cũ/không đạt (15/10) → vẽ lại bằng Gemini theo bao bì mới nhất; mẫu bao bì hiện hành: https://www.lottemart.vn/media/catalog/product/cache/0x0/8/9/8934680012010-1.jpg.webp. Gemini hết lượt 15/10, mở lại 16/10 20:48",
-    "source": null,
+    "reason": "I2: bao bì cũ/không đạt (chủ báo 15/10) → Gemini vẽ lại theo ảnh mẫu bao bì hiện hành (v15) — khớp mẫu Lotte: Slide, ORIGINAL FLAVOR, Bánh lát khoai tây vị nguyên bản",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Google Gemini (chủ yêu cầu, RUBRIC v12–v15)",
+      "generatedAt": "2026-10-15",
+      "referenceUrl": "https://www.lottemart.vn/media/catalog/product/cache/0x0/8/9/8934680012010-1.jpg.webp"
+    },
     "rubricVersion": "v15"
   },
   "description": {
@@ -67,10 +72,22 @@
       "by": "ai",
       "status": "IN_PROGRESS",
       "note": "owner: pending image not acceptable (outdated pack); redo with Gemini from current-pack reference"
+    },
+    {
+      "at": "2026-10-15T16:50:31.431Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "image redrawn with Gemini from current-pack reference (RUBRIC v15)"
+    },
+    {
+      "at": "2026-10-15T16:51:00.403Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-15T09:20:24.338Z",
+    "at": "2026-10-15T16:51:00.403Z",
     "fields": [
       "description",
       "image"

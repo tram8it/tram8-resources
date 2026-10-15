@@ -17,11 +17,16 @@
     "description": "<p style=\"margin-bottom:0px;text-align:justify;font-style:normal;font-variant-caps:normal;font-width:normal;font-family:'Helvetica Neue';font-kerning:auto;font-variant-alternates:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variant-position:normal;font-variant-emoji:normal;font-feature-settings:normal;font-optical-sizing:auto;font-variation-settings:normal;\">Snack khoai tây Pringles Original 42g được tẩm ướp kỹ lưỡng mang đến hương vị hấp dẫn của những lát khoai tây giòn rụm. Sản phẩm có thiết kế đóng lon kín, nhỏ gọn, tiện lợi và rất dễ bảo quản.</p><p style=\"margin-bottom:0px;font-style:normal;font-variant-caps:normal;font-width:normal;font-family:'Helvetica Neue';font-kerning:auto;font-variant-alternates:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variant-position:normal;font-variant-emoji:normal;font-feature-settings:normal;font-optical-sizing:auto;font-variation-settings:normal;min-height:15px;\"></p><p style=\"margin-bottom:0px;font-style:normal;font-variant-caps:normal;font-width:normal;font-family:'Helvetica Neue';font-kerning:auto;font-variant-alternates:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variant-position:normal;font-variant-emoji:normal;font-feature-settings:normal;font-optical-sizing:auto;font-variation-settings:normal;\">Thành phần: Khoai tây chiên (47.5%), dầu thực vật (dầu cọ) (có chứa chất chống oxy hóa (tertiary butylhydroquinone (INS 319), bột bắp, tinh bột mì, chất nhũ hóa (mono-and diglycerides of fatty acids (có nguồn gốc thực vật) (INS 471), maltodextrin, muối, chất điều chỉnh độ acid (acid citric) (INS 330)</p><p style=\"margin-bottom:0px;font-style:normal;font-variant-caps:normal;font-width:normal;font-family:'Helvetica Neue';font-kerning:auto;font-variant-alternates:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variant-position:normal;font-variant-emoji:normal;font-feature-settings:normal;font-optical-sizing:auto;font-variation-settings:normal;min-height:15px;\"></p><p style=\"margin-bottom:0px;font-style:normal;font-variant-caps:normal;font-width:normal;font-family:'Helvetica Neue';font-kerning:auto;font-variant-alternates:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variant-position:normal;font-variant-emoji:normal;font-feature-settings:normal;font-optical-sizing:auto;font-variation-settings:normal;\">Thương hiệu/ xuất sử sản phẩm: Pringles (Mỹ)</p><p style=\"margin-bottom:0px;font-style:normal;font-variant-caps:normal;font-width:normal;font-family:'Helvetica Neue';font-kerning:auto;font-variant-alternates:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variant-position:normal;font-variant-emoji:normal;font-feature-settings:normal;font-optical-sizing:auto;font-variation-settings:normal;min-height:15px;\"></p><p style=\"margin-bottom:0px;font-style:normal;font-variant-caps:normal;font-width:normal;font-family:'Helvetica Neue';font-kerning:auto;font-variant-alternates:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variant-position:normal;font-variant-emoji:normal;font-feature-settings:normal;font-optical-sizing:auto;font-variation-settings:normal;\">Bảo quản sản phẩm ở nơi khô ráo, thoáng mát. </p><p style=\"margin-bottom:0px;font-style:normal;font-variant-caps:normal;font-width:normal;font-family:'Helvetica Neue';font-kerning:auto;font-variant-alternates:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variant-position:normal;font-variant-emoji:normal;font-feature-settings:normal;font-optical-sizing:auto;font-variation-settings:normal;min-height:15px;\"></p><p style=\"margin-bottom:0px;font-style:normal;font-variant-caps:normal;font-width:normal;font-family:'Helvetica Neue';font-kerning:auto;font-variant-alternates:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variant-position:normal;font-variant-emoji:normal;font-feature-settings:normal;font-optical-sizing:auto;font-variation-settings:normal;\">Sản phẩm có thể dùng ăn trực tiếp.</p>",
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "IN_PROGRESS",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I2: chủ báo ảnh đang chờ duyệt phần lớn là bao bì cũ/không đạt (15/10) → vẽ lại bằng Gemini theo bao bì mới nhất; mẫu: catalogue NPP Hương Thủy (MT Chanel), trang 18 — bao bì Pringles hiện hành 'MORE POP-TASTIC!' — ORIGINAL 42g (lon nhỏ). Gemini hết lượt 15/10, mở lại 16/10 20:48",
-    "source": null,
+    "reason": "I2: bao bì cũ/không đạt (chủ báo 15/10) → Gemini vẽ lại theo ảnh mẫu bao bì hiện hành (v15) — khớp catalogue: lon thấp đỏ, MORE POP-TASTIC!, ORIGINAL (đã xoá mã vạch và chữ \"CONTENT\" Gemini bịa)",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Google Gemini (chủ yêu cầu, RUBRIC v12–v15)",
+      "generatedAt": "2026-10-15",
+      "reference": "catalogue NPP Hương Thủy (MT Chanel) trang 18 — bao bì Pringles hiện hành"
+    },
     "rubricVersion": "v15"
   },
   "description": {
@@ -61,12 +66,24 @@
       "by": "ai",
       "status": "IN_PROGRESS",
       "note": "owner: pending image not acceptable (outdated pack); redo with Gemini from current-pack reference"
+    },
+    {
+      "at": "2026-10-15T16:50:31.431Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "image redrawn with Gemini from current-pack reference (RUBRIC v15)"
+    },
+    {
+      "at": "2026-10-15T16:51:08.653Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: image"
     }
   ],
   "submitted": {
-    "at": "2026-10-15T02:50:49.957Z",
+    "at": "2026-10-15T16:51:08.653Z",
     "fields": [
-      "description"
+      "image"
     ],
     "hubStatus": "PENDING"
   }
