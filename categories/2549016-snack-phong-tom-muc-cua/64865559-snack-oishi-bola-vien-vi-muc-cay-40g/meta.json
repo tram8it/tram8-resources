@@ -17,15 +17,16 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "IN_PROGRESS",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I6: ảnh 92 px, nền không trắng; thay bằng ảnh Bola snack viên vị mực cay trên oishi.com.vn (cùng vị; trang hãng ghi 32/68 g, không có 40 g)",
+    "reason": "I6: ảnh 92 px, nền không trắng; thay bằng ảnh Bola snack viên vị mực cay trên oishi.com.vn (cùng vị; trang hãng ghi 32/68 g, không có 40 g); gắn nhãn \"40g\" (v16, ảnh dùng chung với SP 68364976; khối lượng theo tên KiotViet)",
     "source": {
       "url": "https://oishi.cdn.vccloud.vn/storage/products/November2025/DadMvloVXZTWiq4GW14A.png",
       "fetchedAt": "2026-10-13"
     },
-    "rubricVersion": "v4"
+    "rubricVersion": "v16",
+    "sizeTag": "40g"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -55,6 +56,26 @@
       "by": "ai",
       "status": "IN_PROGRESS",
       "note": "Giữ lại: image.webp trùng hệt ảnh của SP 68364976 (mã vạch khác) — kiểm lại vị/quy cách bằng mắt trước khi gửi"
+    },
+    {
+      "at": "2026-10-15T17:17:34.611Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "size tag \"40g\" added (RUBRIC v16): same pack as 68364976, different weight — checked by eye"
+    },
+    {
+      "at": "2026-10-15T17:18:13.259Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-15T17:18:13.259Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }
