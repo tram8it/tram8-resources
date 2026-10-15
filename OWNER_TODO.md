@@ -39,3 +39,12 @@ còn gì), đọc file này và **nhắc chủ từng mục còn mở**. Ghi th�
 - [ ] Mã trùng: 66542636 "Mì xào vị Gà phomai" (mã 8936028643153) và 68270021 "Volcano Koreno gà phô mai 118g" (mã 8936028641104) cùng là gói Volcano gà phô mai 118 g theo ảnh chủ gửi; hồ sơ Paldo chỉ có …1104 (gói) và …1111 (lốc 4+1) — kiểm tra mã …3153 có đúng không, gộp nếu trùng
 - [ ] Mã trùng: 4 cặp Feastables MrBeast (mã nội bộ 390000032… và mã vạch 85002788…) cùng một
       sản phẩm — gộp/tắt mã thừa
+- [ ] Mã trùng: 64865792 "Pepsi Black Lon 320x24 TRAY Lốc 6 - MT" (mã 8934588662119) và 65588350
+      "Nước ngọt Pepsi không calo 320ml" (mã 8934588662423) cùng là lon Pepsi không calo/không đường
+      320 ml, dùng chung một ảnh — mã cũ/mới của cùng SP? gộp/tắt mã thừa (ghi 16/10/2026, rà ảnh trùng)
+- [ ] Mã trùng: 64865480 "Mì dinh dưỡng khoai tây Omachi mì trộn xốt Spaghetti" (SP000661) và
+      67872752 "Omachi trộn xốt spaghetti gói" (SP878109) cùng là gói Omachi mì trộn xốt Spaghetti
+      90 g, dùng chung một ảnh — gộp/tắt mã thừa, thêm 90g vào tên mã SP878109 (ghi 16/10/2026)
+- Ghi chú 16/10/2026 (rà ảnh trùng, RUBRIC v16): hai mã Phở Cung Đình gà Hà Nội (64865678 / 64865804)
+  dùng chung ảnh nhưng 64865678 đã ngừng bán (mục "Ngừng kinh doanh" ở trên) nên không gắn nhãn khối
+  lượng. Nếu 64865678 còn bán lại thì cần nhãn "79g"/"76g".
