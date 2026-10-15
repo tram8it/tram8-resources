@@ -17,15 +17,16 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "IN_PROGRESS",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3, I4: ảnh chụp điện thoại, nền thùng/kệ hàng; thay bằng ảnh gói cùng vị trên trang hãng Oishi (oishi.com.vn › Snack › Pillows/Bola)",
+    "reason": "I3, I4: ảnh chụp điện thoại, nền thùng/kệ hàng; thay bằng ảnh gói cùng vị trên trang hãng Oishi (oishi.com.vn › Snack › Pillows/Bola); gắn nhãn \"68g\" (v16, ảnh dùng chung với SP 64865559; khối lượng theo tên KiotViet)",
     "source": {
       "url": "https://oishi.cdn.vccloud.vn/storage/products/November2025/DadMvloVXZTWiq4GW14A.png",
       "fetchedAt": "2026-10-13"
     },
-    "rubricVersion": "v4"
+    "rubricVersion": "v16",
+    "sizeTag": "68g"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -55,6 +56,26 @@
       "by": "ai",
       "status": "IN_PROGRESS",
       "note": "Giữ lại: image.webp trùng hệt ảnh của SP 64865559 (mã vạch khác) — kiểm lại vị/quy cách bằng mắt trước khi gửi"
+    },
+    {
+      "at": "2026-10-15T17:17:34.611Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "size tag \"68g\" added (RUBRIC v16): same pack as 64865559, different weight — checked by eye"
+    },
+    {
+      "at": "2026-10-15T17:18:14.283Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-15T17:18:14.283Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }
