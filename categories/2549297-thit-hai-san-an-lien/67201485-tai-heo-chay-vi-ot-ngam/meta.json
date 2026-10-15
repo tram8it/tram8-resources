@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "IN_PROGRESS",
+  "status": "READY",
   "image": {
     "decision": "CROP",
     "reason": "I9: ảnh không 1:1; packshot nền trắng, crop về 1:1, đã xem lại đạt",
@@ -28,7 +28,7 @@
       "saturationGain": 1.25,
       "contrastGain": 1.08,
       "toneGain": 1.15,
-      "gamma": 1.0
+      "gamma": 1
     }
   },
   "description": {
@@ -62,6 +62,26 @@
       "by": "ai",
       "status": "IN_PROGRESS",
       "note": "tone.py --vivid: white balance/levels + brand-like colour (owner request)"
+    },
+    {
+      "at": "2026-10-15T17:17:54.573Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "duplicate image checked by eye: correct pack for this SP (素耳尖 泡椒味 16 g); the other code 66922789 is asked"
+    },
+    {
+      "at": "2026-10-15T17:18:15.491Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-15T17:18:15.491Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }
