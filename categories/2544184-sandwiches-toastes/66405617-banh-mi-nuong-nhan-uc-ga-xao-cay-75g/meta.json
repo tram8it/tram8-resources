@@ -28,13 +28,10 @@
     "rubricVersion": "v4"
   },
   "description": {
-    "decision": "REWRITE",
-    "reason": "D3/D4: mô tả cũ chép nguyên văn khung công bố (chất liệu bao bì, \"khối lượng khác theo yêu cầu khách hàng\", lỗi chính tả), thiếu câu giới thiệu; viết lại từ trang hãng",
-    "source": {
-      "url": "https://cobibread.com/product/banh-mi-nuong-nhan-uc-ga-xao-cay/",
-      "fetchedAt": "2026-10-13"
-    },
-    "rubricVersion": "v4"
+    "decision": "KEEP",
+    "reason": "D-v9: mô tả hiện có đúng SP, đủ chi tiết — giữ nguyên (chủ: \"cái nào có mô tả tốt rồi thì thôi\")",
+    "source": null,
+    "rubricVersion": "v9"
   },
   "question": null,
   "history": [
@@ -49,6 +46,12 @@
       "by": "ai",
       "status": "READY",
       "note": "image REPLACE (cobibread.com pack), description REWRITE"
+    },
+    {
+      "at": "2026-10-15T04:12:26Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "description review v9: keep existing KiotViet description"
     }
   ]
 }

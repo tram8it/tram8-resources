@@ -25,10 +25,10 @@
     "rubricVersion": "v4"
   },
   "description": {
-    "decision": "REWRITE",
-    "reason": "D2/D3: mô tả cũ dạng HTML chatbot, lời quảng cáo quá đà và dữ kiện không kiểm chứng (xuất xứ, kích thước, \"an toàn tuyệt đối\"); viết lại ngắn, trung tính, chỉ theo chữ in trên hộp (trang durex.com.vn không truy cập được)",
+    "decision": "KEEP",
+    "reason": "D-v9: mô tả hiện có đúng SP, đủ chi tiết — giữ nguyên (chủ: \"cái nào có mô tả tốt rồi thì thôi\")",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v9"
   },
   "question": null,
   "history": [
@@ -43,6 +43,12 @@
       "by": "ai",
       "status": "READY",
       "note": "image CROP, description REWRITE (neutral, pack text only)"
+    },
+    {
+      "at": "2026-10-15T04:12:26Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "description review v9: keep existing KiotViet description"
     }
   ]
 }

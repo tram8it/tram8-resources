@@ -25,13 +25,10 @@
     "rubricVersion": "v4"
   },
   "description": {
-    "decision": "REWRITE",
-    "reason": "D2, D3: mô tả cũ dạng HTML do chatbot viết, có mục gợi ý từ khóa tìm kiếm, lời quảng cáo quá đà và dữ kiện không kiểm chứng; viết lại theo trang hãng và nhãn chai, thêm dòng 18+",
-    "source": {
-      "url": "https://www.absolut.com/en/products/absolut-vodka/",
-      "fetchedAt": "2026-10-13"
-    },
-    "rubricVersion": "v4"
+    "decision": "KEEP",
+    "reason": "D-v9: mô tả hiện có đúng SP, đủ chi tiết — giữ nguyên (chủ: \"cái nào có mô tả tốt rồi thì thôi\")",
+    "source": null,
+    "rubricVersion": "v9"
   },
   "question": null,
   "history": [
@@ -46,6 +43,12 @@
       "by": "ai",
       "status": "READY",
       "note": "b29: image CROP, description REWRITE"
+    },
+    {
+      "at": "2026-10-15T04:12:26Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "description review v9: keep existing KiotViet description"
     }
   ]
 }

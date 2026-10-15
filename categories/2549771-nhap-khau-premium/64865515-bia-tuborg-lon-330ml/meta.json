@@ -28,13 +28,10 @@
     "rubricVersion": "v4"
   },
   "description": {
-    "decision": "REWRITE",
-    "reason": "D3: mô tả cũ dạng HTML do chatbot viết, quảng cáo quá đà; viết lại theo trang hãng Carlsberg Việt Nam, thêm dòng 18+",
-    "source": {
-      "url": "https://www.carlsbergvietnam.vn/vi/products/tuborg/tuborg-green-lon-330ml/",
-      "fetchedAt": "2026-10-13"
-    },
-    "rubricVersion": "v4"
+    "decision": "KEEP",
+    "reason": "D-v9: mô tả hiện có đúng SP, đủ chi tiết — giữ nguyên (chủ: \"cái nào có mô tả tốt rồi thì thôi\")",
+    "source": null,
+    "rubricVersion": "v9"
   },
   "question": null,
   "history": [
@@ -49,6 +46,12 @@
       "by": "ai",
       "status": "READY",
       "note": "b29: image REPLACE, description REWRITE"
+    },
+    {
+      "at": "2026-10-15T04:12:26Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "description review v9: keep existing KiotViet description"
     }
   ]
 }

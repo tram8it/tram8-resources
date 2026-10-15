@@ -25,10 +25,10 @@
     "rubricVersion": "v4"
   },
   "description": {
-    "decision": "REWRITE",
-    "reason": "D2/D3: mô tả cũ do chatbot sinh (HTML), quảng cáo quá đà và có dữ kiện phỏng đoán/không kiểm chứng; viết ngắn từ chữ in trên lon (Halong Sapphire Premium Beer, Pure smooth lager)",
+    "decision": "KEEP",
+    "reason": "D-v9: mô tả hiện có đúng SP, đủ chi tiết — giữ nguyên (chủ: \"cái nào có mô tả tốt rồi thì thôi\")",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v9"
   },
   "question": null,
   "history": [
@@ -43,6 +43,12 @@
       "by": "ai",
       "status": "READY",
       "note": "rubric v4: image CROP, description REWRITE"
+    },
+    {
+      "at": "2026-10-15T04:12:26Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "description review v9: keep existing KiotViet description"
     }
   ]
 }

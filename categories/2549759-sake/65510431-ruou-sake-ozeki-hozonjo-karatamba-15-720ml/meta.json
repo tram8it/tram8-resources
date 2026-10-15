@@ -28,13 +28,10 @@
     "rubricVersion": "v4"
   },
   "description": {
-    "decision": "REWRITE",
-    "reason": "D2/D3: mô tả cũ dạng HTML chatbot, gợi ý tìm kiếm, lời quảng cáo và dữ kiện không kiểm chứng (chỉ số SMV, thành phần tự đoán); viết lại theo trang hãng và chữ in trên chai, thêm dòng 18+",
-    "source": {
-      "url": "https://www.ozeki.co.jp/karatanba/lineup.html",
-      "fetchedAt": "2026-10-14"
-    },
-    "rubricVersion": "v4"
+    "decision": "KEEP",
+    "reason": "D-v9: mô tả hiện có đúng SP, đủ chi tiết — giữ nguyên (chủ: \"cái nào có mô tả tốt rồi thì thôi\")",
+    "source": null,
+    "rubricVersion": "v9"
   },
   "question": null,
   "history": [
@@ -49,6 +46,12 @@
       "by": "ai",
       "status": "READY",
       "note": "batch f2: image REPLACE (ozeki.co.jp), description REWRITE"
+    },
+    {
+      "at": "2026-10-15T04:12:26Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "description review v9: keep existing KiotViet description"
     }
   ]
 }

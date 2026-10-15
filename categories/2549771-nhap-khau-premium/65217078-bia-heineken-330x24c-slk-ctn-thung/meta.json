@@ -17,7 +17,7 @@
     "description": "<h3 data-path-to-node=\"5\"><strong>Mô tả sản phẩm:</strong></h3><p data-path-to-node=\"6\"><strong>1. Giới thiệu sản phẩm</strong></p><ul data-path-to-node=\"7\"><li><p data-path-to-node=\"7,0,0\"><strong>Bia Heineken 330ml Lon Sleek Cao</strong> là dòng sản phẩm bia cao cấp mang thương hiệu toàn cầu đến từ tập đoàn <strong>Heineken</strong>, biểu tượng của chất lượng thượng hạng và phong cách sống hiện đại.</p></li><li><p data-path-to-node=\"7,1,0\">Với thiết kế lon cao (Sleek) thon gọn, sang trọng cùng hương vị đậm đà, tươi mới không thay đổi suốt hơn một thế kỷ qua, đây là sự lựa chọn hoàn hảo cho các bữa tiệc đẳng cấp, liên hoan, hội nghị hay làm quà biếu tặng lịch lãm.</p></li></ul><p data-path-to-node=\"10\"><strong>2. Thông tin chi tiết</strong></p><ul data-path-to-node=\"11\"><li><p data-path-to-node=\"11,0,0\"><strong>Thương hiệu:</strong> Heineken</p></li><li><p data-path-to-node=\"11,1,0\"><strong>Xuất xứ:</strong> Việt Nam (Sản xuất theo tiêu chuẩn toàn cầu của Heineken)</p></li><li><p data-path-to-node=\"11,2,0\"><strong>Loại sản phẩm:</strong> Bia Lager cao cấp</p></li><li><p data-path-to-node=\"11,3,0\"><strong>Nồng độ cồn (ABV):</strong> 5.0%</p></li><li><p data-path-to-node=\"11,4,0\"><strong>Dung tích:</strong> 330ml / lon (Kiểu lon Sleek cao)</p></li><li><p data-path-to-node=\"11,5,0\"><strong>Quy cách đóng gói:</strong> 24 lon / thùng</p></li><li><p data-path-to-node=\"11,6,0\"><strong>Hạn sử dụng:</strong> In rõ trên bao bì sản phẩm (thường 12 tháng kể từ ngày sản xuất)</p></li></ul><p data-path-to-node=\"12\"><strong>3. Hướng dẫn sử dụng và bảo quản</strong></p><ul data-path-to-node=\"13\"><li><p data-path-to-node=\"13,0,0\"><strong>Cách dùng:</strong> Ngon nhất khi uống lạnh, nhiệt độ thưởng thức lý tưởng từ 6°C - 10°C. Nên ướp lạnh trước khi uống, hạn chế dùng kèm đá trực tiếp để trọn vẹn hương vị đậm đà, nguyên bản.</p></li><li><p data-path-to-node=\"13,1,0\"><strong>Bảo quản:</strong> Nơi khô ráo, thoáng mát, tránh ánh nắng trực tiếp hoặc nơi có nhiệt độ cao.</p></li><li><p data-path-to-node=\"13,2,0\"><strong>Lưu ý:</strong> Sản phẩm không dành cho người dưới 18 tuổi và phụ nữ có thai hoặc đang cho con bú. <em>\"Đã uống rượu bia – Không lái xe\"</em>.</p></li></ul>",
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "READY",
+  "status": "NO_CHANGE",
   "image": {
     "decision": "KEEP",
     "reason": "Đạt I1–I9: packshot lon Heineken cao 330 ml nền trắng, 1:1, căn giữa",
@@ -25,10 +25,10 @@
     "rubricVersion": "v4"
   },
   "description": {
-    "decision": "REWRITE",
-    "reason": "D3: mô tả cũ dạng HTML do chatbot viết, quảng cáo quá đà, dữ kiện không kiểm chứng; trang hãng có cổng tuổi không đọc được → viết lại ngắn từ chữ in trên lon (Heineken Original, lager, Amsterdam, 1873), thêm dòng 18+",
+    "decision": "KEEP",
+    "reason": "D-v9: mô tả hiện có đúng SP, đủ chi tiết — giữ nguyên (chủ: \"cái nào có mô tả tốt rồi thì thôi\")",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v9"
   },
   "question": null,
   "history": [
@@ -43,6 +43,12 @@
       "by": "ai",
       "status": "READY",
       "note": "b29: image KEEP, description REWRITE"
+    },
+    {
+      "at": "2026-10-15T04:12:26Z",
+      "by": "ai",
+      "status": "NO_CHANGE",
+      "note": "description review v9: keep existing KiotViet description"
     }
   ]
 }

@@ -25,10 +25,10 @@
     "rubricVersion": "v4"
   },
   "description": {
-    "decision": "REWRITE",
-    "reason": "D2/D3: mô tả cũ chép từ trang bán lẻ, ghi 'Thương hiệu/xuất sử: Lay's (Mỹ)', lỗi chính tả ('xuất sử', 'thành phẩn'); thành phần không kiểm chứng được → mô tả ngắn chỉ từ dữ kiện chắc chắn (tên, thương hiệu, vị, khối lượng, chữ mặt trước bao bì); không có trang hãng truy cập được",
+    "decision": "KEEP",
+    "reason": "D-v9: mô tả hiện có đúng SP, đủ chi tiết — giữ nguyên (chủ: \"cái nào có mô tả tốt rồi thì thôi\")",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v9"
   },
   "question": null,
   "history": [
@@ -49,12 +49,23 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-15T04:12:26Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "description review v9: keep existing KiotViet description"
+    },
+    {
+      "at": "2026-10-15T04:13:06.574Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: image"
     }
   ],
   "submitted": {
-    "at": "2026-10-15T02:50:49.957Z",
+    "at": "2026-10-15T04:13:06.574Z",
     "fields": [
-      "description",
       "image"
     ],
     "hubStatus": "PENDING"

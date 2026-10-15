@@ -25,10 +25,10 @@
     "rubricVersion": "v4"
   },
   "description": {
-    "decision": "REWRITE",
-    "reason": "D1/D3: mô tả cũ là HTML rác sao chép từ trang khác; viết lại chỉ từ chữ in trên hộp (60 lá, 18+)",
+    "decision": "KEEP",
+    "reason": "D-v9: mô tả hiện có đúng SP, đủ chi tiết — giữ nguyên (chủ: \"cái nào có mô tả tốt rồi thì thôi\")",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v9"
   },
   "question": null,
   "history": [
@@ -43,6 +43,12 @@
       "by": "ai",
       "status": "READY",
       "note": "b21: image CROP, description REWRITE"
+    },
+    {
+      "at": "2026-10-15T04:12:26Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "description review v9: keep existing KiotViet description"
     }
   ]
 }

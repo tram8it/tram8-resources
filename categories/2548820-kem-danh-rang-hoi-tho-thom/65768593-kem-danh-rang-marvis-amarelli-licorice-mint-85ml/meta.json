@@ -28,13 +28,10 @@
     "rubricVersion": "v4"
   },
   "description": {
-    "decision": "REWRITE",
-    "reason": "D2/D3: mô tả cũ kiểu chatbot, có công dụng điều trị/quảng cáo quá đà; viết lại từ trang hãng",
-    "source": {
-      "url": "https://www.marvis.com/en/toothpastes/amarelli-licorice/",
-      "fetchedAt": "2026-10-13"
-    },
-    "rubricVersion": "v4"
+    "decision": "KEEP",
+    "reason": "D-v9: mô tả hiện có đúng SP, đủ chi tiết — giữ nguyên (chủ: \"cái nào có mô tả tốt rồi thì thôi\")",
+    "source": null,
+    "rubricVersion": "v9"
   },
   "question": null,
   "history": [
@@ -49,6 +46,12 @@
       "by": "ai",
       "status": "READY",
       "note": "image REPLACE, description REWRITE (marvis.com)"
+    },
+    {
+      "at": "2026-10-15T04:12:26Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "description review v9: keep existing KiotViet description"
     }
   ]
 }

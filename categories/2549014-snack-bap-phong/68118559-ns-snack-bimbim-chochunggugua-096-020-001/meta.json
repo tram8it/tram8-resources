@@ -25,10 +25,10 @@
     "rubricVersion": "v4"
   },
   "description": {
-    "decision": "REWRITE",
-    "reason": "D4: thiếu quy cách; viết lại ngắn từ tên hàng (96 g) và chữ in trên bao bì; trang nongshim.com chặn truy cập",
+    "decision": "KEEP",
+    "reason": "D-v9: mô tả hiện có đúng SP, đủ chi tiết — giữ nguyên (chủ: \"cái nào có mô tả tốt rồi thì thôi\")",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v9"
   },
   "question": null,
   "history": [
@@ -49,12 +49,23 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-15T04:12:26Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "description review v9: keep existing KiotViet description"
+    },
+    {
+      "at": "2026-10-15T04:13:19.896Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: image"
     }
   ],
   "submitted": {
-    "at": "2026-10-15T02:51:19.419Z",
+    "at": "2026-10-15T04:13:19.896Z",
     "fields": [
-      "description",
       "image"
     ],
     "hubStatus": "PENDING"

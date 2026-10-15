@@ -25,13 +25,10 @@
     "rubricVersion": "v4"
   },
   "description": {
-    "decision": "REWRITE",
-    "reason": "D2/D3: mô tả cũ kiểu chatbot, quảng cáo quá đà ('tuýp đỏ', ngừa cao răng/nướu không có nguồn); viết lại theo trang hãng",
-    "source": {
-      "url": "https://www.marvis.com/en/toothpastes/smokers/",
-      "fetchedAt": "2026-10-14"
-    },
-    "rubricVersion": "v4"
+    "decision": "KEEP",
+    "reason": "D-v9: mô tả hiện có đúng SP, đủ chi tiết — giữ nguyên (chủ: \"cái nào có mô tả tốt rồi thì thôi\")",
+    "source": null,
+    "rubricVersion": "v9"
   },
   "question": null,
   "history": [
@@ -46,6 +43,12 @@
       "by": "ai",
       "status": "READY",
       "note": "batch f3: image CROP, description REWRITE"
+    },
+    {
+      "at": "2026-10-15T04:12:26Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "description review v9: keep existing KiotViet description"
     }
   ]
 }

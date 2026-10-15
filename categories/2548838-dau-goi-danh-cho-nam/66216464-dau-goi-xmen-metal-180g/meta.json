@@ -25,13 +25,10 @@
     "rubricVersion": "v4"
   },
   "description": {
-    "decision": "REWRITE",
-    "reason": "D2/D3: mô tả cũ dạng AI dài (HTML), nhiều dữ kiện không kiểm chứng (HSD 3 năm, lưu hương 12 giờ…) và lời quảng cáo; viết lại theo trang hãng X-Men dòng Metal + chữ in trên chai",
-    "source": {
-      "url": "https://x-men.com.vn/xmen/dau-goi-nuoc-hoa-x-men-metal/",
-      "fetchedAt": "2026-10-13"
-    },
-    "rubricVersion": "v4"
+    "decision": "KEEP",
+    "reason": "D-v9: mô tả hiện có đúng SP, đủ chi tiết — giữ nguyên (chủ: \"cái nào có mô tả tốt rồi thì thôi\")",
+    "source": null,
+    "rubricVersion": "v9"
   },
   "question": null,
   "history": [
@@ -46,6 +43,12 @@
       "by": "ai",
       "status": "READY",
       "note": "image CROP, description REWRITE from brand site"
+    },
+    {
+      "at": "2026-10-15T04:12:26Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "description review v9: keep existing KiotViet description"
     }
   ]
 }

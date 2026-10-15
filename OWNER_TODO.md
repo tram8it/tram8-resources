@@ -26,6 +26,7 @@ còn gì), đọc file này và **nhắc chủ từng mục còn mở**. Ghi th�
   - 64865694 "Mỳ tô Cung Đình vị sườn heo 80g": thực tế thố khoai tây sườn heo hầm măng 79 g
   - 65139544 "Mỳ Cung Đình Bát Vị Gà Hầm 80g" (mã …0487): thực tế thố khoai tây gà hầm 79 g
   - 65139690 "…Khoai Tây Vị Gà Hầm 12 Thố Tròn" (mã …0500): thực tế **thịt hầm nấm** 79 g
+  - 65977051 "Rượu Jim Beam trắng 750ml": nhãn chai in **70 cl** (700 ml) — tên nên ghi 700ml
   - 65205357 "Mì cay 7 cấp độ": đang gắn mã vạch **8936028643481 = túi Koreno Jumbo 10 gói**; gói lẻ 101 g đang bán có mã **8936028643498** (hồ sơ tự công bố Paldo Vina) — thêm/sửa mã để quầy quét được gói lẻ; tên nên ghi 'Koreno Jumbo … 101g'
   - 65205413 "My an lien Paldo WANGTTUGEUNG JJAMPPONG 110g": thực tế là **tô Pororo 짜장 77 g** (chủ xác nhận ảnh) — sửa tên
   - 65455154 "Mì lẩu Jumbo KORENO vị kim Chi Nongshim": thực tế là **tô Nongshim 김치사발면** (không phải Koreno) — sửa tên/thương hiệu
