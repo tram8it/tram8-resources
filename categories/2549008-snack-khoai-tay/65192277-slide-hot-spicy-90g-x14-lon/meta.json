@@ -17,15 +17,15 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "ASK_OWNER",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I2: bao bì cũ/không đạt (chủ báo 15/10) → Gemini vẽ lại theo ảnh mẫu bao bì hiện hành (v15) — mẫu Lotte là bản Tết (pháo hoa, hoa mai) → Gemini vẽ bản bỏ trang trí Tết, thay vệt lửa như dòng Slide thường; chữ khớp (HOT & SPICY, Bánh lát khoai tây vị thơm cay)",
+    "reason": "I2: bao bì cũ/không đạt (chủ báo 15/10) → Gemini vẽ lại theo ảnh mẫu (v15) — vẽ từ mẫu Lotte bản Tết, bỏ pháo hoa/hoa mai; chủ gửi ảnh lon thường 16/10 xác nhận đúng thiết kế (HOT & SPICY, Bánh lát khoai tây vị thơm cay)",
     "source": {
       "aiGenerated": true,
       "tool": "Google Gemini (chủ yêu cầu, RUBRIC v12–v15)",
       "generatedAt": "2026-10-15",
-      "referenceUrl": "https://www.lottemart.vn/media/catalog/product/cache/0x0/8/9/8934680012027.jpg.webp"
+      "reference": "ảnh chủ gửi 16/10 (bộ 3 lon Slide Hot & Spicy) + mẫu Lotte bản Tết"
     },
     "rubricVersion": "v15"
   },
@@ -35,7 +35,7 @@
     "source": null,
     "rubricVersion": "v4"
   },
-  "question": "Ảnh mẫu Slide Hot & Spicy 90g (Lotte) là bản Tết. Ảnh đã vẽ lại bỏ pháo hoa/hoa mai (image.webp). Lon đang bán có đúng như vậy không? Đúng → gửi duyệt; sai → chủ chụp/gửi mặt trước lon hiện hành.",
+  "question": null,
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -78,10 +78,22 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "image: mẫu Lotte là bản Tết (pháo hoa, hoa mai) → Gemini vẽ bản bỏ trang trí Tết, thay vệt lửa như dòng Slide thường; chữ khớp (HOT & SPICY, Bánh lát khoai tây vị thơm cay)"
+    },
+    {
+      "at": "2026-10-15T17:10:17.019Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "owner 16/10: use watermark-free refs / own Slide photos; image redrawn with Gemini"
+    },
+    {
+      "at": "2026-10-15T17:10:30.258Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-15T09:19:50.835Z",
+    "at": "2026-10-15T17:10:30.258Z",
     "fields": [
       "description",
       "image"
