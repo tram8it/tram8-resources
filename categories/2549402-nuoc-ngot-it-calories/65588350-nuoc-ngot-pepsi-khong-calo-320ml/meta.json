@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "IN_PROGRESS",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
     "reason": "I1: chưa có ảnh; dùng ảnh lon Pepsi không calo bao bì mới trên trang hãng https://www.suntorypepsico.vn/thuong-hieu-cua-chung-toi/pepsi-3 (ảnh hãng nhỏ, phóng 1,7 lần, xem lại đạt)",
@@ -55,6 +55,26 @@
       "by": "ai",
       "status": "IN_PROGRESS",
       "note": "Giữ lại: image.webp trùng hệt ảnh của SP 64865792 (mã vạch khác) — kiểm lại vị/quy cách bằng mắt trước khi gửi"
+    },
+    {
+      "at": "2026-10-15T17:17:54.573Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "duplicate image checked by eye: same Pepsi không calo/không đường 320 ml can as 64865792, same size — no tag; duplicate code noted in OWNER_TODO"
+    },
+    {
+      "at": "2026-10-15T17:18:17.599Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-15T17:18:17.599Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }
