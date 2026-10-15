@@ -101,6 +101,11 @@ Mọi phiên AI làm theo đúng nhịp này:
 2. **Ưu tiên ảnh hãng.** Tìm kỹ trên trang/kênh chính chủ (cả trang theo nước: buldak.com/vn,
    indomie.vn, afotech.vn, paldovina.com, hồ sơ tự công bố PDF…), **kể cả khi ảnh hiện tại đã đạt**.
    Trang chặn bot thì nói thẳng và nhờ chủ lấy ảnh — không vượt chặn.
+   **Không có ảnh hãng hoặc không đủ nét** → ảnh nhà phân phối (hỏi chủ NPP nào) → **Gemini vẽ lại**
+   (điều khiển Gemini trên Chrome của chủ, tài khoản admin@tram8.vn) từ ảnh mẫu rõ nhất — BHX, Lotte Mart…
+   chỉ làm mẫu. **Không đăng ảnh chụp tay, méo, mất nắp** (RUBRIC v13). So từng ảnh vẽ với mẫu: chữ vị,
+   khối lượng, logo; Gemini hay tự thêm chữ (vd. '161g') → bảo nó xoá. Tải ảnh về: chỉ lấy file
+   `Gemini_Generated_Image_*` vừa tải (`find ~/Downloads -mmin -2`) — Downloads có ảnh riêng của chủ.
 3. **Chủ gửi ảnh vào chat** (render hãng, ảnh gian hàng chính hãng, ảnh nhân viên chụp, ảnh AI chủ tạo):
    xử lý ngay — tách nền/cắt sát/tô trắng nền, chuẩn hoá 1:1, **mở ảnh ra xem mép, nắp, đáy, chữ**
    (hay bị cắt cụt hoặc dính vật bên cạnh), so với ảnh cũ, rồi gửi đề xuất. Ảnh AI: báo chủ chỗ khác
