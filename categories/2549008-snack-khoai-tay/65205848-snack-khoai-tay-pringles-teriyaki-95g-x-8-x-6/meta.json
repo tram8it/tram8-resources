@@ -17,12 +17,16 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I4/I5: ảnh điện thoại chụp cận lon; pringles.com chặn truy cập (405), không có nguồn chính hãng dùng được → cần chụp",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I1/I3: không có ảnh hãng; Gemini vẽ lại bao bì theo ảnh mẫu (v12) — vẽ lại từ ảnh nhân viên chụp (mất phần trên); phần mặt Mr. P và nắp do Gemini vẽ theo kiểu lon Pringles hiện hành (mẫu: lon Seaweed Burst); đã xoá chữ '161g' Gemini tự thêm",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Google Gemini (chủ yêu cầu, 15/10/2026)",
+      "generatedAt": "2026-10-15"
+    },
+    "rubricVersion": "v12"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +47,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "batch b01: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-15T14:08:33Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "image redrawn with Gemini from reference (v12)"
+    },
+    {
+      "at": "2026-10-15T14:09:27.314Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-15T14:09:27.314Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

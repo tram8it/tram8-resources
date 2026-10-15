@@ -20,13 +20,13 @@
   "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I4: ảnh cầm tay trong siêu thị → cắt bỏ tay/kệ, tách nền, cân bằng trắng, tăng độ tươi (v10); chủ chấp nhận vì không lấy được ảnh hãng",
+    "reason": "I1/I3: không có ảnh hãng; Gemini vẽ lại bao bì theo ảnh mẫu (v12) — vẽ lại từ ảnh cầm tay trong siêu thị (bao bì cũ, không có dải 'More Pop-tastic'); bỏ tay; chữ nhỏ là chữ giả",
     "source": {
-      "ownerAccepted": true,
-      "acceptedAt": "2026-10-15",
-      "note": "ảnh KiotViet hiện có, chủ chấp nhận dùng vì pringles.com chặn bot (Akamai 405, cả trình duyệt); tách nền + tone.py + tăng độ tươi (bão hoà ×1,25, tương phản ×1,08) theo ý chủ"
+      "aiGenerated": true,
+      "tool": "Google Gemini (chủ yêu cầu, 15/10/2026)",
+      "generatedAt": "2026-10-15"
     },
-    "rubricVersion": "v10"
+    "rubricVersion": "v12"
   },
   "description": {
     "decision": "REWRITE",
@@ -59,10 +59,22 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-15T14:08:33Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "image redrawn with Gemini from reference (v12)"
+    },
+    {
+      "at": "2026-10-15T14:09:28.622Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-15T09:03:21.180Z",
+    "at": "2026-10-15T14:09:28.622Z",
     "fields": [
       "description",
       "image"

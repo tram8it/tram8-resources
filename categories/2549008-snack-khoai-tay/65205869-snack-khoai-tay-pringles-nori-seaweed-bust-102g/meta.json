@@ -20,19 +20,20 @@
   "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I9: lon Salt & Seaweed nền trắng, chưa chuẩn → chuẩn hoá 1:1, tăng độ tươi (v10); chủ chấp nhận ảnh hiện tại là đúng lon đang bán",
+    "reason": "I1/I3: không có ảnh hãng; Gemini vẽ lại bao bì theo ảnh mẫu (v12) — khớp mẫu: NEW, JAPANESE-STYLE SEAWEED, NORI, SEAWEED BURST; bỏ watermark Lotte Mart và cờ; chữ nhỏ mặt sau là chữ giả",
     "source": {
-      "ownerAccepted": true,
-      "acceptedAt": "2026-10-15",
-      "note": "ảnh KiotViet hiện có, chủ chấp nhận dùng vì pringles.com chặn bot (Akamai 405, cả trình duyệt); tách nền + tone.py + tăng độ tươi (bão hoà ×1,25, tương phản ×1,08) theo ý chủ"
+      "aiGenerated": true,
+      "tool": "Google Gemini (chủ yêu cầu, 15/10/2026)",
+      "generatedAt": "2026-10-15",
+      "referenceUrl": "https://www.lottemart.vn/media/catalog/product/cache/0x0/8/8/8886467100062-1.jpg.webp"
     },
-    "rubricVersion": "v10"
+    "rubricVersion": "v12"
   },
   "description": {
     "decision": "WRITE_NEW",
-    "reason": "D1: chưa có mô tả; chủ chấp nhận ảnh = xác nhận vị → mô tả ngắn từ chữ mặt trước lon",
+    "reason": "D1: lon đang bán là Seaweed Burst (catalogue NPP Hương Thủy + ảnh Lotte Mart), không phải Salt & Seaweed → viết lại",
     "source": null,
-    "rubricVersion": "v10"
+    "rubricVersion": "v12"
   },
   "question": null,
   "history": [
@@ -59,10 +60,22 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-15T14:08:33Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "image redrawn with Gemini from reference (v12)"
+    },
+    {
+      "at": "2026-10-15T14:09:08.106Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-15T09:03:18.458Z",
+    "at": "2026-10-15T14:09:08.106Z",
     "fields": [
       "description",
       "image"
