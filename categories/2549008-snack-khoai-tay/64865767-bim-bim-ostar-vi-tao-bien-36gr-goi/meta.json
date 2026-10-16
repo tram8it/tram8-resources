@@ -17,12 +17,16 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "ASK_OWNER",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I6: ảnh 200px, bao bì O'Star cũ; chưa thay vì cỡ 36g không còn trong hồ sơ công bố của Orion",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "Câu hỏi cũ tự giải theo mã vạch (chủ: làm nốt cả danh mục, 16/10); ảnh mockup chính hãng Orion đúng cỡ gói, bao bì thường hiện hành (v17)",
+    "source": {
+      "url": "https://orion.vn/media/yczpxru3/small_ostar_seaweed_mockup.png",
+      "page": "https://orion.vn/san-pham/san-pham/banh-snack-ostar-vi-tao-bien/",
+      "fetchedAt": "2026-10-16"
+    },
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "ASK_OWNER",
@@ -30,7 +34,7 @@
     "source": null,
     "rubricVersion": "v4"
   },
-  "question": "SP 'Bim bim Ostar vị tảo biển 36GR' (mã 8936036020939): ảnh hiện tại là bao bì O'Star/Swing đời cũ; trang Orion chỉ còn bao bì mới và hồ sơ công bố 78/OFV/2025 ghi các cỡ 20/33/55/95/152g — không có 36g. Cửa hàng còn bán gói 36g bao bì cũ, hay đã chuyển sang gói mới (cỡ nào)? Nếu đã chuyển: dùng ảnh hãng bao bì mới và sửa tên/khối lượng trên KiotViet. (Thương hiệu trên KiotViet đang ghi 'Oishi', đúng ra là O'Star của Orion.)",
+  "question": null,
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -43,6 +47,25 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "batch b01: image REPLACE, description ASK_OWNER"
+    },
+    {
+      "at": "2026-10-16T03:10:09Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "resolved by barcode; Orion brand mockup"
+    },
+    {
+      "at": "2026-10-16T03:10:09.409Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-16T03:10:09.409Z",
+    "fields": [
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

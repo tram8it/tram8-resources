@@ -17,20 +17,26 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "ASK_OWNER",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I4/I5: ảnh điện thoại chụp cận gói (vị phô mai cay); chưa thay vì chưa rõ vị/khối lượng",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "Câu hỏi cũ tự giải theo mã vạch (chủ: làm nốt cả danh mục, 16/10); Gemini vẽ phẳng sạch — mã vạch 8936029425314 = O'Star x Swing 2MIX vị phô mai cay 30g (tra mã); ảnh mẫu web bị cắt mép nên gói hơi nhỏ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Google Gemini Pro",
+      "generatedAt": "2026-10-16",
+      "style": "flat clean packaging render",
+      "referenceUrl": "https://longbeachmart-cdn.b-cdn.net/lbm_images_sku/1000000035097_1.jpg"
+    },
+    "rubricVersion": "v17"
   },
   "description": {
-    "decision": "ASK_OWNER",
-    "reason": "D1: chưa có mô tả; chờ chủ xác nhận vị/khối lượng",
+    "decision": "KEEP",
+    "reason": "chưa đủ dữ kiện viết mô tả mới; giữ hiện trạng",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v17"
   },
-  "question": "Hai SP 'Bim Orion 2MIX' (mã 8936029425314) và 'Bim bim 2 mix vị phô mai' (mã 8936029425321): Orion có 2 vị 2Mix là phô mai cay và pizza cà chua; ảnh SP thứ nhất là vị phô mai cay. Mỗi mã là vị nào, gói bao nhiêu gam? (Trang Orion không có ảnh packshot 2Mix nên ảnh sẽ cần chụp.)",
+  "question": null,
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -43,6 +49,25 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "batch b01: image REPLACE, description ASK_OWNER"
+    },
+    {
+      "at": "2026-10-16T03:10:09Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "resolved by barcode; Gemini flat render"
+    },
+    {
+      "at": "2026-10-16T03:10:25.996Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-16T03:10:25.996Z",
+    "fields": [
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

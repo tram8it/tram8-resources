@@ -48,3 +48,9 @@ còn gì), đọc file này và **nhắc chủ từng mục còn mở**. Ghi th�
 - Ghi chú 16/10/2026 (rà ảnh trùng, RUBRIC v16): hai mã Phở Cung Đình gà Hà Nội (64865678 / 64865804)
   dùng chung ảnh nhưng 64865678 đã ngừng bán (mục "Ngừng kinh doanh" ở trên) nên không gắn nhãn khối
   lượng. Nếu 64865678 còn bán lại thì cần nhãn "79g"/"76g".
+- [ ] Mã trùng: 64865370 và 64865766 "Bim bim Oishi snack tater thins khoai Tây siêu mỏng" (mã
+      8934803070217 / 8934803053524) cùng là gói Tater Thins vị dưa leo, dùng chung một ảnh —
+      gộp/tắt mã thừa, hoặc báo nếu khác cỡ để gắn nhãn khối lượng (ghi 16/10/2026)
+- [ ] Kiểm tra: 65959293 / 65959357 cùng tên "Bim ống YeGam Oreon"; 65959293 tra mã ra vị Kim chi,
+      65959357 suy ra vị Nguyên bản (ảnh cũ có 2 hộp). Nếu sai thì báo để đổi ảnh; nên thêm vị vào tên
+      trên KiotViet (ghi 16/10/2026)

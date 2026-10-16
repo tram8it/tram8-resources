@@ -17,20 +17,26 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "ASK_OWNER",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I4/I8: ảnh chụp thùng nhiều lon Lay's Stax; chưa thay vì tên không ghi khối lượng",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "Câu hỏi cũ tự giải theo mã vạch (chủ: làm nốt cả danh mục, 16/10); Gemini vẽ phẳng sạch — mã vạch Thái = Lay's Stax Spicy Lobster lon 42g (Lotte Mart)",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Google Gemini Pro",
+      "generatedAt": "2026-10-16",
+      "style": "flat clean packaging render",
+      "referenceUrl": "https://www.lottemart.vn/media/catalog/product/cache/0x0/8/8/8850718816057-1.jpg.webp"
+    },
+    "rubricVersion": "v17"
   },
   "description": {
-    "decision": "ASK_OWNER",
-    "reason": "D1: chưa có mô tả; chờ chủ xác nhận khối lượng",
+    "decision": "KEEP",
+    "reason": "chưa đủ dữ kiện viết mô tả mới; giữ hiện trạng",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v17"
   },
-  "question": "SP 'Khoai Tây Lays vị tôm hùm' (mã 8850718816057, mã Thái Lan) không ghi khối lượng; ảnh là thùng lon Lay's Stax. Đây là lon Lay's Stax vị gì (tôm hùm cay?), bao nhiêu gam? (Không có nguồn ảnh hãng, sẽ cần chụp.)",
+  "question": null,
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -43,6 +49,25 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "batch b01: image REPLACE, description ASK_OWNER"
+    },
+    {
+      "at": "2026-10-16T03:10:09Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "resolved by barcode; Gemini flat render"
+    },
+    {
+      "at": "2026-10-16T03:10:36.918Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-16T03:10:36.918Z",
+    "fields": [
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }
