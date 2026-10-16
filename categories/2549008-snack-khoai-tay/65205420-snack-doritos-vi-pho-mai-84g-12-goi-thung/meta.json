@@ -17,19 +17,17 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "ASK_OWNER",
+  "status": "READY",
   "image": {
-    "decision": "CROP",
-    "reason": "I9: packshot nền trắng, đúng SP, chưa 1:1 → crop; đã xem lại sau crop (bao bì tiếng Hàn)",
-    "source": null,
-    "rubricVersion": "v4",
-    "vivid": {
-      "rubricVersion": "v10",
-      "saturationGain": 1.13,
-      "contrastGain": 1.042,
-      "toneGain": 1.02,
-      "gamma": 1
-    }
+    "decision": "REPLACE",
+    "reason": "I2: ảnh cũ là bản FIFA World Cup (bao bì sự kiện); chủ: dùng bao bì thường, cùng mã vạch thì ruột như nhau (16/10) → Gemini vẽ phẳng theo bản thường 'No.1 나초' (v15)",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Google Gemini Pro",
+      "generatedAt": "2026-10-16",
+      "referenceUrl": "https://images.emarteveryday.co.kr/images/app/webapps/evd_web2/share/SKU/mall/14/18/8801062381814_1.png"
+    },
+    "rubricVersion": "v16"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -37,7 +35,7 @@
     "source": null,
     "rubricVersion": "v4"
   },
-  "question": "Doritos phô mai 84g: ảnh đang chờ duyệt là bản FIFA World Cup (khuyến mãi cũ). Cửa hàng còn bán bản World Cup không? Nếu đã đổi bao bì, cần ảnh mẫu bản mới (chưa tìm được trên Lotte/BHX).",
+  "question": null,
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -74,10 +72,22 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "image redo blocked; question for owner"
+    },
+    {
+      "at": "2026-10-16T02:23:03Z",
+      "by": "owner",
+      "status": "READY",
+      "note": "owner: use the regular (non-event) pack; same barcode = same contents"
+    },
+    {
+      "at": "2026-10-16T02:23:03.743Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-15T09:19:36.401Z",
+    "at": "2026-10-16T02:23:03.743Z",
     "fields": [
       "description",
       "image"

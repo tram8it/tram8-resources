@@ -2,13 +2,13 @@
 
 > Sinh tự động bởi `node tools/status.mjs`. **Không sửa tay.** Nguồn sự thật là `meta.json` của từng SP.
 
-Tổng 2448 SP · đã xem 2428 (99%) · xong 600 · chờ chủ duyệt 741 · cần chụp 866 · hỏi chủ 221
+Tổng 2448 SP · đã xem 2428 (99%) · xong 600 · chờ chủ duyệt 742 · cần chụp 866 · hỏi chủ 220
 
 Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` = giữ nguyên + đã lên web.
 
 | # | Category | DT 90 ngày | Tổng | Chưa xem | Giữ nguyên | Đang làm | Cần chụp | Hỏi chủ | Chờ duyệt | Đã duyệt | Đã lên web |
 |---|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| 1 | Snack khoai tây | 0.0tr | 75 | 0 | 0 | 0 | 0 | 19 | 1 | 0 | 55 |
+| 1 | Snack khoai tây | 0.0tr | 75 | 0 | 0 | 0 | 0 | 18 | 2 | 0 | 55 |
 | 2 | Snack bắp & phồng | 0.0tr | 64 | 0 | 0 | 0 | 17 | 16 | 7 | 0 | 24 |
 | 3 | Kem que | 0.0tr | 60 | 0 | 0 | 0 | 24 | 5 | 31 | 0 | 0 |
 | 4 | Socola thanh | 0.0tr | 53 | 0 | 0 | 0 | 11 | 5 | 0 | 0 | 37 |
