@@ -52,6 +52,7 @@ Thành phẩm nằm cạnh `meta.json`: `image.webp` (1000×1000, chuẩn trong 
 | `python3 tools/cutout.py <ảnh> <out.webp> [--box X0,Y0,X1,Y1]` | tách nền màu/banner (ảnh nhân viên chụp, ảnh hãng có nền/chữ khuyến mãi) rồi chuẩn hoá như `make_image.py`; cần `pip install "rembg[cpu]"`. **Mở ảnh ra xem viền** |
 | `python3 tools/tone.py <image.webp> <out.webp>` · `--scan` | cân bằng trắng + độ sáng (chỉ chỉnh toàn ảnh, nền giữ trắng) cho ảnh thiếu sáng; `--scan` liệt kê ảnh thiếu sáng; `--vivid` = tone + tăng độ tươi cho giống ảnh hãng (RUBRIC v10, tự giảm cho ảnh đã tươi). **Mở ảnh so trước/sau** |
 | `python3 tools/size_tag.py <image.webp> <out.webp> 53g` | gắn nhãn khối lượng khi nhiều cỡ dùng chung một ảnh (RUBRIC v16); chạy trên ảnh **chưa** gắn nhãn |
+| `python3 tools/gemini_redraw.py gen <dir>… [--ref …] [--dry-run]` · `fix` · `accept` | vẽ lại ảnh SP bằng Gemini API (RUBRIC v12–v17), khoá đọc từ `GEMINI_API_KEY`; ảnh thô + `candidate.webp` vào `work/gemini/<id>/`; **mở ảnh so với mẫu** rồi mới `accept` (ghi `image.webp` + meta → READY). In số lần gọi + chi phí ước tính |
 | `node tools/pull-from-hub.mjs` | kéo danh mục + SP từ API nội dung của Hub (chỉ GET) → `inbox/` |
 | `node tools/proposals.mjs submit <category> [--only <id>] [--send]` | gửi SP **READY** vào hàng chờ duyệt trên Hub (mặc định chỉ liệt kê) |
 | `node tools/proposals.mjs sync` | đọc quyết định của chủ về: áp dụng → `UPLOADED`, từ chối → `IN_PROGRESS` + lý do |
