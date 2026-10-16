@@ -19,18 +19,16 @@
   },
   "status": "READY",
   "image": {
-    "decision": "CROP",
-    "reason": "I9: packshot nền trắng, đúng bao bì Snack Bắp Vị Sôcôla như trang hãng, chỉ chưa 1:1 (ảnh hãng chỉ 200px nên giữ ảnh này); đã crop và xem lại; gắn nhãn \"68g\" (v16, ảnh dùng chung với SP 64865765; khối lượng theo tên KiotViet)",
-    "source": null,
-    "rubricVersion": "v16",
-    "vivid": {
-      "rubricVersion": "v10",
-      "saturationGain": 1.089,
-      "contrastGain": 1.028,
-      "toneGain": 1.016,
-      "gamma": 1
+    "decision": "REPLACE",
+    "reason": "I3: chủ muốn ảnh render phẳng, sạch hơn (16/10) → Gemini vẽ lại kiểu bao bì in phẳng, chính diện, nền trắng; đã so chữ/logo với mẫu (v15); gắn nhãn 68g (RUBRIC v16)",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Google Gemini Pro",
+      "generatedAt": "2026-10-16",
+      "style": "flat clean packaging render (owner request)",
+      "referenceUrl": "https://www.lottemart.vn/media/catalog/product/cache/0x0/8/9/8934803070347-1.jpg.webp"
     },
-    "sizeTag": "68g"
+    "rubricVersion": "v16"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -78,10 +76,22 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-16T02:18:39Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "owner: wants flatter, cleaner renders; redrawn"
+    },
+    {
+      "at": "2026-10-16T02:18:40.227Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-15T17:18:06.871Z",
+    "at": "2026-10-16T02:18:40.227Z",
     "fields": [
       "description",
       "image"

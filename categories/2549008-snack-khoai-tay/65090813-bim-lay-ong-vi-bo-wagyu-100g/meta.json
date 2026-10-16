@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I1/I3: ảnh hiện tại chụp cận/không thấy nguyên gói; không có ảnh hãng; Gemini vẽ lại theo ảnh mẫu (v15) — khớp mẫu Lotte Mart: STAX, WAGYU BEEF & TRUFFLE FLAVOR; nhãn '90 G' của Lotte bỏ (tên KiotViet ghi 100g)",
@@ -60,6 +60,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-16T01:38:49.852Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -69,5 +75,28 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-15T15:20:23.575Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-15T15:20:23.575Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/f12355e373d1de4aa194706cd0cd70e58545b98eeed12e70bb9d78e65a928331.webp"
+        ],
+        "from": null
+      },
+      "description": {
+        "to": "Snack khoai tây Lay's dạng ống vị bò Wagyu, đựng trong ống có nắp đậy.\n\nQuy cách: 100 g · ống\nThương hiệu: Lay's (PepsiCo)",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

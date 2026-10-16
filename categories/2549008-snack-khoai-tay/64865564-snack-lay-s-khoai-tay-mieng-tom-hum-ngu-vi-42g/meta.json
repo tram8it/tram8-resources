@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I2: bao bì cũ/không đạt (chủ báo 15/10) → Gemini vẽ lại theo ảnh mẫu bao bì hiện hành (v15) — khớp mẫu Lotte: STAX, SPICY LOBSTER, Vị Tôm Hùm Nướng Ngũ Vị; bỏ ô \"40 G\" (tên SP ghi 42g, mẫu Lotte ghi 40 G)",
@@ -84,6 +84,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-16T01:38:49.852Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -93,5 +99,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-15T16:59:54.800Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-15T16:59:54.800Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/f7fd9a50f9e5ffad5460a5e9132f0c1502cf9e01fcf0666832a775da5b66a8e6.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/30/tram8/aef73d3d3d5242fba6272c068d243917.png"
+        ]
+      },
+      "description": {
+        "to": "Snack khoai tây miếng Lay's Stax vị tôm hùm nướng ngũ vị (Spicy Lobster), các miếng khoai xếp chồng trong ống có nắp đậy, tiện mang theo.\n\nQuy cách: 42 g · ống\nThương hiệu: Lay's (PepsiCo)",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

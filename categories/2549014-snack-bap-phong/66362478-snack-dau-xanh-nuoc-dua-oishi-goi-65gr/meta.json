@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I3/I5: ảnh cũ chụp nghiêng/nhăn/méo (chủ báo chưa đạt 16/10) → nắn phối cảnh ảnh hiện tại rồi Gemini vẽ lại packshot chính diện, thẳng đứng, nền trắng (v15); đã so chữ/logo với ảnh mẫu",
@@ -81,6 +81,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-16T01:43:10.560Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -90,5 +96,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-16T01:41:10.021Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-16T01:41:10.021Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/83d942677ca02bf3c5beea3a79f674e9ddb26db7ab7b79728ef6a7bcab7a57a0.webp"
+        ],
+        "from": [
+          "https://cdn1-retail-images.kiotviet.vn/2026/06/09/tram8/b8a1c369bb4146ed97d090fbd543a1a3.jpg"
+        ]
+      },
+      "description": {
+        "to": "Snack đậu xanh nước dừa của Oishi: que snack đậu xanh giòn kết hợp vị nước cốt dừa ngọt béo.\n\nQuy cách: 65 g · túi zip\nNhà sản xuất/thương hiệu: Oishi",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

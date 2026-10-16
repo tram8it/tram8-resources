@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I2: bao bì cũ/không đạt (chủ báo 15/10) → Gemini vẽ lại theo ảnh mẫu bao bì hiện hành (v15) — khớp mẫu Lotte: Slide, BAR BE CUE, Bánh lát khoai tây vị thịt nướng, khối lượng 90g",
@@ -84,6 +84,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-16T01:38:49.852Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -93,5 +99,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-15T17:00:32.853Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-15T17:00:32.853Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/31e4db7aa6dd9adf64a5a5e02a8385b489359e5d17c7e5b95bed9da4a8d7c7b2.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/29/tram8/4ab04af988a846fb80ae749183cb0c74.png"
+        ]
+      },
+      "description": {
+        "to": "Bánh lát khoai tây Slide vị thịt nướng (Barbecue), các lát khoai xếp trong lon có nắp đậy.\n\nQuy cách: 90 g · lon\nThương hiệu: Slide",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

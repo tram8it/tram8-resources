@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I2: bao bì cũ/không đạt (chủ báo 15/10) → Gemini vẽ lại theo ảnh mẫu (v15) — mặt trước gói 90g giống hệt gói 53g (mẫu WinMart 52g/95g cùng thiết kế) → dùng chung ảnh Gemini của gói 53g; gắn nhãn \"90g\" (v16, ảnh dùng chung với cỡ khác; khối lượng theo tên KiotViet — WinMart ghi 52/56/95g)",
@@ -97,6 +97,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-16T01:38:49.852Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -106,5 +112,26 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-15T17:16:28.466Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-15T17:16:28.466Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/5892f624f651b8aef9dda7b31eaf07541462eb9585b4a36f1868c86be6e24c11.webp"
+        ],
+        "from": [
+          "https://img.tram8.vn/products/970ab3f1a953e8b466f995a519d828dcab6bb5f87894ccc16e88f9230bca98b0.webp"
+        ]
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

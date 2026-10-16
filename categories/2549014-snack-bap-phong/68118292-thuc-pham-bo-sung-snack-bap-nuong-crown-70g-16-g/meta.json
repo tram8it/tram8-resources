@@ -20,14 +20,15 @@
   "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1/I3: ảnh cũ chụp trên kệ/không có ảnh; Gemini vẽ lại packshot chính diện theo ảnh mẫu Lotte Mart (chỉ làm mẫu) — khớp chữ/logo (v15)",
+    "reason": "I3: chủ muốn ảnh render phẳng, sạch hơn (16/10) → Gemini vẽ lại kiểu bao bì in phẳng, chính diện, nền trắng; đã so chữ/logo với mẫu (v15); chữ nhỏ dưới đáy gói là chữ giả (vd. '17 g')",
     "source": {
       "aiGenerated": true,
       "tool": "Google Gemini Pro",
       "generatedAt": "2026-10-16",
-      "referenceUrl": "https://www.lottemart.vn/media/catalog/product/cache/0x0/8/8/8801111611312.jpg.webp"
+      "style": "flat clean packaging render (owner request)",
+      "reference": "ảnh KiotViet hiện tại, nắn phối cảnh"
     },
-    "rubricVersion": "v15"
+    "rubricVersion": "v16"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -60,10 +61,22 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-16T02:18:39Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "owner: wants flatter, cleaner renders; redrawn"
+    },
+    {
+      "at": "2026-10-16T02:18:56.322Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-15T18:21:26.842Z",
+    "at": "2026-10-16T02:18:56.322Z",
     "fields": [
       "description",
       "image"

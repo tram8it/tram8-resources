@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I3/I5: ảnh cũ chụp nghiêng/nhăn/méo (chủ báo chưa đạt 16/10) → nắn phối cảnh ảnh hiện tại rồi Gemini vẽ lại packshot chính diện, thẳng đứng, nền trắng (v15); đã so chữ/logo với ảnh mẫu",
@@ -78,6 +78,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-16T01:43:10.560Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -87,5 +93,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-16T01:39:22.155Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-16T01:39:22.155Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/653af9e8042db077a53862029a0c7317f8674176b8c8da5c44a8dc8aad16b138.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/27/tram8/6a6621fa15e0406580c91aabba1fd7fb.png"
+        ]
+      },
+      "description": {
+        "to": "Snack Cheetos vị cay ngọt (매콤달콤) bản Hàn Quốc, que bắp giòn tẩm gia vị cay ngọt; sản xuất theo giấy phép bởi Lotte.\n\nQuy cách: gói\nXuất xứ: Hàn Quốc · Nhà sản xuất/thương hiệu: Lotte · Cheetos",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

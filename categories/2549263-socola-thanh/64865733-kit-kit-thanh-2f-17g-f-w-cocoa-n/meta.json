@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I3/I5: ảnh cũ chụp nghiêng/nhăn/méo (chủ báo chưa đạt 16/10) → nắn phối cảnh ảnh hiện tại rồi Gemini vẽ lại packshot chính diện, thẳng đứng, nền trắng (v15); đã so chữ/logo với ảnh mẫu",
@@ -81,6 +81,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-16T01:38:49.852Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -90,5 +96,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-16T01:37:33.572Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-16T01:37:33.572Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/cf010e2035aeb3044bb2f0cd87810b5b1bf33630404585c60555c4e8733c7629.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2025/12/02/tongpenhchtl/c400f6baf91b4256bccf77f290e2aedd.jpg"
+        ]
+      },
+      "description": {
+        "to": "Bánh xốp KitKat 2 thanh phủ sô cô la sữa của Nestlé, giòn xốp, tiện cho bữa ăn nhẹ.\n\nQuy cách: 17 g (2 thanh) · thanh\nNhà sản xuất/thương hiệu: Nestlé · KitKat",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

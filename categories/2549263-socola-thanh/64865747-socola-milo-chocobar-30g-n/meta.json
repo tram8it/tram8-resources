@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I3/I5: ảnh cũ chụp nghiêng/nhăn/méo (chủ báo chưa đạt 16/10) → nắn phối cảnh ảnh hiện tại rồi Gemini vẽ lại packshot chính diện, thẳng đứng, nền trắng (v15); đã so chữ/logo với ảnh mẫu",
@@ -78,6 +78,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-16T01:38:49.852Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -87,5 +93,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-16T01:37:37.383Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-16T01:37:37.383Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/a9c1994ad0f3213431f3ca09d4ebe4ce3d8b9cf974bec5a7f9ff03f9606195d9.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/27/tram8/2b4f865fd9744bd698e18701b2a4040d.png"
+        ]
+      },
+      "description": {
+        "to": "Thanh sô cô la Nestlé MILO Choco Bar mang hương vị MILO quen thuộc.\n\nQuy cách: 30 g · thanh\nNhà sản xuất/thương hiệu: Nestlé · MILO",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

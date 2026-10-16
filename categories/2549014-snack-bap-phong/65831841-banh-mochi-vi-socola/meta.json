@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I3/I5: ảnh cũ chụp nghiêng/nhăn/méo (chủ báo chưa đạt 16/10) → nắn phối cảnh ảnh hiện tại rồi Gemini vẽ lại packshot chính diện, thẳng đứng, nền trắng (v15); đã so chữ/logo với ảnh mẫu",
@@ -78,6 +78,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-16T01:38:49.852Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -87,5 +93,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-16T01:37:46.149Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-16T01:37:46.149Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/4d5199630ce2f7a449f7a59d44a5ce7cf4b537d5112add397bd06bce75479021.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/29/tram8/82688315122c4410814f3346ad9f1557.png"
+        ]
+      },
+      "description": {
+        "to": "Bánh Sable vị sô-cô-la: bánh quy vỏ mềm có nhân bên trong, vị sô-cô-la, đựng túi zip.\n\nQuy cách: túi\nXuất xứ: Trung Quốc · Thương hiệu: Sable",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

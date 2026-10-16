@@ -17,19 +17,18 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "ASK_OWNER",
+  "status": "READY",
   "image": {
-    "decision": "CROP",
-    "reason": "I9: packshot nền trắng, đúng SP nhưng không phải 1:1; crop 1:1 đã xem lại đạt (phóng ~2,0x, v4); gói Ponnie Meat Snack chân gà xốt mật ong 33 g",
-    "source": null,
-    "rubricVersion": "v4",
-    "vivid": {
-      "rubricVersion": "v10",
-      "saturationGain": 1.14,
-      "contrastGain": 1.045,
-      "toneGain": 1.048,
-      "gamma": 1
-    }
+    "decision": "REPLACE",
+    "reason": "I3: chủ muốn ảnh render phẳng, sạch hơn (16/10) → Gemini vẽ lại kiểu bao bì in phẳng, chính diện, nền trắng; đã so chữ/logo với mẫu (v15); logo PÖNNIE đã đúng",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Google Gemini Pro",
+      "generatedAt": "2026-10-16",
+      "style": "flat clean packaging render (owner request)",
+      "reference": "ảnh KiotViet hiện tại, nắn phối cảnh"
+    },
+    "rubricVersion": "v16"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -37,7 +36,7 @@
     "source": null,
     "rubricVersion": "v4"
   },
-  "question": "Chân gà PÖNNIE xốt mật ong: Gemini vẽ lại 4 lần đều sai logo thành 'PÖNME' (ảnh gốc nhăn che chữ). Ảnh cũ đang chờ duyệt vẫn nghiêng. Chọn: (a) giữ ảnh cũ, (b) nhân viên chụp thẳng 1 gói rồi vẽ lại, (c) gửi ảnh gói phẳng/ảnh hãng.",
+  "question": null,
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -74,10 +73,22 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "image redo blocked; question for owner"
+    },
+    {
+      "at": "2026-10-16T02:18:39Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "owner: wants flatter, cleaner renders; redrawn"
+    },
+    {
+      "at": "2026-10-16T02:18:45.570Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-15T09:22:01.532Z",
+    "at": "2026-10-16T02:18:45.570Z",
     "fields": [
       "description",
       "image"
