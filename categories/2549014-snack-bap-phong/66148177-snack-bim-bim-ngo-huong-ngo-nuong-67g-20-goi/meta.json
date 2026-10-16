@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I3: chủ muốn ảnh render phẳng, sạch hơn (16/10) → Gemini vẽ lại kiểu bao bì in phẳng, chính diện, nền trắng; đã so chữ/logo với mẫu (v15)",
@@ -91,6 +91,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-16T03:12:33.562Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -100,5 +106,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-16T02:32:04.066Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-16T02:32:04.066Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/6965b7a7d0e8958a94992e3cf5776c6b634279a203eba87a2c2640f0ebd0c750.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/30/tram8/200c8af5599d4c5da84461518e699747.png"
+        ]
+      },
+      "description": {
+        "to": "Snack ngô hình nón Kokkalcorn (꼬깔콘) của Lotte vị ngô nướng: bánh hình nón giòn, thơm vị bắp nướng.\n\nQuy cách: 67 g · gói\nXuất xứ: Hàn Quốc · Nhà sản xuất/thương hiệu: Lotte · Kokkalcorn",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

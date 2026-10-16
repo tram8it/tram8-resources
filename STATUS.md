@@ -2,17 +2,17 @@
 
 > Sinh tự động bởi `node tools/status.mjs`. **Không sửa tay.** Nguồn sự thật là `meta.json` của từng SP.
 
-Tổng 2448 SP · đã xem 2428 (99%) · xong 600 · chờ chủ duyệt 758 · cần chụp 866 · hỏi chủ 204
+Tổng 2448 SP · đã xem 2428 (99%) · xong 617 · chờ chủ duyệt 741 · cần chụp 866 · hỏi chủ 204
 
 Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` = giữ nguyên + đã lên web.
 
 | # | Category | DT 90 ngày | Tổng | Chưa xem | Giữ nguyên | Đang làm | Cần chụp | Hỏi chủ | Chờ duyệt | Đã duyệt | Đã lên web |
 |---|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| 1 | Snack khoai tây | 0.0tr | 75 | 0 | 0 | 0 | 0 | 2 | 18 | 0 | 55 |
-| 2 | Snack bắp & phồng | 0.0tr | 64 | 0 | 0 | 0 | 17 | 16 | 7 | 0 | 24 |
+| 1 | Snack khoai tây | 0.0tr | 75 | 0 | 0 | 0 | 0 | 2 | 16 | 0 | 57 |
+| 2 | Snack bắp & phồng | 0.0tr | 64 | 0 | 0 | 0 | 17 | 16 | 0 | 0 | 31 |
 | 3 | Kem que | 0.0tr | 60 | 0 | 0 | 0 | 24 | 5 | 31 | 0 | 0 |
 | 4 | Socola thanh | 0.0tr | 53 | 0 | 0 | 0 | 11 | 5 | 0 | 0 | 37 |
-| 5 | Snack đậu phộng / hạt‑đậu | 0.0tr | 47 | 0 | 0 | 0 | 16 | 8 | 2 | 0 | 21 |
+| 5 | Snack đậu phộng / hạt‑đậu | 0.0tr | 47 | 0 | 0 | 0 | 16 | 8 | 0 | 0 | 23 |
 | 6 | Kẹo dẻo / jelly | 0.0tr | 44 | 0 | 0 | 0 | 26 | 4 | 14 | 0 | 0 |
 | 7 | Viên ngậm thảo mộc / bạc hà | 0.0tr | 44 | 0 | 0 | 0 | 20 | 2 | 22 | 0 | 0 |
 | 8 | Snack que / que cay | 0.0tr | 43 | 0 | 0 | 0 | 26 | 10 | 0 | 0 | 7 |
@@ -62,7 +62,7 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 | 52 | Sữa hạt | 0.0tr | 16 | 0 | 0 | 0 | 8 | 1 | 7 | 0 | 0 |
 | 53 | Que cay / tăm cay (latiao) | 0.0tr | 15 | 0 | 0 | 0 | 12 | 1 | 0 | 0 | 2 |
 | 54 | Bánh ngọt | 0.0tr | 15 | 0 | 0 | 0 | 13 | 1 | 1 | 0 | 0 |
-| 55 | Chân gà | 0.0tr | 15 | 0 | 0 | 0 | 9 | 1 | 1 | 0 | 4 |
+| 55 | Chân gà | 0.0tr | 15 | 0 | 0 | 0 | 9 | 1 | 0 | 0 | 5 |
 | 56 | Cocktail lon RTD | 0.0tr | 15 | 0 | 3 | 0 | 3 | 0 | 9 | 0 | 0 |
 | 57 | Sữa chua kiểu Hy Lạp | 0.0tr | 15 | 0 | 0 | 0 | 11 | 0 | 4 | 0 | 0 |
 | 58 | Măng & rau ngâm cay | 0.0tr | 15 | 0 | 0 | 0 | 11 | 1 | 0 | 0 | 3 |
@@ -82,7 +82,7 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 | 72 | Bàn chải - Người lớn | 0.0tr | 12 | 0 | 0 | 0 | 3 | 3 | 6 | 0 | 0 |
 | 73 | Bánh mì kem tươi | 0.0tr | 12 | 0 | 11 | 0 | 1 | 0 | 0 | 0 | 0 |
 | 74 | Nước ngọt ít calories | 0.0tr | 12 | 0 | 0 | 0 | 3 | 0 | 7 | 0 | 2 |
-| 75 | Snack mì | 0.0tr | 12 | 0 | 0 | 0 | 4 | 0 | 2 | 0 | 6 |
+| 75 | Snack mì | 0.0tr | 12 | 0 | 0 | 0 | 4 | 0 | 0 | 0 | 8 |
 | 76 | Sữa chua đông lạnh | 0.0tr | 12 | 0 | 0 | 0 | 12 | 0 | 0 | 0 | 0 |
 | 77 | Củ / bộ sạc | 0.0tr | 11 | 0 | 0 | 0 | 3 | 6 | 2 | 0 | 0 |
 | 78 | Khô bò | 0.0tr | 11 | 0 | 0 | 0 | 6 | 0 | 0 | 0 | 5 |
@@ -94,7 +94,7 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 | 84 | Dụng cụ sơ cứu | 0.0tr | 10 | 0 | 0 | 0 | 0 | 1 | 9 | 0 | 0 |
 | 85 | Bắp rang bơ - Popcorn | 0.0tr | 10 | 0 | 0 | 0 | 10 | 0 | 0 | 0 | 0 |
 | 86 | Cáp sạc & dây | 0.0tr | 10 | 0 | 0 | 0 | 4 | 0 | 6 | 0 | 0 |
-| 87 | Thịt & hải sản ăn liền | 0.0tr | 10 | 0 | 0 | 0 | 4 | 0 | 1 | 0 | 5 |
+| 87 | Thịt & hải sản ăn liền | 0.0tr | 10 | 0 | 0 | 0 | 4 | 0 | 0 | 0 | 6 |
 | 88 | Toner - Xịt khoáng - Dưỡng ẩm | 0.0tr | 10 | 0 | 6 | 0 | 1 | 0 | 3 | 0 | 0 |
 | 89 | Phở ăn liền | 0.0tr | 10 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 10 |
 | 90 | Kem bánh | 0.0tr | 10 | 0 | 0 | 0 | 4 | 3 | 3 | 0 | 0 |
@@ -123,8 +123,8 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 | 113 | Xịt chống nắng | 0.0tr | 7 | 0 | 0 | 0 | 4 | 0 | 3 | 0 | 0 |
 | 114 | Burger - Hotdog - Bánh mì | 0.0tr | 7 | 0 | 0 | 0 | 3 | 0 | 4 | 0 | 0 |
 | 115 | Món ăn no | 0.0tr | 7 | 0 | 0 | 0 | 6 | 0 | 1 | 0 | 0 |
-| 116 | Da cá / Da heo | 0.0tr | 7 | 0 | 0 | 0 | 3 | 0 | 1 | 0 | 3 |
-| 117 | Snack khoai mì / khoai lang | 0.0tr | 7 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 6 |
+| 116 | Da cá / Da heo | 0.0tr | 7 | 0 | 0 | 0 | 3 | 0 | 0 | 0 | 4 |
+| 117 | Snack khoai mì / khoai lang | 0.0tr | 7 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 7 |
 | 118 | Sữa rửa mặt NỮ | 0.0tr | 7 | 0 | 0 | 0 | 1 | 1 | 5 | 0 | 0 |
 | 119 | Tẩy da chết - Face | 0.0tr | 7 | 0 | 7 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 120 | Whisky & Bourbon | 0.0tr | 7 | 0 | 0 | 0 | 3 | 0 | 4 | 0 | 0 |

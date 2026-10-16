@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I3: chủ muốn ảnh render phẳng, sạch hơn (16/10) → Gemini vẽ lại kiểu bao bì in phẳng, chính diện, nền trắng; đã so chữ/logo với mẫu (v15)",
@@ -97,6 +97,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-16T03:12:33.562Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -106,5 +112,26 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-16T02:31:49.974Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-16T02:31:49.974Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/12ebd36e62715f43d344f84ac882f5751a8e75411eb595f51750f6cd946a62b7.webp"
+        ],
+        "from": [
+          "https://img.tram8.vn/products/9b7fbe97d78fb405d4e903cd5b0914a4ae105e42814061d3cbae134b01749083.webp"
+        ]
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

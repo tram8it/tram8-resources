@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I3: chủ muốn ảnh render phẳng, sạch hơn (16/10) → Gemini vẽ lại kiểu bao bì in phẳng, chính diện, nền trắng; đã so chữ/logo với mẫu (v15)",
@@ -94,6 +94,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-16T03:12:33.562Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -103,5 +109,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-16T02:31:56.747Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-16T02:31:56.747Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/d7303e5f497e96ef8608bc57f3663abef9e63e53cda34731a525377859152814.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/05/31/tram8/649d5fed793844aba36535fcf6b8fdca.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Bánh tortilla chips Happy Tos vị phô mai cheddar nhẹ: miếng bánh bắp hình tam giác giòn rụm, thoảng vị phô mai.\n\nThành phần: bắp nguyên hạt (67%), dầu cọ (chứa chất chống oxy hoá TBHQ), gia vị phô mai (chứa chất điều vị mononatri glutamat, dinatri ribonucleotid, màu caramen nhóm IV), đường, muối.\nQuy cách: 140 g · gói\nXuất xứ: Indonesia · Nhà sản xuất/thương hiệu: PT Sinar Kencana Agung · Happy Tos",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

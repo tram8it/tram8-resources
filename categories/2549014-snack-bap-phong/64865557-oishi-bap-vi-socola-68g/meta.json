@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I3: chủ muốn ảnh render phẳng, sạch hơn (16/10) → Gemini vẽ lại kiểu bao bì in phẳng, chính diện, nền trắng; đã so chữ/logo với mẫu (v15); gắn nhãn 68g (RUBRIC v16)",
@@ -88,6 +88,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-16T03:12:33.562Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -97,5 +103,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-16T02:31:32.743Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-16T02:31:32.743Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/751e2e03aa3f1d351338f8d1edf6b960849a8e3f66982ab50f69f9fbe367a2f7.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/30/tram8/c87525177f14483c86cfef8b88ee6595.png"
+        ]
+      },
+      "description": {
+        "to": "Snack bắp vị sô-cô-la Oishi làm từ nguyên liệu bắp, được nướng chứ không chiên, vị bắp kết hợp sô-cô-la ngọt, hợp với trẻ nhỏ và bữa xế.\n\nQuy cách: 68 g · gói\nNhà sản xuất/thương hiệu: Oishi",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

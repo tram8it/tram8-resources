@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "CROP",
     "reason": "I9: packshot nền trắng, nguyên vẹn, chỉ chưa 1:1; đã crop và xem lại",
@@ -80,6 +80,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-16T03:12:33.562Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -91,9 +97,24 @@
     "hubStatus": "PENDING"
   },
   "review": {
-    "status": "FAILED",
+    "status": "APPLIED",
     "reviewedBy": "AU KHUONG DUY",
-    "reviewedAt": "2026-10-15T09:35:14.378Z",
-    "note": "fetch failed"
+    "reviewedAt": "2026-10-16T02:32:19.637Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-16T02:32:19.637Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/04821b57e57cdca7bdbd1b7f434a5e60259e837080773f719f94f05a6482e882.webp"
+        ],
+        "from": [
+          "https://img.tram8.vn/products/a3732967ead3be14977be7e20f264afd0b085e132c8cca09bbc558899583c555.webp"
+        ]
+      }
+    },
+    "unexpectedChanges": {}
   }
 }
