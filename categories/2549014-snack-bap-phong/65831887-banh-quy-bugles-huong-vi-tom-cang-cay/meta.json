@@ -20,9 +20,9 @@
   "status": "NEEDS_PHOTO",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh; không tìm được trang hãng cho bản Bugles Trung Quốc → cần nhân viên chụp",
+    "reason": "I1: chưa có ảnh. Đã tìm lại 17/10/2026 (RUBRIC v13–v17): không có trang hãng trong data/brands.json; mã vạch 6945705879329 không có trên web/OpenFoodFacts; dòng 妙脆角 (Cheetos/PepsiCo Trung Quốc) trên JD/Weee chỉ thấy gói túi 40g/65g các vị khác, không thấy bản vị này, cũng không thấy dạng ống; tiền tố mã vạch 6945705 khác mã PepsiCo TQ (6924743) nên chưa chắc cùng nhà sản xuất. Không có ảnh mẫu nào để Gemini vẽ đúng (không biết bao bì, khối lượng) → cần nhân viên chụp mặt trước (thấy rõ vị, khối lượng tịnh).",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +43,12 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "image needs staff photo, description WRITE_NEW (from name)"
+    },
+    {
+      "at": "2026-10-17T12:00:00Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "re-searched for brand/retailer references (web, barcode lookups, JD, Weee): none found for this exact pack; no Gemini call made"
     }
   ]
 }
