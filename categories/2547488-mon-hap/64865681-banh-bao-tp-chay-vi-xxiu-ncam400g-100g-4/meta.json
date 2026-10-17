@@ -20,17 +20,17 @@
   "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I4: ảnh chụp cận nhãn bằng điện thoại, nền không trắng; thophat.com chặn bot/chỉ có ảnh bánh bày đĩa → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Chữ lớn, khối lượng 400 g (4 cái x 100 g), mã vạch khớp bao bì thật; chữ nhỏ (thành phần, bảng dinh dưỡng, địa chỉ, số hotline) do AI vẽ, không đúng nguyên văn. Lưu ý: tên KiotViet ghi 'Chay Vi XXiu' nhưng bao bì (cùng mã vạch) là 'Xá xíu kiểu Hồng Kông', không ghi chay.",
+    "reason": "v18: món hấp bán lẻ hiện cái bánh và nhân thay cho ảnh bao bì → ảnh món ăn Gemini vẽ từ ảnh bao bì (v18: món hấp bán lẻ hiện cái bánh và nhân); ảnh minh hoạ. Khác hàng thật: nhân xá xíu heo thái hạt lựu sốt đỏ, ít hành tây/nấm mèo — theo thành phần in trên bao bì (thịt heo 13,2%, nước tương, dầu hào, hành tây, nấm mèo) và hình nhân trên nhãn; ảnh minh hoạ, bánh thật có thể khác",
     "source": {
       "aiGenerated": true,
       "tool": "Gemini API",
       "model": "gemini-nano-banana-2.1",
       "generatedAt": "2026-10-17",
-      "style": "flat clean packaging render (v17)",
-      "reference": "ảnh render bao bì trên Co.op Online (cùng mã vạch 8935335402804, chỉ làm mẫu) + ảnh KiotViet",
-      "referenceUrl": "https://cooponline.vn/banh-bao-xa-xiu-hong-kong-tho-phat-4x100g--s260407823"
+      "style": "food photo, whole + cut showing filling (v18)",
+      "reference": "ảnh bao bì (ảnh KiotViet + ảnh bao bì đã vẽ) — chỉ để biết hình bánh và nhân",
+      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2025/12/02/tongpenhchtl/8037384245b1423d82a62c9a206a1b59.jpeg"
     },
-    "rubricVersion": "v17"
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -63,10 +63,22 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T07:26:52Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 6, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T07:27:07.357Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-17T05:37:09.578Z",
+    "at": "2026-10-17T07:27:07.357Z",
     "fields": [
       "description",
       "image"

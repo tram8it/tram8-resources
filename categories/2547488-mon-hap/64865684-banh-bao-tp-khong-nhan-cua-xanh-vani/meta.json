@@ -20,17 +20,17 @@
   "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I4: ảnh chụp điện thoại có giấy tờ phía sau, nền không trắng; không có ảnh hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Tên 'Bánh bao không nhân cua xanh vani', khối lượng 260g (65g/cái x 4) khớp nhãn thật; dãy số mã vạch AI vẽ sai nên đã làm mờ; hình khay/túi suy theo SP cùng dòng; chữ nhỏ do AI vẽ, không đúng nguyên văn.",
+    "reason": "v18: món hấp bán lẻ hiện cái bánh và nhân thay cho ảnh bao bì → ảnh món ăn Gemini vẽ từ ảnh bao bì (v18: món hấp bán lẻ hiện cái bánh và nhân); ảnh minh hoạ. Khác hàng thật: bánh không nhân hình cua (cuộn sừng) màu xanh vani, ruột chỉ có bột bánh — theo tên SP 'không nhân' và hình bánh trên bao bì; ảnh minh hoạ, bánh thật có thể khác",
     "source": {
       "aiGenerated": true,
       "tool": "Gemini API",
       "model": "gemini-nano-banana-2.1",
       "generatedAt": "2026-10-17",
-      "style": "flat clean packaging render (v17)",
-      "reference": "ảnh KiotViet (nhãn thật) + ảnh render cùng dòng 'Xá xíu kiểu Hồng Kông' trên Co.op Online (chỉ làm mẫu kiểu khay)",
+      "style": "food photo, whole + cut showing filling (v18)",
+      "reference": "ảnh bao bì (ảnh KiotViet + ảnh bao bì đã vẽ) — chỉ để biết hình bánh và nhân",
       "referenceUrl": "https://cdn1-retail-images.kiotviet.vn/2026/01/06/tongpenhchtl/d332348511e44ef0af1b0d24c735735a.jpeg"
     },
-    "rubricVersion": "v17"
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -69,10 +69,22 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T07:26:53Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T07:27:14.487Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-17T05:37:16.505Z",
+    "at": "2026-10-17T07:27:14.487Z",
     "fields": [
       "description",
       "image"

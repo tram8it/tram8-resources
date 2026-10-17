@@ -20,17 +20,17 @@
   "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I4: ảnh chụp điện thoại, nền không trắng; không có ảnh hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Tên 'Bánh bao Thọ Phát – Đậu Xanh', '70 g/bánh x 4', khối lượng 280 g khớp ảnh gói thật; khung túi in và hình minh hoạ vẽ theo ảnh cửa hàng; chữ nhỏ mặt trước do AI vẽ.",
+    "reason": "v18: món hấp bán lẻ hiện cái bánh và nhân thay cho ảnh bao bì → ảnh món ăn Gemini vẽ từ ảnh bao bì (v18: món hấp bán lẻ hiện cái bánh và nhân); ảnh minh hoạ. Khác hàng thật: vỏ xanh nhạt, nhân đậu xanh sên vàng — theo tên SP và hình bánh bổ đôi trên bao bì; ảnh minh hoạ, bánh thật có thể khác",
     "source": {
       "aiGenerated": true,
       "tool": "Gemini API",
       "model": "gemini-nano-banana-2.1",
       "generatedAt": "2026-10-17",
-      "style": "flat clean packaging render (v17)",
-      "reference": "ảnh KiotViet (ảnh chụp gói thật)",
+      "style": "food photo, whole + cut showing filling (v18)",
+      "reference": "ảnh bao bì (ảnh KiotViet + ảnh bao bì đã vẽ) — chỉ để biết hình bánh và nhân",
       "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2025/12/02/tongpenhchtl/faf5511c0f3c43c1b9dd111c77147efd.jpeg"
     },
-    "rubricVersion": "v17"
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -63,10 +63,22 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T07:26:52Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T07:27:09.814Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-17T05:37:11.498Z",
+    "at": "2026-10-17T07:27:09.814Z",
     "fields": [
       "description",
       "image"

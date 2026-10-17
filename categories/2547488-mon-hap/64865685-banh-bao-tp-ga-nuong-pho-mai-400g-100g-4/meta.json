@@ -20,17 +20,17 @@
   "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I4: ảnh chụp điện thoại, nền không trắng; không có ảnh hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Tên 'Bánh bao gà nướng phô mai', khối lượng 400 g (100 g x 4), mã vạch khớp nhãn thật; hình khay/túi suy theo SP cùng dòng (ảnh cửa hàng chụp cận, chỉ thấy một phần khay); chữ nhỏ (thành phần, dinh dưỡng, địa chỉ, hotline) do AI vẽ, không đúng nguyên văn.",
+    "reason": "v18: món hấp bán lẻ hiện cái bánh và nhân thay cho ảnh bao bì → ảnh món ăn Gemini vẽ từ ảnh bao bì (v18: món hấp bán lẻ hiện cái bánh và nhân); ảnh minh hoạ. Khác hàng thật: nhân gà xé sốt đỏ cam + phô mai kéo sợi — theo thành phần in trên bao bì (phô mai 8,5%, thịt gà 7%, hành tây, tương ớt) và hình nhân trên nhãn; ảnh minh hoạ, bánh thật có thể khác",
     "source": {
       "aiGenerated": true,
       "tool": "Gemini API",
       "model": "gemini-nano-banana-2.1",
       "generatedAt": "2026-10-17",
-      "style": "flat clean packaging render (v17)",
-      "reference": "ảnh KiotViet (nhãn thật) + ảnh render cùng dòng 'Xá xíu kiểu Hồng Kông' trên Co.op Online (chỉ làm mẫu kiểu khay)",
+      "style": "food photo, whole + cut showing filling (v18)",
+      "reference": "ảnh bao bì (ảnh KiotViet + ảnh bao bì đã vẽ) — chỉ để biết hình bánh và nhân",
       "referenceUrl": "https://cdn1-retail-images.kiotviet.vn/2026/01/07/tongpenhchtl/10b74956923648978efe54b0a280dccf.jpeg"
     },
-    "rubricVersion": "v17"
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -63,10 +63,22 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T07:26:53Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T07:27:16.245Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-17T05:37:18.219Z",
+    "at": "2026-10-17T07:27:16.245Z",
     "fields": [
       "description",
       "image"
