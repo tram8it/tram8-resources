@@ -17,12 +17,20 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I4: ảnh chụp điện thoại, nền tường xám/bàn; không tìm được trang hãng Snack House/GOODY! (snackhouse.vn chuyển sang site khác, snackhouse.com.vn không truy cập được) → cần nhân viên chụp",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I4: ảnh chụp điện thoại, nền tường xám/bàn, đáy hũ bị cắt; không tìm được ảnh hãng Snack House/GOODY! → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: nhãn hũ thật không in khối lượng nên ảnh cũng không có khối lượng (180g chỉ theo tên KiotViet); đáy hũ vẽ bổ sung (ảnh gốc bị cắt); chữ nhỏ trên logo Snackhouse là bản vẽ lại",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet hiện tại (ảnh chụp điện thoại hũ thật)",
+      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/05/11/tram8/bc7092ced8a64cf584aab74ff82b1248.jpeg"
+    },
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +51,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "image needs staff photo; description WRITE_NEW from front of pack"
+    },
+    {
+      "at": "2026-10-17T04:26:37Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T04:26:45.644Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T04:26:45.644Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

@@ -20,9 +20,9 @@
   "status": "NEEDS_PHOTO",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh; tên không có thương hiệu, không tìm được hãng theo mã vạch 8938525983xxx → cần nhân viên chụp",
+    "reason": "I1: chưa có ảnh; tên không có thương hiệu. Đã tra mã vạch 8938525983xxx (tiền tố GS1 VN 8938525) trên web và Open Food Facts (17/10/2026): không xác định được hãng, không có ảnh bao bì để làm mẫu → cần nhân viên chụp mặt trước gói (thấy tên hãng, vị, khối lượng)",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +43,12 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "image needs staff photo; description WRITE_NEW from name"
+    },
+    {
+      "at": "2026-10-17T04:26:45Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "tra mã vạch 8938525 không ra hãng/ảnh mẫu; giữ NEEDS_PHOTO"
     }
   ]
 }
