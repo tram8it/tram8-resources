@@ -17,20 +17,31 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "ASK_OWNER",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I4: ảnh chụp nhiều hộp trên kệ; không có ảnh hãng; thiết kế hộp đang bán chỉ thấy một phần — hỏi chủ chọn ảnh mẫu",
-    "source": null,
-    "rubricVersion": "v17"
+    "reason": "I3/I4: ảnh chụp nhiều hộp trên kệ, không có ảnh hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: bảng dinh dưỡng góc trên trái vẽ mờ; còn lại như hộp thật (BRAND FROM JAPAN, Dark, 12 pieces)",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh Open Food Facts theo mã vạch 4902888183447 (chỉ làm mẫu) + ảnh kệ KiotViet",
+      "referenceUrl": "https://world.openfoodfacts.org/product/4902888183447"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
-    "reason": "D1: chưa có mô tả; viết ngắn từ chữ in trên bao bì (ảnh hiện tại) + tên SP, không có trang hãng",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "D1: chưa có mô tả; viết ngắn từ chữ in trên hộp đúng mã vạch (Open Food Facts: Dark, 12 pieces, 42 g)",
+    "source": {
+      "url": "https://world.openfoodfacts.org/product/4902888183447",
+      "fetchedAt": "2026-10-17"
+    },
+    "rubricVersion": "v19"
   },
-  "question": "DARS đen 42 g (4902888183447): không tìm được ảnh hãng; ảnh cửa hàng ('BRAND FROM JAPAN') chỉ thấy một phần mặt hộp. Nhờ chụp thẳng mặt trước 1 hộp đang bán.",
+  "question": null,
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -61,6 +72,18 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "still ASK_OWNER: no brand image; shelf photo only partial — needs a front photo"
+    },
+    {
+      "at": "2026-10-17T14:03:14Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T14:03:58Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "resolved without asking: Open Food Facts photos of barcode 4902888183447 show the same BRAND FROM JAPAN Dark box as the shelf photo (front, barcode, 42 g); used as Gemini reference"
     }
   ]
 }

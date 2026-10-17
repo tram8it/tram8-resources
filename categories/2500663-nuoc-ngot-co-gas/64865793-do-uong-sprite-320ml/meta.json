@@ -19,10 +19,14 @@
   },
   "status": "READY",
   "image": {
-    "decision": "KEEP",
-    "reason": "Đạt I1–I9: packshot nền trắng, 1:1, đúng SP, nằm giữa",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "REPLACE",
+    "reason": "ảnh tự chụp (mềm, lóa) → ảnh hãng lon Sprite Hương Chanh 320 ml, bao bì mới nhất (v19) trên trang Coca-Cola Việt Nam",
+    "source": {
+      "url": "https://www.coca-cola.com/content/dam/onexp/vn/vi/brands/sprite/vn-sprite-huong-chanh-can.png",
+      "fetchedAt": "2026-10-17",
+      "page": "https://www.coca-cola.com/vn/vi/brands/sprite"
+    },
+    "rubricVersion": "v20"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -46,6 +50,12 @@
       "by": "ai",
       "status": "READY",
       "note": "b17: image KEEP, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T13:59:53.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "image: shop photo replaced with brand packshot (www.coca-cola.com)"
     }
   ]
 }

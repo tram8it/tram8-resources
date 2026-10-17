@@ -17,20 +17,28 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "ASK_OWNER",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I4/I8: ảnh chụp đống gói trong thùng carton; chưa thay vì chưa biết khối lượng gói (trang Oishi có 30g và 80g)",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I3/I4/I8: ảnh chụp đống gói trong thùng; thay bằng ảnh hãng Pinattsu Đậu Phộng Da Cá Vị BBQ Cay (cùng vị; ảnh hãng là gói zip, gói 30 g ở cửa hàng là gói gối) và gắn nhãn \"30g\" (v16, dùng chung ảnh với SP 66362037 gói 80 g). Khối lượng 30 g đọc trên gói trong ảnh KiotViet cạnh mã vạch",
+    "source": {
+      "url": "https://oishi.cdn.vccloud.vn/storage/products/April2026/TpmAugCXAkeaIs4DEGSY.png",
+      "page": "https://oishi.com.vn/san-pham",
+      "fetchedAt": "2026-10-17"
+    },
+    "rubricVersion": "v19",
+    "sizeTag": "30g"
   },
   "description": {
-    "decision": "ASK_OWNER",
-    "reason": "D1: chưa có mô tả; chờ chủ xác nhận khối lượng",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; theo trang Oishi (Pinattsu rang không dùng dầu; da cá BBQ cay 30/80g) + khối lượng in trên gói (30 g)",
+    "source": {
+      "url": "https://oishi.com.vn/san-pham",
+      "fetchedAt": "2026-10-17"
+    },
+    "rubricVersion": "v19"
   },
-  "question": "SP 'Đậu phộng da cá vị BBQ cay' (Oishi Pinattsu, mã 8934803056389) là gói bao nhiêu gam — 30g hay 80g? Trang Oishi có cả hai cỡ; ảnh hiện tại là cả thùng gói nhỏ nên cần biết đúng cỡ để chọn ảnh hãng.",
+  "question": null,
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -43,6 +51,26 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "asked owner: pack size unknown (30g vs 80g)"
+    },
+    {
+      "at": "2026-10-17T14:02:05Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "resolved without asking: the shop photo shows the barcode 8934803056389 next to \"30 g\"; Oishi lists Pinattsu da cá BBQ cay 30/80g"
+    },
+    {
+      "at": "2026-10-17T14:02:22.779Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T14:02:22.779Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

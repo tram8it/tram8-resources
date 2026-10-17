@@ -17,15 +17,16 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "ASK_OWNER",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I4: ảnh chụp tay cầm, tem 'COMBO 1+1'. Thay bằng ảnh hãng CJ gói 45 g cùng sản phẩm, cùng vị (RUBRIC v6, chủ chọn 14/10/2026); mô tả giữ 30 g",
+    "reason": "I3/I4: ảnh chụp tay cầm, tem 'COMBO 1+1'. Trang CJ Foods ghi SP có cỡ 30 g/45 g/100 g và có ảnh gói 30 g → dùng ảnh hãng gói 30 g (đúng tên SP), thay ảnh 45 g dùng tạm trước đây",
     "source": {
-      "url": "https://cdn.cjfoods.com.vn/wp-content/uploads/2026/06/Rong-bien-nuong-gion-tom-cha-bong_45g.webp",
-      "fetchedAt": "2026-10-13"
+      "url": "https://cdn.cjfoods.com.vn/wp-content/uploads/2026/06/SML_SW_GJB_30g_Shrimp_F.webp",
+      "page": "https://cjfoods.com.vn/product/rong-bien-nuong-gion-tron-cha-bong-tom/",
+      "fetchedAt": "2026-10-17"
     },
-    "rubricVersion": "v6"
+    "rubricVersion": "v20"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -36,7 +37,7 @@
     },
     "rubricVersion": "v4"
   },
-  "question": "\"BBG rong biển chà bông tôm 30g\" (SP878174) và \"BBG RB nướng trộn chà bông tôm\" (SP878171) dùng chung ảnh gói CJ 45 g; ảnh cũ trên KiotViet của CẢ HAI mã đều là gói 45 g (một gói có tem COMBO 1+1). Cửa hàng có thật bán gói 30 g không? Nếu có → gắn nhãn \"30g\"/\"45g\" lên hai ảnh (RUBRIC v16); nếu không → hai mã là cùng gói 45 g (sửa tên mã SP878174, gộp/tắt mã thừa).",
+  "question": null,
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -73,6 +74,12 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "ask owner: name says 30g but both codes' old photos are the 45 g pack (shares image with 68030117)"
+    },
+    {
+      "at": "2026-10-17T14:00:10.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "resolved without asking: trang CJ Foods có gói 30 g thật (30g/45g/100g) → ảnh hãng gói 30 g; SP878171 vẫn là gói 45 g, hai mã là hai cỡ khác nhau"
     }
   ],
   "submitted": {

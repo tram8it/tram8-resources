@@ -17,12 +17,12 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "ASK_OWNER",
+  "status": "NEEDS_PHOTO",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh; Mondelēz Kinh Đô không có trang SP Oreo Socola Pie vị dâu; ảnh tìm được (Open Food Facts) là bản sự kiện BABYMONSTER, ghi 180 g",
+    "reason": "Mã 8934680046527 chỉ tìm được hộp bản sự kiện (BABYMONSTER/Blackpink, 180 g – Open Food Facts); không có ảnh hộp bản thường → cần chụp mặt trước hộp đang bán",
     "source": null,
-    "rubricVersion": "v17"
+    "rubricVersion": "v19"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -30,7 +30,7 @@
     "source": null,
     "rubricVersion": "v4"
   },
-  "question": "Mã 8934680046527 'OREO PIE SOCOLA DAU 168GRX12H': Open Food Facts cùng mã vạch ghi 180 g và chỉ có ảnh hộp bản sự kiện 'BABYMONSTER Oreo Socola-Pie Vị Dâu' (sưu tầm thẻ hình). Hộp đang bán là 168 g hay 180 g? Có hộp bản thường (không BABYMONSTER) không? Nếu có, nhờ nhân viên chụp mặt trước hộp để vẽ lại; nếu chỉ có bản sự kiện, chủ có đồng ý dùng ảnh bản sự kiện không (trái v17)?",
+  "question": null,
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -49,6 +49,12 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "Mã 8934680046527 'OREO PIE SOCOLA DAU 168GRX12H': Open Food Facts cùng mã vạch ghi 180 g và chỉ có ảnh hộp bản sự kiện 'BABYMONSTER Oreo Socola-Pie Vị Dâu' (sưu tầm thẻ hình). Hộp đang bán là 168 g hay 180 g? Có hộp bản thường (không BABYMONSTER) không? Nếu có, nhờ nhân viên chụp mặt trước hộp để vẽ"
+    },
+    {
+      "at": "2026-10-17T14:02:05Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "only the event edition box exists online for this barcode (v17); staff photo of the shelf box needed"
     }
   ]
 }

@@ -17,12 +17,17 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "ASK_OWNER",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I4: ảnh tay cầm 1 hũ trên thùng carton, SKU ghi 6x240g; không tìm được ảnh hãng (Nestlé Thái Lan) → cần chụp đúng quy cách bán",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I3/I4: ảnh tay cầm 1 hũ trên thùng carton; dùng ảnh hũ KitKat Pint đã vẽ cho SP 67039548 (cùng mã gốc 8850124038593); mã -2 ghi 6x240g → ảnh minh hoạ 1 hũ, mô tả ghi rõ 6 hũ",
+    "source": {
+      "sameAs": "67039548",
+      "aiGenerated": true,
+      "fetchedAt": "2026-10-17",
+      "url": "https://cdn2-retail-images.kiotviet.vn/2026/07/13/tram8/8858be321a5d44a3ab2c4cf1e87203fc.jpeg"
+    },
+    "rubricVersion": "v19"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -30,7 +35,7 @@
     "source": null,
     "rubricVersion": "v4"
   },
-  "question": "Mã 8850124038593-2 \"KIT KAT Pint 6x240g TH\" (ĐVT Cái) trùng tên với SP 67039548 (mã 8850124038593, ĐVT Hũ) — mã -2 là thùng 6 hũ hay 1 hũ? Nếu là 1 hũ hoặc chấp nhận ảnh 1 hũ thì dùng lại ảnh hũ KitKat Pint vừa vẽ cho 67039548; nếu là thùng thì cần ảnh thùng.",
+  "question": null,
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -49,6 +54,26 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "possibly carton of 6 tubs (-2 code, same name as 67039548); ask before reusing the single-tub image (RUBRIC I8)"
+    },
+    {
+      "at": "2026-10-17T14:02:05Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "resolved without asking: carton SKU (-2 code): image of one tub (same as 67039548), description states 6 tubs x 240 g"
+    },
+    {
+      "at": "2026-10-17T14:02:58.098Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T14:02:58.098Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

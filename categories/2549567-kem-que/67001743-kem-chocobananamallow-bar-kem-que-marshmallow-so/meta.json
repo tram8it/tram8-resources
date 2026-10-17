@@ -17,20 +17,24 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "ASK_OWNER",
+  "status": "READY",
   "image": {
-    "decision": "ASK_OWNER",
-    "reason": "I2: tên là Chocobananamallow Bar nhưng ảnh là Melona xoài (Binggrae); mã vạch 88011049000722 (14 số) trông như mã Melona chuối 8801104900072 thừa 1 số",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "REPLACE",
+    "reason": "I2: tên ghi Chocobananamallow, ảnh cũ là Melona xoài, nhưng mã vạch 88011049000722 là mã Melona chuối 8801104900072 (SP 67039576) gõ thừa số '2' cuối → theo mã vạch, dùng chung ảnh hãng Melona Banana. I2: ảnh cũ là Melona vị XOÀI (bao cam 'Original'), không phải vị chuối; ảnh nhỏ, nền nâu (I4, I6). Thay bằng ảnh hãng Binggrae: Melona Banana bản xuất khẩu (bao vàng, chữ 'BANANA FROZEN DESSERT BAR'), cùng dòng xuất khẩu với ảnh KiotViet cũ. Ảnh hãng nhỏ (304×80) phóng ~2,8 lần, hơi mềm nhưng không vỡ (v3/v4)",
+    "source": {
+      "url": "https://www.bing.co.kr/upload/product/2025/09/e37f6a0e-e748-4b12-8b04-2cc8c2b56b1e.png",
+      "page": "https://www.bing.co.kr/product/detail?PDT=62",
+      "fetchedAt": "2026-10-17T04:14:18Z"
+    },
+    "rubricVersion": "v20"
   },
   "description": {
-    "decision": "ASK_OWNER",
-    "reason": "Chờ chủ xác nhận SP trước khi viết mô tả",
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; theo mã vạch (Melona chuối) — dùng chung mô tả SP 67039576",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v20"
   },
-  "question": "SP 'Kem Chocobananamallow bar' (id 67001743, mã 88011049000722): trùng tên với SP 65643261 nhưng ảnh là Melona xoài và mã vạch giống mã Melona chuối (8801104900072) thừa một chữ số. SP này thực chất là gì — Chocobananamallow, Melona chuối hay Melona xoài? Có phải bản ghi trùng cần gộp/sửa mã vạch trên KiotViet không?",
+  "question": null,
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -43,6 +47,12 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "ask owner: name/barcode/image conflict"
+    },
+    {
+      "at": "2026-10-17T14:00:59.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "resolved without asking: mã 88011049000722 (14 số) = mã Melona chuối 8801104900072 của 67039576 thừa một số → theo mã vạch: ảnh/mô tả Melona chuối; cặp mã ở reports/ma-trung-de-tat.md, tên ở reports/ten-can-sua-kiotviet.md"
     }
   ]
 }

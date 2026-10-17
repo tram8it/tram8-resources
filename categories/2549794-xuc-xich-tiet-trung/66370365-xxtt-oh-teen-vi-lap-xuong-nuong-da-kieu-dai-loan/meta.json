@@ -17,20 +17,28 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "ASK_OWNER",
+  "status": "READY",
   "image": {
-    "decision": "ASK_OWNER",
-    "reason": "I8: chưa rõ bán theo cây hay theo hộp nên chưa quyết ảnh",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "REPLACE",
+    "reason": "I8: ảnh hiện tại là hộp trưng bày + 2 cây; đơn vị bán là Cái (1 cây) → vẽ 1 cây → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: ảnh minh hoạ một cây từ ảnh 2 cây; chữ nhỏ trên vỏ là ước lượng",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh Kingfoodmart theo mã vạch 8936210414554 (2 cây, chỉ làm mẫu)",
+      "referenceUrl": "https://storage.googleapis.com/onelife-public/8936210414554.jpg"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
-    "decision": "ASK_OWNER",
-    "reason": "chờ chủ xác nhận quy cách bán",
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết từ chữ in trên hộp/cây (ảnh KiotViet) + tên hàng; bán theo cây (đơn vị Cái)",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v19"
   },
-  "question": "XXTT Oh Teen vị lạp xưởng nướng đá (mã 8936210414554, đơn vị 'Cái'): bán lẻ theo cây 65g hay theo hộp 1,65kg? Ảnh hiện tại là hộp trưng bày + 2 cây; nếu bán theo cây thì cần chụp 1 cây.",
+  "question": null,
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -43,6 +51,32 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "b16 review: image ASK_OWNER, description ASK_OWNER"
+    },
+    {
+      "at": "2026-10-17T13:59:54Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T14:02:05Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "resolved without asking: KiotViet unit Cái = one 65 g stick (RUBRIC v19)"
+    },
+    {
+      "at": "2026-10-17T14:02:49.898Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T14:02:49.898Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

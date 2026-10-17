@@ -17,12 +17,16 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "UPLOADED",
+  "status": "READY",
   "image": {
-    "decision": "CROP",
-    "reason": "I9: packshot nền trắng, cùng bao bì ly Modern Lẩu Thái Tôm trên trang hãng (bản có nhãn khuyến mãi mã QR); crop 1:1 đã xem lại đạt",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "REPLACE",
+    "reason": "ảnh tự chụp (màng co bóng lóa, mềm, nhãn khuyến mãi mã QR) → ảnh hãng ly Modern Lẩu Thái Tôm bao bì thường (v17) trên acecookvietnam.vn",
+    "source": {
+      "url": "https://acecookvietnam.vn/wp/wp-content/uploads/2025/07/MI-LY-MODERN-LAU-THAI-TOM.png",
+      "fetchedAt": "2026-10-17",
+      "page": "https://acecookvietnam.vn/product/mi-ly-modern/"
+    },
+    "rubricVersion": "v20"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -58,6 +62,12 @@
       "by": "owner",
       "status": "UPLOADED",
       "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-17T14:03:56.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "image: shop photo replaced with brand packshot (acecookvietnam.vn)"
     }
   ],
   "submitted": {

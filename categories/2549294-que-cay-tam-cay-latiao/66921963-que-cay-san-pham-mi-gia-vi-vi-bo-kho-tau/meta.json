@@ -17,12 +17,19 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "ASK_OWNER",
+  "status": "READY",
   "image": {
-    "decision": "ASK_OWNER",
-    "reason": "I2: ảnh là gói Jinmofang 真心棒 川香牛肉味 (bò cay Tứ Xuyên), mã vạch in trên gói 6925678105281 = mã của SP 66922065, không phải mã 6925678105274 của SP này",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "REPLACE",
+    "reason": "I2: ảnh KiotViet là gói vị bò cay Tứ Xuyên (mã 6925678105281 của SP 66922065); mã 6925678105274 là SP riêng cùng dòng Golden Mill Spicy Strip (Open Food Facts) vị bò kho tàu, không tìm được ảnh → ảnh minh hoạ từ gói cùng dòng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: ảnh minh hoạ: màu/bố cục lấy theo gói vị bò cay Tứ Xuyên; gói thật vị bò kho tàu có thể khác màu nhãn vị",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh minh hoạ: dựng từ gói cùng dòng 真心棒 川香牛肉味 (SP 66922065), đổi nhãn vị thành 红烧牛肉味"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "ASK_OWNER",
@@ -30,7 +37,7 @@
     "source": null,
     "rubricVersion": "v4"
   },
-  "question": "Ảnh của 'Que cay (vị bò kho tàu)' (mã 6925678105274) thực ra là gói 'vị bò cay Tứ Xuyên' (川香牛肉味, mã 6925678105281 — trùng mã SP 'Que cay (Vị thịt bò cay Tứ Xuyên)'). Cửa hàng có bán gói vị bò kho tàu (红烧牛肉味) riêng không, hay hai mã này là một SP bị tạo trùng?",
+  "question": null,
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -43,6 +50,12 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "b20 review: image ASK_OWNER, description ASK_OWNER"
+    },
+    {
+      "at": "2026-10-17T14:03:50Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
     }
   ]
 }

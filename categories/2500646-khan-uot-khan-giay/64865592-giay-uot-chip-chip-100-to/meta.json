@@ -17,20 +17,28 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "ASK_OWNER",
+  "status": "READY",
   "image": {
-    "decision": "ASK_OWNER",
-    "reason": "ảnh là gói Chip Chip nắp hồng, trùng với SP \"Giấy ướt chíp chíp hồng 100 tờ\" (65569956, mã khác) — chưa chắc đúng loại",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "REPLACE",
+    "reason": "I2/v20: ảnh KiotViet của mã này là gói Chip Chip nắp hồng không mùi 100 tờ, cùng gói với SP 65569956 (mã 8938511060676) → dùng chung ảnh đã vẽ cho 65569956. I3/I4: ảnh tay cầm chụp điện thoại, nền không trắng; không có trang hãng Chip Chip → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: phần đáy gói bị khung ảnh cắt nên vẽ thêm (hoa văn, mép hàn), chữ 'Clean & Beauty' hoàn thiện từ 'Clean & Beau…'; chữ nhỏ góc phải dưới bỏ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet hiện có (tay cầm, mất phần đáy gói)",
+      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/05/08/tram8/890d79943caa4eeabcbc2ff2f093619b.png"
+    },
+    "rubricVersion": "v20"
   },
   "description": {
-    "decision": "ASK_OWNER",
-    "reason": "chờ chủ trả lời",
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; dùng chung mô tả SP 65569956 (cùng gói nắp hồng không mùi 100 tờ)",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v20"
   },
-  "question": "\"Giấy ướt chip chip 100 tờ\" (mã 8938511060683) là loại nắp màu gì? Ảnh hiện tại là gói nắp hồng, giống SP \"Giấy ướt chíp chíp hồng 100 tờ\" (mã 8938511060676). Nếu đúng là nắp hồng thì hai mã có phải cùng một SP không?",
+  "question": null,
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -43,6 +51,12 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "ask owner: which Chip Chip variant"
+    },
+    {
+      "at": "2026-10-17T14:00:59.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "resolved without asking: ảnh KiotViet của mã 8938511060683 là đúng gói nắp hồng không mùi 100 tờ như SP 65569956 (mã …676) → cùng ảnh/mô tả; cặp mã ghi ở reports/ma-trung-de-tat.md"
     }
   ]
 }

@@ -17,12 +17,16 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "UPLOADED",
+  "status": "READY",
   "image": {
-    "decision": "CROP",
-    "reason": "I9: packshot nền trắng, cùng bao bì ly Modern Xtreme vị Bò trên trang hãng; crop 1:1 đã xem lại đạt",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "REPLACE",
+    "reason": "ảnh tự chụp (màng co bóng lóa, mềm) → ảnh hãng ly Modern Xtreme Hương vị Bò 66 g trên acecookvietnam.vn",
+    "source": {
+      "url": "https://acecookvietnam.vn/wp/wp-content/uploads/2017/08/X-BO.png",
+      "fetchedAt": "2026-10-17",
+      "page": "https://acecookvietnam.vn/product/mi-ly-modern-xtreme/"
+    },
+    "rubricVersion": "v20"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -58,6 +62,12 @@
       "by": "owner",
       "status": "UPLOADED",
       "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-17T14:03:57.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "image: shop photo replaced with brand packshot (acecookvietnam.vn)"
     }
   ],
   "submitted": {

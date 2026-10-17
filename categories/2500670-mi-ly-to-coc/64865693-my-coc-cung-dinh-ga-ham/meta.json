@@ -17,12 +17,16 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "UPLOADED",
+  "status": "READY",
   "image": {
-    "decision": "CROP",
-    "reason": "I9: packshot nền trắng, cùng bao bì ly Gà Hầm trên afotech.vn; crop 1:1 đã xem lại đạt",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "REPLACE",
+    "reason": "ảnh tự chụp (màng co bóng lóa, mềm) → ảnh hãng ly Cung Đình mì khoai tây Gà Hầm trên afotech.vn",
+    "source": {
+      "url": "https://afotech.vn/storage/products/cung-dinh/instant-noodle/mockup-ly-ga.png",
+      "fetchedAt": "2026-10-17",
+      "page": "https://afotech.vn/san-pham/mi-khoai-tay-cung-dinh/cung-dinh-ga-ham-nam-copy.html"
+    },
+    "rubricVersion": "v20"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -58,6 +62,12 @@
       "by": "owner",
       "status": "UPLOADED",
       "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-17T14:01:40.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "image: shop photo replaced with brand packshot (afotech.vn)"
     }
   ],
   "submitted": {

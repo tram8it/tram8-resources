@@ -17,20 +17,27 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "ASK_OWNER",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I4: ảnh chụp tay cầm trên nền gạch — không có trang chính hãng/kênh chính chủ dùng được cho thương hiệu này (đã tìm web) → cần nhân viên chụp",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I3/I4: ảnh tay cầm trên nền gạch; không có ảnh hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: mép hàn trên/dưới do AI vẽ; khối lượng không thấy trên mặt trước",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (gói thật trên tay)"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
-    "reason": "D1: chưa có mô tả; mô tả ngắn chỉ từ tên hàng và chữ in mặt trước bao bì",
+    "reason": "D1: chưa có mô tả; viết ngắn từ chữ in mặt trước gói (TĂM CAY BÀ TUYẾT); khối lượng không thấy nên không ghi",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v19"
   },
-  "question": "Mã 8936234180473 'Bim bim tăm cay (120 gói/thùng) các loại': ảnh hiện tại là gói đen 'TĂM CAY BÀ TUYẾT' hình núi tăm đỏ trong bát. Mã này chỉ là một mẫu gói này, hay gồm nhiều mẫu/vị khác nhau (như gói vàng 'Chiến Thần Lạc Hồng')? Nếu chỉ một mẫu → em vẽ lại gói đen này; nếu nhiều mẫu → anh/chị chọn mẫu nào để hiển thị. Khối lượng in trên gói là bao nhiêu (ảnh không thấy)?",
+  "question": null,
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -49,6 +56,18 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "Tên 'các loại' — chưa rõ mã vạch gồm một hay nhiều mẫu; hỏi chủ trước khi vẽ Gemini"
+    },
+    {
+      "at": "2026-10-17T14:03:16Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T14:03:59Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "resolved without asking: the KiotViet photo shows the black pack for this barcode (the gold Chiến Thần Lạc Hồng pack is a separate SKU 8936234180565); drawn from it"
     }
   ]
 }

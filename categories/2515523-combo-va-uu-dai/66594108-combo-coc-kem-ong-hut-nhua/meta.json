@@ -17,12 +17,12 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "ASK_OWNER",
+  "status": "NEEDS_PHOTO",
   "image": {
-    "decision": "ASK_OWNER",
-    "reason": "I3/I4/I8: ảnh nền xám, chỉ có chồng cốc, không thấy ống hút; chưa rõ combo gồm gì",
+    "decision": "REPLACE",
+    "reason": "Combo tự đóng của cửa hàng, ảnh chỉ có chồng cốc nền xám, không thấy ống hút → cần chụp combo (cốc + ống hút) trên nền trắng",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v19"
   },
   "description": {
     "decision": "ASK_OWNER",
@@ -30,7 +30,7 @@
     "source": null,
     "rubricVersion": "v4"
   },
-  "question": "\"Combo cốc kèm ống hút nhựa\": combo gồm những gì (cốc PP 500 ml? có nắp không? ống hút loại nào, mấy cái)? Ảnh hiện tại chỉ có chồng cốc trên nền xám nên cũng cần chụp lại.",
+  "question": null,
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -43,6 +43,12 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "b30: image ASK_OWNER, description ASK_OWNER"
+    },
+    {
+      "at": "2026-10-17T14:02:05Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "shop-made combo, no reference of its contents; staff photo needed"
     }
   ]
 }

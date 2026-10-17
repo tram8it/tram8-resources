@@ -17,20 +17,27 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "ASK_OWNER",
+  "status": "READY",
   "image": {
-    "decision": "ASK_OWNER",
-    "reason": "I2: tên 'có đường' nhưng ảnh là 'rất ít đường'; chưa chắc SP thật",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "REPLACE",
+    "reason": "I2/I9: ảnh cũ là hộp Green Farm 'rất ít đường' (SP khác, mã 8934673100458); mã 8934673100427 trên trang Vinamilk là Green Farm CÓ ĐƯỜNG 180 ml → dùng ảnh hãng hộp có đường",
+    "source": {
+      "url": "https://d8um25gjecm9v.cloudfront.net/cms/GF_CD_180ml_01_e23b453767.png",
+      "page": "https://www.vinamilk.com.vn/products/sua-tuoi-tiet-trung-green-farm-co-duong",
+      "fetchedAt": "2026-10-17"
+    },
+    "rubricVersion": "v20"
   },
   "description": {
-    "decision": "ASK_OWNER",
-    "reason": "chờ chủ xác nhận vị",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; theo trang Vinamilk (mã vạch 8934673100427 khớp)",
+    "source": {
+      "url": "https://www.vinamilk.com.vn/products/sua-tuoi-tiet-trung-green-farm-co-duong",
+      "fetchedAt": "2026-10-17"
+    },
+    "rubricVersion": "v20"
   },
-  "question": "SP 'Sữa tươi Vinamilk 100% Green Farm 180ml có đường' (mã 8934673100427) nhưng ảnh là Green Farm 'rất ít đường'; Vinamilk hiện chỉ có Green Farm rất ít đường/không đường, và đã có SP riêng 'STTT Rất Ít Đường Green Farm 180ml' (mã 8934673100458). Mã ...427 là loại nào, có phải SP trùng/ngừng bán?",
+  "question": null,
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -43,6 +50,12 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "b16 review: image ASK_OWNER, description ASK_OWNER"
+    },
+    {
+      "at": "2026-10-17T14:00:10.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "resolved without asking: mã 8934673100427 = Green Farm có đường 180 ml (trang Vinamilk + ảnh Kingfoodmart theo mã), khác SP rất ít đường 65174041 → ảnh hãng + mô tả mới"
     }
   ]
 }

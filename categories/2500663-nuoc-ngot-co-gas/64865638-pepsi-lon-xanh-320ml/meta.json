@@ -19,17 +19,14 @@
   },
   "status": "READY",
   "image": {
-    "decision": "CROP",
-    "reason": "I9: packshot nền trắng, đúng SP nhưng không phải 1:1; crop về 1:1 (phóng 2,8 lần, xem lại đạt)",
-    "source": null,
-    "rubricVersion": "v4",
-    "vivid": {
-      "rubricVersion": "v10",
-      "saturationGain": 1.119,
-      "contrastGain": 1.038,
-      "toneGain": 1.079,
-      "gamma": 0.8
-    }
+    "decision": "REPLACE",
+    "reason": "ảnh tự chụp (mềm, lóa, bản in sự kiện) → ảnh hãng lon Pepsi 320 ml bao bì thường (v17) trên trang Suntory PepsiCo; ảnh hãng nhỏ, phóng 1,7 lần",
+    "source": {
+      "url": "https://api.suntorypepsico.vn/assets/33f8d278-583b-4dcf-8c45-59eff3498d1e",
+      "fetchedAt": "2026-10-17",
+      "page": "https://www.suntorypepsico.vn/thuong-hieu-cua-chung-toi/pepsi-3"
+    },
+    "rubricVersion": "v20"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -59,6 +56,26 @@
       "by": "ai",
       "status": "READY",
       "note": "tone.py --vivid: white balance/levels + brand-like colour (owner request)"
+    },
+    {
+      "at": "2026-10-17T13:58:49.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "image: shop photo replaced with brand packshot (api.suntorypepsico.vn)"
+    },
+    {
+      "at": "2026-10-17T13:59:05.861Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T13:59:05.861Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

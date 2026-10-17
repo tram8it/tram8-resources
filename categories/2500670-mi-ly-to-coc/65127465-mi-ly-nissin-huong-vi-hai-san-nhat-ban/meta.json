@@ -17,12 +17,16 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "UPLOADED",
+  "status": "READY",
   "image": {
-    "decision": "CROP",
-    "reason": "I9: packshot nền trắng, cùng bao bì Cup Noodles Hải Sản Nhật Bản trên nissinfoods.vn (mã vạch khớp); crop 1:1 phóng ~3 lần, đã xem lại: hơi mềm nhưng đạt (v4)",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "REPLACE",
+    "reason": "ảnh tự chụp (màng co bóng lóa, mềm) → ảnh hãng ly Cup Noodles Hải Sản Nhật Bản trên nissinfoods.vn (phóng ~1,6 lần)",
+    "source": {
+      "url": "https://nissinfoods.vn/vnt_upload/product/03_2025/haisan.png",
+      "fetchedAt": "2026-10-17",
+      "page": "https://nissinfoods.vn/vn/hai-san-nhat-ban.html"
+    },
+    "rubricVersion": "v20"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -58,6 +62,12 @@
       "by": "owner",
       "status": "UPLOADED",
       "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-17T14:02:38.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "image: shop photo replaced with brand packshot (nissinfoods.vn)"
     }
   ],
   "submitted": {

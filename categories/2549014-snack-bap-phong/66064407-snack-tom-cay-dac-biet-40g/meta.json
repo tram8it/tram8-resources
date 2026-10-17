@@ -17,20 +17,27 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "ASK_OWNER",
+  "status": "READY",
   "image": {
-    "decision": "CROP",
-    "reason": "I9: packshot nền trắng, chỉ chưa 1:1 — chưa làm vì bao bì in 45g, tên hàng 40g",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "REPLACE",
+    "reason": "I9: ảnh KiotViet chưa 1:1; thay bằng ảnh hãng Oishi Snack Tôm Cay Đặc Biệt (bao bì mới nhất, có huy hiệu \"Không chiên\"); ảnh hãng không in khối lượng",
+    "source": {
+      "url": "https://oishi.cdn.vccloud.vn/storage/products/November2025/5JBSWeMdwC8ipskHKj3y.png",
+      "page": "https://oishi.com.vn/san-pham",
+      "fetchedAt": "2026-10-17"
+    },
+    "rubricVersion": "v19"
   },
   "description": {
-    "decision": "ASK_OWNER",
-    "reason": "D1: chưa có mô tả; chờ chủ xác nhận khối lượng",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; theo trang Oishi (Snack Tôm Cay Đặc Biệt rang không chiên); khối lượng 45 g theo gói trong ảnh KiotViet (tên ghi 40g)",
+    "source": {
+      "url": "https://oishi.com.vn/san-pham",
+      "fetchedAt": "2026-10-17"
+    },
+    "rubricVersion": "v19"
   },
-  "question": "Gói in 45 g, tên KiotViet ghi 40g (lệch ~12%) — gói trên kệ in bao nhiêu g?",
+  "question": null,
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -55,6 +62,26 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "v19: vẫn ASK_OWNER (lệch lớn hoặc cần xem kệ); rút gọn câu hỏi"
+    },
+    {
+      "at": "2026-10-17T14:02:05Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "resolved without asking: the KiotViet pack photo prints 45 g (RUBRIC v19: trust the pack; owner: never ask for a number visible in our photo); name 40g may need fixing"
+    },
+    {
+      "at": "2026-10-17T14:02:25.577Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T14:02:25.577Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

@@ -17,20 +17,25 @@
     "description": "<p data-path-to-node=\"6\"><strong>1. Giới thiệu sản phẩm</strong></p><ul data-path-to-node=\"7\"><li><p data-path-to-node=\"7,0,0\"><strong>Rượu Soju Damso Vị Nho Xanh 360ml</strong> là một trong những hương vị trái cây bán chạy nhất của thương hiệu Soju Damso đến từ xứ sở kim chi.</p></li><li><p data-path-to-node=\"7,1,0\">Sự kết hợp tinh tế giữa rượu soju truyền thống tinh khiết và hương vị nho xanh tươi mát, ngọt dịu mang lại cảm giác sảng khoái tuyệt vời, là thức uống không thể thiếu trong các bữa tiệc nướng BBQ, liên hoan hay gặp gỡ bạn bè.</p></li></ul><p data-path-to-node=\"10\"><strong>2. Thông tin chi tiết</strong></p><ul data-path-to-node=\"11\"><li><p data-path-to-node=\"11,0,0\"><strong>Thương hiệu:</strong> Damso Soju</p></li><li><p data-path-to-node=\"11,1,0\"><strong>Xuất xứ:</strong> Hàn Quốc</p></li><li><p data-path-to-node=\"11,2,0\"><strong>Loại sản phẩm:</strong> Rượu Soju trái cây (Vị Nho Xanh / Green Grape)</p></li><li><p data-path-to-node=\"11,3,0\"><strong>Nồng độ cồn (ABV):</strong> 12%</p></li><li><p data-path-to-node=\"11,4,0\"><strong>Dung tích:</strong> 360ml / chai</p></li><li><p data-path-to-node=\"11,5,0\"><strong>Quy cách đóng gói:</strong> Thường đóng thùng 20 chai / thùng (hoặc bán lẻ theo chai)</p></li><li><p data-path-to-node=\"11,6,0\"><strong>Hạn sử dụng:</strong> Không thời hạn (In rõ ngày sản xuất trên bao bì)</p></li></ul><p data-path-to-node=\"12\"><strong>3. Hướng dẫn sử dụng và bảo quản</strong></p><ul data-path-to-node=\"13\"><li><p data-path-to-node=\"13,0,0\"><strong>Cách dùng:</strong></p><ul data-path-to-node=\"13,0,1\"><li><p data-path-to-node=\"13,0,1,0,0\">Ngon hơn khi uống lạnh sâu. Nên ướp lạnh trong tủ lạnh hoặc xô đá trước khi thưởng thức.</p></li><li><p data-path-to-node=\"13,0,1,1,0\">Có thể uống trực tiếp, lắc đều chai trước khi uống hoặc dùng làm nguyên liệu pha chế cocktail hiện đại.</p></li><li><p data-path-to-node=\"13,0,1,2,0\">Kết hợp hoàn hảo với các món ăn Hàn Quốc, đồ nướng BBQ, hải sản hoặc lẩu cay.</p></li></ul></li><li><p data-path-to-node=\"13,1,0\"><strong>Bảo quản:</strong> Nơi khô ráo, thoáng mát, tránh ánh nắng trực tiếp. Sau khi mở nắp nên bảo quản lạnh và dùng sớm.</p></li><li><p data-path-to-node=\"13,2,0\"><strong>Lưu ý:</strong> Sản phẩm không dành cho người dưới 18 tuổi, phụ nữ có thai hoặc đang cho con bú. <em>\"Đã uống đồ có cồn – Không lái xe\".</em></p></li></ul>",
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "ASK_OWNER",
+  "status": "READY",
   "image": {
-    "decision": "ASK_OWNER",
-    "reason": "I2: ảnh là nhãn 'Damso Grape Soju' 360ml giống hệt SP 'Damso vị nho 360ml' (mã 8809018212069), trong khi SP này mã 8809018212076, tên ghi 'nho xanh 350ml'",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "REPLACE",
+    "reason": "I6/I9: ảnh KiotViet của mã này (nhãn Damso Grape Soju, Net Content 360ml, 12% — đọc được trên ảnh) nhỏ, chai chỉ chiếm ~60% khung; cùng chai với SP 65200373 → dùng ảnh packshot nền trắng của 65200373, chuẩn hoá 1:1",
+    "source": {
+      "url": "https://cdn2-retail-images.kiotviet.vn/2026/09/12/tram8/deb3cbfdb7d24ef78f664bcad3cfadd1.png",
+      "page": "KiotViet SP 65200373 (cùng chai Damso Grape Soju 360 ml)",
+      "fetchedAt": "2026-10-17",
+      "shopPhoto": true
+    },
+    "rubricVersion": "v20"
   },
   "description": {
-    "decision": "ASK_OWNER",
-    "reason": "D2: chưa rõ là vị nho thường hay nho xanh (khác mã vạch) → chờ chủ",
+    "decision": "KEEP",
+    "reason": "D-v9: mô tả hiện có (Soju Damso vị nho xanh 360ml) khớp chai trên ảnh — giữ nguyên như SP 65200373",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v20"
   },
-  "question": "Soju Damso 'grape nho xanh 350ml' (mã 8809018212076) khác gì 'Damso vị nho 360ml' (mã 8809018212069)? Ảnh hai SP đang là cùng một nhãn Grape Soju 360ml. Đây là vị nho xanh riêng (nhãn khác) hay trùng SP? Nếu khác, nhờ nhân viên chụp chai.",
+  "question": null,
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -43,6 +48,12 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "ASK_OWNER: possible duplicate of grape soju"
+    },
+    {
+      "at": "2026-10-17T14:00:59.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "resolved without asking: ảnh KiotViet của mã 8809018212076 đọc được nhãn Damso Grape Soju 360ml 12% = cùng chai với 65200373 (mã …069; Grape Soju chính là vị nho xanh 청포도) → cùng ảnh; tên ghi 350ml lệch <3% (v19); cặp mã ở reports/ma-trung-de-tat.md"
     }
   ]
 }

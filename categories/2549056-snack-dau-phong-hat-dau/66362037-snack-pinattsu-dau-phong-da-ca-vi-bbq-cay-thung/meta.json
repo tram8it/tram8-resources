@@ -17,20 +17,28 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "ASK_OWNER",
+  "status": "READY",
   "image": {
-    "decision": "ASK_OWNER",
-    "reason": "I8 chưa rõ: ảnh là 1 gói 80g, tên ghi thùng 20 gói nhưng đơn vị 'Gói'. Có ảnh hãng 80g trên https://oishi.com.vn/san-pham",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "REPLACE",
+    "reason": "I9: ảnh KiotViet chưa 1:1; thay bằng ảnh hãng mới nhất Pinattsu Đậu Phộng Da Cá Vị BBQ Cay (gói zip) và gắn nhãn \"80g\" (v16, dùng chung ảnh với SP 66064275 gói 30 g). Bán theo gói lẻ (đơn vị Gói)",
+    "source": {
+      "url": "https://oishi.cdn.vccloud.vn/storage/products/April2026/TpmAugCXAkeaIs4DEGSY.png",
+      "page": "https://oishi.com.vn/san-pham",
+      "fetchedAt": "2026-10-17"
+    },
+    "rubricVersion": "v19",
+    "sizeTag": "80g"
   },
   "description": {
-    "decision": "ASK_OWNER",
-    "reason": "D1: chưa có mô tả; chờ chủ xác nhận quy cách bán (gói/thùng)",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; theo trang Oishi (da cá BBQ cay 30/80g) + chữ trên bao bì (Resealable zip lock → gói 80 g); bán theo gói (đơn vị Gói)",
+    "source": {
+      "url": "https://oishi.com.vn/san-pham",
+      "fetchedAt": "2026-10-17"
+    },
+    "rubricVersion": "v19"
   },
-  "question": "Tên SP ghi 'Snack Pinattsu Đậu Phộng Da Cá Vị BBQ Cay - Thùng 20 gói' nhưng đơn vị bán là 'Gói'. SP này bán lẻ 1 gói 80g hay bán nguyên thùng 20 gói? (Nếu bán gói lẻ: dùng ảnh 1 gói và nên bỏ chữ 'Thùng 20 gói' khỏi tên; nếu bán thùng: cần ảnh thùng.)",
+  "question": null,
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -43,6 +51,26 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "asked owner: sold per bag or per carton"
+    },
+    {
+      "at": "2026-10-17T14:02:05Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "resolved without asking: KiotViet unit Gói = one bag; the zip-lock bag in the KiotViet photo is the 80 g size (Oishi: 30/80g, the 30 g is a pillow pack)"
+    },
+    {
+      "at": "2026-10-17T14:02:40.566Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T14:02:40.566Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

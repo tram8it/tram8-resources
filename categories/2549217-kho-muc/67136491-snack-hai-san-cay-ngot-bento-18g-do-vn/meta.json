@@ -17,20 +17,31 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "ASK_OWNER",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I4: ảnh tay cầm, nền không trắng; không tìm thấy trang chính hãng Bento/Srinanaporn dùng được → cần chụp",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I3/I4: ảnh tay cầm trong cửa hàng (bao bì cũ); mã vạch ứng với gói mới Bento Max Extreme 22 g (18 g + 4 g) như SP Cay Dịu xanh ngọc đã duyệt → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: giữ cờ 'Thêm 20%' in sẵn trên gói (như SP xanh ngọc); hai dòng chữ nhỏ cạnh dấu tích là ước lượng",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh Kingfoodmart theo mã vạch 8935342400480 (chỉ làm mẫu)",
+      "referenceUrl": "https://storage.googleapis.com/onelife-public/8935342400480.jpg"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
-    "decision": "WRITE_NEW",
-    "reason": "D1: chưa có mô tả; không có trang hãng, mô tả ngắn chỉ từ tên SP; thành phần 'surimi trộn mực' theo chữ in trên bao bì Bento VN",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "REWRITE",
+    "reason": "D2: khối lượng theo bao bì đúng mã vạch \"Khối lượng tịnh 22 g (18 g + 4 g)\" (v19), thay cho 18 g",
+    "source": {
+      "url": "https://storage.googleapis.com/onelife-public/8935342400480.jpg",
+      "fetchedAt": "2026-10-17"
+    },
+    "rubricVersion": "v19"
   },
-  "question": "Mã 8935342400480 'Snack Hải Sản Cay Ngọt Bento 18g (Đỏ) VN': ảnh KiotViet là gói đỏ logo tím kiểu cũ (không đọc được khối lượng), còn Open Food Facts theo mã này là gói đỏ 'Bento MAX EXTREME – Thêm 20%' ghi 'Khối lượng tịnh 22g (18g + 4g)' (giống gói Cay Dịu xanh ngọc 18g+4g). Cửa hàng đang bán gói nào? (a) gói Max Extreme 22g (18g+4g) → đổi tên thành '18g + 4g' và vẽ theo gói này; (b) gói cũ 18g → nhờ nhân viên chụp thẳng mặt trước đủ cả đáy gói để làm mẫu.",
+  "question": null,
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -49,6 +60,32 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "Hỏi chủ bao bì/khối lượng gói Bento Cay Ngọt đỏ bản VN"
+    },
+    {
+      "at": "2026-10-17T13:59:53Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T14:02:05Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "resolved without asking: barcode 8935342400480 = Bento Max Extreme Sweet & Spicy 22 g (18 g + 4 g) (Kingfoodmart), same as the approved sibling Cay Dịu xanh ngọc; newest pack"
+    },
+    {
+      "at": "2026-10-17T14:03:00.606Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T14:03:00.606Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

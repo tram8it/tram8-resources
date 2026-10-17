@@ -19,17 +19,14 @@
   },
   "status": "READY",
   "image": {
-    "decision": "CROP",
-    "reason": "I9: packshot nền trắng đúng SP (kem sữa tươi trân châu đường đen), chưa 1:1 → crop",
-    "source": null,
-    "rubricVersion": "v4",
-    "vivid": {
-      "rubricVersion": "v10",
-      "saturationGain": 1.0,
-      "contrastGain": 1.0,
-      "toneGain": 1.002,
-      "gamma": 1.0
-    }
+    "decision": "REPLACE",
+    "reason": "ảnh tự chụp (vỏ nhăn, nghiêng) → ảnh hãng ngoinhadinhduong.com (mockup vỏ kem Celano Sữa tươi Trân châu Đường đen, mã vạch 8936011773409)",
+    "source": {
+      "url": "https://cdn.hstatic.net/products/200000821091/ng_den_8936011773409_mockup_2000x3000_19a95c2d21814d29a6e8b553d4caf109_c5bc1e5e7dd94ad993522db229b77f75.png",
+      "page": "https://ngoinhadinhduong.com/products/kem-celano-que-stuoi-tchau-dden-70mlx18",
+      "fetchedAt": "2026-10-17T14:02:22.259Z"
+    },
+    "rubricVersion": "v20"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -56,6 +53,26 @@
       "by": "ai",
       "status": "READY",
       "note": "tone.py --vivid: white balance/levels + brand-like colour (owner request)"
+    },
+    {
+      "at": "2026-10-17T14:02:22.259Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "image REPLACE: shop photo -> brand packshot (cdn.hstatic.net) (owner request 17/10)"
+    },
+    {
+      "at": "2026-10-17T14:02:22.383Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T14:02:22.383Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

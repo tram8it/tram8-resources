@@ -17,20 +17,27 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "ASK_OWNER",
+  "status": "READY",
   "image": {
-    "decision": "ASK_OWNER",
-    "reason": "I2: ảnh (Pearl & Beauty thường) và mã vạch (Pearl & Beauty Shave-less) không khớp",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "REPLACE",
+    "reason": "I2: ảnh cũ là Pearl & Beauty thường; mã vạch 8850029037684 là Pearl & Beauty Shave-less 50ml (trang NIVEA Thái Lan, iCheck) → dùng ảnh hãng bao bì mới",
+    "source": {
+      "url": "https://img.nivea.com/-/media/miscellaneous/media-center-items/9/8/9/291fa72403664d43a9665a8f3eaa4bdc-web_1010x1180_transparent_png.png",
+      "page": "https://www.nivea.co.th/products/nivea-pearl-and-beauty-shaveless-rollon-50ml-88500290376840077.html",
+      "fetchedAt": "2026-10-17"
+    },
+    "rubricVersion": "v19"
   },
   "description": {
-    "decision": "ASK_OWNER",
-    "reason": "Chờ xác định đúng SP trước khi viết mô tả",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết từ chữ in trên lọ (ảnh hãng) cho đúng loại Shave-less theo mã vạch",
+    "source": {
+      "url": "https://www.nivea.co.th/products/nivea-pearl-and-beauty-shaveless-rollon-50ml-88500290376840077.html",
+      "fetchedAt": "2026-10-17"
+    },
+    "rubricVersion": "v19"
   },
-  "question": "Mã vạch 8850029037684 trên trang NIVEA Thái Lan là \"Pearl & Beauty Shave-less\" (lọ hồng, chữ \"Shave-less\"), nhưng ảnh hiện tại là Pearl & Beauty thường (nắp tím nhạt, \"Pearl extract & avocado oil\", không có chữ Shave-less). Hàng thực tế đang bán là loại nào? Nếu là Shave-less thì dùng ảnh hãng; nếu là loại thường thì mã vạch trên KiotViet có thể sai.",
+  "question": null,
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -43,6 +50,12 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "image ASK_OWNER, description ASK_OWNER"
+    },
+    {
+      "at": "2026-10-17T14:02:04Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "resolved without asking: barcode 8850029037684 = Pearl & Beauty Shave-less 50ml (nivea.co.th page with EAN, iCheck) — fits name 'ngọc trai mịn mượt'; brand image newest pack"
     }
   ]
 }

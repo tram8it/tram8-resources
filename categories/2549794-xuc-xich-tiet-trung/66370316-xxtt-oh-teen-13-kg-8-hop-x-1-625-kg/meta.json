@@ -17,20 +17,28 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "ASK_OWNER",
+  "status": "READY",
   "image": {
-    "decision": "ASK_OWNER",
-    "reason": "I7/I3: ảnh banner quảng cáo có chữ 'Gian hàng chính hãng', nền đỏ; lcfoods.vn không có SP Oh Teen 65g → cần chụp",
-    "source": null,
-    "rubricVersion": "v17"
+    "decision": "REPLACE",
+    "reason": "I3/I7: ảnh banner quảng cáo nền đỏ có chữ 'Gian hàng chính hãng'; đơn vị bán là Cái (1 cây) → vẽ 1 cây → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: ảnh minh hoạ một cây; chữ nhỏ trên vỏ là ước lượng",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "banner LC Foods 'Xúc xích tiệt trùng Oh Teen 65G' trên ảnh KiotViet (cây đứng bên phải)",
+      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/06/09/tram8/2895462799604a04a508f10de6898a7b.jpg"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
-    "reason": "D1: chưa có mô tả; viết ngắn chỉ từ dữ kiện chắc chắn (tên SP, chữ in mặt trước bao bì); không có trang hãng có SP này",
+    "reason": "D1: viết từ banner LC Foods (\"Xúc xích tiệt trùng Oh Teen 65G\", \"Vị Heo\"); bán theo cây (đơn vị Cái), tên ghi quy cách thùng",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v19"
   },
-  "question": "XXTT Oh Teen (mã 8936210413816, tên 'XXTT OH TEEN 13 Kg (8 hộp x 1.625 Kg)', đơn vị 'Cái'): cửa hàng bán lẻ theo cây 65g hay theo thùng 8 hộp? Nếu theo cây thì có thể vẽ lại ảnh 1 cây Oh Teen từ banner LC Foods hiện có; nếu theo thùng/hộp thì cần ảnh thùng thật. Cây này vị gì (heo thường hay vị khác)?",
+  "question": null,
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -49,6 +57,32 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "photo search 17/10: asked owner: per stick vs carton"
+    },
+    {
+      "at": "2026-10-17T13:59:54Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T14:02:05Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "resolved without asking: KiotViet unit Cái = one 65 g stick (RUBRIC v19); flavour \"Vị Heo\" is printed on the LC Foods banner"
+    },
+    {
+      "at": "2026-10-17T14:02:47.928Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T14:02:47.928Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

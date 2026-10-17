@@ -17,23 +17,31 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "ASK_OWNER",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh. Trang hãng Oishi (oishi.com.vn, 17/10/2026) ghi Pillows nhân cốt dừa cà phê chỉ có 38g/75g và chỉ có ảnh túi zip Party Size (bản Oishi × Cộng); không tìm được ảnh mẫu nào của gói gối nhỏ mã vạch 8934803039054 (tìm theo mã vạch trên web, Open Food Facts: không có) → chưa vẽ Gemini được, cần chủ xác nhận khối lượng + ảnh chụp mặt trước",
-    "source": null,
-    "rubricVersion": "v17"
+    "reason": "I1: chưa có ảnh; không có ảnh gói gối nhỏ mã 8934803039054 ở đâu → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: ẢNH MINH HOẠ: hình vẽ lấy từ túi zip 75 g cùng vị, đặt lên dáng gói gối nhỏ; bố cục gói thật có thể khác; không in khối lượng (hãng ghi 38 g, tên ghi 45g)",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet túi zip 75 g cùng vị (SP 66362103, mẫu thiết kế) + ảnh gói gối 45 g vị sữa dừa (SP 67647264, mẫu dáng gói)",
+      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/06/09/tram8/0f4aba93a2e041b4a1c7733da87bebda.jpg"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
-    "reason": "D1: chưa có mô tả; viết từ trang hãng Oishi (tên vị, mô tả dòng) và chữ in mặt trước bao bì; khối lượng theo tên hàng",
+    "reason": "D1: bỏ khối lượng vì hãng ghi 38 g còn tên ghi 45g, chưa có ảnh gói; còn lại theo mô tả SP cùng vị",
     "source": {
       "url": "https://oishi.com.vn/category/Snack",
       "fetchedAt": "2026-10-13"
     },
-    "rubricVersion": "v4"
+    "rubricVersion": "v20"
   },
-  "question": "Hãng chỉ có 38 g / 75 g, tên KiotViet ghi 45g — gói trên kệ in bao nhiêu g? (chưa có ảnh gói này; nhờ chụp mặt trước)",
+  "question": null,
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -64,6 +72,32 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "v19: vẫn ASK_OWNER (lệch lớn hoặc cần xem kệ); rút gọn câu hỏi"
+    },
+    {
+      "at": "2026-10-17T13:59:29Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T13:59:29Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "resolved without asking: default 'flavour/size from sibling' → illustrative pillow-bag render with the coconut-coffee artwork of sibling 66362103; weight left out of image and description (brand 38 g vs name 45g, no pack photo)"
+    },
+    {
+      "at": "2026-10-17T13:59:29.913Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T13:59:29.913Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

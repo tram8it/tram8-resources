@@ -19,17 +19,14 @@
   },
   "status": "READY",
   "image": {
-    "decision": "CROP",
-    "reason": "I9: packshot nền trắng chai 450 ml, chỉ chưa 1:1 → crop. Trang hãng có ảnh chai bao bì mới nhưng không ghi dung tích nên chưa thay",
-    "source": null,
-    "rubricVersion": "v4",
-    "vivid": {
-      "rubricVersion": "v10",
-      "saturationGain": 1.135,
-      "contrastGain": 1.043,
-      "toneGain": 1.0,
-      "gamma": 1.0
-    }
+    "decision": "REPLACE",
+    "reason": "ảnh tự chụp (mềm, bao bì cũ) → ảnh hãng chai Twister Cam bao bì mới nhất 'Nước cam ép' (v19) trên trang Suntory PepsiCo; ảnh hãng không ghi dung tích, mô tả giữ 450 ml theo SP đang bán; phóng 1,6 lần",
+    "source": {
+      "url": "https://api.suntorypepsico.vn/assets/0e09040e-c771-44a1-89c4-c526ff5e38f5",
+      "fetchedAt": "2026-10-17",
+      "page": "https://www.suntorypepsico.vn/thuong-hieu-cua-chung-toi/twister-14"
+    },
+    "rubricVersion": "v20"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -59,6 +56,12 @@
       "by": "ai",
       "status": "READY",
       "note": "tone.py --vivid: white balance/levels + brand-like colour (owner request)"
+    },
+    {
+      "at": "2026-10-17T13:58:49.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "image: shop photo replaced with brand packshot (api.suntorypepsico.vn)"
     }
   ]
 }

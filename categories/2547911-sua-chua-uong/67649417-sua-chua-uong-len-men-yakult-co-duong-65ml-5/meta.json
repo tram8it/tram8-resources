@@ -17,15 +17,15 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "ASK_OWNER",
+  "status": "READY",
   "image": {
-    "decision": "ASK_OWNER",
-    "reason": "I2 (v2): ảnh hiện tại là màng co lốc đời trước; thay bằng lốc 5 chai bao bì mới trên https://www.yakult.vn/dat-hang.html (ảnh hãng 513 px, phóng 1,7 lần) | v17: ảnh hãng là bao bì kỷ niệm \"90 năm\" (bản sự kiện) — chưa gửi, cần ảnh bao bì thường | 17/10: hỏi chủ — chưa rõ bao bì 'Hơn 90 năm' là bản kỷ niệm hay bao bì thường hiện hành (hãng chỉ còn ảnh này)",
+    "decision": "REPLACE",
+    "reason": "I2 (v2): ảnh hiện tại là màng co lốc đời trước; thay bằng lốc 5 chai bao bì mới trên https://www.yakult.vn/dat-hang.html (ảnh hãng 513 px, phóng 1,7 lần) | v17: ảnh hãng là bao bì kỷ niệm \"90 năm\" (bản sự kiện) — chưa gửi, cần ảnh bao bì thường | 17/10: hỏi chủ — chưa rõ bao bì 'Hơn 90 năm' là bản kỷ niệm hay bao bì thường hiện hành (hãng chỉ còn ảnh này) | v19/v20: bao bì 'Hơn 90 năm' là bao bì hiện hành duy nhất trên trang hãng (câu giới thiệu lịch sử, không phải bản sự kiện) → dùng như 2 SP cùng dãy",
     "source": {
       "url": "https://www.yakult.vn/public/img/order/product-1.png",
       "fetchedAt": "2026-10-13"
     },
-    "rubricVersion": "v17"
+    "rubricVersion": "v20"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -36,7 +36,7 @@
     },
     "rubricVersion": "v4"
   },
-  "question": "Yakult có đường lốc 5 chai (mã vạch 8938501434012): trang hãng yakult.vn (trang Đặt hàng và banner 'Một lốc cũng giao') chỉ có một ảnh lốc nguyên bản — bao bì đỏ phủ kín có dòng 'Hơn 90 năm nghiên cứu và phát triển', 'Tâm huyết của Dr. Shirota' (ảnh image.webp hiện tại). Ảnh KiotViet của cửa hàng (08/2026) và ảnh Kingfoodmart là bao bì đời trước: màng co nửa trong suốt thấy chai, có dòng 'Tốt cho sức khỏe mọi người'. Hai SP cùng dãy (hương đào, ít đường) đã đăng bằng ảnh hãng kiểu bao bì mới phủ kín. Anh/chị chọn giúp: (A) coi bao bì 'Hơn 90 năm' là bao bì thường hiện hành → gửi ảnh hãng này (đồng bộ với 2 SP cùng dãy); (B) đó là bản kỷ niệm (v17) → vẽ lại bằng Gemini theo bao bì màng co nửa trong suốt (ảnh Kingfoodmart/KiotViet); (C) cửa hàng đang bán bao bì khác → chụp gửi ảnh mặt trước lốc.",
+  "question": null,
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -61,6 +61,26 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "not rejected on Hub (never submitted); held back for v17. Brand site only shows the 'Hơn 90 năm' pack; older semi-transparent pack on KiotViet/Kingfoodmart → asked owner which design to use"
+    },
+    {
+      "at": "2026-10-17T14:03:48Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "resolved without asking: 'Hơn 90 năm nghiên cứu và phát triển' is a heritage claim next to '40 quốc gia / 40 triệu chai', not an event edition (v17 covers World Cup/Tết/festival); it is the only and newest pack on yakult.vn and matches the 2 sibling SKUs already uploaded (v14, v19 newest pack)"
+    },
+    {
+      "at": "2026-10-17T14:03:48.729Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T14:03:48.729Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

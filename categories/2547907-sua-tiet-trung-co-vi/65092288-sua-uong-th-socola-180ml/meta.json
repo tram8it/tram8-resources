@@ -17,20 +17,27 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "ASK_OWNER",
+  "status": "READY",
   "image": {
-    "decision": "ASK_OWNER",
-    "reason": "I1: chưa có ảnh; tên (sô-cô-la) và mã vạch (sữa chua dâu) mâu thuẫn",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "REPLACE",
+    "reason": "I1: chưa có ảnh; mã vạch 8935217412112 in trên hộp (ảnh mặt sau trên thtruemart.vn) là Sữa chua uống tiệt trùng TH true YOGURT hương Dâu 180 ml, không phải sữa sô-cô-la như tên → ảnh theo mã vạch",
+    "source": {
+      "url": "https://cdn.hstatic.net/products/200001185942/3._d_u_9dac7e12e46d48c384b59ac5277b3944_29a451761f96434899218ed3bf548000.png",
+      "page": "https://thtruemart.vn/products/sua-chua-uong-tiet-trung-huong-dau-180-ml",
+      "fetchedAt": "2026-10-17"
+    },
+    "rubricVersion": "v20"
   },
   "description": {
-    "decision": "ASK_OWNER",
-    "reason": "D1: chưa có mô tả; chờ chủ xác nhận SP",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; theo trang TH true mart và nhãn mặt sau trong ảnh hãng (mã vạch 8935217412112 khớp); theo mã vạch, không theo tên KiotViet",
+    "source": {
+      "url": "https://thtruemart.vn/products/sua-chua-uong-tiet-trung-huong-dau-180-ml",
+      "fetchedAt": "2026-10-17"
+    },
+    "rubricVersion": "v20"
   },
-  "question": "\"Sữa uống TH Socola 180ml\" có mã vạch 8935217412112 — mã này trên thtruemart.vn là Sữa chua uống tiệt trùng TH true YOGURT hương Dâu 180 ml, không phải sữa sô-cô-la (sữa sô-cô-la 180 ml đã có mã 8935217400454 ở SP 65168925). Hàng thật là loại nào? Nếu trùng SP 65168925 thì có nên ẩn/gộp không?",
+  "question": null,
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -43,6 +50,12 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "b18 review (rubric v4): image ASK_OWNER, description ASK_OWNER"
+    },
+    {
+      "at": "2026-10-17T14:00:10.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "resolved without asking: mã vạch 8935217412112 = TH true YOGURT hương dâu 180 ml (in trên hộp, thtruemart.vn; Kingfoodmart cùng mã) → ảnh + mô tả theo mã vạch; tên cần sửa ghi ở reports/ten-can-sua-kiotviet.md"
     }
   ]
 }

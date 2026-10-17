@@ -17,12 +17,16 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "ASK_OWNER",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I8: ảnh tay cầm 1 hũ trong tủ đông, SKU là thùng 6 hũ; không có ảnh hãng thùng 6x240g → cần chụp thùng",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I3/I8: ảnh tay cầm 1 hũ trong tủ đông; dùng ảnh hũ Oreo nền trắng của SP lẻ 67039441 (cùng mã gốc); SKU là thùng 6 hũ → ảnh minh hoạ 1 hũ, mô tả ghi rõ thùng 6 hũ",
+    "source": {
+      "sameAs": "67039441",
+      "fetchedAt": "2026-10-17",
+      "url": "https://cdn2-retail-images.kiotviet.vn/2026/07/30/tram8/cabb816e79f5489caab895442ea9fd54.png"
+    },
+    "rubricVersion": "v19"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -30,7 +34,7 @@
     "source": null,
     "rubricVersion": "v4"
   },
-  "question": "Mã 8850125090514-2 \"Kem hộp bánh quy Oreo 6x240g (Thùng)\" bán theo thùng 6 hũ, nhưng chỉ có ảnh 1 hũ (SP lẻ 67039441 cùng mã gốc đã có ảnh hũ Oreo nền trắng). Anh/chị cho dùng ảnh 1 hũ đó cho SP thùng không, hay cần chụp/vẽ thùng 6 hũ?",
+  "question": null,
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -49,6 +53,26 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "carton of 6 tubs, only single-tub reference; ask whether the single-tub image is OK (RUBRIC I8)"
+    },
+    {
+      "at": "2026-10-17T14:02:05Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "resolved without asking: carton SKU: image of one tub (same image as single-tub SKU 67039441), description states 6 tubs x 240 g"
+    },
+    {
+      "at": "2026-10-17T14:02:55.695Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T14:02:55.695Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

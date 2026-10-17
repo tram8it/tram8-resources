@@ -17,20 +17,20 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "ASK_OWNER",
+  "status": "READY",
   "image": {
-    "decision": "ASK_OWNER",
-    "reason": "I2: tên ghi \"20g (Gói)\" nhưng ảnh là túi lớn nhiều miếng cơm cháy đáy nồi siêu chà bông; không chắc quy cách",
+    "decision": "CROP",
+    "reason": "I9: packshot nền trắng đúng SP (mã vạch trên nhãn túi khớp 8936236143124), chỉ chưa 1:1; crop 1:1 (phóng ~2,2 lần), đã xem lại đạt",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v19"
   },
   "description": {
-    "decision": "ASK_OWNER",
-    "reason": "Chờ chủ xác nhận quy cách",
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết từ nhãn trên túi (\"Cơm cháy đáy nồi siêu chà bông\"); không ghi khối lượng vì nhãn trong ảnh không đọc được, tên ghi 20g",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v19"
   },
-  "question": "Cơm cháy đáy nồi (mã 8936236143124): tên 20 g/gói, ảnh là túi lớn nhiều miếng — hàng bán là gói 20 g (cần ảnh gói) hay túi này (bao nhiêu g)?",
+  "question": null,
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -55,6 +55,26 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "name 20 g vs big multi-piece bag is clearly another size → keep asking, question shortened"
+    },
+    {
+      "at": "2026-10-17T14:02:05Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "resolved without asking: the barcode printed on the bag in the KiotViet photo is 8936236143124, so the product is this bag; weight not stated"
+    },
+    {
+      "at": "2026-10-17T14:02:53.724Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T14:02:53.724Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

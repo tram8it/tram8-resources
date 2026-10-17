@@ -19,17 +19,14 @@
   },
   "status": "READY",
   "image": {
-    "decision": "CROP",
-    "reason": "I9: packshot nền trắng đúng SP (kem dừa sô cô la cà phê), chưa 1:1 → crop",
-    "source": null,
-    "rubricVersion": "v4",
-    "vivid": {
-      "rubricVersion": "v10",
-      "saturationGain": 1.113,
-      "contrastGain": 1.036,
-      "toneGain": 1.026,
-      "gamma": 1.0
-    }
+    "decision": "REPLACE",
+    "reason": "ảnh tự chụp (vỏ nhăn, nghiêng) → ảnh hãng ngoinhadinhduong.com (mockup vỏ kem Celano Dừa Sô cô la Cà phê)",
+    "source": {
+      "url": "https://cdn.hstatic.net/products/200000821091/kemque_1_06bcc7350e1849d183562dd4f2622571_7642de7223a245f5b9aa78ce980a3f04.png",
+      "page": "https://ngoinhadinhduong.com/products/kem-que-celano-dua-socola-ca-phe-75gx20",
+      "fetchedAt": "2026-10-17T14:02:20.245Z"
+    },
+    "rubricVersion": "v20"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -56,6 +53,26 @@
       "by": "ai",
       "status": "READY",
       "note": "tone.py --vivid: white balance/levels + brand-like colour (owner request)"
+    },
+    {
+      "at": "2026-10-17T14:02:20.245Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "image REPLACE: shop photo -> brand packshot (cdn.hstatic.net) (owner request 17/10)"
+    },
+    {
+      "at": "2026-10-17T14:02:20.366Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T14:02:20.366Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }
