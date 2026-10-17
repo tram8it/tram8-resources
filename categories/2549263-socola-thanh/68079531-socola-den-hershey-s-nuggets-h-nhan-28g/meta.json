@@ -17,12 +17,20 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I4: ảnh chụp hộp đựng nhiều thanh; bản nhãn Thái, không có trên trang hãng Hershey's",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I3/I4: ảnh chụp hộp đựng nhiều thanh; bản nhãn Thái, không có trên trang hãng Hershey's → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: bảng GDA tiếng Thái để mờ (ảnh mẫu không đọc được số); ô đỏ bên phải chữ in xuôi (gói thật thấy ngược/mờ qua màng); hai đầu răng cưa vẽ theo dáng gói, ảnh mẫu bị hộp che; 'Net Weight 28g' khớp",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (hộp thanh nhãn Thái, thiết kế hiện tại) + ảnh Open Food Facts (mã vạch 6942836704322, 28g, thiết kế cũ, chỉ để lấy dáng gói)",
+      "referenceUrl": "https://world.openfoodfacts.org/product/6942836704322"
+    },
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +51,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "image needs photo; description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T04:29:26Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T04:29:51.940Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T04:29:51.940Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

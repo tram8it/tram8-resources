@@ -17,12 +17,20 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I4: ảnh chụp trên mặt đá; vị Hạnh nhân không còn trên feastables.com (đã tìm 13/10), không có ảnh hãng",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I4: ảnh chụp trên mặt đá; vị Hạnh nhân không còn trên feastables.com (kiểm lại 17/10/2026), không có ảnh hãng — dùng thiết kế gói đang bán → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt; 'NET WT. 2.1 oz (60g)' khớp gói thật. Lưu ý: feastables.com đã đổi thiết kế các vị khác, vị Almond không có bản mới nên giữ thiết kế này",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (gói Almond 60g thật của cửa hàng)",
+      "referenceUrl": "https://feastables.com/products.json"
+    },
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +51,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "image needs photo (flavour not on feastables.com); description WRITE_NEW. KiotViet name contains promo text"
+    },
+    {
+      "at": "2026-10-17T04:29:26Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T04:29:47.973Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T04:29:47.973Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

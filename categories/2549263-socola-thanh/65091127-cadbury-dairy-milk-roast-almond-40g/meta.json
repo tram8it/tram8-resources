@@ -17,12 +17,20 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I2/I6: ảnh nhỏ (262px), bao bì đời cũ, gói in 75g không phải 40g; không tìm được trang hãng Cadbury Malaysia",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I2/I6: ảnh nhỏ (262px), bao bì đời cũ, gói in 75g không phải 40g; không có ảnh hãng Cadbury Malaysia → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: dòng mã chứng nhận rất nhỏ dưới logo Halal do AI vẽ, không khớp gói thật (ảnh mẫu không đọc được); các số khác (54 kcal, 2.7%, 10g, 2000 kcal, 40g) khớp ảnh mẫu",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh Open Food Facts (mã vạch 9556182104018, gói 40g Malaysia, ảnh tay cầm; chỉ làm mẫu)",
+      "referenceUrl": "https://world.openfoodfacts.org/product/9556182104018"
+    },
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +51,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "image needs photo; description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T04:29:26Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T04:29:49.720Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T04:29:49.720Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

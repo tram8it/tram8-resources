@@ -17,12 +17,12 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "ASK_OWNER",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I4: ảnh chụp nhiều hộp trên kệ; morinaga.co.jp chỉ có bao bì nội địa Nhật (khác bản xuất khẩu 'DARS Dark'), không có ảnh hãng phù hợp",
+    "reason": "I3/I4: ảnh chụp nhiều hộp trên kệ; không có ảnh hãng; thiết kế hộp đang bán chỉ thấy một phần — hỏi chủ chọn ảnh mẫu",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -30,7 +30,7 @@
     "source": null,
     "rubricVersion": "v4"
   },
-  "question": null,
+  "question": "DARS Đen Morinaga 42g (mã vạch 4902888183447): Open Food Facts ghi mã vạch này là hộp nhãn Thái 'DARS ダース Dark Chocolate' (nền đen, hình hạt ca cao, góc vàng chữ ダーク). Ảnh KiotViet của cửa hàng lại là thiết kế khác ('BRAND FROM JAPAN', chữ 'Dark' viết tay màu vàng), nhưng chỉ chụp chồng hộp trên kệ, mặt trước bị che/cắt nên AI phải đoán phần còn lại (logo, chữ 'Dark' ở mặt trước, màu nền). Chọn: (1) nhân viên chụp thẳng mặt trước 1 hộp đang bán để vẽ lại đúng; (2) dùng thiết kế 'Dark Chocolate' theo ảnh Open Food Facts (có thể là bản cũ); (3) chấp nhận bản AI work/gemini/64865473/attempt-1.webp (thiết kế BRAND FROM JAPAN, chi tiết có phần đoán).",
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -43,6 +43,12 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "image needs photo; description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T04:29:38Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "Gemini attempt 1 from shelf photo invents front details (logo, Dark on front, colour); OFF shows a different Thai design for this barcode; asked owner which design / for a front photo"
     }
   ]
 }

@@ -17,12 +17,20 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I6: ảnh nhỏ 210px, thanh bóc vỏ, bao bì Nhật; nestle.com.my chặn truy cập (403), không có ảnh hãng",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I2/I3/I6: ảnh 210px, thanh bóc vỏ, bao bì Nhật (không phải gói Malaysia đang bán); nestle.com.my chặn, không có ảnh hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: bảng GDA bên trái và khối chữ nhỏ bên phải để mờ (ảnh mẫu không đọc được số); dòng chữ Thái nhỏ có thể sai chính tả; chữ lớn, 'GREEN TEA', 'Khối lượng tịnh : 17 g' khớp ảnh mẫu",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh Open Food Facts (mã vạch 9556001227560, gói Malaysia 17 g; chỉ làm mẫu)",
+      "referenceUrl": "https://world.openfoodfacts.org/product/9556001227560"
+    },
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -46,6 +54,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "image needs photo; description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T04:29:25Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T04:29:45.420Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T04:29:45.420Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }
