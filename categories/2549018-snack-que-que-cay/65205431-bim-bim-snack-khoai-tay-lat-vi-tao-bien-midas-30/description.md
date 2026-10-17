@@ -1,4 +1,4 @@
-Snack Midas khoai tây lát vị tảo biển, bao bì in hình gấu trúc, món ăn vặt giòn.
+Snack Midas PANDA hình khoai tây chiên, que snack giòn, bao bì hình gấu trúc.
 
-Quy cách: 30 g · gói
+Quy cách: 28 g ± 2 g · gói
 Nhà sản xuất/thương hiệu: Midas

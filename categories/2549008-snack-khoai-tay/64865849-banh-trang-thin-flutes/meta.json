@@ -17,20 +17,27 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "ASK_OWNER",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I4/I5: ảnh điện thoại chụp cận nhãn Thin Flutes, không thấy vị; chưa thay vì tên không ghi vị/khối lượng",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I3/I4/I5: ảnh điện thoại chụp cận nhãn. Gói trên ảnh KiotViet có nền cam, nốt nhạc vàng, chữ THIN xanh/FLUTES cam — đúng bao bì Thin Flutes Vị Mayo trên trang Oishi (vị Thịt nướng phô mai là gói xanh dương) → dùng ảnh hãng",
+    "source": {
+      "url": "https://oishi.cdn.vccloud.vn/storage/products/November2025/gTxrh5qiigd2bC9UBQZb.png",
+      "page": "https://oishi.com.vn/category/Snack",
+      "fetchedAt": "2026-10-17"
+    },
+    "rubricVersion": "v19"
   },
   "description": {
-    "decision": "ASK_OWNER",
-    "reason": "D1: chưa có mô tả; chờ chủ xác nhận vị/khối lượng",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết ngắn từ chữ in trên gói (trang hãng: Thin Flutes Snack Khoai Tây Vị Mayo, Resealable zip lock). Hãng có gói 30 g và 50 g, ảnh KiotViet không thấy khối lượng nên không ghi",
+    "source": {
+      "url": "https://oishi.com.vn/category/Snack",
+      "fetchedAt": "2026-10-17"
+    },
+    "rubricVersion": "v19"
   },
-  "question": "SP 'Bánh tráng thin flutes' (mã 8934803055047) không tra được mã vạch ở trang hãng/Lotte. Oishi Thin Flutes có vị Mayo và Thịt nướng phô mai. Gói này vị gì, bao nhiêu gam? Chủ gửi 1 ảnh mặt trước gói là đủ để vẽ lại.",
+  "question": null,
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -49,6 +56,26 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "question rewritten after category sweep"
+    },
+    {
+      "at": "2026-10-17T14:12:10Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "resolved without asking: the shop photo colours (orange, yellow notes) match Oishi Thin Flutes Mayo, not the blue BBQ-cheese pack; brand packshot used; weight (30/50 g) not visible so left out"
+    },
+    {
+      "at": "2026-10-17T14:12:11.098Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T14:12:11.098Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

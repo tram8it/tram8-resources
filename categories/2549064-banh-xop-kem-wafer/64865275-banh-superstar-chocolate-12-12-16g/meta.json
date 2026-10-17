@@ -33,10 +33,10 @@
     "rubricVersion": "v18"
   },
   "description": {
-    "decision": "WRITE_NEW",
-    "reason": "D1: chưa có mô tả; viết ngắn chỉ từ tên SP và chữ in mặt trước bao bì (không có trang hãng)",
+    "decision": "REWRITE",
+    "reason": "D2: mô tả cũ tả Superstar Snaps; mã vạch 8996001355046 là thanh Superstar Triple Chocolate → viết lại",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v19"
   },
   "question": null,
   "history": [
@@ -63,6 +63,26 @@
       "by": "ai",
       "status": "READY",
       "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T14:11:32Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "resolved without asking: barcode 8996001355046 = single Superstar Triple Chocolate bar (OFF 16g, iCheck) = name/unit Thanh; current image was Snaps box"
+    },
+    {
+      "at": "2026-10-17T14:12:08.711Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T14:12:08.711Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

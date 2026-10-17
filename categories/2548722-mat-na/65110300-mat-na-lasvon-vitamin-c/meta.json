@@ -33,10 +33,10 @@
     "rubricVersion": "v18"
   },
   "description": {
-    "decision": "ASK_OWNER",
-    "reason": "D2: mô tả cũ dạng AI, xuất xứ ghi 'Nhật Bản (hoặc Hàn Quốc tùy lô)'; chưa rõ SP thật là loại nào",
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết từ chữ in trên gói (iCheck theo mã vạch)",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v19"
   },
   "question": null,
   "history": [
@@ -57,6 +57,26 @@
       "by": "ai",
       "status": "READY",
       "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T14:11:32Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "resolved without asking: barcode 4582192960493 = Lasvon Tranexamic Acid & Vitamin C mask (iCheck; barcode visible on back) = name; current image was Collagen variant"
+    },
+    {
+      "at": "2026-10-17T14:11:51.445Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T14:11:51.445Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

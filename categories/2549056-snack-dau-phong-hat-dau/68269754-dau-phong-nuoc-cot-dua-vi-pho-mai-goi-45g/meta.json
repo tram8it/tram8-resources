@@ -33,10 +33,10 @@
     "rubricVersion": "v18"
   },
   "description": {
-    "decision": "ASK_OWNER",
-    "reason": "Chờ chủ xác nhận vị trước khi viết (mô tả cũ chỉ có 1 câu)",
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết từ chữ in trên gói (Kingfoodmart theo mã vạch)",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v19"
   },
   "question": null,
   "history": [
@@ -57,6 +57,26 @@
       "by": "ai",
       "status": "READY",
       "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T14:11:32Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "resolved without asking: barcode 8936101345837 = Tân Tân đậu phộng vị phô mai (Kingfoodmart) = name; current image was the coconut-milk variant"
+    },
+    {
+      "at": "2026-10-17T14:12:06.730Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T14:12:06.730Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

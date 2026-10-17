@@ -33,10 +33,10 @@
     "rubricVersion": "v18"
   },
   "description": {
-    "decision": "WRITE_NEW",
-    "reason": "D1: chưa có mô tả; mô tả ngắn chỉ từ tên hàng (không có trang hãng)",
+    "decision": "REWRITE",
+    "reason": "D2: mô tả cũ theo tên (nui sấy 130 g); mã vạch là Sen sấy Phương Huyền → viết theo nhãn",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v19"
   },
   "question": null,
   "history": [
@@ -63,6 +63,26 @@
       "by": "ai",
       "status": "READY",
       "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T14:11:33Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "resolved without asking: barcode 8938522697502 = Sen sấy (iCheck) = current photo; name logged; weight left out (unreadable)"
+    },
+    {
+      "at": "2026-10-17T14:12:16.655Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T14:12:16.655Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

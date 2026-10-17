@@ -36,3 +36,8 @@ Hàng thật xác định theo mã vạch; ảnh + mô tả đã làm theo hàng
 | 65205455 | Kẹo gum doremon Hương dâu (Thanh) | Kẹo gum Lotte Doraemon thanh hương Mixed Berries (không phải hương dâu) | iCheck 8934677051213 + chữ trên thanh ở ảnh KiotViet |
 | 67388547 | Ba rọi cháy tỏi quang Thanh 230g ( heokhochaytoi) (Hộp) | Heo khô cháy tỏi Quang Thanh Foods (không phải ba rọi), 230 g | nhãn trên ảnh KiotViet + hậu tố '(heokhochaytoi)' trong tên; mã chưa tra được trên mạng |
 | 64865525 | Kẹo dừa mix (gói) | Kẹo dừa sáp Cafe Muối Quang Thanh Foods (không phải mix) | mã vạch 8936236140123 in trên nhãn túi ở ảnh KiotViet |
+| 67136504 | Bim Tăm Thái Vàng 50g (Gói) | Bánh que Dorkbua Kha Kai vị thịt xông khói 50g | Kingfoodmart 8935342400084 (gói 50 g); ảnh KiotViet (gói 20 g cùng loại) |
+| 64865289 | Bánh Sanck AHH' Phủ Kem Phô Mai(Nabati AHH' Strawberry cheesecake Flavoured Coated Snack 9G (Hộp) | Bánh Richeese Ahh' Triple Cheese (vị phô mai, không phải dâu) hộp 160 g (10 x 16 g) | iCheck + Kingfoodmart 8993175541008; ảnh KiotViet |
+| 65205431 | Bim bim snack khoai Tây Lát vị tảo biển MIDAS 30g 20g/b28 (Gói) | Snack Midas PANDA hình khoai tây chiên 28 g (không phải khoai tây lát vị tảo biển 30 g) | iCheck 8938507891536 (Snack Midas panda khoai tây); ảnh KiotViet (NET WT 28g ± 2) |
+| 64865572 | Nui Sấy 130g (Gói) | Sen sấy NATURAL Phương Huyền (không phải nui sấy; khối lượng trên nhãn ảnh không đọc rõ, có vẻ 100 g) | iCheck 8938522697502 (Sen Sấy); ảnh KiotViet |
+| 65151021 | Ngô nếp trắng sấy giòn 360g 3 m.iền (gói) | Ngô giòn sốc mắm cay Phương Huyền 360g (không phải ngô nếp trắng vị nguyên bản) | iCheck 8936202660556 (Ngô giòn sóc mắm cay); mã vạch in trên nhãn ảnh KiotViet |

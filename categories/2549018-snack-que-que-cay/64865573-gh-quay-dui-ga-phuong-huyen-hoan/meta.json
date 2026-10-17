@@ -33,10 +33,10 @@
     "rubricVersion": "v18"
   },
   "description": {
-    "decision": "ASK_OWNER",
-    "reason": "Chờ chủ xác nhận SP là gì trước khi viết",
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết từ chữ in trên gói (iCheck theo mã vạch)",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v19"
   },
   "question": null,
   "history": [
@@ -57,6 +57,26 @@
       "by": "ai",
       "status": "READY",
       "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T14:11:32Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "resolved without asking: barcode 8936202660365 = Quẩy đùi gà (iCheck, purple 맛있다 bag) = name; current image was the Tăm cay bag"
+    },
+    {
+      "at": "2026-10-17T14:12:02.439Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T14:12:02.439Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

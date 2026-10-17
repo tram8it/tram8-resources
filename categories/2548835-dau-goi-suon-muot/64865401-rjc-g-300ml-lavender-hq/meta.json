@@ -33,10 +33,10 @@
     "rubricVersion": "v18"
   },
   "description": {
-    "decision": "ASK_OWNER",
-    "reason": "Mô tả cũ HTML tự động cần viết lại, chờ xác nhận biến thể",
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết từ chữ in trên chai (Open Beauty Facts theo mã vạch)",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v19"
   },
   "question": null,
   "history": [
@@ -57,6 +57,26 @@
       "by": "ai",
       "status": "READY",
       "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T14:11:32Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "resolved without asking: barcode 4987176237699 = Rejoice 3in1 Korean Lavender shampoo (Open Beauty Facts) = name 'LAVENDER HQ'; Gemini from OBF photo"
+    },
+    {
+      "at": "2026-10-17T14:11:55.781Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T14:11:55.781Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

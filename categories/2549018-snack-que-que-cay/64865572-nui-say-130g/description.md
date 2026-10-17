@@ -1,4 +1,4 @@
-Nui sấy giòn của Phương Huyền Food, món ăn vặt giòn rụm, ăn trực tiếp.
+Sen sấy NATURAL của Phương Huyền, bánh snack sấy giòn hình bông sen nhỏ, túi trong dán nhãn, ăn trực tiếp.
 
-Quy cách: 130 g · gói
+Quy cách: gói
 Nhà sản xuất/thương hiệu: Phương Huyền Food

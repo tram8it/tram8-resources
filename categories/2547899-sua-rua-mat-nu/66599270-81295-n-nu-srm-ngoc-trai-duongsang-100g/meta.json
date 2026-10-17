@@ -33,10 +33,10 @@
     "rubricVersion": "v18"
   },
   "description": {
-    "decision": "ASK_OWNER",
-    "reason": "Chưa rõ SP thật đang bán nên chưa viết mô tả",
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết từ chữ in trên tuýp (ảnh Kingfoodmart theo mã vạch)",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v19"
   },
   "question": null,
   "history": [
@@ -57,6 +57,26 @@
       "by": "ai",
       "status": "READY",
       "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T14:11:32Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "resolved without asking: barcode 4005900747891 = NIVEA Pearl White MicroBubbles foam (Kingfoodmart image by barcode; iCheck 'Srm nivea 100g') = name 'ngọc trai dưỡng sáng 100g'; Gemini from Kingfoodmart ref"
+    },
+    {
+      "at": "2026-10-17T14:11:49.342Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T14:11:49.342Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

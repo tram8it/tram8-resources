@@ -1,4 +1,4 @@
-Bánh snack Nabati Ahh phủ kem phô mai vị bánh phô mai dâu (Strawberry Cheesecake Flavoured Coated Snack), dòng Richeese.
+Bánh snack Richeese Ahh' Triple Cheese của Nabati, bánh xoắn giòn phủ kem phô mai (Cheese Cream Coated Snack), có bổ sung vitamin A, B1, B2, B6, B12 (theo bao bì). Hàng Indonesia.
 
-Quy cách: gói 9 g · hộp
-Nhà sản xuất/thương hiệu: Nabati
+Quy cách: hộp 160 g (10 gói x 16 g)
+Nhà sản xuất/thương hiệu: PT Kaldu Sari Nabati Indonesia · Richeese

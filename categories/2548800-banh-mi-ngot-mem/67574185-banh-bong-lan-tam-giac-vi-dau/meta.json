@@ -32,10 +32,10 @@
     "rubricVersion": "v18"
   },
   "description": {
-    "decision": "ASK_OWNER",
-    "reason": "Chờ chủ xác nhận đúng SP (dâu hay red velvet) mới viết; mô tả cũ HTML chatbot có thành phần tự đoán",
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết theo mẫu SP cùng dòng APIA CAKE",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v19"
   },
   "question": null,
   "history": [
@@ -56,6 +56,26 @@
       "by": "ai",
       "status": "READY",
       "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T14:11:33Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "resolved without asking: barcode 6974682244264 sits in the APIA CAKE run (244288 barley, 244295 chocolate, 244301 cheese) → APIA strawberry = name; current Weisiel Red Velvet photo belongs to 65678870; image derived from siblings (ảnh minh hoạ)"
+    },
+    {
+      "at": "2026-10-17T14:12:23.896Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T14:12:23.896Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

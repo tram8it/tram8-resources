@@ -33,10 +33,10 @@
     "rubricVersion": "v18"
   },
   "description": {
-    "decision": "WRITE_NEW",
-    "reason": "D1: chưa có mô tả; viết ngắn chỉ từ tên SP và chữ in mặt trước bao bì (không có trang hãng)",
+    "decision": "REWRITE",
+    "reason": "D2: mô tả cũ theo tên (dâu phô mai 9 g); mã vạch 8993175541008 là Richeese Ahh' Triple Cheese hộp 160 g → viết theo bao bì",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v19"
   },
   "question": null,
   "history": [
@@ -63,6 +63,26 @@
       "by": "ai",
       "status": "READY",
       "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T14:11:32Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "resolved without asking: barcode 8993175541008 = Richeese Ahh' Triple Cheese box 160g (iCheck, Kingfoodmart) = current image; name (strawberry cheesecake 9g) logged"
+    },
+    {
+      "at": "2026-10-17T14:12:12.703Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T14:12:12.703Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

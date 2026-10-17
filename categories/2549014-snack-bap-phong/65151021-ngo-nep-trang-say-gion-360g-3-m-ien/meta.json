@@ -33,10 +33,10 @@
     "rubricVersion": "v18"
   },
   "description": {
-    "decision": "ASK_OWNER",
-    "reason": "D1: chưa có mô tả; chờ chủ xác nhận đúng sản phẩm",
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; tên ghi ngô nếp trắng sấy giòn nhưng mã vạch là Ngô giòn sốc mắm cay → viết theo nhãn",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v19"
   },
   "question": null,
   "history": [
@@ -57,6 +57,26 @@
       "by": "ai",
       "status": "READY",
       "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T14:11:33Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "resolved without asking: barcode 8936202660556 printed on the photographed label + iCheck = Ngô giòn sốc mắm cay 360g = current photo; name logged"
+    },
+    {
+      "at": "2026-10-17T14:12:18.937Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T14:12:18.937Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

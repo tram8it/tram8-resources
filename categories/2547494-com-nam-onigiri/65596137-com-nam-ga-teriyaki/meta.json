@@ -32,10 +32,10 @@
     "rubricVersion": "v18"
   },
   "description": {
-    "decision": "ASK_OWNER",
-    "reason": "Chờ chủ trả lời về ảnh",
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết theo mẫu SP cùng dòng Onigiri Việt",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v19"
   },
   "question": null,
   "history": [
@@ -56,6 +56,26 @@
       "by": "ai",
       "status": "READY",
       "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T14:11:33Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "resolved without asking: barcode 8938565079068 differs from Cá ngừ Mayo's own 8938565079044, so the current tuna photo is wrong; image derived from sibling Onigiri Việt packs with label Gà Teriyaki (ảnh minh hoạ)"
+    },
+    {
+      "at": "2026-10-17T14:12:25.981Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T14:12:25.981Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }
