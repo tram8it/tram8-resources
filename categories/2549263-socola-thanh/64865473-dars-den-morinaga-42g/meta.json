@@ -17,10 +17,10 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "IN_PROGRESS",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I4: ảnh chụp nhiều hộp trên kệ, không có ảnh hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: bảng dinh dưỡng góc trên trái vẽ mờ; còn lại như hộp thật (BRAND FROM JAPAN, Dark, 12 pieces)",
+    "reason": "I3/I4: ảnh chụp nhiều hộp trên kệ, không có ảnh hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: bảng dinh dưỡng góc trên trái vẽ mờ; còn lại như hộp thật (BRAND FROM JAPAN, Dark, 12 pieces) · Chủ yêu cầu quay ngang: xoay ảnh Gemini lần 2 90° (hộp nằm ngang như hàng thật), không vẽ lại",
     "source": {
       "aiGenerated": true,
       "tool": "Gemini API",
@@ -28,7 +28,8 @@
       "generatedAt": "2026-10-17",
       "style": "flat clean packaging render (v17)",
       "reference": "ảnh Open Food Facts theo mã vạch 4902888183447 (chỉ làm mẫu) + ảnh kệ KiotViet",
-      "referenceUrl": "https://world.openfoodfacts.org/product/4902888183447"
+      "referenceUrl": "https://world.openfoodfacts.org/product/4902888183447",
+      "postprocess": "rotated 90° CCW (owner: horizontal)"
     },
     "rubricVersion": "v18"
   },
@@ -96,10 +97,22 @@
       "by": "owner",
       "status": "IN_PROGRESS",
       "note": "rejected on Hub by AU KHUONG DUY: Quay ảnh sp sai hướng, nên quay ngang."
+    },
+    {
+      "at": "2026-10-17T18:02:07Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "redo after Hub rejection: Quay ảnh sp sai hướng, nên quay ngang. — rotated attempt-2 render 90° to horizontal (no API call)"
+    },
+    {
+      "at": "2026-10-17T18:07:40.728Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-17T14:04:17.475Z",
+    "at": "2026-10-17T18:07:40.728Z",
     "fields": [
       "description",
       "image"

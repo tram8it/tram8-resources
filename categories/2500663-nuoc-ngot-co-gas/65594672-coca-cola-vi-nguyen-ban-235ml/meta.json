@@ -17,10 +17,10 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "IN_PROGRESS",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "ảnh tự chụp (mềm, bóng lóa); không có ảnh hãng đúng bao bì → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: lon vẽ hơi cao hơn lon 235 ml thật; ô năng lượng nhỏ bên phải chép từ lon 320 ml, có thể không khớp số của lon 235 ml",
+    "reason": "ảnh tự chụp (mềm, bóng lóa); không có ảnh hãng đúng bao bì → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: lon vẽ hơi cao hơn lon 235 ml thật; ô năng lượng nhỏ bên phải chép từ lon 320 ml, có thể không khớp số của lon 235 ml · Chủ: tỉ lệ hơi béo → co ngang ảnh cho lon cao/rộng ≈ 2,06 như ảnh KiotViet lon 235 ml",
     "source": {
       "aiGenerated": true,
       "tool": "Gemini API",
@@ -28,7 +28,8 @@
       "generatedAt": "2026-10-17",
       "style": "flat clean packaging render (v17)",
       "reference": "ảnh KiotViet hiện có (ảnh tự chụp) + ảnh hãng lon cao Coca-Cola VN (chỉ lấy logo/chữ)",
-      "referenceUrl": "https://www.coca-cola.com/content/dam/onexp/vn/vi/brands/coca-cola/vn-coca-cola.png"
+      "referenceUrl": "https://www.coca-cola.com/content/dam/onexp/vn/vi/brands/coca-cola/vn-coca-cola.png",
+      "postprocess": "narrowed horizontally to can height/width 2.06 (measured on KiotViet photo)"
     },
     "rubricVersion": "v18"
   },
@@ -78,10 +79,22 @@
       "by": "owner",
       "status": "IN_PROGRESS",
       "note": "rejected on Hub by AU KHUONG DUY: Tỉ lệ hơi béo so với thực tế"
+    },
+    {
+      "at": "2026-10-17T18:03:49Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "redo after Hub rejection: Tỉ lệ hơi béo so với thực tế — narrowed horizontally to can height/width 2.06 (measured on KiotViet photo) (no API call)"
+    },
+    {
+      "at": "2026-10-17T18:07:43.195Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-17T14:26:35.996Z",
+    "at": "2026-10-17T18:07:43.195Z",
     "fields": [
       "description",
       "image"

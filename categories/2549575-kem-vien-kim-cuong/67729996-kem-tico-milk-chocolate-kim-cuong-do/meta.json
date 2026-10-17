@@ -17,20 +17,16 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "IN_PROGRESS",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh; SP bán 1 viên lẻ (hộp 15 viên gói riêng), chưa có ảnh vỏ viên lẻ → Gemini vẽ viên kem theo hình trên hộp (ảnh minh hoạ) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: ảnh minh hoạ viên kem không vỏ (1 viên nguyên + 1 viên cắt đôi để thấy nhân vani); khách nhận 1 viên trong vỏ gói riêng",
+    "reason": "Chủ yêu cầu có bao bì → ảnh hãng Lotte Wellfood: hộp Tico Milk Choco 15 viên (510 ml); ảnh gốc 512 px nên hơi mềm",
     "source": {
-      "aiGenerated": true,
-      "tool": "Gemini API",
-      "model": "gemini-nano-banana-2.1",
-      "generatedAt": "2026-10-17",
-      "style": "flat clean packaging render (v17)",
-      "reference": "ảnh hộp Tico Milk Choco 15 viên trên trang Lotte Wellfood",
-      "referenceUrl": "https://webimage.ldcc.co.kr/upload/conf/upload/2025/11/26/2025112616d998f2f0d64f0.png"
+      "url": "https://webimage.ldcc.co.kr/upload/conf/upload/2025/11/26/2025112616d998f2f0d64f0.png",
+      "page": "https://www.lottewellfood.com",
+      "fetchedAt": "2026-10-17"
     },
-    "rubricVersion": "v18"
+    "rubricVersion": "v22"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -78,10 +74,22 @@
       "by": "owner",
       "status": "IN_PROGRESS",
       "note": "rejected on Hub by AU KHUONG DUY: Cần cả bao bì"
+    },
+    {
+      "at": "2026-10-17T17:57:25Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "redo after Hub rejection: Cần cả bao bì — official brand image"
+    },
+    {
+      "at": "2026-10-17T18:07:38.085Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-17T09:11:13.689Z",
+    "at": "2026-10-17T18:07:38.085Z",
     "fields": [
       "description",
       "image"

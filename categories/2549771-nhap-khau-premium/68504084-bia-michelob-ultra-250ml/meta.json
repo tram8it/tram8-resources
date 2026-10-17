@@ -17,17 +17,18 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "IN_PROGRESS",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I4: ảnh chụp điện thoại trong cửa hàng, nền thùng/kệ, lon bị cắt; không có ảnh hãng dùng được → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Lon xanh như hàng trên kệ (Kingfoodmart cùng mã vạch còn ảnh lon trắng đời trước/khác); chữ nhỏ dưới đáy để mờ",
+    "reason": "I3/I4: ảnh chụp điện thoại trong cửa hàng, nền thùng/kệ, lon bị cắt; không có ảnh hãng dùng được → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Lon xanh như hàng trên kệ (Kingfoodmart cùng mã vạch còn ảnh lon trắng đời trước/khác); chữ nhỏ dưới đáy để mờ · Chủ: tỉ lệ sai, lon không béo thế → co ngang cho lon cao/rộng ≈ 2,08 như ảnh Kingfoodmart lon 250 ml; giữ màu xanh như ảnh KiotViet (hàng trên kệ)",
     "source": {
       "aiGenerated": true,
       "tool": "Gemini API",
       "model": "gemini-nano-banana-2.1",
       "generatedAt": "2026-10-17",
       "style": "flat clean packaging render (v17)",
-      "reference": "ảnh KiotViet (lon xanh 250 ml)"
+      "reference": "ảnh KiotViet (lon xanh 250 ml)",
+      "postprocess": "narrowed horizontally to can height/width 2.08 (measured on Kingfoodmart photo of barcode)"
     },
     "rubricVersion": "v18"
   },
@@ -68,10 +69,22 @@
       "by": "owner",
       "status": "IN_PROGRESS",
       "note": "rejected on Hub by AU KHUONG DUY: tỉ lệ sai rồi, nó k béo thế"
+    },
+    {
+      "at": "2026-10-17T18:03:49Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "redo after Hub rejection: tỉ lệ sai rồi, nó k béo thế — narrowed horizontally to can height/width 2.08 (measured on Kingfoodmart photo of barcode) (no API call)"
+    },
+    {
+      "at": "2026-10-17T18:07:47.585Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-17T17:43:46.416Z",
+    "at": "2026-10-17T18:07:47.585Z",
     "fields": [
       "description",
       "image"

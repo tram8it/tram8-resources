@@ -17,14 +17,15 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "IN_PROGRESS",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "ảnh tự chụp (mềm, lóa) → ảnh hãng lon Sprite Hương Chanh 320 ml, bao bì mới nhất (v19) trên trang Coca-Cola Việt Nam",
+    "reason": "ảnh tự chụp (mềm, lóa) → ảnh hãng lon Sprite Hương Chanh 320 ml, bao bì mới nhất (v19) trên trang Coca-Cola Việt Nam · Chủ: lon 320 ml phải cao → co ngang ảnh hãng cho lon cao/rộng ≈ 2,6 như ảnh Kingfoodmart cùng mã vạch",
     "source": {
       "url": "https://www.coca-cola.com/content/dam/onexp/vn/vi/brands/sprite/vn-sprite-huong-chanh-can.png",
       "fetchedAt": "2026-10-17",
-      "page": "https://www.coca-cola.com/vn/vi/brands/sprite"
+      "page": "https://www.coca-cola.com/vn/vi/brands/sprite",
+      "postprocess": "narrowed horizontally to can height/width 2.6 (measured on Kingfoodmart photo of barcode)"
     },
     "rubricVersion": "v20"
   },
@@ -68,10 +69,22 @@
       "by": "owner",
       "status": "IN_PROGRESS",
       "note": "rejected on Hub by AU KHUONG DUY: Tỉ lệ lon cảm giác k đúng lắm, lon cao mà nhỉ"
+    },
+    {
+      "at": "2026-10-17T18:04:04Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "redo after Hub rejection: Tỉ lệ lon cảm giác k đúng lắm, lon cao mà nhỉ — narrowed horizontally to can height/width 2.6 (measured on Kingfoodmart photo of barcode) (no API call)"
+    },
+    {
+      "at": "2026-10-17T18:07:45.648Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-17T14:15:15.270Z",
+    "at": "2026-10-17T18:07:45.648Z",
     "fields": [
       "description",
       "image"
