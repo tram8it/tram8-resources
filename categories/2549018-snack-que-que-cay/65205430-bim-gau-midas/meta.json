@@ -17,12 +17,20 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I4: ảnh chụp tay cầm, nền lộn xộn — không có trang chính hãng/kênh chính chủ dùng được cho thương hiệu này (đã tìm web) → cần nhân viên chụp",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I3/I4: ảnh chụp tay cầm, nền lộn xộn; không có ảnh hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: góc dưới trái gói thật bị tay che (có thể có dòng khối lượng/chữ nhỏ) — ảnh vẽ không có dòng khối lượng; còn lại chữ (Midas King of food, SNACK Midas, hình cuộn Rong biển, Midass cùng bạn chia sẻ niềm vui) khớp mẫu",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (ảnh chụp tay cầm của cửa hàng); không tìm được ảnh hãng/NPP/nhà bán lẻ",
+      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/04/26/tram8/cf0a73396ce74f0f814279d08108b52e.jpeg"
+    },
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +51,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "b07 review: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T04:47:58Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T04:48:16.649Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T04:48:16.649Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

@@ -17,12 +17,20 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I4/I6: ảnh chụp điện thoại, nền lẫn, cạnh ngắn 274px — không có trang chính hãng/kênh chính chủ dùng được cho thương hiệu này (đã tìm web) → cần nhân viên chụp",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I3/I4/I6: ảnh chụp điện thoại, nền lẫn gói khác, cạnh ngắn 274px; không có ảnh hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt về chữ (Midas King of food, SNACK VỊ CÁ NƯỚNG, NET WT: 36g ± 2g, Midass cùng bạn chia sẻ niềm vui); miếng snack vẽ lại sạch hơn, mẫu ảnh chụp mờ nên chi tiết nhỏ (vân miếng snack, quả ớt) có thể khác nhẹ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (ảnh chụp điện thoại của cửa hàng); không tìm được ảnh hãng/NPP/nhà bán lẻ",
+      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/04/26/tram8/b0dbf8733ac94ae3ae0c57699e6dc295.jpeg"
+    },
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +51,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "b07 review: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T04:47:58Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T04:48:14.195Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T04:48:14.195Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

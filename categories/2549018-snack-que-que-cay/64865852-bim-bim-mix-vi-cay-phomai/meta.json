@@ -20,9 +20,9 @@
   "status": "NEEDS_PHOTO",
   "image": {
     "decision": "REPLACE",
-    "reason": "I2: ảnh là bánh que Mix (Thái Lan) vị Hot Chilli, không phải vị cay phô mai; trùng ảnh với SP Mix vị rong biển — không có trang chính hãng/kênh chính chủ dùng được cho thương hiệu này (đã tìm web) → cần nhân viên chụp",
+    "reason": "I2: ảnh KiotViet là bánh que Mix Thái Lan (VFoods) vị Hot Chilli, không phải gói Mix Việt Nam vị cay phô mai (mã 8938560922000). Không tìm được ảnh nào của đúng gói này (web, Open Food Facts, 17/10/2026) nên không có mẫu để Gemini vẽ → cần nhân viên chụp trọn mặt trước gói",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +43,12 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "b07 review: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T12:00:00Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "I2: ảnh KiotViet là bánh que Mix Thái Lan (VFoods) vị Hot Chilli, không phải gói Mix Việt Nam vị cay phô mai (mã 8938560922000). Không tìm được ảnh nào của đúng gói này (web, Open Food Facts, 17/10/2026) nên không có mẫu để Gemini vẽ → cần nhân viên chụp trọn mặt trước gói"
     }
   ]
 }
