@@ -17,12 +17,20 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I4/I8: ảnh quảng cáo 4 lọ Playmore khác vị trên nền vàng. Play Candy/Playmore (Thái Lan) không có trang chính hãng.",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I2: ảnh KiotViet là ảnh quảng cáo 4 lọ Playmore khác (mơ, chanh muối, dưa hấu, táo xanh), không có lọ chanh leo → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: ảnh mẫu nhỏ nên chữ in dọc thân lọ vẽ mờ. Chưa xác minh trực tiếp mã vạch 8859533603606 là lọ FÜNDAY chanh leo (suy theo dãy mã cùng đợt với FÜNDAY vải 3569 / đào 3521) — chủ nên đối chiếu với hàng thật",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh lọ FÜNDAY chanh leo cắt từ ảnh hộp trên vindrink.com (nhà nhập khẩu VID, chỉ làm mẫu); ảnh KiotViet cũ là ảnh quảng cáo 4 lọ Playmore khác vị, không dùng",
+      "referenceUrl": "https://vindrink.com/keo-thom-mieng-funday-vi-trai-cay-22g"
+    },
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +51,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "image NEEDS_PHOTO, description WRITE_NEW (name only)"
+    },
+    {
+      "at": "2026-10-17T04:43:17Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T04:43:44.828Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T04:43:44.828Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

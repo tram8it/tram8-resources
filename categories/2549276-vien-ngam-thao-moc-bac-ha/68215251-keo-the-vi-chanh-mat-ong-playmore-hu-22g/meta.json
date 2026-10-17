@@ -17,12 +17,12 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "ASK_OWNER",
   "image": {
-    "decision": "REPLACE",
-    "reason": "I3/I4: ảnh tay cầm trong cửa hàng, nền không trắng. Play Candy/Playmore (Thái Lan) không có trang chính hãng.",
+    "decision": "ASK_OWNER",
+    "reason": "Vị trên hũ (Cooling Lemon Sea Salt – chanh muối biển) khác tên KiotViet (chanh mật ong); chưa vẽ ảnh",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -30,7 +30,7 @@
     "source": null,
     "rubricVersion": "v4"
   },
-  "question": null,
+  "question": "Mã vạch 8859578600370: ảnh KiotViet (nhân viên chụp) là hũ Playmore 'Cooling Lemon Sea Salt' (Thái: เลมอนและเกลือ = chanh muối biển, Sugar Free, 22g), nhưng tên KiotViet là 'Kẹo The Vị Chanh Mật Ong Playmore Hũ 22g' và mô tả cũng ghi chanh mật ong. Hàng thật là vị nào? (a) chanh muối biển → sửa tên SP thành 'Kẹo The Vị Chanh Muối Biển Playmore Hũ 22g', AI sẽ vẽ ảnh theo hũ chanh muối biển và viết lại mô tả; (b) đúng là chanh mật ong → nhờ nhân viên chụp lại mặt trước hũ chanh mật ong (ảnh hiện tại là vị khác).",
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -43,6 +43,12 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "image NEEDS_PHOTO, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T04:43:31Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "Ảnh KiotViet là hũ Playmore Cooling Lemon Sea Salt, tên SP ghi Chanh Mật Ong; hỏi chủ vị thật trước khi vẽ ảnh"
     }
   ]
 }
