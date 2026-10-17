@@ -1,5 +1,4 @@
-Dải tắm hoa dạng khăn lưới dài, tạo bọt nhiều với sữa tắm và dùng kỳ cọ lưng, toàn thân khi tắm.
+Dải tắm hoa cao cấp Vietsun (dòng Sunsilk), dạng dải lưới mềm dùng để tạo bọt với sữa tắm và kỳ cọ lưng, toàn thân khi tắm. Theo bao bì: an toàn, siêu mềm, thoải mái khi massage.
 
-Màu sắc theo hàng có tại cửa hàng; ảnh minh hoạ 1 dải.
-
-Quy cách: cái
+Quy cách: 1 dải · túi
+Nhà sản xuất/thương hiệu: Vietsun

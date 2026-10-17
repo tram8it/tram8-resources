@@ -20,23 +20,22 @@
   "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I8: ảnh 6 dải nhiều màu trong khi SP bán 1 cái; không có trang hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: ảnh minh hoạ 1 dải màu hồng gấp đôi; màu thực tế theo hàng có tại cửa hàng; vân lưới vẽ đều hơn ảnh thật",
+    "reason": "I3: ảnh cũ là 6 dải tắm không bao bì; chủ gửi ảnh túi đang bán (Vietsun 'Dải Tắm Hoa Cao Cấp') → Gemini vẽ lại phẳng từ ảnh đó → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Lỗ treo vẽ dạng khe; chữ rất nhỏ dưới số 24 (HOURS) không đọc được",
     "source": {
       "aiGenerated": true,
       "tool": "Gemini API",
       "model": "gemini-nano-banana-2.1",
       "generatedAt": "2026-10-17",
       "style": "flat clean packaging render (v17)",
-      "reference": "ảnh KiotViet/iCheck (6 dải tắm nhiều màu)",
-      "referenceUrl": "https://icheck.vn/san-pham/8936170880222"
+      "reference": "ảnh chủ chụp túi hàng trên kệ 17/10"
     },
     "rubricVersion": "v18"
   },
   "description": {
-    "decision": "WRITE_NEW",
-    "reason": "D1: viết lại ngắn; ghi rõ ảnh minh hoạ 1 dải, màu theo hàng có sẵn",
+    "decision": "REWRITE",
+    "reason": "Theo túi chủ gửi 17/10: Vietsun, 1 dải trong túi",
     "source": null,
-    "rubricVersion": "v19"
+    "rubricVersion": "v20"
   },
   "question": null,
   "history": [
@@ -87,10 +86,28 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T15:21:46Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T15:21:46+00:00",
+      "by": "owner",
+      "status": "READY",
+      "note": "Chủ gửi ảnh túi Dải Tắm Hoa Cao Cấp Vietsun đang bán"
+    },
+    {
+      "at": "2026-10-17T15:21:46.696Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-17T14:09:15.501Z",
+    "at": "2026-10-17T15:21:46.696Z",
     "fields": [
       "description",
       "image"
