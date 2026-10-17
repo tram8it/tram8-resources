@@ -20,9 +20,9 @@
   "status": "NEEDS_PHOTO",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh; hàng địa phương, không có trang hãng truy cập được → cần nhân viên chụp",
+    "reason": "I1: chưa có ảnh; KiotViet không có ảnh, không tìm được ảnh hãng/NPP/nhà bán lẻ nào của mã 8936202667845 trên web (trang hãng phuonghuyenfood.com không truy cập được) → không biết bao bì để Gemini vẽ, cần nhân viên chụp (ảnh chụp sẽ làm mẫu cho Gemini)",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +43,12 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "image needs staff photo, description WRITE_NEW (from name)"
+    },
+    {
+      "at": "2026-10-17T04:03:54.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "web search found no reference photo of this pack; Gemini redraw impossible without a reference — staff photo needed"
     }
   ]
 }
