@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I6: ảnh KiotViet 225×225 quá nhỏ, bao bì cũ; trang hãng chỉ có ảnh hộp 4 ly → Gemini vẽ lại theo bao bì mới nhất (owner rule 17/10) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Vẽ theo bao bì mới (dải màu tím/xanh) thay cho bao bì cũ trong ảnh KiotViet; nắp nâu đỏ suy từ các ly cùng dãy (ảnh hãng không thấy nắp); bảng dinh dưỡng và số gam đã làm mờ (không có mẫu đọc được, chỉ giữ 100ml); logo HALAL Indonesia lấy theo ly cùng dãy, chưa đối chiếu với ly thật; vùng bảng dinh dưỡng được làm mờ thêm bằng PIL (Gaussian) vì Gemini vẫn vẽ số bịa",
@@ -63,6 +63,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T05:23:58.238Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -72,5 +78,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T05:20:54.607Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T05:20:54.607Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/310b656d439e47456feed09d019abd63671da57e3d3013a7cf095fd2ed3ad455.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/23/tram8/1ae372cbd6124430a3f712c35578c70a.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Kem Häagen-Dazs vị việt quất và kem tươi (Blueberries & Cream), ly nhỏ 100 ml.\n\nQuy cách: 100 ml · ly\nNhà sản xuất/thương hiệu: Häagen-Dazs\nBảo quản: Giữ đông ở −18 °C hoặc lạnh hơn.",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

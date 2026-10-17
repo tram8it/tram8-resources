@@ -17,12 +17,20 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I4: ảnh chụp cận nhãn hộp, nền không trắng; thophat.com chỉ có ảnh bánh bày đĩa, không có ảnh bao bì → cần chụp",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I3/I4: ảnh chụp cận nhãn hộp, nền không trắng; không có ảnh hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Tên 'Bánh bao Thọ Phát – Nhân Ca Dé', '70 g/bánh x 4' khớp ảnh gói thật; ảnh cửa hàng bị cắt ở số khối lượng ('28…'), ghi 280 g = 70 g x 4; mép phải và đáy túi suy theo gói Đậu Xanh cùng dòng. Lưu ý: tên KiotViet ghi 70g là khối lượng 1 cái; gói 280 g.",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (chụp cận một phần gói) + ảnh KiotViet gói Đậu Xanh cùng dòng (chỉ làm mẫu khổ túi)",
+      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/02/09/tongpenhchtl/0cf1832d806f4e6b85b7c3f9e7fc5a2e.jpeg"
+    },
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -46,6 +54,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "batch b14 review (rubric v4): image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T05:36:16Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T05:36:48.056Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T05:36:48.056Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

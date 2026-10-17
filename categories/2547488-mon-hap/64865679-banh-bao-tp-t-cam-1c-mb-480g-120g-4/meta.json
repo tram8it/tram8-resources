@@ -17,12 +17,20 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I4: ảnh chụp cận nhãn, nền không trắng; thophat.com chỉ có ảnh bánh bày đĩa, không có ảnh bao bì → cần chụp",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I3/I4: ảnh chụp cận nhãn, nền không trắng; không có ảnh hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Tên 'Bánh bao thập cẩm 1 trứng cút', mã vạch khớp nhãn thật; ô khối lượng không thấy trong ảnh cửa hàng — ghi 480 g (4 cái x 120 g) theo tên KiotViet và bảng dinh dưỡng (4 phần x 120 g); hình khay/túi suy theo SP cùng dòng; chữ nhỏ do AI vẽ, không đúng nguyên văn.",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (nhãn thật) + ảnh render cùng dòng 'Xá xíu kiểu Hồng Kông' trên Co.op Online (chỉ làm mẫu kiểu khay)",
+      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2025/12/02/tongpenhchtl/e7e6da0f03e444bd887b2dd46ad6897b.jpeg"
+    },
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +51,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "batch b14 review (rubric v4): image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T05:33:59Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T05:37:07.762Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T05:37:07.762Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

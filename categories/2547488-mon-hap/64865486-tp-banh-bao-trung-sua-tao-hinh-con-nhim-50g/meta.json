@@ -17,12 +17,20 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I4: ảnh chụp cận nhãn khay bánh, nền không trắng; thophat.com chỉ có ảnh bánh bày đĩa, không có ảnh bao bì → cần chụp",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I3/I4: ảnh chụp cận nhãn khay bánh, nền không trắng; không có ảnh hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Tên, khối lượng 200 g (50 g/cái x 4) khớp nhãn thật; hình khay/túi suy theo SP cùng dòng; chữ nhỏ do AI vẽ, không đúng nguyên văn; dãy số dưới mã vạch AI vẽ sai nên đã làm mờ. Lưu ý: tên KiotViet ghi 50g là khối lượng 1 cái; gói 200 g.",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (nhãn thật) + ảnh render cùng dòng 'con gấu sô cô la' trên Lotte Mart (chỉ làm mẫu kiểu khay)",
+      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/02/09/tongpenhchtl/a98dda785e934db4a0415c19993b0987.jpeg"
+    },
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -46,6 +54,32 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "batch b14 review (rubric v4): image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T05:30:49Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T06:00:00Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "barcode digits blurred locally after accept (AI drew 525359 instead of 525399); untouched copy in work/untouched/"
+    },
+    {
+      "at": "2026-10-17T05:36:57.687Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T05:36:57.687Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

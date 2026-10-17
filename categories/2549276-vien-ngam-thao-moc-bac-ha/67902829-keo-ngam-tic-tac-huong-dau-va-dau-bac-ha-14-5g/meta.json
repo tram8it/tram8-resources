@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I2/I7: ảnh cũ là Tic Tac spearmint (sai vị) có watermark 'SuperMart.ae'; ảnh NPP Hương Thủy là bản nhãn cũ và quá nhỏ → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Dùng bản nhãn mới nhất (nhãn đỏ 'SHARE THE FRESHNESS', ảnh Pharmacity 2025) thay bản nhãn bạc trên catalogue NPP 2022; mặt bên 'OPEN HERE' không thấy vì vẽ thẳng mặt trước; hạt kẹo vẽ lại.",
@@ -63,6 +63,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T05:23:58.238Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -72,5 +78,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T04:52:00.301Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T04:52:00.301Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/d4206acee0702198c98fe1258626fa65c9b69d8a45c14aaea1817872e93a1de1.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/08/30/tram8/8e1a19c4fb484e0aa7a581f72ab796a6.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Kẹo ngậm Tic Tac hương dâu và dâu bạc hà, viên nhỏ trong hộp nhựa nắp bật tiện mang theo.\n\nQuy cách: 14,5 g · lọ\nNhà sản xuất/thương hiệu: Tic Tac (Ferrero)",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

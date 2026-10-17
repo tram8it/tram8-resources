@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I3/I4: ảnh chụp điện thoại trên bàn làm việc, nhăn, lóa; không có ảnh hãng/NPP → Gemini vẽ lại packshot phẳng nền trắng (v15/v17) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: giữ dải 'Thêm 20%' vì khối lượng 60 g gắn với dải này (không có bản thường 60 g để thay); dòng tiếng Nhật trong ô xanh lấy theo bao bì Dorkbua Thái ('フィッシュ・ソース味'), ảnh thật không đọc được; dòng tiếng Anh/Thái rất nhỏ là chữ mờ không đúng nguyên văn; dòng nhỏ dưới khối lượng trên gói thật (không đọc được) bị bỏ; bỏ mã NSX/HSD; khối lượng 60 g đúng như gói",
@@ -63,6 +63,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T05:23:58.238Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -72,5 +78,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T04:52:59.891Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T04:52:59.891Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/5d043ada9794799a784a9a688aaab178af4f4463712986b1895e82245237ec43.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/18/tram8/f1b29e1712024219ae767b4d22586a82.png"
+        ]
+      },
+      "description": {
+        "to": "Bim tăm Thái gói đỏ, bánh que Lotus của Dorkbua (Thái Lan), que giòn vị truyền thống.\n\nQuy cách: 60 g · gói\nNhà sản xuất/thương hiệu: Dorkbua (Lotus)",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

@@ -17,12 +17,20 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I4: ảnh chụp điện thoại trong tủ mát, nền không trắng; thophat.com chỉ có ảnh bánh bày đĩa, không có ảnh bao bì → cần chụp",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I3/I4: ảnh chụp điện thoại trong tủ mát, nền không trắng; không có ảnh hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Vẽ theo nhãn xanh lá đời cũ 'Bánh Bao nhân trứng sữa – Tạo hình Con Ong', 200 g như ảnh cửa hàng; không tìm được ảnh nhãn mới (KIDO) — nếu cửa hàng đang bán nhãn mới thì cần chụp lại; dãy số mã vạch AI vẽ sai nên đã làm mờ; dòng phụ '4 cái x 50 g' suy theo các SP cùng dòng 200 g; dòng chữ chứng nhận ISO trên dải màu dưới nhãn AI vẽ sai nên đã làm mờ; chữ nhỏ do AI vẽ, không đúng nguyên văn.",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (ảnh chụp gói thật)",
+      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/02/09/tongpenhchtl/92481df7bd764a7f83214c205e6a1e19.jpeg"
+    },
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +51,32 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "batch b14 review (rubric v4): image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T05:33:59Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T06:00:00Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "barcode digits and garbled ISO line on the green band blurred locally after accept; untouched copy in work/untouched/"
+    },
+    {
+      "at": "2026-10-17T05:37:00.112Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T05:37:00.112Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

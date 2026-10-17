@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I3/I4: ảnh tay cầm trong cửa hàng, nền không trắng; Kiss Delicias không có trang chính hãng, không tìm được ảnh nhà bán lẻ → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Hộp vẽ thẳng mặt trước, quả đào vẽ lại; dòng chữ rất nhỏ dưới '42克' và dòng dọc cạnh '白桃味' không đọc được trên ảnh mẫu nên để mờ. Khối lượng in trên hộp: 42 g (tên KiotViet không ghi khối lượng).",
@@ -62,6 +62,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T05:23:58.238Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -71,5 +77,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T04:52:18.155Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T04:52:18.155Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/facabc3a538aa94a4d6a53db405498a28d035ff74a88b815f18abc7551f91163.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/06/28/tram8/4ec3bd7c3ecc49f08d94a8acb74cdca8.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Kẹo bạc hà Kiss Delicias hương đào trắng vị muối biển (Sea Salt Mint), đựng trong hộp nhỏ.\n\nQuy cách: hộp\nNhà sản xuất/thương hiệu: Kiss Delicias",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

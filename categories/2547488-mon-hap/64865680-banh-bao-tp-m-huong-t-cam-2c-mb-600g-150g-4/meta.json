@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "ASK_OWNER",
   "image": {
     "decision": "REPLACE",
     "reason": "I3/I4: ảnh chụp cận nhãn, nền không trắng; thophat.com chỉ có ảnh bánh bày đĩa, không có ảnh bao bì → cần chụp",
@@ -30,7 +30,7 @@
     "source": null,
     "rubricVersion": "v4"
   },
-  "question": null,
+  "question": "tên KiotViet 'Bánh bao Mỹ Hương thập cẩm 2 trứng cút 600g (150g×4)', mã vạch 8935335401333; nhưng ảnh KiotViet hiện có là gói Mỹ Hương 'Bánh bao thập cẩm 2 trứng cút' mang mã vạch 8935335401548, ô khối lượng ghi '5…g (14…g x 4)' (khoảng 560 g = 140 g x 4), không phải 600 g (150 g x 4). Cửa hàng đang bán gói nào? (a) gói 600 g mã ...401333 → nhờ chụp mặt trước gói; (b) gói 560 g mã ...401548 → sửa tên/mã vạch trên KiotViet rồi AI vẽ lại theo ảnh hiện có.",
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -43,6 +43,12 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "batch b14 review (rubric v4): image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T06:00:00Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "KiotViet photo shows barcode 8935335401548 and ~560g (140g x4), not 8935335401333 / 600g (150g x4) of the name; not drawn"
     }
   ]
 }

@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I2: ảnh cũ là Melona vị XOÀI (bao cam 'Original'), không phải vị chuối; ảnh nhỏ, nền nâu (I4, I6). Thay bằng ảnh hãng Binggrae: Melona Banana bản xuất khẩu (bao vàng, chữ 'BANANA FROZEN DESSERT BAR'), cùng dòng xuất khẩu với ảnh KiotViet cũ. Ảnh hãng nhỏ (304×80) phóng ~2,8 lần, hơi mềm nhưng không vỡ (v3/v4)",
@@ -59,6 +59,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T05:23:58.238Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -68,5 +74,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T04:19:08.451Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T04:19:08.451Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/4c0e1530e7f07f65d501855da8cdb2367779915f203f88a99f116dcf622568c3.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/14/tram8/7698fee0ac0f4253aaadcf7130222ad2.png"
+        ]
+      },
+      "description": {
+        "to": "Kem que Melona vị chuối của Binggrae (Hàn Quốc).\n\nQuy cách: que\nXuất xứ: Hàn Quốc · Nhà sản xuất/thương hiệu: Binggrae · Melona\nBảo quản: Giữ đông lạnh.",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

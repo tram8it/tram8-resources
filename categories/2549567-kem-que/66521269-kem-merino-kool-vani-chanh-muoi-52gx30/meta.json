@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I8: ảnh KiotViet có 2 gói chồng nhau, lại là bao bì cũ (vàng, nằm ngang, HSD 2022); không có trang hãng Merino truy cập được → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Dùng bao bì MỚI (trắng–xanh lá, đứng dọc) theo yêu cầu chủ 17/10, khác ảnh cửa hàng (bao vàng cũ). Mặt trước không in khối lượng; trang Kim Phúc ghi 52g/cây khớp tên. Tên KiotViet ghi 'Vani Chanh muối', bao in 'Kem hương Chanh Muối – Salted lemon ice-cream'. Ngoài ra không thấy khác biệt so với mẫu",
@@ -63,6 +63,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T05:23:58.238Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -72,5 +78,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T04:18:58.501Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T04:18:58.501Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/d22c9b183a31fa51f3565e58a1b00e5d126c2dadc2ece6bc107bad9f5ea70b29.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/06/16/tram8/ccf54fc633964d4094f74b7bc3408907.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Kem que Merino Kool vị vani chanh muối.\n\nQuy cách: 52 g · que\nNhà sản xuất/thương hiệu: Merino (KIDO Foods)\nBảo quản: Giữ đông lạnh.",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

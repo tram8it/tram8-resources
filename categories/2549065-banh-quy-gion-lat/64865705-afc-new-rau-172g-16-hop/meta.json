@@ -17,12 +17,20 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I2: ảnh hiện tại là sữa rửa mặt Pond's, sai SP; snack-central.com (Mondelez Kinh Đô) không có AFC → cần chụp",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I2: ảnh hiện tại là sữa rửa mặt Pond's, sai SP; snack-central.com không có AFC → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Bao bì mới (Vị Rau, 172 g = 8 gói x 21,5 g, 109 kcal) khớp mẫu; bỏ mã ngày in phun; chữ nhỏ có lỗi nhẹ: 'CAƠ' thay 'CAO', chú thích nhỏ 'trưởng thảm'",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh Open Food Facts hộp AFC Vị Rau 172g bao bì mới (chỉ làm mẫu)",
+      "referenceUrl": "https://world.openfoodfacts.org/product/8934680025973"
+    },
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +51,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "batch b14 review (rubric v4): image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T05:34:50Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 3, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T05:35:54.595Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T05:35:54.595Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I3/I4/I5: ảnh chụp trên nền xám, mép trên bị khung cắt, có tem phụ tiếng Việt; trang hãng không truy cập được → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Đã bỏ tem phụ nhập khẩu tiếng Việt và vẽ thêm mép hàn trên (ảnh mẫu bị cắt); chữ 'MELON CAKE SAND', 180 mL(180 kcal) và các % thành phần khớp ảnh mẫu; chữ '크' cuối và dòng '부드러운 메론 아이스…' sát mép phải như trên gói thật (chữ chạy vòng ra sau)",
@@ -63,6 +63,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T05:23:58.238Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -72,5 +78,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T04:24:20.777Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T04:24:20.777Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/df7514f222f8bba262a34a93ce387999f24e97eae58d6670b17e8243edacda92.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/05/11/tram8/26d727b63a0147ba889222469fa1b4e6.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Kem bánh kẹp Melon Cake Sand của Hàn Quốc: kem vị dưa lưới kẹp giữa hai lớp bánh bông lan castella.\n\nQuy cách: 180 ml · cái\nXuất xứ: Hàn Quốc · Thương hiệu: Seoju (서주)\nBảo quản: Giữ đông lạnh.",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

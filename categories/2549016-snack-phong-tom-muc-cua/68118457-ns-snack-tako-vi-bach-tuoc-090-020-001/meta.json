@@ -20,9 +20,9 @@
   "status": "NEEDS_PHOTO",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh; gói Hàn Quốc Nongshim (mã 8801043…), nongshim.com chặn (403) → cần chụp",
+    "reason": "I1: chưa có ảnh; Nongshim Tako (bạch tuộc) không có trên brand.nongshim.com (catalogue Hàn Quốc), trên mạng chỉ thấy gói 60 g/xuất khẩu, không xác nhận được gói 90 g mã 8801043036238 → cần nhân viên chụp gói đang bán",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +43,12 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "b17: needs photo (no image), description from name"
+    },
+    {
+      "at": "2026-10-17T05:23:51.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "re-checked 2026-10-17: no reference image found (barcode search, OFF, brand site) -> still NEEDS_PHOTO"
     }
   ]
 }

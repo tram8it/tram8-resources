@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I3/I4/I8: ảnh chụp trong tủ đông, nhiều SP khác; ảnh hãng quá nhỏ (cần phóng 3,3x) nên cho Gemini vẽ lại từ ảnh hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Dùng bao bì xuất khẩu MỚI của hãng (nền kem, viền đỏ, chữ SAMANCO RED BEAN) theo yêu cầu chủ 17/10; ảnh cửa hàng là bao cũ đỏ–vàng '참붕어싸만코 SINCE 1991' (hàng thị trường Thái, NSX 2022, 150 mL). So với ảnh hãng không thấy khác biệt",
@@ -63,6 +63,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T05:23:58.238Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -72,5 +78,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T04:19:04.620Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T04:19:04.620Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/67ccd9e2823ab60c146ab4da66ee513b9b68ecc3844f2b321259efc1231556fe.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/08/19/tram8/ffb7774a03b74501923144511d579bad.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Kem hình cá Samanco của Binggrae: vỏ bánh hình con cá bọc kem và nhân đậu đỏ.\n\nQuy cách: cái\nXuất xứ: Hàn Quốc · Nhà sản xuất/thương hiệu: Binggrae\nBảo quản: Giữ đông lạnh.",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

@@ -20,9 +20,9 @@
   "status": "NEEDS_PHOTO",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I4: ảnh chụp cận nhãn, nền không trắng; thophat.com chỉ có ảnh bánh bày đĩa, không có ảnh bao bì → cần chụp",
+    "reason": "I3/I4: ảnh KiotViet là mặt SAU nhãn (thành phần, mã vạch), không thấy mặt trước gói; Co.op Online chỉ có ảnh bánh bày đĩa; không có ảnh mẫu mặt trước → cần chụp mặt trước gói",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +43,12 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "batch b14 review (rubric v4): image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T06:00:00Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "rechecked 17/10: only back label photo and plated photo found; front of pack unknown, Gemini not run"
     }
   ]
 }

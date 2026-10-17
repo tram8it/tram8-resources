@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I7, I5: ảnh KiotViet có watermark cửa hàng khác (bản Thái 23 g), gói chạm mép khung → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: bản Indonesia 20,4 g (NET WT: 20.4g, bảng dinh dưỡng khớp ảnh mẫu); chữ nhỏ bên trái bị cắt ở mép như gói thật; một dòng chữ rất nhỏ dưới khối lượng để mờ",
@@ -63,6 +63,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T05:23:58.238Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -72,5 +78,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T05:21:11.541Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T05:21:11.541Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/c77c9c21142cb8454e06f35cb99f21a719ff7eb92b017f909a60fc8ea10c3f78.webp"
+        ],
+        "from": [
+          "https://cdn1-retail-images.kiotviet.vn/2026/01/06/tongpenhchtl/701f441d05384758ad65645c2602ad54.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Bánh quy Mini Oreo Original: bánh Oreo cỡ nhỏ, bánh quy ca cao kẹp kem vị vani, đóng gói nhỏ tiện mang theo.\n\nQuy cách: 20,4 g · gói\nThương hiệu: Oreo (Mondelēz)",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

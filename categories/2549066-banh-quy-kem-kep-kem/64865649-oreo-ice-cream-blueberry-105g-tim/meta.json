@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I2, I6: ảnh KiotViet bao bì đời cũ logo Kraft, rất nhỏ; trang Mondelez VN không có SP này → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: vẽ 1 thỏi từ ảnh 3 thỏi; bảng dinh dưỡng nhỏ để mờ không đọc được; không thấy khối lượng trên mặt trước. Lưu ý: Open Food Facts ghi mã vạch này là 119,6 g, tên KiotViet ghi 105G — chưa kiểm được trên gói",
@@ -63,6 +63,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T05:23:58.238Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -72,5 +78,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T05:21:08.049Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T05:21:08.049Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/f1d045cae9bda5cf43713de91ffc1c8099f0e7b55faac2eb8ec9d75c37aa8ea1.webp"
+        ],
+        "from": [
+          "https://cdn1-retail-images.kiotviet.vn/2026/01/03/tongpenhchtl/c0452091d55b47fe8a8875f5e5298ffb.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Bánh quy Oreo Ice Cream vị việt quất: hai lớp bánh quy ca cao giòn kẹp lớp kem vị kem việt quất màu tím.\n\nQuy cách: 105 g · thanh\nThương hiệu: Oreo (Mondelēz)",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

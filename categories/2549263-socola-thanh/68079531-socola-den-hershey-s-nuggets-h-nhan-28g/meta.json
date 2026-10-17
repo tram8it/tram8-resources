@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I3/I4: ảnh chụp hộp đựng nhiều thanh; bản nhãn Thái, không có trên trang hãng Hershey's → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: bảng GDA tiếng Thái để mờ (ảnh mẫu không đọc được số); ô đỏ bên phải chữ in xuôi (gói thật thấy ngược/mờ qua màng); hai đầu răng cưa vẽ theo dáng gói, ảnh mẫu bị hộp che; 'Net Weight 28g' khớp",
@@ -63,6 +63,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T05:23:58.238Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -72,5 +78,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T04:36:27.738Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T04:36:27.738Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/217da724e14b2fd6e71a90f91abfbe583eba705904a4aeca35add2b2b6459207.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/09/13/tram8/989a80a45ef94fa28b0fedf59c77b486.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Thanh sô cô la đen Hershey's Nuggets với hạnh nhân.\n\nQuy cách: 28 g · thanh\nNhà sản xuất/thương hiệu: Hershey's",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

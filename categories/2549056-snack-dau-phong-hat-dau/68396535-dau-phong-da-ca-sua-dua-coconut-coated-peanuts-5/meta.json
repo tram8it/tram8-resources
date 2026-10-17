@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I4/I8: ảnh KiotViet 2 gói (mặt trước + mặt sau) trên nền xám; ảnh hãng chỉ có gói 55g, SP mình 50g → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Vẽ lại từ ảnh hãng, chỉ đổi nhãn khối lượng thành 'NET WEIGHT : 50 g' theo gói thật. Gói Thái đang bán có thêm dòng chữ Thái dưới tên SP, logo Vegan góc trái trên và ô dinh dưỡng góc trái dưới — ảnh này không có (theo bản thiết kế của hãng)",
@@ -63,6 +63,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T05:23:58.238Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -72,5 +78,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T04:28:43.469Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T04:28:43.469Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/a18b37ddf280dcf56370e2a219bcb1d4747c896259b969d4074f1df9254040b4.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/10/07/tram8/2c1ac80ffde44924aea4ae2af6428999.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Đậu phộng da cá sữa dừa (Coconut Coated Peanuts) của Tong Garden: hạt đậu phộng bọc lớp vỏ giòn vị sữa dừa.\n\nQuy cách: 50 g · gói\nThương hiệu: Tong Garden",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

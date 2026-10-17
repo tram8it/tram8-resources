@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I2/I4: ảnh KiotViet là bao bì đời cũ/ảnh chụp tay; ảnh hãng chỉ có nền màu kèm hạt, lá, miếng socola — tách nền không sạch → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Vẽ theo ảnh hãng (bao bì mới nhất 'Nut Selection', huy hiệu 'No added flavours'); mặt trước không có dòng 'NET WEIGHT 100 g ℮' ở đáy như ảnh hãng; khối lượng chỉ in dọc hai mép '100 g' (đúng tên KiotViet 100 G); chữ nhỏ ở mép gấp đáy bị mờ. Ngoài ra không thấy khác biệt so với ảnh KiotViet.",
@@ -66,6 +66,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T05:23:58.238Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -75,5 +81,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T04:36:39.942Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T04:36:39.942Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/918fe165d16d74227d6e8a48cb98c507d807826593bcbfdbab5516ec0d9be2a1.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/18/tram8/fa725375d37046f28510626af48d3e4e.png"
+        ]
+      },
+      "description": {
+        "to": "Sô cô la trắng Ritter Sport dòng Nut Selection với hạt phỉ nguyên hạt rang giòn và cốm gạo giòn, dạng thanh vuông đặc trưng của hãng.\n\nQuy cách: 100 g · thanh\nXuất xứ: Đức · Nhà sản xuất/thương hiệu: Ritter Sport",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

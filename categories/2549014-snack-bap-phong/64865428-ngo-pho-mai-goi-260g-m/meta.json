@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I3/I4/I6: ảnh tay cầm, nền cửa hàng, cạnh ngắn 270px, mờ; hàng địa phương (Phương Huyền Food), trang hãng phuonghuyenfood.com không truy cập được, không có ảnh trên web → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Chữ lớn 'NGÔ GIÒN' / 'Lắc Phomai', logo đỏ, hình phô mai, bát ngô, huy chương giữ như ảnh gốc; chữ nhỏ (thành phần, tên/địa chỉ công ty, số mã vạch, ô đen góc phải) cố ý làm mờ không đọc được; bỏ logo tròn xanh nhỏ cạnh mã vạch; khối lượng không đọc được trên ảnh gốc nên ảnh không in khối lượng (chưa kiểm được nhãn có ghi 260g); ảnh gốc quá mờ nên chi tiết bố cục nhãn có thể khác nhẹ",
@@ -63,6 +63,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T05:23:58.238Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -72,5 +78,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T04:05:35.050Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T04:05:35.050Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/b3513cdaf8cc1544cf30b54523f60cb68981810633ce14e35a3cab3c966521b8.webp"
+        ],
+        "from": [
+          "https://cdn1-retail-images.kiotviet.vn/2026/01/23/tongpenhchtl/f7a61e8b994b4d86a1a7061d49c4d0e0.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Ngô (bắp) sấy giòn lắc phô mai, hạt ngô giòn thơm phủ vị phô mai, ăn liền như món ăn vặt.\n\nQuy cách: 260 g · túi\nNhà sản xuất/thương hiệu: Phương Huyền Food",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

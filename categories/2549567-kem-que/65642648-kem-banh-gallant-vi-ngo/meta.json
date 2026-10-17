@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I3/I4: ảnh chụp gói nhàu trên nền xám; trang hãng Seoju không truy cập được → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Gói được vẽ phẳng, bỏ dấu in ngày sản xuất; chữ lớn (옥수수 아이스샌드, 빵, PREMIUM ICECREAM) và dòng nhỏ 180mL (195 kcal), 25 %, 8 %, 81 % khớp ảnh mẫu; dòng chữ rất nhỏ dưới huy hiệu (CASTELLA SANDWICH) do AI vẽ, ảnh mẫu không đọc rõ",
@@ -63,6 +63,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T05:23:58.238Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -72,5 +78,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T04:24:17.326Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T04:24:17.326Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/6c7ce4ad8d3a0f976c3b36c7f938808c801ca555c35cff851d703e52e56406d5.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/05/11/tram8/079e560d1ed6481a9a3a93db9d79a7c4.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Kem bánh kẹp vị ngô (Ice Sand) của Hàn Quốc.\n\nQuy cách: cái\nXuất xứ: Hàn Quốc · Thương hiệu: Seoju (서주)\nBảo quản: Giữ đông lạnh.",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

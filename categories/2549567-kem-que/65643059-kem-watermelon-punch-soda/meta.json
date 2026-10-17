@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I3/I4/I5: ảnh chụp gói nhàu, gập trên nền xám, bị khung cắt; trang hãng không truy cập được → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Gói được vẽ phẳng, bỏ dấu in ngày; dòng thứ hai của tên trên ảnh mẫu bị nếp gấp che một nửa, AI vẽ là '쏘다' (nét còn thấy khớp với chữ 쏘); dòng nhỏ giữ 125 mL(115 kcal), 수박 30 %, 혼합분유 2 % như ảnh mẫu nhưng bỏ bớt một đoạn (…시럽 2 %)",
@@ -63,6 +63,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T05:23:58.238Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -72,5 +78,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T04:24:24.650Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T04:24:24.650Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/e89c7d6340f588467bfacd6249e65de8ebe6b3a7416e841c57581e63a5142c08.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/05/11/tram8/b2c3346c88b247a88b3198079b78131e.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Kem Watermelon Punch Soda của Hàn Quốc, vị dưa hấu và soda.\n\nQuy cách: cái\nXuất xứ: Hàn Quốc\nBảo quản: Giữ đông lạnh.",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

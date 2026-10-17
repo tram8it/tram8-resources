@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I4: ảnh chụp điện thoại trên nền be; ảnh NPP Hương Thủy là bản nhãn cũ và quá nhỏ → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Theo hộp đang bán (nhãn xanh chấm bi, 'KHỐI LƯỢNG TỊNH: 14,5 g (T30)'); hộp vẽ đầy kẹo hơn ảnh chụp (ảnh chụp hộp đã ăn bớt); phần chữ nhỏ trên nắp không vẽ.",
@@ -63,6 +63,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T05:23:58.238Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -72,5 +78,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T04:52:03.783Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T04:52:03.783Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/d2c5c331ea5e210ee3d9b1af149fe5ed58b33d9e3658e95b8fcf258326b18655.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/08/30/tram8/28f382962429467c8d5408bf5b30a35a.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Kẹo ngậm Tic Tac hương vị bạc hà, viên nhỏ màu trắng trong hộp nhựa nắp bật tiện mang theo.\n\nQuy cách: 14,5 g · lọ\nNhà sản xuất/thương hiệu: Tic Tac (Ferrero)",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I5: đáy chai bị khung ảnh cắt; không có ảnh hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: đáy chai vẽ thêm theo dáng chai cùng dòng; dòng 'Hoàn toàn từ sữa tươi cao ngu…' bị khuất vòng quanh chai như ảnh thật; không thấy khác biệt khác",
@@ -63,6 +63,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T05:23:58.238Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -72,5 +78,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T05:21:32.435Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T05:21:32.435Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/3c741caf39c106b521c03402f8361c235497c9b96f3700e3a5443d2b95744bfd.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/09/24/tram8/a6273656c92f45729fd196751ee1a6e5.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Sữa chua uống Dalatmilk hương dâu (Drinking Yogurt Strawberry), làm từ sữa tươi cao nguyên, có men sống Bulgaricus.\n\nQuy cách: 200 ml · chai\nNhà sản xuất/thương hiệu: Dalatmilk",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

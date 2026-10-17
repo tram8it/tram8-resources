@@ -17,12 +17,20 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I7: có tem giá cửa hàng khác (22.000 VND) dán trên gói; mayora.com lỗi chứng chỉ; mayoraindah.co.id chỉ có ảnh thương hiệu 165px — không có nguồn hãng",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I7: có tem giá cửa hàng khác (22.000 VND) dán trên gói; không có ảnh hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Dùng bao bì mới 'Coffee Candy – BIGGER BOLDER COFFEE' (ảnh cửa hàng là bao bì cũ 'Coffee'); '140 g (40 viên x 3,5 g)' đúng",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh Kingfoodmart + Co.op Online bao bì mới (chỉ làm mẫu)",
+      "referenceUrl": "https://kingfoodmart.com/keo-cung-keo-mut/keo-coffee-kopiko-goi-140g-1-goi-60351"
+    },
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +51,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "batch b14 review (rubric v4): image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T05:35:10Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T05:36:09.528Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T05:36:09.528Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

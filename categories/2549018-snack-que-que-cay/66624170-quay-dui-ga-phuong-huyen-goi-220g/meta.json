@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I3/I4/I6: ảnh chụp điện thoại, nền lộn xộn, cạnh ngắn 270px; không có ảnh hãng/nhà bán lẻ trên web → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Chữ nhỏ mặt trước (thành phần, địa chỉ, chữ dưới biểu tượng tái chế) là chữ mờ không đọc được; mã vạch không in số (AI vẽ sai số nên đã bỏ); không ghi khối lượng vì ảnh mẫu không đọc được dòng khối lượng (chưa kiểm được 220g); hình mèo, logo vương miện, tiêu đề Quẩy Đùi Gà, huy hiệu 100% QUALITY khớp ảnh mẫu",
@@ -63,6 +63,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T05:23:58.238Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -72,5 +78,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T04:53:27.601Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T04:53:27.601Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/86e12870d8a90eb69461af7df053665b5bd368881336919bd361424f8f5cb3c1.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/06/22/tram8/d043cab58ba94f30b1fffaf0feeec7ec.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Quẩy đùi gà của Phương Huyền Food, bánh quẩy giòn tạo hình đùi gà, món ăn vặt quen thuộc.\n\nQuy cách: 220 g · gói\nNhà sản xuất/thương hiệu: Phương Huyền Food",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

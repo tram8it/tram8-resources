@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I1: chưa có ảnh; hãng không đăng ảnh SP riêng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Phần trên và băng chữ VỊ CHANH SẢ theo ảnh hãng; phần đáy gói (dòng 'KHỐI LƯỢNG TỊNH 46 g' theo tên SP), dòng tiếng Anh nhỏ và hình chanh/sả hai bên do AI suy theo khuôn cùng dãy — chưa có ảnh gói thật tại cửa hàng để đối chiếu",
@@ -63,6 +63,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T05:23:58.238Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -72,5 +78,28 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T05:16:32.896Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T05:16:32.896Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/49dcedb59558bd3d2177ec45930600c75314ae237ab6f09edf9d2c1a837c8c3e.webp"
+        ],
+        "from": null
+      },
+      "description": {
+        "to": "Bánh tráng trộn vị chanh sả thương hiệu Miss Bánh Tráng, dòng cao cấp, ăn liền ngay khi mở gói.\n\nQuy cách: 46 g · gói\nNhà sản xuất/thương hiệu: Công ty CP Thực phẩm Vina Snack · Miss Bánh Tráng",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

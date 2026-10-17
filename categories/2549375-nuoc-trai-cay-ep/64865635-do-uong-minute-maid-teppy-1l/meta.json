@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I4: nền xám loang quanh chai; trang hãng không có ảnh chai 1 L → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: vẽ theo bao bì chai 1 L trong ảnh cửa hàng (nhãn có huy hiệu 'NEW DELICIOUS FORMULA'); chai 327 ml trên trang hãng đã đổi sang nhãn cam toàn thân — chưa thấy ảnh chai 1 L bao bì mới nên chưa dùng; chữ nhỏ ở huy hiệu dinh dưỡng để mờ không đọc được",
@@ -66,6 +66,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T05:23:58.238Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -75,5 +81,91 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T05:10:41.672Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T05:10:41.672Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/32398a33b36f4a02328ad62d11b9625b61ce3ac9458191a61e86d41f7b77c61b.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2025/11/26/tongpenhchtl/6e0c1450ec614c989a46b110052f0013.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Nước cam có tép Minute Maid Teppy chai lớn 1 lít, có tép cam thật, bổ sung vitamin C, vitamin E và canxi; tiện dùng cho gia đình.\n\nThành phần: Nước, đường mía, siro bắp hàm lượng fructose cao, nước cam và tép cam hoàn nguyên (10,9%), canxi lactat, hương liệu tự nhiên và tổng hợp, chất điều chỉnh độ axit (330, 331(iii)), chất ổn định (466), vitamin C, màu tự nhiên (160a(ii)), chất tạo ngọt tổng hợp (955, 950), vitamin E.\nQuy cách: 1 L · chai nhựa\nNhà sản xuất/thương hiệu: Coca-Cola Việt Nam · Minute Maid",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {
+      "price": {
+        "to": 23148.15,
+        "from": 22727.27
+      },
+      "saleTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 64865635
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 64865635
+        }
+      },
+      "taxRate": {
+        "to": "VAT 8%",
+        "from": "VAT 10%"
+      },
+      "productTaxs": {
+        "to": [
+          {
+            "id": 0,
+            "name": "VAT 8%",
+            "taxId": 3,
+            "value": 8,
+            "productId": 64865635
+          }
+        ],
+        "from": [
+          {
+            "id": 0,
+            "name": "VAT 10%",
+            "taxId": 4,
+            "value": 10,
+            "productId": 64865635
+          }
+        ]
+      },
+      "purchaseTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 64865635
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 64865635
+        }
+      }
+    }
   }
 }

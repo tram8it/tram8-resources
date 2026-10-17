@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I3/I4: ảnh chụp tay cầm trong kho; không có ảnh hãng/NPP → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Bỏ màng co; mặt hộp không có chữ (vị cam không in ở mặt trước), mặt Doraemon nháy mắt cười há miệng khớp ảnh thật",
@@ -63,6 +63,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T05:23:58.238Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -72,5 +78,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T04:53:13.895Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T04:53:13.895Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/6cfe570bf4d2d274e892aa184f6ad7ca8ed847f566d5be5c067c05f5b81f4da2.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/08/29/tram8/1027f7cc44f54fa79fc53f81b4cb2144.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Kẹo gum cuộn Lotte Doraemon hương cam, đựng trong hộp hình đầu Doraemon.\n\nQuy cách: cuộn\nNhà sản xuất/thương hiệu: Lotte · Doraemon",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

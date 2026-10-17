@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I2: ảnh hiện tại là chùm trái cây, không phải SP → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt ở chữ lớn (logo Pororo 뽀로로, 'Bổ sung kẽm - Tăng cường miễn dịch'); chữ nhỏ hông chai không đọc được",
@@ -63,6 +63,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T05:23:58.238Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -72,5 +78,31 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T05:20:51.483Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T05:20:51.483Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/98462e882de14274f2276554305d7fb884498ce462be4639c07e57a6be5ed3fd.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/04/26/tram8/b0de68d2ee2149ccaf1c405a028366d4.jpeg",
+          "https://cdn2-retail-images.kiotviet.vn/2026/04/26/tram8/f52c4691479445129ff9383785f6dccf.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Nước uống Pororo hương vị đào dành cho trẻ em, chai nắp bật tiện mang theo, bao bì in \"Bổ sung kẽm\".\n\nQuy cách: 235 ml · chai\nThương hiệu: Pororo",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

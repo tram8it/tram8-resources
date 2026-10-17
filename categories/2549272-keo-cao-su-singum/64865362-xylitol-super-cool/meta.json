@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I3/I4/I5: ảnh chụp điện thoại cận, bị cắt, lóa; trang hãng chỉ có ảnh nhỏ 125×170 → Gemini vẽ lại theo mẫu bao bì trên trang hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Theo bao bì trên trang hãng. Nhãn vàng 'Hương thơm the mát kéo dài 15 phút' chép theo hũ Super Cool (ảnh Pharmacity) và gói ở cửa hàng. Giữ dải đỏ 'KHUYẾN MÃI ĐẶC BIỆT TẶNG 10 GÓI' (in sẵn trên mẫu của hãng). Chữ nhỏ đầu dải đỏ để mờ. Kẹo trong cửa sổ là hình vẽ.",
@@ -63,6 +63,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T05:23:58.238Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -72,5 +78,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T05:02:40.538Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T05:02:40.538Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/7ea1133878d340400c1d9d11111327404a19225402c1b36c2ef719f8be70bafe.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/03/28/tongpenhchtl/3bd09afd07f643ac9cc996ba270da9fd.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Kẹo gum không đường Lotte Xylitol, dòng Super Cool.\n\nQuy cách: 319 g (110 gói × 2,9 g) · gói lớn\nNhà sản xuất/thương hiệu: Lotte Việt Nam · Xylitol",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

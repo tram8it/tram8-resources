@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I3/I4: ảnh chụp tay cầm, nền lộn xộn; không có ảnh hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: góc dưới trái gói thật bị tay che (có thể có dòng khối lượng/chữ nhỏ) — ảnh vẽ không có dòng khối lượng; còn lại chữ (Midas King of food, SNACK Midas, hình cuộn Rong biển, Midass cùng bạn chia sẻ niềm vui) khớp mẫu",
@@ -63,6 +63,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T05:23:58.238Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -72,5 +78,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T04:52:55.909Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T04:52:55.909Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/754cdd03a191b6677834f143ca7ba33b50c21cda3aceda207975802eaabecae6.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/04/26/tram8/cf0a73396ce74f0f814279d08108b52e.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Snack Midas hình cuộn vị rong biển, bao bì in hình chú gấu, món ăn vặt giòn.\n\nQuy cách: gói\nNhà sản xuất/thương hiệu: Midas",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

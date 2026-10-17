@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I7: ảnh có tem giá/mã vạch của cửa hàng; hubbabubba.com chặn bot (403) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: dòng thành phần nhỏ chạy quanh viền vẽ lại gần đúng, có thể sai chính tả nhỏ (vd. 'SIRUP' thay 'SIROP'); chữ lớn và '56 g' đúng",
@@ -63,6 +63,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T05:23:58.238Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -72,5 +78,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T05:02:11.704Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T05:02:11.704Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/47235d3c934c763aab5d42b84e954cb9b80667f07907ff677a6f0eb13637ef7d.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/30/tram8/f821dd1ae42d4e1d99d0fe7000c7b851.png"
+        ]
+      },
+      "description": {
+        "to": "Kẹo sing-gum Hubba Bubba Bubble Tape vị truyền thống (Original), dạng cuộn dài trong hộp tròn.\n\nQuy cách: 56 g · hộp\nNhà sản xuất/thương hiệu: Wrigley's · Hubba Bubba",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

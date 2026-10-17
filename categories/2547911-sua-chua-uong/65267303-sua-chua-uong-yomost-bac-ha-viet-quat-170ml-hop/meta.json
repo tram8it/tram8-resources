@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I8: SKU là 1 hộp 170 ml nhưng ảnh là lốc 4 hộp; không truy cập được trang hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: vẽ 1 hộp; ô dinh dưỡng chỉ còn 'Trong 170 ml' và '4%' (số kcal trên hộp thật không đọc được nên bỏ); 2 dòng chữ rất nhỏ dưới ô dinh dưỡng là chữ AI tạo, không đúng nguyên văn",
@@ -63,6 +63,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T05:23:58.238Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -72,5 +78,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T05:21:39.506Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T05:21:39.506Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/fe9cd150d584aaaf495218d96334970658669186098b6899a3a291d92de2212b.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/04/28/tram8/5c25b97b98bc4599a476efaa682cadc4.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Sữa chua uống Yomost hương bạc hà việt quất (Mint & Blueberry) của FrieslandCampina, dạng hộp giấy có ống hút.\n\nQuy cách: 170 ml · hộp\nNhà sản xuất/thương hiệu: FrieslandCampina Việt Nam · Yomost",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

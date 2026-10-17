@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I1: chưa có ảnh; không có ảnh hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Gói đặt chéo cho vừa khung vuông; mặt trước không in khối lượng (7 g in ở mặt sau, đúng tên KiotViet). Không thấy khác biệt khác.",
@@ -63,6 +63,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T05:23:58.238Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -72,5 +78,28 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T04:39:56.278Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T04:39:56.278Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/3ad3e7883c350438236c6e8212175cc74af4b38ee472c11cf641a2e7fbaf12ac.webp"
+        ],
+        "from": null
+      },
+      "description": {
+        "to": "Kẹo dẻo Chupa Chups Sour Belt vị chua, dạng thanh nhỏ tiện mang theo.\n\nQuy cách: 7 g · thanh\nNhà sản xuất/thương hiệu: Chupa Chups",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

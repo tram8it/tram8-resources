@@ -17,12 +17,20 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I7, I2: có logo chữ S của nơi khác ở góc ảnh; ảnh là lon Mỹ 16 fl oz chứ không phải lon sleek 355ml; trang monsterenergy.com chặn truy cập (403) → cần chụp",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I7, I2: ảnh cũ có logo nơi khác ở góc và là lon Mỹ 16 fl oz, không phải lon sleek 355ml; monsterenergy.com chặn truy cập, không có ảnh hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: ảnh mẫu là lon bán ở Singapore (mã vạch 4897036691212, cùng nhà máy Malaysia), lon ở cửa hàng mã 4897036691342 có thể khác nhãn phụ/chữ nhỏ mặt sau; mặt trước (logo M, MONSTER ENERGY, TAURINE + GINSENG) khớp; không có nhãn Nutri-Grade của Singapore",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh lon Monster Energy 355ml (Malaysia) trên fairprice.com.sg (chỉ làm mẫu; đã che nhãn Nutri-Grade và watermark trước khi gửi)",
+      "referenceUrl": "https://www.fairprice.com.sg/product/monster-energy-can-drink-355ml-13191893"
+    },
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +51,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "image NEEDS_PHOTO (official site blocked), description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T05:30:36Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T05:30:36.534Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T05:30:36.534Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

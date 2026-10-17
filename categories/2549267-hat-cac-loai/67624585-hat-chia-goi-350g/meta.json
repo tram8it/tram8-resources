@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I3, I5: ảnh chụp cận gói, gói bị khung cắt, nền không trắng; không có trang hãng Phương Huyền Food → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Chữ chép đúng (Chất Lượng Khẳng Định Thương Hiệu Số 1, Chia SEEDS Hạt Chia, ISO 22000 2018, 'OGANIC SUPERFOOD' như bao bì); bỏ dòng NSX/HSD. Mặt trước không in khối lượng nên ảnh không có 350g; mép gói AI vẽ thêm (ảnh mẫu bị cắt).",
@@ -63,6 +63,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T05:23:58.238Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -72,5 +78,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T05:15:28.117Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T05:15:28.117Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/1b34af26182b904536a12cbbd4e9c6f4756af8b0fd77216a02067b2c427af9f7.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/08/13/tram8/c53c696f1e1148a1a6dbac06630d853a.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Hạt chia (Chia seeds) Phương Huyền Food đóng gói.\n\nQuy cách: 350 g · gói\nThương hiệu: Phương Huyền Food",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

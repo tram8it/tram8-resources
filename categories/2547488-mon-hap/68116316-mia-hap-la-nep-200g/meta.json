@@ -20,9 +20,9 @@
   "status": "NEEDS_PHOTO",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh; không rõ nhà sản xuất → cần chụp",
+    "reason": "I1: chưa có ảnh; không có thương hiệu/nhà sản xuất (mã 8936186850707 không có trên Open Food Facts) → cần chụp",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +43,12 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "batch b14 review (rubric v4): image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T06:00:00Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "rechecked 17/10: no brand, no image source"
     }
   ]
 }

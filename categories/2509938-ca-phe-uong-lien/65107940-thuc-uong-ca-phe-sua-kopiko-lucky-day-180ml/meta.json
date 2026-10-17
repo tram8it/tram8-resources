@@ -17,12 +17,20 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I2, I4: ảnh là chai nước gạo Hàn Quốc, không phải Kopiko Lucky Day; nền không trắng. Trang Kopiko/Mayora không truy cập được → cần chụp",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I2, I4: ảnh cũ là chai nước gạo Hàn Quốc, không phải SP; nền không trắng; trang Kopiko/Mayora không truy cập được → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: theo bản nhãn bán ở Việt Nam trên Kingfoodmart ('READY TO DRINK COFFEE', Net content 180 ml); cùng mã vạch còn có bản nhãn khác ở Thái/Myanmar ('STRONG AND CREAMY COFFEE', nhãn tiếng Thái) — chưa thấy hàng thật ở cửa hàng vì ảnh KiotViet sai SP; dấu tròn nhỏ góc trái dưới vẽ đơn giản",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh chai Kopiko Lucky Day 180ml trên kingfoodmart.com (chỉ làm mẫu)",
+      "referenceUrl": "https://kingfoodmart.com/ca-phe-uong-lien/ca-phe-sua-kopiko-lucky-day-180ml-1-chai"
+    },
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +51,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "image NEEDS_PHOTO (wrong product photo), description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T05:37:56Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T05:37:56.942Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T05:37:56.942Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

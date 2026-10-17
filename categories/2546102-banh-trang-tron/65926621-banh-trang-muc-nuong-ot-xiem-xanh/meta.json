@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I3/I4: ảnh điện thoại chụp cận gói, nền không trắng; Mèo Food không có trang hãng tìm được → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Phần giữa (mèo, băng chữ BÁNH TRÁNG / MỰC NƯỚNG / ỚT XIÊM XANH, ô tròn) theo ảnh thật; logo MEO FOOD trên đỉnh, mép gói và hình mực/ớt hai bên, phần đáy do AI suy ra theo khuôn gói cùng dãy (ảnh thật không chụp tới) — cần chủ so với gói thật",
@@ -62,6 +62,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T05:23:58.238Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -71,5 +77,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T05:13:13.898Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T05:13:13.898Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/278c7f9f33d64379e943a0805ef051d3a299999da5847f303f3bb786b5025604.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/05/23/tram8/f18bceb9f36c4b9692f1e0f7c91880d8.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Bánh tráng mực nướng ớt xiêm xanh thương hiệu Mèo Food, món ăn vặt đóng gói ăn liền. Bánh tráng ăn kèm mực nướng, vị cay của ớt xiêm xanh.\n\nQuy cách: gói\nThương hiệu: Mèo Food",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I4, I5: ảnh chụp điện thoại cận gói, nền tối, gói bị cắt; trang Mondelez VN chỉ có ảnh ghép hộp → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: NET WT: 20.4g và bảng dinh dưỡng khớp ảnh mẫu; chữ nhỏ bên trái (NSX, HSD) chỉ đọc được một phần, có thể lệch vài ký tự",
@@ -66,6 +66,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T05:23:58.238Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -75,5 +81,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T05:21:14.846Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T05:21:14.846Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/2b9f09a39465bcc85d28649c36ba50e178abf896847880b35ac575054e555d3d.webp"
+        ],
+        "from": [
+          "https://cdn1-retail-images.kiotviet.vn/2026/01/13/tongpenhchtl/cd2ac1c5c85f4340b5f6c480408e0395.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Bánh quy Mini Oreo nhân kem sô cô la: bánh Oreo cỡ nhỏ, hai lớp bánh quy ca cao giòn kẹp kem sô cô la, gói nhỏ tiện mang theo.\n\nThành phần: Bột mì, đường, dầu thực vật (dầu cọ), bột ca cao (4,6%), siro fructose, chất tạo xốp, tinh bột bắp, muối, chất nhũ hóa lecithin (từ đậu nành), hương vani tổng hợp.\nQuy cách: 20,4 g · gói\nXuất xứ: Indonesia · Nhà sản xuất/thương hiệu: Mondelez Indonesia · Oreo (Mondelez Kinh Đô Việt Nam chịu trách nhiệm chất lượng)\nBảo quản: Nơi khô ráo, thoáng mát, tránh ánh nắng trực tiếp.",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I2/I3/I6: ảnh 210px, thanh bóc vỏ, bao bì Nhật (không phải gói Malaysia đang bán); nestle.com.my chặn, không có ảnh hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: bảng GDA bên trái và khối chữ nhỏ bên phải để mờ (ảnh mẫu không đọc được số); dòng chữ Thái nhỏ có thể sai chính tả; chữ lớn, 'GREEN TEA', 'Khối lượng tịnh : 17 g' khớp ảnh mẫu",
@@ -66,6 +66,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T05:23:58.238Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -75,5 +81,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T04:36:18.521Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T04:36:18.521Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/d34708b5a39fa0a7e09f40e7aa97015373b73d0eee18be589a81fa5d21608946.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2025/12/02/tongpenhchtl/449f74a1fec94fe69bbf7686c5832466.jpg"
+        ]
+      },
+      "description": {
+        "to": "Bánh xốp KitKat 2 thanh phủ sô cô la trà xanh matcha Nhật Bản của Nestlé.\n\nQuy cách: 17 g (2 thanh) · thanh\nNhà sản xuất/thương hiệu: Nestlé · KitKat",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

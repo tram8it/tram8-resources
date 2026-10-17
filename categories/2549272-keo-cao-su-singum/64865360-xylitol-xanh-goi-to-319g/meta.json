@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I3/I4/I5: ảnh chụp điện thoại, gói nhăn, nền bàn; trang hãng chỉ có ảnh nhỏ 125×170 → Gemini vẽ lại theo mẫu bao bì hiện hành trên trang hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Theo bao bì mới trên trang hãng (gói có lỗ treo; ảnh cửa hàng là bản cũ có thêm dòng 'PREVENTS TOOTH DECAY'). Giữ dải đỏ 'KHUYẾN MÃI ĐẶC BIỆT TẶNG 10 GÓI' vì in sẵn trên mẫu gói 319g của hãng. 3 dòng chữ nhỏ ở đầu dải đỏ để mờ, không đọc được. Kẹo trong cửa sổ là hình vẽ.",
@@ -63,6 +63,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T05:23:58.238Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -72,5 +78,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T05:02:32.698Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T05:02:32.698Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/28305793a7f68e6aa22f228315e7140045da319330ddfe45ef62b87171963939.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/03/28/tongpenhchtl/f17bdde9ea1243e8995e13a06af8b1db.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Kẹo gum không đường Lotte Xylitol hương Lime Mint.\n\nQuy cách: 319 g (110 gói × 2,9 g) · gói lớn\nNhà sản xuất/thương hiệu: Lotte Việt Nam · Xylitol",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I1: chưa có ảnh trên KiotViet; trang hãng không có ảnh → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt đáng kể; chữ Thái nhỏ dưới logo vẽ lại gần đúng, có thể không đọc được. Chưa xác minh được mã vạch 8859533602234 trên ảnh mẫu (ảnh mẫu là lọ dứa 22g bản Play Candy)",
@@ -63,6 +63,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T05:23:58.238Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -72,5 +78,28 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T04:52:21.961Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T04:52:21.961Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/a36ca58e1ba21d66f1f40f2b1a05829ebb479901523ab91c02bc7fde2f09704f.webp"
+        ],
+        "from": null
+      },
+      "description": {
+        "to": "Kẹo thơm miệng Play Candy hương dứa, đựng trong lọ nhỏ nắp vặn.\n\nQuy cách: lọ\nNhà sản xuất/thương hiệu: Play Candy",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

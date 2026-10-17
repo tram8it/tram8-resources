@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I3/I4: ảnh chụp trên nền xám, có tem phụ tiếng Việt che chữ; trang hãng không truy cập được → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Tên thật trên gói là '왕포도알' (kem ống nho Zero Sugar của Seoju); đã bỏ tem phụ tiếng Việt — phần 'ZERO SUGAR 0%' dưới tem do AI vẽ lại theo phần còn thấy; chữ nhỏ dọc thân để mờ, không có số khối lượng/kcal",
@@ -63,6 +63,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T05:23:58.238Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -72,5 +78,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T04:24:28.034Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T04:24:28.034Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/8badd99dd7a2eb72104d65cbe8f4fd9b3545e5a1499d02cd47a7865abefbd9be.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/05/11/tram8/286e78094109449191e1c678c937aea0.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Kem ống vị nho của Hàn Quốc.\n\nQuy cách: ống\nXuất xứ: Hàn Quốc\nBảo quản: Giữ đông lạnh.",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

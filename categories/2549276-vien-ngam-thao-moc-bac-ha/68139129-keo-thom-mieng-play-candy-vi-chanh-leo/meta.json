@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I2: ảnh KiotViet là ảnh quảng cáo 4 lọ Playmore khác (mơ, chanh muối, dưa hấu, táo xanh), không có lọ chanh leo → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: ảnh mẫu nhỏ nên chữ in dọc thân lọ vẽ mờ. Chưa xác minh trực tiếp mã vạch 8859533603606 là lọ FÜNDAY chanh leo (suy theo dãy mã cùng đợt với FÜNDAY vải 3569 / đào 3521) — chủ nên đối chiếu với hàng thật",
@@ -63,6 +63,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T05:23:58.238Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -72,5 +78,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T04:52:38.628Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T04:52:38.628Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/01859ecd18d002c03742b42be2f038776885bcc082726a904a81ecf6cc7a500a.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/09/17/tram8/5a29b5b603ac451e83353a9863dda557.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Kẹo thơm miệng Play Candy hương chanh leo, đựng trong lọ nhỏ nắp vặn.\n\nQuy cách: lọ\nNhà sản xuất/thương hiệu: Play Candy",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

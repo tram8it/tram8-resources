@@ -17,12 +17,20 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3, I4, I5: ảnh chụp điện thoại cận lon, nền không trắng, lon bị cắt; trang Ajinomoto (ajinomoto.com.vn/vi/ca-phe-birdy) không có ảnh lon → cần chụp",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I3, I4, I5: ảnh chụp điện thoại cận lon, nền không trắng, lon bị cắt; trang Ajinomoto không có ảnh lon → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: dùng bao bì mới nhất (chữ tiếng Việt 'Cà phê hương CARAMEL MACCHIATO', ra mắt 11/2025); ảnh cửa hàng là bản nhãn tiếng Anh 'Flavored coffee CARAMEL MACCHIATO' màu vàng cam hơn; màu cam theo ảnh PR; không thấy chữ dung tích ở mặt trước",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh PR lon Birdy Caramel Macchiato bao bì mới (11/2025) đăng trên vietq.vn (chỉ làm mẫu)",
+      "referenceUrl": "https://vietq.vn/cafe-birdy--nay-vua-giam-duong-lai-them-huong-vi-caramel-macchiato-moi-d238727.html"
+    },
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -46,6 +54,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "image NEEDS_PHOTO (no packshot on official site), description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T05:32:58Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T05:32:58.889Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T05:32:58.889Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

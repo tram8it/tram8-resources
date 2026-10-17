@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I3/I4/I8: ảnh chụp khay 6 hũ trên kệ → Gemini vẽ lại 1 hũ theo ảnh hãng (hũ 55,1 g, khay ghi 6 hũ x 55,1 g) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Một hũ thay cho khay 6 hũ trong ảnh cửa hàng. Nhãn vị bên trái chỉ thấy 'ENERGY DRINK MINT' (chữ 'HƯƠNG' khuất quanh thân hũ, như ảnh hãng). Ảnh cửa hàng có thêm một mẫu hũ màu hồng (mặt sau/phiên bản khác) — dùng mặt trước như ảnh hãng.",
@@ -76,6 +76,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T05:23:58.238Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -85,5 +91,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T05:02:53.920Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T05:02:53.920Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/5a5deadbde1efa9d142a84bc4d2b212e63b77b02abc5c63c7058c8b9663e5aa7.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/15/tram8/ff3589463cde42298cd493ac7363f185.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Kẹo gum không đường Lotte Xylitol hương nước giải khát hỗn hợp.\n\nQuy cách: 55,1 g · hũ\nNhà sản xuất/thương hiệu: Lotte Việt Nam · Xylitol",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

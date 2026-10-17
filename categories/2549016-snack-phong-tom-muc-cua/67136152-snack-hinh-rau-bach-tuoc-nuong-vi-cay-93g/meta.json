@@ -20,9 +20,9 @@
   "status": "NEEDS_PHOTO",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh; không rõ thương hiệu/nhà sản xuất (mã vạch 693… Trung Quốc), không có nguồn chính hãng → cần chụp",
+    "reason": "I1: chưa có ảnh; không rõ thương hiệu/nhà sản xuất (mã vạch 693… Trung Quốc), tra mã vạch trên web và Open Food Facts không ra → không có ảnh mẫu để vẽ, cần chụp",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +43,12 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "b17: needs photo (no image, unknown brand), description from name"
+    },
+    {
+      "at": "2026-10-17T05:23:51.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "re-checked 2026-10-17: no reference image found (barcode search, OFF, brand site) -> still NEEDS_PHOTO"
     }
   ]
 }

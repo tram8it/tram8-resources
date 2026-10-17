@@ -20,7 +20,7 @@
   "status": "NEEDS_PHOTO",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh; hàng nhập Trung Quốc không rõ trang hãng → cần chụp",
+    "reason": "I1: chưa có ảnh; mã 6970645319529 không tra được (Open Food Facts, tìm web); không có ảnh mẫu bản vị cacao để Gemini vẽ — cần nhân viên chụp mặt trước gói",
     "source": null,
     "rubricVersion": "v4"
   },
@@ -43,6 +43,12 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "batch b14 review (rubric v4): image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T05:35:27Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "Tìm ảnh mẫu không có (OFF, web); không đoán bao bì vị cacao từ bản vị sữa"
     }
   ]
 }

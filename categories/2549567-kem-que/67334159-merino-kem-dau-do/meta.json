@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I1: chưa có ảnh; không có trang hãng Merino truy cập được → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Không thấy khác biệt so với mẫu. Mặt trước không in khối lượng; trang Kim Phúc ghi 54g/cây (tên KiotViet không ghi khối lượng). Chưa đối chiếu được mã vạch 8936011773713 với gói thật",
@@ -63,6 +63,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T05:23:58.238Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -72,5 +78,28 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T04:19:01.410Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T04:19:01.410Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/b252c8d573226484e2120f795a2d5bca973a40dbe05ffab491a5f9c9b404b3df.webp"
+        ],
+        "from": null
+      },
+      "description": {
+        "to": "Kem que Merino vị đậu đỏ.\n\nQuy cách: que\nNhà sản xuất/thương hiệu: Merino (KIDO Foods)\nBảo quản: Giữ đông lạnh.",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

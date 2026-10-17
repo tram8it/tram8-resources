@@ -17,12 +17,12 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "ASK_OWNER",
   "image": {
-    "decision": "REPLACE",
-    "reason": "I3, I4, I5: ảnh chụp điện thoại cận nhãn trên kệ, nền không trắng, chai bị cắt; trang Uniben (uniben.vn) lỗi chứng chỉ, không có kênh chính hãng khác → cần chụp",
+    "decision": "ASK_OWNER",
+    "reason": "I3, I4, I5: ảnh chụp cận nhãn trên kệ, chai bị cắt; có ảnh mẫu nhưng hai bản nhãn vị nho khác chữ, chưa biết bản nào",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -30,7 +30,7 @@
     "source": null,
     "rubricVersion": "v4"
   },
-  "question": null,
+  "question": "Abben nho tím (mã vạch 8936048477189): ảnh cửa hàng là nhãn tiếng Anh 'Flavor GRAPE STRIKE', còn ảnh mẫu trên mạng (allfullvietnam.com.vn) là nhãn tiếng Việt 'Hương NHO TÍM SẤM SÉT' như hai chai việt quất/chanh vàng. Vẽ ảnh theo bản nào: (1) nhãn tiếng Việt 'NHO TÍM' cho đồng bộ dãy, hay (2) nhãn 'GRAPE STRIKE' đúng hàng đang bán?",
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -43,6 +43,12 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "image NEEDS_PHOTO (no official source), description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T05:27:25.000Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "two label designs for the grape flavour (GRAPE STRIKE in shop vs NHO TÍM on retailer render) -> ask owner"
     }
   ]
 }

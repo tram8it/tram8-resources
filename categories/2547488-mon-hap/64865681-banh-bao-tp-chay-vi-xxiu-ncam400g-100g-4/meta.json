@@ -17,12 +17,20 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I4: ảnh chụp cận nhãn, nền không trắng; thophat.com chỉ có ảnh bánh bày đĩa, không có ảnh bao bì → cần chụp",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I3/I4: ảnh chụp cận nhãn bằng điện thoại, nền không trắng; thophat.com chặn bot/chỉ có ảnh bánh bày đĩa → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Chữ lớn, khối lượng 400 g (4 cái x 100 g), mã vạch khớp bao bì thật; chữ nhỏ (thành phần, bảng dinh dưỡng, địa chỉ, số hotline) do AI vẽ, không đúng nguyên văn. Lưu ý: tên KiotViet ghi 'Chay Vi XXiu' nhưng bao bì (cùng mã vạch) là 'Xá xíu kiểu Hồng Kông', không ghi chay.",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh render bao bì trên Co.op Online (cùng mã vạch 8935335402804, chỉ làm mẫu) + ảnh KiotViet",
+      "referenceUrl": "https://cooponline.vn/banh-bao-xa-xiu-hong-kong-tho-phat-4x100g--s260407823"
+    },
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +51,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "batch b14 review (rubric v4): image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T05:28:40Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T05:37:09.578Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T05:37:09.578Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

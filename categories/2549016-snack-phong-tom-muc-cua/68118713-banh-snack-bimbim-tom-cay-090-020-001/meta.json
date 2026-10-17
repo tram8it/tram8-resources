@@ -17,12 +17,16 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3, I4: ảnh chụp trên bàn gỗ; gói Hàn Quốc Nongshim Saeukkang cay (mã 8801043…), nongshim.com chặn (403); gói Mỹ trên nongshimusa.com khác bao bì → cần chụp",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I3, I4: ảnh chụp trên bàn gỗ, bóng lóa; thay bằng ảnh gói 매운 새우깡 (Saeukkang cay) trên trang thương hiệu Nongshim Hàn Quốc (cùng bao bì với gói cửa hàng; ảnh hãng không in dòng 중량 90 g ở góc dưới như gói thật); ảnh hãng 434 px, phóng 2,4 lần, xem lại đạt (v4)",
+    "source": {
+      "url": "https://image.nongshim.com/non/pro/1594682479225.jpg",
+      "page": "https://brand.nongshim.com/saewookkang/main/index",
+      "fetchedAt": "2026-10-17"
+    },
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +47,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "b17: needs photo, description from front-of-pack facts"
+    },
+    {
+      "at": "2026-10-17T05:22:09.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "brand image from brand.nongshim.com (spicy Saeukkang, same design as shop pack)"
+    },
+    {
+      "at": "2026-10-17T05:23:39.012Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T05:23:39.012Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

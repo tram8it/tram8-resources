@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I3/I4/I5: ảnh chụp điện thoại cận, mất nửa dưới gói (khối lượng); trang hãng chỉ có ảnh nhỏ 125×170 → Gemini vẽ lại theo mẫu bao bì trên trang hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Theo bao bì trên trang hãng; dòng '319 g (110 gói x 2,9 g)' lấy theo ảnh hãng (mờ) + gói Lime Mint/Super Cool cùng cỡ, ảnh cửa hàng bị cắt mất phần này. Giữ dải đỏ 'KHUYẾN MÃI ĐẶC BIỆT TẶNG 10 GÓI' (in sẵn trên mẫu của hãng). Chữ nhỏ đầu dải đỏ để mờ. Kẹo trong cửa sổ là hình vẽ.",
@@ -63,6 +63,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T05:23:58.238Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -72,5 +78,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T05:02:36.096Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T05:02:36.096Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/b1c6279bc3f66c6feacdf60dd18108368ec91d73c7aa5d170a7f7bf206af6899.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/03/28/tongpenhchtl/2a07224bc64f41a4a4bae629de85f157.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Kẹo gum không đường Lotte Xylitol hương Blueberry Mint.\n\nQuy cách: 319 g · gói lớn\nNhà sản xuất/thương hiệu: Lotte Việt Nam · Xylitol",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

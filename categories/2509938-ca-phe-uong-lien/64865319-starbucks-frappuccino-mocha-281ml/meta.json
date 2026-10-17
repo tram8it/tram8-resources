@@ -17,12 +17,20 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I2, I4: ảnh là lon Lotte Let's Be Mocha Latte 175ml, không phải Starbucks Frappuccino Mocha; nền cửa hàng. Trang Dongsuh (dongsuh.co.kr) tải sản phẩm bằng script, không lấy được ảnh → cần chụp",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I2, I4: ảnh cũ là lon Lotte Let's Be Mocha Latte, không phải SP; nền cửa hàng; trang Dongsuh tải SP bằng script, không lấy được ảnh hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: nhãn bản mới ('Mocha 모카' trên dải nâu, 281 ml (160 kcal), 커피함량 0.56% 이상) theo ảnh mẫu; dòng chữ nhỏ về caffeine để mờ vì ảnh mẫu không đọc được số; hai SP cùng dãy (Dolce, Coffee) đang dùng ảnh nhãn đời cũ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh render chai Starbucks Frappuccino Mocha 281ml trên 11st.co.kr (gian hàng ghi 동서식품 공식, chỉ làm mẫu)",
+      "referenceUrl": "https://www.11st.co.kr/products/6833410918"
+    },
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +51,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "image NEEDS_PHOTO (wrong product photo), description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T05:35:50Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T05:35:50.993Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T05:35:50.993Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

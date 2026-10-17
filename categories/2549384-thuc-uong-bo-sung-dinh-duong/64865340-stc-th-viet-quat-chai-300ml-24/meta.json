@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I1: chưa có ảnh; trang TH chặn bot, không có ảnh hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Chữ mặt trước 'Nước Uống Sữa Trái Cây / Việt Quất Tự Nhiên / Thực Phẩm Bổ Sung / Thể tích thực: 300 ml' dựng theo bố cục mặt chữ Việt của chai dâu cùng dòng (ảnh mẫu việt quất chỉ thấy mặt chữ Anh 'Natural Blueberry'); màu chữ vị (xanh đậm) là suy ra; chữ nhỏ hai bên hông không đọc được/không chính xác",
@@ -63,6 +63,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T05:23:58.238Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -72,5 +78,28 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T05:16:36.263Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T05:16:36.263Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/799249f61193444f66288b5e9a65633686d78459d77f72b93a7ca947335b019b.webp"
+        ],
+        "from": null
+      },
+      "description": {
+        "to": "Nước uống sữa trái cây TH true JUICE milk vị việt quất tự nhiên, thuộc nhóm thực phẩm bổ sung, đóng chai nhựa tiện mang theo.\n\nQuy cách: 300 ml · chai\nNhà sản xuất/thương hiệu: TH true JUICE milk (Tập đoàn TH)",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
   }
 }
