@@ -17,12 +17,20 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I4: ảnh chụp điện thoại trên bàn làm việc — không có trang chính hãng/kênh chính chủ dùng được cho thương hiệu này (đã tìm web) → cần nhân viên chụp",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I3/I4: ảnh chụp điện thoại trên bàn làm việc, nhăn, lóa; không có ảnh hãng/NPP → Gemini vẽ lại packshot phẳng nền trắng (v15/v17) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: giữ dải 'Thêm 20%' vì khối lượng 60 g gắn với dải này (không có bản thường 60 g để thay); dòng tiếng Nhật trong ô xanh lấy theo bao bì Dorkbua Thái ('フィッシュ・ソース味'), ảnh thật không đọc được; dòng tiếng Anh/Thái rất nhỏ là chữ mờ không đúng nguyên văn; dòng nhỏ dưới khối lượng trên gói thật (không đọc được) bị bỏ; bỏ mã NSX/HSD; khối lượng 60 g đúng như gói",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet hiện tại (gói thật chụp trên bàn, 60 g 'Thêm 20%')",
+      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/07/18/tram8/f1b29e1712024219ae767b4d22586a82.png"
+    },
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +51,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "b07 review: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T04:48:48Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T04:49:05.976Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T04:49:05.976Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }
