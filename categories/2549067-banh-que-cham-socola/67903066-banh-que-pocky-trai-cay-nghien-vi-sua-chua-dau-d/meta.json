@@ -17,12 +17,20 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh; dòng Pocky trái cây nghiền vị sữa chua dâu đào không có trên trang Glico",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I1: chưa có ảnh; dòng Pocky Crushed Fruits dâu đào không có trên trang Glico → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: bao bì nhập khẩu Indonesia như mẫu (Halal Indonesia, SNI 2973:2011, Berat bersih 38 g); hai dòng chữ nhỏ cuối (địa chỉ Jakarta, 'Baik digunakan sebelum') Gemini vẽ sai nên đã làm mờ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh Kingfoodmart + ảnh Open Food Facts (chỉ làm mẫu)",
+      "referenceUrl": "https://world.openfoodfacts.org/product/8851019001340"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +51,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "b18 review (rubric v4): image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T07:43:38Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 3, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T07:44:07.872Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T07:44:07.872Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

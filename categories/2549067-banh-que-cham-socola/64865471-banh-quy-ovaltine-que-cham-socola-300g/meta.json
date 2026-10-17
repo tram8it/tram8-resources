@@ -17,12 +17,12 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "ASK_OWNER",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I4: ảnh tay cầm trong kho, nền không trắng; hàng Ovaltine nội địa Trung Quốc, không có ảnh hãng đúng gói 300g",
+    "reason": "I3/I4: ảnh tay cầm trong kho; hàng Ovaltine nội địa Trung Quốc, không tìm được ảnh hãng/ảnh bán lẻ của hộp 300 g",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -30,7 +30,7 @@
     "source": null,
     "rubricVersion": "v4"
   },
-  "question": null,
+  "question": "Mã 6906791584740 'Bánh Quy Ovaltine Que Chấm Socola 300g (Hộp)': ảnh cửa hàng chỉ thấy 1 ly 可脆了 ghi 净含量 50g. Hộp 300 g là hộp 6 ly 50 g phải không, và mã vạch này in trên ly hay trên hộp? Chọn: (a) dùng ảnh 1 ly 50 g (Gemini vẽ lại từ ảnh hiện có) và ghi rõ 'hộp 6 ly' trong mô tả; (b) nhân viên chụp cả hộp 300 g; (c) SP bán lẻ từng ly 50 g → sửa tên KiotViet.",
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -43,6 +43,12 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "b18 review (rubric v4): image NEEDS_PHOTO, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T07:43:58Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "Mã 6906791584740 'Bánh Quy Ovaltine Que Chấm Socola 300g (Hộp)': ảnh cửa hàng chỉ thấy 1 ly 可脆了 ghi 净含量 50g. Hộp 300 g là hộp 6 ly 50 g phải không, và mã vạch này in trên ly hay trên hộp? Chọn: (a) dùng ảnh 1 ly 50 g (Gemini vẽ lại từ ảnh hiện có) và ghi rõ 'hộp 6 ly' trong mô tả; (b) nhân viên chụp"
     }
   ]
 }

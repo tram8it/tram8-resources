@@ -17,12 +17,20 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I8: ảnh cũ là thùng 24 chai, SP bán theo chai; không có ảnh hãng Aquafina",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I8: ảnh cũ là thùng 24 chai, SP bán theo chai; không có ảnh hãng Aquafina → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt đáng kể; chữ dung tích nhỏ ở mép nhãn không đọc được",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh Kingfoodmart chai 355 ml (chỉ làm mẫu)",
+      "referenceUrl": "https://storage.googleapis.com/onelife-public/8934588063145.jpg"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +51,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "b18 review (rubric v4): image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T07:43:25Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T07:43:43.148Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T07:43:43.148Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

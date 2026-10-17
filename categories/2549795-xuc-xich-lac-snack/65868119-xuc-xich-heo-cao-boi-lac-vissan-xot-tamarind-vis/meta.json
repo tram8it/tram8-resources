@@ -17,12 +17,17 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I2 (v2): ảnh hiện tại là bao bì cũ (không có nhãn '4 cây'); ảnh bao bì mới trên vissanmart.com (cửa hàng trực tuyến của VISSAN) có nền xám, không dùng được (I4) → cần chụp",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I2 (v2): ảnh hiện tại là bao bì cũ (không có nhãn '4 cây'); dùng ảnh bao bì mới trên vissanmart.com (cửa hàng trực tuyến của VISSAN), tách nền xám bằng cutout.py (v5), không vẽ lại",
+    "source": {
+      "url": "https://vissanmart.com/pub/media/catalog/product/x/x/xx_tr_n_u_tamarin_4_c_y.png",
+      "page": "https://vissanmart.com/xx-tr-n-d-u-x-t-tamarind-vissan-62g-4-cay.html",
+      "fetchedAt": "2026-10-17",
+      "cutout": true
+    },
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -46,6 +51,12 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "current photo is old packaging; official new-pack image has grey background → NEEDS_PHOTO; description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T07:44:03.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "brand image from vissanmart.com, grey background removed with cutout.py --erode 2; matches sibling Vissan BBQ (brand image)"
     }
   ]
 }

@@ -17,12 +17,19 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I4: ảnh tay cầm, nền kho; thương hiệu Rich Cocoa không có trang hãng",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I3/I4: ảnh tay cầm, nền kho; thương hiệu Rich Cocoa không có trang hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ lớn (芭芘棒, Rich cocoa, 巧克力酱饼干条巧克力味, Fingers cookies+ Chocolate sauce, 净含量:38克) khớp ảnh chụp; dòng chữ rất nhỏ dưới khối lượng là chữ mờ do AI vẽ, không đọc được trên gói thật; hơi mềm (hàng giá rẻ, chấp nhận)",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (ảnh tay cầm, chỉ làm mẫu)"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +50,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "b18 review (rubric v4): image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T07:43:38Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T07:44:12.558Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T07:44:12.558Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

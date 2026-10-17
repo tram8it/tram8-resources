@@ -17,12 +17,20 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I4: ảnh tay cầm trong kho; suntorypepsico.vn không có trang/ảnh Aquafina",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I3/I4: ảnh tay cầm trong kho; suntorypepsico.vn không có ảnh Aquafina → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: dùng nhãn thường (không dùng nhãn chiến dịch mũi tên tái chế của ảnh Kingfoodmart); chữ dung tích ở mép nhãn bị khuất một phần",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh Kingfoodmart chai 500 ml và 355 ml (chỉ làm mẫu) + ảnh KiotViet",
+      "referenceUrl": "https://storage.googleapis.com/onelife-public/8934588063053.jpg"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +51,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "b18 review (rubric v4): image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T07:43:11Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T07:43:41.612Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T07:43:41.612Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

@@ -17,12 +17,20 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I8: ảnh lốc 4 hộp, SP bán theo hộp; dalatmilk.vn lỗi chứng chỉ, không có nguồn chính hãng dùng được → cần chụp",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I8: ảnh lốc 4 hộp trong khi SP bán theo hộp; dalatmilk.vn không truy cập được, không có ảnh hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: vẽ 1 hộp nghiêng nhẹ; mặt hông có chữ nhỏ và mã vạch minh hoạ (không đọc được, không phải chữ thật)",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh Kingfoodmart lốc 4 hộp (chỉ làm mẫu), cắt 1 hộp",
+      "referenceUrl": "https://storage.googleapis.com/onelife-public/8938503131834.jpg"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +51,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "b16 review: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T07:43:04Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T07:43:04.944Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T07:43:04.944Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

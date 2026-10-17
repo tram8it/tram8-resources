@@ -17,12 +17,20 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I2: ảnh cũ là Pretz vị bắp, sai SP; dòng Pocky trái cây nghiền vị sữa chua việt quất không có trên trang Glico",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I2: ảnh cũ là Pretz vị bắp, sai SP; dòng Pocky Crushed Fruits việt quất không có trên trang Glico → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: bao bì nhập khẩu Indonesia như mẫu (Halal Indonesia, SNI 2973:2011, Berat bersih 38 g); dòng địa chỉ nhà nhập khẩu (Jakarta…) Gemini vẽ sai số nên đã làm mờ dòng đó",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh Kingfoodmart + ảnh Open Food Facts (chỉ làm mẫu)",
+      "referenceUrl": "https://world.openfoodfacts.org/product/8851019001302"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +51,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "b18 review (rubric v4): image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T07:43:38Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 3, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T07:44:05.864Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T07:44:05.864Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

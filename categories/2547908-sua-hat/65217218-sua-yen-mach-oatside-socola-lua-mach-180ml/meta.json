@@ -17,12 +17,20 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh; oatside.com chỉ có hộp 180 ml bản Singapore (nhãn Nutri-Grade), không chắc trùng bao bì bán ở VN (mã 8997240600942) → cần chụp",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I1: chưa có ảnh; oatside.com chỉ có hộp bản Singapore → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: hộp hơi nghiêng thấy cạnh trái; chữ khớp ảnh mẫu (180 ml, Sô-cô-la Lúa Mạch, 3 nhãn vitamin)",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh Kingfoodmart hộp 180 ml bản Việt Nam (chỉ làm mẫu)",
+      "referenceUrl": "https://storage.googleapis.com/onelife-public/8997240600942.jpg"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -46,6 +54,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "b19: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T07:43:26Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T07:43:49.127Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T07:43:49.127Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

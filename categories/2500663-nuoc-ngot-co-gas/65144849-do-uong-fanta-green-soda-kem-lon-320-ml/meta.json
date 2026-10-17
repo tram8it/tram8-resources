@@ -17,12 +17,20 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I7: ảnh có watermark \"LOTTE MART\"; ảnh trên coca-cola.com/vn là bao bì đời cũ (logo Fanta có lá), khác bao bì hiện hành → cần chụp",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I7: ảnh có watermark LOTTE MART; ảnh coca-cola.com/vn là bao bì đời cũ → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: dùng bao bì mới (logo Fanta 2023, không lá); chữ dinh dưỡng nhỏ (61,4 kcal, 3,1% DV) vẽ theo ảnh mẫu mờ, có thể lệch chi tiết",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh Lotte Mart (bao bì mới, chỉ làm mẫu) + ảnh Kingfoodmart (bao bì cũ, chỉ lấy dáng lon)",
+      "referenceUrl": "https://storage.googleapis.com/onelife-public/8935049501565.jpg"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -46,6 +54,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "b17: image needs photo (watermark; official image is older pack), description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T07:43:10Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T07:43:37.867Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T07:43:37.867Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

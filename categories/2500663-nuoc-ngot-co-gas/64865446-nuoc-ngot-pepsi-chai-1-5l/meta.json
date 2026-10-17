@@ -17,12 +17,20 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3, I4, I5: ảnh chụp điện thoại cầm tay, nền bàn, chai bị cắt; trang hãng suntorypepsico.vn chỉ có ảnh lon Pepsi, không có chai 1,5 L → cần chụp",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I3/I4/I5: ảnh chụp tay cầm, nền bàn, chai bị cắt; suntorypepsico.vn không có ảnh chai 1,5 L → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: nắp vẽ màu xanh dương (ảnh mẫu Kingfoodmart nắp sáng màu, ảnh cửa hàng không thấy nắp) — chủ kiểm màu nắp; dáng chai hơi thẳng hơn chai thật; nhãn và logo Pepsi khớp",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh Kingfoodmart (chỉ làm mẫu) + ảnh KiotViet",
+      "referenceUrl": "https://storage.googleapis.com/onelife-public/8934588013065.jpg"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -46,6 +54,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "b17: image needs photo (no official 1.5L packshot), description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T07:43:10Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T07:43:34.644Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T07:43:34.644Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }
