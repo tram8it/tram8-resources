@@ -17,12 +17,20 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I4: ảnh tay cầm trong siêu thị; trang hãng ritter-sport.com chỉ có ảnh nền màu (không đạt I4), không có packshot nền trắng; không có kênh chính chủ khác",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I2/I4: ảnh KiotViet là bao bì đời cũ/ảnh chụp tay; ảnh hãng chỉ có nền màu kèm hạt, lá, miếng socola — tách nền không sạch → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Vẽ theo ảnh hãng (bao bì mới nhất 'Nut Selection', huy hiệu 'No added flavours'); mặt trước không có dòng 'NET WEIGHT 100 g ℮' ở đáy như ảnh hãng; khối lượng chỉ in dọc hai mép '100 g' (đúng tên KiotViet 100 G); chữ nhỏ ở mép gấp đáy bị mờ. Ảnh KiotViet là bao bì trước (nhãn 'NEW More nuts more bite', 'NET WT. 3.5 OZ (100g)'); theo chủ dùng bao bì mới nhất.",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh packshot chính hãng ritter-sport.com (nền màu kèm đạo cụ; tách nền bằng cutout.py không được vì nền cùng màu bao bì) làm mẫu duy nhất cho Gemini",
+      "referenceUrl": "https://www.ritter-sport.com/product/dark-whole-hazelnuts"
+    },
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -46,6 +54,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "image needs photo; description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T04:30:48Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T04:31:02.730Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T04:31:02.730Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }
