@@ -17,12 +17,16 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh; không tìm thấy 'Colorful Peace' trên trang Kracie → cần chụp",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I1: chưa có ảnh; thay bằng ảnh hãng Kracie おえかきグミランド (27 g, bao bì 2026 mới nhất, cùng dòng カラフル/Colorful — bản xuất khẩu đang bán có thêm logo カラフルピース và nhãn đa ngữ), trang SP https://www.kracie.co.jp/products/foods/10008671_21123.html",
+    "source": {
+      "url": "https://www.kracie.co.jp/products/image/item/fds_colorful_oekakigumi_2026_560.png",
+      "page": "https://www.kracie.co.jp/products/foods/10008671_21123.html",
+      "fetchedAt": "2026-10-17"
+    },
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +47,12 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "image REPLACE (no image), description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T08:12:00Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "image REPLACE from kracie.co.jp (newest JP pack, 27g)"
     }
   ]
 }

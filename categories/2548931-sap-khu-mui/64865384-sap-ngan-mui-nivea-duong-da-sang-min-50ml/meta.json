@@ -17,12 +17,16 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh. Mã vạch 42429036 không có trên nivea.com.vn (trang VN chỉ có sáp Ngọc trai 42219415); không xác định được đúng phiên bản (Extra White/Extra Brightening…) trên các trang NIVEA khác → cần chụp",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I1: chưa có ảnh; dùng packshot hãng NIVEA Malaysia đúng mã 42429036 (Extra Bright Radiant & Smooth 72h Anti-Perspirant stick 50 ml). Trang SP: https://www.nivea.com.my/en-my/products/extra-bright-radiant-and-smooth-stick-424290360058.html",
+    "source": {
+      "url": "https://img.nivea.com/-/media/miscellaneous/media-center-items/8/4/a/ddf146a735a24dde953d612f05b5c55b-online_1180_png.png",
+      "page": "https://www.nivea.com.my/en-my/products/extra-bright-radiant-and-smooth-stick-424290360058.html",
+      "fetchedAt": "2026-10-17"
+    },
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +47,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "no official image for barcode 42429036; description from name only"
+    },
+    {
+      "at": "2026-10-17T08:13:04.084Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "brand image (RUBRIC v13): https://www.nivea.com.my/en-my/products/extra-bright-radiant-and-smooth-stick-424290360058.html"
+    },
+    {
+      "at": "2026-10-17T08:13:15.398Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T08:13:15.398Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

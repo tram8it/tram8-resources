@@ -17,12 +17,16 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I4/I5: ảnh chụp cận 2 tuýp, bị cắt. Trang NIVEA Malaysia (cùng mã 4005900513243) chỉ có ảnh banner/bối cảnh nền xanh có chữ, không có packshot nền trắng → cần chụp",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I3/I4/I5: ảnh chụp cận 2 tuýp, bị cắt; thay bằng packshot nền trong suốt trên NIVEA Thái (cùng tuýp DEEP Brightening Oil Clear MAXXTECH 100g, mã Thái 8850029025391; trang NIVEA Malaysia cùng mã 4005900513243 cùng thiết kế nhưng chỉ có ảnh banner). Trang SP: https://www.nivea.co.th/products/nivea-men-deep-brightening-face-mud-foam-100g-88500290253910077.html",
+    "source": {
+      "url": "https://img.nivea.com/-/media/miscellaneous/media-center-items/8/6/6/f4ac084b9311499c8f1a3df9c7e72de5-web_1010x1180_transparent_png.png",
+      "page": "https://www.nivea.co.th/products/nivea-men-deep-brightening-face-mud-foam-100g-88500290253910077.html",
+      "fetchedAt": "2026-10-17"
+    },
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -46,6 +50,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "b26: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T08:13:04.002Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "brand image (RUBRIC v13): https://www.nivea.co.th/products/nivea-men-deep-brightening-face-mud-foam-100g-88500290253910077.html"
+    },
+    {
+      "at": "2026-10-17T08:13:09.492Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T08:13:09.492Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }
