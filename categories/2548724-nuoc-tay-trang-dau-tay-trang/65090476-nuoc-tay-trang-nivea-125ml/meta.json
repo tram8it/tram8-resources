@@ -33,10 +33,13 @@
     "rubricVersion": "v18"
   },
   "description": {
-    "decision": "ASK_OWNER",
-    "reason": "Mô tả cũ ghi Extra Bright, ảnh là Pearl White → chờ chủ xác nhận loại",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "REWRITE",
+    "reason": "D2/D3: mô tả cũ là HTML viết tự động, ghi sai dòng 'Extra Bright'; viết ngắn từ chữ in trên chai Pearl & Radiant (Open Beauty Facts mã 4005900437907) như SP 68215788",
+    "source": {
+      "url": "https://world.openbeautyfacts.org/product/4005900437907",
+      "fetchedAt": "2026-10-17"
+    },
+    "rubricVersion": "v20"
   },
   "question": null,
   "history": [
@@ -57,6 +60,12 @@
       "by": "ai",
       "status": "READY",
       "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T14:04:21.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "resolved without asking: mã 4005900437907 = Nivea MicellAIR Pearl & Radiant 125 ml (Open Beauty Facts; bản mới của Pearl White); ảnh KiotViet của cả hai mã …907/…730 cùng chai Pearl → một SP, ảnh bao bì mới; cặp mã ở reports/ma-trung-de-tat.md"
     }
   ]
 }

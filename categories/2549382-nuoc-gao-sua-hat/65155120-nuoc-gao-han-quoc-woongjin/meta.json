@@ -33,10 +33,13 @@
     "rubricVersion": "v18"
   },
   "description": {
-    "decision": "ASK_OWNER",
-    "reason": "D4: tên không có dung tích nên chưa viết được quy cách",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; theo SP cùng dòng 65154850 và nhãn chai; dung tích 1,5 L theo Open Food Facts (mã 8801382123446)",
+    "source": {
+      "url": "https://world.openfoodfacts.org/product/8801382123446",
+      "fetchedAt": "2026-10-17"
+    },
+    "rubricVersion": "v20"
   },
   "question": null,
   "history": [
@@ -57,6 +60,12 @@
       "by": "ai",
       "status": "READY",
       "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T14:04:21.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "resolved without asking: mã 8801382123446 = Woongjin Morning Rice 1,5 L (Open Food Facts + Kingfoodmart) → vẽ lại một chai, mô tả 1,5 L"
     }
   ]
 }

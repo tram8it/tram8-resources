@@ -33,10 +33,13 @@
     "rubricVersion": "v18"
   },
   "description": {
-    "decision": "ASK_OWNER",
-    "reason": "chưa rõ khối lượng",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết ngắn từ chữ in mặt trước gói (ảnh Kingfoodmart/Open Food Facts theo mã 7622210410511); mặt trước không in khối lượng nên không ghi",
+    "source": {
+      "url": "https://world.openfoodfacts.org/product/7622210410511",
+      "fetchedAt": "2026-10-17"
+    },
+    "rubricVersion": "v20"
   },
   "question": null,
   "history": [
@@ -57,6 +60,12 @@
       "by": "ai",
       "status": "READY",
       "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T14:04:21.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "resolved without asking: mã 7622210410511 = Dairy Milk Fruit & Nut (Kingfoodmart + Open Food Facts), không phải thanh 165 g thường → ảnh + mô tả theo mã vạch; tên cần sửa ghi ở reports/ten-can-sua-kiotviet.md"
     }
   ]
 }

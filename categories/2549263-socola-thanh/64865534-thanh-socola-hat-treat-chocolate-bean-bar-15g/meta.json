@@ -17,20 +17,20 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "ASK_OWNER",
+  "status": "READY",
   "image": {
-    "decision": "ASK_OWNER",
-    "reason": "I2: ảnh là Alёnka nhân sữa–ngũ cốc (hãng bán loại 45 g), tên SP là 'Treat Chocolate Bean Bar 15G'",
+    "decision": "CROP",
+    "reason": "I9: ảnh KiotViet là packshot nền trắng đúng hàng theo mã vạch (Alёnka nhân sữa–ngũ cốc), chỉ chưa 1:1 → crop",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v20"
   },
   "description": {
-    "decision": "ASK_OWNER",
-    "reason": "chưa rõ SP thật",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v20",
+    "decision": "WRITE_NEW",
+    "reason": "D1/D2: mã vạch 4600300078127 là Alёnka nhân sữa–ngũ cốc 45 g (Open Food Facts, iCheck), không phải Treat Bean Bar 15 g; viết từ chữ trên bao bì"
   },
-  "question": "SP 'Thanh Socola Hạt - Treat Chocolate Bean Bar 15G' (mã vạch 4600300078127): ảnh hiện tại là thanh Alёnka nhân sữa–ngũ cốc (hãng chỉ có cỡ 45 g). Hàng thật trên kệ là loại nào, bao nhiêu gram?",
+  "question": null,
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -43,6 +43,12 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "image/name mismatch, asked owner"
+    },
+    {
+      "at": "2026-10-17T14:04:10Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "resolved without asking: barcode = Alёnka milk-cereal 45 g (OFF, iCheck), matches current photo; name mismatch logged in reports/ten-can-sua-kiotviet.md"
     }
   ]
 }

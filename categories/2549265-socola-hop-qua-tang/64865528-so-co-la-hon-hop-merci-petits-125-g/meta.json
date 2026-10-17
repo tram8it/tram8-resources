@@ -17,20 +17,20 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "ASK_OWNER",
+  "status": "READY",
   "image": {
-    "decision": "ASK_OWNER",
-    "reason": "I2: tên ghi \"Hỗn hợp\" nhưng ảnh là gói merci Petits Edel Vollmilch (socola sữa, một vị); không chắc SP thật là loại nào",
+    "decision": "CROP",
+    "reason": "I9: ảnh KiotViet là packshot đúng hàng theo mã vạch (merci Petits Edel Vollmilch 125 g), chỉ chuẩn hoá",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v20"
   },
   "description": {
-    "decision": "ASK_OWNER",
-    "reason": "Chờ chủ xác nhận loại (Edel Vollmilch hay hỗn hợp) mới viết",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v20",
+    "decision": "WRITE_NEW",
+    "reason": "D1/D2: mã vạch 4014400927436 là merci Petits Edel Vollmilch 125 g (iCheck, Open Food Facts), không phải gói hỗn hợp; viết từ chữ trên bao bì"
   },
-  "question": "SP \"Sô-Cô-La Hỗn Hợp Merci Petits 125 G\" (mã vạch 4014400927436): ảnh hiện tại là gói xanh dương \"Edel Vollmilch\" (socola sữa một vị), không phải hỗn hợp. Hàng ở cửa hàng là gói nào? Nếu là gói hỗn hợp Chocolate Collection thì có trùng với SP 64865529 không?",
+  "question": null,
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -43,6 +43,12 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "b30: image ASK_OWNER, description ASK_OWNER"
+    },
+    {
+      "at": "2026-10-17T14:04:10Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "resolved without asking: barcode = merci Petits Edel Vollmilch 125 g (iCheck, OFF), matches current photo; name mismatch logged"
     }
   ]
 }

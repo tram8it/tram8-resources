@@ -17,20 +17,20 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "ASK_OWNER",
+  "status": "READY",
   "image": {
-    "decision": "ASK_OWNER",
-    "reason": "I2: ảnh là lon 'Patê gan heo vị nguyên bản', còn tên KiotViet là 'Pate gan heo bơ Wyn 150g' — không chắc cùng vị",
+    "decision": "CROP",
+    "reason": "I9: ảnh KiotViet là lon Wyn Patê gan heo vị nguyên bản (bao bì mới nhất) nền trắng; mã vạch ra Patê gan heo Wyn 150 g, không có bản vị bơ; chỉ chuẩn hoá",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v20"
   },
   "description": {
-    "decision": "ASK_OWNER",
-    "reason": "D1: chưa có mô tả; chờ chủ xác nhận vị",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v20",
+    "decision": "WRITE_NEW",
+    "reason": "D1/D2: mã vạch 8936146445189 là Patê gan heo Wyn hộp 150 g (iCheck, Kingfoodmart); bao bì ghi vị nguyên bản, không phải vị bơ"
   },
-  "question": "Pate gan heo Wyn 150g (mã vạch 8936146445189): ảnh hiện tại là lon 'Patê gan heo VỊ NGUYÊN BẢN', còn tên KiotViet ghi 'Pate gan heo BƠ'. Hàng đang bán là vị nguyên bản hay vị bơ? Nếu vị nguyên bản thì sửa tên KiotViet và giữ ảnh (crop).",
+  "question": null,
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -43,6 +43,12 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "name says butter flavour, image shows original flavour; asked owner"
+    },
+    {
+      "at": "2026-10-17T14:04:10Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "resolved without asking: barcode = Wyn pate gan heo 150 g (iCheck/KF, older plain pack); current photo is the newer \"vị nguyên bản\" pack of the same line; no butter variant found; name mismatch logged"
     }
   ]
 }

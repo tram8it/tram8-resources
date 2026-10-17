@@ -17,20 +17,20 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "ASK_OWNER",
+  "status": "READY",
   "image": {
-    "decision": "ASK_OWNER",
-    "reason": "I2: tên ghi 'Hương Cola & sourbites' nhưng ảnh là Chupa Chups Bites Sour hương trái cây 24 g (không phải cola)",
+    "decision": "CROP",
+    "reason": "I9: ảnh KiotViet là packshot đúng hàng theo mã vạch (Chupa Chups Bites Sour hương trái cây 24 g), chỉ chuẩn hoá",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v20"
   },
   "description": {
-    "decision": "ASK_OWNER",
-    "reason": "Chờ chủ xác nhận vị trước khi viết",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v20",
+    "decision": "WRITE_NEW",
+    "reason": "D1/D2: mã vạch 8935001714361 là Chupa Chups Bites kẹo dẻo hương trái cây (iCheck), khớp ảnh; không phải vị cola; viết từ chữ trên bao bì"
   },
-  "question": "Mã 8935001714361 tên 'Gói kẹo dẻo Chupa Chups Hương Cola & sourbites' nhưng ảnh hiện tại là gói Chupa Chups Bites Sour hương trái cây 24 g. Hàng thật ở cửa hàng là vị nào (cola hay trái cây) và bao nhiêu gam?",
+  "question": null,
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -43,6 +43,12 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "ask owner: cola vs fruit Bites"
+    },
+    {
+      "at": "2026-10-17T14:04:10Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "resolved without asking: barcode = Chupa Chups Bites fruit (iCheck), matches current photo; name mismatch logged"
     }
   ]
 }

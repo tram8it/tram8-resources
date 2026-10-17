@@ -20,7 +20,7 @@
   "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I2: ảnh KiotViet là gói vị bò cay Tứ Xuyên (mã 6925678105281 của SP 66922065); mã 6925678105274 là SP riêng cùng dòng Golden Mill Spicy Strip (Open Food Facts) vị bò kho tàu, không tìm được ảnh → ảnh minh hoạ từ gói cùng dòng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: ảnh minh hoạ: màu/bố cục lấy theo gói vị bò cay Tứ Xuyên; gói thật vị bò kho tàu có thể khác màu nhãn vị",
+    "reason": "I2: ảnh KiotViet là gói vị bò cay Tứ Xuyên (mã 6925678105281 của SP 66922065); mã 6925678105274 là SP riêng cùng dòng Golden Mill Spicy Strip (Open Food Facts) vị bò kho tàu, không tìm được ảnh → ảnh minh hoạ từ gói cùng dòng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: ảnh minh hoạ: màu/bố cục lấy theo gói vị bò cay Tứ Xuyên; gói thật vị bò kho tàu có thể khác màu nhãn vị; chữ 120克 lấy theo gói cùng dòng, chưa xác nhận trên gói thật",
     "source": {
       "aiGenerated": true,
       "tool": "Gemini API",
@@ -32,10 +32,10 @@
     "rubricVersion": "v18"
   },
   "description": {
-    "decision": "ASK_OWNER",
-    "reason": "Chờ chủ xác nhận SP thật là gói vị nào trước khi viết",
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết ngắn theo tên SP và gói cùng dòng (SP 66922065); không ghi khối lượng vì chưa thấy gói thật",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v20"
   },
   "question": null,
   "history": [
@@ -56,6 +56,12 @@
       "by": "ai",
       "status": "READY",
       "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T14:04:21.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "resolved without asking: mã 6925678105274 là SP riêng cùng dòng (Open Food Facts), vị bò kho tàu theo tên; ảnh KiotViet cũ là gói vị Tứ Xuyên của mã khác → ảnh minh hoạ dựng từ gói cùng dòng (v20 default)"
     }
   ]
 }
