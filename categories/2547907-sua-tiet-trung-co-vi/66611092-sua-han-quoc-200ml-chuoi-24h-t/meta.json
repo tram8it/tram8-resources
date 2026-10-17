@@ -19,17 +19,18 @@
   },
   "status": "READY",
   "image": {
-    "decision": "CROP",
-    "reason": "I9: packshot nền trắng đúng SP (Binggrae Banana 200 ml) nhưng không 1:1; ảnh hãng hộp chuối trên bing.co.kr quá nhỏ (303px) nên giữ ảnh này, phóng ~2,8x",
-    "source": null,
-    "rubricVersion": "v4",
-    "vivid": {
-      "rubricVersion": "v10",
-      "saturationGain": 1.093,
-      "contrastGain": 1.03,
-      "toneGain": 1.0,
-      "gamma": 1.0
-    }
+    "decision": "REPLACE",
+    "reason": "ảnh tự chụp: hộp nghiêng, mờ; ảnh hãng bing.co.kr quá nhỏ (158px) nên chỉ làm mẫu → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet của cửa hàng (ảnh tự chụp)",
+      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/06/21/tram8/780f032217fb4d78bc8dc893d97a6100.jpeg"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -56,6 +57,26 @@
       "by": "ai",
       "status": "READY",
       "note": "tone.py --vivid: white balance/levels + brand-like colour (owner request)"
+    },
+    {
+      "at": "2026-10-17T14:16:00Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T14:16:00.497Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T14:16:00.497Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

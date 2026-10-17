@@ -17,12 +17,20 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "UPLOADED",
+  "status": "READY",
   "image": {
-    "decision": "CROP",
-    "reason": "I9: 450×600, SP nhỏ; crop 1:1 đã xem lại đạt",
-    "source": null,
-    "rubricVersion": "v1"
+    "decision": "REPLACE",
+    "reason": "ảnh tự chụp (gói nghiêng, cắt mép); vifon.com.vn không có SP này → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ lớn khớp (VIFON, Mì Riêu Cua, Instant noodles Crab soup, Có gói riêu cua thật, Khối lượng tịnh 90g)",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet của cửa hàng (chỉ làm mẫu)",
+      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/07/30/tram8/aaf12ff106b74d41ba8c39bda4bfad16.png"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -64,6 +72,18 @@
       "by": "owner",
       "status": "UPLOADED",
       "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-17T14:16:19Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T14:16:19.327Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: name, weightGram, brand, description, image"
     }
   ],
   "master": {
@@ -74,7 +94,7 @@
     "rubricVersion": "v4"
   },
   "submitted": {
-    "at": "2026-10-13T16:19:03.544Z",
+    "at": "2026-10-17T14:16:19.327Z",
     "fields": [
       "name",
       "weightGram",

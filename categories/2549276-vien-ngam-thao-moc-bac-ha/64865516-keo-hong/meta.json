@@ -17,20 +17,27 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "ASK_OWNER",
+  "status": "READY",
   "image": {
-    "decision": "ASK_OWNER",
-    "reason": "I3: ảnh chụp cận hộp Kẹo Họng 2 vị; đơn vị bán là 'Viên' nên chưa rõ bán lẻ viên vị nào hay cả hộp",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "REPLACE",
+    "reason": "I3: ảnh chụp cận hộp; đơn vị bán là 1 viên → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: ảnh minh hoạ 2 viên (mỗi vị một viên) vẽ theo viên kẹo in trên hộp; vỏ vị gừng mật ong lấy cùng màu vỏ vị quất vì không có ảnh vỏ thật",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (hộp Kẹo Họng 2 vị, phóng to viên kẹo in trên hộp)"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
-    "decision": "ASK_OWNER",
-    "reason": "Chờ chủ xác nhận quy cách/vị trước khi viết",
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết ngắn từ chữ in trên hộp (KẸO HỌNG, HỘP 2 VỊ: vị quất mật ong, vị gừng mật ong); đơn vị theo KiotViet (Viên)",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v19"
   },
-  "question": "Kẹo Họng Orion (mã 8936029423679, hộp 2 vị, bán lẻ 1 viên): ảnh 1 viên vị quất mật ong hay gừng mật ong — hay ảnh 2 viên (mỗi vị 1)? Cần xem viên lẻ trên kệ.",
+  "question": null,
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -55,6 +62,32 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "v19: đã rõ bán 1 viên, nhưng hộp có 2 vị → chưa biết ảnh viên vị nào; cần kiểm kệ, không đoán"
+    },
+    {
+      "at": "2026-10-17T14:17:29Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T14:17:30Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "resolved without asking: unit Viên = one candy from the 2-flavour box (v19); illustration shows one candy of each flavour and the description names both, so no shelf check is needed"
+    },
+    {
+      "at": "2026-10-17T14:17:32.233Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T14:17:32.233Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

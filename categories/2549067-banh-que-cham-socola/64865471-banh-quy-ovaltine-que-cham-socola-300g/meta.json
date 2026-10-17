@@ -30,7 +30,7 @@
     "source": null,
     "rubricVersion": "v4"
   },
-  "question": "Mã 6906791584740: ly trên ảnh ghi 50 g, tên KiotViet ghi 300 g — bán 1 ly 50 g hay hộp 300 g (6 ly)?",
+  "question": "Ovaltine 可脆了 (6906791584740): ảnh chỉ có ly 50 g. Hộp 300 g gồm 6 ly 50 g, hay hộp khác (nhờ chụp)?",
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -61,6 +61,12 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "v19: đơn vị 'Hộp' nhưng ảnh duy nhất là ly 50 g, tên ghi 300 g (lệch 6 lần) → vẫn hỏi chủ; chưa tìm được ảnh hộp 300 g"
+    },
+    {
+      "at": "2026-10-17T14:17:50Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "still ASK_OWNER: no 300 g box found anywhere (barcode unknown on iCheck/OFF/Kingfoodmart/web); 50 g cup vs 300 g Hộp needs the box count; question shortened"
     }
   ]
 }

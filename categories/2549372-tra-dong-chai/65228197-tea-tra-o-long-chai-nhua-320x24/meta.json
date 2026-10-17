@@ -19,17 +19,18 @@
   },
   "status": "READY",
   "image": {
-    "decision": "CROP",
-    "reason": "I9: packshot nền trắng đúng SP (TEA+ ô long 320 ml), chỉ chưa 1:1; xem lại sau crop đạt (hơi mềm, v4)",
-    "source": null,
-    "rubricVersion": "v4",
-    "vivid": {
-      "rubricVersion": "v10",
-      "saturationGain": 1.242,
-      "contrastGain": 1.077,
-      "toneGain": 1.052,
-      "gamma": 1.0
-    }
+    "decision": "REPLACE",
+    "reason": "ảnh tự chụp (chai mềm, bóng); ảnh hãng suntorypepsico.vn chỉ có chai 450ml/1L, không có 320ml → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ lớn khớp (Trà Ô Long, OTPP, TEA+ Plus, Suntory, Chất lượng Suntory Nhật Bản, 320 ml)",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet của cửa hàng (chỉ làm mẫu)",
+      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/07/27/tram8/3f819d4a5d804555a7328b30520337a7.png"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -59,6 +60,26 @@
       "by": "ai",
       "status": "READY",
       "note": "tone.py --vivid: white balance/levels + brand-like colour (owner request)"
+    },
+    {
+      "at": "2026-10-17T14:16:12Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T14:16:12.975Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T14:16:12.975Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

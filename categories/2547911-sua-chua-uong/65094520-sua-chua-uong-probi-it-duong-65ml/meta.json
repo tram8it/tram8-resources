@@ -30,7 +30,7 @@
     "source": null,
     "rubricVersion": "v4"
   },
-  "question": "Probi ít đường 65 ml (8934673303507): KiotViet chưa có đơn vị, mã vạch này trên Kingfoodmart là LỐC 5 chai (bao bì mới 'ít đường 35%'). Bán lẻ 1 chai hay cả lốc 5?",
+  "question": "Probi ít đường 65 ml (8934673303507), KiotViet chưa có đơn vị: bán lẻ 1 lọ (như các vị Probi khác) hay cả lốc 5 lọ?",
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -55,6 +55,12 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "still ASK_OWNER: unit missing in KiotViet and barcode shows a 5-pack; newest pack found (Kingfoodmart) — draw after unit is known"
+    },
+    {
+      "at": "2026-10-17T14:17:50Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "still ASK_OWNER: unit empty; barcode photos (KiotViet, Kingfoodmart, OFF) all show the 5-bottle pack while sibling Probi 65 ml SKUs are sold per lọ with single-bottle images; newest pack (65 tỷ, ít đường 35%) found on Kingfoodmart for drawing once answered"
     }
   ]
 }

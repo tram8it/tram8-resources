@@ -30,7 +30,7 @@
     "source": null,
     "rubricVersion": "v4"
   },
-  "question": "Bạc xỉu Cộng (mã 8938531133688), đơn vị KiotViet trống: bán 1 gói 15 g, túi 30 gói hay túi 50 gói?",
+  "question": "Bạc xỉu Cộng (8938531133688), KiotViet chưa có đơn vị: hộp 5 gói, túi 30 gói hay túi 50 gói? (hộp 12 gói là mã …640).",
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -55,6 +55,12 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "unit is empty and barcode not found on shop.congcaphe.com → still needs the shelf; question shortened"
+    },
+    {
+      "at": "2026-10-17T14:17:50Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "still ASK_OWNER: shop.congcaphe.com sells 5/12/30/50-stick packs without barcodes; 12-stick box is the separate SKU 8938531133640; no photo or unit to decide"
     }
   ]
 }

@@ -19,10 +19,18 @@
   },
   "status": "READY",
   "image": {
-    "decision": "KEEP",
-    "reason": "Đạt I1–I9: packshot đúng loại, nền trắng, 1:1, căn giữa (xấp gói Hazeline Yến mạch Dâu tằm)",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "REPLACE",
+    "reason": "ảnh tự chụp (xấp gói chụp nghiêng, nhăn); không có ảnh hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: vẽ 1 gói (đơn vị KiotViet: Gói) thay vì xấp gói; chữ khớp (Hazeline Sáng da dưỡng ẩm, Mới, Sữa tắm Yến mạch Dâu tằm, Chiết xuất với vitamin C)",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet của cửa hàng (chỉ làm mẫu)",
+      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/09/15/tram8/6b711120553f48b78ccc0b5ce17150e1.png"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "REWRITE",
@@ -43,6 +51,26 @@
       "by": "ai",
       "status": "READY",
       "note": "b19: image KEEP, description REWRITE"
+    },
+    {
+      "at": "2026-10-17T14:16:08Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T14:16:08.952Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T14:16:08.952Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

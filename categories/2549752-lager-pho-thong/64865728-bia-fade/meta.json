@@ -17,20 +17,20 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "ASK_OWNER",
+  "status": "NEEDS_PHOTO",
   "image": {
-    "decision": "ASK_OWNER",
-    "reason": "Chờ chủ trả lời: unknown product, no image/description",
+    "decision": "REPLACE",
+    "reason": "I1: chưa có ảnh; mã 8938511769074 không có trên iCheck, Open Food Facts, Kingfoodmart, tìm web không thấy 'Bia Fade' → không có ảnh mẫu nào để vẽ",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v19"
   },
   "description": {
-    "decision": "ASK_OWNER",
-    "reason": "Chờ chủ trả lời câu hỏi về SP trước khi viết mô tả",
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; chờ ảnh chai thật để đọc nhãn",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v19"
   },
-  "question": "\"Bia Fade\" (chai, mã vạch 8938511769074): đây là bia của hãng nào, dung tích chai bao nhiêu? Không tìm thấy thông tin trên mạng; chưa có ảnh và mô tả.",
+  "question": null,
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -43,6 +43,12 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "asked owner: unknown product, no image/description"
+    },
+    {
+      "at": "2026-10-17T14:17:50Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "no reference anywhere (iCheck, Open Food Facts, Kingfoodmart, web) for barcode 8938511769074 \"Bia Fade\" -> NEEDS_PHOTO: staff photo of the bottle front and label needed"
     }
   ]
 }

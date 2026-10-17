@@ -19,17 +19,18 @@
   },
   "status": "READY",
   "image": {
-    "decision": "CROP",
-    "reason": "I9: packshot nền trắng đúng SP (Binggrae Strawberry 200 ml) nhưng không đủ lề",
-    "source": null,
-    "rubricVersion": "v4",
-    "vivid": {
-      "rubricVersion": "v10",
-      "saturationGain": 1.25,
-      "contrastGain": 1.08,
-      "toneGain": 1.007,
-      "gamma": 1.0
-    }
+    "decision": "REPLACE",
+    "reason": "ảnh tự chụp: hộp hơi mờ, nghiêng; ảnh hãng bing.co.kr không có hộp dâu 200ml → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ nhỏ không đọc rõ, chỉ minh hoạ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet của cửa hàng (ảnh tự chụp)",
+      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/04/26/tram8/84dab1d511f140719fd7644658a472c7.jpeg"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -56,6 +57,26 @@
       "by": "ai",
       "status": "READY",
       "note": "tone.py --vivid: white balance/levels + brand-like colour (owner request)"
+    },
+    {
+      "at": "2026-10-17T14:15:57Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T14:15:57.961Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T14:15:57.961Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

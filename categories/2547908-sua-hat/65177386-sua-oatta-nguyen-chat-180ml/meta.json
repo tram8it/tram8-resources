@@ -19,17 +19,18 @@
   },
   "status": "READY",
   "image": {
-    "decision": "CROP",
-    "reason": "I9: packshot nền trắng, đúng SP nhưng ảnh 450×600 không 1:1; crop về 1:1 (phóng ~2,5 lần, xem lại đạt)",
-    "source": null,
-    "rubricVersion": "v4",
-    "vivid": {
-      "rubricVersion": "v10",
-      "saturationGain": 1.25,
-      "contrastGain": 1.08,
-      "toneGain": 1.114,
-      "gamma": 1.0
-    }
+    "decision": "REPLACE",
+    "reason": "ảnh tự chụp (hộp méo, mềm); không có ảnh hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ lớn khớp (Vietngucoc, Oatta Drink, Sữa yến mạch nguyên chất 100%, Không đường, Thể tích thực 180 ml); huy hiệu tròn nhỏ có chữ mờ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet của cửa hàng (chỉ làm mẫu)",
+      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/07/30/tram8/3c92042e97b245428c1f6f2b7daafc27.png"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -56,6 +57,26 @@
       "by": "ai",
       "status": "READY",
       "note": "tone.py --vivid: white balance/levels + brand-like colour (owner request)"
+    },
+    {
+      "at": "2026-10-17T14:16:17Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T14:16:17.159Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T14:16:17.159Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

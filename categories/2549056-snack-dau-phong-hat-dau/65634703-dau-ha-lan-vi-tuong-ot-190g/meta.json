@@ -19,10 +19,17 @@
   },
   "status": "READY",
   "image": {
-    "decision": "KEEP",
-    "reason": "I1–I9 đạt: packshot nền trắng, 1:1, căn giữa; nhãn ghi 180g",
-    "source": null,
-    "rubricVersion": "v19"
+    "decision": "REPLACE",
+    "reason": "ảnh tự chụp (bóng lóa, nền xám); không có ảnh hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt; nhãn ghi 180g như ảnh mẫu (tên KiotViet 190g, RUBRIC v19 theo bao bì)",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (ảnh tự chụp, chỉ làm mẫu)"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -61,6 +68,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description"
+    },
+    {
+      "at": "2026-10-17T14:18:31Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
     }
   ],
   "submitted": {

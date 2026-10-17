@@ -19,17 +19,18 @@
   },
   "status": "READY",
   "image": {
-    "decision": "CROP",
-    "reason": "I9: packshot nền trắng đúng SP (Trà Tắc Tự Nhiên 350 ml), chỉ chưa 1:1; xem lại sau crop đạt (hơi mềm, v4)",
-    "source": null,
-    "rubricVersion": "v4",
-    "vivid": {
-      "rubricVersion": "v10",
-      "saturationGain": 1.003,
-      "contrastGain": 1.001,
-      "toneGain": 1.051,
-      "gamma": 1.0
-    }
+    "decision": "REPLACE",
+    "reason": "ảnh tự chụp (mềm, xỉn màu); ảnh hãng thmilk.vn chỉ có bản nhỏ 275px → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: theo màu bao bì trên ảnh hãng thmilk.vn (xanh nhạt hơn ảnh chụp); chữ khớp (TH true TEA, Trà Tắc Tự Nhiên, 350 ml)",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh hãng thmilk.vn (nhỏ) + ảnh KiotViet",
+      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/07/29/tram8/42ba3e9aee134a589fab5e5237e6d182.png"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -59,6 +60,26 @@
       "by": "ai",
       "status": "READY",
       "note": "tone.py --vivid: white balance/levels + brand-like colour (owner request)"
+    },
+    {
+      "at": "2026-10-17T14:16:10Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T14:16:11.045Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T14:16:11.045Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

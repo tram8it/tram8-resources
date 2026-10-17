@@ -19,10 +19,18 @@
   },
   "status": "READY",
   "image": {
-    "decision": "KEEP",
-    "reason": "Đạt I1–I9: packshot đúng loại, nền trắng, 1:1, căn giữa (dây gói Hazeline Sữa ong chúa Hoa ly)",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "REPLACE",
+    "reason": "ảnh tự chụp (dây gói nhăn, mềm); không có ảnh hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: vẽ 1 gói (đơn vị KiotViet: Gói) thay vì dây 2 gói; chữ khớp (Hazeline Sáng mịn phục hồi, Sữa tắm, Sữa ong chúa Hoa ly, X3 tác động sáng da từ vitamin B3, C, E)",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet của cửa hàng (chỉ làm mẫu)",
+      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/09/15/tram8/b6f04f322c4e406aadaa4298e4edb4ec.png"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "REWRITE",
@@ -43,6 +51,26 @@
       "by": "ai",
       "status": "READY",
       "note": "b19: image KEEP, description REWRITE"
+    },
+    {
+      "at": "2026-10-17T14:16:06Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T14:16:06.695Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T14:16:06.695Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

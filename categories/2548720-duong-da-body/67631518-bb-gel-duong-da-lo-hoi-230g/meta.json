@@ -19,10 +19,18 @@
   },
   "status": "READY",
   "image": {
-    "decision": "KEEP",
-    "reason": "Đạt I1–I9: packshot nền trắng, đúng SP (Banana Boat Aloe Vera Gel chai 230g), 1:1, căn giữa; viền tách nền hơi thô nhưng không thấy ở cỡ hiển thị",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "REPLACE",
+    "reason": "ảnh tự chụp (mờ, viền tách nền xấu); không có ảnh hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ lớn khớp (Banana Boat, Aloe Vera Gel, With Aloe Vera Soothes, Cools & Replenishes); dòng khối lượng vẽ '230 g (8 oz.)' khớp tên SP, ảnh gốc quá mờ để đọc",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet của cửa hàng (chỉ làm mẫu)",
+      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/09/14/tram8/2c5438e1fd1340e7a25ef481269ce6fa.png"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "REWRITE",
@@ -43,6 +51,26 @@
       "by": "ai",
       "status": "READY",
       "note": "image KEEP, description REWRITE (pack front facts)"
+    },
+    {
+      "at": "2026-10-17T14:16:14Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T14:16:15.015Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T14:16:15.015Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

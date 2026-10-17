@@ -19,17 +19,18 @@
   },
   "status": "READY",
   "image": {
-    "decision": "CROP",
-    "reason": "I9: packshot chai Odor Fresh đúng bao bì hiện hành (so với trang hãng), nền trắng, chưa 1:1; đã crop và xem lại",
-    "source": null,
-    "rubricVersion": "v4",
-    "vivid": {
-      "rubricVersion": "v10",
-      "saturationGain": 1.222,
-      "contrastGain": 1.071,
-      "toneGain": 1.012,
-      "gamma": 1.0
-    }
+    "decision": "REPLACE",
+    "reason": "ảnh tự chụp: chai bóng, hơi mờ; không tìm được ảnh hãng nền trắng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ nhỏ không đọc rõ, chỉ minh hoạ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet của cửa hàng (ảnh tự chụp)",
+      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/07/30/tram8/2d14c8c62fb84c7e809335ff3567e55a.png"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "KEEP",
@@ -62,6 +63,25 @@
       "by": "ai",
       "status": "READY",
       "note": "tone.py --vivid: white balance/levels + brand-like colour (owner request)"
+    },
+    {
+      "at": "2026-10-17T14:18:30Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T14:18:30.215Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T14:18:30.215Z",
+    "fields": [
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

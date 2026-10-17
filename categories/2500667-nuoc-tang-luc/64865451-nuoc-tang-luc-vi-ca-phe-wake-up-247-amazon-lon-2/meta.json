@@ -19,17 +19,18 @@
   },
   "status": "READY",
   "image": {
-    "decision": "CROP",
-    "reason": "I9: packshot nền trắng nhưng không 1:1, SP nhỏ; crop phóng 3,4 lần, xem lại vẫn đạt (v4)",
-    "source": null,
-    "rubricVersion": "v4",
-    "vivid": {
-      "rubricVersion": "v10",
-      "saturationGain": 1.25,
-      "contrastGain": 1.08,
-      "toneGain": 1.102,
-      "gamma": 1.0
-    }
+    "decision": "REPLACE",
+    "reason": "ảnh tự chụp (lon nghiêng, bóng lóa); masanconsumer.com chặn (403) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: lần 1 Gemini tự đổi chữ thành 'vị cà phê' → đã sửa về đúng 'NƯỚC TĂNG LỰC VÀNG MỚI'; chân dung cầu thủ in trên lon vẽ lại theo ảnh gốc (khuôn mặt có thể không giống hệt); 245 ml khớp",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet của cửa hàng (chỉ làm mẫu)",
+      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/07/30/tram8/9125b291a0144534af9acecc728c1ba7.png"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -56,6 +57,26 @@
       "by": "ai",
       "status": "READY",
       "note": "tone.py --vivid: white balance/levels + brand-like colour (owner request)"
+    },
+    {
+      "at": "2026-10-17T14:16:36Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T14:16:36.485Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T14:16:36.485Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

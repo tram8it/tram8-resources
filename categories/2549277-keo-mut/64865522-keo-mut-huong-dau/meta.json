@@ -19,17 +19,17 @@
   },
   "status": "READY",
   "image": {
-    "decision": "CROP",
-    "reason": "I9: ảnh nền trắng, đúng SP nhưng không 1:1; đã crop, xem lại đạt (hơi mềm, chấp nhận theo v4)",
-    "source": null,
-    "rubricVersion": "v4",
-    "vivid": {
-      "rubricVersion": "v10",
-      "saturationGain": 1.181,
-      "contrastGain": 1.058,
-      "toneGain": 1.062,
-      "gamma": 1.0
-    }
+    "decision": "REPLACE",
+    "reason": "ảnh tự chụp (vỏ nhăn, cong, in hạn dùng); không có ảnh hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: bỏ hạn dùng in trên vỏ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (ảnh tự chụp, chỉ làm mẫu)"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -56,6 +56,12 @@
       "by": "ai",
       "status": "READY",
       "note": "tone.py --vivid: white balance/levels + brand-like colour (owner request)"
+    },
+    {
+      "at": "2026-10-17T14:18:33Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
     }
   ]
 }
