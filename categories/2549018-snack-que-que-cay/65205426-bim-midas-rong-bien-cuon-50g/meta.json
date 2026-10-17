@@ -30,7 +30,7 @@
     "source": null,
     "rubricVersion": "v4"
   },
-  "question": "Hai mã 8938565910286 và 8938565910293 cùng tên 'Bim MIDAS rong biển cuộn 50g' nhưng ảnh của cả hai là gói 'Midas Bò xốt mỹ vị'. Mỗi mã thật ra là vị gì, bao nhiêu gam?",
+  "question": "Midas mã …293/…286 tên 'rong biển cuộn 50g', ảnh kệ đều là Bò xốt mỹ vị 50g. Có gói rong biển cuộn thật, hay hai mã trùng?",
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -43,6 +43,12 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "b07 review: image ASK_OWNER, description ASK_OWNER"
+    },
+    {
+      "at": "2026-10-17T14:04:41.000Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "re-check v20: web/Open Food Facts/Kingfoodmart không có hai mã; ảnh KiotViet cả hai là Bò xốt mỹ vị 50 g, không đọc được mã vạch → còn hai khả năng, câu hỏi rút gọn"
     }
   ]
 }

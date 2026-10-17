@@ -17,19 +17,12 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "ASK_OWNER",
+  "status": "NEEDS_PHOTO",
   "image": {
-    "decision": "CROP",
-    "reason": "I9: packshot nền trắng, đúng SP nhưng không phải 1:1; crop 1:1 đã xem lại đạt (phóng ~2,5x, v4); gói 素耳尖 泡椒味 16 g (vị ớt ngâm)",
+    "decision": "REPLACE",
+    "reason": "I2: ảnh KiotViet là gói 素耳尖 泡椒味 (tai heo chay, mã 6947093141095 của SP 67201485), không phải măng nấm chay; mã 6947093141040 không tra được → bỏ ảnh crop cũ, cần chụp gói",
     "source": null,
-    "rubricVersion": "v4",
-    "vivid": {
-      "rubricVersion": "v10",
-      "saturationGain": 1.25,
-      "contrastGain": 1.08,
-      "toneGain": 1.15,
-      "gamma": 1.0
-    }
+    "rubricVersion": "v20"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -37,7 +30,7 @@
     "source": null,
     "rubricVersion": "v4"
   },
-  "question": "\"Măng Nấm Chay Vị Ớt Ngâm\" (mã 6947093141040) đang dùng đúng ảnh gói 素耳尖 泡椒味 16 g — đây là \"Tai heo chay vị ớt ngâm\" (mã 6947093141095), ảnh trên KiotViet của hai mã cũng giống hệt nhau. Măng nấm chay là gói khác (cần ảnh riêng — chủ gửi ảnh/ cho biết tên in trên gói), hay hai mã là cùng một SP?",
+  "question": null,
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -68,6 +61,12 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "ask owner: image is the 素耳尖 (vegetarian ear) pack, same as SP 67201485"
+    },
+    {
+      "at": "2026-10-17T14:04:41.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "NEEDS_PHOTO: ảnh hiện có là gói tai heo chay của mã khác; mã …040 không có nguồn; bỏ image.webp crop cũ, cần chụp gói"
     }
   ]
 }

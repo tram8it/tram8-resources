@@ -1,4 +1,4 @@
-Snack hải sản Bento tẩm gia vị ớt: miếng surimi trộn mực cán mỏng, tẩm gia vị, ăn liền.
+Snack mực sợi tẩm gia vị vị ớt cay Bento (หมึกเส้นปรุงรส), sợi mực tẩm ướp đậm vị, ăn liền.
 
 Quy cách: 20 g · gói
 Thương hiệu: Bento

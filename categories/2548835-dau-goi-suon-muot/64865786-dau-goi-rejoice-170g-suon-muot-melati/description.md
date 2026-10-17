@@ -1,4 +1,4 @@
-Dầu gội Rejoice 3 trong 1 siêu mượt, làm sạch và giúp tóc suôn mượt, chai nắp bật nhỏ gọn.
+Dầu gội Rejoice 3 trong 1 Siêu Mượt với tinh dầu argan, giúp tóc suôn mượt, dưỡng tóc và thơm lâu (theo bao bì).
 
 Quy cách: 170 g · chai
-Nhà sản xuất/thương hiệu: Procter & Gamble · Rejoice
+Thương hiệu: Rejoice (Procter & Gamble)

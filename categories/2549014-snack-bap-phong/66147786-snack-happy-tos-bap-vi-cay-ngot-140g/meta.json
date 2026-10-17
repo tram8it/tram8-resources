@@ -17,20 +17,20 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "ASK_OWNER",
+  "status": "READY",
   "image": {
-    "decision": "ASK_OWNER",
-    "reason": "I2: tên ghi vị cay ngọt nhưng ảnh là gói Happy Tos vị bắp nướng (Rasa Jagung Bakar)",
+    "decision": "KEEP",
+    "reason": "Ảnh KiotViet: gói Happy Tos Rasa Jagung Bakar (bắp nướng) nền trắng, đúng hàng theo mã vạch 8993027164034 (iCheck, Open Food Facts); chuẩn hoá 1:1",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v19"
   },
   "description": {
-    "decision": "ASK_OWNER",
-    "reason": "D1: chưa có mô tả; chờ chủ xác nhận vị",
+    "decision": "REWRITE",
+    "reason": "D2: tên ghi 'vị cay ngọt' nhưng mã vạch là vị bắp nướng → mô tả theo hàng thật",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v19"
   },
-  "question": "SP 'Snack Happy tos Bắp vị cay ngọt 140g' (mã 8993027164034): ảnh hiện tại là gói xanh dương 'Rasa Jagung Bakar' (vị bắp nướng), trong khi SP 'Snack Happy Tos bắp vị cay ngọt' (mã 8993027164119) có ảnh gói đỏ Hot Chili. Hàng mã 8993027164034 là vị bắp nướng hay vị cay ngọt?",
+  "question": null,
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -43,6 +43,12 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "asked owner: name cay ngọt vs roasted-corn image"
+    },
+    {
+      "at": "2026-10-17T14:04:30Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "resolved without asking: barcode 8993027164034 = Happy Tos Jagung Bakar 140g (iCheck, OFF) = current image; name mismatch logged"
     }
   ]
 }

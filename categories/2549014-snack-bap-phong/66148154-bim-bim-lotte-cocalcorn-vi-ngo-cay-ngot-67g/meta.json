@@ -17,20 +17,20 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "ASK_OWNER",
+  "status": "READY",
   "image": {
-    "decision": "ASK_OWNER",
-    "reason": "I2: tên ghi vị ngô cay ngọt nhưng ảnh là gói đỏ 꼬깔콘 고소한맛 (vị bùi nguyên bản)",
+    "decision": "KEEP",
+    "reason": "Ảnh KiotViet: gói Lotte 꼬깔콘 고소한맛 (vị nguyên bản) nền trắng, đúng hàng theo mã vạch 8801062380114 (Open Food Facts: Original); chuẩn hoá 1:1",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v19"
   },
   "description": {
-    "decision": "ASK_OWNER",
-    "reason": "D1: chưa có mô tả; chờ chủ xác nhận vị",
+    "decision": "REWRITE",
+    "reason": "D2: tên ghi 'vị ngô cay ngọt' nhưng mã vạch là vị nguyên bản (고소한맛) → mô tả theo hàng thật",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v19"
   },
-  "question": "SP 'Bim bim Lotte COCALCORN vị ngô cay ngọt 67G' (mã 8801062380114): ảnh hiện tại là gói đỏ 꼬깔콘 고소한맛 (vị bùi nguyên bản), không phải vị cay ngọt (매콤달콤). Hàng mã này là vị nào?",
+  "question": null,
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -43,6 +43,12 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "asked owner: name cay ngọt vs original-flavour image"
+    },
+    {
+      "at": "2026-10-17T14:04:30Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "resolved without asking: barcode 8801062380114 = Kkokalcorn Original (OFF) = current image; name mismatch logged"
     }
   ]
 }

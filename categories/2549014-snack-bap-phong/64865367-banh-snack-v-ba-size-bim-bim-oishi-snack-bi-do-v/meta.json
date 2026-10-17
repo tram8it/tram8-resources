@@ -17,20 +17,24 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "ASK_OWNER",
+  "status": "READY",
   "image": {
-    "decision": "CROP",
-    "reason": "I9: packshot nền trắng, chỉ chưa 1:1 — chưa làm vì tên hàng và ảnh lệch nhau (xem câu hỏi)",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "REPLACE",
+    "reason": "I5/I9: ảnh KiotViet bị cắt mép phải; thay bằng ảnh hãng Oishi đúng gói Snack Phomát Miếng (đúng mã vạch 8934803026122 theo iCheck, Kingfoodmart)",
+    "source": {
+      "url": "https://oishi.cdn.vccloud.vn/storage/products/November2025/xmbNSEcnUsaR5Ba4q7XS.png",
+      "page": "https://oishi.com.vn/category/Snack",
+      "fetchedAt": "2026-10-17"
+    },
+    "rubricVersion": "v19"
   },
   "description": {
-    "decision": "ASK_OWNER",
-    "reason": "D1: chưa có mô tả; chờ chủ xác nhận đúng sản phẩm",
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; tên ghi 'bí đỏ vị phomat' nhưng mã vạch là Snack Phomát Miếng → viết theo hàng thật",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v19"
   },
-  "question": "SP 'Bim bim Oishi snack bí đỏ vị phomat miếng 80g' (mã 8934803026122): ảnh hiện tại là gói Oishi 'Snack Phomát Miếng' (không có bí đỏ). Hàng thật là Snack Phomát Miếng hay Snack Bí Đỏ, và gói bao nhiêu gam?",
+  "question": null,
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -43,6 +47,12 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "asked owner: name says bí đỏ, image is Snack Phomát Miếng"
+    },
+    {
+      "at": "2026-10-17T14:04:30Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "resolved without asking: barcode 8934803026122 = Oishi Snack Phomát Miếng 80g (iCheck, Kingfoodmart) = current image; brand image oishi.com.vn; name mismatch logged"
     }
   ]
 }

@@ -17,12 +17,12 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "ASK_OWNER",
+  "status": "NEEDS_PHOTO",
   "image": {
-    "decision": "ASK_OWNER",
-    "reason": "I1/I2: chưa có ảnh; không xác định được biến thể (trùng vị mật ong với 66473684, trang hãng không có bản đài hoa bụp giấm)",
+    "decision": "REPLACE",
+    "reason": "I1: chưa có ảnh; không nguồn nào có bản Tea365 'mật ong đài hoa bụp giấm' mã 8936221042920 (Masan, Kingfoodmart chỉ có bản mật ong …906) → cần chụp chai nếu còn bán",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v20"
   },
   "description": {
     "decision": "ASK_OWNER",
@@ -30,7 +30,7 @@
     "source": null,
     "rubricVersion": "v4"
   },
-  "question": "Không có ảnh. Tên ghi 'Tea 365 hương mật ong đài hoa bụp giấm 500ml' (mã vạch 8936221042920), nhưng đã có SP khác 'Trà TEA365 hương mật ong' (66473684, mã 8936221042906), trang Masan chỉ có một loại 'Trà Hương Mật Ong'. SP 64865248 có còn bán không, và nó có phải là loại khác (có đài hoa bụp giấm) hay trùng với 66473684?",
+  "question": null,
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -43,6 +43,12 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "image ASK_OWNER, description ASK_OWNER"
+    },
+    {
+      "at": "2026-10-17T14:04:41.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "NEEDS_PHOTO: mã …920 không tra được, trang hãng không có bản đài hoa bụp giấm; bỏ câu hỏi, cần chụp chai (nếu không còn bán thì chủ tắt mã)"
     }
   ]
 }

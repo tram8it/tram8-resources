@@ -17,20 +17,20 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "ASK_OWNER",
+  "status": "READY",
   "image": {
-    "decision": "ASK_OWNER",
-    "reason": "I2 nghi lệch tên: ảnh là hũ 'Đậu Hà Lan wasabi 180g', tên KiotViet 'Đậu phộng wasabi 190g'",
+    "decision": "KEEP",
+    "reason": "Ảnh KiotViet: hũ Snack House GOODY! Đậu Hà Lan Wasabi 180g nền trắng, đúng hàng theo mã vạch 8938503403627 (Open Food Facts: Wasabi green peas); chuẩn hoá 1:1",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v19"
   },
   "description": {
-    "decision": "ASK_OWNER",
-    "reason": "D1: chưa có mô tả; chờ chủ xác nhận loại hạt và khối lượng",
+    "decision": "REWRITE",
+    "reason": "D2: tên ghi 'Đậu phộng wasabi 190g' nhưng mã vạch là đậu Hà Lan wasabi 180g → mô tả theo bao bì",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v19"
   },
-  "question": "SP 'Đậu phộng wasabi 190g' (mã 8938503403627): ảnh là hũ Snack House GOODY! 'Đậu Hà Lan Wasabi' in 180g. Hàng thật là đậu Hà Lan hay đậu phộng, và bao nhiêu gam? Nếu đúng như ảnh thì tên KiotViet cần sửa.",
+  "question": null,
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -43,6 +43,12 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "asked owner: name says peanut 190g, pack says green peas 180g"
+    },
+    {
+      "at": "2026-10-17T14:04:30Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "resolved without asking: barcode 8938503403627 = GOODY! wasabi green peas (OFF) = current image (180g printed); name mismatch logged"
     }
   ]
 }

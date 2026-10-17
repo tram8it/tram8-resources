@@ -19,17 +19,14 @@
   },
   "status": "READY",
   "image": {
-    "decision": "CROP",
-    "reason": "I9: packshot nền trắng nhưng không 1:1; crop về 1:1. Đơn vị bán là gói nên dùng ảnh một gói",
-    "source": null,
-    "rubricVersion": "v4",
-    "vivid": {
-      "rubricVersion": "v10",
-      "saturationGain": 1.25,
-      "contrastGain": 1.08,
-      "toneGain": 1.107,
-      "gamma": 0.831
-    }
+    "decision": "REPLACE",
+    "reason": "ảnh tự chụp (túi nhăn, bóng lóa) → ảnh hãng oishi.com.vn (render túi T-Rexx Energy Drink vị dâu)",
+    "source": {
+      "url": "https://oishi.cdn.vccloud.vn/storage/products/November2025/Bc32yvp3AkckMmciC1lx.png",
+      "page": "https://oishi.com.vn/san-pham",
+      "fetchedAt": "2026-10-17T14:05:19.285Z"
+    },
+    "rubricVersion": "v20"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -56,6 +53,26 @@
       "by": "ai",
       "status": "READY",
       "note": "tone.py --vivid: white balance/levels + brand-like colour (owner request)"
+    },
+    {
+      "at": "2026-10-17T14:05:19.285Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "image REPLACE: shop photo -> brand packshot (oishi.cdn.vccloud.vn) (owner request 17/10)"
+    },
+    {
+      "at": "2026-10-17T14:05:19.381Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T14:05:19.381Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

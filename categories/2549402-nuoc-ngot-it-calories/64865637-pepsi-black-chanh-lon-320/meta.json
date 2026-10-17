@@ -19,17 +19,14 @@
   },
   "status": "READY",
   "image": {
-    "decision": "CROP",
-    "reason": "I9: packshot nền trắng, đúng SP (lon Pepsi không đường vị chanh, bao bì mới như trang hãng) nhưng không phải 1:1; crop về 1:1 (phóng 2,5 lần, xem lại đạt)",
-    "source": null,
-    "rubricVersion": "v4",
-    "vivid": {
-      "rubricVersion": "v10",
-      "saturationGain": 1.242,
-      "contrastGain": 1.077,
-      "toneGain": 1.074,
-      "gamma": 1.0
-    }
+    "decision": "REPLACE",
+    "reason": "ảnh tự chụp (bóng lon, hơi mờ) → ảnh hãng suntorypepsico.vn, lon Pepsi Không Đường vị Chanh 320ml, cùng bao bì",
+    "source": {
+      "url": "https://api.suntorypepsico.vn/assets/d6cc2b7e-5b64-444c-b429-721e79d37ade",
+      "page": "https://www.suntorypepsico.vn/thuong-hieu-cua-chung-toi/pepsi-3",
+      "fetchedAt": "2026-10-17"
+    },
+    "rubricVersion": "v20"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -59,6 +56,26 @@
       "by": "ai",
       "status": "READY",
       "note": "tone.py --vivid: white balance/levels + brand-like colour (owner request)"
+    },
+    {
+      "at": "2026-10-17T14:04:29.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "image REPLACE: ảnh tự chụp (bóng lon, hơi mờ) → ảnh hãng suntorypepsico.vn, lon Pepsi Không Đường vị Chanh 320ml, cùng bao bì"
+    },
+    {
+      "at": "2026-10-17T14:04:59.997Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T14:04:59.997Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

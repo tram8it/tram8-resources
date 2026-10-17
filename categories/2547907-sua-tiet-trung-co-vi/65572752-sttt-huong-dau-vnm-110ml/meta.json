@@ -19,17 +19,14 @@
   },
   "status": "READY",
   "image": {
-    "decision": "CROP",
-    "reason": "I9: packshot nền trắng đúng SP (Vinamilk 100% sữa tươi hương dâu 110 ml, bao bì như trang hãng) nhưng không 1:1; phóng ~3x",
-    "source": null,
-    "rubricVersion": "v4",
-    "vivid": {
-      "rubricVersion": "v10",
-      "saturationGain": 1.068,
-      "contrastGain": 1.022,
-      "toneGain": 1.114,
-      "gamma": 0.8
-    }
+    "decision": "REPLACE",
+    "reason": "ảnh tự chụp (mờ, cạnh hộp méo) → ảnh hãng vinamilk.com.vn, hộp Sữa tươi tiệt trùng 100% hương dâu 110ml, cùng bao bì",
+    "source": {
+      "url": "https://d8um25gjecm9v.cloudfront.net/cms/ST_Tiet_trung_FM_100_DAU_110_1_5b8c6c94dd_335e43d176.png",
+      "page": "https://www.vinamilk.com.vn/products/sua-tuoi-tiet-trung-huong-dau",
+      "fetchedAt": "2026-10-17"
+    },
+    "rubricVersion": "v20"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -59,6 +56,26 @@
       "by": "ai",
       "status": "READY",
       "note": "tone.py --vivid: white balance/levels + brand-like colour (owner request)"
+    },
+    {
+      "at": "2026-10-17T14:04:28.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "image REPLACE: ảnh tự chụp (mờ, cạnh hộp méo) → ảnh hãng vinamilk.com.vn, hộp Sữa tươi tiệt trùng 100% hương dâu 110ml, cùng bao bì"
+    },
+    {
+      "at": "2026-10-17T14:04:58.264Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T14:04:58.264Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

@@ -17,12 +17,12 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "ASK_OWNER",
+  "status": "NEEDS_PHOTO",
   "image": {
-    "decision": "ASK_OWNER",
-    "reason": "I1: chưa có ảnh; tên ghi '1,5lx12chai' nhưng đơn vị là 'chai', mã vạch 12 số (884394008459) → không rõ bán thùng hay chai",
+    "decision": "REPLACE",
+    "reason": "I1: chưa có ảnh; mã 884394008459 (12 số) không tra được, không biết chai Woongjin hay hãng khác → cần chụp 1 chai 1,5 L (đơn vị KiotViet: chai, v19)",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v20"
   },
   "description": {
     "decision": "ASK_OWNER",
@@ -30,7 +30,7 @@
     "source": null,
     "rubricVersion": "v4"
   },
-  "question": "'Nước gạo Hàn Quốc 1,5lx12chai' bán theo thùng 12 chai hay theo chai 1,5 L? Có trùng với 'Nước gạo Hàn Quốc Woongjin' (65155120) không? Mã vạch 884394008459 chỉ có 12 số — có nhập sai không?",
+  "question": null,
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -43,6 +43,12 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "b26: image ASK_OWNER, description ASK_OWNER"
+    },
+    {
+      "at": "2026-10-17T14:04:41.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "NEEDS_PHOTO: mã 884394008459 không có nguồn; theo v19 bán theo chai (đơn vị KiotViet); bỏ câu hỏi, cần chụp chai"
     }
   ]
 }
