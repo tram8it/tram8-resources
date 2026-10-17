@@ -17,12 +17,12 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "ASK_OWNER",
   "image": {
-    "decision": null,
-    "reason": null,
+    "decision": "ASK_OWNER",
+    "reason": "I2: bao trong ảnh KiotViet chỉ in 'SAIGON CAPSULE – Filter cigarettes' (đỏ), không thấy chữ Slim hay Peach; không tra được mã vạch",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": null,
@@ -30,13 +30,19 @@
     "source": null,
     "rubricVersion": null
   },
-  "question": null,
+  "question": "Mã vạch 8934603000377 (tên 'SAIGON Slim Peach Capsule'): bao trong ảnh KiotViet (đỏ, xoáy hồng–xanh) chỉ in 'SAIGON CAPSULE – Filter cigarettes', không thấy chữ Slim hay Peach (đào). Bao này có đúng là Saigon Slim Peach Capsule không? Nếu đúng, AI vẽ theo ảnh này và mô tả ghi 'Saigon Capsule'; nếu không, nhờ chụp mặt trước bao đúng.",
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-17T08:55:39Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "pack text does not show Slim/Peach"
     }
   ]
 }

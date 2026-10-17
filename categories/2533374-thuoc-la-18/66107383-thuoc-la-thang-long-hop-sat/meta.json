@@ -17,18 +17,29 @@
     "description": "Thuốc lá Thăng Long hộp sắt là phiên bản cao cấp và sang trọng nhất của thương hiệu thuốc lá Thăng Long truyền thống. Sản phẩm này thường được lựa chọn để làm quà biếu, quà tặng hoặc trưng bày trong các dịp lễ, Tết.<br>Dưới đây là mô tả chi tiết về sản phẩm:<br>## 📦 Thiết kế và Quy cách<br><br>* Chất liệu: Vỏ hộp làm bằng kim loại (sắt) cứng cáp, bền bỉ.<br>* Màu sắc: Tông màu vàng kim (gold) chủ đạo kết hợp với sắc đỏ truyền thống.<br>* Họa tiết: In nổi logo rồng Thăng Long mang phong cách cổ điển, uy nghiêm và sang trọng.<br>* Quy cách đóng gói: 20 điếu/hộp sắt.<br><br>## 🚬 Đặc điểm điếu thuốc và Hương vị<br><br>* Thân điếu: Điếu thuốc to bản chuẩn (King Size), cuốn giấy trắng tinh tế với phần đầu lọc màu vàng nâu cổ điển.<br>* Sợi thuốc: Sử dụng nguồn lá thuốc chất lượng cao, phối trộn từ nguyên liệu nội địa chọn lọc và nguyên liệu ngoại nhập.<br>* Hương vị: Mang hương thơm đậm đà, mộc mạc đặc trưng của dòng Thăng Long nhưng được xử lý êm dịu hơn, không bị gắt cổ.<br><br>## 🌟 Ưu điểm nổi bật<br><br>* Bảo quản tốt: Vỏ hộp sắt kín giúp giữ ẩm cho thuốc cực tốt, không lo bị ẩm mốc hay mất mùi do thời tiết.<br>* Hình thức đẹp: Thiết kế hộp kim loại cầm chắc tay, nâng tầm giá trị thẩm mỹ so với bao giấy thông thường.<br><br>",
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "TODO",
+  "status": "READY",
   "image": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "REPLACE",
+    "reason": "I6/I7: ảnh KiotViet nhỏ, lệch góc, có tem và đường niêm → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: bỏ tem điện tử và đường niêm dọc",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet + ảnh iCheck cùng mã vạch",
+      "referenceUrl": "https://icheck.vn/san-pham/thang-long-sat-8935047690032"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "REWRITE",
+    "reason": "D2/D3: mô tả cũ có emoji, khen hương vị, tả sai hộp (vàng kim–đỏ, logo rồng; hộp thật màu vàng, hình cột cờ) → viết lại chỉ từ chữ in trên hộp; mô tả ngắn chỉ từ chữ in trên bao (khuôn _category.md); nhà sản xuất theo chủ mã vạch 8935047 trên iCheck; 20 điếu in trên hộp",
+    "source": {
+      "url": "https://icheck.vn/san-pham/8935047690032",
+      "fetchedAt": "2026-10-17"
+    },
+    "rubricVersion": "v18"
   },
   "question": null,
   "history": [
@@ -37,6 +48,32 @@
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-17T08:54:55Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T08:55:17Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "description REWRITE (tobacco template: facts printed on pack, 18+ and health lines)"
+    },
+    {
+      "at": "2026-10-17T08:56:39.884Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T08:56:39.884Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }
