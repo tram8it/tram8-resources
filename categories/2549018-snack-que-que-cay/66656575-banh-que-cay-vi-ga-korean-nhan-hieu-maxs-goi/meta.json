@@ -20,9 +20,9 @@
   "status": "NEEDS_PHOTO",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh — không có trang chính hãng/kênh chính chủ dùng được cho thương hiệu này (đã tìm web) → cần nhân viên chụp",
+    "reason": "I1: chưa có ảnh; tìm web (Open Food Facts, tìm kiếm tiếng Việt/Thái theo tên và mã 8850548010113) không thấy ảnh gói vị Gà Korean — không biết bao bì nên không vẽ Gemini được → cần nhân viên chụp mặt trước gói (cùng kiểu với gói MAXs vị Thịt Nướng/Cay đã có)",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +43,12 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "b07 review: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T12:00:00Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "Không tìm được ảnh mẫu gói vị Gà Korean để vẽ Gemini"
     }
   ]
 }

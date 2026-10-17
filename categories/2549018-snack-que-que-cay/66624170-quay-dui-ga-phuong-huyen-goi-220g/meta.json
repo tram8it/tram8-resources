@@ -17,12 +17,20 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I4/I6: ảnh chụp điện thoại, nền lộn xộn, cạnh ngắn 270px — không có trang chính hãng/kênh chính chủ dùng được cho thương hiệu này (đã tìm web) → cần nhân viên chụp",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I3/I4/I6: ảnh chụp điện thoại, nền lộn xộn, cạnh ngắn 270px; không có ảnh hãng/nhà bán lẻ trên web → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Chữ nhỏ mặt trước (thành phần, địa chỉ, chữ dưới biểu tượng tái chế) là chữ mờ không đọc được; mã vạch không in số (AI vẽ sai số nên đã bỏ); không ghi khối lượng vì ảnh mẫu không đọc được dòng khối lượng (chưa kiểm được 220g); hình mèo, logo vương miện, tiêu đề Quẩy Đùi Gà, huy hiệu 100% QUALITY khớp ảnh mẫu",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet hiện tại (270px, chụp điện thoại)",
+      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/06/22/tram8/d043cab58ba94f30b1fffaf0feeec7ec.jpeg"
+    },
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +51,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "b07 review: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T04:49:56Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 3, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T04:50:16.994Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T04:50:16.994Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

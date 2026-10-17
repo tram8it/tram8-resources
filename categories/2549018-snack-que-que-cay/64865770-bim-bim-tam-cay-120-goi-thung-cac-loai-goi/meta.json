@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "ASK_OWNER",
   "image": {
     "decision": "REPLACE",
     "reason": "I3/I4: ảnh chụp tay cầm trên nền gạch — không có trang chính hãng/kênh chính chủ dùng được cho thương hiệu này (đã tìm web) → cần nhân viên chụp",
@@ -30,7 +30,7 @@
     "source": null,
     "rubricVersion": "v4"
   },
-  "question": null,
+  "question": "Mã 8936234180473 'Bim bim tăm cay (120 gói/thùng) các loại': ảnh hiện tại là gói đen 'TĂM CAY BÀ TUYẾT' hình núi tăm đỏ trong bát. Mã này chỉ là một mẫu gói này, hay gồm nhiều mẫu/vị khác nhau (như gói vàng 'Chiến Thần Lạc Hồng')? Nếu chỉ một mẫu → em vẽ lại gói đen này; nếu nhiều mẫu → anh/chị chọn mẫu nào để hiển thị. Khối lượng in trên gói là bao nhiêu (ảnh không thấy)?",
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -43,6 +43,12 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "b07 review: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T12:00:00Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "Tên 'các loại' — chưa rõ mã vạch gồm một hay nhiều mẫu; hỏi chủ trước khi vẽ Gemini"
     }
   ]
 }
