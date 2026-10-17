@@ -17,12 +17,19 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "ASK_OWNER",
+  "status": "READY",
   "image": {
-    "decision": "ASK_OWNER",
-    "reason": "I4/I9: ảnh điện thoại trên nền đá, lộ NSX/HSD; khối lượng in trên gói (23 g) lệch tên hàng (25 g)",
-    "source": null,
-    "rubricVersion": "v17"
+    "decision": "REPLACE",
+    "reason": "I4/I9: ảnh điện thoại trên nền đá, lộ NSX/HSD; không có ảnh hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: bỏ dấu in NSX/HSD; khối lượng 23 g theo bao bì (chủ 17/10: tin bao bì đúng mã vạch, tên KiotViet ghi 25g)",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (ảnh điện thoại gói thật trên nền đá)"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -30,7 +37,7 @@
     "source": null,
     "rubricVersion": "v4"
   },
-  "question": "Da heo vị Tomyum G Kitchen mã 8936146447206: tên KiotViet ghi 25g nhưng gói trong ảnh KiotViet (cùng mã) in 'Khối lượng tịnh: 23 g'. Gói đang bán là 23 g hay 25 g? Nếu 23 g thì sửa tên KiotViet, rồi AI sẽ vẽ lại ảnh từ ảnh mẫu.",
+  "question": null,
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -49,6 +56,12 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "ask owner: pack says 23 g, name says 25 g"
+    },
+    {
+      "at": "2026-10-17T08:56:55Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
     }
   ]
 }

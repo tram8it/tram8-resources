@@ -17,20 +17,28 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "ASK_OWNER",
+  "status": "READY",
   "image": {
-    "decision": "ASK_OWNER",
-    "reason": "I1: chưa có ảnh; trang Panasonic (panasonic.com/vn) chặn truy cập (403, cả trình duyệt), không có nguồn chính hãng khác → cần chụp",
-    "source": null,
-    "rubricVersion": "v17"
+    "decision": "REPLACE",
+    "reason": "I1: chưa có ảnh đạt chuẩn; đơn vị bán là 1 viên (v19) nên ảnh minh hoạ 1 viên pin, Gemini vẽ lại → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: ảnh minh hoạ 1 viên pin rời (không vỉ); vị trí chữ khắc trên mặt pin có thể khác pin thật",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh viên pin Panasonic CR2025 trên batteryjunction.com (chỉ làm mẫu)",
+      "referenceUrl": "https://www.batteryjunction.com/panasonic-cr2025"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
-    "decision": "WRITE_NEW",
-    "reason": "D1: chưa có mô tả; không vào được trang hãng → viết ngắn từ dữ kiện chắc chắn: mã pin theo chuẩn IEC trong tên (loại pin, cỡ, điện áp, số viên/vỉ)",
+    "decision": "REWRITE",
+    "reason": "v19: đơn vị KiotViet là 'Viên' — sửa quy cách 'vỉ 5 viên' thành bán lẻ 1 viên",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v19"
   },
-  "question": "Pin cúc áo Panasonic CR2016/CR2025/CR2032 bản 5BE (mã vạch 4984824343085 / 4984824343092 / 8887549855481): trên KiotViet đơn vị là 'Viên' nhưng mã vạch là của vỉ 5 viên. Ảnh nên là (a) cả vỉ 5 viên hay (b) 1 viên? Ảnh CR2032 hiện có là vỉ bản Trung Quốc (chữ 松下电器, logo cửa hàng khác) — có giống vỉ cửa hàng đang bán không? Nếu không, xin ảnh chụp vỉ thật để em vẽ lại cho cả 3 mã.",
+  "question": null,
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -49,6 +57,18 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "Pin cúc áo Panasonic CR2016/CR2025/CR2032 bản 5BE (mã vạch 4984824343085 / 4984824343092 / 8887549855481): trên KiotViet đơn vị là 'Viên' nhưng mã vạch là của vỉ 5 viên. Ảnh nên là (a) cả vỉ 5 viên hay (b) 1 viên? Ảnh CR2032 hiện có là vỉ bản Trung Quốc (chữ 松下电器, logo cửa hàng khác) — có giống vỉ cửa hàng đang bán không? Nếu không, xin ảnh chụp vỉ thật để em vẽ lại cho cả 3 mã."
+    },
+    {
+      "at": "2026-10-17T08:54:03Z",
+      "by": "owner",
+      "status": "ASK_OWNER",
+      "note": "Chủ trả lời (17/10/2026, RUBRIC v19): tin đơn vị KiotViet 'Viên' — ảnh 1 viên pin, mô tả ghi bán lẻ 1 viên; tên giữ '/5BE' cho khớp HĐĐT."
+    },
+    {
+      "at": "2026-10-17T08:54:04Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
     }
   ]
 }

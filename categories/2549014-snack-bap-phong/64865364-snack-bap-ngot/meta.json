@@ -17,26 +17,27 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "ASK_OWNER",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I4: ảnh chụp điện thoại cầm tay, nền nhà; thay bằng ảnh bao bì hiện hành trên trang hãng Oishi (Snack Bắp Ngọt, https://oishi.com.vn/category/Snack); ảnh hãng là ảnh chung của vị, không in khối lượng",
+    "reason": "I3/I4: ảnh chụp điện thoại cầm tay, nền nhà; thay bằng ảnh bao bì hiện hành trên trang hãng Oishi (Snack Bắp Ngọt, https://oishi.com.vn/category/Snack); ảnh hãng là ảnh chung của vị, không in khối lượng; gắn nhãn \"80g\" (v16, ảnh dùng chung với SP 66064306 bản 40g; 80 g theo gói thật cùng mã vạch trên ảnh KiotViet cũ, v19)",
     "source": {
       "url": "https://oishi.cdn.vccloud.vn/storage/products/November2025/Ebn2krdOs0CanlolwGRV.png",
       "fetchedAt": "2026-10-13"
     },
-    "rubricVersion": "v4"
+    "rubricVersion": "v19",
+    "sizeTag": "80g"
   },
   "description": {
     "decision": "WRITE_NEW",
-    "reason": "D1: chưa có mô tả; viết từ trang hãng Oishi (tên vị, mô tả dòng) và chữ in mặt trước bao bì; khối lượng theo tên hàng (tên hàng không ghi khối lượng nên bỏ)",
+    "reason": "D1: trống; mô tả ngắn từ chữ in mặt trước bao bì; quy cách 80 g theo gói thật cùng mã vạch (ảnh KiotViet cũ)",
     "source": {
       "url": "https://oishi.com.vn/category/Snack",
       "fetchedAt": "2026-10-13"
     },
-    "rubricVersion": "v4"
+    "rubricVersion": "v19"
   },
-  "question": "\"Snack bắp ngọt\" (mã 8934803026078) đang dùng chung ảnh với \"Snack Oishi bắp ngọt 40g\" (mã 8934803043075), tên KiotViet không ghi khối lượng. Ảnh cũ trên KiotViet là gói ghi 80g. Mã này có đúng là gói 80g không? Nếu đúng thì gắn nhãn \"80g\" lên ảnh (RUBRIC v16) và nên thêm 80g vào tên.",
+  "question": null,
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -61,6 +62,32 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "ask owner: pack size (shares image with 40g SP 66064306)"
+    },
+    {
+      "at": "2026-10-17T08:52:28Z",
+      "by": "owner",
+      "status": "ASK_OWNER",
+      "note": "Chủ trả lời 17/10 (RUBRIC v19): khối lượng theo bao bì đúng mã vạch; tên không ghi khối lượng thì không cần sửa tên"
+    },
+    {
+      "at": "2026-10-17T08:52:28Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Ảnh hãng Oishi gắn nhãn 80g (v16, ảnh chưa gắn nhãn ở work/untagged/64865364.webp); mô tả thêm 80 g"
+    },
+    {
+      "at": "2026-10-17T08:52:28.908Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T08:52:28.908Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

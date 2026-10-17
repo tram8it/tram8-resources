@@ -17,20 +17,27 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "ASK_OWNER",
+  "status": "READY",
   "image": {
-    "decision": "ASK_OWNER",
-    "reason": "I2/I8: mã vạch 8936011771511 là Celano Passion Sô cô la Hạnh nhân (Chocolate Almond) — Kingfoodmart, Open Food Facts; ảnh KiotViet 2 gói chồng nhau. Bao bì mới nhất cùng mã vạch là Celano Classic 'Kem sô cô la hạnh nhân' 53g (vàng cam) — kimphuc.net; khác tên KiotViet (Que Socola 70ml)",
-    "source": null,
-    "rubricVersion": "v17"
+    "decision": "REPLACE",
+    "reason": "I2/I8: ảnh KiotViet 2 gói chồng nhau, bao bì cũ. Dùng ảnh bao bì mới nhất trên trang chính hãng Nutifood eShop (Celano Classic 'Kem sô cô la hạnh nhân' 53 g, cùng mã vạch 8936011771511), ảnh nhỏ 540px phóng ~2,6 lần (hơi mềm, RUBRIC v4). Chủ chốt 17/10/2026 (v19): tin bao bì đúng mã vạch, không sửa tên",
+    "source": {
+      "url": "https://cdn.hstatic.net/products/200000821091/thi_t_k__ch_a_c__t_n__41__1ecb1ce9102a40dcbf77b7cf00d0bbda.png",
+      "page": "https://ngoinhadinhduong.com/products/kem-celano-que-socola-70mlx20",
+      "fetchedAt": "2026-10-17T08:55:00Z"
+    },
+    "rubricVersion": "v19"
   },
   "description": {
-    "decision": "WRITE_NEW",
-    "reason": "D1: chưa có mô tả; không có trang hãng truy cập được — mô tả ngắn chỉ từ dữ kiện chắc chắn (tên SP, thương hiệu, vị, khối lượng; không có ảnh bao bì để đọc thêm)",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "REWRITE",
+    "reason": "Mô tả cũ ghi 70 ml, vị sô cô la; bao bì đúng mã vạch (trang hãng) là 'Kem sô cô la hạnh nhân' 53 g → sửa theo bao bì (RUBRIC v19); bảo quản/dị ứng theo trang hãng",
+    "source": {
+      "url": "https://ngoinhadinhduong.com/products/kem-celano-que-socola-70mlx20",
+      "fetchedAt": "2026-10-17T08:55:00Z"
+    },
+    "rubricVersion": "v19"
   },
-  "question": "Mã vạch 8936011771511 ('Kem Celano Que Socola 70ml'): mã này là kem Celano vị SÔ CÔ LA HẠNH NHÂN. Bao bì cũ (Celano Passion 'Chocolate Almond', nâu đỏ) ghi 70ml; bao bì mới hiện bán (Celano Classic, vàng cam) ghi 53g. Cửa hàng đang nhận loại nào? (1) bao bì mới 53g → đổi tên thành 'Kem Celano Sô cô la hạnh nhân 53g' và vẽ ảnh bao bì mới; (2) vẫn bao bì cũ 70ml → giữ 70ml, vẽ ảnh Passion Chocolate Almond 70ml, thêm 'hạnh nhân' vào tên; (3) thực ra là SP khác (sô cô la thường) → gửi ảnh gói thật. — Bổ sung: trang chính hãng Nutifood eShop (ngoinhadinhduong.com/products/kem-celano-que-socola-70mlx20) ghi mã 8936011771511 là \"Kem Celano sô cô la que 53G\" (gói cam, hạnh nhân). Nếu cửa hàng nhận gói này thì sửa tên KiotViet thành 53g và dùng ảnh hãng.",
+  "question": null,
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -55,6 +62,32 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "official Nutifood eShop page confirms barcode = 53g Celano chocolate stick"
+    },
+    {
+      "at": "2026-10-17T08:53:18Z",
+      "by": "owner",
+      "status": "ASK_OWNER",
+      "note": "17/10/2026 (RUBRIC v19): tin bao bì đúng mã vạch (53 g) hơn tên; dùng bao bì mới nhất của hãng"
+    },
+    {
+      "at": "2026-10-17T08:53:18Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "brand image ngoinhadinhduong.com (Celano Classic 53g) via make_image.py; description rewritten to 53 g sô cô la hạnh nhân"
+    },
+    {
+      "at": "2026-10-17T08:53:19.019Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T08:53:19.019Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

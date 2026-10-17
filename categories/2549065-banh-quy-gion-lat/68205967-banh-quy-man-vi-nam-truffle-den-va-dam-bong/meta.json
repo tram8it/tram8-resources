@@ -17,20 +17,27 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "ASK_OWNER",
+  "status": "READY",
   "image": {
-    "decision": "ASK_OWNER",
-    "reason": "I1: chưa có ảnh; trang hãng cobibread.com có ảnh gói lẻ 29 g và hộp 638 g — tên KiotViet không ghi khối lượng",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "REPLACE",
+    "reason": "I1: chưa có ảnh; dùng ảnh gói lẻ 29 g trên trang hãng Cobi Bread (đơn vị KiotViet \"Gói\" = 1 gói lẻ, theo chủ 17/10)",
+    "source": {
+      "url": "https://cobibread.com/wp-content/uploads/2026/09/tr3.jpg",
+      "page": "https://cobibread.com/product/banh-quy-man-vi-nam-truffle-den-dam-bong-cobi-bread-638g-22-goi-x-29g/",
+      "fetchedAt": "2026-10-17"
+    },
+    "rubricVersion": "v19"
   },
   "description": {
-    "decision": "ASK_OWNER",
-    "reason": "chờ chủ xác nhận quy cách bán",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; theo bao bì gói 29 g và tiêu đề SP trên trang hãng Cobi Bread",
+    "source": {
+      "url": "https://cobibread.com/product/banh-quy-man-vi-nam-truffle-den-dam-bong-cobi-bread-638g-22-goi-x-29g/",
+      "fetchedAt": "2026-10-17"
+    },
+    "rubricVersion": "v19"
   },
-  "question": "Bánh quy mặn vị nấm Truffle đen & Dăm bông CoBi Bread (mã 8935299665482): Trạm 8 bán gói lẻ 29 g hay hộp 638 g (22 gói)? Trang hãng cobibread.com có ảnh cả hai — trả lời để dùng đúng ảnh.",
+  "question": null,
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -43,6 +50,32 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "batch b14 review (rubric v4): image ASK_OWNER, description ASK_OWNER"
+    },
+    {
+      "at": "2026-10-17T08:53:01+00:00",
+      "by": "owner",
+      "status": "ASK_OWNER",
+      "note": "owner 17/10 (RUBRIC v19): trust KiotViet unit Gói = single 29 g packet"
+    },
+    {
+      "at": "2026-10-17T08:53:01+00:00",
+      "by": "ai",
+      "status": "READY",
+      "note": "brand image of 29 g packet (cobibread.com tr3.jpg) + WRITE_NEW description"
+    },
+    {
+      "at": "2026-10-17T08:53:05.505Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T08:53:05.505Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

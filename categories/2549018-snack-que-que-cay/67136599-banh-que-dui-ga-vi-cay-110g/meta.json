@@ -17,20 +17,27 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "ASK_OWNER",
+  "status": "READY",
   "image": {
-    "decision": "ASK_OWNER",
-    "reason": "I2: khối lượng trên gói (115 g) khác tên KiotViet (110 g); chờ chủ xác nhận trước khi vẽ ảnh",
-    "source": null,
-    "rubricVersion": "v17"
+    "decision": "REPLACE",
+    "reason": "I1/I3: chưa có ảnh đạt chuẩn; ảnh KiotViet nền đen, gói nhăn → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: ô dinh dưỡng và số đăng ký vẽ mờ không đọc được; bỏ dấu in ngày/lô; giữ bao bì túi zip 115 g (bản mới 'rổ gà' trên snnp.co.th chỉ thấy cỡ 50 g); gói in 115 g (tên 110g, theo bao bì, v19)",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet hiện tại (gói thật 115 g, túi zip)"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
-    "reason": "D1: chưa có mô tả; mô tả ngắn chỉ từ tên hàng và chữ in mặt trước bao bì; bỏ khối lượng vì ảnh ghi 115 g, tên ghi 110 g",
+    "reason": "D1: chưa có mô tả; mô tả ngắn từ chữ in mặt trước bao bì; quy cách 115 g theo gói thật (v19)",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v19"
   },
-  "question": "Mã vạch 8850157516488: gói thật (ảnh KiotViet) và Open Food Facts đều ghi 'Net Weight 115 g', nhưng tên KiotViet là 'Bánh Que Đùi Gà Vị Cay 110g' (110 g). Chọn: (1) sửa tên KiotViet thành 115g rồi cho vẽ ảnh Gemini theo gói 115 g; (2) cửa hàng đang bán gói 110 g khác — gửi ảnh mặt trước gói đó; (3) giữ nguyên. Lưu ý: trang hãng snnp.co.th có ảnh vị này với bao bì kiểu mới (rổ gà, bản 50 g); chưa thấy ảnh hãng cỡ 115 g.",
+  "question": null,
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -49,6 +56,38 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "Gói thật + Open Food Facts ghi 115 g, tên KiotViet 110 g → hỏi chủ, chưa gọi Gemini"
+    },
+    {
+      "at": "2026-10-17T08:55:26Z",
+      "by": "owner",
+      "status": "ASK_OWNER",
+      "note": "Chủ trả lời 17/10 (RUBRIC v19): khối lượng theo bao bì đúng mã vạch, lệch nhỏ (≤ ~10%) không cần sửa tên"
+    },
+    {
+      "at": "2026-10-17T08:55:27Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T08:55:28Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Mô tả: thêm quy cách 115 g theo bao bì (v19)"
+    },
+    {
+      "at": "2026-10-17T08:55:38.597Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T08:55:38.597Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

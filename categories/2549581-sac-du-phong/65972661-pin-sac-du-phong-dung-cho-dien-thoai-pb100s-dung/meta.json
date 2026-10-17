@@ -17,12 +17,19 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "ASK_OWNER",
+  "status": "READY",
   "image": {
-    "decision": "ASK_OWNER",
-    "reason": "I7: ảnh hộp có tem mã vạch + giá của cửa hàng và nhãn dán 'Màu xám, bảo hành 18 tháng'; cuktech.com chặn bot. Đã có ảnh Gemini vẽ lại (bỏ tem) chờ chủ trả lời: work/gemini/65972661/attempt-1.webp",
-    "source": null,
-    "rubricVersion": "v17"
+    "decision": "REPLACE",
+    "reason": "I7: ảnh hộp có tem mã vạch + giá cửa hàng và nhãn dán 'Màu xám, bảo hành 18 tháng'; trang hãng chặn bot → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: bỏ tem giá và nhãn xanh; hộp in 10000mAh 30W (chủ 17/10: tin bao bì, tên KiotViet ghi 33W)",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (hộp thật tại cửa hàng)"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -30,7 +37,7 @@
     "source": null,
     "rubricVersion": "v4"
   },
-  "question": "Cuktech PB100S (mã vạch 6973886191343): hộp thật in '10000mAh 30W', còn tên KiotViet ghi 'tối đa 33W'. Tên nào đúng? (a) hộp đúng 30W → sửa tên KiotViet thành 30W và dùng ảnh Gemini vẽ lại hộp (đã có sẵn, bỏ tem giá + nhãn xanh); (b) hàng là bản 33W khác hộp → cần chụp hộp bản 33W.",
+  "question": null,
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -49,6 +56,12 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "Cuktech PB100S (mã vạch 6973886191343): hộp thật in '10000mAh 30W', còn tên KiotViet ghi 'tối đa 33W'. Tên nào đúng? (a) hộp đúng 30W → sửa tên KiotViet thành 30W và dùng ảnh Gemini vẽ lại hộp (đã có sẵn, bỏ tem giá + nhãn xanh); (b) hàng là bản 33W khác hộp → cần chụp hộp bản 33W."
+    },
+    {
+      "at": "2026-10-17T08:56:55Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
     }
   ]
 }

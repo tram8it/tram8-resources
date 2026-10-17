@@ -17,12 +17,19 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "ASK_OWNER",
+  "status": "READY",
   "image": {
-    "decision": "ASK_OWNER",
-    "reason": "I7: ảnh có tem giá cửa hàng; túi ghi 90g, tên ghi 100g → hỏi chủ",
-    "source": null,
-    "rubricVersion": "v17"
+    "decision": "REPLACE",
+    "reason": "I7: ảnh có tem giá cửa hàng; không có ảnh hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: bỏ tem mã vạch/giá; khối lượng 90 g theo bao bì (chủ 17/10: tin bao bì, tên KiotViet ghi 100g); dòng chữ Hàn nhỏ có thể khác bản thật",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (túi thật tại cửa hàng)"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -30,7 +37,7 @@
     "source": null,
     "rubricVersion": "v4"
   },
-  "question": "Khoai lang sấy mật ong 100g (Onenuts, mã 8938520099797): ảnh KiotViet cho thấy túi ghi 'KHỐI LƯỢNG TỊNH: 90g', tên KiotViet ghi 100g. Hàng đang bán là 90 g hay 100 g? Nếu 90 g: chủ sửa tên KiotViet thành 90g, em vẽ lại ảnh từ ảnh này (bỏ tem giá); nếu 100 g: xin ảnh túi 100 g.",
+  "question": null,
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -49,6 +56,12 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "ask owner: pack weight differs from KiotViet name"
+    },
+    {
+      "at": "2026-10-17T08:56:55Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
     }
   ]
 }

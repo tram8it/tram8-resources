@@ -17,20 +17,27 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "ASK_OWNER",
+  "status": "READY",
   "image": {
-    "decision": "ASK_OWNER",
-    "reason": "I3/I4/I5: ảnh chụp điện thoại; ảnh hãng 145g là bao bì bản Indonesia, khác bản chữ Hàn đang bán",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "REPLACE",
+    "reason": "I3/I4/I5: ảnh chụp điện thoại. Dùng packshot chính hãng Dua Kelinci (Tos Tos Korean BBQ 145 g, cùng thiết kế với gói đang bán, không có nhãn chữ Hàn); chủ chốt 17/10/2026 (RUBRIC v19): dùng bao bì mới nhất của hãng",
+    "source": {
+      "url": "https://duakelinci.com/storage/tostos-korean-bbq-145g-C3qa.webp",
+      "page": "https://duakelinci.com/brand/tostos",
+      "fetchedAt": "2026-10-17T09:05:00Z"
+    },
+    "rubricVersion": "v19"
   },
   "description": {
-    "decision": "ASK_OWNER",
-    "reason": "D1: chưa có mô tả; chờ chủ chốt bản bao bì",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết từ chữ in trên bao bì hãng (Tortilla chips, vị, 145 g, PT Dua Kelinci, Indonesia)",
+    "source": {
+      "url": "https://duakelinci.com/brand/tostos",
+      "fetchedAt": "2026-10-17T09:05:00Z"
+    },
+    "rubricVersion": "v19"
   },
-  "question": "SP 'Bánh Tortilla chips vị BBQ Hàn Quốc hiệu Tos Tos 145g' (mã 8995077606496): ảnh hiện tại là gói Tos Tos bản in tiếng Hàn (có nhãn vàng chữ Hàn), chụp điện thoại. Trang hãng Dua Kelinci có ảnh gói Tos Tos Korean BBQ 145g bản Indonesia (không có chữ Hàn). Có dùng ảnh hãng đó thay ảnh chụp không, hay để nhân viên chụp gói đang bán?",
+  "question": null,
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -43,6 +50,32 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "asked owner: Korean-print pack vs official Indonesian pack image"
+    },
+    {
+      "at": "2026-10-17T08:57:01Z",
+      "by": "owner",
+      "status": "ASK_OWNER",
+      "note": "17/10/2026 (RUBRIC v19): dùng bao bì mới nhất của hãng khi tìm được"
+    },
+    {
+      "at": "2026-10-17T08:57:01Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Dua Kelinci packshot 145g via make_image.py; description WRITE_NEW from pack"
+    },
+    {
+      "at": "2026-10-17T08:57:01.863Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T08:57:01.863Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

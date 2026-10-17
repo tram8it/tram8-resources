@@ -1,5 +1,5 @@
-Kem que Joyday Crunchy Chocolate Malt: kem vị mạch nha phủ lớp sô cô la giòn.
+Kem que Joyday Crunchy Chocolate Malt: kem sữa hương vani phủ hai lớp sô cô la, có hạt mạch nha giòn.
 
-Quy cách: 60 g · que
-Nhà sản xuất/thương hiệu: Joyday
-Bảo quản: Giữ đông lạnh.
+Quy cách: 1 que · 65 ml
+Nhà sản xuất/thương hiệu: Joyday (Yili)
+Bảo quản: Giữ đông lạnh dưới -18°C.

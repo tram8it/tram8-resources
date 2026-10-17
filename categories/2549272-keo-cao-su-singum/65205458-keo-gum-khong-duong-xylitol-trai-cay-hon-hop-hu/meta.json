@@ -17,12 +17,19 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "ASK_OWNER",
+  "status": "READY",
   "image": {
-    "decision": "ASK_OWNER",
-    "reason": "Ảnh Gemini đã vẽ sẵn (attempt-1, theo ảnh hãng) nhưng chưa nhận vì tên ghi 58g, hãng chỉ có hũ 55,1 g → hỏi chủ",
-    "source": null,
-    "rubricVersion": "v17"
+    "decision": "REPLACE",
+    "reason": "I3/I4: ảnh chụp kệ cửa hàng; ảnh hãng nhỏ → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: theo ảnh hãng hũ trái cây hỗn hợp (55,1 g); chủ 17/10: tin bao bì, tên KiotViet ghi 58g",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh hãng lottexylitol.com.vn + ảnh KiotViet"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -30,7 +37,7 @@
     "source": null,
     "rubricVersion": "v4"
   },
-  "question": "Mã vạch 8934677038115 'Kẹo gum không đường Xylitol trái cây hỗn hợp hủ 58g': trang chính thức lottexylitol.com.vn chỉ có hũ trái cây hỗn hợp 55,1 g (và hũ gia đình 130,5 g), không có bản 58 g; ảnh cửa hàng là bao bì mới (có chữ 'MỚI'). Hũ đang bán ghi bao nhiêu gam ở mặt sau? (a) 55,1 g → sửa tên thành 55,1g và dùng ảnh Gemini đã vẽ (work/gemini/65205458/attempt-1); (b) 58 g → giữ tên, chụp mặt sau gửi lại.",
+  "question": null,
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -49,6 +56,12 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "Ảnh Gemini đã vẽ sẵn (attempt-1, theo ảnh hãng) nhưng chưa nhận vì tên ghi 58g, hãng chỉ có hũ 55,1 g → hỏi chủ"
+    },
+    {
+      "at": "2026-10-17T08:56:55Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
     }
   ]
 }

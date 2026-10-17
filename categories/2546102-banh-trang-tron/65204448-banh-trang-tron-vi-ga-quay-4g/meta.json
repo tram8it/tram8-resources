@@ -17,12 +17,20 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "ASK_OWNER",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I4/I8: ảnh điện thoại, nền kệ hàng, lẫn gói khác; hãng Miss Bánh Tráng (vinasnack.com.vn) không đăng ảnh SP → cần chụp",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I3/I4/I8: ảnh điện thoại, nền kệ hàng, lẫn gói khác; hãng không đăng packshot riêng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt đáng kể; dòng chữ nhỏ dưới đáy và huy hiệu 'No preservative added' vẽ mờ/không đọc được; gói in 46 g (tên KiotViet '4g' là gõ thiếu số — theo bao bì, RUBRIC v19)",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh banner hãng Miss Bánh Tráng (vinasnack.com.vn, cắt gói giữa) + ảnh KiotViet gói thật",
+      "referenceUrl": "https://vinasnack.com.vn"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -30,7 +38,7 @@
     "source": null,
     "rubricVersion": "v4"
   },
-  "question": "Mã 8938549708069: tên KiotViet ghi 'Bánh tráng trộn vị gà quay 4g' nhưng gói thật (ảnh KiotViet) và ảnh hãng in 'Khối lượng tịnh 46 g'. Có phải tên gõ thiếu (đúng là 46g)? Nếu đúng, chủ sửa tên trên KiotViet hoặc cho phép dùng ảnh Gemini đã vẽ sẵn (work/gemini/65204448/attempt-1.webp, in 46 g).",
+  "question": null,
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -49,6 +57,32 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "Gemini vẽ xong ảnh (attempt 1, khớp ảnh hãng + ảnh KiotViet, in 46 g) nhưng chưa accept vì tên ghi 4g ≠ 46g trên gói → hỏi chủ"
+    },
+    {
+      "at": "2026-10-17T08:51:25Z",
+      "by": "owner",
+      "status": "ASK_OWNER",
+      "note": "Chủ trả lời 17/10 (RUBRIC v19): khối lượng theo bao bì đúng mã vạch (46 g), không cần sửa tên"
+    },
+    {
+      "at": "2026-10-17T08:51:10Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T08:51:25.761Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T08:51:25.761Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

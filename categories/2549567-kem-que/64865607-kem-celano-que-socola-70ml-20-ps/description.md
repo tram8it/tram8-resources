@@ -1,5 +1,6 @@
-Kem que Celano vị sô cô la.
+Kem que Celano vị sô cô la hạnh nhân.
 
-Quy cách: 70 ml · que
-Nhà sản xuất/thương hiệu: Celano (KIDO Foods)
-Bảo quản: Giữ đông lạnh.
+Quy cách: 1 que · 53 g
+Nhà sản xuất/thương hiệu: Celano (Nutifood)
+Thành phần có chứa sữa, đậu nành.
+Bảo quản: Giữ đông lạnh dưới -18 °C.
