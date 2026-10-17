@@ -17,20 +17,20 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "IN_PROGRESS",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh; trang Mondelez VN không có SP này → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: bảng dinh dưỡng và dòng khối lượng để mờ (ảnh mẫu không đọc được số 58,4 g); hoạ tiết theo ảnh mẫu",
+    "reason": "I1: chưa có ảnh; trang Mondelez VN không có SP; lần trước vẽ nhầm dạng cốc, chủ báo SP là gói (túi zip) → vẽ lại dạng túi → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: dòng 'BERAT BERSIH/NET WT: 58.4g' và 2 dòng tên SP khớp ảnh mẫu; chữ nhỏ (HSD, nhà SX, BPOM, bảng dinh dưỡng, mã Halal) để mờ không đọc được vì AI bịa số (đã làm mờ thêm bằng tay vùng chữ nhỏ); thiếu dòng nhỏ 'SARAN PENYAJIAN/SERVING SUGGESTION'; bố cục bánh/sữa theo ảnh mẫu",
     "source": {
       "aiGenerated": true,
       "tool": "Gemini API",
       "model": "gemini-nano-banana-2.1",
       "generatedAt": "2026-10-17",
       "style": "flat clean packaging render (v17)",
-      "reference": "ảnh Open Food Facts cốc Mini Oreo Chocolate (chỉ làm mẫu) + ảnh KiotViet cốc vani cùng dãy (chỉ lấy dáng cốc)",
+      "reference": "2 ảnh chụp gói Mini Oreo Chocolate 'Bites To Go' trên Open Food Facts (cùng mã vạch; 1 ảnh ghi NET WT 58.4g, 1 ảnh bản 61.3g chỉ lấy bố cục) — chỉ làm mẫu",
       "referenceUrl": "https://world.openfoodfacts.org/product/7622300761363"
     },
-    "rubricVersion": "v17"
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -69,10 +69,22 @@
       "by": "owner",
       "status": "IN_PROGRESS",
       "note": "rejected on Hub by AU KHUONG DUY: Cái này là gói chứ k phải lọ như b gửi"
+    },
+    {
+      "at": "2026-10-17T08:40:51Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 5, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T08:40:57.143Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-17T05:16:11.840Z",
+    "at": "2026-10-17T08:40:57.143Z",
     "fields": [
       "description",
       "image"

@@ -17,20 +17,20 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "IN_PROGRESS",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I4/I5: ảnh chụp điện thoại, bị cắt; trang hãng chỉ có chai vị chanh 450 ml → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: dáng chai 320 ml do AI suy từ ảnh chụp (thấp hơn chai 450 ml); dòng 'THỂ TÍCH THỰC: 320 ml' khớp ảnh chụp và tên SP",
+    "reason": "I3/I4/I5: ảnh chụp điện thoại, bị cắt; trang hãng chỉ có vị chanh 450 ml; lần trước chủ từ chối vì chai sai tỷ lệ (quá lùn) → vẽ lại theo dáng chai 320 ml thật → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: dáng chai theo chai TEA+ 320 ml (cao/rộng ≈3,1 so với ≈3,35 ở ảnh mẫu, kể cả bóng đổ); nhãn theo bản vị chanh; 'THỂ TÍCH THỰC: 320 ml' khớp ảnh chụp; chữ nhỏ trên huy hiệu OTPP không đọc được",
     "source": {
       "aiGenerated": true,
       "tool": "Gemini API",
       "model": "gemini-nano-banana-2.1",
       "generatedAt": "2026-10-17",
       "style": "flat clean packaging render (v17)",
-      "reference": "ảnh hãng TEA+ Vị Chanh 450 ml (suntorypepsico.vn) làm mẫu nhãn + ảnh KiotViet chai 320 ml",
-      "referenceUrl": "https://www.suntorypepsico.vn/thuong-hieu-cua-chung-toi/tea-9"
+      "reference": "ảnh Kingfoodmart chai TEA+ ô long 320 ml (chỉ lấy dáng chai, làm mẫu) + ảnh hãng TEA+ Vị Chanh 450 ml (suntorypepsico.vn, mẫu nhãn) + ảnh KiotViet chai vị chanh 320 ml",
+      "referenceUrl": "https://storage.googleapis.com/onelife-public/8934588870118.jpg"
     },
-    "rubricVersion": "v17"
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -72,10 +72,22 @@
       "by": "owner",
       "status": "IN_PROGRESS",
       "note": "rejected on Hub by AU KHUONG DUY: Chai sai tỷ lệ"
+    },
+    {
+      "at": "2026-10-17T08:40:52Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T08:40:59.778Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-17T05:20:28.886Z",
+    "at": "2026-10-17T08:40:59.778Z",
     "fields": [
       "description",
       "image"
