@@ -17,12 +17,20 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I4: ảnh chụp điện thoại gói kèm gói sốt, nền lộn xộn — không có trang chính hãng/kênh chính chủ dùng được cho thương hiệu này (đã tìm web) → cần nhân viên chụp",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I3/I4: ảnh chụp điện thoại gói kèm gói sốt, gói lộn ngược, nền lộn xộn; không có ảnh hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: gói chân gà theo ảnh đã duyệt của SP 64865622 (CHÂN GÀ BÀ TUYẾT, CÓ XƯƠNG); logo tròn 'Ăn cùng Bà Tuyết' trên đầu gói vẽ to và rõ hơn gói thật (gói thật logo nhỏ hơn); gói sốt 'SỐT BÀ TUYẾT – VỊ CHUA NGỌT' vẽ theo ảnh mẫu, đặt cạnh gói; không in khối lượng, 40g theo tên",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh Gemini đã duyệt của SP cùng dãy 64865622 (Chân gà có xương Bà Tuyết) + ảnh KiotViet hiện có (gói kèm gói sốt)",
+      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/07/13/tram8/5732a3c210e7456e8d6b44b93fa767ca.png"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +51,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "b20 review: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T07:43:46Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T07:44:14.909Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T07:44:14.909Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

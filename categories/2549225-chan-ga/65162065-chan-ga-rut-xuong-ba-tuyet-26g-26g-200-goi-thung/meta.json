@@ -17,12 +17,19 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I4/I8: ảnh chụp điện thoại nhiều gói chồng nhau, nền lộn xộn — không có trang chính hãng/kênh chính chủ dùng được cho thương hiệu này (đã tìm web) → cần nhân viên chụp",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I3/I4/I8: ảnh chụp điện thoại nhiều gói chồng nhau, nền lộn xộn; không có ảnh hãng → dùng ảnh Gemini vẽ lại của SP 66369104 (cùng gói Chân gà Bà Tuyết RÚT XƯƠNG 26g, ảnh hiện có của SP này cho thấy cùng mẫu bao bì; v14 đồng bộ dãy). Khác gói thật: mã vạch SP này 8938552123675 khác SP 66369104 (8938564591035) — có thể là lô bao bì cũ/mới, mặt trước giống nhau; không thấy khối lượng in mặt trước, 26g theo tên",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh Gemini của SP 66369104 (vẽ từ ảnh tay cầm gói thật); so với ảnh KiotViet hiện có của SP này",
+      "referenceUrl": "https://cdn1-retail-images.kiotviet.vn/2026/04/24/tram8/761d46700a494d69a15b0f2584a6a939.jpeg"
+    },
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +50,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "b20 review: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T07:44:12Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "image REPLACE: reuse Gemini render of sibling 66369104 (same Bà Tuyết rút xương 26g front, checked against this product's photo)"
+    },
+    {
+      "at": "2026-10-17T07:44:17.462Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T07:44:17.462Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

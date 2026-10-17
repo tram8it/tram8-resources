@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "ASK_OWNER",
   "image": {
     "decision": "REPLACE",
     "reason": "I1: chưa có ảnh — không có trang chính hãng/kênh chính chủ dùng được cho thương hiệu này (đã tìm web) → cần nhân viên chụp",
@@ -30,7 +30,7 @@
     "source": null,
     "rubricVersion": "v4"
   },
-  "question": null,
+  "question": "SP 65135714 \"Chân Gà Rút Xương Bà Tuyết 26g\" (mã vạch 8938564591011) chưa có ảnh. Có phải cùng gói đen \"CHÂN GÀ BÀ TUYẾT – RÚT XƯƠNG\" như SP 66369104 (mã 8938564591035, đã có ảnh mới) không? Nếu đúng → dùng chung ảnh đó; nếu khác (vị khác, có/không kèm sốt) → nhờ nhân viên chụp mặt trước gói.",
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -43,6 +43,12 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "b20 review: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T07:44:12Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "ASK_OWNER: no photo; ask whether same pack as 66369104"
     }
   ]
 }
