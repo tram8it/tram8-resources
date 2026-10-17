@@ -17,12 +17,12 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "ASK_OWNER",
   "image": {
-    "decision": "REPLACE",
-    "reason": "I4: nền đen — không có trang chính hãng/kênh chính chủ dùng được cho thương hiệu này (đã tìm web) → cần nhân viên chụp",
+    "decision": "ASK_OWNER",
+    "reason": "I2: khối lượng trên gói (115 g) khác tên KiotViet (110 g); chờ chủ xác nhận trước khi vẽ ảnh",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -30,7 +30,7 @@
     "source": null,
     "rubricVersion": "v4"
   },
-  "question": null,
+  "question": "Mã vạch 8850157516488: gói thật (ảnh KiotViet) và Open Food Facts đều ghi 'Net Weight 115 g', nhưng tên KiotViet là 'Bánh Que Đùi Gà Vị Cay 110g' (110 g). Chọn: (1) sửa tên KiotViet thành 115g rồi cho vẽ ảnh Gemini theo gói 115 g; (2) cửa hàng đang bán gói 110 g khác — gửi ảnh mặt trước gói đó; (3) giữ nguyên. Lưu ý: trang hãng snnp.co.th có ảnh vị này với bao bì kiểu mới (rổ gà, bản 50 g); chưa thấy ảnh hãng cỡ 115 g.",
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -43,6 +43,12 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "b07 review: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T12:00:00Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "Gói thật + Open Food Facts ghi 115 g, tên KiotViet 110 g → hỏi chủ, chưa gọi Gemini"
     }
   ]
 }

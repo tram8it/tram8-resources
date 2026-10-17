@@ -17,12 +17,20 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I4: ảnh tay cầm trên kệ, nhiều gói — không có trang chính hãng/kênh chính chủ dùng được cho thương hiệu này (đã tìm web) → cần nhân viên chụp",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I3/I4: ảnh tay cầm trên kệ, nhiều gói, có tem giá; trang hãng chỉ có ảnh bản 110 g → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Khối lượng sửa thành 62 g theo gói thật (ảnh hãng là 110 g); bảng dinh dưỡng GDA và chữ nhỏ cố ý làm mờ (Gemini bịa số); nhãn tiếng Nhật nhỏ dưới 'ขาไก่' dòng dưới bị méo (gốc '麻辣味'), không đọc được ở cỡ web; mã số nhỏ '74-2-04859-6-0140' khác ảnh hãng ('04659'); không có mã lô MFG/BBF",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh packshot chính hãng SNNP/Dorkbua bản 110 g (snnp.co.th, chỉ làm mẫu) + ảnh KiotViet gói 62 g",
+      "referenceUrl": "https://www.snnp.co.th/products/LOTUS"
+    },
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +51,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "b07 review: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T04:53:18Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T04:53:38.647Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T04:53:38.647Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }
