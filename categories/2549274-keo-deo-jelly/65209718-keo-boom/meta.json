@@ -17,20 +17,28 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "ASK_OWNER",
+  "status": "READY",
   "image": {
-    "decision": "ASK_OWNER",
-    "reason": "I2: tên 'Kẹo Boom' không ghi vị/khối lượng; ảnh hiện tại là Boom Jelly Lắk vị xoài lắc muối ớt — chưa chắc khớp mã",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "REPLACE",
+    "reason": "I3/I6: ảnh KiotViet nhỏ, gói nhăn bóng; orion.vn không có trang Boom Jelly Lắk → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt đáng kể; mặt trước không in khối lượng (gói thật in 23,5 g ở mặt sau)",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet + ảnh iCheck của mã vạch 8936036028553 (chỉ làm mẫu)",
+      "referenceUrl": "https://icheck.vn/san-pham/8936036028553"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
-    "decision": "ASK_OWNER",
-    "reason": "Chờ chủ xác nhận vị trước khi viết",
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; theo bao bì đúng mã vạch (iCheck: Kẹo dẻo Boom Jelly Lắk xoài lắc muối ớt, 23,5 g)",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v19"
   },
-  "question": "Mã 8936036028553 'Kẹo Boom' có đúng là Boom Jelly Lắk vị xoài lắc muối ớt (như ảnh hiện tại, gói xanh lá) không? Gói bao nhiêu gam? Nếu đúng, nên đổi tên KiotViet cho rõ vị.",
+  "question": null,
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -43,6 +51,32 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "ask owner: which Boom variant"
+    },
+    {
+      "at": "2026-10-17T14:07:18Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T14:08:32Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "resolved without asking: iCheck mã 8936036028553 = Boom Jelly Lắk xoài lắc muối ớt 23,5 g, khớp ảnh KiotViet"
+    },
+    {
+      "at": "2026-10-17T14:09:20.521Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T14:09:20.521Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

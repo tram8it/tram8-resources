@@ -17,20 +17,28 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "ASK_OWNER",
+  "status": "READY",
   "image": {
-    "decision": "ASK_OWNER",
-    "reason": "I2/D2: tên 'hương nho' lệch với ảnh Blueberry Mint",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "REPLACE",
+    "reason": "I3/I4: ảnh KiotViet chụp nắp nhiều hũ; mã vạch 8934677013112 là Xylitol Blueberry Mint hũ Handy 137,8 g (iCheck, Kingfoodmart) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh Kingfoodmart theo mã vạch (chỉ làm mẫu)",
+      "referenceUrl": "https://storage.googleapis.com/onelife-public/8934677013112.jpg"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
-    "decision": "ASK_OWNER",
-    "reason": "Chờ chủ xác nhận SP trước khi viết mô tả",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v20",
+    "decision": "WRITE_NEW",
+    "reason": "mã vạch 8934677013112 = Xylitol Blueberry Mint Handy 137,8 g (iCheck, Kingfoodmart)"
   },
-  "question": "Tên ghi 'Kẹo Gum Không Đường Hương Nho (Lọ)' (mã vạch 8934677013112) nhưng ảnh là nắp hũ Xylitol 'Blueberry Mint' (việt quất). Lotte không có Xylitol hương nho — SP này là Blueberry Mint phải không, khối lượng bao nhiêu?",
+  "question": null,
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -43,6 +51,32 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "image ASK_OWNER, description ASK_OWNER"
+    },
+    {
+      "at": "2026-10-17T14:07:38Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T14:08:44Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "resolved without asking: barcode/evidence decides (mã vạch 8934677013112 = Xylitol Blueberry Mint Handy 137,8 g (iCheck, Kingfoodmart))"
+    },
+    {
+      "at": "2026-10-17T14:09:37.986Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T14:09:37.986Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

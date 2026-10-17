@@ -17,20 +17,24 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "ASK_OWNER",
+  "status": "READY",
   "image": {
-    "decision": "ASK_OWNER",
-    "reason": "I1: chưa có ảnh; tên 'Viên kẹo diệu kỳ 22g' có thể là Kracie 'つかめる実験!ふしぎ玉' (22 g) trên trang hãng nhưng chưa chắc",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "REPLACE",
+    "reason": "I1: chưa có ảnh; ảnh Kingfoodmart theo mã vạch 4901551357437 là đúng gói Kracie つかめる実験!ふしぎ玉 → dùng ảnh bao bì trên trang hãng Kracie (560 px, phóng 1,75 lần)",
+    "source": {
+      "url": "https://www.kracie.co.jp/products/image/item/fds_fushigidama_2025_560.png",
+      "page": "https://www.kracie.co.jp/",
+      "fetchedAt": "2026-10-17"
+    },
+    "rubricVersion": "v20"
   },
   "description": {
-    "decision": "ASK_OWNER",
-    "reason": "chờ chủ xác nhận SP",
+    "decision": "WRITE_NEW",
+    "reason": "D1: mô tả ngắn từ chữ in trên gói (つかめる実験!ふしぎ玉, 6色作れる) + tên hàng 22g",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v20"
   },
-  "question": "'Kẹo Sáng Tạo Popin Cookin Viên Kẹo Diệu Kỳ 22g' (mã 4901551357437) có phải là gói Kracie 'つかめる実験!ふしぎ玉' (gói đen viền cầu vồng, chữ hồng ふしぎ玉, 22 g — ảnh hãng: https://www.kracie.co.jp/products/image/item/fds_fushigidama_2025_560.png) không? Nếu đúng sẽ dùng ảnh hãng này.",
+  "question": null,
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -43,6 +47,26 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "ask owner: confirm product is Kracie Fushigi-dama"
+    },
+    {
+      "at": "2026-10-17T14:08:01Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "resolved without asking: Kingfoodmart image for barcode 4901551357437 is the Kracie Fushigi-dama pack → brand packshot from kracie.co.jp"
+    },
+    {
+      "at": "2026-10-17T14:08:01.319Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T14:08:01.319Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

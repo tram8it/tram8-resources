@@ -17,20 +17,28 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "ASK_OWNER",
+  "status": "READY",
   "image": {
-    "decision": "ASK_OWNER",
-    "reason": "I2: tên là 'Xúc xích lắc' nhưng ảnh là hũ Heo Cao Bồi dòng 'Xốt' (nắp cam, vị tôm sữa) — không chắc SP thật là loại nào",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "REPLACE",
+    "reason": "I3/I4: ảnh tay cầm; mã vạch 8936034877764 là hũ Heo Cao Bồi dòng Xốt (Kingfoodmart), khớp ảnh → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ nhỏ (vị) không đọc rõ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh Kingfoodmart theo mã vạch (chỉ làm mẫu) + ảnh KiotViet",
+      "referenceUrl": "https://storage.googleapis.com/onelife-public/8936034877764.jpg"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
-    "decision": "ASK_OWNER",
-    "reason": "chờ chủ xác nhận đúng SP (lắc hay xốt, vị gì)",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v20",
+    "decision": "WRITE_NEW",
+    "reason": "mã vạch 8936034877764 = hũ Heo Cao Bồi dòng Xốt (Kingfoodmart), khớp ảnh; vị đọc trên ảnh KiotViet"
   },
-  "question": "SP 'Xúc xích lắc Heo Cao Bồi' (mã vạch 8936034877764): ảnh hiện tại là hũ Heo Cao Bồi dòng XỐT nắp cam (vị tôm sữa), không phải dòng LẮC. Mã vạch này là hũ xốt tôm sữa hay hũ lắc? Vị gì, bao nhiêu gam?",
+  "question": null,
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -43,6 +51,18 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "name says 'lắc' but photo shows 'Xốt' tôm sữa cup → ask owner"
+    },
+    {
+      "at": "2026-10-17T14:07:40Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T14:08:44Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "resolved without asking: barcode/evidence decides (mã vạch 8936034877764 = hũ Heo Cao Bồi dòng Xốt (Kingfoodmart), khớp ảnh; vị đọc trên ảnh KiotViet)"
     }
   ]
 }

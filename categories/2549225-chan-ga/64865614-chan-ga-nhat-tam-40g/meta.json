@@ -17,20 +17,28 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "ASK_OWNER",
+  "status": "READY",
   "image": {
-    "decision": "ASK_OWNER",
-    "reason": "I3/I7: ảnh là banner quảng cáo của cửa hàng ZonZon Food (nhiều gói chân gà cay Hey Yo); tên hàng ghi 'Nhất Tâm' nên không rõ SP thật",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "REPLACE",
+    "reason": "I3/I7: ảnh KiotViet là banner quảng cáo ZonZon nhiều gói; mã vạch 8938545001041 là Chân gà Nhất Tâm Hey Yo 40 g (Kingfoodmart, iCheck, Open Food Facts) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt; chữ nhỏ mặt sau không đọc được",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh Kingfoodmart theo mã vạch (chỉ làm mẫu)",
+      "referenceUrl": "https://storage.googleapis.com/onelife-public/8938545001041.jpg"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
-    "decision": "ASK_OWNER",
-    "reason": "Chờ chủ xác nhận thương hiệu/vị trước khi viết",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v20",
+    "decision": "WRITE_NEW",
+    "reason": "mã vạch 8938545001041 = Chân gà Nhất Tâm Hey Yo 40 g (Kingfoodmart, iCheck, OFF)"
   },
-  "question": "'Chân gà NHẤT TÂM 40g' (mã 8938545001041, thương hiệu ghi HEY YO): ảnh hiện tại là banner ZonZon Food với chân gà cay Hey Yo. SP này là chân gà của hãng nào (Nhất Tâm hay Hey Yo), vị gì?",
+  "question": null,
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -43,6 +51,32 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "b20 review: image ASK_OWNER, description ASK_OWNER"
+    },
+    {
+      "at": "2026-10-17T14:07:35Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T14:08:43Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "resolved without asking: barcode/evidence decides (mã vạch 8938545001041 = Chân gà Nhất Tâm Hey Yo 40 g (Kingfoodmart, iCheck, OFF))"
+    },
+    {
+      "at": "2026-10-17T14:09:32.026Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T14:09:32.026Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

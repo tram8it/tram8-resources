@@ -17,20 +17,28 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "ASK_OWNER",
+  "status": "READY",
   "image": {
-    "decision": "ASK_OWNER",
-    "reason": "I2/I3: ảnh tay cầm chai trong siêu thị; tên ghi 'Hồng sâm' nhưng chai trong ảnh là Pororo Apple Flavor",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "REPLACE",
+    "reason": "I3: ảnh KiotViet tay cầm trong siêu thị; mã vạch 8935358700031 là Pororo hương táo (Kingfoodmart), bao bì mới hơn ảnh cửa hàng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: dùng bao bì mới nhất (chai cửa hàng là bản cũ ghi Apple Flavor)",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh Kingfoodmart theo mã vạch (chỉ làm mẫu, bao bì mới)",
+      "referenceUrl": "https://storage.googleapis.com/onelife-public/8935358700031.jpg"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
-    "decision": "ASK_OWNER",
-    "reason": "Chờ chủ xác nhận SP trước khi viết",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v20",
+    "decision": "WRITE_NEW",
+    "reason": "mã vạch 8935358700031 = nước Pororo hương táo (Kingfoodmart), không phải hồng sâm; dung tích không đọc được"
   },
-  "question": "SP \"Nước Hồng Sâm Pororo dạng chai vị táo\" (mã 8935358700031) là nước hồng sâm cho trẻ em vị táo, hay nước trái cây Pororo vị táo (Apple Flavor) như chai trong ảnh hiện tại? Dung tích chai bao nhiêu ml?",
+  "question": null,
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -43,6 +51,32 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "batch b09 review: image ASK_OWNER, description ASK_OWNER"
+    },
+    {
+      "at": "2026-10-17T14:07:39Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T14:08:44Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "resolved without asking: barcode/evidence decides (mã vạch 8935358700031 = nước Pororo hương táo (Kingfoodmart), không phải hồng sâm; dung tích không đọc được)"
+    },
+    {
+      "at": "2026-10-17T14:10:03.739Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T14:10:03.739Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

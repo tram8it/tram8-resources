@@ -17,20 +17,28 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "ASK_OWNER",
+  "status": "READY",
   "image": {
-    "decision": "ASK_OWNER",
-    "reason": "Ảnh chụp điện thoại (I3/I4) là kem Lotte It's Waffle sô cô la cookie (잇츠와플 초코쿠키 × 옥동자, 140 ml), không phải \"Choco Shell Monaka\"",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "REPLACE",
+    "reason": "I3/I4: ảnh điện thoại nền xám; mã vạch 8801062899302 là kem Lotte 옥동자 (Open Food Facts: choco cookie Okdongja), gói It's Waffle là bao bì mới nhất cùng thành phần → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ Hàn nhỏ không đọc rõ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (ảnh điện thoại)",
+      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/05/11/tram8/19b2a65c697c4807b557027cbbdb6893.jpeg"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
-    "decision": "ASK_OWNER",
-    "reason": "Chưa có mô tả; chờ chủ xác nhận đúng sản phẩm",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v20",
+    "decision": "WRITE_NEW",
+    "reason": "mã vạch 8801062899302 = kem Lotte 옥동자 (OFF: choco cookie Okdongja), bao bì It's Waffle là bản mới nhất; viết từ chữ trên gói"
   },
-  "question": "\"Kem Choco Shell Monaka\" (mã 8801062899302): ảnh hiện tại là kem Lotte It's Waffle vị sô cô la cookie (bản hợp tác Okdongja, 140 ml). Hàng đang bán là loại nào? Nếu là It's Waffle sô cô la thì sửa tên trên KiotViet và tôi viết mô tả theo gói này.",
+  "question": null,
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -43,6 +51,18 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "name \"Choco Shell Monaka\" vs photo It's Waffle choco cookie"
+    },
+    {
+      "at": "2026-10-17T14:07:39Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T14:08:44Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "resolved without asking: barcode/evidence decides (mã vạch 8801062899302 = kem Lotte 옥동자 (OFF: choco cookie Okdongja), bao bì It's Waffle là bản mới nhất; viết từ chữ trên gói)"
     }
   ]
 }

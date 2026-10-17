@@ -30,7 +30,7 @@
     "source": null,
     "rubricVersion": "v4"
   },
-  "question": "Tên hàng là \"Bia Huda Ice Twist\" nhưng ảnh hiện tại là lon Huda ICE BLAST (độ cồn 4,7%). Hàng đang bán là Huda Ice Twist hay Huda Ice Blast, và dung tích lon là bao nhiêu (250 ml hay 330 ml)?",
+  "question": "Bia Huda (8934692070213): iCheck ghi 'Huda Ice Twist lon 330ml' nhưng ảnh iCheck là Ice Blast. Hàng trên kệ là Ice Twist hay Ice Blast?",
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -43,6 +43,12 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "asked owner: name says Ice Twist, photo shows Ice Blast"
+    },
+    {
+      "at": "2026-10-17T14:09:18Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "re-triage: iCheck title Ice Twist 330 ml but its photo is Ice Blast; both beers exist (Ice Twist 2026 blue-green can) → still ASK, question shortened"
     }
   ]
 }

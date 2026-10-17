@@ -17,20 +17,28 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "ASK_OWNER",
+  "status": "READY",
   "image": {
-    "decision": "ASK_OWNER",
-    "reason": "Vị trên hũ (Cooling Lemon Sea Salt – chanh muối biển) khác tên KiotViet (chanh mật ong); chưa vẽ ảnh",
-    "source": null,
-    "rubricVersion": "v17"
+    "decision": "REPLACE",
+    "reason": "I3/I4: ảnh tay cầm trước kệ; mã vạch 8859578600370 là Playmore Cooling Lemon Sea Salt 22 g (iCheck, Kingfoodmart), khớp ảnh → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh Kingfoodmart theo mã vạch (chỉ làm mẫu) + ảnh KiotViet",
+      "referenceUrl": "https://storage.googleapis.com/onelife-public/8859578600370.jpg"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
-    "decision": "WRITE_NEW",
-    "reason": "D1: chưa có mô tả; không có trang hãng — mô tả ngắn chỉ từ tên SP và chữ in mặt trước bao bì (ảnh hiện tại)",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v20",
+    "decision": "REWRITE",
+    "reason": "D2: mô tả cũ ghi chanh mật ong; mã vạch 8859578600370 = Playmore chanh muối biển 22 g (iCheck, Kingfoodmart)"
   },
-  "question": "Mã vạch 8859578600370: ảnh KiotViet (nhân viên chụp) là hũ Playmore 'Cooling Lemon Sea Salt' (Thái: เลมอนและเกลือ = chanh muối biển, Sugar Free, 22g), nhưng tên KiotViet là 'Kẹo The Vị Chanh Mật Ong Playmore Hũ 22g' và mô tả cũng ghi chanh mật ong. Hàng thật là vị nào? (a) chanh muối biển → sửa tên SP thành 'Kẹo The Vị Chanh Muối Biển Playmore Hũ 22g', AI sẽ vẽ ảnh theo hũ chanh muối biển và viết lại mô tả; (b) đúng là chanh mật ong → nhờ nhân viên chụp lại mặt trước hũ chanh mật ong (ảnh hiện tại là vị khác).",
+  "question": null,
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -49,6 +57,32 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "Ảnh KiotViet là hũ Playmore Cooling Lemon Sea Salt, tên SP ghi Chanh Mật Ong; hỏi chủ vị thật trước khi vẽ ảnh"
+    },
+    {
+      "at": "2026-10-17T14:07:39Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T14:08:44Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "resolved without asking: barcode/evidence decides (D2: mô tả cũ ghi chanh mật ong; mã vạch 8859578600370 = Playmore chanh muối biển 22 g (iCheck, Kingfoodmart))"
+    },
+    {
+      "at": "2026-10-17T14:09:53.827Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T14:09:53.827Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

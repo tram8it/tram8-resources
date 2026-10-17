@@ -17,20 +17,28 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "ASK_OWNER",
+  "status": "READY",
   "image": {
-    "decision": "ASK_OWNER",
-    "reason": "I3, I4: ảnh chụp 2 lon trên kệ (cần thay); tên SP mâu thuẫn mận/dưa hấu, chưa rõ thương hiệu",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "REPLACE",
+    "reason": "I3/I4: ảnh chụp 2 lon trên kệ; mã vạch 8809005029571 là SFC Bio Sparkling Plum 350 ml (Open Food Facts, iCheck), khớp ảnh → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: giữ bản lon của cửa hàng (nhãn bát giác Mexico); chữ nhỏ và mã vạch bên hông không đọc được",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (2 lon trên kệ) + Open Food Facts",
+      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/03/15/tongpenhchtl/45903d27c02e4870b33c9b1cf3496dad.jpeg"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
-    "decision": "ASK_OWNER",
-    "reason": "D1: chưa có mô tả; tên mâu thuẫn (Mận vs Watermelon) → chờ chủ xác nhận vị",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v20",
+    "decision": "WRITE_NEW",
+    "reason": "mã vạch 8809005029571 = SFC Bio Sparkling Plum 350 ml (OFF, iCheck)"
   },
-  "question": "\"Nước Uống Có Ga Vị Mận Sparking Watermelon 350ml\" (mã 8809005029571): ảnh hiện tại là lon Sparkling PLUM (자두소다 – soda mận, nhãn Mexico). Sản phẩm đang bán là vị mận hay vị dưa hấu (watermelon)? Thương hiệu là gì? Ảnh cần chụp lại vì ảnh hiện tại chụp trên kệ.",
+  "question": null,
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -43,6 +51,32 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "b17: asked owner (plum vs watermelon name conflict)"
+    },
+    {
+      "at": "2026-10-17T14:07:39Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T14:08:44Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "resolved without asking: barcode/evidence decides (mã vạch 8809005029571 = SFC Bio Sparkling Plum 350 ml (OFF, iCheck))"
+    },
+    {
+      "at": "2026-10-17T14:10:07.281Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T14:10:07.281Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

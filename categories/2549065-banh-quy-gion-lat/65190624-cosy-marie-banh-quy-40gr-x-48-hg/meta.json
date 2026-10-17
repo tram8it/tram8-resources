@@ -30,7 +30,7 @@
     "source": null,
     "rubricVersion": "v4"
   },
-  "question": "Cosy Marie (mã 8934680113823): Trạm 8 bán lẻ 1 gói/hộp 40 g hay cả thùng 48 hộp? Ảnh hiện tại là hộp Cosy Marie cỡ lớn, không thấy khối lượng — nếu bán gói 40 g thì cần chụp lại.",
+  "question": "Cosy Marie mã …3823 tra ra hộp nhỏ 48 g (iCheck); tên ghi 40 g, ảnh KiotViet là hộp 67 g. Kệ bán hộp nào?",
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -43,6 +43,12 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "batch b14 review (rubric v4): image ASK_OWNER, description ASK_OWNER"
+    },
+    {
+      "at": "2026-10-17T14:08:50Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "re-triage 17/10: câu hỏi rút gọn; 3 nguồn ra 3 cỡ khác nhau, lệch > 10%"
     }
   ]
 }

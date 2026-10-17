@@ -30,7 +30,7 @@
     "source": null,
     "rubricVersion": "v4"
   },
-  "question": "\"Kem cá Celano vị vanila đậu đỏ 100ml\" (mã 8936011773997): ảnh hiện tại là gói Celano Taiyaki \"Green tea & red bean sauce\" (trà xanh đậu đỏ). Hàng đang bán là vị vani đậu đỏ hay trà xanh đậu đỏ?",
+  "question": "Kem cá Celano (8936011773997): mã chỉ ra 'Kem cá Celano', không rõ vị. Hàng trên kệ là vani đậu đỏ (cần chụp) hay trà xanh đậu đỏ như ảnh?",
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -43,6 +43,12 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "name says vanilla-red bean, photo shows green tea-red bean"
+    },
+    {
+      "at": "2026-10-17T14:09:18Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "re-triage: barcode resolves only to 'Kem cá Celano' (iCheck, photo of 4 flavours incl. Vanilla & red bean); both variants exist → still ASK, question shortened"
     }
   ]
 }

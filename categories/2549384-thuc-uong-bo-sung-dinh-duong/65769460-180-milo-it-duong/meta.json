@@ -17,20 +17,28 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "ASK_OWNER",
+  "status": "READY",
   "image": {
-    "decision": "ASK_OWNER",
-    "reason": "I2: ảnh hiện tại là hộp \"MILO Sữa A2 ít đường\", trong khi có SP riêng \"Milo A2\" (8934804054049); không chắc SP này là MILO ít đường thường hay MILO A2 ít đường",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "REPLACE",
+    "reason": "I2: ảnh KiotViet là hộp MILO A2 ít đường; mã vạch 8934804034058 là MILO ít đường 180 ml loại thường (Kingfoodmart, ảnh mã vạch trên Open Food Facts) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh Kingfoodmart theo mã vạch (chỉ làm mẫu)",
+      "referenceUrl": "https://storage.googleapis.com/onelife-public/8934804034058.jpg"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
-    "decision": "ASK_OWNER",
-    "reason": "Chờ xác định đúng SP",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v20",
+    "decision": "WRITE_NEW",
+    "reason": "mã vạch 8934804034058 = MILO ít đường 180 ml (Kingfoodmart, OFF)"
   },
-  "question": "SP \"180-Milo ít đường\" (mã vạch 8934804034058) đang có ảnh hộp \"MILO Sữa A2 ít đường\". Hàng thực tế là MILO ít đường loại thường hay MILO A2 ít đường? Nếu là A2 ít đường thì SP \"MILO180 A2\" (8934804054049) là loại nào (A2 thường)?",
+  "question": null,
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -43,6 +51,32 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "image ASK_OWNER, description ASK_OWNER"
+    },
+    {
+      "at": "2026-10-17T14:07:37Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T14:08:43Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "resolved without asking: barcode/evidence decides (mã vạch 8934804034058 = MILO ít đường 180 ml (Kingfoodmart, OFF))"
+    },
+    {
+      "at": "2026-10-17T14:10:10.973Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T14:10:10.973Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

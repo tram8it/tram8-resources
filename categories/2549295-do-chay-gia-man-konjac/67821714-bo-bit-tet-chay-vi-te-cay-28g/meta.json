@@ -30,7 +30,7 @@
     "source": null,
     "rubricVersion": "v4"
   },
-  "question": "Mã 6927514392480 (巧大娘 素大牛排): ảnh KiotViet chụp gói ghi 香辣味 (cay thơm), không thấy khối lượng; tên KiotViet là 'Vị Tê Cay 28g' (tê cay = 麻辣味). Gói cửa hàng đang bán là vị nào và có in 28g không? Chủ gửi ảnh mặt trước gói thật (hoặc xác nhận vẽ theo gói 香辣味 và sửa tên) để vẽ lại.",
+  "question": "Bò bít tết chay 巧大娘 (6927514392480): ảnh là gói 香辣味 (cay thơm) ghi 35g, tên ghi tê cay 28g. Vẽ theo gói ảnh 35g, hay gói khác 28g (cần chụp)?",
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -49,6 +49,12 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "Vị trên gói ảnh KiotViet (香辣味) lệch tên KiotViet (vị tê cay); chưa vẽ, hỏi chủ"
+    },
+    {
+      "at": "2026-10-17T14:09:18Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "re-triage: barcode not found online; photo pack reads 香辣味 净含量 35克, name says 麻辣/28 g (>10% gap) → still ASK, question shortened"
     }
   ]
 }

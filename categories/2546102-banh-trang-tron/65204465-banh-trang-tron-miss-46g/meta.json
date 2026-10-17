@@ -17,20 +17,28 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "ASK_OWNER",
+  "status": "READY",
   "image": {
-    "decision": "ASK_OWNER",
-    "reason": "I2: tên không ghi vị; ảnh hiện tại là mặt sau gói Phô mai 40g, không khớp 46g trong tên",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "REPLACE",
+    "reason": "I2/I3: ảnh KiotViet là mặt sau gói; Miss Bánh Tráng (vinasnack.com.vn) không có ảnh gói này → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: dòng chữ rất nhỏ dưới 'Mixed Rice Paper With Cheese' (nhà máy đạt chuẩn HACCP/ISO) AI vẽ không đúng chữ, không đọc được ở cỡ web; mặt trước không in khối lượng",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh Kingfoodmart + ảnh iCheck của mã vạch 8938549708182 (chỉ làm mẫu)",
+      "referenceUrl": "https://storage.googleapis.com/onelife-public/8938549708182.jpg"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
-    "decision": "ASK_OWNER",
-    "reason": "Chờ chủ xác nhận vị/khối lượng trước khi viết",
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; vị phô mai theo bao bì đúng mã vạch (Kingfoodmart, iCheck); khối lượng 40 g theo chữ 'KLT: 40G' in trên gói (ảnh KiotViet mặt sau) — tên KiotViet ghi 46g",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v19"
   },
-  "question": "SP \"Bánh tráng trộn miss 46g\" (mã vạch 8938549708182) là vị nào? Ảnh hiện tại là mặt sau gói Miss Bánh Tráng vị Phô mai, in KLT 40g — đúng SP này không, và khối lượng là 40g hay 46g?",
+  "question": null,
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -43,6 +51,32 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "batch b09 review: image ASK_OWNER, description ASK_OWNER"
+    },
+    {
+      "at": "2026-10-17T14:07:18Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T14:08:32Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "resolved without asking: mã vạch = Bánh tráng trộn Phô mai (Kingfoodmart, iCheck); gói ở cửa hàng in KLT 40 g (ảnh KiotViet) → mô tả theo bao bì (v19), tên ghi 46g không cần sửa"
+    },
+    {
+      "at": "2026-10-17T14:09:17.874Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T14:09:17.874Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

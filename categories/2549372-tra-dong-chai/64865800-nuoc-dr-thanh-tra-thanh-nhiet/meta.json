@@ -17,23 +17,31 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "ASK_OWNER",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh; trang Tân Hiệp Phát không có ảnh SP tải được → cần chụp",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I1: chưa có ảnh; trang hãng chỉ có ảnh lifestyle → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ nhỏ trên nhãn có thể khác; không ghi dung tích trên ảnh",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh Open Food Facts theo mã vạch 8936193070051 (chai thật, chỉ làm mẫu)",
+      "referenceUrl": "https://world.openfoodfacts.org/product/8936193070051"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
-    "reason": "D1: chưa có mô tả; theo trang Tân Hiệp Phát (thành phần bản có đường, chai PET); tên SP không ghi dung tích nên bỏ",
+    "reason": "D1: chưa có mô tả; viết ngắn từ chữ in trên chai; dung tích 330 ml theo ảnh lốc 6 chai × 330 ml cùng mã vạch trên Open Food Facts",
     "source": {
-      "url": "https://www.thp.com.vn/tra-thanh-nhiet-dr-thanh/",
-      "fetchedAt": "2026-10-13"
+      "url": "https://world.openfoodfacts.org/product/8936193070051",
+      "fetchedAt": "2026-10-17"
     },
-    "rubricVersion": "v4"
+    "rubricVersion": "v19"
   },
-  "question": "Dr.Thanh (mã vạch 8936193070051): tên KiotViet không ghi dung tích và chưa có ảnh. Trang hãng thp.com.vn có ảnh chai 330 ml (nhãn 'TRÀ THANH NHIỆT', 'Fl.oz 330 mL') và một chai lớn hơn (455 ml?). Cửa hàng bán chai 330 ml hay 455 ml? Nếu 330 ml thì dùng ảnh hãng 330 ml và thêm '330 ml' vào mô tả.",
+  "question": null,
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -52,6 +60,32 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "Brand site has 330 ml packshot (and a larger size); volume of the sold SKU unknown -> asked owner"
+    },
+    {
+      "at": "2026-10-17T14:09:04Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T14:09:04Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "resolved without asking: Open Food Facts photos for barcode 8936193070051 show the red Dr.Thanh bottle and a 6 x 330 ml pack, so the size is 330 ml"
+    },
+    {
+      "at": "2026-10-17T14:09:11.793Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T14:09:11.793Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

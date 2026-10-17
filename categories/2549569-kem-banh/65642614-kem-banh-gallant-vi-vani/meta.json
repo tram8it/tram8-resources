@@ -17,20 +17,27 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "ASK_OWNER",
+  "status": "READY",
   "image": {
-    "decision": "ASK_OWNER",
-    "reason": "Ảnh chụp điện thoại (I3/I4) là kem bánh 빵뚜르 (bánh castella kẹp kem, 190 ml), tên SP lại ghi \"gallant vị vani\"",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "REPLACE",
+    "reason": "I3/I4: ảnh chụp điện thoại trên nền xám; không có trang hãng (Seoju) truy cập được → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: bỏ dòng hạn dùng in phun; bảng thông tin nhỏ ở đáy và tên hãng góc trái do AI vẽ, không đọc được; chữ lớn 빵뚜르, 버터UP, 190 mL theo ảnh thật",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet của cửa hàng"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
-    "decision": "ASK_OWNER",
-    "reason": "Chưa có mô tả; chờ chủ xác nhận đúng sản phẩm",
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; theo chữ in trên bao bì (ảnh KiotViet: 빵뚜르, 버터UP, 190 mL, castella 25 %); Open Food Facts mã 8801206000045 = Seoju Butter Flavour Ice Cream Sandwich — tên KiotViet ghi 'vị vani'",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v19"
   },
-  "question": "\"Kem bánh gallant vị vani\" (mã 8801206000045): ảnh hiện tại là kem Hàn Quốc 빵뚜르 (Bbangtteure — bánh castella kẹp kem, 190 ml). Đây có đúng là hàng đang bán không, và \"gallant\" là tên gì (thương hiệu hay tên nhà nhập khẩu)?",
+  "question": null,
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -43,6 +50,32 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "name \"gallant vị vani\" vs photo 빵뚜르 castella ice cream"
+    },
+    {
+      "at": "2026-10-17T14:07:18Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T14:08:33Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "resolved without asking: mã vạch (Open Food Facts) và ảnh KiotViet cùng là kem bánh 빵뚜르 vị bơ 190 ml → ảnh/mô tả theo bao bì (v19)"
+    },
+    {
+      "at": "2026-10-17T14:09:24.756Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T14:09:24.756Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

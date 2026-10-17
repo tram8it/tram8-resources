@@ -17,20 +17,28 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "ASK_OWNER",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I4/I8: ảnh chụp nhiều thanh trong hũ, mặt trước bị cắt, không đọc được khối lượng; chữ vị trên bao bì (Mixed Berries) khác tên (hương dâu); không có ảnh hãng/NPP/nhà bán lẻ",
-    "source": null,
-    "rubricVersion": "v17"
+    "reason": "I3/I4/I8: ảnh nhiều thanh trong hũ; mã vạch 8934677051213 là kẹo gum Doraemon thanh (iCheck), thanh trên kệ ghi Hương Mixed Berries → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: ảnh minh hoạ một thanh dựng từ ảnh hũ; khối lượng không đọc được nên không ghi",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (nhiều thanh trong hũ)",
+      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/04/26/tram8/aea1b5b9075f432fa1eb758cde2092d6.jpeg"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
-    "decision": "WRITE_NEW",
-    "reason": "D1: chưa có mô tả; viết ngắn từ tên SP và chữ in mặt trước bao bì (không có nguồn hãng)",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v20",
+    "decision": "REWRITE",
+    "reason": "D2: mô tả cũ ghi hương dâu; thanh trên kệ (ảnh KiotViet, mã 8934677051213) ghi Hương Mixed Berries"
   },
-  "question": "Mã vạch 8934677051213 (Kẹo gum doremon Hương dâu): ảnh KiotViet (nhiều thanh trong hũ) cho thấy mặt thanh ghi \"Hương Mixed Berries\" (kèm \"Hương vị ngọt ngào\", \"Hương vị sảng khoái\", hình dâu + nho + dứa), không ghi \"hương dâu\"; khối lượng không đọc được và mặt trước bị che/cắt nên chưa vẽ lại được. Chủ chọn: (a) đúng là thanh Doraemon Mixed Berries → nhờ nhân viên chụp thẳng trọn mặt trước 1 thanh (đọc được khối lượng) để vẽ lại, và cân nhắc sửa tên KiotViet; (b) cửa hàng có thanh Doraemon hương dâu riêng → chụp thanh đó.",
+  "question": null,
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -49,6 +57,32 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "Pack shows \"Hương Mixed Berries\", name says hương dâu; front cropped, weight unreadable; no web reference found"
+    },
+    {
+      "at": "2026-10-17T14:07:40Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T14:08:44Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "resolved without asking: barcode/evidence decides (D2: mô tả cũ ghi hương dâu; thanh trên kệ (ảnh KiotViet, mã 8934677051213) ghi Hương Mixed Berries)"
+    },
+    {
+      "at": "2026-10-17T14:09:44.456Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T14:09:44.456Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

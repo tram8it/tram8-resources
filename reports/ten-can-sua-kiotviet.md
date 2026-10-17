@@ -22,3 +22,17 @@ Hàng thật xác định theo mã vạch; ảnh + mô tả đã làm theo hàng
 | 8935217412112 | Sữa uống TH Socola 180ml | Sữa chua uống tiệt trùng TH true YOGURT hương dâu 180 ml (không phải sữa sô-cô-la) | mã in trên hộp (ảnh thtruemart.vn); Kingfoodmart 8935217412112 |
 | 7622210410511 | Cadbury Dairy Milk chocolate | Sô-cô-la Cadbury Dairy Milk Fruit & Nut (nho khô, hạnh nhân) | Open Food Facts + Kingfoodmart 7622210410511 |
 | 88011049000722 | Kem Chocobananamallow bar (Kem que marshmallow socola chuối) | Kem Melona vị chuối (mã vạch = 8801104900072 gõ thừa số 2; xem ma-trung-de-tat.md) | mã Melona chuối của SP 67039576; bing.co.kr |
+| 65227616 | Tea+ Trà Ô Long Vị Chanh Chai nhựa 320 (Chai) | Tea+ Trà Ô Long XANH hương vị chanh 320 ml (nhãn xanh lá), khác SP Tea+ vị chanh nhãn vàng 64865445 | ảnh nhân viên chụp kèm tem mã vạch 8934588763113; mã khác SP 64865445 (8934588290114) |
+| 64865433 | Thịt Sấy Khô Hộp Xốp 86g (Khay) | Thịt bò khô Phương Huyền (Beef Jerky, bò sợi), không phải thịt heo; nhãn iCheck ghi 95gr — kiểm tra khối lượng trên khay | iCheck 8938522697021 + nhãn trên ảnh KiotViet |
+| 64865735 | Kẹo Gum Không Đường Hương Nho (Lọ) | Lotte Xylitol Blueberry Mint hũ Handy 137,8 g (không phải hương nho) | iCheck + Kingfoodmart 8934677013112 |
+| 65205460 | Kẹo cao su Xylitol nho 58GR (Lọ) | Lotte Xylitol Blueberry Mint hũ 58 g (không phải hương nho) | Open Food Facts + Kingfoodmart 8934677000334 |
+| 64865754 | Kẹo gum h.bạc hà Doublemint G3 THANHX15G (Lọ) | Kẹo gum bong bóng Lotte Fusen Nomi hương cola chanh 15 g (không phải Doublemint) | iCheck 8934677000686 + chữ trên hộp |
+| 64865351 | Kẹo Fres Mint Barley Bag 24 × 150g (Gói) | Kẹo Fres Apple Peach (táo đào) 150 g, không phải Barley | iCheck 8996001346365 + chữ trên gói |
+| 68215251 | Kẹo The Vị Chanh Mật Ong Playmore Hũ 22g (Lọ) | Kẹo the Playmore vị Chanh Muối Biển (Cooling Lemon Sea Salt) hũ 22 g | iCheck + Kingfoodmart 8859578600370 |
+| 65205348 | Nước Hồng Sâm Pororo dạng chai vị táo (Chai) | Nước uống Pororo hương táo (bổ sung kẽm), không phải hồng sâm | Kingfoodmart 8935358700031 + ảnh KiotViet |
+| 64865263 | Nước Uống Có Ga Vị Mận Sparking Watermelon 350ml (Lon) | Soda mận SFC Bio Sparkling Plum 350 ml (không có chữ Watermelon) | Open Food Facts + iCheck 8809005029571 |
+| 65642548 | Kem Choco Shell Monaka (Cái) | Kem Lotte It's Waffle sô-cô-la cookie × Okdongja 140 ml (bản mới của Okdongja Monaka) | Open Food Facts + Kingfoodmart 8801062899302, chữ trên gói |
+| 64865617 | Xúc xích lắc Heo Cao Bồi (hộp) | Hũ Heo Cao Bồi dòng XỐT (nắp cam, vị tôm sữa), không phải dòng lắc | Kingfoodmart 8936034877764 + ảnh KiotViet |
+| 65205455 | Kẹo gum doremon Hương dâu (Thanh) | Kẹo gum Lotte Doraemon thanh hương Mixed Berries (không phải hương dâu) | iCheck 8934677051213 + chữ trên thanh ở ảnh KiotViet |
+| 67388547 | Ba rọi cháy tỏi quang Thanh 230g ( heokhochaytoi) (Hộp) | Heo khô cháy tỏi Quang Thanh Foods (không phải ba rọi), 230 g | nhãn trên ảnh KiotViet + hậu tố '(heokhochaytoi)' trong tên; mã chưa tra được trên mạng |
+| 64865525 | Kẹo dừa mix (gói) | Kẹo dừa sáp Cafe Muối Quang Thanh Foods (không phải mix) | mã vạch 8936236140123 in trên nhãn túi ở ảnh KiotViet |

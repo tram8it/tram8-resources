@@ -17,20 +17,27 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "ASK_OWNER",
+  "status": "READY",
   "image": {
-    "decision": "ASK_OWNER",
-    "reason": "I3, I4: ảnh chụp điện thoại nền không trắng (cần thay); nhưng quy cách bán chưa rõ nên chưa biết cần ảnh 1 cây hay 1 túi",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "REPLACE",
+    "reason": "I3/I4/I5: ảnh chụp điện thoại, nền mặt đá, bị khung cắt đầu và đáy gói; Heo Cao Bồi (SNF) không có trang hãng truy cập được → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: ảnh minh hoạ: đầu gói (dải logo, mép hàn) và đáy gói (chữ 'Mật Ong', mép hàn) do AI dựng vì ảnh thật bị cắt; tỉ lệ gói thật có thể khác; không in khối lượng; SP bán lẻ theo cây 32 g (đơn vị KiotViet 'cái'), ảnh là bao bì chụp tại cửa hàng",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet của cửa hàng (ảnh chụp gói, bị cắt đầu và đáy)"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
-    "decision": "ASK_OWNER",
-    "reason": "quy cách bán chưa rõ: tên ghi '12 túi × 15 cây × 32gr ( túi )', đơn vị 'cái'",
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; theo chữ in trên gói (ảnh KiotViet) và đơn vị KiotViet 'cái' = 1 cây 32 g (RUBRIC v19)",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v19"
   },
-  "question": "Xúc xích Heo Cao Bồi nhân bơ sữa vị mật ong (mã vạch 8936034878853): tên ghi '12 túi × 15 cây × 32gr ( túi )' nhưng đơn vị là 'cái'. Cửa hàng bán lẻ 1 cây 32 g hay 1 túi 15 cây? (để chụp ảnh và ghi quy cách đúng)",
+  "question": null,
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -43,6 +50,32 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "sale unit unclear (cây vs túi) → ask owner; current photo fails I3/I4"
+    },
+    {
+      "at": "2026-10-17T14:07:17Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T14:08:32Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "resolved without asking: đơn vị KiotViet 'cái' = 1 cây 32 g (v19); ảnh = gói chụp tại cửa hàng, Gemini dựng lại phần bị cắt (ảnh minh hoạ)"
+    },
+    {
+      "at": "2026-10-17T14:09:09.995Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T14:09:09.995Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

@@ -17,20 +17,28 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "ASK_OWNER",
+  "status": "READY",
   "image": {
-    "decision": "ASK_OWNER",
-    "reason": "I2: ảnh hiện tại là Dasani tinh khiết nhãn xanh lá 500 ml; tên ghi 510 ml — trên trang hãng 510 ml là Dasani bổ sung khoáng (nhãn xanh dương)",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "REPLACE",
+    "reason": "I2: ảnh KiotViet là Dasani tinh khiết 500 ml; mã vạch 8935049510864 là Dasani 510 ml nhãn xanh lá (Kingfoodmart) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh Kingfoodmart theo mã vạch (chỉ làm mẫu)",
+      "referenceUrl": "https://storage.googleapis.com/onelife-public/8935049510864.jpg"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
-    "decision": "ASK_OWNER",
-    "reason": "D1: chưa có mô tả; chờ xác định đúng loại",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v20",
+    "decision": "WRITE_NEW",
+    "reason": "mã vạch 8935049510864 = Dasani 510 ml nhãn xanh lá (Kingfoodmart)"
   },
-  "question": "\"Đồ uống DASANI 510ML\" (mã 8935049510864): hàng là Dasani bổ sung khoáng 510 ml (nhãn xanh dương, trên coca-cola.com/vn) hay Dasani tinh khiết 500 ml nhãn xanh lá như ảnh hiện tại?",
+  "question": null,
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -43,6 +51,32 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "b18 review (rubric v4): image ASK_OWNER, description ASK_OWNER"
+    },
+    {
+      "at": "2026-10-17T14:07:36Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T14:08:43Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "resolved without asking: barcode/evidence decides (mã vạch 8935049510864 = Dasani 510 ml nhãn xanh lá (Kingfoodmart))"
+    },
+    {
+      "at": "2026-10-17T14:10:09.398Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T14:10:09.398Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

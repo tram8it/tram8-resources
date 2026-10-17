@@ -17,20 +17,28 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "ASK_OWNER",
+  "status": "READY",
   "image": {
-    "decision": "ASK_OWNER",
-    "reason": "I2/I4: ảnh là gói Fres vị táo đào (Apple Peach), không phải Barley, nền không trắng; mayora.com lỗi chứng chỉ; mayoraindah.co.id chỉ có ảnh thương hiệu 165px — không có nguồn hãng",
-    "source": null,
-    "rubricVersion": "v17"
+    "decision": "REPLACE",
+    "reason": "I4: ảnh scan nền xám có dấu mộc; mã vạch 8996001346365 là Fres Apple Peach 150 g (iCheck), khớp ảnh → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: dòng khối lượng để trống vì ảnh mẫu không đọc được",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (ảnh scan) + iCheck",
+      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/03/20/tongpenhchtl/c343a4630b284aaf8b2efe05299545d7.jpeg"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
-    "decision": "WRITE_NEW",
-    "reason": "D1: chưa có mô tả; không có trang hãng, không có ảnh bao bì — mô tả ngắn chỉ từ tên SP",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v20",
+    "decision": "REWRITE",
+    "reason": "D2: mô tả cũ ghi vị Barley; mã vạch 8996001346365 = Fres Apple Peach 150 g (iCheck), khớp ảnh"
   },
-  "question": "Kẹo Fres (mã 8996001346365): tên KiotViet là 'Fres Mint Barley 150g' nhưng ảnh KiotViet là gói Fres vị Táo Đào (Apple Peach); không tra được mã này ở nguồn nào. Đã có SP riêng 'Kẹo the Fres barley 150g' (mã 8996001338063). Mã 8996001346365 là vị nào — Barley hay Apple Peach? Nếu Apple Peach thì nên sửa tên KiotViet.",
+  "question": null,
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -49,6 +57,32 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "Tên Barley nhưng ảnh là Apple Peach; mã vạch không tra được — hỏi chủ vị đúng"
+    },
+    {
+      "at": "2026-10-17T14:07:38Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T14:08:44Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "resolved without asking: barcode/evidence decides (D2: mô tả cũ ghi vị Barley; mã vạch 8996001346365 = Fres Apple Peach 150 g (iCheck), khớp ảnh)"
+    },
+    {
+      "at": "2026-10-17T14:09:48.955Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T14:09:48.955Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

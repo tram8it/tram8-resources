@@ -19,17 +19,14 @@
   },
   "status": "READY",
   "image": {
-    "decision": "CROP",
-    "reason": "I9: packshot nền trắng, đúng SP nhưng ảnh 450×600 không 1:1",
-    "source": null,
-    "rubricVersion": "v4",
-    "vivid": {
-      "rubricVersion": "v10",
-      "saturationGain": 1.25,
-      "contrastGain": 1.08,
-      "toneGain": 1.096,
-      "gamma": 0.832
-    }
+    "decision": "REPLACE",
+    "reason": "ảnh tự chụp (mềm, lóa) → ảnh hãng lăn NIVEA MEN Silver Protect 50 ml (trang NIVEA Malaysia, mã vạch 4005808304172 khớp)",
+    "source": {
+      "url": "https://img.nivea.com/-/media/miscellaneous/media-center-items/c/0/e/2c6b2d82e26541f88f813c6044ac9682-screen.jpg",
+      "fetchedAt": "2026-10-17",
+      "page": "https://www.nivea.com.my/en-my/products/x-40058083041720058.html"
+    },
+    "rubricVersion": "v20"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -59,6 +56,12 @@
       "by": "ai",
       "status": "READY",
       "note": "tone.py --vivid: white balance/levels + brand-like colour (owner request)"
+    },
+    {
+      "at": "2026-10-17T14:08:53.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "image: shop photo replaced with brand packshot (img.nivea.com)"
     }
   ]
 }

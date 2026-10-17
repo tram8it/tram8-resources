@@ -17,12 +17,12 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "ASK_OWNER",
+  "status": "NEEDS_PHOTO",
   "image": {
-    "decision": "ASK_OWNER",
-    "reason": "I3/I6: ảnh chén mận, không có bao bì, nhỏ (225 px) → cần thay, nhưng chưa xác định được hãng/khối lượng",
+    "decision": "REPLACE",
+    "reason": "I3/I6: ảnh chỉ là chén mận, không có bao bì; mã 8938520099650 không tra được → cần chụp túi mận dẻo",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v19"
   },
   "description": {
     "decision": "ASK_OWNER",
@@ -30,7 +30,7 @@
     "source": null,
     "rubricVersion": "v4"
   },
-  "question": "\"Mận dẻo túi\" (mã vạch 8938520099650): ảnh hiện tại chỉ là chén mận, không thấy bao bì. Đây có phải túi Onenuts Naturals giống \"Mơ xí muội\"/\"Mơ gừng chua ngọt\" (cùng đầu mã vạch 8938520099…) không, khối lượng bao nhiêu gam? Cần nhân viên chụp túi.",
+  "question": null,
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -43,6 +43,12 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "batch f2: ASK_OWNER: product unidentified (image shows bowl only)"
+    },
+    {
+      "at": "2026-10-17T14:08:50Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "NEEDS_PHOTO: I3/I6: ảnh chỉ là chén mận, không có bao bì; mã 8938520099650 không tra được → cần chụp túi mận dẻo"
     }
   ]
 }

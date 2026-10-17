@@ -17,20 +17,20 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "ASK_OWNER",
+  "status": "NEEDS_PHOTO",
   "image": {
-    "decision": "ASK_OWNER",
-    "reason": "I2: ảnh là 'Heo khô cháy tỏi', tên là 'Ba rọi cháy tỏi'; ảnh cũng là ảnh điện thoại (I3, I4)",
+    "decision": "REPLACE",
+    "reason": "I3/I4: ảnh điện thoại chụp cận nhãn hũ, không thấy cả hũ; hàng là Heo khô cháy tỏi Quang Thanh (tên có '(heokhochaytoi)', nhãn trên ảnh) — cần chụp cả hũ",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v20"
   },
   "description": {
-    "decision": "ASK_OWNER",
-    "reason": "Chưa rõ SP là loại nào",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v20",
+    "decision": "WRITE_NEW",
+    "reason": "chữ trên nhãn ảnh KiotViet (Heo Khô Cháy Tỏi, Quang Thanh Foods); khối lượng theo tên hàng"
   },
-  "question": "Tên KiotViet là 'Ba rọi cháy tỏi quang Thanh 230g (heokhochaytoi)' nhưng ảnh hiện tại là hũ 'HEO KHÔ CHÁY TỎI' của Quang Thanh Foods (không phải 'Ba rọi cháy tỏi'). SP này là heo khô cháy tỏi hay ba rọi cháy tỏi, 230 g? Ảnh hiện tại là ảnh điện thoại, sẽ cần nhân viên chụp lại.",
+  "question": null,
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -43,6 +43,12 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "b21: image ASK_OWNER, description ASK_OWNER"
+    },
+    {
+      "at": "2026-10-17T14:09:01Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "resolved without asking: barcode not found online; label in photo and the name's own suffix '(heokhochaytoi)' say Heo khô cháy tỏi; photo is a label close-up → NEEDS_PHOTO; name logged"
     }
   ]
 }

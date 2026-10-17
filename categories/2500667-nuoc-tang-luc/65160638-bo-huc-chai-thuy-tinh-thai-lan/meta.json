@@ -17,20 +17,28 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "ASK_OWNER",
+  "status": "READY",
   "image": {
-    "decision": "ASK_OWNER",
-    "reason": "I2: tên SP không nói loại; ảnh hiện tại là Kratingdaeng Extra nắp đỏ A+B12+C 145ml, trùng loại với SP 65960259",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "REPLACE",
+    "reason": "I2: ảnh KiotViet là chai Kratingdaeng Extra (SP khác, mã 8850228003022); mã vạch 8850228000106 là Kratingdaeng cổ điển 150 ml (Kingfoodmart, Open Food Facts); trang TCP chỉ có ảnh nhỏ bản nội địa Thái → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt đáng kể với ảnh mẫu; chữ nhỏ trên nắp không đọc được",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh Kingfoodmart + Open Food Facts của mã vạch 8850228000106 (chỉ làm mẫu)",
+      "referenceUrl": "https://storage.googleapis.com/onelife-public/8850228000106.jpg"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
-    "decision": "ASK_OWNER",
-    "reason": "Chờ chủ xác nhận loại SP",
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; theo bao bì đúng mã vạch (Open Food Facts: Kratingdaeng Thai style 150 ml, thành phần taurine, caffeine, B12, B6)",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v19"
   },
-  "question": "SP 'Bò Húc chai thuỷ tinh Thái Lan' (mã vạch 8850228000106) là loại nào: Kratingdaeng cổ điển nắp xanh (taurine 1000mg) hay Kratingdaeng Extra nắp đỏ A+B12+C 145ml? Ảnh hiện tại là loại nắp đỏ A+B12+C — trùng với SP 'Red Bull Bluc với Vitamin A+B12+C thái 145ml' (mã 8850228003022).",
+  "question": null,
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -43,6 +51,32 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "variant unclear: classic Kratingdaeng vs Extra A+B12+C"
+    },
+    {
+      "at": "2026-10-17T14:07:17Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T14:08:32Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "resolved without asking: mã vạch 8850228000106 = Kratingdaeng cổ điển 150 ml (Kingfoodmart + Open Food Facts); loại Extra A+B12+C đã có SP riêng 65960259 (mã 8850228003022), ảnh KiotViet cũ chụp nhầm loại Extra"
+    },
+    {
+      "at": "2026-10-17T14:09:13.066Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T14:09:13.066Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

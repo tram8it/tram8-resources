@@ -17,20 +17,28 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "ASK_OWNER",
+  "status": "READY",
   "image": {
-    "decision": "ASK_OWNER",
-    "reason": "I2: tên + mã vạch (8801062…) là Lotte, nhưng ảnh là Melona của Binggrae",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "REPLACE",
+    "reason": "I2: ảnh KiotViet là Melona của Binggrae; mã vạch 8801062416974 là kem Lotte Melonia 80 ml (iCheck, Open Food Facts) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: dòng chữ nhỏ 80 ml (145 kcal) màu tối, gói thật chữ trắng",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh iCheck + Open Food Facts theo mã vạch (chỉ làm mẫu)",
+      "referenceUrl": "https://icheck.vn/san-pham/8801062416974"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
-    "decision": "ASK_OWNER",
-    "reason": "Chờ chủ xác nhận SP trước khi viết mô tả",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v20",
+    "decision": "WRITE_NEW",
+    "reason": "mã vạch 8801062416974 = kem Lotte Melonia 80 ml (iCheck, OFF)"
   },
-  "question": "SP 'Kem dưa lưới Lotte cây 80ml' (mã 8801062416974, mã của Lotte): ảnh hiện tại là Melona dưa lưới của BINGGRAE. Hàng bán thực tế là kem dưa lưới Lotte hay Melona Binggrae? (Nếu là Lotte cần nhân viên chụp ảnh vì trang Lotte không có SP này.)",
+  "question": null,
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -43,6 +51,18 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "ask owner: Lotte name/barcode vs Binggrae Melona image"
+    },
+    {
+      "at": "2026-10-17T14:07:37Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T14:08:43Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "resolved without asking: barcode/evidence decides (mã vạch 8801062416974 = kem Lotte Melonia 80 ml (iCheck, OFF))"
     }
   ]
 }

@@ -17,12 +17,12 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "ASK_OWNER",
+  "status": "NEEDS_PHOTO",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I4: ảnh chụp cận nhãn túi bằng điện thoại, không thấy cả túi; hàng cơ sở địa phương (Quang Thanh Foods), không có trang hãng",
+    "reason": "I3/I4: ảnh cận nhãn túi, không thấy cả túi; mã vạch 8936236140123 in trên nhãn = Kẹo Dừa Sáp Cafe Muối Quang Thanh → cần chụp cả túi mặt trước",
     "source": null,
-    "rubricVersion": "v17"
+    "rubricVersion": "v20"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -30,7 +30,7 @@
     "source": null,
     "rubricVersion": "v4"
   },
-  "question": "Mã 8936236140123 'Kẹo dừa mix': nhãn túi trong ảnh KiotViet ghi 'Kẹo Dừa Sáp Cafe Muối' (Quang Thanh Foods, Hải Phòng), không ghi 'mix' và không thấy khối lượng. SP này là kẹo dừa sáp cà phê muối hay túi mix nhiều vị? Bao nhiêu gam? Nhờ nhân viên chụp cả túi mặt trước (thấy hết túi) để vẽ lại; nếu là cà phê muối thì sửa tên KiotViet.",
+  "question": null,
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -49,6 +49,12 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "Mã 8936236140123 'Kẹo dừa mix': nhãn túi trong ảnh KiotViet ghi 'Kẹo Dừa Sáp Cafe Muối' (Quang Thanh Foods, Hải Phòng), không ghi 'mix' và không thấy khối lượng. SP này là kẹo dừa sáp cà phê muối hay túi mix nhiều vị? Bao nhiêu gam? Nhờ nhân viên chụp cả túi mặt trước (thấy hết túi) để vẽ lại; nếu l"
+    },
+    {
+      "at": "2026-10-17T14:09:01Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "resolved without asking: barcode printed on the label in the photo (8936236140123) = Kẹo dừa sáp cafe muối; description already matches; name logged; image needs a whole-bag photo"
     }
   ]
 }

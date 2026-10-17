@@ -17,20 +17,27 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "ASK_OWNER",
+  "status": "READY",
   "image": {
-    "decision": "ASK_OWNER",
-    "reason": "I7: packshot nền trắng đúng SP nhưng có tem nhãn phụ ghi giá VND trên mặt hộp; không chắc tem này có được chấp nhận; hocotech.com không có bản này",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "REPLACE",
+    "reason": "I7: vỉ có tem phụ ghi giá VND của nhà nhập khẩu; hocotech.com không có bản C109A này → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: đã bỏ tem giá; phần đáy vỉ bị tem che (dải trắng và biểu tượng tính năng) được thay bằng nền ánh kim, vỉ thật có thể còn dải biểu tượng ở đáy; chữ nhỏ trên củ sạc không đọc được",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet của cửa hàng (vỉ có tem giá nhà nhập khẩu)"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
-    "decision": "ASK_OWNER",
-    "reason": "chờ chủ quyết về ảnh; mô tả để lượt sau",
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; theo chữ in trên vỉ (C109A, USB-A + USB-C, PD 20W, QC3.0, cáp USB-C to USB-C)",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v19"
   },
-  "question": "Hoco C109A 20W USB-A + USB-C (mã vạch 6942007656733): Ảnh hiện tại là hộp/vỉ nền trắng, đúng SP, nhưng trên mặt trước có tem nhãn phụ ghi giá (VND) của nhà nhập khẩu/cửa hàng (RUBRIC I7 cấm tem giá). Tem này có trên mọi hộp hàng nhập không? Anh chấp nhận ảnh có tem (chỉ crop về 1:1) hay cần chụp lại / tìm ảnh hãng không tem?",
+  "question": null,
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -43,6 +50,32 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "price sticker on pack (I7) → ask owner"
+    },
+    {
+      "at": "2026-10-17T14:07:32Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T14:08:33Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "resolved without asking: tem giá nhà nhập khẩu → bỏ (quy tắc mặc định); Gemini xoá tem"
+    },
+    {
+      "at": "2026-10-17T14:09:37.059Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T14:09:37.059Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

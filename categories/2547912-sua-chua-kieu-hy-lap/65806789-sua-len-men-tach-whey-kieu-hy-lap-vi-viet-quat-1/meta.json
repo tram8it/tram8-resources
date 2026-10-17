@@ -17,27 +17,27 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "ASK_OWNER",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I4/I8: ảnh chụp điện thoại nhiều hộp trong tủ mát, có tem giá; không có ảnh hãng (Lucas) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: mặt trước trong ảnh mẫu bị che một phần; chữ 'BLUEBERRY' trên dải tím đọc mờ trong ảnh mẫu; chữ nhỏ không đọc được",
+    "reason": "I3/I4/I8: ảnh chụp tủ mát, bao bì cũ; chủ báo 17/10 Lucas đã đổi sang bao bì Creamy Greek-Style; không có ảnh hộp mới vị việt quất → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: ảnh minh hoạ: dựng từ hộp vị cam cùng dòng, đổi hình việt quất và chữ vị ('VỊ VIỆT QUẤT', 'BLUEBERRY FLAVOR', 'ブルーベリー風味'); hình quả, chữ tiếng Nhật và chữ nhỏ mặt bên/mã vạch có thể khác hộp thật",
     "source": {
       "aiGenerated": true,
       "tool": "Gemini API",
       "model": "gemini-nano-banana-2.1",
       "generatedAt": "2026-10-17",
       "style": "flat clean packaging render (v17)",
-      "reference": "ảnh KiotViet (chụp nhiều hộp trong tủ mát tại cửa hàng)"
+      "reference": "ảnh hộp Lucas Creamy Greek-Style vị cam chủ gửi 17/10 (SP 67177428)"
     },
     "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
-    "reason": "D1: chưa có mô tả; mô tả ngắn chỉ từ tên hàng và chữ in mặt trước bao bì (không có trang hãng) ('Lucas Dessert', tem 'Sữa chua Hy Lạp vị việt quất')",
+    "reason": "D1: mô tả ngắn theo bao bì Creamy Greek-Style (chủ báo 17/10 Lucas đã đổi bao bì)",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v19"
   },
-  "question": "Lucas đã đổi sang bao bì Creamy Greek-Style (chủ báo 17/10) nhưng chưa có ảnh hộp mới vị việt quất. Nhờ chụp mặt trước hộp mới (hoặc gửi ảnh như hộp vị cam). Nếu mã này đã ngừng bán thì báo để bỏ qua.",
+  "question": null,
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -68,10 +68,28 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "Ảnh hiện tại là bao bì cũ, chủ báo đã đổi bao bì mới; chưa có ảnh hộp mới vị này"
+    },
+    {
+      "at": "2026-10-17T14:07:32Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T14:08:33Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "resolved without asking: dựng hộp mới vị việt quất từ hộp vị cam cùng dòng (ảnh minh hoạ, quy tắc mặc định cùng dòng khác vị)"
+    },
+    {
+      "at": "2026-10-17T14:09:32.977Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-17T07:46:52.176Z",
+    "at": "2026-10-17T14:09:32.977Z",
     "fields": [
       "description",
       "image"

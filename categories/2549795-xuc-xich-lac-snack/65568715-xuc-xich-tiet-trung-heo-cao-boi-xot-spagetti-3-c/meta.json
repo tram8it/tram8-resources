@@ -17,20 +17,20 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "ASK_OWNER",
+  "status": "READY",
   "image": {
-    "decision": "ASK_OWNER",
-    "reason": "I2: ảnh nền trắng đúng dòng 'Xốt Spaghetti' nhưng là bao bì 'Nguồn dinh dưỡng từ THỊT', khác bao bì 'Snack dinh dưỡng' của các vị Heo Cao Bồi khác đang bán — không chắc còn là bao bì hiện hành",
+    "decision": "CROP",
+    "reason": "I9: packshot nền trắng đúng hũ Heo Cao Bồi Xốt Spaghetti nhưng không 1:1; crop, phóng ~1,7 lần. Không tìm được bao bì mới \"Snack dinh dưỡng\" của vị này → dùng bao bì hiện có (RUBRIC v19: chỉ đổi khi tìm được bản mới)",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v19"
   },
   "description": {
-    "decision": "ASK_OWNER",
-    "reason": "chờ chủ xác nhận bao bì",
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; theo tên KiotViet (quy cách 3 cây × 13 g + 1 gói xốt 12 g) và chữ in trên hũ",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v19"
   },
-  "question": "Heo Cao Bồi xốt Spaghetti (8936034877726): chưa tìm được bao bì mới 'Snack dinh dưỡng' của vị này (chỉ có hũ 'Nguồn dinh dưỡng từ THỊT'). Hũ đang bán là mẫu nào? Nếu mẫu cũ thì dùng ảnh hiện tại; nếu mẫu mới nhờ chụp 1 hũ.",
+  "question": null,
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -55,6 +55,26 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "still ASK_OWNER: newest pack for this flavour not found; shelf check needed"
+    },
+    {
+      "at": "2026-10-17T14:08:33Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "resolved without asking: không tìm được bao bì mới của vị xốt spaghetti → dùng ảnh hũ hiện có (packshot nền trắng)"
+    },
+    {
+      "at": "2026-10-17T14:09:39.315Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T14:09:39.315Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

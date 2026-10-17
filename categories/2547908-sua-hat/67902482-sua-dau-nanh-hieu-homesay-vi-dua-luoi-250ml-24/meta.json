@@ -17,12 +17,20 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "ASK_OWNER",
+  "status": "READY",
   "image": {
-    "decision": "ASK_OWNER",
-    "reason": "I2/I6: ảnh hiện có là hộp Homesoy vị dưa lưới 1 lít, nhỏ 246×356; không tìm được ảnh hộp 250 ml vị dưa lưới (lamsoon.com.my chỉ có ảnh hộp 1 L rất nhỏ)",
-    "source": null,
-    "rubricVersion": "v17"
+    "decision": "REPLACE",
+    "reason": "I2/I6: ảnh hiện có là hộp 1 lít bản cũ, nhỏ 246×356; không có ảnh hộp 250 ml vị dưa lưới → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: ẢNH MINH HOẠ: ghép hộp 250 ml bản Original với nhãn vị Honey Melon của hộp 1 L; hộp bán tại VN có thể có nhãn phụ/khác chi tiết",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh hộp Homesoy Original 250 ml (mẫu hộp) + hộp Honey Melon 1 L (mẫu vị) trên homesoy.my (trang Homesoy Malaysia, chưa có trong brands.json; chỉ làm mẫu)",
+      "referenceUrl": "https://www.homesoy.my/products"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -30,7 +38,7 @@
     "source": null,
     "rubricVersion": "v4"
   },
-  "question": "SỮA ĐẬU NÀNH HOMESOY VỊ DƯA LƯỚI 250ML (mã 9556007002260): không tìm được ảnh hộp 250 ml vị dưa lưới, chỉ có ảnh hộp 1 lít (nhãn 'Tembikai Susu'). Anh/chị chọn: (1) cho nhân viên chụp hộp 250 ml đang bán; hoặc (2) cho phép Gemini vẽ hộp 250 ml theo mặt nhãn hộp 1 lít (đổi dòng dung tích thành 250ml, bố cục hộp nhỏ có thể khác thật)?",
+  "question": null,
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -49,6 +57,32 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "ASK_OWNER: no 250 ml reference, asked owner"
+    },
+    {
+      "at": "2026-10-17T14:07:21Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T14:07:21Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "resolved without asking: unit Hộp = one 250 ml carton (v19); homesoy.my has the 250 ml Original carton + Honey Melon 1 L → default 'size from sibling', illustrative render"
+    },
+    {
+      "at": "2026-10-17T14:07:22.067Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T14:07:22.067Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }
