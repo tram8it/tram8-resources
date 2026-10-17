@@ -20,9 +20,9 @@
   "status": "NEEDS_PHOTO",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I5: ảnh chụp cận mặt hộp, nền đỏ, sản phẩm bị cắt. Không tìm thấy trang hãng Ovaltine có kẹo mút này → cần chụp",
+    "reason": "I3/I5: ảnh chụp cận mặt hộp, sản phẩm bị cắt; tìm lại 17/10 (Kingfoodmart, Open Food Facts, tìm web) không có ảnh mẫu thấy trọn hộp 180 g → cần chụp nguyên hộp",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +43,12 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "b26: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T08:25:58Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "retried 17/10: no usable reference, stays NEEDS_PHOTO"
     }
   ]
 }

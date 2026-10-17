@@ -20,9 +20,9 @@
   "status": "NEEDS_PHOTO",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh; không có thương hiệu, mã vạch 628719913383 không tra được hãng → cần chụp",
+    "reason": "I1: chưa có ảnh; không có thương hiệu, mã 628719913383 không tra được → cần chụp",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "ASK_OWNER",
@@ -43,6 +43,12 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "b21: image REPLACE, description ASK_OWNER"
+    },
+    {
+      "at": "2026-10-17T08:26:00Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "retried 17/10: no usable reference, stays NEEDS_PHOTO"
     }
   ]
 }

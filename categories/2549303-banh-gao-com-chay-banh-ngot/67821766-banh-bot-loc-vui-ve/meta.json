@@ -20,9 +20,9 @@
   "status": "NEEDS_PHOTO",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I4/I8: ảnh chụp điện thoại thùng carton (quy cách 2 × 2,5 kg), không phải gói bán lẻ, nền kho; hàng nội địa Trung không có trang hãng → cần chụp",
+    "reason": "I3/I4/I8: ảnh thùng carton 2 × 2,5 kg (双仔 开心凉皮), không phải gói bán lẻ; không có ảnh gói lẻ cùng mã vạch → cần chụp gói bán lẻ",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +43,12 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "image REPLACE → NEEDS_PHOTO, description WRITE_NEW (name only)"
+    },
+    {
+      "at": "2026-10-17T08:25:59Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "retried 17/10: no usable reference, stays NEEDS_PHOTO"
     }
   ]
 }
