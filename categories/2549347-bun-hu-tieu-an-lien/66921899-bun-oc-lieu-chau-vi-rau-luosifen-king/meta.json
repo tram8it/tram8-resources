@@ -17,12 +17,20 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "UPLOADED",
+  "status": "READY",
   "image": {
-    "decision": "CROP",
-    "reason": "I9: ảnh 450×600 không 1:1; ảnh tách nền trắng, ly nguyên vẹn → crop 1:1 (phóng ~2,6 lần, xem lại đạt)",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "REPLACE",
+    "reason": "I3/I5: ảnh ly tự chụp, nhăn màng; không có ảnh hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Chữ lớn, tên, khối lượng 188克 (调制粉60克, 配料128克) khớp ảnh KiotViet. Dòng khẩu hiệu nhỏ hơi khác: '适合冲泡' thay cho '速食冲泡', huy hiệu đỏ ghi '冲泡米粉'; dòng chữ rất nhỏ ở đáy đã làm mờ.",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (ảnh ly tự chụp)",
+      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/07/30/tram8/e0202e352f0946ff919db282bcd087e2.png"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -61,10 +69,28 @@
       "by": "owner",
       "status": "UPLOADED",
       "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-17T14:36:12Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T12:00:00Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Làm mờ dòng chữ rất nhỏ ở đáy (AI vẽ sai chữ, có ký hiệu ℃ bịa) trên image.webp"
+    },
+    {
+      "at": "2026-10-17T14:36:47.218Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-14T09:16:34.477Z",
+    "at": "2026-10-17T14:36:47.218Z",
     "fields": [
       "description",
       "image"

@@ -262,8 +262,11 @@ def call_api(model: str, size: str, prompt: str, images: list) -> dict:
         time.sleep(wait)
     if r.status_code != 200:
         try:
-            msg = r.json().get("error", {}).get("message", "")
-        except ValueError:
+            err = r.json()
+            if isinstance(err, list):  # e.g. HTTP 402 when prepaid credit is used up
+                err = err[0] if err else {}
+            msg = err.get("error", {}).get("message", "") or r.text[:300]
+        except (ValueError, AttributeError):
             msg = r.text[:300]
         raise ApiError(f"Gemini API HTTP {r.status_code}: {msg}"
                        + (" (often a watermark/logo-removal request on a retailer photo: drop that"

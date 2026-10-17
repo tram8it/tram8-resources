@@ -17,20 +17,20 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "ASK_OWNER",
+  "status": "NEEDS_PHOTO",
   "image": {
-    "decision": "ASK_OWNER",
-    "reason": "I1: chưa có ảnh; trang Bibica có Zoo Kem Tuyết dây 25 g và túi 54 g — tên không ghi khối lượng nên không chọn được ảnh",
+    "decision": "REPLACE",
+    "reason": "I1: KiotViet chưa có ảnh; mã 8934609109500 không có trên Kingfoodmart/iCheck/Open Food Facts/bibica.com.vn; Bibica có 25 g và 54 g → cần ảnh gói trên kệ",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v20"
   },
   "description": {
-    "decision": "ASK_OWNER",
-    "reason": "Chờ chủ xác nhận quy cách trước khi viết",
+    "decision": "WRITE_NEW",
+    "reason": "Chờ ảnh gói để biết khối lượng",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v20"
   },
-  "question": "Zoo Kem Tuyết (mã …9500) trên kệ là gói 25 g hay túi 54 g?",
+  "question": null,
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -49,6 +49,12 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "re-triage 17/10: câu hỏi rút gọn; Bibica có 2 cỡ, mã vạch không tra được ở đâu"
+    },
+    {
+      "at": "2026-10-17T14:35:42Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "resolved by rule v20: no KiotViet photo and no barcode hit (Kingfoodmart/iCheck/OFF) → NEEDS_PHOTO, photo the shelf pack"
     }
   ]
 }

@@ -41,3 +41,12 @@ Hàng thật xác định theo mã vạch; ảnh + mô tả đã làm theo hàng
 | 65205431 | Bim bim snack khoai Tây Lát vị tảo biển MIDAS 30g 20g/b28 (Gói) | Snack Midas PANDA hình khoai tây chiên 28 g (không phải khoai tây lát vị tảo biển 30 g) | iCheck 8938507891536 (Snack Midas panda khoai tây); ảnh KiotViet (NET WT 28g ± 2) |
 | 64865572 | Nui Sấy 130g (Gói) | Sen sấy NATURAL Phương Huyền (không phải nui sấy; khối lượng trên nhãn ảnh không đọc rõ, có vẻ 100 g) | iCheck 8938522697502 (Sen Sấy); ảnh KiotViet |
 | 65151021 | Ngô nếp trắng sấy giòn 360g 3 m.iền (gói) | Ngô giòn sốc mắm cay Phương Huyền 360g (không phải ngô nếp trắng vị nguyên bản) | iCheck 8936202660556 (Ngô giòn sóc mắm cay); mã vạch in trên nhãn ảnh KiotViet |
+| 65217898 | Tẩy da chết cà phê cocoon 70ml (—) | Túi refill Cocoon cà phê Đắk Lắk làm sạch da chết cơ thể 200 ml (không phải hũ 70 ml) | cocoonvietnam.com theo mã 8936217701084 |
+| 67241194 | Sữa tắm Enchanteur vàng gói 6g (gói) | Sữa tắm Enchanteur White hương Glamour (gói hoa hồng đỏ cam) 6 g, không phải "vàng" | ảnh KiotViet |
+| 64865345 | Bia Huda Ice twist (Lon) | Bia Huda Ice Blast 4,7% lon 330 ml | ảnh KiotViet; iCheck 8934692070213 |
+| 64865471 | Bánh Quy Ovaltine Que Chấm Socola 300g (Hộp) | Ovaltine 可脆了 bánh que chấm sô-cô-la 1 ly 50 g (không phải 300 g) | ảnh KiotViet (净含量 50g) |
+| 65630947 | Bánh bông lan tam giác vị vải nhãn hiệu WEISIEL (2kg/thùng) (Cái) | Bánh bông lan tam giác Weisiel vị mầm lúa mạch (Barley Germ Flavored Cake), không phải vị vải | ảnh KiotViet |
+| 67821714 | Bò Bít Tết Chay Vị Tê Cay 28g (Gói) | Bò bít tết chay 巧大娘 素大牛排 vị cay thơm (香辣味) 35 g | ảnh KiotViet (净含量 35克) |
+| 65190624 | COSY MARIE BANH QUY 40GR X 48 HG (Hộp) | Bánh quy sữa Cosy Marie hộp 67 g (2 gói × 33,5 g) | ảnh KiotViet (iCheck 8934680113823 ghi hộp 48 g) |
+| 65205425 | Bim MIDAS rong biển cuộn 50g (Gói) | Snack Midas Bò xốt mỹ vị 50 g (gói nền kem), không phải rong biển cuộn | iCheck 8938565910293; ảnh KiotViet |
+| 65205426 | Bim MIDAS rong biển cuộn 50g (Gói) | Snack Midas Bò xốt mỹ vị 50 g (gói đỏ), không phải rong biển cuộn | iCheck 8938565910286; ảnh KiotViet |

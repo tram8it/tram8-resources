@@ -17,20 +17,20 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "ASK_OWNER",
+  "status": "IN_PROGRESS",
   "image": {
-    "decision": "ASK_OWNER",
-    "reason": "I2/I4: ảnh chụp điện thoại nền xám; gói Weisiel trên ảnh ghi 'Barley Germ Flavored Cake' (mầm lúa mạch), không phải vị vải như tên",
+    "decision": "REPLACE",
+    "reason": "I2/I4: ảnh chụp điện thoại nền xám, in hạn dùng; ảnh của cửa hàng là gói Weisiel 'Barley Germ Flavored Cake' (mầm lúa mạch) → theo ảnh (v20), tên ghi 'vị vải'. Ảnh chờ Gemini vẽ lại (API trả HTTP 402 – hết hạn mức thanh toán 17/10), ảnh mẫu đã để sẵn ở work/gemini/<id>/refs/",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v20"
   },
   "description": {
-    "decision": "ASK_OWNER",
-    "reason": "Chờ chủ xác nhận vị trước khi viết",
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; mô tả ngắn từ chữ in trên gói (ảnh KiotViet: Barley Germ Flavored Cake), cùng khuôn với Weisiel red velvet",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v20"
   },
-  "question": "Weisiel mã 4897106555215: tên 'vị vải', ảnh KiotViet là gói Barley Germ (mầm lúa mạch). Hàng trên kệ là (a) vị vải hay (b) mầm lúa mạch?",
+  "question": null,
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -49,6 +49,12 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "re-checked: barcode not found on iCheck/Kingfoodmart/OFF/web; Weisiel barley exists, lychee unverified; question shortened"
+    },
+    {
+      "at": "2026-10-17T14:35:33Z",
+      "by": "ai",
+      "status": "IN_PROGRESS",
+      "note": "resolved by rule v20: shop photo is Weisiel Barley Germ cake → follow the photo; name 'vị vải' listed for rename; image waits for Gemini (HTTP 402)"
     }
   ]
 }

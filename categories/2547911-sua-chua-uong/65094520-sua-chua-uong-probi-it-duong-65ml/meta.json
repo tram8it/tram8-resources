@@ -17,20 +17,20 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "ASK_OWNER",
+  "status": "IN_PROGRESS",
   "image": {
-    "decision": "ASK_OWNER",
-    "reason": "I2 (v2): không rõ hàng đang bán là bao bì cũ hay mới, bán lọ hay lốc",
+    "decision": "REPLACE",
+    "reason": "I8 + v19: đơn vị KiotViet trống = 1 lọ lẻ như các vị Probi 65 ml khác; ảnh KiotViet/Kingfoodmart là lốc 5 → vẽ 1 lọ 65 ml theo kiểu chai Probi mới nhất của Vinamilk (vinamilk.com.vn chưa có ảnh lọ ít đường). Ảnh chờ Gemini vẽ lại (API trả HTTP 402 – hết hạn mức thanh toán 17/10), ảnh mẫu đã để sẵn ở work/gemini/<id>/refs/",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v20"
   },
   "description": {
-    "decision": "ASK_OWNER",
-    "reason": "Chờ chủ xác nhận bao bì/quy cách",
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết từ chữ in trên lốc (ảnh KiotViet + Kingfoodmart theo mã vạch 8934673303507) và trang Vinamilk Probi; đơn vị trống → 1 lọ 65 ml (v19)",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v20"
   },
-  "question": "Probi ít đường 65 ml (8934673303507), KiotViet chưa có đơn vị: bán lẻ 1 lọ (như các vị Probi khác) hay cả lốc 5 lọ?",
+  "question": null,
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -61,6 +61,12 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "still ASK_OWNER: unit empty; barcode photos (KiotViet, Kingfoodmart, OFF) all show the 5-bottle pack while sibling Probi 65 ml SKUs are sold per lọ with single-bottle images; newest pack (65 tỷ, ít đường 35%) found on Kingfoodmart for drawing once answered"
+    },
+    {
+      "at": "2026-10-17T14:35:33Z",
+      "by": "ai",
+      "status": "IN_PROGRESS",
+      "note": "resolved by rule v20: blank unit = one single 65 ml bottle like the other Probi SKUs; newest Probi bottle style; image waits for Gemini (HTTP 402)"
     }
   ]
 }

@@ -17,20 +17,20 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "ASK_OWNER",
+  "status": "IN_PROGRESS",
   "image": {
-    "decision": "ASK_OWNER",
-    "reason": "I2: không chắc ảnh hộp Cosy Marie hiện tại là quy cách 40 g",
+    "decision": "REPLACE",
+    "reason": "I2: ảnh KiotViet là ảnh bán lẻ (không đăng thẳng) hộp Cosy Marie 67 g (2 gói × 33,5 g) → theo ảnh của cửa hàng (v20); tên ghi 40 g, iCheck mã …3823 ghi hộp 48 g; snack-central.com không có hộp 67 g. Ảnh chờ Gemini vẽ lại (API trả HTTP 402 – hết hạn mức thanh toán 17/10), ảnh mẫu đã để sẵn ở work/gemini/<id>/refs/",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v20"
   },
   "description": {
-    "decision": "ASK_OWNER",
-    "reason": "chờ chủ xác nhận quy cách bán",
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; mô tả ngắn từ chữ in trên hộp (ảnh KiotViet: 67 g, 2 gói × 33,5 g)",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v20"
   },
-  "question": "Cosy Marie mã …3823 tra ra hộp nhỏ 48 g (iCheck); tên ghi 40 g, ảnh KiotViet là hộp 67 g. Kệ bán hộp nào?",
+  "question": null,
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -49,6 +49,12 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "re-triage 17/10: câu hỏi rút gọn; 3 nguồn ra 3 cỡ khác nhau, lệch > 10%"
+    },
+    {
+      "at": "2026-10-17T14:35:33Z",
+      "by": "ai",
+      "status": "IN_PROGRESS",
+      "note": "resolved by rule v20: follow shop photo = Cosy Marie 67 g box (2 x 33,5 g); name 40 g listed for rename; image waits for Gemini (HTTP 402)"
     }
   ]
 }
