@@ -20,7 +20,7 @@
   "status": "NEEDS_PHOTO",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh; không xác định được nhà sản xuất (mã vạch 8938541…, logo không có tên hãng), không có nguồn hãng → cần chụp",
+    "reason": "I1: chưa có ảnh; nhà sản xuất có lẽ là 'Sữa chua Trần Châu Hạ Long' (chữ trên logo thuyền ở nắp hộp 900ml cùng dòng) nhưng không có trang hãng; Kingfoodmart/Open Food Facts không có mã vạch này; không biết hình vị/kiểu hộp nên không vẽ → cần chụp",
     "source": null,
     "rubricVersion": "v4"
   },
@@ -43,6 +43,12 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "no usable image, unknown maker → NEEDS_PHOTO; description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T08:04:11.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "no reference for this flavour/size (KFM, OFF); sibling 900ml lids show the 'Sữa chua Trần Châu Hạ Long' logo; not drawn to avoid inventing"
     }
   ]
 }

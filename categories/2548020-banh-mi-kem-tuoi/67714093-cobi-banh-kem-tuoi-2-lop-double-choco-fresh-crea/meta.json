@@ -20,7 +20,7 @@
   "status": "NEEDS_PHOTO",
   "image": {
     "decision": "REPLACE",
-    "reason": "I2: tên là bánh kem tươi 2 lớp Double Choco (mã vạch 8935299658064) nhưng ảnh là gói Choco Fresh Cream một lớp (SP khác, trùng ảnh 66405442); cobibread.com không có SP này → cần chụp",
+    "reason": "I2: tên là bánh kem tươi 2 lớp Double Choco (mã vạch 8935299658064) nhưng ảnh là gói Choco Fresh Cream một lớp (SP khác); cobibread.com (sitemap SP) và Kingfoodmart/Open Food Facts không có SP này, không biết bao bì thật → cần chụp",
     "source": null,
     "rubricVersion": "v4"
   },
@@ -43,6 +43,12 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "image shows single-layer Choco pack (other SKU); no official image → NEEDS_PHOTO; description REWRITE"
+    },
+    {
+      "at": "2026-10-17T08:04:11.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "cobibread.com product sitemap, KFM and OFF have no Double Choco pack; stays NEEDS_PHOTO"
     }
   ]
 }

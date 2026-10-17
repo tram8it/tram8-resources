@@ -17,12 +17,19 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3, I4: ảnh chụp tay cầm/trong tủ đông, nền không trắng; không xác định được nhà sản xuất, không có nguồn hãng → cần chụp",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I3, I4: ảnh chụp tay cầm/trong tủ đông, nền không trắng; không có trang hãng (logo in 'Sữa chua Trần Châu Hạ Long') → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: bỏ tay cầm, nền tủ đông và dấu ngày NSX/HSD in trên nắp; vẽ mặt nắp nhìn thẳng từ trên (không thấy thân hộp); chữ rất nhỏ quanh logo thuyền nhoè; tên KiotViet 'Vị Tự Nhiên' còn nắp in 'TRẮNG'",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (nắp hộp chụp tại cửa hàng)"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +50,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "no usable image, unknown maker → NEEDS_PHOTO; description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T08:01:55Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T08:01:56.017Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T08:01:56.017Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

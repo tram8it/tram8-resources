@@ -20,7 +20,7 @@
   "status": "NEEDS_PHOTO",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3, I4, I8: ảnh chụp cận dải nhiều thanh, nền không trắng; không xác định được nhà sản xuất (mã vạch Trung Quốc 692…), không có nguồn hãng → cần chụp",
+    "reason": "I3, I4, I8: ảnh chụp cận dải nhiều gói, đầu bên phải gói (khối lượng tịnh) bị cắt nên không vẽ lại trọn 1 gói được; không xác định nhà sản xuất (mã vạch 692…), không tìm thấy ảnh khác → cần chụp trọn 1 gói",
     "source": null,
     "rubricVersion": "v4"
   },
@@ -43,6 +43,12 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "phone photo, unknown maker → NEEDS_PHOTO; description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T08:04:11.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "shop photo cuts off the right end of the packet (net weight), no other reference found"
     }
   ]
 }

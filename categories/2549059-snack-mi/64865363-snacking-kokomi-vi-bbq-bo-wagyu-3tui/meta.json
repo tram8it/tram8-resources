@@ -20,7 +20,7 @@
   "status": "NEEDS_PHOTO",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh; masanconsumer.com (Masan Consumer) không có SP Kokomi Snacking (đã xem toàn bộ product sitemap) → cần chụp",
+    "reason": "I1: chưa có ảnh; masanconsumer.com không có Kokomi Snacking; trang Lazada duy nhất tìm thấy là hàng tặng và bị chặn bot; Kingfoodmart/Open Food Facts không có mã vạch này → không có ảnh mẫu, cần chụp",
     "source": null,
     "rubricVersion": "v4"
   },
@@ -43,6 +43,12 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "no image, no official page → NEEDS_PHOTO; description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T08:04:11.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "no reference found (masanconsumer, KFM, OFF; Lazada listing behind bot check)"
     }
   ]
 }

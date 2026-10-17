@@ -17,12 +17,20 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I5/I8: ảnh chụp kệ, nhiều hộp, bị cắt. Trang Darlie Việt Nam chỉ có ảnh bao bì Hồng Kông (khác bao bì VN đang bán: có hình than tre, \"14 Days Whitening\") → cần chụp",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I3/I5/I8: ảnh cũ chụp kệ, nhiều hộp, bị cắt; trang Darlie chỉ có bao bì Hồng Kông khác bao bì đang bán → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chỉ vẽ mặt trước hộp (phẳng, như ảnh Double Action cùng hãng); ảnh mẫu là bao bì Malaysia, mặt trước giống hộp chụp tại cửa hàng; mặt hộp VN có thể có chữ phụ tiếng Việt ở cạnh hộp (không thấy ở mặt trước)",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh render hộp + tuýp trên htmpharmacy.my (nhà thuốc Malaysia, chỉ làm mẫu) + ảnh KiotViet chụp kệ (xác nhận cùng bao bì)",
+      "referenceUrl": "https://htmpharmacy.my/darlie-all-shiny-white-140g-charcoal-clean"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -46,6 +54,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "needs photo; description WRITE_NEW from darlie.com.vn"
+    },
+    {
+      "at": "2026-10-17T07:59:17Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T07:59:17.983Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T07:59:17.983Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

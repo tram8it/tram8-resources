@@ -2,7 +2,7 @@
 
 > Sinh tự động bởi `node tools/status.mjs`. **Không sửa tay.** Nguồn sự thật là `meta.json` của từng SP.
 
-Tổng 2448 SP · đã xem 2428 (99%) · xong 1014 · chờ chủ duyệt 680 · cần chụp 465 · hỏi chủ 263
+Tổng 2448 SP · đã xem 2428 (99%) · xong 1014 · chờ chủ duyệt 692 · cần chụp 452 · hỏi chủ 264
 
 Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` = giữ nguyên + đã lên web.
 
@@ -73,17 +73,17 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 | 63 | Bánh gạo | 0.0tr | 13 | 0 | 0 | 0 | 3 | 5 | 1 | 0 | 4 |
 | 64 | Tokbokki & bánh gạo Hàn | 0.0tr | 13 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 13 |
 | 65 | Sandwiches - Toastes | 0.0tr | 13 | 0 | 0 | 3 | 2 | 3 | 5 | 0 | 0 |
-| 66 | Kem đánh răng - Hơi thở thơm | 0.0tr | 13 | 0 | 7 | 0 | 3 | 0 | 1 | 0 | 2 |
-| 67 | Dung dịch vệ sinh nữ | 0.0tr | 13 | 0 | 6 | 0 | 2 | 2 | 2 | 0 | 1 |
+| 66 | Kem đánh răng - Hơi thở thơm | 0.0tr | 13 | 0 | 7 | 0 | 0 | 1 | 3 | 0 | 2 |
+| 67 | Dung dịch vệ sinh nữ | 0.0tr | 13 | 0 | 6 | 0 | 0 | 2 | 4 | 0 | 1 |
 | 68 | Khăn ướt – khăn giấy | 0.0tr | 13 | 0 | 0 | 0 | 5 | 2 | 6 | 0 | 0 |
 | 69 | Pizza | 0.0tr | 13 | 0 | 9 | 0 | 0 | 0 | 4 | 0 | 0 |
 | 70 | Sữa chua ăn | 0.0tr | 13 | 0 | 0 | 0 | 1 | 4 | 4 | 0 | 4 |
-| 71 | Xúc xích lắc & snack | 0.0tr | 13 | 0 | 0 | 0 | 2 | 4 | 5 | 0 | 2 |
+| 71 | Xúc xích lắc & snack | 0.0tr | 13 | 0 | 0 | 0 | 1 | 4 | 6 | 0 | 2 |
 | 72 | Bàn chải - Người lớn | 0.0tr | 12 | 0 | 0 | 0 | 1 | 3 | 7 | 0 | 1 |
 | 73 | Bánh mì kem tươi | 0.0tr | 12 | 0 | 11 | 0 | 1 | 0 | 0 | 0 | 0 |
-| 74 | Nước ngọt ít calories | 0.0tr | 12 | 0 | 0 | 0 | 3 | 0 | 3 | 0 | 6 |
+| 74 | Nước ngọt ít calories | 0.0tr | 12 | 0 | 0 | 0 | 0 | 0 | 6 | 0 | 6 |
 | 75 | Snack mì | 0.0tr | 12 | 0 | 0 | 0 | 4 | 0 | 0 | 0 | 8 |
-| 76 | Sữa chua đông lạnh | 0.0tr | 12 | 0 | 0 | 0 | 12 | 0 | 0 | 0 | 0 |
+| 76 | Sữa chua đông lạnh | 0.0tr | 12 | 0 | 0 | 0 | 8 | 0 | 4 | 0 | 0 |
 | 77 | Củ / bộ sạc | 0.0tr | 11 | 0 | 0 | 0 | 3 | 6 | 1 | 0 | 1 |
 | 78 | Khô bò | 0.0tr | 11 | 0 | 0 | 0 | 6 | 0 | 0 | 0 | 5 |
 | 79 | Đồ chay giả mặn (konjac) | 0.0tr | 11 | 0 | 0 | 0 | 7 | 0 | 0 | 0 | 4 |
