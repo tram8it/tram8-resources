@@ -20,9 +20,9 @@
   "status": "NEEDS_PHOTO",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh; không tìm được trang hãng của Baskin Robbins Milky Soda (nhà sản xuất Hàn Quốc chưa xác định) → cần chụp",
+    "reason": "I1: chưa có ảnh; không tìm được ảnh lon Milky Soda Cherries Jubilee (Kingfoodmart, Open Food Facts, tìm web tiếng Việt/Hàn đều không có) → không có mẫu cho Gemini, cần nhân viên chụp lon",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +43,12 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "b17: needs photo (no image), description from name"
+    },
+    {
+      "at": "2026-10-17T07:53:48Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "searched brand/retail/OFF/Kingfoodmart for a reference: none usable, stays NEEDS_PHOTO"
     }
   ]
 }

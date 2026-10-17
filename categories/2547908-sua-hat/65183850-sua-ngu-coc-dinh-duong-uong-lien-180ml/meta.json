@@ -20,9 +20,9 @@
   "status": "NEEDS_PHOTO",
   "image": {
     "decision": "REPLACE",
-    "reason": "I2/I8: ảnh là thùng 40 hộp (banner ngang 800×259), không phải hộp 180 ml; không tìm được trang chính hãng Việt Ngũ Cốc → cần chụp",
+    "reason": "I2/I8: ảnh hiện có là banner thùng 40 hộp; không tìm được ảnh hộp 180 ml vị Dinh Dưỡng (chỉ có hộp 110 ml, chưa chắc cùng bố cục) → không vẽ Gemini để khỏi đoán, cần nhân viên chụp hộp",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +43,12 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "b19: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T07:53:48Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "searched brand/retail/OFF/Kingfoodmart for a reference: none usable, stays NEEDS_PHOTO"
     }
   ]
 }

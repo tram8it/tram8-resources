@@ -20,14 +20,15 @@
   "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I4: ảnh tay cầm hộp, nền lộn xộn; không có ảnh hãng (Lucas) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: bao bì cũ Lucas Dessert sọc xanh, nhãn 'KHÔNG ĐƯỜNG'; dấu tròn 'Quintessence of the land of gods' chữ nhỏ có thể sai nét; không in khối lượng",
+    "reason": "Chủ xác nhận 17/10: Lucas đã đổi hết sang bao bì Creamy Greek-Style → dùng ảnh bao bì mới cùng vị của SP 67177519 (Sữa chua tách whey hy lạp Lucas creamy greek-style truyền thống không đường 100g); ảnh đó Gemini vẽ lại từ ảnh chụp tại cửa hàng, đã so với ảnh hộp vị cam chủ gửi",
     "source": {
       "aiGenerated": true,
       "tool": "Gemini API",
       "model": "gemini-nano-banana-2.1",
       "generatedAt": "2026-10-17",
       "style": "flat clean packaging render (v17)",
-      "reference": "ảnh KiotViet (tay cầm, chụp tại cửa hàng)"
+      "reference": "ảnh KiotViet (tay cầm, ảnh nhỏ) + ảnh KiotViet hộp Lucas vị cam cùng dòng (chỉ làm mẫu bố cục)",
+      "sharedFrom": "67177519"
     },
     "rubricVersion": "v18"
   },
@@ -62,10 +63,22 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T07:54:08+00:00",
+      "by": "ai",
+      "status": "READY",
+      "note": "Đổi sang ảnh bao bì mới (dùng chung với 67177519) theo xác nhận của chủ"
+    },
+    {
+      "at": "2026-10-17T07:54:13.347Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-17T07:46:54.876Z",
+    "at": "2026-10-17T07:54:13.347Z",
     "fields": [
       "description",
       "image"

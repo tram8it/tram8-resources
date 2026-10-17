@@ -17,12 +17,20 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I4: ảnh chụp điện thoại, nền không trắng, tay cầm, bị khung cắt (I5); homesoy.my chỉ có bao bì Malaysia, khác hộp đang bán (nhãn Indonesia) → cần chụp",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I3/I4/I5: ảnh chụp điện thoại, tay cầm, bọc màng nilon, bị khung cắt; homesoy.my/lamsoon.com.my chỉ có bao bì Malaysia/ảnh nhỏ → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: bỏ khối chữ nhỏ nhà nhập khẩu (PT Armasco Prima, số BPOM) ở góc phải dưới vì AI vẽ sai số; mặt hộp khác theo ảnh cửa hàng (bản Indonesia 'Kurang Gula, Asli')",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet hộp bản Indonesia (chỉ làm mẫu) + ảnh Open Food Facts hộp 250 ml bản Malaysia (chỉ lấy dáng hộp)",
+      "referenceUrl": "https://world.openfoodfacts.org/product/9556007000839"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +51,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "b19: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T07:53:20Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 3, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T07:53:20.533Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T07:53:20.533Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

@@ -20,14 +20,15 @@
   "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I4/I8: ảnh chụp điện thoại nhiều hộp trong tủ mát, có tem giá; không có ảnh hãng (Lucas) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: bao bì cũ Lucas Dessert nắp xanh theo ảnh cửa hàng; chữ nhỏ mặt bên không đọc được; không in khối lượng (ảnh mẫu không thấy)",
+    "reason": "Chủ xác nhận 17/10: Lucas đã đổi hết sang bao bì Creamy Greek-Style → dùng ảnh bao bì mới cùng vị của SP 67177455 (Sữa chua Hy lạp vị dừa); ảnh đó Gemini vẽ lại từ ảnh chụp tại cửa hàng, đã so với ảnh hộp vị cam chủ gửi",
     "source": {
       "aiGenerated": true,
       "tool": "Gemini API",
       "model": "gemini-nano-banana-2.1",
       "generatedAt": "2026-10-17",
       "style": "flat clean packaging render (v17)",
-      "reference": "ảnh KiotViet (chụp nhiều hộp trong tủ mát tại cửa hàng)"
+      "reference": "ảnh KiotViet (chụp cận) + ảnh KiotViet hộp Lucas vị cam cùng dòng (chỉ làm mẫu bố cục)",
+      "sharedFrom": "67177455"
     },
     "rubricVersion": "v18"
   },
@@ -62,10 +63,22 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T07:54:08+00:00",
+      "by": "ai",
+      "status": "READY",
+      "note": "Đổi sang ảnh bao bì mới (dùng chung với 67177455) theo xác nhận của chủ"
+    },
+    {
+      "at": "2026-10-17T07:54:11.320Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-17T07:46:47.308Z",
+    "at": "2026-10-17T07:54:11.320Z",
     "fields": [
       "description",
       "image"

@@ -20,14 +20,10 @@
   "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I4: ảnh tay cầm hộp, nền lộn xộn; không có ảnh hãng (Lucas) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ nhỏ mặt bên (bảng dinh dưỡng, chữ Nhật) không đọc được/có thể sai nét",
+    "reason": "I3/I4: ảnh cũ tay cầm hộp; thay bằng ảnh hộp Lucas Creamy Greek-Style vị cam do chủ gửi 17/10 (bao bì hiện hành, mã vạch in …1042 khớp); chuẩn hoá 1:1",
     "source": {
-      "aiGenerated": true,
-      "tool": "Gemini API",
-      "model": "gemini-nano-banana-2.1",
-      "generatedAt": "2026-10-17",
-      "style": "flat clean packaging render (v17)",
-      "reference": "ảnh KiotViet (tay cầm, chụp tại cửa hàng)"
+      "ownerPhoto": true,
+      "providedAt": "2026-10-17T07:54:08+00:00"
     },
     "rubricVersion": "v18"
   },
@@ -62,10 +58,22 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T07:54:08+00:00",
+      "by": "ai",
+      "status": "READY",
+      "note": "Chủ gửi ảnh hộp vị cam bao bì mới; chủ xác nhận Lucas đã đổi hết sang bao bì Creamy Greek-Style"
+    },
+    {
+      "at": "2026-10-17T07:54:08.824Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-17T07:46:59.602Z",
+    "at": "2026-10-17T07:54:08.824Z",
     "fields": [
       "description",
       "image"

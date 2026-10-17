@@ -17,12 +17,20 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I4/I7: ảnh Foody có watermark, là hộp Lucas Dessert Greek Yogurt chung, không thấy chữ 'ít đường'; 17/10: không có ảnh mẫu đúng vị/bao bì cho mã 8938514781882 → cần chụp mặt trước",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "Chủ xác nhận 17/10: Lucas đã đổi hết sang bao bì Creamy Greek-Style → dùng ảnh bao bì mới cùng vị của SP 67177491 (Sữa chua hy lạp vị truyền thống); ảnh đó Gemini vẽ lại từ ảnh chụp tại cửa hàng, đã so với ảnh hộp vị cam chủ gửi",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (tay cầm, chụp tại cửa hàng)",
+      "sharedFrom": "67177491"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -49,6 +57,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "Gemini pass: no usable reference found; still needs photo"
+    },
+    {
+      "at": "2026-10-17T07:54:08+00:00",
+      "by": "ai",
+      "status": "READY",
+      "note": "Đổi sang ảnh bao bì mới (dùng chung với 67177491) theo xác nhận của chủ"
+    },
+    {
+      "at": "2026-10-17T07:54:15.396Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T07:54:15.396Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

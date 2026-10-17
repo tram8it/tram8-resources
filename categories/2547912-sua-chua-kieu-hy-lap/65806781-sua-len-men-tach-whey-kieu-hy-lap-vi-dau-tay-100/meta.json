@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "ASK_OWNER",
   "image": {
     "decision": "REPLACE",
     "reason": "I1: chưa có ảnh; 17/10: không có ảnh mẫu Lucas vị dâu tây (web, Kingfoodmart, Open Food Facts); không vẽ đoán theo hộp vị khác → cần chụp",
@@ -30,7 +30,7 @@
     "source": null,
     "rubricVersion": "v4"
   },
-  "question": null,
+  "question": "Lucas đã đổi sang bao bì Creamy Greek-Style (chủ báo 17/10) nhưng chưa có ảnh hộp mới vị dâu tây. Nhờ chụp mặt trước hộp mới (hoặc gửi ảnh như hộp vị cam). Nếu mã này đã ngừng bán thì báo để bỏ qua.",
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -49,6 +49,12 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "Gemini pass: no usable reference found; still needs photo"
+    },
+    {
+      "at": "2026-10-17T07:54:08+00:00",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "Ảnh hiện tại là bao bì cũ, chủ báo đã đổi bao bì mới; chưa có ảnh hộp mới vị này"
     }
   ]
 }

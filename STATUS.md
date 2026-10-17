@@ -2,7 +2,7 @@
 
 > Sinh tự động bởi `node tools/status.mjs`. **Không sửa tay.** Nguồn sự thật là `meta.json` của từng SP.
 
-Tổng 2448 SP · đã xem 2428 (99%) · xong 1014 · chờ chủ duyệt 675 · cần chụp 475 · hỏi chủ 258
+Tổng 2448 SP · đã xem 2428 (99%) · xong 1014 · chờ chủ duyệt 678 · cần chụp 467 · hỏi chủ 263
 
 Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` = giữ nguyên + đã lên web.
 
@@ -56,15 +56,15 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 | 46 | Nước suối / bù khoáng / ion | 0.0tr | 16 | 0 | 0 | 0 | 2 | 1 | 6 | 0 | 7 |
 | 47 | Kombucha / lên men | 0.0tr | 16 | 0 | 0 | 0 | 1 | 0 | 10 | 0 | 5 |
 | 48 | Mặt nạ | 0.0tr | 16 | 0 | 3 | 0 | 1 | 6 | 6 | 0 | 0 |
-| 49 | Sữa tắm | 0.0tr | 16 | 0 | 1 | 0 | 4 | 2 | 9 | 0 | 0 |
+| 49 | Sữa tắm | 0.0tr | 16 | 0 | 1 | 0 | 0 | 2 | 13 | 0 | 0 |
 | 50 | Thạch – Rau câu | 0.0tr | 16 | 0 | 0 | 0 | 6 | 1 | 6 | 0 | 3 |
 | 51 | Xịt khử mùi | 0.0tr | 16 | 0 | 0 | 0 | 0 | 0 | 16 | 0 | 0 |
-| 52 | Sữa hạt | 0.0tr | 16 | 0 | 0 | 0 | 4 | 1 | 8 | 0 | 3 |
+| 52 | Sữa hạt | 0.0tr | 16 | 0 | 0 | 0 | 2 | 2 | 9 | 0 | 3 |
 | 53 | Que cay / tăm cay (latiao) | 0.0tr | 15 | 0 | 0 | 0 | 9 | 1 | 3 | 0 | 2 |
 | 54 | Bánh ngọt | 0.0tr | 15 | 0 | 0 | 0 | 8 | 1 | 6 | 0 | 0 |
 | 55 | Chân gà | 0.0tr | 15 | 0 | 0 | 0 | 5 | 2 | 3 | 0 | 5 |
 | 56 | Cocktail lon RTD | 0.0tr | 15 | 0 | 3 | 0 | 0 | 0 | 12 | 0 | 0 |
-| 57 | Sữa chua kiểu Hy Lạp | 0.0tr | 15 | 0 | 0 | 0 | 2 | 0 | 9 | 0 | 4 |
+| 57 | Sữa chua kiểu Hy Lạp | 0.0tr | 15 | 0 | 0 | 0 | 0 | 4 | 7 | 0 | 4 |
 | 58 | Măng & rau ngâm cay | 0.0tr | 15 | 0 | 0 | 0 | 9 | 1 | 2 | 0 | 3 |
 | 59 | Khô heo | 0.0tr | 14 | 0 | 0 | 0 | 4 | 4 | 0 | 0 | 6 |
 | 60 | Bánh pie / cake mềm | 0.0tr | 14 | 0 | 0 | 0 | 1 | 2 | 11 | 0 | 0 |
