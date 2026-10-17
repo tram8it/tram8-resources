@@ -17,12 +17,20 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I6: ảnh 225×225 quá nhỏ (phải phóng >4 lần); trang Häagen-Dazs (haagendazs.com.sg) không có packshot ly mini nền trắng → cần nhân viên chụp",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I6: ảnh KiotViet 225×225 quá nhỏ, bao bì cũ; trang hãng chỉ có ảnh hộp 4 ly → Gemini vẽ lại theo bao bì mới nhất (owner rule 17/10) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Vẽ theo bao bì mới (dải màu tím/xanh) thay cho bao bì cũ trong ảnh KiotViet; nắp nâu đỏ suy từ các ly cùng dãy (ảnh hãng không thấy nắp); bảng dinh dưỡng và số gam đã làm mờ (không có mẫu đọc được, chỉ giữ 100ml); logo HALAL Indonesia lấy theo ly cùng dãy, chưa đối chiếu với ly thật; vùng bảng dinh dưỡng được làm mờ thêm bằng PIL (Gaussian) vì Gemini vẫn vẽ số bịa",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh hộp Fruit Fantasy 4 ly mini trên trang chính hãng haagendazs.com.sg (cắt ly Blueberries & Cream) + ảnh ly Dâu tây cùng dãy làm mẫu dáng + ảnh KiotViet (bao bì cũ)",
+      "referenceUrl": "https://www.haagendazs.com.sg/products/fruit-fantasy-minicup-multipack"
+    },
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +51,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "rubric v4: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T05:10:16Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 3, gemini-nano-banana-2.1), checked by eye against references; nutrition table blurred locally (PIL GaussianBlur) to hide invented numbers"
+    },
+    {
+      "at": "2026-10-17T05:15:46.120Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T05:15:46.120Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

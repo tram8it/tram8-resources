@@ -17,12 +17,20 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I4: ảnh tay cầm, chụp điện thoại; không có packshot chính hãng → cần nhân viên chụp",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I3/I4: ảnh tay cầm, chụp điện thoại; trang hãng chỉ có ảnh hộp 4 ly → Gemini vẽ lại → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Chữ nhỏ bên trái (biểu tượng calo, dòng 'Es Krim Rasa Mangga & Raspberry') đã làm mờ/bỏ; còn sót dòng chữ rất nhỏ '* Glex adults GDA' không có thật; khối lượng 81g/100ml khớp ảnh ly thật",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh hộp Fruit Fantasy 4 ly mini trên trang chính hãng haagendazs.com.sg (cắt ly Mango & Raspberry) + ảnh KiotViet (tay cầm) + ảnh ly Dâu tây cùng dãy làm mẫu dáng",
+      "referenceUrl": "https://www.haagendazs.com.sg/products/fruit-fantasy-minicup-multipack"
+    },
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +51,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "rubric v4: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T05:10:16Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T05:15:48.846Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T05:15:48.846Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

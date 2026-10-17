@@ -17,12 +17,20 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I4: ảnh chụp điện thoại trên bàn; ảnh trên meiji.co.jp là bao bì nội địa Nhật (không có chữ CHO-VANILLA như hàng đang bán) và bị khung cắt → cần nhân viên chụp",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I3/I4: ảnh chụp điện thoại trên bàn, có giọt nước; ảnh hãng là bản nội địa Nhật (không có chữ CHO-VANILLA) và có huy hiệu '新!' → Gemini vẽ lại → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Bỏ huy hiệu '新!' (nhãn ra mắt); thêm chữ CHO-VANILLA theo ly đang bán (vị trí/màu chữ có thể hơi khác); chữ nhỏ ở thành ly bị làm mờ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh bao bì 2024 trong thông cáo báo chí chính hãng meiji.co.jp + ảnh KiotViet (ly đang bán, có chữ CHO-VANILLA)",
+      "referenceUrl": "https://www.meiji.co.jp/corporate/pressrelease/2024/0226_02/index.html"
+    },
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -46,6 +54,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "rubric v4: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T05:11:31Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T05:15:51.344Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T05:15:51.344Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

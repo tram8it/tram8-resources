@@ -17,12 +17,16 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh; SP Lotte Hàn Quốc, không có trang hãng trong danh sách → cần nhân viên chụp",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I1: chưa có ảnh → ảnh hãng Lotte Wellfood (더블비얀코, bản táo + dâu, 185 ml) 512px phóng ~2,4 lần, hơi mềm nhưng đạt theo v4; chưa đối chiếu được mã vạch trên trang hãng",
+    "source": {
+      "url": "https://webimage.ldcc.co.kr/upload/conf/upload/2022/06/30/202206306cebe0790476430.png",
+      "page": "https://www.lottewellfood.com/brand/detail/product?seq=262&lang=ko",
+      "fetchedAt": "2026-10-17T05:13:35Z"
+    },
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +47,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "rubric v4: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T05:13:35Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "brand image from lottewellfood.com (Double Bianco apple-strawberry variant), make_image.py"
+    },
+    {
+      "at": "2026-10-17T05:15:54.315Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T05:15:54.315Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }
