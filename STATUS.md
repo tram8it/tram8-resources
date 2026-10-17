@@ -2,7 +2,7 @@
 
 > Sinh tự động bởi `node tools/status.mjs`. **Không sửa tay.** Nguồn sự thật là `meta.json` của từng SP.
 
-Tổng 2448 SP · đã xem 2428 (99%) · xong 1202 · chờ chủ duyệt 619 · cần chụp 317 · hỏi chủ 287
+Tổng 2448 SP · đã xem 2428 (99%) · xong 1202 · chờ chủ duyệt 621 · cần chụp 317 · hỏi chủ 288
 
 Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` = giữ nguyên + đã lên web.
 
@@ -18,12 +18,12 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 | 8 | Snack que / que cay | 0.0tr | 43 | 0 | 0 | 0 | 9 | 18 | 0 | 0 | 16 |
 | 9 | Mì ly / tô / cốc | 0.0tr | 41 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 41 |
 | 10 | Kẹo cao su / singum | 0.0tr | 41 | 0 | 0 | 0 | 1 | 10 | 12 | 0 | 18 |
-| 11 | Trà đóng chai | 0.0tr | 40 | 0 | 0 | 1 | 2 | 7 | 7 | 0 | 23 |
+| 11 | Trà đóng chai | 0.0tr | 40 | 0 | 0 | 0 | 2 | 7 | 8 | 0 | 23 |
 | 12 | Bánh tráng trộn | 0.0tr | 37 | 0 | 0 | 0 | 2 | 5 | 0 | 0 | 30 |
 | 13 | Nước trái cây / ép | 0.0tr | 34 | 0 | 0 | 0 | 3 | 3 | 15 | 0 | 13 |
 | 14 | Bánh xốp kem (wafer) | 0.0tr | 31 | 0 | 0 | 0 | 2 | 8 | 9 | 0 | 12 |
 | 15 | Mì gói | 0.0tr | 31 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 30 |
-| 16 | Sữa chua uống | 0.0tr | 31 | 0 | 0 | 1 | 2 | 2 | 2 | 0 | 24 |
+| 16 | Sữa chua uống | 0.0tr | 31 | 0 | 0 | 0 | 2 | 3 | 2 | 0 | 24 |
 | 17 | Lager Phổ Thông | 0.0tr | 29 | 0 | 12 | 0 | 0 | 4 | 11 | 0 | 2 |
 | 18 | Kem ly / cốc / hộp nhỏ | 0.0tr | 28 | 0 | 0 | 0 | 10 | 3 | 11 | 0 | 4 |
 | 19 | Mì trộn / mì khô / spaghetti (Gói) | 0.0tr | 27 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 26 |
@@ -31,7 +31,7 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 | 21 | Lăn khử mùi | 0.0tr | 25 | 0 | 0 | 0 | 0 | 1 | 3 | 0 | 21 |
 | 22 | Hạt các loại | 0.0tr | 24 | 0 | 0 | 0 | 2 | 3 | 0 | 0 | 19 |
 | 23 | Bánh ăn sáng / ngũ cốc / thanh năng lượng | 0.0tr | 23 | 0 | 1 | 0 | 4 | 6 | 7 | 0 | 5 |
-| 24 | Bánh quy kem / kẹp kem | 0.0tr | 23 | 0 | 0 | 1 | 2 | 1 | 13 | 0 | 6 |
+| 24 | Bánh quy kem / kẹp kem | 0.0tr | 23 | 0 | 0 | 0 | 2 | 1 | 14 | 0 | 6 |
 | 25 | Mì cay (Gói) | 0.0tr | 23 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 23 |
 | 26 | Bánh quy giòn / lạt | 0.0tr | 22 | 0 | 0 | 0 | 1 | 4 | 6 | 0 | 11 |
 | 27 | Kẹo cứng | 0.0tr | 22 | 0 | 0 | 0 | 1 | 1 | 10 | 0 | 10 |
