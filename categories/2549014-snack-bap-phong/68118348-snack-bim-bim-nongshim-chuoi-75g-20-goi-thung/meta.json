@@ -17,12 +17,16 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I2/I3/I8: ảnh chụp đống gói của SP khác (Calbee), không phải snack chuối Nongshim → cần nhân viên chụp",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I2/I3/I8: ảnh KiotViet là đống gói của SP khác (Calbee) → ảnh hãng Nongshim (packshot nền trắng 434px, phóng ~2,3 lần, xem lại hơi mềm nhưng không vỡ — v3/v4). Bao bì trên trang hãng trùng thiết kế banner 2025 của hãng (bao bì mới nhất, v2). Trang hãng ghi 75 g, khớp tên KiotViet",
+    "source": {
+      "url": "https://image.nongshim.com/non/pro/1448612781686.jpg",
+      "page": "https://brand.nongshim.com/bananakicksnack/main/index",
+      "fetchedAt": "2026-10-17"
+    },
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +47,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "image needs staff photo (current photo is another product), description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T12:00:00.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "image replaced with official Nongshim packshot (brand.nongshim.com, 75g matches name); description kept"
+    },
+    {
+      "at": "2026-10-17T04:01:52.404Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T04:01:52.404Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }
