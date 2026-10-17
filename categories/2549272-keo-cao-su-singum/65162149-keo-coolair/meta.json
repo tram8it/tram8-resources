@@ -17,12 +17,20 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I4/I8: ảnh chụp tay cầm, nhiều SP phía sau; không có trang chính hãng Mars Wrigley Việt Nam có ảnh SP → cần chụp",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I3/I4/I8: ảnh chụp tay cầm, nhiều SP phía sau; không có ảnh hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: nhãn tím vẽ phẳng, ít ánh kim hơn gói thật; chữ nhỏ 'Hình ảnh mang tính minh họa cho hương vị' bị cắt mép như gói thật. Hãng đã có bao bì hũ mới 55,4 g cho bạc hà/Doublemint; chưa thấy bản mới của vị quả mọng nên vẽ theo bao bì 58,4 g cửa hàng đang có",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh Open Food Facts cùng mã vạch 8936114080961 (chỉ làm mẫu) + ảnh KiotViet",
+      "referenceUrl": "https://world.openfoodfacts.org/product/8936114080961"
+    },
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +51,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "review b08: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T04:54:43Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T04:54:52.099Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T04:54:52.099Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

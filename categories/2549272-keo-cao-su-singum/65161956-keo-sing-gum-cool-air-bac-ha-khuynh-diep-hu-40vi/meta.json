@@ -17,12 +17,12 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "ASK_OWNER",
   "image": {
-    "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh; không có trang chính hãng Mars Wrigley Việt Nam có ảnh SP → cần chụp",
+    "decision": "ASK_OWNER",
+    "reason": "I2: hãng đã ra bao bì hũ mới 55,4 g (Lazada ghi \"MỚI RA MẮT\" 6 hũ x 55,4 g), tên KiotViet ghi 58,4 g; cửa hàng chưa có ảnh nên không biết đang bán bản nào",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -30,7 +30,7 @@
     "source": null,
     "rubricVersion": "v4"
   },
-  "question": null,
+  "question": "Mã 8936114080022 (Cool Air bạc hà khuynh diệp hũ): tên KiotViet ghi 58,4 g (bao bì cũ, nhãn xanh dương ánh kim có dòng \"Khối lượng tịnh: 58,4 g\" — ảnh mẫu trungtamthuoc/Pharmacity), nhưng hãng đã ra bao bì hũ mới 55,4 g. Cửa hàng đang bán hũ nào? (a) hũ cũ 58,4 g → vẽ theo bao bì cũ; (b) hũ mới 55,4 g → vẽ bao bì mới và sửa tên thành 55,4 g; (c) nhân viên chụp 1 tấm hũ đang bán.",
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -43,6 +43,12 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "review b08: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T04:55:22Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "Có ảnh mẫu bao bì cũ 58,4 g (trungtamthuoc.com, Pharmacity) nhưng hãng đã ra hũ mới 55,4 g → hỏi chủ trước khi vẽ"
     }
   ]
 }
