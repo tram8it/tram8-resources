@@ -20,17 +20,17 @@
   "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I4: ảnh chụp cận nhãn hộp, nền không trắng; không có ảnh hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Tên 'Bánh bao Thọ Phát – Nhân Ca Dé', '70 g/bánh x 4' khớp ảnh gói thật; ảnh cửa hàng bị cắt ở số khối lượng ('28…'), ghi 280 g = 70 g x 4; mép phải và đáy túi suy theo gói Đậu Xanh cùng dòng. Lưu ý: tên KiotViet ghi 70g là khối lượng 1 cái; gói 280 g.",
+    "reason": "v18: món hấp bán lẻ hiện cái bánh và nhân thay cho ảnh bao bì → ảnh món ăn Gemini vẽ từ ảnh bao bì (v18: món hấp bán lẻ hiện cái bánh và nhân); ảnh minh hoạ. Khác hàng thật: nhân ca dé (kem trứng sữa vàng) theo tên SP và ảnh bánh bổ đôi in trên bao bì; thành phần không đọc được trên ảnh KiotViet; ảnh minh hoạ, bánh thật có thể khác",
     "source": {
       "aiGenerated": true,
       "tool": "Gemini API",
       "model": "gemini-nano-banana-2.1",
       "generatedAt": "2026-10-17",
-      "style": "flat clean packaging render (v17)",
-      "reference": "ảnh KiotViet (chụp cận một phần gói) + ảnh KiotViet gói Đậu Xanh cùng dòng (chỉ làm mẫu khổ túi)",
+      "style": "food photo, whole + cut showing filling (v18)",
+      "reference": "ảnh bao bì (ảnh KiotViet + ảnh bao bì đã vẽ) — chỉ để biết hình bánh và nhân",
       "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/02/09/tongpenhchtl/0cf1832d806f4e6b85b7c3f9e7fc5a2e.jpeg"
     },
-    "rubricVersion": "v17"
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -66,10 +66,22 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T07:30:23Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 4, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T07:30:28.929Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-17T05:36:48.056Z",
+    "at": "2026-10-17T07:30:28.929Z",
     "fields": [
       "description",
       "image"

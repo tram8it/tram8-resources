@@ -20,17 +20,17 @@
   "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I4: ảnh chụp cận khay bánh, nền không trắng; không có ảnh hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Tên 'Bánh bao bí đỏ sữa tươi', khối lượng 280g, mã vạch khớp nhãn thật; dòng phụ dưới khối lượng AI vẽ lỗi nên đã làm mờ; hình khay/túi suy theo SP cùng dòng (ảnh cửa hàng chụp cận, chỉ thấy một phần khay); chữ nhỏ (thành phần, dinh dưỡng, địa chỉ, hotline) do AI vẽ, không đúng nguyên văn. Lưu ý: tên KiotViet ghi 70g là khối lượng 1 cái; gói 280 g.",
+    "reason": "v18: món hấp bán lẻ hiện cái bánh và nhân thay cho ảnh bao bì → ảnh món ăn Gemini vẽ từ ảnh bao bì (v18: món hấp bán lẻ hiện cái bánh và nhân); ảnh minh hoạ. Khác hàng thật: nhân bí đỏ sữa tươi theo thành phần in trên bao bì (bí đỏ 17,9%, khoai lang, sữa tươi, cốt dừa) + tên SP; bao bì không có hình bánh bổ đôi nên màu nhân là suy đoán; ảnh minh hoạ, bánh thật có thể khác",
     "source": {
       "aiGenerated": true,
       "tool": "Gemini API",
       "model": "gemini-nano-banana-2.1",
       "generatedAt": "2026-10-17",
-      "style": "flat clean packaging render (v17)",
-      "reference": "ảnh KiotViet (nhãn thật) + ảnh render cùng dòng 'Xá xíu kiểu Hồng Kông' trên Co.op Online (chỉ làm mẫu kiểu khay)",
+      "style": "food photo, whole + cut showing filling (v18)",
+      "reference": "ảnh bao bì (ảnh KiotViet + ảnh bao bì đã vẽ) — chỉ để biết hình bánh và nhân",
       "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/02/09/tongpenhchtl/29962152fe17451f98efe2badd448e54.jpeg"
     },
-    "rubricVersion": "v17"
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -69,10 +69,22 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T07:30:23Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T07:30:35.404Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-17T05:36:55.048Z",
+    "at": "2026-10-17T07:30:35.404Z",
     "fields": [
       "description",
       "image"

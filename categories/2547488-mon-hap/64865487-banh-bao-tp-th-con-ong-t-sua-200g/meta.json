@@ -20,17 +20,17 @@
   "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I4: ảnh chụp điện thoại trong tủ mát, nền không trắng; không có ảnh hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Vẽ theo nhãn xanh lá đời cũ 'Bánh Bao nhân trứng sữa – Tạo hình Con Ong', 200 g như ảnh cửa hàng; không tìm được ảnh nhãn mới (KIDO) — nếu cửa hàng đang bán nhãn mới thì cần chụp lại; dãy số mã vạch AI vẽ sai nên đã làm mờ; dòng phụ '4 cái x 50 g' suy theo các SP cùng dòng 200 g; dòng chữ chứng nhận ISO trên dải màu dưới nhãn AI vẽ sai nên đã làm mờ; chữ nhỏ do AI vẽ, không đúng nguyên văn.",
+    "reason": "v18: món hấp bán lẻ hiện cái bánh và nhân thay cho ảnh bao bì → ảnh món ăn Gemini vẽ từ ảnh bao bì (v18: món hấp bán lẻ hiện cái bánh và nhân); ảnh minh hoạ. Khác hàng thật: nhân trứng sữa (kem trứng sữa vàng, hơi chảy) theo tên SP và ảnh bánh bổ đôi in trên bao bì; ảnh minh hoạ, bánh thật có thể khác",
     "source": {
       "aiGenerated": true,
       "tool": "Gemini API",
       "model": "gemini-nano-banana-2.1",
       "generatedAt": "2026-10-17",
-      "style": "flat clean packaging render (v17)",
-      "reference": "ảnh KiotViet (ảnh chụp gói thật)",
+      "style": "food photo, whole + cut showing filling (v18)",
+      "reference": "ảnh bao bì (ảnh KiotViet + ảnh bao bì đã vẽ) — chỉ để biết hình bánh và nhân",
       "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/02/09/tongpenhchtl/92481df7bd764a7f83214c205e6a1e19.jpeg"
     },
-    "rubricVersion": "v17"
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -69,10 +69,22 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T07:30:24Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T07:30:39.504Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-17T05:37:00.112Z",
+    "at": "2026-10-17T07:30:39.504Z",
     "fields": [
       "description",
       "image"

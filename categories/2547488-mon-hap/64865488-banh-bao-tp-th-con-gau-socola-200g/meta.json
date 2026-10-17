@@ -20,17 +20,17 @@
   "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I4: ảnh chụp cận khay bánh bằng điện thoại, nền không trắng; thophat.com chặn bot/chỉ có ảnh bánh bày đĩa → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Chữ lớn, khối lượng 200 g (50 g/cái x 4) khớp bao bì thật; chữ nhỏ (thành phần, dinh dưỡng, địa chỉ, hotline) do AI vẽ, không đúng nguyên văn; dãy số dưới mã vạch AI vẽ sai nên đã làm mờ; bỏ watermark Lotte Mart.",
+    "reason": "v18: món hấp bán lẻ hiện cái bánh và nhân thay cho ảnh bao bì → ảnh món ăn Gemini vẽ từ ảnh bao bì (v18: món hấp bán lẻ hiện cái bánh và nhân); ảnh minh hoạ. Khác hàng thật: nhân sô cô la theo tên SP và thành phần in trên bao bì (nhân sô cô la compound đen, bột ca cao, đậu trắng, sữa đặc); bao bì không có hình bánh bổ đôi; ảnh minh hoạ, bánh thật có thể khác",
     "source": {
       "aiGenerated": true,
       "tool": "Gemini API",
       "model": "gemini-nano-banana-2.1",
       "generatedAt": "2026-10-17",
-      "style": "flat clean packaging render (v17)",
-      "reference": "ảnh render bao bì trên Lotte Mart (cùng mã vạch 8935335401838, chỉ làm mẫu) + ảnh KiotViet",
+      "style": "food photo, whole + cut showing filling (v18)",
+      "reference": "ảnh bao bì (ảnh render bao bì trên Lotte Mart cùng mã vạch + ảnh bao bì đã vẽ; ảnh KiotViet để đối chiếu) — chỉ để biết hình bánh và nhân",
       "referenceUrl": "https://www.lottemart.vn/media/catalog/product/cache/0x0/8/9/8935335401838-1.jpg.webp"
     },
-    "rubricVersion": "v17"
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -69,10 +69,22 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T07:30:24Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 3, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T07:30:41.812Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-17T05:37:02.665Z",
+    "at": "2026-10-17T07:30:41.812Z",
     "fields": [
       "description",
       "image"

@@ -20,17 +20,17 @@
   "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I4: ảnh chụp cận khay bánh, nền không trắng; thophat.com chặn bot/chỉ có ảnh bánh bày đĩa → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Chữ lớn, khối lượng 240 g (60 g x 4 cái), mã vạch khớp bao bì thật; chữ nhỏ (thành phần, bảng dinh dưỡng, địa chỉ, số hotline) do AI vẽ, không đúng nguyên văn; bỏ watermark Lotte Mart.",
+    "reason": "v18: món hấp bán lẻ hiện cái bánh và nhân thay cho ảnh bao bì; nền xám nhạt của ảnh Gemini đã tách và làm trắng bằng tools/cutout.py (mất bóng mềm) → ảnh món ăn Gemini vẽ từ ảnh bao bì (v18: món hấp bán lẻ hiện cái bánh và nhân); ảnh minh hoạ. Khác hàng thật: nhân chuối sô cô la theo tên SP và thành phần in trên bao bì (chuối 8,5%, đậu trắng, sữa đặc, kem whipping, sô cô la compound đen 0,2%); bao bì không có hình bánh bổ đôi; ảnh minh hoạ, bánh thật có thể khác",
     "source": {
       "aiGenerated": true,
       "tool": "Gemini API",
       "model": "gemini-nano-banana-2.1",
       "generatedAt": "2026-10-17",
-      "style": "flat clean packaging render (v17)",
-      "reference": "ảnh render bao bì trên Lotte Mart (cùng mã vạch 8935335403085, chỉ làm mẫu) + ảnh KiotViet",
+      "style": "food photo, whole + cut showing filling (v18)",
+      "reference": "ảnh bao bì (ảnh render bao bì trên Lotte Mart cùng mã vạch + ảnh bao bì đã vẽ; ảnh KiotViet để đối chiếu) — chỉ để biết hình bánh và nhân",
       "referenceUrl": "https://www.lottemart.vn/vi-bdg/product/banh-bao-chuoi-soco-ngua-tp-240g-8935335403085-p239865"
     },
-    "rubricVersion": "v17"
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -63,10 +63,22 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T07:30:24Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 3, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T07:30:46.077Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-17T05:37:23.959Z",
+    "at": "2026-10-17T07:30:46.077Z",
     "fields": [
       "description",
       "image"
