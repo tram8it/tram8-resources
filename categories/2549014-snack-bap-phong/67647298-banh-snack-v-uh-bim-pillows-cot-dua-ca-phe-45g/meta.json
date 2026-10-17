@@ -17,12 +17,12 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "ASK_OWNER",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh; trang Oishi chỉ có ảnh túi zip 75 g (cỡ 38/75 g), không có gói 45 g → cần nhân viên chụp",
+    "reason": "I1: chưa có ảnh. Trang hãng Oishi (oishi.com.vn, 17/10/2026) ghi Pillows nhân cốt dừa cà phê chỉ có 38g/75g và chỉ có ảnh túi zip Party Size (bản Oishi × Cộng); không tìm được ảnh mẫu nào của gói gối nhỏ mã vạch 8934803039054 (tìm theo mã vạch trên web, Open Food Facts: không có) → chưa vẽ Gemini được, cần chủ xác nhận khối lượng + ảnh chụp mặt trước",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -33,7 +33,7 @@
     },
     "rubricVersion": "v4"
   },
-  "question": null,
+  "question": "Mã vạch 8934803039054 (Pillows nhân cốt dừa cà phê): tên KiotViet ghi 45g, nhưng trang Oishi chỉ có cỡ 38g và 75g (gói sữa dừa cùng dãy chủ đã xác nhận là 80g dù tên ghi 45g). Gói thật in khối lượng bao nhiêu (38g, 45g, 80g…) và là gói gối nhỏ hay túi zip? Nhờ nhân viên chụp mặt trước 1 gói (thấy trọn gói, đọc được dòng khối lượng) để làm ảnh mẫu cho Gemini; nếu khối lượng khác 45g thì sửa tên KiotViet và mô tả.",
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -46,6 +46,12 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "image needs staff photo, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T04:03:25Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "no reference photo for barcode 8934803039054 on web; brand site lists 38/75g only, name says 45g; asked owner for real weight + staff photo"
     }
   ]
 }

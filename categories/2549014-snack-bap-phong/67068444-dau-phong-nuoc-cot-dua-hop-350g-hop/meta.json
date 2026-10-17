@@ -20,9 +20,9 @@
   "status": "NEEDS_PHOTO",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh; không rõ hãng, không có nguồn chính hãng → cần nhân viên chụp",
+    "reason": "I1: chưa có ảnh; không rõ hãng (đầu mã vạch 893623614… giống các SP Quang Thanh Foods như tóp mỡ cuộn 8936236143230, nhưng chưa chắc), Quang Thanh không có trang hãng; tìm theo mã vạch 8936236143285 và tên trên web, Open Food Facts (17/10/2026): không có ảnh mẫu nào → không vẽ Gemini được, cần nhân viên chụp mặt trước hộp",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +43,12 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "image needs staff photo, description WRITE_NEW (from name)"
+    },
+    {
+      "at": "2026-10-17T04:03:25Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "web search for barcode/name found no reference image (likely Quang Thanh Foods, no brand site); still needs staff photo"
     }
   ]
 }
