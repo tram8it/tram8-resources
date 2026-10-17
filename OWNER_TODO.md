@@ -15,6 +15,14 @@ còn gì), đọc file này và **nhắc chủ từng mục còn mở**. Ghi th�
       14/10/2026). `python3 tools/tone.py --scan` lúc tạo công cụ: 274 ảnh thiếu sáng. Chỉnh, xem
       so trước/sau từng danh mục, rồi gửi lại đề xuất ảnh.
 
+## Gấp — thuế bị KiotViet tự đổi khi áp dụng ảnh/mô tả (phát hiện 17/10/2026)
+
+- [ ] **40 SP đồ uống đang VAT 10% bị KiotViet tự chuyển sang VAT 8%** ngay khi Hub ghi ảnh/mô tả
+      (Hub chỉ gửi `description` + `images`; KiotViet tự áp thuế mặc định 8% và tính lại giá trước thuế,
+      giá sau thuế giữ nguyên). Danh sách: `reports/vat-doi-10-sang-8-khi-ap-dung.csv`. Chủ/kế toán kiểm tra
+      thuế đúng của từng SP (bia, rượu, nước ngọt… thường không được giảm VAT) và sửa lại trên KiotViet.
+      Cần sửa Hub để không áp dụng tiếp SP VAT ≠ 8% cho tới khi có cách giữ thuế (repo tram8-hub).
+
 ## Đổi danh mục trên KiotViet
 
 - [ ] 65175893 "Mì ý xúc xích xốt bò bằm" (món làm sẵn, không có mã vạch): chuyển khỏi "Mì trộn / mì khô / spaghetti (Gói)" sang danh mục món ăn sẵn (chủ dặn 14/10/2026)
