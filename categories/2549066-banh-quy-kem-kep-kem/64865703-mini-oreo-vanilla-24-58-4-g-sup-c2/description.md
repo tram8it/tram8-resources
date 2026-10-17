@@ -1,4 +1,4 @@
-Bánh quy Mini Oreo nhân kem vị vani, bánh Oreo cỡ nhỏ đựng trong cốc có nắp, tiện mang theo.
+Bánh quy Mini Oreo Original nhân kem hương vani, bánh Oreo cỡ nhỏ đựng trong túi zip đứng, tiện mang theo và đóng lại sau khi mở.
 
-Quy cách: 58,4 g · cốc
+Quy cách: 58,4 g · túi
 Thương hiệu: Oreo (Mondelēz)

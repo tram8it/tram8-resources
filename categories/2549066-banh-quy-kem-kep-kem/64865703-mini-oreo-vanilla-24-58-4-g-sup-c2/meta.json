@@ -19,16 +19,23 @@
   },
   "status": "READY",
   "image": {
-    "decision": "KEEP",
-    "reason": "Packshot nền trắng, 1:1, đúng SP (cốc Mini Oreo vani), căn giữa",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "REPLACE",
+    "reason": "I3: ảnh cũ là cốc Mini Oreo, hàng bán là túi zip (chủ gửi ảnh 17/10); túi trên kệ là bản in hợp tác BTS → vẽ bản thường không chữ BTS (v17) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Bỏ chữ BTS; bảng năng lượng làm mờ vì AI bịa số",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh chủ chụp túi thật trên kệ 17/10 (bản in BTS) + túi mini Oreo socola cùng dòng"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
-    "decision": "WRITE_NEW",
-    "reason": "D1: chưa có mô tả; viết ngắn chỉ từ dữ kiện chắc chắn (tên, vị, khối lượng theo tên SP, chữ in mặt trước gói)",
+    "decision": "REWRITE",
+    "reason": "Hàng thật là túi zip, không phải cốc (ảnh chủ 17/10)",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v20"
   },
   "question": null,
   "history": [
@@ -43,6 +50,32 @@
       "by": "ai",
       "status": "READY",
       "note": "b13: image KEEP, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T17:23:35Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T17:23:45+00:00",
+      "by": "owner",
+      "status": "READY",
+      "note": "Chủ gửi ảnh túi Mini Oreo Original thật (bản in BTS)"
+    },
+    {
+      "at": "2026-10-17T17:23:45.656Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T17:23:45.656Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }
