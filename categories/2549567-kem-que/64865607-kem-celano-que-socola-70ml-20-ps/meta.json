@@ -17,12 +17,12 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "ASK_OWNER",
   "image": {
-    "decision": "REPLACE",
-    "reason": "I8: ảnh có 2 gói chồng nhau (và là dòng 'Chocolate Almond' — không chắc khớp tên); Không tìm được nguồn chính hãng: kidofoods.vn lỗi chứng chỉ TLS/503, merino.vn trả 503, kdc.vn (KIDO) không còn trang kem; chưa thấy gian hàng chính hãng có bằng chứng",
+    "decision": "ASK_OWNER",
+    "reason": "I2/I8: mã vạch 8936011771511 là Celano Passion Sô cô la Hạnh nhân (Chocolate Almond) — Kingfoodmart, Open Food Facts; ảnh KiotViet 2 gói chồng nhau. Bao bì mới nhất cùng mã vạch là Celano Classic 'Kem sô cô la hạnh nhân' 53g (vàng cam) — kimphuc.net; khác tên KiotViet (Que Socola 70ml)",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -30,7 +30,7 @@
     "source": null,
     "rubricVersion": "v4"
   },
-  "question": null,
+  "question": "Mã vạch 8936011771511 ('Kem Celano Que Socola 70ml'): mã này là kem Celano vị SÔ CÔ LA HẠNH NHÂN. Bao bì cũ (Celano Passion 'Chocolate Almond', nâu đỏ) ghi 70ml; bao bì mới hiện bán (Celano Classic, vàng cam) ghi 53g. Cửa hàng đang nhận loại nào? (1) bao bì mới 53g → đổi tên thành 'Kem Celano Sô cô la hạnh nhân 53g' và vẽ ảnh bao bì mới; (2) vẫn bao bì cũ 70ml → giữ 70ml, vẽ ảnh Passion Chocolate Almond 70ml, thêm 'hạnh nhân' vào tên; (3) thực ra là SP khác (sô cô la thường) → gửi ảnh gói thật.",
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -43,6 +43,12 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "image needs photo (no official source), description WRITE_NEW (name facts only)"
+    },
+    {
+      "at": "2026-10-17T04:12:16Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "barcode is a different flavour line; newest pack 53g vs name 70ml — not drawn, asked owner"
     }
   ]
 }
