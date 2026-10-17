@@ -17,12 +17,16 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I4/I5: ảnh chụp cận chai trong màng co, bị cắt; trang Tân Hiệp Phát không có ảnh SP → cần chụp",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I3/I4/I5: ảnh chụp cận chai trong màng co, bị cắt; thay bằng ảnh hãng Trà xanh Không Độ vị chanh chai PET 455 ml (nhãn ghi 'Thể tích thực: 455 ml', trang SP: https://www.thp.com.vn/tra-xanh-khong-do/)",
+    "source": {
+      "url": "https://d1v5l30g8wuyvb.cloudfront.net/thp.com.vn/uploads/2025/05/08132128/TXKD-PET-455ml-chiet-lanh-1.jpg",
+      "page": "https://www.thp.com.vn/tra-xanh-khong-do/",
+      "fetchedAt": "2026-10-17"
+    },
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -46,6 +50,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "review b08: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T05:15:44Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Brand packshot (THP CloudFront) found on thp.com.vn product page, normalised with make_image.py"
+    },
+    {
+      "at": "2026-10-17T05:20:16.611Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T05:20:16.611Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

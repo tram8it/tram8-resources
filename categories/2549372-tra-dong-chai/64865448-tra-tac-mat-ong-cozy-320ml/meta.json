@@ -17,12 +17,20 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I4: ảnh chụp lốc lon trên bàn; ảnh trên cozy.vn là ảnh bối cảnh (nền đồi chè), không có packshot nền trắng → cần chụp",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I3/I4: ảnh chụp lốc lon trên bàn; cozy.vn chỉ có ảnh bối cảnh → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: vẽ 1 lon mặt chữ Việt; mã vạch AI vẽ theo đúng mã 8936010532236 của SP; biểu tượng nhỏ cạnh mã vạch vẽ lại gần giống",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (lốc 6 lon)",
+      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/02/26/tongpenhchtl/0f08bf2637d14445b83ccf08925051bd.jpg"
+    },
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -46,6 +54,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "review b08: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T05:19:52Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T05:20:33.422Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T05:20:33.422Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

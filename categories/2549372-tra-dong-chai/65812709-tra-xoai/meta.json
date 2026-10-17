@@ -20,9 +20,9 @@
   "status": "NEEDS_PHOTO",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh; không rõ thương hiệu (mã vạch 692…, hàng Trung Quốc), không có nguồn hãng → cần chụp",
+    "reason": "I1: chưa có ảnh; không rõ thương hiệu (mã vạch 692…, hàng Trung Quốc), tra mã vạch trên web và Open Food Facts không ra SP → cần nhân viên chụp mặt trước (sau đó có thể vẽ lại bằng Gemini)",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +43,12 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "review b08: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T05:20:11Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "Barcode not found on web/OFF; no reference to draw from"
     }
   ]
 }

@@ -17,12 +17,20 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I4: ảnh chụp lốc chai trong màng co, nền không trắng; trang hãng Boncha không truy cập được/không có ảnh SP → cần chụp",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I3/I4: ảnh chụp lốc chai trong màng co, nền không trắng; trang hãng Boncha (Uniben) không truy cập được → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: AI thêm dòng '450 ml' ở chân mặt trước (trên chai thật '450 ml' in ở mặt sau, khớp tên SP); hoạ tiết trái cây vẽ lại gần giống, không thấy khác biệt chữ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (lốc chai Boncha việt quất) + ảnh KiotViet chai Boncha ô long đào (dáng chai)",
+      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/04/06/tongpenhchtl/01d20531f7fa4e3584ca4f7bd080549f.jpeg"
+    },
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +51,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "review b08: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T05:19:38Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T05:20:19.300Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T05:20:19.300Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }
