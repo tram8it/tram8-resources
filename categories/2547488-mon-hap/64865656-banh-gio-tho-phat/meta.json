@@ -17,12 +17,20 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I4: ảnh KiotViet là mặt SAU nhãn (thành phần, mã vạch), không thấy mặt trước gói; Co.op Online chỉ có ảnh bánh bày đĩa; không có ảnh mẫu mặt trước → cần chụp mặt trước gói",
-    "source": null,
-    "rubricVersion": "v17"
+    "reason": "I3/I4: ảnh KiotViet là mặt sau nhãn, không thấy bánh → ảnh món ăn Gemini vẽ từ ảnh bao bì (v18: món hấp bán lẻ hiện cái bánh và nhân); ảnh minh hoạ. Khác hàng thật: ảnh minh hoạ; hình chóp theo khay đúc trên ảnh bao bì, nhân thịt heo + nấm mèo + 1 trứng cút theo thành phần in trên nhãn; tỉ lệ nhân thật có thể khác",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "food photo, whole + cut showing filling (v18)",
+      "reference": "ảnh Kingfoodmart (chỉ làm mẫu, bao bì 160 g) + ảnh KiotViet mặt sau nhãn",
+      "referenceUrl": "https://storage.googleapis.com/onelife-public/8935335402514.jpg"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -49,6 +57,12 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "rechecked 17/10: only back label photo and plated photo found; front of pack unknown, Gemini not run"
+    },
+    {
+      "at": "2026-10-17T17:35:20Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
     }
   ]
 }

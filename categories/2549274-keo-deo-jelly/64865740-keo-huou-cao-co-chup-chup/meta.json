@@ -17,18 +17,29 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I5: ảnh KiotViet chụp cận hộp trưng bày, bị cắt khung. Chỉ tìm được ảnh key visual Crazy Raffe Sour (hộp trưng bày), không có ảnh gói lẻ đúng mã vạch 8935001720096 bản Việt Nam ('Hươu cao cổ'); không biết bao bì gói lẻ nên không vẽ Gemini được. Cần nhân viên chụp trọn gói lẻ mặt trước.",
-    "source": null,
-    "rubricVersion": "v17"
+    "reason": "I3/I5: ảnh KiotViet là hộp trưng bày bị cắt khung, không phải 1 thanh kẹo bán lẻ; không có ảnh hãng → Gemini vẽ 1 thanh kẹo theo ảnh mẫu (ảnh minh hoạ) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: ảnh minh hoạ vẽ lại theo ảnh Kingfoodmart; chữ rất nhỏ ở đáy 'KẸO DẺO DÀI' dấu hơi giống 'DẢI', dòng chữ dọc li ti cạnh hươu không đọc được; còn lại logo, SOUR, CRAZY RAFFE, Hươu Cao Cổ, 'Kẹo dẻo hương dâu vani', 'Có nhân' khớp mẫu",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh Kingfoodmart gói lẻ đúng mã vạch 8935001720096 (chỉ làm mẫu) + ảnh KiotViet hộp trưng bày",
+      "referenceUrl": "https://storage.googleapis.com/onelife-public/8935001720096.jpg"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
-    "reason": "D1: chưa có mô tả; không có trang hãng — mô tả ngắn chỉ từ tên SP và chữ in mặt trước bao bì (ảnh hiện tại)",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "D1: mô tả theo chữ in trên gói lẻ (ảnh Kingfoodmart đúng mã vạch): hương dâu vani, có nhân, kẹo dẻo dài hình xoắn",
+    "source": {
+      "url": "https://storage.googleapis.com/onelife-public/8935001720096.jpg",
+      "fetchedAt": "2026-10-17T17:34:56.489337Z"
+    },
+    "rubricVersion": "v22"
   },
   "question": null,
   "history": [
@@ -49,6 +60,38 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "v17: tìm ảnh mẫu cho Gemini không có — giữ NEEDS_PHOTO"
+    },
+    {
+      "at": "2026-10-17T17:34:38Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T17:34:56.489337Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "description fixed to real pack; master.brand proposed"
+    },
+    {
+      "at": "2026-10-17T17:34:56.635Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: brand, description, image"
     }
-  ]
+  ],
+  "master": {
+    "brand": "Chupa Chups",
+    "reason": "Thương hiệu KiotViet 'Chuppa Chuđ' viết sai; bao bì in logo Chupa Chups",
+    "rubricVersion": "v22"
+  },
+  "submitted": {
+    "at": "2026-10-17T17:34:56.635Z",
+    "fields": [
+      "brand",
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

@@ -1,4 +1,4 @@
-Kẹo Chupa Chups Crazy Raffe hình hươu cao cổ, vị chua (Sour).
+Kẹo dẻo Chupa Chups Crazy Raffe Hươu Cao Cổ vị chua (Sour), hương dâu vani. Thanh kẹo dẻo dài hình xoắn, có nhân, đóng gói từng thanh.
 
 Quy cách: thanh
-Nhà sản xuất/thương hiệu: Chupa Chups
+Thương hiệu: Chupa Chups

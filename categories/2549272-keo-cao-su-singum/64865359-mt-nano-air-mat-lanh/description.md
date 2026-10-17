@@ -1,4 +1,4 @@
-Kẹo gum không đường Mentos Air hương mát lạnh, đóng hũ.
+Kẹo gum không đường Mentos Air Mát Lạnh, hương bạc hà khuynh diệp, đóng hũ nhựa nắp bật.
 
 Quy cách: hộp
-Nhà sản xuất/thương hiệu: Mentos
+Thương hiệu: Mentos

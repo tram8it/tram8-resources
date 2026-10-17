@@ -17,18 +17,29 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I4/I8: ảnh KiotViet chụp kệ, mặt trước hũ bị che/cắt, không đọc được khối lượng; không tìm thấy ảnh mẫu nào của mã 8935001720362 (Mentos Air Mát Lạnh hũ nhỏ) trên web → cần nhân viên chụp 1 hũ thấy trọn mặt trước",
-    "source": null,
-    "rubricVersion": "v17"
+    "reason": "I3/I4/I8: ảnh KiotViet chụp kệ, mặt trước hũ bị che/cắt; không có ảnh hãng → Gemini vẽ 1 hũ theo ảnh mẫu (ảnh minh hoạ) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: ảnh minh hoạ: vẽ 1 hũ từ ảnh khay 6 hũ; chữ trên hũ (KẸO GUM, KHÔNG ĐƯỜNG, mentos AIR, Mát Lạnh, Hương BẠC HÀ KHUYNH DIỆP) lấy theo chữ in trên khay; không ghi khối lượng vì ảnh mẫu không thấy; nắp/dáng hũ theo ảnh mẫu",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh Kingfoodmart khay 6 hũ đúng mã vạch 8935001720362 (chỉ làm mẫu) + ảnh KiotViet kệ",
+      "referenceUrl": "https://storage.googleapis.com/onelife-public/8935001720362.jpg"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
-    "reason": "D1: chưa có mô tả; viết ngắn từ tên SP và chữ in mặt trước bao bì (không có nguồn hãng)",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "D1: mô tả theo chữ in trên bao bì (ảnh Kingfoodmart đúng mã vạch): không đường, Mát Lạnh, hương bạc hà khuynh diệp",
+    "source": {
+      "url": "https://storage.googleapis.com/onelife-public/8935001720362.jpg",
+      "fetchedAt": "2026-10-17T17:34:56.527029Z"
+    },
+    "rubricVersion": "v22"
   },
   "question": null,
   "history": [
@@ -49,6 +60,32 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "Tìm 5 lượt (barcode, Pharmacity, Open Food Facts, tên SP) không có ảnh mẫu đủ rõ; không vẽ Gemini"
+    },
+    {
+      "at": "2026-10-17T17:34:39Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T17:34:56.527029Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "description fixed to real pack"
+    },
+    {
+      "at": "2026-10-17T17:34:58.795Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T17:34:58.795Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }
