@@ -114,7 +114,8 @@ Output requirements:
 - Freshly steamed look: soft, slightly glossy dough, a light wisp of steam at most. Realistic, not
   cartoon. Soft natural studio light, gentle shadow.
 - Pure white background (#FFFFFF), square 1:1 canvas, food about 75% of the canvas width, centred,
-  whole food visible with white margin. A plain white plate is allowed; nothing else.
+  whole food visible with white margin. NO plate, board or cloth: the buns sit directly
+  on the white background with a soft shadow.
 - No text, no logos, no labels, no packaging, no hands, no props.
 {note}"""
 
@@ -122,7 +123,8 @@ FOOD_FIX_PROMPT = """The first image is your previous food photo of this product
 photos of its pack, for reference only. Keep everything that is already right and fix only this:
 {instruction}
 All other requirements still hold: the food itself (no pack, no text, no logo), one whole piece and
-one cut in half showing the filling, pure white 1:1 background with margin, realistic and appetizing."""
+one cut in half showing the filling, no plate, pure white 1:1 background with margin, realistic and
+appetizing."""
 
 
 class ApiError(Exception):
