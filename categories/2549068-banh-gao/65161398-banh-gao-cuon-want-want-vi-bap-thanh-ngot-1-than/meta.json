@@ -17,20 +17,27 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "ASK_OWNER",
+  "status": "READY",
   "image": {
-    "decision": "ASK_OWNER",
-    "reason": "Ảnh hiện tại là cả gói 170 g, tên SP ghi '1 thanh' → chưa rõ đơn vị bán",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "REPLACE",
+    "reason": "I3/I8: ảnh cả gói 170 g/ảnh điện thoại; đơn vị bán là 1 thanh → cắt ảnh thanh lẻ từ ảnh hãng trên wantwant.vn (bỏ nhãn '18cm' và ảnh gói lớn)",
+    "source": {
+      "url": "https://wantwant.vn/vnt_upload/product/12_2024/7.png",
+      "page": "https://wantwant.vn/vn/banh-gao-cuon-want-want-vi-bap-thanh-ngot.html",
+      "fetchedAt": "2026-10-17T09:00:22Z"
+    },
+    "rubricVersion": "v19"
   },
   "description": {
-    "decision": "ASK_OWNER",
-    "reason": "Chưa rõ quy cách bán (1 thanh hay gói 170 g)",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "WRITE_NEW",
+    "reason": "chưa có mô tả; viết từ trang sản phẩm wantwant.vn, ghi đơn vị bán là 1 thanh (v19)",
+    "source": {
+      "url": "https://wantwant.vn/vn/banh-gao-cuon-want-want-vi-bap-thanh-ngot.html",
+      "fetchedAt": "2026-10-17T09:00:22Z"
+    },
+    "rubricVersion": "v19"
   },
-  "question": "Bánh gạo cuộn Want Want vị bắp thanh ngọt – tên KiotViet ghi '1 thanh 18CM 170GR'. Gói 170 g gồm 10 thanh gói riêng (17 g/thanh). Cửa hàng bán lẻ từng thanh hay bán cả gói 170 g? (Ảnh hiện tại là cả gói; nếu bán lẻ từng thanh thì cần ảnh 1 thanh.)",
+  "question": null,
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -43,6 +50,18 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "b21: image ASK_OWNER, description ASK_OWNER"
+    },
+    {
+      "at": "2026-10-17T09:00:22Z",
+      "by": "owner",
+      "status": "ASK_OWNER",
+      "note": "Chủ trả lời (17/10/2026, RUBRIC v19): tin đơn vị bán lẻ — SP là 1 thanh lẻ (tên ghi '1 thanh'; KiotViet chưa có đơn vị); ảnh 1 thanh, mô tả ghi bán lẻ 1 thanh."
+    },
+    {
+      "at": "2026-10-17T09:00:22Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "ảnh 1 thanh lẻ từ ảnh hãng wantwant.vn"
     }
   ]
 }
