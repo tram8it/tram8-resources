@@ -17,12 +17,20 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "UPLOADED",
+  "status": "READY",
   "image": {
-    "decision": "KEEP",
-    "reason": "Đạt I1–I9: ảnh hãng 1:1 nền trắng, gói nguyên vẹn đặt cạnh đĩa da cá minh hoạ đúng vị trứng muối",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "REPLACE",
+    "reason": "ảnh KiotViet là ảnh quảng cáo (đĩa da cá che nửa dưới gói), không phải ảnh bao bì → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: nửa dưới gói bị đĩa che trên ảnh gốc nên được vẽ theo kiểu gói cùng dòng (Da cá vị trứng muối cay); chữ khớp (G, Da Cá Vị trứng muối, Giòn rụm thấm vị, Khối lượng tịnh 25 g)",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet + ảnh SP cùng dòng (Da cá trứng muối cay) làm mẫu",
+      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/05/01/tram8/67a5679fb86347b4ace8f75ed0144595.jpeg"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -55,12 +63,25 @@
       "by": "owner",
       "status": "UPLOADED",
       "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-17T14:19:50Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T14:19:50.598Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-15T02:52:31.177Z",
+    "at": "2026-10-17T14:19:50.598Z",
     "fields": [
-      "description"
+      "description",
+      "image"
     ],
     "hubStatus": "PENDING"
   },
