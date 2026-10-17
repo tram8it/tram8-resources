@@ -17,20 +17,28 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "ASK_OWNER",
+  "status": "READY",
   "image": {
-    "decision": "ASK_OWNER",
-    "reason": "I3, I4, I5: ảnh điện thoại chụp cận, bị cắt; chưa rõ SKU là thanh lẻ hay hộp nên chưa biết cần chụp gì",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "REPLACE",
+    "reason": "I3/I4/I5: ảnh điện thoại chụp cận hộp; SP bán 1 thanh (gói 10 g), chưa có ảnh gói lẻ → Gemini vẽ miếng heo nướng vị mala theo hình trên hộp (ảnh minh hoạ) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: ảnh minh hoạ miếng thịt, không phải bao bì; khách nhận 1 gói 10 g (chưa có ảnh gói lẻ); hình dạng/số miếng trong gói có thể khác",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet hộp 150 g (chỉ làm mẫu)",
+      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/05/01/tram8/6707e03143f74c91888ee345178f644e.jpeg"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
-    "decision": "ASK_OWNER",
-    "reason": "Chưa rõ quy cách bán (thanh 10 g hay hộp 150 g)",
+    "decision": "WRITE_NEW",
+    "reason": "chưa có mô tả; viết ngắn từ dữ kiện in trên bao bì/trang SP, ghi đơn vị bán lẻ theo KiotViet (v19)",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v19"
   },
-  "question": "Thanh Heo Nướng Vị Cay Mala (đơn vị 'Thanh'): bao bì ghi khối lượng tịnh 150 g, gồm các gói nhỏ 10 g. Cửa hàng bán lẻ từng thanh 10 g hay bán cả hộp 150 g? Thương hiệu in trên hộp (logo chữ G) tên là gì? Ảnh hiện tại là ảnh điện thoại chụp cận, sẽ cần nhân viên chụp lại.",
+  "question": null,
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -43,6 +51,32 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "b21: image ASK_OWNER, description ASK_OWNER"
+    },
+    {
+      "at": "2026-10-17T09:10:03Z",
+      "by": "owner",
+      "status": "ASK_OWNER",
+      "note": "Chủ trả lời (17/10/2026, RUBRIC v19): tin đơn vị KiotViet 'Thanh': bán lẻ 1 thanh (gói 10 g, hộp 150 g = 15 gói). Thương hiệu: logo GreenFeed in trên hộp."
+    },
+    {
+      "at": "2026-10-17T09:10:03Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T09:10:59.394Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T09:10:59.394Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

@@ -17,20 +17,31 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "ASK_OWNER",
+  "status": "READY",
   "image": {
-    "decision": "ASK_OWNER",
-    "reason": "I1: chưa có ảnh; trang hãng chỉ có ảnh túi 120 g (6 gói × 20 g), đơn vị KiotViet là 'Cái'",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "REPLACE",
+    "reason": "I1: chưa có ảnh; SP bán 1 gói lẻ 20 g, trang hãng chỉ có ảnh gói nhỏ bị chồng lên nhau → Gemini vẽ lại 1 gói 20 g → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ lớn và '20 g' khớp ảnh hãng; các dòng chữ nhỏ có thể khác",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh gói nhỏ 20 g và túi 120 g trên cobibread.com",
+      "referenceUrl": "https://cobibread.com/product/banh-quy-nhan-pho-mai-sua-chua-cobi-bread-120g-6-goi-x-20g/"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
-    "decision": "ASK_OWNER",
-    "reason": "chờ chủ xác nhận quy cách bán",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "WRITE_NEW",
+    "reason": "chưa có mô tả; viết ngắn từ dữ kiện in trên bao bì/trang SP, ghi đơn vị bán lẻ theo KiotViet (v19)",
+    "source": {
+      "url": "https://cobibread.com/product/banh-quy-nhan-pho-mai-sua-chua-cobi-bread-120g-6-goi-x-20g/",
+      "fetchedAt": "2026-10-17T09:10:24Z"
+    },
+    "rubricVersion": "v19"
   },
-  "question": "Bánh quy nhân Phô mai & Sữa chua CoBi Bread (mã 8935299667103, đơn vị 'Cái'): Trạm 8 bán gói lẻ 20 g hay túi 120 g (6 gói)? Nếu túi 120 g thì dùng được ảnh trên cobibread.com; nếu gói lẻ thì cần chụp.",
+  "question": null,
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -43,6 +54,32 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "batch b14 review (rubric v4): image ASK_OWNER, description ASK_OWNER"
+    },
+    {
+      "at": "2026-10-17T09:10:04Z",
+      "by": "owner",
+      "status": "ASK_OWNER",
+      "note": "Chủ trả lời (17/10/2026, RUBRIC v19): tin đơn vị KiotViet 'Cái': bán lẻ 1 gói nhỏ 20 g (túi 120 g = 6 gói × 20 g)."
+    },
+    {
+      "at": "2026-10-17T09:10:04Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T09:10:48.483Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T09:10:48.483Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

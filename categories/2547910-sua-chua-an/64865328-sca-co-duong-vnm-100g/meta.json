@@ -17,12 +17,20 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "ASK_OWNER",
+  "status": "READY",
   "image": {
-    "decision": "ASK_OWNER",
-    "reason": "I1: chưa có ảnh; trang Vinamilk (https://www.vinamilk.com.vn/products/sua-chua-vinamilk-co-duong, mã vạch trùng) chỉ có ảnh lốc 4 hộp và thùng, không có ảnh 1 hộp → cần chụp",
-    "source": null,
-    "rubricVersion": "v17"
+    "decision": "REPLACE",
+    "reason": "I1: chưa có ảnh; trang Vinamilk chỉ có ảnh lốc 4 hộp, SP bán 1 hộp 100 g (đơn vị Hộp, chủ 17/10) → Gemini vẽ 1 hộp, ảnh minh hoạ: nắp 1 hộp thật chỉ in 1/4 hình của lốc, ảnh dồn cả hình lên 1 nắp → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: nắp 1 hộp mang đủ logo Vinamilk/EST 1976/Sữa chua CÓ ĐƯỜNG (hộp thật chỉ có 1/4 hình); bỏ bảng dinh dưỡng, thành phần và dòng khối lượng; mã vạch 8934673606820 đúng",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh hãng Vinamilk lốc 4 hộp bao bì mới (nhìn trên + nghiêng), chỉ làm mẫu",
+      "referenceUrl": "https://www.vinamilk.com.vn/products/sua-chua-vinamilk-co-duong"
+    },
+    "rubricVersion": "v19"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -33,7 +41,7 @@
     },
     "rubricVersion": "v4"
   },
-  "question": "SCA Vinamilk Có Đường 100g (mã vạch 8934673606820): trang Vinamilk (https://www.vinamilk.com.vn/products/sua-chua-vinamilk-co-duong) chỉ có ảnh bao bì mới dạng lốc 4 hộp (mã vạch in trên từng hộp trùng mã SP), không có ảnh 1 hộp. Chọn: (a) dùng ảnh hãng lốc 4 hộp cho SP bán lẻ 1 hộp; (b) cho Gemini vẽ 1 hộp từ ảnh lốc (nắp 1 hộp chỉ có 1/4 hình in, AI phải tự dựng phần đó); (c) nhân viên chụp 1 hộp?",
+  "question": null,
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -52,6 +60,32 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "17/10: only 4-pack brand images exist for this single-cup SKU → ask owner"
+    },
+    {
+      "at": "2026-10-17T09:06:23Z",
+      "by": "owner",
+      "status": "ASK_OWNER",
+      "note": "owner 17/10 (RUBRIC v19): unit Hộp = one 100 g cup; only multipack image → Gemini draws one cup (illustration)"
+    },
+    {
+      "at": "2026-10-17T09:06:23Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T09:06:36.056Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T09:06:36.056Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

@@ -17,20 +17,28 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "ASK_OWNER",
+  "status": "READY",
   "image": {
-    "decision": "ASK_OWNER",
-    "reason": "I8: ảnh là lốc 4 hộp, tên không ghi rõ bán lẻ hộp hay lốc",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "REPLACE",
+    "reason": "I8: ảnh lốc 4 hộp; SP bán 1 hộp 110 ml → Gemini vẽ 1 hộp từ ảnh lốc (ảnh minh hoạ) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: ảnh mẫu độ phân giải thấp: chữ nhỏ trên hộp (dung tích, thành phần) bị bỏ, chỉ còn logo Ovaltine, POWER 10, hình mặt trời và sô cô la; bao bì thật có thể là bản khác",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet lốc 4 hộp (chỉ làm mẫu)",
+      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/04/22/tram8/21f519bd8456496892ef6699b37d0013.png"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
-    "decision": "ASK_OWNER",
-    "reason": "Chờ xác định đơn vị bán",
+    "decision": "WRITE_NEW",
+    "reason": "chưa có mô tả; viết ngắn từ dữ kiện in trên bao bì/trang SP, ghi đơn vị bán lẻ theo KiotViet (v19)",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v19"
   },
-  "question": "SP \"Sữa Ovaltine 110ml\" (mã vạch 8936199520116) bán lẻ 1 hộp hay cả lốc 4 hộp? Ảnh hiện tại là lốc 4 hộp (Power 10). Nếu bán 1 hộp thì cần chụp ảnh 1 hộp.",
+  "question": null,
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -43,6 +51,18 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "image ASK_OWNER, description ASK_OWNER"
+    },
+    {
+      "at": "2026-10-17T09:10:03Z",
+      "by": "owner",
+      "status": "ASK_OWNER",
+      "note": "Chủ trả lời (17/10/2026, RUBRIC v19): tin đơn vị KiotViet: bán lẻ 1 hộp 110 ml, ảnh 1 hộp (vẽ từ ảnh lốc 4)."
+    },
+    {
+      "at": "2026-10-17T09:10:03Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
     }
   ]
 }

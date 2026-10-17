@@ -1,4 +1,4 @@
-Kẹo sing-gum Wrigley's Doublemint hương bạc hà, hũ khoảng 40 viên.
+Kẹo sing-gum Wrigley's Doublemint hương bạc hà, đựng trong hũ nắp bật.
 
-Quy cách: 58,4 g · hũ
+Quy cách: 55,4 g · hũ
 Nhà sản xuất/thương hiệu: Wrigley's · Doublemint

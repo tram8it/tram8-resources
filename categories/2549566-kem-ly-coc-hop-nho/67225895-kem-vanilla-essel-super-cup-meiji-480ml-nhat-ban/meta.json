@@ -17,20 +17,31 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "ASK_OWNER",
+  "status": "READY",
   "image": {
-    "decision": "ASK_OWNER",
-    "reason": "Chờ chủ trả lời: 480ml vs single mini cup",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "REPLACE",
+    "reason": "I3/I8: ảnh điện thoại; SP bán 1 ly mini 80 ml (mã vạch là hộp 6 ly × 80 ml = 480 ml) → Gemini vẽ 1 ly → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ trên nắp chép đúng ảnh KiotViet (明治 エッセル スーパーカップ ミニ 超バニラ, dòng dị ứng 卵・乳成分); thành ly trắng trơn, ly thật có thể có chữ nhỏ ở thành",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh hộp 6 ly trên meiji.co.jp + ảnh KiotViet 1 ly mini",
+      "referenceUrl": "https://www.meiji.co.jp/products/icecream/4902705080010.html"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
-    "decision": "ASK_OWNER",
-    "reason": "Chờ chủ trả lời câu hỏi về SP trước khi viết mô tả",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "WRITE_NEW",
+    "reason": "chưa có mô tả; viết ngắn từ dữ kiện in trên bao bì/trang SP, ghi đơn vị bán lẻ theo KiotViet (v19)",
+    "source": {
+      "url": "https://www.meiji.co.jp/products/icecream/4902705080010.html",
+      "fetchedAt": "2026-10-17T09:10:24Z"
+    },
+    "rubricVersion": "v19"
   },
-  "question": "\"Kem vanilla Essel Super Cup Meiji 480ml\" (đơn vị Ly) nhưng ảnh hiện tại là một ly Super Cup MINI. Hàng bán là nguyên hộp 6 ly mini (tổng ~480 ml) hay bán lẻ 1 ly mini? Cho biết để chọn ảnh và mô tả đúng.",
+  "question": null,
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -43,6 +54,18 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "asked owner: 480ml vs single mini cup"
+    },
+    {
+      "at": "2026-10-17T09:10:03Z",
+      "by": "owner",
+      "status": "ASK_OWNER",
+      "note": "Chủ trả lời (17/10/2026, RUBRIC v19): tin đơn vị KiotViet 'Ly': bán lẻ 1 ly mini 80 ml; tên giữ '480ml' (hộp 6 ly × 80 ml) cho khớp HĐĐT."
+    },
+    {
+      "at": "2026-10-17T09:10:03Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
     }
   ]
 }

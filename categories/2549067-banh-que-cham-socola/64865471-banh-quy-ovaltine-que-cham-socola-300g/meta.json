@@ -30,7 +30,7 @@
     "source": null,
     "rubricVersion": "v4"
   },
-  "question": "Mã 6906791584740 'Bánh Quy Ovaltine Que Chấm Socola 300g (Hộp)': ảnh cửa hàng chỉ thấy 1 ly 可脆了 ghi 净含量 50g. Hộp 300 g là hộp 6 ly 50 g phải không, và mã vạch này in trên ly hay trên hộp? Chọn: (a) dùng ảnh 1 ly 50 g (Gemini vẽ lại từ ảnh hiện có) và ghi rõ 'hộp 6 ly' trong mô tả; (b) nhân viên chụp cả hộp 300 g; (c) SP bán lẻ từng ly 50 g → sửa tên KiotViet.",
+  "question": "Mã 6906791584740: ly trên ảnh ghi 50 g, tên KiotViet ghi 300 g — bán 1 ly 50 g hay hộp 300 g (6 ly)?",
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -49,6 +49,18 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "Mã 6906791584740 'Bánh Quy Ovaltine Que Chấm Socola 300g (Hộp)': ảnh cửa hàng chỉ thấy 1 ly 可脆了 ghi 净含量 50g. Hộp 300 g là hộp 6 ly 50 g phải không, và mã vạch này in trên ly hay trên hộp? Chọn: (a) dùng ảnh 1 ly 50 g (Gemini vẽ lại từ ảnh hiện có) và ghi rõ 'hộp 6 ly' trong mô tả; (b) nhân viên chụp"
+    },
+    {
+      "at": "2026-10-17T09:10:38Z",
+      "by": "owner",
+      "status": "ASK_OWNER",
+      "note": "Chủ trả lời (17/10/2026, RUBRIC v19): tin đơn vị KiotViet; khối lượng lệch lớn thì hỏi lại với 2 con số."
+    },
+    {
+      "at": "2026-10-17T09:10:38Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "v19: đơn vị 'Hộp' nhưng ảnh duy nhất là ly 50 g, tên ghi 300 g (lệch 6 lần) → vẫn hỏi chủ; chưa tìm được ảnh hộp 300 g"
     }
   ]
 }

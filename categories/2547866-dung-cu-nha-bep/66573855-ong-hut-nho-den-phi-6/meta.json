@@ -17,12 +17,20 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "ASK_OWNER",
+  "status": "READY",
   "image": {
-    "decision": "ASK_OWNER",
-    "reason": "I3/I4: ảnh chụp điện thoại cả bó ống hút trên quầy, nền lộn xộn; hàng không thương hiệu → cần chụp",
-    "source": null,
-    "rubricVersion": "v17"
+    "decision": "REPLACE",
+    "reason": "I3/I4: ảnh chụp điện thoại cả bó ống hút, nền lộn xộn; đơn vị Cái = 1 ống (chủ 17/10); hàng không thương hiệu → Gemini vẽ 1 ống, ảnh minh hoạ → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: ảnh minh hoạ 1 ống hút đen trơn thẳng; chiều dài thật chưa đo",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (bó ống hút trong túi)",
+      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/06/19/tram8/3161441afafe4c768b91a9ac5bf56c7d.jpeg"
+    },
+    "rubricVersion": "v19"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -30,7 +38,7 @@
     "source": null,
     "rubricVersion": "v4"
   },
-  "question": "Ống hút nhỏ đen phi 6 (đơn vị 'Cái'): ảnh hiện có là cả bó ống hút trong túi. Cửa hàng bán 1 ống lẻ hay 1 bó/túi? Nếu 1 ống: em vẽ 1 ống hút đen trơn; nếu 1 bó: cho biết bao nhiêu ống/bó và gửi ảnh chụp túi.",
+  "question": null,
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -49,6 +57,32 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "Ống hút nhỏ đen phi 6 (đơn vị 'Cái'): ảnh hiện có là cả bó ống hút trong túi. Cửa hàng bán 1 ống lẻ hay 1 bó/túi? Nếu 1 ống: em vẽ 1 ống hút đen trơn; nếu 1 bó: cho biết bao nhiêu ống/bó và gửi ảnh chụp túi."
+    },
+    {
+      "at": "2026-10-17T09:10:44Z",
+      "by": "owner",
+      "status": "ASK_OWNER",
+      "note": "owner 17/10 (RUBRIC v19): unit Cái = one straw"
+    },
+    {
+      "at": "2026-10-17T09:10:44Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T09:10:44.231Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T09:10:44.231Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

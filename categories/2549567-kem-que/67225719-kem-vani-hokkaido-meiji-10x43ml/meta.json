@@ -17,20 +17,31 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "ASK_OWNER",
+  "status": "READY",
   "image": {
-    "decision": "ASK_OWNER",
-    "reason": "I4/I3: ảnh chụp hộp 10 que trên nền lộn xộn — cần thay, nhưng chưa rõ bán lẻ từng que hay cả hộp",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "REPLACE",
+    "reason": "I3/I4: ảnh chụp hộp 10 que nền lộn xộn; SP bán 1 que 43 ml, không có ảnh vỏ que lẻ → Gemini vẽ 1 que kem bóc vỏ theo hình trên hộp (ảnh minh hoạ) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: ảnh minh hoạ que kem không vỏ; khách nhận que kem trong vỏ gói riêng (chưa có ảnh vỏ)",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh hộp 30 que trên Costco Đài Loan + ảnh KiotViet hộp 10 que (chỉ làm mẫu)",
+      "referenceUrl": "https://www.costco.com.tw/Warehouse-Only/Food-Beverages/Frozen-Food/Meiji-Milk-Ice-Bars-43-ml-X-30-Count/p/64155"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
-    "decision": "ASK_OWNER",
-    "reason": "Chờ chủ xác nhận SP trước khi viết mô tả",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "WRITE_NEW",
+    "reason": "chưa có mô tả; viết ngắn từ dữ kiện in trên bao bì/trang SP, ghi đơn vị bán lẻ theo KiotViet (v19)",
+    "source": {
+      "url": "https://www.meiji.co.jp/corporate/pressrelease/2025/03_27/index.html",
+      "fetchedAt": "2026-10-17T09:10:24Z"
+    },
+    "rubricVersion": "v19"
   },
-  "question": "SP 'Kem vani Hokkaido Meiji 10X43ML' (đơn vị 'Que', mã 4902705039971): bán lẻ từng que 43 ml hay bán cả hộp 10 que? Ảnh hiện tại là hộp 10 que chụp điện thoại (phải thay); Meiji không đăng ảnh hộp này → sẽ cần nhân viên chụp đúng thứ khách nhận.",
+  "question": null,
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -43,6 +54,18 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "ask owner: single stick vs 10-pack"
+    },
+    {
+      "at": "2026-10-17T09:10:03Z",
+      "by": "owner",
+      "status": "ASK_OWNER",
+      "note": "Chủ trả lời (17/10/2026, RUBRIC v19): tin đơn vị KiotViet 'Que': bán lẻ 1 que 43 ml; tên giữ '10X43ML' cho khớp HĐĐT."
+    },
+    {
+      "at": "2026-10-17T09:10:03Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
     }
   ]
 }

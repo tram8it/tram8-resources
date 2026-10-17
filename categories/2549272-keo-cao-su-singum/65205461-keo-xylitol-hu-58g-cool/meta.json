@@ -17,20 +17,31 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "ASK_OWNER",
+  "status": "READY",
   "image": {
-    "decision": "ASK_OWNER",
-    "reason": "Chưa vẽ: tên ghi 58g + ảnh mẫu cũ 'Cool', hãng nay chỉ có 'Super Cool' 55,1 g → hỏi chủ",
-    "source": null,
-    "rubricVersion": "v17"
+    "decision": "REPLACE",
+    "reason": "I3/I4: ảnh KiotViet tay cầm, bao bì cũ 'Cool'; Pharmacity ghi mẫu mới 'Super Cool' thay mẫu cũ, cùng dòng hũ bạc hà; trang hãng chỉ còn hũ Super Cool — chủ chốt 17/10/2026 (v19): dùng bao bì mới nhất, tin bao bì (55,1 g) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: màu xanh phần trên nhãn nhạt hơn ảnh mẫu một chút; không thấy khác biệt chữ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh Pharmacity hũ Xylitol Super Cool 55,1 g (chỉ làm mẫu) + ảnh nhỏ trên trang hãng lottexylitol.com.vn",
+      "referenceUrl": "https://www.pharmacity.vn/xylitol-gum-cool-58g-h40-vien.html"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
-    "decision": "WRITE_NEW",
-    "reason": "D1: chưa có mô tả; viết ngắn từ tên SP và chữ in mặt trước bao bì (không có nguồn hãng)",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "REWRITE",
+    "reason": "Mô tả cũ ghi hương Cool 58 g; bao bì mới nhất (Pharmacity, Open Food Facts cùng mã vạch ghi 58G/55.1G) là Super Cool hũ 55,1 g → sửa theo bao bì (RUBRIC v19)",
+    "source": {
+      "url": "https://www.pharmacity.vn/xylitol-gum-cool-58g-h40-vien.html",
+      "fetchedAt": "2026-10-17T09:30:00Z"
+    },
+    "rubricVersion": "v19"
   },
-  "question": "Mã vạch 8934677020219 'Kẹo Xylitol hũ 58g cool': ảnh KiotViet là hũ 'Cool' mẫu cũ. Trang hãng lottexylitol.com.vn và Pharmacity cho thấy mẫu mới là 'Super Cool' (nền xanh băng đá, nhãn vàng '15 phút'), hũ 55,1 g. Cửa hàng đang bán hũ nào? (a) Super Cool 55,1 g mẫu mới → sửa tên và vẽ ảnh theo mẫu mới; (b) vẫn là Cool 58 g mẫu cũ → giữ tên, cần ảnh mẫu cũ rõ hơn.",
+  "question": null,
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -49,6 +60,38 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "Chưa vẽ: tên ghi 58g + ảnh mẫu cũ 'Cool', hãng nay chỉ có 'Super Cool' 55,1 g → hỏi chủ"
+    },
+    {
+      "at": "2026-10-17T09:05:14Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T09:05:14Z",
+      "by": "owner",
+      "status": "ASK_OWNER",
+      "note": "17/10/2026 (RUBRIC v19): dùng bao bì mới nhất; tin bao bì (55,1 g) hơn tên 58g"
+    },
+    {
+      "at": "2026-10-17T09:05:14Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini redraw of Super Cool jar (Pharmacity ref) accepted; description 55,1 g Super Cool"
+    },
+    {
+      "at": "2026-10-17T09:05:14.437Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T09:05:14.437Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

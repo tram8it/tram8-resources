@@ -17,20 +17,31 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "ASK_OWNER",
+  "status": "READY",
   "image": {
-    "decision": "ASK_OWNER",
-    "reason": "I2: ảnh là túi Doublemint 39 g (khoảng 30 gói nhỏ) nhưng đơn vị bán là 'tuýp' — chưa chắc đúng SP",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "REPLACE",
+    "reason": "I2: ảnh KiotViet là túi kẹo 39 g, sai SP — mã vạch 8997018480769 là tuýp Doublemint Mints (Open Food Facts) → Gemini vẽ 1 tuýp → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ chép đúng ảnh mẫu (WRIGLEY'S DOUBLEMINT, MINTS, Sugarfree Mints, 23.8 g, dòng tiếng Việt); ảnh mẫu Pharmacity là bản SX tại Trung Quốc, mã vạch của cửa hàng (899…) là bản Indonesia — chữ nhỏ có thể khác",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh tuýp Doublemint 23,8 g trên Pharmacity + ảnh Open Food Facts đúng mã vạch (chỉ làm mẫu)",
+      "referenceUrl": "https://www.pharmacity.vn/keo-ngam-huong-bac-ha-doublemint-peppermint-238g.html"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
-    "decision": "ASK_OWNER",
-    "reason": "Chờ chủ xác nhận quy cách trước khi viết",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "WRITE_NEW",
+    "reason": "chưa có mô tả; viết ngắn từ dữ kiện in trên bao bì/trang SP, ghi đơn vị bán lẻ theo KiotViet (v19)",
+    "source": {
+      "url": "https://www.pharmacity.vn/keo-ngam-huong-bac-ha-doublemint-peppermint-238g.html",
+      "fetchedAt": "2026-10-17T09:10:24Z"
+    },
+    "rubricVersion": "v19"
   },
-  "question": "Kẹo ngậm Doublemint (mã 8997018480769, đơn vị 'tuýp'): hàng thật là túi 39 g khoảng 30 gói nhỏ như ảnh, hay là tuýp/thỏi? Nếu là túi thì nên sửa đơn vị trên KiotViet.",
+  "question": null,
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -43,6 +54,18 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "ask owner: bag vs tube"
+    },
+    {
+      "at": "2026-10-17T09:10:04Z",
+      "by": "owner",
+      "status": "ASK_OWNER",
+      "note": "Chủ trả lời (17/10/2026, RUBRIC v19): tin đơn vị KiotViet 'tuýp': SP là tuýp kẹo ngậm (mã vạch khớp tuýp Doublemint Mints trên Open Food Facts), không phải túi 39 g."
+    },
+    {
+      "at": "2026-10-17T09:10:04Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
     }
   ]
 }

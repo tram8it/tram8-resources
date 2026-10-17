@@ -17,20 +17,31 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "ASK_OWNER",
+  "status": "READY",
   "image": {
-    "decision": "ASK_OWNER",
-    "reason": "I1: chưa có ảnh; không rõ bán viên lẻ hay hộp, và bao bì nhập khẩu có giống hộp Hàn Quốc trên trang hãng không",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "REPLACE",
+    "reason": "I1: chưa có ảnh; SP bán 1 viên lẻ (hộp 15 viên gói riêng), chưa có ảnh vỏ viên lẻ → Gemini vẽ viên kem theo hình trên hộp (ảnh minh hoạ) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: ảnh minh hoạ viên kem không vỏ (1 viên nguyên + 1 viên cắt đôi để thấy nhân vani); khách nhận 1 viên trong vỏ gói riêng",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh hộp Tico Milk Choco 15 viên trên trang Lotte Wellfood",
+      "referenceUrl": "https://webimage.ldcc.co.kr/upload/conf/upload/2025/11/26/2025112616d998f2f0d64f0.png"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
-    "decision": "ASK_OWNER",
-    "reason": "Chờ chủ xác nhận quy cách",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "WRITE_NEW",
+    "reason": "chưa có mô tả; viết ngắn từ dữ kiện in trên bao bì/trang SP, ghi đơn vị bán lẻ theo KiotViet (v19)",
+    "source": {
+      "url": "https://webimage.ldcc.co.kr/upload/conf/upload/2025/11/26/2025112616d998f2f0d64f0.png",
+      "fetchedAt": "2026-10-17T09:10:24Z"
+    },
+    "rubricVersion": "v19"
   },
-  "question": "Kem Tico Milk Chocolate 'kim cương đỏ' (mã 8801062453672): bán 1 viên lẻ hay cả hộp? Trang Lotte Wellfood có ảnh hộp đỏ 'Tico Milk Choco' 15 viên (https://webimage.ldcc.co.kr/upload/conf/upload/2025/11/26/2025112616d998f2f0d64f0.png) — hàng ở cửa hàng có đúng hộp này không?",
+  "question": null,
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -43,6 +54,18 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "batch f1: ASK_OWNER: unit/pack unclear"
+    },
+    {
+      "at": "2026-10-17T09:10:04Z",
+      "by": "owner",
+      "status": "ASK_OWNER",
+      "note": "Chủ trả lời (17/10/2026, RUBRIC v19): tin đơn vị KiotViet 'Cái': bán lẻ 1 viên Tico (hộp Hàn Quốc 15 viên gói riêng); bao bì mới nhất trên trang hãng."
+    },
+    {
+      "at": "2026-10-17T09:10:04Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
     }
   ]
 }
