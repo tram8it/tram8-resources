@@ -17,12 +17,20 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh; Không tìm được nguồn chính hãng: kidofoods.vn lỗi chứng chỉ TLS/503, merino.vn trả 503, kdc.vn (KIDO) không còn trang kem; chưa thấy gian hàng chính hãng có bằng chứng",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I1: chưa có ảnh; không có trang hãng Merino truy cập được → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Không thấy khác biệt so với mẫu. Mặt trước không in khối lượng; trang Kim Phúc ghi 54g/cây (tên KiotViet không ghi khối lượng). Chưa đối chiếu được mã vạch 8936011773713 với gói thật",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh Kim Phúc/thegioikemngon (nhà bán lẻ, chỉ làm mẫu)",
+      "referenceUrl": "https://kimphuc.net/kem-merino-dau-do-54g"
+    },
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +51,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "image needs photo (no official source), description WRITE_NEW (name facts only)"
+    },
+    {
+      "at": "2026-10-17T04:15:09Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T04:15:18.187Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T04:15:18.187Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

@@ -17,12 +17,16 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I2: ảnh là Melona vị XOÀI (bao cam, chữ 'Original'), không phải Melona chuối; ảnh nhỏ, nền nâu (I4, I6); trang Binggrae không tải được danh sách SP — không có nguồn chính hãng dùng được",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I2: ảnh cũ là Melona vị XOÀI (bao cam 'Original'), không phải vị chuối; ảnh nhỏ, nền nâu (I4, I6). Thay bằng ảnh hãng Binggrae: Melona Banana bản xuất khẩu (bao vàng, chữ 'BANANA FROZEN DESSERT BAR'), cùng dòng xuất khẩu với ảnh KiotViet cũ. Ảnh hãng nhỏ (304×80) phóng ~2,8 lần, hơi mềm nhưng không vỡ (v3/v4)",
+    "source": {
+      "url": "https://www.bing.co.kr/upload/product/2025/09/e37f6a0e-e748-4b12-8b04-2cc8c2b56b1e.png",
+      "page": "https://www.bing.co.kr/product/detail?PDT=62",
+      "fetchedAt": "2026-10-17T04:14:18Z"
+    },
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +47,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "image needs photo (no usable official source), description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T04:14:18Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Ảnh hãng Binggrae ([수출] 메로나 – Melona Banana bản xuất khẩu), phóng 2,77x; mô tả giữ nguyên"
+    },
+    {
+      "at": "2026-10-17T04:15:23.105Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T04:15:23.105Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

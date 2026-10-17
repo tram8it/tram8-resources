@@ -17,12 +17,20 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I4: ảnh chụp trong tủ đông, nhiều SP khác (I8); trang Binggrae không tải được danh sách SP — không có nguồn chính hãng dùng được",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I3/I4/I8: ảnh chụp trong tủ đông, nhiều SP khác; ảnh hãng quá nhỏ (cần phóng 3,3x) nên cho Gemini vẽ lại từ ảnh hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Dùng bao bì xuất khẩu MỚI của hãng (nền kem, viền đỏ, chữ SAMANCO RED BEAN) theo yêu cầu chủ 17/10; ảnh cửa hàng là bao cũ đỏ–vàng '참붕어싸만코 SINCE 1991' (hàng thị trường Thái, NSX 2022, 150 mL). So với ảnh hãng không thấy khác biệt",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh hãng Binggrae ([수출] 붕어싸만코 – SAMANCO RED BEAN, ảnh nhỏ 251px)",
+      "referenceUrl": "https://www.bing.co.kr/product/detail?PDT=55"
+    },
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +51,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "image needs photo (no usable official source), description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T04:15:10Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T04:15:20.495Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T04:15:20.495Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

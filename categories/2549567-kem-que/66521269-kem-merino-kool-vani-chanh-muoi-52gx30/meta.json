@@ -17,12 +17,20 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I8: ảnh có 2 gói chồng nhau; Không tìm được nguồn chính hãng: kidofoods.vn lỗi chứng chỉ TLS/503, merino.vn trả 503, kdc.vn (KIDO) không còn trang kem; chưa thấy gian hàng chính hãng có bằng chứng",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I8: ảnh KiotViet có 2 gói chồng nhau, lại là bao bì cũ (vàng, nằm ngang, HSD 2022); không có trang hãng Merino truy cập được → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Dùng bao bì MỚI (trắng–xanh lá, đứng dọc) theo yêu cầu chủ 17/10, khác ảnh cửa hàng (bao vàng cũ). Mặt trước không in khối lượng; trang Kim Phúc ghi 52g/cây khớp tên. Tên KiotViet ghi 'Vani Chanh muối', bao in 'Kem hương Chanh Muối – Salted lemon ice-cream'. Ngoài ra không thấy khác biệt so với mẫu",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh Kim Phúc/thegioikemngon (nhà bán lẻ, chỉ làm mẫu) – bao bì Merino Kool Chanh Muối mới",
+      "referenceUrl": "https://kimphuc.net/kem-merino-chanh-muoi-60g"
+    },
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +51,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "image needs photo (no official source), description WRITE_NEW (name facts only)"
+    },
+    {
+      "at": "2026-10-17T04:15:09Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T04:15:16.136Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T04:15:16.136Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }
