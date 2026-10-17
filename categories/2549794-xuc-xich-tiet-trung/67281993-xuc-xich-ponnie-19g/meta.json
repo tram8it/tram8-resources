@@ -17,12 +17,21 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I4: ảnh tay cầm gói, nền kho; không có trang chính hãng cho xúc xích Ponnie/Heo Cao Bồi (masanmeatlife.com.vn không có catalogue SP, masanconsumer.com chỉ có snack khô gà Ponnie) → cần chụp",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I3/I4: ảnh tay cầm gói, nền kho; không có trang chính hãng Ponnie → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Thiết kế lấy theo gói 280 g cùng dòng, kích thước gói theo ảnh chụp; chữ 'Khối lượng tịnh: 76 g (4 cây x 19 g)' đúng gói thật (đã sửa 1 lần vì AI vẽ sai '700 g'); có lỗ treo ở đỉnh gói",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (tay cầm gói 4 cây × 19 g) + ảnh gói 280 g cùng thiết kế từ gian hàng Masan Consumer trên Lazada (chỉ làm mẫu)",
+      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/07/27/tram8/31505f56aaf241c79eeaf969594ba75d.jpeg"
+    },
+    "rubricVersion": "v17",
+    "sizeTag": "76g"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +52,38 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "b16 review: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T05:26:20Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T05:26:33.824Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T05:27:35Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "size tag 76g (v16): Ponnie 280 g and 76 g packs look the same from the front"
+    },
+    {
+      "at": "2026-10-17T05:27:35.138Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T05:27:35.138Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

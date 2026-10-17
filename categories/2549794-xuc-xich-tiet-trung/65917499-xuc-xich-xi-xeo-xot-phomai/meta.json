@@ -17,12 +17,20 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I4/I5: ảnh chụp cận gói, nền màu, bị khung cắt; không có trang chính hãng cho xúc xích Ponnie/Heo Cao Bồi (masanmeatlife.com.vn không có catalogue SP, masanconsumer.com chỉ có snack khô gà Ponnie) → cần chụp",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I4/I5: ảnh chụp cận gói, nền màu, bị khung cắt; không có trang chính hãng Heo Cao Bồi → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt đáng kể ở mặt trước; mặt trước gói thật không in khối lượng (Lazada ghi 38g/gói); đã sửa 1 lần cho đúng tỉ lệ gói cao",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh gian hàng chính hãng Masan Consumer trên Lazada (banner Halloween, cắt lấy 1 gói) + ảnh KiotViet (chỉ làm mẫu)",
+      "referenceUrl": "https://www.lazada.vn/trending/Ready-to-Eat-Top-Repurchased/218426785"
+    },
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +51,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "b16 review: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T05:26:20Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T05:26:35.815Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T05:26:35.815Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }
