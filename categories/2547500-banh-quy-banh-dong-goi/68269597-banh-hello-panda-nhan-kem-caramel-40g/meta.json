@@ -17,20 +17,28 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "ASK_OWNER",
+  "status": "READY",
   "image": {
-    "decision": "ASK_OWNER",
-    "reason": "I1: chưa có ảnh; gói cùng mã vạch trên Open Food Facts ghi 47g, tên ghi 40g → hỏi chủ",
-    "source": null,
-    "rubricVersion": "v17"
+    "decision": "REPLACE",
+    "reason": "I1: chưa có ảnh; hãng (meiji.com.sg) chặn bot, không có packshot → Gemini vẽ lại → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: mã số nhỏ dưới logo halal có thể sai; hộp in 47 g (tên KiotViet 40g, theo bao bì, v19, như vị sô-cô-la in 43 g)",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh Open Food Facts cùng mã vạch 8888077140001 (hộp 47 g, tay cầm; chỉ làm mẫu) + ảnh vẽ lại vị sô-cô-la cùng dòng (mẫu kiểu ảnh)",
+      "referenceUrl": "https://world.openfoodfacts.org/product/8888077140001"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
-    "reason": "D1: chưa có mô tả; viết ngắn từ dữ kiện chắc chắn (tên hàng, thương hiệu, vị); khối lượng 40 g theo tên KiotViet — meiji.com.sg chỉ liệt kê 47 g/234 g, nhân viên chụp ảnh nên kiểm lại số in trên hộp",
+    "reason": "REWRITE: khối lượng sửa 40 g → 47 g theo bao bì đúng mã vạch (v19)",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v20"
   },
-  "question": "Hộp cùng mã vạch in 47 g, tên KiotViet ghi 40g (lệch ~17%) — hộp trên kệ in bao nhiêu g?",
+  "question": null,
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -61,6 +69,32 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "v19: vẫn ASK_OWNER (lệch lớn hoặc cần xem kệ); rút gọn câu hỏi"
+    },
+    {
+      "at": "2026-10-17T14:11:23Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T14:11:23Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "resolved without asking: only pack of this barcode (Open Food Facts) prints 47 g; '40g' in names is the line label (sibling choco 40g prints 43 g) → follow the pack (v19)"
+    },
+    {
+      "at": "2026-10-17T14:11:23.288Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T14:11:23.288Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }
