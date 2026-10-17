@@ -17,12 +17,20 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I9 → thử CROP: nền xám nhạt quanh túi; sau crop lộ khung xám, đưa nền về trắng thì mép túi trong suốt bị vỡ loang → REPLACE; không có trang hãng → cần chụp",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "ảnh minh hoạ món ăn (v22): chủ 17/10 muốn ảnh món ăn hấp dẫn, đồng bộ một phong cách cho cả nhóm; ảnh cũ là ảnh bao bì/ảnh chụp gói → ảnh món ăn Gemini vẽ từ ảnh bao bì (v18: món hấp bán lẻ hiện cái bánh và nhân); ảnh minh hoạ. Khác hàng thật: ảnh minh hoạ: hàng thật đóng túi/hộp có nhãn Fresh 2GO; ảnh vẽ hộp nhựa trong không nhãn, cách cắt theo ảnh KiotViet",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-3.1-flash-image",
+      "generatedAt": "2026-10-17",
+      "style": "food photo, one house style for fresh/ready-to-eat set (v22)",
+      "reference": "ảnh KiotViet của SP (hàng thật, chỉ làm mẫu) + ảnh mẫu phong cách chung của bộ",
+      "postProcess": "background whitened + framed ~75% width (scratch whiten.py), food pixels untouched except global white point"
+    },
+    "rubricVersion": "v22"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +51,32 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "image REPLACE → NEEDS_PHOTO, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T17:51:27Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-3.1-flash-image), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T17:51:23Z",
+      "by": "owner",
+      "status": "READY",
+      "note": "chủ 17/10: ảnh món ăn hấp dẫn, đồng bộ"
+    },
+    {
+      "at": "2026-10-17T17:52:54.695Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T17:52:54.695Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

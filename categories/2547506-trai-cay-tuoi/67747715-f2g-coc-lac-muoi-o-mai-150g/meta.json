@@ -20,7 +20,7 @@
   "status": "NEEDS_PHOTO",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I4: ảnh chụp cận nhãn nắp hộp, không thấy cả SP, nền tối; không có trang hãng → cần chụp",
+    "reason": "Chủ 17/10: ảnh món ăn đồng bộ (v22). Ảnh Gemini vẽ ra lẫn miếng xoài vào hộp cóc (sai SP); chưa sửa được vì hết tín dụng Gemini API → vẽ lại khi có tín dụng (work/gemini/67747715).",
     "source": null,
     "rubricVersion": "v4"
   },
@@ -43,6 +43,12 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "image REPLACE → NEEDS_PHOTO, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T17:51:36Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "v22 food render had mango pieces mixed in; fix blocked by Gemini 402 (credits depleted)"
     }
   ]
 }

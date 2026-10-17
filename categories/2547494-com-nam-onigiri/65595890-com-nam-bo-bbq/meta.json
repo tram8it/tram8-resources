@@ -17,20 +17,20 @@
     "description": "Cơm nắm tam giác Onigiri Việt nhân bò BBQ, bọc rong biển, đóng gói kiểu Nhật với dải xé mở theo thứ tự 1–2–3. Tiện dùng cho bữa sáng hoặc bữa nhẹ.\n\nQuy cách: cái\nNhà sản xuất/thương hiệu: Onigiri Việt",
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "UPLOADED",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "ảnh tự chụp (màng bọc nhăn, bóng lóa, tai nhựa lệch); không có ảnh hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ khớp (Onigiri Việt, tên nhân, PULL 1/2/3, 당기다); cả dãy cơm nắm vẽ cùng kiểu (v14)",
+    "reason": "ảnh minh hoạ món ăn (v22): chủ 17/10 muốn ảnh món ăn hấp dẫn, đồng bộ một phong cách cho cả nhóm; ảnh cũ là ảnh bao bì/ảnh chụp gói → ảnh món ăn Gemini vẽ từ ảnh bao bì (v18: món hấp bán lẻ hiện cái bánh và nhân); ảnh minh hoạ. Khác hàng thật: ảnh minh hoạ: cơm nắm đã bóc màng, không thấy bao bì Onigiri Việt; nhân vẽ theo tên SP, hình dạng/lượng nhân thật có thể khác",
     "source": {
       "aiGenerated": true,
       "tool": "Gemini API",
       "model": "gemini-nano-banana-2.1",
       "generatedAt": "2026-10-17",
-      "style": "flat clean packaging render (v17)",
-      "reference": "ảnh KiotViet của cửa hàng (chỉ làm mẫu)",
-      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/07/30/tram8/1316f5e4c8894943b46363126277f23b.png"
+      "style": "food photo, one house style for fresh/ready-to-eat set (v22)",
+      "reference": "ảnh KiotViet của SP (hàng thật, chỉ làm mẫu) + ảnh mẫu phong cách chung của bộ",
+      "postProcess": "background whitened + framed ~75% width (scratch whiten.py), food pixels untouched except global white point"
     },
-    "rubricVersion": "v18"
+    "rubricVersion": "v22"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -81,10 +81,28 @@
       "by": "owner",
       "status": "UPLOADED",
       "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-17T17:51:23Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T17:51:23Z",
+      "by": "owner",
+      "status": "READY",
+      "note": "chủ 17/10: ảnh món ăn hấp dẫn, đồng bộ"
+    },
+    {
+      "at": "2026-10-17T17:51:36.590Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-17T14:22:59.291Z",
+    "at": "2026-10-17T17:51:36.590Z",
     "fields": [
       "description",
       "image"

@@ -17,12 +17,20 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh; món chế biến sẵn Thanh Hà Foods, không có trang hãng; tra mã 8936239700096 (Kingfoodmart, Open Food Facts, web) không ra ảnh nào để làm mẫu Gemini → cần nhân viên chụp",
-    "source": null,
-    "rubricVersion": "v17"
+    "reason": "ảnh minh hoạ món ăn (v22): chủ 17/10 muốn ảnh món ăn hấp dẫn, đồng bộ một phong cách cho cả nhóm; ảnh cũ là ảnh bao bì/ảnh chụp gói → ảnh món ăn Gemini vẽ từ ảnh bao bì (v18: món hấp bán lẻ hiện cái bánh và nhân); ảnh minh hoạ. Khác hàng thật: ảnh minh hoạ: hộp nhựa trong không nhãn; lượng món và hộp thật có thể khác",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-3.1-flash-image",
+      "generatedAt": "2026-10-17",
+      "style": "food photo, one house style for fresh/ready-to-eat set (v22)",
+      "reference": "ảnh mẫu phong cách chung của bộ (SP chưa có ảnh KiotViet); nguyên liệu theo tên SP",
+      "postProcess": "background whitened + framed ~75% width (scratch whiten.py), food pixels untouched except global white point"
+    },
+    "rubricVersion": "v22"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -55,6 +63,32 @@
       "by": "init",
       "status": "NEEDS_PHOTO",
       "note": "category moved 2549342-mi-tron-mi-kho-spaghetti-goi -> 2547484-mon-an-no"
+    },
+    {
+      "at": "2026-10-17T17:51:29Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-3.1-flash-image), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T17:51:23Z",
+      "by": "owner",
+      "status": "READY",
+      "note": "chủ 17/10: ảnh món ăn hấp dẫn, đồng bộ"
+    },
+    {
+      "at": "2026-10-17T17:53:15.625Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T17:53:15.625Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

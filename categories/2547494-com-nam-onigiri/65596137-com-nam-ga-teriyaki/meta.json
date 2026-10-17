@@ -17,19 +17,20 @@
     "description": "Cơm nắm tam giác Onigiri Việt nhân gà Teriyaki, bọc rong biển, đóng gói kiểu Nhật với dải xé mở theo thứ tự 1–2–3. Tiện dùng cho bữa sáng hoặc bữa nhẹ.\n\nQuy cách: cái\nNhà sản xuất/thương hiệu: Onigiri Việt",
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "UPLOADED",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I2: ảnh cũ là nhãn Cá Ngừ Mayo (SP Cá ngừ Mayo có mã riêng 8938565079044) → vẽ theo cơm nắm cùng dòng, nhãn Gà Teriyaki → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: ảnh minh hoạ suy từ SP cùng dòng; hình món trên nhãn là minh hoạ",
+    "reason": "ảnh minh hoạ món ăn (v22): chủ 17/10 muốn ảnh món ăn hấp dẫn, đồng bộ một phong cách cho cả nhóm; ảnh cũ là ảnh bao bì/ảnh chụp gói → ảnh món ăn Gemini vẽ từ ảnh bao bì (v18: món hấp bán lẻ hiện cái bánh và nhân); ảnh minh hoạ. Khác hàng thật: ảnh minh hoạ: cơm nắm đã bóc màng, không thấy bao bì Onigiri Việt; nhân vẽ theo tên SP, hình dạng/lượng nhân thật có thể khác",
     "source": {
       "aiGenerated": true,
       "tool": "Gemini API",
       "model": "gemini-nano-banana-2.1",
       "generatedAt": "2026-10-17",
-      "style": "flat clean packaging render (v17)",
-      "reference": "ảnh SP cùng dòng Onigiri Việt (Gà Tomyum, Cá Ngừ Mayo)"
+      "style": "food photo, one house style for fresh/ready-to-eat set (v22)",
+      "reference": "ảnh KiotViet của SP (hàng thật, chỉ làm mẫu) + ảnh mẫu phong cách chung của bộ",
+      "postProcess": "background whitened + framed ~75% width (scratch whiten.py), food pixels untouched except global white point"
     },
-    "rubricVersion": "v18"
+    "rubricVersion": "v22"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -80,10 +81,28 @@
       "by": "owner",
       "status": "UPLOADED",
       "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-17T17:51:24Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T17:51:23Z",
+      "by": "owner",
+      "status": "READY",
+      "note": "chủ 17/10: ảnh món ăn hấp dẫn, đồng bộ"
+    },
+    {
+      "at": "2026-10-17T17:51:59.358Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-17T14:12:25.981Z",
+    "at": "2026-10-17T17:51:59.358Z",
     "fields": [
       "description",
       "image"
