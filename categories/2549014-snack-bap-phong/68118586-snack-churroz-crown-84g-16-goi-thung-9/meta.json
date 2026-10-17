@@ -17,12 +17,16 @@
     "description": "<span style=\"\">Bánh snack quế vị quế mật ong Crown Churros, bánh dạng ống giòn rụm hòa quyện cùng hương vị thơm ngọt từ mật ong và bột quế đặc trưng. Món ăn vặt thơm ngon, tiện lợi, thích hợp nhâm nhi trong các buổi xem phim, dã ngoại hoặc tụ họp bạn bè.</span>",
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I7: có logo cửa hàng H MART trên ảnh; I5: mép trên bị cắt; trang crown.co.kr chặn truy cập → cần nhân viên chụp",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I7: ảnh KiotViet có logo H MART đè lên gói; I5: mép trên bị cắt; I2: bao bì cũ. Thay bằng ảnh hãng (crown.co.kr, gói 84g bao bì mới 'Churros Land', cùng mã vạch 8801111916479 in ở mặt sau trên trang hãng), ảnh 800px phóng lên 1000px",
+    "source": {
+      "url": "https://www.crown.co.kr/upload/system/item/%EC%B8%84%EB%9F%AC%EC%8A%A4_1.5k_84g.jpg",
+      "page": "https://www.crown.co.kr/product/view?idx=251",
+      "fetchedAt": "2026-10-17T03:31:39Z"
+    },
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "REWRITE",
@@ -43,6 +47,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "image needs staff photo, description REWRITE"
+    },
+    {
+      "at": "2026-10-17T03:31:39Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "official Crown packshot (crown.co.kr product idx=251, 84 g, barcode matches back label); added Crown to brands.json"
+    },
+    {
+      "at": "2026-10-17T03:31:39.302Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T03:31:39.302Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }
