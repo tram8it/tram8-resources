@@ -17,12 +17,19 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I4: ảnh tay chụp trên bàn, nền không trắng; perfettivanmelle.vn không truy cập được",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I3/I4: ảnh tay chụp trên bàn, nền không trắng; perfettivanmelle.vn không truy cập được, không tìm thấy ảnh hãng/bán lẻ → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ chính (Alpenliebe, KẸO MỀM HƯƠNG CHANH DÂY HẠT CHIA, 2CHEW, VỚI HẠT CHIA, huy hiệu Với Nước ép trái cây) khớp ảnh chụp; vẽ nằm ngang như các thanh Alpenliebe cùng dãy; ảnh gốc không thấy khối lượng nên ảnh không ghi khối lượng; dải logo nhỏ ở mép dưới là phần mặt sau gói lộ ra, như ảnh chụp",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (nhân viên chụp, chỉ làm mẫu)"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +50,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "b18 review (rubric v4): image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T07:47:15Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T07:47:30.228Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T07:47:30.228Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

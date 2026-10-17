@@ -17,12 +17,12 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "ASK_OWNER",
   "image": {
     "decision": "REPLACE",
-    "reason": "I7/I6: ảnh có logo cửa hàng khác (EURUS), nhỏ 225px; ảnh ghi 50 g trong khi tên ghi 75 g; trang Morinaga không có bản xuất khẩu này",
+    "reason": "I7/I6: ảnh có logo cửa hàng khác (EURUS), nhỏ 225px; khối lượng trên các bao bì tìm được (50 g / 57 g) khác tên KiotViet (75 g)",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -30,7 +30,7 @@
     "source": null,
     "rubricVersion": "v4"
   },
-  "question": null,
+  "question": "Mã 4902888210211 'Kẹo mềm hi-chew Nhật Hương táo xanh Thanh 75g': ảnh KiotViet hiện tại là thanh Hi-Chew Green Apple bản Mỹ ghi NET WT 1.76oz (50 g); Open Food Facts cùng mã vạch là thanh NET 57 g. Không thấy thanh táo xanh 75 g. Gói đang bán in bao nhiêu gam? Chọn: (a) 57 g → sửa tên KiotViet, vẽ lại ảnh thanh 57 g; (b) 50 g bản Mỹ; (c) thật sự 75 g → nhân viên chụp mặt trước gói.",
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -43,6 +43,12 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "b18 review (rubric v4): image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T07:47:30Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "Mã 4902888210211 'Kẹo mềm hi-chew Nhật Hương táo xanh Thanh 75g': ảnh KiotViet hiện tại là thanh Hi-Chew Green Apple bản Mỹ ghi NET WT 1.76oz (50 g); Open Food Facts cùng mã vạch là thanh NET 57 g. Không thấy thanh táo xanh 75 g. Gói đang bán in bao nhiêu gam? Chọn: (a) 57 g → sửa tên KiotViet, vẽ l"
     }
   ]
 }

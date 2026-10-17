@@ -17,12 +17,20 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I5: ảnh chụp cận nắp hộp, không thấy cả hộp; trang Dalat Milk (dalatmilk.vn) không truy cập được → cần chụp",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I3/I5: ảnh cũ chụp cận nắp hộp, không thấy cả hộp; dalatmilk.vn không truy cập được → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: mặt hộp vẽ theo mặt chữ tiếng Anh 'Yogurt Natural Plain' (ảnh mẫu duy nhất); mặt chữ tiếng Việt chưa thấy ảnh; nắp ghi 'Sữa chua Vị tự nhiên' theo ảnh KiotViet; chữ nhỏ hai cạnh hộp là nét mờ, bảng dinh dưỡng bỏ trống",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh Open Food Facts (mặt hộp, chỉ làm mẫu) + ảnh KiotViet (nắp 'Sữa chua Vị tự nhiên') + ảnh render vị đào Kingfoodmart (góc chụp)",
+      "referenceUrl": "https://world.openfoodfacts.org/product/8938503131964"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +51,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "needs photo; short description"
+    },
+    {
+      "at": "2026-10-17T07:46:55Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 3, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T07:46:59.998Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T07:46:59.998Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

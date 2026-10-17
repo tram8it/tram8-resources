@@ -17,12 +17,20 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3, I4, I8: ảnh chụp điện thoại hai hũ, bị cắt, nền không trắng; Heo Cao Bồi không có trang hãng/kênh chính chủ có ảnh SP → cần chụp",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I3, I4, I8: ảnh chụp điện thoại hai hũ, bị cắt, nền không trắng; Heo Cao Bồi (SNF) không có trang hãng truy cập được → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: ảnh cửa hàng bị cắt mất nắp: màu nắp tím hồng là AI đoán theo màu đầu hũ, cần chủ xem; dòng 'vị Trứng muối' và hình trứng muối bên trái là AI dựng theo ảnh mờ; chữ nhỏ cạnh hũ nhoè",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (hũ hồng đang bán, bị cắt nắp) + ảnh render hũ cùng dòng trên Kingfoodmart chỉ để lấy dáng hũ/bố cục",
+      "referenceUrl": "https://storage.googleapis.com/onelife-public/8936034877740.jpg"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +51,12 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "image REPLACE (no official source) → NEEDS_PHOTO, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T07:46:52Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
     }
   ]
 }

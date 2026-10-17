@@ -17,12 +17,12 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "ASK_OWNER",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I4: ảnh chụp cận nhãn túi bằng điện thoại; hàng cơ sở địa phương, không có trang hãng",
+    "reason": "I3/I4: ảnh chụp cận nhãn túi bằng điện thoại, không thấy cả túi; hàng cơ sở địa phương (Quang Thanh Foods), không có trang hãng",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -30,7 +30,7 @@
     "source": null,
     "rubricVersion": "v4"
   },
-  "question": null,
+  "question": "Mã 8936236140123 'Kẹo dừa mix': nhãn túi trong ảnh KiotViet ghi 'Kẹo Dừa Sáp Cafe Muối' (Quang Thanh Foods, Hải Phòng), không ghi 'mix' và không thấy khối lượng. SP này là kẹo dừa sáp cà phê muối hay túi mix nhiều vị? Bao nhiêu gam? Nhờ nhân viên chụp cả túi mặt trước (thấy hết túi) để vẽ lại; nếu là cà phê muối thì sửa tên KiotViet.",
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -43,6 +43,12 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "b18 review (rubric v4): image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T07:47:30Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "Mã 8936236140123 'Kẹo dừa mix': nhãn túi trong ảnh KiotViet ghi 'Kẹo Dừa Sáp Cafe Muối' (Quang Thanh Foods, Hải Phòng), không ghi 'mix' và không thấy khối lượng. SP này là kẹo dừa sáp cà phê muối hay túi mix nhiều vị? Bao nhiêu gam? Nhờ nhân viên chụp cả túi mặt trước (thấy hết túi) để vẽ lại; nếu l"
     }
   ]
 }

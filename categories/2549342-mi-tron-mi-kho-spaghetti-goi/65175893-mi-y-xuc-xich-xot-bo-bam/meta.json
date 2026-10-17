@@ -20,9 +20,9 @@
   "status": "NEEDS_PHOTO",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh; món chế biến sẵn, không có nguồn chính hãng → cần nhân viên chụp",
+    "reason": "I1: chưa có ảnh; món chế biến sẵn Thanh Hà Foods, không có trang hãng; tra mã 8936239700096 (Kingfoodmart, Open Food Facts, web) không ra ảnh nào để làm mẫu Gemini → cần nhân viên chụp",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +43,12 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "rubric v4: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T07:47:40.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "17/10: no reference found anywhere (KFM/OFF/web search)"
     }
   ]
 }

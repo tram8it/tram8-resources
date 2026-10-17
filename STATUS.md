@@ -2,7 +2,7 @@
 
 > Sinh tự động bởi `node tools/status.mjs`. **Không sửa tay.** Nguồn sự thật là `meta.json` của từng SP.
 
-Tổng 2448 SP · đã xem 2428 (99%) · xong 1014 · chờ chủ duyệt 629 · cần chụp 529 · hỏi chủ 250
+Tổng 2448 SP · đã xem 2428 (99%) · xong 1014 · chờ chủ duyệt 646 · cần chụp 507 · hỏi chủ 255
 
 Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` = giữ nguyên + đã lên web.
 
@@ -49,9 +49,9 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 | 39 | Soda / nước trái cây có gas | 0.0tr | 20 | 0 | 0 | 0 | 2 | 1 | 16 | 0 | 1 |
 | 40 | Snack rong biển | 0.0tr | 20 | 0 | 0 | 0 | 2 | 1 | 11 | 0 | 6 |
 | 41 | Snack phồng tôm/mực/cua | 0.0tr | 19 | 0 | 0 | 0 | 5 | 0 | 0 | 0 | 14 |
-| 42 | Nước ngọt có gas | 0.0tr | 18 | 0 | 0 | 0 | 1 | 0 | 17 | 0 | 0 |
+| 42 | Nước ngọt có gas | 0.0tr | 18 | 0 | 0 | 0 | 0 | 0 | 18 | 0 | 0 |
 | 43 | Bánh que chấm socola | 0.0tr | 18 | 0 | 0 | 0 | 1 | 1 | 12 | 0 | 4 |
-| 44 | Kẹo mềm / caramen | 0.0tr | 17 | 0 | 0 | 0 | 8 | 0 | 9 | 0 | 0 |
+| 44 | Kẹo mềm / caramen | 0.0tr | 17 | 0 | 0 | 0 | 2 | 2 | 13 | 0 | 0 |
 | 45 | Sữa tiệt trùng có vị | 0.0tr | 17 | 0 | 0 | 0 | 0 | 1 | 4 | 0 | 12 |
 | 46 | Nước suối / bù khoáng / ion | 0.0tr | 16 | 0 | 0 | 0 | 3 | 1 | 5 | 0 | 7 |
 | 47 | Kombucha / lên men | 0.0tr | 16 | 0 | 0 | 0 | 1 | 0 | 10 | 0 | 5 |
@@ -64,7 +64,7 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 | 54 | Bánh ngọt | 0.0tr | 15 | 0 | 0 | 0 | 8 | 1 | 6 | 0 | 0 |
 | 55 | Chân gà | 0.0tr | 15 | 0 | 0 | 0 | 5 | 2 | 3 | 0 | 5 |
 | 56 | Cocktail lon RTD | 0.0tr | 15 | 0 | 3 | 0 | 0 | 0 | 12 | 0 | 0 |
-| 57 | Sữa chua kiểu Hy Lạp | 0.0tr | 15 | 0 | 0 | 0 | 7 | 0 | 4 | 0 | 4 |
+| 57 | Sữa chua kiểu Hy Lạp | 0.0tr | 15 | 0 | 0 | 0 | 2 | 0 | 9 | 0 | 4 |
 | 58 | Măng & rau ngâm cay | 0.0tr | 15 | 0 | 0 | 0 | 9 | 1 | 2 | 0 | 3 |
 | 59 | Khô heo | 0.0tr | 14 | 0 | 0 | 0 | 4 | 4 | 0 | 0 | 6 |
 | 60 | Bánh pie / cake mềm | 0.0tr | 14 | 0 | 0 | 0 | 8 | 1 | 5 | 0 | 0 |
@@ -77,8 +77,8 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 | 67 | Dung dịch vệ sinh nữ | 0.0tr | 13 | 0 | 6 | 0 | 2 | 2 | 2 | 0 | 1 |
 | 68 | Khăn ướt – khăn giấy | 0.0tr | 13 | 0 | 0 | 0 | 5 | 2 | 6 | 0 | 0 |
 | 69 | Pizza | 0.0tr | 13 | 0 | 9 | 0 | 0 | 0 | 4 | 0 | 0 |
-| 70 | Sữa chua ăn | 0.0tr | 13 | 0 | 0 | 0 | 7 | 1 | 1 | 0 | 4 |
-| 71 | Xúc xích lắc & snack | 0.0tr | 13 | 0 | 0 | 0 | 6 | 4 | 1 | 0 | 2 |
+| 70 | Sữa chua ăn | 0.0tr | 13 | 0 | 0 | 0 | 1 | 4 | 4 | 0 | 4 |
+| 71 | Xúc xích lắc & snack | 0.0tr | 13 | 0 | 0 | 0 | 2 | 4 | 5 | 0 | 2 |
 | 72 | Bàn chải - Người lớn | 0.0tr | 12 | 0 | 0 | 0 | 3 | 3 | 5 | 0 | 1 |
 | 73 | Bánh mì kem tươi | 0.0tr | 12 | 0 | 11 | 0 | 1 | 0 | 0 | 0 | 0 |
 | 74 | Nước ngọt ít calories | 0.0tr | 12 | 0 | 0 | 0 | 3 | 0 | 3 | 0 | 6 |

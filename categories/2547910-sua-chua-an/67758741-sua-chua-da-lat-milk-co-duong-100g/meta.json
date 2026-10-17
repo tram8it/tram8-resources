@@ -20,9 +20,9 @@
   "status": "NEEDS_PHOTO",
   "image": {
     "decision": "REPLACE",
-    "reason": "I4/I7: ảnh nền xám, có logo cửa hàng khác (BigGreen); trang Dalat Milk (dalatmilk.vn) không truy cập được → cần chụp",
+    "reason": "I4/I7: ảnh cũ nền xám, có logo cửa hàng khác (BigGreen), chụp mặt sau; dalatmilk.vn không truy cập được; không tìm được ảnh mặt trước hộp có đường (Kingfoodmart không có, Open Food Facts chỉ có ảnh thành phần/dinh dưỡng) nên không vẽ Gemini được → cần chụp mặt trước",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +43,12 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "needs photo; short description"
+    },
+    {
+      "at": "2026-10-17T07:47:12.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "17/10: no front reference for the sweetened cup (KFM 404, OFF only ingredient/nutrition photos)"
     }
   ]
 }
