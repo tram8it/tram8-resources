@@ -2,7 +2,7 @@
 
 > Sinh tự động bởi `node tools/status.mjs`. **Không sửa tay.** Nguồn sự thật là `meta.json` của từng SP.
 
-Tổng 2448 SP · đã xem 2428 (99%) · xong 853 · chờ chủ duyệt 547 · cần chụp 814 · hỏi chủ 210
+Tổng 2448 SP · đã xem 2428 (99%) · xong 853 · chờ chủ duyệt 561 · cần chụp 798 · hỏi chủ 212
 
 Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` = giữ nguyên + đã lên web.
 
@@ -13,8 +13,8 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 | 3 | Kem que | 0.0tr | 60 | 0 | 0 | 0 | 2 | 9 | 38 | 0 | 11 |
 | 4 | Socola thanh | 0.0tr | 53 | 0 | 0 | 0 | 0 | 6 | 10 | 0 | 37 |
 | 5 | Snack đậu phộng / hạt‑đậu | 0.0tr | 47 | 0 | 0 | 0 | 10 | 10 | 4 | 0 | 23 |
-| 6 | Kẹo dẻo / jelly | 0.0tr | 44 | 0 | 0 | 0 | 26 | 4 | 13 | 0 | 1 |
-| 7 | Viên ngậm thảo mộc / bạc hà | 0.0tr | 44 | 0 | 0 | 0 | 20 | 2 | 19 | 0 | 3 |
+| 6 | Kẹo dẻo / jelly | 0.0tr | 44 | 0 | 0 | 0 | 16 | 6 | 21 | 0 | 1 |
+| 7 | Viên ngậm thảo mộc / bạc hà | 0.0tr | 44 | 0 | 0 | 0 | 14 | 2 | 25 | 0 | 3 |
 | 8 | Snack que / que cay | 0.0tr | 43 | 0 | 0 | 0 | 26 | 10 | 0 | 0 | 7 |
 | 9 | Mì ly / tô / cốc | 0.0tr | 41 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 41 |
 | 10 | Kẹo cao su / singum | 0.0tr | 41 | 0 | 0 | 0 | 24 | 5 | 12 | 0 | 0 |

@@ -17,12 +17,16 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh. Không tìm thấy trang chính hãng Want Want có gói 24 g này.",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I1: chưa có ảnh. Packshot chính hãng Want Want (wantwant.vn, 2000px nền trắng) gói QQ Gummies Shark vị táo 24g, bao bì hiện hành — đúng vị, đúng khối lượng \"Khối lượng tịnh: 24 g\"",
+    "source": {
+      "url": "https://wantwant.vn/vnt_upload/product/12_2025/Hinh_san_pham_2025_31_1.jpg",
+      "page": "https://wantwant.vn/vn/keo-deo-want-want-qq-gummies-shark-vi-tao-xanh-24g.html",
+      "fetchedAt": "2026-10-17"
+    },
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +47,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "image NEEDS_PHOTO, description WRITE_NEW (name only)"
+    },
+    {
+      "at": "2026-10-17T04:34:33.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "image from Want Want official packshot (Hinh_san_pham_2025_31_1.jpg); same flavour/24g"
+    },
+    {
+      "at": "2026-10-17T04:40:08.448Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T04:40:08.448Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

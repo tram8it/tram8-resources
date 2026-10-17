@@ -17,12 +17,16 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "ASK_OWNER",
   "image": {
-    "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh. Tên không ghi thương hiệu; trang Hải Hà (haihaco.com.vn) lỗi kết nối — không có nguồn chính hãng.",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "ASK_OWNER",
+    "reason": "I1: chưa có ảnh. Đầu mã 8934595 là Hải Hà (cùng đầu mã với Kẹo Jelly túi 175G). haihaco.com.vn có packshot \"Kẹo Jelly Pooz tổng hợp túi 350g\" (chữ trên gói: Kẹo Jelly Trái cây Pooz, Khối lượng tịnh 350 g) nhưng mã vạch in trên ảnh mờ, đọc như \"…21671\", không khớp chắc với 8934595061844",
+    "source": {
+      "url": "https://portal.rezolabs.com/assets/003583a3-35dd-453a-b990-d59b2c18ed70",
+      "page": "https://www.haihaco.com.vn/vi/brands/keo-jelly-trai-cay-pooz",
+      "fetchedAt": "2026-10-17"
+    },
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -30,7 +34,7 @@
     "source": null,
     "rubricVersion": "v4"
   },
-  "question": null,
+  "question": "Kẹo Jelly Trái Cây Tổng Hợp 350G (mã vạch 8934595061844, đầu mã Hải Hà): có phải là túi \"Kẹo Jelly Trái cây POOZ – Fruits Jelly\" 350 g màu đỏ của Hải Hà (ảnh trên haihaco.com.vn) không? Ảnh hãng có mã vạch mờ, không đọc chắc được. (A) Đúng túi Pooz 350 g → dùng packshot Hải Hà (và thêm haihaco.com.vn vào danh sách trang hãng); (B) Không phải → nhờ nhân viên chụp mặt trước gói.",
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -43,6 +47,12 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "image NEEDS_PHOTO, description WRITE_NEW (name only)"
+    },
+    {
+      "at": "2026-10-17T04:40:02.000Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "Hai Ha site has Pooz mixed jelly 350g packshot; barcode on photo unreadable/possibly different — asked owner to confirm"
     }
   ]
 }

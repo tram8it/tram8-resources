@@ -20,9 +20,9 @@
   "status": "NEEDS_PHOTO",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh. Không tìm thấy trang chính hãng của Ribon (Nhật Bản) có sản phẩm này.",
+    "reason": "I1: chưa có ảnh. Không có trang chính hãng (ribon.co.jp là công ty kế toán khác, hãng là 株式会社リボン, Nhật); không tìm được ảnh mẫu nào có đúng mã vạch 4903316471426/4903316471402 hay đúng gói 54 g vị mơ/chanh (Yodobashi chặn 403) nên không vẽ lại được bằng Gemini — cần nhân viên chụp mặt trước gói",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +43,12 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "image NEEDS_PHOTO, description WRITE_NEW (name only)"
+    },
+    {
+      "at": "2026-10-17T04:40:02.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "no official site / no reference photo with matching JAN; still needs staff photo"
     }
   ]
 }
