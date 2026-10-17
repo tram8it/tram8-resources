@@ -17,20 +17,28 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "ASK_OWNER",
+  "status": "READY",
   "image": {
-    "decision": "ASK_OWNER",
-    "reason": "ASK_OWNER: ảnh hiện tại là gói Dorkbua Thái 55 g (mã vạch 8850157…), không phải gói 110 g mã 8935342400053; không tìm được ảnh gói 110 g trên web; chưa vẽ lại",
-    "source": null,
-    "rubricVersion": "v17"
+    "decision": "REPLACE",
+    "reason": "I2: ảnh hiện tại là gói Thái 55 g, mã vạch khác (8850157…), không phải gói 110 g; không có ảnh gói 110 g → ảnh minh hoạ vẽ theo thiết kế cùng dòng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: ẢNH MINH HOẠ: thiết kế lấy từ gói 25/55 g cùng vị, khối lượng in sửa thành 110 g theo tên hàng; tỉ lệ túi 110 g thật có thể khác; bảng dinh dưỡng cố ý làm mờ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh hãng SNNP gói Lotus vị truyền thống 25 g + ảnh KiotViet gói 55 g (mẫu thiết kế) + ảnh hãng gói Mala 110 g (mẫu dòng khối lượng); chỉ làm mẫu",
+      "referenceUrl": "https://www.snnp.co.th/products/LOTUS"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
-    "reason": "D1: chưa có mô tả; mô tả ngắn chỉ từ tên hàng; bỏ khối lượng vì ảnh và tên lệch nhau",
+    "reason": "D1: mô tả ngắn từ chữ in trên bao bì cùng dòng; khối lượng 110 g theo tên hàng (chưa có ảnh gói 110 g)",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v20"
   },
-  "question": "Ảnh KiotViet là gói 55 g (mã vạch Thái), tên ghi 110g — gói trên kệ in bao nhiêu g? (chưa có ảnh gói 110 g)",
+  "question": null,
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -61,6 +69,32 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "v19: vẫn ASK_OWNER (lệch lớn hoặc cần xem kệ); rút gọn câu hỏi"
+    },
+    {
+      "at": "2026-10-17T13:49:20Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T13:49:20Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "resolved without asking: no photo of the 110 g pack exists; default 'size from sibling' → illustrative render of the same red original-flavour design with 110 g (name), marked ảnh minh hoạ"
+    },
+    {
+      "at": "2026-10-17T13:49:20.291Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T13:49:20.291Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }
