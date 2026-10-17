@@ -20,9 +20,9 @@
   "status": "NEEDS_PHOTO",
   "image": {
     "decision": "REPLACE",
-    "reason": "I8: ảnh nhiều gói xếp chồng (SP bán lẻ 1 gói); ảnh giống hệt SP vị truyền thống, không chắc đúng vị; trang hãng taokaenoi.co.th lỗi chứng chỉ TLS/proxy 502, không có nguồn chính hãng dùng được → cần chụp",
+    "reason": "I8: ảnh nhiều gói xếp chồng; ảnh mẫu duy nhất là ảnh KiotViet nhỏ (gói Thái 6g vị mực nướng), chữ Thái không đọc được — Gemini vẽ ra chữ Thái/chữ 'Big Sheet' không kiểm được; không có trang hãng (taokaenoi.co.th lỗi TLS), OFF không có mã vạch này → cần chụp gói thật",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +43,12 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "b17: needs photo (official site unusable), description from name/front of pack"
+    },
+    {
+      "at": "2026-10-17T05:26:37.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "b-gemini: no usable reference for this flavour/6g sachet; Gemini attempt (67767463) invented Thai text, not accepted"
     }
   ]
 }

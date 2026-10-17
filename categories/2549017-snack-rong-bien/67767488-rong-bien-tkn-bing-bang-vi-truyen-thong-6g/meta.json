@@ -20,9 +20,9 @@
   "status": "NEEDS_PHOTO",
   "image": {
     "decision": "REPLACE",
-    "reason": "I8: ảnh nhiều gói xếp chồng (SP bán lẻ 1 gói); trang hãng taokaenoi.co.th lỗi chứng chỉ TLS/proxy 502, không có nguồn chính hãng dùng được → cần chụp",
+    "reason": "I8: ảnh nhiều gói xếp chồng và là gói vị mực (không phải vị truyền thống); không tìm được ảnh mẫu gói Big Bang 6g vị truyền thống (OFF không có mã vạch, taokaenoi.co.th lỗi TLS; hãng Mỹ chỉ có túi 50g khác bao bì) → cần chụp gói thật",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +43,12 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "b17: needs photo (official site unusable), description from name/front of pack"
+    },
+    {
+      "at": "2026-10-17T05:26:37.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "b-gemini: no reference image of the classic 6g sachet found"
     }
   ]
 }

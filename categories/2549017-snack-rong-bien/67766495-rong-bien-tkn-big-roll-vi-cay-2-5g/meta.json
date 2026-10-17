@@ -17,12 +17,20 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I7, I8: ảnh quảng cáo có chữ chèn, kèm hộp 6 thanh; trang hãng taokaenoi.co.th lỗi chứng chỉ TLS/proxy 502, không có nguồn chính hãng dùng được → cần chụp",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I7, I8: ảnh quảng cáo có chữ chèn, kèm hộp 6 thanh; trang hãng taokaenoi.co.th lỗi TLS → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: dòng khối lượng để mờ không đọc được: ảnh mẫu 2026 in 'Net Wt. 3g (0.11 oz)', tên KiotViet ghi 2.5g — không ghi số để khỏi sai; bỏ đoạn thành phần chữ nhỏ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh trang hãng Taokaenoi USA (taokaenoiusa.com, hộp 9 thanh) + ảnh Open Food Facts (thanh lẻ, chỉ làm mẫu) + ảnh KiotViet",
+      "referenceUrl": "https://world.openfoodfacts.org/product/8858702410847"
+    },
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +51,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "b17: needs photo (official site unusable), description from name/front of pack"
+    },
+    {
+      "at": "2026-10-17T05:26:37Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 3, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T05:26:49.874Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T05:26:49.874Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

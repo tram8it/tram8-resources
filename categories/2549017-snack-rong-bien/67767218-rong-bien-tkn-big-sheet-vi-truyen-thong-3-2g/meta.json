@@ -17,12 +17,20 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I4, I5: nền không trắng, gói bị cắt; trang hãng taokaenoi.co.th lỗi chứng chỉ TLS/proxy 502, không có nguồn chính hãng dùng được → cần chụp",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I4, I5: nền không trắng, gói bị cắt; trang hãng taokaenoi.co.th lỗi TLS → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: khối lượng 'Net Wt. 0.11 oz (3.2 g) / 淨重 3.2 克' theo hộp hãng + OFF (ảnh KiotViet cũ in 4g); dòng chữ nhỏ vàng góc trái lấy theo ảnh KiotViet bản cũ, có thể khác chút với bao bì mới",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh trang hãng Taokaenoi USA (taokaenoiusa.com, hộp 12 gói, mặt hộp = mẫu in gói) + ảnh Open Food Facts (gói lẻ, chỉ làm mẫu) + ảnh KiotViet",
+      "referenceUrl": "https://www.taokaenoiusa.com/product-page/big-sheet-original"
+    },
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +51,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "b17: needs photo (official site unusable), description from name/front of pack"
+    },
+    {
+      "at": "2026-10-17T05:26:08Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T05:26:56.794Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T05:26:56.794Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }
