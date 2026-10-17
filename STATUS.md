@@ -2,7 +2,7 @@
 
 > Sinh tự động bởi `node tools/status.mjs`. **Không sửa tay.** Nguồn sự thật là `meta.json` của từng SP.
 
-Tổng 2448 SP · đã xem 2428 (99%) · xong 1199 · chờ chủ duyệt 589 · cần chụp 358 · hỏi chủ 276
+Tổng 2448 SP · đã xem 2428 (99%) · xong 1199 · chờ chủ duyệt 590 · cần chụp 357 · hỏi chủ 276
 
 Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` = giữ nguyên + đã lên web.
 
@@ -133,7 +133,7 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 | 123 | Thịt chua | 0.0tr | 7 | 0 | 0 | 0 | 2 | 1 | 2 | 0 | 2 |
 | 124 | Sữa thanh trùng | 0.0tr | 7 | 0 | 0 | 0 | 0 | 0 | 7 | 0 | 0 |
 | 125 | Bún / hủ tiếu ăn liền | 0.0tr | 6 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 6 |
-| 126 | Dầu gội khô | 0.0tr | 6 | 0 | 5 | 0 | 1 | 0 | 0 | 0 | 0 |
+| 126 | Dầu gội khô | 0.0tr | 6 | 0 | 5 | 0 | 0 | 0 | 1 | 0 | 0 |
 | 127 | Ô mai - Xí muội | 0.0tr | 6 | 0 | 0 | 0 | 0 | 1 | 4 | 0 | 1 |
 | 128 | Son dưỡng môi | 0.0tr | 6 | 0 | 0 | 0 | 0 | 1 | 4 | 0 | 1 |
 | 129 | Bánh quy & bánh đóng gói | 0.0tr | 6 | 0 | 0 | 0 | 0 | 4 | 0 | 0 | 2 |
