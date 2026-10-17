@@ -19,17 +19,14 @@
   },
   "status": "READY",
   "image": {
-    "decision": "CROP",
-    "reason": "I9: packshot nền trắng đúng chai TH true RICE Gạo Rang 300 ml nhưng không 1:1; crop, phóng ~2,5 lần, xem lại đạt (v4)",
-    "source": null,
-    "rubricVersion": "v4",
-    "vivid": {
-      "rubricVersion": "v10",
-      "saturationGain": 1.25,
-      "contrastGain": 1.08,
-      "toneGain": 1.073,
-      "gamma": 1.0
-    }
+    "decision": "REPLACE",
+    "reason": "ảnh tự chụp (mềm, lóa) → ảnh hãng chai TH true RICE Nước Gạo Rang 300 ml trên thmilk.vn",
+    "source": {
+      "url": "https://thmilk.vn/wp-content/uploads/2021/03/gao-rang-1.png",
+      "fetchedAt": "2026-10-17",
+      "page": "https://thmilk.vn/products/nuoc-gao-rang-th-true-rice-300-ml/"
+    },
+    "rubricVersion": "v20"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -59,6 +56,12 @@
       "by": "ai",
       "status": "READY",
       "note": "tone.py --vivid: white balance/levels + brand-like colour (owner request)"
+    },
+    {
+      "at": "2026-10-17T14:11:04.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "image: shop photo replaced with brand packshot (thmilk.vn)"
     }
   ]
 }
