@@ -17,12 +17,20 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I4/I8: ảnh điện thoại chụp 4 gói khác vị trên nền gạch; hãng không đăng ảnh SP → cần chụp",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I3/I4/I8: ảnh điện thoại chụp 4 gói khác vị trên nền gạch; hãng không đăng ảnh SP riêng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Bố cục, màu, chữ lớn khớp ảnh mẫu; '46 g' đọc từ ảnh banner hãng độ phân giải thấp (cùng dãy 46 g); dòng tiếng Anh nhỏ 'Mixed Rice Paper With Chilli Shrimp Paste' là suy theo gói Sa tế bò (ảnh mẫu không đọc được), có lỗi chính tả nhỏ 'Mixeıt'",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh banner của hãng trên vinasnack.com.vn (cắt phóng to, chỉ làm mẫu) + ảnh KiotViet 4 gói",
+      "referenceUrl": "https://www.vinasnack.com.vn/"
+    },
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +51,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "batch b09 review: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T05:14:46Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T05:14:50.087Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T05:14:50.087Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

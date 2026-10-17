@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "ASK_OWNER",
   "image": {
     "decision": "REPLACE",
     "reason": "I1: chưa có ảnh; trang hãng Miss Bánh Tráng (vinasnack.com.vn) không đăng ảnh SP → cần chụp",
@@ -30,7 +30,7 @@
     "source": null,
     "rubricVersion": "v4"
   },
-  "question": null,
+  "question": "Mã 8938549708229 (Miss ớt xiêm xanh 40GR): banner hãng (vinasnack.com.vn) chỉ có gói 'Xì Lay – Bánh tráng trộn muối ớt xiêm xanh' in 'Khối lượng tịnh 25 g', không thấy bản 40 g; cửa hàng chưa có ảnh gói. Gói đang bán là bản 25 g (sửa tên) hay có bản 40 g khác? Nhờ nhân viên chụp mặt trước gói để vẽ đúng.",
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -43,6 +43,12 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "batch b09 review: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T05:15:16Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "Ảnh hãng chỉ thấy bản Xì Lay muối ớt xiêm xanh 25 g ≠ 40GR trong tên → hỏi chủ"
     }
   ]
 }

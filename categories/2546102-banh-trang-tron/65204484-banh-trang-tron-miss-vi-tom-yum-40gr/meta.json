@@ -20,9 +20,9 @@
   "status": "NEEDS_PHOTO",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I4/I5: ảnh chụp cận gói, nền không trắng, bị cắt khung; hãng không đăng ảnh SP → cần chụp",
+    "reason": "I3/I4/I5: ảnh KiotViet chỉ chụp cận nửa trên gói Xì Lay vị Tomyum (mất phần đáy có khối lượng); không tìm được ảnh mặt trước đủ gói trên trang hãng/nhà bán lẻ → cần chụp cả mặt trước gói (thấy chữ khối lượng)",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +43,12 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "batch b09 review: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T05:15:16Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "Không có ảnh mẫu đủ gói (phần đáy/khối lượng không thấy) để Gemini vẽ đúng"
     }
   ]
 }

@@ -17,12 +17,20 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I4: ảnh điện thoại chụp gói trên kệ/sàn, nền không trắng; hãng Miss Bánh Tráng (vinasnack.com.vn, Vina Snack) không đăng ảnh SP trên web → cần chụp",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I3/I4: ảnh điện thoại chụp gói trên kệ/sàn, nền không trắng; hãng không đăng ảnh SP riêng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Bố cục, màu, chữ lớn và 46 g khớp ảnh mẫu; dòng chữ tiếng Anh nhỏ và hình minh hoạ bò/tỏi do AI vẽ lại theo ảnh mẫu độ phân giải thấp, có thể lệch chi tiết",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh banner của hãng trên vinasnack.com.vn (cắt phóng to, chỉ làm mẫu) + ảnh KiotViet 4 gói + ảnh KiotViet mặt sau",
+      "referenceUrl": "https://www.vinasnack.com.vn/"
+    },
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +51,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "batch b09 review: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T05:14:46Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T05:14:47.487Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T05:14:47.487Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }
