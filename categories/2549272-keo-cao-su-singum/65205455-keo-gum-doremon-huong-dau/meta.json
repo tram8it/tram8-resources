@@ -17,12 +17,12 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "ASK_OWNER",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I4/I8: ảnh chụp nhiều thanh trong hũ; không tìm được trang chính hãng/kênh chính chủ của Lotte Việt Nam có ảnh SP (lottewellfood.com là Lotte Hàn Quốc, bao bì khác) → cần chụp",
+    "reason": "I3/I4/I8: ảnh chụp nhiều thanh trong hũ, mặt trước bị cắt, không đọc được khối lượng; chữ vị trên bao bì (Mixed Berries) khác tên (hương dâu); không có ảnh hãng/NPP/nhà bán lẻ",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -30,7 +30,7 @@
     "source": null,
     "rubricVersion": "v4"
   },
-  "question": null,
+  "question": "Mã vạch 8934677051213 (Kẹo gum doremon Hương dâu): ảnh KiotViet (nhiều thanh trong hũ) cho thấy mặt thanh ghi \"Hương Mixed Berries\" (kèm \"Hương vị ngọt ngào\", \"Hương vị sảng khoái\", hình dâu + nho + dứa), không ghi \"hương dâu\"; khối lượng không đọc được và mặt trước bị che/cắt nên chưa vẽ lại được. Chủ chọn: (a) đúng là thanh Doraemon Mixed Berries → nhờ nhân viên chụp thẳng trọn mặt trước 1 thanh (đọc được khối lượng) để vẽ lại, và cân nhắc sửa tên KiotViet; (b) cửa hàng có thanh Doraemon hương dâu riêng → chụp thanh đó.",
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -43,6 +43,12 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "review b08: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T04:49:23+00:00",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "Pack shows \"Hương Mixed Berries\", name says hương dâu; front cropped, weight unreadable; no web reference found"
     }
   ]
 }

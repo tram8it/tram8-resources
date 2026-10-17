@@ -17,12 +17,20 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I5: ảnh chụp tay cầm, bị cắt; không tìm được trang chính hãng/kênh chính chủ của Lotte Việt Nam có ảnh SP (lottewellfood.com là Lotte Hàn Quốc, bao bì khác) → cần chụp",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I3/I5: ảnh chụp tay cầm, bị cắt hai đầu; không có ảnh hãng/NPP/nhà bán lẻ → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Bỏ mã NSX/HSD in đen; hai đầu thanh do AI dựng lại (ảnh mẫu bị cắt, đầu trái vẽ nếp gấp giấy, đầu phải phẳng) — chữ LOTTE, POKÉMON, kẹo gum thổi, Hương vị BIẾN HOÁ, HƯƠNG DƯA LƯỚI, Khối lượng tịnh: 13,5 g khớp ảnh thật",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (chụp tay cầm)",
+      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/04/26/tram8/88ba778924ae44e790905da511354ebf.jpeg"
+    },
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +51,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "review b08: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T04:49:14Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T04:49:24.054Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T04:49:24.054Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }
