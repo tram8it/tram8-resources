@@ -17,18 +17,25 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I4: ảnh chụp trong cửa hàng, nền không trắng (gói ghi 'Thêm 20%'); không tìm thấy trang chính hãng Bento/Srinanaporn dùng được → cần chụp",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I3/I4: ảnh chụp trong cửa hàng, nền không trắng; không có ảnh hãng cho bản VN → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: giữ cờ 'Thêm 20%' vì in sẵn trên gói 22g (18g + 4g) đúng tên SP; chữ tiếng Việt, 'Khối lượng tịnh 22 g (18 g + 4 g)' khớp mẫu; không thấy khác biệt khác",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet chụp trong cửa hàng (gói VN Max Extreme Mild Spicy)"
+    },
+    "rubricVersion": "v17"
   },
   "description": {
-    "decision": "WRITE_NEW",
-    "reason": "D1: chưa có mô tả; không có trang hãng, mô tả ngắn chỉ từ tên SP; thành phần 'surimi trộn mực' theo chữ in trên bao bì Bento VN",
+    "decision": "REWRITE",
+    "reason": "D1: chưa có mô tả; không có trang hãng, mô tả ngắn chỉ từ tên SP; thành phần 'surimi trộn mực' theo chữ in trên bao bì Bento VN; quy cách sửa 18 g → 22 g (18 g + 4 g) theo bao bì \"Thêm 20%\" (17/10/2026)",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v17"
   },
   "question": null,
   "history": [
@@ -43,6 +50,38 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "batch b14 review (rubric v4): image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T05:27:18Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T05:28:01.919Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T05:28:48Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "description weight 22 g (18 g + 4 g) as printed"
+    },
+    {
+      "at": "2026-10-17T05:28:48.622Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T05:28:48.622Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

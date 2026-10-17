@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "ASK_OWNER",
   "image": {
     "decision": "REPLACE",
     "reason": "I3/I4: ảnh chụp dây gói treo trong cửa hàng; không tìm thấy trang chính hãng Bento/Srinanaporn dùng được → cần chụp",
@@ -30,7 +30,7 @@
     "source": null,
     "rubricVersion": "v4"
   },
-  "question": null,
+  "question": "Mã 8850157403252 'Snack Hải Sản Tẩm Gia Vị Ớt Hiệu BenTo 20g': ảnh cửa hàng là gói đỏ 'หมึกเส้นปรุงรส' in 'Net Weight 20 g', còn trang hãng snnp.co.th đang đăng bao bì mới cùng mẫu nhưng in 'Net Weight 24 g'. Chọn: (a) dùng ảnh hãng bản mới 24 g và đổi tên KiotViet thành 24g (nếu hàng mới về là 24 g); (b) giữ 20g — nhờ nhân viên chụp mặt trước gói 20 g đang bán (ảnh làm mẫu cho Gemini); (c) dùng ảnh hãng 24 g dù tên ghi 20g?",
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -43,6 +43,12 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "batch b14 review (rubric v4): image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T05:27:45Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "Hỏi chủ khối lượng gói Bento hộp mực sợi vị ớt (หมึกเส้นปรุงรส, gói đỏ)"
     }
   ]
 }

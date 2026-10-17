@@ -17,12 +17,16 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3: ảnh bánh bày trên đĩa, không thấy bao bì; không tìm thấy trang chính hãng Bento/Srinanaporn dùng được → cần chụp",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I3: ảnh cũ là bánh bày trên đĩa, không thấy bao bì → thay bằng packshot chính hãng SNNP (gói xanh lá 'Super Spicy Seafood', Net Wt. 18 g)",
+    "source": {
+      "url": "https://www.snnp.co.th/api/images/products/bento/products/1767586337447-jnj3hbr42i.webp",
+      "page": "https://www.snnp.co.th/products/BENTO",
+      "fetchedAt": "2026-10-17T05:22:51Z"
+    },
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +47,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "batch b14 review (rubric v4): image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T05:22:51Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Ảnh packshot chính hãng SNNP (snnp.co.th/products/BENTO), gói xanh lá Super Spicy Seafood 18g, khớp tên KiotViet và mã vạch (Open Food Facts 8850157403610 cùng bao bì)"
+    },
+    {
+      "at": "2026-10-17T05:27:49.031Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T05:27:49.031Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

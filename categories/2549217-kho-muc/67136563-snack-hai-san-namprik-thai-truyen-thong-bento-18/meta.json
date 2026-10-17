@@ -20,9 +20,9 @@
   "status": "NEEDS_PHOTO",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh; không tìm thấy trang chính hãng Bento/Srinanaporn dùng được → cần chụp",
+    "reason": "I1: chưa có ảnh; bản VN NamPrik 18g (mã 893…) không có ảnh mẫu nào (snnp.co.th, Open Food Facts, web) → cần nhân viên chụp mặt trước gói (làm mẫu cho Gemini)",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +43,12 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "batch b14 review (rubric v4): image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T05:27:45Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "Tìm ảnh mẫu lại (snnp.co.th, Open Food Facts, web) không thấy bao bì này → vẫn NEEDS_PHOTO"
     }
   ]
 }

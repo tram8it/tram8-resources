@@ -17,12 +17,20 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I2: ảnh là gói đỏ vị cay ngọt (Sweet & Spicy), không phải vị Larb; không tìm thấy trang chính hãng Bento/Srinanaporn dùng được → cần chụp",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I2: ảnh KiotViet cũ là gói đỏ vị Cay Ngọt (Sweet & Spicy), không phải vị Larb; trang hãng snnp.co.th chỉ có Bento MAX Larb 30g → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt chữ lớn; bảng dinh dưỡng (60/3/0/350), số FDA 74-2-04559-2-0007 và 'Net Wt. 18 g' khớp mẫu sau 1 lần sửa; chữ Thái nhỏ dòng cuối hơi khác",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh render gói vàng Spicy Larb 18g của Asian Pantry (asianpantry.com.au, chỉ làm mẫu)",
+      "referenceUrl": "https://asianpantry.com.au/products/bento-mixed-seafood-snack-spicy-larb-yellow-20g"
+    },
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +51,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "batch b14 review (rubric v4): image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T05:27:17Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T05:27:57.422Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T05:27:57.422Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }
