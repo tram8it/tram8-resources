@@ -20,9 +20,9 @@
   "status": "NEEDS_PHOTO",
   "image": {
     "decision": "REPLACE",
-    "reason": "I2: tên SP 110g nhưng ảnh là hộp 45g; colgate.com.vn chỉ có ảnh hộp 180g (khác dung tích) → cần chụp hộp 110g",
+    "reason": "I2: tên SP 110g nhưng ảnh là hộp 45g; colgate.com.vn chỉ có hộp 180g, không tìm được ảnh hộp 110g (Pharmacity, Kingfoodmart) → không vẽ khối lượng 110g khi chưa thấy hộp thật, cần chụp hộp 110g",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "REWRITE",
@@ -46,6 +46,12 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "batch f3: image REPLACE, description REWRITE"
+    },
+    {
+      "at": "2026-10-17T08:33:21.880Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "I2: tên SP 110g nhưng ảnh là hộp 45g; colgate.com.vn chỉ có hộp 180g, không tìm được ảnh hộp 110g (Pharmacity, Kingfoodmart) → không vẽ khối lượng 110g khi chưa thấy hộp thật, cần chụp hộp 110g"
     }
   ]
 }

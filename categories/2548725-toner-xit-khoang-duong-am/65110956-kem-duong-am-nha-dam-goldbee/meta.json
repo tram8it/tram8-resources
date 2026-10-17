@@ -20,9 +20,9 @@
   "status": "NEEDS_PHOTO",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I4/I5: ảnh chụp cận nhãn bằng điện thoại, không thấy nguyên sản phẩm; không tìm được trang hãng Gold Bee → cần chụp",
+    "reason": "I3/I4/I5: ảnh chụp cận nhãn bằng điện thoại, không thấy nguyên hũ/hộp; tìm lại 17/10 (tên, mã vạch 8936191162222, Kingfoodmart) không có ảnh mẫu nào của SP → không biết hình dạng bao bì để Gemini vẽ, cần chụp",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "REWRITE",
@@ -43,6 +43,12 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "close-up phone photo; description REWRITE (pack text)"
+    },
+    {
+      "at": "2026-10-17T08:33:21.840Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "I3/I4/I5: ảnh chụp cận nhãn bằng điện thoại, không thấy nguyên hũ/hộp; tìm lại 17/10 (tên, mã vạch 8936191162222, Kingfoodmart) không có ảnh mẫu nào của SP → không biết hình dạng bao bì để Gemini vẽ, cần chụp"
     }
   ]
 }

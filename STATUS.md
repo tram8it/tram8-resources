@@ -2,7 +2,7 @@
 
 > Sinh tự động bởi `node tools/status.mjs`. **Không sửa tay.** Nguồn sự thật là `meta.json` của từng SP.
 
-Tổng 2448 SP · đã xem 2428 (99%) · xong 1199 · chờ chủ duyệt 617 · cần chụp 322 · hỏi chủ 284
+Tổng 2448 SP · đã xem 2428 (99%) · xong 1199 · chờ chủ duyệt 619 · cần chụp 317 · hỏi chủ 287
 
 Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` = giữ nguyên + đã lên web.
 
@@ -142,8 +142,8 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 | 132 | Nhập khẩu & premium | 0.0tr | 5 | 0 | 1 | 0 | 0 | 0 | 1 | 0 | 3 |
 | 133 | Bông & khăn tẩy trang | 0.0tr | 5 | 0 | 1 | 0 | 0 | 0 | 4 | 0 | 0 |
 | 134 | Sữa đặc | 0.0tr | 5 | 0 | 0 | 0 | 0 | 1 | 0 | 0 | 4 |
-| 135 | Dầu gội - Ngăn rụng tóc | 0.0tr | 5 | 0 | 1 | 0 | 1 | 0 | 1 | 0 | 2 |
-| 136 | Gel bôi trơn | 0.0tr | 5 | 0 | 4 | 0 | 1 | 0 | 0 | 0 | 0 |
+| 135 | Dầu gội - Ngăn rụng tóc | 0.0tr | 5 | 0 | 1 | 0 | 0 | 1 | 1 | 0 | 2 |
+| 136 | Gel bôi trơn | 0.0tr | 5 | 0 | 4 | 0 | 0 | 1 | 0 | 0 | 0 |
 | 137 | Sữa rửa mặt cho da mụn | 0.0tr | 5 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 4 |
 | 138 | Lương khô | 0.0tr | 5 | 0 | 0 | 0 | 1 | 0 | 4 | 0 | 0 |
 | 139 | Dụng cụ lông mày / mũi | 0.0tr | 5 | 0 | 0 | 0 | 0 | 1 | 3 | 0 | 1 |
@@ -168,7 +168,7 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 | 158 | BVS ban ngày | 0.0tr | 3 | 0 | 0 | 0 | 0 | 1 | 2 | 0 | 0 |
 | 159 | BVS dạng quần | 0.0tr | 3 | 0 | 0 | 0 | 1 | 1 | 1 | 0 | 0 |
 | 160 | Tráng miệng | 0.0tr | 3 | 0 | 0 | 0 | 0 | 0 | 3 | 0 | 0 |
-| 161 | Dụng cụ nhà bếp | 0.0tr | 3 | 0 | 0 | 0 | 3 | 0 | 0 | 0 | 0 |
+| 161 | Dụng cụ nhà bếp | 0.0tr | 3 | 0 | 0 | 0 | 0 | 1 | 2 | 0 | 0 |
 | 162 | Cơm cháy | 0.0tr | 3 | 0 | 0 | 0 | 0 | 1 | 1 | 0 | 1 |
 | 163 | Combo và ưu đãi | 0.0tr | 3 | 0 | 0 | 0 | 2 | 1 | 0 | 0 | 0 |
 | 164 | Cider | 0.0tr | 3 | 0 | 0 | 0 | 0 | 0 | 3 | 0 | 0 |
