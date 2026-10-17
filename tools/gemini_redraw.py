@@ -47,7 +47,7 @@ API = "https://generativelanguage.googleapis.com/v1beta/interactions"
 
 # Newest stable image model per ai.google.dev/gemini-api/docs/models (checked 2026-10-16).
 DEFAULT_MODEL = "gemini-nano-banana-2.1"
-RUBRIC_VERSION = "v17"
+RUBRIC_VERSION = "v18"
 MAX_FIXES = 2
 
 # USD, from ai.google.dev/gemini-api/docs/pricing (checked 2026-10-16). Used for estimates only.
@@ -95,6 +95,34 @@ references of the real pack. Keep everything that is already right and fix only 
 All other requirements still hold: straight-on single pack, flat clean print look, pure white
 1:1 background, whole pack with white margin, text copied exactly from the real pack, no invented
 text or numbers."""
+
+
+# RUBRIC v18: ready-to-eat food sold by the piece (bánh bao, món hấp) shows the food, not the pack.
+FOOD_PROMPT = """Make an appetizing studio food photo of this product itself, NOT of its packaging.
+
+Product (shop catalogue name): {name}
+
+The attached images are photos of the product's pack. Use them ONLY to learn what the food looks
+like (shape, colour, decoration of the bun) and what the filling is (from the food picture and the
+name on the pack). Never draw the pack, its film, tray, label or any text.
+
+Output requirements:
+- One whole piece and, next to it, one piece cut in half showing the filling clearly. For a
+  character-shaped bun (animal face etc.), show the whole shaped bun from the front with its face,
+  and the half showing the filling. A plain bun with no filling: one whole bun and one torn open.
+- The filling must match the product exactly: {filling}. Do not add ingredients that are not in it.
+- Freshly steamed look: soft, slightly glossy dough, a light wisp of steam at most. Realistic, not
+  cartoon. Soft natural studio light, gentle shadow.
+- Pure white background (#FFFFFF), square 1:1 canvas, food about 75% of the canvas width, centred,
+  whole food visible with white margin. A plain white plate is allowed; nothing else.
+- No text, no logos, no labels, no packaging, no hands, no props.
+{note}"""
+
+FOOD_FIX_PROMPT = """The first image is your previous food photo of this product; the other images are
+photos of its pack, for reference only. Keep everything that is already right and fix only this:
+{instruction}
+All other requirements still hold: the food itself (no pack, no text, no logo), one whole piece and
+one cut in half showing the filling, pure white 1:1 background with margin, realistic and appetizing."""
 
 
 class ApiError(Exception):
@@ -270,7 +298,7 @@ def compare_sheet(images: list, raw: Path, out: Path, h: int = 700):
     sheet.save(out, quality=88)
 
 
-def run_attempt(meta, wdir, log, model, size, prompt, images, labels, kind, dry_run):
+def run_attempt(meta, wdir, log, model, size, prompt, images, labels, kind, dry_run, style="pack"):
     n = len(log["attempts"]) + 1
     print(f"--- {meta['kiotProductId']} {meta['name']} · attempt {n} ({kind}) · {model} {size}")
     print(f"refs: {', '.join(labels) or '(none)'}")
@@ -287,7 +315,7 @@ def run_attempt(meta, wdir, log, model, size, prompt, images, labels, kind, dry_
     hit = find_image(resp)
     usage = resp.get("usage") or {}
     cost = estimate_cost(model, size, len(images), usage)
-    entry = {"n": n, "kind": kind, "model": model, "size": size, "at": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"),
+    entry = {"n": n, "kind": kind, "style": style, "model": model, "size": size, "at": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"),
              "interactionId": resp.get("id"), "status": resp.get("status"), "refs": labels,
              "usage": usage, "estCostUsd": cost, "text": find_text(resp)[:500], "prompt": prompt}
     if hit:
@@ -321,15 +349,21 @@ def gen_one(a, d):
         print(f"skip {meta['kiotProductId']}: {len(refs)} references, use at most 3")
         return None
     note = f"\nAdditional instruction: {a.note}" if a.note else ""
-    prompt = PROMPT.format(name=meta.get("fullName") or meta["name"], barcode=meta.get("barcode") or "-", note=note)
+    if a.style == "food":
+        if not a.filling:
+            print(f"skip {meta['kiotProductId']}: --style food needs --filling")
+            return None
+        prompt = FOOD_PROMPT.format(name=meta.get("fullName") or meta["name"], filling=a.filling, note=note)
+    else:
+        prompt = PROMPT.format(name=meta.get("fullName") or meta["name"], barcode=meta.get("barcode") or "-", note=note)
     log = read_log(wdir)
     return run_attempt(meta, wdir, log, a.model, a.size, prompt, [b for _, b in refs],
-                       [l for l, _ in refs], "gen", a.dry_run)
+                       [l for l, _ in refs], "gen", a.dry_run, style=a.style)
 
 
 def cmd_gen(a):
     dirs = a.product_dirs[: a.limit]
-    if a.note and len(dirs) > 1:
+    if (a.note or a.filling) and len(dirs) > 1:
         die("--note is product-specific; pass one product directory with it")
     with ThreadPoolExecutor(max_workers=max(1, a.jobs)) as pool:
         entries = list(pool.map(lambda d: gen_one(a, d), dirs))
@@ -353,11 +387,11 @@ def cmd_fix(a):
     last = done[-1]
     refs = resolve_refs(meta, wdir, a.ref)
     prev = (wdir / last["raw"]).read_bytes()
-    prompt = FIX_PROMPT.format(instruction=a.instruction)
+    prompt = (FOOD_FIX_PROMPT if last.get("style") == "food" else FIX_PROMPT).format(instruction=a.instruction)
     model = a.model or last["model"]
     e = run_attempt(meta, wdir, log, model, a.size or last["size"], prompt,
                     [prev] + [b for _, b in refs], [f"attempt-{last['n']}"] + [l for l, _ in refs],
-                    "fix", a.dry_run)
+                    "fix", a.dry_run, style=last.get("style", "pack"))
     print(f"=== API calls: {0 if e is None else 1} · estimated cost: ${0 if e is None else e['estCostUsd']:.4f}")
 
 
@@ -373,12 +407,16 @@ def cmd_accept(a):
     (pdir / "image.webp").write_bytes((wdir / pick["candidate"]).read_bytes())
     now = dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds").replace("+00:00", "Z")
     source = {"aiGenerated": True, "tool": "Gemini API", "model": pick["model"],
-              "generatedAt": pick["at"][:10], "style": "flat clean packaging render (v17)",
+              "generatedAt": pick["at"][:10],
+              "style": "food photo, whole + cut showing filling (v18)" if pick.get("style") == "food"
+              else "flat clean packaging render (v17)",
               "reference": a.reference}
     if a.reference_url:
         source["referenceUrl"] = a.reference_url
     meta["image"] = {"decision": "REPLACE",
-                     "reason": f"{a.reason} → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: {a.diff}",
+                     "reason": (f"{a.reason} → ảnh món ăn Gemini vẽ từ ảnh bao bì (v18: món hấp bán lẻ hiện cái bánh và nhân); ảnh minh hoạ. Khác hàng thật: {a.diff}"
+                                if pick.get("style") == "food" else
+                                f"{a.reason} → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: {a.diff}"),
                      "source": source, "rubricVersion": RUBRIC_VERSION}
     meta["status"] = "READY"
     meta["question"] = None
@@ -396,6 +434,9 @@ def main():
     g.add_argument("product_dirs", nargs="+")
     g.add_argument("--ref", action="append", default=[], help="reference image path/URL, priority order, max 3")
     g.add_argument("--note", default="")
+    g.add_argument("--style", default="pack", choices=["pack", "food"],
+                   help="pack = packaging render (default); food = the food itself, whole + cut (RUBRIC v18)")
+    g.add_argument("--filling", default="", help="--style food: what the filling is, e.g. 'pork, quail egg, Chinese sausage'")
     g.add_argument("--limit", type=int, default=10, help="max products per run (default 10)")
     g.add_argument("--model", default=DEFAULT_MODEL)
     g.add_argument("--size", default="2K", choices=["1K", "2K"])
