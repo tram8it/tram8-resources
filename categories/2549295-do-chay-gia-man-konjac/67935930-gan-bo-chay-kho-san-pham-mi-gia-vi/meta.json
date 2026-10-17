@@ -20,9 +20,9 @@
   "status": "NEEDS_PHOTO",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3, I4: ảnh tay cầm, nền không trắng, không thấy rõ mặt trước bao bì; hàng nội địa Trung, không tìm được trang hãng chính thức dùng được → cần nhân viên chụp",
+    "reason": "I3, I4: ảnh tay cầm chụp mặt sau gói, không thấy mặt trước bao bì; không tìm được ảnh mẫu mặt trước (mã 6958242200044) → cần nhân viên chụp mặt trước",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +43,12 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "image REPLACE (hand-held photo), description WRITE_NEW from name only"
+    },
+    {
+      "at": "2026-10-17T12:00:00Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "Đã tra Kingfoodmart/Open Food Facts/web theo mã vạch: không có ảnh mặt trước; giữ NEEDS_PHOTO"
     }
   ]
 }

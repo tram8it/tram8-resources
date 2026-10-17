@@ -17,12 +17,19 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3, I4, I8: ảnh chụp điện thoại có cả hộp lớn phía sau, nền không trắng; hàng nội địa Trung, không tìm được trang hãng chính thức dùng được → cần nhân viên chụp",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I3, I4, I8: ảnh chụp điện thoại có cả hộp lớn phía sau, nền không trắng; không có ảnh hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Ảnh mẫu nhỏ nên chữ nhỏ (图片仅供参考) và nét minh hoạ do AI vẽ; chữ lớn và 18克 đúng mẫu",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (chỉ làm mẫu)"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +50,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "image REPLACE (phone photo), description WRITE_NEW from front of pack"
+    },
+    {
+      "at": "2026-10-17T08:12:38Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T08:12:58.140Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T08:12:58.140Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

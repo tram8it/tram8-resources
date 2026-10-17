@@ -20,9 +20,9 @@
   "status": "NEEDS_PHOTO",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3, I4, I8: ảnh chụp điện thoại nhiều ống chồng nhau, nền không trắng; hàng địa phương, không tìm được trang hãng chính thức → cần nhân viên chụp",
+    "reason": "I3, I4, I8: ảnh chụp nhiều ống Pop Corn (Thái Sơn) nằm chồng, nhãn bị che một phần, không thấy hai đầu/nắp ống; không có trang hãng hay ảnh mẫu khác → cần nhân viên chụp một ống (Mix) thẳng, thấy cả hai đầu",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +43,12 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "image REPLACE (phone photo), description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T12:00:00Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "Tìm web theo mã vạch/tên thương hiệu không ra ảnh mẫu; ảnh KiotViet không đủ để vẽ trọn ống (không thấy nắp) → giữ NEEDS_PHOTO"
     }
   ]
 }
