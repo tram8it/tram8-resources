@@ -30,7 +30,7 @@
     "source": null,
     "rubricVersion": "v4"
   },
-  "question": "Tẩy da chết cà phê Cocoon (mã vạch 8936217701084): trên trang Cocoon mã vạch này là Túi refill cà phê Đắk Lắk làm sạch da chết cơ thể 200ml, còn tên KiotViet ghi 70ml. Hàng đang bán là túi refill 200ml hay loại 70ml (mã vạch khác)?",
+  "question": "Mã vạch này là túi refill Cocoon 200 ml, tên KiotViet ghi 70ml — hàng trên kệ là túi 200 ml hay hũ/tuýp 70 ml?",
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -43,6 +43,18 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "barcode = Cocoon refill pouch 200ml, name says 70ml; asked owner"
+    },
+    {
+      "at": "2026-10-17T08:59:38Z",
+      "by": "owner",
+      "status": "ASK_OWNER",
+      "note": "Chủ trả lời 17/10 (RUBRIC v19): tin bao bì đúng mã vạch khi lệch nhỏ; lệch lớn/cỡ khác thì vẫn hỏi"
+    },
+    {
+      "at": "2026-10-17T08:59:38Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "v19: vẫn ASK_OWNER (lệch lớn hoặc cần xem kệ); rút gọn câu hỏi"
     }
   ]
 }

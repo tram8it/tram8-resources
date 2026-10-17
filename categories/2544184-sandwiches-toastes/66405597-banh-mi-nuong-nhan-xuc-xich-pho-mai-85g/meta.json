@@ -30,7 +30,7 @@
     "source": null,
     "rubricVersion": "v4"
   },
-  "question": "Bánh mì nướng nhân xúc xích phô mai: trên KiotViet ghi 85g, nhưng gói trên trang Cobi Bread (và mô tả hiện tại) ghi 70g; Cobi chỉ có thêm bản 100g. Gói đang bán ở cửa hàng in khối lượng bao nhiêu (70g, 85g hay 100g)?",
+  "question": "Gói Cobi in 70 g (hãng chỉ có 70 g/100 g), tên KiotViet ghi 85g — gói trên kệ in bao nhiêu g?",
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -43,6 +43,18 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "ask owner: 70g vs 85g"
+    },
+    {
+      "at": "2026-10-17T08:59:38Z",
+      "by": "owner",
+      "status": "ASK_OWNER",
+      "note": "Chủ trả lời 17/10 (RUBRIC v19): tin bao bì đúng mã vạch khi lệch nhỏ; lệch lớn/cỡ khác thì vẫn hỏi"
+    },
+    {
+      "at": "2026-10-17T08:59:38Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "v19: vẫn ASK_OWNER (lệch lớn hoặc cần xem kệ); rút gọn câu hỏi"
     }
   ]
 }

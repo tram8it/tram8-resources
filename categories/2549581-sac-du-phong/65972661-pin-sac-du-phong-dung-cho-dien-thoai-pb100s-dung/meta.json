@@ -58,10 +58,30 @@
       "note": "Cuktech PB100S (mã vạch 6973886191343): hộp thật in '10000mAh 30W', còn tên KiotViet ghi 'tối đa 33W'. Tên nào đúng? (a) hộp đúng 30W → sửa tên KiotViet thành 30W và dùng ảnh Gemini vẽ lại hộp (đã có sẵn, bỏ tem giá + nhãn xanh); (b) hàng là bản 33W khác hộp → cần chụp hộp bản 33W."
     },
     {
+      "at": "2026-10-17T08:45:00Z",
+      "by": "owner",
+      "note": "RUBRIC v19: khối lượng tin bao bì đúng mã vạch hơn tên KiotViet; chỉ hỏi khi lệch > ~10% hoặc rõ là cỡ khác",
+      "status": "ASK_OWNER"
+    },
+    {
       "at": "2026-10-17T08:56:55Z",
       "by": "ai",
       "status": "READY",
       "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T09:00:01.337Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T09:00:01.337Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

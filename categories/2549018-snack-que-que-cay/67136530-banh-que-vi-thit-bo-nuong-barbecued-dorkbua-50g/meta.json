@@ -30,7 +30,7 @@
     "source": null,
     "rubricVersion": "v4"
   },
-  "question": "Mã vạch 8935342400237 – Bánh Que Vị Thịt Bò Nướng Barbecued Dorkbua: ảnh KiotViet và ảnh Open Food Facts cùng mã vạch đều in 'Khối lượng tịnh / Net Weight 62 g', nhưng tên KiotViet ghi '50g VN'. Gói cửa hàng đang bán là 62 g hay có bản 50 g riêng? (a) 62 g → sửa tên thành 62g, AI vẽ lại theo gói 62 g (bản thường, bỏ khối khuyến mãi 'Trúng quà… 1,3 tỷ đồng'); (b) có bản 50 g → nhờ nhân viên chụp mặt trước gói 50 g.",
+  "question": "Gói in 62 g, tên KiotViet ghi 50g (lệch 24%) — gói trên kệ in bao nhiêu g?",
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -49,6 +49,18 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "weight on pack differs from KiotViet name; not redrawn"
+    },
+    {
+      "at": "2026-10-17T08:59:38Z",
+      "by": "owner",
+      "status": "ASK_OWNER",
+      "note": "Chủ trả lời 17/10 (RUBRIC v19): tin bao bì đúng mã vạch khi lệch nhỏ; lệch lớn/cỡ khác thì vẫn hỏi"
+    },
+    {
+      "at": "2026-10-17T08:59:38Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "v19: vẫn ASK_OWNER (lệch lớn hoặc cần xem kệ); rút gọn câu hỏi"
     }
   ]
 }

@@ -30,7 +30,7 @@
     "source": null,
     "rubricVersion": "v4"
   },
-  "question": "Mã 8850157403252 'Snack Hải Sản Tẩm Gia Vị Ớt Hiệu BenTo 20g': ảnh cửa hàng là gói đỏ 'หมึกเส้นปรุงรส' in 'Net Weight 20 g', còn trang hãng snnp.co.th đang đăng bao bì mới cùng mẫu nhưng in 'Net Weight 24 g'. Chọn: (a) dùng ảnh hãng bản mới 24 g và đổi tên KiotViet thành 24g (nếu hàng mới về là 24 g); (b) giữ 20g — nhờ nhân viên chụp mặt trước gói 20 g đang bán (ảnh làm mẫu cho Gemini); (c) dùng ảnh hãng 24 g dù tên ghi 20g?",
+  "question": "Bento mực sợi vị ớt (8850157403252): gói in 20 g (ảnh cửa hàng) / 24 g (bao bì mới trên snnp.co.th), tên ghi 20 g — hàng đang về là 20 g hay 24 g?",
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -49,6 +49,18 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "Hỏi chủ khối lượng gói Bento hộp mực sợi vị ớt (หมึกเส้นปรุงรส, gói đỏ)"
+    },
+    {
+      "at": "2026-10-17T08:58:10Z",
+      "by": "owner",
+      "status": "ASK_OWNER",
+      "note": "17/10/2026 (RUBRIC v19): tin bao bì nếu lệch nhỏ; lệch >10% thì hỏi lại"
+    },
+    {
+      "at": "2026-10-17T08:58:10Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "shop pack 20 g vs newest brand pack 24 g = 20% gap → still ASK_OWNER, question shortened"
     }
   ]
 }

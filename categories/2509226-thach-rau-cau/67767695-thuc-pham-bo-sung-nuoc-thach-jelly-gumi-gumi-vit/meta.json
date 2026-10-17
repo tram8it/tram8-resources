@@ -30,7 +30,7 @@
     "source": null,
     "rubricVersion": "v4"
   },
-  "question": "Nước thạch Gumi Gumi Vitamin C vị vải (mã 8850389302835): ảnh hiện tại là gói in 'ปริมาณสุทธิ 150 ก.' (150 g) nhưng tên KiotViet ghi 135g. Gói trên kệ ghi bao nhiêu gram? Nếu 150 g thì giữ ảnh và sửa tên; nếu 135 g thì cần chụp ảnh gói thật.",
+  "question": "Gói in 150 g, tên KiotViet ghi 135g (lệch ~11%) — gói trên kệ in bao nhiêu g?",
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -43,6 +43,18 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "b19: image ASK_OWNER, description ASK_OWNER"
+    },
+    {
+      "at": "2026-10-17T08:59:38Z",
+      "by": "owner",
+      "status": "ASK_OWNER",
+      "note": "Chủ trả lời 17/10 (RUBRIC v19): tin bao bì đúng mã vạch khi lệch nhỏ; lệch lớn/cỡ khác thì vẫn hỏi"
+    },
+    {
+      "at": "2026-10-17T08:59:38Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "v19: vẫn ASK_OWNER (lệch lớn hoặc cần xem kệ); rút gọn câu hỏi"
     }
   ]
 }

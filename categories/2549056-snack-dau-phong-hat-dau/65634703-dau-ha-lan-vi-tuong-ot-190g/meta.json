@@ -17,20 +17,20 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "ASK_OWNER",
+  "status": "READY",
   "image": {
     "decision": "KEEP",
     "reason": "I1–I9 đạt: packshot nền trắng, 1:1, căn giữa; nhãn ghi 180g",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v19"
   },
   "description": {
-    "decision": "ASK_OWNER",
-    "reason": "D1: chưa có mô tả; chờ chủ xác nhận khối lượng",
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết ngắn từ chữ in mặt trước hũ (180 g theo nhãn, tên KiotViet ghi 190g — chủ 17/10: theo bao bì)",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v19"
   },
-  "question": "SP 'Đậu Hà Lan vị tương ớt 190g' (Snack House GOODY!, mã 8938503403030): nhãn trên ảnh in 180g, tên KiotViet ghi 190g. Hũ thật in bao nhiêu gam?",
+  "question": null,
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -43,6 +43,31 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "asked owner: net weight 180g (label) vs 190g (name)"
+    },
+    {
+      "at": "2026-10-17T08:45:00Z",
+      "by": "owner",
+      "note": "RUBRIC v19: khối lượng tin bao bì đúng mã vạch hơn tên KiotViet; chỉ hỏi khi lệch > ~10% hoặc rõ là cỡ khác",
+      "status": "ASK_OWNER"
+    },
+    {
+      "at": "2026-10-17T09:30:00Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "image KEEP; description WRITE_NEW from pack text (weight per pack, RUBRIC v19)"
+    },
+    {
+      "at": "2026-10-17T08:59:40.237Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T08:59:40.237Z",
+    "fields": [
+      "description"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

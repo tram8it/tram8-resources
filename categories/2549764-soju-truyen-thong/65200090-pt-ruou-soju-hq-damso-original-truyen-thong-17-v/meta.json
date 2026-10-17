@@ -30,7 +30,7 @@
     "source": null,
     "rubricVersion": "v4"
   },
-  "question": "Soju Damso Original: tên KiotViet ghi 360 ml – 17%, nhưng ảnh hiện tại là chai ghi 'Net Content 375ml – Alc. 16% by Vol.'. Chai đang bán ở cửa hàng ghi dung tích và nồng độ nào? (Nếu là 375 ml/16% thì giữ ảnh và sửa tên KiotViet; nếu 360 ml/17% thì cần chụp ảnh chai mới.)",
+  "question": "Tên ghi 360 ml – 17%, ảnh chai in 375 ml – 16%. Chai đang bán in dung tích và độ cồn nào?",
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -43,6 +43,18 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "batch f3: image ASK_OWNER, description ASK_OWNER"
+    },
+    {
+      "at": "2026-10-17T08:45:00Z",
+      "by": "owner",
+      "note": "RUBRIC v19: khối lượng tin bao bì đúng mã vạch hơn tên KiotViet; chỉ hỏi khi lệch > ~10% hoặc rõ là cỡ khác",
+      "status": "ASK_OWNER"
+    },
+    {
+      "at": "2026-10-17T09:30:00Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "gap > ~10% / other size or needs shelf check: question shortened to the two numbers (RUBRIC v19)"
     }
   ]
 }

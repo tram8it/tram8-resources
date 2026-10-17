@@ -33,7 +33,7 @@
     },
     "rubricVersion": "v4"
   },
-  "question": "Mã vạch 8934803039054 (Pillows nhân cốt dừa cà phê): tên KiotViet ghi 45g, nhưng trang Oishi chỉ có cỡ 38g và 75g (gói sữa dừa cùng dãy chủ đã xác nhận là 80g dù tên ghi 45g). Gói thật in khối lượng bao nhiêu (38g, 45g, 80g…) và là gói gối nhỏ hay túi zip? Nhờ nhân viên chụp mặt trước 1 gói (thấy trọn gói, đọc được dòng khối lượng) để làm ảnh mẫu cho Gemini; nếu khối lượng khác 45g thì sửa tên KiotViet và mô tả.",
+  "question": "Hãng chỉ có 38 g / 75 g, tên KiotViet ghi 45g — gói trên kệ in bao nhiêu g? (chưa có ảnh gói này; nhờ chụp mặt trước)",
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -52,6 +52,18 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "no reference photo for barcode 8934803039054 on web; brand site lists 38/75g only, name says 45g; asked owner for real weight + staff photo"
+    },
+    {
+      "at": "2026-10-17T08:59:38Z",
+      "by": "owner",
+      "status": "ASK_OWNER",
+      "note": "Chủ trả lời 17/10 (RUBRIC v19): tin bao bì đúng mã vạch khi lệch nhỏ; lệch lớn/cỡ khác thì vẫn hỏi"
+    },
+    {
+      "at": "2026-10-17T08:59:38Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "v19: vẫn ASK_OWNER (lệch lớn hoặc cần xem kệ); rút gọn câu hỏi"
     }
   ]
 }

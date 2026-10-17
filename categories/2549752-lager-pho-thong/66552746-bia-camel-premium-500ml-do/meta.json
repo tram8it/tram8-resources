@@ -30,7 +30,7 @@
     "source": null,
     "rubricVersion": "v4"
   },
-  "question": "\"Bia Camel Premium 500ml đỏ\" (mã vạch 8936236640326) nhưng ảnh hiện tại là lon cao ghi \"330 ml, độ cồn 4,6%\". Hàng đang bán là lon 500 ml hay lon cao 330 ml?",
+  "question": "Tên ghi 500 ml, ảnh là lon 330 ml. Lon đang bán 500 ml hay 330 ml?",
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -43,6 +43,18 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "asked owner: name 500ml vs photo 330ml"
+    },
+    {
+      "at": "2026-10-17T08:45:00Z",
+      "by": "owner",
+      "note": "RUBRIC v19: khối lượng tin bao bì đúng mã vạch hơn tên KiotViet; chỉ hỏi khi lệch > ~10% hoặc rõ là cỡ khác",
+      "status": "ASK_OWNER"
+    },
+    {
+      "at": "2026-10-17T09:30:00Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "gap > ~10% / other size or needs shelf check: question shortened to the two numbers (RUBRIC v19)"
     }
   ]
 }

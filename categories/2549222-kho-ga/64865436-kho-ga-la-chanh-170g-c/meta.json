@@ -30,7 +30,7 @@
     "source": null,
     "rubricVersion": "v4"
   },
-  "question": "Khô gà lá chanh Phương Huyền mã 8936202660853: tên KiotViet ghi 170 g nhưng nhãn gói trong ảnh (cùng mã vạch) ghi Net wt 200 g. Gói đang bán là 170 g hay 200 g? (Ảnh hiện tại chụp điện thoại nên cũng cần nhân viên chụp lại.)",
+  "question": "Tên ghi 170 g, nhãn gói in 200 g. Gói đang bán in 170 g hay 200 g?",
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -43,6 +43,18 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "ask owner: weight 170 g vs label 200 g; photo needs retake"
+    },
+    {
+      "at": "2026-10-17T08:45:00Z",
+      "by": "owner",
+      "note": "RUBRIC v19: khối lượng tin bao bì đúng mã vạch hơn tên KiotViet; chỉ hỏi khi lệch > ~10% hoặc rõ là cỡ khác",
+      "status": "ASK_OWNER"
+    },
+    {
+      "at": "2026-10-17T09:30:00Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "gap > ~10% / other size or needs shelf check: question shortened to the two numbers (RUBRIC v19)"
     }
   ]
 }

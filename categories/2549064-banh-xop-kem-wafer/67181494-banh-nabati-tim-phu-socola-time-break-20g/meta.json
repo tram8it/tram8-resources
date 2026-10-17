@@ -30,7 +30,7 @@
     "source": null,
     "rubricVersion": "v4"
   },
-  "question": "Mã vạch 8993175564991 (Time Break): tên KiotViet ghi 20 g và 'tím', nhưng gói chụp tại cửa hàng màu đỏ, in 'Net weight/ Khối lượng tịnh : 16 g'. Sửa tên KiotViet thành 16 g (và bỏ chữ 'tím') hay cửa hàng có loại 20 g khác? Lưu ý description.md hiện ghi 20 g.",
+  "question": "Tên ghi 20 g ('tím'), gói chụp tại cửa hàng màu đỏ in 16 g. Gói đang bán in 20 g hay 16 g, màu gì?",
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -49,6 +49,18 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "khối lượng trên gói (16 g) khác tên KiotViet (20 g) → hỏi chủ"
+    },
+    {
+      "at": "2026-10-17T08:45:00Z",
+      "by": "owner",
+      "note": "RUBRIC v19: khối lượng tin bao bì đúng mã vạch hơn tên KiotViet; chỉ hỏi khi lệch > ~10% hoặc rõ là cỡ khác",
+      "status": "ASK_OWNER"
+    },
+    {
+      "at": "2026-10-17T09:30:00Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "gap > ~10% / other size or needs shelf check: question shortened to the two numbers (RUBRIC v19)"
     }
   ]
 }

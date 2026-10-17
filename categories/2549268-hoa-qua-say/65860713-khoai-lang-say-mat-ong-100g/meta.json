@@ -32,10 +32,10 @@
     "rubricVersion": "v18"
   },
   "description": {
-    "decision": "WRITE_NEW",
-    "reason": "D1: chưa có mô tả; mô tả ngắn từ chữ in trên gói (Onenuts Naturals, Khoai lang sấy, Vị mật ong) và tên SP (100 g)",
+    "decision": "REWRITE",
+    "reason": "D2: mô tả cũ ghi 100 g theo tên; túi in 'KHỐI LƯỢNG TỊNH: 90g' (chủ 17/10: theo bao bì)",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v19"
   },
   "question": null,
   "history": [
@@ -58,10 +58,36 @@
       "note": "ask owner: pack weight differs from KiotViet name"
     },
     {
+      "at": "2026-10-17T08:45:00Z",
+      "by": "owner",
+      "note": "RUBRIC v19: khối lượng tin bao bì đúng mã vạch hơn tên KiotViet; chỉ hỏi khi lệch > ~10% hoặc rõ là cỡ khác",
+      "status": "ASK_OWNER"
+    },
+    {
       "at": "2026-10-17T08:56:55Z",
       "by": "ai",
       "status": "READY",
       "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T09:30:00Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "description REWRITE: weight per pack (RUBRIC v19)"
+    },
+    {
+      "at": "2026-10-17T08:59:49.448Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T08:59:49.448Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

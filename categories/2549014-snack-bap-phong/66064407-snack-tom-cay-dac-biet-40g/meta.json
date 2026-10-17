@@ -30,7 +30,7 @@
     "source": null,
     "rubricVersion": "v4"
   },
-  "question": "SP 'Snack tôm cay đặc biệt 40g' (Oishi, mã 8934803044270): ảnh hiện tại in 45g trên bao bì, tên KiotViet ghi 40g. Gói đang bán in bao nhiêu gam?",
+  "question": "Gói in 45 g, tên KiotViet ghi 40g (lệch ~12%) — gói trên kệ in bao nhiêu g?",
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -43,6 +43,18 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "asked owner: net weight 45g (label) vs 40g (name)"
+    },
+    {
+      "at": "2026-10-17T08:59:38Z",
+      "by": "owner",
+      "status": "ASK_OWNER",
+      "note": "Chủ trả lời 17/10 (RUBRIC v19): tin bao bì đúng mã vạch khi lệch nhỏ; lệch lớn/cỡ khác thì vẫn hỏi"
+    },
+    {
+      "at": "2026-10-17T08:59:38Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "v19: vẫn ASK_OWNER (lệch lớn hoặc cần xem kệ); rút gọn câu hỏi"
     }
   ]
 }

@@ -30,7 +30,7 @@
     "source": null,
     "rubricVersion": "v4"
   },
-  "question": "Posi/Poso mực khô xé sợi (mã 8938520099261): tên KiotViet ghi 50 g nhưng ảnh bao bì ghi 35 g (vị cay). Gói Trạm 8 đang bán là 35 g hay 50 g, vị gì? Ảnh hiện tại chụp điện thoại nên cũng cần chụp lại.",
+  "question": "Tên ghi 50 g, ảnh gói in 35 g (vị cay). Gói đang bán in 50 g hay 35 g, vị gì?",
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -43,6 +43,18 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "batch b14 review (rubric v4): image REPLACE, description ASK_OWNER"
+    },
+    {
+      "at": "2026-10-17T08:45:00Z",
+      "by": "owner",
+      "note": "RUBRIC v19: khối lượng tin bao bì đúng mã vạch hơn tên KiotViet; chỉ hỏi khi lệch > ~10% hoặc rõ là cỡ khác",
+      "status": "ASK_OWNER"
+    },
+    {
+      "at": "2026-10-17T09:30:00Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "gap > ~10% / other size or needs shelf check: question shortened to the two numbers (RUBRIC v19)"
     }
   ]
 }

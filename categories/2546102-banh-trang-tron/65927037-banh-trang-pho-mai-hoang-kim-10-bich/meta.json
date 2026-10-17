@@ -17,24 +17,24 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "ASK_OWNER",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "Ảnh 'Gian hàng chính hãng' Mèo Food chủ gửi (Bánh tráng phô mai hoàng kim 70 g); tách gói khỏi nền cam banner (tô nền bằng flood fill, bỏ logo/khung gian hàng); giữ nguyên đạo cụ hãng đặt chồng lên góc gói (ớt/tôm/phô mai)",
+    "reason": "Ảnh 'Gian hàng chính hãng' Mèo Food chủ gửi (Bánh tráng phô mai hoàng kim 70 g); tách gói khỏi nền cam banner (tô nền bằng flood fill, bỏ logo/khung gian hàng); giữ nguyên đạo cụ hãng đặt chồng lên góc gói (ớt/tôm/phô mai); 17/10 xoá đốm cam sót bên phải gói; đơn vị Gói = 1 gói 70 g (chủ 17/10)",
     "source": {
       "ownerProvided": true,
       "note": "ảnh gian hàng chính hãng Mèo Food (banhtrangmeofood.com) chủ gửi",
       "receivedAt": "2026-10-15"
     },
-    "rubricVersion": "v6"
+    "rubricVersion": "v19"
   },
   "description": {
-    "decision": "ASK_OWNER",
-    "reason": "Chờ chủ xác nhận quy cách bán trước khi viết",
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết ngắn theo chữ in trên gói (Bánh tráng phô mai hoàng kim, lắc phô mai, 70 g); bán 1 gói theo đơn vị KiotViet, tên giữ \"10 Bịch\" cho khớp HĐĐT",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v19"
   },
-  "question": "SP \"Bánh tráng phô mai hoàng kim 10 Bịch\" (mã 8938548175992, đơn vị Gói) bán lẻ 1 gói 70g hay bán lốc/bịch 10 gói? Ảnh hiện tại là 1 gói Mèo Food 70g.",
+  "question": null,
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -53,6 +53,32 @@
       "by": "owner",
       "status": "ASK_OWNER",
       "note": "brand image from Mèo Food official store"
+    },
+    {
+      "at": "2026-10-17T08:58:49+00:00",
+      "by": "owner",
+      "status": "ASK_OWNER",
+      "note": "owner 17/10 (RUBRIC v19): trust KiotViet unit Gói = one 70 g bag; name keeps 10 Bịch for the e-invoice"
+    },
+    {
+      "at": "2026-10-17T08:58:49+00:00",
+      "by": "ai",
+      "status": "READY",
+      "note": "removed orange speckles right of the pack; WRITE_NEW description from the pack"
+    },
+    {
+      "at": "2026-10-17T08:58:49.142Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T08:58:49.142Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

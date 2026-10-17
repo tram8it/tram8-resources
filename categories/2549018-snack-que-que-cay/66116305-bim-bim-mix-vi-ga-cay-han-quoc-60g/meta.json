@@ -30,7 +30,7 @@
     "source": null,
     "rubricVersion": "v4"
   },
-  "question": "Tên KiotViet ghi 60g nhưng ảnh hiện tại và trang hãng VFoods (vfoods.co.th) đều là gói Mix Spicy Korean Chicken (gà cay Hàn Quốc) 50 g (không thấy cỡ 60g). Hàng đang bán là gói 50 g hay cỡ khác? Nếu 50 g thì sửa tên trên KiotViet.",
+  "question": "Gói in 50 g, tên KiotViet ghi 60g (lệch 20%) — gói trên kệ in bao nhiêu g?",
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -43,6 +43,18 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "b07 review: image ASK_OWNER, description ASK_OWNER"
+    },
+    {
+      "at": "2026-10-17T08:59:38Z",
+      "by": "owner",
+      "status": "ASK_OWNER",
+      "note": "Chủ trả lời 17/10 (RUBRIC v19): tin bao bì đúng mã vạch khi lệch nhỏ; lệch lớn/cỡ khác thì vẫn hỏi"
+    },
+    {
+      "at": "2026-10-17T08:59:38Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "v19: vẫn ASK_OWNER (lệch lớn hoặc cần xem kệ); rút gọn câu hỏi"
     }
   ]
 }

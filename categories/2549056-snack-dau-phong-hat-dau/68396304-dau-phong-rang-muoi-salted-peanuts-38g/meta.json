@@ -17,20 +17,20 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "ASK_OWNER",
+  "status": "READY",
   "image": {
-    "decision": "ASK_OWNER",
-    "reason": "I2 nghi sai quy cách: ảnh là gói 42g, tên ghi 38g; cửa hàng hãng chỉ có gói 40g",
+    "decision": "KEEP",
+    "reason": "Đạt I1–I9: packshot nền trắng 1:1, gói Tong Garden Salted Peanuts in 42 g (chủ 17/10: tin bao bì, tên ghi 38g lệch nhỏ)",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v19"
   },
   "description": {
-    "decision": "ASK_OWNER",
-    "reason": "D1: chưa có mô tả; chờ chủ xác nhận khối lượng",
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết ngắn từ chữ in mặt trước gói (42 g theo bao bì)",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v19"
   },
-  "question": "SP 'ĐẬU PHỘNG RANG MUỐI (Salted Peanuts 38g)' (mã 8850291110719): ảnh hiện tại là gói Tong Garden in 42g, tên ghi 38g, còn cửa hàng chính hãng Tong Garden chỉ có gói 40g. Gói thật ở cửa hàng in bao nhiêu gam?",
+  "question": null,
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -43,6 +43,31 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "asked owner: net weight conflict (38g name / 42g photo / 40g brand)"
+    },
+    {
+      "at": "2026-10-17T08:45:00Z",
+      "by": "owner",
+      "note": "RUBRIC v19: khối lượng tin bao bì đúng mã vạch hơn tên KiotViet; chỉ hỏi khi lệch > ~10% hoặc rõ là cỡ khác",
+      "status": "ASK_OWNER"
+    },
+    {
+      "at": "2026-10-17T09:30:00Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "image KEEP; description WRITE_NEW from pack text (weight per pack, RUBRIC v19)"
+    },
+    {
+      "at": "2026-10-17T08:59:42.627Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T08:59:42.627Z",
+    "fields": [
+      "description"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

@@ -30,7 +30,7 @@
     "source": null,
     "rubricVersion": "v4"
   },
-  "question": "Mã 4902888210211 'Kẹo mềm hi-chew Nhật Hương táo xanh Thanh 75g': ảnh KiotViet hiện tại là thanh Hi-Chew Green Apple bản Mỹ ghi NET WT 1.76oz (50 g); Open Food Facts cùng mã vạch là thanh NET 57 g. Không thấy thanh táo xanh 75 g. Gói đang bán in bao nhiêu gam? Chọn: (a) 57 g → sửa tên KiotViet, vẽ lại ảnh thanh 57 g; (b) 50 g bản Mỹ; (c) thật sự 75 g → nhân viên chụp mặt trước gói.",
+  "question": "Tên ghi 75 g, các thanh cùng mã tìm được in 57 g (OFF) / 50 g (bản Mỹ). Thanh đang bán in bao nhiêu g?",
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -49,6 +49,18 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "Mã 4902888210211 'Kẹo mềm hi-chew Nhật Hương táo xanh Thanh 75g': ảnh KiotViet hiện tại là thanh Hi-Chew Green Apple bản Mỹ ghi NET WT 1.76oz (50 g); Open Food Facts cùng mã vạch là thanh NET 57 g. Không thấy thanh táo xanh 75 g. Gói đang bán in bao nhiêu gam? Chọn: (a) 57 g → sửa tên KiotViet, vẽ l"
+    },
+    {
+      "at": "2026-10-17T08:45:00Z",
+      "by": "owner",
+      "note": "RUBRIC v19: khối lượng tin bao bì đúng mã vạch hơn tên KiotViet; chỉ hỏi khi lệch > ~10% hoặc rõ là cỡ khác",
+      "status": "ASK_OWNER"
+    },
+    {
+      "at": "2026-10-17T09:30:00Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "gap > ~10% / other size or needs shelf check: question shortened to the two numbers (RUBRIC v19)"
     }
   ]
 }

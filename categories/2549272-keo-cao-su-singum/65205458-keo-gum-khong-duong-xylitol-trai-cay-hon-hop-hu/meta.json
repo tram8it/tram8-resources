@@ -32,10 +32,13 @@
     "rubricVersion": "v18"
   },
   "description": {
-    "decision": "WRITE_NEW",
-    "reason": "D1: chưa có mô tả; viết ngắn từ tên SP và chữ in mặt trước bao bì (không có nguồn hãng)",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "REWRITE",
+    "reason": "D2: mô tả cũ ghi 58 g theo tên; hũ trái cây hỗn hợp trên trang hãng là 55,1 g (chủ 17/10: theo bao bì)",
+    "source": {
+      "url": "https://lottexylitol.com.vn",
+      "fetchedAt": "2026-10-17"
+    },
+    "rubricVersion": "v19"
   },
   "question": null,
   "history": [
@@ -58,10 +61,36 @@
       "note": "Ảnh Gemini đã vẽ sẵn (attempt-1, theo ảnh hãng) nhưng chưa nhận vì tên ghi 58g, hãng chỉ có hũ 55,1 g → hỏi chủ"
     },
     {
+      "at": "2026-10-17T08:45:00Z",
+      "by": "owner",
+      "note": "RUBRIC v19: khối lượng tin bao bì đúng mã vạch hơn tên KiotViet; chỉ hỏi khi lệch > ~10% hoặc rõ là cỡ khác",
+      "status": "ASK_OWNER"
+    },
+    {
       "at": "2026-10-17T08:56:55Z",
       "by": "ai",
       "status": "READY",
       "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T09:30:00Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "description REWRITE: weight per pack (RUBRIC v19)"
+    },
+    {
+      "at": "2026-10-17T08:59:54.201Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T08:59:54.201Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

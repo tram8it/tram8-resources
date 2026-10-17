@@ -30,7 +30,7 @@
     "source": null,
     "rubricVersion": "v4"
   },
-  "question": "Coffee Joy (mã 8996001301777): hộp trong ảnh KiotViet của cửa hàng in 'Khối lượng tịnh 156 g (4 gói x 39 g)', còn tên KiotViet ghi 180g (bản cũ 4 gói x 45 g). Cửa hàng đang bán hộp 156 g hay 180 g? Nếu 156 g: đổi tên KiotViet thành 156g rồi AI vẽ ảnh hộp 156 g (bao bì mới Italian Moment); nếu vẫn còn 180 g: chụp giúp mặt trước hộp.",
+  "question": "Coffee Joy (8996001301777): hộp in 156 g (4 × 39 g), tên KiotViet ghi 180 g — lệch ~13%, hàng đang bán là hộp nào?",
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -49,6 +49,18 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "Ảnh KiotViet cho thấy hộp in 156 g (4 gói x 39 g), khác tên 180g — hỏi chủ trước khi vẽ ảnh"
+    },
+    {
+      "at": "2026-10-17T08:58:10Z",
+      "by": "owner",
+      "status": "ASK_OWNER",
+      "note": "17/10/2026 (RUBRIC v19): tin bao bì nếu lệch nhỏ; lệch >10% thì hỏi lại"
+    },
+    {
+      "at": "2026-10-17T08:58:10Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "156 g vs 180 g = 13% gap > 10% → still ASK_OWNER, question shortened"
     }
   ]
 }

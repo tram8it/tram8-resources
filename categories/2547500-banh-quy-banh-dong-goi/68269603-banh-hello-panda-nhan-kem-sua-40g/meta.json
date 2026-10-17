@@ -17,12 +17,12 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "ASK_OWNER",
+  "status": "NEEDS_PHOTO",
   "image": {
-    "decision": "ASK_OWNER",
-    "reason": "I1: chưa có ảnh; không có ảnh mẫu cùng mã vạch, các vị cùng dòng ghi 43g/47g khác tên 40g → hỏi chủ",
+    "decision": "REPLACE",
+    "reason": "I1: chưa có ảnh; Watsons MY có bán \"Hello Panda Milk 40g\" (khớp tên 40g) nhưng trang chặn bot, meiji.com.sg chặn bot, Open Food Facts không có mã 8888077108346 → không có ảnh mẫu hộp vị sữa 40 g để vẽ; cần nhân viên chụp mặt trước hộp",
     "source": null,
-    "rubricVersion": "v17"
+    "rubricVersion": "v19"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -30,7 +30,7 @@
     "source": null,
     "rubricVersion": "v4"
   },
-  "question": "Bánh Hello Panda nhân kem sữa 40g (mã 8888077108346): không tìm được ảnh gói cùng mã vạch; hai vị cùng dòng (sô-cô-la, caramel) trên Open Food Facts ghi 43 g và 47 g, không có 40 g. Gói vị sữa tại cửa hàng ghi bao nhiêu g? Xin ảnh chụp mặt trước để làm mẫu vẽ.",
+  "question": null,
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -49,6 +49,18 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "ask owner: pack weight differs from KiotViet name"
+    },
+    {
+      "at": "2026-10-17T08:59:45Z",
+      "by": "owner",
+      "status": "ASK_OWNER",
+      "note": "Chủ trả lời 17/10 (RUBRIC v19): khối lượng theo bao bì đúng mã vạch, lệch nhỏ không cần sửa tên"
+    },
+    {
+      "at": "2026-10-17T08:59:45Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "v19: khối lượng 40 g có vẻ đúng (Watsons MY bán bản 40 g) → hết câu hỏi; chưa có ảnh mẫu → NEEDS_PHOTO"
     }
   ]
 }

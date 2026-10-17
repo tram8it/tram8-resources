@@ -17,20 +17,31 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "ASK_OWNER",
+  "status": "READY",
   "image": {
-    "decision": "ASK_OWNER",
-    "reason": "I3/I4/I5: ảnh chụp điện thoại; trang hãng chỉ có Nacho Cheese 140g bản Indonesia",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "REPLACE",
+    "reason": "I3/I4/I5: ảnh chụp điện thoại; trang hãng chỉ có Nacho Cheese 140 g (bản xuất Thái), mã vạch 8995077606489 là gói 145 g (Open Food Facts) → Gemini vẽ lại từ ảnh hãng, dòng khối lượng 145 g; chủ chốt 17/10/2026 (v19) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: mặt trước giống ảnh hãng; chữ nhỏ nhà sản xuất/BPOM ở đáy là chữ AI vẽ, không đọc đúng; không có nhãn chữ Hàn như gói cửa hàng",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh chính hãng Dua Kelinci Tos Tos Nacho Cheese 140g (bản Thái) + Korean BBQ 145g (bố cục đáy bản Indonesia)",
+      "referenceUrl": "https://duakelinci.com/brand/tostos"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
-    "decision": "ASK_OWNER",
-    "reason": "D1: chưa có mô tả; chờ chủ xác nhận khối lượng và bản bao bì",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết từ chữ in trên bao bì hãng (Tortilla chips Nacho Cheese, PT Dua Kelinci, Indonesia); khối lượng 145 g theo mã vạch (Open Food Facts) và tên",
+    "source": {
+      "url": "https://duakelinci.com/brand/tostos",
+      "fetchedAt": "2026-10-17T09:05:00Z"
+    },
+    "rubricVersion": "v19"
   },
-  "question": "SP 'Bánh Tortilla chips vị phô mai Nacho hiệu Tos Tos 145g' (mã 8995077606489): ảnh hiện tại là gói Tos Tos bản in tiếng Hàn (có nhãn vàng chữ Hàn), chụp điện thoại. Trang hãng Dua Kelinci có ảnh gói Tos Tos Nacho Cheese 140g bản Indonesia (không có chữ Hàn). Trang hãng chỉ có cỡ 140g, tên KiotViet ghi 145g — gói đang bán in bao nhiêu gam? Có dùng ảnh hãng đó thay ảnh chụp không, hay để nhân viên chụp gói đang bán?",
+  "question": null,
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -43,6 +54,38 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "asked owner: Korean-print pack, 140g vs 145g"
+    },
+    {
+      "at": "2026-10-17T08:57:59Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T08:58:00Z",
+      "by": "owner",
+      "status": "ASK_OWNER",
+      "note": "17/10/2026 (RUBRIC v19): dùng bao bì mới nhất của hãng; lệch 140/145 g nhỏ, tin bao bì đúng mã vạch"
+    },
+    {
+      "at": "2026-10-17T08:58:00Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini redraw of Dua Kelinci Nacho render with 145 g line accepted; description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T08:58:00.153Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T08:58:00.153Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

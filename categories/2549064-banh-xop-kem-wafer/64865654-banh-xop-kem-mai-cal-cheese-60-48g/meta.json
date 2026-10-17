@@ -30,7 +30,7 @@
     "source": null,
     "rubricVersion": "v4"
   },
-  "question": "Bánh xốp Cal Cheese: tên KiotViet ghi 48 g (\"60 × 48G\") nhưng ảnh hiện tại là gói 53,5 g. Gói đang bán là 48 g hay 53,5 g? (Mayora không có trang SP để đối chiếu.)",
+  "question": "Tên ghi 48 g, ảnh gói in 53,5 g. Gói đang bán in 48 g hay 53,5 g?",
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -43,6 +43,18 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "b10 review: needs owner answer, nothing changed"
+    },
+    {
+      "at": "2026-10-17T08:45:00Z",
+      "by": "owner",
+      "note": "RUBRIC v19: khối lượng tin bao bì đúng mã vạch hơn tên KiotViet; chỉ hỏi khi lệch > ~10% hoặc rõ là cỡ khác",
+      "status": "ASK_OWNER"
+    },
+    {
+      "at": "2026-10-17T09:30:00Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "gap > ~10% / other size or needs shelf check: question shortened to the two numbers (RUBRIC v19)"
     }
   ]
 }

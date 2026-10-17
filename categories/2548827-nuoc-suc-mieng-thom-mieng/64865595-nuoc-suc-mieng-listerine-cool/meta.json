@@ -30,7 +30,7 @@
     "source": null,
     "rubricVersion": "v4"
   },
-  "question": "Nước súc miệng \"Listerine cool\" (mã vạch 8850007813040): ảnh hiện tại là chai Cool Mint 750 ml, nhưng trang listerine.com.vn ghi mã vạch chai Cool Mint 750 ml là 8850007811251 (khác). Chai đang bán ở cửa hàng dung tích bao nhiêu (250/500/750 ml)? Nếu không phải 750 ml thì cần chụp hoặc lấy ảnh đúng cỡ.",
+  "question": "Tên không ghi dung tích, mã vạch không khớp chai 750 ml trên trang hãng — chai trên kệ là 250, 500 hay 750 ml? (cần xem kệ)",
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -43,6 +43,18 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "batch f2: ASK_OWNER: size unclear (image 750 ml, barcode differs)"
+    },
+    {
+      "at": "2026-10-17T08:59:38Z",
+      "by": "owner",
+      "status": "ASK_OWNER",
+      "note": "Chủ trả lời 17/10 (RUBRIC v19): tin bao bì đúng mã vạch khi lệch nhỏ; lệch lớn/cỡ khác thì vẫn hỏi"
+    },
+    {
+      "at": "2026-10-17T08:59:38Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "v19: vẫn ASK_OWNER (lệch lớn hoặc cần xem kệ); rút gọn câu hỏi"
     }
   ]
 }

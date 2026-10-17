@@ -30,7 +30,7 @@
     "source": null,
     "rubricVersion": "v4"
   },
-  "question": "\"Eveda bvs quần 5 miếng sz s-m\" (mã vạch 8936073762700): ảnh hiện tại là gói hồng S-M ghi \"3 PCS\" (kèm chữ \"3 chiếc cỡ S-M\"), nhưng tên ghi 5 miếng. Gói bán ở cửa hàng có mấy cái?",
+  "question": "Ảnh gói ghi 3 chiếc, tên KiotViet ghi 5 miếng — gói trên kệ có mấy chiếc?",
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -43,6 +43,18 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "b30: image ASK_OWNER, description ASK_OWNER"
+    },
+    {
+      "at": "2026-10-17T08:59:38Z",
+      "by": "owner",
+      "status": "ASK_OWNER",
+      "note": "Chủ trả lời 17/10 (RUBRIC v19): tin bao bì đúng mã vạch khi lệch nhỏ; lệch lớn/cỡ khác thì vẫn hỏi"
+    },
+    {
+      "at": "2026-10-17T08:59:38Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "v19: vẫn ASK_OWNER (lệch lớn hoặc cần xem kệ); rút gọn câu hỏi"
     }
   ]
 }

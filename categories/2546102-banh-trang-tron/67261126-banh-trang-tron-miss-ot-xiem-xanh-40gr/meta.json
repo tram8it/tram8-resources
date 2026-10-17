@@ -30,7 +30,7 @@
     "source": null,
     "rubricVersion": "v4"
   },
-  "question": "Mã 8938549708229 (Miss ớt xiêm xanh 40GR): banner hãng (vinasnack.com.vn) chỉ có gói 'Xì Lay – Bánh tráng trộn muối ớt xiêm xanh' in 'Khối lượng tịnh 25 g', không thấy bản 40 g; cửa hàng chưa có ảnh gói. Gói đang bán là bản 25 g (sửa tên) hay có bản 40 g khác? Nhờ nhân viên chụp mặt trước gói để vẽ đúng.",
+  "question": "Hãng chỉ có gói ớt xiêm xanh 25 g, tên KiotViet ghi 40GR — gói trên kệ in bao nhiêu g? (chưa có ảnh gói; nhờ chụp mặt trước)",
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -49,6 +49,18 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "Ảnh hãng chỉ thấy bản Xì Lay muối ớt xiêm xanh 25 g ≠ 40GR trong tên → hỏi chủ"
+    },
+    {
+      "at": "2026-10-17T08:59:38Z",
+      "by": "owner",
+      "status": "ASK_OWNER",
+      "note": "Chủ trả lời 17/10 (RUBRIC v19): tin bao bì đúng mã vạch khi lệch nhỏ; lệch lớn/cỡ khác thì vẫn hỏi"
+    },
+    {
+      "at": "2026-10-17T08:59:38Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "v19: vẫn ASK_OWNER (lệch lớn hoặc cần xem kệ); rút gọn câu hỏi"
     }
   ]
 }

@@ -30,7 +30,7 @@
     "source": null,
     "rubricVersion": "v4"
   },
-  "question": "Mã vạch 8935342400053 – Bánh Que Vị Truyền Thống Dorkbua 110g: ảnh KiotViet là gói Thái 'Net Weight 55 g' (bao bì đỏ, mã vạch Thái 8850157…), khác tên 110g; trên web không có ảnh gói 110 g. Gói 110 g trông thế nào? (a) nhờ nhân viên chụp mặt trước gói 110 g (AI sẽ vẽ lại theo ảnh đó); (b) nếu thực ra là gói 55 g thì sửa tên KiotViet.",
+  "question": "Ảnh KiotViet là gói 55 g (mã vạch Thái), tên ghi 110g — gói trên kệ in bao nhiêu g? (chưa có ảnh gói 110 g)",
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -49,6 +49,18 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "weight on pack differs from KiotViet name; not redrawn"
+    },
+    {
+      "at": "2026-10-17T08:59:38Z",
+      "by": "owner",
+      "status": "ASK_OWNER",
+      "note": "Chủ trả lời 17/10 (RUBRIC v19): tin bao bì đúng mã vạch khi lệch nhỏ; lệch lớn/cỡ khác thì vẫn hỏi"
+    },
+    {
+      "at": "2026-10-17T08:59:38Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "v19: vẫn ASK_OWNER (lệch lớn hoặc cần xem kệ); rút gọn câu hỏi"
     }
   ]
 }

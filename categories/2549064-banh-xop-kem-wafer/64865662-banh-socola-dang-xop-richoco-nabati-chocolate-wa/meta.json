@@ -30,7 +30,7 @@
     "source": null,
     "rubricVersion": "v4"
   },
-  "question": "Mã vạch 8993175535885 (Richoco gói 50 g): Open Food Facts ghi mã vạch này là gói 37 g (bản Indonesia), ảnh cửa hàng không đọc được khối lượng. Gói đang bán in khối lượng bao nhiêu (50 g hay 37 g)? Đã có bản vẽ Gemini (work/gemini/64865662/attempt-1) nhưng chữ nhỏ còn lỗi bịa (có số), cần ảnh chụp mặt trước rõ hơn hoặc xác nhận khối lượng.",
+  "question": "Tên ghi 50 g, mã vạch này trên Open Food Facts là gói 37 g. Gói đang bán in 50 g hay 37 g?",
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -49,6 +49,18 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "khối lượng chưa xác minh (OFF 37 g vs tên 50 g); ảnh Gemini còn chữ nhỏ bịa số sau 2 lần sửa → hỏi chủ"
+    },
+    {
+      "at": "2026-10-17T08:45:00Z",
+      "by": "owner",
+      "note": "RUBRIC v19: khối lượng tin bao bì đúng mã vạch hơn tên KiotViet; chỉ hỏi khi lệch > ~10% hoặc rõ là cỡ khác",
+      "status": "ASK_OWNER"
+    },
+    {
+      "at": "2026-10-17T09:30:00Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "gap > ~10% / other size or needs shelf check: question shortened to the two numbers (RUBRIC v19)"
     }
   ]
 }

@@ -30,7 +30,7 @@
     "source": null,
     "rubricVersion": "v4"
   },
-  "question": "Mã vạch 8993175551519 (Nabati Richoco Long Stick): tên KiotViet ghi 105G nhưng trên ảnh KiotViet gói in 'Net weight: 130 g' (đọc mờ, gói bóng). Gói cửa hàng đang bán là 105 g hay 130 g? Chọn: (a) 105 g → em vẽ theo gói 105 g (giống gói Richeese Long Stick 105 g); (b) 130 g → anh/chị sửa tên KiotViet, em vẽ gói 130 g; (c) chụp giúp mặt trước gói thẳng, đủ sáng.",
+  "question": "Tên ghi 105 g, gói trong ảnh KiotViet in 130 g. Gói đang bán in 105 g hay 130 g?",
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -49,6 +49,18 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "Weight on KiotViet photo reads 130 g vs name 105G; no Gemini call made"
+    },
+    {
+      "at": "2026-10-17T08:45:00Z",
+      "by": "owner",
+      "note": "RUBRIC v19: khối lượng tin bao bì đúng mã vạch hơn tên KiotViet; chỉ hỏi khi lệch > ~10% hoặc rõ là cỡ khác",
+      "status": "ASK_OWNER"
+    },
+    {
+      "at": "2026-10-17T09:30:00Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "gap > ~10% / other size or needs shelf check: question shortened to the two numbers (RUBRIC v19)"
     }
   ]
 }

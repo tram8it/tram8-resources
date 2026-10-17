@@ -30,7 +30,7 @@
     "source": null,
     "rubricVersion": "v4"
   },
-  "question": "Kẹo ngậm Mentos hương nho bạc hà (mã 8935001718093): tên KiotViet ghi 35g, nhưng ảnh cho thấy hộp nhựa đen kiểu dispenser giống hộp đào bạc hà 17,5 g (mã 8935001719519) và mã vạch liền dãy với Mentos bạc hà 17,5 g (8935001718079); các hộp Mentos 35 g là hộp thiếc dẹt. Phần in khối lượng bị khay che. Hộp thật ghi 17,5 g hay 35 g? Nhờ nhân viên chụp thẳng mặt trước 1 hộp (thấy dòng 'Khối lượng tịnh') để vẽ lại ảnh; nếu là 17,5 g thì nên sửa tên trên KiotViet.",
+  "question": "Tên ghi 35 g, hộp dispenser này nhiều khả năng là 17,5 g (khay che chữ). Hộp đang bán in 35 g hay 17,5 g? (cần chụp mặt trước)",
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -49,6 +49,18 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "image ASK_OWNER: weight on pack unverified (name 35g; barcode/dispenser look like the 17.5g series)"
+    },
+    {
+      "at": "2026-10-17T08:45:00Z",
+      "by": "owner",
+      "note": "RUBRIC v19: khối lượng tin bao bì đúng mã vạch hơn tên KiotViet; chỉ hỏi khi lệch > ~10% hoặc rõ là cỡ khác",
+      "status": "ASK_OWNER"
+    },
+    {
+      "at": "2026-10-17T09:30:00Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "gap > ~10% / other size or needs shelf check: question shortened to the two numbers (RUBRIC v19)"
     }
   ]
 }
