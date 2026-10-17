@@ -17,20 +17,23 @@
     "description": "<h3 data-path-to-node=\"5\"><strong>Mô tả sản phẩm:</strong></h3><p data-path-to-node=\"6\"><strong>1. Giới thiệu sản phẩm</strong></p><ul data-path-to-node=\"7\"><li><p data-path-to-node=\"7,0,0\"><strong>Bia Huda Ice Twist 330ml</strong> là dòng sản phẩm đổi mới đầy ấn tượng đến từ <strong>Carlsberg Việt Nam</strong>, kết hợp giữa di sản lâu đời của thương hiệu \"Bia miền Trung\" và phong cách thưởng thức hiện đại, trẻ trung.</p></li><li><p data-path-to-node=\"7,1,0\">Mang đến trải nghiệm sảng khoái bùng nổ, sản phẩm là sự lựa chọn tuyệt vời cho các buổi tiệc tùng, liên hoan, dã ngoại hay những phút giây thư giãn cùng bạn bè.</p></li></ul><p data-path-to-node=\"10\"><strong>2. Thông tin chi tiết</strong></p><ul data-path-to-node=\"11\"><li><p data-path-to-node=\"11,0,0\"><strong>Thương hiệu:</strong> Huda Ice Twist (Carlsberg Việt Nam)</p></li><li><p data-path-to-node=\"11,1,0\"><strong>Công ty sản xuất:</strong> Công ty TNHH Carlsberg Việt Nam</p></li><li><p data-path-to-node=\"11,2,0\"><strong>Xuất xứ:</strong> Việt Nam</p></li><li><p data-path-to-node=\"11,3,0\"><strong>Loại sản phẩm:</strong> Bia Lager cao cấp (Ủ lạnh sâu)</p></li><li><p data-path-to-node=\"11,4,0\"><strong>Dung tích:</strong> 330ml / lon</p></li><li><p data-path-to-node=\"11,5,0\"><strong>Quy cách đóng gói:</strong> 24 lon / thùng</p></li><li><p data-path-to-node=\"11,6,0\"><strong>Hạn sử dụng:</strong> In rõ trên bao bì sản phẩm (thường 9–12 tháng kể từ ngày sản xuất)</p></li></ul><p data-path-to-node=\"12\"><strong>3. Hướng dẫn sử dụng và bảo quản</strong></p><ul data-path-to-node=\"13\"><li><p data-path-to-node=\"13,0,0\"><strong>Cách dùng:</strong> Ngon hơn khi uống lạnh sâu (nhiệt độ thưởng thức lý tưởng từ 4°C - 8°C). Nên ướp lạnh trước khi uống, hạn chế dùng kèm đá trực tiếp để cảm nhận trọn vẹn vị sảng khoái nguyên bản.</p></li><li><p data-path-to-node=\"13,1,0\"><strong>Bảo quản:</strong> Nơi khô ráo, thoáng mát, tránh ánh nắng trực tiếp hoặc nơi có nhiệt độ cao.</p></li><li><p data-path-to-node=\"13,2,0\"><strong>Lưu ý:</strong> Sản phẩm không dành cho người dưới 18 tuổi và phụ nữ có thai hoặc đang cho con bú. <em>\"Đã uống rượu bia – Không lái xe\"</em>.</p></li></ul>",
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "ASK_OWNER",
+  "status": "READY",
   "image": {
-    "decision": "ASK_OWNER",
-    "reason": "Chờ chủ trả lời: name says Ice Twist, photo shows Ice Blast",
+    "decision": "KEEP",
+    "reason": "Đạt I1–I9: packshot lon nền trắng, 1:1, đọc rõ 'huda ICE BLAST, ABV 4.7%'; tên KiotViet ghi Ice Twist nhưng ảnh của cửa hàng là Ice Blast → theo ảnh (v20)",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v20"
   },
   "description": {
-    "decision": "ASK_OWNER",
-    "reason": "Chờ chủ trả lời câu hỏi về SP trước khi viết mô tả",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; mô tả ngắn từ chữ in trên lon (ảnh KiotViet: Ice Blast 4,7%) + dung tích 330 ml theo iCheck mã vạch 8934692070213",
+    "source": {
+      "url": "https://icheck.vn/san-pham/8934692070213",
+      "fetchedAt": "2026-10-17"
+    },
+    "rubricVersion": "v20"
   },
-  "question": "Bia Huda (8934692070213): iCheck ghi 'Huda Ice Twist lon 330ml' nhưng ảnh iCheck là Ice Blast. Hàng trên kệ là Ice Twist hay Ice Blast?",
+  "question": null,
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -49,6 +52,12 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "re-triage: iCheck title Ice Twist 330 ml but its photo is Ice Blast; both beers exist (Ice Twist 2026 blue-green can) → still ASK, question shortened"
+    },
+    {
+      "at": "2026-10-17T14:29:01Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "resolved by rule v20: shop's KiotViet photo is Huda Ice Blast (ABV 4.7%) → image KEEP, description Ice Blast; name 'Ice twist' listed for rename"
     }
   ]
 }
