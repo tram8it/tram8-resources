@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I3/I4: ảnh chụp tại tủ cửa hàng, nền không trắng; riesen.de không có ảnh gói XXL → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ chính (XXL-PACK, RIESEN, dunkle Schokolade - kräftiges Karamell, Mit original Gavoa Kakao Mischung) khớp mẫu; ô năng lượng nhỏ góc phải dưới AI vẽ số sai nên đã làm mờ",
@@ -63,6 +63,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T08:06:02.482Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -72,5 +78,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T07:55:19.044Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T07:55:19.044Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/75d5ff814f601d00aedcdab4d97e9bc62bb6b54030f3a051f2011ca6c9024daf.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/12/tram8/a9dca601ce444250b9303819dd3f3d32.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Kẹo Riesen của Storck (Đức): viên caramel dai đậm vị, phủ sô-cô-la đen.\n\nQuy cách: 377 g · gói (XL-Pack)\nNhà sản xuất/thương hiệu: Storck · Riesen",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I3, I8: ảnh chụp cả bảng treo nhiều cây, nền không trắng; ảnh hãng là vỉ 3 cây, không khớp SP bán lẻ 1 cây → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: vẽ lại từ ảnh bảng treo mờ: chữ 'Colgate / Mềm Mảnh / Sạch Sâu Hiệu Quả / 0.01mm siêu mềm mảnh' theo bảng; cửa hàng bán nhiều màu tay cầm (xanh, vàng, hồng…), ảnh chọn màu hồng; vỉ dựng đứng; tên KiotViet ghi 'Mềm Mại' còn vỉ in 'Mềm Mảnh'",
@@ -65,6 +65,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T08:06:02.482Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -74,5 +80,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T08:03:17.801Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T08:03:17.801Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/ae8db1e7e0616a2c858aea148d11a9aa796ff9f947255c38c1a26fa498652ebe.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/10/15/tram8/4e5bb05859ea48d4a980922ed6902b1c.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Bàn chải đánh răng Colgate Slim Soft Clean Effect (Mềm Mảnh Sạch Sâu Hiệu Quả). Lông chải mềm mảnh 0,01 mm chải sạch kẽ răng và đường viền nướu; có mặt chải lưỡi; đầu bàn chải nhỏ, cổ linh hoạt giúp chải tới răng trong cùng.\n\nQuy cách: 1 cây · lông mềm\nNhà sản xuất/thương hiệu: Colgate-Palmolive · Colgate Slim Soft",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

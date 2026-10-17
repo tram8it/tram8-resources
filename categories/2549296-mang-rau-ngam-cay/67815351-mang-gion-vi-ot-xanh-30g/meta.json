@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I3/I4: ảnh tay cầm gói trong cửa hàng; không có ảnh hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ phiên âm rất nhỏ dưới logo ghi 'Qian Da Niang' (thật: Qiao Da Niang); dòng hàm lượng cái (固形物含量) và chữ nhỏ trong ô trong suốt vẽ mờ; bỏ tay cầm",
@@ -62,6 +62,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T08:06:02.482Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -71,5 +77,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T07:49:11.314Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T07:49:11.314Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/f321b2c4c8c543880f29cffb52e0a6faaf1d6b7c7185e1fcaa0ac7b7f147c99f.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/08/25/tram8/bae19c0d970142e5bb4e858f42621e11.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Măng giòn vị ớt xanh (山椒脆笋), măng giòn ngâm ớt xanh chua cay, gói nhỏ ăn liền.\n\nQuy cách: 30 g · gói",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

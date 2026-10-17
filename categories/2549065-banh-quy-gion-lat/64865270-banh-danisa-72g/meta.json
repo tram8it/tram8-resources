@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I1: chưa có ảnh; không có ảnh hãng (mayora.com lỗi chứng chỉ) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Chỉ vẽ mặt trước hộp (không có mặt bên); không thấy khác biệt về chữ, 'NETTO 72 g' đúng",
@@ -63,6 +63,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T08:06:02.482Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -72,5 +78,28 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T07:08:21.682Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T07:08:21.682Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/1056bd2b2e09473119fb1e8525dcd23741977b236d54d21666ced0e530ed2e13.webp"
+        ],
+        "from": null
+      },
+      "description": {
+        "to": "Bánh quy Danisa hộp nhỏ 72 g, tiện dùng một lần hoặc làm quà nhỏ.\n\nQuy cách: 72 g · hộp\nThương hiệu: Danisa",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

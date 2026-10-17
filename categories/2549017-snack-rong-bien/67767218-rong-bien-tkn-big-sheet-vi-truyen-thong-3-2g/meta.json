@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I4, I5: nền không trắng, gói bị cắt; trang hãng taokaenoi.co.th lỗi TLS → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: khối lượng 'Net Wt. 0.11 oz (3.2 g) / 淨重 3.2 克' theo hộp hãng + OFF (ảnh KiotViet cũ in 4g); dòng chữ nhỏ vàng góc trái lấy theo ảnh KiotViet bản cũ, có thể khác chút với bao bì mới",
@@ -63,6 +63,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T08:06:02.482Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -72,5 +78,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T07:06:34.588Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T07:06:34.588Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/19540e7ef897828856f32aaf5040935f0a661b845bd2993142d040dcc5a49536.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/08/22/tram8/6711f7cbad114695ad436d4012d99bce.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Rong biển tấm Big Sheet Tao Kae Noi vị truyền thống, món ăn vặt rong biển giòn ăn liền của thương hiệu Thái Lan.\n\nQuy cách: gói\nXuất xứ: Thái Lan · Thương hiệu: Tao Kae Noi",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

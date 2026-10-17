@@ -17,12 +17,20 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I4: ảnh tay cầm chụp điện thoại, nền không trắng; không có trang hãng Chip Chip → cần chụp (ảnh của SP 64865592 có vẻ cùng gói nắp hồng, chủ có thể xem dùng chung)",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I3/I4: ảnh tay cầm chụp điện thoại, nền không trắng; không có trang hãng Chip Chip → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: phần đáy gói bị khung ảnh cắt nên vẽ thêm (hoa văn, mép hàn), chữ 'Clean & Beauty' hoàn thiện từ 'Clean & Beau…'; chữ nhỏ góc phải dưới bỏ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet hiện có (tay cầm, mất phần đáy gói)",
+      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/05/08/tram8/890d79943caa4eeabcbc2ff2f093619b.png"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +51,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "needs photo; short description"
+    },
+    {
+      "at": "2026-10-17T08:05:45Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T08:05:53.153Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T08:05:53.153Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

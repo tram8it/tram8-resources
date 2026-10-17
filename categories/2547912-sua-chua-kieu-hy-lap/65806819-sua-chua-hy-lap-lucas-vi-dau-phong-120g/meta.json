@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "ASK_OWNER",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I3/I4/I8: ảnh chụp điện thoại nhiều hộp trong tủ mát, có tem giá; không có ảnh hãng (Lucas) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: bao bì cũ Lucas Greek Yogurt nắp xanh; không in khối lượng (tên KiotViet ghi 120g, ảnh mẫu không đọc được khối lượng)",
@@ -68,6 +68,12 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "Ảnh hiện tại là bao bì cũ, chủ báo đã đổi bao bì mới; chưa có ảnh hộp mới vị này"
+    },
+    {
+      "at": "2026-10-17T08:06:02.482Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -77,5 +83,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T07:52:30.247Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T07:52:30.247Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/5e08c111e754ad7e0fcdb1c939928acca4d76b585ddb0a0f6ce13ba086374047.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/05/18/tram8/f733328fd1a34650afcf2b8d97f8c4aa.png"
+        ]
+      },
+      "description": {
+        "to": "Sữa chua Hy Lạp Lucas Greek Yogurt vị đậu phộng, sữa lên men tách whey theo kiểu Hy Lạp, đặc và mịn.\n\nQuy cách: 120 g · hộp\nNhà sản xuất/thương hiệu: Lucas",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

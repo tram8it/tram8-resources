@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I8, I6: ảnh 3 thanh, ảnh nhỏ 275px; trang hãng taokaenoi.co.th lỗi TLS → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: dòng khối lượng để mờ không đọc được: ảnh mẫu in 3g (0.11 oz)/3.6g tuỳ thị trường, tên KiotViet ghi 2.5g (có bản 2.5g ở thị trường khác) — không ghi số để khỏi sai; chữ Trung 小老板 đúng; bỏ dòng thành phần nhỏ",
@@ -63,6 +63,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T08:06:02.482Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -72,5 +78,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T07:06:20.077Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T07:06:20.077Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/f0f3242bd53c4a56e23adab87af6e493864b39b5fcfc50be4871ffb8547bc052.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/08/22/tram8/4b017269ba514bfd925d329288586025.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Rong biển cuộn Big Roll Tao Kae Noi vị truyền thống, món ăn vặt rong biển giòn ăn liền của thương hiệu Thái Lan.\n\nQuy cách: thanh\nXuất xứ: Thái Lan · Thương hiệu: Tao Kae Noi",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

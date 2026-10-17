@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I1: chưa có ảnh; trang Mondelez Kinh Đô chỉ có Oreo Wafer Roll vị sô cô la, không có vị vani → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt ở chữ: 'OREO WAFER ROLL WITH VANILLA FLAVORED CREAM', 'Net weight: 54 g (3 x 18g)', 'Khối lượng tịnh: 54 g (3 gói x 18 g)', '86 kcal' khớp ảnh mẫu; vẽ thẳng mặt trước (ảnh hãng vị sô cô la vẽ nghiêng thấy cạnh hộp)",
@@ -63,6 +63,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T08:06:02.482Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -72,5 +78,28 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T07:07:50.179Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T07:07:50.179Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/3146de5d43932723f27526a2c6ee2bed49c9a49d8cae7001e7126c009bccb13d.webp"
+        ],
+        "from": null
+      },
+      "description": {
+        "to": "Bánh quế cuộn Oreo Wafer Roll nhân kem vị vani, que quế giòn tiện ăn vặt.\n\nQuy cách: 54 g · hộp\nNhà sản xuất/thương hiệu: Mondelez Kinh Đô Việt Nam · Oreo",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

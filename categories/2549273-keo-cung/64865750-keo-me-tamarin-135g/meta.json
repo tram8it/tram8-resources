@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I3/I5: ảnh tay cầm gói, gói bị khung cắt; không có ảnh hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Chữ lớn khớp mẫu; chữ in rất nhỏ cuối gói (khối lượng, địa chỉ, tiếng Ả Rập) chỉ mô phỏng, không đúng nguyên văn",
@@ -63,6 +63,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T08:06:02.482Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -72,5 +78,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T07:11:54.129Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T07:11:54.129Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/a49f1eba7d30295c82c0f62736c3e7ddc32beeef864de881903f22bac882601b.webp"
+        ],
+        "from": [
+          "https://cdn1-retail-images.kiotviet.vn/2026/01/07/tongpenhchtl/c2c6dd05e86b488485370aaf722bef47.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Kẹo me Tamarin (Tamarind Candy), kẹo vị me chua ngọt, gói riêng từng viên.\n\nQuy cách: 135 g · túi\nThương hiệu: Tamarin (Mayora)",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

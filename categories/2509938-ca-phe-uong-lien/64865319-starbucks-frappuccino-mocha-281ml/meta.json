@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I2, I4: ảnh cũ là lon Lotte Let's Be Mocha Latte, không phải SP; nền cửa hàng; trang Dongsuh tải SP bằng script, không lấy được ảnh hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: nhãn bản mới ('Mocha 모카' trên dải nâu, 281 ml (160 kcal), 커피함량 0.56% 이상) theo ảnh mẫu; dòng chữ nhỏ về caffeine để mờ vì ảnh mẫu không đọc được số; hai SP cùng dãy (Dolce, Coffee) đang dùng ảnh nhãn đời cũ",
@@ -63,6 +63,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T08:06:02.482Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -72,5 +78,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T07:08:40.577Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T07:08:40.577Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/3396ba25c4ce3d0dffbcfc37eababe82a9d7fc6ab3a495007f49f4173d6e10db.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/03/28/tongpenhchtl/1a3a42f8e54b4650a7074773ee9210a4.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Cà phê Starbucks Frappuccino vị mocha đóng chai thuỷ tinh, cà phê sữa hoà quyện sô cô la. Ngon hơn khi uống lạnh.\n\nQuy cách: 281 ml · chai thuỷ tinh\nNhà sản xuất/thương hiệu: Starbucks",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

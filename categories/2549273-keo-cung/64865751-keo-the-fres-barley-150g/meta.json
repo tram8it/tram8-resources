@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I4: nền vàng, ảnh chụp điện thoại; không có ảnh hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Theo bao bì cửa hàng/Kingfoodmart (cửa sổ trong có kẹo gói); Open Food Facts có bản khác (một viên kẹo xanh + lá bạc hà); '150 g', 'Keo The FRES BARLEY' đúng",
@@ -63,6 +63,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T08:06:02.482Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -72,5 +78,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T07:11:58.622Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T07:11:58.622Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/0dfd105ef8476b6bc76168d36f59589ae36ea0ce9a71d793201e4ae8f024188f.webp"
+        ],
+        "from": [
+          "https://cdn1-retail-images.kiotviet.vn/2026/01/07/tongpenhchtl/98af438053f04d799c0019ffa2c1bcb1.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Kẹo bạc hà Fres vị lúa mạch (Barley), kẹo cứng the mát gói riêng từng viên.\n\nQuy cách: 150 g · túi\nThương hiệu: Fres (Mayora)",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

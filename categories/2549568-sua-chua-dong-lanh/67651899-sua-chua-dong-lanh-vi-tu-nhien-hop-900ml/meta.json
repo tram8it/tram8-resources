@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I3, I4: ảnh chụp tay cầm/trong tủ đông, nền không trắng; không có trang hãng (logo in 'Sữa chua Trần Châu Hạ Long') → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: bỏ tay cầm, nền tủ đông và dấu ngày NSX/HSD in trên nắp; vẽ mặt nắp nhìn thẳng từ trên (không thấy thân hộp); chữ rất nhỏ quanh logo thuyền nhoè; tên KiotViet 'Vị Tự Nhiên' còn nắp in 'TRẮNG'",
@@ -62,6 +62,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T08:06:02.482Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -71,5 +77,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T08:04:35.752Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T08:04:35.752Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/3a23b0b1641434c9321178cf13bbdb635d1dfa2deec3ee600f0a7f16ef32632d.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/08/14/tram8/23ecee82382d4bfdbc419a14f04796f0.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Sữa chua đông lạnh vị tự nhiên (vị trắng), ăn như kem, hộp lớn dùng cho cả nhà. Trên hộp ghi không chất bảo quản, không đường hóa học.\n\nQuy cách: 900 ml · hộp",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

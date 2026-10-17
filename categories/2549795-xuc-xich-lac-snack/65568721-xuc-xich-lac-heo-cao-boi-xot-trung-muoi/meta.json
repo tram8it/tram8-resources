@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I3, I4, I8: ảnh chụp điện thoại hai hũ, bị cắt, nền không trắng; Heo Cao Bồi (SNF) không có trang hãng truy cập được → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: ảnh cửa hàng bị cắt mất nắp: màu nắp tím hồng là AI đoán theo màu đầu hũ, cần chủ xem; dòng 'vị Trứng muối' và hình trứng muối bên trái là AI dựng theo ảnh mờ; chữ nhỏ cạnh hũ nhoè",
@@ -63,6 +63,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T08:06:02.482Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -72,5 +78,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T08:03:07.869Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T08:03:07.869Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/0ca2844e12b70dfba7951905ad0707f77899244f98754ef115e49d36b522dd65.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/05/08/tram8/506f261783684491ab49a90f3021a97d.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Xúc xích Heo Cao Bồi dạng hũ, dòng xốt vị trứng muối: xúc xích ăn liền kèm gói xốt, cho xốt vào hũ, đậy nắp lắc đều rồi dùng. Món ăn vặt tiện mang theo.\n\nQuy cách: hũ\nNhà sản xuất/thương hiệu: Heo Cao Bồi",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I3/I4/I8: ảnh chụp 2 gói trên kệ, nền lộn xộn; không có ảnh hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: vẽ 1 gói; bỏ dòng in ngày sản xuất/hạn dùng; phần nắp trên (hình mái cung điện) bị cắt ở ảnh mẫu nên vẽ theo gói cùng dòng vị lúa mạch",
@@ -62,6 +62,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T08:06:02.482Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -71,5 +77,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T07:45:47.931Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T07:45:47.931Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/244d2faa1d27390b50b7734bc96448d4b1902a151408ca1c2c755dc961764357.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/04/25/tram8/d22dcf9241d04bc78c99cfc5fe56d8ba.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Bánh bông lan tam giác LexJazz vị sô-cô-la, bánh mềm cắt hình tam giác đóng gói riêng.\n\nQuy cách: 100 g · cái\nNhà sản xuất/thương hiệu: LexJazz",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

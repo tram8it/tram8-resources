@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I7, I2: ảnh cũ có logo nơi khác ở góc và là lon Mỹ 16 fl oz, không phải lon sleek 355ml; monsterenergy.com chặn truy cập, không có ảnh hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: ảnh mẫu là lon bán ở Singapore (mã vạch 4897036691212, cùng nhà máy Malaysia), lon ở cửa hàng mã 4897036691342 có thể khác nhãn phụ/chữ nhỏ mặt sau; mặt trước (logo M, MONSTER ENERGY, TAURINE + GINSENG) khớp; không có nhãn Nutri-Grade của Singapore",
@@ -63,6 +63,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T08:06:02.482Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -72,5 +78,91 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T07:07:43.459Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T07:07:43.459Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/7a5dec76bfa9d8f150282cfbfa698eb8df8ab3b823110d94cbeeec099f344ee9.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/04/23/tram8/4a84a569a4d540bd81bf8d454ce8f135.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Nước tăng lực Monster Energy bản xanh lá cổ điển, lon cao thon (sleek). Ngon hơn khi uống lạnh.\n\nQuy cách: 355 ml · lon\nNhà sản xuất/thương hiệu: Monster Energy",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {
+      "price": {
+        "to": 25000,
+        "from": 24545.45
+      },
+      "saleTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 65143974
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 65143974
+        }
+      },
+      "taxRate": {
+        "to": "VAT 8%",
+        "from": "VAT 10%"
+      },
+      "productTaxs": {
+        "to": [
+          {
+            "id": 0,
+            "name": "VAT 8%",
+            "taxId": 3,
+            "value": 8,
+            "productId": 65143974
+          }
+        ],
+        "from": [
+          {
+            "id": 0,
+            "name": "VAT 10%",
+            "taxId": 4,
+            "value": 10,
+            "productId": 65143974
+          }
+        ]
+      },
+      "purchaseTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 65143974
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 65143974
+        }
+      }
+    }
   }
 }

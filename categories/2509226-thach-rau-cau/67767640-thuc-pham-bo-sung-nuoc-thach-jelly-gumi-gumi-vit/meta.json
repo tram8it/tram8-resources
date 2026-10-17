@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I1: chưa có ảnh; trang hãng Sappe không truy cập được → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ Thái nhỏ có thể sai nét; khối lượng 135 g đúng như mẫu",
@@ -63,6 +63,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T08:06:02.482Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -72,5 +78,28 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T07:45:28.002Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T07:45:28.002Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/4171fd8d99936978123a46f5d5b8d0b9a7dbebe750f693015eac69f61e70fe9b.webp"
+        ],
+        "from": null
+      },
+      "description": {
+        "to": "Nước thạch Gumi Gumi Jelly vị nho, bổ sung vitamin B; túi có vòi hút uống liền.\n\nQuy cách: 135 g · túi\nNhà sản xuất/thương hiệu: Gumi Gumi",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

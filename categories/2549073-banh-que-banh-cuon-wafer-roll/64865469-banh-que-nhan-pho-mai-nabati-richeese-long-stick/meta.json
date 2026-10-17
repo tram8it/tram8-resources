@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I3, I4, I5: ảnh chụp điện thoại mặt hộp, nền không trắng, hộp bị cắt; trang Nabati không có dòng Rolls → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Dải chữ đáy hộp không thấy trên ảnh gốc (bị cắt): dòng tên thứ hai và khối nhà sản xuất để mờ không đọc được; dòng 'Net weight / Khối lượng tịnh : 50 g' theo bố cục hộp Richoco cùng dòng và tên KiotViet (50G). Phần trên hộp khớp ảnh gốc.",
@@ -63,6 +63,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T08:06:02.482Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -72,5 +78,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T07:07:36.338Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T07:07:36.338Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/9c52b6ca5d46dfe6b799b29a9e36b0f18d02b29f36a3e13c091b6d3e125bd41b.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/02/26/tongpenhchtl/65ec4ea55a024f9fa6fdd18043cd3eb1.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Bánh quế Nabati Rolls Richeese dạng que dài, vỏ quế giòn nhân kem phô mai. Hợp ăn vặt, dùng kèm trà hoặc sữa.\n\nQuy cách: 50 g · hộp\nNhà sản xuất/thương hiệu: Nabati · Richeese",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

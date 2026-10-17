@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I3/I4/I8: ảnh chụp 2 gói trên kệ, nền lộn xộn; không có ảnh hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: vẽ 1 gói; bỏ dòng in ngày sản xuất/hạn dùng; gói ghi vị '大麦若叶' (lá lúa mạch non)",
@@ -62,6 +62,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T08:06:02.482Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -71,5 +77,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T07:45:51.898Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T07:45:51.898Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/b98701ca2b9adeeafc541d0c02a8962dd5c029921a0f4bce20a5d6cdc66b89dd.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/04/25/tram8/e8c61bc1ed2e4444b6b5bfaa6fe0bfec.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Bánh bông lan tam giác LexJazz vị lúa mạch, bánh mềm cắt hình tam giác đóng gói riêng.\n\nQuy cách: 100 g · cái\nNhà sản xuất/thương hiệu: LexJazz",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

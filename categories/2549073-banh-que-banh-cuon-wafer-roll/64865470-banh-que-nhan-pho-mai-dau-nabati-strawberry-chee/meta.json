@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I3, I4, I5: ảnh chụp điện thoại mặt hộp, nền không trắng, hộp bị cắt; trang Nabati không có dòng Rolls → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt ở chữ lớn, tên SP, 'Khối lượng tịnh : 50 g' và khối nhà sản xuất; dòng chữ nhỏ dưới logo Halal để mờ",
@@ -63,6 +63,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T08:06:02.482Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -72,5 +78,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T07:07:40.167Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T07:07:40.167Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/45757e7b54007ea3640b033714e706e0811092e5d9e83490557e0cabcc92c2b3.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/02/26/tongpenhchtl/c9da719100304b428b98c1d0ef815c1c.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Bánh quế Nabati Rolls Richeese vị phô mai dâu (Strawberry Cheese Cake), que quế giòn nhân kem hương bánh phô mai dâu.\n\nQuy cách: 50 g · hộp\nXuất xứ: Indonesia · Nhà sản xuất/thương hiệu: PT Kaldu Sari Nabati Indonesia · Nabati",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

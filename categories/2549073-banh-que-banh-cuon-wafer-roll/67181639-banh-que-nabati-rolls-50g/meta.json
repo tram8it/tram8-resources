@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I3, I4: ảnh tay cầm hộp, nền kho hàng; trang Nabati không có dòng Rolls → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Khối nhà sản xuất cạnh logo Halal để mờ không đọc được (Gemini viết sai chữ); tên SP và 'Khối lượng tịnh : 50 g' khớp ảnh gốc",
@@ -63,6 +63,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T08:06:02.482Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -72,5 +78,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T07:07:46.836Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T07:07:46.836Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/26c6485fa0e57cf1239b255ed4a22fe847cdd715c6a725b7eea7533ba5cc8889.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/21/tram8/f7628e00f926407eb22ed9ec617a9fe5.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Bánh quế Nabati Rolls Richoco, que quế giòn nhân kem sô cô la.\n\nQuy cách: 50 g · hộp\nNhà sản xuất/thương hiệu: Nabati · Richoco",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

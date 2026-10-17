@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I3/I5: ảnh chụp cận một phần hộp, không thấy nguyên SP; không có ảnh hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Chỉ vẽ mặt trước hộp; thiếu mẩu bơ/caramel nhỏ cạnh bánh trong ảnh mẫu; bỏ mã ngày in phun; mặt trước không in khối lượng (giống ảnh mẫu)",
@@ -63,6 +63,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T08:06:02.482Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -72,5 +78,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T07:08:35.375Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T07:08:35.375Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/b15bc8910f2311b418e964506284eb18c2854555bf90cca09178ff75c9ba2e6a.webp"
+        ],
+        "from": [
+          "https://cdn1-retail-images.kiotviet.vn/2026/03/20/tongpenhchtl/4833aaa8959d40f7a5a422b27b15448f.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Bánh quy sô cô la chip Danisa Chocofello, bánh quy giòn với những mẩu sô cô la, đóng hộp.\n\nQuy cách: 150 g · hộp\nThương hiệu: Danisa",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

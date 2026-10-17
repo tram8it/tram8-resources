@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I3, I4: ảnh tay cầm que bánh trên nền giấy tờ, thùng hàng; ảnh hãng chỉ có thanh rất nhỏ → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt ở chữ lớn/màu so với ảnh hãng và ảnh cửa hàng; chữ nhỏ đầu phải để mờ, không in khối lượng",
@@ -63,6 +63,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T08:06:02.482Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -72,5 +78,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T07:08:05.910Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T07:08:05.910Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/511ed51400e3d5fc55db1b53d8742c00ba9b88c68e96667c8305b4f749f47b2e.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/04/27/tram8/c8603af743f14a008ba2fa6c183abed5.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Bánh cuộn xốp Chocolatos vị vani, que quế giòn nhân kem vani, gói từng que tiện mang theo.\n\nQuy cách: thanh\nNhà sản xuất/thương hiệu: Garudafood · Chocolatos",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

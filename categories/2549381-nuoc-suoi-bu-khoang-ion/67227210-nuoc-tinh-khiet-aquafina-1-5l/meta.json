@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I3/I4: ảnh chụp trong tủ, nền không trắng; không có ảnh hãng Aquafina → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt đáng kể; chữ nhỏ ở mép nhãn không đọc được",
@@ -63,6 +63,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T08:06:02.482Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -72,5 +78,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T07:48:12.903Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T07:48:12.903Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/e5138117f39b5a74f475c97bc76540d9303f944ff6440e4d810c639e9aa70a7d.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/24/tram8/ab1b8428c58e4730a94db8b2740ef471.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Nước uống tinh khiết Aquafina của Suntory PepsiCo Việt Nam.\n\nQuy cách: 1,5 L · chai\nNhà sản xuất/thương hiệu: Suntory PepsiCo Việt Nam · Aquafina",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

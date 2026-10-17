@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I1: chưa có ảnh; trang hãng Merino/KIDO không truy cập được, ngoinhadinhduong.com (Nutifood) không có SP này → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: vẽ 1 gói từ ảnh 5 gói; chữ nhỏ dưới 3 ô đánh dấu đã đối chiếu ảnh mẫu (Phô mai New Zealand / Tăng cường Canxi / Hương vị Đài Loan); mặt trước không in khối lượng (50g theo tên KiotViet)",
@@ -63,6 +63,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T08:06:02.482Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -72,5 +78,28 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T08:04:57.556Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T08:04:57.556Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/ab8947b3defdb34106c67050ad1118bb38233452224b5a0c8047204206f96c5e.webp"
+        ],
+        "from": null
+      },
+      "description": {
+        "to": "Sữa chua dẻo Merino vị phô mai đường đen, gói nhỏ.\n\nQuy cách: 50 g · gói\nNhà sản xuất/thương hiệu: Merino (KIDO)",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

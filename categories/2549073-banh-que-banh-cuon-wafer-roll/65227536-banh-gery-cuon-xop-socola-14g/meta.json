@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I3, I4: ảnh tay cầm que bánh trước kệ hàng; ảnh hãng chỉ có thanh rất nhỏ → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Gói là Chocolatos vị sô cô la (Garudafood), không phải Gery như tên KiotViet — cùng mã vạch; không có huy hiệu 'Extra 10%' (bản khuyến mãi). Chữ nhỏ đầu phải để mờ, không in khối lượng",
@@ -63,6 +63,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T08:06:02.482Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -72,5 +78,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T07:08:09.505Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T07:08:09.505Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/6c907c8fca02f3ac7ce869e3d23e5d7f9efe3914c3bc95b28072e1afcf7a4357.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/04/27/tram8/7571f2c020874e92a668df1bd17dbbb6.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Bánh cuộn xốp Chocolatos vị sô cô la, que quế giòn nhân kem sô cô la, gói từng que tiện mang theo.\n\nQuy cách: 14 g · thanh\nNhà sản xuất/thương hiệu: Garudafood · Chocolatos",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

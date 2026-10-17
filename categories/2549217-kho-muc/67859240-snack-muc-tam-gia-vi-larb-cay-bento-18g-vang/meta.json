@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I2: ảnh KiotViet cũ là gói đỏ vị Cay Ngọt (Sweet & Spicy), không phải vị Larb; trang hãng snnp.co.th chỉ có Bento MAX Larb 30g → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt chữ lớn; bảng dinh dưỡng (60/3/0/350), số FDA 74-2-04559-2-0007 và 'Net Wt. 18 g' khớp mẫu sau 1 lần sửa; chữ Thái nhỏ dòng cuối hơi khác",
@@ -63,6 +63,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T08:06:02.482Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -72,5 +78,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T07:07:18.413Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T07:07:18.413Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/a6e43299edfe4e4f9663dbf8c941cd680b1827ea4d4fbbee968946443cecb137.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/08/27/tram8/9f5eff12bd5e40a4b3a538af1ac4e0b9.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Snack hải sản Bento tẩm gia vị Larb cay: miếng surimi trộn mực cán mỏng, tẩm gia vị, ăn liền.\n\nQuy cách: 18 g · gói\nThương hiệu: Bento",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I3/I4/I5: ảnh chụp điện thoại, nền không trắng, gói bị khung cắt; không có ảnh hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt chữ lớn (君仔, PIAN, 芝麻片, 香辣味, 对你的偏爱); họa tiết lát mì trên đầu vẽ lại nên vị trí từng miếng hơi khác; gói không in khối lượng (ghi 计量方式:散装称重), 20g theo tên KiotViet",
@@ -63,6 +63,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T08:06:02.482Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -72,5 +78,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T07:44:55.628Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T07:44:55.628Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/6db2b71aef00b06234de05acceabb3bdd8f3799fff9f1ec3670079e5a2e47cdc.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/05/19/tram8/0ddf8faa6e14452491856f065f3670a4.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Tiểu mì cay PIAN, snack lát mì tẩm mè vị cay thơm, gói nhỏ ăn vặt tiện lợi.\n\nQuy cách: 20 g · gói",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

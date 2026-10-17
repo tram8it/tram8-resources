@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I2: ảnh hiện tại là hộp Danisa 72 g, không phải hộp thiếc 454 g; không có ảnh hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Ảnh nhìn thẳng nắp hộp thiếc; 'NETTO 454 g' đúng; không thấy khác biệt",
@@ -63,6 +63,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T08:06:02.482Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -72,5 +78,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T07:08:24.926Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T07:08:24.926Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/da16b7348f9609557aebdeca2915e63c4ed48b9eea5c641f4d46f289a6804d3d.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/29/tram8/30d852a15b62468b9fadc4763118cc8d.png"
+        ]
+      },
+      "description": {
+        "to": "Bánh quy bơ Danisa Butter Cookies hộp lớn 454 g, nhiều kiểu bánh quy bơ giòn thơm, hợp dùng cả nhà hoặc làm quà biếu.\n\nQuy cách: 454 g · hộp\nThương hiệu: Danisa",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

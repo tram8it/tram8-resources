@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "v18: món hấp bán lẻ hiện cái bánh và nhân thay cho ảnh bao bì; nền xám nhạt của ảnh Gemini đã tách và làm trắng bằng tools/cutout.py (mất bóng mềm) → ảnh món ăn Gemini vẽ từ ảnh bao bì (v18: món hấp bán lẻ hiện cái bánh và nhân); ảnh minh hoạ. Khác hàng thật: nhân chuối sô cô la theo tên SP và thành phần in trên bao bì (chuối 8,5%, đậu trắng, sữa đặc, kem whipping, sô cô la compound đen 0,2%); bao bì không có hình bánh bổ đôi; ảnh minh hoạ, bánh thật có thể khác",
@@ -75,6 +75,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T08:06:02.482Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -84,5 +90,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T07:33:17.062Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T07:33:17.062Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/0687a61f1a5617159cfc7edfccc8ff6b7b00c2200af7508d5bded7ff2eb473cf.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/06/22/tram8/011679de0a2a489c987c53cb2ec62249.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Bánh bao tạo hình con ngựa của Thọ Phát, nhân chuối sô cô la, vỏ bánh vàng ngộ nghĩnh.\n\nQuy cách: 240 g · khay\nNhà sản xuất/thương hiệu: Thọ Phát (KIDO Group)\nHướng dẫn sử dụng: hấp nóng trước khi dùng (thời gian theo hướng dẫn trên bao bì); bảo quản lạnh theo bao bì.",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

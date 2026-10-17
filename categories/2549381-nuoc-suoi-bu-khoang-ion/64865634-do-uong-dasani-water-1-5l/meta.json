@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I1: chưa có ảnh; coca-cola.com/vn chỉ có chai 500 ml → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt đáng kể; chữ nhỏ trong giọt nước xanh không đọc được",
@@ -66,6 +66,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T08:06:02.482Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -75,5 +81,28 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T07:47:49.253Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T07:47:49.253Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/9f4934c85806c5b89d73f0d65fbc79a17e824d46dac4571f8a906638adb9070e.webp"
+        ],
+        "from": null
+      },
+      "description": {
+        "to": "Nước uống đóng chai Dasani của Coca-Cola, nước tinh khiết.\n\nThành phần: 100% nước.\nQuy cách: 1,5 L · chai\nNhà sản xuất/thương hiệu: Coca-Cola Việt Nam · Dasani",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

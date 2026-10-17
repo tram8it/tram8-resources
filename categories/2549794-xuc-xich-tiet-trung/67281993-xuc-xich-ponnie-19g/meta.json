@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I3/I4: ảnh tay cầm gói, nền kho; không có trang chính hãng Ponnie → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Thiết kế lấy theo gói 280 g cùng dòng, kích thước gói theo ảnh chụp; chữ 'Khối lượng tịnh: 76 g (4 cây x 19 g)' đúng gói thật (đã sửa 1 lần vì AI vẽ sai '700 g'); có lỗ treo ở đỉnh gói",
@@ -76,6 +76,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T08:06:02.482Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -85,5 +91,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T07:07:05.233Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T07:07:05.233Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/c5cde41213be064b041e82e1dc92b0f9af776ac53542c8dd9e35b29f834c9e80.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/27/tram8/31505f56aaf241c79eeaf969594ba75d.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Xúc xích dinh dưỡng Ponnie thịt heo, gói cây nhỏ 19 g.\n\nQuy cách: 19 g/cây · gói\nNhà sản xuất/thương hiệu: Masan MEATLife · Ponnie",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

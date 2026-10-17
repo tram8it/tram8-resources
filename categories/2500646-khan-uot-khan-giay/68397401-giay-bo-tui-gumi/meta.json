@@ -17,12 +17,20 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh; trang Gumi chỉ có ảnh banner nền màu (https://gumi.vn/product/khan-giay-mini-bo-tui-4-lop/), mã vạch khác → cần chụp",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I1: chưa có ảnh; trang Gumi chỉ có ảnh banner nền màu → Gemini vẽ lại từ banner hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: mã vạch SP 6971610360133 khác mã in trên gói ở banner hãng (đuôi ...682110) — chưa chắc gói đang bán cùng mẫu, chủ xem lại khi duyệt; chữ nhỏ dưới 3 biểu tượng theo ảnh hãng",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh banner chính hãng gumi.vn (giay-bo-tui-gumi-6.jpg, cắt lấy gói trước)",
+      "referenceUrl": "https://gumi.vn/product/khan-giay-mini-bo-tui-4-lop/"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +51,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "needs photo; short description from name"
+    },
+    {
+      "at": "2026-10-17T08:05:44Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T08:05:45.566Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T08:05:45.566Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

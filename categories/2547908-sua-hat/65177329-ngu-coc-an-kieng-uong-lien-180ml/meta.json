@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I4/I7: ảnh dựng có hình xoáy trang trí và bóng màu quanh hộp; không tìm được trang chính hãng Việt Ngũ Cốc → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: bỏ hình xoáy và bóng; chữ nhỏ quanh con dấu HEALTHY không đọc được (AI vẽ lộn xộn); chữ lớn khớp",
@@ -62,6 +62,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T08:06:02.482Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -71,5 +77,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T07:56:58.631Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T07:56:58.631Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/1d709b30989363be52d9b05a1d252e8c23e2f2023607b8719c3b5a1fb02023e3.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/04/25/tram8/2c7525ce11614eb5a10371cc619db67d.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Thức uống ngũ cốc ăn kiêng Việt Ngũ Cốc, hộp uống liền. Theo bao bì, công thức có kỷ tử, hoài sơn, khiếm thực và chất tạo ngọt isomalt.\n\nQuy cách: 180 ml · hộp\nNhà sản xuất/thương hiệu: Việt Ngũ Cốc",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I3, I4, I5: ảnh chụp điện thoại cận lon, nền không trắng, lon bị cắt; trang Ajinomoto không có ảnh lon → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: dùng bao bì mới nhất (chữ tiếng Việt 'Cà phê hương CARAMEL MACCHIATO', ra mắt 11/2025); ảnh cửa hàng là bản nhãn tiếng Anh 'Flavored coffee CARAMEL MACCHIATO' màu vàng cam hơn; màu cam theo ảnh PR; không thấy chữ dung tích ở mặt trước",
@@ -66,6 +66,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T08:06:02.482Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -75,5 +81,91 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T07:08:12.999Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T07:08:12.999Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/8e412d4e7fbff2fd80f4e7fa9bd0d1f2ec3d4046ebf13d5ab5aac705612dbb57.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/02/23/tongpenhchtl/95bd0a9915c149dba0940662e1274a67.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Cà phê Birdy hương Caramel Macchiato uống liền của Ajinomoto Việt Nam, cà phê sữa thơm béo quyện hương caramel. Ngon hơn khi uống lạnh.\n\nQuy cách: 170 ml · lon\nXuất xứ: Việt Nam · Nhà sản xuất/thương hiệu: Ajinomoto Việt Nam · Birdy",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {
+      "price": {
+        "to": 18518.52,
+        "from": 18181.82
+      },
+      "saleTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 64865506
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 64865506
+        }
+      },
+      "taxRate": {
+        "to": "VAT 8%",
+        "from": "VAT 10%"
+      },
+      "productTaxs": {
+        "to": [
+          {
+            "id": 0,
+            "name": "VAT 8%",
+            "taxId": 3,
+            "value": 8,
+            "productId": 64865506
+          }
+        ],
+        "from": [
+          {
+            "id": 0,
+            "name": "VAT 10%",
+            "taxId": 4,
+            "value": 10,
+            "productId": 64865506
+          }
+        ]
+      },
+      "purchaseTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 64865506
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 64865506
+        }
+      }
+    }
   }
 }

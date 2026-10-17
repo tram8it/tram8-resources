@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I3/I4: ảnh tay cầm gói trong cửa hàng; không có ảnh hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ lớn đúng mẫu (CHÂN GÀ BÀ TUYẾT, RÚT XƯƠNG, logo Ăn cùng Bà Tuyết); bỏ dấu ngày in góc trên trái; tên SP ghi 'kèm sốt' nhưng ảnh mẫu không thấy gói sốt nên ảnh chỉ có gói chân gà; không thấy khối lượng in mặt trước, 26g theo tên",
@@ -63,6 +63,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T08:06:02.482Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -72,5 +78,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T07:48:45.548Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T07:48:45.548Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/53b5f66d1791d4f77bd1257cf0a8f2a4218bc197119fe21f0a84bc80e4577e77.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/06/09/tram8/c7efa8758b9245ce835cec1ed8c12104.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Chân gà rút xương Bà Tuyết kèm gói sốt, chân gà đã rút xương tẩm vị cay, gói nhỏ ăn vặt tiện lợi.\n\nQuy cách: 26 g · gói\nNhà sản xuất/thương hiệu: Ăn Cùng Bà Tuyết",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

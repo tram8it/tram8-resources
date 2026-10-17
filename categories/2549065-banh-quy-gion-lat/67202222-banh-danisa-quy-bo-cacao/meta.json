@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I3/I5: ảnh chụp cận một phần hộp; không có ảnh hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Chỉ vẽ mặt trước hộp; chữ và đoạn giới thiệu khớp ảnh mẫu; mặt trước không in khối lượng",
@@ -63,6 +63,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T08:06:02.482Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -72,5 +78,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T07:08:43.998Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T07:08:43.998Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/6c485d0f9441c011cba8e93f6230e192e7b39b621824f662bdbaa1c7211e3b42.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/22/tram8/69c9cc687b684279885052ef3578af4e.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Bánh quy bơ và cacao Danisa Abbracci (Butter & Cacao Cookies), bánh quy kết hợp bơ và cacao, đóng hộp.\n\nQuy cách: hộp\nThương hiệu: Danisa",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

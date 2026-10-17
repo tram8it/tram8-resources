@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I3/I4: ảnh chụp bằng điện thoại, nền không trắng; savoria.co.id chỉ có ảnh nhóm nhỏ → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Gói phẳng, hết nhăn/bóng; ô dinh dưỡng để trống, bỏ dòng mã và chữ nhỏ không đọc được trên ảnh mẫu; chữ cong nhỏ dưới huy hiệu BAKED NOT FRIED không đúng nguyên văn; không thấy khối lượng trên ảnh mẫu",
@@ -66,6 +66,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T08:06:02.482Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -75,5 +81,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T07:08:55.133Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T07:08:55.133Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/3ca55c4df543811e57376e43327bac7f610a55e9da92c56a269c04f5390f2c98.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/04/27/tram8/377c375ff39b45878e417639ae20e15b.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Bánh snack giòn Krizzi vị mocha (Crunchy Pillow Snack) của Savoria: vỏ bánh giòn làm từ bột mì và sữa, được nướng chứ không chiên.\n\nQuy cách: gói\nNhà sản xuất/thương hiệu: Savoria · Krizzi",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

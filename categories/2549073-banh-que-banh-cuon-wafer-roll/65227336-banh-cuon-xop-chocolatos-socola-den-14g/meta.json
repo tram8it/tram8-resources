@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I3, I4, I8: ảnh chụp điện thoại mặt hộp 24 que, nền không trắng, trong khi đơn vị bán là thanh 14 g; ảnh hãng chỉ có thanh rất nhỏ (~315 px) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Vẽ thanh theo ảnh Garudafood (bản Indonesia); hộp ở cửa hàng là bản xuất khẩu ('Wafer Roll No.1 in Indonesia', 336 g = 24 x 14 g), mặt thanh trong hộp đó chưa thấy — có thể khác chi tiết. Chữ nhỏ đầu phải để mờ.",
@@ -63,6 +63,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T08:06:02.482Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -72,5 +78,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T07:07:57.794Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T07:07:57.794Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/8e6e0d7d605ab04bf6ba96fe0e61e904ab43790812484526e5ca0ad4502cdf07.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/04/27/tram8/c0b4119a89ed4daf8fa06ee28d4eedb0.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Bánh cuộn xốp Chocolatos vị sô cô la đen, que quế giòn nhân kem sô cô la đậm vị, phong cách sô cô la Ý.\n\nQuy cách: 14 g · thanh\nXuất xứ: Indonesia · Nhà sản xuất/thương hiệu: Garudafood · Chocolatos",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

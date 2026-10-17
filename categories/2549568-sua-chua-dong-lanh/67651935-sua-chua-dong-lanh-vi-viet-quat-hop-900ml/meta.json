@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I3, I4: ảnh chụp tay cầm/trong tủ đông, nền không trắng; không có trang hãng (logo in 'Sữa chua Trần Châu Hạ Long') → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: bỏ tay cầm, nền tủ đông và dấu ngày NSX/HSD in trên nắp; vẽ mặt nắp nhìn thẳng từ trên (không thấy thân hộp); chữ rất nhỏ quanh logo thuyền nhoè; không thấy dòng thể tích trên ảnh nắp vị này nên không vẽ",
@@ -62,6 +62,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T08:06:02.482Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -71,5 +77,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T08:04:38.970Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T08:04:38.970Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/3a141873b194b517d048486b4b1f9bc8531761c2fad09a49480c18bd3a164691.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/08/14/tram8/b020b9c6a6f740618b2fef8be5b453db.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Sữa chua đông lạnh vị việt quất, ăn như kem, hộp lớn dùng cho cả nhà.\n\nQuy cách: 900 ml · hộp",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

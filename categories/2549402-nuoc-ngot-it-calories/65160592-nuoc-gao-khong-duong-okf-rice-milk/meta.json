@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I3, I4: ảnh chụp tay cầm, nền lớp học; OKF không có trang hãng truy cập được → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: bỏ tay cầm, nền và mã ngày in trên vai chai; hình minh hoạ cánh đồng phía dưới nhãn là AI vẽ lại, có thể hơi khác chi tiết",
@@ -62,6 +62,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T08:06:02.482Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -71,5 +77,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T08:04:26.856Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T08:04:26.856Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/7f588bf39b6320c6e081775bfc8b832a7db662bd13916b49eae8d3c586f41518.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/04/24/tram8/c606472c972b4783a37d5f8460b4260a.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Nước gạo OKF Rice Milk vị nguyên bản (Original), không thêm đường, chiết xuất gạo 45%, không chứa gluten (theo chữ in trên chai).\n\nQuy cách: chai\nNhà sản xuất/thương hiệu: OKF",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

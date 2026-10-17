@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I3/I4: ảnh chụp đống hàng, nền lộn xộn; không tìm được trang chính hãng SIUME → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Vẽ lại mặt trước từ ảnh chụp; mã QR và chữ nhỏ cạnh thân là chữ giả (không đọc được); không ghi khối lượng trên mặt trước (giống gói thật, KL in ở mặt sau); kẹp đầu/đuôi theo ảnh chụp",
@@ -63,6 +63,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T08:06:02.482Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -72,5 +78,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T07:06:02.259Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T07:06:02.259Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/807acb319decc5447c41bae9cb06a8b73e4753774f9bfb42057ee5e405cdffaa.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/05/20/tram8/4bd8570080324072b3cb23d435ba03d6.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Xúc xích dinh dưỡng SIUME vị gà cay Tứ Xuyên, cây nhỏ ăn liền.\n\nQuy cách: 36 g · cây\nNhà sản xuất/thương hiệu: SIUME",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

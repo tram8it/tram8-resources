@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I3, I5: ảnh chụp cận mặt gói, gói bị khung cắt; không rõ hãng, không có nguồn chính hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: bố cục lấy theo gói cùng dãy (vị hạt bí); dòng khối lượng bỏ trống vì ảnh thật không đọc được (gói cùng dãy 32g); có 1 dòng chữ Hàn rất nhỏ ở đáy không chắc đúng",
@@ -63,6 +63,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T08:06:02.482Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -72,5 +78,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T07:06:15.774Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T07:06:15.774Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/c78f98d0c2208e624e7fd4860910e5b80c354f475bbf3f0dba32f7c58a756d5a.webp"
+        ],
+        "from": [
+          "https://cdn1-retail-images.kiotviet.vn/2026/01/19/tongpenhchtl/6e061259d97f42419e81ad4530947a8f.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Rong biển kẹp mè vị gạo rang (snack rong biển sandwich kiểu Hàn Quốc), hai lớp rong biển kẹp mè và gạo rang giòn, ăn trực tiếp.\n\nQuy cách: gói",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

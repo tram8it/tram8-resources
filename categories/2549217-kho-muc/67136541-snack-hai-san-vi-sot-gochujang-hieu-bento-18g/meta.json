@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I7: ảnh cũ có watermark 'SEETHAI'; trang hãng snnp.co.th chỉ có gói xanh Gochujang khác dòng (Squid mixed Surimi, số FDA 6-0058), không phải gói đỏ Extreme đang bán → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt chữ lớn; bảng dinh dưỡng, số FDA 74-2-04559-4-0014 và 'Net Wt. 18 g' khớp mẫu; chữ nhỏ trên hộp tương gochujang hơi méo; bỏ huy hiệu 'Asian Pantry' của nhà bán lẻ",
@@ -63,6 +63,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T08:06:02.482Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -72,5 +78,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T07:07:15.227Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T07:07:15.227Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/bac4cad834646728a434d21b6923f266d88d7d17e0a799e089c8f81901a8a51e.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/18/tram8/3efb12e172cf49eb87968fe038131dc9.png"
+        ]
+      },
+      "description": {
+        "to": "Snack hải sản Bento vị sốt Gochujang (Extreme): miếng surimi trộn mực cán mỏng, tẩm gia vị, ăn liền.\n\nQuy cách: 18 g · gói\nThương hiệu: Bento",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

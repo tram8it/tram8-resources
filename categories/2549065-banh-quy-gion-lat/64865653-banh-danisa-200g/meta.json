@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I4: nền xám loang, không trắng; không có ảnh hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Ảnh nhìn thẳng nắp hộp (ảnh cũ là góc nghiêng 3/4); 'NETTO 200 g' đúng; không thấy khác biệt",
@@ -63,6 +63,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T08:06:02.482Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -72,5 +78,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T07:08:28.126Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T07:08:28.126Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/6660bbb9de136c55c1be725f8ec4940c3396280c9ab045e79036d179dc8c6414.webp"
+        ],
+        "from": [
+          "https://cdn1-retail-images.kiotviet.vn/2026/01/07/tongpenhchtl/58269f61ec1b4530ad05a83328bca2cd.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Bánh quy bơ Danisa Traditional Butter Cookies trong hộp thiếc tròn, công thức bánh quy bơ truyền thống kiểu Đan Mạch.\n\nQuy cách: 200 g · hộp\nThương hiệu: Danisa",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

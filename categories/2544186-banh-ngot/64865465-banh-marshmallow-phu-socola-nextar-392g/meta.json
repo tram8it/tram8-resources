@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I3/I5/I7: ảnh chụp cận nhiều hộp, bị khung cắt; không có ảnh hãng dùng được → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: vẽ mặt trước phẳng (mẫu là hộp xoay 3/4); dòng nhà sản xuất chữ rất nhỏ ghi sai 'Mejeloonka' (thật: Majalengka); giữ dải '12+2' và 'Nabati mời bạn 2' vì hộp 392 g = 14 gói × 28 g chính là bản 12+2",
@@ -63,6 +63,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T08:06:02.482Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -72,5 +78,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T07:45:39.676Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T07:45:39.676Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/9ba3c7b5f5cef35777ea236d917afb88203a061530e50a7da4e90ea89cc7a71c.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/03/15/tongpenhchtl/3a570f58c4a44aae8ca8c46a464e243d.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Bánh Nextar Chocolate Pie của Nabati, bánh mềm nhân marshmallow phủ sô-cô-la.\n\nQuy cách: 392 g · hộp\nNhà sản xuất/thương hiệu: Nabati · Nextar",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

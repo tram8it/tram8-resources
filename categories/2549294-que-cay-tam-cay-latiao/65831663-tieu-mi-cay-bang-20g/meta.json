@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I7: ảnh có logo 7-Eleven của cửa hàng khác, ảnh nhỏ; không có ảnh hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ lớn đúng mẫu (君仔, BANG, 芝麻棒, 香辣味); ảnh mẫu quá nhỏ không đọc được chữ nhỏ nên các dòng nhỏ (图片仅供参考, 调味面制品, 计量方式:散装称重, nhãn đỏ 对你的偏爱) lấy theo gói PIAN cùng dãy — có thể khác gói thật; huy hiệu vàng để trống (gói thật có chữ nhỏ không đọc được); gói không thấy in khối lượng, 20g theo tên KiotViet",
@@ -63,6 +63,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T08:06:02.482Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -72,5 +78,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T07:44:59.376Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T07:44:59.376Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/193382f7f310ef90e6d8e08718fb29b0c89be6216304eb9f7896a86b7fca415a.webp"
+        ],
+        "from": [
+          "https://cdn1-retail-images.kiotviet.vn/2026/05/19/tram8/6f988d84ad724a0e8e2e12e9d819eaaf.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Tiểu mì cay BANG, snack que mì tẩm mè vị cay thơm, gói nhỏ ăn vặt tiện lợi.\n\nQuy cách: 20 g · gói",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I2/I5: ảnh cũ là hộp Oatside Chocolate 1 L, không phải vị nguyên bản 200 ml, bị khung cắt; oatside.com không có ảnh hộp 200 ml → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: theo ảnh mẫu đúng mã vạch: nhãn tiếng Anh + dòng tiếng Hàn (hàng nhập), không có chữ tiếng Việt; chủ kiểm hộp ở cửa hàng có cùng nhãn không",
@@ -63,6 +63,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T08:06:02.482Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -72,5 +78,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T07:57:02.756Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T07:57:02.756Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/22c79bda718ddf7929e6fd619d8251d825e50d2617623f1921db5e97f580c538.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/04/26/tram8/04285201691b48488fa465f3746f7f1f.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Sữa yến mạch Oatside vị nguyên bản, uống liền.\n\nQuy cách: 200 ml · hộp\nNhà sản xuất/thương hiệu: Oatside",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I2, I4: ảnh cũ là chai nước gạo Hàn Quốc, không phải SP; nền không trắng; trang Kopiko/Mayora không truy cập được → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: theo bản nhãn bán ở Việt Nam trên Kingfoodmart ('READY TO DRINK COFFEE', Net content 180 ml); cùng mã vạch còn có bản nhãn khác ở Thái/Myanmar ('STRONG AND CREAMY COFFEE', nhãn tiếng Thái) — chưa thấy hàng thật ở cửa hàng vì ảnh KiotViet sai SP; dấu tròn nhỏ góc trái dưới vẽ đơn giản",
@@ -63,6 +63,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T08:06:02.482Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -72,5 +78,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T07:12:12.646Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T07:12:12.646Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/65b726b3903ca743cda3c63c4e27d91f71310e1fbf0a4af907f25617a98921ce.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/04/22/tram8/d93752794d2f44e2907faf5ecf30fb38.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Thức uống cà phê sữa Kopiko Lucky Day đóng chai, uống liền tiện lợi. Ngon hơn khi uống lạnh.\n\nQuy cách: 180 ml · chai\nNhà sản xuất/thương hiệu: Kopiko",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

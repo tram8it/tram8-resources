@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I3/I5: ảnh cũ chụp cận nắp hộp, không thấy cả hộp; dalatmilk.vn không truy cập được → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: mặt hộp vẽ theo mặt chữ tiếng Anh 'Yogurt Natural Plain' (ảnh mẫu duy nhất); mặt chữ tiếng Việt chưa thấy ảnh; nắp ghi 'Sữa chua Vị tự nhiên' theo ảnh KiotViet; chữ nhỏ hai cạnh hộp là nét mờ, bảng dinh dưỡng bỏ trống",
@@ -63,6 +63,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T08:06:02.482Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -72,5 +78,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T07:52:37.610Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T07:52:37.610Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/d54fbe8b857d32f646635f63cd2d049a97179fad4d4a07b3250b4a665d42fcc8.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/08/22/tram8/a9baa2d5ec5d4ecbb8936218042cd269.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Sữa chua thanh trùng Đà Lạt Milk không đường, làm hoàn toàn từ sữa tươi cao nguyên (theo chữ in trên nắp).\n\nQuy cách: 100 g · hộp\nXuất xứ: Việt Nam · Nhà sản xuất/thương hiệu: Đà Lạt Milk",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }
