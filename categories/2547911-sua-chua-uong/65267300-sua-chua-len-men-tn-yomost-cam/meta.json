@@ -17,12 +17,20 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I4/I8: ảnh chụp điện thoại tay cầm lốc 4 hộp; không truy cập được trang chính hãng Yomost/FrieslandCampina Việt Nam",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I3/I4/I8: ảnh chụp điện thoại tay cầm lốc 4 hộp; không truy cập được trang hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: vẽ 1 hộp đứng; '94 Kcal', '4%', 'Trong 170 ml', 'Thể tích thực: 170 ml' khớp ảnh thật; chữ nhỏ còn lại để mờ. Kingfoodmart có ảnh cùng mã vạch bản chữ tiếng Anh 'ORANGE FLAVOR' không có huy hiệu Yo! — đã theo bản tiếng Việt trong ảnh cửa hàng",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (lốc 4 hộp chụp tay) + ảnh Kingfoodmart hộp Yomost bạc hà việt quất cùng dòng (chỉ làm mẫu bố cục)",
+      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/04/28/tram8/3f2d7a0ea455448fb942f159cd5d035b.jpeg"
+    },
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +51,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "b10 review: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T05:16:25Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T05:16:35.058Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T05:16:35.058Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

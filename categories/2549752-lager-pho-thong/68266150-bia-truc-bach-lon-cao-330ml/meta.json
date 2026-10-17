@@ -17,12 +17,20 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I2/I6: tên là \"lon cao\" nhưng ảnh là lon thấp, ảnh nhỏ 320×300 chụp điện thoại; habeco.com.vn không truy cập được (reset/503) → cần nhân viên chụp",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I2/I6: tên là 'lon cao' nhưng ảnh KiotViet là lon thấp, ảnh nhỏ 320×300; habeco.com.vn không truy cập được → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: vẽ lon cao xanh lá (bản sleek cùng mã vạch trên LOTTE Mart); ảnh cửa hàng cũ là lon thấp bản Export trắng — khác bao bì; chữ 'Trúc Bạch', 'PARAMOUNT BEER', 'ORIGINAL QUALITY SINCE 1890' khớp ảnh mẫu",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh render lon Trúc Bạch sleek trên trang LOTTE Mart cùng mã vạch 8936000442064 (chỉ làm mẫu, bỏ watermark)",
+      "referenceUrl": "https://www.lottemart.vn/vi-nsg/product/lc-bia-truc-bach-sleek-330ml-8936000442064-p48350"
+    },
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +51,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "rubric v4: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T05:19:22Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T05:19:24.708Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T05:19:24.708Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

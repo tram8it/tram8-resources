@@ -17,12 +17,20 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I4/I2: nền xám loang quanh chai, bao bì cũ (nhãn 'New'); trang hãng chỉ có ảnh chai 327 ml, không có chai 1 L → cần chụp",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I4: nền xám loang quanh chai; trang hãng không có ảnh chai 1 L → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: vẽ theo bao bì chai 1 L trong ảnh cửa hàng (nhãn có huy hiệu 'NEW DELICIOUS FORMULA'); chai 327 ml trên trang hãng đã đổi sang nhãn cam toàn thân — chưa thấy ảnh chai 1 L bao bì mới nên chưa dùng; chữ nhỏ ở huy hiệu dinh dưỡng để mờ không đọc được",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet chai 1 L (trang hãng coca-cola.com/vn chỉ có chai 327 ml)",
+      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2025/11/26/tongpenhchtl/6e0c1450ec614c989a46b110052f0013.jpeg"
+    },
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -46,6 +54,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "batch b09 review: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T05:08:57Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T05:09:51.971Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T05:09:51.971Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

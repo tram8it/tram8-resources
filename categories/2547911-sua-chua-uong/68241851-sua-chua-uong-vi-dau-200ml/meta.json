@@ -17,12 +17,20 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I5: đáy chai bị khung ảnh cắt; không truy cập được trang chính hãng Dalatmilk",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I5: đáy chai bị khung ảnh cắt; không có ảnh hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: đáy chai vẽ thêm theo dáng chai cùng dòng; dòng 'Hoàn toàn từ sữa tươi cao ngu…' bị khuất vòng quanh chai như ảnh thật; không thấy khác biệt khác",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (packshot bị cắt đáy) + ảnh Dalat Milk có đường 200 ml cùng dòng (chỉ lấy dáng đáy chai)",
+      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/09/24/tram8/a6273656c92f45729fd196751ee1a6e5.jpeg"
+    },
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +51,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "b10 review: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T05:16:24Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T05:16:33.306Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T05:16:33.306Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }
