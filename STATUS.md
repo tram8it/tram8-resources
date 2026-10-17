@@ -2,7 +2,7 @@
 
 > Sinh tự động bởi `node tools/status.mjs`. **Không sửa tay.** Nguồn sự thật là `meta.json` của từng SP.
 
-Tổng 2448 SP · đã xem 2448 (100%) · xong 1099 · chờ chủ duyệt 1001 · cần chụp 348 · hỏi chủ 0
+Tổng 2448 SP · đã xem 2448 (100%) · xong 1099 · chờ chủ duyệt 1002 · cần chụp 347 · hỏi chủ 0
 
 Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` = giữ nguyên + đã lên web.
 
@@ -62,7 +62,7 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 | 52 | Sữa hạt | 0.0tr | 16 | 0 | 0 | 0 | 2 | 0 | 6 | 0 | 8 |
 | 53 | Que cay / tăm cay (latiao) | 0.0tr | 15 | 0 | 0 | 0 | 9 | 0 | 3 | 0 | 3 |
 | 54 | Bánh ngọt | 0.0tr | 15 | 0 | 0 | 0 | 8 | 0 | 2 | 0 | 5 |
-| 55 | Chân gà | 0.0tr | 15 | 0 | 0 | 0 | 7 | 0 | 1 | 0 | 7 |
+| 55 | Chân gà | 0.0tr | 15 | 0 | 0 | 0 | 6 | 0 | 2 | 0 | 7 |
 | 56 | Cocktail lon RTD | 0.0tr | 15 | 0 | 3 | 0 | 0 | 0 | 9 | 0 | 3 |
 | 57 | Sữa chua kiểu Hy Lạp | 0.0tr | 15 | 0 | 0 | 0 | 0 | 0 | 3 | 0 | 12 |
 | 58 | Măng & rau ngâm cay | 0.0tr | 15 | 0 | 0 | 0 | 10 | 0 | 0 | 0 | 5 |

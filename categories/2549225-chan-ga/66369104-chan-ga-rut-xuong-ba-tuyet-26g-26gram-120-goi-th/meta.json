@@ -17,26 +17,25 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I4: ảnh tay cầm gói trong cửa hàng; không có ảnh hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ lớn đúng mẫu (CHÂN GÀ BÀ TUYẾT, RÚT XƯƠNG, logo Ăn cùng Bà Tuyết); bỏ dấu ngày in góc trên trái; tên SP ghi 'kèm sốt' nhưng ảnh mẫu không thấy gói sốt nên ảnh chỉ có gói chân gà; không thấy khối lượng in mặt trước, 26g theo tên | 17/10 chủ: giá 32.000đ có vẻ là lốc 3 gói kèm sốt, không phải 1 gói như ảnh KiotViet → cần ảnh mặt trước lốc thật",
+    "reason": "Chủ 17/10: SP là lốc 3 gói chân gà rút xương 26 g + 1 gói sốt (túi hút chân không), không phải 1 gói → Gemini dựng ảnh 3 gói xoè + gói sốt → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Không vẽ túi nilon hút chân không bên ngoài; 3 gói xếp xoè để thấy đủ số lượng",
     "source": {
       "aiGenerated": true,
       "tool": "Gemini API",
       "model": "gemini-nano-banana-2.1",
       "generatedAt": "2026-10-17",
       "style": "flat clean packaging render (v17)",
-      "reference": "ảnh KiotViet hiện có (tay cầm gói trong cửa hàng)",
-      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/06/09/tram8/c7efa8758b9245ce835cec1ed8c12104.jpeg"
+      "reference": "ảnh chủ chụp lốc thật 17/10 + ảnh gói và gói sốt đã duyệt cùng dòng"
     },
     "rubricVersion": "v18"
   },
   "description": {
-    "decision": "WRITE_NEW",
-    "reason": "D1: chưa có mô tả; mô tả ngắn chỉ từ tên hàng và chữ in mặt trước bao bì (không có trang hãng) ('Chân gà Bà Tuyết rút xương'); tên ghi kèm sốt",
+    "decision": "REWRITE",
+    "reason": "Chủ gửi ảnh lốc 17/10: 3 gói 26 g + 1 gói sốt",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v20"
   },
   "question": null,
   "history": [
@@ -75,10 +74,28 @@
       "by": "owner",
       "status": "NEEDS_PHOTO",
       "note": "Chủ nghi SP là lốc 3 gói kèm sốt (giá 32.000đ); ảnh hiện tại là 1 gói"
+    },
+    {
+      "at": "2026-10-17T17:12:16Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T17:12:16+00:00",
+      "by": "owner",
+      "status": "READY",
+      "note": "Chủ gửi ảnh lốc thật: 3 gói + sốt trong túi hút chân không"
+    },
+    {
+      "at": "2026-10-17T17:12:16.702Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-17T07:44:12.534Z",
+    "at": "2026-10-17T17:12:16.702Z",
     "fields": [
       "description",
       "image"
