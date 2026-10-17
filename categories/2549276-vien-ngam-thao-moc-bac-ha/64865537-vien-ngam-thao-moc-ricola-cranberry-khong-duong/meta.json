@@ -19,17 +19,14 @@
   },
   "status": "READY",
   "image": {
-    "decision": "CROP",
-    "reason": "I9: packshot nền trắng, đúng bao bì hiện hành (40 g) nhưng không 1:1; đã crop và xem lại",
-    "source": null,
-    "rubricVersion": "v4",
-    "vivid": {
-      "rubricVersion": "v10",
-      "saturationGain": 1.148,
-      "contrastGain": 1.047,
-      "toneGain": 1.091,
-      "gamma": 0.8
-    }
+    "decision": "REPLACE",
+    "reason": "ảnh tự chụp (bóng màng co, hơi mờ) → ảnh hãng ricola.com, hộp Cranberry 40g Sugar Free, cùng bao bì",
+    "source": {
+      "url": "https://www.datocms-assets.com/131912/1739377538-3d-box-cboz-suc-7h-40g-sg-my-ph-9015724-front-flat.png",
+      "page": "https://www.ricola.com/en-asia/products/cranberry/vn/",
+      "fetchedAt": "2026-10-17"
+    },
+    "rubricVersion": "v20"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -59,6 +56,12 @@
       "by": "ai",
       "status": "READY",
       "note": "tone.py --vivid: white balance/levels + brand-like colour (owner request)"
+    },
+    {
+      "at": "2026-10-17T13:55:55.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "image REPLACE: ảnh tự chụp (bóng màng co, hơi mờ) → ảnh hãng ricola.com, hộp Cranberry 40g Sugar Free, cùng bao bì"
     }
   ]
 }

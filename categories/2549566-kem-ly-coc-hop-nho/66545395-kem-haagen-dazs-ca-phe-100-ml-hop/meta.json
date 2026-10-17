@@ -19,17 +19,13 @@
   },
   "status": "READY",
   "image": {
-    "decision": "CROP",
-    "reason": "I9: ảnh 450×600, SP nhỏ → crop 1:1; phóng ~3,6 lần, xem lại hơi mềm nhưng đạt theo v4",
-    "source": null,
-    "rubricVersion": "v4",
-    "vivid": {
-      "rubricVersion": "v10",
-      "saturationGain": 1.25,
-      "contrastGain": 1.08,
-      "toneGain": 1.079,
-      "gamma": 1.0
-    }
+    "decision": "REPLACE",
+    "reason": "ảnh tự chụp → ảnh hãng Häagen-Dazs (haagendazs.com.sg), cùng vị, bao bì minicup hiện hành; ly cửa hàng in thêm logo Halal Indonesia và bảng dinh dưỡng",
+    "source": {
+      "url": "https://www.haagendazs.com.sg/products/coffee-minicup",
+      "fetchedAt": "2026-10-17T13:57:25+00:00"
+    },
+    "rubricVersion": "v20"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -56,6 +52,26 @@
       "by": "ai",
       "status": "READY",
       "note": "tone.py --vivid: white balance/levels + brand-like colour (owner request)"
+    },
+    {
+      "at": "2026-10-17T13:57:25+00:00",
+      "by": "ai",
+      "status": "READY",
+      "note": "image: ảnh tự chụp → ảnh hãng Häagen-Dazs (haagendazs.com.sg), cùng vị, bao bì minicup hiện hành; ly cửa hàng in thêm logo Halal Indonesia và bảng dinh dưỡng"
+    },
+    {
+      "at": "2026-10-17T13:58:14.656Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T13:58:14.656Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

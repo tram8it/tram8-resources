@@ -20,14 +20,15 @@
   "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I2: ảnh KiotViet gói in 40 g; chủ xác nhận gói đang bán 50 g (hết hàng, không có ảnh gói 50 g) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ khối lượng sửa thành 50 g theo chủ; chưa có ảnh gói 50 g nên các chi tiết khác theo gói 40 g; 4 huy hiệu trên đầu gói để trơn (không chữ)",
+    "reason": "I2: ảnh KiotViet gói cũ in 40 g; chủ 17/10: khả năng là 50 g thật, dùng bao bì 50 g mới → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chưa thấy ảnh gói cay 50 g thật: bố cục lấy từ gói bơ tỏi 50 g (1 huy hiệu ISO, không 'Thơm ngon-Trọn vị'), màu hồng + chữ SPICY theo gói cay 40 g — gói cay 50 g thật có thể ghi 'Vị cay' như mực 50 g; chữ ruy băng huy hiệu để trơn",
     "source": {
       "aiGenerated": true,
       "tool": "Gemini API",
       "model": "gemini-nano-banana-2.1",
       "generatedAt": "2026-10-17",
       "style": "flat clean packaging render (v17)",
-      "reference": "ảnh KiotViet gói 40 g (cùng thiết kế; chủ xác nhận gói đang bán 50 g, 17/10)"
+      "reference": "bố cục gói 50 g mới từ ảnh Kingfoodmart gói bơ tỏi 50 g (chỉ làm mẫu) + màu hồng, chữ SPICY từ ảnh KiotViet gói cay 40 g",
+      "referenceUrl": "https://storage.googleapis.com/onelife-public/8938520099049.jpg"
     },
     "rubricVersion": "v18"
   },
@@ -80,10 +81,28 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T13:56:00Z",
+      "by": "owner",
+      "status": "READY",
+      "note": "chủ: khả năng là 50g, dùng bao bì 50g mới"
+    },
+    {
+      "at": "2026-10-17T13:57:11Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 4, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T13:57:31.155Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-17T12:58:12.367Z",
+    "at": "2026-10-17T13:57:31.155Z",
     "fields": [
       "description",
       "image"

@@ -19,17 +19,14 @@
   },
   "status": "READY",
   "image": {
-    "decision": "CROP",
-    "reason": "I9: packshot nền trắng đúng SP (TH true MILK hương chuối 180 ml, mã vạch 8935217400775 khớp trang hãng) nhưng không 1:1",
-    "source": null,
-    "rubricVersion": "v4",
-    "vivid": {
-      "rubricVersion": "v10",
-      "saturationGain": 1.25,
-      "contrastGain": 1.08,
-      "toneGain": 1.108,
-      "gamma": 1.0
-    }
+    "decision": "REPLACE",
+    "reason": "ảnh tự chụp (mờ, nghiêng) → ảnh hãng thtruemart.vn (TH), hộp TH true MILK hương chuối tự nhiên 180ml, cùng bao bì",
+    "source": {
+      "url": "https://cdn.hstatic.net/products/200001185942/ch_nh_di_n_2_ceb1c7d509604dfbacc65822a976d72e_bddbcb83d2db4b1c803ffb6e28af9517.jpg",
+      "page": "https://thtruemart.vn/products/sua-tuoi-tiet-trung-huong-chuoi-tu-nhien-th-true-milk-180-ml",
+      "fetchedAt": "2026-10-17"
+    },
+    "rubricVersion": "v20"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -59,6 +56,12 @@
       "by": "ai",
       "status": "READY",
       "note": "tone.py --vivid: white balance/levels + brand-like colour (owner request)"
+    },
+    {
+      "at": "2026-10-17T13:58:12.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "image REPLACE: ảnh tự chụp (mờ, nghiêng) → ảnh hãng thtruemart.vn (TH), hộp TH true MILK hương chuối tự nhiên 180ml, cùng bao bì"
     }
   ]
 }

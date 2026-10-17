@@ -19,17 +19,14 @@
   },
   "status": "READY",
   "image": {
-    "decision": "CROP",
-    "reason": "I9: packshot nền trắng, đúng SP nhưng ảnh không 1:1",
-    "source": null,
-    "rubricVersion": "v4",
-    "vivid": {
-      "rubricVersion": "v10",
-      "saturationGain": 1.25,
-      "contrastGain": 1.08,
-      "toneGain": 1.063,
-      "gamma": 1.0
-    }
+    "decision": "REPLACE",
+    "reason": "ảnh tự chụp (bóng chai nhựa, hơi mờ) → ảnh hãng thtruemart.vn (TH), chai TH true JUICE milk Chuối 300ml, cùng bao bì",
+    "source": {
+      "url": "https://cdn.hstatic.net/products/200001185942/uong-sua-trai-cay-chuoi-th-true-juice_2231805c863440b0812ed0d13e0855a9_5346feb75052487cb49d1b2d28312cfb.jpg",
+      "page": "https://thtruemart.vn/products/nuoc-uong-sua-trai-cay-chuoi-tu-nhien-th-true-juice-milk-300ml",
+      "fetchedAt": "2026-10-17"
+    },
+    "rubricVersion": "v20"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -56,6 +53,12 @@
       "by": "ai",
       "status": "READY",
       "note": "tone.py --vivid: white balance/levels + brand-like colour (owner request)"
+    },
+    {
+      "at": "2026-10-17T13:58:11.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "image REPLACE: ảnh tự chụp (bóng chai nhựa, hơi mờ) → ảnh hãng thtruemart.vn (TH), chai TH true JUICE milk Chuối 300ml, cùng bao bì"
     }
   ]
 }

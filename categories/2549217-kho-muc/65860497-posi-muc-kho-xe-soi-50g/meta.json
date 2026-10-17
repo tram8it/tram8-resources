@@ -20,21 +20,21 @@
   "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3, I4: ảnh chụp tay trên quầy, nền không trắng, có gói khác và giấy tờ phía sau → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt ở chữ (POSI, Thơm ngon-Trọn vị, 말린 오징어, MỰC KHÔ XÉ SỢI, Dried Squid, SPICY, KHỐI LƯỢNG TỊNH 35 g khớp); phần đầu túi trong ảnh mẫu bị cắt nên không vẽ 4 huy hiệu tròn như các gói Posi khác; Kingfoodmart cùng mã vạch có gói 50 g 'Vị cay' — theo chủ, dùng gói 35 g trên kệ",
+    "reason": "I3, I4: ảnh KiotViet chụp tay trên quầy, gói cũ 35 g; chủ 17/10: khả năng là 50 g thật, dùng bao bì 50 g mới → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ trong 4 huy hiệu tròn trên đầu gói để trơn (ảnh mẫu không đọc được); còn lại không thấy khác biệt (POSI, 말린 오징어, MỰC KHÔ XÉ SỢI, Dried Squid, Vị cay, KHỐI LƯỢNG TỊNH 50 g)",
     "source": {
       "aiGenerated": true,
       "tool": "Gemini API",
       "model": "gemini-nano-banana-2.1",
       "generatedAt": "2026-10-17",
       "style": "flat clean packaging render (v17)",
-      "reference": "ảnh chủ chụp gói trên kệ (= ảnh KiotViet, gói 35 g vị cay)",
-      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/05/20/tram8/cb7b3af84c094ba39706cae2a76f56c2.jpeg"
+      "reference": "ảnh Kingfoodmart gói 50 g 'Vị cay', cùng mã vạch (chỉ làm mẫu)",
+      "referenceUrl": "https://storage.googleapis.com/onelife-public/8938520099261.jpg"
     },
     "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
-    "reason": "D1: chưa có mô tả; mô tả ngắn từ chữ in mặt trước gói (Mực khô xé sợi, Dried Squid, SPICY, khối lượng tịnh 35 g — theo bao bì, chủ xác nhận 17/10)",
+    "reason": "D1: chưa có mô tả; mô tả ngắn từ chữ in mặt trước gói 50 g mới (Mực khô xé sợi, Dried Squid, Vị cay, khối lượng tịnh 50 g — ảnh Kingfoodmart cùng mã vạch; chủ 17/10: khả năng là 50 g)",
     "source": null,
     "rubricVersion": "v19"
   },
@@ -93,10 +93,28 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T13:56:00Z",
+      "by": "owner",
+      "status": "READY",
+      "note": "chủ: khả năng là 50g, dùng bao bì 50g mới"
+    },
+    {
+      "at": "2026-10-17T13:57:11Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 3, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T13:57:34.261Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-17T13:52:20.555Z",
+    "at": "2026-10-17T13:57:34.261Z",
     "fields": [
       "description",
       "image"

@@ -17,20 +17,24 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "ASK_OWNER",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh; trang Oishi có 3 vị 4X (bắp nướng bơ, phô mai, sốt sriracha) nên chưa biết chọn ảnh nào",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I1: chưa có ảnh; mã vạch 8934803070439 ghi trên Open Food Facts là \"4-Layer Corn Snack 4X Cheese Flavor\" (mã liền kề 8934803070446 = 4X vị bắp) → ảnh bao bì hiện hành trên trang hãng Oishi (4X Snack Bắp 4 Lớp vị Phô Mai, https://oishi.com.vn/category/Snack); ảnh hãng là ảnh chung của vị, không in khối lượng",
+    "source": {
+      "url": "https://oishi.cdn.vccloud.vn/storage/products/November2025/SpUeTz4bbRnpB9nRDe4P.png",
+      "page": "https://oishi.com.vn/category/Snack",
+      "fetchedAt": "2026-10-17"
+    },
+    "rubricVersion": "v20"
   },
   "description": {
-    "decision": "ASK_OWNER",
-    "reason": "D1: chưa có mô tả; chờ chủ xác nhận vị và khối lượng",
+    "decision": "WRITE_NEW",
+    "reason": "D1: mô tả ngắn từ tên hàng và chữ in trên bao bì hãng (vị phô mai); không ghi khối lượng vì hãng có nhiều cỡ",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v20"
   },
-  "question": "SP 'Snack Oishi đặc biệt 4 lớp' (mã 8934803070439) chưa có ảnh. Đây là Oishi 4X vị gì — bắp nướng bơ, phô mai hay sốt sriracha — và gói bao nhiêu gam?",
+  "question": null,
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -43,6 +47,26 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "asked owner: which 4X flavour / size"
+    },
+    {
+      "at": "2026-10-17T13:58:05Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "resolved without asking: Open Food Facts names barcode 8934803070439 '4X Cheese Flavor' (neighbour 070446 = 4X bắp); brand packshot of 4X phô mai; weight not stated (brand lists 32/34/68 g)"
+    },
+    {
+      "at": "2026-10-17T13:58:05.574Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T13:58:05.574Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

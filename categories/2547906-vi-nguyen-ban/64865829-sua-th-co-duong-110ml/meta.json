@@ -19,17 +19,14 @@
   },
   "status": "READY",
   "image": {
-    "decision": "CROP",
-    "reason": "I9: packshot nền trắng, đúng hộp TH có đường 110 ml; lệch tâm → crop, đã xem lại đạt",
-    "source": null,
-    "rubricVersion": "v4",
-    "vivid": {
-      "rubricVersion": "v10",
-      "saturationGain": 1.25,
-      "contrastGain": 1.08,
-      "toneGain": 1.0,
-      "gamma": 1.0
-    }
+    "decision": "REPLACE",
+    "reason": "ảnh tự chụp (mờ, nghiêng) → ảnh hãng thtruemart.vn (TH), hộp TH true MILK có đường 110ml, cùng bao bì",
+    "source": {
+      "url": "https://cdn.hstatic.net/products/200001185942/c_ng_png_1_2_7e79559f211c421fb23cb8d9eea75843_e2796de402604861bcb15a4c9f58e224.png",
+      "page": "https://thtruemart.vn/products/sua-tuoi-tiet-trung-co-duong-110-ml",
+      "fetchedAt": "2026-10-17"
+    },
+    "rubricVersion": "v20"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -59,6 +56,12 @@
       "by": "ai",
       "status": "READY",
       "note": "tone.py --vivid: white balance/levels + brand-like colour (owner request)"
+    },
+    {
+      "at": "2026-10-17T13:58:12.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "image REPLACE: ảnh tự chụp (mờ, nghiêng) → ảnh hãng thtruemart.vn (TH), hộp TH true MILK có đường 110ml, cùng bao bì"
     }
   ]
 }

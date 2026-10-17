@@ -20,14 +20,15 @@
   "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I2: ảnh KiotViet gói in 40 g; chủ xác nhận gói đang bán 50 g → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ khối lượng sửa thành 50 g theo chủ; chưa có ảnh gói 50 g nên các chi tiết khác theo gói 40 g; 4 huy hiệu trên đầu gói để trơn (không chữ)",
+    "reason": "I2: ảnh KiotViet gói cũ in 40 g; chủ 17/10: khả năng là 50 g thật, dùng bao bì 50 g mới → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: bao bì 50 g mới (1 huy hiệu ISO 22000-2018, không có dòng 'Thơm ngon-Trọn vị'); chữ nhỏ trên dải ruy băng huy hiệu để trơn; còn lại không thấy khác biệt",
     "source": {
       "aiGenerated": true,
       "tool": "Gemini API",
       "model": "gemini-nano-banana-2.1",
       "generatedAt": "2026-10-17",
       "style": "flat clean packaging render (v17)",
-      "reference": "ảnh KiotViet gói 40 g (cùng thiết kế; chủ xác nhận gói đang bán 50 g, 17/10)"
+      "reference": "ảnh Kingfoodmart gói 50 g mới, cùng mã vạch (chỉ làm mẫu)",
+      "referenceUrl": "https://storage.googleapis.com/onelife-public/8938520099049.jpg"
     },
     "rubricVersion": "v18"
   },
@@ -80,10 +81,28 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T13:56:00Z",
+      "by": "owner",
+      "status": "READY",
+      "note": "chủ: khả năng là 50g, dùng bao bì 50g mới"
+    },
+    {
+      "at": "2026-10-17T13:57:11Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 4, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T13:57:28.416Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-17T12:58:14.703Z",
+    "at": "2026-10-17T13:57:28.416Z",
     "fields": [
       "description",
       "image"

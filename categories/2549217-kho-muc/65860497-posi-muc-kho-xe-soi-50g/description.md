@@ -1,4 +1,4 @@
-Mực khô xé sợi Posi vị cay (Spicy), đóng túi zip đứng có cửa sổ, dùng làm món ăn vặt hoặc đồ nhắm.
+Mực khô xé sợi Posi vị cay, đóng túi zip đứng có cửa sổ, dùng làm món ăn vặt hoặc đồ nhắm.
 
-Quy cách: 35 g · gói
+Quy cách: 50 g · gói
 Thương hiệu: Posi

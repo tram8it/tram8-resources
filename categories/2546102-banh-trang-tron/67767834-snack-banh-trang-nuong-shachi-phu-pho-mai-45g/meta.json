@@ -17,12 +17,20 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "ASK_OWNER",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh; trang hãng Sachi không dùng được (chứng chỉ HTTPS hết hạn) → cần chụp",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I1: chưa có ảnh; trang hãng Sachi không dùng được (HTTPS hết hạn) → Gemini vẽ lại → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: thiết kế vàng (bản đúng mã vạch trên Kingfoodmart), khác kiểu 'Ngon mê ly' của các vị cùng dòng vì chưa tìm thấy bản mới cho vị phô mai; khối lượng 45 g đúng như gói",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh Kingfoodmart đúng mã vạch 8936183002833 (chỉ làm mẫu)",
+      "referenceUrl": "https://storage.googleapis.com/onelife-public/8936183002833.jpg"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -30,7 +38,7 @@
     "source": null,
     "rubricVersion": "v4"
   },
-  "question": "Sachi phủ phô mai (8936183002833): chưa tìm được mặt trước bao bì mới 'Ngon mê ly!' (chỉ có bản cũ vàng trên Kingfoodmart, khác dãy đang bán). Nhờ chụp mặt trước 1 gói, hoặc đồng ý dùng bản cũ vàng?",
+  "question": null,
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -61,6 +69,32 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "still ASK_OWNER: Kingfoodmart shows only the older yellow design; newest 'Ngon mê ly' front not found — needs a shelf photo"
+    },
+    {
+      "at": "2026-10-17T13:55:01Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T13:55:01Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "resolved without asking: Kingfoodmart photo of this exact barcode shows the yellow 45 g pack; newest 'Ngon mê ly' design not found anywhere → use the barcode-matched pack (v19)"
+    },
+    {
+      "at": "2026-10-17T13:55:01.299Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T13:55:01.299Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }
