@@ -17,20 +17,27 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "ASK_OWNER",
+  "status": "READY",
   "image": {
-    "decision": "ASK_OWNER",
-    "reason": "I1: chưa có ảnh, nhưng mã vạch 8936217701084 trên trang Cocoon là 'Túi Refill Cà Phê Đắk Lắk Làm Sạch Da Chết Cơ Thể 200ml', khác tên KiotViet (70ml) → chưa biết lấy ảnh SP nào",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "REPLACE",
+    "reason": "I1: chưa có ảnh; mã vạch 8936217701084 trên trang Cocoon là Túi Refill Cà Phê Đắk Lắk Làm Sạch Da Chết Cơ Thể 200 ml → dùng packshot hãng (tên KiotViet ghi 70 ml)",
+    "source": {
+      "url": "https://image.cocoonvietnam.com/uploads/Ecom_Body_CP_Tui_refill_ca_phe_lam_sach_da_chet_co_the_200ml_Photoroom_1ffde9fc20.png",
+      "page": "https://cocoonvietnam.com/san-pham/tui-refill-ca-phe-dak-lak-lam-sach-da-chet-co-the-200-ml",
+      "fetchedAt": "2026-10-17"
+    },
+    "rubricVersion": "v20"
   },
   "description": {
-    "decision": "ASK_OWNER",
-    "reason": "D1: chưa có mô tả; chờ chủ xác nhận quy cách (70ml hay túi refill 200ml)",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết từ trang Cocoon theo mã vạch (túi refill 200 ml)",
+    "source": {
+      "url": "https://cocoonvietnam.com/san-pham/tui-refill-ca-phe-dak-lak-lam-sach-da-chet-co-the-200-ml",
+      "fetchedAt": "2026-10-17"
+    },
+    "rubricVersion": "v20"
   },
-  "question": "Mã …1084 trên trang Cocoon là túi refill 200 ml, tên ghi 70 ml. Kệ bán túi refill 200 ml hay hũ 70 ml?",
+  "question": null,
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -61,6 +68,12 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "re-triage 17/10: câu hỏi rút gọn; lệch dung tích lớn (v19: chỉ hỏi khi lệch > 10%)"
+    },
+    {
+      "at": "2026-10-17T14:28:28Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "resolved by rule v20: barcode 8936217701084 = Cocoon refill pouch 200 ml (cocoonvietnam.com) → brand packshot, description 200 ml; name 70 ml listed for rename"
     }
   ]
 }
