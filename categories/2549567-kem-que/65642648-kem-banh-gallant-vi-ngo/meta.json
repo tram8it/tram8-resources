@@ -17,12 +17,20 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I4: ảnh chụp trên nền xám; trang hãng Seoju (seoju.co.kr) không truy cập được — không có nguồn chính hãng dùng được",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I3/I4: ảnh chụp gói nhàu trên nền xám; trang hãng Seoju không truy cập được → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Gói được vẽ phẳng, bỏ dấu in ngày sản xuất; chữ lớn (옥수수 아이스샌드, 빵, PREMIUM ICECREAM) và dòng nhỏ 180mL (195 kcal), 25 %, 8 %, 81 % khớp ảnh mẫu; dòng chữ rất nhỏ dưới huy hiệu (CASTELLA SANDWICH) do AI vẽ, ảnh mẫu không đọc rõ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet hiện có (ảnh chụp tại cửa hàng, chỉ làm mẫu); trang hãng seoju.co.kr không truy cập được, không tìm được ảnh bán lẻ đủ rõ",
+      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/05/11/tram8/079e560d1ed6481a9a3a93db9d79a7c4.jpeg"
+    },
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +51,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "image needs photo (no usable official source), description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T04:21:14Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T04:21:23.930Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T04:21:23.930Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

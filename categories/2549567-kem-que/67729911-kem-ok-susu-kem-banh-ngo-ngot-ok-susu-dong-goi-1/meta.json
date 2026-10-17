@@ -20,9 +20,9 @@
   "status": "NEEDS_PHOTO",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh; không xác định được trang hãng của OK-Susu — không có nguồn chính hãng dùng được",
+    "reason": "I1: chưa có ảnh; mã vạch 8802259029205 không phải đầu mã Lotte (8801062), không tìm được trang hãng hay ảnh bán lẻ nào của 'OK-Susu' 140ml — không biết bao bì để vẽ lại; cần nhân viên chụp mặt trước gói",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +43,12 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "image needs photo (no usable official source), description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T04:21:23Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "Rà lại theo v13–v17: không có ảnh KiotViet, không tìm được ảnh hãng/bán lẻ theo mã vạch hoặc tên → vẫn cần ảnh chụp"
     }
   ]
 }
