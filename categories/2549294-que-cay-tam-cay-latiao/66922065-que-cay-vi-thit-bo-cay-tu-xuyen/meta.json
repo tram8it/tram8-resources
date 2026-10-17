@@ -17,12 +17,23 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh — không có trang chính hãng/kênh chính chủ dùng được cho thương hiệu này (đã tìm web) → cần nhân viên chụp (ảnh đúng gói này đang nằm nhầm ở SP 66921963, nguồn không phải trang hãng)",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I1: chưa có ảnh → dùng packshot nền trắng đang gắn nhầm ở SP 66921963 (mã vạch in trên gói 6925678105281 = mã SP này, đã đọc phóng to); gói Jinmofang 真心棒 川香牛肉味 120g; chuẩn hoá 1:1 + tăng độ tươi như các SP Jinmofang cùng dãy (v10/v14)",
+    "source": {
+      "url": "https://cdn2-retail-images.kiotviet.vn/2026/07/30/tram8/798112d3e9a24e68b6ffa53e08baa66d.png",
+      "page": "KiotViet SP 66921963 (ảnh gắn nhầm SP)",
+      "fetchedAt": "2026-10-17"
+    },
+    "rubricVersion": "v17",
+    "vivid": {
+      "rubricVersion": "v10",
+      "saturationGain": 1.2,
+      "contrastGain": 1.064,
+      "toneGain": 1.084,
+      "gamma": 1.0
+    }
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +54,12 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "b20 review: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T07:38:16Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "image REPLACE from packshot mis-attached to 66921963 (barcode verified), make_image + tone --vivid like Jinmofang siblings"
     }
   ]
 }
