@@ -17,12 +17,20 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3, I5: ảnh chụp cận nhãn, hũ bị khung cắt; thương hiệu địa phương không có trang chính hãng → cần chụp",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I3, I5: ảnh chụp cận nhãn, hũ bị khung cắt; không có trang hãng Quang Thanh Foods → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Phần trên nhãn chép đúng (TL:300G, Hạnh Nhân Tách Vỏ, 100% Organic); bỏ dòng NXS/HSD. Ảnh mẫu bị cắt mất đáy nhãn và nắp: dải ruy băng đỏ vẽ để trống chữ, nắp nhựa trong là AI vẽ — cần chủ so với hàng thật.",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (ảnh chụp tại cửa hàng)",
+      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2025/11/28/tongpenhchtl/4366592b598c42a185e9b49bafa1ca3a.jpeg"
+    },
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +51,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T05:13:03Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T05:13:10.946Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T05:13:10.946Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

@@ -17,12 +17,20 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3, I5: ảnh chụp cận gói, gói bị khung cắt, nền không trắng; thương hiệu địa phương không có trang chính hãng → cần chụp",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I3, I5: ảnh chụp cận gói, gói bị khung cắt, nền không trắng; không có trang hãng Phương Huyền Food → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Chữ chép đúng (Chất Lượng Khẳng Định Thương Hiệu Số 1, Chia SEEDS Hạt Chia, ISO 22000 2018, 'OGANIC SUPERFOOD' như bao bì); bỏ dòng NSX/HSD. Mặt trước không in khối lượng nên ảnh không có 350g; mép gói AI vẽ thêm (ảnh mẫu bị cắt).",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (ảnh chụp tại cửa hàng)",
+      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/08/13/tram8/c53c696f1e1148a1a6dbac06630d853a.jpeg"
+    },
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +51,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T05:13:04Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T05:13:20.536Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T05:13:20.536Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

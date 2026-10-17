@@ -2,7 +2,7 @@
 
 > Sinh tự động bởi `node tools/status.mjs`. **Không sửa tay.** Nguồn sự thật là `meta.json` của từng SP.
 
-Tổng 2448 SP · đã xem 2428 (99%) · xong 853 · chờ chủ duyệt 598 · cần chụp 746 · hỏi chủ 227
+Tổng 2448 SP · đã xem 2428 (99%) · xong 853 · chờ chủ duyệt 626 · cần chụp 715 · hỏi chủ 230
 
 Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` = giữ nguyên + đã lên web.
 
@@ -18,19 +18,19 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 | 8 | Snack que / que cay | 0.0tr | 43 | 0 | 0 | 0 | 9 | 18 | 9 | 0 | 7 |
 | 9 | Mì ly / tô / cốc | 0.0tr | 41 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 41 |
 | 10 | Kẹo cao su / singum | 0.0tr | 41 | 0 | 0 | 0 | 1 | 10 | 30 | 0 | 0 |
-| 11 | Trà đóng chai | 0.0tr | 40 | 0 | 0 | 0 | 17 | 5 | 7 | 0 | 11 |
-| 12 | Bánh tráng trộn | 0.0tr | 37 | 0 | 0 | 0 | 13 | 2 | 0 | 0 | 22 |
-| 13 | Nước trái cây / ép | 0.0tr | 34 | 0 | 0 | 0 | 8 | 3 | 15 | 0 | 8 |
-| 14 | Bánh xốp kem (wafer) | 0.0tr | 31 | 0 | 0 | 0 | 19 | 3 | 9 | 0 | 0 |
+| 11 | Trà đóng chai | 0.0tr | 40 | 0 | 0 | 0 | 16 | 5 | 8 | 0 | 11 |
+| 12 | Bánh tráng trộn | 0.0tr | 37 | 0 | 0 | 0 | 9 | 2 | 4 | 0 | 22 |
+| 13 | Nước trái cây / ép | 0.0tr | 34 | 0 | 0 | 0 | 3 | 3 | 20 | 0 | 8 |
+| 14 | Bánh xốp kem (wafer) | 0.0tr | 31 | 0 | 0 | 0 | 14 | 3 | 14 | 0 | 0 |
 | 15 | Mì gói | 0.0tr | 31 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 30 |
 | 16 | Sữa chua uống | 0.0tr | 31 | 0 | 0 | 1 | 5 | 2 | 2 | 0 | 21 |
 | 17 | Lager Phổ Thông | 0.0tr | 29 | 0 | 12 | 0 | 2 | 4 | 11 | 0 | 0 |
-| 18 | Kem ly / cốc / hộp nhỏ | 0.0tr | 28 | 0 | 0 | 0 | 14 | 3 | 11 | 0 | 0 |
+| 18 | Kem ly / cốc / hộp nhỏ | 0.0tr | 28 | 0 | 0 | 0 | 10 | 3 | 15 | 0 | 0 |
 | 19 | Mì trộn / mì khô / spaghetti (Gói) | 0.0tr | 27 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 26 |
 | 20 | Thức uống bổ sung dinh dưỡng | 0.0tr | 26 | 0 | 0 | 0 | 11 | 3 | 10 | 0 | 2 |
 | 21 | Lăn khử mùi | 0.0tr | 25 | 0 | 0 | 0 | 1 | 1 | 3 | 0 | 20 |
-| 22 | Hạt các loại | 0.0tr | 24 | 0 | 0 | 0 | 11 | 0 | 0 | 0 | 13 |
-| 23 | Bánh ăn sáng / ngũ cốc / thanh năng lượng | 0.0tr | 23 | 0 | 1 | 0 | 8 | 6 | 7 | 0 | 1 |
+| 22 | Hạt các loại | 0.0tr | 24 | 0 | 0 | 0 | 2 | 3 | 6 | 0 | 13 |
+| 23 | Bánh ăn sáng / ngũ cốc / thanh năng lượng | 0.0tr | 23 | 0 | 1 | 0 | 5 | 6 | 10 | 0 | 1 |
 | 24 | Bánh quy kem / kẹp kem | 0.0tr | 23 | 0 | 0 | 0 | 9 | 1 | 13 | 0 | 0 |
 | 25 | Mì cay (Gói) | 0.0tr | 23 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 23 |
 | 26 | Bánh quy giòn / lạt | 0.0tr | 22 | 0 | 0 | 0 | 11 | 3 | 6 | 0 | 2 |

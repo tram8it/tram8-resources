@@ -20,9 +20,9 @@
   "status": "NEEDS_PHOTO",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3, I4: ảnh tay cầm hũ trong cửa hàng; thương hiệu địa phương không có trang chính hãng → cần chụp",
+    "reason": "I3, I4: ảnh tay cầm hũ hạnh nhân nguyên vỏ trong cửa hàng, không thấy nhãn (chỉ thấy mặt sau hũ, nắp xanh); không có trang hãng Phương Huyền Food, không tìm được ảnh mẫu → cần chụp mặt trước nhãn",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +43,12 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T05:30:00Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "Ảnh mẫu không thấy nhãn, không vẽ được"
     }
   ]
 }
