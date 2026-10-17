@@ -17,20 +17,28 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "ASK_OWNER",
+  "status": "READY",
   "image": {
-    "decision": "ASK_OWNER",
-    "reason": "I3, I4: ảnh chụp tay cầm, nền thùng hàng (cần thay); SP thật là vỉ 2 cây bao bì tiếng Anh (mã vạch Thái Lan 885…), khác vỉ tiếng Việt trên colgate.com.vn; đơn vị KiotViet là 'cây'",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "REPLACE",
+    "reason": "I3/I4: ảnh chụp tay cầm, nền thùng hàng; đơn vị cây = 1 cây lẻ tách từ vỉ 2 cây (chủ 17/10) → Gemini vẽ 1 cây (cây cán xanh bên phải), ảnh minh hoạ, không bao bì → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: ảnh minh hoạ 1 cây cán bạc-xanh; vỉ còn 1 cây cán hồng, khách có thể nhận màu khác",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (vỉ 2 cây cầm tay, bao bì tiếng Anh)",
+      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/10/01/tram8/7079ae93fca444d5937f6caa895c1e37.jpeg"
+    },
+    "rubricVersion": "v19"
   },
   "description": {
-    "decision": "ASK_OWNER",
-    "reason": "quy cách bán chưa rõ (vỉ 2 cây hay 1 cây)",
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết theo chữ in trên vỉ (Slim Soft Flex Clean Charcoal, Ultra Soft, Deep clean, soft on gums); bán 1 cây theo đơn vị KiotViet",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v19"
   },
-  "question": "Colgate Slim Soft Flex Clean Charcoal (mã vạch 8850006332559): ảnh là vỉ 2 cây (bao bì tiếng Anh, hàng Thái) nhưng đơn vị KiotViet là 'cây'. Cửa hàng bán cả vỉ 2 cây hay tách lẻ 1 cây? (bao bì này khác bản tiếng Việt trên trang hãng nên cần nhân viên chụp)",
+  "question": null,
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -43,6 +51,44 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "2-pack vs unit 'cây' unclear; Thai pack differs from VN official → ask owner"
+    },
+    {
+      "at": "2026-10-17T09:12:16Z",
+      "by": "owner",
+      "status": "ASK_OWNER",
+      "note": "owner 17/10 (RUBRIC v19): unit cây = one brush"
+    },
+    {
+      "at": "2026-10-17T09:12:16Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T09:12:16Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "description WRITE_NEW from the pack print"
+    },
+    {
+      "at": "2026-10-17T09:12:16.379Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T09:12:23.565Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T09:12:23.565Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

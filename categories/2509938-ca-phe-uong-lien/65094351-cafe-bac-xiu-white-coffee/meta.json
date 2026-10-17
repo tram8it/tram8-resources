@@ -30,7 +30,7 @@
     "source": null,
     "rubricVersion": "v4"
   },
-  "question": "SP 'Cafe bạc xỉu white coffee' (mã vạch 8938531133688) là quy cách nào của Bạc Xỉu Cộng: 1 gói lẻ 15g, túi 30 gói hay túi 50 gói? (Hộp 12 gói 180g đã là SP 'Cà phê bạc xỉu cộng 180g'.) Trang shop.congcaphe.com có ảnh từng quy cách.",
+  "question": "Bạc xỉu Cộng (mã 8938531133688), đơn vị KiotViet trống: bán 1 gói 15 g, túi 30 gói hay túi 50 gói?",
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -43,6 +43,18 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "pack size unclear"
+    },
+    {
+      "at": "2026-10-17T09:12:35+00:00",
+      "by": "owner",
+      "status": "ASK_OWNER",
+      "note": "owner 17/10 (RUBRIC v19): trust KiotViet unit"
+    },
+    {
+      "at": "2026-10-17T09:12:35+00:00",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "unit is empty and barcode not found on shop.congcaphe.com → still needs the shelf; question shortened"
     }
   ]
 }

@@ -30,7 +30,7 @@
     "source": null,
     "rubricVersion": "v4"
   },
-  "question": "\"Cơm cháy đáy nồi 20g (Gói)\" (mã vạch 8936236143124): ảnh hiện tại là túi lớn chứa nhiều miếng \"Cơm cháy đáy nồi siêu chà bông\". Hàng bán là gói nhỏ 20 g hay túi lớn này (nặng bao nhiêu)? Nếu là gói 20 g thì cần nhân viên chụp gói đó.",
+  "question": "Cơm cháy đáy nồi (mã 8936236143124): tên 20 g/gói, ảnh là túi lớn nhiều miếng — hàng bán là gói 20 g (cần ảnh gói) hay túi này (bao nhiêu g)?",
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -43,6 +43,18 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "b30: image ASK_OWNER, description ASK_OWNER"
+    },
+    {
+      "at": "2026-10-17T09:12:36+00:00",
+      "by": "owner",
+      "status": "ASK_OWNER",
+      "note": "owner 17/10 (RUBRIC v19): trust pack/unit; ask only if gap is large"
+    },
+    {
+      "at": "2026-10-17T09:12:36+00:00",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "name 20 g vs big multi-piece bag is clearly another size → keep asking, question shortened"
     }
   ]
 }
