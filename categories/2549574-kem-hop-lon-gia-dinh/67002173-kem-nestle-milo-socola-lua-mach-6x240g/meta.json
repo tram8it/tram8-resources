@@ -20,7 +20,7 @@
   "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "ảnh tự chụp (nghiêng, nắp mờ, in hạn dùng); không có ảnh hãng bao bì Thái → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: bảng dinh dưỡng GDA và chữ nhỏ được làm mờ (ảnh mẫu không đọc được); bỏ hạn dùng in trên nắp",
+    "reason": "ảnh tự chụp (nghiêng, nắp mờ, in hạn dùng); không có ảnh hãng bao bì Thái → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: bảng dinh dưỡng GDA và chữ nhỏ làm mờ (ảnh mẫu không đọc được); bỏ hạn dùng in trên nắp",
     "source": {
       "aiGenerated": true,
       "tool": "Gemini API",
@@ -62,6 +62,26 @@
       "by": "ai",
       "status": "READY",
       "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T14:13:57Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T14:14:44.620Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T14:14:44.620Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

@@ -17,20 +17,20 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "ASK_OWNER",
+  "status": "NEEDS_PHOTO",
   "image": {
-    "decision": "ASK_OWNER",
-    "reason": "I1: chưa có ảnh; không xác định được SP (trang Suntory PepsiCo chỉ có Boss Cà Phê Sữa lon 180ml)",
+    "decision": "REPLACE",
+    "reason": "I1: chưa có ảnh; mã vạch 8934588633935 (Suntory PepsiCo VN) không tra được ở đâu, trang hãng chỉ có Boss lon 180 ml → cần chụp mặt trước chai (kèm nhãn sau để viết mô tả)",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v20"
   },
   "description": {
-    "decision": "ASK_OWNER",
-    "reason": "Chờ chủ xác nhận SP",
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; chờ ảnh mặt trước + mặt sau để viết",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v20"
   },
-  "question": "SP 'Nước Tăng Lực Boss Coffee Chai 325ml' (mã vạch 8934588633935) là sản phẩm gì: cà phê Boss chai nhựa 325ml hay một loại nước tăng lực vị cà phê của Suntory PepsiCo? Trang hãng chỉ có Boss Cà Phê Sữa lon 180ml. Nếu còn bán, nhờ nhân viên chụp ảnh mặt trước chai.",
+  "question": null,
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -43,6 +43,12 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "product identity unclear, no image"
+    },
+    {
+      "at": "2026-10-17T14:14:07Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "re-triage: barcode not found anywhere, no reference → NEEDS_PHOTO (front + back), not a question"
     }
   ]
 }

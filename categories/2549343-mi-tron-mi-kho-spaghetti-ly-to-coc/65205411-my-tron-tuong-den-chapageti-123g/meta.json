@@ -17,12 +17,19 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "UPLOADED",
+  "status": "READY",
   "image": {
-    "decision": "KEEP",
-    "reason": "Ảnh 300×300 nền trắng, đúng tô Chapagetti, sản phẩm ở giữa",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "REPLACE",
+    "reason": "ảnh tự chụp (màng co bóng lóa, mềm); không có ảnh hãng dùng được → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt (bỏ màng co)",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet hiện có (ảnh tự chụp)"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -55,6 +62,12 @@
       "by": "owner",
       "status": "UPLOADED",
       "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-17T14:14:31Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
     }
   ],
   "submitted": {

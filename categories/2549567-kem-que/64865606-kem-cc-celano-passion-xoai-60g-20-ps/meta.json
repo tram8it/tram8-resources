@@ -17,20 +17,27 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "ASK_OWNER",
+  "status": "READY",
   "image": {
-    "decision": "ASK_OWNER",
-    "reason": "I1: chưa có ảnh; tên SP mơ hồ về vị nên chưa thể tìm/chụp đúng",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "REPLACE",
+    "reason": "I1: chưa có ảnh. Trang Nutifood (ngoinhadinhduong.com) có đúng SP 'KEM Que Cc Celano Passion Xoài 60g' với mã vạch 8936011770767 → dùng packshot hãng (phóng ~2,7 lần, hơi mềm — v4)",
+    "source": {
+      "url": "https://cdn.hstatic.net/products/200000821091/thi_t_k__ch_a_c__t_n__17__bc5ae41f7d5d42b9bfee2a40c7fcede3.png",
+      "page": "https://ngoinhadinhduong.com/products/kem-cc-celano-passion-xoai-60gx20",
+      "fetchedAt": "2026-10-17"
+    },
+    "rubricVersion": "v19"
   },
   "description": {
-    "decision": "ASK_OWNER",
-    "reason": "Tên 'CC Celano Passion Xoài' mơ hồ: chưa rõ 'Passion' là chanh dây hay dòng Celano Passion, 'CC' là gì",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết lại từ trang hãng (Nutifood) đúng mã vạch",
+    "source": {
+      "url": "https://ngoinhadinhduong.com/products/kem-cc-celano-passion-xoai-60gx20",
+      "fetchedAt": "2026-10-17"
+    },
+    "rubricVersion": "v19"
   },
-  "question": "SP 'Kem CC Celano Passion Xoài 60g × 20 (PS)' (mã 8936011770767): đây là kem vị chanh dây – xoài, hay dòng Celano Passion vị xoài? 'CC' và '(PS)' nghĩa là gì? SP chưa có ảnh và không có trang hãng truy cập được → sẽ cần nhân viên chụp.",
+  "question": null,
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -43,6 +50,26 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "ask owner: ambiguous flavour name"
+    },
+    {
+      "at": "2026-10-17T14:13:59Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "resolved without asking: Nutifood store lists this exact SKU (barcode 8936011770767, 60 g mango ice cream bar); brand packshot used"
+    },
+    {
+      "at": "2026-10-17T14:13:59.498Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T14:13:59.498Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

@@ -17,12 +17,12 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "ASK_OWNER",
+  "status": "NEEDS_PHOTO",
   "image": {
-    "decision": "ASK_OWNER",
-    "reason": "I1: chưa có ảnh; mã vạch cùng dãy Kaz (893854646…); trang hãng chỉ có render túi 'Granola Cranberries & Raisins – Nam Việt Quất & Nho' loại 300 g (in 'NET WT. 10.6 OZ (300g)'), không có gói 35 g.",
+    "decision": "REPLACE",
+    "reason": "I1: chưa có ảnh; không có ảnh gói granola 35 g ở đâu (trang hãng Kaz chỉ có túi 300 g, Kingfoodmart/Open Food Facts/web không có) → cần chụp mặt trước gói",
     "source": null,
-    "rubricVersion": "v17"
+    "rubricVersion": "v20"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -30,7 +30,7 @@
     "source": null,
     "rubricVersion": "v4"
   },
-  "question": "Mã 8938546467655 (Granola Vị Nho Và Nam Việt Quất 35g, Kaz): hãng chỉ có ảnh túi 300 g, trên túi in rõ 'NET WT. 10.6 OZ (300g)'. Chọn: (a) dùng ảnh túi 300 g của hãng + nhãn '35g' dù trên túi in 300g, (b) nhân viên chụp mặt trước gói 35 g để Gemini vẽ lại.",
+  "question": null,
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -49,6 +49,12 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "Ảnh hãng chỉ có túi 300 g → hỏi chủ"
+    },
+    {
+      "at": "2026-10-17T14:14:07Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "re-triage: no reference of the 35 g pack anywhere (brand only has the 300 g bag) → NEEDS_PHOTO, not a question"
     }
   ]
 }
