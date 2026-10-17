@@ -17,12 +17,20 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I2: ảnh là hộp Tic Tac cam bản Mỹ 29 g (1 oz), không phải hộp 14,5 g. Trang Tic Tac Việt Nam không tồn tại (tictac.com/vn chuyển sang Instagram); hộp 14,5 g bản Việt Nam không có trên trang chính hãng.",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I2: ảnh cũ là hộp Tic Tac cam bản Mỹ 29 g (1 oz), không phải hộp 14,5 g Việt Nam → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Theo hộp 14,5 g (T30) nhập khẩu bởi Hương Thủy trên ảnh Pharmacity; dải nhãn nhỏ trên nắp chỉ vẽ phác; màu hộp cam sáng hơn ảnh mẫu một chút.",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh Pharmacity (chỉ làm mẫu)",
+      "referenceUrl": "https://www.pharmacity.vn/tic-tac-huong-cam-145g.html"
+    },
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +51,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "image NEEDS_PHOTO, description WRITE_NEW (name only)"
+    },
+    {
+      "at": "2026-10-17T04:37:25Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T04:43:14.107Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T04:43:14.107Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

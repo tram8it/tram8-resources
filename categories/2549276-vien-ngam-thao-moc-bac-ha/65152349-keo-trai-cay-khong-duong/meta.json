@@ -20,9 +20,9 @@
   "status": "NEEDS_PHOTO",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh; tên không ghi thương hiệu, không có nguồn chính hãng.",
+    "reason": "I1: chưa có ảnh; tên không ghi thương hiệu (mã 8936202668439), tra mã vạch không ra sản phẩm nào → không biết bao bì để vẽ lại. Cần nhân viên chụp mặt trước gói.",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +43,12 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "image NEEDS_PHOTO, description pending (no facts)"
+    },
+    {
+      "at": "2026-10-17T05:00:00.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "rechecked v17: no reference image of the pack found; still needs staff photo"
     }
   ]
 }

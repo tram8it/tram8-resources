@@ -17,12 +17,20 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I4: ảnh chụp điện thoại trên nền be, không phải nền trắng. Trang Tic Tac Việt Nam không tồn tại (tictac.com/vn chuyển sang Instagram); hộp 14,5 g bản Việt Nam không có trên trang chính hãng.",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I4: ảnh chụp điện thoại trên nền be; ảnh NPP Hương Thủy là bản nhãn cũ và quá nhỏ → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Theo hộp đang bán (nhãn xanh chấm bi, 'KHỐI LƯỢNG TỊNH: 14,5 g (T30)'); hộp vẽ đầy kẹo hơn ảnh chụp (ảnh chụp hộp đã ăn bớt); phần chữ nhỏ trên nắp không vẽ.",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet nhân viên chụp (hộp đang bán)",
+      "referenceUrl": "https://huongthuy.com.vn/products/cake-candy-chocolate/"
+    },
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +51,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "image NEEDS_PHOTO, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T04:37:25Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T04:43:11.498Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T04:43:11.498Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

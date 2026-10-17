@@ -17,12 +17,20 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I7: ảnh có watermark 'SuperMart.ae' của shop khác. Trang Tic Tac Việt Nam không tồn tại (tictac.com/vn chuyển sang Instagram); hộp 14,5 g bản Việt Nam không có trên trang chính hãng.",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I7: ảnh cũ có watermark 'SuperMart.ae' (hộp bản Trung Đông); ảnh NPP Hương Thủy đúng hộp 14,5 g nhưng chỉ 188×272 px, phóng 3,8 lần bị mờ → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Theo bản nhãn trên catalogue NPP (nhãn bạc, 'KHỐI LƯỢNG TỊNH: 14,5g'); bản nhãn mới hơn của dòng Tic Tac (nhãn màu chấm bi, '(T30)' — thấy ở vị bạc hà/cam) chưa tìm được ảnh cho vị bạc hà lục, nên có thể khác hộp đang bán ở chi tiết nhãn. Hạt kẹo/khay vẽ lại.",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh catalogue NPP Hương Thủy (188×272, quá nhỏ để đăng thẳng)",
+      "referenceUrl": "https://huongthuy.com.vn/products/cake-candy-chocolate/"
+    },
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +51,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "image NEEDS_PHOTO, description WRITE_NEW (name only)"
+    },
+    {
+      "at": "2026-10-17T04:37:25Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T04:43:06.361Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T04:43:06.361Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

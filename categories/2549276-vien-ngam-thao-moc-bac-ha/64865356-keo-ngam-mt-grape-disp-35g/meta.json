@@ -17,12 +17,12 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "ASK_OWNER",
   "image": {
-    "decision": "REPLACE",
-    "reason": "I3/I8: ảnh chụp kệ, 2 hộp trong khay trưng bày. Trang Perfetti Van Melle Việt Nam không truy cập được.",
+    "decision": "ASK_OWNER",
+    "reason": "I3/I8: ảnh chụp kệ, 2 hộp trong khay trưng bày, che mất phần dưới mặt trước (chỗ in khối lượng). Không tìm được ảnh hãng/NPP/nhà bán lẻ của Mentos hộp nho bạc hà; khối lượng có thể không phải 35 g.",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -30,7 +30,7 @@
     "source": null,
     "rubricVersion": "v4"
   },
-  "question": null,
+  "question": "Kẹo ngậm Mentos hương nho bạc hà (mã 8935001718093): tên KiotViet ghi 35g, nhưng ảnh cho thấy hộp nhựa đen kiểu dispenser giống hộp đào bạc hà 17,5 g (mã 8935001719519) và mã vạch liền dãy với Mentos bạc hà 17,5 g (8935001718079); các hộp Mentos 35 g là hộp thiếc dẹt. Phần in khối lượng bị khay che. Hộp thật ghi 17,5 g hay 35 g? Nhờ nhân viên chụp thẳng mặt trước 1 hộp (thấy dòng 'Khối lượng tịnh') để vẽ lại ảnh; nếu là 17,5 g thì nên sửa tên trên KiotViet.",
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -43,6 +43,12 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "image NEEDS_PHOTO, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T05:00:00.000Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "image ASK_OWNER: weight on pack unverified (name 35g; barcode/dispenser look like the 17.5g series)"
     }
   ]
 }
