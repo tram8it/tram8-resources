@@ -17,12 +17,19 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3, I8: ảnh chụp cả bảng treo nhiều cây, nền không trắng; ảnh hãng Slim Soft Clean Effect là vỉ 3 cây, không khớp SP bán lẻ 1 cây → cần chụp",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I3, I8: ảnh chụp cả bảng treo nhiều cây, nền không trắng; ảnh hãng là vỉ 3 cây, không khớp SP bán lẻ 1 cây → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: vẽ lại từ ảnh bảng treo mờ: chữ 'Colgate / Mềm Mảnh / Sạch Sâu Hiệu Quả / 0.01mm siêu mềm mảnh' theo bảng; cửa hàng bán nhiều màu tay cầm (xanh, vàng, hồng…), ảnh chọn màu hồng; vỉ dựng đứng; tên KiotViet ghi 'Mềm Mại' còn vỉ in 'Mềm Mảnh'",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (bảng treo 12 cây tại cửa hàng; cắt 1 vỉ làm mẫu) + ảnh SP Colgate khác chỉ để lấy kiểu dáng"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -46,6 +53,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "display-card photo; official image is a 3-pack → NEEDS_PHOTO; description WRITE_NEW from official page"
+    },
+    {
+      "at": "2026-10-17T07:55:07Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T07:55:36.341Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T07:55:36.341Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

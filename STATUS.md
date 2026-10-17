@@ -2,7 +2,7 @@
 
 > Sinh tự động bởi `node tools/status.mjs`. **Không sửa tay.** Nguồn sự thật là `meta.json` của từng SP.
 
-Tổng 2448 SP · đã xem 2428 (99%) · xong 1014 · chờ chủ duyệt 678 · cần chụp 467 · hỏi chủ 263
+Tổng 2448 SP · đã xem 2428 (99%) · xong 1014 · chờ chủ duyệt 680 · cần chụp 465 · hỏi chủ 263
 
 Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` = giữ nguyên + đã lên web.
 
@@ -79,7 +79,7 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 | 69 | Pizza | 0.0tr | 13 | 0 | 9 | 0 | 0 | 0 | 4 | 0 | 0 |
 | 70 | Sữa chua ăn | 0.0tr | 13 | 0 | 0 | 0 | 1 | 4 | 4 | 0 | 4 |
 | 71 | Xúc xích lắc & snack | 0.0tr | 13 | 0 | 0 | 0 | 2 | 4 | 5 | 0 | 2 |
-| 72 | Bàn chải - Người lớn | 0.0tr | 12 | 0 | 0 | 0 | 3 | 3 | 5 | 0 | 1 |
+| 72 | Bàn chải - Người lớn | 0.0tr | 12 | 0 | 0 | 0 | 1 | 3 | 7 | 0 | 1 |
 | 73 | Bánh mì kem tươi | 0.0tr | 12 | 0 | 11 | 0 | 1 | 0 | 0 | 0 | 0 |
 | 74 | Nước ngọt ít calories | 0.0tr | 12 | 0 | 0 | 0 | 3 | 0 | 3 | 0 | 6 |
 | 75 | Snack mì | 0.0tr | 12 | 0 | 0 | 0 | 4 | 0 | 0 | 0 | 8 |

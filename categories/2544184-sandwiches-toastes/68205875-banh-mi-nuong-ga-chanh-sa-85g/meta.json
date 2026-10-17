@@ -20,9 +20,9 @@
   "status": "NEEDS_PHOTO",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh; SP không có trên cobibread.com (đã xem toàn bộ danh mục Pocket Toast) → cần chụp",
+    "reason": "I1: chưa có ảnh; SP mới, chưa có trên cobibread.com (tìm lại 17/10), mã vạch không có trên Kingfoodmart/Open Food Facts/web → không có ảnh mẫu để vẽ Gemini, cần nhân viên chụp",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +43,12 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "needs photo; short description from name"
+    },
+    {
+      "at": "2026-10-17T07:55:21.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "17/10: still no reference (cobibread.com search, KFM, OFF, web)"
     }
   ]
 }

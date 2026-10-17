@@ -29,10 +29,10 @@
     "rubricVersion": "v17"
   },
   "description": {
-    "decision": "WRITE_NEW",
-    "reason": "D1: chưa có mô tả; viết ngắn chỉ từ chữ in trên chai (ảnh hiện tại) và tên hàng, không có trang hãng cho mã này",
+    "decision": "REWRITE",
+    "reason": "Ảnh đổi sang bao bì mới cùng mã vạch (trang NIVEA): sửa mô tả cho khớp bao bì — 72 giờ thay 48 giờ, tên dòng theo bao bì mới",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v18"
   },
   "question": null,
   "history": [
@@ -59,10 +59,22 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T07:55:19+00:00",
+      "by": "ai",
+      "status": "READY",
+      "note": "Mô tả cập nhật theo bao bì mới (72h, tên dòng)"
+    },
+    {
+      "at": "2026-10-17T07:55:22.169Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-17T07:49:18.780Z",
+    "at": "2026-10-17T07:55:22.169Z",
     "fields": [
       "description",
       "image"

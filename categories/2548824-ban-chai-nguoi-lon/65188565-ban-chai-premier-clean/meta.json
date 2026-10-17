@@ -20,7 +20,7 @@
   "status": "NEEDS_PHOTO",
   "image": {
     "decision": "REPLACE",
-    "reason": "I2: tên là Colgate Premier Clean nhưng ảnh là vỉ Colgate 'Mềm Mảnh Chăm Sóc Nướu' (SP khác); trang colgate.com.vn không có Premier Clean → cần chụp",
+    "reason": "I2: tên là Colgate Premier Clean nhưng ảnh là vỉ Colgate 'Mềm Mảnh Chăm Sóc Nướu' (SP khác); colgate.com.vn không có Premier Clean, colgate.com/en-ph chặn bot (403), không tìm được ảnh bao bì bản Việt Nam của mã 8935236000031 (Kingfoodmart, Open Food Facts không có) → không biết vỉ thật trông thế nào, cần chụp",
     "source": null,
     "rubricVersion": "v4"
   },
@@ -43,6 +43,12 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "wrong product in photo (Mềm Mảnh), no official image for Premier Clean → NEEDS_PHOTO"
+    },
+    {
+      "at": "2026-10-17T07:55:07.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "no reference image of the real pack found (KFM/OFF/Colgate PH 403); stays NEEDS_PHOTO"
     }
   ]
 }

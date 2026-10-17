@@ -17,12 +17,19 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3, I8: ảnh chụp cả bảng treo nhiều cây, nền không trắng; trang colgate.com.vn không có dòng Premier Mềm Mịn → cần chụp 1 cây",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I3, I8: ảnh chụp cả bảng treo nhiều cây, nền không trắng; colgate.com.vn không có dòng Premier Mềm Mịn → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: vẽ lại từ ảnh bảng treo mờ: chữ lớn 'Colgate / Premier / MỀM MỊN' đúng; bỏ dòng chữ nhỏ cạnh biểu tượng lông chải (không đọc được trên ảnh thật); vỉ dựng đứng thay vì nằm ngang như trên bảng; dáng tay cầm có thể hơi khác",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (bảng treo 12 cây tại cửa hàng; cắt 1 vỉ làm mẫu) + ảnh SP Colgate khác chỉ để lấy kiểu dáng"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +50,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "display-card photo, no official image → NEEDS_PHOTO; description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T07:55:07Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T07:55:34.687Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T07:55:34.687Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }
