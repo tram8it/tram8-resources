@@ -17,7 +17,7 @@
     "description": "Thức uống sô-cô-la Hershey's vị bánh quy kem (Cookies 'n' Creme) dạng hộp giấy, uống liền.\n\nQuy cách: 235 ml · hộp\nThương hiệu: Hershey's",
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "ảnh tự chụp: hộp hơi nghiêng, mờ; không có ảnh hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ nhỏ không đọc được, chỉ minh hoạ",
@@ -75,6 +75,12 @@
       "by": "init",
       "status": "READY",
       "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -84,5 +90,91 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T16:14:22.584Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T16:14:22.584Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/dfebf1c3fd3d8203f47a5313df5868280f0c464cdbf94773b28f31228ded494e.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/30/tram8/f2cd7b3a8f454cd6824050bbf5d54e02.png"
+        ]
+      },
+      "description": {
+        "to": "Thức uống sô-cô-la Hershey's vị bánh quy kem (Cookies 'n' Creme) dạng hộp giấy, uống liền.\n\nQuy cách: 235 ml · hộp\nThương hiệu: Hershey's",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {
+      "price": {
+        "to": 30555.56,
+        "from": 30000
+      },
+      "saleTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 65894440
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 65894440
+        }
+      },
+      "taxRate": {
+        "to": "VAT 8%",
+        "from": "VAT 10%"
+      },
+      "productTaxs": {
+        "to": [
+          {
+            "id": 0,
+            "name": "VAT 8%",
+            "taxId": 3,
+            "value": 8,
+            "productId": 65894440
+          }
+        ],
+        "from": [
+          {
+            "id": 0,
+            "name": "VAT 10%",
+            "taxId": 4,
+            "value": 10,
+            "productId": 65894440
+          }
+        ]
+      },
+      "purchaseTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 65894440
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 65894440
+        }
+      }
+    }
   }
 }

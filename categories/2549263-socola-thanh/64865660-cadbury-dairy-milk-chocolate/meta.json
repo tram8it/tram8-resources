@@ -17,7 +17,7 @@
     "description": "Sô-cô-la sữa Cadbury Dairy Milk Fruit & Nut, sô-cô-la sữa với nho khô và hạnh nhân. Có chứa hạnh nhân và sữa.\n\nQuy cách: thanh\nNhà sản xuất/thương hiệu: Cadbury (Mondelēz) · Dairy Milk",
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I2: ảnh KiotViet là thanh Dairy Milk 165 g, nhưng mã 7622210410511 (Kingfoodmart, Open Food Facts) là Dairy Milk FRUIT & NUT (nho khô, hạnh nhân) → vẽ lại theo mã vạch; không có trang hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: khối dinh dưỡng nhỏ và mã dưới logo halal để mờ (không bịa số); mặt trước không in khối lượng như mẫu",
@@ -78,6 +78,12 @@
       "by": "init",
       "status": "READY",
       "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -87,5 +93,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T15:52:17.523Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T15:52:17.523Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/ca138cfc4f8bf4abec073b89003b7c6cfc1c92b312ec974c802e7e7102b8ec81.webp"
+        ],
+        "from": [
+          "https://cdn1-retail-images.kiotviet.vn/2026/01/10/tongpenhchtl/3118fc4dc65a416bb4476e9e548faa1e.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Sô-cô-la sữa Cadbury Dairy Milk Fruit & Nut, sô-cô-la sữa với nho khô và hạnh nhân. Có chứa hạnh nhân và sữa.\n\nQuy cách: thanh\nNhà sản xuất/thương hiệu: Cadbury (Mondelēz) · Dairy Milk",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

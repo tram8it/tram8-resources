@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "READY",
+  "status": "IN_PROGRESS",
   "image": {
     "decision": "REPLACE",
     "reason": "I3/I4: ảnh chụp nhiều hộp trên kệ, không có ảnh hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: bảng dinh dưỡng góc trên trái vẽ mờ; còn lại như hộp thật (BRAND FROM JAPAN, Dark, 12 pieces)",
@@ -90,6 +90,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "IN_PROGRESS",
+      "note": "rejected on Hub by AU KHUONG DUY: Quay ảnh sp sai hướng, nên quay ngang."
     }
   ],
   "submitted": {
@@ -99,5 +105,11 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "REJECTED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T14:09:33.711Z",
+    "note": "Quay ảnh sp sai hướng, nên quay ngang."
   }
 }

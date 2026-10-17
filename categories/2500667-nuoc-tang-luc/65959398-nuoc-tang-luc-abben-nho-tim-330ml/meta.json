@@ -17,7 +17,7 @@
     "description": "Nước tăng lực Abben BCAA + Energy hương nho (Grape Strike), chai nhựa. Trên nhãn ghi bổ sung BCAA, caffeine, taurine, inositol và vitamin.\n\nQuy cách: 330 ml · chai\nNhà sản xuất/thương hiệu: Abben",
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I3/I4/I5: ảnh chụp cận nhãn trên kệ, chai bị cắt; vẽ theo nhãn GRAPE STRIKE đang bán ở cửa hàng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: dáng chai/nắp lấy từ ảnh mẫu khác; chữ nhỏ trên nhãn là ước lượng",
@@ -93,6 +93,12 @@
       "by": "init",
       "status": "READY",
       "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -102,5 +108,91 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T14:10:53.855Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T14:10:53.855Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/64de6aab7aef17cc77748d6d687f76fea78f31333ddb1d8e3ba615c6ff44b0cc.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/05/24/tram8/f6b9aaeb0661481d91cb00e4f1cce5a7.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Nước tăng lực Abben BCAA + Energy hương nho (Grape Strike), chai nhựa. Trên nhãn ghi bổ sung BCAA, caffeine, taurine, inositol và vitamin.\n\nQuy cách: 330 ml · chai\nNhà sản xuất/thương hiệu: Abben",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {
+      "price": {
+        "to": 12037.04,
+        "from": 11818.18
+      },
+      "saleTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 65959398
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 65959398
+        }
+      },
+      "taxRate": {
+        "to": "VAT 8%",
+        "from": "VAT 10%"
+      },
+      "productTaxs": {
+        "to": [
+          {
+            "id": 0,
+            "name": "VAT 8%",
+            "taxId": 3,
+            "value": 8,
+            "productId": 65959398
+          }
+        ],
+        "from": [
+          {
+            "id": 0,
+            "name": "VAT 10%",
+            "taxId": 4,
+            "value": 10,
+            "productId": 65959398
+          }
+        ]
+      },
+      "purchaseTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 65959398
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 65959398
+        }
+      }
+    }
   }
 }

@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I3/I4/I8: ảnh KiotViet chụp kệ, mặt trước hũ bị che/cắt; không có ảnh hãng → Gemini vẽ 1 hũ theo ảnh mẫu (ảnh minh hoạ) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: ảnh minh hoạ: vẽ 1 hũ từ ảnh khay 6 hũ; chữ trên hũ (KẸO GUM, KHÔNG ĐƯỜNG, mentos AIR, Mát Lạnh, Hương BẠC HÀ KHUYNH DIỆP) lấy theo chữ in trên khay; không ghi khối lượng vì ảnh mẫu không thấy; nắp/dáng hũ theo ảnh mẫu",
@@ -78,6 +78,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -87,5 +93,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T17:36:14.972Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T17:36:14.972Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/eae9c5aa240c570faa973e5da80c19e3190592a809aca55820edbacc1ad84860.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/03/15/tongpenhchtl/93b74aee9eaa4bc8b4566a34a9e47aeb.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Kẹo gum không đường Mentos Air Mát Lạnh, hương bạc hà khuynh diệp, đóng hũ nhựa nắp bật.\n\nQuy cách: hộp\nThương hiệu: Mentos",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

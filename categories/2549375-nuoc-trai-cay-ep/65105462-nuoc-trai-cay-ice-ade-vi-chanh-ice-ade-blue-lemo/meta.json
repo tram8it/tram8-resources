@@ -17,7 +17,7 @@
     "description": "Nước trái cây Ice Ade vị chanh (Blue Lemon) đóng túi, nhập khẩu Hàn Quốc; uống lạnh ngon hơn.\n\nQuy cách: 230 ml · túi\nXuất xứ: Hàn Quốc",
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "ảnh tự chụp (mềm, nhăn/bóng lóa); không có ảnh hãng trong danh sách nguồn → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: dòng chữ nhỏ ghi '배찬함량' thay vì '배합함량' (lỗi nhỏ của bản vẽ); số 230 mL (85 kcal), 0.6% khớp ảnh",
@@ -74,6 +74,12 @@
       "by": "init",
       "status": "READY",
       "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -83,5 +89,91 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T16:56:04.281Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T16:56:04.281Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/4a457aa4e5d178c36c718a41de6361f281aa8846514e142c98954e3704e679d9.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/30/tram8/51fcc4c51be8463cae4e2faee335b318.png"
+        ]
+      },
+      "description": {
+        "to": "Nước trái cây Ice Ade vị chanh (Blue Lemon) đóng túi, nhập khẩu Hàn Quốc; uống lạnh ngon hơn.\n\nQuy cách: 230 ml · túi\nXuất xứ: Hàn Quốc",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {
+      "price": {
+        "to": 24537.04,
+        "from": 24090.91
+      },
+      "saleTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 65105462
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 65105462
+        }
+      },
+      "taxRate": {
+        "to": "VAT 8%",
+        "from": "VAT 10%"
+      },
+      "productTaxs": {
+        "to": [
+          {
+            "id": 0,
+            "name": "VAT 8%",
+            "taxId": 3,
+            "value": 8,
+            "productId": 65105462
+          }
+        ],
+        "from": [
+          {
+            "id": 0,
+            "name": "VAT 10%",
+            "taxId": 4,
+            "value": 10,
+            "productId": 65105462
+          }
+        ]
+      },
+      "purchaseTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 65105462
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 65105462
+        }
+      }
+    }
   }
 }

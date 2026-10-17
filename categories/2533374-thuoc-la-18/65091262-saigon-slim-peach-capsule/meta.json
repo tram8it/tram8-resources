@@ -17,7 +17,7 @@
     "description": "Thuốc lá điếu đầu lọc Saigon Capsule (có viên nang), bao đỏ; bao in \"Filter cigarettes\".\n\nQuy cách: bao\nThương hiệu: Saigon · Nhà sản xuất: Công ty TNHH MTV Thuốc lá Sài Gòn (Vinataba)\n\nChỉ bán cho người từ 18 tuổi trở lên.\nHút thuốc lá có hại cho sức khỏe.",
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I6/I7: ảnh nhỏ, tem điện tử che hình cảnh báo → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: bỏ tem điện tử; phần hình cảnh báo dưới tem vẽ theo mẫu cảnh báo chuẩn (như SAIGON Menthol cùng dãy)",
@@ -74,6 +74,12 @@
       "by": "init",
       "status": "READY",
       "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -83,5 +89,91 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T14:13:47.489Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T14:13:47.489Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/69b0b801f77fb3fccbe40d70f9319a278a0d4c4d17d6a5a46967adb2db285508.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/29/tram8/7aa852d2ec09456cbf0707448cfcd1b8.png"
+        ]
+      },
+      "description": {
+        "to": "Thuốc lá điếu đầu lọc Saigon Capsule (có viên nang), bao đỏ; bao in \"Filter cigarettes\".\n\nQuy cách: bao\nThương hiệu: Saigon · Nhà sản xuất: Công ty TNHH MTV Thuốc lá Sài Gòn (Vinataba)\n\nChỉ bán cho người từ 18 tuổi trở lên.\nHút thuốc lá có hại cho sức khỏe.",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {
+      "price": {
+        "to": 26851.85,
+        "from": 26363.64
+      },
+      "saleTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 65091262
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 65091262
+        }
+      },
+      "taxRate": {
+        "to": "VAT 8%",
+        "from": "VAT 10%"
+      },
+      "productTaxs": {
+        "to": [
+          {
+            "id": 0,
+            "name": "VAT 8%",
+            "taxId": 3,
+            "value": 8,
+            "productId": 65091262
+          }
+        ],
+        "from": [
+          {
+            "id": 0,
+            "name": "VAT 10%",
+            "taxId": 4,
+            "value": 10,
+            "productId": 65091262
+          }
+        ]
+      },
+      "purchaseTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 65091262
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 65091262
+        }
+      }
+    }
   }
 }

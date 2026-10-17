@@ -17,7 +17,7 @@
     "description": "Thức uống sô-cô-la Hershey's Protein, hộp giấy 235 ml. Trên hộp in \"Classic HERSHEY'S Taste, Packed with Protein\" và huy hiệu \"Protein 8g\".\n\nQuy cách: 235 ml · hộp\nThương hiệu: Hershey's",
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I6/I9: ảnh KiotViet đúng SP (Open Food Facts xác nhận mã 8801121032435 là Hershey's Chocolate Drink with Protein) nhưng quá nhỏ, chưa 1:1 → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt; chữ nhỏ trên Nutri-Grade đã sửa về '8% sugar' như ảnh KiotViet",
@@ -78,6 +78,12 @@
       "by": "init",
       "status": "READY",
       "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -87,5 +93,91 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T14:10:50.728Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T14:10:50.728Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/6f60bb46520322d6f8f9443550b22097d6a254dc849ad0a753c62c3659123da0.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/29/tram8/ba774327b3cb445dba167333169a1c96.png"
+        ]
+      },
+      "description": {
+        "to": "Thức uống sô-cô-la Hershey's Protein, hộp giấy 235 ml. Trên hộp in \"Classic HERSHEY'S Taste, Packed with Protein\" và huy hiệu \"Protein 8g\".\n\nQuy cách: 235 ml · hộp\nThương hiệu: Hershey's",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {
+      "price": {
+        "to": 30555.56,
+        "from": 30000
+      },
+      "saleTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 65894532
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 65894532
+        }
+      },
+      "taxRate": {
+        "to": "VAT 8%",
+        "from": "VAT 10%"
+      },
+      "productTaxs": {
+        "to": [
+          {
+            "id": 0,
+            "name": "VAT 8%",
+            "taxId": 3,
+            "value": 8,
+            "productId": 65894532
+          }
+        ],
+        "from": [
+          {
+            "id": 0,
+            "name": "VAT 10%",
+            "taxId": 4,
+            "value": 10,
+            "productId": 65894532
+          }
+        ]
+      },
+      "purchaseTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 65894532
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 65894532
+        }
+      }
+    }
   }
 }

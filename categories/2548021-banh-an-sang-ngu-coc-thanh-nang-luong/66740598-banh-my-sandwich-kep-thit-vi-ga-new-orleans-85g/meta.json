@@ -17,7 +17,7 @@
     "description": "Bánh mỳ sandwich kẹp thịt vị gà New Orleans của thương hiệu Dominatte, ăn liền, không cần nướng.\n\nQuy cách: 85 g · cái\nThương hiệu: Dominatte",
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I5: ảnh chụp gói, nhăn → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Bánh mỳ sandwich kẹp thịt vị gà New Orleans, ≥65%, Khối lượng tịnh: 85 g khớp ảnh KiotViet.",
@@ -75,6 +75,12 @@
       "by": "init",
       "status": "READY",
       "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -84,5 +90,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T17:09:12.291Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T17:09:12.291Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/507e0a20ac34df6db2256638f1912fbc11f95bf88b4aa0f821a446054ebf4324.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/30/tram8/52889564792948e7b0c38e9ea93fb83c.png"
+        ]
+      },
+      "description": {
+        "to": "Bánh mỳ sandwich kẹp thịt vị gà New Orleans của thương hiệu Dominatte, ăn liền, không cần nướng.\n\nQuy cách: 85 g · cái\nThương hiệu: Dominatte",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

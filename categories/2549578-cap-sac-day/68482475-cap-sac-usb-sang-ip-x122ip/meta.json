@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I3/I6: ảnh chụp tay hộp/vỉ, bóng lóa, mép mòn; hocotech.com không có SP này → Gemini vẽ lại (v12–v15) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ lớn (mã, công suất, độ dài, cổng) khớp ảnh KiotViet; dòng chữ đa ngữ nhỏ chỉ minh hoạ",
@@ -63,6 +63,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -72,5 +78,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T17:47:29.927Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T17:47:29.927Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/2e6305b9628409ef9345023fe38787eab329314f5fb60e6e9e79828c8b276e3f.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/10/15/tram8/c0dc089d2ba649918fa06ba30ff4f668.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Cáp sạc hoco X122 USB-A sang iPhone (Lightning), dòng 2.4A, dây silicone, đầu cáp đúc liền khối.\n\nQuy cách: dài 1 m · cái\nThương hiệu: hoco",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

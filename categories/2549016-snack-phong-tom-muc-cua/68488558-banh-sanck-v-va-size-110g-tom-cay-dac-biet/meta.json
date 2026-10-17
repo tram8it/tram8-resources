@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I3/I4: ảnh KiotViet chụp tay, nền cửa hàng; thay bằng ảnh hãng Oishi đúng vị Snack Tôm Cay Đặc Biệt (trang hãng ghi có cỡ 110 g; ảnh hãng là ảnh chung của vị, không in khối lượng; cùng thiết kế với gói trong ảnh cửa hàng); gắn nhãn \"Size cực lớn\" theo yêu cầu chủ 17/10 (v21), ảnh chưa gắn nhãn ở work/untagged/68488558.webp",
@@ -57,6 +57,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -66,5 +72,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T17:44:13.257Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T17:44:13.257Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/29cd2d684b16356c3de1a82434814e818cc428d686ea966938557a375832dcf9.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/10/15/tram8/770aa100e5194706995a12ccceb181c8.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Snack tôm cay đặc biệt của Oishi, rang không chiên, đậm vị tôm cay.\n\nQuy cách: 110 g · gói cỡ lớn\nNhà sản xuất/thương hiệu: Oishi",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

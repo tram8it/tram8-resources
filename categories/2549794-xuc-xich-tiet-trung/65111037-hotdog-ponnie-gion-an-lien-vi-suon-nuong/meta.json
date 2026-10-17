@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "READY",
+  "status": "IN_PROGRESS",
   "image": {
     "decision": "REPLACE",
     "reason": "ảnh tự chụp: gói nhăn, bóng, mờ; không có ảnh hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: bỏ dấu in NSX/HSD; mã vạch, chữ nhỏ chỉ minh hoạ",
@@ -69,6 +69,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "IN_PROGRESS",
+      "note": "rejected on Hub by AU KHUONG DUY: Hơi to, ko giống kỳ vọng lắm, bên trong nó có mỗi 1 cái xúc xích mini thôi"
     }
   ],
   "submitted": {
@@ -78,5 +84,11 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "REJECTED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T16:32:13.074Z",
+    "note": "Hơi to, ko giống kỳ vọng lắm, bên trong nó có mỗi 1 cái xúc xích mini thôi"
   }
 }

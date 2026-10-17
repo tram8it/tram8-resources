@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I3/I4/I7: ảnh chụp trong cửa hàng, có dấu chìm 'DDL 便利店'; không có trang hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: đã bỏ dãy số Gemini tự bịa ở mặt bên; dòng chữ nhỏ cạnh 桃気 bị méo (không đúng chữ thật), chỉ minh hoạ; 净含量 75克 khớp mẫu",
@@ -66,6 +66,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -75,5 +81,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T17:44:51.818Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T17:44:51.818Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/a993f8f7822e6cd9fdab35ac5ab0b0c5ff0baba6c6526a1038f2f6f0cdab72cb.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/10/16/tram8/23f6f1bf10ff406eb39bf6bf95cb48b0.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Kem vị đào 桃気 tạo hình quả đào, đặt trong vòm nhựa trong trên hộp giấy.\n\nQuy cách: 75 g · hộp\nNhà sản xuất: Đại Sâm Lâm (Cát Lâm, Trung Quốc)\nBảo quản: Giữ đông ở −18 °C hoặc lạnh hơn.",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

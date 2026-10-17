@@ -17,7 +17,7 @@
     "description": "Nước tăng lực Red Bull Extra lon vàng, bổ sung vitamin B6, B12 và kẽm. Ngon hơn khi uống lạnh.\n\nQuy cách: 250 ml · lon\nXuất xứ: Thái Lan · Nhà sản xuất/thương hiệu: T.C. Pharmaceutical · Red Bull",
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "ảnh tự chụp (lon bóng lóa) → ảnh hãng tcp.com (render lon Red Bull Extra B6, B12 + Zinc bản Việt Nam); bỏ bóng đổ dưới đáy, phóng ~2 lần (v4)",
@@ -74,6 +74,12 @@
       "by": "init",
       "status": "READY",
       "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -83,5 +89,91 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T14:13:19.611Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T14:13:19.611Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/6b381624a22f01402c740976ea038a9ff3fe57114883ee1087a20eadb8e0ec2c.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/30/tram8/866cd00d3501496eafeb74f91697f001.png"
+        ]
+      },
+      "description": {
+        "to": "Nước tăng lực Red Bull Extra lon vàng, bổ sung vitamin B6, B12 và kẽm. Ngon hơn khi uống lạnh.\n\nQuy cách: 250 ml · lon\nXuất xứ: Thái Lan · Nhà sản xuất/thương hiệu: T.C. Pharmaceutical · Red Bull",
+        "from": "<p>Nước tăng lực Redbull Extra ít đường</p>"
+      }
+    },
+    "unexpectedChanges": {
+      "price": {
+        "to": 16666.67,
+        "from": 16363.64
+      },
+      "saleTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 65960350
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 65960350
+        }
+      },
+      "taxRate": {
+        "to": "VAT 8%",
+        "from": "VAT 10%"
+      },
+      "productTaxs": {
+        "to": [
+          {
+            "id": 0,
+            "name": "VAT 8%",
+            "taxId": 3,
+            "value": 8,
+            "productId": 65960350
+          }
+        ],
+        "from": [
+          {
+            "id": 0,
+            "name": "VAT 10%",
+            "taxId": 4,
+            "value": 10,
+            "productId": 65960350
+          }
+        ]
+      },
+      "purchaseTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 65960350
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 65960350
+        }
+      }
+    }
   }
 }

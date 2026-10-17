@@ -17,19 +17,12 @@
     "description": "Khô gà cay truyền thống Fansipan Jerky, thịt gà sấy xé sợi, dùng làm món ăn vặt hoặc đồ nhắm.\n\nQuy cách: gói · độ ẩm < 20%, protein > 13% (theo bao bì)\nXuất xứ: Việt Nam · Nhà sản xuất/thương hiệu: Fansipan",
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "READY",
+  "status": "NO_CHANGE",
   "image": {
-    "decision": "REPLACE",
-    "reason": "I3/I5: ảnh tự chụp gói nhăn, bóng, hơi mờ; không có ảnh hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ nhỏ vẽ gần đúng; còn lại không thấy khác biệt",
-    "source": {
-      "aiGenerated": true,
-      "tool": "Gemini API",
-      "model": "gemini-nano-banana-2.1",
-      "generatedAt": "2026-10-17",
-      "style": "flat clean packaging render (v17)",
-      "reference": "ảnh KiotViet"
-    },
-    "rubricVersion": "v18"
+    "decision": "KEEP",
+    "reason": "Chủ từ chối ảnh mới trên Hub 17/10: Cũng được",
+    "source": null,
+    "rubricVersion": "v22"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -92,6 +85,18 @@
       "by": "init",
       "status": "READY",
       "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "IN_PROGRESS",
+      "note": "rejected on Hub by AU KHUONG DUY: Cũng được"
+    },
+    {
+      "at": "2026-10-17T17:48:03+00:00",
+      "by": "owner",
+      "status": "NO_CHANGE",
+      "note": "Hub: Cũng được"
     }
   ],
   "submitted": {
@@ -103,10 +108,10 @@
     "hubStatus": "PENDING"
   },
   "review": {
-    "status": "APPLIED",
+    "status": "REJECTED",
     "reviewedBy": "AU KHUONG DUY",
-    "reviewedAt": "2026-10-15T09:30:34.705Z",
-    "note": null
+    "reviewedAt": "2026-10-17T17:19:31.888Z",
+    "note": "Cũng được"
   },
   "uploaded": {
     "at": "2026-10-15T09:30:34.705Z",

@@ -17,19 +17,12 @@
     "description": "Sô cô la tím dạng thanh, hàm lượng ca cao 46%, bao bì minh hoạ Đại Nội Huế (chữ in trên bao bì: Violet Chocolate).\n\nQuy cách: 38 g · thanh",
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "READY",
+  "status": "NO_CHANGE",
   "image": {
-    "decision": "REPLACE",
-    "reason": "I3/I5: ảnh tự chụp hộp giấy, hơi nghiêng, mép mờ; hãng (Tbros An Nom) chưa có trang trong brands.json → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: tranh minh hoạ vẽ lại gần đúng, chi tiết nhỏ có thể khác; dấu giải thưởng nhỏ không đọc được; chữ lớn, % cacao và KLT/NET đúng như hộp",
-    "source": {
-      "aiGenerated": true,
-      "tool": "Gemini API",
-      "model": "gemini-nano-banana-2.1",
-      "generatedAt": "2026-10-17",
-      "style": "flat clean packaging render (v17)",
-      "reference": "ảnh KiotViet (hộp giấy chụp tay)"
-    },
-    "rubricVersion": "v18"
+    "decision": "KEEP",
+    "reason": "Chủ từ chối ảnh mới trên Hub 17/10: Ảnh cũ oke rồi",
+    "source": null,
+    "rubricVersion": "v22"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -92,6 +85,18 @@
       "by": "init",
       "status": "READY",
       "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "IN_PROGRESS",
+      "note": "rejected on Hub by AU KHUONG DUY: Ảnh cũ oke rồi"
+    },
+    {
+      "at": "2026-10-17T17:48:03+00:00",
+      "by": "owner",
+      "status": "NO_CHANGE",
+      "note": "Hub: Ảnh cũ oke rồi"
     }
   ],
   "submitted": {
@@ -103,10 +108,10 @@
     "hubStatus": "PENDING"
   },
   "review": {
-    "status": "APPLIED",
+    "status": "REJECTED",
     "reviewedBy": "AU KHUONG DUY",
-    "reviewedAt": "2026-10-15T09:28:49.248Z",
-    "note": null
+    "reviewedAt": "2026-10-17T17:01:10.127Z",
+    "note": "Ảnh cũ oke rồi"
   },
   "uploaded": {
     "at": "2026-10-15T09:28:49.248Z",

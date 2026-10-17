@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "READY",
+  "status": "IN_PROGRESS",
   "image": {
     "decision": "REPLACE",
     "reason": "I1: chưa có ảnh; hãng chỉ có ảnh gói trong banner → vẽ lại → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: ẢNH MINH HOẠ: thiết kế lấy từ gói 25 g cùng vị, khối lượng sửa thành 40 g theo tên hàng; con dấu tròn nhỏ màu cam, chữ trong dấu không đọc được (gốc màu xanh)",
@@ -87,6 +87,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "IN_PROGRESS",
+      "note": "rejected on Hub by AU KHUONG DUY: Bao bì ko giống, search web chưa"
     }
   ],
   "submitted": {
@@ -96,5 +102,11 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "REJECTED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T13:56:30.386Z",
+    "note": "Bao bì ko giống, search web chưa"
   }
 }

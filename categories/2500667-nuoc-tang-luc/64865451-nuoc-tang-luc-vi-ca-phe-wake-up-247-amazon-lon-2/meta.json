@@ -17,7 +17,7 @@
     "description": "Nước tăng lực Wake-up 247 vị cà phê dạng lon, bổ sung taurine và các vitamin B3, B6, B12. Ngon hơn khi uống lạnh.\n\nQuy cách: 245 ml · lon\nNhà sản xuất/thương hiệu: Wake-up 247",
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "ảnh tự chụp (lon nghiêng, bóng lóa); masanconsumer.com chặn (403) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: lần 1 Gemini tự đổi chữ thành 'vị cà phê' → đã sửa về đúng 'NƯỚC TĂNG LỰC VÀNG MỚI'; chân dung cầu thủ in trên lon vẽ lại theo ảnh gốc (khuôn mặt có thể không giống hệt); 245 ml khớp",
@@ -75,6 +75,12 @@
       "by": "init",
       "status": "READY",
       "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -84,5 +90,91 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T16:46:24.634Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T16:46:24.634Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/8ff784ba73abc3d940fc86df5d6fc62b1c339e3e4f6bdf9a500acf05cb5a3bcf.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/30/tram8/9125b291a0144534af9acecc728c1ba7.png"
+        ]
+      },
+      "description": {
+        "to": "Nước tăng lực Wake-up 247 vị cà phê dạng lon, bổ sung taurine và các vitamin B3, B6, B12. Ngon hơn khi uống lạnh.\n\nQuy cách: 245 ml · lon\nNhà sản xuất/thương hiệu: Wake-up 247",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {
+      "price": {
+        "to": 11574.07,
+        "from": 11363.64
+      },
+      "saleTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 64865451
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 64865451
+        }
+      },
+      "taxRate": {
+        "to": "VAT 8%",
+        "from": "VAT 10%"
+      },
+      "productTaxs": {
+        "to": [
+          {
+            "id": 0,
+            "name": "VAT 8%",
+            "taxId": 3,
+            "value": 8,
+            "productId": 64865451
+          }
+        ],
+        "from": [
+          {
+            "id": 0,
+            "name": "VAT 10%",
+            "taxId": 4,
+            "value": 10,
+            "productId": 64865451
+          }
+        ]
+      },
+      "purchaseTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 64865451
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 64865451
+        }
+      }
+    }
   }
 }

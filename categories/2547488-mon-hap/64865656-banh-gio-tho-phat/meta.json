@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I3/I4: ảnh KiotViet là mặt sau nhãn, không thấy bánh → ảnh món ăn Gemini vẽ từ ảnh bao bì (v18: món hấp bán lẻ hiện cái bánh và nhân); ảnh minh hoạ. Khác hàng thật: ảnh minh hoạ; hình chóp theo khay đúc trên ảnh bao bì, nhân thịt heo + nấm mèo + 1 trứng cút theo thành phần in trên nhãn; tỉ lệ nhân thật có thể khác",
@@ -69,6 +69,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -78,5 +84,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T17:44:39.114Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T17:44:39.114Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/4c89a73371c63e718b9cd7b28d95ab8d00db34e064a64cf2c59869a9a1c91967.webp"
+        ],
+        "from": [
+          "https://cdn1-retail-images.kiotviet.vn/2026/01/07/tongpenhchtl/8dc3919331824432bb0e1ad6b4a59425.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Bánh giò Thọ Phát nhân thịt heo và 1 trứng cút, gói lá, dùng nóng cho bữa sáng.\n\nQuy cách: 160 g · cái\nNhà sản xuất/thương hiệu: Thọ Phát (KIDO Group)\nHướng dẫn sử dụng: hấp nóng trước khi dùng (thời gian theo hướng dẫn trên bao bì); bảo quản lạnh theo bao bì.",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

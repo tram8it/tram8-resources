@@ -17,7 +17,7 @@
     "description": "Thuốc lá điếu đầu lọc Camel Caster Black Tea, bao cứng màu đen.\n\nQuy cách: bao\nThương hiệu: Camel · Nhà sản xuất: Công ty TNHH MTV Thuốc lá Thanh Hóa (Vinataba)\n\nChỉ bán cho người từ 18 tuổi trở lên.\nHút thuốc lá có hại cho sức khỏe.",
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I2: ảnh KiotViet là bao Camel Compact Caster (khác SP, không có chữ Black Tea); không có ảnh hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: ảnh mẫu nhỏ, hoạ tiết vân nền và vòng tròn đỏ do AI vẽ lại gần đúng",
@@ -72,6 +72,12 @@
       "by": "init",
       "status": "READY",
       "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -81,5 +87,92 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T09:05:40.333Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T09:05:40.333Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/9541d1436afce9799b138be711c09cc5fd7757dcd140c4fb8b668dea85dd8401.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/09/11/tram8/32b7162a1141420bbae2edf904f864b5.png",
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/29/tram8/8f0ab031137f49319e39693c9df39c37.png"
+        ]
+      },
+      "description": {
+        "to": "Thuốc lá điếu đầu lọc Camel Caster Black Tea, bao cứng màu đen.\n\nQuy cách: bao\nThương hiệu: Camel · Nhà sản xuất: Công ty TNHH MTV Thuốc lá Thanh Hóa (Vinataba)\n\nChỉ bán cho người từ 18 tuổi trở lên.\nHút thuốc lá có hại cho sức khỏe.",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {
+      "price": {
+        "to": 50000,
+        "from": 49090.91
+      },
+      "saleTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 64865178
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 64865178
+        }
+      },
+      "taxRate": {
+        "to": "VAT 8%",
+        "from": "VAT 10%"
+      },
+      "productTaxs": {
+        "to": [
+          {
+            "id": 0,
+            "name": "VAT 8%",
+            "taxId": 3,
+            "value": 8,
+            "productId": 64865178
+          }
+        ],
+        "from": [
+          {
+            "id": 0,
+            "name": "VAT 10%",
+            "taxId": 4,
+            "value": 10,
+            "productId": 64865178
+          }
+        ]
+      },
+      "purchaseTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 64865178
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 64865178
+        }
+      }
+    }
   }
 }

@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I3/I4: ảnh KiotViet chụp tay, nền cửa hàng; thay bằng ảnh hãng Oishi đúng vị Snack Bắp Ngọt (trang hãng ghi có cỡ 110 g; ảnh hãng là ảnh chung của vị, không in khối lượng; cùng thiết kế với gói trong ảnh cửa hàng); gắn nhãn \"Size cực lớn\" theo yêu cầu chủ 17/10 (v21), ảnh chưa gắn nhãn ở work/untagged/68488703.webp",
@@ -57,6 +57,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -66,5 +72,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T17:44:06.739Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T17:44:06.739Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/02cebbcab516503ce36ba07373583782b66961268bd1e8f076adfc3296f05338.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/10/15/tram8/841d4e91d6d4406db33658151ee0a93b.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Snack bắp ngọt Oishi làm từ nguyên liệu bắp, được nướng chứ không chiên, vị ngọt nhẹ dễ ăn, hợp làm món ăn vặt cho cả nhà.\n\nQuy cách: 110 g · gói cỡ lớn\nNhà sản xuất/thương hiệu: Oishi",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

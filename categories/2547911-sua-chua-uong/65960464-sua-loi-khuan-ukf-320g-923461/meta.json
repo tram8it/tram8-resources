@@ -17,7 +17,7 @@
     "description": "Sữa lợi khuẩn UKF (Lactic Acid Bacteria), đồ uống có men vi sinh, không béo theo chữ in trên chai (Active probiotics, Zero fat).\n\nQuy cách: 320 g · chai\nNhà sản xuất/thương hiệu: UKF",
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "ảnh tự chụp (chai mềm, bóng); không có ảnh hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ lớn khớp (UKF, Active Probiotics, Zero Fat, Lactic Acid Bacteria, Net Wt: 320g); chữ nhỏ dưới mờ",
@@ -75,6 +75,12 @@
       "by": "init",
       "status": "READY",
       "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -84,5 +90,91 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T16:48:45.800Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T16:48:45.800Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/9798d883c0845177f2997eccbca0082ac20f82b95c7754a1ce99b9be4b5d03e6.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/29/tram8/b8dbdb2b75a84e77b13ee292c1fc3e40.png"
+        ]
+      },
+      "description": {
+        "to": "Sữa lợi khuẩn UKF (Lactic Acid Bacteria), đồ uống có men vi sinh, không béo theo chữ in trên chai (Active probiotics, Zero fat).\n\nQuy cách: 320 g · chai\nNhà sản xuất/thương hiệu: UKF",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {
+      "price": {
+        "to": 21296.3,
+        "from": 20909.09
+      },
+      "saleTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 65960464
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 65960464
+        }
+      },
+      "taxRate": {
+        "to": "VAT 8%",
+        "from": "VAT 10%"
+      },
+      "productTaxs": {
+        "to": [
+          {
+            "id": 0,
+            "name": "VAT 8%",
+            "taxId": 3,
+            "value": 8,
+            "productId": 65960464
+          }
+        ],
+        "from": [
+          {
+            "id": 0,
+            "name": "VAT 10%",
+            "taxId": 4,
+            "value": 10,
+            "productId": 65960464
+          }
+        ]
+      },
+      "purchaseTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 65960464
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 65960464
+        }
+      }
+    }
   }
 }

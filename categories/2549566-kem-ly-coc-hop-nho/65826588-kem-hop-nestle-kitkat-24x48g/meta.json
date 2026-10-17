@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "READY",
+  "status": "IN_PROGRESS",
   "image": {
     "decision": "REPLACE",
     "reason": "ảnh tự chụp (nghiêng, nắp mờ, in hạn dùng); không có ảnh hãng bao bì Thái → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: bảng dinh dưỡng GDA và chữ nhỏ làm mờ (ảnh mẫu không đọc được); bỏ hạn dùng in trên nắp",
@@ -74,6 +74,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "IN_PROGRESS",
+      "note": "rejected on Hub by AU KHUONG DUY: Cái này nhầm hình ly to thì phải"
     }
   ],
   "submitted": {
@@ -83,5 +89,11 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "REJECTED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T16:10:46.499Z",
+    "note": "Cái này nhầm hình ly to thì phải"
   }
 }

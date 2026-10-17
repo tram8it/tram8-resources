@@ -17,7 +17,7 @@
     "description": "Nước trái cây Oishi Sundays hương nho, túi 180 ml có vòi. Trên bao bì in \"Bổ sung Vitamin C\", \"Không màu nhân tạo\".\n\nQuy cách: 180 ml · túi\nThương hiệu: Oishi",
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I9: ảnh KiotViet chưa 1:1, nhỏ; thay bằng ảnh hãng Oishi Sundays Nước Nho (cùng bao bì, https://oishi.com.vn/category/beverages). Bán theo túi lẻ (đơn vị Gói)",
@@ -68,6 +68,12 @@
       "by": "init",
       "status": "READY",
       "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -77,5 +83,91 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T14:11:50.999Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T14:11:50.999Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/6deed7a963ff34c831d7015702fd91217d717e4ffa815726ac04f972440f23e1.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/30/tram8/0de91699fc134bcead85f92e193f1d4d.png"
+        ]
+      },
+      "description": {
+        "to": "Nước trái cây Oishi Sundays hương nho, túi 180 ml có vòi. Trên bao bì in \"Bổ sung Vitamin C\", \"Không màu nhân tạo\".\n\nQuy cách: 180 ml · túi\nThương hiệu: Oishi",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {
+      "price": {
+        "to": 5555.56,
+        "from": 5454.55
+      },
+      "saleTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 66362194
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 66362194
+        }
+      },
+      "taxRate": {
+        "to": "VAT 8%",
+        "from": "VAT 10%"
+      },
+      "productTaxs": {
+        "to": [
+          {
+            "id": 0,
+            "name": "VAT 8%",
+            "taxId": 3,
+            "value": 8,
+            "productId": 66362194
+          }
+        ],
+        "from": [
+          {
+            "id": 0,
+            "name": "VAT 10%",
+            "taxId": 4,
+            "value": 10,
+            "productId": 66362194
+          }
+        ]
+      },
+      "purchaseTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 66362194
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 66362194
+        }
+      }
+    }
   }
 }

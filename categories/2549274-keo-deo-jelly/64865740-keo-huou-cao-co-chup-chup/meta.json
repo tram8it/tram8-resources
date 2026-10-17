@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I3/I5: ảnh KiotViet là hộp trưng bày bị cắt khung, không phải 1 thanh kẹo bán lẻ; không có ảnh hãng → Gemini vẽ 1 thanh kẹo theo ảnh mẫu (ảnh minh hoạ) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: ảnh minh hoạ vẽ lại theo ảnh Kingfoodmart; chữ rất nhỏ ở đáy 'KẸO DẺO DÀI' dấu hơi giống 'DẢI', dòng chữ dọc li ti cạnh hươu không đọc được; còn lại logo, SOUR, CRAZY RAFFE, Hươu Cao Cổ, 'Kẹo dẻo hương dâu vani', 'Có nhân' khớp mẫu",
@@ -78,6 +78,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: brand, description, image"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "master": {
@@ -93,5 +99,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T17:36:06.294Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T17:36:06.294Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/2ccd922acf6ece8f98a876699137e3cca1b0484022bdf2ad5a23186b343969af.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2025/12/11/tongpenhchtl/f9c621d0dddf4c1aaa98f7534e28c992.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Kẹo dẻo Chupa Chups Crazy Raffe Hươu Cao Cổ vị chua (Sour), hương dâu vani. Thanh kẹo dẻo dài hình xoắn, có nhân, đóng gói từng thanh.\n\nQuy cách: thanh\nThương hiệu: Chupa Chups",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

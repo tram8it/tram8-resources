@@ -17,19 +17,12 @@
     "description": "Khô gà lá chanh đóng hũ nhựa, thịt gà sấy xé sợi trộn lá chanh, dùng làm món ăn vặt hoặc đồ nhắm.\n\nQuy cách: 276 g · hộp",
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "READY",
+  "status": "NO_CHANGE",
   "image": {
-    "decision": "REPLACE",
-    "reason": "I3/I5: ảnh tự chụp gói nhăn, bóng, hơi mờ; không có ảnh hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: bỏ dòng in NSX/HSD và mã vạch; đoạn thành phần/địa chỉ làm mờ không đọc được; giữ 'Trọng lượng: 276 g' · vùng chữ thành phần/địa chỉ do AI vẽ đã làm mờ (không đọc được)",
-    "source": {
-      "aiGenerated": true,
-      "tool": "Gemini API",
-      "model": "gemini-nano-banana-2.1",
-      "generatedAt": "2026-10-17",
-      "style": "flat clean packaging render (v17)",
-      "reference": "ảnh KiotViet"
-    },
-    "rubricVersion": "v18"
+    "decision": "KEEP",
+    "reason": "Chủ từ chối ảnh mới trên Hub 17/10: Cái cũ ổn rồi",
+    "source": null,
+    "rubricVersion": "v22"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -92,6 +85,18 @@
       "by": "init",
       "status": "READY",
       "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "IN_PROGRESS",
+      "note": "rejected on Hub by AU KHUONG DUY: Cái cũ ổn rồi"
+    },
+    {
+      "at": "2026-10-17T17:48:03+00:00",
+      "by": "owner",
+      "status": "NO_CHANGE",
+      "note": "Hub: Cái cũ ổn rồi"
     }
   ],
   "submitted": {
@@ -103,10 +108,10 @@
     "hubStatus": "PENDING"
   },
   "review": {
-    "status": "APPLIED",
+    "status": "REJECTED",
     "reviewedBy": "AU KHUONG DUY",
-    "reviewedAt": "2026-10-15T09:30:27.104Z",
-    "note": null
+    "reviewedAt": "2026-10-17T17:19:57.652Z",
+    "note": "Cái cũ ổn rồi"
   },
   "uploaded": {
     "at": "2026-10-15T09:30:27.104Z",

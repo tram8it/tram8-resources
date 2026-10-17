@@ -17,7 +17,7 @@
     "description": "Trà lài vị chanh Bupnon Tea 365 của Masan Consumer, kết hợp hương hoa lài và vị chanh, uống liền. Ngon hơn khi uống lạnh.\n\nQuy cách: 500 ml · chai\nNhà sản xuất/thương hiệu: Masan Consumer · Bupnon Tea 365",
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I3/I4 + v20: ảnh KiotViet của mã này (mặt sau chai, nhãn vàng–trắng hoa lài 'BUPNON TEA 365 TRÀ LÀI VỊ CHANH' 500 ml) cùng thiết kế với SP 67505301, không phải bản 'ít đường' → dùng chung ảnh đã vẽ cho 67505301. I3/I4: chụp tay cầm trong cửa hàng; trang Masan chặn bot, chỉ có bản 'ít đường' khác nhãn → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không có dòng thể tích ở mặt trước; huy hiệu tròn nhỏ cạnh chữ BUP NON vẽ lại không đọc được chữ",
@@ -75,6 +75,12 @@
       "by": "init",
       "status": "READY",
       "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -84,5 +90,91 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T14:26:08.851Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T14:26:08.851Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/b8d1142dfe3e7a336264b6843d77b6f8baa58deebdcad058557be9f7a83c3605.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/10/08/tram8/260065eec54740d2b1cca34e19807424.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Trà lài vị chanh Bupnon Tea 365 của Masan Consumer, kết hợp hương hoa lài và vị chanh, uống liền. Ngon hơn khi uống lạnh.\n\nQuy cách: 500 ml · chai\nNhà sản xuất/thương hiệu: Masan Consumer · Bupnon Tea 365",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {
+      "price": {
+        "to": 12037.04,
+        "from": 11818.18
+      },
+      "saleTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 68412491
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 68412491
+        }
+      },
+      "taxRate": {
+        "to": "VAT 8%",
+        "from": "VAT 10%"
+      },
+      "productTaxs": {
+        "to": [
+          {
+            "id": 0,
+            "name": "VAT 8%",
+            "taxId": 3,
+            "value": 8,
+            "productId": 68412491
+          }
+        ],
+        "from": [
+          {
+            "id": 0,
+            "name": "VAT 10%",
+            "taxId": 4,
+            "value": 10,
+            "productId": 68412491
+          }
+        ]
+      },
+      "purchaseTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 68412491
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 68412491
+        }
+      }
+    }
   }
 }

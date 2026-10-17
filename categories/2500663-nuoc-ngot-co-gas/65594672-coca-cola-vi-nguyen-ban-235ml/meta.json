@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "READY",
+  "status": "IN_PROGRESS",
   "image": {
     "decision": "REPLACE",
     "reason": "ảnh tự chụp (mềm, bóng lóa); không có ảnh hãng đúng bao bì → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: lon vẽ hơi cao hơn lon 235 ml thật; ô năng lượng nhỏ bên phải chép từ lon 320 ml, có thể không khớp số của lon 235 ml",
@@ -72,6 +72,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "IN_PROGRESS",
+      "note": "rejected on Hub by AU KHUONG DUY: Tỉ lệ hơi béo so với thực tế"
     }
   ],
   "submitted": {
@@ -81,5 +87,11 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "REJECTED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T16:45:26.607Z",
+    "note": "Tỉ lệ hơi béo so với thực tế"
   }
 }

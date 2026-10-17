@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I3/I4: ảnh KiotViet chụp tay, nền cửa hàng; thay bằng ảnh hãng Oishi đúng vị Snack Hành (trang hãng ghi có cỡ 110 g; ảnh hãng là ảnh chung của vị, không in khối lượng; cùng thiết kế với gói trong ảnh cửa hàng); gắn nhãn \"Size cực lớn\" theo yêu cầu chủ 17/10 (v21), ảnh chưa gắn nhãn ở work/untagged/68488599.webp",
@@ -57,6 +57,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -66,5 +72,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T17:44:22.515Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T17:44:22.515Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/39dbc65af49ae70613408ef1e83dba55236d4dca4c86e97fef4de628e4b526f2.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/10/15/tram8/97ce9fdc58ed44ba8274c79ca134b697.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Snack hành Oishi dạng vòng tròn (onion rings), giòn tan, thơm vị hành; bao bì ghi làm với hành thật (with real onions).\n\nQuy cách: 110 g · gói cỡ lớn\nNhà sản xuất/thương hiệu: Oishi",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

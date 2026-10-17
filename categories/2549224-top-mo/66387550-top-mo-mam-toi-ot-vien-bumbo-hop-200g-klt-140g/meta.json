@@ -17,19 +17,12 @@
     "description": "Tóp mỡ tỏi ớt Quang Thanh Foods: tóp mỡ chiên giòn trộn mắm, tỏi, ớt, đựng hũ nhựa có nắp, ăn trực tiếp như món ăn vặt hoặc ăn kèm cơm.\n\nThành phần: Tóp mỡ, mắm, tỏi, ớt, dầu thực vật, gia vị.\nQuy cách: hũ nhựa · nhãn ghi TL: 200 g\nXuất xứ: Việt Nam (Hải Phòng) · Nhà sản xuất/thương hiệu: Quang Thanh Foods\nBảo quản: Nơi khô ráo, thoáng mát, tránh ánh nắng trực tiếp.\nHướng dẫn sử dụng: Dùng ăn trực tiếp.",
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "READY",
+  "status": "NO_CHANGE",
   "image": {
-    "decision": "REPLACE",
-    "reason": "I3/I6: ảnh hũ tự chụp, nhãn mờ; không có ảnh hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: đã làm mờ chữ nhỏ (thành phần, địa chỉ, SĐT, khẩu hiệu) vì Gemini viết sai; bỏ NSX/HSD; TL:200G theo nhãn",
-    "source": {
-      "aiGenerated": true,
-      "tool": "Gemini API",
-      "model": "gemini-nano-banana-2.1",
-      "generatedAt": "2026-10-17",
-      "style": "flat clean packaging render (v17)",
-      "reference": "ảnh KiotViet (hũ tự chụp của cửa hàng)"
-    },
-    "rubricVersion": "v18"
+    "decision": "KEEP",
+    "reason": "Chủ từ chối ảnh mới trên Hub 17/10: Cái bây giờ oke rồi",
+    "source": null,
+    "rubricVersion": "v22"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -92,6 +85,18 @@
       "by": "init",
       "status": "READY",
       "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "IN_PROGRESS",
+      "note": "rejected on Hub by AU KHUONG DUY: Cái bây giờ oke rồi"
+    },
+    {
+      "at": "2026-10-17T17:48:03+00:00",
+      "by": "owner",
+      "status": "NO_CHANGE",
+      "note": "Hub: Cái bây giờ oke rồi"
     }
   ],
   "submitted": {
@@ -103,10 +108,10 @@
     "hubStatus": "PENDING"
   },
   "review": {
-    "status": "APPLIED",
+    "status": "REJECTED",
     "reviewedBy": "AU KHUONG DUY",
-    "reviewedAt": "2026-10-15T09:29:56.018Z",
-    "note": null
+    "reviewedAt": "2026-10-17T17:17:35.890Z",
+    "note": "Cái bây giờ oke rồi"
   },
   "uploaded": {
     "at": "2026-10-15T09:29:56.018Z",

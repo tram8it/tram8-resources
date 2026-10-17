@@ -17,7 +17,7 @@
     "description": "Nước ngọt có gas 7UP hương chanh tự nhiên của Suntory PepsiCo Việt Nam, bọt ga thanh mát. Ngon hơn khi uống lạnh.\n\nQuy cách: 320 ml · lon\nNhà sản xuất/thương hiệu: Suntory PepsiCo Việt Nam · 7UP",
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "ảnh tự chụp (mềm, lóa, bao bì cũ) → ảnh hãng lon 7Up 320 ml bao bì mới nhất (v19) trên trang Suntory PepsiCo; phóng 1,7 lần",
@@ -74,6 +74,12 @@
       "by": "init",
       "status": "READY",
       "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -83,5 +89,91 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T16:33:46.665Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T16:33:46.665Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/016a0a1d63ceae4616f5f00ca11702be3350b7665c3bad88b4ea5ef10321b4ac.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2025/11/21/tongpenhchtl/9a378cd8234b430f8ab10cc1c4c38de4.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Nước ngọt có gas 7UP hương chanh tự nhiên của Suntory PepsiCo Việt Nam, bọt ga thanh mát. Ngon hơn khi uống lạnh.\n\nQuy cách: 320 ml · lon\nNhà sản xuất/thương hiệu: Suntory PepsiCo Việt Nam · 7UP",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {
+      "price": {
+        "to": 10648.15,
+        "from": 10454.55
+      },
+      "saleTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 64865795
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 64865795
+        }
+      },
+      "taxRate": {
+        "to": "VAT 8%",
+        "from": "VAT 10%"
+      },
+      "productTaxs": {
+        "to": [
+          {
+            "id": 0,
+            "name": "VAT 8%",
+            "taxId": 3,
+            "value": 8,
+            "productId": 64865795
+          }
+        ],
+        "from": [
+          {
+            "id": 0,
+            "name": "VAT 10%",
+            "taxId": 4,
+            "value": 10,
+            "productId": 64865795
+          }
+        ]
+      },
+      "purchaseTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 64865795
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 64865795
+        }
+      }
+    }
   }
 }

@@ -17,7 +17,7 @@
     "description": "Trà Tắc Tự Nhiên TH true TEA pha từ trà xanh và trà đen tuyển chọn trong nước, kết hợp nguyên liệu tắc tự nhiên cho vị ngọt thanh, dễ uống. Không dùng hương liệu tổng hợp, không chất bảo quản; ngon hơn khi uống lạnh.\n\nQuy cách: 350 ml · chai\nNhà sản xuất/thương hiệu: TH true TEA (TH true MILK)\nBảo quản: Nơi khô ráo, thoáng mát, tránh ánh nắng trực tiếp; lắc đều trước khi dùng. Sau khi mở nắp, bảo quản lạnh 4–10 °C và dùng hết trong 24 giờ.",
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "ảnh tự chụp (mềm, xỉn màu); ảnh hãng thmilk.vn chỉ có bản nhỏ 275px → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: theo màu bao bì trên ảnh hãng thmilk.vn (xanh nhạt hơn ảnh chụp); chữ khớp (TH true TEA, Trà Tắc Tự Nhiên, 350 ml)",
@@ -78,6 +78,12 @@
       "by": "init",
       "status": "READY",
       "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -87,5 +93,91 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T16:36:03.932Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T16:36:03.932Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/da02d664a413fa7e6ac335bbce8ca601bcf3d93c1e4882ec45da96b8aaa7576a.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/29/tram8/42ba3e9aee134a589fab5e5237e6d182.png"
+        ]
+      },
+      "description": {
+        "to": "Trà Tắc Tự Nhiên TH true TEA pha từ trà xanh và trà đen tuyển chọn trong nước, kết hợp nguyên liệu tắc tự nhiên cho vị ngọt thanh, dễ uống. Không dùng hương liệu tổng hợp, không chất bảo quản; ngon hơn khi uống lạnh.\n\nQuy cách: 350 ml · chai\nNhà sản xuất/thương hiệu: TH true TEA (TH true MILK)\nBảo quản: Nơi khô ráo, thoáng mát, tránh ánh nắng trực tiếp; lắc đều trước khi dùng. Sau khi mở nắp, bảo quản lạnh 4–10 °C và dùng hết trong 24 giờ.",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {
+      "price": {
+        "to": 12500,
+        "from": 12272.73
+      },
+      "saleTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 64865443
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 64865443
+        }
+      },
+      "taxRate": {
+        "to": "VAT 8%",
+        "from": "VAT 10%"
+      },
+      "productTaxs": {
+        "to": [
+          {
+            "id": 0,
+            "name": "VAT 8%",
+            "taxId": 3,
+            "value": 8,
+            "productId": 64865443
+          }
+        ],
+        "from": [
+          {
+            "id": 0,
+            "name": "VAT 10%",
+            "taxId": 4,
+            "value": 10,
+            "productId": 64865443
+          }
+        ]
+      },
+      "purchaseTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 64865443
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 64865443
+        }
+      }
+    }
   }
 }

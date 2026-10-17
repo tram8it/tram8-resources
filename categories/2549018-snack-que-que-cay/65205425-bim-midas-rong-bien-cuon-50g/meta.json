@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "READY",
+  "status": "IN_PROGRESS",
   "image": {
     "decision": "REPLACE",
     "reason": "I2/I3: ảnh chụp cận, mất mép gói; không có trang hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: mặt trước dựng từ ảnh cận + mặt sau iCheck (bỏ bảng dinh dưỡng/mã vạch); Net weight 50 g ± 2g như gói thật",
@@ -75,6 +75,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "IN_PROGRESS",
+      "note": "rejected on Hub by AU KHUONG DUY: cái gói này hơi ảo, cảm giác k giống thật lắm"
     }
   ],
   "submitted": {
@@ -84,5 +90,11 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "REJECTED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T17:25:09.822Z",
+    "note": "cái gói này hơi ảo, cảm giác k giống thật lắm"
   }
 }

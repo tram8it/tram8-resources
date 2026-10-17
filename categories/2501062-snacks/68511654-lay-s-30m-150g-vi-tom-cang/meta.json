@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I3/I4: ảnh KiotViet chụp tay, gói nhăn bóng, nền kho; trang hãng laysvietnam.com chặn bot (Incapsula) → Gemini vẽ lại (v12–v15, đồng bộ dãy Lay's đã vẽ bằng Gemini) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không có ảnh hãng/bán lẻ cho mã vạch này (bao bì mới); vẽ theo ảnh cửa hàng, ảnh Lay's vị Thăn Bò chỉ làm mẫu kiểu render/hình gói; ô dinh dưỡng và chú thích nhỏ góc phải dưới được làm mờ (Gemini tự bịa số); vị trí miếng khoai, chi tiết minh hoạ có thể lệch nhẹ",
@@ -63,6 +63,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -72,5 +78,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T17:43:49.087Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T17:43:49.087Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/89046dceaf854223dc0e28494e6e9d12b0f76207b3a17d0fd25cdf2bbe84b714.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/10/17/tram8/538f511cc71b48fcb3020778c7dcee1d.png"
+        ]
+      },
+      "description": {
+        "to": "Snack khoai tây Lay's vị tôm càng đút lò phô mai tan chảy (Baked Prawn with Melted Cheese), gói lớn Family Pack.\n\nQuy cách: 150 g · gói\nThương hiệu: Lay's (PepsiCo)",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

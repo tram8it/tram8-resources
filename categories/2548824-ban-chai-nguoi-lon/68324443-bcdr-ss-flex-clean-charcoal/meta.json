@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "READY",
+  "status": "IN_PROGRESS",
   "image": {
     "decision": "REPLACE",
     "reason": "I3/I4: ảnh chụp tay cầm, nền thùng hàng; đơn vị cây = 1 cây lẻ tách từ vỉ 2 cây (chủ 17/10) → Gemini vẽ 1 cây (cây cán xanh bên phải), ảnh minh hoạ, không bao bì → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: ảnh minh hoạ 1 cây cán bạc-xanh; vỉ còn 1 cây cán hồng, khách có thể nhận màu khác",
@@ -81,6 +81,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "IN_PROGRESS",
+      "note": "rejected on Hub by AU KHUONG DUY: Cần bao bì"
     }
   ],
   "submitted": {
@@ -90,5 +96,11 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "REJECTED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T09:20:07.647Z",
+    "note": "Cần bao bì"
   }
 }

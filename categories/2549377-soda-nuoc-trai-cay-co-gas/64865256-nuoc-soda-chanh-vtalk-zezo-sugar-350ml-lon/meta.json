@@ -17,7 +17,7 @@
     "description": "Nước soda chanh Vtalk Zero Sugar Lemonade (Hàn Quốc), có ga, không đường, 0 kcal (theo chữ in trên lon). Lon nhựa trong nắp giật.\n\nQuy cách: 350 ml · lon\nXuất xứ: Hàn Quốc · Thương hiệu: Vtalk",
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "ảnh tự chụp (lon mềm, mất chữ mép trái); không có ảnh hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ lớn khớp (VTALK Zero Sugar Lemonade, 브이톡, 0, Zero Sugar, 350 ml (0 kcal)); chữ Hàn nhỏ có thể không chính xác",
@@ -75,6 +75,12 @@
       "by": "init",
       "status": "READY",
       "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -84,5 +90,91 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T16:49:48.052Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T16:49:48.052Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/b281f51237475cb7168c86a9671824bfe75d4d9d023bfe85694cbc3e84e18cef.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/30/tram8/b93c448cfdeb4069a0a86dd7e150eb86.png"
+        ]
+      },
+      "description": {
+        "to": "Nước soda chanh Vtalk Zero Sugar Lemonade (Hàn Quốc), có ga, không đường, 0 kcal (theo chữ in trên lon). Lon nhựa trong nắp giật.\n\nQuy cách: 350 ml · lon\nXuất xứ: Hàn Quốc · Thương hiệu: Vtalk",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {
+      "price": {
+        "to": 24537.04,
+        "from": 24090.91
+      },
+      "saleTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 64865256
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 64865256
+        }
+      },
+      "taxRate": {
+        "to": "VAT 8%",
+        "from": "VAT 10%"
+      },
+      "productTaxs": {
+        "to": [
+          {
+            "id": 0,
+            "name": "VAT 8%",
+            "taxId": 3,
+            "value": 8,
+            "productId": 64865256
+          }
+        ],
+        "from": [
+          {
+            "id": 0,
+            "name": "VAT 10%",
+            "taxId": 4,
+            "value": 10,
+            "productId": 64865256
+          }
+        ]
+      },
+      "purchaseTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 64865256
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 64865256
+        }
+      }
+    }
   }
 }

@@ -17,7 +17,7 @@
     "description": "Trà thảo mộc Dr.Thanh (Cooling Tea) của Tân Hiệp Phát, từ 9 loại thảo mộc tự nhiên, uống thanh nhiệt; đóng chai công nghệ Aseptic.\n\nQuy cách: 330 ml · chai\nThương hiệu: Dr.Thanh (Tân Hiệp Phát)",
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I1: chưa có ảnh; trang hãng chỉ có ảnh lifestyle → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ nhỏ trên nhãn có thể khác; không ghi dung tích trên ảnh",
@@ -84,6 +84,12 @@
       "by": "init",
       "status": "READY",
       "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -93,5 +99,89 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T15:19:59.251Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T15:19:59.251Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/7d58ad550bc7db1dea10d3d1a6f1aebb67eb3619996dd7177410f0430d860c84.webp"
+        ],
+        "from": null
+      },
+      "description": {
+        "to": "Trà thảo mộc Dr.Thanh (Cooling Tea) của Tân Hiệp Phát, từ 9 loại thảo mộc tự nhiên, uống thanh nhiệt; đóng chai công nghệ Aseptic.\n\nQuy cách: 330 ml · chai\nThương hiệu: Dr.Thanh (Tân Hiệp Phát)",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {
+      "price": {
+        "to": 11574.07,
+        "from": 11363.64
+      },
+      "saleTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 64865800
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 64865800
+        }
+      },
+      "taxRate": {
+        "to": "VAT 8%",
+        "from": "VAT 10%"
+      },
+      "productTaxs": {
+        "to": [
+          {
+            "id": 0,
+            "name": "VAT 8%",
+            "taxId": 3,
+            "value": 8,
+            "productId": 64865800
+          }
+        ],
+        "from": [
+          {
+            "id": 0,
+            "name": "VAT 10%",
+            "taxId": 4,
+            "value": 10,
+            "productId": 64865800
+          }
+        ]
+      },
+      "purchaseTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 64865800
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 64865800
+        }
+      }
+    }
   }
 }

@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I3/I6: ảnh chụp tay hộp/vỉ, bóng lóa, mép mòn; hocotech.com không có SP này → Gemini vẽ lại (v12–v15) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ lớn (mã, công suất, độ dài, cổng) khớp ảnh KiotViet; dòng chữ đa ngữ nhỏ chỉ minh hoạ; đã bỏ tem phụ tiếng Việt của nhà nhập khẩu",
@@ -63,6 +63,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -72,5 +78,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T17:47:35.854Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T17:47:35.854Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/2e427f3e439b8fe84b66837ba8f3bfff305c4eb1ce4009f686f14ca1c6706823.webp"
+        ],
+        "from": [
+          "https://cdn1-retail-images.kiotviet.vn/2026/10/15/tram8/5e619c6241ed4d7cadce51d92c40bfd9.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Cáp sạc nhanh hoco X115 USB-C sang USB-C, 240W, dòng 5A.\n\nQuy cách: dài 1 m · cái\nThương hiệu: hoco",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

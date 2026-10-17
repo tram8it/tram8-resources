@@ -20,7 +20,7 @@
   "status": "READY",
   "image": {
     "decision": "KEEP",
-    "reason": "Ảnh KiotViet: chai Head & Shoulders Bạc Hà Mát Lạnh (Cool Menthol) nền trắng, đúng hàng theo mã vạch 4902430375825 (iCheck: bạc hà mát rượi, bao bì cũ); chuẩn hoá 1:1",
+    "reason": "Ảnh KiotViet: chai Head & Shoulders Bạc Hà Mát Lạnh (Cool Menthol) nền trắng, đúng hàng theo mã vạch 4902430375825 (iCheck: bạc hà mát rượi, bao bì cũ); chuẩn hoá 1:1 | 17/10: chủ từ chối vì tối/chữ chưa sáng → tone.py --vivid (sáng + tươi hơn, toàn ảnh)",
     "source": null,
     "rubricVersion": "v19"
   },
@@ -55,14 +55,38 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "IN_PROGRESS",
+      "note": "rejected on Hub by AU KHUONG DUY: Sp hơi tối"
+    },
+    {
+      "at": "2026-10-17T17:48:42+00:00",
+      "by": "ai",
+      "status": "READY",
+      "note": "Làm sáng ảnh theo góp ý của chủ trên Hub"
+    },
+    {
+      "at": "2026-10-17T17:48:42.753Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-17T14:06:31.629Z",
+    "at": "2026-10-17T17:48:42.753Z",
     "fields": [
       "description",
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "REJECTED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T14:24:13.362Z",
+    "note": "Sp hơi tối"
   }
 }

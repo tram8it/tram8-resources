@@ -17,10 +17,10 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "READY",
+  "status": "NEEDS_PHOTO",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh; SP bán 1 viên lẻ, không có ảnh vỏ viên Tico Matcha → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: ẢNH MINH HOẠ: viên kem không vỏ (1 viên nguyên + 1 viên cắt đôi), nhân kem trà xanh phủ sô cô la sữa theo mô tả Tico Matcha (Kurly: kem trà xanh phủ sô cô la sữa, hộp 15 × 30 ml); khách nhận 1 viên trong vỏ gói riêng",
+    "reason": "Chủ: đợi chụp ảnh vỏ, cần cả SP kèm vỏ",
     "source": {
       "aiGenerated": true,
       "tool": "Gemini API",
@@ -81,6 +81,18 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "IN_PROGRESS",
+      "note": "rejected on Hub by AU KHUONG DUY: Đợi chụp ảnh vỏ, phải có cả sp kèm vỏ."
+    },
+    {
+      "at": "2026-10-17T17:48:03+00:00",
+      "by": "owner",
+      "status": "NEEDS_PHOTO",
+      "note": "Hub: Đợi chụp ảnh vỏ, phải có cả sp kèm vỏ."
     }
   ],
   "submitted": {
@@ -90,5 +102,11 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "REJECTED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T14:11:58.799Z",
+    "note": "Đợi chụp ảnh vỏ, phải có cả sp kèm vỏ."
   }
 }

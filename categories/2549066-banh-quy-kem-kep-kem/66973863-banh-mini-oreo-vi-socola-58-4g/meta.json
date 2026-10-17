@@ -17,7 +17,7 @@
     "description": "Bánh quy Mini Oreo nhân kem sô cô la, bánh Oreo cỡ nhỏ.\n\nQuy cách: 58,4 g\nThương hiệu: Oreo (Mondelēz)",
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I1: chưa có ảnh; trang Mondelez VN không có SP; lần trước vẽ nhầm dạng cốc, chủ báo SP là gói (túi zip) → vẽ lại dạng túi → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: dòng 'BERAT BERSIH/NET WT: 58.4g' và 2 dòng tên SP khớp ảnh mẫu; chữ nhỏ (HSD, nhà SX, BPOM, bảng dinh dưỡng, mã Halal) để mờ không đọc được vì AI bịa số (đã làm mờ thêm bằng tay vùng chữ nhỏ); thiếu dòng nhỏ 'SARAN PENYAJIAN/SERVING SUGGESTION'; bố cục bánh/sữa theo ảnh mẫu",
@@ -87,6 +87,12 @@
       "by": "init",
       "status": "READY",
       "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -98,9 +104,26 @@
     "hubStatus": "PENDING"
   },
   "review": {
-    "status": "REJECTED",
+    "status": "APPLIED",
     "reviewedBy": "AU KHUONG DUY",
-    "reviewedAt": "2026-10-17T05:19:39.900Z",
-    "note": "Cái này là gói chứ k phải lọ như b gửi"
+    "reviewedAt": "2026-10-17T09:04:57.289Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T09:04:57.289Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/2b49e97b9921c42ddd99cc18df74c7a3493f0cdba5cf2112ae5a3b425dc7525d.webp"
+        ],
+        "from": null
+      },
+      "description": {
+        "to": "Bánh quy Mini Oreo nhân kem sô cô la, bánh Oreo cỡ nhỏ.\n\nQuy cách: 58,4 g\nThương hiệu: Oreo (Mondelēz)",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

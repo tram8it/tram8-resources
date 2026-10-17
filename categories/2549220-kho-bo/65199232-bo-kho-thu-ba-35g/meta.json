@@ -17,19 +17,12 @@
     "description": "Thịt bò khô Thu Ba, đặc sản Quảng Ngãi, miếng bò sấy dùng làm món ăn vặt hoặc đồ nhắm.\n\nQuy cách: khối lượng tịnh 25 g (cả bao bì 35 g) · gói\nNhà sản xuất/thương hiệu: Thu Ba",
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "READY",
+  "status": "NO_CHANGE",
   "image": {
-    "decision": "REPLACE",
-    "reason": "ảnh tự chụp (túi nhăn, bóng lóa); không có ảnh hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: dòng khối lượng tịnh làm mờ (ảnh mẫu không đọc được); Gross Wt 35 g như ảnh mẫu",
-    "source": {
-      "aiGenerated": true,
-      "tool": "Gemini API",
-      "model": "gemini-nano-banana-2.1",
-      "generatedAt": "2026-10-17",
-      "style": "flat clean packaging render (v17)",
-      "reference": "ảnh KiotViet (ảnh tự chụp, chỉ làm mẫu)"
-    },
-    "rubricVersion": "v18"
+    "decision": "KEEP",
+    "reason": "Chủ từ chối ảnh mới trên Hub 17/10: Ảnh hiện tại tốt hơn",
+    "source": null,
+    "rubricVersion": "v22"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -92,6 +85,18 @@
       "by": "init",
       "status": "READY",
       "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "IN_PROGRESS",
+      "note": "rejected on Hub by AU KHUONG DUY: Ảnh hiện tại tốt hơn"
+    },
+    {
+      "at": "2026-10-17T17:48:03+00:00",
+      "by": "owner",
+      "status": "NO_CHANGE",
+      "note": "Hub: Ảnh hiện tại tốt hơn"
     }
   ],
   "submitted": {
@@ -103,10 +108,10 @@
     "hubStatus": "PENDING"
   },
   "review": {
-    "status": "APPLIED",
+    "status": "REJECTED",
     "reviewedBy": "AU KHUONG DUY",
-    "reviewedAt": "2026-10-15T09:29:53.179Z",
-    "note": null
+    "reviewedAt": "2026-10-17T16:43:56.747Z",
+    "note": "Ảnh hiện tại tốt hơn"
   },
   "uploaded": {
     "at": "2026-10-15T09:29:53.179Z",

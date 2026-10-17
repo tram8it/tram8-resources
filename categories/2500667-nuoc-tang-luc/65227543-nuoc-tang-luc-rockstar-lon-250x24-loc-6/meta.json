@@ -17,7 +17,7 @@
     "description": "Nước tăng lực Rockstar, thương hiệu đến từ Mỹ do Suntory PepsiCo Việt Nam sản xuất và phân phối. Công thức có taurine, vitamin B3, B6 và nhân sâm. Ngon hơn khi uống lạnh.\n\nQuy cách: 250 ml · lon\nNhà sản xuất/thương hiệu: Suntory PepsiCo Việt Nam · Rockstar",
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "ảnh tự chụp (lon bóng lóa); không có ảnh hãng (PepsiCo không đăng Rockstar) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ lớn khớp (Công thức chứa nhân sâm, ROCKSTAR Nước tăng lực, Thương hiệu đến từ Mỹ); chữ dọc nhỏ bên phải mờ",
@@ -78,6 +78,12 @@
       "by": "init",
       "status": "READY",
       "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -87,5 +93,91 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T16:35:40.894Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T16:35:40.894Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/d03fa0384337cc77b15905ed5b47ffe47f62e4a5a18b1b2cf801b2b640bec49e.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/30/tram8/f5a6874ed4f1409eb694a61ad8c0ae9a.png"
+        ]
+      },
+      "description": {
+        "to": "Nước tăng lực Rockstar, thương hiệu đến từ Mỹ do Suntory PepsiCo Việt Nam sản xuất và phân phối. Công thức có taurine, vitamin B3, B6 và nhân sâm. Ngon hơn khi uống lạnh.\n\nQuy cách: 250 ml · lon\nNhà sản xuất/thương hiệu: Suntory PepsiCo Việt Nam · Rockstar",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {
+      "price": {
+        "to": 13425.93,
+        "from": 13181.82
+      },
+      "saleTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 65227543
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 65227543
+        }
+      },
+      "taxRate": {
+        "to": "VAT 8%",
+        "from": "VAT 10%"
+      },
+      "productTaxs": {
+        "to": [
+          {
+            "id": 0,
+            "name": "VAT 8%",
+            "taxId": 3,
+            "value": 8,
+            "productId": 65227543
+          }
+        ],
+        "from": [
+          {
+            "id": 0,
+            "name": "VAT 10%",
+            "taxId": 4,
+            "value": 10,
+            "productId": 65227543
+          }
+        ]
+      },
+      "purchaseTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 65227543
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 65227543
+        }
+      }
+    }
   }
 }

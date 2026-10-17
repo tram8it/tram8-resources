@@ -17,7 +17,7 @@
     "description": "Nước uống Revive vị chanh muối, bù nước và bù khoáng với công thức i-HYDR8, có bổ sung vitamin B3, B6, B12 (theo chữ in trên chai). Chai nhựa nắp vặn tiện mang theo.\n\nQuy cách: 390 ml · chai\nThương hiệu: Revive",
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "ảnh tự chụp (mềm, bóng lóa); không có ảnh hãng đúng bao bì → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: theo bao bì mới nhất của hãng (thêm biểu tượng K+, Số 1), v19",
@@ -75,6 +75,12 @@
       "by": "init",
       "status": "READY",
       "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -84,5 +90,91 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T16:50:52.762Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T16:50:52.762Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/d8b880cee8e7c125272b916a4694410dc7041a9d1b3706a7a7229343cc6830cc.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/30/tram8/a43571452c0748719dbc4651037e6f5d.png"
+        ]
+      },
+      "description": {
+        "to": "Nước uống Revive vị chanh muối, bù nước và bù khoáng với công thức i-HYDR8, có bổ sung vitamin B3, B6, B12 (theo chữ in trên chai). Chai nhựa nắp vặn tiện mang theo.\n\nQuy cách: 390 ml · chai\nThương hiệu: Revive",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {
+      "price": {
+        "to": 11111.11,
+        "from": 10909.09
+      },
+      "saleTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 65588339
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 65588339
+        }
+      },
+      "taxRate": {
+        "to": "VAT 8%",
+        "from": "VAT 10%"
+      },
+      "productTaxs": {
+        "to": [
+          {
+            "id": 0,
+            "name": "VAT 8%",
+            "taxId": 3,
+            "value": 8,
+            "productId": 65588339
+          }
+        ],
+        "from": [
+          {
+            "id": 0,
+            "name": "VAT 10%",
+            "taxId": 4,
+            "value": 10,
+            "productId": 65588339
+          }
+        ]
+      },
+      "purchaseTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 65588339
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 65588339
+        }
+      }
+    }
   }
 }

@@ -17,7 +17,7 @@
     "description": "Bánh quy ca cao cỡ nhỏ (可可小饼), bánh quy vị ca cao đóng gói, bao bì tiếng Trung.\n\nQuy cách: gói",
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I3/I5: ảnh tự chụp gói nhăn, bóng, hơi mờ; không có ảnh hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ Trung nhỏ dưới gói vẽ gần đúng; còn lại không thấy khác biệt",
@@ -74,6 +74,12 @@
       "by": "init",
       "status": "READY",
       "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -83,5 +89,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T17:20:42.461Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T17:20:42.461Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/5ecc9bd332add9e8420fe908113e3b1ae9df48cf906dfffd1a991fce96b33bed.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/30/tram8/2ab3b048118d460aadb755c264686719.png"
+        ]
+      },
+      "description": {
+        "to": "Bánh quy ca cao cỡ nhỏ (可可小饼), bánh quy vị ca cao đóng gói, bao bì tiếng Trung.\n\nQuy cách: gói",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

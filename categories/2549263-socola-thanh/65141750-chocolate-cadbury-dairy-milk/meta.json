@@ -17,7 +17,7 @@
     "description": "Sô-cô-la sữa Cadbury Dairy Milk vị truyền thống, thanh sô-cô-la sữa béo mịn.\n\nQuy cách: 160 g · thanh\nNhà sản xuất/thương hiệu: Cadbury (Mondelēz) · Dairy Milk",
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I2/v19: ảnh KiotViet là thanh 165 g đời cũ, dùng chung với SP 64865660; mã 7622210410474 (Kingfoodmart, Open Food Facts) là Dairy Milk vị truyền thống 160 g bao bì mới → vẽ lại theo bao bì mới; không có trang hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ dinh dưỡng nhỏ và mã dưới logo halal để mờ (không bịa số); còn lại như mẫu",
@@ -78,6 +78,12 @@
       "by": "init",
       "status": "READY",
       "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -87,5 +93,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T14:26:25.330Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T14:26:25.330Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/77b73daf2c8ea09e0205a3d45e4029cf68923f8b7c5cc54c05a703aa968aaaa2.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/04/23/tram8/a553fa4072b94aa6a71af49918f9ac79.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Sô-cô-la sữa Cadbury Dairy Milk vị truyền thống, thanh sô-cô-la sữa béo mịn.\n\nQuy cách: 160 g · thanh\nNhà sản xuất/thương hiệu: Cadbury (Mondelēz) · Dairy Milk",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

@@ -17,20 +17,12 @@
     "description": "Bún ốc Liễu Châu (luosifen) vị rau mùi Luosiking dạng ly ăn liền, kèm nước dùng ốc kiểu Liễu Châu.\n\nQuy cách: 188 g · ly\nXuất xứ: Trung Quốc · Nhà sản xuất/thương hiệu: Luosiking",
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "READY",
+  "status": "NO_CHANGE",
   "image": {
-    "decision": "REPLACE",
-    "reason": "I3/I5: ảnh ly tự chụp, nhăn màng; không có ảnh hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Chữ lớn, tên, khối lượng 188克 (调制粉60克, 配料128克) khớp ảnh KiotViet. Dòng khẩu hiệu nhỏ hơi khác: '适合冲泡' thay cho '速食冲泡', huy hiệu đỏ ghi '冲泡米粉'; dòng chữ rất nhỏ ở đáy đã làm mờ.",
-    "source": {
-      "aiGenerated": true,
-      "tool": "Gemini API",
-      "model": "gemini-nano-banana-2.1",
-      "generatedAt": "2026-10-17",
-      "style": "flat clean packaging render (v17)",
-      "reference": "ảnh KiotViet (ảnh ly tự chụp)",
-      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/07/30/tram8/e0202e352f0946ff919db282bcd087e2.png"
-    },
-    "rubricVersion": "v18"
+    "decision": "KEEP",
+    "reason": "Chủ từ chối ảnh mới trên Hub 17/10: Ảnh hiện tại đúng vì hộp nó hình vuông",
+    "source": null,
+    "rubricVersion": "v22"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -93,6 +85,18 @@
       "by": "init",
       "status": "READY",
       "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "IN_PROGRESS",
+      "note": "rejected on Hub by AU KHUONG DUY: Ảnh hiện tại đúng vì hộp nó hình vuông"
+    },
+    {
+      "at": "2026-10-17T17:48:03+00:00",
+      "by": "owner",
+      "status": "NO_CHANGE",
+      "note": "Hub: Ảnh hiện tại đúng vì hộp nó hình vuông"
     }
   ],
   "submitted": {
@@ -104,10 +108,10 @@
     "hubStatus": "PENDING"
   },
   "review": {
-    "status": "APPLIED",
+    "status": "REJECTED",
     "reviewedBy": "AU KHUONG DUY",
-    "reviewedAt": "2026-10-14T09:22:15.487Z",
-    "note": null
+    "reviewedAt": "2026-10-17T16:54:33.916Z",
+    "note": "Ảnh hiện tại đúng vì hộp nó hình vuông"
   },
   "uploaded": {
     "at": "2026-10-14T09:22:15.487Z",

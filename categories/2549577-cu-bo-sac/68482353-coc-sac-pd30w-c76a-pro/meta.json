@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I3/I6: ảnh chụp tay hộp/vỉ, bóng lóa, mép mòn; hocotech.com không có SP này → Gemini vẽ lại (v12–v15) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ lớn (mã, công suất, độ dài, cổng) khớp ảnh KiotViet; dòng chữ đa ngữ nhỏ chỉ minh hoạ",
@@ -63,6 +63,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -72,5 +78,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T17:47:18.285Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T17:47:18.285Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/6ed7c089f3e2103c0f589a22607a172a948303eb892abf6ff76666d47ee41af5.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/10/15/tram8/9ed3915eaddf4d07bdd4fda56166ba72.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Củ sạc nhanh hoco C76A Pro, công suất PD 30W, chân cắm tròn (EU); hỗ trợ các chuẩn PD30W, PPS, QC3.0.\n\nQuy cách: vỉ 1 củ sạc\nThương hiệu: hoco",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

@@ -17,10 +17,10 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "READY",
+  "status": "NEEDS_PHOTO",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I4: ảnh KiotViet tay cầm, bao bì cũ 'Cool'; Pharmacity ghi mẫu mới 'Super Cool' thay mẫu cũ, cùng dòng hũ bạc hà; trang hãng chỉ còn hũ Super Cool — chủ chốt 17/10/2026 (v19): dùng bao bì mới nhất, tin bao bì (55,1 g) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: màu xanh phần trên nhãn nhạt hơn ảnh mẫu một chút; không thấy khác biệt chữ",
+    "reason": "Chủ: đợi chụp thật, xác nhận lại",
     "source": {
       "aiGenerated": true,
       "tool": "Gemini API",
@@ -84,6 +84,18 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "IN_PROGRESS",
+      "note": "rejected on Hub by AU KHUONG DUY: Đợi chụp thật, xác nhận lại đã"
+    },
+    {
+      "at": "2026-10-17T17:48:03+00:00",
+      "by": "owner",
+      "status": "NEEDS_PHOTO",
+      "note": "Hub: Đợi chụp thật, xác nhận lại đã"
     }
   ],
   "submitted": {
@@ -93,5 +105,11 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "REJECTED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T09:20:59.984Z",
+    "note": "Đợi chụp thật, xác nhận lại đã"
   }
 }

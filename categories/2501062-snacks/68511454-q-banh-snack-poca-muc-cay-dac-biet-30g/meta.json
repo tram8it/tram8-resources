@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I3/I4/I5: ảnh KiotViet chụp qua túi ni lông, gói bị cắt mép phải và đáy; không có trang hãng Poca, không tìm được ảnh bán lẻ cho mã vạch này → Gemini vẽ lại (v12–v15) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: phần mép phải, đáy gói và mép trên/dưới (viền bạc) do Gemini dựng lại vì ảnh gốc bị cắt; hai dòng chữ nhỏ ở đáy được làm mờ (Gemini tự bịa số); mặt trước không in khối lượng đọc được; logo POCA, 'Vị MỰC CAY ĐẶC BIỆT', con mực đeo kính cầm vợt cầu lông khớp ảnh cửa hàng",
@@ -63,6 +63,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -72,5 +78,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T17:43:46.023Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T17:43:46.023Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/3412f5b69b28a84286a53a3a5dee3eb8d51036dc6ff6feef5bf915dc84e10a6d.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/10/17/tram8/50dfde44e8bc4739aee356e06edd0710.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Bánh snack Poca vị mực cay đặc biệt.\n\nQuy cách: 30 g · gói\nThương hiệu: Poca (PepsiCo)",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

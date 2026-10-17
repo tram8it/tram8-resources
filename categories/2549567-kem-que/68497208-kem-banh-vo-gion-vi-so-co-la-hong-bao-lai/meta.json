@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I3/I4: ảnh chụp tay, gói nhăn, nền xốp; không tìm được ảnh hãng/nhà bán lẻ → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ cạnh 净含量:60克 vẽ thành '合格', gói thật đọc không rõ; còn lại khớp ảnh KiotViet",
@@ -63,6 +63,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -72,5 +78,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T17:44:54.713Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T17:44:54.713Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/8aa42c2b8f947fa90aceea5ca57fdc8568127a3284ea2e1035c534e7614be147.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/10/16/tram8/076a5829dc4b4112849546abcae9be14.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Kem que vị sô cô la Hongbaolai 加料千脆: lớp vỏ sô cô la giòn, bên trong có viên giòn.\n\nQuy cách: 60 g · que\nThương hiệu: Hongbaolai (宏宝莱)\nBảo quản: Giữ đông ở −18 °C hoặc lạnh hơn.",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

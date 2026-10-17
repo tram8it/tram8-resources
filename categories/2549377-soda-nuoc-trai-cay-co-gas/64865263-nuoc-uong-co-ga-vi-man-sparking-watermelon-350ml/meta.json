@@ -17,7 +17,7 @@
     "description": "Nước ngọt có ga vị mận SFC Bio Sparkling Plum (자두소다), đóng lon.\n\nQuy cách: 350 ml · lon\nThương hiệu: SFC Bio",
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I3/I4: ảnh chụp 2 lon trên kệ; mã vạch 8809005029571 là SFC Bio Sparkling Plum 350 ml (Open Food Facts, iCheck), khớp ảnh → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: giữ bản lon của cửa hàng (nhãn bát giác Mexico); chữ nhỏ và mã vạch bên hông không đọc được",
@@ -75,6 +75,12 @@
       "by": "init",
       "status": "READY",
       "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -84,5 +90,91 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T15:38:52.383Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T15:38:52.383Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/8608c6c5a3250f6ec1537c01f7ad66c0d2450612c036671ad2121ce1fe238375.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/03/15/tongpenhchtl/45903d27c02e4870b33c9b1cf3496dad.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Nước ngọt có ga vị mận SFC Bio Sparkling Plum (자두소다), đóng lon.\n\nQuy cách: 350 ml · lon\nThương hiệu: SFC Bio",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {
+      "price": {
+        "to": 27777.78,
+        "from": 27272.73
+      },
+      "saleTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 64865263
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 64865263
+        }
+      },
+      "taxRate": {
+        "to": "VAT 8%",
+        "from": "VAT 10%"
+      },
+      "productTaxs": {
+        "to": [
+          {
+            "id": 0,
+            "name": "VAT 8%",
+            "taxId": 3,
+            "value": 8,
+            "productId": 64865263
+          }
+        ],
+        "from": [
+          {
+            "id": 0,
+            "name": "VAT 10%",
+            "taxId": 4,
+            "value": 10,
+            "productId": 64865263
+          }
+        ]
+      },
+      "purchaseTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 64865263
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 64865263
+        }
+      }
+    }
   }
 }

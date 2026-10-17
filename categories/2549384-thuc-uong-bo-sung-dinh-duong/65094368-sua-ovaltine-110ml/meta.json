@@ -17,7 +17,7 @@
     "description": "Thức uống Ovaltine dòng Power 10 vị sô cô la lúa mạch, hộp giấy pha sẵn tiện mang theo.\n\nQuy cách: bán lẻ 1 hộp 110 ml\nThương hiệu: Ovaltine",
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I8: ảnh lốc 4 hộp; SP bán 1 hộp 110 ml → Gemini vẽ 1 hộp từ ảnh lốc (ảnh minh hoạ) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: ảnh mẫu độ phân giải thấp: chữ nhỏ trên hộp (dung tích, thành phần) bị bỏ, chỉ còn logo Ovaltine, POWER 10, hình mặt trời và sô cô la; bao bì thật có thể là bản khác",
@@ -75,6 +75,12 @@
       "by": "init",
       "status": "READY",
       "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -84,5 +90,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T09:20:20.605Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T09:20:20.605Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/9a9f1336fdcee5f4bd43be487940573ec433c2f06abc5985b9f7eb04ea9c82e1.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/04/22/tram8/21f519bd8456496892ef6699b37d0013.png"
+        ]
+      },
+      "description": {
+        "to": "Thức uống Ovaltine dòng Power 10 vị sô cô la lúa mạch, hộp giấy pha sẵn tiện mang theo.\n\nQuy cách: bán lẻ 1 hộp 110 ml\nThương hiệu: Ovaltine",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

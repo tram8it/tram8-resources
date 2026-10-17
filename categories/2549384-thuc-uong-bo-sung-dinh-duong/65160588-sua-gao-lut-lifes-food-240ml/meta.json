@@ -17,7 +17,7 @@
     "description": "Sữa gạo lứt Life's Food dạng lon, uống liền.\n\nQuy cách: 240 ml · lon\nNhà sản xuất/thương hiệu: Life's Food",
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I3/I5: ảnh tự chụp lon, mờ/nghiêng; không có ảnh hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ nhỏ dọc lon vẽ gần đúng, không đọc được; còn lại không thấy khác biệt",
@@ -74,6 +74,12 @@
       "by": "init",
       "status": "READY",
       "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -83,5 +89,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T17:20:45.419Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T17:20:45.419Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/5f1909ff8c0dc3583ae5434576e6ce21171b10f227b37c70ee109fb420e97c36.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/29/tram8/911fa633086b40f287302391a1926e00.png"
+        ]
+      },
+      "description": {
+        "to": "Sữa gạo lứt Life's Food dạng lon, uống liền.\n\nQuy cách: 240 ml · lon\nNhà sản xuất/thương hiệu: Life's Food",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

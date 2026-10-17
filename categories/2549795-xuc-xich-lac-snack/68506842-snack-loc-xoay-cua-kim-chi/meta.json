@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I3/I4: ảnh KiotViet chụp tay, gói nhăn, mép phải bị cắt; không có trang hãng, không tìm được ảnh bán lẻ (mã vạch chưa có trên iCheck/OFF/Kingfoodmart) → Gemini vẽ lại (v12–v15, đồng bộ dãy Heo Cao Bồi) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: nhãn 'CUA KIM CHI' hiện đủ chữ (gói thật chạy ra mép); đã bỏ hai dòng chữ nhỏ Gemini tự thêm ở đáy; không in khối lượng; chi tiết minh hoạ có thể lệch nhẹ",
@@ -63,6 +63,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -72,5 +78,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T17:44:35.676Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T17:44:35.676Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/05fa4c79f7af0b6d3359aa373b3bbe76db0089b5aeeda545b1747018916564dd.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/10/16/tram8/b5a2e104ee2c454e85a6ab4180ecc655.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Snack Lốc Xoáy của Heo Cao Bồi, vị cua kim chi; bao bì ghi \"Snack dinh dưỡng\".\n\nQuy cách: gói\nThương hiệu: Heo Cao Bồi",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

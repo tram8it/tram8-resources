@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "READY",
+  "status": "IN_PROGRESS",
   "image": {
     "decision": "REPLACE",
     "reason": "I1: chưa có ảnh; trang Cộng chỉ có ảnh gói chụp chung với hộp → Gemini tách riêng 1 gói 15 g → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt đáng kể với gói trên ảnh hãng; AI vẽ thêm một ly ngoài gói, đã cắt bỏ (chỉ crop, không sửa gói)",
@@ -90,6 +90,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "IN_PROGRESS",
+      "note": "rejected on Hub by AU KHUONG DUY: Cái này phải có cái hộp của nó đi kèm chứ"
     }
   ],
   "submitted": {
@@ -99,5 +105,11 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "REJECTED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T17:24:56.792Z",
+    "note": "Cái này phải có cái hộp của nó đi kèm chứ"
   }
 }
