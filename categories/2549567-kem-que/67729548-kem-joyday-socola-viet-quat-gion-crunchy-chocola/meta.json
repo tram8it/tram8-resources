@@ -17,12 +17,16 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "ASK_OWNER",
   "image": {
-    "decision": "REPLACE",
-    "reason": "I3/I4: ảnh tay cầm, nền lộn xộn; trang Joyday chính hãng không truy cập được — không có nguồn chính hãng dùng được",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "ASK_OWNER",
+    "reason": "I3/I7: ảnh tay cầm; gói cũ ~70ml, ảnh hãng mới 65ml ≠ tên 60g; đã có packshot chính hãng joyday.com (PT Yili Indonesia Dairy) sẵn sàng dùng khi chủ chốt dung tích",
+    "source": {
+      "url": "https://www.joyday.com/api/media/uploads/2026/05/Crunchy-Chocolate-Blueberry-New-Local-65ml-2025.png",
+      "page": "https://www.joyday.com/product/crunchy-chocolate-blueberry",
+      "fetchedAt": "2026-10-17T04:16:38Z"
+    },
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -30,7 +34,7 @@
     "source": null,
     "rubricVersion": "v4"
   },
-  "question": null,
+  "question": "Kem Joyday Crunchy Chocolate Blueberry (mã vạch 6907992823874): tên KiotViet ghi '60g', nhưng gói trong ảnh KiotViet in 'Net Volume: 70…' (có vẻ 70ml, bao bì cũ) và ảnh hãng joyday.com bản mới 2025 in 'Net Volume: 65ml'. Chủ chọn: (a) dùng ảnh hãng bản mới (65ml), sửa tên KiotViet; (b) dùng ảnh hãng, giữ tên 60g; (c) gói đang bán là bản 70ml cũ — Gemini vẽ lại theo ảnh KiotViet, sửa tên thành 70ml. Ảnh dự kiến (a/b): work/gemini/67729548/brand-candidate.webp — Bổ sung: mã vạch 690… là hàng sản xuất ở Trung Quốc, còn ảnh hãng joyday.com là bao bì Indonesia (mã 899…). Nếu gói đang bán giống ảnh hãng thì dùng luôn; nếu không, nhờ chụp mặt trước gói thật. (65 ml ≈ 60 g nên khối lượng không mâu thuẫn.)",
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -43,6 +47,18 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "image needs photo (no usable official source), description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T04:16:38Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "official joyday.com packshot found; net volume on pack (ml) differs from KiotViet name (g) → ask owner; candidate in work/gemini/67729548/brand-candidate.webp"
+    },
+    {
+      "at": "2026-10-17T04:18:43Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "question refined: China-made barcode vs Indonesian brand pack"
     }
   ]
 }

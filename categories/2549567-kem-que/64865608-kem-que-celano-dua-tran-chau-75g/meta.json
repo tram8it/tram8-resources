@@ -17,12 +17,16 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh; Không tìm được nguồn chính hãng: kidofoods.vn lỗi chứng chỉ TLS/503, merino.vn trả 503, kdc.vn (KIDO) không còn trang kem; chưa thấy gian hàng chính hãng có bằng chứng",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I1: chưa có ảnh trên KiotViet → packshot chính hãng nền trắng từ Nutifood Eshop (ngoinhadinhduong.com, Nuti KD — chủ sở hữu Celano), đúng SP (Kem Trân Châu Sữa Dừa, 75 g, mã vạch 8936011772419; trang SP ghi cùng mã vạch và khối lượng); mặt trước bao bì không in khối lượng",
+    "source": {
+      "url": "https://cdn.hstatic.net/products/200000821091/kemque_2_8731b2ec92eb4d34a8f6b72ac4dae7c7.png",
+      "page": "https://ngoinhadinhduong.com/products/kem-que-celano-dua-tran-chau-75gx20",
+      "fetchedAt": "2026-10-17T04:15:03Z"
+    },
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +47,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "image needs photo (no official source), description WRITE_NEW (name facts only)"
+    },
+    {
+      "at": "2026-10-17T04:15:03Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Brand packshot from Nutifood Eshop (ngoinhadinhduong.com, added to brands.json) → make_image.py"
+    },
+    {
+      "at": "2026-10-17T04:16:40.479Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T04:16:40.479Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

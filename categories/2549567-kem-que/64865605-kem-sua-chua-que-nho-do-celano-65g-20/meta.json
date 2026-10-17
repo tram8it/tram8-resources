@@ -17,12 +17,20 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh; Không tìm được nguồn chính hãng: kidofoods.vn lỗi chứng chỉ TLS/503, merino.vn trả 503, kdc.vn (KIDO) không còn trang kem; chưa thấy gian hàng chính hãng có bằng chứng",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I1: chưa có ảnh trên KiotViet; packshot chính hãng chỉ 540px (gói ~330px cao), phóng lên 1000px bị mờ, chữ nhỏ không đọc được → Gemini vẽ lại nét theo packshot hãng; trang SP hãng ghi mã vạch 8936011770606, khối lượng tịnh 65 g; mặt trước không in khối lượng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt đáng kể so với packshot hãng (logo, chữ KEM SỮA CHUA / TRÁI CÂY / NHO ĐỎ, DẺO MỊN / THƠM MÁT, màu, quả nho); chi tiết nhỏ (vân kem, giọt sữa chua) vẽ lại nên có thể lệch nhẹ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "packshot chính hãng Nho Đỏ (Nutifood Eshop, độ phân giải thấp 540px) + packshot chính hãng vị Dâu cùng dòng (chỉ làm mẫu bố cục/độ nét)",
+      "referenceUrl": "https://ngoinhadinhduong.com/products/kem-celano-que-sua-chua-nho-do-65gx20"
+    },
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +51,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "image needs photo (no official source), description WRITE_NEW (name facts only)"
+    },
+    {
+      "at": "2026-10-17T04:16:29Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T04:16:38.666Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T04:16:38.666Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

@@ -17,12 +17,16 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I4: ảnh chụp trong tủ đông, nhiều SP khác (I8); trang Joyday chính hãng không truy cập được — không có nguồn chính hãng dùng được",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I3/I4/I8: ảnh tủ đông, nhiều SP, bản bóng đá → ảnh hãng joyday.com (bao bì thường, v17). Bao bì in \"Net Volume: 70ml\", tên KiotViet 66g — kem ~0,94 g/ml nên khớp, không phải lệch quy cách",
+    "source": {
+      "url": "https://www.joyday.com/api/media/uploads/2026/06/Copy-of-Crunchy-Cookies-Cream-70ml-Local-Factory-New-2022-Gold-1-498x1024.webp",
+      "page": "https://www.joyday.com/product/crunchy-cookies-cream",
+      "fetchedAt": "2026-10-17T04:16:38Z"
+    },
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +47,32 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "image needs photo (no usable official source), description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T04:16:38Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "official joyday.com packshot found; net volume on pack (ml) differs from KiotViet name (g) → ask owner; candidate in work/gemini/68119586/brand-candidate.webp"
+    },
+    {
+      "at": "2026-10-17T04:18:43Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "70ml on pack is consistent with 66g net weight; brand packshot used"
+    },
+    {
+      "at": "2026-10-17T04:18:43.873Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T04:18:43.873Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

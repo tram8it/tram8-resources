@@ -17,12 +17,16 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I7: ảnh có khung viền vàng và logo cửa hàng khác (TERRISA); trang Häagen-Dazs (SG/TH/UK/FR) không có ảnh que đơn này — không có nguồn chính hãng dùng được",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I7: ảnh KiotViet có khung viền vàng + logo cửa hàng khác (TERRISA) → dùng packshot chính hãng Häagen-Dazs Singapore (cùng vị Matcha Green Tea & Almond, cùng thiết kế hộp ngang như ảnh đang có); đã xoá huy hiệu 'Made in France' đè lên mép trên hộp (vùng trắng trơn, tô lại trắng + mép bóng như phần còn lại) và dải màu mận của trang web ở đáy ảnh; không vẽ lại SP",
+    "source": {
+      "url": "https://edge.sitecorecloud.io/generalmill1621-cmsplatforme170-production28a1-f426/media/Project/GMI/BrandSites/HaagenDazs/Products/Single-Stickbar/matcha-green-tea-stickbar.png",
+      "page": "https://www.haagendazs.com.sg/products/matcha-green-tea-almond-stickbar",
+      "fetchedAt": "2026-10-17T04:16:20Z"
+    },
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +47,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "image needs photo (no usable official source), description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T04:16:20Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "official Häagen-Dazs SG packshot; removed web badge overlapping box top edge + bottom web bar; make_image.py"
+    },
+    {
+      "at": "2026-10-17T04:16:41.618Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T04:16:41.618Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

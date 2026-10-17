@@ -17,12 +17,20 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I4: ảnh tay cầm, nền xám; trang Häagen-Dazs (SG/TH/UK/FR) không có ảnh que đơn này — không có nguồn chính hãng dùng được",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I3/I4: ảnh tay cầm, nền xám; trang hãng (SG) chỉ có bản hộp ngang đời trước, không có bản hộp dọc đang bán → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: đã xoá mặt nắp hộp (màu mận, logo ngược) do Gemini tự vẽ thêm — chỉ giữ mặt trước phẳng; chữ dinh dưỡng 'Per 80ml serve / 248 kcal / 12%**' khớp ảnh thật; hoạ tiết sọc đỏ–hồng và vị trí 2 quả dâu vẽ lại gần giống, không giống từng nét",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (hộp dọc đang bán, chỉ làm mẫu) + ảnh hãng Häagen-Dazs Singapore (bản hộp ngang đời trước, chỉ lấy chi tiết logo/hoạ tiết)",
+      "referenceUrl": "https://www.haagendazs.com.sg/products/strawberries-and-cream-stickbar"
+    },
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +51,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "image needs photo (no usable official source), description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T04:16:09Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T04:16:43.834Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T04:16:43.834Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

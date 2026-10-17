@@ -20,15 +20,11 @@
   "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I2: ảnh KiotViet là Celano Passion Chocolate Almond 70ml, sai SP; trang hãng (kidofoods.vn, merino.vn) không truy cập được → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Bao bì mới (nâu đậm, logo Celano vàng, huy hiệu 'Sô cô la châu Âu'); mặt trước không in 'Luxury/Thượng hạng' và không in khối lượng — 66g theo trang bán lẻ cùng mã vạch. Ảnh vẽ lại phẳng theo bản render; chi tiết trang trí nhỏ có thể lệch nhẹ; bao bì cũ (xanh dương 'Vani sô cô la thượng hạng') không dùng theo quy tắc bao bì mới nhất",
+    "reason": "I2: ảnh cũ là SP khác (Passion Chocolate Almond 70ml) → ảnh hãng Celano (Nutifood eShop, packshot 1365×2048, bao bì mới); trang hãng ghi 66 g, mã 8936011770682",
     "source": {
-      "aiGenerated": true,
-      "tool": "Gemini API",
-      "model": "gemini-nano-banana-2.1",
-      "generatedAt": "2026-10-17",
-      "style": "flat clean packaging render (v17)",
-      "reference": "ảnh render Kim Phúc (kimphuc.net, mã 8936011770682) + ảnh chụp Minh Cầu Mart (chỉ làm mẫu)",
-      "referenceUrl": "https://kimphuc.net/kem-celano-luxury-vani-socola-6g"
+      "url": "https://cdn.hstatic.net/products/200000821091/ke779d_1_5a99f9554daf4c91b7528bb10e6f6eb9_0a924be15dc64613b11be9e769b4ca26.png",
+      "page": "https://ngoinhadinhduong.com/products/kem-cel-luxury-h-vani-socola-66gx16",
+      "fetchedAt": "2026-10-17"
     },
     "rubricVersion": "v17"
   },
@@ -63,10 +59,22 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T04:18:15Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "brand packshot from the Nutifood eShop replaces the Gemini redraw (RUBRIC v13: brand first)"
+    },
+    {
+      "at": "2026-10-17T04:18:15.304Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-17T04:12:18.460Z",
+    "at": "2026-10-17T04:18:15.304Z",
     "fields": [
       "description",
       "image"

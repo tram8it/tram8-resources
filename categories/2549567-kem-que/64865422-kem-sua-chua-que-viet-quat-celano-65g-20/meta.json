@@ -17,12 +17,20 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh; Không tìm được nguồn chính hãng: kidofoods.vn lỗi chứng chỉ TLS/503, merino.vn trả 503, kdc.vn (KIDO) không còn trang kem; chưa thấy gian hàng chính hãng có bằng chứng",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I1: chưa có ảnh trên KiotViet; Nutifood Eshop (hãng) không có trang lẻ vị Việt Quất, chỉ có ảnh combo khuyến mãi → Gemini vẽ lại từ ảnh nhà bán lẻ (cùng thiết kế với ảnh combo của hãng); mặt trước không in khối lượng; 65 g theo combo hãng '6 x 65 g' → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: trên muỗng sữa chua bản thật là nửa quả việt quất bổ đôi, ảnh vẽ là quả nguyên; các chữ (Celano, KEM SỮA CHUA / TRÁI CÂY / VIỆT QUẤT, DẺO MỊN / THƠM MÁT), màu tím, bố cục giống bản thật",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh nhà bán lẻ kimphuc.net (chỉ làm mẫu, 423px) + packshot chính hãng vị Dâu cùng dòng (Nutifood Eshop, mẫu bố cục/độ nét)",
+      "referenceUrl": "https://kimphuc.net/kem-sua-chua-trai-cay-viet-quat-celano-65g"
+    },
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +51,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "image needs photo (no official source), description WRITE_NEW (name facts only)"
+    },
+    {
+      "at": "2026-10-17T04:16:30Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T04:16:34.229Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T04:16:34.229Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }
