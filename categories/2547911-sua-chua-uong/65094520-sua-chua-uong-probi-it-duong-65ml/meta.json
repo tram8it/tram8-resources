@@ -17,12 +17,20 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "IN_PROGRESS",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I8 + v19: đơn vị KiotViet trống = 1 lọ lẻ như các vị Probi 65 ml khác; ảnh KiotViet/Kingfoodmart là lốc 5 → vẽ 1 lọ 65 ml theo kiểu chai Probi mới nhất của Vinamilk (vinamilk.com.vn chưa có ảnh lọ ít đường). Ảnh chờ Gemini vẽ lại (API trả HTTP 402 – hết hạn mức thanh toán 17/10), ảnh mẫu đã để sẵn ở work/gemini/<id>/refs/",
-    "source": null,
-    "rubricVersion": "v20"
+    "reason": "I8 + v19: đơn vị trống = 1 lọ; ảnh hiện có là lốc 5; hãng chưa có ảnh lọ ít đường kiểu mới → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: nhãn lọ ít đường dựng theo kiểu chai mới của các vị Probi khác (chữ xanh 'SỮA CHUA UỐNG MEN SỐNG / ÍT ĐƯỜNG'); chưa thấy ảnh hãng lọ ít đường bản mới để đối chiếu",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh hãng Vinamilk chai Probi 65 ml kiểu mới (vị truyền thống, chỉ làm mẫu) + ảnh lốc ít đường Kingfoodmart/KiotViet",
+      "referenceUrl": "https://www.vinamilk.com.vn/products/sua-chua-uong-probi-co-duong"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -67,6 +75,26 @@
       "by": "ai",
       "status": "IN_PROGRESS",
       "note": "resolved by rule v20: blank unit = one single 65 ml bottle like the other Probi SKUs; newest Probi bottle style; image waits for Gemini (HTTP 402)"
+    },
+    {
+      "at": "2026-10-17T15:14:30Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T15:14:36.698Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T15:14:36.698Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

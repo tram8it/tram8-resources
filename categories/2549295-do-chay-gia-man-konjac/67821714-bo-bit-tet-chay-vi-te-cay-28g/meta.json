@@ -17,12 +17,19 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "IN_PROGRESS",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I4/I8: ảnh tay cầm nhiều gói trước kệ; gói trên ảnh của cửa hàng là 巧大娘 素大牛排 香辣味 (cay thơm) 净含量 35克 → theo ảnh (v19/v20), tên ghi 'tê cay 28g'. Ảnh chờ Gemini vẽ lại (API trả HTTP 402 – hết hạn mức thanh toán 17/10), ảnh mẫu đã để sẵn ở work/gemini/<id>/refs/",
-    "source": null,
-    "rubricVersion": "v20"
+    "reason": "I3/I4/I8: ảnh tay cầm nhiều gói trước kệ; không có ảnh hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: vẽ phẳng 1 gói; hoạ tiết sừng bò/viền vẽ lại; ô khối lượng ghi 净含量:35克 như gói thật",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet của cửa hàng (tay cầm 3 gói 香辣味)"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -61,6 +68,26 @@
       "by": "ai",
       "status": "IN_PROGRESS",
       "note": "resolved by rule v20: shop photo pack reads 香辣味 净含量 35克 → follow the photo (35 g, cay thơm); name 'tê cay 28g' listed for rename; image waits for Gemini (HTTP 402)"
+    },
+    {
+      "at": "2026-10-17T15:14:29Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T15:14:33.273Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T15:14:33.273Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

@@ -17,12 +17,19 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "IN_PROGRESS",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I2: ảnh KiotViet là ảnh bán lẻ (không đăng thẳng) hộp Cosy Marie 67 g (2 gói × 33,5 g) → theo ảnh của cửa hàng (v20); tên ghi 40 g, iCheck mã …3823 ghi hộp 48 g; snack-central.com không có hộp 67 g. Ảnh chờ Gemini vẽ lại (API trả HTTP 402 – hết hạn mức thanh toán 17/10), ảnh mẫu đã để sẵn ở work/gemini/<id>/refs/",
-    "source": null,
-    "rubricVersion": "v20"
+    "reason": "I2: ảnh hiện có là ảnh bán lẻ, không đăng thẳng; hãng không có ảnh hộp 67 g → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ nhỏ trên hộp (dòng 'đậm vị sữa', chữ CANXI) vẽ mờ; khối lượng 67 g (2.36 oz), 2 gói x 33,5 g đúng như hộp",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (ảnh bán lẻ hộp 67 g, chỉ làm mẫu)"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -55,6 +62,26 @@
       "by": "ai",
       "status": "IN_PROGRESS",
       "note": "resolved by rule v20: follow shop photo = Cosy Marie 67 g box (2 x 33,5 g); name 40 g listed for rename; image waits for Gemini (HTTP 402)"
+    },
+    {
+      "at": "2026-10-17T15:14:30Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T15:14:38.399Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T15:14:38.399Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }
