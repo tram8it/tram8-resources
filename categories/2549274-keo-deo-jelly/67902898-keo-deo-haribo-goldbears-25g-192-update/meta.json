@@ -20,9 +20,9 @@
   "status": "NEEDS_PHOTO",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh. Trang Haribo Thổ Nhĩ Kỳ (haribo.com/tr-tr) chỉ có ảnh túi cỡ lớn, không có gói 25 g.",
+    "reason": "I1: chưa có ảnh. haribo.com/tr-tr chỉ có túi cỡ lớn; không tìm được ảnh gói 25 g bản Thổ Nhĩ Kỳ (mã vạch 8691216110359) ở trang hãng hay bán lẻ, nên không vẽ Gemini đúng bao bì được. Cần nhân viên chụp mặt trước gói (giữ đồng bộ với Happy Cola 25 g).",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -46,6 +46,12 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "image NEEDS_PHOTO, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T04:38:48Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "v17: tìm ảnh mẫu cho Gemini không có — giữ NEEDS_PHOTO"
     }
   ]
 }

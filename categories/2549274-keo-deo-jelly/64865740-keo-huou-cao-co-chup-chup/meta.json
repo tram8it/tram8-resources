@@ -20,9 +20,9 @@
   "status": "NEEDS_PHOTO",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I5: ảnh chụp cận hộp trưng bày, bị cắt khung, nền không trắng. Trang Perfetti Van Melle Việt Nam không truy cập được.",
+    "reason": "I3/I5: ảnh KiotViet chụp cận hộp trưng bày, bị cắt khung. Chỉ tìm được ảnh key visual Crazy Raffe Sour (hộp trưng bày), không có ảnh gói lẻ đúng mã vạch 8935001720096 bản Việt Nam ('Hươu cao cổ'); không biết bao bì gói lẻ nên không vẽ Gemini được. Cần nhân viên chụp trọn gói lẻ mặt trước.",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +43,12 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "image NEEDS_PHOTO, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T04:38:48Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "v17: tìm ảnh mẫu cho Gemini không có — giữ NEEDS_PHOTO"
     }
   ]
 }
