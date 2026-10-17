@@ -17,12 +17,20 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "ASK_OWNER",
+  "status": "READY",
   "image": {
-    "decision": "ASK_OWNER",
-    "reason": "I2/I3: ảnh là gói 'Tăm cay snack' màu vàng cầm tay, không khớp tên 'quẩy đùi gà'; tên hàng không rõ",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "REPLACE",
+    "reason": "I2/I3: ảnh cũ là gói Tăm cay snack cầm tay; mã vạch 8936202660365 là Quẩy đùi gà Phương Huyền (iCheck) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: vẽ 1 gói; chữ nhỏ không đọc",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh iCheck của mã vạch 8936202660365 (chỉ làm mẫu)",
+      "referenceUrl": "https://icheck.vn/san-pham/8936202660365"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "ASK_OWNER",
@@ -30,7 +38,7 @@
     "source": null,
     "rubricVersion": "v4"
   },
-  "question": "SP 'Gh quẩy đùi gà Phương Huyền hoàn' (mã 8936202660365) là sản phẩm gì, gói bao nhiêu gam? Ảnh hiện tại là gói 'Tăm cay snack' màu vàng — có phải đúng SP này không, hay ảnh nhầm?",
+  "question": null,
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -43,6 +51,12 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "b07 review: image ASK_OWNER, description ASK_OWNER"
+    },
+    {
+      "at": "2026-10-17T14:10:32Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
     }
   ]
 }

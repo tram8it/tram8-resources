@@ -17,12 +17,20 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "ASK_OWNER",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "tên (dâu phô mai) và ảnh (Ahh' phô mai vàng) lệch vị; không tìm thấy ảnh mẫu → hỏi chủ",
-    "source": null,
-    "rubricVersion": "v17"
+    "reason": "I3/I5: ảnh KiotViet chụp sát, cắt mất hộp; vẽ lại hộp Richeese Ahh' Triple Cheese 160 g đúng mã vạch 8993175541008 → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ nhỏ mặt hộp có thể lệch nhẹ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh Kingfoodmart theo mã vạch (chỉ làm mẫu) + ảnh KiotViet",
+      "referenceUrl": "https://storage.googleapis.com/onelife-public/8993175541008.jpg"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -30,7 +38,7 @@
     "source": null,
     "rubricVersion": "v4"
   },
-  "question": "Mã vạch 8993175541008: tên KiotViet là Ahh' vị Strawberry Cheesecake (phô mai dâu) 9 g, nhưng ảnh KiotViet là hộp Richeese Ahh' màu vàng vị phô mai (không thấy chữ dâu). Cửa hàng bán vị nào, quy cách hộp bao nhiêu gói? Anh/chị chụp giúp mặt trước hộp đang bán.",
+  "question": null,
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -49,6 +57,12 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "tên (dâu phô mai) và ảnh (Ahh' phô mai vàng) lệch vị; không tìm thấy ảnh mẫu → hỏi chủ"
+    },
+    {
+      "at": "2026-10-17T14:10:33Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
     }
   ]
 }

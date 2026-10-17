@@ -17,12 +17,19 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "ASK_OWNER",
+  "status": "READY",
   "image": {
-    "decision": "ASK_OWNER",
-    "reason": "I2: ảnh hiện tại là cơm nắm nhãn 'Cá Ngừ Mayo', không phải Gà Teriyaki; mâu thuẫn với ví dụ chủ chốt (CROP)",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "REPLACE",
+    "reason": "I2: ảnh cũ là nhãn Cá Ngừ Mayo (SP Cá ngừ Mayo có mã riêng 8938565079044) → vẽ theo cơm nắm cùng dòng, nhãn Gà Teriyaki → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: ảnh minh hoạ suy từ SP cùng dòng; hình món trên nhãn là minh hoạ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh SP cùng dòng Onigiri Việt (Gà Tomyum, Cá Ngừ Mayo)"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "ASK_OWNER",
@@ -30,7 +37,7 @@
     "source": null,
     "rubricVersion": "v4"
   },
-  "question": "Ảnh hiện tại của 'Cơm nắm Gà Teriyaki' thực ra là cơm nắm nhãn 'Cá Ngừ Mayo' (giống ảnh SP Cá ngừ Mayo). RUBRIC ghi ví dụ chủ chốt là CROP — chủ muốn vẫn crop ảnh này, hay chuyển sang cần chụp ảnh đúng nhãn Gà Teriyaki?",
+  "question": null,
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -43,6 +50,12 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "current photo shows Cá Ngừ Mayo label"
+    },
+    {
+      "at": "2026-10-17T14:10:34Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
     }
   ]
 }

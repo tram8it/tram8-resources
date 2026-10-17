@@ -17,12 +17,19 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "ASK_OWNER",
+  "status": "READY",
   "image": {
-    "decision": "ASK_OWNER",
-    "reason": "I1: chưa có ảnh. Không tìm được trang chính hãng Jary → cần chụp",
-    "source": null,
-    "rubricVersion": "v17"
+    "decision": "REPLACE",
+    "reason": "I1: chưa có ảnh; ảnh chụp ở bản Hồng thực ra là nhíp đen → dùng làm mẫu → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet chụp nhíp đen (đang gắn ở bản Hồng)"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -30,7 +37,7 @@
     "source": null,
     "rubricVersion": "v4"
   },
-  "question": "Nhíp gắp mi Jary T02: ảnh đang gắn ở bản HỒNG (67844921, mã vạch 8936228460864) là nhíp màu ĐEN trong túi trắng chữ JARY. Ảnh này có phải của bản Đen (67844922, chưa có ảnh) không? Nếu đúng: em vẽ lại ảnh này cho bản Đen và cần ảnh chụp nhíp bản Hồng; nếu bản Hồng cũng ở túi như vậy, anh gửi 1 ảnh chụp bản Hồng để em vẽ lại.",
+  "question": null,
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -49,6 +56,12 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "Nhíp gắp mi Jary T02: ảnh đang gắn ở bản HỒNG (67844921, mã vạch 8936228460864) là nhíp màu ĐEN trong túi trắng chữ JARY. Ảnh này có phải của bản Đen (67844922, chưa có ảnh) không? Nếu đúng: em vẽ lại ảnh này cho bản Đen và cần ảnh chụp nhíp bản Hồng; nếu bản Hồng cũng ở túi như vậy, anh gửi 1 ảnh chụp bản Hồng để em vẽ lại."
+    },
+    {
+      "at": "2026-10-17T14:10:35Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
     }
   ]
 }
