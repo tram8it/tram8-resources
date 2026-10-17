@@ -17,12 +17,12 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "ASK_OWNER",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I4: ảnh chụp điện thoại nhiều gói trên kệ; không có nguồn chính hãng (nabatisnack.co.id chỉ có vài ảnh bao bì Indonesia, không có SKU Việt Nam này). Lưu ý: ảnh hiện tại của SP 64865284 có vẻ chính là gói 50 g này",
+    "reason": "khối lượng chưa xác minh (OFF 37 g vs tên 50 g); ảnh Gemini còn chữ nhỏ bịa số sau 2 lần sửa → hỏi chủ",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -30,7 +30,7 @@
     "source": null,
     "rubricVersion": "v4"
   },
-  "question": null,
+  "question": "Mã vạch 8993175535885 (Richoco gói 50 g): Open Food Facts ghi mã vạch này là gói 37 g (bản Indonesia), ảnh cửa hàng không đọc được khối lượng. Gói đang bán in khối lượng bao nhiêu (50 g hay 37 g)? Đã có bản vẽ Gemini (work/gemini/64865662/attempt-1) nhưng chữ nhỏ còn lỗi bịa (có số), cần ảnh chụp mặt trước rõ hơn hoặc xác nhận khối lượng.",
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -43,6 +43,12 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "b10 review: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T05:18:38Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "khối lượng chưa xác minh (OFF 37 g vs tên 50 g); ảnh Gemini còn chữ nhỏ bịa số sau 2 lần sửa → hỏi chủ"
     }
   ]
 }

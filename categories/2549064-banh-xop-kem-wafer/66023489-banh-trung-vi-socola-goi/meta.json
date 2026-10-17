@@ -17,12 +17,19 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I5: ảnh chụp cận mặt gói, không thấy nguyên SP; Goblim là thương hiệu Trung Quốc, không tìm được trang chính hãng",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I3/I5: ảnh chụp cận mặt gói, không thấy nguyên SP; không có trang hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: dáng gói và bố cục theo gói vị phô mai cùng dòng; dòng chữ Trung nhỏ phía trên '计量方式 散装称重' không đúng nguyên văn (chữ rất nhỏ); không thấy phần mép phải gói thật",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet chụp cận gói vị sô-cô-la + ảnh gói Goblim vị phô mai cùng dòng (đã duyệt) để lấy dáng gói"
+    },
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +50,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "b10 review: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T05:18:17Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T05:19:06.559Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T05:19:06.559Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

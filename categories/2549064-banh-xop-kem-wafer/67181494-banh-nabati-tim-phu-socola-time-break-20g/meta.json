@@ -17,12 +17,12 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "ASK_OWNER",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I4/I8: ảnh chụp điện thoại trong thùng hàng; không có nguồn chính hãng (nabatisnack.co.id chỉ có vài ảnh bao bì Indonesia, không có SKU Việt Nam này)",
+    "reason": "khối lượng trên gói (16 g) khác tên KiotViet (20 g) → hỏi chủ",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -30,7 +30,7 @@
     "source": null,
     "rubricVersion": "v4"
   },
-  "question": null,
+  "question": "Mã vạch 8993175564991 (Time Break): tên KiotViet ghi 20 g và 'tím', nhưng gói chụp tại cửa hàng màu đỏ, in 'Net weight/ Khối lượng tịnh : 16 g'. Sửa tên KiotViet thành 16 g (và bỏ chữ 'tím') hay cửa hàng có loại 20 g khác? Lưu ý description.md hiện ghi 20 g.",
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -43,6 +43,12 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "b10 review: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T05:18:38Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "khối lượng trên gói (16 g) khác tên KiotViet (20 g) → hỏi chủ"
     }
   ]
 }

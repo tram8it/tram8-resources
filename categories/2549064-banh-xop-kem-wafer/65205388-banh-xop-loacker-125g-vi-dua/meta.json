@@ -17,12 +17,20 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I4/I5: ảnh chụp điện thoại cận gói, bị cắt mép; trang loacker.com chỉ có ảnh gói 250 g (bao bì mới), không có 125 g → cần chụp",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I3/I4/I5: ảnh chụp điện thoại cận gói, bị cắt mép; loacker.com chỉ có ảnh gói 250 g → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: vẽ lại từ ảnh hãng gói 250 g: dáng túi theo bản 250 g; dòng khối lượng ghi 125g, bỏ chữ Ả Rập khối lượng; không có tem 'No.1 in Italy' dán thêm như hàng ở cửa hàng; chữ nhỏ mặt bên không đọc được",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh chính hãng loacker.com gói 250 g (bao bì hiện hành), Gemini đổi khối lượng thành 125g",
+      "referenceUrl": "https://www.loacker.com/int/en/products/world-of-wafers/quadratini-coconut"
+    },
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -46,6 +54,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "b10 review: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T05:08:43Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T05:18:44.707Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T05:18:44.707Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

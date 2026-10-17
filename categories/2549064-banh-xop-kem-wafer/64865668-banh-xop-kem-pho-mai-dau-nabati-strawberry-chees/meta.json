@@ -20,9 +20,9 @@
   "status": "NEEDS_PHOTO",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh; không có nguồn chính hãng (nabatisnack.co.id chỉ có vài ảnh bao bì Indonesia, không có SKU Việt Nam này)",
+    "reason": "I1: chưa có ảnh; không tìm được ảnh mẫu nào của gói 50 g vị phô mai dâu (OFF, NPP Hương Thủy, tìm web) → không vẽ Gemini được, cần chụp",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +43,12 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "b10 review: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T05:18:38Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "I1: chưa có ảnh; không tìm được ảnh mẫu nào của gói 50 g vị phô mai dâu (OFF, NPP Hương Thủy, tìm web) → không vẽ Gemini được, cần chụp"
     }
   ]
 }
