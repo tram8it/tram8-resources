@@ -20,9 +20,9 @@
   "status": "NEEDS_PHOTO",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I4/I5: ảnh chụp cận nhãn bằng điện thoại, tay cầm, hũ bị khung cắt; Quang Thanh Foods không có trang hãng → cần chụp",
+    "reason": "I3/I4/I5: ảnh chụp cận nhãn, không thấy nắp hũ và dòng khối lượng (170g); không có trang hãng/ảnh nhà bán lẻ → cần chụp nguyên hũ",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +43,12 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "b30: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T08:24:52.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "wave3: no usable reference for a Gemini redraw"
     }
   ]
 }

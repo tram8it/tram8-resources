@@ -17,12 +17,19 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I7: ảnh hộp có tem mã vạch + giá của cửa hàng (99,000 VND) che mặt trước; ominsu.vn không truy cập được (kết nối bị ngắt), không có nguồn hãng khác → cần chụp (bóc tem giá)",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I7: tem mã vạch + giá của cửa hàng che mặt trước; ominsu.vn không truy cập được → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: phần góc dưới phải bị tem che trên ảnh thật được vẽ tiếp hoa văn đỏ và mặt ổ cắm trắng (không có chữ); ảnh gốc nhỏ nên chi tiết hơi mềm",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (hộp thật tại cửa hàng)"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +50,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "store price sticker on box; official site unreachable; description from pack text"
+    },
+    {
+      "at": "2026-10-17T08:16:29Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T08:16:36.681Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T08:16:36.681Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

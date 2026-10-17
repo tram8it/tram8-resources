@@ -20,9 +20,9 @@
   "status": "NEEDS_PHOTO",
   "image": {
     "decision": "REPLACE",
-    "reason": "I7: ảnh có logo cửa hàng Tiankong.vn và chữ chèn \"Màu Kem-vị thơm cay\"; ảnh hộp thùng (I8) → cần chụp",
+    "reason": "I7/I8: ảnh hộp thùng có logo Tiankong.vn và chữ chèn; gói lẻ 15g trong ảnh quá nhỏ để vẽ lại đúng chữ; không tìm được ảnh gói lẻ → cần chụp 1 gói lẻ",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +43,12 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "shop-watermarked carton photo; description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T08:24:52.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "wave3: no usable reference for a Gemini redraw"
     }
   ]
 }

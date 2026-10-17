@@ -17,12 +17,12 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "ASK_OWNER",
   "image": {
-    "decision": "REPLACE",
-    "reason": "I7: ảnh có watermark 'sarafoods.com.vn' của cửa hàng khác. Không có ảnh hãng M&M's cho gói 40g bản châu Á → cần chụp",
+    "decision": "ASK_OWNER",
+    "reason": "I7: ảnh có watermark sarafoods.com.vn; bao bì mới cùng mã vạch ghi 37g, tên KiotViet ghi 40g → hỏi chủ",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -30,7 +30,7 @@
     "source": null,
     "rubricVersion": "v4"
   },
-  "question": null,
+  "question": "Kẹo M&M chocolate 40g (mã 93682961): bao bì mới nhất cùng mã vạch (ảnh Kingfoodmart, Open Food Facts) ghi 'NET WT 37g', còn tên KiotViet và ảnh cũ ghi 40g. Hàng đang bán tại cửa hàng ghi 37 g hay 40 g? Nếu 37 g: chủ sửa tên KiotViet thành 37g và em vẽ ảnh theo bao bì mới; nếu 40 g: em vẽ theo bao bì 40 g cũ (ảnh hiện có watermark sarafoods).",
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -43,6 +43,12 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "b26: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T08:25:42Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "ask owner: pack weight differs from KiotViet name"
     }
   ]
 }

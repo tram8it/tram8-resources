@@ -17,12 +17,20 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I4/I5: ảnh chụp điện thoại cận gói trong thùng, nền lộn xộn, gói bị cắt; G Kitchen (Greenfeed) không có trang sản phẩm truy cập được (gkitchen.vn lỗi chứng chỉ, greenfeed.com.vn chỉ có trang giới thiệu) → cần chụp",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I3/I4/I5: ảnh chụp điện thoại cận gói trong thùng, nền lộn xộn, gói bị cắt; không có trang hãng G Kitchen dùng được → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt chữ chính (tên, vị, huy hiệu protein); mặt trước không in khối lượng (100 g in mặt sau) như gói thật; hình miếng ức gà vẽ lại",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh Lotte Mart theo mã vạch (chỉ làm mẫu, đã bỏ nền có chữ Lotte) + ảnh KiotViet",
+      "referenceUrl": "https://cdn.lottemart.vn/media/catalog/product/8/9/8936146447718-1.jpg"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +51,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "b30: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T08:17:40Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T08:17:40.946Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T08:17:40.946Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

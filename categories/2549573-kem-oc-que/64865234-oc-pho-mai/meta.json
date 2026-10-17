@@ -17,12 +17,16 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh; trang hãng KIDO (kidofoods.vn) không truy cập được, không có kênh chính chủ khác → cần nhân viên chụp",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I1: chưa có ảnh; dùng ảnh packshot hãng trên Nutifood Eshop (ngoinhadinhduong.com, trang SP \"Kem Celano Cone Caramel Phô Mai 66g\" ghi mã vạch 8936011772198); ảnh render của hãng thấy phần kem ở miệng ốc (không có nắp giấy như ảnh các ốc Celano khác); ảnh 540px phóng ~2,6 lần, hơi mềm nhưng đạt (v4)",
+    "source": {
+      "url": "https://cdn.hstatic.net/products/200000821091/thi_t_k__ch_a_c__t_n__16__9acaa0a2ec744639ad67b4517229a27a.png",
+      "page": "https://ngoinhadinhduong.com/products/kem-celano-cone-caramel-phomai-66gx20",
+      "fetchedAt": "2026-10-17T08:21:00Z"
+    },
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +47,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "image REPLACE (no image), description WRITE_NEW from name"
+    },
+    {
+      "at": "2026-10-17T08:21:00Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "image REPLACE from brand eshop (ngoinhadinhduong.com, barcode match)"
+    },
+    {
+      "at": "2026-10-17T08:21:06.790Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T08:21:06.790Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

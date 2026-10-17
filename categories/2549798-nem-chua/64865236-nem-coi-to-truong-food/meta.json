@@ -17,12 +17,20 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh. Trang hãng truongfoods.vn chỉ có ảnh banner nền màu có chữ chèn (I4, I7), không có packshot → cần chụp",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I1: chưa có ảnh; trang hãng chỉ có ảnh banner/bối cảnh, không có packshot riêng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: vẽ đúng gói Nem Cối Đổi Mới (Open Food Facts ghi mã 8938556154002 = Nem cối đổi mới Trường Foods; trang hãng 160G); tên KiotViet 'Nem cối to' — nếu 'to' là loại khác thì cần xem lại",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh hãng truongfoods.vn (gói đặt trước đĩa nem) + ảnh Open Food Facts cùng mã vạch",
+      "referenceUrl": "https://truongfoods.vn/nem-coi-doi-moi/"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -46,6 +54,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "batch f1: image REPLACE→NEEDS_PHOTO (only banners on brand site), description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T08:23:22Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T08:23:23.012Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T08:23:23.012Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

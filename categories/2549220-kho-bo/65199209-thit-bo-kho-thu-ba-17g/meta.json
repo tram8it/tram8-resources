@@ -17,12 +17,19 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3, I4: ảnh bối cảnh (gói đặt trên bàn kèm đĩa), nền không trắng, nhỏ; không có trang hãng chính thức tìm được (tìm tên hãng + SP), hàng địa phương → cần nhân viên chụp",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I3, I4: ảnh bối cảnh (gói trên bàn kèm đĩa), nền không trắng, nhỏ; không có trang hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: vẽ theo mẫu gói 35g cùng dòng (ảnh KiotViet 17g nhỏ nhưng cùng thiết kế); dòng khối lượng để trống/mờ vì không đọc được khối lượng in trên gói 17g; tỷ lệ gói 17g có thể khác",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh SP cùng dòng 'Bò khô Thu Ba 35g' đã duyệt (làm mẫu bố cục) + ảnh KiotViet gói 17g (nhỏ)"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +50,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "image REPLACE (lifestyle photo), description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T08:24:14Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 3, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T08:24:14.513Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T08:24:14.513Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

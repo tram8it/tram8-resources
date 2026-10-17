@@ -17,12 +17,20 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh. Trang hãng truongfoods.vn chỉ có ảnh banner nền màu có chữ chèn (I4, I7), không có packshot → cần chụp",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I1: chưa có ảnh; trang hãng chỉ có ảnh banner nền màu có chữ chèn (I4, I7), không có packshot → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt chữ chính (Trường Foods, Nem chua Đổi Mới, Ngon - Sạch - Tiện); nem trong cửa sổ vẽ lại; khối lượng 140G theo trang hãng không in mặt trước",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh hãng truongfoods.vn (gói cạnh rổ nem, banner)",
+      "referenceUrl": "https://truongfoods.vn/nem-chua-doi-moi/"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -46,6 +54,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "batch f1: image REPLACE→NEEDS_PHOTO (only banners on brand site), description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T08:23:24Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T08:23:24.755Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T08:23:24.755Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

@@ -17,12 +17,20 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3: ảnh chụp mặt sau ốc quế (bảng thành phần), không thấy mặt trước bao bì; trang hãng KIDO (kidofoods.vn) không truy cập được, không có kênh chính chủ khác → cần nhân viên chụp",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I3: ảnh KiotViet là mặt sau ốc quế (bảng thành phần); hãng chỉ có ảnh combo nhiều ốc → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: miệng ốc vẽ lộ phần kem như ảnh render của hãng (bao thật có nắp giấy); không in khối lượng ở mặt trước",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh hãng Nutifood Eshop (ảnh combo ốc quế ngũ vị, cắt riêng ốc hạt dẻ cười) + ảnh Open Food Facts (chỉ làm mẫu)",
+      "referenceUrl": "https://ngoinhadinhduong.com/products/oc-que-ngu-vi-12-que-x-66-g-3-kem-celano-cone-socola-huong-vani-3kem-celano-cone-vani-dau-66g-2kem-celano-cone-vani-66g-2kem-celano-cone-pistachio-66g-2kem-celano-cone-caramel-phomai-66g"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +51,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "image REPLACE (back of pack), description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T08:24:30Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T08:24:30.505Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T08:24:30.505Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

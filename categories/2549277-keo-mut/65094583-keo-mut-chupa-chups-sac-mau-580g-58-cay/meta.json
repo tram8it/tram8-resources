@@ -17,12 +17,12 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "ASK_OWNER",
   "image": {
-    "decision": "REPLACE",
-    "reason": "I3, I4: ảnh chụp điện thoại trên nền đá. Không tìm được trang chính hãng (Perfetti Van Melle Việt Nam) có ảnh túi 580 g → cần chụp",
+    "decision": "ASK_OWNER",
+    "reason": "I3, I4: ảnh chụp điện thoại trên nền đá; khối lượng in trên túi đọc không chắc (giống 558 g) khác tên 580g → hỏi chủ",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -30,7 +30,7 @@
     "source": null,
     "rubricVersion": "v4"
   },
-  "question": null,
+  "question": "Kẹo mút Chupa Chups sắc màu 580g 58 cây (mã 8935001717393): trên ảnh KiotViet dòng 'KHỐI LƯỢNG TỊNH' in rất nhỏ, em đọc giống '558 g' chứ không phải 580 g. Chủ xem giúp túi thật ghi bao nhiêu g? Nếu khác 580 g thì sửa tên KiotViet; xác nhận xong em vẽ ảnh từ ảnh KiotViet (túi thấy trọn).",
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -43,6 +43,12 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "batch f1: image REPLACE→NEEDS_PHOTO, description WRITE_NEW short"
+    },
+    {
+      "at": "2026-10-17T08:25:43Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "ask owner: pack weight differs from KiotViet name"
     }
   ]
 }

@@ -20,9 +20,9 @@
   "status": "NEEDS_PHOTO",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3, I4, I5: ảnh điện thoại chụp cận nhãn trên nền đá, bị cắt khung. Thương hiệu Wyn/G-Kitchen không tìm được trang chính hãng → cần chụp",
+    "reason": "I3, I4, I5: ảnh chụp cận nhãn, bị cắt khung; không tìm được ảnh hãng/nhà bán lẻ nem chua bì Wyn 180g để làm mẫu → cần chụp nguyên gói",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +43,12 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "batch f1: image REPLACE→NEEDS_PHOTO, description WRITE_NEW short"
+    },
+    {
+      "at": "2026-10-17T08:24:52.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "wave3: no usable reference for a Gemini redraw"
     }
   ]
 }

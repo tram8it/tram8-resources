@@ -17,12 +17,19 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I7: ảnh có logo cửa hàng khác ('RN Cosmetics') và hình chú thích kích thước chèn thêm; không tìm được trang hãng/kênh chính chủ của Jary → cần chụp",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I7: ảnh có logo cửa hàng khác ('RN Cosmetics') và hình chú thích kích thước chèn thêm; không có trang hãng Jary → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chỉ vẽ hộp, bỏ logo shop, miếng dán rời và mũi tên kích thước; chữ trên hộp khớp ảnh mẫu",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (ảnh shop RN Cosmetics, chỉ làm mẫu)"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +50,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "third-party shop logo on image; no official source; description from pack text"
+    },
+    {
+      "at": "2026-10-17T08:20:53Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T08:20:53.956Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T08:20:53.956Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

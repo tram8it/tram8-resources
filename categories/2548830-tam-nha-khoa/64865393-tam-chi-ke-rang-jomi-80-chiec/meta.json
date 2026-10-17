@@ -17,12 +17,20 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I7: ảnh có tem giá cửa hàng (34.000 VND) dán trên gói; không tìm được trang hãng Jomi chính thức có ảnh gói 80 chiếc → cần chụp",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I7: ảnh có tem giá cửa hàng (34.000 VND) dán trên gói; không có trang hãng Jomi → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: bỏ tem giá; bố cục theo gói đang bán (chữ 'TĂM CHỈ KẼ RĂNG' lớn); chữ nhỏ in ngược nhìn xuyên túi ở mép dưới không đọc được",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (gói đang bán) + ảnh Pharmacity (chỉ làm mẫu chi tiết)",
+      "referenceUrl": "https://www.pharmacity.vn/tam-chi-ke-rang-jomi-goi-80-cai.html"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +51,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "b30: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T08:20:17Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 3, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T08:20:17.681Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T08:20:17.681Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

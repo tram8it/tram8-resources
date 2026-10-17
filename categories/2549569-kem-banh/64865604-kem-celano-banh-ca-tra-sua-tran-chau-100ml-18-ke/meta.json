@@ -17,12 +17,16 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh; trang hãng Celano/KIDO (kidofoods.vn) không truy cập được → cần chụp",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I1: chưa có ảnh; dùng ảnh packshot hãng trên Nutifood Eshop (ngoinhadinhduong.com, trang SP ghi mã vạch 8936011773959), bao bì mới màu xanh ngọc ghi \"Kem bánh cá trà sữa Đài Loan\"; ảnh 540px phóng ~2,3 lần, xem lại đạt (v4)",
+    "source": {
+      "url": "https://cdn.hstatic.net/products/200000821091/thi_t_k__ch_a_c__t_n__52__a3306f2ad99f47efb29afbf4b252248d.png",
+      "page": "https://ngoinhadinhduong.com/products/kem-celano-banh-ca-tsua-tchau-100mlx18",
+      "fetchedAt": "2026-10-17T08:21:00Z"
+    },
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +47,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "no image, kidofoods.vn unreachable; description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T08:21:00Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "image REPLACE from brand eshop (ngoinhadinhduong.com, barcode match)"
+    },
+    {
+      "at": "2026-10-17T08:21:04.540Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T08:21:04.540Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

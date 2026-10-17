@@ -20,9 +20,9 @@
   "status": "NEEDS_PHOTO",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh; không rõ thương hiệu (mã 8938547067038), không có nguồn chính hãng → cần chụp",
+    "reason": "I1: chưa có ảnh; không rõ thương hiệu (mã 8938547067038), không có ảnh mẫu → cần nhân viên chụp",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +43,12 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "no image; description WRITE_NEW from name"
+    },
+    {
+      "at": "2026-10-17T08:24:52.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "wave3: no usable reference for a Gemini redraw"
     }
   ]
 }

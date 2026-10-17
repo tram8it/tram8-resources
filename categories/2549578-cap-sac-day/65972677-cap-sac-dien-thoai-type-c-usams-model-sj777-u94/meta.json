@@ -17,12 +17,19 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I7: ảnh có tem giá/mã vạch của cửa hàng dán trên hộp; trang hãng USAMS không truy cập được → cần chụp",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I7: ảnh có tem giá/mã vạch của cửa hàng dán trên hộp; trang hãng USAMS không truy cập được → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: dải xanh dưới đáy chỉ còn huy hiệu '18W FAST CHARGING' (các huy hiệu khác bị tem che trên ảnh thật nên không vẽ); mã vạch 6958444997193 tra ra là cáp USAMS U94 USB-A sang Type-C 18W 1m, khớp hộp",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (hộp thật tại cửa hàng) + ảnh hộp USAMS cùng dãy (65972696, chỉ làm mẫu bố cục)"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +50,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "price sticker on pack, USAMS site unreachable; description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T08:16:29Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T08:16:31.833Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T08:16:31.833Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

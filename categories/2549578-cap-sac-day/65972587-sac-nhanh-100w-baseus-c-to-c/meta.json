@@ -17,12 +17,19 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I7: ảnh có tem giá/mã vạch của cửa hàng dán trên hộp; trang baseus.com không có mẫu Dynamic 4 → cần chụp",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I7: ảnh có tem giá/mã vạch của cửa hàng dán trên hộp; baseus.com không có mẫu này → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: phần chữ bị tem che (dòng 'Fast Charging Cable USB-C to USB-C' và dòng mô tả nhỏ) được vẽ theo hộp cùng dãy; chữ nhỏ dưới các biểu tượng hơi khác cỡ; không thấy khác biệt về thông số (100W | 1m)",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (hộp thật tại cửa hàng) + ảnh hộp Baseus Dynamic 4 cùng dãy (65972794, chỉ làm mẫu bố cục)"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +50,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "price sticker on pack, no official image; description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T08:16:28Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T08:16:29.632Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T08:16:29.632Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

@@ -20,9 +20,9 @@
   "status": "NEEDS_PHOTO",
   "image": {
     "decision": "REPLACE",
-    "reason": "I2: ảnh là hũ 'Bò Khô Miếng', không phải thịt trâu sấy; chụp điện thoại, nền không trắng (I4); không có trang hãng chính thức tìm được (tìm tên hãng + SP), hàng địa phương → cần nhân viên chụp",
+    "reason": "I2: ảnh KiotViet là hũ 'Bò Khô Miếng', không phải thịt trâu sấy; không có ảnh mẫu đúng SP để vẽ lại → cần nhân viên chụp",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +43,12 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "image REPLACE (wrong product in photo), description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T08:24:52.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "wave3: no usable reference for a Gemini redraw"
     }
   ]
 }

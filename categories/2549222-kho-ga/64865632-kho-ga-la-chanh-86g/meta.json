@@ -20,9 +20,9 @@
   "status": "NEEDS_PHOTO",
   "image": {
     "decision": "REPLACE",
-    "reason": "I2: ảnh là gói 'Fucuco 진주 초콜릿' (sô cô la), không phải khô gà; không có trang hãng chính thức tìm được, hàng địa phương → cần nhân viên chụp",
+    "reason": "I2: ảnh KiotViet là gói sô cô la Fucuco, không phải khô gà; không có ảnh mẫu gói 86g để vẽ lại → cần nhân viên chụp",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +43,12 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "image REPLACE (photo shows another product), description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T08:24:52.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "wave3: no usable reference for a Gemini redraw"
     }
   ]
 }

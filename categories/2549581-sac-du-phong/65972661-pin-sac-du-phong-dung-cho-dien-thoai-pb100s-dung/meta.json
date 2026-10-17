@@ -17,12 +17,12 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "ASK_OWNER",
   "image": {
-    "decision": "REPLACE",
-    "reason": "I7: ảnh hộp có tem mã vạch + giá của cửa hàng (599,000 VND) và nhãn dán 'Màu xám, bảo hành 18 tháng'; cuktech.com chặn bằng trang xác minh bot (không vượt), không có nguồn hãng khác → cần chụp (bóc tem giá)",
+    "decision": "ASK_OWNER",
+    "reason": "I7: ảnh hộp có tem mã vạch + giá của cửa hàng và nhãn dán 'Màu xám, bảo hành 18 tháng'; cuktech.com chặn bot. Đã có ảnh Gemini vẽ lại (bỏ tem) chờ chủ trả lời: work/gemini/65972661/attempt-1.webp",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -30,7 +30,7 @@
     "source": null,
     "rubricVersion": "v4"
   },
-  "question": null,
+  "question": "Cuktech PB100S (mã vạch 6973886191343): hộp thật in '10000mAh 30W', còn tên KiotViet ghi 'tối đa 33W'. Tên nào đúng? (a) hộp đúng 30W → sửa tên KiotViet thành 30W và dùng ảnh Gemini vẽ lại hộp (đã có sẵn, bỏ tem giá + nhãn xanh); (b) hàng là bản 33W khác hộp → cần chụp hộp bản 33W.",
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -43,6 +43,12 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "store price sticker on box; official site behind bot wall; description from pack text"
+    },
+    {
+      "at": "2026-10-17T08:17:17Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "Cuktech PB100S (mã vạch 6973886191343): hộp thật in '10000mAh 30W', còn tên KiotViet ghi 'tối đa 33W'. Tên nào đúng? (a) hộp đúng 30W → sửa tên KiotViet thành 30W và dùng ảnh Gemini vẽ lại hộp (đã có sẵn, bỏ tem giá + nhãn xanh); (b) hàng là bản 33W khác hộp → cần chụp hộp bản 33W."
     }
   ]
 }

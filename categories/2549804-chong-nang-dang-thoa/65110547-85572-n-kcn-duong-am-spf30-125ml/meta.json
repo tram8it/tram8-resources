@@ -17,12 +17,20 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I4: ảnh tay cầm chụp tại cửa hàng, nền không trắng. Đã tìm mã 4005808516179 trên sitemap NIVEA VN/TH/MY/ID/DE/UK/IN và web: không có trang hãng cho bản 125 ml (NIVEA ID chỉ có SPF30 75 ml, mã khác) → cần chụp",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I3/I4: ảnh tay cầm chụp tại cửa hàng, nền không trắng; trang hãng chỉ có bản SPF50, không có packshot SPF30 125ml → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: vẽ từ chai SPF50 của hãng, đổi số thành SPF 30 và chữ dưới theo ảnh chụp chai thật; chữ nhỏ có thể khác chút",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh hãng NIVEA Philippines bản SPF50 125ml cùng chai (làm mẫu) + ảnh KiotViet bản SPF30",
+      "referenceUrl": "https://www.nivea.ph/products/protect-and-moisture-body-lotion-40058085164450264.html"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +51,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "b26: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T08:15:10Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T08:15:13.346Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T08:15:13.346Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

@@ -17,12 +17,20 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I7/I5: ảnh bản Trung Quốc có chữ vàng chèn thêm ('女孩版') và thông tin người bán, quả trứng sát mép khung; kinder.com/vn chỉ có banner, không có packshot Kinder Joy For Girls → cần chụp",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I7/I5: ảnh KiotViet là bản Trung Quốc có chữ chèn và thông tin người bán → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: dùng bản nhập khẩu Việt Nam (KHỐI LƯỢNG TỊNH 20g, FOR GIRL) thay bản Trung Quốc trong ảnh cũ; dòng số giấy XNCB nhỏ có thể khác",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh Kingfoodmart theo mã vạch (bản nhập khẩu Việt Nam, chỉ làm mẫu)",
+      "referenceUrl": "https://storage.googleapis.com/onelife-public/80768258.jpg"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -46,6 +54,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "overlay text on image, no official packshot; description from kinder.com/vn"
+    },
+    {
+      "at": "2026-10-17T08:16:18Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T08:16:39.826Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T08:16:39.826Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

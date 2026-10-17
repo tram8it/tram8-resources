@@ -17,12 +17,12 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "ASK_OWNER",
   "image": {
-    "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh. meiji.com.sg (Meiji Seika Singapore) chỉ có ảnh hộp 234 g kèm hiệu ứng bắn kem (không phải packshot, sai quy cách) và ghi cỡ nhỏ 47 g, không có 40 g → cần chụp",
+    "decision": "ASK_OWNER",
+    "reason": "I1: chưa có ảnh; không có ảnh mẫu cùng mã vạch, các vị cùng dòng ghi 43g/47g khác tên 40g → hỏi chủ",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -30,7 +30,7 @@
     "source": null,
     "rubricVersion": "v4"
   },
-  "question": null,
+  "question": "Bánh Hello Panda nhân kem sữa 40g (mã 8888077108346): không tìm được ảnh gói cùng mã vạch; hai vị cùng dòng (sô-cô-la, caramel) trên Open Food Facts ghi 43 g và 47 g, không có 40 g. Gói vị sữa tại cửa hàng ghi bao nhiêu g? Xin ảnh chụp mặt trước để làm mẫu vẽ.",
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -43,6 +43,12 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "b29: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T08:25:43Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "ask owner: pack weight differs from KiotViet name"
     }
   ]
 }

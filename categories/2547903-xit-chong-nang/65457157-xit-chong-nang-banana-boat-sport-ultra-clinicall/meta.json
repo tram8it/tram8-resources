@@ -17,12 +17,20 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I6: ảnh 225px, mờ; ảnh là bản Ultra Sport SPF100 Mỹ đời cũ, không chắc trùng bản PA++++ đang bán; không có ảnh hãng cho mã 079656126266 → cần chụp",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I6: ảnh 225px, mờ, là bản Mỹ đời cũ; không có ảnh hãng cho mã 079656126266 → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt với ảnh mẫu; lưu ý Pharmacity ghi bản SPF100 (mã này) được thay bằng SPF65 (mã 079656150445) từ 05/2026",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh Life Pharmacy (chỉ làm mẫu, bản châu Á PA++++ cùng mã 079656126266 theo Pharmacity)",
+      "referenceUrl": "https://www.lifepharmacy.com/product/banana-boat-sport-ultra-spf100-spray-170g"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +51,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "image REPLACE → NEEDS_PHOTO, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T08:24:56Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T08:24:56.921Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T08:24:56.921Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

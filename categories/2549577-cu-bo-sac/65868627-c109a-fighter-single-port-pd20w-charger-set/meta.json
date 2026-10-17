@@ -17,12 +17,19 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I4: ảnh chụp vỉ trên nền đá đen, không phải nền trắng; hocotech.com chỉ có C109A bản QC3.0 cổng USB-A, không có bản PD20W USB-C → cần chụp",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I4: ảnh chụp vỉ trên nền đá đen; hocotech.com không có bản C109A PD20W USB-C → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: dòng thông số nhỏ in trên thân củ sạc bị Gemini bịa số nên đã xoá trắng (chỉ giữ ký hiệu CE/RoHS/EAC); chữ 'RoHS' rất nhỏ hơi méo; các dòng đa ngôn ngữ nhỏ không đọc được; chữ lớn (C109A, PD20W, USB-C to iP, 1.0m/3.28ft, PD3.0) khớp",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (vỉ thật, nền đá đen)"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +50,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "dark-background photo, no official image → NEEDS_PHOTO; description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T08:16:29Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T08:16:34.072Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T08:16:34.072Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

@@ -20,9 +20,9 @@
   "status": "NEEDS_PHOTO",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3, I5: ảnh chụp cận mặt gói, gói bị khung cắt; không có trang hãng chính thức tìm được, hàng địa phương → cần nhân viên chụp",
+    "reason": "I3, I5: ảnh chụp cận, mất phần trên (logo/góc gói) và đáy gói; không tìm được ảnh nhà bán lẻ G Kitchen khô gà 22g để làm mẫu → cần chụp nguyên gói mặt trước",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +43,12 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "image REPLACE (close-up), description WRITE_NEW from pack"
+    },
+    {
+      "at": "2026-10-17T08:24:52.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "wave3: no usable reference for a Gemini redraw"
     }
   ]
 }
