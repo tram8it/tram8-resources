@@ -17,12 +17,20 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I2: ảnh là hộp Oatside Chocolate 1 L, không phải vị nguyên bản 200 ml; ảnh bị khung cắt (I5); oatside.com không có ảnh hộp nguyên bản 200 ml → cần chụp",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I2/I5: ảnh cũ là hộp Oatside Chocolate 1 L, không phải vị nguyên bản 200 ml, bị khung cắt; oatside.com không có ảnh hộp 200 ml → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: theo ảnh mẫu đúng mã vạch: nhãn tiếng Anh + dòng tiếng Hàn (hàng nhập), không có chữ tiếng Việt; chủ kiểm hộp ở cửa hàng có cùng nhãn không",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh Open Food Facts hộp 200 ml đúng mã vạch (chỉ làm mẫu)",
+      "referenceUrl": "https://world.openfoodfacts.org/product/8997240600423"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +51,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "b19: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T07:50:38Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T07:50:46.239Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T07:50:46.239Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

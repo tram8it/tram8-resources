@@ -17,12 +17,20 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I4: ảnh tay cầm, nền cửa hàng; bao bì Pearl & Radiant mới không có trên trang Nivea (nivea.com.my chỉ có bản Pearl White cũ) → cần chụp",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I3/I4: ảnh tay cầm, nền cửa hàng; trang hãng chỉ có bao bì đời trước (Pearl Bright/Pearl White), không có bản Pearl & Radiant đang bán → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: nhãn 'Pearl Extract' màu hồng đậm hơn bao bì thật (thật hồng đỏ tươi hơn); không vẽ bọt khí đầu chai; không in dung tích trên mặt trước (ảnh cửa hàng không thấy đáy chai)",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh hãng bao bì đời trước Pearl Bright (nivea.com.my, cùng mã vạch) + ảnh KiotViet bao bì Pearl & Radiant đang bán",
+      "referenceUrl": "https://www.nivea.com.my/en-my/products/pearl-bright-micellair%c2%ae-oxygen-boost-micellar-water-88500290106560058.html"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -46,6 +54,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "b16 review: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T07:49:53Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T07:49:53.874Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T07:49:53.874Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

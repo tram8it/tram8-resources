@@ -17,12 +17,16 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I7: ảnh có logo NIVEA, đồ hoạ 48h và dải chữ 'Xịt ngăn mùi nữ EXTRA WHITENING 150ml' chèn thêm; ảnh nhỏ 225px (I6); nivea.com.vn không có SP mã vạch này (chỉ có vài mã 400580… bao bì cũ) → cần chụp",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I7: ảnh có logo NIVEA, đồ hoạ 48h và dải chữ 'Xịt ngăn mùi nữ EXTRA WHITENING 150ml' chèn thêm; thay bằng ảnh hãng trên nivea.co.th (trang có mã 4005808829675): bao bì mới Extra Bright Radiant & Smooth 72h (ảnh cửa hàng là bản cũ Extra Whitening 48h, cùng mã vạch)",
+    "source": {
+      "url": "https://img.nivea.com/-/media/miscellaneous/media-center-items/3/b/3/019f3b6a57c072188a098a5c2fe90b68-screen.jpg",
+      "page": "https://www.nivea.co.th/products/nivea-extra-bright-radiant-and-smooth-spray-150ml-40058088296750077.html",
+      "fetchedAt": "2026-10-17"
+    },
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +47,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "b19: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T07:49:11.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "brand packshot from nivea.co.th (EAN 4005808829675 in product URL)"
+    },
+    {
+      "at": "2026-10-17T07:49:18.780Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T07:49:18.780Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

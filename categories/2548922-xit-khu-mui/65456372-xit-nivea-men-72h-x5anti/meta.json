@@ -17,12 +17,16 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I4: ảnh chụp điện thoại, nền cửa hàng/không trắng (tường gạch), chai bị khung cắt; ảnh là Silver Protect Dynamic Power 48h trong khi tên ghi 72H; nivea.com.vn không có SP mã vạch này (chỉ có vài mã 400580… bao bì cũ) → cần chụp",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I3/I4: ảnh chụp điện thoại, nền cửa hàng/không trắng (tường gạch), chai bị khung cắt; thay bằng ảnh hãng trên nivea.com.my (trang có mã 4005900731418): mã vạch là Black & White Invisible Ultimate Impact 72H x5 anti (khớp tên \"72H X5ANTI\"); ảnh cũ là Silver Protect 48h, sai SP; ảnh hãng 600px phóng ~1,5 lần",
+    "source": {
+      "url": "https://img.nivea.com/-/media/miscellaneous/media-center-items/d/7/4/92732c00d72f4f9294014feef6bb5de9-screen.jpg",
+      "page": "https://www.nivea.com.my/en-my/products/black-and-white-ultimate-impact-spray-40059007314180058.html",
+      "fetchedAt": "2026-10-17"
+    },
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +47,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "b19: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T07:49:11.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "brand packshot from nivea.com.my (EAN 4005900731418 in product URL)"
+    },
+    {
+      "at": "2026-10-17T07:49:29.073Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T07:49:29.073Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

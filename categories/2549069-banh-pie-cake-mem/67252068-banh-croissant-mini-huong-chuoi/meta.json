@@ -17,12 +17,20 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh; không có thương hiệu, mã vạch 8935299660562 không tra được trang hãng → cần chụp",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I1: chưa có ảnh; ảnh hãng Cobi Bread (cobibread.com) nền xám và cắt mất đáy túi nên không dùng thẳng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt (Banana Flavour Mini Croissant, BÁNH CROISSANT MINI HƯƠNG CHUỐI, KHỐI LƯỢNG TỊNH 49 g khớp ảnh hãng); vẽ đủ cả đáy túi",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh hãng cobibread.com (+ ảnh gói socola cùng dãy chỉ để lấy dáng túi)",
+      "referenceUrl": "https://cobibread.com/product/snack-mini-croissant-4-vi/"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +51,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "b21: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T07:52:06Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T07:52:24.897Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T07:52:24.897Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

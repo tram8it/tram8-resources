@@ -17,12 +17,19 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I4/I7: ảnh dựng có hình xoáy trang trí và bóng màu đỏ/đen quanh hộp, không phải nền trắng sạch; không tìm được trang chính hãng Việt Ngũ Cốc → cần chụp",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I4/I7: ảnh dựng có hình xoáy trang trí và bóng màu quanh hộp; không tìm được trang chính hãng Việt Ngũ Cốc → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: bỏ hình xoáy và bóng; chữ nhỏ quanh con dấu HEALTHY không đọc được (AI vẽ lộn xộn); chữ lớn khớp",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh dựng trên KiotViet (chỉ làm mẫu)"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +50,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "b19: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T07:50:38Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T07:50:43.262Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T07:50:43.262Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

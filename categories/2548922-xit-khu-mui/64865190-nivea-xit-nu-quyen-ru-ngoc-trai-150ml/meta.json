@@ -17,12 +17,16 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I4: ảnh chụp điện thoại, nền cửa hàng/không trắng, chai bị khung cắt (I5); nivea.com.vn chỉ có bao bì pearl & beauty đời cũ (hồng, mã 4005808837311), không phải bao bì đang bán (mã 8850029212746) → cần chụp",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I3/I4: ảnh chụp điện thoại, nền cửa hàng/không trắng, chai bị khung cắt (I5); thay bằng ảnh hãng trên nivea.co.th (trang có mã 8850029212746): bao bì mới Pearl & Beauty 72h màu hồng (ảnh cửa hàng là bản cũ Soft & Smooth 48h, cùng mã vạch)",
+    "source": {
+      "url": "https://img.nivea.com/-/media/miscellaneous/media-center-items/e/6/e/eea16e5a808c4d4fad82e40c367f3437-web_1010x1180_transparent_png.png",
+      "page": "https://www.nivea.co.th/products/nivea-pearl-and-beauty-spray-150ml-88500292127460077.html",
+      "fetchedAt": "2026-10-17"
+    },
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +47,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "b19: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T07:49:11.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "brand packshot from nivea.co.th (EAN 8850029212746 in product URL)"
+    },
+    {
+      "at": "2026-10-17T07:49:16.806Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T07:49:16.806Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

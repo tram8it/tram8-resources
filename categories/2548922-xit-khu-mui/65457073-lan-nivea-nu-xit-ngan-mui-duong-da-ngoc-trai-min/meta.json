@@ -17,12 +17,16 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I4: ảnh chụp điện thoại, nền cửa hàng/không trắng (nền lưới, điện thoại); nivea.com.vn không có SP mã vạch này (chỉ có vài mã 400580… bao bì cũ) → cần chụp",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I3/I4: ảnh chụp điện thoại, nền cửa hàng/không trắng (nền lưới, điện thoại); thay bằng ảnh hãng trên nivea.co.th (trang có mã 8850029037660): bao bì mới Pearl & Beauty Shave-less 72h (ảnh cửa hàng là bản cũ 48h, cùng mã vạch)",
+    "source": {
+      "url": "https://img.nivea.com/-/media/miscellaneous/media-center-items/e/4/1/dc910fa2a9624a32bed30fbc28ab6af8-web_1010x1180_transparent_png.png",
+      "page": "https://www.nivea.co.th/products/nivea-pearl-and-beauty-shave-less-spray-150ml-88500290376600077.html",
+      "fetchedAt": "2026-10-17"
+    },
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +47,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "b19: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T07:49:11.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "brand packshot from nivea.co.th (EAN 8850029037660 in product URL)"
+    },
+    {
+      "at": "2026-10-17T07:49:36.900Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T07:49:36.900Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

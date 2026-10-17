@@ -17,12 +17,19 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3, I4: ảnh điện thoại chụp gói trên nền vải xanh. Tatawa Industries (Malaysia) không có trang hãng truy cập được (tatawa.com.my lỗi proxy 502), không có gian hàng chính hãng → cần chụp",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I3/I4: ảnh điện thoại chụp gói trên nền vải xanh; Tatawa không có trang hãng truy cập được → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ chính (TATAWA, Strawberry Jam Filled Cookies, Biskut Jem Strawberi, Soft cookie, 10 Individually Wrapped pcs. Filled Cookies, 120g (4.2oz)) khớp ảnh chụp; bảng dinh dưỡng và chữ Thái nhỏ góc phải dưới AI vẽ số sai nên đã làm mờ; dòng 'Net Wt.' dưới khối lượng bị cụt",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (nhân viên chụp, chỉ làm mẫu)"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +50,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "b21: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T07:52:07Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T07:52:29.849Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T07:52:29.849Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }
