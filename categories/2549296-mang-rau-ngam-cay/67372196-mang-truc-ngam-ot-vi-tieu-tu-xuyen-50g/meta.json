@@ -20,9 +20,9 @@
   "status": "NEEDS_PHOTO",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh — không có trang chính hãng/kênh chính chủ dùng được cho thương hiệu này (đã tìm web) → cần nhân viên chụp",
+    "reason": "I1: chưa có ảnh trên KiotViet; tra mã vạch trên Kingfoodmart, Open Food Facts và web (17/10/2026) không ra ảnh bao bì nào → không có mẫu để Gemini vẽ, cần nhân viên chụp mặt trước 1 gói",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +43,12 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "b20 review: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T07:46:04+00:00",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "I1: chưa có ảnh trên KiotViet; tra mã vạch trên Kingfoodmart, Open Food Facts và web (17/10/2026) không ra ảnh bao bì nào → không có mẫu để Gemini vẽ, cần nhân viên chụp mặt trước 1 gói"
     }
   ]
 }
