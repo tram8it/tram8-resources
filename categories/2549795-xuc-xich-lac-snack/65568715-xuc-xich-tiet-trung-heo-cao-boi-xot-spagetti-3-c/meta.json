@@ -30,7 +30,7 @@
     "source": null,
     "rubricVersion": "v4"
   },
-  "question": "Xúc xích Heo Cao Bồi xốt Spaghetti (mã vạch 8936034877726): ảnh hiện tại là hũ đỏ in 'Nguồn dinh dưỡng từ THỊT', trong khi các vị khác ở cửa hàng là bao bì mới 'Snack dinh dưỡng / Săn quà bí mật'. Hũ đang bán có giống ảnh hiện tại không? Nếu khác thì cần nhân viên chụp lại.",
+  "question": "Heo Cao Bồi xốt Spaghetti (8936034877726): chưa tìm được bao bì mới 'Snack dinh dưỡng' của vị này (chỉ có hũ 'Nguồn dinh dưỡng từ THỊT'). Hũ đang bán là mẫu nào? Nếu mẫu cũ thì dùng ảnh hiện tại; nếu mẫu mới nhờ chụp 1 hũ.",
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -43,6 +43,18 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "possible old packaging on white-background render → ask owner"
+    },
+    {
+      "at": "2026-10-17T09:16:39Z",
+      "by": "owner",
+      "status": "ASK_OWNER",
+      "note": "17/10/2026 (RUBRIC v19): dùng bao bì mới nhất của hãng nếu tìm được; tin bao bì; lệch lớn thì hỏi lại"
+    },
+    {
+      "at": "2026-10-17T09:16:39Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "still ASK_OWNER: newest pack for this flavour not found; shelf check needed"
     }
   ]
 }

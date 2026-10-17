@@ -30,7 +30,7 @@
     "source": null,
     "rubricVersion": "v4"
   },
-  "question": "Probi ít đường 65 ml: Vinamilk đã đổi sang bao bì chai mới cho các vị khác, nhưng trang hãng không còn bản ít đường; ảnh hiện tại là lốc 5 bao bì cũ. Hàng đang bán là bao bì cũ hay mới, và bán theo lọ hay theo lốc 5?",
+  "question": "Probi ít đường 65 ml (8934673303507): KiotViet chưa có đơn vị, mã vạch này trên Kingfoodmart là LỐC 5 chai (bao bì mới 'ít đường 35%'). Bán lẻ 1 chai hay cả lốc 5?",
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -43,6 +43,18 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "b10 review: needs owner answer, nothing changed"
+    },
+    {
+      "at": "2026-10-17T09:15:20Z",
+      "by": "owner",
+      "status": "ASK_OWNER",
+      "note": "17/10/2026 (RUBRIC v19): dùng bao bì mới nhất của hãng nếu tìm được; tin bao bì/đơn vị KiotViet"
+    },
+    {
+      "at": "2026-10-17T09:15:20Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "still ASK_OWNER: unit missing in KiotViet and barcode shows a 5-pack; newest pack found (Kingfoodmart) — draw after unit is known"
     }
   ]
 }

@@ -30,7 +30,7 @@
     "source": null,
     "rubricVersion": "v4"
   },
-  "question": "SP 'Thịt Chua Truyền Thống' (mã vạch 8938556154026) và 'Thịt Chua Trường Foods Vị Xưa' (8938556154460) đều đang có trên KiotViet. Trang hãng truongfoods.vn ghi 'Thịt chua vị Truyền thống' nay là 'Thịt chua Vị Xưa' (hũ 180 g). Cửa hàng còn bán hũ Truyền thống bao bì cũ không? Nếu không, có nên ẩn/gộp mã này; nếu có, dùng ảnh hũ Vị Xưa của hãng cho mã này được không?",
+  "question": "Thịt chua Truyền Thống (8938556154026): hãng đã đổi thành 'Vị Xưa' (đã có mã riêng 8938556154460). Mã Truyền thống còn hàng không — nếu hết thì ẩn mã này; nếu còn, nhờ chụp 1 hũ.",
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -43,6 +43,18 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "b28 review: image ASK_OWNER, description ASK_OWNER"
+    },
+    {
+      "at": "2026-10-17T09:15:20Z",
+      "by": "owner",
+      "status": "ASK_OWNER",
+      "note": "17/10/2026 (RUBRIC v19): dùng bao bì mới nhất của hãng nếu tìm được; tin bao bì/đơn vị KiotViet"
+    },
+    {
+      "at": "2026-10-17T09:15:20Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "still ASK_OWNER: stock/merge decision needed (old flavour renamed, separate SKU exists)"
     }
   ]
 }

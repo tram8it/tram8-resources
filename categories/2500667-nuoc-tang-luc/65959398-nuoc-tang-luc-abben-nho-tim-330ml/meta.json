@@ -30,7 +30,7 @@
     "source": null,
     "rubricVersion": "v4"
   },
-  "question": "Abben nho tím (mã vạch 8936048477189): ảnh cửa hàng là nhãn tiếng Anh 'Flavor GRAPE STRIKE', còn ảnh mẫu trên mạng (allfullvietnam.com.vn) là nhãn tiếng Việt 'Hương NHO TÍM SẤM SÉT' như hai chai việt quất/chanh vàng. Vẽ ảnh theo bản nào: (1) nhãn tiếng Việt 'NHO TÍM' cho đồng bộ dãy, hay (2) nhãn 'GRAPE STRIKE' đúng hàng đang bán?",
+  "question": "Abben nho tím (8936048477189): không xác định được bản nào mới hơn — nhãn 'GRAPE STRIKE' (hàng ở cửa hàng) hay 'NHO TÍM SẤM SÉT' (ảnh allfullvietnam). Vẽ theo bản nào?",
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -49,6 +49,18 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "two label designs for the grape flavour (GRAPE STRIKE in shop vs NHO TÍM on retailer render) -> ask owner"
+    },
+    {
+      "at": "2026-10-17T09:15:20Z",
+      "by": "owner",
+      "status": "ASK_OWNER",
+      "note": "17/10/2026 (RUBRIC v19): dùng bao bì mới nhất của hãng nếu tìm được; tin bao bì/đơn vị KiotViet"
+    },
+    {
+      "at": "2026-10-17T09:15:20Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "still ASK_OWNER: cannot tell which grape label is the newer design (no brand page)"
     }
   ]
 }

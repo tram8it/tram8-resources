@@ -30,7 +30,7 @@
     "source": null,
     "rubricVersion": "v4"
   },
-  "question": "Nước giải rượu Condition (mã vạch 8801007139647): chai đang bán là 75ml hay 100ml, và nhãn in 'CJ HealthCare' (bao bì cũ như ảnh) hay 'HK inno.N' (bao bì mới)? Ảnh hiện tại là chai 75ml bao bì CJ cũ, mô tả cũ lại ghi 100ml.",
+  "question": "Condition (8801007139647): chai ghi 75 ml (ảnh, bao bì CJ cũ) hay 100 ml (mô tả cũ) — lệch lớn, không tìm được ảnh hãng theo mã vạch. Nhờ chụp mặt trước 1 chai đang bán.",
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -43,6 +43,18 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "size/packaging conflict (75ml image vs 100ml description); asked owner"
+    },
+    {
+      "at": "2026-10-17T09:16:39Z",
+      "by": "owner",
+      "status": "ASK_OWNER",
+      "note": "17/10/2026 (RUBRIC v19): dùng bao bì mới nhất của hãng nếu tìm được; tin bao bì; lệch lớn thì hỏi lại"
+    },
+    {
+      "at": "2026-10-17T09:16:39Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "still ASK_OWNER: 75 ml vs 100 ml is clearly another size; no barcode-matched source found"
     }
   ]
 }
