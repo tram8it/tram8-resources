@@ -17,12 +17,16 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I4: ảnh chụp kệ hàng; vinamilk.com.vn không có trang sữa dinh dưỡng bịch 220 ml → cần chụp",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I3/I4: ảnh hiện tại chụp kệ hàng; thay bằng ảnh hãng bịch 220 ml bao bì mới (cùng mã vạch 8934673132343 trong dữ liệu trang) trên https://www.vinamilk.com.vn/products/sua-dinh-duong-it-duong",
+    "source": {
+      "url": "https://d8um25gjecm9v.cloudfront.net/cms/FINO_Giam_Duong_220ml_ID_50_nam_e50fa3fa30.png",
+      "page": "https://www.vinamilk.com.vn/products/sua-dinh-duong-it-duong",
+      "fetchedAt": "2026-10-17"
+    },
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +47,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "b16 review: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T07:41:48.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "brand packshot from vinamilk.com.vn (gtin match), new checkered design"
+    },
+    {
+      "at": "2026-10-17T07:41:49.106Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T07:41:49.106Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

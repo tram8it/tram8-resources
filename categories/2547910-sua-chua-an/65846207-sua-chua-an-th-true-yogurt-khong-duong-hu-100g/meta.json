@@ -17,12 +17,16 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I4: ảnh chụp điện thoại mặt sau hộp, nền không trắng; cửa hàng chính hãng TH (thtruemart.vn) không có sữa chua không đường → cần chụp",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I3/I4: ảnh cũ chụp điện thoại mặt sau hộp, nền không trắng; thay ảnh 1 hộp 100 g trên cửa hàng chính hãng TH (cùng mã vạch 8935217413409 in trên hộp). Bao bì hiện ghi 'Sữa Chua Vị Tự Nhiên' (tên KiotViet ghi 'không đường') — chủ cân nhắc sửa tên trên KiotViet",
+    "source": {
+      "url": "https://cdn.hstatic.net/products/200001185942/sca_100g_v_t_nhi_n_hop_800x800_3db3c135bc5a45b2b0391269e2162ca3_26c29f6d462f4f41b21a26498612e1ed.jpg",
+      "page": "https://thtruemart.vn/products/sua-chua-vi-tu-nhien-th-true-yogurt-100-g",
+      "fetchedAt": "2026-10-17"
+    },
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +47,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "needs photo; short description"
+    },
+    {
+      "at": "2026-10-17T07:40:51.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "brand packshot from thtruemart.vn (same barcode); pack reads 'Vị Tự Nhiên'"
+    },
+    {
+      "at": "2026-10-17T07:40:51.758Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T07:40:51.758Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }
