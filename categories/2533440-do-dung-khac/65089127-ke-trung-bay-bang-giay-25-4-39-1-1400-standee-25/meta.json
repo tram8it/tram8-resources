@@ -17,12 +17,12 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "ASK_OWNER",
+  "status": "NO_CHANGE",
   "image": {
-    "decision": "ASK_OWNER",
-    "reason": "I1: không có ảnh; nhưng đây là kệ trưng bày (standee) của hãng, có thể không phải hàng bán lẻ",
+    "decision": "KEEP",
+    "reason": "Không phải hàng hoá — chủ: không cần làm ảnh/mô tả (17/10, RUBRIC v19)",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v19"
   },
   "description": {
     "decision": "ASK_OWNER",
@@ -30,7 +30,7 @@
     "source": null,
     "rubricVersion": "v4"
   },
-  "question": "\"Kệ trưng bày bằng giấy (Standee) 25.4*39.1*1400\" (thương hiệu Feastable) là vật dụng trưng bày của hãng, không có ảnh. Đây có phải hàng bán cho khách không? Nếu không, có nên ẩn khỏi web thay vì làm ảnh/mô tả?",
+  "question": null,
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -43,6 +43,12 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "b30: image ASK_OWNER, description ASK_OWNER"
+    },
+    {
+      "at": "2026-10-17T08:49:46+00:00",
+      "by": "owner",
+      "status": "NO_CHANGE",
+      "note": "Không phải hàng hoá, không cần làm (chủ 17/10)"
     }
   ]
 }
