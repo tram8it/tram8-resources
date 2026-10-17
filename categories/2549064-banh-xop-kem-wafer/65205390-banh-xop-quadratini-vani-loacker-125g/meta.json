@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I2 (v2): ảnh KiotViet là bao bì Quadratini đời cũ; loacker.com chỉ có ảnh gói 250 g → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: vẽ lại từ ảnh hãng gói 250 g: dáng túi theo bản 250 g; dòng khối lượng ghi 125g, bỏ chữ Ả Rập khối lượng; không có tem 'No.1 in Italy' dán thêm như hàng ở cửa hàng; chữ nhỏ mặt bên không đọc được",
@@ -66,6 +66,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T05:52:57.796Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -75,5 +81,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T05:27:00.087Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T05:27:00.087Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/e0b6b2672558d456e6dffed56103225ccf54c6335e716ec2e94bdfa079c4bf31.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/04/26/tram8/441ec7043d3b4901b3b18ac6b5e6b088.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Bánh xốp Loacker Quadratini vị vani: những viên wafer vuông nhỏ gồm 5 lớp vỏ xốp giòn và 4 lớp kem vani Bourbon (kem chiếm 74%). Sản xuất tại Ý, không thêm hương liệu và phẩm màu (theo Loacker).\n\nThành phần: Bột mì, dầu dừa, xirô glucoza, đường, bột whey (sữa), sữa bột gầy, bột đậu nành, chiết xuất mạch nha lúa mạch, chất tạo xốp (natri hydro cacbonat, dinatri diphosphat), muối, chất nhũ hóa lecithin đậu nành, bột ca cao ít béo, vani Bourbon, hạt phỉ, gia vị. Có thể chứa đậu phộng, hạnh nhân, mù tạt và vừng.\nQuy cách: 125 g · gói\nXuất xứ: Ý · Nhà sản xuất/thương hiệu: A. Loacker Spa/AG · Loacker",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

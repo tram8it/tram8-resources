@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "READY",
+  "status": "IN_PROGRESS",
   "image": {
     "decision": "REPLACE",
     "reason": "I3/I4/I5: ảnh chụp điện thoại, bị cắt; trang hãng chỉ có chai vị chanh 450 ml → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: dáng chai 320 ml do AI suy từ ảnh chụp (thấp hơn chai 450 ml); dòng 'THỂ TÍCH THỰC: 320 ml' khớp ảnh chụp và tên SP",
@@ -66,6 +66,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T05:52:57.796Z",
+      "by": "owner",
+      "status": "IN_PROGRESS",
+      "note": "rejected on Hub by AU KHUONG DUY: Chai sai tỷ lệ"
     }
   ],
   "submitted": {
@@ -75,5 +81,11 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "REJECTED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T05:26:10.427Z",
+    "note": "Chai sai tỷ lệ"
   }
 }

@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I3/I4/I5: ảnh chụp cận chai trong màng co, bị cắt; thay bằng ảnh hãng Trà xanh Không Độ vị chanh chai PET 455 ml (nhãn ghi 'Thể tích thực: 455 ml', trang SP: https://www.thp.com.vn/tra-xanh-khong-do/)",
@@ -62,6 +62,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T05:52:57.796Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -71,5 +77,91 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T05:27:53.036Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T05:27:53.036Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/415fc8230f8459a7132788e86ab8b5b5dbf8814199aef270030e11de937497ad.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2025/11/21/tongpenhchtl/799540497a02441c857084638952a0f6.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Trà xanh Không Độ vị chanh của Tân Hiệp Phát, chiết xuất từ lá trà xanh Thái Nguyên bằng công nghệ chiết lạnh vô trùng, có bổ sung vitamin C. Ngon hơn khi uống lạnh.\n\nQuy cách: 455 ml · chai PET\nNhà sản xuất/thương hiệu: Tập đoàn Tân Hiệp Phát · Không Độ",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {
+      "price": {
+        "to": 11203.7,
+        "from": 11000
+      },
+      "saleTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 64865801
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 64865801
+        }
+      },
+      "taxRate": {
+        "to": "VAT 8%",
+        "from": "VAT 10%"
+      },
+      "productTaxs": {
+        "to": [
+          {
+            "id": 0,
+            "name": "VAT 8%",
+            "taxId": 3,
+            "value": 8,
+            "productId": 64865801
+          }
+        ],
+        "from": [
+          {
+            "id": 0,
+            "name": "VAT 10%",
+            "taxId": 4,
+            "value": 10,
+            "productId": 64865801
+          }
+        ]
+      },
+      "purchaseTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 64865801
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 64865801
+        }
+      }
+    }
   }
 }

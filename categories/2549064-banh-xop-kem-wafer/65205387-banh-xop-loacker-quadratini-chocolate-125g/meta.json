@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I2 (v2): ảnh KiotViet là bao bì Quadratini đời cũ; loacker.com chỉ có ảnh gói 250 g → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: vẽ lại từ ảnh hãng gói 250 g: dáng túi theo bản 250 g; dòng khối lượng ghi 125g, bỏ chữ Ả Rập khối lượng; không có tem 'No.1 in Italy' dán thêm như hàng ở cửa hàng; chữ nhỏ mặt bên không đọc được",
@@ -66,6 +66,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T05:52:57.796Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -75,5 +81,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T05:26:49.259Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T05:26:49.259Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/ab0e4dc07f14ce2bf0fdaa2aaed072a3a5059f767e89eab2c805fbb1bd1fb0af.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/04/26/tram8/9b3dc9798d39475483c8c69ab185c99e.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Bánh xốp Loacker Quadratini vị sô-cô-la: những viên wafer vuông nhỏ gồm 5 lớp vỏ xốp giòn và 4 lớp kem sô-cô-la (kem chiếm 74%). Sản xuất tại Ý, không thêm hương liệu và phẩm màu (theo Loacker).\n\nThành phần: Bột mì, dầu dừa, xirô glucoza, bột whey (sữa), đường, bột ca cao ít béo, bột đậu nành, sô-cô-la 5% trong kem (đường, ca cao khối), sữa bột gầy, chất tạo xốp (natri hydro cacbonat, dinatri diphosphat), hạt phỉ, muối, chất nhũ hóa lecithin đậu nành, chiết xuất mạch nha lúa mạch, bơ đậu phộng, gia vị, hạnh nhân, vani Bourbon. Có thể chứa mù tạt và vừng.\nQuy cách: 125 g · gói\nXuất xứ: Ý · Nhà sản xuất/thương hiệu: A. Loacker Spa/AG · Loacker",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

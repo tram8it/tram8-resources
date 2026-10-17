@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I3/I4/I5: ảnh chụp cận nhãn, bị cắt; trang Suntory PepsiCo không có vị chanh yuzu → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: nhãn vẽ theo bản 1 L thu về dáng chai 450 ml; dòng thể tích để chữ nhỏ không đọc được (chưa đối chiếu được trên nhãn 450 ml thật); nhãn ghi 'TRÀ CHANH-YUZU', tên KiotViet ghi 'Trà Ô Long Chanh Yuzu'",
@@ -63,6 +63,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T05:52:57.796Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -72,5 +78,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T05:28:17.207Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T05:28:17.207Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/28bc0643cab893609bdbe6b00e21d20370acff2d7c6b8206046b0a849261d340.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/18/tram8/e2be052a5224499d901156761b8a180e.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Trà Ô Long TEA+ Plus Chanh Yuzu của Suntory PepsiCo, nền trà ô long thanh mát theo công thức Suntory (Nhật Bản), kết hợp vị chanh yuzu. Ngon hơn khi uống lạnh.\n\nQuy cách: 450 ml · chai\nNhà sản xuất/thương hiệu: Suntory PepsiCo Việt Nam · TEA+ Plus",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

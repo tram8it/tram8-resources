@@ -2,7 +2,7 @@
 
 > Sinh tự động bởi `node tools/status.mjs`. **Không sửa tay.** Nguồn sự thật là `meta.json` của từng SP.
 
-Tổng 2448 SP · đã xem 2428 (99%) · xong 985 · chờ chủ duyệt 614 · cần chụp 576 · hỏi chủ 248
+Tổng 2448 SP · đã xem 2428 (99%) · xong 1014 · chờ chủ duyệt 584 · cần chụp 576 · hỏi chủ 248
 
 Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` = giữ nguyên + đã lên web.
 
@@ -18,13 +18,13 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 | 8 | Snack que / que cay | 0.0tr | 43 | 0 | 0 | 0 | 9 | 18 | 0 | 0 | 16 |
 | 9 | Mì ly / tô / cốc | 0.0tr | 41 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 41 |
 | 10 | Kẹo cao su / singum | 0.0tr | 41 | 0 | 0 | 0 | 1 | 10 | 12 | 0 | 18 |
-| 11 | Trà đóng chai | 0.0tr | 40 | 0 | 0 | 0 | 2 | 7 | 20 | 0 | 11 |
+| 11 | Trà đóng chai | 0.0tr | 40 | 0 | 0 | 1 | 2 | 7 | 7 | 0 | 23 |
 | 12 | Bánh tráng trộn | 0.0tr | 37 | 0 | 0 | 0 | 2 | 5 | 0 | 0 | 30 |
 | 13 | Nước trái cây / ép | 0.0tr | 34 | 0 | 0 | 0 | 3 | 3 | 15 | 0 | 13 |
-| 14 | Bánh xốp kem (wafer) | 0.0tr | 31 | 0 | 0 | 0 | 2 | 8 | 21 | 0 | 0 |
+| 14 | Bánh xốp kem (wafer) | 0.0tr | 31 | 0 | 0 | 0 | 2 | 8 | 9 | 0 | 12 |
 | 15 | Mì gói | 0.0tr | 31 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 30 |
 | 16 | Sữa chua uống | 0.0tr | 31 | 0 | 0 | 1 | 2 | 2 | 2 | 0 | 24 |
-| 17 | Lager Phổ Thông | 0.0tr | 29 | 0 | 12 | 0 | 0 | 4 | 13 | 0 | 0 |
+| 17 | Lager Phổ Thông | 0.0tr | 29 | 0 | 12 | 0 | 0 | 4 | 11 | 0 | 2 |
 | 18 | Kem ly / cốc / hộp nhỏ | 0.0tr | 28 | 0 | 0 | 0 | 10 | 3 | 11 | 0 | 4 |
 | 19 | Mì trộn / mì khô / spaghetti (Gói) | 0.0tr | 27 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 26 |
 | 20 | Thức uống bổ sung dinh dưỡng | 0.0tr | 26 | 0 | 0 | 0 | 5 | 3 | 10 | 0 | 8 |
@@ -48,7 +48,7 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 | 38 | Nước tẩy trang - Dầu tẩy trang | 0.0tr | 20 | 0 | 9 | 0 | 2 | 3 | 3 | 0 | 3 |
 | 39 | Soda / nước trái cây có gas | 0.0tr | 20 | 0 | 0 | 0 | 2 | 1 | 16 | 0 | 1 |
 | 40 | Snack rong biển | 0.0tr | 20 | 0 | 0 | 0 | 2 | 1 | 11 | 0 | 6 |
-| 41 | Snack phồng tôm/mực/cua | 0.0tr | 19 | 0 | 0 | 0 | 5 | 0 | 3 | 0 | 11 |
+| 41 | Snack phồng tôm/mực/cua | 0.0tr | 19 | 0 | 0 | 0 | 5 | 0 | 0 | 0 | 14 |
 | 42 | Nước ngọt có gas | 0.0tr | 18 | 0 | 0 | 0 | 3 | 0 | 15 | 0 | 0 |
 | 43 | Bánh que chấm socola | 0.0tr | 18 | 0 | 0 | 0 | 7 | 0 | 7 | 0 | 4 |
 | 44 | Kẹo mềm / caramen | 0.0tr | 17 | 0 | 0 | 0 | 8 | 0 | 9 | 0 | 0 |

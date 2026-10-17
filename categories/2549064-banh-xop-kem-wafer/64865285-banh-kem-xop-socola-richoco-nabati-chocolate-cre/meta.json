@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I3/I4: ảnh chụp điện thoại có tay cầm, nền cửa hàng; không có ảnh hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: màu nền đỏ tươi hơn ảnh chụp (ảnh chụp hơi hồng); nắp hộp vẽ thêm chữ nabati mờ; chữ nhỏ dưới No.1 không đọc được",
@@ -62,6 +62,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T05:52:57.796Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -71,5 +77,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T05:27:14.237Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T05:27:14.237Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/1e8b71175fd34d8867b9b56630b0f4ab3f0b957e5c7a82bb142fef93a60117a0.webp"
+        ],
+        "from": [
+          "https://cdn1-retail-images.kiotviet.vn/2026/03/15/tongpenhchtl/6ab5f368e33e4af290708d14fd92d33b.jpg"
+        ]
+      },
+      "description": {
+        "to": "Bánh kem xốp sô-cô-la Nabati Richoco (Richoco Nabati Chocolate Cream Wafer), lớp xốp giòn xen kem sô-cô-la, bổ sung vitamin A, B1, B2, B6, B12.\n\nQuy cách: 330 g (22 gói × 15 g) · hộp\nXuất xứ: Indonesia · Nhà sản xuất/thương hiệu: PT Kaldu Sari Nabati Indonesia · Nabati",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }
