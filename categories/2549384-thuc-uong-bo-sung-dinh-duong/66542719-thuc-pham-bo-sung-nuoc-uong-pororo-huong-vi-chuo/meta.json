@@ -20,9 +20,9 @@
   "status": "NEEDS_PHOTO",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh; bản Việt Nam (mã vạch 893…, nhãn có chữ Việt) không có trên trang hãng Paldo → cần chụp",
+    "reason": "I1: chưa có ảnh; không tìm được ảnh bản Việt Nam (mã 893…) vị chuối ở Pharmacity/Open Food Facts (Pharmacity chỉ có bản Hàn nhãn tiếng Anh) → cần nhân viên chụp",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +43,12 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T12:00:00Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "searched retailer/OFF references for a Gemini redraw; none usable for this exact pack"
     }
   ]
 }

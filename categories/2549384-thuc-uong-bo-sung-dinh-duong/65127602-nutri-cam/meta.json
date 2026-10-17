@@ -17,18 +17,26 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I5, I7: ảnh chụp màn hình tìm kiếm (có biểu tượng giao diện, viền đen, nắp sát mép); trang hãng chỉ có bao bì cam đời cũ, không có bao bì Immuno-Blend đang bán → cần chụp",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I5, I7: ảnh chụp màn hình tìm kiếm (biểu tượng giao diện, viền đen, nắp sát mép); hãng không có ảnh cam bao bì Energyze Blend → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Vẽ bao bì Energyze Blend (cùng dòng với Nutri dâu đã đăng); ảnh KiotViet cũ là bao bì Immuno-Blend, trang hãng coca-cola.com/vn còn ảnh cam 'Năng lượng tiếp sức' — chưa chắc bản nào mới nhất; chữ nhỏ dưới 297 ml bị làm mờ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh Open Food Facts chai Nutriboost cam Energyze Blend (chụp tay, chỉ làm mẫu) + ảnh hãng Nutriboost dâu Energyze Blend (bố cục)",
+      "referenceUrl": "https://world.openfoodfacts.org/product/8935049511021"
+    },
+    "rubricVersion": "v17"
   },
   "description": {
-    "decision": "WRITE_NEW",
-    "reason": "D1: chưa có mô tả; mô tả ngắn từ chữ in mặt trước bao bì (trang hãng chỉ có công thức của bao bì cũ nên không dùng thành phần)",
+    "decision": "REWRITE",
+    "reason": "D1: chưa có mô tả; mô tả ngắn từ chữ in mặt trước bao bì (trang hãng chỉ có công thức của bao bì cũ nên không dùng thành phần); bỏ \"dòng Immuno-Blend\" vì ảnh mới là bao bì Energyze Blend (17/10/2026)",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v17"
   },
   "question": null,
   "history": [
@@ -43,6 +51,38 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T05:15:12Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T05:15:26.741Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T05:16:19Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "description: dropped Immuno-Blend (image now shows Energyze Blend)"
+    },
+    {
+      "at": "2026-10-17T05:16:19.665Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T05:16:19.665Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

@@ -20,9 +20,9 @@
   "status": "NEEDS_PHOTO",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh; không có trang SP MILO trên nestle.com.vn → cần chụp",
+    "reason": "I1: chưa có ảnh; không có ảnh hãng; tìm Pharmacity/Open Food Facts (mã 8934804054049) không thấy ảnh hộp MILO A2 180ml nào để làm mẫu cho Gemini → cần nhân viên chụp 1 hộp",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +43,12 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T12:00:00Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "searched retailer/OFF references for a Gemini redraw; none usable for this exact pack"
     }
   ]
 }

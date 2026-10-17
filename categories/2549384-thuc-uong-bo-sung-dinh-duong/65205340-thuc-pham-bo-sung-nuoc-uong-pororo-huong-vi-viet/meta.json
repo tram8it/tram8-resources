@@ -20,9 +20,9 @@
   "status": "NEEDS_PHOTO",
   "image": {
     "decision": "REPLACE",
-    "reason": "I7: ảnh có watermark của cửa hàng khác; bản Việt Nam (mã vạch 893…, nhãn có chữ Việt) không có trên trang hãng Paldo → cần chụp",
+    "reason": "I7: ảnh KiotViet là bản Hàn Quốc (chữ 블루베리맛, watermark Hoang Coop), không phải bản Việt Nam mã 893… (có dòng 'Bổ sung kẽm - Tăng cường miễn dịch'); không tìm được ảnh bản Việt Nam vị việt quất để làm mẫu → cần nhân viên chụp",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +43,12 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T12:00:00Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "searched retailer/OFF references for a Gemini redraw; none usable for this exact pack"
     }
   ]
 }

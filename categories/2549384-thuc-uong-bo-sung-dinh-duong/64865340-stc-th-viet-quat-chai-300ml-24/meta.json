@@ -17,12 +17,20 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh; trang TH (thtruemilk.vn, th.com.vn) bị chặn/không truy cập được, thmilk.vn chặn bot → không có nguồn chính hãng, cần chụp",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I1: chưa có ảnh; trang TH chặn bot, không có ảnh hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Chữ mặt trước 'Nước Uống Sữa Trái Cây / Việt Quất Tự Nhiên / Thực Phẩm Bổ Sung / Thể tích thực: 300 ml' dựng theo bố cục mặt chữ Việt của chai dâu cùng dòng (ảnh mẫu việt quất chỉ thấy mặt chữ Anh 'Natural Blueberry'); màu chữ vị (xanh đậm) là suy ra; chữ nhỏ hai bên hông không đọc được/không chính xác",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh Open Food Facts chai việt quất thật (mặt chữ Anh, chỉ làm mẫu) + ảnh SP cùng dòng TH dâu (bố cục mặt chữ Việt)",
+      "referenceUrl": "https://world.openfoodfacts.org/product/8936127794206"
+    },
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +51,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T05:15:11Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T05:15:24.599Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T05:15:24.599Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }
