@@ -17,12 +17,20 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I4: ảnh chụp điện thoại, nền kệ siêu thị; trang nongshim.com chặn truy cập → cần nhân viên chụp",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I4: ảnh chụp điện thoại, nền kệ siêu thị; ảnh hãng chỉ có GIF nhỏ nền không trắng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: dòng chữ nhỏ thứ 2–3 dưới góc trái là chữ mờ không đọc được (gói thật là thông tin dinh dưỡng); lần 1 Gemini ghi sai '84 g (400 kcal)', đã sửa thành '중량 80 g (375 kcal)' theo trang hãng",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh hãng Nongshim (GIF động 362×434, nền xám nhạt — không đăng thẳng được) + ảnh KiotViet hiện có",
+      "referenceUrl": "https://image.nongshim.com/non/pro/1527035414662.gif"
+    },
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +51,12 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "image needs staff photo, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T03:23:55Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
     }
   ]
 }

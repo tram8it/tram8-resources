@@ -50,7 +50,7 @@ MAX_FIXES = 2
 
 # USD, from ai.google.dev/gemini-api/docs/pricing (checked 2026-10-16). Used for estimates only.
 PRICES = {
-    "gemini-nano-banana-2.1": {"input_per_m": 1.50, "image": {"1K": 0.0336, "2K": 0.0504}},
+    "gemini-nano-banana-2.1": {"input_per_m": 1.50, "text_out_per_m": 7.50, "image": {"1K": 0.0336, "2K": 0.0504}},
     "gemini-3.1-flash-image": {"input_per_m": 0.50, "image": {"1K": 0.067, "2K": 0.101}},
     "gemini-3-pro-image": {"input_per_m": 2.00, "image": {"1K": 0.134, "2K": 0.134}},
     "gemini-3.1-flash-lite-image": {"input_per_m": 0.25, "image": {"1K": 0.0336}},
@@ -174,6 +174,15 @@ def find_image(node):
     return found
 
 
+def redact(node):
+    """Copy of the response with base64 payloads shortened, kept for debugging the API shape."""
+    if isinstance(node, dict):
+        return {k: (f"<{len(v)} chars>" if k in ("data", "signature") and isinstance(v, str) else redact(v)) for k, v in node.items()}
+    if isinstance(node, list):
+        return [redact(v) for v in node]
+    return node
+
+
 def find_text(node) -> str:
     texts = []
     for step in (node.get("steps") or []):
@@ -186,8 +195,13 @@ def estimate_cost(model: str, size: str, n_refs: int, usage: dict) -> float:
     price = PRICES.get(model)
     if not price:
         return 0.0
-    in_tokens = (usage or {}).get("total_input_tokens") or (300 + n_refs * INPUT_TOKENS_PER_REF)
-    return round(in_tokens / 1e6 * price["input_per_m"] + price["image"].get(size, price["image"]["1K"]), 4)
+    usage = usage or {}
+    in_tokens = usage.get("total_input_tokens") or (300 + n_refs * INPUT_TOKENS_PER_REF)
+    # thinking and text output are billed at the text rate on top of the per-image price
+    text_out = usage.get("total_thought_tokens", 0) + sum(
+        m.get("tokens", 0) for m in usage.get("output_tokens_by_modality", []) if m.get("modality") == "text")
+    return round(in_tokens / 1e6 * price["input_per_m"] + text_out / 1e6 * price.get("text_out_per_m", 0)
+                 + price["image"].get(size, price["image"]["1K"]), 4)
 
 
 def call_api(model: str, size: str, prompt: str, images: list) -> dict:
@@ -227,6 +241,7 @@ def run_attempt(meta, wdir, log, model, size, prompt, images, labels, kind, dry_
         print(f"estimated cost: ${estimate_cost(model, size, len(images), {}):.4f} (dry run, no call)")
         return None
     resp = call_api(model, size, prompt, images)
+    (wdir / f"attempt-{n}.response.json").write_text(json.dumps(redact(resp), indent=1), encoding="utf-8")
     hit = find_image(resp)
     usage = resp.get("usage") or {}
     cost = estimate_cost(model, size, len(images), usage)
