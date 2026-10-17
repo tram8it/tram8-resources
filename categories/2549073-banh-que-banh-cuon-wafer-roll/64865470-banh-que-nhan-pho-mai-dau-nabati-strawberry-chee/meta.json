@@ -17,12 +17,20 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3, I4, I5: ảnh chụp điện thoại mặt hộp, nền không trắng, hộp bị cắt; trang Nabati (nabatisnack.co.id) không có dòng Rolls → cần chụp",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I3, I4, I5: ảnh chụp điện thoại mặt hộp, nền không trắng, hộp bị cắt; trang Nabati không có dòng Rolls → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt ở chữ lớn, tên SP, 'Khối lượng tịnh : 50 g' và khối nhà sản xuất; dòng chữ nhỏ dưới logo Halal để mờ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet hộp Rolls phô mai dâu + ảnh KiotViet hộp Rolls Richoco cùng dòng (bố cục)",
+      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/02/26/tongpenhchtl/c9da719100304b428b98c1d0ef815c1c.jpeg"
+    },
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +51,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "image NEEDS_PHOTO (no official source), description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T05:30:09Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T05:30:35.149Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T05:30:35.149Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

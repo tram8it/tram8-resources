@@ -17,12 +17,20 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh; trang Mondelez Kinh Đô (snack-central.com/vn-vi) chỉ có Oreo Wafer Roll vị sô cô la, không có vị vani → cần chụp",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I1: chưa có ảnh; trang Mondelez Kinh Đô chỉ có Oreo Wafer Roll vị sô cô la, không có vị vani → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt ở chữ: 'OREO WAFER ROLL WITH VANILLA FLAVORED CREAM', 'Net weight: 54 g (3 x 18g)', 'Khối lượng tịnh: 54 g (3 gói x 18 g)', '86 kcal' khớp ảnh mẫu; vẽ thẳng mặt trước (ảnh hãng vị sô cô la vẽ nghiêng thấy cạnh hộp)",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh Open Food Facts hộp Oreo Wafer Roll vani 54 g (chỉ làm mẫu) + ảnh hãng hộp Oreo Wafer Roll sô cô la cùng dòng (màu, độ nét)",
+      "referenceUrl": "https://world.openfoodfacts.org/product/8934680033428"
+    },
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +51,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "image NEEDS_PHOTO (not on official site), description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T05:30:09Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T05:30:40.014Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T05:30:40.014Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

@@ -2,7 +2,7 @@
 
 > Sinh tự động bởi `node tools/status.mjs`. **Không sửa tay.** Nguồn sự thật là `meta.json` của từng SP.
 
-Tổng 2448 SP · đã xem 2428 (99%) · xong 985 · chờ chủ duyệt 567 · cần chụp 627 · hỏi chủ 244
+Tổng 2448 SP · đã xem 2428 (99%) · xong 985 · chờ chủ duyệt 581 · cần chụp 612 · hỏi chủ 245
 
 Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` = giữ nguyên + đã lên web.
 
@@ -35,10 +35,10 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 | 25 | Mì cay (Gói) | 0.0tr | 23 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 23 |
 | 26 | Bánh quy giòn / lạt | 0.0tr | 22 | 0 | 0 | 0 | 11 | 3 | 6 | 0 | 2 |
 | 27 | Kẹo cứng | 0.0tr | 22 | 0 | 0 | 0 | 10 | 0 | 10 | 0 | 2 |
-| 28 | Món hấp | 0.0tr | 22 | 0 | 0 | 0 | 20 | 0 | 2 | 0 | 0 |
+| 28 | Món hấp | 0.0tr | 22 | 0 | 0 | 0 | 16 | 0 | 6 | 0 | 0 |
 | 29 | Khô mực | 0.0tr | 22 | 0 | 0 | 0 | 9 | 3 | 8 | 0 | 2 |
-| 30 | Nước tăng lực | 0.0tr | 21 | 0 | 0 | 0 | 1 | 3 | 13 | 0 | 4 |
-| 31 | Bánh quế / bánh cuộn (wafer roll) | 0.0tr | 21 | 0 | 0 | 0 | 12 | 0 | 7 | 0 | 2 |
+| 30 | Nước tăng lực | 0.0tr | 21 | 0 | 0 | 0 | 0 | 3 | 14 | 0 | 4 |
+| 31 | Bánh quế / bánh cuộn (wafer roll) | 0.0tr | 21 | 0 | 0 | 0 | 2 | 1 | 16 | 0 | 2 |
 | 32 | Cà phê uống liền | 0.0tr | 21 | 0 | 0 | 0 | 4 | 3 | 13 | 0 | 1 |
 | 33 | Cơm nắm Onigiri | 0.0tr | 21 | 0 | 0 | 0 | 15 | 1 | 5 | 0 | 0 |
 | 34 | Xúc xích tiệt trùng | 0.0tr | 21 | 0 | 0 | 0 | 6 | 3 | 12 | 0 | 0 |

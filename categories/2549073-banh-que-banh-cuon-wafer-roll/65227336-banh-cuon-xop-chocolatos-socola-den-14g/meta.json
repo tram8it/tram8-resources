@@ -17,12 +17,20 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3, I4, I8: ảnh chụp điện thoại mặt hộp 24 que, nền không trắng, trong khi đơn vị bán là thanh 14 g; trang Garudafood chỉ có ảnh hộp bản Indonesia → cần chụp 1 thanh",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I3, I4, I8: ảnh chụp điện thoại mặt hộp 24 que, nền không trắng, trong khi đơn vị bán là thanh 14 g; ảnh hãng chỉ có thanh rất nhỏ (~315 px) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Vẽ thanh theo ảnh Garudafood (bản Indonesia); hộp ở cửa hàng là bản xuất khẩu ('Wafer Roll No.1 in Indonesia', 336 g = 24 x 14 g), mặt thanh trong hộp đó chưa thấy — có thể khác chi tiết. Chữ nhỏ đầu phải để mờ.",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh hộp + thanh 'Chocolatos Dark Wafer Stick' trên trang Garudafood (ảnh nhỏ, phóng to làm mẫu) + ảnh KiotViet hộp",
+      "referenceUrl": "https://garudafood.co.id/chocolatos-en"
+    },
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +51,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "image NEEDS_PHOTO (official image is Indonesian box), description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T05:30:09Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T05:30:44.548Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T05:30:44.548Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

@@ -17,12 +17,20 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3, I4: ảnh tay cầm que bánh trước kệ hàng; không có ảnh chính hãng 1 que → cần chụp",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I3, I4: ảnh tay cầm que bánh trước kệ hàng; ảnh hãng chỉ có thanh rất nhỏ → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Gói là Chocolatos vị sô cô la (Garudafood), không phải Gery như tên KiotViet — cùng mã vạch; không có huy hiệu 'Extra 10%' (bản khuyến mãi). Chữ nhỏ đầu phải để mờ, không in khối lượng",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh hộp + thanh 'Chocolatos Grande Wafer Stick' (Lezatos Recipe, Chocolate Flavour) trên trang Garudafood (ảnh nhỏ, phóng to làm mẫu) + ảnh KiotViet tay cầm thanh",
+      "referenceUrl": "https://garudafood.co.id/chocolatos-en"
+    },
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +51,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "image NEEDS_PHOTO, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T05:30:10Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T05:30:51.161Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T05:30:51.161Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }
