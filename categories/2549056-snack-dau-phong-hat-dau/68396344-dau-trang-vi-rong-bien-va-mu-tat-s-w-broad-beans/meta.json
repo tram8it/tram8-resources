@@ -20,9 +20,9 @@
   "status": "NEEDS_PHOTO",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh; không có ảnh hãng đúng quy cách: cửa hàng chính hãng shop.tonggarden.com.sg (cửa hàng của Tong Garden Food (Singapore) Pte. Ltd.) không có SP đậu vị rong biển & mù tạt 40g; không lấy ảnh siêu thị/sàn → cần nhân viên chụp",
+    "reason": "I1: chưa có ảnh; hãng không bán SP đậu tằm vị rong biển & mù tạt 40g; không tìm thấy ảnh mẫu nào của gói này (đã rà shop.tonggarden.com.sg, OpenFoodFacts theo mã vạch, tìm web theo tên Anh/Thái/Việt) → không đủ dữ kiện để Gemini vẽ đúng bao bì; cần nhân viên chụp mặt trước gói (rõ tên vị và khối lượng) để làm mẫu",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +43,12 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "image needs staff photo (no matching official image); description WRITE_NEW from name"
+    },
+    {
+      "at": "2026-10-17T12:10:00.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "re-checked 2026-10-17: no reference image anywhere (brand store, OFF has name only); still needs staff photo"
     }
   ]
 }

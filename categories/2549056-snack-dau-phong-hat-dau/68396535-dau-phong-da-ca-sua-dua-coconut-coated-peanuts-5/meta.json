@@ -17,12 +17,20 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I4/I8: ảnh 2 gói (mặt trước + mặt sau) trên nền xám; không có ảnh hãng đúng quy cách: cửa hàng chính hãng shop.tonggarden.com.sg (cửa hàng của Tong Garden Food (Singapore) Pte. Ltd.) chỉ có gói 45g, SP mình 50g; không lấy ảnh siêu thị/sàn → cần nhân viên chụp",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I4/I8: ảnh KiotViet 2 gói (mặt trước + mặt sau) trên nền xám; ảnh hãng chỉ có gói 55g, SP mình 50g → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Vẽ lại từ ảnh hãng, chỉ đổi nhãn khối lượng thành 'NET WEIGHT : 50 g' theo gói thật. Gói Thái đang bán có thêm dòng chữ Thái dưới tên SP, logo Vegan góc trái trên và ô dinh dưỡng góc trái dưới — ảnh này không có (theo bản thiết kế của hãng)",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh hãng Coconut Flavour Coated Peanuts 55g (shop.tonggarden.com.sg) làm nền + ảnh OpenFoodFacts gói Thái 50g + ảnh KiotViet (chỉ làm mẫu)",
+      "referenceUrl": "https://shop.tonggarden.com.sg/p/tonggarden-coconut-cream-coated-peanuts"
+    },
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +51,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "image needs staff photo (no matching official image); description WRITE_NEW from name"
+    },
+    {
+      "at": "2026-10-17T04:27:29Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T04:27:55.070Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T04:27:55.070Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

@@ -17,12 +17,12 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "ASK_OWNER",
   "image": {
     "decision": "REPLACE",
-    "reason": "I6: ảnh 139px, quá nhỏ; không có ảnh hãng đúng quy cách: cửa hàng chính hãng shop.tonggarden.com.sg (cửa hàng của Tong Garden Food (Singapore) Pte. Ltd.) không có đậu Hà Lan bao mực 45g; không lấy ảnh siêu thị/sàn → cần nhân viên chụp",
+    "reason": "I6: ảnh KiotViet 139px, không đọc được khối lượng; I2 nghi sai quy cách: gói Thái cùng mã vạch 8850291103094 (OpenFoodFacts) in 'NET WEIGHT : 50 g', tên ghi 45g; hãng không bán SP này → chưa vẽ ảnh",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -30,7 +30,7 @@
     "source": null,
     "rubricVersion": "v4"
   },
-  "question": null,
+  "question": "Đậu Hà Lan bao mực Tong Garden (mã vạch 8850291103094): tên KiotViet ghi 45g, nhưng gói Thái cùng mã vạch (OpenFoodFacts) in 'NET WEIGHT : 50 g'; ảnh KiotViet 139px không đọc được. Gói đang bán in bao nhiêu gam? (a) 45g → chụp giúp 1 ảnh mặt trước gói (rõ dòng khối lượng) để vẽ lại; (b) 50g → sửa tên SP thành 50g rồi vẽ theo gói Thái; (c) khác → cho biết số gam.",
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -43,6 +43,12 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "image needs staff photo (no matching official image); description WRITE_NEW from name"
+    },
+    {
+      "at": "2026-10-17T12:10:00.000Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "pack weight unverifiable: OFF Thai pack same barcode shows 50g, name says 45g; KiotViet photo too small to read → asked owner"
     }
   ]
 }
