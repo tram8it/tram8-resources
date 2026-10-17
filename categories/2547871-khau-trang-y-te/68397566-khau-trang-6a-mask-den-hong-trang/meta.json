@@ -17,12 +17,19 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I4: ảnh chụp điện thoại cầm tay, nền bàn làm việc; ảnh trên gumi.vn (mã vạch 8938545682967 khớp) đều là banner nền hồng có chữ 'Cửa hàng chính hãng/Hộp 100 chiếc', không phải packshot → cần chụp",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I3/I4: ảnh chụp điện thoại cầm tay, nền bàn làm việc; gumi.vn chỉ có banner nền hồng có chữ → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ khớp ảnh mẫu; ảnh là túi khẩu trang màu trắng (tên SP có 3 màu Đen, Hồng, Trắng)",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (chụp tay cầm túi đang bán)"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -46,6 +53,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "phone photo; official images are banners; description from pack + gumi.vn"
+    },
+    {
+      "at": "2026-10-17T08:32:24Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T08:32:24.372Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T08:32:24.372Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

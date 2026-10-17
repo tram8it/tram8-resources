@@ -17,12 +17,20 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3, I4: ảnh tay cầm chụp điện thoại, nền không trắng; trang Nestlé (nestle.com.my) chặn tải tự động, không tìm thấy ảnh hãng đúng loại 46 g → cần chụp",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I3/I4: ảnh tay cầm, nền không trắng; trang Nestlé chặn tải → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: đỉnh ốc vẽ phẳng gọn (bao thật bị nhàu); dải biểu tượng dinh dưỡng gần mũi ốc vẽ mờ, không có số; ảnh mẫu không đọc được khối lượng nên không kiểm được 46 g",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (ảnh chụp tay của cửa hàng)",
+      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/04/30/tram8/60b2f1b33c1b410e8b40b403fde1868d.jpeg"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +51,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "image REPLACE (hand-held photo), description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T08:27:58Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 3, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T08:28:19.461Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T08:28:19.461Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

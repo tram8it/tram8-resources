@@ -17,12 +17,20 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I2: ảnh hiện tại là thanh sô-cô-la KitKat, không phải hũ kem KitKat Pint; không tìm được ảnh hãng (Nestlé Thái Lan) → cần chụp",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I2: ảnh hiện tại là thanh sô-cô-la KitKat, không phải hũ kem → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: bảng dinh dưỡng: giữ 550/50/30, *28%, *77%; cột 4 và 2 phần trăm còn lại vẽ mờ (số cột 4 trông như 16, thật là 15); ô nâu góc trái dưới vẽ mờ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet của SP cùng tên 67032745 (hũ KitKat Pint chụp tay)",
+      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/07/13/tram8/8858be321a5d44a3ab2c4cf1e87203fc.jpeg"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +51,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "b28 review: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T08:27:58Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T08:28:26.800Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T08:28:26.800Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

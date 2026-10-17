@@ -17,12 +17,20 @@
     "description": "<h3 data-path-to-node=\"5\"><strong>Mô tả sản phẩm:</strong></h3><p data-path-to-node=\"6\"><strong>1. Giới thiệu sản phẩm</strong></p><ul data-path-to-node=\"7\"><li><p data-path-to-node=\"7,0,0\"><strong>Bia Tiger Crystal 330ml</strong> (dòng bia bạc cao cấp) là một trong những sản phẩm chủ lực và được ưa chuộng bậc nhất từ thương hiệu toàn cầu <strong>Tiger Beer (thuộc tập đoàn Heineken)</strong>.</p></li><li><p data-path-to-node=\"7,1,0\">Sở hữu quy cách lon 330ml truyền thống kết hợp cùng công nghệ lọc lạnh độc đáo, sản phẩm mang lại trải nghiệm sảng khoái tột đỉnh, là lựa chọn hàng đầu cho các bữa tiệc tùng, liên hoan hay các cuộc gặp gỡ sôi động cùng bạn bè.</p></li></ul><p data-path-to-node=\"10\"><strong>2. Thông tin chi tiết</strong></p><ul data-path-to-node=\"11\"><li><p data-path-to-node=\"11,0,0\"><strong>Thương hiệu:</strong> Tiger (Heineken)</p></li><li><p data-path-to-node=\"11,1,0\"><strong>Xuất xứ:</strong> Việt Nam</p></li><li><p data-path-to-node=\"11,2,0\"><strong>Loại sản phẩm:</strong> Bia lager cao cấp (Bia bạc)</p></li><li><p data-path-to-node=\"11,3,0\"><strong>Nồng độ cồn (ABV):</strong> 4.6%</p></li><li><p data-path-to-node=\"11,4,0\"><strong>Dung tích:</strong> 330ml / lon</p></li><li><p data-path-to-node=\"11,5,0\"><strong>Quy cách đóng gói:</strong> 24 lon / thùng</p></li><li><p data-path-to-node=\"11,6,0\"><strong>Hạn sử dụng:</strong> In rõ trên bao bì sản phẩm (thường 12 tháng kể từ ngày sản xuất)</p></li></ul><p data-path-to-node=\"12\"><strong>3. Hướng dẫn sử dụng và bảo quản</strong></p><ul data-path-to-node=\"13\"><li><p data-path-to-node=\"13,0,0\"><strong>Cách dùng:</strong> Uống trực tiếp từ lon hoặc rót ra ly. Ngon hơn khi uống lạnh sâu (nhiệt độ từ 4°C - 8°C). Nên ướp lạnh trước khi uống, hạn chế dùng kèm đá trực tiếp để giữ trọn vẹn vị êm mượt nguyên bản.</p></li><li><p data-path-to-node=\"13,1,0\"><strong>Bảo quản:</strong> Nơi khô ráo, thoáng mát, tránh ánh nắng trực tiếp hoặc nơi có nhiệt độ cao.</p></li><li><p data-path-to-node=\"13,2,0\"><strong>Lưu ý:</strong> Sản phẩm không dành cho người dưới 18 tuổi và phụ nữ có thai hoặc đang cho con bú. <em>\"Đã uống rượu bia – Không lái xe\"</em>.</p></li></ul>",
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I8: ảnh gồm cả thùng 20 lon và một lon, SKU bán lẻ từng lon; thử cắt riêng lon thì mép trái lon bị thùng che, ảnh vỡ → không đạt. heineken-vietnam.com.vn và heineken.com/vn có cổng xác nhận tuổi, không lấy được ảnh → cần chụp",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I8: ảnh gồm cả thùng 20 lon và một lon, SKU bán lẻ từng lon → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chỉ vẽ một lon, không giọt nước; chữ nhỏ vẽ gần đúng",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh Kingfoodmart theo mã vạch (chỉ làm mẫu) + ảnh KiotViet (thùng + lon)",
+      "referenceUrl": "https://storage.googleapis.com/onelife-public/8934822801335.jpg"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "REWRITE",
@@ -43,6 +51,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "b29: image REPLACE, description REWRITE"
+    },
+    {
+      "at": "2026-10-17T08:30:59Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T08:31:10.575Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T08:31:10.575Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

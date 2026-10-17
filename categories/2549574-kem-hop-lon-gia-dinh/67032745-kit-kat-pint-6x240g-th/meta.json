@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "ASK_OWNER",
   "image": {
     "decision": "REPLACE",
     "reason": "I3/I4: ảnh tay cầm 1 hũ trên thùng carton, SKU ghi 6x240g; không tìm được ảnh hãng (Nestlé Thái Lan) → cần chụp đúng quy cách bán",
@@ -30,7 +30,7 @@
     "source": null,
     "rubricVersion": "v4"
   },
-  "question": null,
+  "question": "Mã 8850124038593-2 \"KIT KAT Pint 6x240g TH\" (ĐVT Cái) trùng tên với SP 67039548 (mã 8850124038593, ĐVT Hũ) — mã -2 là thùng 6 hũ hay 1 hũ? Nếu là 1 hũ hoặc chấp nhận ảnh 1 hũ thì dùng lại ảnh hũ KitKat Pint vừa vẽ cho 67039548; nếu là thùng thì cần ảnh thùng.",
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -43,6 +43,12 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "b28 review: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T08:31:36Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "possibly carton of 6 tubs (-2 code, same name as 67039548); ask before reusing the single-tub image (RUBRIC I8)"
     }
   ]
 }

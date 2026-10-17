@@ -17,12 +17,19 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I8: ảnh điện thoại nhiều bông tắm chồng nhau; không có trang hãng → cần chụp",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I3/I8: ảnh điện thoại nhiều bông tắm chồng nhau; không có trang hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: các dòng chữ nhỏ trên nhãn (công dụng, cách dùng, địa chỉ) Gemini vẽ sai nên đã làm mờ cho không đọc được; màu lưới bông tắm (xanh/vàng) theo ảnh, hàng thật có thể khác màu",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (túi bông tắm Miss Orchid chụp trên bàn)"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +50,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "needs staff photo; description WRITE_NEW from name/pack"
+    },
+    {
+      "at": "2026-10-17T08:31:18Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T08:31:21.549Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T08:31:21.549Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

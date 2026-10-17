@@ -20,9 +20,9 @@
   "status": "NEEDS_PHOTO",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh. Không tìm được trang chính hãng Life's Food → cần chụp",
+    "reason": "I1: chưa có ảnh; không có trang hãng Life's Food, không tìm được ảnh mẫu → cần chụp lon (sẽ vẽ lại bằng Gemini như sữa gạo rang/9 loại hạt)",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +43,12 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "b26: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T08:31:37Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "no reference image found; still needs staff photo"
     }
   ]
 }

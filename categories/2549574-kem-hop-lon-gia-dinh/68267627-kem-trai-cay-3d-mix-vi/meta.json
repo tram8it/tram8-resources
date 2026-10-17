@@ -20,9 +20,9 @@
   "status": "NEEDS_PHOTO",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh; không rõ thương hiệu (mã vạch 697… Trung Quốc), không có nguồn hãng → cần chụp",
+    "reason": "I1: chưa có ảnh; không rõ thương hiệu (mã vạch 697… Trung Quốc), không tìm được ảnh mẫu → cần nhân viên chụp (sẽ vẽ lại bằng Gemini)",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +43,12 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "b28 review: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T08:31:36Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "no reference image found; still needs staff photo"
     }
   ]
 }

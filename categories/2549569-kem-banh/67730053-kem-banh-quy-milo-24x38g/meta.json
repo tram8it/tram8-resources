@@ -20,9 +20,9 @@
   "status": "NEEDS_PHOTO",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh; không tìm được ảnh chính hãng của kem bánh quy MILO (Thái Lan) → cần chụp",
+    "reason": "I1: chưa có ảnh; không tìm được ảnh hãng hay ảnh mẫu nào của kem bánh quy MILO 38g (Kingfoodmart, Open Food Facts không có ảnh) → cần nhân viên chụp (sẽ vẽ lại bằng Gemini)",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +43,12 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "no image; description WRITE_NEW from name only"
+    },
+    {
+      "at": "2026-10-17T08:31:36Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "no reference image found (KFM/OFF/search); still needs staff photo"
     }
   ]
 }

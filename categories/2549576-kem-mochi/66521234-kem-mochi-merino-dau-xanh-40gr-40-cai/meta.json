@@ -20,9 +20,9 @@
   "status": "NEEDS_PHOTO",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh; không tìm được trang hãng Merino (KIDO) có ảnh SP → cần chụp",
+    "reason": "I1: chưa có ảnh; Nutifood Eshop không bán mochi Merino, không tìm được ảnh mẫu vị đậu xanh (không vẽ theo gói đậu đỏ để tránh bịa) → cần nhân viên chụp",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +43,12 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "batch f2: image REPLACE (no image) -> needs photo, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T08:31:36Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "no reference for green-bean flavour; not inferred from red-bean pack"
     }
   ]
 }

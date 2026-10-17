@@ -20,9 +20,9 @@
   "status": "NEEDS_PHOTO",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh; vị chuối không còn trên trang hãng qbb.co.jp → cần chụp",
+    "reason": "I1: chưa có ảnh; vị chuối không có trên qbb.co.jp, Kingfoodmart/Open Food Facts không có ảnh → cần nhân viên chụp (sẽ vẽ lại bằng Gemini)",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +43,12 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "image needs staff photo (seasonal flavour not on qbb.co.jp), description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T08:31:37Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "no reference image found; still needs staff photo"
     }
   ]
 }

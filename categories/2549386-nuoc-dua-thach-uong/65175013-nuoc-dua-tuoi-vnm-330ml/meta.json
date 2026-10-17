@@ -20,9 +20,9 @@
   "status": "NEEDS_PHOTO",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh; vinamilk.com.vn trả 403 (cả curl và trình duyệt), không tìm được trang SP nước dừa → cần chụp",
+    "reason": "I1: chưa có ảnh; vinamilk.com.vn trả 403, không tìm được ảnh mẫu nước dừa Vinamilk 330ml (Kingfoodmart, Open Food Facts không có) → cần nhân viên chụp",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +43,12 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "batch f3: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T08:31:37Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "no reference image found; still needs staff photo"
     }
   ]
 }
