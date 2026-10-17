@@ -17,18 +17,25 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "TODO",
+  "status": "READY",
   "image": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "REPLACE",
+    "reason": "I3/I4: ảnh KiotViet tay cầm chai trong cửa hàng, nền kệ; thay bằng ảnh chai La Chouffe Blonde 330 ml bao bì mới nhất trên trang hãng chouffe.com (ảnh hiện tại là nhãn đời trước; nhãn mới in alc. 8,0% vol, 330ml)",
+    "source": {
+      "url": "https://chouffe.com/uploads/Beers/La-Chouffe/La_Chouffe_Blond_Bottle_EU_33cl_DRY.png",
+      "page": "https://www.chouffe.com/en/beers/la-chouffe-blonde",
+      "fetchedAt": "2026-10-17"
+    },
+    "rubricVersion": "v20"
   },
   "description": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "WRITE_NEW",
+    "reason": "D1: KiotViet chưa có mô tả; viết ngắn từ trang hãng chouffe.com (nhãn chai)",
+    "source": {
+      "url": "https://www.chouffe.com/en/beers/la-chouffe-blonde",
+      "fetchedAt": "2026-10-17"
+    },
+    "rubricVersion": "v20"
   },
   "question": null,
   "history": [
@@ -37,6 +44,32 @@
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-17T17:43:21Z",
+      "by": "ai",
+      "status": "TODO",
+      "note": "description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T18:00:00Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "image REPLACE from brand site chouffe.com, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T17:43:56.784Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T17:43:56.784Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

@@ -20,7 +20,7 @@
   "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I4: ảnh chụp điện thoại trong cửa hàng, nền thùng/kệ, lon bị cắt; không có ảnh hãng dùng được; liefmans.com không có trang SP → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Nắp chai vẽ màu đỏ sẫm (ảnh KiotViet không thấy nắp); không thấy khác biệt khác",
+    "reason": "I3/I4: ảnh chụp điện thoại trong cửa hàng, nền thùng/kệ, chai bị cắt; không có ảnh hãng dùng được; liefmans.com không có trang SP → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Nắp chai vẽ màu đỏ sẫm (ảnh KiotViet không thấy nắp); không thấy khác biệt khác",
     "source": {
       "aiGenerated": true,
       "tool": "Gemini API",
@@ -33,10 +33,13 @@
     "rubricVersion": "v18"
   },
   "description": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "WRITE_NEW",
+    "reason": "D1: KiotViet chưa có mô tả; viết ngắn từ chữ in trên nhãn chai (ảnh KiotViet, Open Food Facts: 250 ml)",
+    "source": {
+      "url": "https://world.openfoodfacts.org/product/5411686700118",
+      "fetchedAt": "2026-10-17"
+    },
+    "rubricVersion": "v20"
   },
   "question": null,
   "history": [
@@ -51,6 +54,26 @@
       "by": "ai",
       "status": "READY",
       "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T17:43:21Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T17:43:44.038Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T17:43:44.038Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

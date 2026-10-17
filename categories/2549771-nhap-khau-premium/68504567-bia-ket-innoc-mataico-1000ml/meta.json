@@ -32,10 +32,10 @@
     "rubricVersion": "v18"
   },
   "description": {
-    "decision": null,
-    "reason": null,
+    "decision": "WRITE_NEW",
+    "reason": "D1: KiotViet chưa có mô tả; viết ngắn từ chữ in trên nhãn (ảnh KiotViet: 净含量 1L)",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v20"
   },
   "question": null,
   "history": [
@@ -50,6 +50,26 @@
       "by": "ai",
       "status": "READY",
       "note": "Gemini API redraw (attempt 2, gemini-3.1-flash-image), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T17:43:21Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T17:43:54.160Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T17:43:54.160Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

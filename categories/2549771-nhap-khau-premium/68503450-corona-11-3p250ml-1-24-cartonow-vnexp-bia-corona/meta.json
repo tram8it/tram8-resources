@@ -33,10 +33,13 @@
     "rubricVersion": "v18"
   },
   "description": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "WRITE_NEW",
+    "reason": "D1: KiotViet chưa có mô tả; viết ngắn từ nhãn chai (ảnh Kingfoodmart chỉ để đọc nhãn: 250 ml, 4,5% Alc./Vol.)",
+    "source": {
+      "url": "https://storage.googleapis.com/onelife-public/6915878224219.jpg",
+      "fetchedAt": "2026-10-17"
+    },
+    "rubricVersion": "v20"
   },
   "question": null,
   "history": [
@@ -51,6 +54,26 @@
       "by": "ai",
       "status": "READY",
       "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T17:43:21Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T17:43:36.279Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T17:43:36.279Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }
