@@ -17,12 +17,20 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "TODO",
+  "status": "READY",
   "image": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "REPLACE",
+    "reason": "I6/I9: ảnh KiotViet nhỏ (lon ~240px), không 1:1 giữa; trang sapporobeer.com không có ảnh lon Premium 500 ml → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt (500ML 5.0% ALC./VOL, IMPORTED như ảnh mẫu)",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh Kingfoodmart (chỉ làm mẫu) + ảnh KiotViet",
+      "referenceUrl": "https://storage.googleapis.com/onelife-public/8936061260447.jpg"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": null,
@@ -37,6 +45,12 @@
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-17T17:42:07Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
     }
   ]
 }

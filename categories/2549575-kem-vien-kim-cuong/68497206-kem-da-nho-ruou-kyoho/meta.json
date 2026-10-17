@@ -17,18 +17,26 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "TODO",
+  "status": "READY",
   "image": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "REPLACE",
+    "reason": "I3/I4/I7: ảnh chụp trong cửa hàng, có dấu chìm 'DDL 便利店'; không tìm được ảnh hãng/nhà bán lẻ → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: dòng 净含量 để mờ (gói thật không đọc được); chữ trong huy hiệu 30% chỉ minh hoạ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-3.1-flash-image",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet của cửa hàng",
+      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/10/16/tram8/d0d90ecff99f48cc85d1b6fc8a2f35b1.jpeg"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
-    "decision": null,
-    "reason": null,
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; theo chữ in trên túi ở ảnh KiotViet (每袋12粒); khối lượng không đọc được nên không ghi",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v20"
   },
   "question": null,
   "history": [
@@ -37,6 +45,32 @@
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-17T17:40:47Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-3.1-flash-image), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T18:00:00Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "description WRITE_NEW (theo chữ in trên túi ở ảnh KiotViet (每袋12粒); khối lượng không đọc được nên không ghi)"
+    },
+    {
+      "at": "2026-10-17T17:42:06.334Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T17:42:06.334Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

@@ -17,12 +17,20 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "TODO",
+  "status": "READY",
   "image": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "REPLACE",
+    "reason": "I8: ảnh KiotViet là lốc 6 lon kèm chữ quảng cáo 'Phiên bản giới hạn'; SP bán theo lon → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Một lon thay vì lốc; bỏ chữ quảng cáo",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-3.1-flash-image",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh Kingfoodmart (chỉ làm mẫu) + ảnh KiotViet",
+      "referenceUrl": "https://storage.googleapis.com/onelife-public/8902246004984.jpg"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": null,
@@ -37,6 +45,12 @@
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-17T17:42:10Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-3.1-flash-image), checked by eye against references"
     }
   ]
 }

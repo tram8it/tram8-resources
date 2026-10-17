@@ -17,12 +17,20 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "TODO",
+  "status": "READY",
   "image": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "REPLACE",
+    "reason": "I3: ảnh KiotViet chụp kệ cả thùng 24 chai; ảnh hãng là bản EU in 4,7% không khớp hàng Trung Quốc → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Bỏ dòng độ cồn trên nhãn (bản EU in 4,7%, hàng đang bán là bản Trung Quốc); dải dưới nhãn có thể khác màu nhẹ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-3.1-flash-image",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh chai Vedett Extra White trên vedett.com (bản EU) + ảnh KiotViet (bản Trung Quốc)",
+      "referenceUrl": "https://www.vedett.com/"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": null,
@@ -37,6 +45,12 @@
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-17T17:42:08Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 3, gemini-3.1-flash-image), checked by eye against references"
     }
   ]
 }

@@ -17,18 +17,26 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "TODO",
+  "status": "READY",
   "image": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "REPLACE",
+    "reason": "I3/I4: ảnh chụp trong tủ đông, lẫn gói khác, bóng lóa; không tìm được ảnh hãng/nhà bán lẻ → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt ở chữ lớn (迪拜风巧克力雪糕, DUBAI STYLE, 净含量:65克); dòng chữ rất nhỏ chỉ minh hoạ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-3.1-flash-image",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet của cửa hàng",
+      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/10/16/tram8/9270ca84329b4ebb93a221d6066fc023.jpeg"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
-    "decision": null,
-    "reason": null,
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; theo chữ in trên gói ở ảnh KiotViet (迪拜风巧克力雪糕, 净含量 65 克)",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v20"
   },
   "question": null,
   "history": [
@@ -37,6 +45,32 @@
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-17T17:40:47Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-3.1-flash-image), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T18:00:00Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "description WRITE_NEW (theo chữ in trên gói ở ảnh KiotViet (迪拜风巧克力雪糕, 净含量 65 克))"
+    },
+    {
+      "at": "2026-10-17T17:42:01.337Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T17:42:01.337Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

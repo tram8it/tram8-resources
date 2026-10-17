@@ -17,12 +17,19 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I2: ảnh KiotViet là bao bì Thọ Phát đời cũ (logo cũ, ghi 'nhân thịt heo trứng muối'), không khớp tên '1 cút 1 muối'; không tìm được ảnh gói mới mã 8938502525351 (thophat.com chặn bot; Co.op Online/Lotte Mart chỉ có gói cũ khác mã) → cần chụp mặt trước gói đang bán",
-    "source": null,
-    "rubricVersion": "v17"
+    "reason": "I2: ảnh KiotViet là bao bì đời cũ, nền không trắng → ảnh món ăn Gemini vẽ từ ảnh bao bì (v18: món hấp bán lẻ hiện cái bánh và nhân); ảnh minh hoạ. Khác hàng thật: ảnh minh hoạ; nhân thịt heo + 1 trứng cút + 1 lòng đỏ trứng muối theo tên SP; nền xám của ảnh Gemini đã tách thành trắng bằng cutout.py",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "food photo, whole + cut showing filling (v18)",
+      "reference": "ảnh KiotViet (bao bì Thọ Phát đời cũ, chỉ để biết dáng bánh)"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -52,6 +59,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "rechecked 17/10: no reference of the current pack for barcode 8938502525351; Gemini not run"
+    },
+    {
+      "at": "2026-10-17T17:39:37Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T17:40:00.513Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T17:40:00.513Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

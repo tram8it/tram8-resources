@@ -17,18 +17,18 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "TODO",
+  "status": "NEEDS_PHOTO",
   "image": {
-    "decision": null,
-    "reason": null,
+    "decision": "REPLACE",
+    "reason": "I1: chưa có ảnh; mã vạch 7622202387173 không có trên Kingfoodmart/Open Food Facts/iCheck, trang Mondelez VN và 5 lần tìm web (VN/EN/CN) không ra bao bì vị sữa chua xoài → cần nhân viên chụp mặt trước thỏi",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v20"
   },
   "description": {
-    "decision": null,
-    "reason": null,
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; mô tả ngắn chỉ từ tên SP (chưa tìm được bao bì)",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v20"
   },
   "question": null,
   "history": [
@@ -37,6 +37,12 @@
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-17T18:00:00Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "image: I1: chưa có ảnh; mã vạch 7622202387173 không có trên Kingfoodmart/Open Food Facts/iCheck, trang Mondelez VN và 5 lần tìm web (VN/EN/CN) không ra bao bì vị sữa c; description WRITE_NEW"
     }
   ]
 }

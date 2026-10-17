@@ -17,12 +17,20 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "TODO",
+  "status": "READY",
   "image": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "REPLACE",
+    "reason": "I3/I4: ảnh chụp điện thoại trong cửa hàng, nền thùng/kệ, lon bị cắt; không có ảnh hãng dùng được → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Theo nhãn 'Original Czech Lager' trên kệ (Kingfoodmart cùng mã vạch có nhãn B:ORIGINAL); chữ nhỏ để mờ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-3.1-flash-image",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet + ảnh Kingfoodmart (chỉ lấy dáng chai)",
+      "referenceUrl": "https://storage.googleapis.com/onelife-public/8594403110128.jpg"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": null,
@@ -37,6 +45,12 @@
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-17T17:42:10Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-3.1-flash-image), checked by eye against references"
     }
   ]
 }
