@@ -20,9 +20,9 @@
   "status": "ASK_OWNER",
   "image": {
     "decision": "REPLACE",
-    "reason": "khối lượng trên gói (16 g) khác tên KiotViet (20 g) → hỏi chủ",
+    "reason": "khối lượng chủ xác nhận 20 g (17/10); ảnh KiotViet là gói đỏ 16 g, không tìm được ảnh gói 20 g (tên ghi \"tím\") → chưa biết màu/thiết kế gói 20 g, chưa vẽ",
     "source": null,
-    "rubricVersion": "v17"
+    "rubricVersion": "v19"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -30,7 +30,7 @@
     "source": null,
     "rubricVersion": "v4"
   },
-  "question": "Tên ghi 20 g ('tím'), gói chụp tại cửa hàng màu đỏ in 16 g. Gói đang bán in 20 g hay 16 g, màu gì?",
+  "question": "Gói Time Break 20 g đang bán màu gì (tím hay đỏ)? Nếu được, nhờ chụp mặt trước gói 20 g.",
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -61,6 +61,18 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "gap > ~10% / other size or needs shelf check: question shortened to the two numbers (RUBRIC v19)"
+    },
+    {
+      "at": "2026-10-17T12:00:00Z",
+      "by": "owner",
+      "status": "ASK_OWNER",
+      "note": "Kiểm kệ 17/10: gói in 20 g (không có ảnh, chưa cho biết màu gói)"
+    },
+    {
+      "at": "2026-10-17T13:30:00Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "20 g confirmed; no 20 g pack reference found (KiotViet photo = red 16 g pack); question narrowed to pack colour"
     }
   ]
 }

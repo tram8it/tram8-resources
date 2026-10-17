@@ -2,7 +2,7 @@
 
 > Sinh tự động bởi `node tools/status.mjs`. **Không sửa tay.** Nguồn sự thật là `meta.json` của từng SP.
 
-Tổng 2448 SP · đã xem 2448 (100%) · xong 1206 · chờ chủ duyệt 697 · cần chụp 320 · hỏi chủ 225
+Tổng 2448 SP · đã xem 2448 (100%) · xong 1206 · chờ chủ duyệt 707 · cần chụp 322 · hỏi chủ 213
 
 Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` = giữ nguyên + đã lên web.
 
@@ -11,20 +11,20 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 | 1 | Snack khoai tây | 0.0tr | 75 | 0 | 0 | 0 | 0 | 2 | 0 | 0 | 73 |
 | 2 | Snack bắp & phồng | 0.0tr | 64 | 0 | 0 | 0 | 4 | 9 | 6 | 0 | 45 |
 | 3 | Kem que | 0.0tr | 60 | 0 | 0 | 0 | 2 | 4 | 25 | 0 | 29 |
-| 4 | Socola thanh | 0.0tr | 53 | 0 | 0 | 0 | 0 | 6 | 0 | 0 | 47 |
-| 5 | Snack đậu phộng / hạt‑đậu | 0.0tr | 47 | 0 | 0 | 0 | 10 | 8 | 2 | 0 | 27 |
+| 4 | Socola thanh | 0.0tr | 53 | 0 | 0 | 0 | 0 | 5 | 1 | 0 | 47 |
+| 5 | Snack đậu phộng / hạt‑đậu | 0.0tr | 47 | 0 | 0 | 0 | 10 | 6 | 4 | 0 | 27 |
 | 6 | Kẹo dẻo / jelly | 0.0tr | 44 | 0 | 0 | 0 | 15 | 6 | 13 | 0 | 10 |
-| 7 | Viên ngậm thảo mộc / bạc hà | 0.0tr | 44 | 0 | 0 | 0 | 3 | 3 | 21 | 0 | 17 |
+| 7 | Viên ngậm thảo mộc / bạc hà | 0.0tr | 44 | 0 | 0 | 0 | 3 | 2 | 22 | 0 | 17 |
 | 8 | Snack que / que cay | 0.0tr | 43 | 0 | 1 | 0 | 9 | 15 | 2 | 0 | 16 |
 | 9 | Mì ly / tô / cốc | 0.0tr | 41 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 41 |
 | 10 | Kẹo cao su / singum | 0.0tr | 41 | 0 | 0 | 0 | 1 | 5 | 17 | 0 | 18 |
 | 11 | Trà đóng chai | 0.0tr | 40 | 0 | 0 | 0 | 2 | 7 | 8 | 0 | 23 |
 | 12 | Bánh tráng trộn | 0.0tr | 37 | 0 | 0 | 0 | 2 | 3 | 2 | 0 | 30 |
 | 13 | Nước trái cây / ép | 0.0tr | 34 | 0 | 0 | 0 | 3 | 3 | 15 | 0 | 13 |
-| 14 | Bánh xốp kem (wafer) | 0.0tr | 31 | 0 | 0 | 0 | 2 | 7 | 10 | 0 | 12 |
+| 14 | Bánh xốp kem (wafer) | 0.0tr | 31 | 0 | 0 | 0 | 2 | 5 | 12 | 0 | 12 |
 | 15 | Mì gói | 0.0tr | 31 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 30 |
 | 16 | Sữa chua uống | 0.0tr | 31 | 0 | 0 | 0 | 2 | 3 | 2 | 0 | 24 |
-| 17 | Lager Phổ Thông | 0.0tr | 29 | 0 | 12 | 0 | 0 | 4 | 11 | 0 | 2 |
+| 17 | Lager Phổ Thông | 0.0tr | 29 | 0 | 12 | 0 | 0 | 3 | 12 | 0 | 2 |
 | 18 | Kem ly / cốc / hộp nhỏ | 0.0tr | 28 | 0 | 0 | 0 | 10 | 1 | 13 | 0 | 4 |
 | 19 | Mì trộn / mì khô / spaghetti (Gói) | 0.0tr | 27 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 26 |
 | 20 | Thức uống bổ sung dinh dưỡng | 0.0tr | 26 | 0 | 0 | 0 | 5 | 2 | 11 | 0 | 8 |
@@ -36,9 +36,9 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 | 26 | Bánh quy giòn / lạt | 0.0tr | 22 | 0 | 0 | 0 | 1 | 2 | 8 | 0 | 11 |
 | 27 | Kẹo cứng | 0.0tr | 22 | 0 | 0 | 0 | 1 | 1 | 10 | 0 | 10 |
 | 28 | Món hấp | 0.0tr | 22 | 0 | 0 | 0 | 3 | 1 | 0 | 0 | 18 |
-| 29 | Khô mực | 0.0tr | 22 | 0 | 0 | 0 | 9 | 3 | 0 | 0 | 10 |
+| 29 | Khô mực | 0.0tr | 22 | 0 | 0 | 0 | 10 | 2 | 0 | 0 | 10 |
 | 30 | Nước tăng lực | 0.0tr | 21 | 0 | 0 | 0 | 0 | 3 | 11 | 0 | 7 |
-| 31 | Bánh quế / bánh cuộn (wafer roll) | 0.0tr | 21 | 0 | 0 | 0 | 2 | 1 | 7 | 0 | 11 |
+| 31 | Bánh quế / bánh cuộn (wafer roll) | 0.0tr | 21 | 0 | 0 | 0 | 3 | 0 | 7 | 0 | 11 |
 | 32 | Cà phê uống liền | 0.0tr | 21 | 0 | 0 | 0 | 0 | 3 | 13 | 0 | 5 |
 | 33 | Cơm nắm Onigiri | 0.0tr | 21 | 0 | 0 | 0 | 15 | 1 | 5 | 0 | 0 |
 | 34 | Xúc xích tiệt trùng | 0.0tr | 21 | 0 | 0 | 0 | 6 | 3 | 6 | 0 | 6 |
@@ -90,7 +90,7 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 | 80 | Dầu gội - Dành cho nam | 0.0tr | 11 | 0 | 1 | 0 | 0 | 2 | 8 | 0 | 0 |
 | 81 | Kem ốc quế | 0.0tr | 11 | 0 | 0 | 0 | 0 | 0 | 11 | 0 | 0 |
 | 82 | Kẹo sáng tạo / đồ chơi | 0.0tr | 11 | 0 | 0 | 0 | 2 | 1 | 7 | 0 | 1 |
-| 83 | Khô gà | 0.0tr | 11 | 0 | 0 | 0 | 3 | 3 | 1 | 0 | 4 |
+| 83 | Khô gà | 0.0tr | 11 | 0 | 0 | 0 | 3 | 1 | 3 | 0 | 4 |
 | 84 | Dụng cụ sơ cứu | 0.0tr | 10 | 0 | 0 | 0 | 0 | 1 | 9 | 0 | 0 |
 | 85 | Bắp rang bơ - Popcorn | 0.0tr | 10 | 0 | 0 | 0 | 10 | 0 | 0 | 0 | 0 |
 | 86 | Cáp sạc & dây | 0.0tr | 10 | 0 | 0 | 0 | 2 | 0 | 7 | 0 | 1 |
@@ -204,7 +204,7 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 | 194 | Kem đánh răng - Than/muối/thảo mộc | 0.0tr | 1 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 195 | Adapter du lịch / ổ cắm đa năng | 0.0tr | 1 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 0 |
 | 196 | Sạc dự phòng | 0.0tr | 1 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 0 |
-| 197 | Soju Truyền Thống | 0.0tr | 1 | 0 | 0 | 0 | 0 | 1 | 0 | 0 | 0 |
+| 197 | Soju Truyền Thống | 0.0tr | 1 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 0 |
 | 198 | Sake | 0.0tr | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 |
 | 199 | Serum dưỡng tóc | 0.0tr | 1 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 200 | Tẩy da chết - Body | 0.0tr | 1 | 0 | 0 | 0 | 0 | 1 | 0 | 0 | 0 |

@@ -17,20 +17,20 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "ASK_OWNER",
+  "status": "NEEDS_PHOTO",
   "image": {
     "decision": "REPLACE",
-    "reason": "I4: ảnh chụp điện thoại, nền không trắng",
+    "reason": "khối lượng chủ xác nhận 50 g (17/10) nhưng chưa rõ vị; ảnh KiotViet là gói 35 g vị cay (Spicy), không tìm được ảnh gói Posi mực 50 g → cần ảnh gói 50 g khi có hàng",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v19"
   },
   "description": {
     "decision": "ASK_OWNER",
-    "reason": "chờ chủ xác nhận khối lượng (ảnh 35 g, tên 50 g)",
+    "reason": "chờ ảnh gói 50 g để biết vị trước khi viết mô tả",
     "source": null,
     "rubricVersion": "v4"
   },
-  "question": "Tên ghi 50 g, ảnh gói in 35 g (vị cay). Gói đang bán in 50 g hay 35 g, vị gì?",
+  "question": null,
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -55,6 +55,18 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "gap > ~10% / other size or needs shelf check: question shortened to the two numbers (RUBRIC v19)"
+    },
+    {
+      "at": "2026-10-17T12:00:00Z",
+      "by": "owner",
+      "status": "ASK_OWNER",
+      "note": "Kiểm kệ 17/10: 50 g; trên kệ hết hàng, không có ảnh, chưa rõ vị"
+    },
+    {
+      "at": "2026-10-17T13:30:00Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "50 g confirmed, flavour unknown (only reference: 35 g spicy) → needs photo of the 50 g pack"
     }
   ]
 }

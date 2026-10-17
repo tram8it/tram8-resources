@@ -17,20 +17,27 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "ASK_OWNER",
+  "status": "READY",
   "image": {
-    "decision": "ASK_OWNER",
-    "reason": "I2: tên ghi 48 g, ảnh là gói 53,5 g",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "REPLACE",
+    "reason": "I2: ảnh KiotViet là gói cũ 53,5 g; gói đang bán in 48 g (kiểm kệ 17/10) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: bỏ dấu NSX/HSD; logo Halal vẽ đơn giản",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh nhân viên chụp 17/10"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
-    "decision": "ASK_OWNER",
-    "reason": "Chờ chủ xác nhận khối lượng",
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết ngắn từ chữ in mặt trước gói 48 g (ảnh nhân viên chụp 17/10), không có trang hãng",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v19"
   },
-  "question": "Tên ghi 48 g, ảnh gói in 53,5 g. Gói đang bán in 48 g hay 53,5 g?",
+  "question": null,
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -55,6 +62,32 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "gap > ~10% / other size or needs shelf check: question shortened to the two numbers (RUBRIC v19)"
+    },
+    {
+      "at": "2026-10-17T12:00:00Z",
+      "by": "owner",
+      "status": "ASK_OWNER",
+      "note": "Kiểm kệ 17/10 (nhân viên chụp): gói Cal Cheese Mayora màu cam in 48 g"
+    },
+    {
+      "at": "2026-10-17T12:56:34Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 3, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T12:58:00.655Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T12:58:00.655Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

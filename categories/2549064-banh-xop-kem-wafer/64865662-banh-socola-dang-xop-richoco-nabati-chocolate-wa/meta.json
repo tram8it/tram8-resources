@@ -17,20 +17,27 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "ASK_OWNER",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "khối lượng chưa xác minh (OFF 37 g vs tên 50 g); ảnh Gemini còn chữ nhỏ bịa số sau 2 lần sửa → hỏi chủ",
-    "source": null,
-    "rubricVersion": "v17"
+    "reason": "I3/I4: ảnh KiotViet chụp thùng hàng; gói đang bán in 50 g (kiểm kệ 17/10) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: dòng chữ nhỏ 'Manufactured by…'/địa chỉ mờ, không đọc được (Gemini hay bịa chữ nhỏ)",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh nhân viên chụp 17/10 + ảnh packshot cùng thiết kế (chỉ làm mẫu bố cục)"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
-    "reason": "D1: chưa có mô tả; viết ngắn chỉ từ tên SP và chữ in mặt trước bao bì (không có trang hãng)",
+    "reason": "D1: chưa có mô tả; viết ngắn từ tên SP và chữ in mặt trước gói; 50 g khớp gói đang bán (kiểm kệ 17/10)",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v19"
   },
-  "question": "Tên ghi 50 g, mã vạch này trên Open Food Facts là gói 37 g. Gói đang bán in 50 g hay 37 g?",
+  "question": null,
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -61,6 +68,32 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "gap > ~10% / other size or needs shelf check: question shortened to the two numbers (RUBRIC v19)"
+    },
+    {
+      "at": "2026-10-17T12:00:00Z",
+      "by": "owner",
+      "status": "ASK_OWNER",
+      "note": "Kiểm kệ 17/10 (nhân viên chụp): gói in 50 g"
+    },
+    {
+      "at": "2026-10-17T12:56:34Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 5, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T12:58:03.433Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T12:58:03.433Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

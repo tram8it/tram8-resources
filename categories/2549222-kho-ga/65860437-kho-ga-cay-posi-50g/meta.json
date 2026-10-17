@@ -17,20 +17,27 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "ASK_OWNER",
+  "status": "READY",
   "image": {
-    "decision": "ASK_OWNER",
-    "reason": "I2: ảnh packshot nền trắng nhưng bao bì ghi 40 g, tên hàng ghi 50 g; không chắc đúng quy cách",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "REPLACE",
+    "reason": "I2: ảnh KiotViet gói in 40 g; chủ xác nhận gói đang bán 50 g (hết hàng, không có ảnh gói 50 g) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ khối lượng sửa thành 50 g theo chủ; chưa có ảnh gói 50 g nên các chi tiết khác theo gói 40 g; 4 huy hiệu trên đầu gói để trơn (không chữ)",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet gói 40 g (cùng thiết kế; chủ xác nhận gói đang bán 50 g, 17/10)"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
-    "decision": "ASK_OWNER",
-    "reason": "chờ chủ xác nhận khối lượng (bao bì 40 g, tên 50 g)",
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết ngắn từ chữ in mặt trước gói, khối lượng 50 g theo chủ (17/10)",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v19"
   },
-  "question": "Tên ghi 50 g, gói trong ảnh in 40 g. Gói đang bán in 50 g hay 40 g?",
+  "question": null,
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -55,6 +62,32 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "gap > ~10% / other size or needs shelf check: question shortened to the two numbers (RUBRIC v19)"
+    },
+    {
+      "at": "2026-10-17T12:00:00Z",
+      "by": "owner",
+      "status": "ASK_OWNER",
+      "note": "Kiểm kệ 17/10: gói in 50 g (hết hàng, không có ảnh)"
+    },
+    {
+      "at": "2026-10-17T12:56:35Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T12:58:12.367Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T12:58:12.367Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

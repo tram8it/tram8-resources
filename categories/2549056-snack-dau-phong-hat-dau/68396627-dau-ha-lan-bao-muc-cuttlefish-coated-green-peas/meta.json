@@ -17,20 +17,27 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "ASK_OWNER",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I6: ảnh KiotViet 139px, không đọc được khối lượng; I2 nghi sai quy cách: gói Thái cùng mã vạch 8850291103094 (OpenFoodFacts) in 'NET WEIGHT : 50 g', tên ghi 45g; hãng không bán SP này → chưa vẽ ảnh",
-    "source": null,
-    "rubricVersion": "v17"
+    "reason": "I6: ảnh KiotViet 139px; khối lượng chủ xác nhận 40 g (kiểm kệ 17/10) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: bỏ huy hiệu bị khuất ở mép phải gói thật; hạt đậu vẽ lại",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh nhân viên chụp 17/10"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
-    "decision": "WRITE_NEW",
-    "reason": "D1: chưa có mô tả; viết ngắn chỉ từ tên SP (tên tiếng Việt + tiếng Anh, khối lượng); thương hiệu Tong Garden theo đầu mã vạch 8850291 (đã đối chiếu trên bao bì hãng)",
+    "decision": "REWRITE",
+    "reason": "sửa khối lượng 45 g → 40 g theo gói đang bán (kiểm kệ 17/10, RUBRIC v19)",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v19"
   },
-  "question": "Mã 8850291103094: tên 45g, gói Thái cùng mã in 50 g. Gói đang bán in 45 g hay 50 g?",
+  "question": null,
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -61,6 +68,32 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "gap > ~10% / other size or needs shelf check: question shortened to the two numbers (RUBRIC v19)"
+    },
+    {
+      "at": "2026-10-17T12:00:00Z",
+      "by": "owner",
+      "status": "ASK_OWNER",
+      "note": "Kiểm kệ 17/10 (nhân viên chụp): gói in \"Cuttlefish Coated Green Peas\", 40 g"
+    },
+    {
+      "at": "2026-10-17T12:56:33Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T12:57:58.321Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T12:57:58.321Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

@@ -17,20 +17,27 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "ASK_OWNER",
+  "status": "READY",
   "image": {
-    "decision": "ASK_OWNER",
-    "reason": "I3/I8: ảnh chụp kệ, 2 hộp trong khay trưng bày, che mất phần dưới mặt trước (chỗ in khối lượng). Không tìm được ảnh hãng/NPP/nhà bán lẻ của Mentos hộp nho bạc hà; khối lượng có thể không phải 35 g.",
-    "source": null,
-    "rubricVersion": "v17"
+    "decision": "REPLACE",
+    "reason": "I3/I8: ảnh KiotViet chụp kệ, khay che mặt trước; hộp đang bán in 17,5 g, hương nho bạc hà (kiểm kệ 17/10) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: bỏ màng bọc nilon trong (ảnh Mentos cùng dãy còn màng bọc)",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh nhân viên chụp 17/10"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
-    "decision": "WRITE_NEW",
-    "reason": "D1: chưa có mô tả; không có trang hãng — mô tả ngắn chỉ từ tên SP và chữ in mặt trước bao bì (ảnh hiện tại)",
+    "decision": "REWRITE",
+    "reason": "sửa khối lượng 35 g → 17,5 g theo hộp đang bán (kiểm kệ 17/10); chữ in: kẹo ngậm không đường, hương nho bạc hà",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v19"
   },
-  "question": "Tên ghi 35 g, hộp dispenser này nhiều khả năng là 17,5 g (khay che chữ). Hộp đang bán in 35 g hay 17,5 g? (cần chụp mặt trước)",
+  "question": null,
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -61,6 +68,32 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "gap > ~10% / other size or needs shelf check: question shortened to the two numbers (RUBRIC v19)"
+    },
+    {
+      "at": "2026-10-17T12:00:00Z",
+      "by": "owner",
+      "status": "ASK_OWNER",
+      "note": "Kiểm kệ 17/10 (nhân viên chụp): hộp nắp bật \"Kẹo ngậm không đường mentos Hương NHO BẠC HÀ\", khối lượng tịnh 17,5 g"
+    },
+    {
+      "at": "2026-10-17T12:56:34Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T12:58:06.223Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T12:58:06.223Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

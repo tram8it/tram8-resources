@@ -1,4 +1,4 @@
-Đậu Hà Lan vị mù tạt (Wasabi Coated Green Peas) của Tong Garden: hạt đậu Hà Lan bọc lớp vỏ giòn vị mù tạt cay nồng.
+Đậu Hà Lan vị mù tạt (Wasabi Coated Green Peas) của Tong Garden: hạt đậu Hà Lan bọc lớp vỏ giòn vị mù tạt, cay nồng (Hot & Spicy).
 
-Quy cách: 45 g · gói
+Quy cách: 40 g · gói
 Thương hiệu: Tong Garden

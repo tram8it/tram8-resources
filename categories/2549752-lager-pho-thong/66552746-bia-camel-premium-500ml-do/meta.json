@@ -17,20 +17,27 @@
     "description": "<p data-path-to-node=\"6\"><strong>1. Giới thiệu sản phẩm</strong></p><ul data-path-to-node=\"7\"><li><p data-path-to-node=\"7,0,0\"><strong>Bia Camel Premium Đỏ 500ml</strong> là sản phẩm nổi bật đến từ <strong>Công ty TNHH A&B Việt Nam</strong>, được sản xuất trên dây chuyền công nghệ hiện đại tiêu chuẩn Châu Âu kết hợp với nguồn nguyên liệu chọn lọc khắt khe.</p></li><li><p data-path-to-node=\"7,1,0\">Sở hữu thiết kế lon lớn 500ml cùng sắc đỏ sang trọng, mạnh mẽ, sản phẩm mang đến hương vị đậm đà, sảng khoái, là sự lựa chọn lý tưởng cho các bữa tiệc sum họp gia đình, liên hoan hay các cuộc vui cùng bạn bè.</p></li></ul><p data-path-to-node=\"10\"><strong>2. Thông tin chi tiết</strong></p><ul data-path-to-node=\"11\"><li><p data-path-to-node=\"11,0,0\"><strong>Thương hiệu:</strong> Camel (A&B Vietnam)</p></li><li><p data-path-to-node=\"11,1,0\"><strong>Công ty sản xuất:</strong> Công ty TNHH A&B Việt Nam</p></li><li><p data-path-to-node=\"11,2,0\"><strong>Xuất xứ:</strong> Việt Nam</p></li><li><p data-path-to-node=\"11,3,0\"><strong>Loại bia:</strong> Bia Lager / Bia vàng cao cấp</p></li><li><p data-path-to-node=\"11,4,0\"><strong>Dung tích:</strong> 500ml / lon</p></li><li><p data-path-to-node=\"11,5,0\"><strong>Quy cách đóng gói:</strong> 24 lon / thùng</p></li><li><p data-path-to-node=\"11,6,0\"><strong>Hạn sử dụng:</strong> In rõ trên bao bì sản phẩm</p></li></ul><p data-path-to-node=\"12\"><strong>3. Hướng dẫn sử dụng và bảo quản</strong></p><ul data-path-to-node=\"13\"><li><p data-path-to-node=\"13,0,0\"><strong>Cách dùng:</strong> Ngon hơn khi uống lạnh, nhiệt độ thưởng thức lý tưởng từ 8°C - 12°C. Nên ướp lạnh trước khi uống, hạn chế dùng kèm đá trực tiếp để trọn vẹn hương vị đậm đà ban đầu.</p></li><li><p data-path-to-node=\"13,1,0\"><strong>Bảo quản:</strong> Nơi khô ráo, thoáng mát, tránh ánh nắng trực tiếp hoặc nơi có nhiệt độ cao.</p></li><li><p data-path-to-node=\"13,2,0\"><strong>Lưu ý:</strong> Sản phẩm không dành cho người dưới 18 tuổi và phụ nữ có thai hoặc đang cho con bú. <em>\"Đã uống rượu bia – Không lái xe\"</em>.</p></li></ul>",
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "ASK_OWNER",
+  "status": "READY",
   "image": {
-    "decision": "ASK_OWNER",
-    "reason": "Chờ chủ trả lời: name 500ml vs photo 330ml",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "REPLACE",
+    "reason": "I2: ảnh KiotViet là lon 330 ml; lon đang bán 500 ml, 4,9% (kiểm kệ 17/10) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ nhỏ ở mép lon (thông tin nhà SX) bỏ đi",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh nhân viên chụp 17/10 + ảnh KiotViet lon Camel đỏ 330 ml (chỉ làm mẫu màu/thiết kế)"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
-    "decision": "ASK_OWNER",
-    "reason": "Chờ chủ trả lời câu hỏi về SP trước khi viết mô tả",
+    "decision": "REWRITE",
+    "reason": "mô tả KiotViet kiểu chatbot, có dữ kiện chưa kiểm (nhà SX, nhiệt độ uống); viết ngắn từ chữ in trên lon 500 ml (ảnh nhân viên chụp 17/10) + dòng 18+",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v19"
   },
-  "question": "Tên ghi 500 ml, ảnh là lon 330 ml. Lon đang bán 500 ml hay 330 ml?",
+  "question": null,
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -55,6 +62,32 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "gap > ~10% / other size or needs shelf check: question shortened to the two numbers (RUBRIC v19)"
+    },
+    {
+      "at": "2026-10-17T12:00:00Z",
+      "by": "owner",
+      "status": "ASK_OWNER",
+      "note": "Kiểm kệ 17/10 (nhân viên chụp): lon 500 ml, \"BIA PREMIUM 500 ml Độ cồn 4,9% V/V\""
+    },
+    {
+      "at": "2026-10-17T12:56:34Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T12:58:08.778Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T12:58:08.778Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }
