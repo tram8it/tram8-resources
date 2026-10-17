@@ -17,12 +17,20 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I4/I5: ảnh chụp điện thoại, nền xám, gói bị khung cắt hai bên; không tìm thấy trang hãng → cần chụp",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I4/I5: ảnh chụp điện thoại, nền xám, gói bị khung cắt hai bên; không tìm thấy trang hãng/NPP → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: nhãn khối lượng vẽ thành viên bo tròn (gói thật là nhãn trắng méo, chữ '2?0 g' bị nhăn khó đọc — ghi 220 g theo tên SP); chữ nhỏ dưới logo vương miện không đọc được, để mờ; gói phẳng, không nhăn",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (ảnh cửa hàng chụp gói thật, chỉ làm mẫu)",
+      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/07/23/tram8/1178cd5e2d134241b51ef682bc31647e.jpeg"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +51,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "b30: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T08:09:58Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T08:09:58.673Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T08:09:58.673Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

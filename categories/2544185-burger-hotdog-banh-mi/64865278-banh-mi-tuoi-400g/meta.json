@@ -20,7 +20,7 @@
   "status": "NEEDS_PHOTO",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I4/I5: ảnh chụp điện thoại cận nhãn túi, nền không trắng, SP bị khung cắt; trang thanhhafoods.vn không truy cập được, không có nguồn chính hãng khác → cần chụp",
+    "reason": "I3/I4/I5: ảnh KiotViet chỉ chụp cận nhãn, không thấy cả túi (hình túi, số bánh trong túi); không có ảnh hãng/NPP/bán lẻ → không đủ mẫu để Gemini vẽ đúng, cần chụp cả túi trên nền trắng",
     "source": null,
     "rubricVersion": "v4"
   },
@@ -43,6 +43,12 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "image REPLACE → NEEDS_PHOTO, description WRITE_NEW (label facts)"
+    },
+    {
+      "at": "2026-10-17T08:10:42.667Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "wave3: searched web/KFM/OFF, no reference; KiotViet photo is label close-up only"
     }
   ]
 }

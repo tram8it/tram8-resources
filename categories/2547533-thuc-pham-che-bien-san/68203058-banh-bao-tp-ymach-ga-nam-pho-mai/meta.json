@@ -20,7 +20,7 @@
   "status": "NEEDS_PHOTO",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh; thophat.com chỉ có ảnh bánh bày đĩa, không có ảnh bao bì → cần chụp",
+    "reason": "I1: chưa có ảnh; không tìm được ảnh bao bì/ảnh bánh (thophat.com chặn bot, tìm mạng không ra) và chưa rõ \"YMach\" (yến mạch?) nên không biết màu vỏ bánh → không vẽ v18 được, cần chụp bao bì",
     "source": null,
     "rubricVersion": "v4"
   },
@@ -43,6 +43,12 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "b28 review: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T08:10:42.667Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "wave3: no pack or bun reference found; v18 food render needs pack photo"
     }
   ]
 }
