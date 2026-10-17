@@ -19,10 +19,18 @@
   },
   "status": "READY",
   "image": {
-    "decision": "KEEP",
-    "reason": "Packshot nền trắng, 1:1, đúng SP (nguyên vị 120 g), căn giữa",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "REPLACE",
+    "reason": "I5: ảnh chụp hộp nhựa, mềm → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: APIA CAKE 纯蛋糕 【原味】净含量:120克 khớp ảnh KiotViet.",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (ảnh tự chụp)",
+      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/09/14/tram8/ce5f5dab6a05426fb536e907dada9d02.png"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "REWRITE",
@@ -43,6 +51,26 @@
       "by": "ai",
       "status": "READY",
       "note": "b13: image KEEP, description REWRITE"
+    },
+    {
+      "at": "2026-10-17T15:19:24Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T15:19:24.629Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T15:19:24.629Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

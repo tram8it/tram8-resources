@@ -19,10 +19,18 @@
   },
   "status": "READY",
   "image": {
-    "decision": "KEEP",
-    "reason": "Đạt I1–I9: packshot gói nền trắng 1:1, đúng SP Ánh Dương ban đêm 32cm (giá in sẵn trên bao bì của hãng, không phải tem cửa hàng)",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "REPLACE",
+    "reason": "I5: ảnh gói tự chụp, nghiêng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Ánh Dương, BAN ĐÊM, 3 miếng 32cm khớp ảnh KiotViet; vẽ thẳng, phẳng.",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (ảnh tự chụp)",
+      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/04/22/tram8/d4a29302c6c3499e8a45014aa53a48c2.png"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "REWRITE",
@@ -43,6 +51,26 @@
       "by": "ai",
       "status": "READY",
       "note": "image KEEP, description REWRITE from pack text"
+    },
+    {
+      "at": "2026-10-17T15:18:32Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T15:18:32.244Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T15:18:32.244Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

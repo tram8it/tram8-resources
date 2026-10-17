@@ -19,17 +19,17 @@
   },
   "status": "READY",
   "image": {
-    "decision": "CROP",
-    "reason": "I9: ảnh 450×600, SP nhỏ → crop 1:1, đã xem lại đạt",
-    "source": null,
-    "rubricVersion": "v4",
-    "vivid": {
-      "rubricVersion": "v10",
-      "saturationGain": 1.213,
-      "contrastGain": 1.068,
-      "toneGain": 1.094,
-      "gamma": 0.8
-    }
+    "decision": "REPLACE",
+    "reason": "I3/I4: ảnh tự chụp lon, bóng phản chiếu; trang hãng không có ảnh lon sạch → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: hoạ tiết sóng/thuyền vẽ lại gần giống, không trùng từng nét; chữ nhỏ không đọc được",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (lon tự chụp của cửa hàng)"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "KEEP",
@@ -62,6 +62,25 @@
       "by": "ai",
       "status": "READY",
       "note": "tone.py --vivid: white balance/levels + brand-like colour (owner request)"
+    },
+    {
+      "at": "2026-10-17T15:17:54Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T15:17:54.297Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T15:17:54.297Z",
+    "fields": [
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

@@ -17,12 +17,20 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "UPLOADED",
+  "status": "READY",
   "image": {
-    "decision": "KEEP",
-    "reason": "Đạt I1–I9: ảnh gói nền trắng, 1:1 (320×320 ≥ 300), căn giữa",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "REPLACE",
+    "reason": "I5: ảnh túi tự chụp, nền xám → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Logo KOCORI NATURALS, Cơm Cháy Chà Bông, ớt cay khớp ảnh KiotViet. Số khối lượng trên ảnh KiotViet không đọc được nên để chữ mờ trên ảnh vẽ.",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (ảnh tự chụp)",
+      "referenceUrl": "https://cdn1-retail-images.kiotviet.vn/2026/05/20/tram8/43f172e5816b44b293d7bc0510670b22.jpeg"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -55,12 +63,37 @@
       "by": "owner",
       "status": "UPLOADED",
       "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-17T15:18:50Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T15:18:50.756Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T15:21:23Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T15:21:30.136Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-15T02:52:12.011Z",
+    "at": "2026-10-17T15:21:30.136Z",
     "fields": [
-      "description"
+      "description",
+      "image"
     ],
     "hubStatus": "PENDING"
   },

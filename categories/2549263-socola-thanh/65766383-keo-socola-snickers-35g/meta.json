@@ -17,12 +17,19 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "UPLOADED",
+  "status": "READY",
   "image": {
-    "decision": "KEEP",
-    "reason": "I1–I9 đạt: packshot nền trắng, 1:1, đúng SP (gói nhãn Trung Quốc, đặt chéo)",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "REPLACE",
+    "reason": "I3/I5: ảnh tự chụp gói nhăn, chụp nghiêng, lật chéo; không có ảnh hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: gói vẽ thẳng, phẳng; dòng '净含量:35克' vẽ theo tên SP (ảnh gốc không đọc được); chữ nhỏ không đọc được",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (gói nhãn Trung Quốc)"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -55,12 +62,25 @@
       "by": "owner",
       "status": "UPLOADED",
       "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-17T15:16:50Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T15:17:21.378Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-15T02:53:13.415Z",
+    "at": "2026-10-17T15:17:21.378Z",
     "fields": [
-      "description"
+      "description",
+      "image"
     ],
     "hubStatus": "PENDING"
   },

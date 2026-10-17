@@ -17,19 +17,20 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "UPLOADED",
+  "status": "READY",
   "image": {
-    "decision": "CROP",
-    "reason": "I9: packshot nền trắng, đúng bao bì Zuna như trên oishi.com.vn nhưng không phải 1:1; crop về 1:1 (xem lại đạt)",
-    "source": null,
-    "rubricVersion": "v4",
-    "vivid": {
-      "rubricVersion": "v10",
-      "saturationGain": 1.089,
-      "contrastGain": 1.028,
-      "toneGain": 1.046,
-      "gamma": 1
-    }
+    "decision": "REPLACE",
+    "reason": "I5: ảnh gói tự chụp, bóng; oishi.com.vn chưa có packshot Zuna → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Oishi Zuna Snack Xoắn vị Tôm Xốt Bơ Tỏi khớp ảnh KiotViet; ảnh là 1 gói (đơn vị Gói).",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (ảnh tự chụp)",
+      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/07/30/tram8/c3ec0448bc7647f19b4f67368f6e5040.png"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -77,10 +78,22 @@
       "by": "owner",
       "status": "UPLOADED",
       "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-17T15:18:36Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T15:18:36.528Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-15T09:17:34.597Z",
+    "at": "2026-10-17T15:18:36.528Z",
     "fields": [
       "description",
       "image"
