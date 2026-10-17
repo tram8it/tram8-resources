@@ -17,12 +17,20 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "ASK_OWNER",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh; trang hãng Miss Bánh Tráng (vinasnack.com.vn) không đăng ảnh SP → cần chụp",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I1: chưa có ảnh; hãng chỉ có ảnh gói trong banner → vẽ lại → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: ẢNH MINH HOẠ: thiết kế lấy từ gói 25 g cùng vị, khối lượng sửa thành 40 g theo tên hàng; con dấu tròn nhỏ màu cam, chữ trong dấu không đọc được (gốc màu xanh)",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh gói Xì Lay muối ớt xiêm xanh 25 g trên banner trang hãng vinasnack.com.vn (chỉ làm mẫu)",
+      "referenceUrl": "https://bizweb.dktcdn.net/100/462/274/themes/872296/assets/slider_2.jpg"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -30,7 +38,7 @@
     "source": null,
     "rubricVersion": "v4"
   },
-  "question": "Hãng chỉ có gói ớt xiêm xanh 25 g, tên KiotViet ghi 40GR — gói trên kệ in bao nhiêu g? (chưa có ảnh gói; nhờ chụp mặt trước)",
+  "question": null,
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -61,6 +69,32 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "v19: vẫn ASK_OWNER (lệch lớn hoặc cần xem kệ); rút gọn câu hỏi"
+    },
+    {
+      "at": "2026-10-17T13:54:08Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T13:54:08Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "resolved without asking: brand banner shows the Xì Lay muối ớt xiêm xanh pack (25 g); this SKU is the 40 g size of the same line (sibling tomyum 40GR is Xì Lay too) → default 'size from sibling', illustrative render with 40 g"
+    },
+    {
+      "at": "2026-10-17T13:54:08.970Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T13:54:08.970Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }
