@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I1: chưa có ảnh; dùng ảnh chai trên trang hãng: https://thmilk.vn/products/tra-huong-dao-tu-nhien-khong-duong-th-true-tea-350-ml/",
@@ -55,6 +55,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T03:59:04.373Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -64,5 +70,89 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-16T07:22:54.518Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-16T07:22:54.518Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/91e42f78f9d7a29c9a687b03a5100c072c27013882a065b77e7eda599912e372.webp"
+        ],
+        "from": null
+      },
+      "description": {
+        "to": "Trà hương đào tự nhiên không đường TH true TEA: trà xanh và trà đen pha hương đào tự nhiên, dùng chất tạo ngọt tự nhiên, không đường, không calo, không chất bảo quản.\n\nThành phần: nước, trà xanh (3 g/l), trà đen (1,44 g/l), chất chống oxy hóa (300), chất điều chỉnh độ acid (330, 500(ii)), hương liệu tự nhiên (hương đào), chất tạo ngọt tự nhiên (960d), muối, hương liệu tự nhiên.\nQuy cách: 350 ml · chai\nXuất xứ: Việt Nam · Nhà sản xuất/thương hiệu: TH true TEA (Tập đoàn TH)\nBảo quản: nơi khô ráo, thoáng mát, tránh ánh nắng; sau khi mở giữ lạnh 4–10 °C và dùng hết trong 24 giờ. Lắc đều trước khi uống.",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {
+      "price": {
+        "to": 12037.04,
+        "from": 11818.18
+      },
+      "saleTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 67182108
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 67182108
+        }
+      },
+      "taxRate": {
+        "to": "VAT 8%",
+        "from": "VAT 10%"
+      },
+      "productTaxs": {
+        "to": [
+          {
+            "id": 0,
+            "name": "VAT 8%",
+            "taxId": 3,
+            "value": 8,
+            "productId": 67182108
+          }
+        ],
+        "from": [
+          {
+            "id": 0,
+            "name": "VAT 10%",
+            "taxId": 4,
+            "value": 10,
+            "productId": 67182108
+          }
+        ]
+      },
+      "purchaseTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 67182108
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 67182108
+        }
+      }
+    }
   }
 }

@@ -17,7 +17,7 @@
     "description": "<h3 data-path-to-node=\"5\"><strong>Mô tả sản phẩm:</strong></h3><p data-path-to-node=\"6\"><strong>1. Giới thiệu sản phẩm</strong></p><ul data-path-to-node=\"7\"><li><p data-path-to-node=\"7,0,0\"><strong>Bia Tuborg 330ml</strong> là thương hiệu bia quốc tế nổi tiếng đến từ Đan Mạch, thuộc tập đoàn toàn cầu <strong>Carlsberg</strong>.</p></li><li><p data-path-to-node=\"7,1,0\">Mang phong cách trẻ trung, năng động và hiện đại, Tuborg là lựa chọn hàng đầu của giới trẻ trong các buổi tiệc tùng, âm nhạc, dã ngoại hay các cuộc hội ngộ sôi động cùng bạn bè khắp nơi trên thế giới.</p></li></ul><p data-path-to-node=\"10\"><strong>2. Thông tin chi tiết</strong></p><ul data-path-to-node=\"11\"><li><p data-path-to-node=\"11,0,0\"><strong>Thương hiệu:</strong> Tuborg (Tập đoàn Carlsberg)</p></li><li><p data-path-to-node=\"11,1,0\"><strong>Xuất xứ:</strong> Việt Nam (Sản xuất theo tiêu chuẩn bản quyền của Carlsberg Đan Mạch)</p></li><li><p data-path-to-node=\"11,2,0\"><strong>Loại sản phẩm:</strong> Bia Lager cao cấp</p></li><li><p data-path-to-node=\"11,3,0\"><strong>Nồng độ cồn (ABV):</strong> 4.6%</p></li><li><p data-path-to-node=\"11,4,0\"><strong>Dung tích:</strong> 330ml / lon</p></li><li><p data-path-to-node=\"11,5,0\"><strong>Quy cách đóng gói:</strong> 24 lon / thùng</p></li><li><p data-path-to-node=\"11,6,0\"><strong>Hạn sử dụng:</strong> In rõ trên bao bì sản phẩm (thường 9–12 tháng kể từ ngày sản xuất)</p></li></ul><p data-path-to-node=\"12\"><strong>3. Hướng dẫn sử dụng và bảo quản</strong></p><ul data-path-to-node=\"13\"><li><p data-path-to-node=\"13,0,0\"><strong>Cách dùng:</strong> Kéo khoen để giật mở nắp lon. Ngon hơn khi uống lạnh, nhiệt độ thưởng thức lý tưởng từ 4°C - 8°C. Nên ướp lạnh trước khi uống, hạn chế dùng kèm đá trực tiếp để giữ trọn vẹn hương vị sảng khoái nguyên bản.</p></li><li><p data-path-to-node=\"13,1,0\"><strong>Bảo quản:</strong> Nơi khô ráo, thoáng mát, tránh ánh nắng trực tiếp hoặc nơi có nhiệt độ cao.</p></li><li><p data-path-to-node=\"13,2,0\"><strong>Lưu ý:</strong> Sản phẩm không dành cho người dưới 18 tuổi và phụ nữ có thai hoặc đang cho con bú. <em>\"Đã uống rượu bia – Không lái xe\"</em>.</p></li></ul>",
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I9 + v2: ảnh lon Tuborg Green lùn đời cũ, chưa 1:1; thay bằng lon Tuborg Green 330 ml bao bì hiện hành trên trang hãng carlsbergvietnam.vn/vi/products/tuborg/tuborg-green-lon-330ml/ (đã cắt bỏ dòng cảnh báo 18+)",
@@ -58,6 +58,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: image"
+    },
+    {
+      "at": "2026-10-17T03:59:04.373Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -66,5 +72,87 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-16T07:23:52.089Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-16T07:23:52.089Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/dcf21078fcd586b4b3488ece3a525eb7bc3b9b432a8d54cd6b4ea9ced217399c.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/02/08/tongpenhchtl/d7bbc1766b9444dca7fd4d46e26d2a11.jpeg"
+        ]
+      }
+    },
+    "unexpectedChanges": {
+      "price": {
+        "to": 20370.37,
+        "from": 20000
+      },
+      "saleTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 64865515
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 64865515
+        }
+      },
+      "taxRate": {
+        "to": "VAT 8%",
+        "from": "VAT 10%"
+      },
+      "productTaxs": {
+        "to": [
+          {
+            "id": 0,
+            "name": "VAT 8%",
+            "taxId": 3,
+            "value": 8,
+            "productId": 64865515
+          }
+        ],
+        "from": [
+          {
+            "id": 0,
+            "name": "VAT 10%",
+            "taxId": 4,
+            "value": 10,
+            "productId": 64865515
+          }
+        ]
+      },
+      "purchaseTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 64865515
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 64865515
+        }
+      }
+    }
   }
 }

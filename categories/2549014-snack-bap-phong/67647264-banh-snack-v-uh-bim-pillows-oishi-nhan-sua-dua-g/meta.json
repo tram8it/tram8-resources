@@ -17,23 +17,31 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "ASK_OWNER",
+  "status": "READY",
   "image": {
-    "decision": "ASK_OWNER",
-    "reason": "I3/I4/I5: ảnh KiotViet chụp cận bằng điện thoại, bị cắt mất phần dưới, không thấy khối lượng. Trang Oishi (17/10/2026) chỉ có ảnh túi zip Party Size, và ghi vị sữa dừa có khối lượng tịnh 14g/40g/75g — không có 45g. Không tìm được ảnh gói nhỏ (mã vạch 8934803042177) trên trang hãng hay nhà bán lẻ (Lotte Mart chặn bot; Co.op, Kingfoodmart, AEON chỉ có gói 80–100g mã 8934803044171) → không có mẫu thấy dòng khối lượng để Gemini vẽ đúng.",
-    "source": null,
+    "decision": "REPLACE",
+    "reason": "I3/I4/I5: ảnh chụp cận bao bì bằng điện thoại, bị cắt; trang hãng chỉ có túi zip Party Size → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: phần dưới gói (quả dừa, miếng bánh, mép hàn dưới) do AI vẽ tiếp vì ảnh mẫu bị cắt; không in khối lượng (chủ xác nhận gói 80g, 17/10/2026) — gói thật có thể in khối lượng ở phần dưới",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet gói gối (phần trên) + ảnh hãng Oishi túi Party Size (chỉ lấy hoạ tiết)",
+      "referenceUrl": "https://oishi.cdn.vccloud.vn/storage/products/November2025/fieSoF5dUkaipmYpHqRt.png"
+    },
     "rubricVersion": "v17"
   },
   "description": {
     "decision": "WRITE_NEW",
-    "reason": "D1: chưa có mô tả; viết từ trang hãng Oishi (tên vị, mô tả dòng) và chữ in mặt trước bao bì; khối lượng theo tên hàng",
+    "reason": "D1: chưa có mô tả; viết từ trang hãng Oishi (tên vị, mô tả dòng) và chữ in mặt trước bao bì; khối lượng theo tên hàng; khối lượng sửa 45 g → 80 g theo chủ xác nhận (17/10/2026)",
     "source": {
       "url": "https://oishi.com.vn/category/Snack",
       "fetchedAt": "2026-10-13"
     },
-    "rubricVersion": "v4"
+    "rubricVersion": "v17"
   },
-  "question": "Bánh Pillows Oishi nhân sữa dừa, mã vạch 8934803042177: tên KiotViet ghi \"gói 45g\", nhưng trang Oishi chỉ liệt kê vị sữa dừa 14g/40g/75g (không có 45g), và ảnh KiotViet bị cắt nên không đọc được khối lượng in trên gói. Nhờ chủ/nhân viên xem mặt trước gói thật: khối lượng in là bao nhiêu (40g hay 45g)? Nếu là 40g thì sửa tên KiotViet và mô tả (hiện ghi 45 g). Tiện thể chụp giúp 1 ảnh thẳng, thấy trọn mặt trước gói (cả mép hàn trên/dưới và dòng khối lượng) để làm mẫu cho Gemini vẽ lại.",
+  "question": null,
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -52,6 +60,32 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "no reference showing whole front/net weight; Oishi site lists 14g/40g/75g for this flavour vs KiotViet name 45g; no Gemini call"
+    },
+    {
+      "at": "2026-10-17T03:58:55Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T03:59:29Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "owner (17/10/2026): barcode 8934803042177 is the 80g pack; description weight fixed"
+    },
+    {
+      "at": "2026-10-17T03:59:37.323Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T03:59:37.323Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

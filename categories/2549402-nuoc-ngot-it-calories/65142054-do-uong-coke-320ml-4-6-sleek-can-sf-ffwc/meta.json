@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I1: chưa có ảnh; dùng ảnh lon Coca-Cola vị nguyên bản trên trang hãng https://www.coca-cola.com/vn/vi/brands/coca-cola",
@@ -55,6 +55,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T03:59:04.373Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -64,5 +70,89 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-16T07:22:48.065Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-16T07:22:48.065Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/aa6f0ce1b7845a67e09bcef34b58010545730dcdb9d27c6ca4d061feffb2c832.webp"
+        ],
+        "from": null
+      },
+      "description": {
+        "to": "Nước ngọt có gas Coca-Cola vị nguyên bản, vị cola đặc trưng có chút caffeine. Sản phẩm của Coca-Cola Việt Nam. Ngon hơn khi uống lạnh.\n\nThành phần: nước bão hòa CO₂, đường HFCS, đường mía, màu tự nhiên (150d), chất điều chỉnh độ acid (338), hương liệu tự nhiên, caffeine.\nQuy cách: 320 ml · lon\nNhà sản xuất/thương hiệu: Coca-Cola Việt Nam · Coca-Cola",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {
+      "price": {
+        "to": 11111.11,
+        "from": 10909.09
+      },
+      "saleTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 65142054
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 65142054
+        }
+      },
+      "taxRate": {
+        "to": "VAT 8%",
+        "from": "VAT 10%"
+      },
+      "productTaxs": {
+        "to": [
+          {
+            "id": 0,
+            "name": "VAT 8%",
+            "taxId": 3,
+            "value": 8,
+            "productId": 65142054
+          }
+        ],
+        "from": [
+          {
+            "id": 0,
+            "name": "VAT 10%",
+            "taxId": 4,
+            "value": 10,
+            "productId": 65142054
+          }
+        ]
+      },
+      "purchaseTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 65142054
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 65142054
+        }
+      }
+    }
   }
 }

@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I7: tem mã vạch/giá dán đè lên mặt trước bao bì; không tìm thấy trang hãng 武老三 → Gemini vẽ lại, bỏ tem → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Đã bỏ tem mã vạch/giá dán. Chữ lớn (武老三, 小麻花, SHOUGONG XIAO MA HUA, 襄阳美食 地方小吃 / 传统风味 鲜香酥脆, 手工, 海苔味, 净含量: 208克, 20260305) khớp ảnh gốc. Chữ thư pháp nhỏ trên hai cái giỏ trong tranh vẽ là nét AI vẽ lại, ảnh gốc quá nhỏ để đối chiếu; bao bì phẳng, sạch hơn ảnh chụp.",
@@ -63,6 +63,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T03:59:04.373Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -72,5 +78,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T03:48:06.575Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T03:48:06.575Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/ecf6f70213f6c938f72236c1e74dae7b92e8dff32c8c65ee57808600cf10937d.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/29/tram8/124665a3e8184d42b65982f2a08e5141.png"
+        ]
+      },
+      "description": {
+        "to": "Bánh quẩy xoắn nhỏ (xiao ma hua, 小麻花) vị rong biển, que bánh nhỏ giòn, đựng túi zip có cửa sổ nhìn thấy bánh.\n\nQuy cách: 208 g · túi zip\nXuất xứ: Trung Quốc",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

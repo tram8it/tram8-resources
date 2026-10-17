@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I9/I6: ảnh cũ chưa 1:1 và quá nhỏ để crop (cần phóng ~3,4x) → ảnh hãng cùng bao bì Sundays nước táo 180 ml. Trang SP: https://oishi.com.vn/category/beverages",
@@ -55,6 +55,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T03:59:04.373Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -64,5 +70,91 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-16T07:19:20.008Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-16T07:19:20.008Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/c0b6db3809bdddd9aac0d04a4f5b8fdcfd219f676759a0e109fd545a9474a7a9.webp"
+        ],
+        "from": [
+          "https://cdn1-retail-images.kiotviet.vn/2026/07/29/tram8/2461dfb9641c458082796e0cd1d67fcf.png"
+        ]
+      },
+      "description": {
+        "to": "Nước trái cây Oishi Sundays vị táo đóng túi có ống hút, bổ sung vitamin C, không màu nhân tạo; uống lạnh ngon hơn.\n\nQuy cách: 180 ml · túi\nNhà sản xuất/thương hiệu: Oishi Việt Nam · Sundays",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {
+      "price": {
+        "to": 5555.56,
+        "from": 5454.55
+      },
+      "saleTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 66362128
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 66362128
+        }
+      },
+      "taxRate": {
+        "to": "VAT 8%",
+        "from": "VAT 10%"
+      },
+      "productTaxs": {
+        "to": [
+          {
+            "id": 0,
+            "name": "VAT 8%",
+            "taxId": 3,
+            "value": 8,
+            "productId": 66362128
+          }
+        ],
+        "from": [
+          {
+            "id": 0,
+            "name": "VAT 10%",
+            "taxId": 4,
+            "value": 10,
+            "productId": 66362128
+          }
+        ]
+      },
+      "purchaseTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 66362128
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 66362128
+        }
+      }
+    }
   }
 }

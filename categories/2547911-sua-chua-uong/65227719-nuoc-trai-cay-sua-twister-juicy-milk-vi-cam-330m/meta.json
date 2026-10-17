@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I6: packshot cửa hàng nhỏ; thay bằng ảnh hãng cùng bao bì (320 ml) trên https://www.suntorypepsico.vn/thuong-hieu-cua-chung-toi/twister-14 (phóng 1,3 lần)",
@@ -55,6 +55,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T03:59:04.373Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -64,5 +70,91 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-16T07:10:03.530Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-16T07:10:03.530Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/ac22084a5d1991f28809f8c48d1d05b0bef2b6790c160d19c4942d2dbf060b8e.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/30/tram8/2c214d2958d4440f954eb134a09d4c5d.png"
+        ]
+      },
+      "description": {
+        "to": "Nước uống sữa trái cây Tropicana Twister vị cam của Suntory PepsiCo, bổ sung 5 khoáng chất và vitamin (Ca, E, A, B9, D). Chai nhựa nắp vặn tiện mang theo.\n\nQuy cách: 320 ml · chai\nNhà sản xuất/thương hiệu: Suntory PepsiCo Việt Nam · Tropicana Twister",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {
+      "price": {
+        "to": 11574.07,
+        "from": 11363.64
+      },
+      "saleTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 65227719
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 65227719
+        }
+      },
+      "taxRate": {
+        "to": "VAT 8%",
+        "from": "VAT 10%"
+      },
+      "productTaxs": {
+        "to": [
+          {
+            "id": 0,
+            "name": "VAT 8%",
+            "taxId": 3,
+            "value": 8,
+            "productId": 65227719
+          }
+        ],
+        "from": [
+          {
+            "id": 0,
+            "name": "VAT 10%",
+            "taxId": 4,
+            "value": 10,
+            "productId": 65227719
+          }
+        ]
+      },
+      "purchaseTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 65227719
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 65227719
+        }
+      }
+    }
   }
 }

@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I4: ảnh cũ nền đen; thay bằng ảnh lon 330 ml trên pocarisweat.com.vn/vi/pocari-sweat",
@@ -55,6 +55,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T03:59:04.373Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -64,5 +70,91 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-16T07:22:34.786Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-16T07:22:34.786Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/10d09a7708bead1ac4a25a97bcea30d7f72521749457c7d9750f5cfed4b4469e.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/08/14/tram8/d70ebe4eba3a4f9ba33c3e8068898a93.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Pocari Sweat — thức uống bổ sung ion đến từ Nhật Bản, gồm nước và các ion Natri, Kali, Canxi, Magie, Clo với thành phần tương tự dịch cơ thể, giúp bổ sung nước và ion.\n\nQuy cách: 330 ml · lon\nNhà sản xuất/thương hiệu: Otsuka · Pocari Sweat",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {
+      "price": {
+        "to": 15740.74,
+        "from": 15454.55
+      },
+      "saleTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 67651239
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 67651239
+        }
+      },
+      "taxRate": {
+        "to": "VAT 8%",
+        "from": "VAT 10%"
+      },
+      "productTaxs": {
+        "to": [
+          {
+            "id": 0,
+            "name": "VAT 8%",
+            "taxId": 3,
+            "value": 8,
+            "productId": 67651239
+          }
+        ],
+        "from": [
+          {
+            "id": 0,
+            "name": "VAT 10%",
+            "taxId": 4,
+            "value": 10,
+            "productId": 67651239
+          }
+        ]
+      },
+      "purchaseTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 67651239
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 67651239
+        }
+      }
+    }
   }
 }

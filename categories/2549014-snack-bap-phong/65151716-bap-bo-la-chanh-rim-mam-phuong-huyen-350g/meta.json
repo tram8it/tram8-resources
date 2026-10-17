@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I3/I4: ảnh tay cầm, nền cửa hàng; hàng địa phương, không có trang hãng/NPP, không tìm thấy ảnh trên mạng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Chữ lớn đúng (Đặc sản ba miền, New, BẮP BÒ LÁ CHANH, Rim Mắm, KLT 350g, mã vạch 8938522697472, CÔNG TY TNHH TM TP PHƯƠNG HUYỀN). Chữ rất nhỏ (thành phần, địa chỉ, email, điện thoại dưới tên công ty, chữ trong logo vương miện) là chữ AI tự vẽ, không đọc được thật — ảnh gốc cũng không đọc được dòng này; ở cỡ web gần như không thấy. Túi trong ảnh AI có khoảng trống phía trên, ảnh thật đầy hơn gần tới mép zip.",
@@ -63,6 +63,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T03:59:04.373Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -72,5 +78,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T03:47:18.486Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T03:47:18.486Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/3ff10f4506e58563dbb7a3e816aebbea40713328534d5d0d28944fbbeda019a2.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/04/24/tram8/3be46d25e7814e65b2998ddd022cf507.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Bắp bò lá chanh rim mắm: món ăn vặt từ bắp (ngô) sấy giòn rim mắm cùng lá chanh.\n\nQuy cách: 350 g · túi\nNhà sản xuất/thương hiệu: Phương Huyền",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

@@ -34,6 +34,8 @@ import mimetypes
 import os
 import subprocess
 import sys
+import time
+from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 
 import requests
@@ -68,7 +70,8 @@ photos from other retailers or phone photos: use them ONLY to learn what the rea
 
 Output requirements:
 - One single pack, front face, straight-on (no perspective, no tilt), centred, whole pack visible
-  including top and bottom seals/caps; nothing cropped.
+  including top and bottom seals/caps; nothing cropped. The pack takes about 80% of the canvas
+  height with clean white margin on every side.
 - Render it flat and clean like the printed packaging design file: no wrinkles, no glare or shine
   spots, no reflections, no fingers, no shelf, no props, no extra packs.
 - Pure white background (#FFFFFF), square 1:1 canvas, soft neutral shadow at most.
@@ -76,7 +79,9 @@ Output requirements:
   flavour, net weight. Keep the language and spelling of the pack (Vietnamese diacritics,
   Korean, etc.). Do not invent, translate or add any text, badges, numbers or weights that are
   not on the real pack. If a small line of text is unreadable, render it as small, unreadable
-  print rather than making up words.
+  print rather than making up words. Never invent numbers: weights, kcal, nutrition percentages,
+  dates, phone numbers and e-mails must either be copied from a reference where they are
+  readable or stay illegible.
 - Keep the real pack colours, logo shapes and illustration layout.
 - Remove anything that is not part of the printed pack: retailer watermarks, price tags,
   promotion flags/stickers, shop logos, barcode stickers stuck on the front.
@@ -88,7 +93,12 @@ FIX_PROMPT = """The first image is your previous render of this product; the oth
 references of the real pack. Keep everything that is already right and fix only this:
 {instruction}
 All other requirements still hold: straight-on single pack, flat clean print look, pure white
-1:1 background, text copied exactly from the real pack, no invented text."""
+1:1 background, whole pack with white margin, text copied exactly from the real pack, no invented
+text or numbers."""
+
+
+class ApiError(Exception):
+    pass
 
 
 def die(msg):
@@ -213,14 +223,21 @@ def call_api(model: str, size: str, prompt: str, images: list) -> dict:
         "input": [{"type": "text", "text": prompt}] + [as_png_part(b) for b in images],
         "response_format": {"type": "image", "aspect_ratio": "1:1", "image_size": size},
     }
-    r = requests.post(API, json=body, timeout=300,
-                      headers={"x-goog-api-key": key, "Content-Type": "application/json"})
+    for wait in (5, 20, 60, None):
+        r = requests.post(API, json=body, timeout=300,
+                          headers={"x-goog-api-key": key, "Content-Type": "application/json"})
+        if r.status_code not in (429, 500, 502, 503, 504) or wait is None:
+            break
+        print(f"Gemini API HTTP {r.status_code}, retrying in {wait}s")
+        time.sleep(wait)
     if r.status_code != 200:
         try:
             msg = r.json().get("error", {}).get("message", "")
         except ValueError:
             msg = r.text[:300]
-        die(f"Gemini API HTTP {r.status_code}: {msg}")
+        raise ApiError(f"Gemini API HTTP {r.status_code}: {msg}"
+                       + (" (often a watermark/logo-removal request on a retailer photo: drop that"
+                          " reference or the removal wording)" if "safety" in msg.lower() else ""))
     return r.json()
 
 
@@ -232,6 +249,27 @@ def normalise(raw: Path, out: Path) -> dict:
     return json.loads(res.stdout)
 
 
+def compare_sheet(images: list, raw: Path, out: Path, h: int = 700):
+    """References, the render, and the render's bottom third at 2x (where weights and kcal live)
+    side by side, so one image shows everything to check by eye."""
+    tiles = []
+    for b in images:
+        im = Image.open(io.BytesIO(b)).convert("RGB")
+        tiles.append(im.resize((max(1, round(im.width * h / im.height)), h)))
+    render = Image.open(raw).convert("RGB")
+    tiles.append(render.resize((h, h)))
+    w, rh = render.size
+    zoom = render.crop((0, rh * 2 // 3, w, rh))
+    tiles.append(zoom.resize((round(zoom.width * h / zoom.height), h)))
+    sheet = Image.new("RGB", (sum(t.width for t in tiles) + 12 * (len(tiles) - 1), h), "#888")
+    x = 0
+    for t in tiles:
+        sheet.paste(t, (x, 0))
+        x += t.width + 12
+    sheet.thumbnail((3000, h))
+    sheet.save(out, quality=88)
+
+
 def run_attempt(meta, wdir, log, model, size, prompt, images, labels, kind, dry_run):
     n = len(log["attempts"]) + 1
     print(f"--- {meta['kiotProductId']} {meta['name']} · attempt {n} ({kind}) · {model} {size}")
@@ -240,7 +278,11 @@ def run_attempt(meta, wdir, log, model, size, prompt, images, labels, kind, dry_
         print(prompt)
         print(f"estimated cost: ${estimate_cost(model, size, len(images), {}):.4f} (dry run, no call)")
         return None
-    resp = call_api(model, size, prompt, images)
+    try:
+        resp = call_api(model, size, prompt, images)
+    except ApiError as err:
+        print(f"{meta['kiotProductId']}: {err}")
+        return None
     (wdir / f"attempt-{n}.response.json").write_text(json.dumps(redact(resp), indent=1), encoding="utf-8")
     hit = find_image(resp)
     usage = resp.get("usage") or {}
@@ -255,8 +297,11 @@ def run_attempt(meta, wdir, log, model, size, prompt, images, labels, kind, dry_
         cand = wdir / f"attempt-{n}.webp"
         info = normalise(raw, cand)
         (wdir / "candidate.webp").write_bytes(cand.read_bytes())
-        entry.update({"raw": raw.name, "candidate": cand.name, "warnings": info.get("warnings", [])})
+        sheet = wdir / f"compare-{n}.jpg"
+        compare_sheet(images, raw, sheet)
+        entry.update({"raw": raw.name, "candidate": cand.name, "compare": sheet.name, "warnings": info.get("warnings", [])})
         print(f"raw: {raw.relative_to(ROOT)} · candidate: {cand.relative_to(ROOT)} · warnings: {info.get('warnings') or 'none'}")
+        print(f"compare: {sheet.relative_to(ROOT)} (open it: references | render | render bottom third zoomed)")
     else:
         print(f"no image returned (status {resp.get('status')}): {entry['text'][:200]}")
     print(f"estimated cost: ${cost:.4f} · usage: {json.dumps(usage)[:200]}")
@@ -265,28 +310,33 @@ def run_attempt(meta, wdir, log, model, size, prompt, images, labels, kind, dry_
     return entry
 
 
+def gen_one(a, d):
+    meta = load_meta(Path(d))
+    wdir = work_dir(meta)
+    refs = resolve_refs(meta, wdir, a.ref)
+    if not refs:
+        print(f"skip {meta['kiotProductId']}: no reference image")
+        return None
+    if len(refs) > 3:
+        print(f"skip {meta['kiotProductId']}: {len(refs)} references, use at most 3")
+        return None
+    note = f"\nAdditional instruction: {a.note}" if a.note else ""
+    prompt = PROMPT.format(name=meta.get("fullName") or meta["name"], barcode=meta.get("barcode") or "-", note=note)
+    log = read_log(wdir)
+    return run_attempt(meta, wdir, log, a.model, a.size, prompt, [b for _, b in refs],
+                       [l for l, _ in refs], "gen", a.dry_run)
+
+
 def cmd_gen(a):
-    calls = cost = 0
-    for d in a.product_dirs[: a.limit]:
-        meta = load_meta(Path(d))
-        wdir = work_dir(meta)
-        refs = resolve_refs(meta, wdir, a.ref)
-        if not refs:
-            print(f"skip {meta['kiotProductId']}: no reference image")
-            continue
-        if len(refs) > 3:
-            die(f"{meta['kiotProductId']}: {len(refs)} references, use at most 3")
-        note = f"\nAdditional instruction: {a.note}" if a.note else ""
-        prompt = PROMPT.format(name=meta.get("fullName") or meta["name"], barcode=meta.get("barcode") or "-", note=note)
-        log = read_log(wdir)
-        e = run_attempt(meta, wdir, log, a.model, a.size, prompt, [b for _, b in refs],
-                        [l for l, _ in refs], "gen", a.dry_run)
-        if e:
-            calls += 1
-            cost += e["estCostUsd"]
+    dirs = a.product_dirs[: a.limit]
+    if a.note and len(dirs) > 1:
+        die("--note is product-specific; pass one product directory with it")
+    with ThreadPoolExecutor(max_workers=max(1, a.jobs)) as pool:
+        entries = list(pool.map(lambda d: gen_one(a, d), dirs))
+    done = [e for e in entries if e]
     if len(a.product_dirs) > a.limit:
         print(f"limit {a.limit} reached: {len(a.product_dirs) - a.limit} products not processed")
-    print(f"=== API calls: {calls} · estimated cost: ${cost:.4f}")
+    print(f"=== API calls: {len(done)} · estimated cost: ${sum(e['estCostUsd'] for e in done):.4f}")
 
 
 def cmd_fix(a):
@@ -296,7 +346,8 @@ def cmd_fix(a):
     done = [e for e in log["attempts"] if e.get("candidate")]
     if not done:
         die("no previous attempt to fix; run gen first")
-    fixes = sum(1 for e in log["attempts"] if e["kind"] == "fix")
+    last_gen = max((i for i, e in enumerate(log["attempts"]) if e["kind"] == "gen"), default=-1)
+    fixes = sum(1 for e in log["attempts"][last_gen + 1:] if e["kind"] == "fix")
     if fixes >= MAX_FIXES and not a.force:
         die(f"already {fixes} fixes (RUBRIC v12 limit {MAX_FIXES}); drop it or pass --force with a reason")
     last = done[-1]
@@ -348,6 +399,7 @@ def main():
     g.add_argument("--limit", type=int, default=10, help="max products per run (default 10)")
     g.add_argument("--model", default=DEFAULT_MODEL)
     g.add_argument("--size", default="2K", choices=["1K", "2K"])
+    g.add_argument("--jobs", type=int, default=4, help="parallel API calls (default 4)")
     g.add_argument("--dry-run", action="store_true")
     f = sub.add_parser("fix")
     f.add_argument("product_dir")

@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I3/I4: ảnh chụp thùng carton, không phải packshot chai; thay bằng ảnh hãng (trang SP: https://thmilk.vn/products/tra-vai-tu-nhien-th-true-tea/)",
@@ -55,6 +55,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T03:59:04.373Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -64,5 +70,91 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-16T07:18:33.011Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-16T07:18:33.011Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/e797b594908f6b3c92a82f851ca34029ebda3a907ef43546d69a77c912bd9f99.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/04/25/tram8/064c083a06974202891dc4e20eec733a.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Trà Vải Tự Nhiên TH true TEA pha từ trà xanh và trà đen tuyển chọn trong nước, kết hợp nguyên liệu vải tự nhiên cho vị ngọt thanh, dễ uống. Không dùng hương liệu tổng hợp, không chất bảo quản; ngon hơn khi uống lạnh.\n\nQuy cách: 350 ml · chai\nNhà sản xuất/thương hiệu: TH true TEA (TH true MILK)\nBảo quản: Nơi khô ráo, thoáng mát. Sau khi mở nắp, bảo quản lạnh 4–10 °C và dùng hết trong 24 giờ.",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {
+      "price": {
+        "to": 12500,
+        "from": 12272.73
+      },
+      "saleTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 65192146
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 65192146
+        }
+      },
+      "taxRate": {
+        "to": "VAT 8%",
+        "from": "VAT 10%"
+      },
+      "productTaxs": {
+        "to": [
+          {
+            "id": 0,
+            "name": "VAT 8%",
+            "taxId": 3,
+            "value": 8,
+            "productId": 65192146
+          }
+        ],
+        "from": [
+          {
+            "id": 0,
+            "name": "VAT 10%",
+            "taxId": 4,
+            "value": 10,
+            "productId": 65192146
+          }
+        ]
+      },
+      "purchaseTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 65192146
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 65192146
+        }
+      }
+    }
   }
 }

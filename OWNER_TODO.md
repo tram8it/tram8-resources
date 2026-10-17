@@ -32,6 +32,7 @@ còn gì), đọc file này và **nhắc chủ từng mục còn mở**. Ghi th�
   - 65455154 "Mì lẩu Jumbo KORENO vị kim Chi Nongshim": thực tế là **tô Nongshim 김치사발면** (không phải Koreno) — sửa tên/thương hiệu
   - 66610094 "Bánh gạo Pororo Hàn Quốc Vị phô mai 115g" (mã 8809380344474): thực tế là **vị Rosé** (ảnh lúc tạo SP là ly 로제 떡볶이; vị phô mai là mã …3408)
   - 67200390 "Bánh gạo tokpokki… vị phô mai O'food ly 105g" (mã 8935304200608): thực tế là ly **tròn vị phô mai, không cay** — tên nên ghi rõ để khỏi nhầm với …0141
+  - 67647264 "Bánh Snack V /UH (Bim Pillows Oishi nhân sữa dừa gói 45g)" (mã 8934803042177): chủ xác nhận là gói **80g** — sửa tên trên KiotViet (ghi 17/10/2026)
 - [ ] Thương hiệu sửa tay: xem `reports/thuong-hieu-can-sua-tay-mi-goi.csv`
 - [ ] Ngừng kinh doanh: 64865678 Phở Gà Cung Đình mã 8936010681422 (chủ xác nhận đã lâu không
       bán) — từ chối đề xuất trên Hub và tắt trên KiotViet

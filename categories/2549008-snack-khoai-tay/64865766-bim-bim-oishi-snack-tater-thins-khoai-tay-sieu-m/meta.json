@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "Câu hỏi cũ tự giải theo mã vạch (chủ: làm nốt cả danh mục, 16/10); Gemini vẽ phẳng sạch — dùng chung ảnh với mã 8934803070217 (2 mã cùng tên/cùng gói)",
@@ -61,6 +61,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: image"
+    },
+    {
+      "at": "2026-10-17T03:59:04.373Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -69,5 +75,26 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-16T04:58:00.117Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-16T04:58:00.117Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/7dbd7e5dfc0bcb11b66b3b5d7781a9ceb1ddece4d62e7cbfdbb5bcafa21097eb.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/29/tram8/ce981d6b7399437d977d5139d1897568.png"
+        ]
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I3, I4, I8: ảnh chụp lốc chai trên thùng, nền không trắng; thay bằng ảnh chai Kratingdaeng Extra Zinc 145ml (nhãn xanh đậm, taurine 800mg, kẽm + B12 — khớp lốc trong ảnh cũ) trên trang TCP (https://www.tcp.com/en/products/energy-drink/kratingdaeng); ảnh hãng nhỏ, phóng 2,5 lần, xem lại đạt",
@@ -55,6 +55,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T03:59:04.373Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -64,5 +70,91 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-16T07:01:18.188Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-16T07:01:18.188Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/b6c75b741c0a5cf56bb6ead734cb15bb392362a3bc247fb95d1e49c5ef1048ee.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/09/17/tram8/b48623d531f04cd4b1b13a562ee35fad.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Nước tăng lực Kratingdaeng Extra Zinc (Red Bull Thái) chai thuỷ tinh nhãn xanh đậm, chứa 800 mg taurine, giàu kẽm và vitamin B12. Ngon hơn khi uống lạnh.\n\nQuy cách: 145 ml · chai thuỷ tinh\nXuất xứ: Thái Lan · Nhà sản xuất/thương hiệu: T.C. Pharmaceutical · Kratingdaeng",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {
+      "price": {
+        "to": 16666.67,
+        "from": 16363.64
+      },
+      "saleTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 68139829
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 68139829
+        }
+      },
+      "taxRate": {
+        "to": "VAT 8%",
+        "from": "VAT 10%"
+      },
+      "productTaxs": {
+        "to": [
+          {
+            "id": 0,
+            "name": "VAT 8%",
+            "taxId": 3,
+            "value": 8,
+            "productId": 68139829
+          }
+        ],
+        "from": [
+          {
+            "id": 0,
+            "name": "VAT 10%",
+            "taxId": 4,
+            "value": 10,
+            "productId": 68139829
+          }
+        ]
+      },
+      "purchaseTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 68139829
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 68139829
+        }
+      }
+    }
   }
 }

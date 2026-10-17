@@ -20,15 +20,15 @@
   "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I4/I5: ảnh KiotViet chụp điện thoại trên kệ, bị thanh kệ che và cắt mất đáy gói; không có trang chính hãng Poca trong brands.json → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Bố cục theo ảnh Kingfoodmart; bỏ chữ nhỏ 'vị' trước BẮP NGỌT cho khớp gói đang bán (ảnh KiotViet không có). Mặt trước gói thật không in khối lượng (khối lượng in phun ở mặt sau) nên ảnh không có '60g'. Số dinh dưỡng nhỏ (Trong 30 g, 156 Kcal, 7,8%) lấy theo bảng mặt sau; dòng chú thích li ti có thể lệch một chữ. Số miếng snack, vị trí chi tiết có thể hơi khác.",
+    "reason": "I3/I4/I5: ảnh chụp điện thoại trên kệ, bị cắt; không có trang hãng Poca; chủ cho dùng bao bì mới (17/10/2026) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: bao bì mới (dải đỏ 'MỚI! BÁNH NGON 10 ĐIỂM', KING PACK) khác gói cũ đang chụp ở cửa hàng; mặt trước không in khối lượng; chữ nhỏ dưới ô dinh dưỡng có thể lệch vài chữ; vị trí miếng bánh không giống hệt",
     "source": {
       "aiGenerated": true,
       "tool": "Gemini API",
       "model": "gemini-nano-banana-2.1",
       "generatedAt": "2026-10-17",
       "style": "flat clean packaging render (v17)",
-      "reference": "ảnh Kingfoodmart (chỉ làm mẫu, cùng mã vạch 8936079123352, ghi 60g) + ảnh KiotViet (gói đang bán ở cửa hàng)",
-      "referenceUrl": "https://kingfoodmart.com/snack/snack-bap-ngot-xoc-bo-poca-goi-60g-1-goi-62139"
+      "reference": "ảnh Co.op Online bao bì mới (chỉ làm mẫu)",
+      "referenceUrl": "https://cooponline.vn"
     },
     "rubricVersion": "v17"
   },
@@ -63,14 +63,63 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T03:58:55Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 4, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T03:59:04.373Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-17T03:59:29Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "owner (17/10/2026): use the new pack design → Gemini redraw of new design, resubmit image"
+    },
+    {
+      "at": "2026-10-17T03:59:29.318Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-17T03:40:30.629Z",
+    "at": "2026-10-17T03:59:29.318Z",
     "fields": [
       "description",
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T03:48:09.668Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T03:48:09.668Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/0eefc7ca380cff5518e604814dd4ca2565769607f759b19e870a276486e449c1.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/09/19/tram8/0b7f312353794d95942d024f3b0f8f8e.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Snack Poca vị bắp ngọt xóc bơ: miếng snack giòn, vị bắp ngọt quyện bơ thơm béo.\n\nQuy cách: 60 g · gói\nNhà sản xuất/thương hiệu: PepsiCo · Poca",
+        "from": "<p style=\"margin-bottom:0px;font-style:normal;font-variant-caps:normal;font-width:normal;font-family:'Helvetica Neue';font-kerning:auto;font-variant-alternates:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variant-position:normal;font-variant-emoji:normal;font-feature-settings:normal;font-optical-sizing:auto;font-variation-settings:normal;\">Snack Poca Bắp Ngọt Xóc Bơ là loại snack bắp ngọt được nhiều người yêu thích bởi bắp giòn và ngọt được xốc trong bột bơ vừa thơm vừa béo giúp từng miếng snack trở nên hấp dẫn, một khi đã thưởng thức là sẽ muốn ăn mãi thôi.</p><p style=\"margin-bottom:0px;font-style:normal;font-variant-caps:normal;font-width:normal;font-family:'Helvetica Neue';font-kerning:auto;font-variant-alternates:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variant-position:normal;font-variant-emoji:normal;font-feature-settings:normal;font-optical-sizing:auto;font-variation-settings:normal;min-height:15px;\"></p><p style=\"margin-bottom:0px;font-style:normal;font-variant-caps:normal;font-width:normal;font-family:'Helvetica Neue';font-kerning:auto;font-variant-alternates:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variant-position:normal;font-variant-emoji:normal;font-feature-settings:normal;font-optical-sizing:auto;font-variation-settings:normal;\">Thành phần: Bột mì, dầu thực vật, tinh bột bắp, tinh bột sắn, bột gia vị Mực Cay Đặc Biệt 7.5% (đường, hương tự nhiên, hương giống tự nhiên và hương tổng hợp, chất điều vị (E631, E635), đường dextrose, muối, chất chống đông vón (E551), màu tự nhiên (E160c), gia vị (tỏi và ớt), bột mực, chất tạo xốp (E500ii), shortening, chất điều vị E621.</p><p style=\"margin-bottom:0px;font-style:normal;font-variant-caps:normal;font-width:normal;font-family:'Helvetica Neue';font-kerning:auto;font-variant-alternates:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variant-position:normal;font-variant-emoji:normal;font-feature-settings:normal;font-optical-sizing:auto;font-variation-settings:normal;min-height:15px;\"></p><p style=\"margin-bottom:0px;font-style:normal;font-variant-caps:normal;font-width:normal;font-family:'Helvetica Neue';font-kerning:auto;font-variant-alternates:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variant-position:normal;font-variant-emoji:normal;font-feature-settings:normal;font-optical-sizing:auto;font-variation-settings:normal;\">Thương hiệu/ xuất sử sản phẩm: Poca</p><p style=\"margin-bottom:0px;font-style:normal;font-variant-caps:normal;font-width:normal;font-family:'Helvetica Neue';font-kerning:auto;font-variant-alternates:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variant-position:normal;font-variant-emoji:normal;font-feature-settings:normal;font-optical-sizing:auto;font-variation-settings:normal;min-height:15px;\"></p><p style=\"margin-bottom:0px;font-style:normal;font-variant-caps:normal;font-width:normal;font-family:'Helvetica Neue';font-kerning:auto;font-variant-alternates:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variant-position:normal;font-variant-emoji:normal;font-feature-settings:normal;font-optical-sizing:auto;font-variation-settings:normal;\">Bảo quản sản phẩm ở nơi khô ráo, thoáng mát. </p><p style=\"margin-bottom:0px;font-style:normal;font-variant-caps:normal;font-width:normal;font-family:'Helvetica Neue';font-kerning:auto;font-variant-alternates:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variant-position:normal;font-variant-emoji:normal;font-feature-settings:normal;font-optical-sizing:auto;font-variation-settings:normal;min-height:15px;\"></p><p style=\"margin-bottom:0px;font-style:normal;font-variant-caps:normal;font-width:normal;font-family:'Helvetica Neue';font-kerning:auto;font-variant-alternates:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variant-position:normal;font-variant-emoji:normal;font-feature-settings:normal;font-optical-sizing:auto;font-variation-settings:normal;\">Sản phẩm có thể dùng ăn trực tiếp.</p><p style=\"margin-bottom:0px;font-style:normal;font-variant-caps:normal;font-width:normal;font-family:'Helvetica Neue';font-kerning:auto;font-variant-alternates:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variant-position:normal;font-variant-emoji:normal;font-feature-settings:normal;font-optical-sizing:auto;font-variation-settings:normal;min-height:15px;\"></p><p style=\"margin-bottom:0px;font-style:normal;font-variant-caps:normal;font-width:normal;font-family:'Helvetica Neue';font-kerning:auto;font-variant-alternates:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variant-position:normal;font-variant-emoji:normal;font-feature-settings:normal;font-optical-sizing:auto;font-variation-settings:normal;\">Lưu ý: Không dùng cho người dị ứng các thành phẩn sản phẩm</p>"
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

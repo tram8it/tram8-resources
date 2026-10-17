@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I2: ảnh cũ là chai 350 ml, tên là 500 ml; thay bằng ảnh chai 500 ml trên thtruemart.vn",
@@ -55,6 +55,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T03:59:04.373Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -64,5 +70,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-16T07:22:12.460Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-16T07:22:12.460Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/119235ec5fcae194a9fb17396f336ef5305a75f056dc3be87f3cd158410cd39f.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/29/tram8/f094c1932aae43419fd18d675de277b0.png"
+        ]
+      },
+      "description": {
+        "to": "Nước tinh khiết TH true WATER, từ nguồn nước ngầm tự nhiên vùng Núi Tiên (Nghệ An), lọc RO và đóng chai trên dây chuyền khép kín.\n\nQuy cách: 500 ml · chai\nXuất xứ: Việt Nam · Nhà sản xuất/thương hiệu: TH · TH true WATER",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
   }
 }
