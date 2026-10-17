@@ -17,18 +17,26 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "khối lượng chủ xác nhận 50 g (17/10) nhưng chưa rõ vị; ảnh KiotViet là gói 35 g vị cay (Spicy), không tìm được ảnh gói Posi mực 50 g → cần ảnh gói 50 g khi có hàng",
-    "source": null,
-    "rubricVersion": "v19"
+    "reason": "I3, I4: ảnh chụp tay trên quầy, nền không trắng, có gói khác và giấy tờ phía sau → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt ở chữ (POSI, Thơm ngon-Trọn vị, 말린 오징어, MỰC KHÔ XÉ SỢI, Dried Squid, SPICY, KHỐI LƯỢNG TỊNH 35 g khớp); phần đầu túi trong ảnh mẫu bị cắt nên không vẽ 4 huy hiệu tròn như các gói Posi khác; Kingfoodmart cùng mã vạch có gói 50 g 'Vị cay' — theo chủ, dùng gói 35 g trên kệ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh chủ chụp gói trên kệ (= ảnh KiotViet, gói 35 g vị cay)",
+      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/05/20/tram8/cb7b3af84c094ba39706cae2a76f56c2.jpeg"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
-    "decision": "ASK_OWNER",
-    "reason": "chờ ảnh gói 50 g để biết vị trước khi viết mô tả",
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; mô tả ngắn từ chữ in mặt trước gói (Mực khô xé sợi, Dried Squid, SPICY, khối lượng tịnh 35 g — theo bao bì, chủ xác nhận 17/10)",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v19"
   },
   "question": null,
   "history": [
@@ -67,6 +75,32 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "50 g confirmed, flavour unknown (only reference: 35 g spicy) → needs photo of the 50 g pack"
+    },
+    {
+      "at": "2026-10-17T13:51:52Z",
+      "by": "owner",
+      "status": "NEEDS_PHOTO",
+      "note": "Chủ trả lời 17/10: ảnh gói trên kệ (= ảnh KiotViet) in \"POSI Mực khô xé sợi, Dried Squid, SPICY, Khối lượng tịnh 35 g\" — tin bao bì: 35 g, vị cay; vẽ lại sạch từ ảnh này"
+    },
+    {
+      "at": "2026-10-17T13:52:10Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T13:52:20.555Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T13:52:20.555Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

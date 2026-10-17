@@ -17,20 +17,28 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "ASK_OWNER",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I7/I6: ảnh có logo cửa hàng khác (EURUS), nhỏ 225px; khối lượng trên các bao bì tìm được (50 g / 57 g) khác tên KiotViet (75 g)",
-    "source": null,
-    "rubricVersion": "v17"
+    "reason": "I7/I6: ảnh KiotViet có logo cửa hàng khác (EURUS), nhỏ 225px → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ khối lượng 'NET WT. 75g' theo chủ (mẫu in 1.76oz(50g), Open Food Facts cùng mã vạch ghi 57 g); không tìm được ảnh thỏi 75 g nên thiết kế theo thỏi bản Mỹ; bỏ dòng dinh dưỡng mặt trên và logo EURUS",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh Bokksu Market (chỉ làm mẫu, thỏi Hi-Chew Green Apple bản Mỹ 50 g) + ảnh KiotViet",
+      "referenceUrl": "https://bokksumarket.com/products/morinaga-hi-chew-stick-green-apple"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
-    "reason": "D1: chưa có mô tả; viết ngắn từ tên SP, bỏ khối lượng vì tên (75 g) và ảnh (50 g) lệch",
+    "reason": "D1: chưa có mô tả; viết ngắn từ tên SP, khối lượng 75 g theo chủ xác nhận 17/10",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v19"
   },
-  "question": "Tên ghi 75 g, các thanh cùng mã tìm được in 57 g (OFF) / 50 g (bản Mỹ). Thanh đang bán in bao nhiêu g?",
+  "question": null,
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -73,6 +81,32 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "not answered in 17/10 shelf check — left ASK_OWNER"
+    },
+    {
+      "at": "2026-10-17T13:51:52Z",
+      "by": "owner",
+      "status": "ASK_OWNER",
+      "note": "Chủ trả lời 17/10: khối lượng 75 g là đúng; tìm gói Hi-Chew táo xanh làm mẫu và vẽ với 75 g"
+    },
+    {
+      "at": "2026-10-17T13:52:11Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T13:52:24.170Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T13:52:24.170Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

@@ -17,12 +17,20 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "khối lượng chủ xác nhận 105 g (17/10); ảnh KiotViet là gói 130 g chụp trên quầy, lóa, mờ; không tìm được ảnh gói Richoco Long Stick 105 g (web, Open Food Facts) → cần nhân viên chụp mặt trước gói 105 g làm mẫu cho Gemini",
-    "source": null,
-    "rubricVersion": "v19"
+    "reason": "I3, I4, I6: ảnh KiotViet chụp trên quầy, lóa, mờ; không có ảnh hãng gói 105 g → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: dòng khối lượng sửa thành 105 g theo chủ (ảnh mẫu cùng mã vạch in 130 g; gói 105 g có trong dữ liệu xuất khẩu Nabati sang VN); dòng nhà sản xuất nhỏ góc phải để mờ không đọc được",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh Kingfoodmart theo mã vạch 8993175551519 (chỉ làm mẫu, gói in 130 g) + ảnh KiotViet",
+      "referenceUrl": "https://storage.googleapis.com/onelife-public/8993175551519.jpg"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -73,6 +81,32 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "105 g confirmed; no reference of the 105 g pack (KiotViet photo shows 130 g, poor) → needs staff photo"
+    },
+    {
+      "at": "2026-10-17T13:51:52Z",
+      "by": "owner",
+      "status": "NEEDS_PHOTO",
+      "note": "Chủ trả lời 17/10: tự tìm gói trên web (Nabati, Kingfoodmart theo mã vạch 8993175551519, Open Food Facts, nhà bán lẻ làm mẫu) và cho Gemini vẽ gói 105 g"
+    },
+    {
+      "at": "2026-10-17T13:52:10Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 3, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T13:52:22.400Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T13:52:22.400Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

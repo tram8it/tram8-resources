@@ -17,12 +17,20 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "ASK_OWNER",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "khối lượng chủ xác nhận 20 g (17/10); ảnh KiotViet là gói đỏ 16 g, không tìm được ảnh gói 20 g (tên ghi \"tím\") → chưa biết màu/thiết kế gói 20 g, chưa vẽ",
-    "source": null,
-    "rubricVersion": "v19"
+    "reason": "I3, I4: ảnh KiotViet chụp cả thùng gói, nền không trắng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: dòng khối lượng sửa thành 20 g theo chủ (ảnh mẫu in 16 g; gói Time Break 5 fingers 20 g có bán ở Indonesia); giữ gói màu đỏ như ảnh KiotViet — không tìm được ảnh gói 'tím' nào; chữ nhỏ trong huy hiệu HALAL không đọc được",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (gói đỏ Time Break 5fingers, in 16 g); không tìm được ảnh theo mã vạch 8993175564991 (Kingfoodmart 404, Open Food Facts không có)",
+      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/07/21/tram8/c0216e4866714dae979ff85557ca2a82.png"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -30,7 +38,7 @@
     "source": null,
     "rubricVersion": "v4"
   },
-  "question": "Gói Time Break 20 g đang bán màu gì (tím hay đỏ)? Nếu được, nhờ chụp mặt trước gói 20 g.",
+  "question": null,
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -73,6 +81,32 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "20 g confirmed; no 20 g pack reference found (KiotViet photo = red 16 g pack); question narrowed to pack colour"
+    },
+    {
+      "at": "2026-10-17T13:51:52Z",
+      "by": "owner",
+      "status": "ASK_OWNER",
+      "note": "Chủ trả lời 17/10: mã vạch 8993175564991 — tự tra trên web và vẽ đúng gói theo mã vạch (tên ghi \"tím\")"
+    },
+    {
+      "at": "2026-10-17T13:52:10Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T13:52:18.030Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T13:52:18.030Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

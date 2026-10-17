@@ -17,27 +17,27 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "ASK_OWNER",
+  "status": "READY",
   "image": {
-    "decision": "ASK_OWNER",
-    "reason": "I1: chưa có ảnh. orion.vn có packshot chính hãng Boom hương đào ở 2 cỡ: gói 25 g (Boom Jelly) và gói 52,5 g (Boom Jelly UP! Big); tên KiotViet không ghi khối lượng nên chưa biết dùng ảnh nào",
+    "decision": "REPLACE",
+    "reason": "I1: chưa có ảnh; dùng packshot chính hãng Orion gói Boom Jelly đào 25 g — ảnh Open Food Facts của mã vạch 8936036027754 là đúng gói 25 g này",
     "source": {
       "url": "https://orion.vn/media/pepniprl/dao-small.png",
       "page": "https://orion.vn/san-pham/san-pham/keo-deo-boom-huong-dao/",
       "fetchedAt": "2026-10-17"
     },
-    "rubricVersion": "v17"
+    "rubricVersion": "v19"
   },
   "description": {
     "decision": "WRITE_NEW",
-    "reason": "D1: chưa có mô tả; theo trang Orion Việt Nam; trang không ghi khối lượng nên bỏ",
+    "reason": "D1: chưa có mô tả; theo trang Orion Việt Nam; khối lượng 25 g theo bao bì đúng mã vạch (ảnh Open Food Facts)",
     "source": {
       "url": "https://orion.vn/san-pham/san-pham/keo-deo-boom-huong-dao/",
       "fetchedAt": "2026-10-13"
     },
     "rubricVersion": "v4"
   },
-  "question": "Kẹo dẻo Boom vị đào (mã vạch 8936036027754): trang Orion có 2 cỡ — (A) gói nhỏ \"Boom Jelly\" 25 g, (B) gói \"Boom Jelly UP! Big\" 52,5 g. Tên KiotViet không ghi khối lượng. Cửa hàng bán cỡ nào? Trả lời A hoặc B — AI sẽ dùng đúng packshot chính hãng đó (đã tải sẵn) và đề xuất thêm khối lượng vào tên.",
+  "question": null,
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -56,6 +56,12 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "orion.vn has peach Boom in 25g and 52.5g packshots; KiotViet name has no weight — asked owner which size"
+    },
+    {
+      "at": "2026-10-17T13:50:49Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "resolved without asking: ảnh Open Food Facts của mã vạch 8936036027754 là gói Boom Jelly đào 25 g → dùng packshot Orion 25 g"
     }
   ]
 }

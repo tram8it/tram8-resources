@@ -1,4 +1,4 @@
-Kẹo mềm Hi-Chew vị táo xanh của Morinaga (Nhật Bản), viên kẹo nhai dai vị trái cây.
+Kẹo mềm Hi-Chew vị táo xanh (Green Apple) của Morinaga (Nhật Bản), viên kẹo nhai dai vị trái cây, đóng thỏi.
 
-Quy cách: thỏi
+Quy cách: 75 g · thỏi
 Nhà sản xuất/thương hiệu: Morinaga · Hi-Chew

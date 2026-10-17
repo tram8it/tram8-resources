@@ -17,20 +17,28 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "ASK_OWNER",
+  "status": "READY",
   "image": {
-    "decision": "ASK_OWNER",
-    "reason": "I3, I4: ảnh chụp điện thoại, nền không trắng (cần chụp lại); khối lượng trên nhãn (200 g) lệch tên hàng (170 g)",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "REPLACE",
+    "reason": "I3, I4: ảnh chụp điện thoại, nền không trắng; không có trang hãng Phương Huyền Food → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ nhỏ trên nhãn (thành phần, tên công ty, địa chỉ, SĐT) để mờ không đọc được (AI không chép đúng); huy hiệu 'GOOD FOOD' góc phải vẽ thành chữ gần giống ('600P FOOP'); mã vạch 8936202660853 và 'Net.wt: 200g' khớp gói thật; túi kraft vẽ phẳng, đầy hơn ảnh chụp",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (gói 200 g trên kệ, chủ xác nhận 17/10)",
+      "referenceUrl": "https://cdn1-retail-images.kiotviet.vn/2026/01/23/tongpenhchtl/c12cbb44b20641cd814371e8b27d4526.jpeg"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
-    "decision": "ASK_OWNER",
-    "reason": "chờ chủ xác nhận khối lượng (nhãn 200 g, tên 170 g)",
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; mô tả ngắn từ chữ in trên nhãn gói (Gà khô lá chanh, Phương Huyền Food, Net wt 200 g — chủ xác nhận 17/10)",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v19"
   },
-  "question": "Tên ghi 170 g, nhãn gói in 200 g. Gói đang bán in 170 g hay 200 g? (hết hàng 17/10)",
+  "question": null,
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -67,6 +75,32 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "not answered, out of stock 17/10 — left ASK_OWNER"
+    },
+    {
+      "at": "2026-10-17T13:51:52Z",
+      "by": "owner",
+      "status": "ASK_OWNER",
+      "note": "Chủ trả lời 17/10: gói đang bán in 200 g; dùng ảnh KiotViet (gói 200 g) làm mẫu, ảnh + mô tả theo 200 g"
+    },
+    {
+      "at": "2026-10-17T13:52:10Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T13:52:15.247Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T13:52:15.247Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

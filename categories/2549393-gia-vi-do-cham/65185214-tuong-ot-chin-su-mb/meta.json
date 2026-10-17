@@ -17,20 +17,20 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "ASK_OWNER",
+  "status": "READY",
   "image": {
-    "decision": "ASK_OWNER",
-    "reason": "I2: packshot nền trắng đúng tương ớt CHIN-SU (bao bì đời 'Đượm vị cay, bùng vị ngon'), nhưng không biết chai bao nhiêu gam nên chưa chọn được ảnh hãng mới (250g/500g…)",
+    "decision": "CROP",
+    "reason": "I9: packshot nền trắng đúng chai tương ớt CHIN-SU (bao bì \"Đượm vị cay, bùng vị ngon\"), chai in Khối lượng tịnh 250 g; không 1:1 → crop, phóng ~2 lần, xem lại đạt",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v19"
   },
   "description": {
-    "decision": "ASK_OWNER",
-    "reason": "D4: cần khối lượng để viết quy cách; mã 8936017364113 không tra được",
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; mô tả ngắn từ chữ in trên chai (Khối lượng tịnh 250 g đọc được trên ảnh KiotViet và ảnh Open Food Facts cùng mã vạch)",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v19"
   },
-  "question": "Tương ớt CHIN-SU MB (mã 8936017364113) là chai bao nhiêu gam (250 g, 500 g hay loại khác)? Chữ 'MB' trong tên có nghĩa gì (miền Bắc?) — nếu chỉ là ghi chú nội bộ thì nên bỏ khỏi tên.",
+  "question": null,
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -43,6 +43,12 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "b26: image ASK_OWNER, description ASK_OWNER"
+    },
+    {
+      "at": "2026-10-17T13:50:25Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "resolved without asking: chai in rõ 'Khối lượng tịnh 250 g' trên ảnh KiotViet (và ảnh OFF cùng mã vạch); 'MB' trong tên là việc của tên KiotViet, không ảnh hưởng ảnh/mô tả"
     }
   ]
 }

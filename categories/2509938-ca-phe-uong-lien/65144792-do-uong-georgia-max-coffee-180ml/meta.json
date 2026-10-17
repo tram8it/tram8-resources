@@ -17,20 +17,27 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "ASK_OWNER",
+  "status": "READY",
   "image": {
-    "decision": "ASK_OWNER",
-    "reason": "I1: chưa có ảnh; ảnh hãng trên coca-cola.com/vn là lon thân cao, không ghi dung tích, không chắc là lon 180ml",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "REPLACE",
+    "reason": "I1: chưa có ảnh; dùng packshot chính hãng trên trang Coca-Cola Việt Nam. Ảnh Kingfoodmart của mã vạch 8935049500957 (chỉ để đối chiếu) là đúng lon vàng thân cao này, in 180 ml; ảnh hãng không có dòng dung tích",
+    "source": {
+      "url": "https://www.coca-cola.com/content/dam/onexp/vn/vi/brands/georgia-max-coffee/Georgia%20Max%20Coffee%20pack%20shot.jpg/width1960.jpg",
+      "page": "https://www.coca-cola.com/vn/vi/brands/georgia-max-coffee",
+      "fetchedAt": "2026-10-17"
+    },
+    "rubricVersion": "v19"
   },
   "description": {
-    "decision": "ASK_OWNER",
-    "reason": "Chờ chủ xác nhận dung tích",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; thành phần theo trang Coca-Cola Việt Nam, dung tích 180 ml theo lon đúng mã vạch (ảnh Kingfoodmart)",
+    "source": {
+      "url": "https://www.coca-cola.com/vn/vi/brands/georgia-max-coffee",
+      "fetchedAt": "2026-10-17"
+    },
+    "rubricVersion": "v19"
   },
-  "question": "SP 'Đồ uống GEORGIA MAX COFFEE 180ML': trang Coca-Cola Việt Nam (https://www.coca-cola.com/vn/vi/brands/georgia-max-coffee) có ảnh lon vàng thân cao, chữ 'Năng lượng thức tỉnh!', nhưng không ghi dung tích. Lon đang bán có đúng 180ml và trông giống ảnh này không? Nếu đúng, AI dùng ảnh này.",
+  "question": null,
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -43,6 +50,12 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "official image found but can size not stated"
+    },
+    {
+      "at": "2026-10-17T13:52:01Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "resolved without asking: ảnh Kingfoodmart của mã vạch 8935049500957 là lon 180 ml cùng thiết kế với packshot Coca-Cola VN → dùng ảnh hãng"
     }
   ]
 }
