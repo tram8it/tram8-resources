@@ -20,9 +20,9 @@
   "status": "NEEDS_PHOTO",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh; trang Ovaltine Thái Lan (ovaltine.co.th) không có dòng bánh quy này → cần chụp",
+    "reason": "I1: chưa có ảnh; mã vạch không có trên Open Food Facts, không tìm được ảnh gói trên trang hãng/bán lẻ → không có mẫu để Gemini vẽ, cần chụp",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +43,12 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "b13: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T07:00:00.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "searched for references (barcode on Open Food Facts, web): none; no Gemini call"
     }
   ]
 }

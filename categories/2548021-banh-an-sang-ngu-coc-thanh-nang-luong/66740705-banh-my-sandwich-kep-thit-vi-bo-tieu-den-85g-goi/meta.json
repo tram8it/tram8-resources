@@ -17,12 +17,23 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I4: nền đen; thương hiệu Dominatte không có trang hãng tìm được → cần chụp (ảnh cùng gói nền trắng đang nằm ở SP 66986775)",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I4: ảnh KiotViet nền đen; dùng bản cùng ảnh nền trắng của cửa hàng (đang gắn ở SP 66986775, cùng gói Dominatte bò tiêu đen), chuẩn hoá 1:1 (phóng ~2,2 lần) + tone/độ tươi như SP cùng dãy 66740598; không có trang hãng",
+    "source": {
+      "url": "https://cdn2-retail-images.kiotviet.vn/2026/07/27/tram8/b8915075068f4f66b28c0dd050881f64.png",
+      "fetchedAt": "2026-10-17T06:00:00.000Z",
+      "shopPhoto": true
+    },
+    "rubricVersion": "v17",
+    "vivid": {
+      "rubricVersion": "v10",
+      "saturationGain": 1.096,
+      "contrastGain": 1.031,
+      "toneGain": 1.096,
+      "gamma": 1
+    }
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +54,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "b13: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T06:00:00.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "image from shop's white-background photo of the same pack (matches line sibling 66740598 method)"
+    },
+    {
+      "at": "2026-10-17T05:08:59.449Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T05:08:59.449Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

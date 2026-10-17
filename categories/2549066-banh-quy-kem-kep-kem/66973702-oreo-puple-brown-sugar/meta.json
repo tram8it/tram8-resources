@@ -17,12 +17,20 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3, I4, I5: ảnh chụp điện thoại cầm tay trên thùng carton, gói bị cắt; phiên bản giới hạn Oreo x BTS không có trên trang Mondelez Việt Nam → cần chụp",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I3, I4, I5: ảnh chụp điện thoại cầm tay trên thùng carton, gói bị cắt; không có trên trang Mondelez VN → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: là bao bì phiên bản giới hạn Oreo x BTS (vị Hotteok chỉ có bản này, không có bản thường); dòng chữ Việt nhỏ ở mép trên và chữ cạnh mã QR để mờ; không thấy khối lượng trên mặt trước",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh Open Food Facts (chỉ làm mẫu) + ảnh KiotViet",
+      "referenceUrl": "https://world.openfoodfacts.org/product/7622202838125"
+    },
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +51,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "b13: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T05:15:46Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T05:16:10.049Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T05:16:10.049Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

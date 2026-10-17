@@ -17,12 +17,20 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3, I4, I5: ảnh chụp điện thoại cận gói, nền bàn, gói bị cắt; thương hiệu Pippi không tìm được trang hãng → cần chụp",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I3, I4, I5: ảnh chụp điện thoại cận gói, nền bàn, gói bị cắt; thương hiệu Pippi không có trang hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: mép trái/phải và hai đầu hàn của gói do AI vẽ (ảnh gốc bị cắt); dòng chữ đỏ nhỏ ở góc trên phải gói thật bị bỏ; chữ lớn, 88 g, Bánh mì 58 g / Gói nhân 30 g khớp ảnh thật",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet do cửa hàng chụp (cận gói, bị cắt) — không tìm được ảnh hãng/bán lẻ",
+      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/04/30/tram8/79734af578be4b20951f677954e28004.jpeg"
+    },
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +51,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "b13: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T05:08:43Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T05:09:01.889Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T05:09:01.889Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

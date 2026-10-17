@@ -17,12 +17,20 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I4, I5: ảnh chụp điện thoại cận gói, nền tối, gói bị cắt; trang Mondelez Việt Nam chỉ có ảnh hộp 10 gói kèm gói lẻ (ảnh ghép, I8) → cần chụp",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I4, I5: ảnh chụp điện thoại cận gói, nền tối, gói bị cắt; trang Mondelez VN chỉ có ảnh ghép hộp → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: NET WT: 20.4g và bảng dinh dưỡng khớp ảnh mẫu; chữ nhỏ bên trái (NSX, HSD) chỉ đọc được một phần, có thể lệch vài ký tự",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh Open Food Facts gói Mini Oreo Chocolate 20,4 g (chỉ làm mẫu) + ảnh KiotViet",
+      "referenceUrl": "https://world.openfoodfacts.org/product/7622210515278"
+    },
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -46,6 +54,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "b13: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T05:15:45Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 3, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T05:16:03.725Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T05:16:03.725Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }
