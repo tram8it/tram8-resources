@@ -19,17 +19,18 @@
   },
   "status": "READY",
   "image": {
-    "decision": "CROP",
-    "reason": "I9: ảnh hộp nền trắng 450×600; crop 1:1 (phóng ~2,5 lần, hơi mềm nhưng đạt theo v4), đã xem lại",
-    "source": null,
-    "rubricVersion": "v4",
-    "vivid": {
-      "rubricVersion": "v10",
-      "saturationGain": 1.137,
-      "contrastGain": 1.044,
-      "toneGain": 1.114,
-      "gamma": 1.0
-    }
+    "decision": "REPLACE",
+    "reason": "I3/I6: ảnh tự chụp hộp giấy, mờ, có in NSX/HSD; không có ảnh hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: vẽ theo mẫu hộp trên ảnh Kingfoodmart cùng mã vạch (dòng 'Nguồn dinh dưỡng từ THỊT'); hộp ở cửa hàng ghi 'Snack dinh dưỡng'; khối lượng 200 g như hộp thật; bỏ NSX/HSD",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh Kingfoodmart (chỉ làm mẫu) + ảnh KiotViet",
+      "referenceUrl": "https://storage.googleapis.com/onelife-public/8936034875197.jpg"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -56,6 +57,26 @@
       "by": "ai",
       "status": "READY",
       "note": "tone.py --vivid: white balance/levels + brand-like colour (owner request)"
+    },
+    {
+      "at": "2026-10-17T15:28:18Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T15:28:18.774Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T15:28:18.774Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

@@ -19,10 +19,17 @@
   },
   "status": "READY",
   "image": {
-    "decision": "KEEP",
-    "reason": "I1–I9 đạt: packshot khay Pizza Bomb đúng vị, nền trắng, 1:1",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "REPLACE",
+    "reason": "I3/I6: ảnh túi nilon tự chụp; không có ảnh hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: đã làm mờ tên công ty cạnh logo và khối chữ nhỏ vì Gemini viết sai; khối lượng theo bao bì 'KLT: 360GR' (tên KiotViet ghi 320g)",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (túi tự chụp của cửa hàng)"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "REWRITE",
@@ -43,6 +50,38 @@
       "by": "ai",
       "status": "READY",
       "note": "image KEEP, description REWRITE (front-of-pack facts)"
+    },
+    {
+      "at": "2026-10-17T15:28:30Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 4, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T15:28:30.436Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T15:29:23+00:00",
+      "by": "ai",
+      "status": "READY",
+      "note": "Mô tả: 320 g → 360 g theo bao bì (KLT: 360GR), RUBRIC v19"
+    },
+    {
+      "at": "2026-10-17T15:29:23.244Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T15:29:23.244Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

@@ -17,19 +17,19 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "UPLOADED",
+  "status": "READY",
   "image": {
-    "decision": "CROP",
-    "reason": "I9: ảnh hũ nền trắng 450×600; crop 1:1 (phóng ~2,6 lần, hơi mềm nhưng đạt theo v4), đã xem lại",
-    "source": null,
-    "rubricVersion": "v4",
-    "vivid": {
-      "rubricVersion": "v10",
-      "saturationGain": 1.25,
-      "contrastGain": 1.08,
-      "toneGain": 1.046,
-      "gamma": 1
-    }
+    "decision": "REPLACE",
+    "reason": "I3/I6: ảnh hũ tự chụp, nhãn mờ; không có ảnh hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: đã làm mờ chữ nhỏ (thành phần, địa chỉ, SĐT, khẩu hiệu) vì Gemini viết sai; bỏ NSX/HSD; TL:200G theo nhãn",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (hũ tự chụp của cửa hàng)"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -74,10 +74,22 @@
       "by": "owner",
       "status": "UPLOADED",
       "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-17T15:28:21Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T15:28:21.983Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-15T09:18:49.541Z",
+    "at": "2026-10-17T15:28:21.983Z",
     "fields": [
       "description",
       "image"

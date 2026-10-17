@@ -19,17 +19,18 @@
   },
   "status": "READY",
   "image": {
-    "decision": "CROP",
-    "reason": "I9: packshot nền trắng, đúng SP nhưng không 1:1 và chai nhỏ lệch; đã crop, xem lại đạt (phóng ~2 lần)",
-    "source": null,
-    "rubricVersion": "v4",
-    "vivid": {
-      "rubricVersion": "v10",
-      "saturationGain": 1.25,
-      "contrastGain": 1.08,
-      "toneGain": 1.058,
-      "gamma": 1.0
-    }
+    "decision": "REPLACE",
+    "reason": "I3/I6: ảnh tự chụp chai, bóng, hơi mờ; không có ảnh hãng trong danh sách → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: nhãn theo bản quốc tế trên ảnh cửa hàng ('5cl 40% Vol.'); chai 50 ml (tên KiotViet ghi 5ml); chữ viền nhỏ không đọc được",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh Open Food Facts (chỉ làm mẫu dáng chai) + chữ nhãn theo ảnh KiotViet",
+      "referenceUrl": "https://world.openfoodfacts.org/product/0082184000052"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "REWRITE",
@@ -56,6 +57,26 @@
       "by": "ai",
       "status": "READY",
       "note": "tone.py --vivid: white balance/levels + brand-like colour (owner request)"
+    },
+    {
+      "at": "2026-10-17T15:24:10Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T15:24:10.952Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T15:24:10.952Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

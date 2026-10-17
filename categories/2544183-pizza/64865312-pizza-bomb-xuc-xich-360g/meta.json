@@ -19,10 +19,17 @@
   },
   "status": "READY",
   "image": {
-    "decision": "KEEP",
-    "reason": "I1–I9 đạt: packshot khay Pizza Bomb đúng vị, nền trắng, 1:1",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "REPLACE",
+    "reason": "I3/I6: ảnh khay mờ viền; không có ảnh hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: đã làm mờ tên công ty cạnh logo, khối chữ thành phần/địa chỉ và số mã vạch vì Gemini viết sai; nhãn sao ghi 'KLT: 360 g' (hàng thật 'KLT: 360GR')",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (khay tự chụp của cửa hàng)"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "REWRITE",
@@ -43,6 +50,26 @@
       "by": "ai",
       "status": "READY",
       "note": "image KEEP, description REWRITE (front-of-pack facts)"
+    },
+    {
+      "at": "2026-10-17T15:28:27Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 4, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T15:28:27.406Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T15:28:27.406Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

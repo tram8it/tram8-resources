@@ -19,10 +19,17 @@
   },
   "status": "READY",
   "image": {
-    "decision": "KEEP",
-    "reason": "Đạt I1–I9: packshot nền trắng, 1:1, căn giữa",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "REPLACE",
+    "reason": "I3/I6: ảnh tự chụp hộp + chai; không có ảnh hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: đã làm mờ bảng công thức, công dụng, SĐK/số lô/NSX và con dấu trên nắp hộp vì Gemini bịa số; chữ Hán vẽ lại gần giống",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (hộp + chai tự chụp của cửa hàng)"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "REWRITE",
@@ -43,6 +50,26 @@
       "by": "ai",
       "status": "READY",
       "note": "image KEEP, description REWRITE from box text only"
+    },
+    {
+      "at": "2026-10-17T15:28:36Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T15:28:36.240Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T15:28:36.240Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

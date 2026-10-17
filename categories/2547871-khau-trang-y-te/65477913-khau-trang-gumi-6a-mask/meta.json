@@ -19,10 +19,17 @@
   },
   "status": "READY",
   "image": {
-    "decision": "KEEP",
-    "reason": "Đạt I1–I9: packshot túi nền trắng 1:1; mã vạch 8938557355095 trên gumi.vn là 'Khẩu trang 6D 3 lớp' khớp ảnh 6D Pro Mask (tên KiotViet ghi nhầm 6A)",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "REPLACE",
+    "reason": "I3/I6: ảnh chụp túi zip nhăn, bóng; trang gumi.vn chỉ có banner → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: vẽ theo túi '6D PRO MASK' 10 chiếc 3 lớp đang bán (ảnh KiotViet, v20); tên KiotViet ghi '6A mask'; chữ nhỏ vẽ lại gần giống",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (túi của cửa hàng)"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "REWRITE",
@@ -46,6 +53,26 @@
       "by": "ai",
       "status": "READY",
       "note": "image KEEP (barcode = 6D mask on gumi.vn), description REWRITE; KiotViet name says 6A"
+    },
+    {
+      "at": "2026-10-17T15:28:24Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T15:28:25.031Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T15:28:25.031Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }
