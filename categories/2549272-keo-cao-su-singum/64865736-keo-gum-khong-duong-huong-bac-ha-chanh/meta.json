@@ -17,12 +17,20 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I4/I8: ảnh chụp nhiều hũ trên bàn; không tìm được trang chính hãng/kênh chính chủ của Lotte Việt Nam có ảnh SP (lottewellfood.com là Lotte Hàn Quốc, bao bì khác) → cần chụp",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I3/I4/I8: ảnh chụp nắp nhiều hũ trên bàn; trang hãng chỉ có ảnh nhỏ 242×300 → Gemini vẽ lại theo ảnh hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Theo hũ Lime Mint trên trang hãng (hũ nhỏ 55,1 g; tên SP không ghi khối lượng, ảnh cửa hàng chỉ thấy nắp). Mặt trước không in khối lượng.",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh sản phẩm trên trang chính thức Lotte Xylitol Việt Nam lottexylitol.com.vn (làm mẫu) + ảnh KiotViet nhân viên chụp",
+      "referenceUrl": "https://lottexylitol.com.vn/product/"
+    },
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +51,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "review b08: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T04:58:34Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T04:59:06.437Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T04:59:06.437Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

@@ -17,12 +17,21 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I4/I8: ảnh chụp nhiều hũ cầm tay; không tìm được trang chính hãng/kênh chính chủ của Lotte Việt Nam có ảnh SP (lottewellfood.com là Lotte Hàn Quốc, bao bì khác) → cần chụp",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I3/I4/I8: ảnh chụp nhiều hũ trong màng co, tay cầm → Gemini vẽ lại hũ gia đình 130,5 g theo ảnh hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Dáng hũ gia đình lấy theo ảnh hãng rất nhỏ (73×108), tỉ lệ có thể hơi khác hũ thật; nhãn theo hũ 55,1 g cùng thiết kế. Không có màng co. Mặt trước không in khối lượng.",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh sản phẩm trên trang chính thức Lotte Xylitol Việt Nam lottexylitol.com.vn (làm mẫu) + ảnh KiotViet nhân viên chụp",
+      "referenceUrl": "https://lottexylitol.com.vn/product/"
+    },
+    "rubricVersion": "v17",
+    "sizeTag": "130,5g"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +52,38 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "review b08: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T04:58:35Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T04:59:16.069Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T05:00:01Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "size tag 130,5g (v16): the 55,1 g and 130,5 g drink-mint jars look the same from the front"
+    },
+    {
+      "at": "2026-10-17T05:00:33.151Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T05:00:33.151Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

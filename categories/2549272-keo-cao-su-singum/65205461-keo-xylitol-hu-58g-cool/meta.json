@@ -17,12 +17,12 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "ASK_OWNER",
   "image": {
-    "decision": "REPLACE",
-    "reason": "I3/I4: ảnh chụp tay cầm; không tìm được trang chính hãng/kênh chính chủ của Lotte Việt Nam có ảnh SP (lottewellfood.com là Lotte Hàn Quốc, bao bì khác) → cần chụp",
+    "decision": "ASK_OWNER",
+    "reason": "Chưa vẽ: tên ghi 58g + ảnh mẫu cũ 'Cool', hãng nay chỉ có 'Super Cool' 55,1 g → hỏi chủ",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -30,7 +30,7 @@
     "source": null,
     "rubricVersion": "v4"
   },
-  "question": null,
+  "question": "Mã vạch 8934677020219 'Kẹo Xylitol hũ 58g cool': ảnh KiotViet là hũ 'Cool' mẫu cũ. Trang hãng lottexylitol.com.vn và Pharmacity cho thấy mẫu mới là 'Super Cool' (nền xanh băng đá, nhãn vàng '15 phút'), hũ 55,1 g. Cửa hàng đang bán hũ nào? (a) Super Cool 55,1 g mẫu mới → sửa tên và vẽ ảnh theo mẫu mới; (b) vẫn là Cool 58 g mẫu cũ → giữ tên, cần ảnh mẫu cũ rõ hơn.",
   "history": [
     {
       "at": "2026-10-13T13:18:41.836Z",
@@ -43,6 +43,12 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "review b08: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T12:00:00.000Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "Chưa vẽ: tên ghi 58g + ảnh mẫu cũ 'Cool', hãng nay chỉ có 'Super Cool' 55,1 g → hỏi chủ"
     }
   ]
 }

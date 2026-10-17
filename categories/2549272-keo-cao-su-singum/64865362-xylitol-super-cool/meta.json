@@ -17,12 +17,20 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I4/I5: ảnh chụp điện thoại, bị cắt; không tìm được trang chính hãng/kênh chính chủ của Lotte Việt Nam có ảnh SP (lottewellfood.com là Lotte Hàn Quốc, bao bì khác) → cần chụp",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I3/I4/I5: ảnh chụp điện thoại cận, bị cắt, lóa; trang hãng chỉ có ảnh nhỏ 125×170 → Gemini vẽ lại theo mẫu bao bì trên trang hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Theo bao bì trên trang hãng. Nhãn vàng 'Hương thơm the mát kéo dài 15 phút' chép theo hũ Super Cool (ảnh Pharmacity) và gói ở cửa hàng. Giữ dải đỏ 'KHUYẾN MÃI ĐẶC BIỆT TẶNG 10 GÓI' (in sẵn trên mẫu của hãng). Chữ nhỏ đầu dải đỏ để mờ. Kẹo trong cửa sổ là hình vẽ.",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh sản phẩm trên trang chính thức Lotte Xylitol Việt Nam lottexylitol.com.vn (ảnh nhỏ, làm mẫu) + ảnh KiotViet nhân viên chụp",
+      "referenceUrl": "https://lottexylitol.com.vn/product/"
+    },
+    "rubricVersion": "v17"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +51,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "review b08: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T04:58:21Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 3, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T04:59:03.543Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T04:59:03.543Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

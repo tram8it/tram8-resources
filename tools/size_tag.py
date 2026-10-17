@@ -17,7 +17,10 @@ sys.path.insert(0, __import__("os").path.dirname(__file__))
 from make_image import SIDE, content_box, flatten  # noqa: E402
 
 FILL = 0.80
-FONT = "/System/Library/Fonts/Supplemental/Arial Bold.ttf"
+# Arial Bold on macOS; metric-compatible Liberation Sans Bold on Linux (cloud sessions)
+FONT = next((f for f in ("/System/Library/Fonts/Supplemental/Arial Bold.ttf",
+                         "/usr/share/fonts/truetype/liberation/LiberationSans-Bold.ttf")
+             if __import__("os").path.exists(f)), None)
 TAG_H = 64
 MARGIN = 24
 BG = (31, 41, 55)       # dark slate, readable on white, neutral to any brand

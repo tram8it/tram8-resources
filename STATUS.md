@@ -2,7 +2,7 @@
 
 > Sinh tự động bởi `node tools/status.mjs`. **Không sửa tay.** Nguồn sự thật là `meta.json` của từng SP.
 
-Tổng 2448 SP · đã xem 2428 (99%) · xong 853 · chờ chủ duyệt 571 · cần chụp 786 · hỏi chủ 214
+Tổng 2448 SP · đã xem 2428 (99%) · xong 853 · chờ chủ duyệt 598 · cần chụp 746 · hỏi chủ 227
 
 Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` = giữ nguyên + đã lên web.
 
@@ -15,9 +15,9 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 | 5 | Snack đậu phộng / hạt‑đậu | 0.0tr | 47 | 0 | 0 | 0 | 10 | 10 | 4 | 0 | 23 |
 | 6 | Kẹo dẻo / jelly | 0.0tr | 44 | 0 | 0 | 0 | 15 | 6 | 22 | 0 | 1 |
 | 7 | Viên ngậm thảo mộc / bạc hà | 0.0tr | 44 | 0 | 0 | 0 | 3 | 4 | 34 | 0 | 3 |
-| 8 | Snack que / que cay | 0.0tr | 43 | 0 | 0 | 0 | 26 | 10 | 0 | 0 | 7 |
+| 8 | Snack que / que cay | 0.0tr | 43 | 0 | 0 | 0 | 9 | 18 | 9 | 0 | 7 |
 | 9 | Mì ly / tô / cốc | 0.0tr | 41 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 41 |
-| 10 | Kẹo cao su / singum | 0.0tr | 41 | 0 | 0 | 0 | 24 | 5 | 12 | 0 | 0 |
+| 10 | Kẹo cao su / singum | 0.0tr | 41 | 0 | 0 | 0 | 1 | 10 | 30 | 0 | 0 |
 | 11 | Trà đóng chai | 0.0tr | 40 | 0 | 0 | 0 | 17 | 5 | 7 | 0 | 11 |
 | 12 | Bánh tráng trộn | 0.0tr | 37 | 0 | 0 | 0 | 13 | 2 | 0 | 0 | 22 |
 | 13 | Nước trái cây / ép | 0.0tr | 34 | 0 | 0 | 0 | 8 | 3 | 15 | 0 | 8 |
