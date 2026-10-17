@@ -17,18 +17,25 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh — không có trang chính hãng/kênh chính chủ dùng được cho thương hiệu này (đã tìm web) → cần nhân viên chụp",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I1: chưa có ảnh; chủ 17/10: làm như lốc 3 gói → SP X2 = 2 gói chân gà có xương + 1 gói sốt, Gemini dựng ảnh 2 gói xoè + gói sốt → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Không vẽ túi ngoài; số gói sốt theo mẫu lốc 3 gói, chưa có ảnh lốc X2 thật",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh gói có xương + gói sốt đã duyệt cùng dòng; ảnh lốc 3 gói chủ gửi làm mẫu bố cục"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
-    "decision": "WRITE_NEW",
-    "reason": "D1: chưa có mô tả; mô tả ngắn chỉ từ tên hàng (không có trang hãng); không rõ 'X2' nghĩa là gì nên không ghi số lượng",
+    "decision": "REWRITE",
+    "reason": "Chủ 17/10: X2 làm như lốc 3 gói kèm sốt",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v20"
   },
   "question": null,
   "history": [
@@ -49,6 +56,32 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "re-checked 17/10: no photo of the X2 pack, no brand site → still NEEDS_PHOTO"
+    },
+    {
+      "at": "2026-10-17T17:14:39Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T17:14:39+00:00",
+      "by": "owner",
+      "status": "READY",
+      "note": "Chủ: chân gà có xương X2 làm tương tự lốc 3 gói + sốt"
+    },
+    {
+      "at": "2026-10-17T17:14:39.758Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-17T17:14:39.758Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }
