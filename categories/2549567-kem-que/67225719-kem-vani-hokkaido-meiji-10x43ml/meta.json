@@ -17,18 +17,17 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "IN_PROGRESS",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I4: ảnh chụp hộp 10 que nền lộn xộn; SP bán 1 que 43 ml, không có ảnh vỏ que lẻ → Gemini vẽ 1 que kem bóc vỏ theo hình trên hộp (ảnh minh hoạ) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: ảnh minh hoạ que kem không vỏ; khách nhận que kem trong vỏ gói riêng (chưa có ảnh vỏ)",
+    "reason": "Làm lại sau khi chủ từ chối trên Hub: Kem Meiji Hokkaido: cả hộp 10 que theo góp ý của chủ → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Chữ nhỏ mặt bên chỉ minh hoạ",
     "source": {
       "aiGenerated": true,
       "tool": "Gemini API",
-      "model": "gemini-nano-banana-2.1",
-      "generatedAt": "2026-10-17",
+      "model": "gemini-3.1-flash-image",
+      "generatedAt": "2026-10-18",
       "style": "flat clean packaging render (v17)",
-      "reference": "ảnh hộp 30 que trên Costco Đài Loan + ảnh KiotViet hộp 10 que (chỉ làm mẫu)",
-      "referenceUrl": "https://www.costco.com.tw/Warehouse-Only/Food-Beverages/Frozen-Food/Meiji-Milk-Ice-Bars-43-ml-X-30-Count/p/64155"
+      "reference": "ảnh KiotViet + ảnh hãng (chỉ làm mẫu)"
     },
     "rubricVersion": "v18"
   },
@@ -78,10 +77,28 @@
       "by": "owner",
       "status": "IN_PROGRESS",
       "note": "rejected on Hub by AU KHUONG DUY: Cần cả hộp"
+    },
+    {
+      "at": "2026-10-18T01:30:10Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-3.1-flash-image), checked by eye against references"
+    },
+    {
+      "at": "2026-10-18T01:30:10+00:00",
+      "by": "ai",
+      "status": "READY",
+      "note": "redo after Hub rejection: Kem Meiji Hokkaido: cả hộp 10 que theo góp ý của chủ"
+    },
+    {
+      "at": "2026-10-18T01:30:10.641Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-17T09:11:11.989Z",
+    "at": "2026-10-18T01:30:10.641Z",
     "fields": [
       "description",
       "image"
