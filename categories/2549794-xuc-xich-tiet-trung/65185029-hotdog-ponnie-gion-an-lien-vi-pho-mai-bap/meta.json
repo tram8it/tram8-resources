@@ -17,18 +17,17 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "IN_PROGRESS",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "Chủ: gói hơi to, bên trong chỉ có 1 cây xúc xích mini → vẽ gói dẹt dài + 1 cây xúc xích mini cạnh gói → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: giữ thiết kế 'XÚC XÍCH GIÒN' như ảnh KiotViet; cây xúc xích mini đặt cạnh gói (minh hoạ ruột); dòng khối lượng làm mờ vì chưa kiểm được số",
+    "reason": "chủ 18/10: ảnh phải đúng bao bì thật; vẽ lại gói thật từ ảnh KiotViet, bỏ ảnh minh hoạ món ăn → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: vẽ lại phẳng, sạch; chữ nhỏ không đọc được để mờ; độ nhăn màng khác ảnh thật",
     "source": {
       "aiGenerated": true,
       "tool": "Gemini API",
       "model": "gemini-nano-banana-2.1",
       "generatedAt": "2026-10-18",
       "style": "flat clean packaging render (v17)",
-      "reference": "ảnh KiotViet (chỉ làm mẫu) + gói Ponnie cùng dòng trên Kingfoodmart",
-      "postprocess": "blurred unverified net-weight line on right edge"
+      "reference": "ảnh KiotViet của SP (hàng thật tại quầy)"
     },
     "rubricVersion": "v18"
   },
@@ -93,10 +92,22 @@
       "by": "owner",
       "status": "IN_PROGRESS",
       "note": "rejected on Hub by AU KHUONG DUY: Ko giống thật, cái xúc xích này là hút chân không, có 4 cái mini ở trong"
+    },
+    {
+      "at": "2026-10-18T17:28:43Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "redo after Hub rejection: Ko giống thật, cái xúc xích này là hút chân không, có 4 cái mini ở trong — Gemini API redraw (attempt 6, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-18T17:28:43.171Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-18T11:35:27.197Z",
+    "at": "2026-10-18T17:28:43.171Z",
     "fields": [
       "description",
       "image"

@@ -17,19 +17,12 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "IN_PROGRESS",
+  "status": "NEEDS_PHOTO",
   "image": {
     "decision": "REPLACE",
-    "reason": "Chủ: cần bao bì → vẽ túi lớn 150 g (15 gói x 10 g) như ảnh KiotViet → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: ảnh KiotViet bị cắt mép nên mép túi vẽ suy ra; đơn vị bán là thanh 10 g, chưa có ảnh gói 10 g riêng",
-    "source": {
-      "aiGenerated": true,
-      "tool": "Gemini API",
-      "model": "gemini-nano-banana-2.1",
-      "generatedAt": "2026-10-18",
-      "style": "flat clean packaging render (v17)",
-      "reference": "ảnh KiotViet túi 150 g (chỉ làm mẫu)"
-    },
-    "rubricVersion": "v18"
+    "reason": "chủ 18/10: kiểm tra ảnh thật trên web trước khi vẽ — web không có (đã tìm tên, mã vạch, iCheck, Kingfoodmart); cần nhân viên chụp cả gói mặt trước",
+    "source": null,
+    "rubricVersion": "v23"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -92,6 +85,12 @@
       "by": "owner",
       "status": "IN_PROGRESS",
       "note": "rejected on Hub by AU KHUONG DUY: Kiểm tra ảnh sp thật trên web trước khi gen lại"
+    },
+    {
+      "at": "2026-10-18T17:28:53.736Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "chủ 18/10: kiểm tra ảnh thật trên web trước khi vẽ — web không có (đã tìm tên, mã vạch, iCheck, Kingfoodmart); cần nhân viên chụp cả gói mặt trước"
     }
   ],
   "submitted": {
