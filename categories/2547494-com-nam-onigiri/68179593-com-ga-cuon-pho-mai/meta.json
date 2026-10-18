@@ -20,7 +20,7 @@
   "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "chủ 18/10: ảnh phải đúng bao bì thật; vẽ lại gói thật từ ảnh KiotViet, bỏ ảnh minh hoạ món ăn → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: vẽ lại phẳng, sạch; chữ nhỏ không đọc được để mờ; độ nhăn màng khác ảnh thật",
+    "reason": "chủ 18/10: khay mì Ý hình chữ nhật; cơm cuộn tái tạo đúng ảnh chụp, giữ góc chéo → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: vẽ lại sạch trên nền trắng; chữ nhỏ để mờ",
     "source": {
       "aiGenerated": true,
       "tool": "Gemini API",
@@ -92,10 +92,28 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-18T17:44:24.092Z",
+      "by": "owner",
+      "status": "IN_PROGRESS",
+      "note": "rejected on Hub by AU KHUONG DUY: Hãy tái tạo chéo ảnh, giữ nguyên chiều của hình ảnh sp. đừng biến tấu gì"
+    },
+    {
+      "at": "2026-10-18T17:45:35Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "redo after Hub rejection: Hãy tái tạo chéo ảnh, giữ nguyên chiều của hình ảnh sp. đừng biến tấu gì — Gemini API redraw (attempt 3, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-18T17:45:35.732Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-18T17:28:00.359Z",
+    "at": "2026-10-18T17:45:35.732Z",
     "fields": [
       "description",
       "image"
@@ -105,7 +123,7 @@
   "review": {
     "status": "REJECTED",
     "reviewedBy": "AU KHUONG DUY",
-    "reviewedAt": "2026-10-18T17:01:35.575Z",
-    "note": "Xem lại các sp bị từ chối khác để biết lý do từ chối cơm nắm"
+    "reviewedAt": "2026-10-18T17:29:41.548Z",
+    "note": "Hãy tái tạo chéo ảnh, giữ nguyên chiều của hình ảnh sp. đừng biến tấu gì"
   }
 }
