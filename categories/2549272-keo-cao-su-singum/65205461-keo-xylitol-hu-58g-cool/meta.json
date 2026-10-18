@@ -17,27 +17,27 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "Chủ: đợi chụp thật, xác nhận lại",
+    "reason": "Chủ từ chối bản Super Cool (17/10); ảnh KiotViet và Kingfoodmart đúng mã vạch cho thấy hũ hàng trên kệ là bản Cool → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ nhỏ trên nắp và cờ đỏ góc trái vẽ mờ; còn lại khớp mẫu",
     "source": {
       "aiGenerated": true,
       "tool": "Gemini API",
       "model": "gemini-nano-banana-2.1",
-      "generatedAt": "2026-10-17",
+      "generatedAt": "2026-10-18",
       "style": "flat clean packaging render (v17)",
-      "reference": "ảnh Pharmacity hũ Xylitol Super Cool 55,1 g (chỉ làm mẫu) + ảnh nhỏ trên trang hãng lottexylitol.com.vn",
-      "referenceUrl": "https://www.pharmacity.vn/xylitol-gum-cool-58g-h40-vien.html"
+      "reference": "ảnh Kingfoodmart hũ Xylitol Cool đúng mã vạch + ảnh KiotViet (chỉ làm mẫu)",
+      "referenceUrl": "https://storage.googleapis.com/onelife-public/8934677020219.jpg"
     },
     "rubricVersion": "v18"
   },
   "description": {
     "decision": "REWRITE",
-    "reason": "Mô tả cũ ghi hương Cool 58 g; bao bì mới nhất (Pharmacity, Open Food Facts cùng mã vạch ghi 58G/55.1G) là Super Cool hũ 55,1 g → sửa theo bao bì (RUBRIC v19)",
+    "reason": "Sửa về hương Cool theo ảnh KiotViet + Kingfoodmart đúng mã vạch (hũ trên kệ là bản Cool, không phải Super Cool)",
     "source": {
-      "url": "https://www.pharmacity.vn/xylitol-gum-cool-58g-h40-vien.html",
-      "fetchedAt": "2026-10-17T09:30:00Z"
+      "url": "https://storage.googleapis.com/onelife-public/8934677020219.jpg",
+      "fetchedAt": "2026-10-18T17:55:24.376Z"
     },
     "rubricVersion": "v19"
   },
@@ -96,10 +96,28 @@
       "by": "owner",
       "status": "NEEDS_PHOTO",
       "note": "Hub: Đợi chụp thật, xác nhận lại đã"
+    },
+    {
+      "at": "2026-10-18T17:55:24Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-18T17:55:24.376Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "np18 re-research: description REWRITE"
+    },
+    {
+      "at": "2026-10-18T17:55:24.503Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-17T09:05:14.437Z",
+    "at": "2026-10-18T17:55:24.503Z",
     "fields": [
       "description",
       "image"

@@ -17,18 +17,29 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh; Watsons MY có bán \"Hello Panda Milk 40g\" (khớp tên 40g) nhưng trang chặn bot, meiji.com.sg chặn bot, Open Food Facts không có mã 8888077108346 → không có ảnh mẫu hộp vị sữa 40 g để vẽ; cần nhân viên chụp mặt trước hộp",
-    "source": null,
-    "rubricVersion": "v19"
+    "reason": "I1: chưa có ảnh; meiji.com.sg chặn bot, chỉ có ảnh hộp lớn 234 g → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: mã số nhỏ dưới logo halal có thể sai; ảnh mẫu là mã vạch 8888077108032 (cùng hộp sữa 40 g)",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-18",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh hộp trên hachihachi.com.vn (chỉ làm mẫu) + ảnh vị sô-cô-la cùng dòng đã duyệt",
+      "referenceUrl": "https://hachihachi.com.vn/banh/banh-hello-panda-sua-meiji-43g"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
-    "decision": "WRITE_NEW",
-    "reason": "D1: chưa có mô tả; viết ngắn từ dữ kiện chắc chắn (tên hàng, thương hiệu, vị); khối lượng 40 g theo tên KiotViet — meiji.com.sg chỉ liệt kê 47 g/234 g, nhân viên chụp ảnh nên kiểm lại số in trên hộp",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "REWRITE",
+    "reason": "D2: viết từ chữ in trên hộp (Biscuits with Milk Flavoured Filling, 40g) và thành phần ở trang bán lẻ",
+    "source": {
+      "url": "https://hachihachi.com.vn/banh/banh-hello-panda-sua-meiji-43g",
+      "fetchedAt": "2026-10-18T18:22:34Z"
+    },
+    "rubricVersion": "v23"
   },
   "question": null,
   "history": [
@@ -61,6 +72,32 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "v19: khối lượng 40 g có vẻ đúng (Watsons MY bán bản 40 g) → hết câu hỏi; chưa có ảnh mẫu → NEEDS_PHOTO"
+    },
+    {
+      "at": "2026-10-18T18:22:34Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-18T18:22:34Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "description written (REWRITE) on 18/10 re-research"
+    },
+    {
+      "at": "2026-10-18T18:22:43.174Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-18T18:22:43.174Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

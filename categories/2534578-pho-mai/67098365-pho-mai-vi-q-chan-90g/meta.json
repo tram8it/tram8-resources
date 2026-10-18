@@ -17,18 +17,29 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "Mã 4903308010107 (QBB/Rokko) không tra được vị; ảnh KiotViet là ảnh ghép 8 vị Cheese Dessert → cần chụp nắp hộp đang bán",
-    "source": null,
-    "rubricVersion": "v19"
+    "reason": "Ảnh KiotViet là ảnh ghép 8 vị Cheese Dessert (không phải Q-chan) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ nhỏ tiếng Nhật vẽ lại có thể lệch nét",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-18",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh nắp hộp trên ktfood.vn (chỉ làm mẫu)",
+      "referenceUrl": "https://ktfood.vn/qbb-pho-mai-q-chan-90g"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
-    "decision": "ASK_OWNER",
-    "reason": "Chưa có mô tả; chưa biết vị cụ thể nên chưa viết",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "WRITE_NEW",
+    "reason": "D1: viết từ chữ in trên nắp hộp (Q-chan Cheese, Net Weight 90g, 6 Portions, Keep Refrigerated, kem phô mai, có canxi)",
+    "source": {
+      "url": "https://ktfood.vn/qbb-pho-mai-q-chan-90g",
+      "fetchedAt": "2026-10-18T18:17:14Z"
+    },
+    "rubricVersion": "v23"
   },
   "question": null,
   "history": [
@@ -49,6 +60,32 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "flavour cannot be identified from barcode or photo; staff photo of the lid needed"
+    },
+    {
+      "at": "2026-10-18T18:16:52Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-18T18:17:14Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "description written (WRITE_NEW) on 18/10 re-research"
+    },
+    {
+      "at": "2026-10-18T18:17:14.777Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-18T18:17:14.777Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

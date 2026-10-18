@@ -1,4 +1,4 @@
-Bắp rang bơ Thái Sơn Pop Corn mix nhiều vị, đựng ống nhựa trong, món ăn vặt giòn thơm.
+Bắp rang bơ Thái Sơn Pop Corn Mix — bắp rang trộn nhiều vị (socola, hoa quả, phô mai) trong một ống nhựa trong.
 
-Quy cách: cốc
+Quy cách: 90 g · ống
 Nhà sản xuất/thương hiệu: Thái Sơn

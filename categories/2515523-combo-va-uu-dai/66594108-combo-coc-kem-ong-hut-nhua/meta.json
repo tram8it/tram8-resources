@@ -17,18 +17,25 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "Combo tự đóng của cửa hàng, ảnh chỉ có chồng cốc nền xám, không thấy ống hút → cần chụp combo (cốc + ống hút) trên nền trắng",
-    "source": null,
-    "rubricVersion": "v19"
+    "reason": "ảnh KiotViet chỉ có chồng cốc nền xám, không thấy ống hút → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: vẽ 1 cốc kèm 1 ống hút nhựa trong trơn (ống hút minh hoạ, không có trên ảnh gốc)",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-18",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (chồng cốc nhựa trong)"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
-    "decision": "ASK_OWNER",
-    "reason": "Chưa rõ thành phần combo, không tự đoán",
+    "decision": "WRITE_NEW",
+    "reason": "D1: mô tả ngắn từ tên SP và ảnh KiotViet (cốc nhựa trong dùng một lần)",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v23"
   },
   "question": null,
   "history": [
@@ -49,6 +56,32 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "shop-made combo, no reference of its contents; staff photo needed"
+    },
+    {
+      "at": "2026-10-18T18:07:04Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-18T18:07:05Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "description written (WRITE_NEW) on 18/10 re-research"
+    },
+    {
+      "at": "2026-10-18T18:08:11.283Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-18T18:08:11.283Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

@@ -17,18 +17,29 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh — không có trang chính hãng/kênh chính chủ dùng được cho thương hiệu này (đã tìm web) → cần nhân viên chụp",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I1: chưa có ảnh/ảnh KiotViet không đạt; không có ảnh hãng/NPP → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt đáng kể; 90 g, vị 香辣味 theo mẫu",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-18",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh Open Food Facts đúng mã vạch (chỉ làm mẫu)",
+      "referenceUrl": "https://world.openfoodfacts.org/product/6925678109319"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
-    "decision": "WRITE_NEW",
-    "reason": "D1: chưa có mô tả; mô tả ngắn chỉ từ tên hàng (không có trang hãng); tên không ghi vị nên không nêu vị",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "REWRITE",
+    "reason": "Theo bao bì (Open Food Facts đúng mã vạch): Jinmofang 金箍棒, vị cay thơm, 90 g",
+    "source": {
+      "url": "https://world.openfoodfacts.org/product/6925678109319",
+      "fetchedAt": "2026-10-18T17:58:28.670Z"
+    },
+    "rubricVersion": "v19"
   },
   "question": null,
   "history": [
@@ -49,6 +60,32 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "re-checked 17/10: no photo, flavour unknown, barcode search empty → still NEEDS_PHOTO"
+    },
+    {
+      "at": "2026-10-18T17:58:28Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-18T17:58:28.670Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "np18 re-research: description REWRITE"
+    },
+    {
+      "at": "2026-10-18T17:58:34.627Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-18T17:58:34.627Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

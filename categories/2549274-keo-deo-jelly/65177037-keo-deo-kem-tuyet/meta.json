@@ -20,7 +20,7 @@
   "status": "NEEDS_PHOTO",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: KiotViet chưa có ảnh; mã 8934609109500 không có trên Kingfoodmart/iCheck/Open Food Facts/bibica.com.vn; Bibica có 25 g và 54 g → cần ảnh gói trên kệ",
+    "reason": "I1: chưa có ảnh; tra lại 18/10 (mã vạch, trang hãng bibica.com.vn các dòng Zoo — không có \"Kem Tuyết\" dạng gói, chỉ có ly Lắc Trái Cây Tuyết và gói Fruity Soda kem trái cây, \"Bibica Zoo kem tuyết\") → cần chụp mặt trước gói",
     "source": null,
     "rubricVersion": "v20"
   },
@@ -55,6 +55,12 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "resolved by rule v20: no KiotViet photo and no barcode hit (Kingfoodmart/iCheck/OFF) → NEEDS_PHOTO, photo the shelf pack"
+    },
+    {
+      "at": "2026-10-18T18:22:32.360Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "np18 re-research 18/10: still no image of this exact pack"
     }
   ]
 }

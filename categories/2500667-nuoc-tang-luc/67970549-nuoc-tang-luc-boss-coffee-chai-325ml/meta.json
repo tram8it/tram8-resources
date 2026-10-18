@@ -17,18 +17,29 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh; mã vạch 8934588633935 (Suntory PepsiCo VN) không tra được ở đâu, trang hãng chỉ có Boss lon 180 ml → cần chụp mặt trước chai (kèm nhãn sau để viết mô tả)",
-    "source": null,
-    "rubricVersion": "v20"
+    "reason": "I1: chưa có ảnh; trang hãng suntorypepsico.vn chỉ có Boss lon 180 ml → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ nhỏ (thành phần, dòng pháp lý) không đọc được trên ảnh vẽ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-18",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh nhà bán lẻ azmart.vn + ảnh chiến dịch BOSS (chỉ làm mẫu)",
+      "referenceUrl": "https://azmart.vn/nuoc-tang-luc-ca-phe-boss-chai-300-350-ml"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
-    "reason": "D1: chưa có mô tả; chờ ảnh mặt trước + mặt sau để viết",
-    "source": null,
-    "rubricVersion": "v20"
+    "reason": "D1: chưa có mô tả; viết từ chữ in trên chai và trang giới thiệu SP (Suntory PepsiCo VN, thành phần đọc ở trang bán lẻ)",
+    "source": {
+      "url": "https://www.minimeinsights.com/2026/06/20/boss-coffee-expands-into-energy-drink-in-vietnam/",
+      "fetchedAt": "2026-10-18T17:55:02Z"
+    },
+    "rubricVersion": "v23"
   },
   "question": null,
   "history": [
@@ -49,6 +60,32 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "re-triage: barcode not found anywhere, no reference → NEEDS_PHOTO (front + back), not a question"
+    },
+    {
+      "at": "2026-10-18T17:54:47Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-18T17:55:02Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "description written (WRITE_NEW) on 18/10 re-research"
+    },
+    {
+      "at": "2026-10-18T17:55:05.678Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-18T17:55:05.678Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

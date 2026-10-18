@@ -20,9 +20,9 @@
   "status": "NEEDS_PHOTO",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh trên KiotViet; tra mã vạch trên Kingfoodmart, Open Food Facts và web (17/10/2026) không ra ảnh bao bì nào → không có mẫu để Gemini vẽ, cần nhân viên chụp mặt trước 1 gói",
+    "reason": "I1: chưa có ảnh; tra lại 18/10 (mã vạch Kingfoodmart/OFF, \"măng tre bóc vỏ thủ công vị ớt ngâm\", \"手剥笋 泡椒\") — không có ảnh đúng mã → cần chụp",
     "source": null,
-    "rubricVersion": "v17"
+    "rubricVersion": "v20"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -49,6 +49,12 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "I1: chưa có ảnh trên KiotViet; tra mã vạch trên Kingfoodmart, Open Food Facts và web (17/10/2026) không ra ảnh bao bì nào → không có mẫu để Gemini vẽ, cần nhân viên chụp mặt trước 1 gói"
+    },
+    {
+      "at": "2026-10-18T18:22:33.792Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "np18 re-research 18/10: still no image of this exact pack"
     }
   ]
 }

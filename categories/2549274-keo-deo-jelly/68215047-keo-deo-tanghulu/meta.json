@@ -17,18 +17,29 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "Ảnh KiotViet chỉ là ảnh cận cắt mất phần trên/dưới gói Playmore Tanghulu (nho + dâu); không tìm được ảnh hãng/NPP/nhà bán lẻ nào cho thấy cả gói và khối lượng → chưa vẽ được, cần nhân viên chụp cả mặt trước gói (thấy khối lượng)",
-    "source": null,
-    "rubricVersion": "v17"
+    "reason": "I1: chưa có ảnh/ảnh KiotViet không đạt; không có ảnh hãng/NPP → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ Thái nhỏ ở đáy gói vẽ gần đúng, không đọc chắc được",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-18",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh Kingfoodmart đúng mã vạch + ảnh KiotViet (chỉ làm mẫu)",
+      "referenceUrl": "https://storage.googleapis.com/onelife-public/8859578607898.jpg"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
-    "reason": "D1: chưa có mô tả; không có trang hãng — mô tả ngắn chỉ từ tên SP và chữ in mặt trước bao bì (ảnh hiện tại)",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "Theo bao bì (ảnh Kingfoodmart đúng mã vạch): Playmore, hương nho và dâu tây, 44 g",
+    "source": {
+      "url": "https://storage.googleapis.com/onelife-public/8859578607898.jpg",
+      "fetchedAt": "2026-10-18T17:58:28.571Z"
+    },
+    "rubricVersion": "v19"
   },
   "question": null,
   "history": [
@@ -49,6 +60,32 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "Không có ảnh mẫu cả gói (chỉ ảnh cận bị cắt), không rõ khối lượng; giữ NEEDS_PHOTO"
+    },
+    {
+      "at": "2026-10-18T17:58:27Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-18T17:58:28.571Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "np18 re-research: description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-18T17:58:28.817Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-18T17:58:28.817Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

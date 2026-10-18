@@ -20,9 +20,9 @@
   "status": "NEEDS_PHOTO",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh; hàng địa phương, không tìm được trang hãng chính thức → cần nhân viên chụp",
+    "reason": "I1: chưa có ảnh; tra lại 18/10 (mã vạch Kingfoodmart/OFF/web, \"bắp rang bơ caramel size L cốc\", \"bắp rang bơ cốc size L vị phô mai BBQ mạch nha rainbow\") — hàng địa phương không có ảnh nào online → cần chụp cốc",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v20"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -49,6 +49,12 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "Đợt 3: tra Kingfoodmart, Open Food Facts và web theo mã vạch/tên — không có ảnh mẫu bao bì nào (chưa có ảnh KiotViet) → giữ NEEDS_PHOTO, cần nhân viên chụp"
+    },
+    {
+      "at": "2026-10-18T18:22:31.823Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "np18 re-research 18/10: still no image of this exact pack"
     }
   ]
 }

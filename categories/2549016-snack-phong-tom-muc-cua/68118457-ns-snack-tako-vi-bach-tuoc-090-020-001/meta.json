@@ -17,18 +17,26 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh; Nongshim Tako (bạch tuộc) không có trên brand.nongshim.com (catalogue Hàn Quốc), trên mạng chỉ thấy gói 60 g/xuất khẩu, không xác nhận được gói 90 g mã 8801043036238 → cần nhân viên chụp gói đang bán",
-    "source": null,
-    "rubricVersion": "v17"
+    "reason": "I1: chưa có ảnh; trang Nongshim USA chỉ có bản xuất khẩu Tako Chips 60 g, gói 90 g mã 880 là bản Hàn Quốc 자갈치 → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ lớn tiếng Hàn khớp (농심, 맛도 모양도 문어!, 자갈치, 문어맛, 중량 90 g); chữ nhỏ mờ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-18",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh nhà bán lẻ acemartmall.com / asiaonmart.com gói Jagalchi 90 g Hàn Quốc (chỉ làm mẫu)",
+      "referenceUrl": "https://acemartmall.com/cdn/shop/files/jagalchi-snacks-au-gout-de-poulpe-90g-nongshim_grande.jpg?v=1699533037"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
-    "reason": "D1: chưa có mô tả; mô tả ngắn chỉ từ tên SP (\"NS)\" = Nongshim, mã vạch 8801043 của Nongshim); tên không rõ khối lượng nên bỏ",
+    "reason": "D1: từ chữ in mặt trước bao bì (ảnh nhà bán lẻ gói 90 g) và tên SP",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v23"
   },
   "question": null,
   "history": [
@@ -49,6 +57,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "re-checked 2026-10-17: no reference image found (barcode search, OFF, brand site) -> still NEEDS_PHOTO"
+    },
+    {
+      "at": "2026-10-18T18:14:57Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-18T18:15:02.953Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-18T18:15:02.953Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

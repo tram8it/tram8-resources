@@ -17,18 +17,24 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh; vinamilk.com.vn không còn Probi hương cam; mã 8934673300711 là 'Probi Pedia+ hương cam' (LOTTE Mart chặn tải ảnh, trang BHX đã 404 — có thể ngừng bán) → cần nhân viên chụp chai thật",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I1: chưa có ảnh → ảnh hãng Vinamilk (trang vinamilk.com.vn/en/products/sua-chua-uong-men-song-huong-cam-probi, chai 65 ml)",
+    "source": {
+      "url": "https://d8um25gjecm9v.cloudfront.net/cms/PROBI_Cam_65_1_a5e969e6d2_69832b2002.png",
+      "fetchedAt": "2026-10-18T18:18:49Z"
+    },
+    "rubricVersion": "v23"
   },
   "description": {
-    "decision": "WRITE_NEW",
-    "reason": "D1: chưa có mô tả; viết ngắn chỉ từ tên SP (trang hãng không còn SP này)",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "REWRITE",
+    "reason": "D2: bổ sung thành phần theo trang hãng Vinamilk (Probi hương cam 65 ml, bổ sung lysine, kẽm, vitamin nhóm B)",
+    "source": {
+      "url": "https://www.vinamilk.com.vn/en/products/sua-chua-uong-men-song-huong-cam-probi?pack=65ml",
+      "fetchedAt": "2026-10-18T18:19:09Z"
+    },
+    "rubricVersion": "v23"
   },
   "question": null,
   "history": [
@@ -49,6 +55,32 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "Tìm ảnh mẫu cho Gemini (RUBRIC v12–v17) không có kết quả: vinamilk.com.vn không còn Probi hương cam; mã 8934673300711 là 'Probi Pedia+ hương cam' (LOTTE Mart chặn tải ảnh, trang BHX đã 404 — có thể ngừng bán) → cần nhân viên chụp chai thật"
+    },
+    {
+      "at": "2026-10-18T18:18:49Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "brand image found on 18/10 re-research, normalised with make_image.py, checked by eye"
+    },
+    {
+      "at": "2026-10-18T18:19:09Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "description written (REWRITE) on 18/10 re-research"
+    },
+    {
+      "at": "2026-10-18T18:19:09.594Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-18T18:19:09.594Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

@@ -17,16 +17,24 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh; không có ảnh hãng; tìm Pharmacity/Open Food Facts (mã 8934804054049) không thấy ảnh hộp MILO A2 180ml nào để làm mẫu cho Gemini → cần nhân viên chụp 1 hộp",
-    "source": null,
-    "rubricVersion": "v17"
+    "reason": "I1: chưa có ảnh; trang Nestlé MILO chặn truy cập → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt chữ lớn (MILO, Sữa mát A2, Ít đường, 180 ml, 109 kcal)",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-18",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh Kingfoodmart theo mã vạch (chỉ làm mẫu)",
+      "referenceUrl": "https://storage.googleapis.com/onelife-public/8934804054049.jpg"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
-    "reason": "D1: chưa có mô tả; mô tả ngắn chỉ từ dữ kiện chắc chắn (tên SP, chữ in mặt trước bao bì) vì không có trang hãng truy cập được",
+    "reason": "D1: từ chữ trên hộp (ảnh Kingfoodmart đúng mã vạch): Sữa mát A2, ít đường, sữa lúa mạch, 180 ml, 109 kcal/hộp",
     "source": null,
     "rubricVersion": "v4"
   },
@@ -49,6 +57,32 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "searched retailer/OFF references for a Gemini redraw; none usable for this exact pack"
+    },
+    {
+      "at": "2026-10-18T18:05:56Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-18T18:05:56Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "np18 re-research: description rewritten from pack/official facts"
+    },
+    {
+      "at": "2026-10-18T18:05:56.846Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-18T18:05:56.846Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

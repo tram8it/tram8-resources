@@ -17,12 +17,20 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh; hãng không có đậu Hà Lan vị taco Mexico 55g; không tìm thấy ảnh mẫu nào của gói này (đã rà shop.tonggarden.com.sg, OpenFoodFacts theo mã vạch, tìm web theo tên Anh/Thái/Việt) → không đủ dữ kiện để Gemini vẽ đúng bao bì; cần nhân viên chụp mặt trước gói (rõ tên vị và khối lượng) để làm mẫu",
-    "source": null,
-    "rubricVersion": "v17"
+    "reason": "I1: chưa có ảnh; trang hãng không có cỡ 55 g → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: mẫu là gói 30 g cùng thiết kế; khối lượng đổi thành 55 g theo tên KiotViet; bảng dinh dưỡng làm mờ; chữ lớn khớp (Tong Garden, Mexican Taco Flavour Green Peas)",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-18",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh nhà bán lẻ reddragon-msk.ru gói 30 g cùng thiết kế (chỉ làm mẫu)",
+      "referenceUrl": "https://reddragon-msk.ru/wa-data/public/shop/products/95/75/7595/images/20425/20425.750x0.jpg"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -49,6 +57,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "re-checked 2026-10-17: no reference image anywhere; still needs staff photo"
+    },
+    {
+      "at": "2026-10-18T18:10:33Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-18T18:10:45.678Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-18T18:10:45.678Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

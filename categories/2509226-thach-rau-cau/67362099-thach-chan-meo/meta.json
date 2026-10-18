@@ -20,9 +20,9 @@
   "status": "NEEDS_PHOTO",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh; 17/10: không rõ thương hiệu, tra mã vạch không ra ảnh mẫu → cần chụp",
+    "reason": "I1: chưa có ảnh; 18/10 tìm lại: mã 6973596770432 (web, Open Food Facts, iCheck, Kingfoodmart), 'thạch chân mèo lốc', cùng dãy mã với thạch thỏ — không ra SP, không rõ thương hiệu → cần chụp mặt trước lốc",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v23"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -49,6 +49,12 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "Gemini pass: no usable reference found; still needs photo"
+    },
+    {
+      "at": "2026-10-18T18:11:52Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "18/10 re-research (>=3 searches): still no image of this exact product → NEEDS_PHOTO"
     }
   ]
 }

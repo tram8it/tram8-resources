@@ -17,18 +17,29 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I4/I7: ảnh cũ nền xám, có logo cửa hàng khác (BigGreen), chụp mặt sau; dalatmilk.vn không truy cập được; không tìm được ảnh mặt trước hộp có đường (Kingfoodmart không có, Open Food Facts chỉ có ảnh thành phần/dinh dưỡng) nên không vẽ Gemini được → cần chụp mặt trước",
-    "source": null,
-    "rubricVersion": "v17"
+    "reason": "I4/I7: ảnh cũ nền xám, có logo cửa hàng khác, chụp mặt sau → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ nhỏ thành phần ở cạnh hũ không đọc được",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-18",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh hũ trên thshop.vn (chỉ làm mẫu)",
+      "referenceUrl": "https://www.thshop.vn/products/sua-chua-an-co-duong-dalatmilk-100-g-han"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
-    "decision": "WRITE_NEW",
-    "reason": "D1: chưa có mô tả; không có trang hãng → mô tả ngắn từ tên SP và chữ in trên bao bì trong ảnh",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "REWRITE",
+    "reason": "D2: viết theo nhãn hũ và thông tin nhà sản xuất (đọc ở thshop.vn và Open Food Facts cùng mã vạch)",
+    "source": {
+      "url": "https://www.thshop.vn/products/sua-chua-an-co-duong-dalatmilk-100-g-han",
+      "fetchedAt": "2026-10-18T18:22:34Z"
+    },
+    "rubricVersion": "v23"
   },
   "question": null,
   "history": [
@@ -49,6 +60,32 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "17/10: no front reference for the sweetened cup (KFM 404, OFF only ingredient/nutrition photos)"
+    },
+    {
+      "at": "2026-10-18T18:22:34Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-18T18:22:34Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "description written (REWRITE) on 18/10 re-research"
+    },
+    {
+      "at": "2026-10-18T18:22:37.989Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-18T18:22:37.989Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

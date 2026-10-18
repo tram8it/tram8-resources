@@ -20,9 +20,9 @@
   "status": "NEEDS_PHOTO",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh; hàng cơ sở địa phương (Phương Huyền), không có trang hãng, không tìm được ảnh bán lẻ/Open Food Facts nào của mã 8936202669283 để Gemini vẽ → cần nhân viên chụp mặt trước gói",
+    "reason": "I1: chưa có ảnh; tra lại 18/10 (mã vạch Kingfoodmart/OFF, \"Phương Huyền Food kẹo dừa cà phê muối 186g\", \"kẹo dừa cà phê muối Phương Huyền\") — không có ảnh → cần chụp",
     "source": null,
-    "rubricVersion": "v17"
+    "rubricVersion": "v20"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -49,6 +49,12 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "I1: chưa có ảnh; hàng cơ sở địa phương (Phương Huyền), không có trang hãng, không tìm được ảnh bán lẻ/Open Food Facts nào của mã 8936202669283 để Gemini vẽ → cần nhân viên chụp mặt trước gói"
+    },
+    {
+      "at": "2026-10-18T18:22:32.930Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "np18 re-research 18/10: still no image of this exact pack"
     }
   ]
 }

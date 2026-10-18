@@ -17,18 +17,29 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh; SP mới, chưa có trên cobibread.com (tìm lại 17/10), mã vạch không có trên Kingfoodmart/Open Food Facts/web → không có ảnh mẫu để vẽ Gemini, cần nhân viên chụp",
-    "source": null,
-    "rubricVersion": "v17"
+    "reason": "I1: chưa có ảnh; SP mới chưa có trên cobibread.com → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: gói vẽ phẳng; chữ nhỏ ở các biểu tượng hướng dẫn không chắc đúng từng chữ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-18",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh mặt trước gói trên tteokbokki.vn (chỉ làm mẫu)",
+      "referenceUrl": "https://tteokbokki.vn/products/sandwich-nuong-nhan-ga-cay-pho-mai-cobi-bread-85g"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
-    "decision": "WRITE_NEW",
-    "reason": "D1: chưa có mô tả; không có trang hãng → mô tả ngắn chỉ từ tên SP, thương hiệu, khối lượng",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "REWRITE",
+    "reason": "D2: bổ sung thành phần, bảo quản, cách dùng theo nhãn gói (đọc ở trang tteokbokki.vn, chỉ lấy dữ kiện in trên bao bì)",
+    "source": {
+      "url": "https://tteokbokki.vn/products/sandwich-nuong-nhan-ga-cay-pho-mai-cobi-bread-85g",
+      "fetchedAt": "2026-10-18T18:17:14Z"
+    },
+    "rubricVersion": "v23"
   },
   "question": null,
   "history": [
@@ -49,6 +60,32 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "17/10: still no reference (cobibread.com search, KFM, OFF, web)"
+    },
+    {
+      "at": "2026-10-18T18:16:53Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-18T18:17:14Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "description written (REWRITE) on 18/10 re-research"
+    },
+    {
+      "at": "2026-10-18T18:17:17.427Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-18T18:17:17.427Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

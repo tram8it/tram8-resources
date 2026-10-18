@@ -20,9 +20,9 @@
   "status": "NEEDS_PHOTO",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh. Hàng nhập (mã 691…), không có trang chính hãng.",
+    "reason": "I1: chưa có ảnh; tra lại 18/10 (mã vạch Kingfoodmart/OFF, \"炫果乐 软糖\", \"Xuan Guo Le kẹo dẻo trái cây\") — không có ảnh → cần chụp",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v20"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -49,6 +49,12 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "Đã tìm theo tên Xuan Guo Le / mã 691…: không có kết quả. Cần nhân viên chụp."
+    },
+    {
+      "at": "2026-10-18T18:22:32.579Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "np18 re-research 18/10: still no image of this exact pack"
     }
   ]
 }

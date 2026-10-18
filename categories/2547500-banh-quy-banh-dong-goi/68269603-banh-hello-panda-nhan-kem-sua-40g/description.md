@@ -1,4 +1,4 @@
-Bánh quy Hello Panda của Meiji nhân kem vị sữa: bánh quy giòn in hình gấu trúc, bên trong là lớp nhân kem mềm. Dùng ăn vặt hoặc chia sẻ cùng bạn bè.
+Bánh quy Meiji Hello Panda nhân kem sữa: bánh giòn hình gấu trúc nhỏ, bên trong có nhân kem vị sữa. Hộp nhỏ tiện mang theo.
 
 Quy cách: 40 g · hộp
 Nhà sản xuất/thương hiệu: Meiji · Hello Panda

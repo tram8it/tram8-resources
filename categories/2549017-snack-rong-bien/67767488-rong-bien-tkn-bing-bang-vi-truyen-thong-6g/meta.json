@@ -17,12 +17,20 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I8: ảnh nhiều gói xếp chồng và là gói vị mực (không phải vị truyền thống); không tìm được ảnh mẫu gói Big Bang 6g vị truyền thống (OFF không có mã vạch, taokaenoi.co.th lỗi TLS; hãng Mỹ chỉ có túi 50g khác bao bì) → cần chụp gói thật",
-    "source": null,
-    "rubricVersion": "v17"
+    "reason": "I8: ảnh KiotViet nhiều gói xếp chồng và sai vị; không có ảnh hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ lớn khớp (Tao Kae Noi, Big bang, Save Pack, Grilled Seaweed, Classic Flavour, Net Wt. 0.21oz (6 g)); chữ nhỏ mờ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-18",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh Kingfoodmart theo mã vạch (chỉ làm mẫu)",
+      "referenceUrl": "https://storage.googleapis.com/onelife-public/8858702403672.jpg"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -49,6 +57,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "b-gemini: no reference image of the classic 6g sachet found"
+    },
+    {
+      "at": "2026-10-18T17:58:05Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-18T17:58:08.387Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-18T17:58:08.387Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

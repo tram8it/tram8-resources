@@ -20,9 +20,9 @@
   "status": "NEEDS_PHOTO",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I5: ảnh chụp cận một góc hộp Gia Nhất, không thấy trọn hộp; 17/10: không tìm được ảnh mẫu (web, Kingfoodmart, Open Food Facts) đủ để vẽ lại → cần chụp trọn mặt trước hộp",
+    "reason": "I3/I5: ảnh KiotViet chỉ thấy một góc hộp Gia Nhất; 18/10 tìm lại: 'Thạch phô mai Gia Nhất hộp', 'Gia Nhất thạch rau câu công ty', mã 8935357300232/…195 (web, Open Food Facts, iCheck, Kingfoodmart) — không có ảnh trọn hộp nào → cần chụp thẳng mặt trước hộp",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v23"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -49,6 +49,12 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "Gemini pass: no usable reference found; still needs photo"
+    },
+    {
+      "at": "2026-10-18T18:11:52Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "18/10 re-research (>=3 searches): still no image of this exact product → NEEDS_PHOTO"
     }
   ]
 }

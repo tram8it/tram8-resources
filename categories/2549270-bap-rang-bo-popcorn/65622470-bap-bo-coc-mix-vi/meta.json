@@ -17,18 +17,25 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3, I4, I8: ảnh chụp nhiều ống Pop Corn (Thái Sơn) nằm chồng, nhãn bị che một phần, không thấy hai đầu/nắp ống; không có trang hãng hay ảnh mẫu khác → cần nhân viên chụp một ống (Mix) thẳng, thấy cả hai đầu",
-    "source": null,
-    "rubricVersion": "v17"
+    "reason": "I3/I4/I8: ảnh KiotViet nhiều ống chồng nhau → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: ống hơi nghiêng; chữ nhỏ trên nhãn không đọc đúng; Mix, flavored popcorn, KL 90g đúng mẫu",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-18",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet nhiều ống Pop Corn Mix trên kệ (chỉ làm mẫu)"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
-    "decision": "WRITE_NEW",
-    "reason": "D1: chưa có mô tả; mô tả ngắn từ chữ in trên nhãn trong ảnh (Thái Sơn Pop Corn, Mix) và tên hàng",
+    "decision": "REWRITE",
+    "reason": "Bổ sung theo nhãn trên ảnh KiotViet: Mix gồm vị socola, hoa quả, phô mai; KL 90g",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v19"
   },
   "question": null,
   "history": [
@@ -49,6 +56,32 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "Tìm web theo mã vạch/tên thương hiệu không ra ảnh mẫu; ảnh KiotViet không đủ để vẽ trọn ống (không thấy nắp) → giữ NEEDS_PHOTO"
+    },
+    {
+      "at": "2026-10-18T18:12:24Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-18T18:12:24.616Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "np18 re-research: description REWRITE"
+    },
+    {
+      "at": "2026-10-18T18:12:24.743Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-18T18:12:24.743Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

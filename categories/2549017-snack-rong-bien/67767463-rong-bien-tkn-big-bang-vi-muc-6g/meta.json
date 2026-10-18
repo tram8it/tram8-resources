@@ -17,12 +17,20 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I8: ảnh nhiều gói xếp chồng; ảnh mẫu duy nhất là ảnh KiotViet nhỏ (gói Thái 6g vị mực nướng), chữ Thái không đọc được — Gemini vẽ ra chữ Thái/chữ 'Big Sheet' không kiểm được; không có trang hãng (taokaenoi.co.th lỗi TLS), OFF không có mã vạch này → cần chụp gói thật",
-    "source": null,
-    "rubricVersion": "v17"
+    "reason": "I8: ảnh KiotViet nhiều gói xếp chồng; không có ảnh hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ lớn khớp (Tao Kae Noi, Big bang, Save Pack, Grilled Squid Flavour, Net Wt. 0.21oz (6g)); chữ nhỏ mặt trước mờ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-18",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh Kingfoodmart theo mã vạch (chỉ làm mẫu)",
+      "referenceUrl": "https://storage.googleapis.com/onelife-public/8858702403689.jpg"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -49,6 +57,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "b-gemini: no usable reference for this flavour/6g sachet; Gemini attempt (67767463) invented Thai text, not accepted"
+    },
+    {
+      "at": "2026-10-18T17:57:32Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-18T17:58:05.530Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-18T17:58:05.530Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

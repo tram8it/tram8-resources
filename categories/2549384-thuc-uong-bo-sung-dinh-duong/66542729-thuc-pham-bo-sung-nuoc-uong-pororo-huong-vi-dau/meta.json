@@ -17,17 +17,23 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I2: ảnh KiotViet là chai đào (đã dùng làm mẫu cho SP Pororo đào 65205343); không tìm được ảnh bản Việt Nam (mã 893…) vị dâu, Pharmacity chỉ có bản Hàn nhãn 'Strawberry Flavor' → cần nhân viên chụp",
-    "source": null,
-    "rubricVersion": "v17"
+    "reason": "I1/I7: ảnh chai bản Việt Nam (nhãn mới 'Bổ sung kẽm - Tăng cường miễn dịch') trên trang Paldo Vina paldovina.com/vi/pororo-huong-vi-dau-p94 — nhà sản xuất/nhập khẩu chính thức, nền trong suốt",
+    "source": {
+      "url": "https://paldovina.com/upload/nuoc-uong/noi-dia/pororo-dau.png",
+      "fetchedAt": "2026-10-18T17:56:51Z"
+    },
+    "rubricVersion": "v23"
   },
   "description": {
     "decision": "WRITE_NEW",
-    "reason": "D1: chưa có mô tả; mô tả ngắn từ chữ in mặt trước bao bì; dung tích 235 ml đọc trên nhãn (v3)",
-    "source": null,
+    "reason": "D1: viết từ trang Paldo Vina (sữa + trái cây, giảm đường, bổ sung kẽm, canxi, vitamin B1, D3) và chữ trên chai",
+    "source": {
+      "url": "https://paldovina.com/vi/pororo-huong-vi-dau-p94",
+      "fetchedAt": "2026-10-18T17:57:06Z"
+    },
     "rubricVersion": "v4"
   },
   "question": null,
@@ -49,6 +55,32 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "searched retailer/OFF references for a Gemini redraw; none usable for this exact pack"
+    },
+    {
+      "at": "2026-10-18T17:56:51Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "np18 re-research: brand image found, normalised with make_image.py"
+    },
+    {
+      "at": "2026-10-18T17:57:06Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "np18 re-research: description rewritten from pack/official facts"
+    },
+    {
+      "at": "2026-10-18T17:57:06.394Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-18T17:57:06.394Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

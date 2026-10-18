@@ -1,4 +1,4 @@
-Bánh quế Cosy kem vị sô cô la của Kinh Đô, que quế giòn nhân kem, đóng khay tiện dùng.
+Bánh quế Cosy kem vị sô cô la: vỏ quế giòn cuộn nhân kem sô cô la, bao bì mới in "+20% kem".
 
-Quy cách: 117,6 g · gói
-Nhà sản xuất/thương hiệu: Mondelez Kinh Đô Việt Nam · Cosy
+Quy cách: 135 g · gói (theo bao bì)
+Thương hiệu: Cosy (Mondelez Kinh Đô)

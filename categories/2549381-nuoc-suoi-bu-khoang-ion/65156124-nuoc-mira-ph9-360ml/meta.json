@@ -17,17 +17,28 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh; không tìm được trang hãng (ionmira.vn không truy cập được) hay ảnh bán lẻ chai Mira pH9 360 ml → không có mẫu cho Gemini, cần nhân viên chụp",
-    "source": null,
-    "rubricVersion": "v17"
+    "reason": "I1: chưa có ảnh; trang hãng mira.com.vn chỉ có ảnh quảng cáo có cảnh nền → Gemini vẽ lại chai trên nền trắng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt chữ lớn (mira, pH9+, Thể tích thực 360 ml); vẽ phẳng, bỏ cảnh nền",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-18",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh hãng mira.com.vn (Mira Tav, ảnh quảng cáo có cảnh nền)",
+      "referenceUrl": "https://cdn.hstatic.net/products/200000656535/n__c_ion_ki_m_mira__7__cc559fb5b378410da7493a29185328ee.png"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
-    "reason": "D1: chưa có mô tả; viết ngắn từ tên SP, không tìm được trang hãng (mira.vn là hãng giày, không liên quan)",
-    "source": null,
+    "reason": "D1: viết từ trang hãng mira.com.vn (pH 9.0–9.5, khoáng Na/Ca/K/Mg, nguồn nước ngầm, nhà máy Đông Triều)",
+    "source": {
+      "url": "https://www.mira.com.vn/products/nuoc-ion-kiem-mira-ph9-360ml",
+      "fetchedAt": "2026-10-18T17:54:03Z"
+    },
     "rubricVersion": "v4"
   },
   "question": null,
@@ -49,6 +60,32 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "searched brand/retail/OFF/Kingfoodmart for a reference: none usable, stays NEEDS_PHOTO"
+    },
+    {
+      "at": "2026-10-18T17:53:45Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-18T17:54:03Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "np18 re-research: description rewritten from pack/official facts"
+    },
+    {
+      "at": "2026-10-18T17:54:03.512Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-18T17:54:03.512Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

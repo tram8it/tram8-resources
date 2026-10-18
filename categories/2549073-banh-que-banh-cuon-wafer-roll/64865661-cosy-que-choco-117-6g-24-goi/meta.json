@@ -17,18 +17,26 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I2: ảnh là bánh quy Cosy Marie, không phải bánh quế Cosy sô cô la; trang Mondelez Kinh Đô chỉ có Cosy quế lá dứa 117,6 g và dâu 126 g; không tìm được ảnh mẫu nào của gói Cosy quế kem sô cô la (Open Food Facts có mã vạch này, ghi 126 g, nhưng không có ảnh) → cần chụp mặt trước gói (xem cả khối lượng in trên gói: 117,6 g hay 126 g)",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I2: ảnh KiotViet là bánh quy Cosy Marie; trang Mondelez không có Cosy quế sô cô la → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ lớn khớp (Cosy, Bánh quế Kem vị sôcôla, +20% kem, Khối lượng tịnh 135 g); bao bì đúng mã vạch ghi 135 g (tên KiotViet 117,6 g — bao bì mới thêm 20% kem, v19)",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-18",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh Kingfoodmart theo mã vạch (chỉ làm mẫu)",
+      "referenceUrl": "https://storage.googleapis.com/onelife-public/8934680033114.jpg"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
-    "reason": "D1: chưa có mô tả; viết ngắn chỉ từ tên SP, không có trang hãng cho vị sô cô la",
+    "reason": "D1: từ chữ in mặt trước bao bì đúng mã vạch (ảnh Kingfoodmart); khối lượng theo bao bì 135 g (v19)",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v23"
   },
   "question": null,
   "history": [
@@ -49,6 +57,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "No reference image of the chocolate Cosy wafer pack found (brand site, OFF, search); OFF lists 126 g for this barcode vs 117.6 g in name"
+    },
+    {
+      "at": "2026-10-18T18:07:29Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-18T18:07:39.091Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-18T18:07:39.091Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

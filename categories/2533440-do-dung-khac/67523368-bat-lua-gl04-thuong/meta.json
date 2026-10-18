@@ -17,18 +17,25 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I6/I8: ảnh mờ cả khay bật lửa Thống Nhất nhiều màu, phần dưới bị khay che, không chắc là mã GL04; hàng không có trang hãng → cần chụp 1 cái đúng mã GL04",
-    "source": null,
-    "rubricVersion": "v17"
+    "reason": "I3/I6/I8: ảnh KiotViet mờ, cả khay nhiều màu → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: vẽ 1 cái màu đỏ; đáy bật lửa bị khay che trên ảnh gốc nên vẽ theo dáng bật lửa gas thường; hàng có nhiều màu",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-18",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (khay bật lửa Thống Nhất)"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
-    "decision": "WRITE_NEW",
-    "reason": "D1: chưa có mô tả; mô tả ngắn chỉ từ tên SP (không rõ thương hiệu, không có trang hãng)",
+    "decision": "REWRITE",
+    "reason": "D2: thêm thương hiệu Thống Nhất (chữ in trên thân bật lửa ở ảnh KiotViet)",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v23"
   },
   "question": null,
   "history": [
@@ -49,6 +56,32 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "I3/I6/I8: ảnh mờ cả khay bật lửa Thống Nhất nhiều màu, phần dưới bị khay che, không chắc là mã GL04; hàng không có trang hãng → cần chụp 1 cái đúng mã GL04"
+    },
+    {
+      "at": "2026-10-18T18:07:04Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-18T18:07:05Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "description written (REWRITE) on 18/10 re-research"
+    },
+    {
+      "at": "2026-10-18T18:08:05.217Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-18T18:08:05.217Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

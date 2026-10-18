@@ -17,12 +17,19 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I4/I6/I8: ảnh KiotViet 209×182 quá nhỏ, chữ nhỏ (vị trên huy hiệu xanh, khối lượng, khẩu hiệu) không đọc được; Gemini vẽ lại 3 lần vẫn bịa chữ ('含棒味', '80克', dòng phụ đề) → không dùng; cần nhân viên chụp mặt trước 1 gói (17/10/2026)",
-    "source": null,
-    "rubricVersion": "v17"
+    "reason": "I4/I6/I8: ảnh KiotViet quá nhỏ, có cả mặt sau → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: huy hiệu vị màu xanh để trống chữ (ảnh mẫu không đọc được vị); dòng chữ nhỏ dưới tên có thể khác gói thật; tên lớn 鲜笋魔芋, logo 金磨坊 đúng",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-18",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet 209×182 (ảnh thiết kế gói mặt trước/sau, chỉ làm mẫu)"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -49,6 +56,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "I4/I6/I8: ảnh KiotViet 209×182 quá nhỏ, chữ nhỏ (vị trên huy hiệu xanh, khối lượng, khẩu hiệu) không đọc được; Gemini vẽ lại 3 lần vẫn bịa chữ ('含棒味', '80克', dòng phụ đề) → không dùng; cần nhân viên chụp mặt trước 1 gói (17/10/2026)"
+    },
+    {
+      "at": "2026-10-18T18:14:03Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 4, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-18T18:14:06.670Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-18T18:14:06.670Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

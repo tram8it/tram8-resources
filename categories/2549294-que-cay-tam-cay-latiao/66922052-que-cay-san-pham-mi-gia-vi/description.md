@@ -1,3 +1,4 @@
-Que cay làm từ bột mì tẩm gia vị cay (sản phẩm mì gia vị), món ăn vặt quen thuộc.
+Que cay Jinmofang (金磨坊) Jingubang — que bột mì tẩm gia vị (sản phẩm mì gia vị), vị cay thơm (香辣味).
 
-Quy cách: gói
+Quy cách: 90 g · gói
+Nhà sản xuất/thương hiệu: Jinmofang (金磨坊)

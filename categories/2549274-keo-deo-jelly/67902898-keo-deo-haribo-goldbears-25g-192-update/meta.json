@@ -20,9 +20,9 @@
   "status": "NEEDS_PHOTO",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh. haribo.com/tr-tr chỉ có túi cỡ lớn; không tìm được ảnh gói 25 g bản Thổ Nhĩ Kỳ (mã vạch 8691216110359) ở trang hãng hay bán lẻ, nên không vẽ Gemini đúng bao bì được. Cần nhân viên chụp mặt trước gói (giữ đồng bộ với Happy Cola 25 g).",
+    "reason": "I1: chưa có ảnh; tra lại 18/10 (mã vạch trên OFF/ean-search/cimri/akakce, \"Haribo Altın Ayıcık 25 gr\", \"Haribo Goldbears 25g\") — chỉ có túi 80–200 g, không có gói 25 g bản Thổ Nhĩ Kỳ → cần chụp",
     "source": null,
-    "rubricVersion": "v17"
+    "rubricVersion": "v20"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -52,6 +52,12 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "v17: tìm ảnh mẫu cho Gemini không có — giữ NEEDS_PHOTO"
+    },
+    {
+      "at": "2026-10-18T18:22:32.881Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "np18 re-research 18/10: still no image of this exact pack"
     }
   ]
 }

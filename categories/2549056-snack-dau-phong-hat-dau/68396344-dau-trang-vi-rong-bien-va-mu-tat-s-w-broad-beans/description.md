@@ -1,4 +1,4 @@
-Đậu vị rong biển và mù tạt (S&W Broad Beans) của Tong Garden: hạt đậu rang giòn tẩm vị rong biển và mù tạt.
+Đậu tằm rang giòn Tong Garden vị rong biển và mù tạt (Seaweed and Wasabi Broad Beans), món ăn vặt đóng gói tiện mang theo.
 
 Quy cách: 40 g · gói
 Thương hiệu: Tong Garden

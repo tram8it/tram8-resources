@@ -17,17 +17,23 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh; không nguồn nào có bản Tea365 'mật ong đài hoa bụp giấm' mã 8936221042920 (Masan, Kingfoodmart chỉ có bản mật ong …906) → cần chụp chai nếu còn bán",
-    "source": null,
-    "rubricVersion": "v20"
+    "reason": "I1: chưa có ảnh; ảnh Minh Cầu Mart theo đúng mã vạch 8936221042920 là chai Bupnon Tea 365 Trà hương mật ong → dùng ảnh hãng Masan Consumer (bao bì mới nhất, cùng ảnh SP 66473684)",
+    "source": {
+      "url": "https://masanconsumer.com/wp-content/uploads/2026/01/Mat-Ong-rs.png",
+      "fetchedAt": "2026-10-18T18:16:56Z"
+    },
+    "rubricVersion": "v23"
   },
   "description": {
-    "decision": "ASK_OWNER",
-    "reason": "Chờ chủ xác nhận SP trước khi viết mô tả",
-    "source": null,
+    "decision": "WRITE_NEW",
+    "reason": "D1: theo trang hãng Masan Consumer (Bupnon Tea 365 Trà Hương Mật Ong), như SP cùng dòng 66473684",
+    "source": {
+      "url": "https://masanconsumer.com/nganh-hang/do-uong/nuoc-giai-khat-tra-dong-chai/bupnon-tea-365-tra-huong-mat-ong/",
+      "fetchedAt": "2026-10-18T18:16:56Z"
+    },
     "rubricVersion": "v4"
   },
   "question": null,
@@ -49,6 +55,32 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "NEEDS_PHOTO: mã …920 không tra được, trang hãng không có bản đài hoa bụp giấm; bỏ câu hỏi, cần chụp chai (nếu không còn bán thì chủ tắt mã)"
+    },
+    {
+      "at": "2026-10-18T18:16:56Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "np18 re-research: brand image found, normalised with make_image.py"
+    },
+    {
+      "at": "2026-10-18T18:16:56Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "np18 re-research: description rewritten from pack/official facts"
+    },
+    {
+      "at": "2026-10-18T18:16:56.802Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-18T18:16:56.802Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

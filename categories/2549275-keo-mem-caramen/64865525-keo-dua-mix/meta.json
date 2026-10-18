@@ -17,12 +17,19 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I4: ảnh cận nhãn túi, không thấy cả túi; mã vạch 8936236140123 in trên nhãn = Kẹo Dừa Sáp Cafe Muối Quang Thanh → cần chụp cả túi mặt trước",
-    "source": null,
-    "rubricVersion": "v20"
+    "reason": "I3/I4: ảnh KiotViet cận nhãn, không thấy cả túi; nhãn đúng mã vạch = Kẹo Dừa Sáp Cafe Muối (v19 tin bao bì) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: dáng túi zip và các viên kẹo trong túi vẽ theo phần túi nhìn thấy; chữ nhỏ trên nhãn có thể sai chính tả; không vẽ NSX/HSD",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-18",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet nhãn túi (chỉ làm mẫu)"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -55,6 +62,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "resolved without asking: barcode printed on the label in the photo (8936236140123) = Kẹo dừa sáp cafe muối; description already matches; name logged; image needs a whole-bag photo"
+    },
+    {
+      "at": "2026-10-18T18:10:21Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-18T18:10:24.387Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-18T18:10:24.387Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

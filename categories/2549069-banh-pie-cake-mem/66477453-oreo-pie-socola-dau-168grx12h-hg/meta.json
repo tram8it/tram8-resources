@@ -17,18 +17,29 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "Mã 8934680046527 chỉ tìm được hộp bản sự kiện (BABYMONSTER/Blackpink, 180 g – Open Food Facts); không có ảnh hộp bản thường → cần chụp mặt trước hộp đang bán",
-    "source": null,
-    "rubricVersion": "v19"
+    "reason": "I1: chưa có ảnh; chỉ có ảnh hộp bản sự kiện → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: vẽ hộp đứng 6 bánh theo bản thường (bỏ chữ BABYMONSTER/sưu tầm thẻ, v17), thiết kế vị dâu lấy từ hộp trên trang hãng; không in khối lượng; chữ nhỏ mờ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-18",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh Open Food Facts theo mã vạch (hộp bản sự kiện BABYMONSTER) + ảnh hộp Oreo Socola Pie vị dâu trên trang Mondelez + ảnh hộp Socola Pie cùng dãy (chỉ làm mẫu)",
+      "referenceUrl": "https://images.openfoodfacts.org/images/products/893/468/004/6527/front_fr.18.full.jpg"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
-    "reason": "D1: chưa có mô tả; chỉ từ dữ kiện tên SP (RUBRIC v2 nguồn 3)",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "D1: từ ảnh bao bì (trang Mondelez, Open Food Facts theo mã vạch); khối lượng 180 g theo Open Food Facts",
+    "source": {
+      "url": "https://world.openfoodfacts.org/product/8934680046527",
+      "fetchedAt": "2026-10-18T18:07:30Z"
+    },
+    "rubricVersion": "v23"
   },
   "question": null,
   "history": [
@@ -55,6 +66,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "only the event edition box exists online for this barcode (v17); staff photo of the shelf box needed"
+    },
+    {
+      "at": "2026-10-18T18:07:29Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-18T18:07:44.844Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-18T18:07:44.844Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

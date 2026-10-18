@@ -17,12 +17,19 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I5: ảnh chụp cận nhãn hũ, mất nắp và đáy; không có ảnh mẫu khác (Kingfoodmart/Open Food Facts trống) nên không vẽ được nắp/hũ đúng → cần chụp nguyên hũ",
-    "source": null,
-    "rubricVersion": "v17"
+    "reason": "I3/I5: ảnh KiotViet cận nhãn, mất nắp và đáy → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: dáng hũ/nắp lấy theo SP cùng hãng Quang Thanh (Óc chó nhân); chữ nhỏ mặt bên và số mã vạch vẽ không đúng; không vẽ NSX/HSD",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-18",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet nhãn hũ (chỉ làm mẫu) + hũ Óc chó nhân Quang Thanh cùng dãy (dáng hũ/nắp)"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -49,6 +56,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "retried 17/10: no usable reference, stays NEEDS_PHOTO"
+    },
+    {
+      "at": "2026-10-18T18:10:21Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-18T18:10:21.666Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-18T18:10:21.666Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

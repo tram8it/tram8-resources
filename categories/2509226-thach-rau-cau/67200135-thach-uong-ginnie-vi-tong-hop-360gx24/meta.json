@@ -17,18 +17,29 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh; 17/10: không tìm được ảnh mẫu Ginnie (web, Kingfoodmart, Open Food Facts) → cần chụp (thùng 24 gói hay 1 gói?)",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I1: chưa có ảnh → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: túi vẽ phẳng, không nếp nhăn/bóng; chữ nhỏ trên các gói con không đọc được",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-18",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh SP trên trang nhà nhập khẩu Hợp Phát Foods (cùng mã vạch 0628719913321)",
+      "referenceUrl": "https://hopphatfoods.com/vi/san-pham/thach-nuoc-ginnie-360g/"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
-    "decision": "WRITE_NEW",
-    "reason": "D1: chưa có mô tả; viết ngắn chỉ từ tên hàng (không có nguồn hãng)",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "REWRITE",
+    "reason": "D2: viết lại theo trang nhà nhập khẩu Hợp Phát Foods (cùng mã vạch) và chữ in trên túi; đơn vị KiotViet là gói (1 túi 360 g)",
+    "source": {
+      "url": "https://hopphatfoods.com/vi/san-pham/thach-nuoc-ginnie-360g/",
+      "fetchedAt": "2026-10-18T18:07:05Z"
+    },
+    "rubricVersion": "v23"
   },
   "question": null,
   "history": [
@@ -49,6 +60,32 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "Gemini pass: no usable reference found; still needs photo"
+    },
+    {
+      "at": "2026-10-18T18:07:03Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-18T18:07:05Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "description written (REWRITE) on 18/10 re-research"
+    },
+    {
+      "at": "2026-10-18T18:08:00.305Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-18T18:08:00.305Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

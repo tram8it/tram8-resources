@@ -17,18 +17,29 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I4/I8: ảnh khay nhiều bật lửa Hòa Việt, nền tối, đáy bật lửa bị khay che, không chắc là mã GL02; hàng không có trang hãng → cần chụp 1 cái đúng mã GL02",
-    "source": null,
-    "rubricVersion": "v17"
+    "reason": "I3/I4/I8: ảnh KiotViet là khay nhiều bật lửa nền tối → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: vẽ 1 cái màu hồng; màu/hình trái cây trên nhãn thay đổi theo từng cái trong khay",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-18",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh bật lửa ZX10 trên trang hãng batluahoaviet.com + ảnh KiotViet (khay Hòa Việt)",
+      "referenceUrl": "https://batluahoaviet.com/vi/san-pham/zx10/"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
-    "decision": "WRITE_NEW",
-    "reason": "D1: chưa có mô tả; mô tả ngắn chỉ từ tên SP (không rõ thương hiệu, không có trang hãng)",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "REWRITE",
+    "reason": "D2: thêm thương hiệu Hòa Việt (chữ in trên bật lửa, trang hãng batluahoaviet.com)",
+    "source": {
+      "url": "https://batluahoaviet.com/vi/",
+      "fetchedAt": "2026-10-18T18:07:05Z"
+    },
+    "rubricVersion": "v23"
   },
   "question": null,
   "history": [
@@ -49,6 +60,32 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "I3/I4/I8: ảnh khay nhiều bật lửa Hòa Việt, nền tối, đáy bật lửa bị khay che, không chắc là mã GL02; hàng không có trang hãng → cần chụp 1 cái đúng mã GL02"
+    },
+    {
+      "at": "2026-10-18T18:07:04Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-18T18:07:05Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "description written (REWRITE) on 18/10 re-research"
+    },
+    {
+      "at": "2026-10-18T18:08:02.881Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-18T18:08:02.881Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

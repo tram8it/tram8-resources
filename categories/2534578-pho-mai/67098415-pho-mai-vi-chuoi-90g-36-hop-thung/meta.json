@@ -17,18 +17,24 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh; vị chuối không có trên qbb.co.jp, Kingfoodmart/Open Food Facts không có ảnh → cần nhân viên chụp (sẽ vẽ lại bằng Gemini)",
-    "source": null,
-    "rubricVersion": "v17"
+    "reason": "I1: chưa có ảnh → ảnh hãng QBB (Cheese Dessert Banana 6P, trang qbb.co.jp/english/products/detail/view_express_entity/19366), ảnh 450px phóng ~2,2 lần (v3/v4)",
+    "source": {
+      "url": "https://image.qbb.co.jp/products/148.jpg",
+      "fetchedAt": "2026-10-18T18:09:08Z"
+    },
+    "rubricVersion": "v23"
   },
   "description": {
-    "decision": "WRITE_NEW",
-    "reason": "D1: chưa có mô tả; mô tả ngắn từ tên SP và chữ in mặt trước bao bì (không có trên trang hãng)",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "REWRITE",
+    "reason": "D2: bổ sung từ trang hãng QBB (Cheese Dessert Banana 6P): chuối Kanjukuoh, thành phần, có cồn dưới 0,5%",
+    "source": {
+      "url": "https://www.qbb.co.jp/english/products/detail/view_express_entity/19366",
+      "fetchedAt": "2026-10-18T18:09:25Z"
+    },
+    "rubricVersion": "v23"
   },
   "question": null,
   "history": [
@@ -49,6 +55,32 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "no reference image found; still needs staff photo"
+    },
+    {
+      "at": "2026-10-18T18:09:08Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "brand image found on 18/10 re-research, normalised with make_image.py, checked by eye"
+    },
+    {
+      "at": "2026-10-18T18:09:25Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "description written (REWRITE) on 18/10 re-research"
+    },
+    {
+      "at": "2026-10-18T18:10:04.113Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-18T18:10:04.113Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

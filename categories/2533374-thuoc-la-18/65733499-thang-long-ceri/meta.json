@@ -17,18 +17,26 @@
     "description": "🍒 Mô Tả Sản Phẩm: Thuốc Lá Thăng Long Cherry🌟 Đặc điểm nổi bật<br><br>* Hương vị: Vị quả anh đào (cherry) ngọt dịu. Khói thuốc êm, không bị khé hay gắt cổ như các dòng thuốc mộc truyền thống.<br>* Mùi thơm: Hương trái cây thoang thoảng, giảm thiểu tối đa mùi hôi bám lại trên quần áo, tóc và không gian xung quanh.<br>* Độ nặng: Thuộc nhóm nhẹ đến trung bình. Hàm lượng nicotine dao động khoảng 0.5mg – 0.7mg, rất dễ hút và phù hợp cho cả người mới hoặc người thích dòng thuốc thơm.<br><br>------------------------------<br>## 📦 Quy cách & Thiết kế<br><br>* Thương hiệu: Thăng Long (Việt Nam) – Nhà sản xuất thuốc lá lâu đời từ năm 1957.<br>* Quy cách đóng gói:<br>* 20 điếu / bao.<br>   * 10 bao / cây.<br>* Kiểu dáng: Điếu thuốc được thiết kế thon gọn (thường là dòng demi hoặc slim), tạo cảm giác thanh lịch và hiện đại khi cầm. Bao bì có màu sắc nổi bật đi kèm hình ảnh quả cherry đặc trưng.<br><br>------------------------------",
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I2: ảnh KiotViet là bao Thăng Long Rồng Đỏ (SP khác, mã 8935047690995); không tìm được ảnh bao Thăng Long ceri → cần chụp mặt trước bao",
-    "source": null,
-    "rubricVersion": "v19"
+    "reason": "I2: ảnh KiotViet là bao Thăng Long Rồng Đỏ (SP khác) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: dòng chữ nhỏ dưới SIGNATURE không đọc được; tem thuế bỏ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-18",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh bao Thăng Long No.5 Cherry trên sieuthithuocla.com.vn / quaythuocla.com.vn (chỉ làm mẫu) + kiểu ảnh bao No.6 Coffee đã duyệt",
+      "referenceUrl": "https://sieuthithuocla.com.vn/cac-loai-thuoc-la/thuoc-la-viet-nam/thuoc-la-thang-long-cherry.html"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
-    "decision": null,
-    "reason": null,
+    "decision": "WRITE_NEW",
+    "reason": "D1: theo khuôn danh mục; tên/loại theo chữ in trên bao (THĂNG LONG No.5, CHERRY, SLIM CIGARETTE), nhà sản xuất theo bảng danh mục (tiền tố 8935047)",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v23"
   },
   "question": null,
   "history": [
@@ -49,6 +57,32 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "NEEDS_PHOTO: I2: ảnh KiotViet là bao Thăng Long Rồng Đỏ (SP khác, mã 8935047690995); không tìm được ảnh bao Thăng Long ceri → cần chụp mặt trước bao"
+    },
+    {
+      "at": "2026-10-18T18:07:54Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-18T18:07:54Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "description written (WRITE_NEW) on 18/10 re-research"
+    },
+    {
+      "at": "2026-10-18T18:08:15.857Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-18T18:08:15.857Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

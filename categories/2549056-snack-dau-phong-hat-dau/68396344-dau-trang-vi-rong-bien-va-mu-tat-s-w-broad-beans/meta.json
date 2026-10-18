@@ -17,18 +17,26 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh; hãng không bán SP đậu tằm vị rong biển & mù tạt 40g; không tìm thấy ảnh mẫu nào của gói này (đã rà shop.tonggarden.com.sg, OpenFoodFacts theo mã vạch, tìm web theo tên Anh/Thái/Việt) → không đủ dữ kiện để Gemini vẽ đúng bao bì; cần nhân viên chụp mặt trước gói (rõ tên vị và khối lượng) để làm mẫu",
-    "source": null,
-    "rubricVersion": "v17"
+    "reason": "I1: chưa có ảnh; trang hãng shop.tonggarden.com.sg không có SP này → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ lớn khớp (Tong Garden, Seaweed and Wasabi Broad Beans, Net Weight: 40g); không thấy khác biệt đáng kể",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-18",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh Kingfoodmart theo mã vạch (chỉ làm mẫu)",
+      "referenceUrl": "https://storage.googleapis.com/onelife-public/8850291103087.jpg"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
-    "reason": "D1: chưa có mô tả; viết ngắn chỉ từ tên SP (tên tiếng Việt + tiếng Anh, khối lượng); thương hiệu Tong Garden theo đầu mã vạch 8850291 (đã đối chiếu trên bao bì hãng)",
+    "reason": "D1: chỉ từ tên SP và chữ in mặt trước bao bì (ảnh Kingfoodmart theo mã vạch)",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v23"
   },
   "question": null,
   "history": [
@@ -49,6 +57,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "re-checked 2026-10-17: no reference image anywhere (brand store, OFF has name only); still needs staff photo"
+    },
+    {
+      "at": "2026-10-18T18:07:29Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-18T18:07:36.258Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-18T18:07:36.258Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

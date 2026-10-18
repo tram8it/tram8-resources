@@ -17,18 +17,29 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I5: ảnh KiotViet chụp cận nửa trên túi Miyaki vị phô mai, mất phần dưới; không tìm được ảnh mẫu trên web/Kingfoodmart/Open Food Facts → cần nhân viên chụp trọn mặt trước túi (17/10/2026)",
-    "source": null,
-    "rubricVersion": "v17"
+    "reason": "I3/I5: ảnh KiotViet chụp cận nửa trên túi → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ nhỏ trên túi không đọc được",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-18",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh túi trên vantoanchau.com (chỉ làm mẫu) + ảnh KiotViet",
+      "referenceUrl": "https://vantoanchau.com/san-pham/banh-gao-sua-miyaki-240g-vi-pho-mai/"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
-    "decision": "WRITE_NEW",
-    "reason": "D1: chưa có mô tả; mô tả ngắn chỉ từ tên hàng và chữ in mặt trước bao bì (không có trang hãng) ('Bánh gạo sữa MIYAKI vị phô mai')",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "REWRITE",
+    "reason": "D2: viết lại theo chữ in trên túi (Tràng An, bột sữa New Zealand, không chiên, 0 trans fat) và khối lượng 240 g ở trang bán lẻ",
+    "source": {
+      "url": "https://vantoanchau.com/san-pham/banh-gao-sua-miyaki-240g-vi-pho-mai/",
+      "fetchedAt": "2026-10-18T18:17:14Z"
+    },
+    "rubricVersion": "v23"
   },
   "question": null,
   "history": [
@@ -49,6 +60,32 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "I3/I5: ảnh KiotViet chụp cận nửa trên túi Miyaki vị phô mai, mất phần dưới; không tìm được ảnh mẫu trên web/Kingfoodmart/Open Food Facts → cần nhân viên chụp trọn mặt trước túi (17/10/2026)"
+    },
+    {
+      "at": "2026-10-18T18:16:53Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-18T18:17:14Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "description written (REWRITE) on 18/10 re-research"
+    },
+    {
+      "at": "2026-10-18T18:17:23.257Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-18T18:17:23.257Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

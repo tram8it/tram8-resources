@@ -20,7 +20,7 @@
   "status": "NEEDS_PHOTO",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: KiotViet chưa có ảnh; mã 8934609109326 không có trên Kingfoodmart/iCheck/Open Food Facts/bibica.com.vn; Bibica có 24 g và 54 g → cần ảnh gói trên kệ",
+    "reason": "I1: chưa có ảnh; tra lại 18/10 (mã vạch, trang hãng bibica.com.vn: Zoo Sâu Mắt To/Sâu Tuyết/Áo Dầu/Cola/Lắc — không có \"Sâu kì thú\", \"Zoo sâu kỳ thú Bibica\") → cần chụp mặt trước gói",
     "source": null,
     "rubricVersion": "v20"
   },
@@ -55,6 +55,12 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "resolved by rule v20: no KiotViet photo and no barcode hit (Kingfoodmart/iCheck/OFF) → NEEDS_PHOTO, photo the shelf pack"
+    },
+    {
+      "at": "2026-10-18T18:22:32.314Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "np18 re-research 18/10: still no image of this exact pack"
     }
   ]
 }

@@ -20,9 +20,9 @@
   "status": "NEEDS_PHOTO",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh. Hàng nhập (mã 692…), không có trang chính hãng.",
+    "reason": "I1: chưa có ảnh; tra lại 18/10 (mã vạch Kingfoodmart/OFF, \"Crazy Scientist chew orange 80g\", \"Crazy Scientist chew candy\") — chỉ có lọ dâu/nho cùng dãy, không có ảnh lọ vị cam → cần chụp lọ",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v20"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -49,6 +49,12 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "Đã tìm ảnh lọ vị cam (mã vạch, tên dòng Crazy Scientist Chew Candy): không thấy ảnh thật nào; không vẽ vị cam khi không có mẫu (không bịa hoạ tiết). Cần nhân viên chụp lọ cam."
+    },
+    {
+      "at": "2026-10-18T18:22:32.678Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "np18 re-research 18/10: still no image of this exact pack"
     }
   ]
 }

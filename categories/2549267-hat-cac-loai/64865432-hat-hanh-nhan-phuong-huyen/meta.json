@@ -20,9 +20,9 @@
   "status": "NEEDS_PHOTO",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3, I4: ảnh tay cầm hũ hạnh nhân nguyên vỏ trong cửa hàng, không thấy nhãn (chỉ thấy mặt sau hũ, nắp xanh); không có trang hãng Phương Huyền Food, không tìm được ảnh mẫu → cần chụp mặt trước nhãn",
+    "reason": "I3/I4: ảnh KiotViet tay cầm hũ, không thấy nhãn trước; tra lại 18/10 (mã vạch Kingfoodmart/OFF, \"hạnh nhân Phương Huyền\", \"Phương Huyền Food\" — không có trang hãng/ảnh hũ hạnh nhân nguyên vỏ) → cần chụp mặt nhãn hũ",
     "source": null,
-    "rubricVersion": "v17"
+    "rubricVersion": "v20"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -49,6 +49,12 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "Ảnh mẫu không thấy nhãn, không vẽ được"
+    },
+    {
+      "at": "2026-10-18T18:22:31.582Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "np18 re-research 18/10: still no image of this exact pack"
     }
   ]
 }

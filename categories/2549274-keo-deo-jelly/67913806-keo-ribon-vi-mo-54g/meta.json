@@ -17,18 +17,29 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh. Không có trang chính hãng (ribon.co.jp là công ty kế toán khác, hãng là 株式会社リボン, Nhật); không tìm được ảnh mẫu nào có đúng mã vạch 4903316471426/4903316471402 hay đúng gói 54 g vị mơ/chanh (Yodobashi chặn 403) nên không vẽ lại được bằng Gemini — cần nhân viên chụp mặt trước gói",
-    "source": null,
-    "rubricVersion": "v17"
+    "reason": "I1: chưa có ảnh; không có ảnh hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: ảnh mẫu là bao bì 2018, chữ nhỏ có thể khác; không vẽ khối lượng (mẫu không đọc được)",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-18",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh blog jun3010.me chụp gói 道明寺梅子の恋の挑戦状 (chỉ làm mẫu) + ảnh gói chanh cùng dãy",
+      "referenceUrl": "https://jun3010.me/saotome-domyoji-midosuji-13476.html"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
-    "decision": "WRITE_NEW",
-    "reason": "D1: chưa có mô tả; không có trang hãng/ảnh bao bì — mô tả ngắn chỉ từ tên SP và đơn vị bán",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "REWRITE",
+    "reason": "Theo bao bì (OFF đúng mã vạch: DOMYOJIUMEKO NO KOINO CHOSENJO CANDY; ảnh gói): kẹo mềm vị mơ (ume) có nhân sốt mơ rất chua",
+    "source": {
+      "url": "https://world.openfoodfacts.org/product/4903316471426",
+      "fetchedAt": "2026-10-18T18:07:30.387Z"
+    },
+    "rubricVersion": "v19"
   },
   "question": null,
   "history": [
@@ -49,6 +60,32 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "no official site / no reference photo with matching JAN; still needs staff photo"
+    },
+    {
+      "at": "2026-10-18T18:07:30Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-18T18:07:30.387Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "np18 re-research: description REWRITE"
+    },
+    {
+      "at": "2026-10-18T18:07:35.734Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-18T18:07:35.734Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

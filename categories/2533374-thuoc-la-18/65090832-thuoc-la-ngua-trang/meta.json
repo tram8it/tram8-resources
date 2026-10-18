@@ -17,18 +17,26 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I5: ảnh KiotViet là cả dãy bao trên quầy, quá nhỏ để đọc bao; ảnh iCheck cùng mã (White Horse – Broadleaf Virginia, Khatoco) là bao đời cũ cảnh báo chữ, không thấy bao hiện hành có cảnh báo hình → không vẽ để tránh bịa thiết kế. Cần chụp thẳng mặt trước một bao",
-    "source": null,
+    "reason": "I3/I5: ảnh KiotViet là cả dãy bao trên quầy, quá nhỏ → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ nhỏ trên bao không vẽ; tem thuế bỏ theo khuôn danh mục",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-18",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh bao hiện hành trên khoithuocsaigon.com + ảnh bao đời cũ minhcaumart.vn (chỉ làm mẫu)",
+      "referenceUrl": "https://khoithuocsaigon.com/thuoc-la-white-horse-vnsx/"
+    },
     "rubricVersion": "v18"
   },
   "description": {
-    "decision": null,
-    "reason": null,
+    "decision": "WRITE_NEW",
+    "reason": "D1: theo khuôn danh mục; tên/loại theo chữ in trên bao (WHITE HORSE, BROADLEAF VIRGINIA), nhà sản xuất theo bảng danh mục (Khatoco, tiền tố 8934647)",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v23"
   },
   "question": null,
   "history": [
@@ -43,6 +51,32 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "no readable reference of the current pack (shelf photo; iCheck shows pre-graphic-warning design)"
+    },
+    {
+      "at": "2026-10-18T18:07:53Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-18T18:07:54Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "description written (WRITE_NEW) on 18/10 re-research"
+    },
+    {
+      "at": "2026-10-18T18:08:13.241Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-18T18:08:13.241Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

@@ -17,18 +17,29 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I5: ảnh KiotViet chỉ chụp cận một phần mặt hộp (mất mép, khối lượng, có dải khuyến mãi VinFast); không tìm được ảnh mẫu nào của hộp Bouchee vị phô mai (Kingfoodmart, Open Food Facts, web) → Gemini không vẽ đúng được, cần nhân viên chụp trọn mặt trước hộp (17/10/2026)",
-    "source": null,
-    "rubricVersion": "v17"
+    "reason": "I3/I5: ảnh KiotViet chụp cận một phần mặt hộp, có dải khuyến mãi → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: bỏ dải khuyến mãi góc trái trên (v17); chữ nhỏ 'Khối lượng tịnh: 324 g' hơi mờ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-18",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh hộp 12 gói trên trang hãng lottechocolat.com.vn/bouchee (có dải khuyến mãi VinFast, đã bỏ theo v17) + ảnh KiotViet",
+      "referenceUrl": "https://lottechocolat.com.vn/bouchee"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
-    "decision": "WRITE_NEW",
-    "reason": "D1: chưa có mô tả; mô tả ngắn chỉ từ tên hàng và chữ in mặt trước bao bì (không có trang hãng) ('Bouchee LOTTE CHOCOLAT vị Phô Mai')",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "REWRITE",
+    "reason": "D2: bổ sung quy cách theo hộp trên ảnh KiotViet (bản 12 gói, 324 g) và trang hãng lottechocolat.com.vn",
+    "source": {
+      "url": "https://lottechocolat.com.vn/bouchee",
+      "fetchedAt": "2026-10-18T18:17:14Z"
+    },
+    "rubricVersion": "v23"
   },
   "question": null,
   "history": [
@@ -49,6 +60,32 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "I3/I5: ảnh KiotViet chỉ chụp cận một phần mặt hộp (mất mép, khối lượng, có dải khuyến mãi VinFast); không tìm được ảnh mẫu nào của hộp Bouchee vị phô mai (Kingfoodmart, Open Food Facts, web) → Gemini không vẽ đúng được, cần nhân viên chụp trọn mặt trước hộp (17/10/2026)"
+    },
+    {
+      "at": "2026-10-18T18:16:53Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-18T18:17:14Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "description written (REWRITE) on 18/10 re-research"
+    },
+    {
+      "at": "2026-10-18T18:17:20.334Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-18T18:17:20.334Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

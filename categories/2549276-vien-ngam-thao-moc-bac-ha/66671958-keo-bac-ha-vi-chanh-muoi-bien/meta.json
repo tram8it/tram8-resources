@@ -20,9 +20,9 @@
   "status": "NEEDS_PHOTO",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh. Hàng nhập (mã 6973271301319), không có trang chính hãng; tra mã vạch/tên không ra ảnh bao bì nào → không biết hộp trông thế nào để vẽ lại. Cần nhân viên chụp mặt trước hộp.",
+    "reason": "I1: chưa có ảnh; tra lại 18/10 (mã vạch Kingfoodmart/OFF, \"海盐柠檬 薄荷糖 盒装 6973271301319\", \"kẹo bạc hà chanh muối biển\") — chỉ có hàng cùng loại khác hãng → cần chụp",
     "source": null,
-    "rubricVersion": "v17"
+    "rubricVersion": "v20"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -49,6 +49,12 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "rechecked v17: no reference image of the pack found; still needs staff photo"
+    },
+    {
+      "at": "2026-10-18T18:22:33.079Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "np18 re-research 18/10: still no image of this exact pack"
     }
   ]
 }

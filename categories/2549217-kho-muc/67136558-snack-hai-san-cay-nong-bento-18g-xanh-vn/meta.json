@@ -17,18 +17,26 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I2: ảnh là gói Thái có in giá '20', không phải bản VN (mã 893…); không tìm được ảnh mẫu bản VN Cay Nồng (snnp.co.th, Open Food Facts, web) → cần nhân viên chụp mặt trước gói (làm mẫu cho Gemini)",
-    "source": null,
-    "rubricVersion": "v17"
+    "reason": "I2: ảnh KiotViet là gói Thái; không có ảnh hãng bản VN → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ lớn khớp (Bento Max Extreme, Hot & Spicy, Snack Hải Sản Cay Nồng (Surimi trộn Mực) Hiệu Bento, 22 g (18 g + 4 g)); giữ cờ 'Thêm 20%' in sẵn như các gói cùng dãy",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-18",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh Kingfoodmart theo mã vạch (chỉ làm mẫu)",
+      "referenceUrl": "https://storage.googleapis.com/onelife-public/8935342400510.jpg"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
-    "reason": "D1: chưa có mô tả; không có trang hãng, mô tả ngắn chỉ từ tên SP; thành phần 'surimi trộn mực' theo chữ in trên bao bì Bento VN",
+    "reason": "D1: từ chữ in trên bao bì Bento VN (ảnh Kingfoodmart theo mã vạch)",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v23"
   },
   "question": null,
   "history": [
@@ -49,6 +57,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "Tìm ảnh mẫu lại (snnp.co.th, Open Food Facts, web) không thấy bao bì này → vẫn NEEDS_PHOTO"
+    },
+    {
+      "at": "2026-10-18T18:07:29Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-18T18:07:41.789Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-18T18:07:41.789Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }
