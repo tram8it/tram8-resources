@@ -20,14 +20,14 @@
   "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "chủ 18/10: ảnh phải đúng bao bì thật; vẽ lại gói thật từ ảnh KiotViet, bỏ ảnh minh hoạ món ăn → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: vẽ lại phẳng, sạch; chữ nhỏ không đọc được để mờ; độ nhăn màng khác ảnh thật",
+    "reason": "chủ 18/10: hàng là cốc nhựa cao, không phải hộp tròn → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: nhãn nắp chép từ ảnh thật, chữ nhỏ để mờ; lượng xoài trong cốc là minh hoạ",
     "source": {
       "aiGenerated": true,
       "tool": "Gemini API",
       "model": "gemini-nano-banana-2.1",
       "generatedAt": "2026-10-18",
       "style": "flat clean packaging render (v17)",
-      "reference": "ảnh KiotViet của SP (hàng thật tại quầy)"
+      "reference": "ảnh KiotViet (nhãn nắp) + ảnh cốc Fresh 2GO chủ gửi 18/10"
     },
     "rubricVersion": "v18"
   },
@@ -86,10 +86,22 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-18T17:33:33Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "redo after Hub rejection: Không đúng bao bì — Gemini API redraw (attempt 4, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-18T17:33:34.179Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-18T17:28:15.931Z",
+    "at": "2026-10-18T17:33:34.179Z",
     "fields": [
       "description",
       "image"
