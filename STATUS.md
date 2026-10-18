@@ -2,7 +2,7 @@
 
 > Sinh tự động bởi `node tools/status.mjs`. **Không sửa tay.** Nguồn sự thật là `meta.json` của từng SP.
 
-Tổng 2502 SP · đã xem 2502 (100%) · xong 1852 · chờ chủ duyệt 297 · cần chụp 317 · hỏi chủ 0
+Tổng 2502 SP · đã xem 2502 (100%) · xong 1852 · chờ chủ duyệt 304 · cần chụp 316 · hỏi chủ 0
 
 Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` = giữ nguyên + đã lên web.
 
@@ -80,8 +80,8 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 | 70 | Khăn ướt – khăn giấy | 0.0tr | 13 | 0 | 0 | 0 | 1 | 0 | 1 | 0 | 11 |
 | 71 | Pizza | 0.0tr | 13 | 0 | 9 | 0 | 0 | 0 | 2 | 0 | 2 |
 | 72 | Sữa chua ăn | 0.0tr | 13 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 12 |
-| 73 | Khô heo | 0.0tr | 14 | 0 | 0 | 2 | 5 | 0 | 0 | 0 | 7 |
-| 74 | Bàn chải - Người lớn | 0.0tr | 12 | 0 | 0 | 1 | 2 | 0 | 5 | 0 | 4 |
+| 73 | Khô heo | 0.0tr | 14 | 0 | 0 | 0 | 5 | 0 | 2 | 0 | 7 |
+| 74 | Bàn chải - Người lớn | 0.0tr | 12 | 0 | 0 | 0 | 2 | 0 | 6 | 0 | 4 |
 | 75 | Bánh gạo | 0.0tr | 13 | 0 | 0 | 0 | 3 | 0 | 1 | 0 | 9 |
 | 76 | Bánh mì kem tươi | 0.0tr | 12 | 0 | 11 | 0 | 1 | 0 | 0 | 0 | 0 |
 | 77 | Nước ngọt ít calories | 0.0tr | 12 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 11 |
@@ -115,9 +115,9 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 | 105 | Món ăn no | 0.0tr | 8 | 0 | 0 | 0 | 1 | 0 | 7 | 0 | 0 |
 | 106 | Dầu gội - Suôn mượt | 0.0tr | 8 | 0 | 0 | 0 | 0 | 0 | 4 | 0 | 4 |
 | 107 | Dưỡng da body | 0.0tr | 8 | 0 | 0 | 0 | 0 | 0 | 4 | 0 | 4 |
-| 108 | Pin các loại | 0.0tr | 8 | 0 | 0 | 3 | 3 | 0 | 1 | 0 | 1 |
+| 108 | Pin các loại | 0.0tr | 8 | 0 | 0 | 0 | 3 | 0 | 4 | 0 | 1 |
 | 109 | Soju Vị Trái Cây | 0.0tr | 8 | 0 | 6 | 0 | 0 | 0 | 1 | 0 | 1 |
-| 110 | Trái cây tươi | 0.0tr | 8 | 0 | 0 | 0 | 1 | 0 | 7 | 0 | 0 |
+| 110 | Trái cây tươi | 0.0tr | 8 | 0 | 0 | 0 | 0 | 0 | 8 | 0 | 0 |
 | 111 | Trà sữa | 0.0tr | 8 | 0 | 0 | 0 | 8 | 0 | 0 | 0 | 0 |
 | 112 | Bánh gạo / cơm cháy / bánh ngọt | 0.0tr | 8 | 0 | 0 | 0 | 8 | 0 | 0 | 0 | 0 |
 | 113 | Rong biển ăn liền | 0.0tr | 8 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 7 |

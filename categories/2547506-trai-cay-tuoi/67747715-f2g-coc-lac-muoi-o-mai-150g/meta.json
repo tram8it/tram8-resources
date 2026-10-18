@@ -17,12 +17,19 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "Chủ 17/10: ảnh món ăn đồng bộ (v22). Ảnh Gemini vẽ ra lẫn miếng xoài vào hộp cóc (sai SP); chưa sửa được vì hết tín dụng Gemini API → vẽ lại khi có tín dụng (work/gemini/67747715).",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "ảnh minh hoạ món ăn (v22): chủ 17/10 muốn ảnh món ăn hấp dẫn, đồng bộ một phong cách cho cả nhóm; lần vẽ trước lẫn miếng xoài → ảnh món ăn Gemini vẽ từ ảnh bao bì (v18: món hấp bán lẻ hiện cái bánh và nhân); ảnh minh hoạ. Khác hàng thật: ảnh minh hoạ: cóc non gọt vỏ (nguyên trái + nửa trái) rắc muối ô mai, kèm hũ muối ô mai riêng; số trái và kích cỡ minh hoạ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-18",
+      "style": "food photo, whole + cut showing filling (v18)",
+      "reference": "ảnh KiotViet của SP (nhãn hộp, chỉ làm mẫu) + ảnh mẫu phong cách chung của bộ"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -49,6 +56,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "v22 food render had mango pieces mixed in; fix blocked by Gemini 402 (credits depleted)"
+    },
+    {
+      "at": "2026-10-18T00:17:31Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "retry after Gemini credit top-up: fixed food render (only peeled baby cóc + ô mai salt cup, no mango) — Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-18T00:19:05.647Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-18T00:19:05.647Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

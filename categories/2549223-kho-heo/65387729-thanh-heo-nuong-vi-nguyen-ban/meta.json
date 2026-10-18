@@ -17,18 +17,17 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "IN_PROGRESS",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I4/I5: ảnh điện thoại chụp cận hộp; SP bán 1 thanh (gói 10 g), chưa có ảnh gói lẻ → Gemini vẽ miếng heo nướng vị nguyên bản theo hình trên hộp (ảnh minh hoạ) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: ảnh minh hoạ miếng thịt, không phải bao bì; khách nhận 1 gói 10 g (chưa có ảnh gói lẻ); hình dạng/số miếng trong gói có thể khác",
+    "reason": "Chủ: ảnh không đúng, phải có bao bì → vẽ túi lớn 150 g (15 gói x 10 g) như ảnh KiotViet → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: ảnh KiotViet bị cắt mép nên mép túi vẽ suy ra; đơn vị bán là thanh 10 g, chưa có ảnh gói 10 g riêng",
     "source": {
       "aiGenerated": true,
       "tool": "Gemini API",
       "model": "gemini-nano-banana-2.1",
-      "generatedAt": "2026-10-17",
+      "generatedAt": "2026-10-18",
       "style": "flat clean packaging render (v17)",
-      "reference": "ảnh KiotViet hộp 150 g (chỉ làm mẫu)",
-      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/05/01/tram8/9b6e8d3497d54d49980f8f91ca27894b.jpeg"
+      "reference": "ảnh KiotViet túi 150 g (chỉ làm mẫu)"
     },
     "rubricVersion": "v18"
   },
@@ -75,10 +74,22 @@
       "by": "owner",
       "status": "IN_PROGRESS",
       "note": "rejected on Hub by AU KHUONG DUY: Ảnh ko đúng, phải có bao bì"
+    },
+    {
+      "at": "2026-10-18T00:19:55Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "redo after Hub rejection: Ảnh ko đúng, phải có bao bì — Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-18T00:19:55.564Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-17T09:11:01.577Z",
+    "at": "2026-10-18T00:19:55.564Z",
     "fields": [
       "description",
       "image"

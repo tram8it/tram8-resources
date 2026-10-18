@@ -17,20 +17,20 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "IN_PROGRESS",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I4: ảnh chụp tay cầm, nền thùng hàng; đơn vị cây = 1 cây lẻ tách từ vỉ 2 cây (chủ 17/10) → Gemini vẽ 1 cây (cây cán xanh bên phải), ảnh minh hoạ, không bao bì → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: ảnh minh hoạ 1 cây cán bạc-xanh; vỉ còn 1 cây cán hồng, khách có thể nhận màu khác",
+    "reason": "Chủ: cần bao bì → vỉ 2 bàn chải như hàng thật → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: vỉ đôi như ảnh Kingfoodmart (hàng thật trên kệ có 1 cây hồng + 1 cây xám); bỏ nhãn khuyến mãi; chữ nhỏ không đọc được",
     "source": {
       "aiGenerated": true,
       "tool": "Gemini API",
       "model": "gemini-nano-banana-2.1",
-      "generatedAt": "2026-10-17",
+      "generatedAt": "2026-10-18",
       "style": "flat clean packaging render (v17)",
-      "reference": "ảnh KiotViet (vỉ 2 cây cầm tay, bao bì tiếng Anh)",
-      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/10/01/tram8/7079ae93fca444d5937f6caa895c1e37.jpeg"
+      "reference": "ảnh Kingfoodmart cùng mã vạch + ảnh KiotViet (chỉ làm mẫu)",
+      "referenceUrl": "https://storage.googleapis.com/onelife-public/8850006332559.jpg"
     },
-    "rubricVersion": "v19"
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -87,10 +87,22 @@
       "by": "owner",
       "status": "IN_PROGRESS",
       "note": "rejected on Hub by AU KHUONG DUY: Cần bao bì"
+    },
+    {
+      "at": "2026-10-18T00:18:54Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "redo after Hub rejection: Cần bao bì — Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-18T00:18:55.189Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-17T09:12:23.565Z",
+    "at": "2026-10-18T00:18:55.189Z",
     "fields": [
       "description",
       "image"

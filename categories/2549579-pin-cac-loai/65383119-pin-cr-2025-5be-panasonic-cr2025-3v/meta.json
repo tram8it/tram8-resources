@@ -17,17 +17,17 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "IN_PROGRESS",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh đạt chuẩn; đơn vị bán là 1 viên (v19) nên ảnh minh hoạ 1 viên pin, Gemini vẽ lại → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: ảnh minh hoạ 1 viên pin rời (không vỉ); vị trí chữ khắc trên mặt pin có thể khác pin thật",
+    "reason": "Chủ: cần bao bì; đơn vị bán 1 viên → vẽ vỉ 1 viên → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: tên ghi /5BE (dây 5 vỉ), cửa hàng bán lẻ từng viên nên vẽ 1 vỉ 1 viên; viên pin màu bạc sáng hơn ảnh mẫu",
     "source": {
       "aiGenerated": true,
       "tool": "Gemini API",
       "model": "gemini-nano-banana-2.1",
-      "generatedAt": "2026-10-17",
+      "generatedAt": "2026-10-18",
       "style": "flat clean packaging render (v17)",
-      "reference": "ảnh viên pin Panasonic CR2025 trên batteryjunction.com (chỉ làm mẫu)",
+      "reference": "ảnh vỉ pin Panasonic CR2025 trên batteryjunction.com (chỉ làm mẫu)",
       "referenceUrl": "https://www.batteryjunction.com/panasonic-cr2025"
     },
     "rubricVersion": "v18"
@@ -81,10 +81,22 @@
       "by": "owner",
       "status": "IN_PROGRESS",
       "note": "rejected on Hub by AU KHUONG DUY: Cần bao bì"
+    },
+    {
+      "at": "2026-10-18T00:18:46Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "redo after Hub rejection: Cần bao bì — Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-18T00:18:46.663Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-17T09:11:18.059Z",
+    "at": "2026-10-18T00:18:46.663Z",
     "fields": [
       "description",
       "image"

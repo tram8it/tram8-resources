@@ -17,18 +17,17 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "IN_PROGRESS",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I4/I5: ảnh điện thoại chụp cận hộp; SP bán 1 thanh (gói 10 g), chưa có ảnh gói lẻ → Gemini vẽ miếng heo nướng vị mala theo hình trên hộp (ảnh minh hoạ) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: ảnh minh hoạ miếng thịt, không phải bao bì; khách nhận 1 gói 10 g (chưa có ảnh gói lẻ); hình dạng/số miếng trong gói có thể khác",
+    "reason": "Chủ: cần bao bì → vẽ túi lớn 150 g (15 gói x 10 g) như ảnh KiotViet → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: ảnh KiotViet bị cắt mép nên mép túi vẽ suy ra; đơn vị bán là thanh 10 g, chưa có ảnh gói 10 g riêng",
     "source": {
       "aiGenerated": true,
       "tool": "Gemini API",
       "model": "gemini-nano-banana-2.1",
-      "generatedAt": "2026-10-17",
+      "generatedAt": "2026-10-18",
       "style": "flat clean packaging render (v17)",
-      "reference": "ảnh KiotViet hộp 150 g (chỉ làm mẫu)",
-      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/05/01/tram8/6707e03143f74c91888ee345178f644e.jpeg"
+      "reference": "ảnh KiotViet túi 150 g (chỉ làm mẫu)"
     },
     "rubricVersion": "v18"
   },
@@ -75,10 +74,22 @@
       "by": "owner",
       "status": "IN_PROGRESS",
       "note": "rejected on Hub by AU KHUONG DUY: Cần bao bì"
+    },
+    {
+      "at": "2026-10-18T00:18:58Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "redo after Hub rejection: Cần bao bì — Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-18T00:18:58.461Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-17T09:10:59.394Z",
+    "at": "2026-10-18T00:18:58.461Z",
     "fields": [
       "description",
       "image"
