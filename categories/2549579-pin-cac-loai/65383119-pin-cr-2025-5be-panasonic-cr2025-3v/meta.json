@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "Chủ: cần bao bì; đơn vị bán 1 viên → vẽ vỉ 1 viên → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: tên ghi /5BE (dây 5 vỉ), cửa hàng bán lẻ từng viên nên vẽ 1 vỉ 1 viên; viên pin màu bạc sáng hơn ảnh mẫu",
@@ -93,6 +93,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-18T17:16:08.691Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -104,9 +110,26 @@
     "hubStatus": "PENDING"
   },
   "review": {
-    "status": "REJECTED",
+    "status": "APPLIED",
     "reviewedBy": "AU KHUONG DUY",
-    "reviewedAt": "2026-10-17T09:19:40.681Z",
-    "note": "Cần bao bì"
+    "reviewedAt": "2026-10-18T17:10:43.181Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-18T17:10:43.181Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/a687ffcc140d574e249111fee21d9005fe8840907be8a5dda129fa532e387089.webp"
+        ],
+        "from": null
+      },
+      "description": {
+        "to": "Pin cúc áo Panasonic CR2025, pin lithium 3V dạng đồng xu, dùng cho đồng hồ, chìa khóa xe, cân điện tử, điều khiển nhỏ.\n\nQuy cách: bán lẻ 1 viên (tách từ vỉ 5 viên) · cỡ CR2025 · 3V\nNhà sản xuất/thương hiệu: Panasonic",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

@@ -20,17 +20,16 @@
   "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "ảnh minh hoạ món ăn (v22): chủ 17/10 muốn ảnh món ăn hấp dẫn, đồng bộ một phong cách cho cả nhóm; ảnh cũ là ảnh bao bì/ảnh chụp gói → ảnh món ăn Gemini vẽ từ ảnh bao bì (v18: món hấp bán lẻ hiện cái bánh và nhân); ảnh minh hoạ. Khác hàng thật: ảnh minh hoạ: cơm nắm đã bóc màng, không thấy bao bì Onigiri Việt; nhân vẽ theo tên SP, hình dạng/lượng nhân thật có thể khác",
+    "reason": "chủ 18/10: cơm nắm theo phong cách ảnh bao bì Onigiri Bò BBQ, không vẽ món ăn → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: vẽ lại bao bì gọn kiểu Bò BBQ; nhãn vị chép từ ảnh thật; chữ nhỏ trên nhãn có thể khác",
     "source": {
       "aiGenerated": true,
       "tool": "Gemini API",
       "model": "gemini-nano-banana-2.1",
-      "generatedAt": "2026-10-17",
-      "style": "food photo, one house style for fresh/ready-to-eat set (v22)",
-      "reference": "ảnh KiotViet của SP (hàng thật, chỉ làm mẫu) + ảnh mẫu phong cách chung của bộ",
-      "postProcess": "background whitened + framed ~75% width (scratch whiten.py), food pixels untouched except global white point"
+      "generatedAt": "2026-10-18",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet của SP (nhãn vị) + ảnh Bò BBQ chủ duyệt (mẫu phong cách)"
     },
-    "rubricVersion": "v22"
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -69,14 +68,38 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-18T17:16:08.691Z",
+      "by": "owner",
+      "status": "IN_PROGRESS",
+      "note": "rejected on Hub by AU KHUONG DUY: Xem lại các sp bị từ chối khác để biết lý do từ chối cơm nắm"
+    },
+    {
+      "at": "2026-10-18T17:20:20Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "redo after Hub rejection: Xem lại các sp bị từ chối khác để biết lý do từ chối cơm nắm — Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-18T17:20:20.667Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-17T17:52:02.261Z",
+    "at": "2026-10-18T17:20:20.667Z",
     "fields": [
       "description",
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "REJECTED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-18T17:01:01.406Z",
+    "note": "Xem lại các sp bị từ chối khác để biết lý do từ chối cơm nắm"
   }
 }

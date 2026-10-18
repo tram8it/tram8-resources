@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "Chủ: không giống ảnh → vẽ ly nắp đóng như ảnh KiotViet → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: bỏ dấu ngày/lô; nhãn tiếng Việt + bảng dinh dưỡng Thái chép theo ảnh KiotViet; ly in 60 g (tên ghi 18x55g — theo bao bì, v19)",
@@ -92,6 +92,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-18T17:16:08.691Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -103,9 +109,28 @@
     "hubStatus": "PENDING"
   },
   "review": {
-    "status": "REJECTED",
+    "status": "APPLIED",
     "reviewedBy": "AU KHUONG DUY",
-    "reviewedAt": "2026-10-17T09:04:30.531Z",
-    "note": "Không giống ảnh"
+    "reviewedAt": "2026-10-18T17:11:37.739Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-18T17:11:37.739Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/aafbdee00936b6212376dc4a1aa88ad05b8ac61d130a44f18929d9726575a104.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/04/30/tram8/94df8fa269d6498e96cd26564d31bced.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Kem ly Nestlé MILO vị sô cô la lúa mạch, ly nhỏ ăn liền.\n\nQuy cách: 55 g · ly\nNhà sản xuất/thương hiệu: Nestlé · MILO",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "READY",
+  "status": "IN_PROGRESS",
   "image": {
     "decision": "REPLACE",
     "reason": "Chủ: ảnh không đúng, phải có bao bì → vẽ túi lớn 150 g (15 gói x 10 g) như ảnh KiotViet → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: ảnh KiotViet bị cắt mép nên mép túi vẽ suy ra; đơn vị bán là thanh 10 g, chưa có ảnh gói 10 g riêng",
@@ -86,6 +86,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-18T17:16:08.691Z",
+      "by": "owner",
+      "status": "IN_PROGRESS",
+      "note": "rejected on Hub by AU KHUONG DUY: Kiểm tra ảnh sp thật trên web trước khi gen lại"
     }
   ],
   "submitted": {
@@ -99,7 +105,7 @@
   "review": {
     "status": "REJECTED",
     "reviewedBy": "AU KHUONG DUY",
-    "reviewedAt": "2026-10-17T09:17:57.283Z",
-    "note": "Ảnh ko đúng, phải có bao bì"
+    "reviewedAt": "2026-10-18T17:07:00.866Z",
+    "note": "Kiểm tra ảnh sp thật trên web trước khi gen lại"
   }
 }

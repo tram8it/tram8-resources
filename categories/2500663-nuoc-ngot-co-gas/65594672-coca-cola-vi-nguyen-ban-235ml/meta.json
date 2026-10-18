@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "ảnh tự chụp (mềm, bóng lóa); không có ảnh hãng đúng bao bì → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: lon vẽ hơi cao hơn lon 235 ml thật; ô năng lượng nhỏ bên phải chép từ lon 320 ml, có thể không khớp số của lon 235 ml · Chủ: tỉ lệ hơi béo → co ngang ảnh cho lon cao/rộng ≈ 2,06 như ảnh KiotViet lon 235 ml",
@@ -91,6 +91,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-18T17:16:08.691Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -102,9 +108,28 @@
     "hubStatus": "PENDING"
   },
   "review": {
-    "status": "REJECTED",
+    "status": "APPLIED",
     "reviewedBy": "AU KHUONG DUY",
-    "reviewedAt": "2026-10-17T16:45:26.607Z",
-    "note": "Tỉ lệ hơi béo so với thực tế"
+    "reviewedAt": "2026-10-18T17:10:29.072Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-18T17:10:29.072Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/955e6a61f9ef0ca6305e928b16757df488a8c2e57761da960ffdf4cd5d4c79c2.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/27/tram8/7e8d7ced49f74e1981150aca625164d1.png"
+        ]
+      },
+      "description": {
+        "to": "Nước ngọt có gas Coca-Cola vị nguyên bản, vị cola đặc trưng có chút caffeine, lon nhỏ 235 ml vừa một lần uống. Sản phẩm của Coca-Cola Việt Nam.\n\nThành phần: nước bão hòa CO₂, đường HFCS, đường mía, màu tự nhiên (150d), chất điều chỉnh độ acid (338), hương liệu tự nhiên, caffeine.\nQuy cách: 235 ml · lon\nNhà sản xuất/thương hiệu: Coca-Cola Việt Nam · Coca-Cola",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "Chủ: gói méo mó quá → vẽ phẳng, vuông vắn → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: dòng chữ nhỏ dưới 'Không cần nướng' để mờ",
@@ -80,6 +80,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-18T17:16:08.691Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -91,9 +97,28 @@
     "hubStatus": "PENDING"
   },
   "review": {
-    "status": "REJECTED",
+    "status": "APPLIED",
     "reviewedBy": "AU KHUONG DUY",
-    "reviewedAt": "2026-10-17T14:20:06.140Z",
-    "note": "Nó méo mó quá"
+    "reviewedAt": "2026-10-18T17:11:34.664Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-18T17:11:34.664Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/db1a48e1d5042cfc141ac4aeccf6bb3aa003a4ffe512c998e6e3adad36e5c39b.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/27/tram8/b8915075068f4f66b28c0dd050881f64.png"
+        ]
+      },
+      "description": {
+        "to": "Bánh mỳ sandwich kẹp thịt vị bò tiêu đen của thương hiệu Dominatte, ăn liền, không cần nướng.\n\nQuy cách: 85 g · cái\nThương hiệu: Dominatte",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

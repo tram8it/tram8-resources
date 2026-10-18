@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I3: ảnh KiotViet chụp kệ cả thùng 24 chai; ảnh hãng là bản EU in 4,7% không khớp hàng Trung Quốc → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Bỏ dòng độ cồn trên nhãn (bản EU in 4,7%, hàng đang bán là bản Trung Quốc); dải dưới nhãn có thể khác màu nhẹ",
@@ -66,6 +66,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-18T17:16:08.691Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -75,5 +81,92 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T17:48:06.951Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T17:48:06.951Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/96440f08ac184b4c187e949bc8b572caae25b817d7ef5547ec356a57932c3188.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/10/16/tram8/eda4d3ed4dc54039bda20fc9bf2481fc.jpeg",
+          "https://cdn2-retail-images.kiotviet.vn/2026/10/16/tram8/e03f46747278427d996f63bd68b56cff.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Bia lúa mì Vedett Extra White (bia trắng kiểu Bỉ) của thương hiệu Vedett (Duvel Moortgat), chai nâu nhãn xanh trắng hình chú gấu trắng; lô hàng đang bán ghi xuất xứ Trung Quốc trên thùng.\n\nQuy cách: 330 ml · chai\nThương hiệu: Vedett\nSản phẩm dành cho người từ 18 tuổi trở lên.",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {
+      "price": {
+        "to": 69444.44,
+        "from": 68181.82
+      },
+      "saleTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 68504802
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 68504802
+        }
+      },
+      "taxRate": {
+        "to": "VAT 8%",
+        "from": "VAT 10%"
+      },
+      "productTaxs": {
+        "to": [
+          {
+            "id": 0,
+            "name": "VAT 8%",
+            "taxId": 3,
+            "value": 8,
+            "productId": 68504802
+          }
+        ],
+        "from": [
+          {
+            "id": 0,
+            "name": "VAT 10%",
+            "taxId": 4,
+            "value": 10,
+            "productId": 68504802
+          }
+        ]
+      },
+      "purchaseTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 68504802
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 68504802
+        }
+      }
+    }
   }
 }

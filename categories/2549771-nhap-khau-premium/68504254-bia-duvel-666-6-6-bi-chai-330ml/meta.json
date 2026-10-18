@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I3: ảnh KiotViet là ảnh quảng cáo có ly, nhiều chai, nền tối; duvel.com không có ảnh chai riêng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Chữ nhỏ góc phải dưới để mờ; không thấy khác biệt chính",
@@ -66,6 +66,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-18T17:16:08.691Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -75,5 +81,92 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T17:47:54.791Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T17:47:54.791Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/619e5f8e3fab9974ef79ba2f952657d1e7ffa1c4b50572a4e3c8f1943184b17b.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/10/16/tram8/fa94ca7153294a80a8400137daba54da.jpeg",
+          "https://cdn2-retail-images.kiotviet.vn/2026/10/16/tram8/12827fcefb114a52ab9a1e619fed7d02.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Bia Duvel 6,66%, bia vàng kiểu Bỉ (Belgian Blond) của nhà bia Duvel Moortgat, nấu từ malt đại mạch, malt lúa mì và 6 loại hoa bia, vị nhẹ và dễ uống hơn Duvel nguyên bản.\n\nQuy cách: 330 ml · chai · 6,66% vol\nXuất xứ: Bỉ · Thương hiệu: Duvel\nSản phẩm dành cho người từ 18 tuổi trở lên.",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {
+      "price": {
+        "to": 87037.04,
+        "from": 85454.55
+      },
+      "saleTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 68504254
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 68504254
+        }
+      },
+      "taxRate": {
+        "to": "VAT 8%",
+        "from": "VAT 10%"
+      },
+      "productTaxs": {
+        "to": [
+          {
+            "id": 0,
+            "name": "VAT 8%",
+            "taxId": 3,
+            "value": 8,
+            "productId": 68504254
+          }
+        ],
+        "from": [
+          {
+            "id": 0,
+            "name": "VAT 10%",
+            "taxId": 4,
+            "value": 10,
+            "productId": 68504254
+          }
+        ]
+      },
+      "purchaseTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 68504254
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 68504254
+        }
+      }
+    }
   }
 }

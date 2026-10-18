@@ -17,20 +17,19 @@
     "description": "Cơm nắm tam giác Onigiri Việt nhân gà Teriyaki, bọc rong biển, đóng gói kiểu Nhật với dải xé mở theo thứ tự 1–2–3. Tiện dùng cho bữa sáng hoặc bữa nhẹ.\n\nQuy cách: cái\nNhà sản xuất/thương hiệu: Onigiri Việt",
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "READY",
+  "status": "NO_CHANGE",
   "image": {
-    "decision": "REPLACE",
-    "reason": "ảnh minh hoạ món ăn (v22): chủ 17/10 muốn ảnh món ăn hấp dẫn, đồng bộ một phong cách cho cả nhóm; ảnh cũ là ảnh bao bì/ảnh chụp gói → ảnh món ăn Gemini vẽ từ ảnh bao bì (v18: món hấp bán lẻ hiện cái bánh và nhân); ảnh minh hoạ. Khác hàng thật: ảnh minh hoạ: cơm nắm đã bóc màng, không thấy bao bì Onigiri Việt; nhân vẽ theo tên SP, hình dạng/lượng nhân thật có thể khác",
+    "decision": "KEEP",
+    "reason": "chủ 18/10: ảnh bao bì ONIGIRI Việt đang trên web là đẹp, giữ nguyên; bỏ ảnh minh hoạ món ăn v22",
     "source": {
       "aiGenerated": true,
       "tool": "Gemini API",
       "model": "gemini-nano-banana-2.1",
       "generatedAt": "2026-10-17",
-      "style": "food photo, one house style for fresh/ready-to-eat set (v22)",
-      "reference": "ảnh KiotViet của SP (hàng thật, chỉ làm mẫu) + ảnh mẫu phong cách chung của bộ",
-      "postProcess": "background whitened + framed ~75% width (scratch whiten.py), food pixels untouched except global white point"
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh SP cùng dòng Onigiri Việt (Gà Tomyum, Cá Ngừ Mayo)"
     },
-    "rubricVersion": "v22"
+    "rubricVersion": "v23"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -99,6 +98,18 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-18T17:16:08.691Z",
+      "by": "owner",
+      "status": "IN_PROGRESS",
+      "note": "rejected on Hub by AU KHUONG DUY: Xem lại các sp bị từ chối khác để biết lý do từ chối cơm nắm"
+    },
+    {
+      "at": "2026-10-18T17:18:45.421Z",
+      "by": "owner",
+      "status": "NO_CHANGE",
+      "note": "chủ 18/10: ảnh hiện tại (bao bì Onigiri) đẹp rồi, giữ; các cơm nắm khác theo phong cách này"
     }
   ],
   "submitted": {
@@ -110,10 +121,10 @@
     "hubStatus": "PENDING"
   },
   "review": {
-    "status": "APPLIED",
+    "status": "REJECTED",
     "reviewedBy": "AU KHUONG DUY",
-    "reviewedAt": "2026-10-17T15:52:48.034Z",
-    "note": null
+    "reviewedAt": "2026-10-18T17:00:58.117Z",
+    "note": "Xem lại các sp bị từ chối khác để biết lý do từ chối cơm nắm"
   },
   "uploaded": {
     "at": "2026-10-17T15:52:48.034Z",

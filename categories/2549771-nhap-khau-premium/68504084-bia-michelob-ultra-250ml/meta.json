@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I3/I4: ảnh chụp điện thoại trong cửa hàng, nền thùng/kệ, lon bị cắt; không có ảnh hãng dùng được → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Lon xanh như hàng trên kệ (Kingfoodmart cùng mã vạch còn ảnh lon trắng đời trước/khác); chữ nhỏ dưới đáy để mờ · Chủ: tỉ lệ sai, lon không béo thế → co ngang cho lon cao/rộng ≈ 2,08 như ảnh Kingfoodmart lon 250 ml; giữ màu xanh như ảnh KiotViet (hàng trên kệ)",
@@ -81,6 +81,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-18T17:16:08.691Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -92,9 +98,89 @@
     "hubStatus": "PENDING"
   },
   "review": {
-    "status": "REJECTED",
+    "status": "APPLIED",
     "reviewedBy": "AU KHUONG DUY",
-    "reviewedAt": "2026-10-17T17:46:10.591Z",
-    "note": "tỉ lệ sai rồi, nó k béo thế"
+    "reviewedAt": "2026-10-18T17:10:36.088Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-18T17:10:36.088Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/11056baaa5eae3b4cf31921d160beb6bda164c36180446cdb95ac65fc4c308c6.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/10/16/tram8/796411f4d30c4d13abeee1f615c5f632.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Bia Michelob ULTRA, bia nhẹ (Superior Light Beer) vị êm; lon in 68 calo và 2,1 g carb mỗi 250 ml.\n\nQuy cách: 250 ml · lon\nThương hiệu: Michelob ULTRA\nSản phẩm dành cho người từ 18 tuổi trở lên.",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {
+      "price": {
+        "to": 16666.67,
+        "from": 16363.64
+      },
+      "saleTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 68504084
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 68504084
+        }
+      },
+      "taxRate": {
+        "to": "VAT 8%",
+        "from": "VAT 10%"
+      },
+      "productTaxs": {
+        "to": [
+          {
+            "id": 0,
+            "name": "VAT 8%",
+            "taxId": 3,
+            "value": 8,
+            "productId": 68504084
+          }
+        ],
+        "from": [
+          {
+            "id": 0,
+            "name": "VAT 10%",
+            "taxId": 4,
+            "value": 10,
+            "productId": 68504084
+          }
+        ]
+      },
+      "purchaseTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 68504084
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 68504084
+        }
+      }
+    }
   }
 }

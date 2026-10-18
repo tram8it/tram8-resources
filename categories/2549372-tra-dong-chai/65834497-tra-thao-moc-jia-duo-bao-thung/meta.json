@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "Chủ: nhìn méo, không giống → vẽ lại lon thẳng đứng, theo mã vạch (JDB Herbal Tea 310 ml) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ dọc nhỏ hai bên vẽ gần đúng; ảnh KiotViet cũ là lon Vương Lão Cát (khác hãng), đã theo mã vạch",
@@ -87,6 +87,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-18T17:16:08.691Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -98,9 +104,28 @@
     "hubStatus": "PENDING"
   },
   "review": {
-    "status": "REJECTED",
+    "status": "APPLIED",
     "reviewedBy": "AU KHUONG DUY",
-    "reviewedAt": "2026-10-17T15:31:13.260Z",
-    "note": "Nhìn méo méo k giống lắm"
+    "reviewedAt": "2026-10-18T17:11:28.017Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-18T17:11:28.017Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/a34a89959753f30fafd1b11cf5a474d062e7a5af337ac50063d5b1ec20b67a45.webp"
+        ],
+        "from": [
+          "https://cdn1-retail-images.kiotviet.vn/2026/07/30/tram8/aede1e1274d24e4690e729e32ac33b87.png"
+        ]
+      },
+      "description": {
+        "to": "Trà thảo mộc JDB Herbal Tea (Jiaduobao) đóng lon.\n\nQuy cách: 310 ml · lon\nThương hiệu: JDB (Jiaduobao)",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

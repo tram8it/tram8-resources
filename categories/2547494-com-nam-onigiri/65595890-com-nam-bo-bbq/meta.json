@@ -17,20 +17,20 @@
     "description": "Cơm nắm tam giác Onigiri Việt nhân bò BBQ, bọc rong biển, đóng gói kiểu Nhật với dải xé mở theo thứ tự 1–2–3. Tiện dùng cho bữa sáng hoặc bữa nhẹ.\n\nQuy cách: cái\nNhà sản xuất/thương hiệu: Onigiri Việt",
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "READY",
+  "status": "NO_CHANGE",
   "image": {
-    "decision": "REPLACE",
-    "reason": "ảnh minh hoạ món ăn (v22): chủ 17/10 muốn ảnh món ăn hấp dẫn, đồng bộ một phong cách cho cả nhóm; ảnh cũ là ảnh bao bì/ảnh chụp gói → ảnh món ăn Gemini vẽ từ ảnh bao bì (v18: món hấp bán lẻ hiện cái bánh và nhân); ảnh minh hoạ. Khác hàng thật: ảnh minh hoạ: cơm nắm đã bóc màng, không thấy bao bì Onigiri Việt; nhân vẽ theo tên SP, hình dạng/lượng nhân thật có thể khác",
+    "decision": "KEEP",
+    "reason": "chủ 18/10: ảnh bao bì ONIGIRI Việt đang trên web là đẹp, giữ nguyên; bỏ ảnh minh hoạ món ăn v22",
     "source": {
       "aiGenerated": true,
       "tool": "Gemini API",
       "model": "gemini-nano-banana-2.1",
       "generatedAt": "2026-10-17",
-      "style": "food photo, one house style for fresh/ready-to-eat set (v22)",
-      "reference": "ảnh KiotViet của SP (hàng thật, chỉ làm mẫu) + ảnh mẫu phong cách chung của bộ",
-      "postProcess": "background whitened + framed ~75% width (scratch whiten.py), food pixels untouched except global white point"
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet của cửa hàng (chỉ làm mẫu)",
+      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/07/30/tram8/1316f5e4c8894943b46363126277f23b.png"
     },
-    "rubricVersion": "v22"
+    "rubricVersion": "v23"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -99,6 +99,18 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-18T17:16:08.691Z",
+      "by": "owner",
+      "status": "IN_PROGRESS",
+      "note": "rejected on Hub by AU KHUONG DUY: Cái hiện tại là đẹp rồi, và các cái khác nên theo phong cách của cái này"
+    },
+    {
+      "at": "2026-10-18T17:18:45.208Z",
+      "by": "owner",
+      "status": "NO_CHANGE",
+      "note": "chủ 18/10: ảnh hiện tại (bao bì Onigiri) đẹp rồi, giữ; các cơm nắm khác theo phong cách này"
     }
   ],
   "submitted": {
@@ -110,10 +122,10 @@
     "hubStatus": "PENDING"
   },
   "review": {
-    "status": "APPLIED",
+    "status": "REJECTED",
     "reviewedBy": "AU KHUONG DUY",
-    "reviewedAt": "2026-10-17T16:49:20.115Z",
-    "note": null
+    "reviewedAt": "2026-10-18T16:58:25.065Z",
+    "note": "Cái hiện tại là đẹp rồi, và các cái khác nên theo phong cách của cái này"
   },
   "uploaded": {
     "at": "2026-10-17T16:49:20.115Z",

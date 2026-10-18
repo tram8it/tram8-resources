@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "Chủ: chưa ổn, vẽ vuông vắn hơn → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: dòng chữ nhỏ trong ngoặc dưới 净含量:85克 để mờ",
@@ -80,6 +80,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-18T17:16:08.691Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -91,9 +97,28 @@
     "hubStatus": "PENDING"
   },
   "review": {
-    "status": "REJECTED",
+    "status": "APPLIED",
     "reviewedBy": "AU KHUONG DUY",
-    "reviewedAt": "2026-10-17T14:19:44.781Z",
-    "note": "Ảnh này chưa ổn. Vẽ vuông vắn hơn đc ko?"
+    "reviewedAt": "2026-10-18T17:11:31.517Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-18T17:11:31.517Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/b717aa2c01dcdee9b3fa966a3ab60951bfe2c361f17e86ab1914fc336f7eb656.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/27/tram8/352c15805f6046468f4bc4df0a3de1bb.png"
+        ]
+      },
+      "description": {
+        "to": "Bánh mì hamburger nhân thịt bò sốt tiêu đen (Black Pepper Beef Burger), bao bì tiếng Trung – Anh. Theo bao bì: bánh không chiên, miếng nhân có hàm lượng thịt từ 65%, ăn liền.\n\nQuy cách: 85 g · cái",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "Chủ: gói hơi ảo, không giống thật → vẽ túi bo góc, có lỗ treo, mép hàn phẳng như hàng thật → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt; 50 g ± 2g như bao bì",
@@ -92,6 +92,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-18T17:16:08.691Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -103,9 +109,28 @@
     "hubStatus": "PENDING"
   },
   "review": {
-    "status": "REJECTED",
+    "status": "APPLIED",
     "reviewedBy": "AU KHUONG DUY",
-    "reviewedAt": "2026-10-17T17:25:09.822Z",
-    "note": "cái gói này hơi ảo, cảm giác k giống thật lắm"
+    "reviewedAt": "2026-10-18T17:11:51.713Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-18T17:11:51.713Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/e346fe62623b8020d0508edf7734bca94bcb47ad738561b5706dfe2ac3124f3f.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/04/26/tram8/fca7410bb62045499ac562ba2101b008.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Snack Midas bò xốt mỹ vị: miếng snack dẹt tẩm xốt cay đậm vị bò, rắc mè.\n\nQuy cách: 50 g · gói\nXuất xứ: Việt Nam · Nhà sản xuất: Công ty TNHH Thực phẩm quốc tế Lê Minh · Midas",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

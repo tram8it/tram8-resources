@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "Chủ: không giống SP trong ảnh → vẽ lại ly mini thấp, nắp giấy bạc vàng như ảnh KiotViet → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt; bỏ mã lô in trên thân ly",
@@ -89,6 +89,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-18T17:16:08.691Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -100,9 +106,28 @@
     "hubStatus": "PENDING"
   },
   "review": {
-    "status": "REJECTED",
+    "status": "APPLIED",
     "reviewedBy": "AU KHUONG DUY",
-    "reviewedAt": "2026-10-17T09:18:20.944Z",
-    "note": "Ko giống sp trong ảnh lắm"
+    "reviewedAt": "2026-10-18T17:11:58.418Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-18T17:11:58.418Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/17c189737e246e43d0949c071f241a365ae614f5827d281be81bef3b243ea4e5.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/24/tram8/9c64f6310348438fb0ffd569fc5c436a.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Kem vani Meiji Essel Super Cup Mini \"Chou Vanilla\" (超バニラ) – ly kem nhỏ vị vani đậm của Meiji Nhật Bản.\n\nQuy cách: bán lẻ 1 ly mini 80 ml (tách từ hộp 6 ly × 80 ml = 480 ml) · loại lacto ice (ラクトアイス)\nThành phần: sản phẩm sữa, dầu thực vật, đường, mạch nha, lòng đỏ trứng, muối; hương liệu, màu annatto.\nDị ứng: có trứng, sữa.\nNăng lượng: 150 kcal/ly 80 ml.\nXuất xứ: Nhật Bản · Nhà sản xuất: Meiji Co., Ltd.\nBảo quản: đông lạnh ở −18 °C trở xuống.",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "Chủ: cần gói vuông vắn hơn → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ nhỏ mặt sau/đáy gói vẽ mờ; 140 g như bao bì",
@@ -80,6 +80,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-18T17:16:08.691Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -91,9 +97,28 @@
     "hubStatus": "PENDING"
   },
   "review": {
-    "status": "REJECTED",
+    "status": "APPLIED",
     "reviewedBy": "AU KHUONG DUY",
-    "reviewedAt": "2026-10-17T14:23:23.467Z",
-    "note": "Cần gói vuông vắn hơn"
+    "reviewedAt": "2026-10-18T17:11:19.738Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-18T17:11:19.738Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/f634456fe4372319377e0e0d9a771c57f4b2ca1371f5d181bac689e492fe1554.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/30/tram8/0a6a8a2bcc054c4aad42cdea34593f66.png"
+        ]
+      },
+      "description": {
+        "to": "Snack bắp Happy Tos vị bắp nướng (Rasa Jagung Bakar – Roasted Corn Flavor), bánh tortilla chips giòn từ bắp, nhập khẩu Indonesia. Theo bao bì: không chất béo trans.\n\nQuy cách: 140 g · gói\nNhà sản xuất/thương hiệu: PT. Sinar Kencana Agung · Happy Tos",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

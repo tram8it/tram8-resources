@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "Chủ: gói to quá, thực tế dẹt dài, bên trong có 1 cây xúc xích → vẽ gói dẹt dài + 1 cây xúc xích mini đặt cạnh gói → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: cây xúc xích mini đặt cạnh gói (minh hoạ ruột, gói thật không có cửa sổ); chữ nhỏ mặt sau vẽ mờ; 28 g như bao bì",
@@ -87,6 +87,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-18T17:16:08.691Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -98,9 +104,28 @@
     "hubStatus": "PENDING"
   },
   "review": {
-    "status": "REJECTED",
+    "status": "APPLIED",
     "reviewedBy": "AU KHUONG DUY",
-    "reviewedAt": "2026-10-17T16:31:36.888Z",
-    "note": "Cái này to quá, bình thường nhìn nó dẹt dài hơn, có cách nào thể hiện bên trong có 1 cái xúc xích cũng đc."
+    "reviewedAt": "2026-10-18T17:11:42.035Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-18T17:11:42.035Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/4c900518614165e33da6b69f5a5a4dfa2e1d6ef88614931118ac2ffd43a067ba.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/27/tram8/be35202161a84b8ebd3ec45d93a3c17e.png"
+        ]
+      },
+      "description": {
+        "to": "Xúc xích giòn ăn liền Ponnie (Meat Snack) vị bắp, gói nhỏ tiện mang theo.\n\nQuy cách: 28 g · gói\nNhà sản xuất/thương hiệu: Masan MEATLife · Ponnie",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

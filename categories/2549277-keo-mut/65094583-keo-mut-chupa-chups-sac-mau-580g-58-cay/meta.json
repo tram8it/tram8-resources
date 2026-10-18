@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "Chủ: bán theo cây → vẽ 1 cây kẹo lớn cạnh túi → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: cây kẹo đứng cạnh túi minh hoạ 1 đơn vị bán; dòng khối lượng tịnh để mờ",
@@ -98,6 +98,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-18T17:16:08.691Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -109,9 +115,28 @@
     "hubStatus": "PENDING"
   },
   "review": {
-    "status": "REJECTED",
+    "status": "APPLIED",
     "reviewedBy": "AU KHUONG DUY",
-    "reviewedAt": "2026-10-17T09:12:13.413Z",
-    "note": "Cái này bán theo cây, nên hãy làm lớn 1 cây rồi để cạnh gói."
+    "reviewedAt": "2026-10-18T17:12:09.290Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-18T17:12:09.290Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/4a19a2f83e1c4b3b6c002bd1e57138c1bdbd5290f628d6b6d404169e41669856.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/04/22/tram8/c9724db81823488887d6f303154ff2f8.png"
+        ]
+      },
+      "description": {
+        "to": "Túi kẹo mút Chupa Chups hương hỗn hợp với vitamin C, gồm nhiều cây kẹo mút đóng chung một túi.\n\nQuy cách: 58 cây · túi\nNhà sản xuất/thương hiệu: Perfetti Van Melle · Chupa Chups",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

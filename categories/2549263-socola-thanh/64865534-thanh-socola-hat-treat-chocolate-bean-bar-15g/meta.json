@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "Chủ: chưa đẹp, cần thanh màu vàng đẹp hơn → vẽ lại sạch, nằm ngang → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: khối lượng để mờ (OFF ghi 45 g, tên ghi 15G — chưa kiểm được)",
@@ -81,6 +81,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-18T17:16:08.691Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -92,9 +98,28 @@
     "hubStatus": "PENDING"
   },
   "review": {
-    "status": "REJECTED",
+    "status": "APPLIED",
     "reviewedBy": "AU KHUONG DUY",
-    "reviewedAt": "2026-10-17T15:48:36.526Z",
-    "note": "Không đẹp, có thanh ntn màu vàng nhưng đẹp hơn"
+    "reviewedAt": "2026-10-18T17:11:13.010Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-18T17:11:13.010Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/90f9d58cc28f0cfaef1823b3e90fa793784b8587ee4677b15388ab8b51879cbd.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/30/tram8/687833c4f6e14095b7c8360bd758d288.png"
+        ]
+      },
+      "description": {
+        "to": "Thanh sô-cô-la sữa Alёnka (Алёнка) nhân sữa – ngũ cốc của hãng bánh kẹo Krasny Oktyabr (Nga).\n\nQuy cách: 45 g · thanh\nXuất xứ: Nga · Nhà sản xuất/thương hiệu: Krasny Oktyabr (Красный Октябрь) · Alёnka",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

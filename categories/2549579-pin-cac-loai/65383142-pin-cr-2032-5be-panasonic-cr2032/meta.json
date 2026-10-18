@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "Chủ: cần cả bao bì; đơn vị bán 1 viên → vẽ vỉ 1 viên → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: tên ghi /5BE (dây 5 vỉ), cửa hàng bán lẻ từng viên nên vẽ 1 vỉ 1 viên; biểu tượng nhỏ trên đầu vỉ vẽ theo mẫu",
@@ -92,6 +92,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-18T17:16:08.691Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -103,9 +109,28 @@
     "hubStatus": "PENDING"
   },
   "review": {
-    "status": "REJECTED",
+    "status": "APPLIED",
     "reviewedBy": "AU KHUONG DUY",
-    "reviewedAt": "2026-10-17T09:19:31.329Z",
-    "note": "Cần cả bao bì"
+    "reviewedAt": "2026-10-18T17:10:47.304Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-18T17:10:47.304Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/89bd16225f4e50848fbc96c2671d7f7551e4267c9933a5d5f640f23885e02e01.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/05/01/tram8/ae2fa75921c24547bb6a5e6e46b496a7.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Pin cúc áo Panasonic CR2032, pin lithium 3V dạng đồng xu, dùng cho bo mạch máy tính, chìa khóa xe, cân điện tử, đồng hồ.\n\nQuy cách: bán lẻ 1 viên (tách từ vỉ 5 viên) · cỡ CR2032 · 3V\nNhà sản xuất/thương hiệu: Panasonic",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

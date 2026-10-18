@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "Chủ: cần vẽ lại, ảnh chưa đạt → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: khối lượng in 58,4 g theo ảnh OFF cùng mã vạch (= tên KiotViet); ảnh KiotViet cũ in 55,4 g (lô cũ)",
@@ -87,6 +87,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-18T17:16:08.691Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -98,9 +104,28 @@
     "hubStatus": "PENDING"
   },
   "review": {
-    "status": "REJECTED",
+    "status": "APPLIED",
     "reviewedBy": "AU KHUONG DUY",
-    "reviewedAt": "2026-10-17T09:03:45.929Z",
-    "note": "Cần vẽ lại, ảnh này chưa đạt"
+    "reviewedAt": "2026-10-18T17:11:06.824Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-18T17:11:06.824Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/6479d33a56787e14dd0f556784aaa20eb20330d34f6bee4f35dc4b846196302d.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/30/tram8/3e13459f44354c6f82d82e256e7f08ca.png"
+        ]
+      },
+      "description": {
+        "to": "Kẹo sing-gum Wrigley's Cool Air hương bạc hà – mật ong, chanh, đựng trong hũ.\n\nQuy cách: 55,4 g · lọ\nThương hiệu: Wrigley's Cool Air",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
   }
 }
