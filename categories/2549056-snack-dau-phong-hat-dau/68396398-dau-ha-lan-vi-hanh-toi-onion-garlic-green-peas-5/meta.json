@@ -20,17 +20,12 @@
   "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh; trang hãng không có cỡ 55 g → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: mẫu là gói 30 g cùng thiết kế; khối lượng đổi thành 55 g theo tên KiotViet; bảng dinh dưỡng làm mờ; chữ lớn khớp (Tong Garden, Onion and Garlic Flavour Green Peas)",
+    "reason": "I1: chưa có ảnh dùng được → ảnh nhân viên chụp tại quầy 18/10 (rõ, thẳng, đủ sáng): tách nền (cutout.py) + cân màu tone.py --vivid",
     "source": {
-      "aiGenerated": true,
-      "tool": "Gemini API",
-      "model": "gemini-nano-banana-2.1",
-      "generatedAt": "2026-10-18",
-      "style": "flat clean packaging render (v17)",
-      "reference": "ảnh nhà bán lẻ vprok.ru gói 30 g cùng thiết kế (chỉ làm mẫu)",
-      "referenceUrl": "https://media.vprok.ru/products/x700/pc/tm/s7tsud2drrhtgeoszrk5x3jkjujrtmpc.jpeg"
+      "staffPhoto": true,
+      "takenAt": "2026-10-18"
     },
-    "rubricVersion": "v18"
+    "rubricVersion": "v22"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -59,20 +54,20 @@
       "note": "re-checked 2026-10-17: no reference image anywhere; still needs staff photo"
     },
     {
-      "at": "2026-10-18T18:10:33Z",
+      "at": "2026-10-18T17:56:03Z",
       "by": "ai",
       "status": "READY",
-      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+      "note": "staff photo 2026-10-18 (Zalo); cutout + tone --vivid"
     },
     {
-      "at": "2026-10-18T18:10:42.545Z",
+      "at": "2026-10-18T17:56:57.974Z",
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-18T18:10:42.545Z",
+    "at": "2026-10-18T17:56:57.974Z",
     "fields": [
       "description",
       "image"

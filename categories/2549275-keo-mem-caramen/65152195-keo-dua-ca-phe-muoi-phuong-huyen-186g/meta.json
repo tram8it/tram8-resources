@@ -17,12 +17,15 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh; tra lại 18/10 (mã vạch Kingfoodmart/OFF, \"Phương Huyền Food kẹo dừa cà phê muối 186g\", \"kẹo dừa cà phê muối Phương Huyền\") — không có ảnh → cần chụp",
-    "source": null,
-    "rubricVersion": "v20"
+    "reason": "I1: chưa có ảnh dùng được → ảnh nhân viên chụp tại quầy 18/10 (rõ, thẳng, đủ sáng): tách nền (cutout.py) + cân màu tone.py --vivid",
+    "source": {
+      "staffPhoto": true,
+      "takenAt": "2026-10-18"
+    },
+    "rubricVersion": "v22"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -51,10 +54,24 @@
       "note": "I1: chưa có ảnh; hàng cơ sở địa phương (Phương Huyền), không có trang hãng, không tìm được ảnh bán lẻ/Open Food Facts nào của mã 8936202669283 để Gemini vẽ → cần nhân viên chụp mặt trước gói"
     },
     {
-      "at": "2026-10-18T18:22:32.930Z",
+      "at": "2026-10-18T17:56:03Z",
       "by": "ai",
-      "status": "NEEDS_PHOTO",
-      "note": "np18 re-research 18/10: still no image of this exact pack"
+      "status": "READY",
+      "note": "staff photo 2026-10-18 (Zalo); cutout + tone --vivid"
+    },
+    {
+      "at": "2026-10-18T17:57:09.671Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-18T17:57:09.671Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

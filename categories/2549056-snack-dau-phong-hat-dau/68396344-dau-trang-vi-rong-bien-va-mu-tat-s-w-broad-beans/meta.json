@@ -20,23 +20,18 @@
   "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh; trang hãng shop.tonggarden.com.sg không có SP này → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ lớn khớp (Tong Garden, Seaweed and Wasabi Broad Beans, Net Weight: 40g); không thấy khác biệt đáng kể",
+    "reason": "I1: chưa có ảnh dùng được → ảnh nhân viên chụp tại quầy 18/10 (rõ, thẳng, đủ sáng): tách nền (cutout.py) + cân màu tone.py --vivid",
     "source": {
-      "aiGenerated": true,
-      "tool": "Gemini API",
-      "model": "gemini-nano-banana-2.1",
-      "generatedAt": "2026-10-18",
-      "style": "flat clean packaging render (v17)",
-      "reference": "ảnh Kingfoodmart theo mã vạch (chỉ làm mẫu)",
-      "referenceUrl": "https://storage.googleapis.com/onelife-public/8850291103087.jpg"
+      "staffPhoto": true,
+      "takenAt": "2026-10-18"
     },
-    "rubricVersion": "v18"
+    "rubricVersion": "v22"
   },
   "description": {
     "decision": "WRITE_NEW",
-    "reason": "D1: chỉ từ tên SP và chữ in mặt trước bao bì (ảnh Kingfoodmart theo mã vạch)",
+    "reason": "D1: chưa có mô tả; viết ngắn chỉ từ tên SP (tên tiếng Việt + tiếng Anh, khối lượng); thương hiệu Tong Garden theo đầu mã vạch 8850291 (đã đối chiếu trên bao bì hãng)",
     "source": null,
-    "rubricVersion": "v23"
+    "rubricVersion": "v4"
   },
   "question": null,
   "history": [
@@ -59,20 +54,20 @@
       "note": "re-checked 2026-10-17: no reference image anywhere (brand store, OFF has name only); still needs staff photo"
     },
     {
-      "at": "2026-10-18T18:07:29Z",
+      "at": "2026-10-18T17:56:03Z",
       "by": "ai",
       "status": "READY",
-      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+      "note": "staff photo 2026-10-18 (Zalo); cutout + tone --vivid"
     },
     {
-      "at": "2026-10-18T18:07:36.258Z",
+      "at": "2026-10-18T17:56:56.835Z",
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-18T18:07:36.258Z",
+    "at": "2026-10-18T17:56:56.835Z",
     "fields": [
       "description",
       "image"

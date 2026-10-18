@@ -20,21 +20,18 @@
   "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh → ảnh hãng QBB (Cheese Dessert Banana 6P, trang qbb.co.jp/english/products/detail/view_express_entity/19366), ảnh 450px phóng ~2,2 lần (v3/v4)",
+    "reason": "I1: chưa có ảnh dùng được → ảnh nhân viên chụp tại quầy 18/10 (rõ, thẳng, đủ sáng): tách nền (cutout.py) + cân màu tone.py --vivid",
     "source": {
-      "url": "https://image.qbb.co.jp/products/148.jpg",
-      "fetchedAt": "2026-10-18T18:09:08Z"
+      "staffPhoto": true,
+      "takenAt": "2026-10-18"
     },
-    "rubricVersion": "v23"
+    "rubricVersion": "v22"
   },
   "description": {
-    "decision": "REWRITE",
-    "reason": "D2: bổ sung từ trang hãng QBB (Cheese Dessert Banana 6P): chuối Kanjukuoh, thành phần, có cồn dưới 0,5%",
-    "source": {
-      "url": "https://www.qbb.co.jp/english/products/detail/view_express_entity/19366",
-      "fetchedAt": "2026-10-18T18:09:25Z"
-    },
-    "rubricVersion": "v23"
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; mô tả ngắn từ tên SP và chữ in mặt trước bao bì (không có trên trang hãng)",
+    "source": null,
+    "rubricVersion": "v4"
   },
   "question": null,
   "history": [
@@ -57,26 +54,20 @@
       "note": "no reference image found; still needs staff photo"
     },
     {
-      "at": "2026-10-18T18:09:08Z",
+      "at": "2026-10-18T17:56:03Z",
       "by": "ai",
       "status": "READY",
-      "note": "brand image found on 18/10 re-research, normalised with make_image.py, checked by eye"
+      "note": "staff photo 2026-10-18 (Zalo); cutout + tone --vivid"
     },
     {
-      "at": "2026-10-18T18:09:25Z",
-      "by": "ai",
-      "status": "READY",
-      "note": "description written (REWRITE) on 18/10 re-research"
-    },
-    {
-      "at": "2026-10-18T18:10:04.113Z",
+      "at": "2026-10-18T17:57:12.618Z",
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-18T18:10:04.113Z",
+    "at": "2026-10-18T17:57:12.618Z",
     "fields": [
       "description",
       "image"

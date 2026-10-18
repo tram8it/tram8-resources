@@ -20,23 +20,21 @@
   "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I2: ảnh KiotViet là bao Thăng Long Rồng Đỏ (SP khác) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: dòng chữ nhỏ dưới SIGNATURE không đọc được; tem thuế bỏ",
+    "reason": "I1: chưa có ảnh dùng được → ảnh nhân viên chụp tại quầy 18/10 (rõ, thẳng, đủ sáng): tách nền (cutout.py) + cân màu tone.py --vivid",
     "source": {
-      "aiGenerated": true,
-      "tool": "Gemini API",
-      "model": "gemini-nano-banana-2.1",
-      "generatedAt": "2026-10-18",
-      "style": "flat clean packaging render (v17)",
-      "reference": "ảnh bao Thăng Long No.5 Cherry trên sieuthithuocla.com.vn / quaythuocla.com.vn (chỉ làm mẫu) + kiểu ảnh bao No.6 Coffee đã duyệt",
-      "referenceUrl": "https://sieuthithuocla.com.vn/cac-loai-thuoc-la/thuoc-la-viet-nam/thuoc-la-thang-long-cherry.html"
+      "staffPhoto": true,
+      "takenAt": "2026-10-18"
     },
-    "rubricVersion": "v18"
+    "rubricVersion": "v22"
   },
   "description": {
-    "decision": "WRITE_NEW",
-    "reason": "D1: theo khuôn danh mục; tên/loại theo chữ in trên bao (THĂNG LONG No.5, CHERRY, SLIM CIGARETTE), nhà sản xuất theo bảng danh mục (tiền tố 8935047)",
-    "source": null,
-    "rubricVersion": "v23"
+    "decision": "REWRITE",
+    "reason": "D3: mô tả cũ có emoji và lời quảng cáo về độ êm/giảm mùi; viết lại chỉ từ chữ trên bao (No.5, Cherry, Slim Cigarette)",
+    "source": {
+      "staffPhoto": true,
+      "takenAt": "2026-10-18"
+    },
+    "rubricVersion": "v22"
   },
   "question": null,
   "history": [
@@ -59,26 +57,20 @@
       "note": "NEEDS_PHOTO: I2: ảnh KiotViet là bao Thăng Long Rồng Đỏ (SP khác, mã 8935047690995); không tìm được ảnh bao Thăng Long ceri → cần chụp mặt trước bao"
     },
     {
-      "at": "2026-10-18T18:07:54Z",
+      "at": "2026-10-18T17:56:03Z",
       "by": "ai",
       "status": "READY",
-      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+      "note": "staff photo 2026-10-18 (Zalo); cutout + tone --vivid"
     },
     {
-      "at": "2026-10-18T18:07:54Z",
-      "by": "ai",
-      "status": "READY",
-      "note": "description written (WRITE_NEW) on 18/10 re-research"
-    },
-    {
-      "at": "2026-10-18T18:08:15.857Z",
+      "at": "2026-10-18T17:57:13.685Z",
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-18T18:08:15.857Z",
+    "at": "2026-10-18T17:57:13.685Z",
     "fields": [
       "description",
       "image"

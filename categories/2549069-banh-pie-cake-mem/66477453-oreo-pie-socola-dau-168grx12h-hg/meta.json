@@ -20,26 +20,18 @@
   "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh; chỉ có ảnh hộp bản sự kiện → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: vẽ hộp đứng 6 bánh theo bản thường (bỏ chữ BABYMONSTER/sưu tầm thẻ, v17), thiết kế vị dâu lấy từ hộp trên trang hãng; không in khối lượng; chữ nhỏ mờ",
+    "reason": "I1: chưa có ảnh dùng được → ảnh nhân viên chụp tại quầy 18/10 (rõ, thẳng, đủ sáng): tách nền (cutout.py) + cân màu tone.py --vivid",
     "source": {
-      "aiGenerated": true,
-      "tool": "Gemini API",
-      "model": "gemini-nano-banana-2.1",
-      "generatedAt": "2026-10-18",
-      "style": "flat clean packaging render (v17)",
-      "reference": "ảnh Open Food Facts theo mã vạch (hộp bản sự kiện BABYMONSTER) + ảnh hộp Oreo Socola Pie vị dâu trên trang Mondelez + ảnh hộp Socola Pie cùng dãy (chỉ làm mẫu)",
-      "referenceUrl": "https://images.openfoodfacts.org/images/products/893/468/004/6527/front_fr.18.full.jpg"
+      "staffPhoto": true,
+      "takenAt": "2026-10-18"
     },
-    "rubricVersion": "v18"
+    "rubricVersion": "v22"
   },
   "description": {
     "decision": "WRITE_NEW",
-    "reason": "D1: từ ảnh bao bì (trang Mondelez, Open Food Facts theo mã vạch); khối lượng 180 g theo Open Food Facts",
-    "source": {
-      "url": "https://world.openfoodfacts.org/product/8934680046527",
-      "fetchedAt": "2026-10-18T18:07:30Z"
-    },
-    "rubricVersion": "v23"
+    "reason": "D1: chưa có mô tả; chỉ từ dữ kiện tên SP (RUBRIC v2 nguồn 3)",
+    "source": null,
+    "rubricVersion": "v4"
   },
   "question": null,
   "history": [
@@ -68,20 +60,20 @@
       "note": "only the event edition box exists online for this barcode (v17); staff photo of the shelf box needed"
     },
     {
-      "at": "2026-10-18T18:07:29Z",
+      "at": "2026-10-18T17:56:03Z",
       "by": "ai",
       "status": "READY",
-      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+      "note": "staff photo 2026-10-18 (Zalo); cutout + tone --vivid"
     },
     {
-      "at": "2026-10-18T18:07:44.844Z",
+      "at": "2026-10-18T17:56:44.160Z",
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-18T18:07:44.844Z",
+    "at": "2026-10-18T17:56:44.160Z",
     "fields": [
       "description",
       "image"

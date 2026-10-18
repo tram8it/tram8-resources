@@ -17,18 +17,24 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh; tra lại 18/10 (mã vạch Kingfoodmart/OFF, \"海盐柠檬 薄荷糖 盒装 6973271301319\", \"kẹo bạc hà chanh muối biển\") — chỉ có hàng cùng loại khác hãng → cần chụp",
-    "source": null,
-    "rubricVersion": "v20"
+    "reason": "I1: chưa có ảnh dùng được → ảnh nhân viên chụp tại quầy 18/10 (rõ, thẳng, đủ sáng): cắt sát mép hộp (rembg không tách được hộp thiếc phẳng) + cân màu tone.py --vivid",
+    "source": {
+      "staffPhoto": true,
+      "takenAt": "2026-10-18"
+    },
+    "rubricVersion": "v22"
   },
   "description": {
-    "decision": "WRITE_NEW",
-    "reason": "D1: chưa có mô tả; không có trang hãng/ảnh bao bì — mô tả ngắn chỉ từ tên SP và đơn vị bán",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "REWRITE",
+    "reason": "sửa theo chữ in mặt trước bao bì trong ảnh nhân viên chụp (khối lượng, vị, thương hiệu); không có trang hãng",
+    "source": {
+      "staffPhoto": true,
+      "takenAt": "2026-10-18"
+    },
+    "rubricVersion": "v22"
   },
   "question": null,
   "history": [
@@ -51,10 +57,24 @@
       "note": "rechecked v17: no reference image of the pack found; still needs staff photo"
     },
     {
-      "at": "2026-10-18T18:22:33.079Z",
+      "at": "2026-10-18T17:56:03Z",
       "by": "ai",
-      "status": "NEEDS_PHOTO",
-      "note": "np18 re-research 18/10: still no image of this exact pack"
+      "status": "READY",
+      "note": "staff photo 2026-10-18 (Zalo); cutout + tone --vivid"
+    },
+    {
+      "at": "2026-10-18T17:58:04.538Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-18T17:58:04.538Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

@@ -1,7 +1,5 @@
-Thuốc lá điếu đầu lọc Thăng Long No.5 Cherry, điếu slim, bao cứng.
+Thuốc lá điếu Thăng Long No.5 hương cherry, loại điếu nhỏ (slim cigarette), bao giấy.
 
 Quy cách: bao
-Thương hiệu: Thăng Long · Nhà sản xuất: Công ty TNHH MTV Thuốc lá Thăng Long (Vinataba)
-
-Chỉ bán cho người từ 18 tuổi trở lên.
-Hút thuốc lá có hại cho sức khỏe.
+Thương hiệu: Thăng Long
+Hút thuốc gây bệnh tim mạch và nhiều bệnh khác. Sản phẩm dành cho người từ 18 tuổi trở lên.

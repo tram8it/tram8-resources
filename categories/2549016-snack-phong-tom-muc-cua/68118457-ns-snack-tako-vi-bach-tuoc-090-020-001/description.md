@@ -1,4 +1,4 @@
-Snack Jagalchi (자갈치) vị bạch tuộc của Nongshim: bánh snack giòn hình bạch tuộc, vị bạch tuộc (문어맛).
+Snack vị bạch tuộc Jagalchi (자갈치) của Nongshim, bánh giòn hình bạch tuộc.
 
 Quy cách: 90 g · gói
 Xuất xứ: Hàn Quốc · Thương hiệu: Nongshim

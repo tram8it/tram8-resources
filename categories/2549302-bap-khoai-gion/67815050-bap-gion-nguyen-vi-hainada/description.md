@@ -1,4 +1,4 @@
-Bắp giòn Hainada nguyên vị, snack bắp giòn ăn liền.
+Bắp giòn Hainada nguyên vị: hạt bắp sấy giòn, ăn liền.
 
-Quy cách: gói
+Quy cách: 25 g · gói
 Thương hiệu: Hainada
