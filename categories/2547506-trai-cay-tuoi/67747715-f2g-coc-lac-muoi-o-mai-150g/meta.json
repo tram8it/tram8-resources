@@ -20,7 +20,7 @@
   "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "chủ 18/10: hàng là cốc nhựa cao, không phải hộp tròn → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: nhãn nắp chép từ ảnh thật, chữ nhỏ để mờ; miếng cóc trong cốc là minh hoạ",
+    "reason": "chủ 18/10: cốc nhựa cao, cóc nguyên quả → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: nhãn nắp chép từ ảnh thật; chữ nhỏ và số mã vạch in trên nhãn không chép chính xác",
     "source": {
       "aiGenerated": true,
       "tool": "Gemini API",
@@ -98,10 +98,22 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-18T17:35:55Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "redo after Hub rejection: Không đúng bao bì — Gemini API redraw (attempt 7, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-18T17:35:55.944Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-18T17:33:38.845Z",
+    "at": "2026-10-18T17:35:55.944Z",
     "fields": [
       "description",
       "image"
