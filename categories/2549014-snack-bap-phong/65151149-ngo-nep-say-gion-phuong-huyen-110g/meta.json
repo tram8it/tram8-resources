@@ -17,18 +17,17 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "IN_PROGRESS",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I2: ảnh cũ là túi TTP (Đà Lạt); mã vạch 8938522697137 là Ngô nếp sấy giòn Phương Huyền (iCheck) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ nhỏ, mã vạch và khối lượng làm mờ (không đọc được trên ảnh mẫu); ảnh minh hoạ",
+    "reason": "Chủ từ chối: không giống ảnh gốc → vẽ lại đúng gói vàng TTP 'Ngô nếp sấy giòn', 110g → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Chữ nhỏ ở huy hiệu chỉ minh hoạ",
     "source": {
       "aiGenerated": true,
       "tool": "Gemini API",
       "model": "gemini-nano-banana-2.1",
-      "generatedAt": "2026-10-17",
+      "generatedAt": "2026-10-18",
       "style": "flat clean packaging render (v17)",
-      "reference": "ảnh iCheck của mã vạch 8938522697137 (chỉ làm mẫu)",
-      "referenceUrl": "https://icheck.vn/san-pham/8938522697137"
+      "reference": "ảnh KiotViet (gói đang bán)"
     },
     "rubricVersion": "v18"
   },
@@ -75,10 +74,22 @@
       "by": "owner",
       "status": "IN_PROGRESS",
       "note": "rejected on Hub by AU KHUONG DUY: Không giống ảnh gốc"
+    },
+    {
+      "at": "2026-10-18T11:27:08Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "redo after Hub rejection: Không giống ảnh gốc — Gemini API redraw (attempt 3, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-18T11:27:09.129Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-17T14:12:00.262Z",
+    "at": "2026-10-18T11:27:09.129Z",
     "fields": [
       "description",
       "image"
