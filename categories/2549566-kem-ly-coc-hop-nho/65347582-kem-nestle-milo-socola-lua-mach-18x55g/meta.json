@@ -17,18 +17,17 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "IN_PROGRESS",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I2 (v2)/I7: ảnh hiện là bao bì đời cũ (ly 60 g, in date 2019); không có ảnh hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: bao bì mới theo ảnh Kingfoodmart; chữ Thái nhỏ quanh viền nắp vẽ mờ",
+    "reason": "Chủ: không giống ảnh → vẽ ly nắp đóng như ảnh KiotViet → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: bỏ dấu ngày/lô; nhãn tiếng Việt + bảng dinh dưỡng Thái chép theo ảnh KiotViet; ly in 60 g (tên ghi 18x55g — theo bao bì, v19)",
     "source": {
       "aiGenerated": true,
       "tool": "Gemini API",
       "model": "gemini-nano-banana-2.1",
-      "generatedAt": "2026-10-17",
+      "generatedAt": "2026-10-18",
       "style": "flat clean packaging render (v17)",
-      "reference": "ảnh Kingfoodmart (chỉ làm mẫu, bao bì mới ly 55g) + ảnh KiotViet cũ (chỉ lấy dáng ly)",
-      "referenceUrl": "https://kingfoodmart.com/kem-hop-kem-banh/kem-milo-socola-lua-mach-nestle-ly-55g-1-ly"
+      "reference": "ảnh KiotViet ly kem nắp đóng + ảnh bán lẻ (chỉ làm mẫu)"
     },
     "rubricVersion": "v18"
   },
@@ -81,10 +80,22 @@
       "by": "owner",
       "status": "IN_PROGRESS",
       "note": "rejected on Hub by AU KHUONG DUY: Không giống ảnh"
+    },
+    {
+      "at": "2026-10-18T11:32:06Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "redo after Hub rejection: Không giống ảnh — Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-18T11:32:07.164Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-17T08:59:59.086Z",
+    "at": "2026-10-18T11:32:07.164Z",
     "fields": [
       "description",
       "image"

@@ -17,17 +17,17 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "IN_PROGRESS",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I4: ảnh tay cầm trên nền gạch; không có ảnh hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: mép hàn trên/dưới do AI vẽ; khối lượng không thấy trên mặt trước",
+    "reason": "Chủ: túi tăm cay không cắt răng cưa hai đầu → vẽ mép hàn phẳng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt",
     "source": {
       "aiGenerated": true,
       "tool": "Gemini API",
       "model": "gemini-nano-banana-2.1",
-      "generatedAt": "2026-10-17",
+      "generatedAt": "2026-10-18",
       "style": "flat clean packaging render (v17)",
-      "reference": "ảnh KiotViet (gói thật trên tay)"
+      "reference": "ảnh KiotViet (ảnh tự chụp, chỉ làm mẫu)"
     },
     "rubricVersion": "v18"
   },
@@ -80,10 +80,22 @@
       "by": "owner",
       "status": "IN_PROGRESS",
       "note": "rejected on Hub by AU KHUONG DUY: Cái túi tăm cay này ko phải loại cắt răng cưa 2 đầu như thế"
+    },
+    {
+      "at": "2026-10-18T11:35:44Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "redo after Hub rejection: Cái túi tăm cay này ko phải loại cắt răng cưa 2 đầu như thế — Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-18T11:35:45.027Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-17T14:04:34.078Z",
+    "at": "2026-10-18T11:35:45.027Z",
     "fields": [
       "description",
       "image"

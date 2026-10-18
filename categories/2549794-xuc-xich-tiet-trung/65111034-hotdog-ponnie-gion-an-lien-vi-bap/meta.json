@@ -17,18 +17,18 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "IN_PROGRESS",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "ảnh tự chụp: gói nhăn, bóng, mờ; không có ảnh hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: bỏ dấu in NSX/HSD; mã vạch, chữ nhỏ chỉ minh hoạ",
+    "reason": "Chủ: gói to quá, thực tế dẹt dài, bên trong có 1 cây xúc xích → vẽ gói dẹt dài + 1 cây xúc xích mini đặt cạnh gói → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: cây xúc xích mini đặt cạnh gói (minh hoạ ruột, gói thật không có cửa sổ); chữ nhỏ mặt sau vẽ mờ; 28 g như bao bì",
     "source": {
       "aiGenerated": true,
       "tool": "Gemini API",
       "model": "gemini-nano-banana-2.1",
-      "generatedAt": "2026-10-17",
+      "generatedAt": "2026-10-18",
       "style": "flat clean packaging render (v17)",
-      "reference": "ảnh KiotViet của cửa hàng (ảnh tự chụp)",
-      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/07/27/tram8/be35202161a84b8ebd3ec45d93a3c17e.png"
+      "reference": "ảnh Kingfoodmart cùng mã vạch (chỉ làm mẫu)",
+      "referenceUrl": "https://storage.googleapis.com/onelife-public/8936034876507.jpg"
     },
     "rubricVersion": "v18"
   },
@@ -75,10 +75,22 @@
       "by": "owner",
       "status": "IN_PROGRESS",
       "note": "rejected on Hub by AU KHUONG DUY: Cái này to quá, bình thường nhìn nó dẹt dài hơn, có cách nào thể hiện bên trong có 1 cái xúc xích cũng đc."
+    },
+    {
+      "at": "2026-10-18T11:32:58Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "redo after Hub rejection: Cái này to quá, bình thường nhìn nó dẹt dài hơn, có cách nào thể hiện bên trong có 1 cái xúc xích cũng đc. — Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-18T11:32:58.209Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-17T14:16:07.586Z",
+    "at": "2026-10-18T11:32:58.209Z",
     "fields": [
       "description",
       "image"

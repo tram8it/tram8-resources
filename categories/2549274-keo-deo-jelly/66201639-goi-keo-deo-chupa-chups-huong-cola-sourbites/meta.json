@@ -17,12 +17,19 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "IN_PROGRESS",
+  "status": "READY",
   "image": {
-    "decision": "CROP",
-    "reason": "I9: ảnh KiotViet là packshot đúng hàng theo mã vạch (Chupa Chups Bites Sour hương trái cây 24 g), chỉ chuẩn hoá",
-    "source": null,
-    "rubricVersion": "v20"
+    "decision": "REPLACE",
+    "reason": "Chủ: chưa đẹp → vẽ lại sạch, phẳng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt; 24 g, hương trái cây như bao bì",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-18",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (chỉ làm mẫu)"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "source": null,
@@ -61,10 +68,22 @@
       "by": "owner",
       "status": "IN_PROGRESS",
       "note": "rejected on Hub by AU KHUONG DUY: Chưa đẹp"
+    },
+    {
+      "at": "2026-10-18T11:29:28Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "redo after Hub rejection: Chưa đẹp — Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-18T11:29:28.754Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-17T14:09:51.297Z",
+    "at": "2026-10-18T11:29:28.754Z",
     "fields": [
       "description",
       "image"

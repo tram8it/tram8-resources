@@ -17,18 +17,17 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "IN_PROGRESS",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I8: ảnh điện thoại; SP bán 1 ly mini 80 ml (mã vạch là hộp 6 ly × 80 ml = 480 ml) → Gemini vẽ 1 ly → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ trên nắp chép đúng ảnh KiotViet (明治 エッセル スーパーカップ ミニ 超バニラ, dòng dị ứng 卵・乳成分); thành ly trắng trơn, ly thật có thể có chữ nhỏ ở thành",
+    "reason": "Chủ: không giống SP trong ảnh → vẽ lại ly mini thấp, nắp giấy bạc vàng như ảnh KiotViet → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt; bỏ mã lô in trên thân ly",
     "source": {
       "aiGenerated": true,
       "tool": "Gemini API",
       "model": "gemini-nano-banana-2.1",
-      "generatedAt": "2026-10-17",
+      "generatedAt": "2026-10-18",
       "style": "flat clean packaging render (v17)",
-      "reference": "ảnh hộp 6 ly trên meiji.co.jp + ảnh KiotViet 1 ly mini",
-      "referenceUrl": "https://www.meiji.co.jp/products/icecream/4902705080010.html"
+      "reference": "ảnh KiotViet 1 ly mini (chỉ làm mẫu)"
     },
     "rubricVersion": "v18"
   },
@@ -78,10 +77,22 @@
       "by": "owner",
       "status": "IN_PROGRESS",
       "note": "rejected on Hub by AU KHUONG DUY: Ko giống sp trong ảnh lắm"
+    },
+    {
+      "at": "2026-10-18T11:35:40Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "redo after Hub rejection: Ko giống sp trong ảnh lắm — Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-18T11:35:40.890Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-17T09:11:09.677Z",
+    "at": "2026-10-18T11:35:40.890Z",
     "fields": [
       "description",
       "image"

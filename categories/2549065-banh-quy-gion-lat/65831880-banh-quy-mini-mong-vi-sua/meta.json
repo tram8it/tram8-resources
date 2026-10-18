@@ -17,17 +17,17 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "IN_PROGRESS",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I5: ảnh tự chụp gói nhăn, bóng, hơi mờ; không có ảnh hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: gói vẽ phẳng, thấy trọn mặt trước; chữ nhỏ không đọc được",
+    "reason": "Chủ: đây là bánh đồng tiền, ảnh chưa thể hiện → thêm vài bánh tròn nhỏ cỡ đồng xu cạnh gói → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: vài bánh rời đặt cạnh gói để minh hoạ cỡ bánh; chữ nhỏ không đọc được",
     "source": {
       "aiGenerated": true,
       "tool": "Gemini API",
       "model": "gemini-nano-banana-2.1",
-      "generatedAt": "2026-10-17",
+      "generatedAt": "2026-10-18",
       "style": "flat clean packaging render (v17)",
-      "reference": "ảnh KiotViet + ảnh KiotViet SP cùng hãng (bánh quy ca cao)"
+      "reference": "ảnh KiotViet + ảnh KiotViet SP cùng hãng (chỉ làm mẫu)"
     },
     "rubricVersion": "v18"
   },
@@ -74,10 +74,22 @@
       "by": "owner",
       "status": "IN_PROGRESS",
       "note": "rejected on Hub by AU KHUONG DUY: Cái này là bánh đồng tiền, ảnh này ko thể hiện được"
+    },
+    {
+      "at": "2026-10-18T11:35:48Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "redo after Hub rejection: Cái này là bánh đồng tiền, ảnh này ko thể hiện được — Gemini API redraw (attempt 3, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-18T11:35:48.724Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-17T15:38:56.773Z",
+    "at": "2026-10-18T11:35:48.724Z",
     "fields": [
       "description",
       "image"

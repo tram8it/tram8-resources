@@ -17,17 +17,17 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "IN_PROGRESS",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I4: ảnh chụp điện thoại trên nền đá; không có ảnh hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: dòng khối lượng tịnh để mờ không đọc được (ảnh mẫu đọc không chắc 558 g/580 g); huy hiệu 'Made in Vietnam' vẽ lại theo ảnh mẫu mờ; số cây kẹo trong túi minh hoạ",
+    "reason": "Chủ: bán theo cây → vẽ 1 cây kẹo lớn cạnh túi → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: cây kẹo đứng cạnh túi minh hoạ 1 đơn vị bán; dòng khối lượng tịnh để mờ",
     "source": {
       "aiGenerated": true,
       "tool": "Gemini API",
       "model": "gemini-nano-banana-2.1",
-      "generatedAt": "2026-10-17",
+      "generatedAt": "2026-10-18",
       "style": "flat clean packaging render (v17)",
-      "reference": "ảnh KiotViet (ảnh điện thoại túi thật trên nền đá)"
+      "reference": "ảnh KiotViet (ảnh điện thoại túi thật, chỉ làm mẫu)"
     },
     "rubricVersion": "v18"
   },
@@ -86,10 +86,22 @@
       "by": "owner",
       "status": "IN_PROGRESS",
       "note": "rejected on Hub by AU KHUONG DUY: Cái này bán theo cây, nên hãy làm lớn 1 cây rồi để cạnh gói."
+    },
+    {
+      "at": "2026-10-18T11:35:52Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "redo after Hub rejection: Cái này bán theo cây, nên hãy làm lớn 1 cây rồi để cạnh gói. — Gemini API redraw (attempt 3, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-18T11:35:52.871Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-17T08:59:56.287Z",
+    "at": "2026-10-18T11:35:52.871Z",
     "fields": [
       "description",
       "image"

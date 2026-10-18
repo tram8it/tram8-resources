@@ -17,17 +17,17 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "IN_PROGRESS",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I2: ảnh KiotViet là lon Wang Lao Ji; mã vạch 4891599847888 là lon JDB Herbal Tea 310 ml (Open Food Facts, iCheck) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ nhỏ ở thân lon có thể khác nét",
+    "reason": "Chủ: nhìn méo, không giống → vẽ lại lon thẳng đứng, theo mã vạch (JDB Herbal Tea 310 ml) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ dọc nhỏ hai bên vẽ gần đúng; ảnh KiotViet cũ là lon Vương Lão Cát (khác hãng), đã theo mã vạch",
     "source": {
       "aiGenerated": true,
       "tool": "Gemini API",
       "model": "gemini-nano-banana-2.1",
-      "generatedAt": "2026-10-17",
+      "generatedAt": "2026-10-18",
       "style": "flat clean packaging render (v17)",
-      "reference": "ảnh Open Food Facts + iCheck theo mã vạch (chỉ làm mẫu)",
+      "reference": "ảnh Open Food Facts cùng mã vạch (chỉ làm mẫu)",
       "referenceUrl": "https://world.openfoodfacts.org/product/4891599847888"
     },
     "rubricVersion": "v18"
@@ -75,10 +75,22 @@
       "by": "owner",
       "status": "IN_PROGRESS",
       "note": "rejected on Hub by AU KHUONG DUY: Nhìn méo méo k giống lắm"
+    },
+    {
+      "at": "2026-10-18T11:31:40Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "redo after Hub rejection: Nhìn méo méo k giống lắm — Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-18T11:31:40.887Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-17T14:10:01.794Z",
+    "at": "2026-10-18T11:31:40.887Z",
     "fields": [
       "description",
       "image"

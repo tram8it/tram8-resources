@@ -17,17 +17,20 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "IN_PROGRESS",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I4/I8: ảnh chụp đống gói trong thùng; thay bằng ảnh hãng Pinattsu Đậu Phộng Da Cá Vị BBQ Cay (cùng vị; ảnh hãng là gói zip, gói 30 g ở cửa hàng là gói gối) và gắn nhãn \"30g\" (v16, dùng chung ảnh với SP 66362037 gói 80 g). Khối lượng 30 g đọc trên gói trong ảnh KiotViet cạnh mã vạch",
+    "reason": "Chủ: là gói, không phải túi zip → vẽ gói gối hàn kín hai đầu → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: mặt trước theo ảnh hãng, dạng gói theo ảnh KiotViet; 30 g theo trang hãng",
     "source": {
-      "url": "https://oishi.cdn.vccloud.vn/storage/products/April2026/TpmAugCXAkeaIs4DEGSY.png",
-      "page": "https://oishi.com.vn/san-pham",
-      "fetchedAt": "2026-10-17"
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-18",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh hãng Oishi (oishi.com.vn) + ảnh KiotViet gói thật (chỉ làm mẫu)",
+      "referenceUrl": "https://oishi.com.vn/san-pham"
     },
-    "rubricVersion": "v19",
-    "sizeTag": "30g"
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -69,10 +72,22 @@
       "by": "owner",
       "status": "IN_PROGRESS",
       "note": "rejected on Hub by AU KHUONG DUY: Gói, ko phải túi zip."
+    },
+    {
+      "at": "2026-10-18T11:29:21Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "redo after Hub rejection: Gói, ko phải túi zip. — Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-18T11:29:21.494Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-17T14:02:22.779Z",
+    "at": "2026-10-18T11:29:21.494Z",
     "fields": [
       "description",
       "image"

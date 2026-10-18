@@ -17,23 +17,19 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "IN_PROGRESS",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I2/v20: ảnh KiotViet của chính mã này là gói Dominatte bánh mỳ sandwich kẹp thịt vị bò tiêu đen — cùng ảnh đã chuẩn hoá cho SP 66740705 → dùng chung. I4: ảnh KiotViet nền đen; dùng bản cùng ảnh nền trắng của cửa hàng (đang gắn ở SP 66986775, cùng gói Dominatte bò tiêu đen), chuẩn hoá 1:1 (phóng ~2,2 lần) + tone/độ tươi như SP cùng dãy 66740598; không có trang hãng",
+    "reason": "Chủ: gói méo mó quá → vẽ phẳng, vuông vắn → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: dòng chữ nhỏ dưới 'Không cần nướng' để mờ",
     "source": {
-      "url": "https://cdn2-retail-images.kiotviet.vn/2026/07/27/tram8/b8915075068f4f66b28c0dd050881f64.png",
-      "fetchedAt": "2026-10-17T06:00:00.000Z",
-      "shopPhoto": true
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-18",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (chỉ làm mẫu)"
     },
-    "rubricVersion": "v20",
-    "vivid": {
-      "rubricVersion": "v10",
-      "saturationGain": 1.096,
-      "contrastGain": 1.031,
-      "toneGain": 1.096,
-      "gamma": 1
-    }
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -72,10 +68,22 @@
       "by": "owner",
       "status": "IN_PROGRESS",
       "note": "rejected on Hub by AU KHUONG DUY: Nó méo mó quá"
+    },
+    {
+      "at": "2026-10-18T11:32:03Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "redo after Hub rejection: Nó méo mó quá — Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-18T11:32:03.572Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-17T14:05:29.813Z",
+    "at": "2026-10-18T11:32:03.572Z",
     "fields": [
       "description",
       "image"

@@ -17,18 +17,17 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "IN_PROGRESS",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I2/I3: ảnh KiotViet là mặt sau, chụp cận; không có trang hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt đáng kể; tag Midas nhỏ góc trái vẽ lại đơn giản",
+    "reason": "Chủ: cảm giác không giống thật → vẽ túi đỏ bo góc, có lỗ treo, mép hàn phẳng như hàng thật → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt; 50 g ± 2 g như bao bì",
     "source": {
       "aiGenerated": true,
       "tool": "Gemini API",
       "model": "gemini-nano-banana-2.1",
-      "generatedAt": "2026-10-17",
+      "generatedAt": "2026-10-18",
       "style": "flat clean packaging render (v17)",
-      "reference": "ảnh iCheck mã 8938565910286 (mặt trước gói đỏ) + ảnh KiotViet mặt sau",
-      "referenceUrl": "https://icheck.vn/san-pham/8938565910286"
+      "reference": "ảnh bán lẻ + ảnh KiotViet (chỉ làm mẫu)"
     },
     "rubricVersion": "v18"
   },
@@ -81,10 +80,22 @@
       "by": "owner",
       "status": "IN_PROGRESS",
       "note": "rejected on Hub by AU KHUONG DUY: Cái này cảm giác cũng ko giống thật lắm"
+    },
+    {
+      "at": "2026-10-18T11:34:36Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "redo after Hub rejection: Cái này cảm giác cũng ko giống thật lắm — Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-18T11:34:36.290Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-17T15:14:44.162Z",
+    "at": "2026-10-18T11:34:36.290Z",
     "fields": [
       "description",
       "image"

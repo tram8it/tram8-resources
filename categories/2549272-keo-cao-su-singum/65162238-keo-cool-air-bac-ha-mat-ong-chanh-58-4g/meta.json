@@ -17,12 +17,20 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "IN_PROGRESS",
+  "status": "READY",
   "image": {
-    "decision": "CROP",
-    "reason": "I9: ảnh nền trắng nhưng không 1:1 → crop 1:1 bằng make_image.py; hũ in 55,4 g (chủ 17/10: tin bao bì, tên ghi 58.4g)",
-    "source": null,
-    "rubricVersion": "v19"
+    "decision": "REPLACE",
+    "reason": "Chủ: cần vẽ lại, ảnh chưa đạt → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: khối lượng in 58,4 g theo ảnh OFF cùng mã vạch (= tên KiotViet); ảnh KiotViet cũ in 55,4 g (lô cũ)",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-18",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet + ảnh Open Food Facts cùng mã vạch (chỉ làm mẫu)",
+      "referenceUrl": "https://world.openfoodfacts.org/product/8936114080558"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -67,10 +75,22 @@
       "by": "owner",
       "status": "IN_PROGRESS",
       "note": "rejected on Hub by AU KHUONG DUY: Cần vẽ lại, ảnh này chưa đạt"
+    },
+    {
+      "at": "2026-10-18T11:29:24Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "redo after Hub rejection: Cần vẽ lại, ảnh này chưa đạt — Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-18T11:29:25.075Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-17T08:59:51.854Z",
+    "at": "2026-10-18T11:29:25.075Z",
     "fields": [
       "description",
       "image"

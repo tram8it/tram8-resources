@@ -17,15 +17,15 @@
     "description": "Thạch hút konjac vị đào trắng, dạng túi có vòi hút tiện mang theo. Theo bao bì, hàm lượng nước ép trái cây từ 15% trở lên.\n\nQuy cách: túi",
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "IN_PROGRESS",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "ảnh tự chụp (gói nhăn, bóng, méo); không có ảnh hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt; ≥15% như ảnh mẫu",
+    "reason": "Chủ: cái nắp không còn giống → sửa nắp ngắn, to như hàng thật → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt; ≥15% như ảnh mẫu",
     "source": {
       "aiGenerated": true,
       "tool": "Gemini API",
       "model": "gemini-nano-banana-2.1",
-      "generatedAt": "2026-10-17",
+      "generatedAt": "2026-10-18",
       "style": "flat clean packaging render (v17)",
       "reference": "ảnh KiotViet (ảnh tự chụp, chỉ làm mẫu)"
     },
@@ -98,10 +98,22 @@
       "by": "owner",
       "status": "IN_PROGRESS",
       "note": "rejected on Hub by AU KHUONG DUY: Cái nắp ko còn giống nữa"
+    },
+    {
+      "at": "2026-10-18T11:33:14Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "redo after Hub rejection: Cái nắp ko còn giống nữa — Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-18T11:33:14.809Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-17T14:23:54.815Z",
+    "at": "2026-10-18T11:33:14.809Z",
     "fields": [
       "description",
       "image"

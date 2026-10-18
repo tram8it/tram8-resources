@@ -17,12 +17,19 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "IN_PROGRESS",
+  "status": "READY",
   "image": {
-    "decision": "KEEP",
-    "reason": "Ảnh KiotViet: gói Lotte 꼬깔콘 고소한맛 (vị nguyên bản) nền trắng, đúng hàng theo mã vạch 8801062380114 (Open Food Facts: Original); chuẩn hoá 1:1",
-    "source": null,
-    "rubricVersion": "v19"
+    "decision": "REPLACE",
+    "reason": "Chủ: cần vuông vắn hơn → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt; 67 g như bao bì",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-18",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (chỉ làm mẫu)"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "REWRITE",
@@ -61,10 +68,22 @@
       "by": "owner",
       "status": "IN_PROGRESS",
       "note": "rejected on Hub by AU KHUONG DUY: Cần vuông vắn hơn"
+    },
+    {
+      "at": "2026-10-18T11:31:37Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "redo after Hub rejection: Cần vuông vắn hơn — Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-18T11:31:37.920Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-17T14:06:25.989Z",
+    "at": "2026-10-18T11:31:37.920Z",
     "fields": [
       "description",
       "image"
