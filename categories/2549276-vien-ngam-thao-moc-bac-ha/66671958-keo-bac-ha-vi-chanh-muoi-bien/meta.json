@@ -17,18 +17,24 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh. Hàng nhập (mã 6973271301319), không có trang chính hãng; tra mã vạch/tên không ra ảnh bao bì nào → không biết hộp trông thế nào để vẽ lại. Cần nhân viên chụp mặt trước hộp.",
-    "source": null,
-    "rubricVersion": "v17"
+    "reason": "I1: chưa có ảnh dùng được → ảnh nhân viên chụp tại quầy 18/10 (rõ, thẳng, đủ sáng): cắt sát mép hộp (rembg không tách được hộp thiếc phẳng) + cân màu tone.py --vivid",
+    "source": {
+      "staffPhoto": true,
+      "takenAt": "2026-10-18"
+    },
+    "rubricVersion": "v22"
   },
   "description": {
-    "decision": "WRITE_NEW",
-    "reason": "D1: chưa có mô tả; không có trang hãng/ảnh bao bì — mô tả ngắn chỉ từ tên SP và đơn vị bán",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "REWRITE",
+    "reason": "sửa theo chữ in mặt trước bao bì trong ảnh nhân viên chụp (khối lượng, vị, thương hiệu); không có trang hãng",
+    "source": {
+      "staffPhoto": true,
+      "takenAt": "2026-10-18"
+    },
+    "rubricVersion": "v22"
   },
   "question": null,
   "history": [
@@ -49,6 +55,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "rechecked v17: no reference image of the pack found; still needs staff photo"
+    },
+    {
+      "at": "2026-10-18T17:56:03Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "staff photo 2026-10-18 (Zalo); cutout + tone --vivid"
+    },
+    {
+      "at": "2026-10-18T17:58:04.538Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-18T17:58:04.538Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

@@ -50,3 +50,5 @@ Hàng thật xác định theo mã vạch; ảnh + mô tả đã làm theo hàng
 | 65190624 | COSY MARIE BANH QUY 40GR X 48 HG (Hộp) | Bánh quy sữa Cosy Marie hộp 67 g (2 gói × 33,5 g) | ảnh KiotViet (iCheck 8934680113823 ghi hộp 48 g) |
 | 65205425 | Bim MIDAS rong biển cuộn 50g (Gói) | Snack Midas Bò xốt mỹ vị 50 g (gói nền kem), không phải rong biển cuộn | iCheck 8938565910293; ảnh KiotViet |
 | 65205426 | Bim MIDAS rong biển cuộn 50g (Gói) | Snack Midas Bò xốt mỹ vị 50 g (gói đỏ), không phải rong biển cuộn | iCheck 8938565910286; ảnh KiotViet |
+| 67997857 | Bánh Sầu Riêng Musang King (Gói) | Bánh Pie ngọt Đậu – Sầu riêng 300 g (榴莲饼, 云祥哥); bao bì không có chữ Musang King | ảnh nhân viên chụp 18/10 |
+| 67235516 | Mì oki trẻ em 22g/hộp (Gói) | Snack mì giòn Oki Oki vị gà nướng (Grilled Chicken Flavor) — tên nên ghi vị cho khỏi lẫn với vị bò/gạch cua | ảnh nhân viên chụp 18/10 |

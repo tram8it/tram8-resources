@@ -17,12 +17,15 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh; không tìm được ảnh nào của túi Ice Ade vị xoài (mã 8809184805607) trên trang hãng/nhà bán lẻ để làm mẫu → cần nhân viên chụp",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I1: chưa có ảnh dùng được → ảnh nhân viên chụp tại quầy 18/10 (rõ, thẳng, đủ sáng): cắt vùng túi bỏ nhãn số dán cạnh + cân màu tone.py --vivid",
+    "source": {
+      "staffPhoto": true,
+      "takenAt": "2026-10-18"
+    },
+    "rubricVersion": "v22"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -49,6 +52,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "Tìm ảnh mẫu cho Gemini (RUBRIC v12–v17) không có kết quả: không tìm được ảnh nào của túi Ice Ade vị xoài (mã 8809184805607) trên trang hãng/nhà bán lẻ để làm mẫu → cần nhân viên chụp"
+    },
+    {
+      "at": "2026-10-18T17:56:03Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "staff photo 2026-10-18 (Zalo); cutout + tone --vivid"
+    },
+    {
+      "at": "2026-10-18T17:57:14.844Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-18T17:57:14.844Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

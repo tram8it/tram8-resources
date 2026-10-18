@@ -1,4 +1,4 @@
-Bắp giòn Hainada vị cay, snack bắp giòn ăn liền.
+Bắp giòn Hainada vị cay: hạt bắp sấy giòn tẩm vị cay, ăn liền.
 
-Quy cách: gói
+Quy cách: 25 g · gói
 Thương hiệu: Hainada

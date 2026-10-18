@@ -1,4 +1,4 @@
-Bắp giòn Hainada vị wasabi, snack bắp giòn ăn liền.
+Bắp giòn Hainada vị wasabi: hạt bắp sấy giòn tẩm vị mù tạt wasabi, ăn liền.
 
-Quy cách: gói
+Quy cách: 25 g · gói
 Thương hiệu: Hainada

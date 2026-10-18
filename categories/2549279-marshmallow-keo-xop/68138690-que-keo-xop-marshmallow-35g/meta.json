@@ -17,18 +17,24 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I4/I8: ảnh tay cầm 2 que khác mẫu trong cửa hàng, mờ; không rõ thương hiệu, mã 8859533603316 không tra được → cần chụp một que trên nền sáng",
-    "source": null,
-    "rubricVersion": "v17"
+    "reason": "I1: chưa có ảnh dùng được → ảnh nhân viên chụp tại quầy 18/10 (rõ, thẳng, đủ sáng): tách nền (cutout.py) + cân màu tone.py --vivid",
+    "source": {
+      "staffPhoto": true,
+      "takenAt": "2026-10-18"
+    },
+    "rubricVersion": "v22"
   },
   "description": {
-    "decision": "WRITE_NEW",
-    "reason": "D1: chưa có mô tả; mô tả ngắn từ tên SP và ảnh hiện tại",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "REWRITE",
+    "reason": "sửa theo chữ in mặt trước bao bì trong ảnh nhân viên chụp (khối lượng, vị, thương hiệu); không có trang hãng",
+    "source": {
+      "staffPhoto": true,
+      "takenAt": "2026-10-18"
+    },
+    "rubricVersion": "v22"
   },
   "question": null,
   "history": [
@@ -49,6 +55,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "retried 17/10: no usable reference, stays NEEDS_PHOTO"
+    },
+    {
+      "at": "2026-10-18T17:56:03Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "staff photo 2026-10-18 (Zalo); cutout + tone --vivid"
+    },
+    {
+      "at": "2026-10-18T17:57:11.749Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-18T17:57:11.749Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

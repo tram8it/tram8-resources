@@ -1,3 +1,4 @@
-Kẹo xốp marshmallow dạng que, tạo hình nhiều màu, gói riêng từng que.
+Que kẹo xốp marshmallow Ovaltine, nhân vị sô-cô-la mạch nha (Chocolate Flavor Filling), gói riêng từng que.
 
 Quy cách: 35 g · que
+Thương hiệu: Ovaltine

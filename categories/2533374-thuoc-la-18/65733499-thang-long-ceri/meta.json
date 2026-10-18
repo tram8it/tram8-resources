@@ -17,18 +17,24 @@
     "description": "🍒 Mô Tả Sản Phẩm: Thuốc Lá Thăng Long Cherry🌟 Đặc điểm nổi bật<br><br>* Hương vị: Vị quả anh đào (cherry) ngọt dịu. Khói thuốc êm, không bị khé hay gắt cổ như các dòng thuốc mộc truyền thống.<br>* Mùi thơm: Hương trái cây thoang thoảng, giảm thiểu tối đa mùi hôi bám lại trên quần áo, tóc và không gian xung quanh.<br>* Độ nặng: Thuộc nhóm nhẹ đến trung bình. Hàm lượng nicotine dao động khoảng 0.5mg – 0.7mg, rất dễ hút và phù hợp cho cả người mới hoặc người thích dòng thuốc thơm.<br><br>------------------------------<br>## 📦 Quy cách & Thiết kế<br><br>* Thương hiệu: Thăng Long (Việt Nam) – Nhà sản xuất thuốc lá lâu đời từ năm 1957.<br>* Quy cách đóng gói:<br>* 20 điếu / bao.<br>   * 10 bao / cây.<br>* Kiểu dáng: Điếu thuốc được thiết kế thon gọn (thường là dòng demi hoặc slim), tạo cảm giác thanh lịch và hiện đại khi cầm. Bao bì có màu sắc nổi bật đi kèm hình ảnh quả cherry đặc trưng.<br><br>------------------------------",
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I2: ảnh KiotViet là bao Thăng Long Rồng Đỏ (SP khác, mã 8935047690995); không tìm được ảnh bao Thăng Long ceri → cần chụp mặt trước bao",
-    "source": null,
-    "rubricVersion": "v19"
+    "reason": "I1: chưa có ảnh dùng được → ảnh nhân viên chụp tại quầy 18/10 (rõ, thẳng, đủ sáng): tách nền (cutout.py) + cân màu tone.py --vivid",
+    "source": {
+      "staffPhoto": true,
+      "takenAt": "2026-10-18"
+    },
+    "rubricVersion": "v22"
   },
   "description": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "REWRITE",
+    "reason": "D3: mô tả cũ có emoji và lời quảng cáo về độ êm/giảm mùi; viết lại chỉ từ chữ trên bao (No.5, Cherry, Slim Cigarette)",
+    "source": {
+      "staffPhoto": true,
+      "takenAt": "2026-10-18"
+    },
+    "rubricVersion": "v22"
   },
   "question": null,
   "history": [
@@ -49,6 +55,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "NEEDS_PHOTO: I2: ảnh KiotViet là bao Thăng Long Rồng Đỏ (SP khác, mã 8935047690995); không tìm được ảnh bao Thăng Long ceri → cần chụp mặt trước bao"
+    },
+    {
+      "at": "2026-10-18T17:56:03Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "staff photo 2026-10-18 (Zalo); cutout + tone --vivid"
+    },
+    {
+      "at": "2026-10-18T17:57:13.685Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-18T17:57:13.685Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

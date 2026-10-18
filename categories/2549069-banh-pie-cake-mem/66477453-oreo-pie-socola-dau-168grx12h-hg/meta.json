@@ -17,12 +17,15 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "Mã 8934680046527 chỉ tìm được hộp bản sự kiện (BABYMONSTER/Blackpink, 180 g – Open Food Facts); không có ảnh hộp bản thường → cần chụp mặt trước hộp đang bán",
-    "source": null,
-    "rubricVersion": "v19"
+    "reason": "I1: chưa có ảnh dùng được → ảnh nhân viên chụp tại quầy 18/10 (rõ, thẳng, đủ sáng): tách nền (cutout.py) + cân màu tone.py --vivid",
+    "source": {
+      "staffPhoto": true,
+      "takenAt": "2026-10-18"
+    },
+    "rubricVersion": "v22"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -55,6 +58,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "only the event edition box exists online for this barcode (v17); staff photo of the shelf box needed"
+    },
+    {
+      "at": "2026-10-18T17:56:03Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "staff photo 2026-10-18 (Zalo); cutout + tone --vivid"
+    },
+    {
+      "at": "2026-10-18T17:56:44.160Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-18T17:56:44.160Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

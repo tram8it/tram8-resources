@@ -1,4 +1,4 @@
-Snack Tako vị bạch tuộc của Nongshim (Hàn Quốc), món ăn vặt giòn vị hải sản.
+Snack vị bạch tuộc Jagalchi (자갈치) của Nongshim, bánh giòn hình bạch tuộc.
 
-Quy cách: gói
+Quy cách: 90 g · gói
 Xuất xứ: Hàn Quốc · Thương hiệu: Nongshim

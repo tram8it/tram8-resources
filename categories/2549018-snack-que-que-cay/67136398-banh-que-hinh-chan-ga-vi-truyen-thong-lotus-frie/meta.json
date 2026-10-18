@@ -17,12 +17,15 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh; không tìm được ảnh mẫu nào của dòng Lotus Friend hình chân gà 55 g (đã xem trang hãng snnp.co.th, Open Food Facts theo mã vạch, tìm web tiếng Việt/Thái) → không biết bao bì nên không vẽ Gemini được; cần nhân viên chụp mặt trước gói (ảnh chụp sẽ làm mẫu cho Gemini)",
-    "source": null,
-    "rubricVersion": "v17"
+    "reason": "I1: chưa có ảnh dùng được → ảnh nhân viên chụp tại quầy 18/10 (rõ, thẳng, đủ sáng): tách nền (cutout.py) + cân màu tone.py --vivid",
+    "source": {
+      "staffPhoto": true,
+      "takenAt": "2026-10-18"
+    },
+    "rubricVersion": "v22"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -49,6 +52,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "Tìm ảnh mẫu lại (snnp.co.th, OFF, web) không thấy bao bì này → vẫn NEEDS_PHOTO"
+    },
+    {
+      "at": "2026-10-18T17:56:03Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "staff photo 2026-10-18 (Zalo); cutout + tone --vivid"
+    },
+    {
+      "at": "2026-10-18T17:56:54.645Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-18T17:56:54.645Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

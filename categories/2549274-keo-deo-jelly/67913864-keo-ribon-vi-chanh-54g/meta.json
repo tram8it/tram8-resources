@@ -17,12 +17,15 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh. Không có trang chính hãng (ribon.co.jp là công ty kế toán khác, hãng là 株式会社リボン, Nhật); không tìm được ảnh mẫu nào có đúng mã vạch 4903316471426/4903316471402 hay đúng gói 54 g vị mơ/chanh (Yodobashi chặn 403) nên không vẽ lại được bằng Gemini — cần nhân viên chụp mặt trước gói",
-    "source": null,
-    "rubricVersion": "v17"
+    "reason": "I1: chưa có ảnh dùng được → ảnh nhân viên chụp tại quầy 18/10 (rõ, thẳng, đủ sáng): tách nền (cutout.py) + cân màu tone.py --vivid",
+    "source": {
+      "staffPhoto": true,
+      "takenAt": "2026-10-18"
+    },
+    "rubricVersion": "v22"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -49,6 +52,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "no official site / no reference photo with matching JAN; still needs staff photo"
+    },
+    {
+      "at": "2026-10-18T17:56:03Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "staff photo 2026-10-18 (Zalo); cutout + tone --vivid"
+    },
+    {
+      "at": "2026-10-18T17:56:45.135Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-18T17:56:45.135Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }
