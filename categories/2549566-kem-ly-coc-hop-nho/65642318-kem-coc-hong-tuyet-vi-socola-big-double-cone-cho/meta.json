@@ -17,16 +17,24 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I4: ảnh chụp điện thoại chỉ thấy mặt sau (bảng dinh dưỡng 210ml); SP của hãng Seoju (서주, Hàn Quốc), trang hãng không truy cập được, không có ảnh mặt trước nào làm mẫu → cần nhân viên chụp mặt trước (17/10)",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I3/I4: ảnh KiotViet chụp mặt sau → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt chữ lớn (빅더블콘 Big Double Cone, 초코); bao bì tiếng Hàn",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-18",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh Minh Cầu Mart theo đúng mã vạch (chỉ làm mẫu) + ảnh KiotViet (ảnh chụp tại cửa hàng)",
+      "referenceUrl": "https://minhcaumart.vn/media/com_eshop/products/8809592641101.webp"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
-    "reason": "D1: chưa có mô tả; mô tả ngắn chỉ từ tên hàng",
+    "reason": "D1: từ bao bì (ảnh theo mã vạch, Open Food Facts: hãng 서주 Seoju): Big Double Cone vị sô cô la",
     "source": null,
     "rubricVersion": "v4"
   },
@@ -49,6 +57,18 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "re-checked brand sites/retail/OFF for references (batch 17/10): none usable"
+    },
+    {
+      "at": "2026-10-18T18:24:57Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-18T18:25:13Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "np18 re-research: description rewritten from pack/official facts"
     }
   ]
 }

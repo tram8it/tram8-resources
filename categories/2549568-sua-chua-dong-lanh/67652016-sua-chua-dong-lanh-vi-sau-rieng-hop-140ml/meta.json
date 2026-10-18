@@ -17,17 +17,28 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh; nhà sản xuất có lẽ là 'Sữa chua Trần Châu Hạ Long' (chữ trên logo thuyền ở nắp hộp 900ml cùng dòng) nhưng không có trang hãng; Kingfoodmart/Open Food Facts không có mã vạch này; không biết hình vị/kiểu hộp nên không vẽ → cần chụp",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I1: chưa có ảnh → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt chữ lớn (SỮA CHUA Đông lạnh, 140ml, sầu riêng)",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-18",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh Minh Cầu Mart theo đúng mã vạch (chỉ làm mẫu) + ảnh vẽ SP cùng dãy 67652003 (góc chụp)",
+      "referenceUrl": "https://minhcaumart.vn/media/com_eshop/products/8938541406529.webp"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
-    "reason": "D1: chưa có mô tả; mô tả ngắn chỉ từ dữ kiện chắc chắn (tên SP), không có nguồn hãng; không rõ thương hiệu nên bỏ mục nhà sản xuất",
-    "source": null,
+    "reason": "D1: từ chữ trên nắp hộp (ảnh theo mã vạch): Đông lạnh, 100% lên men tự nhiên, không chất bảo quản, không đường hóa học, 140 ml",
+    "source": {
+      "url": "https://minhcaumart.vn/media/com_eshop/products/8938541406529.webp",
+      "fetchedAt": "2026-10-18T18:25:13Z"
+    },
     "rubricVersion": "v4"
   },
   "question": null,
@@ -49,6 +60,18 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "no reference for this flavour/size (KFM, OFF); sibling 900ml lids show the 'Sữa chua Trần Châu Hạ Long' logo; not drawn to avoid inventing"
+    },
+    {
+      "at": "2026-10-18T18:24:55Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-18T18:25:13Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "np18 re-research: description rewritten from pack/official facts"
     }
   ]
 }

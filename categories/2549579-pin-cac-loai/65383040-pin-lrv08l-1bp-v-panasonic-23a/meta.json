@@ -17,12 +17,20 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh; panasonic.com/vn chặn truy cập (403); chỉ thấy vỉ Nhật LR-V08/1BP (panasonic.jp), mã vạch 5019068592568 là bản châu Âu, không rõ vỉ cửa hàng → cần chụp",
-    "source": null,
-    "rubricVersion": "v17"
+    "reason": "I1: chưa có ảnh; panasonic.com chặn truy cập → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt chữ lớn (Panasonic CELL POWER, LRV08, 12V Micro Alkaline); bỏ ngày hạn in trên vỉ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-18",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh Minh Cầu Mart theo đúng mã vạch (chỉ làm mẫu)",
+      "referenceUrl": "https://minhcaumart.vn/media/com_eshop/products/5019068592568.webp"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -49,6 +57,12 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "I1: chưa có ảnh; panasonic.com/vn chặn truy cập (403); chỉ thấy vỉ Nhật LR-V08/1BP (panasonic.jp), mã vạch 5019068592568 là bản châu Âu, không rõ vỉ cửa hàng → cần chụp"
+    },
+    {
+      "at": "2026-10-18T18:24:57Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
     }
   ]
 }

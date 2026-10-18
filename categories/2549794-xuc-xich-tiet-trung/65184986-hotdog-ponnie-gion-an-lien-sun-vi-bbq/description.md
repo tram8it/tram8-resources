@@ -1,4 +1,4 @@
-Xúc xích giòn ăn liền Ponnie (Meat Snack) có sụn, vị BBQ.
+Xúc xích giòn ăn liền Ponnie (Meat Snack) loại mini có sụn, vị BBQ, gói nhỏ tiện mang theo.
 
-Quy cách: gói
+Quy cách: 20 g · gói
 Nhà sản xuất/thương hiệu: Masan MEATLife · Ponnie

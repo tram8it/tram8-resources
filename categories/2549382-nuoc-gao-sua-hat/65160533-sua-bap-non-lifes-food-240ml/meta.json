@@ -17,17 +17,28 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3: ảnh KiotViet là poster, không thấy rõ mặt lon; không có trang hãng Life's Food, không tìm được ảnh mẫu → cần chụp lon (sẽ vẽ lại bằng Gemini như sữa gạo rang/9 loại hạt)",
-    "source": null,
-    "rubricVersion": "v17"
+    "reason": "I3: ảnh KiotViet là poster → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt chữ lớn (Sữa bắp non, Life's Food, 100% nông sản Việt Nam, 240 ml)",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-18",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh Minh Cầu Mart theo đúng mã vạch (chỉ làm mẫu)",
+      "referenceUrl": "https://minhcaumart.vn/media/com_eshop/products/8936220511342.webp"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
-    "reason": "D1: chưa có mô tả; mô tả ngắn từ tên SP và chữ in trên poster ('Sữa hạt dinh dưỡng – Sữa bắp non')",
-    "source": null,
+    "reason": "D1: từ chữ trên lon (ảnh theo mã vạch): Sữa bắp non, Life's Food, 100% nông sản Việt Nam, 240 ml",
+    "source": {
+      "url": "https://minhcaumart.vn/media/com_eshop/products/8936220511342.webp",
+      "fetchedAt": "2026-10-18T18:25:13Z"
+    },
     "rubricVersion": "v4"
   },
   "question": null,
@@ -49,6 +60,18 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "poster only, can design not readable; still needs staff photo"
+    },
+    {
+      "at": "2026-10-18T18:24:53Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-18T18:25:13Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "np18 re-research: description rewritten from pack/official facts"
     }
   ]
 }

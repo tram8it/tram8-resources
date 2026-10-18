@@ -17,17 +17,28 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh; không tìm được ảnh mẫu gói 5 cây × 19 g (95 g) mã 8936034876330 — chỉ có gói 4 × 19 g (mã khác) và 175 g; không biết gói 95 g đang là thiết kế cũ hay mới → cần chụp mặt trước",
-    "source": null,
-    "rubricVersion": "v17"
+    "reason": "I1: chưa có ảnh → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt chữ lớn (PÖNNIE, Xúc xích dinh dưỡng THỊT HEO, 95 g (5 cây x 19 g)); nhãn nhỏ 'MỚI' cạnh chữ Thịt heo như mẫu",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-18",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh Minh Cầu Mart theo đúng mã vạch (chỉ làm mẫu)",
+      "referenceUrl": "https://minhcaumart.vn/media/com_eshop/products/8936034876330.webp"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
-    "reason": "D1: chưa có mô tả; viết ngắn chỉ từ dữ kiện chắc chắn (tên SP, chữ in mặt trước bao bì); không có trang hãng có SP này",
-    "source": null,
+    "reason": "D1: từ chữ trên gói (ảnh theo mã vạch): Xúc xích dinh dưỡng thịt heo, 95 g (5 cây x 19 g)",
+    "source": {
+      "url": "https://minhcaumart.vn/media/com_eshop/products/8936034876330.webp",
+      "fetchedAt": "2026-10-18T18:25:13Z"
+    },
     "rubricVersion": "v4"
   },
   "question": null,
@@ -49,6 +60,18 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "photo search 17/10: no usable reference found"
+    },
+    {
+      "at": "2026-10-18T18:24:53Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-18T18:25:13Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "np18 re-research: description rewritten from pack/official facts"
     }
   ]
 }
