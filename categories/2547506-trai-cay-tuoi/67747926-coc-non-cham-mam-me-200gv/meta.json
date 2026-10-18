@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "chủ 18/10: ảnh phải đúng bao bì thật; vẽ lại gói thật từ ảnh KiotViet, bỏ ảnh minh hoạ món ăn → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: vẽ lại phẳng, sạch; chữ nhỏ không đọc được để mờ; độ nhăn màng khác ảnh thật",
@@ -86,6 +86,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-18T17:44:24.092Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -97,9 +103,28 @@
     "hubStatus": "PENDING"
   },
   "review": {
-    "status": "REJECTED",
+    "status": "APPLIED",
     "reviewedBy": "AU KHUONG DUY",
-    "reviewedAt": "2026-10-18T17:03:27.177Z",
-    "note": "Không đúng bao bì"
+    "reviewedAt": "2026-10-18T17:32:37.728Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-18T17:32:37.728Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/3791f6b0f5f7ae1d7d57d91c0aa2f6ee21b096d3d9d3439b919d3cd8b1ea5d2a.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/08/21/tram8/5464185f2a2e4156911b9f0472c8e05d.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Cóc non gọt sẵn kèm gói mắm me để chấm, đóng túi hút chân không của Fresh 2GO, dùng ăn ngay.\n\nQuy cách: 200 g · túi (theo tên SP)\nXuất xứ: Việt Nam · Thương hiệu: Fresh 2GO",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

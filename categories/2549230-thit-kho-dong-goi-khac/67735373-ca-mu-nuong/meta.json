@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "chủ 18/10: ảnh phải đúng bao bì thật; vẽ lại gói thật từ ảnh KiotViet, bỏ ảnh minh hoạ món ăn → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: vẽ lại phẳng, sạch; chữ nhỏ không đọc được để mờ; độ nhăn màng khác ảnh thật",
@@ -104,6 +104,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-18T17:44:24.092Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -115,9 +121,28 @@
     "hubStatus": "PENDING"
   },
   "review": {
-    "status": "REJECTED",
+    "status": "APPLIED",
     "reviewedBy": "AU KHUONG DUY",
-    "reviewedAt": "2026-10-18T17:08:14.049Z",
-    "note": "Chưa giống, check lại ảnh kiotviet để gen lại"
+    "reviewedAt": "2026-10-18T17:32:44.274Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-18T17:32:44.274Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/81de99d2d982ffc37437d01e878af07ce4ecafacf888cdd675311c68503a31fa.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/10/17/tram8/5f9c650bae9844f89719696436efacc1.png"
+        ]
+      },
+      "description": {
+        "to": "Cá mú nướng ăn liền, đặc sản Nha Trang của cơ sở Quảng Tâm, đựng trong hộp nhựa trong.\n\nThành phần: cá mú, đường, muối\nQuy cách: hộp\nXuất xứ: Việt Nam (Nha Trang) · Nhà sản xuất/thương hiệu: Quảng Tâm\nBảo quản: nơi thoáng mát, tránh ánh nắng trực tiếp. Hạn sử dụng 6 tháng.\nHướng dẫn sử dụng: ăn liền.",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

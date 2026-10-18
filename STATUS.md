@@ -2,7 +2,7 @@
 
 > Sinh tự động bởi `node tools/status.mjs`. **Không sửa tay.** Nguồn sự thật là `meta.json` của từng SP.
 
-Tổng 2502 SP · đã xem 2502 (100%) · xong 1912 · chờ chủ duyệt 264 · cần chụp 322 · hỏi chủ 0
+Tổng 2502 SP · đã xem 2502 (100%) · xong 1928 · chờ chủ duyệt 248 · cần chụp 322 · hỏi chủ 0
 
 Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` = giữ nguyên + đã lên web.
 
@@ -42,8 +42,8 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 | 32 | Bánh quế / bánh cuộn (wafer roll) | 0.0tr | 21 | 0 | 0 | 0 | 2 | 0 | 2 | 0 | 17 |
 | 33 | Snack phồng tôm/mực/cua | 0.0tr | 21 | 0 | 0 | 0 | 5 | 0 | 0 | 0 | 16 |
 | 34 | Cà phê uống liền | 0.0tr | 21 | 0 | 0 | 0 | 1 | 0 | 9 | 0 | 11 |
-| 35 | Cơm nắm Onigiri | 0.0tr | 21 | 0 | 6 | 0 | 0 | 0 | 15 | 0 | 0 |
-| 36 | Xúc xích tiệt trùng | 0.0tr | 21 | 0 | 0 | 0 | 7 | 0 | 1 | 0 | 13 |
+| 35 | Cơm nắm Onigiri | 0.0tr | 21 | 0 | 6 | 0 | 0 | 0 | 2 | 0 | 13 |
+| 36 | Xúc xích tiệt trùng | 0.0tr | 21 | 0 | 0 | 0 | 7 | 0 | 0 | 0 | 14 |
 | 37 | Mì trộn / mì khô / spaghetti (Ly/Tô/Cốc) | 0.0tr | 21 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 21 |
 | 38 | Vị nguyên bản | 0.0tr | 21 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 20 |
 | 39 | Thuốc lá (18+) | 0.0tr | 20 | 0 | 0 | 0 | 3 | 0 | 0 | 0 | 17 |
@@ -78,12 +78,12 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 | 68 | Kem đánh răng - Hơi thở thơm | 0.0tr | 13 | 0 | 7 | 0 | 0 | 0 | 1 | 0 | 5 |
 | 69 | Dung dịch vệ sinh nữ | 0.0tr | 13 | 0 | 6 | 0 | 0 | 0 | 1 | 0 | 6 |
 | 70 | Khăn ướt – khăn giấy | 0.0tr | 13 | 0 | 0 | 0 | 1 | 0 | 1 | 0 | 11 |
-| 71 | Pizza | 0.0tr | 13 | 0 | 9 | 0 | 0 | 0 | 2 | 0 | 2 |
+| 71 | Pizza | 0.0tr | 13 | 0 | 6 | 0 | 0 | 0 | 5 | 0 | 2 |
 | 72 | Sữa chua ăn | 0.0tr | 13 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 12 |
 | 73 | Khô heo | 0.0tr | 14 | 0 | 0 | 0 | 7 | 0 | 0 | 0 | 7 |
 | 74 | Bàn chải - Người lớn | 0.0tr | 12 | 0 | 0 | 0 | 2 | 0 | 5 | 0 | 5 |
 | 75 | Bánh gạo | 0.0tr | 13 | 0 | 0 | 0 | 3 | 0 | 1 | 0 | 9 |
-| 76 | Bánh mì kem tươi | 0.0tr | 12 | 0 | 11 | 0 | 1 | 0 | 0 | 0 | 0 |
+| 76 | Bánh mì kem tươi | 0.0tr | 12 | 0 | 6 | 0 | 1 | 0 | 5 | 0 | 0 |
 | 77 | Nước ngọt ít calories | 0.0tr | 12 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 11 |
 | 78 | Kem bánh | 0.0tr | 12 | 0 | 0 | 0 | 1 | 0 | 2 | 0 | 9 |
 | 79 | Sữa chua đông lạnh | 0.0tr | 12 | 0 | 0 | 0 | 8 | 0 | 0 | 0 | 4 |
@@ -117,7 +117,7 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 | 107 | Dưỡng da body | 0.0tr | 8 | 0 | 0 | 0 | 0 | 0 | 4 | 0 | 4 |
 | 108 | Pin các loại | 0.0tr | 8 | 0 | 0 | 0 | 3 | 0 | 1 | 0 | 4 |
 | 109 | Soju Vị Trái Cây | 0.0tr | 8 | 0 | 6 | 0 | 0 | 0 | 1 | 0 | 1 |
-| 110 | Trái cây tươi | 0.0tr | 8 | 0 | 0 | 0 | 0 | 0 | 8 | 0 | 0 |
+| 110 | Trái cây tươi | 0.0tr | 8 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 8 |
 | 111 | Trà sữa | 0.0tr | 8 | 0 | 0 | 0 | 8 | 0 | 0 | 0 | 0 |
 | 112 | Bánh gạo / cơm cháy / bánh ngọt | 0.0tr | 8 | 0 | 0 | 0 | 8 | 0 | 0 | 0 | 0 |
 | 113 | Rong biển ăn liền | 0.0tr | 8 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 7 |
@@ -164,7 +164,7 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 | 154 | Socola hộp / quà tặng | 0.0tr | 4 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 4 |
 | 155 | Tăm nha khoa | 0.0tr | 4 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 4 |
 | 156 | Tampon | 0.0tr | 4 | 0 | 0 | 0 | 0 | 0 | 4 | 0 | 0 |
-| 157 | Bánh mì ngọt / mềm | 0.0tr | 4 | 0 | 1 | 0 | 0 | 0 | 1 | 0 | 2 |
+| 157 | Bánh mì ngọt / mềm | 0.0tr | 4 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 3 |
 | 158 | BVS ban ngày | 0.0tr | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 3 |
 | 159 | BVS dạng quần | 0.0tr | 3 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 2 |
 | 160 | Tráng miệng | 0.0tr | 3 | 0 | 0 | 0 | 0 | 0 | 3 | 0 | 0 |
@@ -193,7 +193,7 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 | 183 | Gin & Tequila | 0.0tr | 2 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
 | 184 | Sáp khử mùi | 0.0tr | 2 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 1 |
 | 185 | Socola trứng / đồ chơi | 0.0tr | 2 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 1 |
-| 186 | Thịt khô đóng gói khác | 0.0tr | 2 | 0 | 0 | 0 | 1 | 0 | 1 | 0 | 0 |
+| 186 | Thịt khô đóng gói khác | 0.0tr | 2 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 1 |
 | 187 | Makgeolli | 0.0tr | 2 | 0 | 0 | 0 | 0 | 0 | 2 | 0 | 0 |
 | 188 | Chỉ nha khoa | 0.0tr | 1 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 0 |
 | 189 | Dầu gội - Phục hồi | 0.0tr | 1 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 0 |

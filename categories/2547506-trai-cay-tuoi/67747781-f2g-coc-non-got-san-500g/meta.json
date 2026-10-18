@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "chủ 18/10: ảnh phải đúng bao bì thật; vẽ lại gói thật từ ảnh KiotViet, bỏ ảnh minh hoạ món ăn → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: vẽ lại phẳng, sạch; chữ nhỏ không đọc được để mờ; độ nhăn màng khác ảnh thật",
@@ -86,6 +86,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-18T17:44:24.092Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -97,9 +103,28 @@
     "hubStatus": "PENDING"
   },
   "review": {
-    "status": "REJECTED",
+    "status": "APPLIED",
     "reviewedBy": "AU KHUONG DUY",
-    "reviewedAt": "2026-10-18T17:03:04.031Z",
-    "note": "Không đúng bao bì"
+    "reviewedAt": "2026-10-18T17:32:29.008Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-18T17:32:29.008Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/1fa30baf386ab15b092c6896893cd29db700aefea09b37b2d6258d4b35ea161d.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/08/21/tram8/128a2b7ba6234c2b9921cc7861e18a5d.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Cóc non gọt vỏ sẵn của Fresh 2GO, đóng túi, dùng ăn ngay.\n\nThành phần: Cóc non (98,5%), muối ớt.\nQuy cách: 500 g · túi\nXuất xứ: Việt Nam · Nhà sản xuất/thương hiệu: Công ty TNHH TM và DV Fresh to Go (Hà Nội) · Fresh 2GO\nBảo quản: Nhiệt độ 5–10°C. Dùng ăn ngay; không dùng khi sản phẩm có dấu hiệu hư hỏng. Ngày sản xuất: 4 ngày trước hạn sử dụng in trên bao bì.",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

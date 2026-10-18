@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "chủ 18/10: ảnh phải đúng bao bì thật; vẽ lại gói thật từ ảnh KiotViet, bỏ ảnh minh hoạ món ăn → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: vẽ lại phẳng, sạch; chữ nhỏ không đọc được để mờ; độ nhăn màng khác ảnh thật",
@@ -104,6 +104,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-18T17:44:24.092Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -115,9 +121,28 @@
     "hubStatus": "PENDING"
   },
   "review": {
-    "status": "REJECTED",
+    "status": "APPLIED",
     "reviewedBy": "AU KHUONG DUY",
-    "reviewedAt": "2026-10-18T17:09:02.633Z",
-    "note": "Ko giống thật, cái xúc xích này là hút chân không, có 4 cái mini ở trong"
+    "reviewedAt": "2026-10-18T17:32:50.912Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-18T17:32:50.912Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/92ddabb84a9711efe8045c8d14c7143316b83b6e81ccfb262a43a6774b5fb47b.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/29/tram8/943a585f5b9d4609aa8474943cff6a70.png"
+        ]
+      },
+      "description": {
+        "to": "Xúc xích giòn ăn liền Ponnie (Meat Snack) mini vị phô mai bắp.\n\nQuy cách: 20 g · gói\nNhà sản xuất/thương hiệu: Masan MEATLife · Ponnie",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

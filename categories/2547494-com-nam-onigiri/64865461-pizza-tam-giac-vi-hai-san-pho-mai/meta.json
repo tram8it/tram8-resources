@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "chủ 18/10: ảnh phải đúng bao bì thật; vẽ lại gói thật từ ảnh KiotViet, bỏ ảnh minh hoạ món ăn → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: vẽ lại phẳng, sạch; chữ nhỏ không đọc được để mờ; độ nhăn màng khác ảnh thật",
@@ -86,6 +86,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-18T17:44:24.092Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -97,9 +103,28 @@
     "hubStatus": "PENDING"
   },
   "review": {
-    "status": "REJECTED",
+    "status": "APPLIED",
     "reviewedBy": "AU KHUONG DUY",
-    "reviewedAt": "2026-10-18T17:02:35.954Z",
-    "note": "1 cái thôi cho đỡ hiểu nhầm"
+    "reviewedAt": "2026-10-18T17:32:07.385Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-18T17:32:07.385Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/2c3a63b2b719e4b40559ce15893b9349154cead415ebe0824650dbe8a780b52d.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/02/26/tongpenhchtl/c522c3f4d3c04a96a5449792b659de75.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Pizza tam giác vị hải sản phô mai đông lạnh, miếng pizza phủ hải sản và phô mai, làm nóng theo hướng dẫn trên bao bì trước khi dùng.\n\nQuy cách: cái\nNhà sản xuất/thương hiệu: Lemon Pizza",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }
