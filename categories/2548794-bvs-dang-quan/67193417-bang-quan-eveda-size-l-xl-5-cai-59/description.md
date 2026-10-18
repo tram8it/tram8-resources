@@ -1,4 +1,4 @@
-Băng vệ sinh dạng quần Eveda (Sanitary Pants) mặc như quần lót, chống tràn 360° theo bao bì, phù hợp dùng ban đêm; cỡ L–XL cho vòng hông khoảng 90–115 cm.
+Băng vệ sinh dạng quần Eveda (Sanitary Pants) cỡ L-XL, vòng hông 90–115 cm, chống tràn 360°, dùng ban đêm.
 
-Quy cách: 5 cái · gói · cỡ L–XL
-Nhà sản xuất/thương hiệu: Eveda
+Quy cách: gói 5 miếng
+Nhà sản xuất/thương hiệu: Goldpoint · Eveda

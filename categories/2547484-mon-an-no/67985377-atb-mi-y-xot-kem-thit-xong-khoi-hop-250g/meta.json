@@ -20,9 +20,9 @@
   "status": "NEEDS_PHOTO",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh (đúng ví dụ chủ chốt 13/10); hàng à Table không có trang hãng → cần chụp",
+    "reason": "I1: chưa có ảnh; 18/10 tìm lại: 'ATB à Table mì Ý xốt kem thịt xông khói hộp 250g' (web chỉ ra mì SG Food khác hãng), mã 8936087530586 (OFF/iCheck/KFM), SP cùng dãy Mì Ý Bò Bằm (khay đen + băng 'Fast and Fresh') — không có ảnh hộp vị xốt kem (món bên trong, nhãn vị) → cần chụp (v23: không vẽ đoán)",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v23"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -43,6 +43,12 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "image REPLACE → NEEDS_PHOTO, description WRITE_NEW (name only)"
+    },
+    {
+      "at": "2026-10-18T18:46:02Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "18/10 re-research (>=3 searches): still no image of this exact product → NEEDS_PHOTO"
     }
   ]
 }

@@ -17,18 +17,26 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I2: ảnh hiện tại là gói rong biển Hàn Quốc, không phải thịt sấy khô. Không có trang hãng Phương Huyền → cần chụp",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I2: ảnh KiotViet là gói rong biển Hàn Quốc → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ lớn khớp (Thịt sấy khô, Sợi nhỏ, KLT: 168G, Chất lượng khẳng định thương hiệu số 1); iCheck theo mã vạch ghi 168 g, khác tên KiotViet 218 g (v19: theo bao bì); chữ nhỏ mờ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-18",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh iCheck theo mã vạch (ảnh quảng cáo hũ Phương Huyền, chỉ làm mẫu)",
+      "referenceUrl": "https://assets.icheck.vn/image/2026/app/7/27/e20e36bfc162ef85cc34c4603033badf.jpg"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
-    "reason": "D1: chưa có mô tả; viết ngắn từ tên SP (cùng dòng hũ 99 g của Phương Huyền), không có trang hãng",
+    "reason": "D1: từ chữ trên nhãn hũ (ảnh iCheck theo mã vạch); khối lượng theo nhãn 168 g (tên KiotViet 218 g)",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v23"
   },
   "question": null,
   "history": [
@@ -49,6 +57,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "re-checked 17/10: current image is a wrong product; no web reference → still NEEDS_PHOTO"
+    },
+    {
+      "at": "2026-10-18T18:27:21Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-18T18:27:24.183Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-18T18:27:24.183Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

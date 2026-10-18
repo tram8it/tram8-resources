@@ -17,16 +17,24 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh; panasonic.com/vn chặn truy cập (403); nhà bán lẻ chỉ có bản vỉ R03NT/2B-V, không tìm được ảnh đúng bản 2S-V (2 viên bọc màng) → cần chụp",
-    "source": null,
-    "rubricVersion": "v17"
+    "reason": "I1: chưa có ảnh; panasonic.com/vn chặn truy cập (403) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: 2 viên AAA NEO bọc màng co trong như hàng R03NT/2S; chữ trên thân pin khớp mẫu",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-18",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh pin Panasonic NEO AAA của nhà bán lẻ pinpanasonic.com / pinthanhnam.com (chỉ làm mẫu); ảnh nhân viên chụp 18/10 không có trên máy này",
+      "referenceUrl": "https://pinpanasonic.com/wp-content/uploads/Panasonic-AAA-Neo-2.jpg"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
-    "reason": "D1: chưa có mô tả; không vào được trang hãng → viết ngắn từ dữ kiện chắc chắn: mã pin theo chuẩn IEC trong tên (loại pin, cỡ, điện áp, số viên/vỉ)",
+    "reason": "D1: pin đũa AAA Panasonic NEO (chữ trên thân pin), đóng 2 viên bọc màng co",
     "source": null,
     "rubricVersion": "v4"
   },
@@ -55,6 +63,38 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "staff photo 2026-10-18 received (work/gemini/<id>/refs/2-staff.jpg) but wrinkled/tilted/glare → needs Gemini redraw; GEMINI_API_KEY not set on this machine"
+    },
+    {
+      "at": "2026-10-18T18:27:41Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-18T18:27:41.973Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-18T18:27:54Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "np18 re-research: description rewritten from pack/official facts"
+    },
+    {
+      "at": "2026-10-18T18:27:55.027Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-18T18:27:55.027Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

@@ -17,16 +17,24 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh; không rõ hãng, mã 6976534700171 không tra được ảnh → cần chụp",
-    "source": null,
-    "rubricVersion": "v17"
+    "reason": "I4/I5: ảnh KiotViet chụp tay, gói nhăn bóng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt chữ lớn (卡兰希 KALANXI, 脏脏巧脆, 净含量 40克); vẽ phẳng không nhăn",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-18",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (ảnh chụp gói thật)",
+      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/10/15/tram8/c8e2f3b20abf4f94aef20f839e6fc7c8.jpeg"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
-    "reason": "D1: chưa có mô tả; không có nguồn → viết ngắn chỉ từ tên SP; xuất xứ theo mã vạch 69x (Trung Quốc) và danh mục 'Đồ nội địa Trung'",
+    "reason": "D1: từ chữ trên gói (ảnh KiotViet): KALANXI 脏脏巧脆 vị sô cô la, 净含量 40克, 膨化食品",
     "source": null,
     "rubricVersion": "v4"
   },
@@ -55,6 +63,32 @@
       "by": "init",
       "status": "NEEDS_PHOTO",
       "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-18T18:40:32Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-18T18:40:32Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "np18 re-research: description rewritten from pack/official facts"
+    },
+    {
+      "at": "2026-10-18T18:40:32.502Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-18T18:40:32.502Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

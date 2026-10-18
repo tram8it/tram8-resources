@@ -17,18 +17,29 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh; RE:CIPE Crystal Sun Spray có nhiều phiên bản (bản thường, 'AD', 150 ml…), không tìm được ảnh khớp mã 8809428446542 bản 80 ml → không biết đúng bao bì để vẽ, cần chụp",
-    "source": null,
-    "rubricVersion": "v17"
+    "reason": "I1: chưa có ảnh → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: vẽ chai xịt (đơn vị KiotViet 'Hộp' — chưa thấy hộp giấy của bản 80 ml); chữ nhỏ có thể lệch",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-18",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh chai cùng mã vạch trên annguy.vn + ảnh trang recipevietnam.com.vn (chỉ làm mẫu)",
+      "referenceUrl": "https://annguy.vn/products/xit-chong-nang-crystal-sun-spray-spf50-pa-80ml"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
-    "decision": "WRITE_NEW",
-    "reason": "D1: chưa có mô tả; không có trang hãng → viết ngắn chỉ từ tên SP (tên, SPF, dung tích)",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "REWRITE",
+    "reason": "D2: bổ sung theo chữ in trên chai (Transparent Formula, Cooling & Refreshing, Make-up Fixer, Essence Type) và xuất xứ Hàn Quốc (trang bán lẻ, NPP)",
+    "source": {
+      "url": "https://annguy.vn/products/xit-chong-nang-crystal-sun-spray-spf50-pa-80ml",
+      "fetchedAt": "2026-10-18T18:36:27Z"
+    },
+    "rubricVersion": "v23"
   },
   "question": null,
   "history": [
@@ -49,6 +60,38 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "I1: chưa có ảnh; RE:CIPE Crystal Sun Spray có nhiều phiên bản (bản thường, 'AD', 150 ml…), không tìm được ảnh khớp mã 8809428446542 bản 80 ml → không biết đúng bao bì để vẽ, cần chụp"
+    },
+    {
+      "at": "2026-10-18T18:36:17Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-18T18:36:27Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "description written (REWRITE) on 18/10 re-research"
+    },
+    {
+      "at": "2026-10-18T18:36:27.723Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-18T18:36:36.989Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-18T18:36:36.989Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

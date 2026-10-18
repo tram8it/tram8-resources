@@ -17,18 +17,26 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3, I4: ảnh điện thoại chụp nghiêng hũ, chỉ thấy nhãn mặt bên/mặt sau, không thấy trọn mặt trước → không đủ làm mẫu vẽ lại; Phương Huyền Food không có trang hãng có ảnh SP (đã tìm lại 17/10) → cần chụp mặt trước hũ",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I3/I4: ảnh KiotViet chụp nghiêng, không thấy mặt trước → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: ghép nhãn quấn quanh hũ thành một mặt trước; chữ lớn khớp (Thịt sấy khô, Sợi nhỏ, KLT: 99g, Chất lượng khẳng định thương hiệu số 1); chữ nhỏ (địa chỉ) mờ/không chính xác",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-18",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh iCheck theo mã vạch (ảnh quảng cáo hũ Phương Huyền 99 g, chỉ làm mẫu)",
+      "referenceUrl": "https://assets.icheck.vn/image/2026/app/1/10/4953cfe811b5865e410879ba640a6b39.jpg"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
-    "reason": "D1: chưa có mô tả; viết ngắn từ tên SP và chữ in trên nhãn (ảnh hiện tại), không có trang hãng",
+    "reason": "D1: từ chữ trên nhãn hũ (ảnh iCheck theo mã vạch)",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v23"
   },
   "question": null,
   "history": [
@@ -49,6 +57,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "re-checked 17/10: photo shows side/back label of the jar, front not visible; no web reference → still NEEDS_PHOTO"
+    },
+    {
+      "at": "2026-10-18T18:27:21Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-18T18:27:21.707Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-18T18:27:21.707Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

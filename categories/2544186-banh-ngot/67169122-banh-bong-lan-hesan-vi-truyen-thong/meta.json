@@ -20,9 +20,9 @@
   "status": "NEEDS_PHOTO",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I5: ảnh KiotViet chụp cận nhãn túi Hesan (河山), không thấy trọn túi (mép, số bánh, dòng khối lượng bị cắt); không tìm được ảnh mẫu trên web/Kingfoodmart/Open Food Facts → Gemini sẽ phải đoán hình túi, cần nhân viên chụp trọn mặt trước túi (17/10/2026)",
+    "reason": "I3/I5: ảnh KiotViet chụp cận nhãn túi Hesan (河山); 18/10 tìm lại: 'bánh bông lan Hesan 河山 vị dứa/dâu/truyền thống' (chỉ ra 1 danh mục nhà bán lẻ không ảnh), mã vạch 69723833264xx (OFF/iCheck/KFM) — không có ảnh trọn túi → cần chụp; (hết lượt tìm web 18/10, chưa tìm thêm được)",
     "source": null,
-    "rubricVersion": "v17"
+    "rubricVersion": "v23"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -49,6 +49,12 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "I3/I5: ảnh KiotViet chụp cận nhãn túi Hesan (河山), không thấy trọn túi (mép, số bánh, dòng khối lượng bị cắt); không tìm được ảnh mẫu trên web/Kingfoodmart/Open Food Facts → Gemini sẽ phải đoán hình túi, cần nhân viên chụp trọn mặt trước túi (17/10/2026)"
+    },
+    {
+      "at": "2026-10-18T18:46:03Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "18/10 re-research (>=3 searches): still no image of this exact product → NEEDS_PHOTO"
     }
   ]
 }

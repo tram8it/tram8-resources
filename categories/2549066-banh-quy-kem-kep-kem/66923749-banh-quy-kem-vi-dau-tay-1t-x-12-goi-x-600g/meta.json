@@ -20,9 +20,9 @@
   "status": "NEEDS_PHOTO",
   "image": {
     "decision": "REPLACE",
-    "reason": "Chưa có ảnh; mã 6952389223980 không tra được trên mạng (không rõ thương hiệu/bao bì) → cần chụp mặt trước hộp",
+    "reason": "I1: chưa có ảnh; tra lại 18/10: iCheck/Kingfoodmart/OFF theo mã 6952389223980 không có, tên không có hãng → cần chụp mặt trước hộp",
     "source": null,
-    "rubricVersion": "v19"
+    "rubricVersion": "v23"
   },
   "description": {
     "decision": "ASK_OWNER",
@@ -49,6 +49,12 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "no photo and the barcode is not found online; staff photo needed"
+    },
+    {
+      "at": "2026-10-18T18:46:11Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "re-searched 18/10 (owner feedback, np18): no image of this exact product found; reason updated"
     }
   ]
 }

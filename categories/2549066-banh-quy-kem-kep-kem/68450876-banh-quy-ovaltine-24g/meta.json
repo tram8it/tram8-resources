@@ -20,9 +20,9 @@
   "status": "NEEDS_PHOTO",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh; mã vạch không có trên Open Food Facts, không tìm được ảnh gói trên trang hãng/bán lẻ → không có mẫu để Gemini vẽ, cần chụp",
+    "reason": "I1: chưa có ảnh; tra lại 18/10: iCheck/Kingfoodmart/OFF theo mã Thái 8850086250491 không có; Yandex \"Ovaltine biscuit 24g malt\", \"Ovaltine cookies Thailand\" chỉ ra bản Indonesia/Malaysia (mã 899…/khác), không có gói Thái 24 g; NPP Hương Thủy không có ảnh → cần chụp",
     "source": null,
-    "rubricVersion": "v17"
+    "rubricVersion": "v23"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -49,6 +49,12 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "searched for references (barcode on Open Food Facts, web): none; no Gemini call"
+    },
+    {
+      "at": "2026-10-18T18:46:11Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "re-searched 18/10 (owner feedback, np18): no image of this exact product found; reason updated"
     }
   ]
 }

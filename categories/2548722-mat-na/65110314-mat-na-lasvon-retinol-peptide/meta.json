@@ -20,9 +20,9 @@
   "status": "NEEDS_PHOTO",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh; không tìm được trang chính hãng Lasvon (chỉ có nhà bán lẻ) → cần chụp; 17/10: tìm lại theo mã 4582192960417 (web, Open Beauty Facts, Kingfoodmart) không có ảnh nào của gói Retinol Peptide làm mẫu → vẫn cần chụp 1 gói nền trắng",
+    "reason": "I1: chưa có ảnh; 18/10 tìm lại: mã 4582192960417 (web, Open Beauty Facts, Kingfoodmart), 'Lasvon Retinol Peptide mặt nạ', trang hãng lasvon.vn (chỉ còn tên SP trong mục liên quan, trang SP đã gỡ) — không có ảnh gói nào; nhân viên đã chụp 18/10 (ảnh nhăn/lóa, ở máy chủ) → cần Gemini vẽ lại từ ảnh nhân viên",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v23"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -55,6 +55,12 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "staff photo 2026-10-18 received (work/gemini/<id>/refs/2-staff.jpg) but wrinkled/tilted/glare → needs Gemini redraw; GEMINI_API_KEY not set on this machine"
+    },
+    {
+      "at": "2026-10-18T18:32:54Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "18/10 re-research (>=3 searches): still no image of this exact product → NEEDS_PHOTO"
     }
   ]
 }

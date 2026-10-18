@@ -20,9 +20,9 @@
   "status": "NEEDS_PHOTO",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh; tên không có thương hiệu. Đã tra mã vạch 8938525983xxx (tiền tố GS1 VN 8938525) trên web và Open Food Facts (17/10/2026): không xác định được hãng, không có ảnh bao bì để làm mẫu → cần nhân viên chụp mặt trước gói (thấy tên hãng, vị, khối lượng)",
+    "reason": "I2: ảnh KiotViet của SP này thực ra là cốc 'Vị Phomai 90g' (đã phóng to xem); không có ảnh cốc vị socola (màu cốc khác theo vị); iCheck/Kingfoodmart/OFF theo mã 8938525983909 không có → cần chụp cốc vị socola",
     "source": null,
-    "rubricVersion": "v17"
+    "rubricVersion": "v23"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -55,6 +55,12 @@
       "by": "init",
       "status": "NEEDS_PHOTO",
       "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-18T18:46:11Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "re-searched 18/10 (owner feedback, np18): no image of this exact product found; reason updated"
     }
   ]
 }

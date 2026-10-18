@@ -17,18 +17,26 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh; mã 8938564591011 không tra được trên web, khác mã gói kèm sốt 8938564591035 (SP 66369104) nên không dùng chung ảnh được → cần nhân viên chụp mặt trước gói",
-    "source": null,
-    "rubricVersion": "v20"
+    "reason": "I1: chưa có ảnh; mã 8938564591011 là gói đơn 26 g (lốc kèm sốt mã khác) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ lớn khớp (Ăn cùng Bà Tuyết, Chân gà Bà Tuyết, Rút xương, Hình ảnh chỉ mang tính chất minh họa); không in khối lượng; chữ nhỏ mờ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-18",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet gói 26 g đơn của SP cùng dòng 66369104 + ảnh đã duyệt của lốc cùng dòng (chỉ làm mẫu)",
+      "referenceUrl": "https://img.tram8.vn/products/0abb5dd850928234da70433ad8b87886c0fdb70eff0ef8e4163006f357566e13.webp"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
-    "reason": "D1: chưa có mô tả; mô tả ngắn chỉ từ tên hàng (không có trang hãng)",
+    "reason": "D1: từ tên SP và chữ in mặt trước bao bì (ảnh gói 26 g cùng dòng)",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v23"
   },
   "question": null,
   "history": [
@@ -55,6 +63,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "NEEDS_PHOTO: không có nguồn ảnh cho mã …011 (khác mã gói kèm sốt …035); bỏ câu hỏi, cần chụp gói"
+    },
+    {
+      "at": "2026-10-18T18:39:40Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-18T18:39:45.497Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-18T18:39:45.497Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

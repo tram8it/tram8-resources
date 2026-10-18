@@ -17,12 +17,20 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I4: ảnh điện thoại chụp cận nhãn hũ, không thấy cả hũ; hàng là Heo khô cháy tỏi Quang Thanh (tên có '(heokhochaytoi)', nhãn trên ảnh) — cần chụp cả hũ",
-    "source": null,
-    "rubricVersion": "v20"
+    "reason": "I3/I4: ảnh KiotViet chụp cận nhãn, không thấy cả hũ → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: nhãn khớp ảnh (Quang Thanh Foods, Heo khô cháy tỏi, Cay thơm hấp dẫn - Ăn là ghiền, Vị cay đậm đà, Thơm mùi tỏi phi); nắp hũ không thấy trong ảnh nên vẽ nắp nhựa trong; mục thứ 3 dải dưới làm mờ; không in khối lượng",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-18",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet chụp cận nhãn hũ (chỉ làm mẫu)",
+      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/08/02/tram8/45bf9595758c4c32a9caf61ffa5beb61.jpeg"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "source": null,
@@ -49,6 +57,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "resolved without asking: barcode not found online; label in photo and the name's own suffix '(heokhochaytoi)' say Heo khô cháy tỏi; photo is a label close-up → NEEDS_PHOTO; name logged"
+    },
+    {
+      "at": "2026-10-18T18:43:06Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-18T18:43:11.605Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-18T18:43:11.605Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

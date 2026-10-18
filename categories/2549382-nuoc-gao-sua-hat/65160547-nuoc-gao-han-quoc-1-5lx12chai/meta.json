@@ -17,16 +17,25 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh; mã 884394008459 (12 số) không tra được, không biết chai Woongjin hay hãng khác → cần chụp 1 chai 1,5 L (đơn vị KiotViet: chai, v19)",
-    "source": null,
-    "rubricVersion": "v20"
+    "reason": "I1: chưa có ảnh; mã 884394008459 là mã UPC 12 số của Woongjin Foods America (hàng xuất khẩu Mỹ) cho chai Morning Rice 아침햇살 1,5 L — cùng SP với 65155120 (Woongjin 1,5 L, mã Hàn) → dùng lại ảnh vẽ của SP đó (đã duyệt). Chai thật có thể dán thêm nhãn phụ tiếng Anh.",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh Kingfoodmart theo mã 8801382123446 (chỉ làm mẫu) + ảnh KiotViet",
+      "referenceUrl": "https://storage.googleapis.com/onelife-public/8801382123446.jpg",
+      "copiedFrom": "65155120"
+    },
+    "rubricVersion": "v23"
   },
   "description": {
-    "decision": "ASK_OWNER",
-    "reason": "D1: chưa có mô tả; chờ chủ xác nhận quy cách",
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; theo SP cùng chai 65155120 (Woongjin Morning Rice 1,5 L)",
     "source": null,
     "rubricVersion": "v4"
   },
@@ -49,6 +58,32 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "NEEDS_PHOTO: mã 884394008459 không có nguồn; theo v19 bán theo chai (đơn vị KiotViet); bỏ câu hỏi, cần chụp chai"
+    },
+    {
+      "at": "2026-10-18T18:46:32Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "np18 re-research: same Woongjin Morning Rice 1.5L pack as 65155120, image reused"
+    },
+    {
+      "at": "2026-10-18T18:46:37Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "np18 re-research: description rewritten from pack/official facts"
+    },
+    {
+      "at": "2026-10-18T18:46:38.020Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-18T18:46:38.020Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

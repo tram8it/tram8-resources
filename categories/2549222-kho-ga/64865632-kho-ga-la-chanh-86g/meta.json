@@ -17,18 +17,26 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I2: ảnh KiotViet là gói sô cô la Fucuco, không phải khô gà; không có ảnh mẫu gói 86g để vẽ lại → cần nhân viên chụp",
-    "source": null,
-    "rubricVersion": "v17"
+    "reason": "I2: ảnh KiotViet là gói sô cô la Fucuco → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: vẽ một hũ từ ảnh chụp 3 hũ; bỏ dấu in NSX/HSD; số điện thoại/GCN làm mờ; nhãn ghi trọng lượng 130 g ± 5 g (tên KiotViet 86 g)",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-18",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh iCheck theo mã vạch (hũ Gà Khô Lá Chanh Phương Huyền, mã vạch trên nhãn khớp, chỉ làm mẫu)",
+      "referenceUrl": "https://photos.icheckcdn.net/VEaBcRS4gRPuhPoljUov7Uo0qZw2R0ARbJJiMTayQvY.jpg"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
-    "reason": "D1: chưa có mô tả; mô tả ngắn chỉ từ tên hàng và thương hiệu trên KiotViet",
+    "reason": "D1: từ chữ trên nhãn hũ (ảnh iCheck theo mã vạch, mã vạch trên nhãn khớp)",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v23"
   },
   "question": null,
   "history": [
@@ -49,6 +57,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "wave3: no usable reference for a Gemini redraw"
+    },
+    {
+      "at": "2026-10-18T18:26:09Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-18T18:26:21.079Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-18T18:26:21.079Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

@@ -20,9 +20,9 @@
   "status": "NEEDS_PHOTO",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh; không rõ thương hiệu/nhà sản xuất (mã vạch 693… Trung Quốc), tra mã vạch trên web và Open Food Facts không ra → không có ảnh mẫu để vẽ, cần chụp",
+    "reason": "I1: chưa có ảnh; tra lại 18/10: iCheck/Kingfoodmart/OFF theo mã 6937821522616 không có; không rõ hãng (mã Trung Quốc), Yandex/WebSearch theo tên không ra gói râu bạch tuộc nướng 93 g → cần chụp",
     "source": null,
-    "rubricVersion": "v17"
+    "rubricVersion": "v23"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -49,6 +49,12 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "re-checked 2026-10-17: no reference image found (barcode search, OFF, brand site) -> still NEEDS_PHOTO"
+    },
+    {
+      "at": "2026-10-18T18:46:11Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "re-searched 18/10 (owner feedback, np18): no image of this exact product found; reason updated"
     }
   ]
 }

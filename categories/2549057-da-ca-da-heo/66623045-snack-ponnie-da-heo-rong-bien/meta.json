@@ -20,9 +20,9 @@
   "status": "NEEDS_PHOTO",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I5: ảnh chụp cận nhãn, mất nửa dưới gói (nhãn vị rong biển, khối lượng); không tìm được ảnh nhà bán lẻ truy cập được (Lazada chặn bot) → cần chụp nguyên gói mặt trước",
+    "reason": "I3/I5: ảnh KiotViet chụp cận, mất nửa dưới gói (vị rong biển, khối lượng); tra lại 18/10: iCheck/Kingfoodmart/OFF theo mã 8936034878884 không có, masanconsumer.com chặn (403), Yandex \"Ponnie da heo snack\", \"Ponnie meat snack da heo rong biển\", \"snack da heo Ponnie Masan\" chỉ ra xúc xích/khô gà Ponnie → cần chụp trọn mặt trước",
     "source": null,
-    "rubricVersion": "v17"
+    "rubricVersion": "v23"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -49,6 +49,12 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "wave3: no usable reference for a Gemini redraw"
+    },
+    {
+      "at": "2026-10-18T18:46:11Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "re-searched 18/10 (owner feedback, np18): no image of this exact product found; reason updated"
     }
   ]
 }

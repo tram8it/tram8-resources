@@ -1,3 +1,3 @@
-Khô gà vị lá chanh làm từ thịt gà tươi, sợi dai thơm, gói nhỏ dùng làm món ăn vặt.
+Khô gà vị lá chanh G Kitchen: khô gà dai thơm, đậm vị, làm từ 100% thịt gà tươi (theo bao bì), gói nhỏ ăn liền.
 
 Quy cách: 22 g · gói

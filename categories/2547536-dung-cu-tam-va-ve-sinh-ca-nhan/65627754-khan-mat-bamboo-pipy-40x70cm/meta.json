@@ -17,18 +17,29 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I2/I3: ảnh quảng cáo mũ ủ tóc tai thỏ, không phải khăn mặt Bamboo PIPY 40×70 cm; không có ảnh mẫu nào của SP này → cần chụp",
-    "source": null,
-    "rubricVersion": "v17"
+    "reason": "I2/I3: ảnh KiotViet là quảng cáo mũ ủ tóc (SP khác) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: vẽ 1 khăn màu xanh nhạt; hãng có nhiều màu (vàng kem, tím, nâu, xanh); tên KiotViet ghi 'PIPY', thẻ in 'PIPPER'",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-18",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh khăn PIPPER Bamboo 40x70 trên trang hãng biswell.vn (ảnh chụp ngoài trời, chỉ làm mẫu)",
+      "referenceUrl": "https://biswell.vn/san-pham/khan-the-thao-pipper-40x70cm"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
-    "decision": "WRITE_NEW",
-    "reason": "D1: chưa có mô tả; mô tả ngắn chỉ từ tên SP và chữ đọc được trên bao bì (không có trang hãng)",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "REWRITE",
+    "reason": "D2: theo trang hãng biswell.vn (khăn PIPPER 40x70) và chữ in trên thẻ (Bamboo, Soft, Smooth, Non fluffy cotton); mã vạch cùng đầu số Biswell 8936193",
+    "source": {
+      "url": "https://biswell.vn/san-pham/khan-the-thao-pipper-40x70cm",
+      "fetchedAt": "2026-10-18T18:42:43Z"
+    },
+    "rubricVersion": "v23"
   },
   "question": null,
   "history": [
@@ -49,6 +60,38 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "I2/I3: ảnh quảng cáo mũ ủ tóc tai thỏ, không phải khăn mặt Bamboo PIPY 40×70 cm; không có ảnh mẫu nào của SP này → cần chụp"
+    },
+    {
+      "at": "2026-10-18T18:42:34Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-18T18:42:43Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "description written (REWRITE) on 18/10 re-research"
+    },
+    {
+      "at": "2026-10-18T18:42:45.465Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-18T18:42:57.562Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-18T18:42:57.562Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

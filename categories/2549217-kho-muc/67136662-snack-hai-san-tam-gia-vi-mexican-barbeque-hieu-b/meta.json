@@ -17,18 +17,25 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I4: ảnh chụp mặt sau gói, nền không trắng; không tìm được ảnh mặt trước Bento Mexican Barbeque 20g (snnp.co.th, Open Food Facts, web) → cần nhân viên chụp mặt trước gói (làm mẫu cho Gemini)",
-    "source": null,
-    "rubricVersion": "v17"
+    "reason": "I3/I4: ảnh KiotViet là mặt sau gói → thay bằng packshot chính hãng SNNP cùng bao bì (gói cam 'หมึกเส้นปรุงรส รสแม็กซิกันบาร์บีคิว', Squid Mixed Surimi Mexican Barbeque Flavoured, Net Weight 24 g; ảnh iCheck theo mã vạch xác nhận cùng gói). Bao bì ghi 24 g, tên KiotViet 20 g (v19)",
+    "source": {
+      "url": "https://www.snnp.co.th/api/images/products/bento/products/1767588502704-ra90iqqh4ph.webp",
+      "page": "https://www.snnp.co.th/products/BENTO",
+      "fetchedAt": "2026-10-18T18:27:59Z"
+    },
+    "rubricVersion": "v23"
   },
   "description": {
     "decision": "WRITE_NEW",
-    "reason": "D1: chưa có mô tả; không có trang hãng, mô tả ngắn chỉ từ tên SP; thành phần 'surimi trộn mực' theo chữ in trên bao bì Bento VN",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "D1: từ chữ in trên bao bì chính hãng (snnp.co.th)",
+    "source": {
+      "url": "https://www.snnp.co.th/products/BENTO",
+      "fetchedAt": "2026-10-18T18:27:59Z"
+    },
+    "rubricVersion": "v23"
   },
   "question": null,
   "history": [
@@ -49,6 +56,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "Tìm ảnh mẫu lại (snnp.co.th, Open Food Facts, web) không thấy bao bì này → vẫn NEEDS_PHOTO"
+    },
+    {
+      "at": "2026-10-18T18:27:59Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "brand packshot found on re-search (np18), make_image.py; checked by eye"
+    },
+    {
+      "at": "2026-10-18T18:27:59.239Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-18T18:27:59.239Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

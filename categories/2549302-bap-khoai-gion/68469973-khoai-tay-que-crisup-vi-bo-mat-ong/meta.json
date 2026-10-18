@@ -20,9 +20,9 @@
   "status": "NEEDS_PHOTO",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh; không tìm được nguồn chính hãng Crisup → cần chụp",
+    "reason": "I1: chưa có ảnh; trang hãng crisupfoods.com có vị bơ mật ong ở 6 cỡ/bao bì khác nhau (gói 20/30/40/68 g, cốc 50 g, bản TQ/Hàn) nhưng không ghi mã vạch → không biết cỡ đang bán; cần chụp mặt trước hoặc cho biết khối lượng",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v23"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -49,6 +49,12 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "Đợt 3: tra Kingfoodmart, Open Food Facts và web theo mã vạch/tên — không có ảnh mẫu bao bì nào (chưa có ảnh KiotViet) → giữ NEEDS_PHOTO, cần nhân viên chụp"
+    },
+    {
+      "at": "2026-10-18T18:46:07Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "np18 re-research 18/10: still no usable reference for this exact pack (see image.reason)"
     }
   ]
 }

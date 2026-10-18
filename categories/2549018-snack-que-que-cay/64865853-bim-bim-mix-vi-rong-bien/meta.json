@@ -20,9 +20,9 @@
   "status": "NEEDS_PHOTO",
   "image": {
     "decision": "REPLACE",
-    "reason": "I2: ảnh KiotViet là bánh que Mix Thái Lan (VFoods) vị Hot Chilli, không phải gói Mix Việt Nam vị rong biển (mã 8938560922017). Không tìm được ảnh nào của đúng gói này (web, Open Food Facts, 17/10/2026) nên không có mẫu để Gemini vẽ → cần nhân viên chụp trọn mặt trước gói",
+    "reason": "I2: ảnh KiotViet là gói Mix Thái (VFoods), không phải Mix VN vị rong biển; tra lại 18/10: iCheck/Kingfoodmart/OFF theo mã 8938560922017 không có, Yandex \"bim bim que Mix…\", \"Mix 바삭하고 맛있다 snack\" không ra gói → cần chụp",
     "source": null,
-    "rubricVersion": "v17"
+    "rubricVersion": "v23"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -49,6 +49,12 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "I2: ảnh KiotViet là bánh que Mix Thái Lan (VFoods) vị Hot Chilli, không phải gói Mix Việt Nam vị rong biển (mã 8938560922017). Không tìm được ảnh nào của đúng gói này (web, Open Food Facts, 17/10/2026) nên không có mẫu để Gemini vẽ → cần nhân viên chụp trọn mặt trước gói"
+    },
+    {
+      "at": "2026-10-18T18:46:11Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "re-searched 18/10 (owner feedback, np18): no image of this exact product found; reason updated"
     }
   ]
 }

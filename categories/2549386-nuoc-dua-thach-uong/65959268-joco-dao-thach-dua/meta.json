@@ -17,17 +17,23 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I4/I5: ảnh KiotViet chỉ là thùng carton, không thấy chai; không tìm được ảnh mẫu chai Joco đào thạch dừa (uniben.vn lỗi TLS) → cần chụp chai",
-    "source": null,
-    "rubricVersion": "v17"
+    "reason": "I3/I4/I5: ảnh KiotViet là thùng carton → ảnh chai từ trang hãng Uniben unibenfoods.com (JOCO Peach Nata de coco), tách nền xám nhạt bằng cutout.py",
+    "source": {
+      "url": "https://unibenfoods.com/files/products/joco/joco-daothachdua-800-x800px.jpg",
+      "fetchedAt": "2026-10-18T18:32:33Z"
+    },
+    "rubricVersion": "v23"
   },
   "description": {
     "decision": "WRITE_NEW",
-    "reason": "D1: chưa có mô tả; viết ngắn chỉ từ chữ in trên thùng (Joco – Nước Đào Thạch Dừa, Nata De Coco Peach Drink) và thương hiệu Uniben; chưa rõ dung tích",
-    "source": null,
+    "reason": "D1: theo trang hãng Uniben (nước đào kết hợp thạch dừa) và chữ trên chai (Natural Premium Drink, 450 ml)",
+    "source": {
+      "url": "https://unibenfoods.com/en/products/joco/joco-grape-nata-de-coco-juice",
+      "fetchedAt": "2026-10-18T18:32:33Z"
+    },
     "rubricVersion": "v4"
   },
   "question": null,
@@ -49,6 +55,32 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "carton photo only, no bottle reference; still needs staff photo"
+    },
+    {
+      "at": "2026-10-18T18:32:33Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "np18 re-research: brand image found, normalised with make_image.py"
+    },
+    {
+      "at": "2026-10-18T18:32:33Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "np18 re-research: description rewritten from pack/official facts"
+    },
+    {
+      "at": "2026-10-18T18:32:33.463Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-18T18:32:33.463Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

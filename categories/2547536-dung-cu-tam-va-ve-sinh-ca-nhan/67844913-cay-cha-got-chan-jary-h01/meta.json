@@ -17,18 +17,29 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh; không có trang hãng Jary, tìm web không thấy ảnh Jary H01 → cần chụp",
-    "source": null,
-    "rubricVersion": "v17"
+    "reason": "I1: chưa có ảnh → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: vẽ 1 cây màu hồng; hãng giao màu ngẫu nhiên (hồng, xanh ngọc, trắng); hàng đóng hộp 1 cái theo trang hãng",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-18",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh trên trang chính hãng jary.vn (ảnh có chữ/3 màu, chỉ làm mẫu)",
+      "referenceUrl": "https://jary.vn/products/cay-cha-got-chan-jary-heel-scrubber-h01"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
-    "decision": "WRITE_NEW",
-    "reason": "D1: chưa có mô tả; mô tả ngắn chỉ từ tên SP và chữ đọc được trên bao bì (không có trang hãng)",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "REWRITE",
+    "reason": "D2: theo trang chính hãng jary.vn (xuất xứ, quy cách hộp 1 cái, công dụng)",
+    "source": {
+      "url": "https://jary.vn/products/cay-cha-got-chan-jary-heel-scrubber-h01",
+      "fetchedAt": "2026-10-18T18:42:43Z"
+    },
+    "rubricVersion": "v23"
   },
   "question": null,
   "history": [
@@ -49,6 +60,32 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "I1: chưa có ảnh; không có trang hãng Jary, tìm web không thấy ảnh Jary H01 → cần chụp"
+    },
+    {
+      "at": "2026-10-18T18:42:34Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-18T18:42:43Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "description written (REWRITE) on 18/10 re-research"
+    },
+    {
+      "at": "2026-10-18T18:42:43.234Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-18T18:42:43.234Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

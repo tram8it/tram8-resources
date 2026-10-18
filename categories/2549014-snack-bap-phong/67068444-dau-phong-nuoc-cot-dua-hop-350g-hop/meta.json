@@ -20,9 +20,9 @@
   "status": "NEEDS_PHOTO",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh; không rõ hãng (đầu mã vạch 893623614… giống các SP Quang Thanh Foods như tóp mỡ cuộn 8936236143230, nhưng chưa chắc), Quang Thanh không có trang hãng; tìm theo mã vạch 8936236143285 và tên trên web, Open Food Facts (17/10/2026): không có ảnh mẫu nào → không vẽ Gemini được, cần nhân viên chụp mặt trước hộp",
+    "reason": "I1: chưa có ảnh; tra lại 18/10: iCheck/Kingfoodmart/OFF theo mã 8936236143285 không có; WebSearch \"Quang Thanh Foods đặc sản ba miền\", Yandex \"Quang Thanh heo khô cháy tỏi hũ\" không ra trang hãng hay ảnh hộp đậu phộng nước cốt dừa 350 g → cần chụp",
     "source": null,
-    "rubricVersion": "v17"
+    "rubricVersion": "v23"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -49,6 +49,12 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "web search for barcode/name found no reference image (likely Quang Thanh Foods, no brand site); still needs staff photo"
+    },
+    {
+      "at": "2026-10-18T18:46:11Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "re-searched 18/10 (owner feedback, np18): no image of this exact product found; reason updated"
     }
   ]
 }

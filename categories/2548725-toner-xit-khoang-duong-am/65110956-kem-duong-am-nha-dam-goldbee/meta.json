@@ -20,9 +20,9 @@
   "status": "NEEDS_PHOTO",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I4/I5: ảnh chụp cận nhãn bằng điện thoại, không thấy nguyên hũ/hộp; tìm lại 17/10 (tên, mã vạch 8936191162222, Kingfoodmart) không có ảnh mẫu nào của SP → không biết hình dạng bao bì để Gemini vẽ, cần chụp",
+    "reason": "I3/I4/I5: ảnh KiotViet chụp cận nhãn nắp hũ Gold Bee Soft Cream Aloe Vera; 18/10 tìm lại: mã 8936191162222, 'kem dưỡng ẩm nha đam Goldbee', 'Gold Bee Soft Cream Aloe Vera', Kingfoodmart/OFF/iCheck — không có ảnh trọn hũ nào → cần chụp thẳng nguyên hũ",
     "source": null,
-    "rubricVersion": "v17"
+    "rubricVersion": "v23"
   },
   "description": {
     "decision": "REWRITE",
@@ -49,6 +49,12 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "I3/I4/I5: ảnh chụp cận nhãn bằng điện thoại, không thấy nguyên hũ/hộp; tìm lại 17/10 (tên, mã vạch 8936191162222, Kingfoodmart) không có ảnh mẫu nào của SP → không biết hình dạng bao bì để Gemini vẽ, cần chụp"
+    },
+    {
+      "at": "2026-10-18T18:39:06Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "18/10 re-research (>=3 searches): still no image of this exact product → NEEDS_PHOTO"
     }
   ]
 }

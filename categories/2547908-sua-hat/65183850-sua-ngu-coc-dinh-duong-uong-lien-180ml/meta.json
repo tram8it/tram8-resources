@@ -17,18 +17,24 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I2/I8: ảnh hiện có là banner thùng 40 hộp; không tìm được ảnh hộp 180 ml vị Dinh Dưỡng (chỉ có hộp 110 ml, chưa chắc cùng bố cục) → không vẽ Gemini để khỏi đoán, cần nhân viên chụp hộp",
-    "source": null,
-    "rubricVersion": "v17"
+    "reason": "I2/I8: ảnh KiotViet là banner thùng 40 hộp → ảnh hãng hộp 180 ml 'Ngũ Cốc Dinh Dưỡng' trên thanhanfood.com.vn (Thanh An Food – Việt Ngũ Cốc; cần thêm vào brands.json), cùng thiết kế với thùng trên ảnh KiotViet",
+    "source": {
+      "url": "https://thanhanfood.com.vn/wp-content/uploads/2023/01/dinh-duong-single-thumb-001v2.png",
+      "fetchedAt": "2026-10-18T18:44:04Z"
+    },
+    "rubricVersion": "v23"
   },
   "description": {
-    "decision": "WRITE_NEW",
-    "reason": "D1: chưa có mô tả; viết ngắn chỉ từ chữ in trên thùng/hộp (không có trang hãng)",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "REWRITE",
+    "reason": "D2: theo trang hãng thanhanfood.com.vn (Thức uống Ngũ Cốc Dinh Dưỡng 180ml) và chữ in trên thùng ở ảnh KiotViet",
+    "source": {
+      "url": "https://thanhanfood.com.vn/san-pham/thuc-uong-ngu-coc-dinh-duong/",
+      "fetchedAt": "2026-10-18T18:44:04Z"
+    },
+    "rubricVersion": "v23"
   },
   "question": null,
   "history": [
@@ -49,6 +55,38 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "searched brand/retail/OFF/Kingfoodmart for a reference: none usable, stays NEEDS_PHOTO"
+    },
+    {
+      "at": "2026-10-18T18:44:04Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "brand image found on 18/10 re-research, normalised with make_image.py, checked by eye"
+    },
+    {
+      "at": "2026-10-18T18:44:04Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "description written (REWRITE) on 18/10 re-research"
+    },
+    {
+      "at": "2026-10-18T18:44:07.201Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-18T18:44:14.101Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-18T18:44:14.101Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

@@ -20,9 +20,9 @@
   "status": "NEEDS_PHOTO",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh; tên không có thương hiệu (mã vạch 8859771… Thái Lan), tra mã vạch trên web và Open Food Facts không ra → không có ảnh mẫu để vẽ, cần chụp",
+    "reason": "I1: chưa có ảnh; tra lại 18/10: iCheck/Kingfoodmart/OFF theo mã 8859771701072 không có; tên không có thương hiệu (mã Thái 8859771), tìm theo tên + mã không ra gói → cần chụp mặt trước",
     "source": null,
-    "rubricVersion": "v17"
+    "rubricVersion": "v23"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -55,6 +55,12 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "staff photo 2026-10-18 received (work/gemini/<id>/refs/2-staff.jpg) but wrinkled/tilted/glare → needs Gemini redraw; GEMINI_API_KEY not set on this machine"
+    },
+    {
+      "at": "2026-10-18T18:46:11Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "re-searched 18/10 (owner feedback, np18): no image of this exact product found; reason updated"
     }
   ]
 }

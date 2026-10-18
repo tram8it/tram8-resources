@@ -20,9 +20,9 @@
   "status": "NEEDS_PHOTO",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh; không tìm được ảnh bao bì/ảnh bánh (thophat.com chặn bot, tìm mạng không ra) và chưa rõ \"YMach\" (yến mạch?) nên không biết màu vỏ bánh → không vẽ v18 được, cần chụp bao bì",
+    "reason": "I1: chưa có ảnh; 18/10 tìm lại: trang hãng thophat.com (tìm 'gà nấm', 'phô mai', 'yến mạch' — không có SP này), mã 8935335403313 (OFF/iCheck/KFM), tìm web 17/10 — không có ảnh bao bì → cần chụp gói",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v23"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -49,6 +49,12 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "wave3: no pack or bun reference found; v18 food render needs pack photo"
+    },
+    {
+      "at": "2026-10-18T18:46:02Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "18/10 re-research (>=3 searches): still no image of this exact product → NEEDS_PHOTO"
     }
   ]
 }

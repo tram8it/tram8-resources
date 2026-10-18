@@ -20,9 +20,9 @@
   "status": "NEEDS_PHOTO",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh; mã vạch 6943090421017 không tra ra bao bì nào → cần nhân viên chụp (17/10)",
+    "reason": "I1: chưa có ảnh; tra 18/10: mã 6943090421017 (web, OFF, Minh Cầu Mart), '桃気 冰淇淋' — chỉ thấy bản hộp 桃気 khác mã (SP 68497202), không có ảnh ly này → cần chụp",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v23"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -49,6 +49,12 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "re-checked brand sites/retail/OFF for references (batch 17/10): none usable"
+    },
+    {
+      "at": "2026-10-18T18:46:07Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "np18 re-research 18/10: still no usable reference for this exact pack (see image.reason)"
     }
   ]
 }

@@ -1,4 +1,4 @@
-Thịt sấy khô dạng sợi nhỏ thương hiệu Phương Huyền, ăn liền, đựng trong hũ nhựa nắp vặn, cỡ lớn dùng cho cả nhà.
+Thịt sấy khô sợi nhỏ Phương Huyền: thịt sấy khô xé sợi ăn liền, đóng hũ nhựa cao.
 
-Quy cách: 218 g · hũ
-Xuất xứ: Việt Nam · Thương hiệu: Phương Huyền Food
+Quy cách: 168 g · hũ (theo nhãn trên ảnh iCheck cùng mã vạch)
+Nhà sản xuất: Phương Huyền Food

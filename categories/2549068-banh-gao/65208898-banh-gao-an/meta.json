@@ -17,18 +17,25 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh; mã vạch 8936029426366 (đầu 8936029 cũng là đầu số Orion — vd. Bim Orion 2MIX 8936029425314) nhưng tên SP không ghi vị/cỡ gói, tra Kingfoodmart/Open Food Facts/web không ra mã này → không biết gói nào để vẽ, cần nhân viên chụp (hoặc chủ cho biết vị + số bánh)",
-    "source": null,
-    "rubricVersion": "v17"
+    "reason": "I1: chưa có ảnh → packshot chính hãng Orion gói Bánh gạo nướng An vị tự nhiên 151,2 g (14 gói). Tên KiotViet không ghi vị: mã 8936029426366 liền kề mã An vị tảo biển (…359), 'An' không ghi vị = vị tự nhiên (vị gốc)",
+    "source": {
+      "url": "https://orion.vn/media/ucvh5miz/an-2704-mk-1.png",
+      "page": "https://orion.vn/san-pham/san-pham/banh-gao-nuong-an-vi-tu-nhien/",
+      "fetchedAt": "2026-10-18T18:40:34Z"
+    },
+    "rubricVersion": "v23"
   },
   "description": {
-    "decision": "ASK_OWNER",
-    "reason": "D1: chưa có mô tả, nhưng tên chỉ có 'Bánh gạo An', chưa rõ hãng/vị/khối lượng → chờ ảnh chụp bao bì",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "WRITE_NEW",
+    "reason": "D1: từ trang sản phẩm Orion và chữ in trên bao bì",
+    "source": {
+      "url": "https://orion.vn/san-pham/san-pham/banh-gao-nuong-an-vi-tu-nhien/",
+      "fetchedAt": "2026-10-18T18:40:34Z"
+    },
+    "rubricVersion": "v23"
   },
   "question": null,
   "history": [
@@ -49,6 +56,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "17/10: barcode not found on KFM/OFF/web; flavour/size unknown"
+    },
+    {
+      "at": "2026-10-18T18:40:34Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "brand packshot found on re-search (np18), make_image.py; checked by eye"
+    },
+    {
+      "at": "2026-10-18T18:40:37.195Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-18T18:40:37.195Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

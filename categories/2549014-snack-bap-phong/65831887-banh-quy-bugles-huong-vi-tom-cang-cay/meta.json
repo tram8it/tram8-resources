@@ -20,9 +20,9 @@
   "status": "NEEDS_PHOTO",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh. Đã tìm lại 17/10/2026 (RUBRIC v13–v17): không có trang hãng trong data/brands.json; mã vạch 6945705879329 không có trên web/OpenFoodFacts; dòng 妙脆角 (Cheetos/PepsiCo Trung Quốc) trên JD/Weee chỉ thấy gói túi 40g/65g các vị khác, không thấy bản vị này, cũng không thấy dạng ống; tiền tố mã vạch 6945705 khác mã PepsiCo TQ (6924743) nên chưa chắc cùng nhà sản xuất. Không có ảnh mẫu nào để Gemini vẽ đúng (không biết bao bì, khối lượng) → cần nhân viên chụp mặt trước (thấy rõ vị, khối lượng tịnh).",
+    "reason": "I1: chưa có ảnh; tra lại 18/10: iCheck/Kingfoodmart/OFF theo mã 6945705879329 không có, Yandex ảnh \"bugles tôm càng cay\", \"Bugles 小龙虾味\", \"6945705879329\", WebSearch \"bánh snack Bugles tôm càng cay lon nhập khẩu\" chỉ ra Bugles Mỹ/Nga, không có lon vị tôm càng cay → cần chụp mặt trước lon",
     "source": null,
-    "rubricVersion": "v17"
+    "rubricVersion": "v23"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -55,6 +55,12 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "staff photo 2026-10-18 received (work/gemini/<id>/refs/2-staff.jpg) but wrinkled/tilted/glare → needs Gemini redraw; GEMINI_API_KEY not set on this machine"
+    },
+    {
+      "at": "2026-10-18T18:46:11Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "re-searched 18/10 (owner feedback, np18): no image of this exact product found; reason updated"
     }
   ]
 }

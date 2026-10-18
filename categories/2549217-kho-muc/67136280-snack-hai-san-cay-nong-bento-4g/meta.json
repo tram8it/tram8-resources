@@ -17,12 +17,20 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I2: ảnh là gói Thái Hot & Spicy, không phải bản VN 4g (mã 893…); không tìm được ảnh mẫu bản VN (snnp.co.th, Open Food Facts, web) → cần nhân viên chụp mặt trước gói (làm mẫu cho Gemini)",
-    "source": null,
-    "rubricVersion": "v17"
+    "reason": "I2/I3: ảnh KiotViet nhỏ, chữ không đọc được → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: bố cục/màu theo ảnh KiotViet gói xanh; dòng chữ tiếng Việt 'Snack Hải Sản Cay Nồng – Surimi trộn Mực Hiệu Bento' và nhãn 'Vị Cay Nồng / Hot & Spicy' suy theo gói VN cùng dãy (mẫu không đọc được); không in khối lượng",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-18",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet gói 4 g xanh Hot & Spicy + ảnh đã duyệt của gói VN 4 g cùng dãy (Cay Ngọt) (chỉ làm mẫu)",
+      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/07/18/tram8/e77eccab025746b6b505b69f926bd2ef.png"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -49,6 +57,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "Tìm ảnh mẫu lại (snnp.co.th, Open Food Facts, web) không thấy bao bì này → vẫn NEEDS_PHOTO"
+    },
+    {
+      "at": "2026-10-18T18:29:07Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-18T18:29:07.340Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-18T18:29:07.340Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

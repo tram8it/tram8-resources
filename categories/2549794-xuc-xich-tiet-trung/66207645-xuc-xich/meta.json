@@ -17,16 +17,24 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "Ảnh KiotViet chỉ thấy nửa trên cây Heo Cao Bồi nhân xốt Spaghetti (bị cắt); không tìm được ảnh mẫu nào đủ cây theo mã 8936034878952 → cần chụp 1 cây thẳng, đủ hai đầu",
-    "source": null,
-    "rubricVersion": "v19"
+    "reason": "I3/I8: ảnh KiotViet chỉ thấy phần giữa cây → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ lớn khớp ảnh KiotViet (HEO CAO BỒI Snack dinh dưỡng, Nhân Xốt Spaghetti); hai đầu kẹp vẽ theo cây cùng dãy; khối lượng không thấy trên ảnh nên không vẽ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-18",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (ảnh chụp cây xúc xích thật, bị cắt hai đầu) + ảnh Minh Cầu Mart cây Heo Cao Bồi nhân phô mai cùng dãy (chỉ lấy dáng cây và hai đầu kẹp)",
+      "referenceUrl": "https://cdn1-retail-images.kiotviet.vn/2026/06/02/tram8/c81ae663164a48cbad4e12a72528c108.jpeg"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
-    "decision": "ASK_OWNER",
-    "reason": "chờ chủ xác nhận SP",
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết từ chữ trên cây (ảnh KiotViet): Heo Cao Bồi Snack dinh dưỡng, Nhân Xốt Spaghetti",
     "source": null,
     "rubricVersion": "v4"
   },
@@ -49,6 +57,32 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "no reference showing the whole stick (barcode not found online); staff photo needed"
+    },
+    {
+      "at": "2026-10-18T18:41:25Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-18T18:41:31Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "np18 re-research: description rewritten from pack/official facts"
+    },
+    {
+      "at": "2026-10-18T18:41:31.317Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-18T18:41:31.317Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

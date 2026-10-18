@@ -17,18 +17,29 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh; chỉ có trang Watsons VN/MY (chặn truy cập 403), không lấy được ảnh mẫu chai Rosé Crush → cần chụp",
-    "source": null,
-    "rubricVersion": "v17"
+    "reason": "I1: chưa có ảnh; Watsons chặn bot → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: bao bì 'mẫu thường' (chai hồng chữ trắng); hãng đã có mẫu mới nắp đen (mã vạch khác); chữ nhỏ dưới đáy có thể lệch",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-18",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh chai trên medicare.vn (chỉ làm mẫu)",
+      "referenceUrl": "https://medicare.vn/products/xit-thom-colorkey-rose-crush-shimmer-fragrance-mist-100ml-0138649"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
-    "decision": "WRITE_NEW",
-    "reason": "D1: chưa có mô tả; viết ngắn chỉ từ tên SP (thương hiệu, dòng Rosé Crush Shimmer Fragrance Mist, 100ml)",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "REWRITE",
+    "reason": "D2: bổ sung theo trang bán lẻ (tầng hương, cách dùng) và chữ in trên chai",
+    "source": {
+      "url": "https://medicare.vn/products/xit-thom-colorkey-rose-crush-shimmer-fragrance-mist-100ml-0138649",
+      "fetchedAt": "2026-10-18T18:36:27Z"
+    },
+    "rubricVersion": "v23"
   },
   "question": null,
   "history": [
@@ -49,6 +60,32 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "I1: chưa có ảnh; chỉ có trang Watsons VN/MY (chặn truy cập 403), không lấy được ảnh mẫu chai Rosé Crush → cần chụp"
+    },
+    {
+      "at": "2026-10-18T18:36:17Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-18T18:36:27Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "description written (REWRITE) on 18/10 re-research"
+    },
+    {
+      "at": "2026-10-18T18:36:30.289Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-18T18:36:30.289Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

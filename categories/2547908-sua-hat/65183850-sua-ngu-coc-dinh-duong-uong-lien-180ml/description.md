@@ -1,4 +1,4 @@
-Thức uống ngũ cốc dinh dưỡng Việt Ngũ Cốc, hộp uống liền. Theo bao bì, công thức có yến mạch, đậu xanh, hạt sen, đậu nành, gạo lứt.
+Sữa hạt ngũ cốc dinh dưỡng Việt Ngũ Cốc uống liền, kết hợp yến mạch, gạo lứt, đậu xanh, đậu nành.
 
 Quy cách: 180 ml · hộp
-Nhà sản xuất/thương hiệu: Việt Ngũ Cốc
+Xuất xứ: Việt Nam · Nhà sản xuất/thương hiệu: Thanh An Food · Việt Ngũ Cốc

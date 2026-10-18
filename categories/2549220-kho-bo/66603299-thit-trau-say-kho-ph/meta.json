@@ -20,9 +20,9 @@
   "status": "NEEDS_PHOTO",
   "image": {
     "decision": "REPLACE",
-    "reason": "I2: ảnh KiotViet là hũ 'Bò Khô Miếng', không phải thịt trâu sấy; không có ảnh mẫu đúng SP để vẽ lại → cần nhân viên chụp",
+    "reason": "I2: ảnh KiotViet là hũ 'Khô Bò Miếng'; tra lại 18/10: iCheck mã 8936202660044 cũng ghi 'Bò khô miếng' (ảnh hũ Khô Bò Miếng) — mã vạch và tên 'thịt trâu' mâu thuẫn, không có ảnh hũ thịt trâu sấy → cần chụp hũ thật",
     "source": null,
-    "rubricVersion": "v17"
+    "rubricVersion": "v23"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -49,6 +49,12 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "wave3: no usable reference for a Gemini redraw"
+    },
+    {
+      "at": "2026-10-18T18:46:11Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "re-searched 18/10 (owner feedback, np18): no image of this exact product found; reason updated"
     }
   ]
 }

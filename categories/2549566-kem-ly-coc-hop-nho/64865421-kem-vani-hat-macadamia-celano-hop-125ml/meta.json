@@ -20,9 +20,9 @@
   "status": "NEEDS_PHOTO",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh; ngoinhadinhduong.com không có ly vani macadamia 125ml, không tìm được ảnh mẫu nào để vẽ lại → cần nhân viên chụp (17/10)",
+    "reason": "I1: chưa có ảnh; mã vạch 8936011771337 ở Kingfoodmart và Minh Cầu Mart đều là ly Celano 'Sữa chua nam việt quất' 125 ml, không phải vani macadamia; tra thêm 18/10 không có ảnh ly vani macadamia → cần chụp ly đang bán (và kiểm tra mã vạch)",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v23"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -49,6 +49,12 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "re-checked brand sites/retail/OFF for references (batch 17/10): none usable"
+    },
+    {
+      "at": "2026-10-18T18:46:07Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "np18 re-research 18/10: still no usable reference for this exact pack (see image.reason)"
     }
   ]
 }

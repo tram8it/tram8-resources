@@ -17,16 +17,24 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh; không tìm được ảnh lon Milky Soda Mango Tango (Kingfoodmart, Open Food Facts, tìm web tiếng Việt/Hàn đều không có) → không có mẫu cho Gemini, cần nhân viên chụp lon",
-    "source": null,
-    "rubricVersion": "v17"
+    "reason": "I1: chưa có ảnh → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt chữ lớn (BR baskin robbins, MILKY SODA, MANGO TANGO, 망고탱고 밀키소다, 350 ml (172 kcal))",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-18",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh nhà bán lẻ Snackje (chỉ làm mẫu)",
+      "referenceUrl": "https://cdn.shopify.com/s/files/1/0976/8422/6387/files/baskin-robbins_mango_tango_milky_soda_350ml.webp"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
-    "reason": "D1: chưa có mô tả; mô tả ngắn chỉ từ tên SP (dòng Milky Soda, vị, 350 ml, không chứa cồn)",
+    "reason": "D1: từ chữ trên lon (ảnh Snackje): Baskin Robbins Milky Soda, 350 ml (172 kcal); theo mẫu SP cùng dòng 64865253",
     "source": null,
     "rubricVersion": "v4"
   },
@@ -49,6 +57,32 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "searched brand/retail/OFF/Kingfoodmart for a reference: none usable, stays NEEDS_PHOTO"
+    },
+    {
+      "at": "2026-10-18T18:44:51Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-18T18:44:57Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "np18 re-research: description rewritten from pack/official facts"
+    },
+    {
+      "at": "2026-10-18T18:44:57.401Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-18T18:44:57.401Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

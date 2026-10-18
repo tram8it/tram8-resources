@@ -17,18 +17,29 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I2: tên là Colgate Premier Clean nhưng ảnh là vỉ Colgate 'Mềm Mảnh Chăm Sóc Nướu' (SP khác); colgate.com.vn không có Premier Clean, colgate.com/en-ph chặn bot (403), không tìm được ảnh bao bì bản Việt Nam của mã 8935236000031 (Kingfoodmart, Open Food Facts không có) → không biết vỉ thật trông thế nào, cần chụp",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I2: ảnh KiotViet là vỉ Colgate Mềm Mảnh (SP khác) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: vẽ 1 vỉ màu xanh dương; cửa hàng có nhiều màu tay cầm (xanh lá, tím, đỏ…); chữ nhỏ trên vỉ không vẽ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-18",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh vỉ 12 cây trên trang NPP hongtran.com.vn (chỉ làm mẫu) + kiểu ảnh Premier Mềm Mịn đã duyệt",
+      "referenceUrl": "https://hongtran.com.vn/ban-chai-danh-rang-colgate-premier-clean-12cayx24-vi-288-cay"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
-    "decision": "WRITE_NEW",
-    "reason": "D1: chưa có mô tả; mô tả ngắn chỉ từ tên SP, không có nguồn hãng",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "REWRITE",
+    "reason": "D2: theo chữ in trên vỉ (Premier Clean, lông Mềm) và trang NPP",
+    "source": {
+      "url": "https://hongtran.com.vn/ban-chai-danh-rang-colgate-premier-clean-12cayx24-vi-288-cay",
+      "fetchedAt": "2026-10-18T18:31:12Z"
+    },
+    "rubricVersion": "v23"
   },
   "question": null,
   "history": [
@@ -49,6 +60,32 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "no reference image of the real pack found (KFM/OFF/Colgate PH 403); stays NEEDS_PHOTO"
+    },
+    {
+      "at": "2026-10-18T18:30:52Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-18T18:31:12Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "description written (REWRITE) on 18/10 re-research"
+    },
+    {
+      "at": "2026-10-18T18:31:12.950Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-18T18:31:12.950Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

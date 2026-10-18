@@ -20,9 +20,9 @@
   "status": "NEEDS_PHOTO",
   "image": {
     "decision": "REPLACE",
-    "reason": "I2: ảnh KiotViet là hộp Richeese phô mai; mã vạch 8993175542128 là Nabati sô-cô-la wafer (iCheck ghi 24g) nhưng không tìm được ảnh gói này để làm mẫu → cần chụp 1 cái",
+    "reason": "I2: ảnh KiotViet là hộp Richeese; tra lại 18/10: iCheck mã 8993175542128 ghi 'Bánh nabati Chocolate Wafer 24g' nhưng chỉ có ảnh chung, NPP Hương Thủy chỉ có Nabati socola 16 g/50 g (cỡ khác), Kingfoodmart/OFF không ảnh → cần chụp",
     "source": null,
-    "rubricVersion": "v20"
+    "rubricVersion": "v23"
   },
   "description": {
     "source": null,
@@ -49,6 +49,12 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "resolved without asking: barcode = Nabati chocolate wafer (iCheck), matches name; no reference image of this pack → NEEDS_PHOTO"
+    },
+    {
+      "at": "2026-10-18T18:46:11Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "re-searched 18/10 (owner feedback, np18): no image of this exact product found; reason updated"
     }
   ]
 }

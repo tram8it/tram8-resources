@@ -20,9 +20,9 @@
   "status": "NEEDS_PHOTO",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh; SP cùng dãy (bò tiêu đen, heo cay) có ảnh nhưng không biết màu/chữ gói vị gà Orleans, không tìm được ảnh trên mạng → không vẽ đoán, cần chụp",
+    "reason": "I1: chưa có ảnh; 18/10 tìm lại: mã 4897124973589 (web/OFF/iCheck/KFM), 'bánh mì hamburger gà Orleans 85g', SP cùng dãy 4897124973602 là gói CC 'Black Pepper Beef Burger' tiếng Trung — không có ảnh gói vị gà Orleans → cần chụp mặt trước gói",
     "source": null,
-    "rubricVersion": "v17"
+    "rubricVersion": "v23"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -49,6 +49,12 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "searched for references (barcode, Vietnamese/Chinese names, retailers): none usable; no Gemini call"
+    },
+    {
+      "at": "2026-10-18T18:46:02Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "18/10 re-research (>=3 searches): still no image of this exact product → NEEDS_PHOTO"
     }
   ]
 }

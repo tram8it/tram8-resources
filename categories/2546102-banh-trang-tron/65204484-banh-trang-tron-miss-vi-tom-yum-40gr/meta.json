@@ -17,12 +17,20 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I4/I5: ảnh KiotViet chỉ chụp cận nửa trên gói Xì Lay vị Tomyum (mất phần đáy có khối lượng); không tìm được ảnh mặt trước đủ gói trên trang hãng/nhà bán lẻ → cần chụp cả mặt trước gói (thấy chữ khối lượng)",
-    "source": null,
-    "rubricVersion": "v17"
+    "reason": "I3/I4/I5: ảnh KiotViet chỉ chụp cận nửa trên gói → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ nhỏ trên gói có thể lệch",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-18",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh gói trên tomkholouisiana.com (chỉ làm mẫu) + ảnh KiotViet nửa trên gói",
+      "referenceUrl": "https://www.tomkholouisiana.com/products/banh-trang-tron-vi-tomyum"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -49,6 +57,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "Không có ảnh mẫu đủ gói (phần đáy/khối lượng không thấy) để Gemini vẽ đúng"
+    },
+    {
+      "at": "2026-10-18T18:30:54Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-18T18:31:23.255Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-18T18:31:23.255Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

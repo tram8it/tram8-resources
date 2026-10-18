@@ -20,9 +20,9 @@
   "status": "NEEDS_PHOTO",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh; không tìm được ảnh nào của gói (mã vạch 6976192792709 không ra kết quả, không trang hãng/bán lẻ) → không có mẫu để Gemini vẽ, cần chụp",
+    "reason": "I1: chưa có ảnh; 18/10 tìm lại: mã 6976192792709 (web/OFF/iCheck/KFM), 'bánh mì hamburger thịt gà Orleans 85g' (chỉ ra Baobeididai — gói dán nhãn Việt khác, banner nhỏ), SP cùng dãy …686 là gói CC 'Black Pepper Beef Burger' tiếng Trung — không có ảnh gói vị gà Orleans của dãy này → cần chụp mặt trước gói",
     "source": null,
-    "rubricVersion": "v17"
+    "rubricVersion": "v23"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -49,6 +49,12 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "searched for references (barcode, Vietnamese/Chinese names, retailers): none usable; no Gemini call"
+    },
+    {
+      "at": "2026-10-18T18:46:02Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "18/10 re-research (>=3 searches): still no image of this exact product → NEEDS_PHOTO"
     }
   ]
 }

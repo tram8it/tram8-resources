@@ -17,18 +17,26 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh; tên không có thương hiệu. Đã tra mã vạch 8938525983xxx (tiền tố GS1 VN 8938525) trên web và Open Food Facts (17/10/2026): không xác định được hãng, không có ảnh bao bì để làm mẫu → cần nhân viên chụp mặt trước gói (thấy tên hãng, vị, khối lượng)",
-    "source": null,
-    "rubricVersion": "v17"
+    "reason": "I3/I4: ảnh KiotViet chụp ngoài trời, nền đường phố → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ lớn khớp ảnh KiotViet (POPCORN, Đệ nhất bắp rang bơ, Vị Trứng muối 90g — cốc ghi 90 g, tên KiotViet 85 g, v19)",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-18",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet do cửa hàng chụp (chỉ làm mẫu)",
+      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/10/15/tram8/6aa39f27e0a7437398c8703a51d57460.png"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
-    "reason": "D1: chưa có mô tả; viết ngắn chỉ từ tên SP (vị, khối lượng), không rõ thương hiệu",
+    "reason": "D1: từ chữ in trên cốc (ảnh KiotViet); khối lượng theo cốc 90 g",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v23"
   },
   "question": null,
   "history": [
@@ -55,6 +63,26 @@
       "by": "init",
       "status": "NEEDS_PHOTO",
       "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-18T18:32:00Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-18T18:32:16.630Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-18T18:32:16.630Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

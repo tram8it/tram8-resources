@@ -20,9 +20,9 @@
   "status": "NEEDS_PHOTO",
   "image": {
     "decision": "REPLACE",
-    "reason": "I2: ảnh hiện có là 3 chai lớn (SP khác); mã 4987176195807 không tra được → cần chụp 1 dây gói gội Head & Shoulders đang bán",
+    "reason": "I2: ảnh KiotViet là 3 chai lớn (SP khác); 18/10 tìm lại: mã 4987176195807 (web, Open Food Facts, iCheck, Kingfoodmart — không ra SP), 'dây gội Head & Shoulders' — H&S có nhiều dây gói (bạc hà mát lạnh, sạch gàu da đầu ngứa, 10/12 gói…), tên không ghi loại → cần chụp mặt trước 1 dây",
     "source": null,
-    "rubricVersion": "v19"
+    "rubricVersion": "v23"
   },
   "description": {
     "decision": "ASK_OWNER",
@@ -49,6 +49,12 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "NEEDS_PHOTO: I2: ảnh hiện có là 3 chai lớn (SP khác); mã 4987176195807 không tra được → cần chụp 1 dây gói gội Head & Shoulders đang bán"
+    },
+    {
+      "at": "2026-10-18T18:26:46Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "18/10 re-research (>=3 searches): still no image of this exact product → NEEDS_PHOTO"
     }
   ]
 }

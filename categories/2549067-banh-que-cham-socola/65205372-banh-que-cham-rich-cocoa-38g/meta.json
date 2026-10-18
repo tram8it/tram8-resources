@@ -20,9 +20,9 @@
   "status": "NEEDS_PHOTO",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I8: ảnh hiện có chỉ chụp nắp nhiều ly lộn ngược (nắp cam 'Stick Biscuits Rich cocoa Chocolate cup'), không thấy thân ly; không có ảnh hãng hay ảnh bán lẻ nào của mã 4895230201657 để Gemini vẽ đúng → cần chụp 1 ly, mặt trước thân ly, thẳng",
+    "reason": "I3/I8: ảnh KiotViet chỉ thấy nắp nhiều ly lộn ngược; tra lại 18/10: iCheck/Kingfoodmart/OFF theo mã 4895230201657 không có, Yandex \"Rich cocoa stick biscuits chocolate cup\", \"Rich cocoa stick biscuits cup 38g\" không ra ly này → cần chụp thân ly",
     "source": null,
-    "rubricVersion": "v17"
+    "rubricVersion": "v23"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -49,6 +49,12 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "I3/I8: ảnh hiện có chỉ chụp nắp nhiều ly lộn ngược (nắp cam 'Stick Biscuits Rich cocoa Chocolate cup'), không thấy thân ly; không có ảnh hãng hay ảnh bán lẻ nào của mã 4895230201657 để Gemini vẽ đúng → cần chụp 1 ly, mặt trước thân ly, thẳng"
+    },
+    {
+      "at": "2026-10-18T18:46:11Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "re-searched 18/10 (owner feedback, np18): no image of this exact product found; reason updated"
     }
   ]
 }

@@ -17,17 +17,28 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I6: ảnh KiotViet 129×135 quá nhỏ, không đọc được chữ; ngoinhadinhduong.com (Nutifood Eshop) không có hộp sô cô la 400ml, không tìm được ảnh mẫu rõ để vẽ lại → cần nhân viên chụp (17/10)",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I6: ảnh KiotViet 129×135 là ly 125ml, không phải hộp 400ml → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt chữ lớn (Celano Premium Ice Cream, CHOCOLATE ALMOND, 400ml); bỏ hạt và lá trang trí quanh hộp",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-18",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh Minh Cầu Mart theo đúng mã vạch 8936011776707 (chỉ làm mẫu)",
+      "referenceUrl": "https://minhcaumart.vn/media/com_eshop/products/8936011776707.webp"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
-    "reason": "D1: chưa có mô tả; mô tả ngắn chỉ từ tên hàng",
-    "source": null,
+    "reason": "D1: từ chữ trên hộp (ảnh theo mã vạch): Celano Premium Ice Cream, Chocolate Almond, 400 ml",
+    "source": {
+      "url": "https://minhcaumart.vn/media/com_eshop/products/8936011776707.webp",
+      "fetchedAt": "2026-10-18T18:33:58Z"
+    },
     "rubricVersion": "v4"
   },
   "question": null,
@@ -49,6 +60,32 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "re-checked brand sites/retail/OFF for references (batch 17/10): none usable"
+    },
+    {
+      "at": "2026-10-18T18:33:58Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-18T18:33:58Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "np18 re-research: description rewritten from pack/official facts"
+    },
+    {
+      "at": "2026-10-18T18:33:59.080Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-18T18:33:59.080Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

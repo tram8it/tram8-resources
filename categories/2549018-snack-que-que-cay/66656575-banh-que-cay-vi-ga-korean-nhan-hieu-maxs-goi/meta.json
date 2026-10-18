@@ -20,9 +20,9 @@
   "status": "NEEDS_PHOTO",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh; tìm web (Open Food Facts, tìm kiếm tiếng Việt/Thái theo tên và mã 8850548010113) không thấy ảnh gói vị Gà Korean — không biết bao bì nên không vẽ Gemini được → cần nhân viên chụp mặt trước gói (cùng kiểu với gói MAXs vị Thịt Nướng/Cay đã có)",
+    "reason": "I1: chưa có ảnh; tra lại 18/10: iCheck mã 8850548010113 ghi 'Snack max vị siêu cay 55g' nhưng ảnh là ảnh chung không phải SP; Kingfoodmart/OFF không có; Yandex \"MAXs snack stick Korean chicken\" chỉ ra Mix VFoods/Lay's → cần chụp",
     "source": null,
-    "rubricVersion": "v17"
+    "rubricVersion": "v23"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -49,6 +49,12 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "Không tìm được ảnh mẫu gói vị Gà Korean để vẽ Gemini"
+    },
+    {
+      "at": "2026-10-18T18:46:11Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "re-searched 18/10 (owner feedback, np18): no image of this exact product found; reason updated"
     }
   ]
 }

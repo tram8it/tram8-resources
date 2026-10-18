@@ -17,17 +17,23 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh; vinamilk.com.vn trả 403, không tìm được ảnh mẫu nước dừa Vinamilk 330ml (Kingfoodmart, Open Food Facts không có) → cần nhân viên chụp",
-    "source": null,
-    "rubricVersion": "v17"
+    "reason": "I1: chưa có ảnh; ảnh hãng vinamilk.com.vn trang Nước dừa tươi 330ml (mã GTIN 8934673701457 khớp mã vạch SP), mặt trước hộp có nắp vặn",
+    "source": {
+      "url": "https://d8um25gjecm9v.cloudfront.net/cms/NGK_Nuocdua_330_1_94a1641013_5a473636d2.png",
+      "fetchedAt": "2026-10-18T18:29:30Z"
+    },
+    "rubricVersion": "v23"
   },
   "description": {
     "decision": "WRITE_NEW",
-    "reason": "D1: chưa có mô tả; viết ngắn chỉ từ tên SP và thương hiệu (mã vạch 8934673… của Vinamilk), không đọc được trang hãng",
-    "source": null,
+    "reason": "D1: theo trang hãng vinamilk.com.vn (dừa Đồng bằng sông Cửu Long, không chất bảo quản, không màu, 100% không biến đổi gen) và chữ trên hộp",
+    "source": {
+      "url": "https://www.vinamilk.com.vn/vi/products/nuoc-dua-tuoi-cocofresh",
+      "fetchedAt": "2026-10-18T18:29:30Z"
+    },
     "rubricVersion": "v4"
   },
   "question": null,
@@ -49,6 +55,32 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "no reference image found; still needs staff photo"
+    },
+    {
+      "at": "2026-10-18T18:29:30Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "np18 re-research: brand image found, normalised with make_image.py"
+    },
+    {
+      "at": "2026-10-18T18:29:30Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "np18 re-research: description rewritten from pack/official facts"
+    },
+    {
+      "at": "2026-10-18T18:29:30.434Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-18T18:29:30.434Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

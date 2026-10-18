@@ -17,18 +17,29 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh; không tìm thấy ảnh gói Sachi 'Phủ Rong Biển' ở đâu (trang hãng sachi.vn hết hạn HTTPS, Weee! chỉ có mực/tôm/phô mai) → cần chụp mặt trước gói",
-    "source": null,
-    "rubricVersion": "v17"
+    "reason": "I1: chưa có ảnh; trang hãng chỉ có ảnh banner → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ nhỏ ở các nhãn phụ (Thơm ngon đậm vị, Giòn rụm, Healthy…) theo banner, có thể lệch nét",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-18",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh banner trên trang hãng banhtrangsachi.com (có giỏ bánh, chỉ làm mẫu) + kiểu ảnh Sachi Phủ Mực Nướng đã duyệt",
+      "referenceUrl": "https://banhtrangsachi.com/banh-trang-nuong-tam-vi-rong-bien/"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
-    "decision": "WRITE_NEW",
-    "reason": "D1: chưa có mô tả; viết ngắn chỉ từ dữ kiện chắc chắn (tên SP, chữ in mặt trước bao bì), không có trang hãng/nhãn sau; 45 g theo tên SP",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "REWRITE",
+    "reason": "D2: bổ sung nguyên liệu theo trang hãng banhtrangsachi.com và chữ in trên gói",
+    "source": {
+      "url": "https://banhtrangsachi.com/banh-trang-nuong-tam-vi-rong-bien/",
+      "fetchedAt": "2026-10-18T18:31:12Z"
+    },
+    "rubricVersion": "v23"
   },
   "question": null,
   "history": [
@@ -49,6 +60,32 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "Không có ảnh mẫu nào của vị rong biển"
+    },
+    {
+      "at": "2026-10-18T18:30:55Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-18T18:31:12Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "description written (REWRITE) on 18/10 re-research"
+    },
+    {
+      "at": "2026-10-18T18:31:30.278Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-18T18:31:30.278Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

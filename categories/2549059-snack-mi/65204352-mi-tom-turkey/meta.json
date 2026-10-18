@@ -17,18 +17,26 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3, I4, I8: ảnh chụp cận dải nhiều gói, đầu bên phải gói (khối lượng tịnh) bị cắt nên không vẽ lại trọn 1 gói được; không xác định nhà sản xuất (mã vạch 692…), không tìm thấy ảnh khác → cần chụp trọn 1 gói",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "I3/I4/I8: ảnh KiotViet chụp cận dải nhiều gói, đầu gói bị cắt → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: vẽ một thanh nguyên từ dải gói; chữ lớn khớp (Delicious Noodles, Turkey Noodles, Good Taste, Khối lượng tịnh); số khối lượng không đọc được nên không in; chữ nhỏ tem phụ mờ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-18",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet dải gói đen (hàng thật) + ảnh Alibaba gói đỏ cùng thiết kế (chỉ làm mẫu)",
+      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/04/25/tram8/cabab3698c9e4891a3a03c2941d0e1fd.jpeg"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
-    "reason": "D1: chưa có mô tả; mô tả ngắn chỉ từ tên SP và chữ in trên gói ('Turkey Noodles', 'Delicious noodles', 'Good taste'), không có nguồn hãng",
+    "reason": "D1: từ chữ in trên bao bì (ảnh KiotViet); khối lượng không đọc được",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v23"
   },
   "question": null,
   "history": [
@@ -49,6 +57,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "shop photo cuts off the right end of the packet (net weight), no other reference found"
+    },
+    {
+      "at": "2026-10-18T18:41:23Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-18T18:41:23.656Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-18T18:41:23.656Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

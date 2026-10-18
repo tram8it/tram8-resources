@@ -20,9 +20,9 @@
   "status": "NEEDS_PHOTO",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh; mã nội bộ 990312212973, không tra được SP ở đâu → cần chụp mặt trước gói (kèm mặt sau để viết mô tả)",
+    "reason": "I1: chưa có ảnh; mã nội bộ 990312212973 (không phải mã GS1), không tra được ở đâu → cần chụp mặt trước gói",
     "source": null,
-    "rubricVersion": "v20"
+    "rubricVersion": "v23"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -49,6 +49,12 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "re-triage: internal code, nothing to look up → NEEDS_PHOTO (front + back photo), not a question"
+    },
+    {
+      "at": "2026-10-18T18:46:11Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "re-searched 18/10 (owner feedback, np18): no image of this exact product found; reason updated"
     }
   ]
 }

@@ -1,4 +1,4 @@
-Kem Celano vị sô cô la, hộp 400 ml.
+Kem hộp Celano Premium vị sô cô la hạnh nhân (Chocolate Almond), hộp lớn dùng cho cả nhà.
 
 Quy cách: 400 ml · hộp
 Nhà sản xuất/thương hiệu: Celano

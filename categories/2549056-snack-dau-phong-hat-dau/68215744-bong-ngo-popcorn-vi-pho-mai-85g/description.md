@@ -1,3 +1,3 @@
-Bỏng ngô (popcorn) vị phô mai, ăn liền, dùng ăn vặt hoặc khi xem phim.
+Bắp rang bơ (popcorn) vị phô mai, đựng cốc nhựa nắp vòm, ăn liền, dùng ăn vặt hoặc khi xem phim.
 
-Quy cách: 85 g · cốc
+Quy cách: 90 g · cốc (theo bao bì)
