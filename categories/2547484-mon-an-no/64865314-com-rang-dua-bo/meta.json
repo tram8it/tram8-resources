@@ -17,20 +17,12 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "IN_PROGRESS",
+  "status": "NEEDS_PHOTO",
   "image": {
     "decision": "REPLACE",
-    "reason": "ảnh minh hoạ món ăn (v22): chủ 17/10 muốn ảnh món ăn hấp dẫn, đồng bộ một phong cách cho cả nhóm; ảnh cũ là ảnh bao bì/ảnh chụp gói → ảnh món ăn Gemini vẽ từ ảnh bao bì (v18: món hấp bán lẻ hiện cái bánh và nhân); ảnh minh hoạ. Khác hàng thật: ảnh minh hoạ: hộp nhựa trong không nhãn; lượng món và hộp thật có thể khác",
-    "source": {
-      "aiGenerated": true,
-      "tool": "Gemini API",
-      "model": "gemini-3.1-flash-image",
-      "generatedAt": "2026-10-17",
-      "style": "food photo, one house style for fresh/ready-to-eat set (v22)",
-      "reference": "ảnh mẫu phong cách chung của bộ (SP chưa có ảnh KiotViet); nguyên liệu theo tên SP",
-      "postProcess": "background whitened + framed ~75% width (scratch whiten.py), food pixels untouched except global white point"
-    },
-    "rubricVersion": "v22"
+    "reason": "chủ 18/10: hàng để trong túi nilon hút chân không; không có ảnh thật — cần nhân viên chụp cả túi",
+    "source": null,
+    "rubricVersion": "v23"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -75,6 +67,12 @@
       "by": "owner",
       "status": "IN_PROGRESS",
       "note": "rejected on Hub by AU KHUONG DUY: Nó để trong túi nilon hút chân không thôi"
+    },
+    {
+      "at": "2026-10-18T17:28:53.628Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "chủ 18/10: hàng để trong túi nilon hút chân không; không có ảnh thật — cần nhân viên chụp cả túi"
     }
   ],
   "submitted": {

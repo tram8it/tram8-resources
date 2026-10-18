@@ -52,3 +52,4 @@ Hàng thật xác định theo mã vạch; ảnh + mô tả đã làm theo hàng
 | 65205426 | Bim MIDAS rong biển cuộn 50g (Gói) | Snack Midas Bò xốt mỹ vị 50 g (gói đỏ), không phải rong biển cuộn | iCheck 8938565910286; ảnh KiotViet |
 | 67997857 | Bánh Sầu Riêng Musang King (Gói) | Bánh Pie ngọt Đậu – Sầu riêng 300 g (榴莲饼, 云祥哥); bao bì không có chữ Musang King | ảnh nhân viên chụp 18/10 |
 | 67235516 | Mì oki trẻ em 22g/hộp (Gói) | Snack mì giòn Oki Oki vị gà nướng (Grilled Chicken Flavor) — tên nên ghi vị cho khỏi lẫn với vị bò/gạch cua | ảnh nhân viên chụp 18/10 |
+| 67574185 | Bánh bông lan tam giác vị dâu (Cái) | Bánh bông lan tam giác Weisiel Red Velvet (Red Velvet Flavored Cake), không thấy chữ vị dâu | ảnh KiotViet |

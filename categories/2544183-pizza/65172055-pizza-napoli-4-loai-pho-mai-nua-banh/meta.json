@@ -17,12 +17,15 @@
     "description": "<span style=\"color:#242e52;font-family:'IBM Plex Sans';background-color:#ddd6c5;\"></span>Tên sản phẩm: Pizza phô mai<br>Mô tả: Pizza 4 Cheese (Quattro Formaggi) là loại pizza đặc biệt với sự kết hợp của các loại phô mai, thường bao gồm mozzarella, gorgonzola (hoặc phô mai xanh), camembert và Grana padano<br>Hạn sử dụng: 4 tháng kể từ ngày sản xuất. Ngày sản xuất và hạn sử dụng in trên nhãn bao bì sản phẩm<br>Thành phần: Bột mì, phô mai (33.4%), kem sữa, mật ong, dầu olive<br>Bảo quản: Nhiệt độ -18 độ C<br>Hướng dẫn nấu ăn<br>Bước 1: Rã đông<br>Lựa chọn 1: Cho vào tủ lạnh 6–8 tiếng (Khuyến dùng)<br>Lựa chọn 2: Rã đông tự nhiên trong vòng 25–35 phút<br>Lựa chọn 3: Rã đông trong vòng 40–90 giây bằng lò vi sóng (Nhanh gọn và Tiện lợi)<br>Bước 2: Nướng<br>Lựa chọn 1 – Nồi chiên không dầu:<br>Đặt pizza vào nồi chiên không dầu. Nướng ở 190–200°C trong 6–8 phút hoặc cho đến khi bánh đạt được độ giòn mong muốn.<br>Lựa chọn 2 – Lò nướng điện:<br>Làm nóng lò trong vòng 5 phút. Nướng trong 5–8 phút ở 230–250°C (nướng đến khi phô mai tan chảy).<br>Bước 3: Thêm mật ong<br>Dùng gói mật ong tự nhiên đi kèm và cho lên bánh. vị thơm béo của bốn loại phô mai hòa với vị ngọt dịu từ mật ong sẽ mang đến bạn trải nghiệm đầy bất ngờ và trọn vị ngon!<span style=\"color:#242e52;font-family:'IBM Plex Sans';background-color:#ddd6c5;\"></span>",
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "NO_CHANGE",
+  "status": "READY",
   "image": {
-    "decision": "KEEP",
-    "reason": "I1–I9 đạt: ảnh bánh + hộp của hãng đúng loại, nền trắng, 1:1",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "CROP",
+    "reason": "chủ 18/10: SP nhỏ trong khung trên web → phóng ảnh hiện có cho SP chiếm ~84% khung (make_image.py)",
+    "source": {
+      "url": "https://cdn2-retail-images.kiotviet.vn/2026/09/08/tram8/e570f336c24544db83d5d24df48d0dbe.png",
+      "fetchedAt": "2026-10-18T17:52:22.540Z"
+    },
+    "rubricVersion": "v23"
   },
   "description": {
     "decision": "KEEP",
@@ -49,6 +52,25 @@
       "by": "ai",
       "status": "NO_CHANGE",
       "note": "description review v9: keep existing KiotViet description"
+    },
+    {
+      "at": "2026-10-18T17:52:22.541Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "reframed: product too small in frame"
+    },
+    {
+      "at": "2026-10-18T17:52:22.642Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-18T17:52:22.642Z",
+    "fields": [
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

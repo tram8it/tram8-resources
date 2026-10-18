@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "chủ 18/10: cơm nắm theo phong cách ảnh bao bì Onigiri Bò BBQ, không vẽ món ăn → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: vẽ lại bao bì gọn kiểu Bò BBQ; nhãn vị chép từ ảnh thật; chữ nhỏ trên nhãn có thể khác",
@@ -86,6 +86,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-18T17:44:24.092Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -97,9 +103,28 @@
     "hubStatus": "PENDING"
   },
   "review": {
-    "status": "REJECTED",
+    "status": "APPLIED",
     "reviewedBy": "AU KHUONG DUY",
-    "reviewedAt": "2026-10-18T17:01:05.408Z",
-    "note": "Xem lại các sp bị từ chối khác để biết lý do từ chối cơm nắm"
+    "reviewedAt": "2026-10-18T17:23:15.391Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-18T17:23:15.391Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/45af70248acbb6490e6a89d72a980cb4d914238aa3ed87413269713ea03f7bb7.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/05/11/tram8/a6a6968f0bf64566b9d205c2311e56a8.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Cơm nắm tam giác Onigiri Việt nhân chả cá xốt cay Hàn Quốc, bọc rong biển, đóng gói kiểu Nhật với dải xé mở theo thứ tự 1–2–3. Tiện dùng cho bữa sáng hoặc bữa nhẹ.\n\nQuy cách: cái\nNhà sản xuất/thương hiệu: Onigiri Việt",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

@@ -17,20 +17,19 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "IN_PROGRESS",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
-    "reason": "ảnh minh hoạ món ăn (v22): chủ 17/10 muốn ảnh món ăn hấp dẫn, đồng bộ một phong cách cho cả nhóm; ảnh cũ là ảnh bao bì/ảnh chụp gói → ảnh món ăn Gemini vẽ từ ảnh bao bì (v18: món hấp bán lẻ hiện cái bánh và nhân); ảnh minh hoạ. Khác hàng thật: ảnh minh hoạ: cơm cuộn đã bóc màng, không thấy bao bì/nhãn; nhân vẽ theo tên và thành phần trên nhãn, lượng nhân thật có thể khác",
+    "reason": "chủ 18/10: ảnh phải đúng bao bì thật; vẽ lại gói thật từ ảnh KiotViet, bỏ ảnh minh hoạ món ăn → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: vẽ lại phẳng, sạch; chữ nhỏ không đọc được để mờ; độ nhăn màng khác ảnh thật",
     "source": {
       "aiGenerated": true,
       "tool": "Gemini API",
-      "model": "gemini-3.1-flash-image",
-      "generatedAt": "2026-10-17",
-      "style": "food photo, one house style for fresh/ready-to-eat set (v22)",
-      "reference": "ảnh KiotViet của SP (hàng thật, chỉ làm mẫu) + ảnh mẫu phong cách chung của bộ",
-      "postProcess": "background whitened + framed ~75% width (scratch whiten.py), food pixels untouched except global white point"
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-18",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet của SP (hàng thật tại quầy)"
     },
-    "rubricVersion": "v22"
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -75,10 +74,28 @@
       "by": "owner",
       "status": "IN_PROGRESS",
       "note": "rejected on Hub by AU KHUONG DUY: Xem lại các sp bị từ chối khác để biết lý do từ chối cơm nắm"
+    },
+    {
+      "at": "2026-10-18T17:27:56Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "redo after Hub rejection: Xem lại các sp bị từ chối khác để biết lý do từ chối cơm nắm — Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-18T17:27:56.871Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-18T17:44:24.092Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
-    "at": "2026-10-17T17:52:24.154Z",
+    "at": "2026-10-18T17:27:56.871Z",
     "fields": [
       "description",
       "image"
@@ -86,9 +103,28 @@
     "hubStatus": "PENDING"
   },
   "review": {
-    "status": "REJECTED",
+    "status": "APPLIED",
     "reviewedBy": "AU KHUONG DUY",
-    "reviewedAt": "2026-10-18T17:01:30.519Z",
-    "note": "Xem lại các sp bị từ chối khác để biết lý do từ chối cơm nắm"
+    "reviewedAt": "2026-10-18T17:32:23.302Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-18T17:32:23.302Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/10c0696fbf5bdbcb215cfa252f5b89d64a69c9d6d893e70bc974c93c94358135.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/06/19/tram8/99e2f4f12a1643d6bcf814f520f82395.png"
+        ]
+      },
+      "description": {
+        "to": "Cơm cuộn xúc xích phô mai kiểu kimbap, cơm gạo Nhật cuộn rong biển với xúc xích, chà bông, bắp ngọt và phô mai Cheddar. Hàng đông lạnh, chỉ cần hâm nóng là dùng được.\n\nThành phần: Gạo Nhật (43,3%), xúc xích (11%), chà bông, bắp ngọt, phô mai Cheddar (5,4%), mè, dầu mè, muối, rong biển, chất điều vị (INS 621).\nQuy cách: cuộn\nHướng dẫn sử dụng: Hâm nóng bằng lò vi sóng trước khi dùng — sản phẩm đông lạnh khoảng 1 phút 30 giây, sản phẩm đã rã đông (để ngăn mát 7–8 giờ) khoảng 1 phút, đến khi cơm nóng đều. Bao bì dùng được trong lò vi sóng.\nBảo quản: Ngăn đông tủ lạnh ≤ -18°C. Hạn sử dụng 6 tháng kể từ ngày sản xuất.\nXuất xứ: Việt Nam · Nhà sản xuất: Công ty TNHH Hải Đăng Đô (TP. Hồ Chí Minh)",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

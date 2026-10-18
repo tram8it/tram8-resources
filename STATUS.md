@@ -2,7 +2,7 @@
 
 > Sinh tự động bởi `node tools/status.mjs`. **Không sửa tay.** Nguồn sự thật là `meta.json` của từng SP.
 
-Tổng 2502 SP · đã xem 2502 (100%) · xong 1912 · chờ chủ duyệt 276 · cần chụp 282 · hỏi chủ 0
+Tổng 2502 SP · đã xem 2502 (100%) · xong 1928 · chờ chủ duyệt 282 · cần chụp 288 · hỏi chủ 0
 
 Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` = giữ nguyên + đã lên web.
 
@@ -42,8 +42,8 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 | 32 | Bánh quế / bánh cuộn (wafer roll) | 0.0tr | 21 | 0 | 0 | 0 | 2 | 0 | 2 | 0 | 17 |
 | 33 | Snack phồng tôm/mực/cua | 0.0tr | 21 | 0 | 0 | 0 | 4 | 0 | 1 | 0 | 16 |
 | 34 | Cà phê uống liền | 0.0tr | 21 | 0 | 0 | 0 | 1 | 0 | 9 | 0 | 11 |
-| 35 | Cơm nắm Onigiri | 0.0tr | 21 | 0 | 6 | 9 | 0 | 0 | 6 | 0 | 0 |
-| 36 | Xúc xích tiệt trùng | 0.0tr | 21 | 0 | 0 | 1 | 7 | 0 | 0 | 0 | 13 |
+| 35 | Cơm nắm Onigiri | 0.0tr | 21 | 0 | 6 | 0 | 0 | 0 | 2 | 0 | 13 |
+| 36 | Xúc xích tiệt trùng | 0.0tr | 21 | 0 | 0 | 0 | 7 | 0 | 0 | 0 | 14 |
 | 37 | Mì trộn / mì khô / spaghetti (Ly/Tô/Cốc) | 0.0tr | 21 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 21 |
 | 38 | Vị nguyên bản | 0.0tr | 21 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 20 |
 | 39 | Thuốc lá (18+) | 0.0tr | 20 | 0 | 0 | 0 | 2 | 0 | 1 | 0 | 17 |
@@ -78,12 +78,12 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 | 68 | Kem đánh răng - Hơi thở thơm | 0.0tr | 13 | 0 | 7 | 0 | 0 | 0 | 1 | 0 | 5 |
 | 69 | Dung dịch vệ sinh nữ | 0.0tr | 13 | 0 | 6 | 0 | 0 | 0 | 1 | 0 | 6 |
 | 70 | Khăn ướt – khăn giấy | 0.0tr | 13 | 0 | 0 | 0 | 1 | 0 | 1 | 0 | 11 |
-| 71 | Pizza | 0.0tr | 13 | 0 | 9 | 0 | 0 | 0 | 2 | 0 | 2 |
+| 71 | Pizza | 0.0tr | 13 | 0 | 6 | 0 | 0 | 0 | 5 | 0 | 2 |
 | 72 | Sữa chua ăn | 0.0tr | 13 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 12 |
-| 73 | Khô heo | 0.0tr | 14 | 0 | 0 | 2 | 5 | 0 | 0 | 0 | 7 |
+| 73 | Khô heo | 0.0tr | 14 | 0 | 0 | 0 | 7 | 0 | 0 | 0 | 7 |
 | 74 | Bàn chải - Người lớn | 0.0tr | 12 | 0 | 0 | 0 | 2 | 0 | 5 | 0 | 5 |
 | 75 | Bánh gạo | 0.0tr | 13 | 0 | 0 | 0 | 3 | 0 | 1 | 0 | 9 |
-| 76 | Bánh mì kem tươi | 0.0tr | 12 | 0 | 11 | 0 | 1 | 0 | 0 | 0 | 0 |
+| 76 | Bánh mì kem tươi | 0.0tr | 12 | 0 | 6 | 0 | 1 | 0 | 5 | 0 | 0 |
 | 77 | Nước ngọt ít calories | 0.0tr | 12 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 11 |
 | 78 | Kem bánh | 0.0tr | 12 | 0 | 0 | 0 | 1 | 0 | 2 | 0 | 9 |
 | 79 | Sữa chua đông lạnh | 0.0tr | 12 | 0 | 0 | 0 | 8 | 0 | 0 | 0 | 4 |
@@ -112,12 +112,12 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 | 102 | Xà bông | 0.0tr | 9 | 0 | 5 | 0 | 0 | 0 | 2 | 0 | 2 |
 | 103 | Dụng cụ mi | 0.0tr | 8 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 8 |
 | 104 | Dao cạo & cạo râu | 0.0tr | 8 | 0 | 0 | 0 | 0 | 0 | 5 | 0 | 3 |
-| 105 | Món ăn no | 0.0tr | 8 | 0 | 0 | 6 | 1 | 0 | 1 | 0 | 0 |
+| 105 | Món ăn no | 0.0tr | 8 | 0 | 0 | 0 | 5 | 0 | 3 | 0 | 0 |
 | 106 | Dầu gội - Suôn mượt | 0.0tr | 8 | 0 | 0 | 0 | 0 | 0 | 4 | 0 | 4 |
 | 107 | Dưỡng da body | 0.0tr | 8 | 0 | 0 | 0 | 0 | 0 | 4 | 0 | 4 |
 | 108 | Pin các loại | 0.0tr | 8 | 0 | 0 | 0 | 3 | 0 | 1 | 0 | 4 |
 | 109 | Soju Vị Trái Cây | 0.0tr | 8 | 0 | 6 | 0 | 0 | 0 | 1 | 0 | 1 |
-| 110 | Trái cây tươi | 0.0tr | 8 | 0 | 0 | 8 | 0 | 0 | 0 | 0 | 0 |
+| 110 | Trái cây tươi | 0.0tr | 8 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 8 |
 | 111 | Trà sữa | 0.0tr | 8 | 0 | 0 | 0 | 8 | 0 | 0 | 0 | 0 |
 | 112 | Bánh gạo / cơm cháy / bánh ngọt | 0.0tr | 8 | 0 | 0 | 0 | 3 | 0 | 5 | 0 | 0 |
 | 113 | Rong biển ăn liền | 0.0tr | 8 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 7 |
@@ -164,7 +164,7 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 | 154 | Socola hộp / quà tặng | 0.0tr | 4 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 4 |
 | 155 | Tăm nha khoa | 0.0tr | 4 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 4 |
 | 156 | Tampon | 0.0tr | 4 | 0 | 0 | 0 | 0 | 0 | 4 | 0 | 0 |
-| 157 | Bánh mì ngọt / mềm | 0.0tr | 4 | 0 | 1 | 1 | 0 | 0 | 0 | 0 | 2 |
+| 157 | Bánh mì ngọt / mềm | 0.0tr | 4 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 3 |
 | 158 | BVS ban ngày | 0.0tr | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 3 |
 | 159 | BVS dạng quần | 0.0tr | 3 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 2 |
 | 160 | Tráng miệng | 0.0tr | 3 | 0 | 0 | 0 | 0 | 0 | 3 | 0 | 0 |
@@ -193,7 +193,7 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 | 183 | Gin & Tequila | 0.0tr | 2 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
 | 184 | Sáp khử mùi | 0.0tr | 2 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 1 |
 | 185 | Socola trứng / đồ chơi | 0.0tr | 2 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 1 |
-| 186 | Thịt khô đóng gói khác | 0.0tr | 2 | 0 | 0 | 1 | 1 | 0 | 0 | 0 | 0 |
+| 186 | Thịt khô đóng gói khác | 0.0tr | 2 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 1 |
 | 187 | Makgeolli | 0.0tr | 2 | 0 | 0 | 0 | 0 | 0 | 2 | 0 | 0 |
 | 188 | Chỉ nha khoa | 0.0tr | 1 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 0 |
 | 189 | Dầu gội - Phục hồi | 0.0tr | 1 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 0 |
@@ -222,12 +222,6 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 - categories/2533374-thuoc-la-18/65100242-20456-thang-long-20-s-luxury-blue-bao-cung: reviewed but image/description decision missing
 - categories/2533440-do-dung-khac/65089127-ke-trung-bay-bang-giay-25-4-39-1-1400-standee-25: NO_CHANGE requires both decisions KEEP
 - categories/2533440-do-dung-khac/67918470-phi-van-chuyen: NO_CHANGE requires both decisions KEEP
-- categories/2547494-com-nam-onigiri/65595890-com-nam-bo-bbq: NO_CHANGE requires both decisions KEEP
-- categories/2547494-com-nam-onigiri/65595916-com-nam-ga-tomyum: NO_CHANGE requires both decisions KEEP
-- categories/2547494-com-nam-onigiri/65595972-com-nam-ca-hoi-mayo: NO_CHANGE requires both decisions KEEP
-- categories/2547494-com-nam-onigiri/65596012-com-nam-ca-ngu-mayo: NO_CHANGE requires both decisions KEEP
-- categories/2547494-com-nam-onigiri/65596044-com-nam-pate-pho-mai-keo-soi: NO_CHANGE requires both decisions KEEP
-- categories/2547494-com-nam-onigiri/65596137-com-nam-ga-teriyaki: NO_CHANGE requires both decisions KEEP
 - categories/2547533-thuc-pham-che-bien-san/66405418-ngay-ra-dong: NO_CHANGE requires both decisions KEEP
 - categories/2548800-banh-mi-ngot-mem/67574198-banh-bong-lan-tam-giac-vi-socla: NO_CHANGE requires both decisions KEEP
 - categories/2549018-snack-que-que-cay/65136820-bia-cat-tong-ba-tuyet: NO_CHANGE requires both decisions KEEP

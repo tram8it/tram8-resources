@@ -17,17 +17,17 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "IN_PROGRESS",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
-    "reason": "ảnh minh hoạ món ăn (v22): chủ 17/10 muốn ảnh món ăn hấp dẫn, đồng bộ một phong cách cho cả nhóm; lần vẽ trước lẫn miếng xoài → ảnh món ăn Gemini vẽ từ ảnh bao bì (v18: món hấp bán lẻ hiện cái bánh và nhân); ảnh minh hoạ. Khác hàng thật: ảnh minh hoạ: cóc non gọt vỏ (nguyên trái + nửa trái) rắc muối ô mai, kèm hũ muối ô mai riêng; số trái và kích cỡ minh hoạ",
+    "reason": "chủ 18/10: cốc nhựa cao, cóc nguyên quả → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: nhãn nắp chép từ ảnh thật; chữ nhỏ và số mã vạch in trên nhãn không chép chính xác",
     "source": {
       "aiGenerated": true,
       "tool": "Gemini API",
       "model": "gemini-nano-banana-2.1",
       "generatedAt": "2026-10-18",
-      "style": "food photo, whole + cut showing filling (v18)",
-      "reference": "ảnh KiotViet của SP (nhãn hộp, chỉ làm mẫu) + ảnh mẫu phong cách chung của bộ"
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (nhãn nắp) + ảnh cốc Fresh 2GO chủ gửi 18/10"
     },
     "rubricVersion": "v18"
   },
@@ -74,10 +74,52 @@
       "by": "owner",
       "status": "IN_PROGRESS",
       "note": "rejected on Hub by AU KHUONG DUY: Không đúng bao bì"
+    },
+    {
+      "at": "2026-10-18T17:28:20Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "redo after Hub rejection: Không đúng bao bì — Gemini API redraw (attempt 3, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-18T17:28:21.100Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-18T17:33:38Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "redo after Hub rejection: Không đúng bao bì — Gemini API redraw (attempt 5, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-18T17:33:38.845Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-18T17:35:55Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "redo after Hub rejection: Không đúng bao bì — Gemini API redraw (attempt 7, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-18T17:35:55.944Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-18T17:44:24.092Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
-    "at": "2026-10-18T00:19:05.647Z",
+    "at": "2026-10-18T17:35:55.944Z",
     "fields": [
       "description",
       "image"
@@ -85,9 +127,28 @@
     "hubStatus": "PENDING"
   },
   "review": {
-    "status": "REJECTED",
+    "status": "APPLIED",
     "reviewedBy": "AU KHUONG DUY",
-    "reviewedAt": "2026-10-18T17:06:07.626Z",
-    "note": "Không đúng bao bì"
+    "reviewedAt": "2026-10-18T17:39:01.391Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-18T17:39:01.391Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/063e4f9c9b367b41ee05a45b5bc7f57d062493c57a96f1368ebad614a72c2d7d.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/08/21/tram8/d7757af2bf414ee4bd2dabb9eab3d8d9.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Cóc non lắc muối ô mai của Fresh 2GO, đóng hộp, dùng ăn ngay như món ăn vặt chua ngọt.\n\nThành phần: Cóc non (97%), muối ô mai (3%).\nQuy cách: 150 g · hộp\nXuất xứ: Việt Nam · Nhà sản xuất/thương hiệu: Công ty TNHH TM và DV Fresh to Go (Hà Nội) · Fresh 2GO\nBảo quản: Nhiệt độ 5–10°C. Dùng ăn ngay; không dùng khi sản phẩm có dấu hiệu hư hỏng. Ngày sản xuất: 3 ngày trước hạn sử dụng in trên bao bì.",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

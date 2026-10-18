@@ -17,20 +17,19 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "IN_PROGRESS",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "ảnh minh hoạ món ăn (v22): chủ 17/10 muốn ảnh món ăn hấp dẫn, đồng bộ một phong cách cho cả nhóm; ảnh cũ là ảnh bao bì/ảnh chụp gói → ảnh món ăn Gemini vẽ từ ảnh bao bì (v18: món hấp bán lẻ hiện cái bánh và nhân); ảnh minh hoạ. Khác hàng thật: ảnh minh hoạ: hộp nhựa trong không nhãn; lượng món và hộp thật có thể khác; hàng thật là hộp đông lạnh có nhãn (Hải Đăng Đỏ)",
+    "reason": "chủ 18/10: khay mì Ý hình chữ nhật; cơm cuộn tái tạo đúng ảnh chụp, giữ góc chéo → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: vẽ lại sạch trên nền trắng; chữ nhỏ để mờ",
     "source": {
       "aiGenerated": true,
       "tool": "Gemini API",
       "model": "gemini-nano-banana-2.1",
-      "generatedAt": "2026-10-17",
-      "style": "food photo, one house style for fresh/ready-to-eat set (v22)",
-      "reference": "ảnh KiotViet của SP (hàng thật, chỉ làm mẫu) + ảnh mẫu phong cách chung của bộ",
-      "postProcess": "background whitened + framed ~75% width (scratch whiten.py), food pixels untouched except global white point"
+      "generatedAt": "2026-10-18",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet của SP (hàng thật tại quầy)"
     },
-    "rubricVersion": "v22"
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -75,10 +74,46 @@
       "by": "owner",
       "status": "IN_PROGRESS",
       "note": "rejected on Hub by AU KHUONG DUY: Chúng ta cần làm giống bao bì sp."
+    },
+    {
+      "at": "2026-10-18T17:28:06Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "redo after Hub rejection: Chúng ta cần làm giống bao bì sp. — Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-18T17:28:06.201Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-18T17:44:24.092Z",
+      "by": "owner",
+      "status": "IN_PROGRESS",
+      "note": "rejected on Hub by AU KHUONG DUY: Nó hình chữ nhật cơ."
+    },
+    {
+      "at": "2026-10-18T17:45:27Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "redo after Hub rejection: Nó hình chữ nhật cơ. — Gemini API redraw (attempt 3, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-18T17:45:27.621Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-18T17:48:17.771Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-17T17:53:09.662Z",
+    "at": "2026-10-18T17:48:17.771Z",
     "fields": [
       "description",
       "image"
@@ -88,7 +123,7 @@
   "review": {
     "status": "REJECTED",
     "reviewedBy": "AU KHUONG DUY",
-    "reviewedAt": "2026-10-18T17:04:28.612Z",
-    "note": "Chúng ta cần làm giống bao bì sp."
+    "reviewedAt": "2026-10-18T17:30:04.884Z",
+    "note": "Nó hình chữ nhật cơ."
   }
 }

@@ -17,20 +17,19 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "IN_PROGRESS",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
-    "reason": "ảnh minh hoạ món ăn (v22): chủ 17/10 muốn ảnh món ăn hấp dẫn, đồng bộ một phong cách cho cả nhóm; ảnh cũ là ảnh bao bì/ảnh chụp gói → ảnh món ăn Gemini vẽ từ ảnh bao bì (v18: món hấp bán lẻ hiện cái bánh và nhân); ảnh minh hoạ. Khác hàng thật: ảnh minh hoạ: hàng thật đóng túi/hộp có nhãn Fresh 2GO; ảnh vẽ hộp nhựa trong không nhãn, cách cắt theo ảnh KiotViet",
+    "reason": "chủ 18/10: ảnh phải đúng bao bì thật; vẽ lại gói thật từ ảnh KiotViet, bỏ ảnh minh hoạ món ăn → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: vẽ lại phẳng, sạch; chữ nhỏ không đọc được để mờ; độ nhăn màng khác ảnh thật",
     "source": {
       "aiGenerated": true,
       "tool": "Gemini API",
-      "model": "gemini-3.1-flash-image",
-      "generatedAt": "2026-10-17",
-      "style": "food photo, one house style for fresh/ready-to-eat set (v22)",
-      "reference": "ảnh KiotViet của SP (hàng thật, chỉ làm mẫu) + ảnh mẫu phong cách chung của bộ",
-      "postProcess": "background whitened + framed ~75% width (scratch whiten.py), food pixels untouched except global white point"
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-18",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet của SP (hàng thật tại quầy)"
     },
-    "rubricVersion": "v22"
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -75,10 +74,28 @@
       "by": "owner",
       "status": "IN_PROGRESS",
       "note": "rejected on Hub by AU KHUONG DUY: Không đúng bao bì"
+    },
+    {
+      "at": "2026-10-18T17:28:33Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "redo after Hub rejection: Không đúng bao bì — Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-18T17:28:33.798Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-18T17:44:24.092Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
-    "at": "2026-10-17T17:52:54.695Z",
+    "at": "2026-10-18T17:28:33.798Z",
     "fields": [
       "description",
       "image"
@@ -86,9 +103,28 @@
     "hubStatus": "PENDING"
   },
   "review": {
-    "status": "REJECTED",
+    "status": "APPLIED",
     "reviewedBy": "AU KHUONG DUY",
-    "reviewedAt": "2026-10-18T17:03:27.177Z",
-    "note": "Không đúng bao bì"
+    "reviewedAt": "2026-10-18T17:32:37.728Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-18T17:32:37.728Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/3791f6b0f5f7ae1d7d57d91c0aa2f6ee21b096d3d9d3439b919d3cd8b1ea5d2a.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/08/21/tram8/5464185f2a2e4156911b9f0472c8e05d.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Cóc non gọt sẵn kèm gói mắm me để chấm, đóng túi hút chân không của Fresh 2GO, dùng ăn ngay.\n\nQuy cách: 200 g · túi (theo tên SP)\nXuất xứ: Việt Nam · Thương hiệu: Fresh 2GO",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

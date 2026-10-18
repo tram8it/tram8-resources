@@ -17,20 +17,19 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "IN_PROGRESS",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
-    "reason": "ảnh minh hoạ món ăn (v22): chủ 17/10 muốn ảnh món ăn hấp dẫn, đồng bộ một phong cách cho cả nhóm; ảnh cũ là ảnh bao bì/ảnh chụp gói → ảnh món ăn Gemini vẽ từ ảnh bao bì (v18: món hấp bán lẻ hiện cái bánh và nhân); ảnh minh hoạ. Khác hàng thật: ảnh minh hoạ: hàng thật đóng túi/hộp có nhãn Fresh 2GO; ảnh vẽ hộp nhựa trong không nhãn, cách cắt theo ảnh KiotViet",
+    "reason": "chủ 18/10: ảnh phải đúng bao bì thật; vẽ lại gói thật từ ảnh KiotViet, bỏ ảnh minh hoạ món ăn → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: vẽ lại phẳng, sạch; chữ nhỏ không đọc được để mờ; độ nhăn màng khác ảnh thật",
     "source": {
       "aiGenerated": true,
       "tool": "Gemini API",
-      "model": "gemini-3.1-flash-image",
-      "generatedAt": "2026-10-17",
-      "style": "food photo, one house style for fresh/ready-to-eat set (v22)",
-      "reference": "ảnh KiotViet của SP (hàng thật, chỉ làm mẫu) + ảnh mẫu phong cách chung của bộ",
-      "postProcess": "background whitened + framed ~75% width (scratch whiten.py), food pixels untouched except global white point"
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-18",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet của SP (hàng thật tại quầy)"
     },
-    "rubricVersion": "v22"
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -75,10 +74,28 @@
       "by": "owner",
       "status": "IN_PROGRESS",
       "note": "rejected on Hub by AU KHUONG DUY: Không đúng bao bì"
+    },
+    {
+      "at": "2026-10-18T17:28:24Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "redo after Hub rejection: Không đúng bao bì — Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-18T17:28:24.168Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-18T17:44:24.092Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
-    "at": "2026-10-17T17:52:46.184Z",
+    "at": "2026-10-18T17:28:24.168Z",
     "fields": [
       "description",
       "image"
@@ -86,9 +103,28 @@
     "hubStatus": "PENDING"
   },
   "review": {
-    "status": "REJECTED",
+    "status": "APPLIED",
     "reviewedBy": "AU KHUONG DUY",
-    "reviewedAt": "2026-10-18T17:03:04.031Z",
-    "note": "Không đúng bao bì"
+    "reviewedAt": "2026-10-18T17:32:29.008Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-18T17:32:29.008Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/1fa30baf386ab15b092c6896893cd29db700aefea09b37b2d6258d4b35ea161d.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/08/21/tram8/128a2b7ba6234c2b9921cc7861e18a5d.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Cóc non gọt vỏ sẵn của Fresh 2GO, đóng túi, dùng ăn ngay.\n\nThành phần: Cóc non (98,5%), muối ớt.\nQuy cách: 500 g · túi\nXuất xứ: Việt Nam · Nhà sản xuất/thương hiệu: Công ty TNHH TM và DV Fresh to Go (Hà Nội) · Fresh 2GO\nBảo quản: Nhiệt độ 5–10°C. Dùng ăn ngay; không dùng khi sản phẩm có dấu hiệu hư hỏng. Ngày sản xuất: 4 ngày trước hạn sử dụng in trên bao bì.",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

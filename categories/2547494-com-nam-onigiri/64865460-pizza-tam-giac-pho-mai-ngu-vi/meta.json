@@ -17,20 +17,19 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "IN_PROGRESS",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
-    "reason": "ảnh minh hoạ món ăn (v22): chủ 17/10 muốn ảnh món ăn hấp dẫn, đồng bộ một phong cách cho cả nhóm; ảnh cũ là ảnh bao bì/ảnh chụp gói → ảnh món ăn Gemini vẽ từ ảnh bao bì (v18: món hấp bán lẻ hiện cái bánh và nhân); ảnh minh hoạ. Khác hàng thật: ảnh minh hoạ: miếng pizza đã nướng chín (hàng bán đông lạnh trong túi, cần làm nóng); topping vẽ theo ảnh gói và tên",
+    "reason": "chủ 18/10: ảnh phải đúng bao bì thật; vẽ lại gói thật từ ảnh KiotViet, bỏ ảnh minh hoạ món ăn → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: vẽ lại phẳng, sạch; chữ nhỏ không đọc được để mờ; độ nhăn màng khác ảnh thật",
     "source": {
       "aiGenerated": true,
       "tool": "Gemini API",
       "model": "gemini-nano-banana-2.1",
-      "generatedAt": "2026-10-17",
-      "style": "food photo, one house style for fresh/ready-to-eat set (v22)",
-      "reference": "ảnh KiotViet của SP (hàng thật, chỉ làm mẫu) + ảnh mẫu phong cách chung của bộ",
-      "postProcess": "background whitened + framed ~75% width (scratch whiten.py), food pixels untouched except global white point"
+      "generatedAt": "2026-10-18",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet của SP (hàng thật tại quầy)"
     },
-    "rubricVersion": "v22"
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -75,10 +74,28 @@
       "by": "owner",
       "status": "IN_PROGRESS",
       "note": "rejected on Hub by AU KHUONG DUY: 1 cái thôi."
+    },
+    {
+      "at": "2026-10-18T17:27:34Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "redo after Hub rejection: 1 cái thôi. — Gemini API redraw (attempt 4, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-18T17:27:34.881Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-18T17:44:24.092Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
-    "at": "2026-10-17T17:52:33.072Z",
+    "at": "2026-10-18T17:27:34.881Z",
     "fields": [
       "description",
       "image"
@@ -86,9 +103,28 @@
     "hubStatus": "PENDING"
   },
   "review": {
-    "status": "REJECTED",
+    "status": "APPLIED",
     "reviewedBy": "AU KHUONG DUY",
-    "reviewedAt": "2026-10-18T17:02:24.618Z",
-    "note": "1 cái thôi."
+    "reviewedAt": "2026-10-18T17:32:03.407Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-18T17:32:03.407Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/d1427ba976e33689ca2dca5c97b3aa993d6ec7c13e608261e7337cecd07b3f5d.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/02/26/tongpenhchtl/46a3f0a341814fa4b0fc74861a2f033a.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Pizza tam giác phô mai ngũ vị đông lạnh, miếng pizza phủ phô mai, làm nóng bằng lò nướng hoặc nồi chiên không dầu theo hướng dẫn trên bao bì.\n\nQuy cách: cái\nNhà sản xuất/thương hiệu: Lemon Pizza",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }
