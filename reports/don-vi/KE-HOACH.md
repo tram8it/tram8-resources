@@ -109,10 +109,9 @@ Nguyên tắc: **Viết Hoa Chữ Đầu**, mỗi loại vỏ một tên, không
 2. Chủ xem `bat-thuong-quy-doi.md`:
    - sửa hệ số/giá sai trên web KiotViet;
    - các trường hợp ĐVT lạ ở mục 2 (18000, Cá, Hói, Lọ ( Chai ), Vỉ n, Lốc gốc) cho tôi biết đúng là gì.
-3. **Hàng gốc — đổi chữ hoa/thường và gõ sai:** 314 dòng, nhập Excel cột ĐVT. Làm trước 232 dòng không có lốc/thùng.
-   - **Đổi ĐVT hàng gốc có lốc/thùng phải thử riêng trước.** Ô "Mã ĐVT Cơ bản" và "Quy đổi" của dòng lốc/thùng tham chiếu
-     tới hàng gốc. Thử trên 1 SP có lốc, xem hệ số và tồn có giữ nguyên không, rồi mới làm loạt.
-4. Lốc/thùng (phương án A): 93 dòng. Cũng làm lô 3 → 30 → tất cả.
+3. ✅ **Hàng gốc — đổi chữ hoa/thường và gõ sai:** 312/314 dòng xong 20/10/2026 (lô 3–6, đều **ĐẠT**; lô 5 thử 1 SP có lốc/thùng: dòng lốc/thùng không đổi gì). Còn Coolkick (Lo → Lọ, bị đẩy ảnh từ Hub sau lúc xuất) và 11 ĐVT lạ chờ chủ.
+4. ✅ Lốc/thùng (phương án A): 93/93 dòng xong 20/10/2026 (lô 7 thử 3, lô 8 90 dòng; hệ số và giá giữ nguyên). Giữ 6 dòng rong biển TKN "Hộp 6/12 Thanh".
+   - **Đo được ở lô 8:** nhập dòng lốc/thùng làm nhóm hàng của dòng đó theo hàng gốc (SP000924 Thùng phở bò Cung Đình: Phở ăn liền → Mì ly / tô / cốc như hàng gốc). Còn 1 dòng lệch nhóm với hàng gốc: SP878222.
 5. Hub/web:
    - ~~hiển thị "Thùng 24 Lon"~~ — đã làm (f08a4b0);
    - thêm cảnh báo trong catalog sync khi có SP đang bán mà ĐVT trống hoặc ngoài bảng chuẩn, để lỗi kiểu "Bim lay ống" không lặp lại âm thầm.
