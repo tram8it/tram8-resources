@@ -20,14 +20,14 @@
   "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I4/I8: ảnh KiotViet nhiều ống chồng nhau → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: ống hơi nghiêng; chữ nhỏ trên nhãn không đọc đúng; Mix, flavored popcorn, KL 90g đúng mẫu; xoay lại đúng chiều (chủ 19/10)",
+    "reason": "chủ 19/10: hàng là cốc thon của Thái Sơn, không phải ống; web không có ảnh (đã tìm tên, mã vạch, Kingfoodmart, OFF) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: vẽ theo ảnh chủ gửi; vị Mix: nhãn lấy theo ảnh cũ, cốc theo cốc phô mai; chữ nhỏ để mờ",
     "source": {
       "aiGenerated": true,
       "tool": "Gemini API",
       "model": "gemini-nano-banana-2.1",
-      "generatedAt": "2026-10-18",
+      "generatedAt": "2026-10-19",
       "style": "flat clean packaging render (v17)",
-      "reference": "ảnh KiotViet nhiều ống Pop Corn Mix trên kệ (chỉ làm mẫu)"
+      "reference": "ảnh cốc Thái Sơn phô mai chủ gửi 19/10 (+ ảnh nhãn Mix cũ cho vị Mix)"
     },
     "rubricVersion": "v18"
   },
@@ -86,10 +86,22 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T06:56:59Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "redo after Hub rejection:  — Gemini API redraw (attempt 3, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-19T06:56:59.418Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-19T03:59:04.076Z",
+    "at": "2026-10-19T06:56:59.418Z",
     "fields": [
       "description",
       "image"
