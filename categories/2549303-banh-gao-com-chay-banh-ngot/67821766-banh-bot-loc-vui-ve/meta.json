@@ -17,18 +17,30 @@
     "description": null,
     "exportedAt": "2026-10-19T03:17:44.875Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I4/I8: ảnh thùng carton 2 × 2,5 kg (双仔 开心凉皮), không phải gói bán lẻ; không có ảnh gói lẻ cùng mã vạch → cần chụp gói bán lẻ",
-    "source": null,
-    "rubricVersion": "v17"
+    "reason": "I3/I8: ảnh cũ là thùng carton; nhân viên chụp gói bán lẻ 19/10 → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: bỏ mã ngày in phun; chân dung đầu bếp và chữ ký vẽ lại theo mẫu (nét tương tự, không giống hệt)",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-19",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh nhân viên chụp (KiotViet 19/10)",
+      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/10/19/tram8/881c492ed0774759a2a36be3a6ca867a.png"
+    },
+    "rubricVersion": "v23"
   },
   "description": {
-    "decision": "WRITE_NEW",
-    "reason": "D1: chưa có mô tả; không có nguồn → viết ngắn từ tên SP, chữ in trên thùng và mã vạch 695 (Trung Quốc)",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "REWRITE",
+    "reason": "D2: mô tả cũ dựa trên chữ in trên thùng; viết lại theo gói bán lẻ trong ảnh nhân viên chụp (双仔 开心凉皮, 调味面制品, 湖南省双仔食品有限公司)",
+    "source": {
+      "staffPhoto": true,
+      "takenAt": "2026-10-19",
+      "url": "https://cdn2-retail-images.kiotviet.vn/2026/10/19/tram8/881c492ed0774759a2a36be3a6ca867a.png"
+    },
+    "rubricVersion": "v23"
   },
   "question": null,
   "history": [
@@ -55,6 +67,32 @@
       "by": "init",
       "status": "NEEDS_PHOTO",
       "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-19T03:24:57Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-19T03:27:10Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "description written from the pack in the staff photo uploaded to KiotViet (19/10); image redrawn by Gemini from that photo"
+    },
+    {
+      "at": "2026-10-19T03:27:38.212Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-19T03:27:38.212Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

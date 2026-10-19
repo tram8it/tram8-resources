@@ -1,4 +1,4 @@
-Khoai tây chiên Crisup vị chanh muối biển, snack khoai tây ăn liền.
+Khoai tây que Crisup vị chanh muối biển (Sea Salt Lemon Flavor), que khoai tây cắt từ củ khoai nguyên, snack ăn liền.
 
-Quy cách: gói
+Quy cách: 40 g · gói
 Thương hiệu: Crisup

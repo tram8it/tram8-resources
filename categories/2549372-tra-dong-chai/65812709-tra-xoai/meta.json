@@ -17,18 +17,30 @@
     "description": null,
     "exportedAt": "2026-10-19T03:17:44.875Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh; không rõ thương hiệu (mã vạch 692…, hàng Trung Quốc), tra mã vạch trên web và Open Food Facts không ra SP → cần nhân viên chụp mặt trước (sau đó có thể vẽ lại bằng Gemini)",
-    "source": null,
-    "rubricVersion": "v17"
+    "reason": "I1: chưa có ảnh; nhân viên chụp cốc thật 19/10 → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: dòng nhỏ dưới tên ghi '芒果|牛乳风味饮料' thay vì '杨枝甘露（芒果牛乳风味饮料）'; bỏ tem nhập khẩu tiếng Việt dán ở thân cốc",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-19",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh nhân viên chụp (KiotViet 19/10)",
+      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/10/19/tram8/ba0c9742428a466f9350773e2ed86923.png"
+    },
+    "rubricVersion": "v23"
   },
   "description": {
-    "decision": "WRITE_NEW",
-    "reason": "D1: chưa có mô tả; viết ngắn chỉ từ tên SP (không có nguồn)",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "REWRITE",
+    "reason": "D2/D4: mô tả cũ chỉ từ tên; viết theo bao bì thật trong ảnh nhân viên chụp (植光 杨枝甘露 – đồ uống hương sữa xoài, 400 g)",
+    "source": {
+      "staffPhoto": true,
+      "takenAt": "2026-10-19",
+      "url": "https://cdn2-retail-images.kiotviet.vn/2026/10/19/tram8/ba0c9742428a466f9350773e2ed86923.png"
+    },
+    "rubricVersion": "v23"
   },
   "question": null,
   "history": [
@@ -55,6 +67,32 @@
       "by": "init",
       "status": "NEEDS_PHOTO",
       "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-19T03:24:13Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-19T03:27:10Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "description written from the pack in the staff photo uploaded to KiotViet (19/10); image redrawn by Gemini from that photo"
+    },
+    {
+      "at": "2026-10-19T03:27:30.800Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-19T03:27:30.800Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

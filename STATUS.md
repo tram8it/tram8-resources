@@ -2,7 +2,7 @@
 
 > Sinh tự động bởi `node tools/status.mjs`. **Không sửa tay.** Nguồn sự thật là `meta.json` của từng SP.
 
-Tổng 2509 SP · đã xem 2502 (100%) · xong 2316 · chờ chủ duyệt 9 · cần chụp 176 · hỏi chủ 1
+Tổng 2509 SP · đã xem 2509 (100%) · xong 2316 · chờ chủ duyệt 26 · cần chụp 166 · hỏi chủ 1
 
 Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` = giữ nguyên + đã lên web.
 
@@ -17,7 +17,7 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 | 7 | Kẹo dẻo / jelly | 0.0tr | 44 | 0 | 0 | 0 | 12 | 0 | 0 | 0 | 32 |
 | 8 | Mì ly / tô / cốc | 0.0tr | 41 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 41 |
 | 9 | Kẹo cao su / singum | 0.0tr | 41 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 41 |
-| 10 | Trà đóng chai | 0.0tr | 40 | 0 | 0 | 0 | 2 | 0 | 0 | 0 | 38 |
+| 10 | Trà đóng chai | 0.0tr | 40 | 0 | 0 | 0 | 0 | 0 | 2 | 0 | 38 |
 | 11 | Snack que / que cay | 0.0tr | 43 | 0 | 1 | 0 | 6 | 0 | 1 | 0 | 35 |
 | 12 | Bánh tráng trộn | 0.0tr | 37 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 37 |
 | 13 | Bánh xốp kem (wafer) | 0.0tr | 31 | 0 | 0 | 0 | 2 | 0 | 0 | 0 | 29 |
@@ -31,7 +31,7 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 | 21 | Nhập khẩu & premium | 0.0tr | 25 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 25 |
 | 22 | Lăn khử mùi | 0.0tr | 25 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 25 |
 | 23 | Bánh quy kem / kẹp kem | 0.0tr | 24 | 0 | 0 | 0 | 3 | 0 | 0 | 0 | 21 |
-| 24 | Hạt các loại | 0.0tr | 24 | 0 | 0 | 0 | 2 | 0 | 0 | 0 | 22 |
+| 24 | Hạt các loại | 0.0tr | 24 | 0 | 0 | 0 | 1 | 0 | 1 | 0 | 22 |
 | 25 | Bánh ăn sáng / ngũ cốc / thanh năng lượng | 0.0tr | 23 | 0 | 0 | 0 | 4 | 0 | 0 | 0 | 19 |
 | 26 | Mì cay (Gói) | 0.0tr | 23 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 23 |
 | 27 | Bánh quy giòn / lạt | 0.0tr | 22 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 21 |
@@ -67,7 +67,7 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 | 57 | Chân gà | 0.0tr | 15 | 0 | 0 | 0 | 2 | 0 | 1 | 0 | 12 |
 | 58 | Cocktail lon RTD | 0.0tr | 15 | 0 | 3 | 0 | 0 | 0 | 0 | 0 | 12 |
 | 59 | Sữa chua kiểu Hy Lạp | 0.0tr | 15 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 15 |
-| 60 | Măng & rau ngâm cay | 0.0tr | 15 | 0 | 0 | 0 | 9 | 0 | 0 | 0 | 6 |
+| 60 | Măng & rau ngâm cay | 0.0tr | 15 | 0 | 0 | 0 | 8 | 0 | 1 | 0 | 6 |
 | 61 | Xúc xích lắc & snack | 0.0tr | 15 | 0 | 0 | 0 | 2 | 0 | 0 | 0 | 13 |
 | 62 | Bánh pie / cake mềm | 0.0tr | 14 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 13 |
 | 63 | Board games/ Card games | 0.0tr | 14 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 14 |
@@ -100,12 +100,12 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 | 90 | Thịt & hải sản ăn liền | 0.0tr | 10 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 9 |
 | 91 | Toner - Xịt khoáng - Dưỡng ẩm | 0.0tr | 10 | 0 | 5 | 0 | 1 | 0 | 0 | 0 | 4 |
 | 92 | Phô mai | 0.0tr | 10 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 10 |
-| 93 | Bắp & khoai giòn | 0.0tr | 9 | 0 | 0 | 0 | 4 | 0 | 0 | 0 | 5 |
+| 93 | Bắp & khoai giòn | 0.0tr | 9 | 0 | 0 | 0 | 2 | 0 | 2 | 0 | 5 |
 | 94 | Bao cao su | 0.0tr | 9 | 0 | 6 | 0 | 0 | 0 | 0 | 0 | 3 |
 | 95 | Dụng cụ tắm và vệ sinh cá nhân | 0.0tr | 9 | 0 | 0 | 0 | 2 | 0 | 0 | 0 | 7 |
 | 96 | Phở ăn liền | 0.0tr | 10 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 10 |
 | 97 | Chống nắng dạng thoa | 0.0tr | 9 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 9 |
-| 98 | Socola viên / kẹo socola | 0.0tr | 9 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 8 |
+| 98 | Socola viên / kẹo socola | 0.0tr | 9 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 8 |
 | 99 | Gia vị - Đồ chấm | 0.0tr | 9 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 9 |
 | 100 | Sữa rửa mặt NAM | 0.0tr | 9 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 9 |
 | 101 | Nước gạo / sữa hạt | 0.0tr | 9 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 9 |
@@ -119,7 +119,7 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 | 109 | Soju Vị Trái Cây | 0.0tr | 8 | 0 | 6 | 0 | 0 | 0 | 0 | 0 | 2 |
 | 110 | Trái cây tươi | 0.0tr | 8 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 8 |
 | 111 | Trà sữa | 0.0tr | 8 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 8 |
-| 112 | Bánh gạo / cơm cháy / bánh ngọt | 0.0tr | 8 | 0 | 0 | 0 | 2 | 0 | 0 | 0 | 6 |
+| 112 | Bánh gạo / cơm cháy / bánh ngọt | 0.0tr | 8 | 0 | 0 | 0 | 0 | 0 | 2 | 0 | 6 |
 | 113 | Rong biển ăn liền | 0.0tr | 8 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 7 |
 | 114 | Dụng cụ móng | 0.0tr | 7 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 7 |
 | 115 | Xịt chống nắng | 0.0tr | 7 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 7 |
@@ -140,7 +140,7 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 | 130 | Son dưỡng môi | 0.0tr | 6 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 6 |
 | 131 | Bánh quy & bánh đóng gói | 0.0tr | 6 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 6 |
 | 132 | Snacks | 0.0tr | 6 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 6 |
-| 133 | Snack & bim bim theo Trend | 0.0tr | 5 | 0 | 0 | 0 | 3 | 0 | 0 | 0 | 2 |
+| 133 | Snack & bim bim theo Trend | 0.0tr | 5 | 0 | 0 | 0 | 2 | 0 | 1 | 0 | 2 |
 | 134 | Vodka | 0.0tr | 5 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 4 |
 | 135 | Bông & khăn tẩy trang | 0.0tr | 5 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 4 |
 | 136 | Cháo ăn liền | 0.0tr | 5 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 5 |
@@ -151,7 +151,7 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 | 141 | Lương khô | 0.0tr | 5 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 4 |
 | 142 | Dụng cụ lông mày / mũi | 0.0tr | 5 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 4 |
 | 143 | Vang Đỏ | 0.0tr | 5 | 0 | 4 | 0 | 0 | 0 | 0 | 0 | 1 |
-| 144 | Sữa và các sản phẩm từ sữa | 0.0tr | 5 | 5 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 144 | Sữa và các sản phẩm từ sữa | 0.0tr | 5 | 0 | 0 | 0 | 0 | 0 | 5 | 0 | 0 |
 | 145 | Snack bánh mì nướng / crouton | 0.0tr | 4 | 0 | 0 | 0 | 2 | 0 | 0 | 0 | 2 |
 | 146 | Bánh mì que | 0.0tr | 4 | 0 | 0 | 0 | 4 | 0 | 0 | 0 | 0 |
 | 147 | Dầu gội - Trị gàu | 0.0tr | 4 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 3 |
@@ -196,7 +196,7 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 | 186 | Socola trứng / đồ chơi | 0.0tr | 2 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 1 |
 | 187 | Thịt khô đóng gói khác | 0.0tr | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 2 |
 | 188 | Makgeolli | 0.0tr | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 2 |
-| 189 | Kem & Đồ đông lạnh | 0.0tr | 2 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 189 | Kem & Đồ đông lạnh | 0.0tr | 2 | 0 | 0 | 0 | 0 | 0 | 2 | 0 | 0 |
 | 190 | Chỉ nha khoa | 0.0tr | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 |
 | 191 | Dầu gội - Phục hồi | 0.0tr | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 |
 | 192 | Sữa rửa mặt dịu nhẹ | 0.0tr | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 |

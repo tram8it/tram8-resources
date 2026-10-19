@@ -17,18 +17,30 @@
     "description": null,
     "exportedAt": "2026-10-19T03:17:44.875Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh; tra 18/10: mã vạch 6952767621308 (web, Kingfoodmart, Minh Cầu Mart, OFF, iCheck) — không ra bao bì 'bánh quy bơ cà phê mèo 50g' → cần chụp",
-    "source": null,
+    "reason": "I1: chưa có ảnh; nhân viên chụp hộp thật 19/10 → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt đáng kể; dãy nhà minh hoạ ở đáy vẽ lại chi tiết khác đôi chút",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-19",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh nhân viên chụp (KiotViet 19/10)",
+      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/10/19/tram8/7bd05aca4e1e4df498ca0cb3d2fbf58f.png"
+    },
     "rubricVersion": "v23"
   },
   "description": {
-    "decision": "WRITE_NEW",
-    "reason": "D1: chưa có mô tả; không có nguồn → viết ngắn chỉ từ tên SP; xuất xứ theo mã vạch 69x (Trung Quốc) và danh mục 'Đồ nội địa Trung'",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "REWRITE",
+    "reason": "D2/D4: đơn vị bán là Hộp (mô tả cũ ghi gói); thêm thương hiệu và chữ in trên hộp theo ảnh nhân viên chụp (Cengreat 盛歌 黄油猫咖饼干, 50 g)",
+    "source": {
+      "staffPhoto": true,
+      "takenAt": "2026-10-19",
+      "url": "https://cdn2-retail-images.kiotviet.vn/2026/10/19/tram8/7bd05aca4e1e4df498ca0cb3d2fbf58f.png"
+    },
+    "rubricVersion": "v23"
   },
   "question": null,
   "history": [
@@ -61,6 +73,32 @@
       "by": "init",
       "status": "NEEDS_PHOTO",
       "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-19T03:24:57Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-19T03:27:10Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "description written from the pack in the staff photo uploaded to KiotViet (19/10); image redrawn by Gemini from that photo"
+    },
+    {
+      "at": "2026-10-19T03:27:41.312Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-19T03:27:41.312Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

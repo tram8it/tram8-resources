@@ -17,18 +17,30 @@
     "description": null,
     "exportedAt": "2026-10-19T03:17:44.875Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh; trang hãng crisupfoods.com có vị bơ mật ong ở 6 cỡ/bao bì khác nhau (gói 20/30/40/68 g, cốc 50 g, bản TQ/Hàn) nhưng không ghi mã vạch → không biết cỡ đang bán; cần chụp mặt trước hoặc cho biết khối lượng",
-    "source": null,
+    "reason": "I1: chưa có ảnh; nhân viên chụp gói thật 19/10 (gói 40 g) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: mã nhỏ dưới logo Halal để mờ; cửa sổ trong suốt vẽ phẳng không nếp nhăn",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-19",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh nhân viên chụp (KiotViet 19/10)",
+      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/10/19/tram8/5992329d211443459eed577ec5b2a056.png"
+    },
     "rubricVersion": "v23"
   },
   "description": {
-    "decision": "WRITE_NEW",
-    "reason": "D1: chưa có mô tả; mô tả ngắn chỉ từ tên SP (không có ảnh, không có nguồn chính hãng)",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "REWRITE",
+    "reason": "D4: thêm khối lượng và chữ in mặt trước gói theo ảnh nhân viên chụp (Crisup Honey Butter, 40 g)",
+    "source": {
+      "staffPhoto": true,
+      "takenAt": "2026-10-19",
+      "url": "https://cdn2-retail-images.kiotviet.vn/2026/10/19/tram8/5992329d211443459eed577ec5b2a056.png"
+    },
+    "rubricVersion": "v23"
   },
   "question": null,
   "history": [
@@ -61,6 +73,32 @@
       "by": "init",
       "status": "NEEDS_PHOTO",
       "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-19T03:25:44Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-19T03:27:10Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "description written from the pack in the staff photo uploaded to KiotViet (19/10); image redrawn by Gemini from that photo"
+    },
+    {
+      "at": "2026-10-19T03:27:47.959Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-19T03:27:47.959Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

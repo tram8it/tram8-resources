@@ -17,18 +17,30 @@
     "description": null,
     "exportedAt": "2026-10-19T03:17:44.875Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh; tra lại 18/10 (mã vạch Kingfoodmart/OFF, \"bánh cuộn da hổ vị tôm hùm 30g\", \"虎皮卷 小龙虾\") — chỉ có vị rong biển cùng dãy, không có gói vị tôm hùm → cần chụp",
-    "source": null,
-    "rubricVersion": "v20"
+    "reason": "I1: chưa có ảnh; nhân viên chụp gói thật 19/10, đồng bộ kiểu ảnh với vị rong biển cùng dãy → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt đáng kể; con dấu tròn nhỏ bên phải vẽ đơn giản hơn",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-19",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh nhân viên chụp (KiotViet 19/10)",
+      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/10/19/tram8/e580f12aa21d41ecb76de105a8adc337.png"
+    },
+    "rubricVersion": "v23"
   },
   "description": {
-    "decision": "WRITE_NEW",
-    "reason": "D1: chưa có mô tả; viết ngắn chỉ từ tên hàng (không có nguồn khác)",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "REWRITE",
+    "reason": "D4: thêm thương hiệu và nhân theo bao bì thật trong ảnh nhân viên chụp (MITU 龙虾虎皮卷, nhân vị tôm hùm, 30 g); đồng bộ với vị rong biển cùng dãy",
+    "source": {
+      "staffPhoto": true,
+      "takenAt": "2026-10-19",
+      "url": "https://cdn2-retail-images.kiotviet.vn/2026/10/19/tram8/e580f12aa21d41ecb76de105a8adc337.png"
+    },
+    "rubricVersion": "v23"
   },
   "question": null,
   "history": [
@@ -61,6 +73,32 @@
       "by": "init",
       "status": "NEEDS_PHOTO",
       "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-19T03:24:13Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-19T03:27:10Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "description written from the pack in the staff photo uploaded to KiotViet (19/10); image redrawn by Gemini from that photo"
+    },
+    {
+      "at": "2026-10-19T03:27:33.522Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-19T03:27:33.522Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

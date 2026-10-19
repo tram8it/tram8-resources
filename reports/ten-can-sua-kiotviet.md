@@ -53,3 +53,5 @@ Hàng thật xác định theo mã vạch; ảnh + mô tả đã làm theo hàng
 | 67997857 | Bánh Sầu Riêng Musang King (Gói) | Bánh Pie ngọt Đậu – Sầu riêng 300 g (榴莲饼, 云祥哥); bao bì không có chữ Musang King | ảnh nhân viên chụp 18/10 |
 | 67235516 | Mì oki trẻ em 22g/hộp (Gói) | Snack mì giòn Oki Oki vị gà nướng (Grilled Chicken Flavor) — tên nên ghi vị cho khỏi lẫn với vị bò/gạch cua | ảnh nhân viên chụp 18/10 |
 | 67574185 | Bánh bông lan tam giác vị dâu (Cái) | Bánh bông lan tam giác Weisiel Red Velvet (Red Velvet Flavored Cake), không thấy chữ vị dâu | ảnh KiotViet |
+| 65812658 | Trà lê | Ảnh nhân viên là cốc 植光 蜜瓜奶昔 (sữa lắc dưa lưới) 400 g, không phải trà lê — kiểm tra tên hoặc ảnh gắn nhầm | ảnh nhân viên 19/10 |
+| 68465276 | 3H dưa chuột muối chua cay gói 20g | Gói hãng 石磨小镇 (我家菜园子 黄瓜 香辣味), không phải 3H | ảnh nhân viên 19/10 |

@@ -17,18 +17,30 @@
     "description": null,
     "exportedAt": "2026-10-19T03:17:44.875Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I8: ảnh KiotViet là hộp trưng bày, đơn vị bán là Cái (1 cây kẹo); tra lại 18/10 (mã vạch, \"Ovaltine Lollipop malted chocolate\", \"Ovaltine lollipop 180g box\", arcaera/weee) — chỉ có túi 12 cây bản Trung Quốc, không có ảnh vỏ 1 cây bản tiếng Anh → cần chụp 1 cây kẹo",
-    "source": null,
-    "rubricVersion": "v20"
+    "reason": "I3/I8: ảnh nhân viên chụp là hộp trưng bày + 1 cây kẹo; đơn vị bán Cái = 1 cây kẹo 7,5 g (v19) → vẽ 1 cây kẹo còn vỏ + 1 cây đã bóc → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: vỏ kẹo hơi ngả cam hơn ảnh chụp (đỏ); dòng 'Est 1904' ảnh chụp chỉ đọc được 'Est 19…'; viên kẹo bóc vỏ là minh hoạ theo hình in trên vỏ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-19",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh nhân viên chụp (KiotViet 19/10)",
+      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/10/19/tram8/f2c687c1a0f64403a645df2548f497fd.png"
+    },
+    "rubricVersion": "v23"
   },
   "description": {
-    "decision": "WRITE_NEW",
-    "reason": "D1: chưa có mô tả; mô tả ngắn từ chữ in mặt trước hộp (Lollipop malted chocolate flavor) và tên SP (180 g)",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "REWRITE",
+    "reason": "D2: mô tả cũ ghi 180 g (khối lượng cả hộp); đơn vị bán là Cái → viết lại theo vỏ kẹo trong ảnh nhân viên chụp (7,5 g, 72% sữa bột)",
+    "source": {
+      "staffPhoto": true,
+      "takenAt": "2026-10-19",
+      "url": "https://cdn2-retail-images.kiotviet.vn/2026/10/19/tram8/f2c687c1a0f64403a645df2548f497fd.png"
+    },
+    "rubricVersion": "v23"
   },
   "question": null,
   "history": [
@@ -61,6 +73,32 @@
       "by": "init",
       "status": "NEEDS_PHOTO",
       "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-19T03:24:13Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-19T03:27:10Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "description written from the pack in the staff photo uploaded to KiotViet (19/10); image redrawn by Gemini from that photo"
+    },
+    {
+      "at": "2026-10-19T03:27:24.453Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-19T03:27:24.453Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }
