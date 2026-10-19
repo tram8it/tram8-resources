@@ -1,4 +1,4 @@
-Kem que nhiều vị Ice Fruit Bear.
+Kem que trái cây nhiều vị Bang Bang Ice (冰果熊 综合味棒棒冰 – gấu kem trái cây, tổng hợp vị) của Super Flavor, gói gồm nhiều que nhiều màu.
 
 Quy cách: gói
-Nhà sản xuất/thương hiệu: Ice Fruit Bear
+Thương hiệu: Super Flavor

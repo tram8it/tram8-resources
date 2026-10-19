@@ -1,3 +1,4 @@
-Măng trúc chua cay, măng trúc giòn vị chua cay, ăn liền như món ăn vặt hoặc ăn kèm.
+Măng trúc vị ớt ngâm (山椒味笋条) của 十年有成: thanh măng ngâm ớt, vị chua cay, 0% chất béo (theo bao bì), ăn liền.
 
-Quy cách: gói
+Quy cách: gói (cân theo trọng lượng, cái ≥ 75%)
+Thương hiệu: 十年有成

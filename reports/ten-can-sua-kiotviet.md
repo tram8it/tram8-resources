@@ -59,3 +59,8 @@ Hàng thật xác định theo mã vạch; ảnh + mô tả đã làm theo hàng
 | 67879462 | Cáp Sạc 3in1 ( USB to IP + C + Micro) HoCo X123 (Bộ) | Hộp in "6-IN-1": hai đầu vào USB-A và USB-C, ba đầu ra iP + USB-C + Micro-USB, 3.0A, 1 m | ảnh nhân viên 19/10 |
 | 65017168 | Củ sạc Hoco … CS53A | Nhãn trên củ sạc ghi CS55A (Surplus PD30W+QC3.0), mã vạch 6942007631563 khớp hocotech.com | ảnh KiotViet + hocotech.com |
 | 64865235 | Xúc xích Heo Cao Bồi nhân phô mai vị bắp (mã 8936034877207) | Minh Cầu Mart ghi mã 8936034877207 là vị Nguyên Bản — kiểm tra mã vạch hai vị | minhcaumart.vn |
+| 67068440 | Thịt sấy khô sợi nhỏ 285g (Hộp) | Thịt sấy khô sợi nhỏ 216 g (nhãn in "KLT: 216g", mã vạch trên nhãn khớp …663632) | ảnh nhân viên 19/10 |
+| 67815529 | Đậu Phụ Khô Da Hổ 20g | Đậu phụ khô da hổ QIAO'S **vị cay thơm** 20 g (tên thiếu vị; dòng này có 3 vị) | ảnh nhân viên 19/10 |
+| 67814216 | Rong Biển Sợi Vị Tê Cay 30g | Rong biển sợi QIAO'S **vị cay thơm** 30 g (không phải vị tê cay) | ảnh nhân viên 19/10 |
+| 67235516 | Mì oki trẻ em 22g/hộp | Snack mì giòn Oki Oki **vị gà nướng** (Grilled Chicken Flavor), bán theo gói (tên thiếu vị, ghi "hộp") | ảnh nhân viên 19/10 |
+| 67953565 | Khoai Tây Que Vị Fantian | Que cay 翻天娃 (Fantianwa) vị khoai tây chiên (翻天薯条味) — mì gia vị 调味面制品, không phải khoai tây que | ảnh nhân viên 19/10 |
