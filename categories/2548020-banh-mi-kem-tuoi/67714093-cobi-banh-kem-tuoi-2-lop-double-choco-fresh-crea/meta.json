@@ -17,20 +17,19 @@
     "description": "Bánh mì kem tươi Double Choco của Cobi Bread: bánh mì kem tươi kết hợp sô cô la và kem tươi, hương cacao (Double Choco Fresh Cream Bread), đóng gói từng chiếc.\n\nQuy cách: cái · gói\nNhà sản xuất/thương hiệu: Cobi Bread\nBảo quản: giữ mát hoặc đông lạnh.",
     "exportedAt": "2026-10-19T17:14:50.207Z"
   },
-  "status": "UPLOADED",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "ảnh nhân viên chụp 19/10 (gói phồng, nhăn, nền đá); đồng bộ dãy Cobi (vẽ phẳng) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: dòng khối lượng và nhiệt độ bảo quản để mờ (ảnh gốc không đọc được); chữ lớn khớp",
+    "reason": "Đồng bộ dòng Cobi bánh mì kem tươi (chủ 20/10: cả dòng là bánh cắt + gói nhỏ) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: bánh cắt và nhân 2 lớp (kem sô cô la + kem tươi) là ảnh minh hoạ, không chụp từ bánh thật; chữ trên gói khớp ảnh gốc (dòng KEEP COOL/Chocolate ghép từ lần vẽ 4)",
     "source": {
       "aiGenerated": true,
       "tool": "Gemini API",
       "model": "gemini-nano-banana-2.1",
       "generatedAt": "2026-10-19",
       "style": "flat clean packaging render (v17)",
-      "reference": "ảnh nhân viên chụp (KiotViet 19/10)",
-      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/10/19/tram8/07cd1c20435a4046adc56080618b1ea5.png"
+      "reference": "ảnh gói hiện tại của SP (ảnh hãng Cobi) + bản Matcha đã duyệt làm mẫu bố cục"
     },
-    "rubricVersion": "v23"
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "REWRITE",
@@ -97,10 +96,22 @@
       "by": "init",
       "status": "UPLOADED",
       "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-19T18:43:57Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "line consistency 20/10: flat pack -> cut bread (filling = illustration) + small pack like the rest of the Cobi line — Gemini API redraw (attempt 5, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-19T18:44:12.827Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-19T06:35:10.886Z",
+    "at": "2026-10-19T18:44:12.827Z",
     "fields": [
       "description",
       "image"

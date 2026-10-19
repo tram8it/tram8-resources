@@ -17,12 +17,19 @@
     "description": "<p style=\"box-sizing:border-box;margin-bottom:1.3em;color:#162a52;font-family:Inter, sans-serif;background-color:#ffffff;\">1. Tên sản phẩm: BÁNH MÌ ĐÔNG LẠNH KEM TƯƠI MATCHA – MATCHA FRESH CREAM BREAD<br style=\"box-sizing:border-box;\">2. Thành phần: Bột mì 40 %, kem không sữa 16 %, kem đánh tiệt trùng 12 %, sữa, bơ thay thế trứng, bột trà xanh Matcha 2 %, sirô trà xanh 1 %, men bánh mì 2 %, phụ gia làm bánh 1 % (tỉnh bột, chất nhũ hóa (INS 472e), đường, chất chống oxy hóa (INS 300), chất xử lý bột (INS 1100(i))).<br style=\"box-sizing:border-box;\">3. Thời hạn sử dụng sản phẩm: HSD: 12 tháng | Sau khi rã đông: 3 ngày<br style=\"box-sizing:border-box;\">4. Quy cách đóng gói và chất liệu bao bì:<br style=\"box-sizing:border-box;\">– Quy cách đóng gói: Đóng gói kín.<br style=\"box-sizing:border-box;\">Khối lượng tịnh: 75 g. Hoặc khối lượng tịnh khác theo yêu cầu khách hàng và được thể hiện rõ trên bao bì sản phẩm.<br style=\"box-sizing:border-box;\">– Chất liệu bao bì: Sản phẩm được đóng gói trực tiếp trong bao bì nhựa OPP hoặc nhựa PET/ CPP hoặc PA/PE. Cam kết bao bì đảm bảo vệ sinh an toàn thực phẩm theo quy định của Bộ Y Tế.</p><div></div>",
     "exportedAt": "2026-10-19T17:14:50.207Z"
   },
-  "status": "NO_CHANGE",
+  "status": "READY",
   "image": {
-    "decision": "KEEP",
-    "reason": "Đạt I1–I9: ảnh SP của hãng Cobi Bread (gói + bánh cắt đôi) nền trắng, 1:1, nằm giữa, khớp ảnh trên cobibread.com",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "REPLACE",
+    "reason": "Đồng bộ dòng Cobi bánh mì kem tươi (chủ 20/10: gói nhỏ cạnh bánh to hơn ~1.5×) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: gói nhỏ to hơn ~1.5×; chữ nhỏ dưới tên vị để mờ như ảnh gốc",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-19",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet của SP (ảnh hãng Cobi)"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "KEEP",
@@ -49,6 +56,25 @@
       "by": "ai",
       "status": "NO_CHANGE",
       "note": "description review v9: keep existing KiotViet description"
+    },
+    {
+      "at": "2026-10-19T18:43:56Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "line consistency 20/10: small pack beside the bread ~1.5x bigger (owner request) — Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-19T18:44:04.957Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-19T18:44:04.957Z",
+    "fields": [
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

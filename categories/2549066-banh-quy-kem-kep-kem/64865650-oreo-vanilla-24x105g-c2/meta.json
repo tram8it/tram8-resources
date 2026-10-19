@@ -17,12 +17,19 @@
     "description": "Bánh quy Oreo nhân kem vani (Original): hai lớp bánh quy ca cao giòn kẹp lớp kem vị vani.\n\nQuy cách: 105 g · thanh\nThương hiệu: Oreo (Mondelēz)",
     "exportedAt": "2026-10-19T17:14:50.207Z"
   },
-  "status": "UPLOADED",
+  "status": "READY",
   "image": {
-    "decision": "KEEP",
-    "reason": "Packshot nền trắng, 1:1, đúng SP, căn giữa",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "REPLACE",
+    "reason": "Đồng bộ dòng SP (chủ 20/10): kiểu ảnh theo Oreo Strawberry 105g → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: dòng khối lượng nhỏ để mờ (ảnh gốc ghi không rõ, không bịa số)",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-19",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh hiện tại/KiotViet của SP (nội dung) + ảnh đã duyệt của SP cùng dòng Oreo Strawberry 105g (kiểu, góc, khung)"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -61,12 +68,25 @@
       "by": "init",
       "status": "UPLOADED",
       "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-19T18:53:22Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "line consistency 20/10: tilted roll -> flat straight roll like the other Oreo 105 g — Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-19T18:53:39.673Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-18T17:50:05.066Z",
+    "at": "2026-10-19T18:53:39.673Z",
     "fields": [
-      "description"
+      "description",
+      "image"
     ],
     "hubStatus": "PENDING"
   },

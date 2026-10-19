@@ -17,19 +17,19 @@
     "description": "Bánh quy Oreo nhân kem sô cô la (Chocolate Creme): hai lớp bánh quy ca cao giòn kẹp lớp kem vị sô cô la.\n\nQuy cách: 105 g · thanh\nThương hiệu: Oreo (Mondelēz)",
     "exportedAt": "2026-10-19T17:14:50.207Z"
   },
-  "status": "UPLOADED",
+  "status": "READY",
   "image": {
-    "decision": "CROP",
-    "reason": "I9: packshot nền trắng, đúng SP nhưng không 1:1; crop về 1:1 (phóng ~1,2 lần, xem lại đạt)",
-    "source": null,
-    "rubricVersion": "v4",
-    "vivid": {
-      "rubricVersion": "v10",
-      "saturationGain": 1.197,
-      "contrastGain": 1.063,
-      "toneGain": 1.079,
-      "gamma": 0.8
-    }
+    "decision": "REPLACE",
+    "reason": "Đồng bộ dòng SP (chủ 20/10): kiểu ảnh theo Oreo Strawberry 105g → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ nhỏ dưới logo để mờ, không đọc được",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-19",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh hiện tại/KiotViet của SP (nội dung) + ảnh đã duyệt của SP cùng dòng Oreo Strawberry 105g (kiểu, góc, khung)"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -74,10 +74,22 @@
       "by": "init",
       "status": "UPLOADED",
       "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-19T18:53:22Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "line consistency 20/10: tilted roll -> flat straight roll like the other Oreo 105 g — Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-19T18:53:37.147Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-18T17:50:05.066Z",
+    "at": "2026-10-19T18:53:37.147Z",
     "fields": [
       "description",
       "image"

@@ -17,17 +17,17 @@
     "description": "Thức uống ngũ cốc dinh dưỡng Việt Ngũ Cốc, hộp nhỏ uống liền. Theo bao bì, công thức có yến mạch, đậu xanh, đậu nành, hạt sen, gạo lứt.\n\nQuy cách: 110 ml · hộp\nNhà sản xuất/thương hiệu: Việt Ngũ Cốc",
     "exportedAt": "2026-10-19T17:14:50.207Z"
   },
-  "status": "UPLOADED",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I7: ảnh quảng cáo có chữ chèn ('HOT', 'Tốt cho sức khoẻ', 'x4', tên SP); không tìm được trang chính hãng Việt Ngũ Cốc → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: bỏ chữ/huy hiệu quảng cáo, chỉ còn 1 hộp; chữ nhỏ trong con dấu HEALTHY và mặt bên hộp không đọc được (AI vẽ lộn xộn)",
+    "reason": "Đồng bộ dòng SP (chủ 20/10): kiểu ảnh theo 65183850 → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt về chữ; mặt bên hộp không còn thấy",
     "source": {
       "aiGenerated": true,
       "tool": "Gemini API",
       "model": "gemini-nano-banana-2.1",
-      "generatedAt": "2026-10-17",
+      "generatedAt": "2026-10-19",
       "style": "flat clean packaging render (v17)",
-      "reference": "ảnh quảng cáo trên KiotViet (chỉ làm mẫu)"
+      "reference": "ảnh hiện tại/KiotViet của SP (nội dung) + ảnh đã duyệt của SP cùng dòng 65183850 (kiểu, góc, khung)"
     },
     "rubricVersion": "v18"
   },
@@ -74,10 +74,22 @@
       "by": "init",
       "status": "UPLOADED",
       "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-19T18:53:23Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "line consistency 20/10: 3D box with side panel -> flat front carton like the line — Gemini API redraw (attempt 3, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-19T18:53:55.920Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-17T07:50:40.467Z",
+    "at": "2026-10-19T18:53:55.920Z",
     "fields": [
       "description",
       "image"

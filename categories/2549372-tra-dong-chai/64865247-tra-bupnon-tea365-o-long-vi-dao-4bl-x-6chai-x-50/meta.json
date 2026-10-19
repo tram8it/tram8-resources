@@ -17,19 +17,19 @@
     "description": "Trà ô long hương đào Bupnon Tea 365 của Masan Consumer, nền trà ô long kết hợp hương đào, uống liền. Ngon hơn khi uống lạnh.\n\nQuy cách: 500 ml · chai\nNhà sản xuất/thương hiệu: Masan Consumer · Bupnon Tea 365",
     "exportedAt": "2026-10-19T17:14:50.207Z"
   },
-  "status": "UPLOADED",
+  "status": "READY",
   "image": {
-    "decision": "CROP",
-    "reason": "I9: packshot nền trắng đúng SP (Bupnon Tea 365 trà ô long đào), chỉ chưa 1:1; trang Masan chỉ có bản 'ít đường' khác công thức nên không thay",
-    "source": null,
-    "rubricVersion": "v4",
-    "vivid": {
-      "rubricVersion": "v10",
-      "saturationGain": 1.166,
-      "contrastGain": 1.053,
-      "toneGain": 1.031,
-      "gamma": 1
-    }
+    "decision": "REPLACE",
+    "reason": "Đồng bộ dòng SP (chủ 20/10): kiểu ảnh theo 65197967 → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: nhãn vẽ theo kiểu chai TEA365 cùng dòng (panel xanh đậm, thẻ vị dọc); giữ vị 'Trà Ô Long Vị Đào', hình đào + lá trà, nền xanh nhạt và huy hiệu Polyphenol của chai thật; bỏ chữ 'MỚI'",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-19",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh hiện tại/KiotViet của SP (nội dung) + ảnh đã duyệt của SP cùng dòng 65197967 (kiểu, góc, khung)"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -74,10 +74,22 @@
       "by": "init",
       "status": "UPLOADED",
       "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-19T18:53:22Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "line consistency 20/10: light-green photo-like bottle -> flat TEA365 render like the other 500 ml bottles (dark-green panel, flavour tag 'Trà Ô Long Vị Đào') — Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-19T18:53:31.239Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-18T17:50:49.562Z",
+    "at": "2026-10-19T18:53:31.239Z",
     "fields": [
       "description",
       "image"

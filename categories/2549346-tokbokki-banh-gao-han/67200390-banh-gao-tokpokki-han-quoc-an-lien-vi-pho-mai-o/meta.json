@@ -17,16 +17,19 @@
     "description": "Tokpokki Hàn Quốc tròn vị phô mai O'food dạng ly – bánh gạo dạng viên tròn kèm sốt phô mai, không cay, chỉ cần thêm nước nóng là dùng được.\n\nQuy cách: 105 g · ly\nXuất xứ: Việt Nam · Nhà sản xuất: Daesang Việt Nam (thương hiệu O'food)",
     "exportedAt": "2026-10-19T17:14:50.207Z"
   },
-  "status": "UPLOADED",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "Chưa có ảnh; hãng (daesang.vn) chỉ có bản gói 140g, không có ly 105g. Ảnh chủ gửi (ly chụp riêng trên nền tường, lần 3, chủ chọn), tách nền bằng cutout.py; đáy ly sát mép ảnh gốc",
+    "reason": "Đồng bộ dòng SP (chủ 20/10): kiểu ảnh theo 67200290 → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ khớp ảnh gốc ('trôn vị phô mai', 'KHÔNG CAY', 105 g)",
     "source": {
-      "ownerProvided": true,
-      "note": "ảnh chủ gửi qua chat (lần 3, nền tường), tách nền",
-      "receivedAt": "2026-10-14"
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-19",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh hiện tại/KiotViet của SP (nội dung) + ảnh đã duyệt của SP cùng dòng 67200290 (kiểu, góc, khung)"
     },
-    "rubricVersion": "v5"
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -101,10 +104,22 @@
       "by": "init",
       "status": "UPLOADED",
       "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-19T18:53:24Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "line consistency 20/10: cut-out photo -> brand-style cup render like the other O'food flavours — Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-19T18:54:01.702Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-14T12:33:13.897Z",
+    "at": "2026-10-19T18:54:01.702Z",
     "fields": [
       "description",
       "image"

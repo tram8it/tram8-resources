@@ -17,12 +17,19 @@
     "description": "Xà bông cục Safeguard Pure White (Trắng tinh khiết) của P&G, công nghệ Germ Shield giúp làm sạch và bảo vệ khỏi vi khuẩn, dùng hằng ngày cho cả gia đình.\n\nQuy cách: 1 bánh · hộp (tên hàng ghi 115 g)\nThương hiệu: Safeguard (Procter & Gamble)",
     "exportedAt": "2026-10-19T17:14:50.207Z"
   },
-  "status": "UPLOADED",
+  "status": "READY",
   "image": {
-    "decision": "KEEP",
-    "reason": "Ảnh KiotViet: hộp Safeguard Pure White nền trắng, đúng hàng theo mã vạch 4902430284240 (iCheck, Kingfoodmart, Open Food Facts: Pure White); chuẩn hoá 1:1",
-    "source": null,
-    "rubricVersion": "v19"
+    "decision": "REPLACE",
+    "reason": "Đồng bộ dòng SP (chủ 20/10): kiểu ảnh theo 66028429 → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt về chữ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-19",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh hiện tại/KiotViet của SP (nội dung) + ảnh đã duyệt của SP cùng dòng 66028429 (kiểu, góc, khung)"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "REWRITE",
@@ -67,10 +74,22 @@
       "by": "owner",
       "status": "UPLOADED",
       "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T18:53:23Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "line consistency 20/10: angled box -> front 3D box like Fresh Green — Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-19T18:53:44.840Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-17T14:06:21.773Z",
+    "at": "2026-10-19T18:53:44.840Z",
     "fields": [
       "description",
       "image"

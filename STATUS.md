@@ -2,7 +2,7 @@
 
 > Sinh tự động bởi `node tools/status.mjs`. **Không sửa tay.** Nguồn sự thật là `meta.json` của từng SP.
 
-Tổng 2510 SP · đã xem 2510 (100%) · xong 2398 · chờ chủ duyệt 33 · cần chụp 78 · hỏi chủ 1
+Tổng 2510 SP · đã xem 2510 (100%) · xong 2379 · chờ chủ duyệt 52 · cần chụp 78 · hỏi chủ 1
 
 Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` = giữ nguyên + đã lên web.
 
@@ -12,10 +12,10 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 | 2 | Snack bắp & phồng | 0.0tr | 66 | 0 | 0 | 0 | 2 | 1 | 2 | 0 | 61 |
 | 3 | Kem que | 0.0tr | 61 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 61 |
 | 4 | Socola thanh | 0.0tr | 53 | 0 | 7 | 0 | 0 | 0 | 1 | 0 | 45 |
-| 5 | Snack đậu phộng / hạt‑đậu | 0.0tr | 47 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 46 |
+| 5 | Snack đậu phộng / hạt‑đậu | 0.0tr | 47 | 0 | 0 | 0 | 0 | 0 | 2 | 0 | 45 |
 | 6 | Viên ngậm thảo mộc / bạc hà | 0.0tr | 44 | 0 | 0 | 0 | 2 | 0 | 0 | 0 | 42 |
 | 7 | Kẹo dẻo / jelly | 0.0tr | 44 | 0 | 0 | 0 | 7 | 0 | 0 | 0 | 37 |
-| 8 | Trà đóng chai | 0.0tr | 41 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 41 |
+| 8 | Trà đóng chai | 0.0tr | 41 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 40 |
 | 9 | Mì ly / tô / cốc | 0.0tr | 41 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 41 |
 | 10 | Kẹo cao su / singum | 0.0tr | 41 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 41 |
 | 11 | Snack que / que cay | 0.0tr | 43 | 0 | 1 | 0 | 5 | 0 | 2 | 0 | 35 |
@@ -27,10 +27,10 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 | 17 | Sữa chua uống | 0.0tr | 31 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 31 |
 | 18 | Lager Phổ Thông | 0.0tr | 29 | 0 | 10 | 0 | 1 | 0 | 0 | 0 | 18 |
 | 19 | Mì trộn / mì khô / spaghetti (Gói) | 0.0tr | 26 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 26 |
-| 20 | Thức uống bổ sung dinh dưỡng | 0.0tr | 26 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 26 |
+| 20 | Thức uống bổ sung dinh dưỡng | 0.0tr | 26 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 25 |
 | 21 | Nhập khẩu & premium | 0.0tr | 25 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 25 |
 | 22 | Lăn khử mùi | 0.0tr | 25 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 25 |
-| 23 | Bánh quy kem / kẹp kem | 0.0tr | 24 | 0 | 0 | 0 | 2 | 0 | 0 | 0 | 22 |
+| 23 | Bánh quy kem / kẹp kem | 0.0tr | 24 | 0 | 0 | 0 | 2 | 0 | 2 | 0 | 20 |
 | 24 | Hạt các loại | 0.0tr | 24 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 23 |
 | 25 | Bánh ăn sáng / ngũ cốc / thanh năng lượng | 0.0tr | 23 | 0 | 0 | 0 | 2 | 0 | 3 | 0 | 18 |
 | 26 | Mì cay (Gói) | 0.0tr | 23 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 23 |
@@ -57,13 +57,13 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 | 47 | Nước suối / bù khoáng / ion | 0.0tr | 16 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 15 |
 | 48 | Kombucha / lên men | 0.0tr | 16 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 15 |
 | 49 | Mặt nạ | 0.0tr | 16 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 16 |
-| 50 | Sữa tắm | 0.0tr | 16 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 15 |
+| 50 | Sữa tắm | 0.0tr | 16 | 0 | 1 | 0 | 0 | 0 | 2 | 0 | 13 |
 | 51 | Thạch – Rau câu | 0.0tr | 16 | 0 | 0 | 0 | 2 | 0 | 0 | 0 | 14 |
 | 52 | Xịt khử mùi | 0.0tr | 16 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 16 |
-| 53 | Sữa hạt | 0.0tr | 16 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 16 |
+| 53 | Sữa hạt | 0.0tr | 16 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 15 |
 | 54 | Que cay / tăm cay (latiao) | 0.0tr | 15 | 0 | 0 | 0 | 3 | 0 | 3 | 0 | 9 |
 | 55 | Bánh ngọt | 0.0tr | 15 | 0 | 0 | 0 | 2 | 0 | 1 | 0 | 12 |
-| 56 | Cáp sạc & dây | 0.0tr | 15 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 15 |
+| 56 | Cáp sạc & dây | 0.0tr | 15 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 14 |
 | 57 | Chân gà | 0.0tr | 15 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 14 |
 | 58 | Cocktail lon RTD | 0.0tr | 15 | 0 | 3 | 0 | 0 | 0 | 0 | 0 | 12 |
 | 59 | Sữa chua kiểu Hy Lạp | 0.0tr | 15 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 15 |
@@ -72,18 +72,18 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 | 62 | Bánh pie / cake mềm | 0.0tr | 14 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 13 |
 | 63 | Board games/ Card games | 0.0tr | 14 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 14 |
 | 64 | Mì cay (Ly/Tô/Cốc) | 0.0tr | 14 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 14 |
-| 65 | Tokbokki & bánh gạo Hàn | 0.0tr | 13 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 13 |
+| 65 | Tokbokki & bánh gạo Hàn | 0.0tr | 13 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 12 |
 | 66 | Sandwiches - Toastes | 0.0tr | 13 | 0 | 6 | 0 | 0 | 0 | 0 | 0 | 7 |
 | 67 | Củ / bộ sạc | 0.0tr | 13 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 13 |
 | 68 | Kem đánh răng - Hơi thở thơm | 0.0tr | 13 | 0 | 7 | 0 | 0 | 0 | 0 | 0 | 6 |
 | 69 | Dung dịch vệ sinh nữ | 0.0tr | 13 | 0 | 6 | 0 | 0 | 0 | 0 | 0 | 7 |
 | 70 | Khăn ướt – khăn giấy | 0.0tr | 13 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 13 |
 | 71 | Pizza | 0.0tr | 13 | 0 | 6 | 0 | 0 | 0 | 0 | 0 | 7 |
-| 72 | Sữa chua ăn | 0.0tr | 13 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 13 |
+| 72 | Sữa chua ăn | 0.0tr | 13 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 12 |
 | 73 | Khô heo | 0.0tr | 14 | 0 | 0 | 0 | 3 | 0 | 0 | 0 | 11 |
 | 74 | Bàn chải - Người lớn | 0.0tr | 12 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 11 |
 | 75 | Bánh gạo | 0.0tr | 13 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 13 |
-| 76 | Bánh mì kem tươi | 0.0tr | 12 | 0 | 4 | 0 | 0 | 0 | 2 | 0 | 6 |
+| 76 | Bánh mì kem tươi | 0.0tr | 12 | 0 | 0 | 0 | 0 | 0 | 8 | 0 | 4 |
 | 77 | Kem bánh | 0.0tr | 12 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 12 |
 | 78 | Sữa chua đông lạnh | 0.0tr | 12 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 12 |
 | 79 | Khô bò | 0.0tr | 11 | 0 | 1 | 0 | 2 | 0 | 0 | 0 | 8 |
@@ -109,7 +109,7 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 | 99 | Gia vị - Đồ chấm | 0.0tr | 9 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 9 |
 | 100 | Sữa rửa mặt NAM | 0.0tr | 9 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 9 |
 | 101 | Nước gạo / sữa hạt | 0.0tr | 9 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 9 |
-| 102 | Xà bông | 0.0tr | 9 | 0 | 3 | 0 | 0 | 0 | 3 | 0 | 3 |
+| 102 | Xà bông | 0.0tr | 9 | 0 | 3 | 0 | 0 | 0 | 4 | 0 | 2 |
 | 103 | Dụng cụ mi | 0.0tr | 8 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 8 |
 | 104 | Dao cạo & cạo râu | 0.0tr | 8 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 8 |
 | 105 | Món ăn no | 0.0tr | 8 | 0 | 0 | 0 | 4 | 0 | 0 | 0 | 4 |
@@ -132,7 +132,7 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 | 122 | Kem hộp lớn / gia đình | 0.0tr | 7 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 6 |
 | 123 | Thực phẩm chế biến sẵn | 0.0tr | 7 | 0 | 1 | 0 | 1 | 0 | 0 | 0 | 5 |
 | 124 | Thịt chua | 0.0tr | 7 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 6 |
-| 125 | Sữa thanh trùng | 0.0tr | 7 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 7 |
+| 125 | Sữa thanh trùng | 0.0tr | 7 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 6 |
 | 126 | Bún / hủ tiếu ăn liền | 0.0tr | 6 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 5 |
 | 127 | Dầu gội khô | 0.0tr | 6 | 0 | 5 | 0 | 0 | 0 | 0 | 0 | 1 |
 | 128 | Kem viên / kim cương | 0.0tr | 6 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 5 |

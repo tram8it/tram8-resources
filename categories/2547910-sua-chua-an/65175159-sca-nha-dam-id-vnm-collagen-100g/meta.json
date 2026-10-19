@@ -17,20 +17,19 @@
     "description": "Sữa chua ăn Vinamilk Nha đam ít đường với miếng nha đam giòn dai, lên men với men Streptococcus thermophilus và Lactobacillus bulgaricus.\n\nThành phần: sữa 76,7% (nước, sữa bột, chất béo sữa, whey bột, sữa tươi chuẩn hóa), nha đam 15%, đường 7,4%, gelatin thực phẩm, chất ổn định (1422, 471), hương liệu (hương vải tổng hợp) dùng cho thực phẩm, men Streptococcus thermophilus và Lactobacillus bulgaricus, vitamin D3. Có chứa sữa.\nQuy cách: 100 g · hộp\nBảo quản: lạnh 2–8 °C; dùng hết sau khi mở.\nXuất xứ: Việt Nam · Nhà sản xuất/thương hiệu: Vinamilk (Công ty CP Sữa Việt Nam)",
     "exportedAt": "2026-10-19T17:14:50.207Z"
   },
-  "status": "UPLOADED",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh; trang Vinamilk chỉ có ảnh lốc 4 hộp, SP bán 1 hộp 100 g (đơn vị Hộp, chủ 17/10) → Gemini vẽ 1 hộp, ảnh minh hoạ: nắp 1 hộp thật chỉ in 1/4 hình của lốc, ảnh dồn cả hình lên 1 nắp → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: nắp 1 hộp mang đủ logo/hình nha đam/NHA ĐAM ÍT ĐƯỜNG và huy hiệu -25% đường, +50% nha đam như bao bì mới (hộp thật chỉ có 1/4 hình); bỏ mã vạch, bảng dinh dưỡng; chữ nhỏ trong huy hiệu hơi méo; bao bì mới không còn chữ Collagen như tên KiotViet",
+    "reason": "Đồng bộ dòng SP (chủ 20/10): kiểu ảnh theo 64865328 → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: mã vạch in trên nắp theo mã vạch thật 8934673500968",
     "source": {
       "aiGenerated": true,
       "tool": "Gemini API",
       "model": "gemini-nano-banana-2.1",
-      "generatedAt": "2026-10-17",
+      "generatedAt": "2026-10-19",
       "style": "flat clean packaging render (v17)",
-      "reference": "ảnh hãng Vinamilk lốc 4 hộp bao bì mới (nhìn trên + nghiêng), chỉ làm mẫu",
-      "referenceUrl": "https://www.vinamilk.com.vn/products/sua-chua-vinamilk-nha-dam-it-duong"
+      "reference": "ảnh hiện tại/KiotViet của SP (nội dung) + ảnh đã duyệt của SP cùng dòng 64865328 (kiểu, góc, khung)"
     },
-    "rubricVersion": "v19"
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "REWRITE",
@@ -97,10 +96,22 @@
       "by": "owner",
       "status": "UPLOADED",
       "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T18:53:23Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "line consistency 20/10: straight cup -> 3/4 view like the other two Vinamilk yogurt flavours — Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-19T18:53:53.165Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-17T09:06:40.368Z",
+    "at": "2026-10-19T18:53:53.165Z",
     "fields": [
       "description",
       "image"

@@ -17,20 +17,19 @@
     "description": "Nước uống sữa trái cây TH true JUICE milk vị việt quất tự nhiên, thuộc nhóm thực phẩm bổ sung, đóng chai nhựa tiện mang theo.\n\nQuy cách: 300 ml · chai\nNhà sản xuất/thương hiệu: TH true JUICE milk (Tập đoàn TH)",
     "exportedAt": "2026-10-19T17:14:50.207Z"
   },
-  "status": "UPLOADED",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh; trang TH chặn bot, không có ảnh hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Chữ mặt trước 'Nước Uống Sữa Trái Cây / Việt Quất Tự Nhiên / Thực Phẩm Bổ Sung / Thể tích thực: 300 ml' dựng theo bố cục mặt chữ Việt của chai dâu cùng dòng (ảnh mẫu việt quất chỉ thấy mặt chữ Anh 'Natural Blueberry'); màu chữ vị (xanh đậm) là suy ra; chữ nhỏ hai bên hông không đọc được/không chính xác",
+    "reason": "Đồng bộ dòng SP (chủ 20/10): kiểu ảnh theo 64865338 → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt về chữ; chữ nhỏ bảng dinh dưỡng bên hông không hiện",
     "source": {
       "aiGenerated": true,
       "tool": "Gemini API",
       "model": "gemini-nano-banana-2.1",
-      "generatedAt": "2026-10-17",
+      "generatedAt": "2026-10-19",
       "style": "flat clean packaging render (v17)",
-      "reference": "ảnh Open Food Facts chai việt quất thật (mặt chữ Anh, chỉ làm mẫu) + ảnh SP cùng dòng TH dâu (bố cục mặt chữ Việt)",
-      "referenceUrl": "https://world.openfoodfacts.org/product/8936127794206"
+      "reference": "ảnh hiện tại/KiotViet của SP (nội dung) + ảnh đã duyệt của SP cùng dòng 64865338 (kiểu, góc, khung)"
     },
-    "rubricVersion": "v17"
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -75,10 +74,22 @@
       "by": "init",
       "status": "UPLOADED",
       "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-19T18:53:22Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "line consistency 20/10: opaque render -> soft translucent bottle render like the Dâu flavour — Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-19T18:53:33.857Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-17T05:15:24.599Z",
+    "at": "2026-10-19T18:53:33.857Z",
     "fields": [
       "description",
       "image"

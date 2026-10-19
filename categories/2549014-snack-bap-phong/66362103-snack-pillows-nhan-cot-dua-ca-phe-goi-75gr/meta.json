@@ -19,14 +19,17 @@
   },
   "status": "READY",
   "image": {
-    "decision": "CROP",
-    "reason": "Đồng bộ dãy Pillows 75g (chủ 20/10): gói chỉ chiếm ~76% khung, nhỏ hơn các gói 75g cùng dòng (84%) → phóng lại bằng make_image.py, không sửa chi tiết. Ảnh vẫn hơi tối/kiểu 3D so với render phẳng của dòng — cần Gemini vẽ lại khi có credit",
+    "decision": "REPLACE",
+    "reason": "Đồng bộ dòng SP (chủ 20/10): kiểu ảnh theo Pillows Socola 75g → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: lỗ treo tròn, chữ trên gói khớp ảnh gốc; không ghi khối lượng trên mặt trước (gói thật không in ở đó)",
     "source": {
-      "url": "https://cdn2-retail-images.kiotviet.vn/2026/06/09/tram8/0f4aba93a2e041b4a1c7733da87bebda.jpg",
-      "fetchedAt": "2026-10-19",
-      "kiotvietImage": true
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-19",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh hiện tại/KiotViet của SP (nội dung) + ảnh đã duyệt của SP cùng dòng Pillows Socola 75g (kiểu, góc, khung)"
     },
-    "rubricVersion": "v23"
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -80,10 +83,22 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T18:53:23Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "line consistency 20/10: dark photo-like pouch -> flat clean zip-pouch render like the other Pillows 75 g — Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-19T18:53:50.187Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-19T18:33:18.080Z",
+    "at": "2026-10-19T18:53:50.187Z",
     "fields": [
       "description",
       "image"

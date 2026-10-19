@@ -17,17 +17,17 @@
     "description": "Đậu Hà Lan vị tương ớt Sriracha GOODY! (Thai Sriracha) của Snack House: hạt đậu Hà Lan bọc lớp vỏ giòn (Crunchy Coated) vị tương ớt, đựng trong hũ.\n\nQuy cách: 180 g · hộp\nThương hiệu: Snack House GOODY!",
     "exportedAt": "2026-10-19T17:14:50.207Z"
   },
-  "status": "UPLOADED",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "ảnh tự chụp (bóng lóa, nền xám); không có ảnh hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt; nhãn ghi 180g như ảnh mẫu (tên KiotViet 190g, RUBRIC v19 theo bao bì)",
+    "reason": "Đồng bộ dòng SP (chủ 20/10): kiểu ảnh theo 66998653 → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: nắp vàng sạch như hũ cùng dòng; khối lượng 180g theo bao bì (tên KiotViet 190g)",
     "source": {
       "aiGenerated": true,
       "tool": "Gemini API",
       "model": "gemini-nano-banana-2.1",
-      "generatedAt": "2026-10-17",
+      "generatedAt": "2026-10-19",
       "style": "flat clean packaging render (v17)",
-      "reference": "ảnh KiotViet (ảnh tự chụp, chỉ làm mẫu)"
+      "reference": "ảnh hiện tại/KiotViet của SP (nội dung) + ảnh đã duyệt của SP cùng dòng 66998653 (kiểu, góc, khung)"
     },
     "rubricVersion": "v18"
   },
@@ -92,10 +92,22 @@
       "by": "owner",
       "status": "UPLOADED",
       "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T18:53:24Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "line consistency 20/10: dull scuffed cap -> clean bright cap like the GOODY wasabi jar — Gemini API redraw (attempt 4, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-19T18:53:58.810Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-17T14:18:54.092Z",
+    "at": "2026-10-19T18:53:58.810Z",
     "fields": [
       "description",
       "image"

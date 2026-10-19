@@ -17,12 +17,19 @@
     "description": "Sữa tươi thanh trùng Dalat Milk nguyên chất, hộp giấy 450 ml có nắp gấp, \"hoàn toàn từ sữa tươi cao nguyên\" theo chữ in trên bao bì. Sản phẩm thanh trùng, cần giữ lạnh.\n\nQuy cách: 450 ml · hộp giấy\nNhà sản xuất/thương hiệu: Dalat Milk",
     "exportedAt": "2026-10-19T17:14:50.207Z"
   },
-  "status": "UPLOADED",
+  "status": "READY",
   "image": {
-    "decision": "KEEP",
-    "reason": "Đạt I1–I9: packshot nền trắng, đúng SP 450 ml nguyên chất, 1:1, căn giữa",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "REPLACE",
+    "reason": "Đồng bộ dòng SP (chủ 20/10): kiểu ảnh theo 67758839 → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: mặt bên hộp không còn thấy; giữ chữ 'NGUYÊN CHẤT'",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-19",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh hiện tại/KiotViet của SP (nội dung) + ảnh đã duyệt của SP cùng dòng 67758839 (kiểu, góc, khung)"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -61,12 +68,25 @@
       "by": "init",
       "status": "UPLOADED",
       "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-19T18:53:25Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "line consistency 20/10: 3D carton -> flat front gable-top carton like the Ít đường one — Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-19T18:54:09.585Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-18T17:48:26.915Z",
+    "at": "2026-10-19T18:54:09.585Z",
     "fields": [
-      "description"
+      "description",
+      "image"
     ],
     "hubStatus": "PENDING"
   },

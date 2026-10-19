@@ -19,14 +19,17 @@
   },
   "status": "READY",
   "image": {
-    "decision": "CROP",
-    "reason": "Đồng bộ dãy Safeguard (chủ 20/10): hộp chỉ chiếm ~69% khung, nhỏ hơn hẳn các SP cùng dòng → phóng lại ~84% bằng make_image.py, không sửa chi tiết. Ảnh vẫn là mặt trước phẳng (các SP cùng dòng là hộp 3D) — cần Gemini vẽ lại khi có credit",
+    "decision": "REPLACE",
+    "reason": "Đồng bộ dòng SP (chủ 20/10): kiểu ảnh theo 66028429 → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt về chữ",
     "source": {
-      "url": "https://cdn2-retail-images.kiotviet.vn/2026/05/27/tram8/575567b514dc4cd1ba7699afcd090ddb.jpeg",
-      "fetchedAt": "2026-10-19",
-      "kiotvietImage": true
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-19",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh hiện tại/KiotViet của SP (nội dung) + ảnh đã duyệt của SP cùng dòng 66028429 (kiểu, góc, khung)"
     },
-    "rubricVersion": "v23"
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "KEEP",
@@ -65,10 +68,22 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: image"
+    },
+    {
+      "at": "2026-10-19T18:53:23Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "line consistency 20/10: flat front panel -> front 3D box like Fresh Green — Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-19T18:53:47.122Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: image"
     }
   ],
   "submitted": {
-    "at": "2026-10-19T18:33:15.987Z",
+    "at": "2026-10-19T18:53:47.122Z",
     "fields": [
       "image"
     ],
