@@ -15,3 +15,15 @@ Kiểm 2 lớp:
 - 76 SP có đơn vị mang trọng lượng → **sửa trên form từng SP**.
 - Phải sửa tay lại: Dây SP877417 trọng lượng 720 → **60**.
 - Chưa biết: nhập file với thương hiệu **chưa có** thì KiotViet tự tạo hay báo lỗi → thử ở lô nhỏ tiếp theo.
+
+## Sửa lại trọng lượng (chủ, 19/10/2026)
+Không sửa trực tiếp được trọng lượng đơn vị Dây; chủ mở form **hàng gốc**, giữ trọng lượng 5, bấm **Lưu** → Dây tự về **60**
+(KiotViet tính trọng lượng đơn vị = hàng gốc × quy đổi). Kiểm lại: hết cảnh báo trọng lượng.
+
+Lần **Lưu trên form** đó còn làm 2 việc (đúng chữ, khác byte):
+- mô tả hàng gốc: xuống dòng `\n` → `<br>` (159 → 168 ký tự, chữ giữ nguyên);
+- mô tả đơn vị Dây (bản cũ 4.698 ký tự) bị thay bằng mô tả của hàng gốc.
+
+→ Đường **form** luôn đổi định dạng mô tả và đồng bộ mô tả đơn vị theo hàng gốc. `brand-snapshot` nay lưu thêm hash của
+riêng chữ (`descriptionTextSha`); `brand-diff` chỉ ghi chú hai trường hợp trên, mọi thay đổi chữ khác vẫn là cảnh báo.
+Đường **Excel** (cập nhật mô tả = Không) không đụng mô tả.
