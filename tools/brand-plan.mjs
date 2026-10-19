@@ -48,6 +48,8 @@ const MERGE_MIN_SAVING = 5;
 const products = new Map(snapshot.products.filter((p) => !p.masterUnitId).map((p) => [String(p.id), p]));
 const brandId = new Map(snapshot.brands.map((b) => [b.name, b.id]));
 const brandName = (p) => p.brand?.name ?? "";
+/** A base product plus its lốc/thùng rows, which share its brand. */
+const rowsWithUnits = (id) => 1 + snapshot.products.filter((p) => String(p.masterUnitId) === String(id)).length;
 
 // ---- which proposals are live -------------------------------------------------
 const skipped = [];
@@ -159,7 +161,7 @@ Cho TỪNG SP, lần lượt, không làm song song:
 1. Hàng hoá → Danh sách hàng hoá → ô tìm: gõ đúng **mã hàng**, Enter. Phải ra **đúng 1 dòng**, tên khớp bảng.
 2. Mở → Cập nhật. Ghi lại: thương hiệu, VAT bán, VAT nhập, giá bán sau thuế, tên hoá đơn điện tử.
 3. Thương hiệu hiện tại phải **đúng** cột "TH hiện tại".
-4. Ô Thương hiệu: chọn mục có tên **đúng từng ký tự** như cột "TH đích" (không chọn mục gần giống). "(trống)" = xoá thương hiệu, để ô trống.
+4. Ô Thương hiệu: bấm mở, gõ tên đích vào ô tìm (tìm theo chuỗi con, không phân biệt hoa/thường — gõ "Lotte" không ra "Lottte", gõ "men" ra cả "X men" lẫn "X-Men"), rồi bấm mục có tên **đúng từng ký tự** như cột "TH đích". Mục đầu danh sách "Chọn thương hiệu" là **xoá thương hiệu** — chỉ chọn nó khi TH đích là "(trống)". Không bấm "Tạo mới" và không bấm biểu tượng bút chì cạnh tên thương hiệu.
 5. Không chạm: tên hàng, tên HĐĐT, mã, mã vạch, giá, VAT, nhóm hàng, đơn vị, ảnh, mô tả, tồn.
 6. Lưu. Mở lại SP: thương hiệu đúng đích; VAT, giá sau thuế, tên HĐĐT y như bước 2.
 
@@ -212,8 +214,8 @@ const brandPrompt = (title, action, expectCount) => `# ${title}
 
 Bạn đang điều khiển Chrome của tôi (đã đăng nhập KiotViet Trạm 8). Việc: **${action}**. Chỉ một thao tác này, không sửa SP nào.
 
-1. Mở một SP bất kỳ → ô Thương hiệu → tìm chức năng quản lý thương hiệu (theo ghi chú trinh sát \`reports/thuong-hieu/trinh-sat.md\`).
-2. Trước khi làm: đếm số SP đang dùng thương hiệu này (Danh sách hàng hoá → lọc theo thương hiệu, gồm cả hàng **ngừng kinh doanh**). Kỳ vọng: **${expectCount}**. Khác số này → **dừng, hỏi tôi**.
+1. Mở **Thiết lập (bánh răng) → Hàng hóa → Thương hiệu**: bảng "Tên thương hiệu · SL hàng hóa · Thao tác" (bút chì = sửa tên, thùng rác = xoá; nút "Tạo thương hiệu").
+2. Trước khi làm: đọc cột **SL hàng hóa** của đúng dòng thương hiệu này (cột này đếm cả lốc/thùng và hàng ngừng kinh doanh). Kỳ vọng: **${expectCount}**. Khác số này → **dừng, hỏi tôi**.
 3. Làm thao tác. Tên mới (nếu có) gõ **đúng từng ký tự**, kể cả hoa/thường và dấu.
 4. Kiểm tra lại: danh sách thương hiệu có đúng một mục với tên mới; không mục nào khác bị đổi.
 
@@ -224,11 +226,13 @@ for (const m of merges)
     [{ kind: "delete", brandId: brandId.get(m.from), from: m.from }],
     brandPrompt(`Lô ${seq + 1} — xoá thương hiệu "${m.from}"`, `xoá thương hiệu "${m.from}" (#${brandId.get(m.from)})`, 0));
 for (const r of renames) {
-  const holding = [...products.values()].filter((p) => brandName(p) === r.from).length +
-    mergeMoves.filter((x) => x.to === r.from).length;
+  // KiotViet's "SL hàng hóa" counts every row, lốc/thùng included (checked
+  // 19/10/2026: ACECOOK 45, Lottte 95 on that page = the same in the snapshot).
+  const holding = snapshot.products.filter((p) => brandName(p) === r.from).length +
+    mergeMoves.filter((x) => x.to === r.from).reduce((n, x) => n + rowsWithUnits(x.id), 0);
   await emit(`doi-ten-${slugOf(r.to)}`, `Đổi tên "${r.from}" → "${r.to}"`,
     [{ kind: "rename", brandId: r.id, from: r.from, to: r.to }],
-    brandPrompt(`Lô ${seq + 1} — đổi tên "${r.from}" → "${r.to}"`, `đổi tên thương hiệu "${r.from}" (#${r.id}) thành "${r.to}"`, `${holding} SP gốc (chưa tính lốc/thùng)`));
+    brandPrompt(`Lô ${seq + 1} — đổi tên "${r.from}" → "${r.to}"`, `đổi tên thương hiệu "${r.from}" (#${r.id}) thành "${r.to}"`, `${holding}`));
 }
 // 4 tao — creating is harmless; one batch, many names
 for (const part of chunk(creates))
