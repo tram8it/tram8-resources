@@ -17,17 +17,24 @@
     "description": null,
     "exportedAt": "2026-10-19T03:17:44.875Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh; tra lại 18/10 (mã vạch, trang hãng bibica.com.vn các dòng Zoo — không có \"Kem Tuyết\" dạng gói, chỉ có ly Lắc Trái Cây Tuyết và gói Fruity Soda kem trái cây, \"Bibica Zoo kem tuyết\") → cần chụp mặt trước gói",
-    "source": null,
-    "rubricVersion": "v20"
+    "reason": "I1: chưa có ảnh; tra lại 19/10 → trang hãng bibica.com.vn có 'Kẹo Dẻo Zoo Kem Tuyết' (gói 25 g, túi 54 g; vị nho, đào, chuối) → ảnh hãng túi xanh 54 g, chuẩn hoá make_image (v6, v13). Tên KiotViet không ghi cỡ nên mô tả không ghi khối lượng",
+    "source": {
+      "url": "https://bizweb.dktcdn.net/100/512/219/products/mockup-zoo-kem-tuye-t-54g-blue-large-jpeg.jpg",
+      "page": "https://www.bibica.com.vn/keo-deo-zoo-kem-tuyet-tui-54g",
+      "fetchedAt": "2026-10-19"
+    },
+    "rubricVersion": "v13"
   },
   "description": {
     "decision": "WRITE_NEW",
-    "reason": "Chờ ảnh gói để biết khối lượng",
-    "source": null,
+    "reason": "D1: viết từ trang hãng Bibica (vị nho, đào, chuối; cỡ 25 g/54 g; bảo quản)",
+    "source": {
+      "url": "https://www.bibica.com.vn/keo-deo-zoo-kem-tuyet-tui-54g",
+      "fetchedAt": "2026-10-19"
+    },
     "rubricVersion": "v20"
   },
   "question": null,
@@ -61,6 +68,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "np18 re-research 18/10: still no image of this exact pack"
+    },
+    {
+      "at": "2026-10-19T07:22:57Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "np19 re-research: official Bibica image found → READY"
+    },
+    {
+      "at": "2026-10-19T07:23:13.045Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-19T07:23:13.045Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

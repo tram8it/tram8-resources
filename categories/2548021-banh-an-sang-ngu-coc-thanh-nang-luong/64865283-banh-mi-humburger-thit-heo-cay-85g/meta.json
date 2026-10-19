@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-19T03:17:44.875Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "ảnh nhân viên chụp 19/10 (gói nhăn, nền đá); đồng bộ dãy hamburger Baokeshi → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt ở chữ lớn (Bánh Hamburger Vị Heo Cay, Không chiên qua dầu, 85g)",
@@ -85,6 +85,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T07:23:08.254Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -94,5 +100,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T06:56:55.430Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T06:56:55.430Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/0e2fd4cfe8119d46e8cc21c0e6a10c8564c27ad2196455fac7b34675a0d690a6.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/10/19/tram8/070ee7fcc8a740b6be91ba4cb03837b3.png"
+        ]
+      },
+      "description": {
+        "to": "Bánh hamburger vị heo cay của Baokeshi, đóng gói từng chiếc, ăn liền. Theo bao bì: không chiên qua dầu, làm nóng trong khoảng 1 phút.\n\nQuy cách: 85 g · cái\nThương hiệu: Baokeshi",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

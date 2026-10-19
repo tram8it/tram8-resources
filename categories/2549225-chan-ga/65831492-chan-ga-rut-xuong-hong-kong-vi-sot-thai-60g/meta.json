@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-19T03:17:44.875Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "có ảnh nhân viên mới → vẽ lại sạch → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: vẽ phẳng, sạch theo ảnh chụp; chữ nhỏ để mờ",
@@ -74,6 +74,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T07:23:08.254Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -83,5 +89,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T03:55:10.167Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T03:55:10.167Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/ea44c949252367a00b2c333d8beb23875e5894de0d8e3a6417a1402a50a80c24.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/10/19/tram8/508aed74f909433d92b0b22aae200c1d.png"
+        ]
+      },
+      "description": {
+        "to": "Chân gà rút xương kiểu Hồng Kông vị sốt Thái, chân gà đã rút xương trộn sốt chua cay kiểu Thái, ăn liền.\n\nQuy cách: 60 g · gói",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

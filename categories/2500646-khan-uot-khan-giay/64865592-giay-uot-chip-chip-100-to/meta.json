@@ -20,17 +20,16 @@
   "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I2/v20: ảnh KiotViet của mã này là gói Chip Chip nắp hồng không mùi 100 tờ, cùng gói với SP 65569956 (mã 8938511060676) → dùng chung ảnh đã vẽ cho 65569956. I3/I4: ảnh tay cầm chụp điện thoại, nền không trắng; không có trang hãng Chip Chip → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: phần đáy gói bị khung ảnh cắt nên vẽ thêm (hoa văn, mép hàn), chữ 'Clean & Beauty' hoàn thiện từ 'Clean & Beau…'; chữ nhỏ góc phải dưới bỏ; xoay lại đúng chiều (chủ 19/10)",
+    "reason": "chủ 19/10: có bản hồng rồi, bản này màu xanh → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: ảnh minh hoạ: bố cục y bản hồng, đổi nắp/màu nhấn sang xanh theo lời chủ; chưa có ảnh chụp thật",
     "source": {
       "aiGenerated": true,
       "tool": "Gemini API",
       "model": "gemini-nano-banana-2.1",
-      "generatedAt": "2026-10-17",
+      "generatedAt": "2026-10-19",
       "style": "flat clean packaging render (v17)",
-      "reference": "ảnh KiotViet hiện có (tay cầm, mất phần đáy gói)",
-      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/05/08/tram8/890d79943caa4eeabcbc2ff2f093619b.png"
+      "reference": "ảnh vị hồng cùng dòng đã duyệt (bản xanh suy ra)"
     },
-    "rubricVersion": "v20"
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -87,10 +86,28 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T07:23:08.254Z",
+      "by": "owner",
+      "status": "IN_PROGRESS",
+      "note": "rejected on Hub by AU KHUONG DUY: có cái hồng rồi thì hình như cái này màu xanh ấy"
+    },
+    {
+      "at": "2026-10-19T07:25:17Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "redo after Hub rejection: có cái hồng rồi thì hình như cái này màu xanh ấy — Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-19T07:25:17.425Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-19T03:58:48.566Z",
+    "at": "2026-10-19T07:25:17.425Z",
     "fields": [
       "description",
       "image"
@@ -98,10 +115,10 @@
     "hubStatus": "PENDING"
   },
   "review": {
-    "status": "APPLIED",
+    "status": "REJECTED",
     "reviewedBy": "AU KHUONG DUY",
-    "reviewedAt": "2026-10-17T14:24:46.138Z",
-    "note": null
+    "reviewedAt": "2026-10-19T05:13:42.931Z",
+    "note": "có cái hồng rồi thì hình như cái này màu xanh ấy"
   },
   "uploaded": {
     "at": "2026-10-17T14:24:46.138Z",

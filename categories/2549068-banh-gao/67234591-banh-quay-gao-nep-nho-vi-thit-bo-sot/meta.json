@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-19T03:17:44.875Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "có ảnh nhân viên mới → vẽ lại sạch → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: vẽ phẳng, sạch theo ảnh chụp; chữ nhỏ để mờ",
@@ -80,6 +80,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T07:23:08.254Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -89,5 +95,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T05:23:10.527Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T05:23:10.527Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/b96a2ab9cc5e3a7eaaef43c67f9134d6d65f068afe69d4db7a79f8a76cde2080.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/10/19/tram8/4ead7a44c956487c82d594253d63c2d4.png"
+        ]
+      },
+      "description": {
+        "to": "Bánh quẩy gạo nếp cỡ nhỏ vị thịt bò sốt, giòn, dùng làm món ăn vặt.\n\nQuy cách: gói",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

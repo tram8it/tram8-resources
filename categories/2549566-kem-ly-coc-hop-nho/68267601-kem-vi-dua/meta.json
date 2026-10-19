@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-19T03:17:44.875Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "ảnh nhân viên chụp 19/10 (nền đá, lóa) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt ở chữ lớn (Firstfood, 3D Ice Cream Pop, Net: 90g)",
@@ -85,6 +85,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T07:23:08.254Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -94,5 +100,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T06:57:18.500Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T06:57:18.500Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/00cea076b5fd40454b4d3a3c7d826a1164401486efa499b591ac8a8742fc52f7.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/10/19/tram8/67430f3c28634c66a4e5f65fadcf66b2.png"
+        ]
+      },
+      "description": {
+        "to": "Kem vị dứa 3D Ice Cream Pop của Firstfood, kem tạo hình xoắn đặt trong vòm nhựa trong trên hộp giấy.\n\nQuy cách: 90 g · ly\nThương hiệu: Firstfood\nBảo quản: Giữ đông ở −18 °C hoặc lạnh hơn.",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

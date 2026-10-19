@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-19T03:17:44.875Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "ảnh nhân viên chụp 19/10 là túi 5 đôi (nhãn 'ỦNG ĐI MƯA SL: 5 đôi'); đơn vị KiotViet là Đôi (v19) → vẽ 1 đôi → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: ảnh minh hoạ 1 đôi ủng nilon tím bóc khỏi túi; hình dáng ủng (cổ cao) do Gemini dựng từ màu/chất liệu trong ảnh — ảnh gốc chỉ thấy túi gấp, không thấy rõ dáng ủng",
@@ -79,6 +79,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T07:23:08.254Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -88,5 +94,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T06:56:46.360Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T06:56:46.360Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/c23a6f4d99c9ab1e5a704cf462878f5d8b17b88373eb580967a28a1a256258a9.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/10/19/tram8/eed97a93248446978850b52cdbe6de91.png"
+        ]
+      },
+      "description": {
+        "to": "Ủng đi mưa nilon màu tím, dạng bọc ngoài giày, giúp giữ giày khô khi đi mưa; mỏng nhẹ, gấp gọn dễ mang theo.\n\nQuy cách: 1 đôi",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

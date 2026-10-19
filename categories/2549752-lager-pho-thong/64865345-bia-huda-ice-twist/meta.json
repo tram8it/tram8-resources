@@ -17,12 +17,20 @@
     "description": "Bia Huda Ice Blast, bia được ủ ở -1 °C cho vị sảng khoái (theo lon). Ngon nhất khi uống lạnh.\n\nQuy cách: 330 ml · lon\nĐộ cồn: 4,7%\nThương hiệu: Huda\nSản phẩm dành cho người từ 18 tuổi trở lên.",
     "exportedAt": "2026-10-19T03:17:44.875Z"
   },
-  "status": "UPLOADED",
+  "status": "READY",
   "image": {
-    "decision": "KEEP",
-    "reason": "Đạt I1–I9: packshot lon nền trắng, 1:1, đọc rõ 'huda ICE BLAST, ABV 4.7%'; tên KiotViet ghi Ice Twist nhưng ảnh của cửa hàng là Ice Blast → theo ảnh (v20)",
-    "source": null,
-    "rubricVersion": "v20"
+    "decision": "REPLACE",
+    "reason": "chủ 19/10: ảnh cũ là lon cũ (Ice Blast) → bao bì Ice Twist mới → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: lon vẽ theo ảnh quảng cáo; không in dung tích; chữ nhỏ để mờ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-19",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh lon mới Huda Ice Twist trên kenh14 (bài ra mắt lon mới, chỉ làm mẫu)",
+      "referenceUrl": "https://kenh14.vn/bat-lon-trendy-250ml-vui-het-y-huda-ice-twist-tung-dien-mao-moi-khuay-dong-mua-he-215260325142633702.chn"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -76,12 +84,25 @@
       "by": "owner",
       "status": "UPLOADED",
       "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T07:25:14Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "redo after Hub rejection:  — Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-19T07:25:14.233Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-17T14:35:50.917Z",
+    "at": "2026-10-19T07:25:14.233Z",
     "fields": [
-      "description"
+      "description",
+      "image"
     ],
     "hubStatus": "PENDING"
   },

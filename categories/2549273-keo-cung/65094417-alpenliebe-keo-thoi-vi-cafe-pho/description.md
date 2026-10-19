@@ -1,4 +1,4 @@
-Kẹo Alpenliebe vị Cafe Phố, dạng thỏi nhiều viên tiện bỏ túi.
+Kẹo Alpenliebe Café PHỐ hương vị cà phê sữa, dạng thỏi tiện bỏ túi.
 
 Quy cách: thỏi
 Thương hiệu: Alpenliebe (Perfetti Van Melle)

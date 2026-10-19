@@ -17,18 +17,26 @@
     "description": null,
     "exportedAt": "2026-10-19T03:17:44.875Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh; tra lại 18/10 (mã vạch, \"Alpenliebe cà phê phố\", \"Alpenliebe cà phê phố thỏi 32g\", minhcaumart) — chỉ có ảnh túi 101,5 g (mã 8935001719106) và túi 259 g, không có ảnh thỏi → cần chụp 1 thỏi",
-    "source": null,
-    "rubricVersion": "v20"
+    "reason": "chủ 19/10: tra lại → có ảnh thỏi Alpenliebe Café PHỐ trên sàn → Gemini vẽ lại theo phong cách thỏi cùng dòng (v12–v15, v14) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không in khối lượng (ảnh mẫu không thấy); chữ nhỏ trên nhãn đỏ chép theo túi cùng vị",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-19",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh thỏi kẹo trên Wildberries (chỉ làm mẫu) + túi 101,5 g cùng vị (chữ 'Kẹo Hương vị Cà Phê Sữa') + thỏi Original đã duyệt (bố cục)",
+      "referenceUrl": "https://www.wildberries.kg/catalog/849075246/detail.aspx"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
-    "reason": "D1: chưa có mô tả; không có trang hãng, không có ảnh bao bì — mô tả ngắn chỉ từ tên SP",
+    "reason": "D1: mô tả từ chữ in trên bao bì cùng vị (Café PHỐ, MacCoffee, Kẹo Hương vị Cà Phê Sữa); không ghi khối lượng vì ảnh thỏi không thấy",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v20"
   },
   "question": null,
   "history": [
@@ -55,6 +63,32 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "np18 re-research 18/10: still no image of this exact pack"
+    },
+    {
+      "at": "2026-10-19T07:24:28Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-19T07:24:28.512Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T07:24:38.709Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-19T07:24:38.709Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

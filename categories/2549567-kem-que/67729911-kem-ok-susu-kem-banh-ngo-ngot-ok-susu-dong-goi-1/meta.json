@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-19T03:17:44.875Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "ảnh nhân viên chụp 19/10 (vỏ nhăn, lóa) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ Hàn nhỏ (thành phần) vẽ gần đúng; chữ lớn 찰옥수수, logo Lotte, 140 ml khớp",
@@ -85,6 +85,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T07:23:08.254Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -94,5 +100,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T06:57:22.116Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T06:57:22.116Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/4e76b942b8bb86f4b295fe6f96253bc80a1e7b00c88e94ba2e9dbf633196c6c1.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/10/19/tram8/c9828a0582404000955d4f4374779529.png"
+        ]
+      },
+      "description": {
+        "to": "Kem que vị ngô nếp (찰옥수수) của Lotte Hàn Quốc, có thêm vị bỏng ngô caramel.\n\nQuy cách: 140 ml · que\nXuất xứ: Hàn Quốc · Thương hiệu: Lotte\nBảo quản: Giữ đông lạnh.",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
   }
 }
