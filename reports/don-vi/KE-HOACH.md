@@ -105,7 +105,7 @@ Nguyên tắc: **Viết Hoa Chữ Đầu**, mỗi loại vỏ một tên, không
 
 ## 4. Thứ tự làm
 
-1. **Ngay:** điền ĐVT cho 199 SP thiếu (mục 1). Merge bản sửa Hub.
+1. ✅ Điền ĐVT cho 199 SP thiếu (mục 1). Xong 20/10/2026: lô thử 3 SP và lô 196 SP, `brand-diff` cả hai lô **ĐẠT**; trên KiotViet không còn hàng gốc nào thiếu ĐVT. Còn: merge bản sửa Hub.
 2. Chủ xem `bat-thuong-quy-doi.md`:
    - sửa hệ số/giá sai trên web KiotViet;
    - các trường hợp ĐVT lạ ở mục 2 (18000, Cá, Hói, Lọ ( Chai ), Vỉ n, Lốc gốc) cho tôi biết đúng là gì.
