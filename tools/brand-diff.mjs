@@ -9,6 +9,8 @@
  *   rename   brandId, from, to   — every product on that brand is expected to show `to`
  *   create   to
  *   delete   brandId, from
+ *   unit     kiotProductId, from (current ĐVT, empty = none), to — a product
+ *            with no lốc/thùng rows; fullName follows as "<name> (<unit>)"
  * No plan = nothing is expected to change.
  *
  * Exit 0 only when every planned change is there, spelled exactly, and nothing
@@ -49,7 +51,8 @@ for (const [i, row] of plan.entries()) {
     (row.kind === "product" && row.kiotProductId && (row.to || row.from)) ||
     (row.kind === "rename" && row.brandId && row.from && row.to) ||
     (row.kind === "create" && row.to) ||
-    (row.kind === "delete" && row.brandId && row.from);
+    (row.kind === "delete" && row.brandId && row.from) ||
+    (row.kind === "unit" && row.kiotProductId && row.to);
   if (!ok) {
     console.error(`plan row ${i + 2} is incomplete or has an unknown kind: ${JSON.stringify(row)}`);
     process.exit(2);
@@ -60,6 +63,7 @@ const productPlan = new Map(byKind("product").map((r) => [String(r.kiotProductId
 const renamePlan = new Map(byKind("rename").map((r) => [String(r.brandId), r]));
 const createPlan = new Map(byKind("create").map((r) => [r.to, r]));
 const productTargets = new Set(byKind("product").map((r) => r.to).filter(Boolean));
+const unitPlan = new Map(byKind("unit").map((r) => [String(r.kiotProductId), r]));
 const deletePlan = new Map(byKind("delete").map((r) => [String(r.brandId), r]));
 
 // ---- brand list -------------------------------------------------------------
@@ -147,7 +151,17 @@ for (const [id, a] of pAfter) {
       descHandled = true;
     }
   }
+  // KiotViet shows a product with a unit as "<name> (<unit>)" (fullName).
+  const unitTo = unitPlan.get(id);
+  if (unitTo) {
+    if ((b.unit ?? "") !== (unitTo.from ?? "")) alarm("KE_HOACH_CU", `${label(b)}: kế hoạch ghi ĐVT ${show(unitTo.from)}, thực tế trước lô ${show(b.unit)}`);
+    const wantFull = `${a.name} (${unitTo.to})`;
+    if (a.unit === unitTo.to && a.fullName === wantFull) done.push(`${label(a)}: ĐVT ${show(b.unit)} → ${show(a.unit)}`);
+    else if (a.unit === unitTo.to) alarm("SAI_TEN_DAY_DU", `${label(a)}: fullName ${show(a.fullName)}, cần ${show(wantFull)}`);
+    else alarm(a.unit === b.unit ? "CHUA_LAM" : "SAI_DVT", `${label(a)}: ĐVT ${show(b.unit)} → ${show(a.unit)}, cần ${show(unitTo.to)}`);
+  }
   for (const key of new Set([...Object.keys(b), ...Object.keys(a)])) {
+    if (unitTo && (key === "unit" || key === "fullName")) continue;
     if (IGNORED.has(key) || isDeepStrictEqual(b[key], a[key])) continue;
     // "" and null both mean "nothing here" (orderTemplate turned "" → null on import).
     if ((b[key] === "" || b[key] === null || b[key] === undefined) && (a[key] === "" || a[key] === null || a[key] === undefined)) continue;
@@ -163,7 +177,7 @@ for (const [id, a] of pAfter) {
 if (zeroed) notes.push(`- ${zeroed} dòng hàng có trọng lượng về 0 (--zero-weight)`);
 
 const report = [
-  `# So sánh thương hiệu`,
+  `# So sánh thương hiệu / đơn vị`,
   ``,
   `- Trước: ${before.takenAt} · Sau: ${after.takenAt}`,
   `- Kế hoạch: ${planPath ?? "(không có — không được đổi gì)"} · ${plan.length} dòng`,

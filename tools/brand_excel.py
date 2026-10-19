@@ -14,6 +14,11 @@ A row is left out, and listed, when the export no longer matches KiotViet now
 modified after the export was taken): importing it would write stale values
 back over a newer edit.
 
+With --units the proposals file is reports/don-vi/de-xuat-*.csv
+(kiotProductId,proposed = the unit) and only the ĐVT cell changes; brand and
+weight are left as exported. Only products with no lốc/thùng rows qualify:
+on those the base unit is what the pack rows convert from.
+
 Writes <out>.xlsx, <out>.csv (plan for brand-diff.mjs) and <out>.md (cell-by-
 cell list of what changes). Standard library only.
 """
@@ -36,6 +41,7 @@ ap.add_argument("--ids")
 ap.add_argument("--all", action="store_true", help="every product whose brand changes or whose weight (or a unit's) is not 0")
 ap.add_argument("--take", type=int)
 ap.add_argument("--skip", type=int, default=0)
+ap.add_argument("--units", action="store_true", help="set the ĐVT cell from the proposals file instead of the brand")
 ap.add_argument("--out", required=True)
 args = ap.parse_args()
 
@@ -76,7 +82,7 @@ header = cells(rows[0])
 col_of = {}
 for col, (_a, val) in header.items():
     col_of[(val or "").strip()] = col
-for need in ("Mã hàng", "Tên hàng", "Thương hiệu", "Trọng lượng", "Giá bán sau thuế", "VAT hàng bán (%)"):
+for need in ("Mã hàng", "ĐVT", "Tên hàng", "Thương hiệu", "Trọng lượng", "Giá bán sau thuế", "VAT hàng bán (%)"):
     if need not in col_of:
         sys.exit(f"export has no column '{need}'")
 
@@ -84,6 +90,9 @@ for need in ("Mã hàng", "Tên hàng", "Thương hiệu", "Trọng lượng", "
 want = []
 if args.ids:
     want = args.ids.split(",")
+elif args.units:
+    rows_with_unit = [pid for pid, r in proposals.items() if r["proposed"]]
+    want = rows_with_unit if args.all else rows_with_unit[args.skip : args.skip + (args.take or 0)]
 elif args.all:
     heavy = {str(p["masterUnitId"]) for p in snap["products"] if p.get("masterUnitId") and (p.get("weight") or 0) > 0}
     want = [
@@ -131,7 +140,12 @@ for pid in want:
         problems.append("giá sau thuế khác")
     if (get("Thương hiệu") or "") != escape(brand_now):
         problems.append("thương hiệu khác")
-    if brand_now != r["current"]:
+    if args.units:
+        if (get("ĐVT") or "") != escape(p.get("unit") or ""):
+            problems.append("ĐVT khác")
+        if any(str(q.get("masterUnitId")) == pid for q in products.values()):
+            problems.append("có lốc/thùng")
+    elif brand_now != r["current"]:
         problems.append("đề xuất lập trên dữ liệu cũ")
     mod = p.get("modifiedAt")
     if mod:
@@ -173,6 +187,12 @@ for i, (pid, row, r) in enumerate(kept, start=2):
     c = cells(row)
     old_brand = (c.get(col_of["Thương hiệu"]) or (None, None))[1] or ""
     old_weight = (c.get(col_of["Trọng lượng"]) or (None, None))[1] or ""
+    if args.units:
+        old_unit = unescape((c.get(col_of["ĐVT"]) or (None, None))[1] or "")
+        out_rows.append(renumber(set_cell(row, col_of["ĐVT"], r["proposed"], False), i))
+        changes.append((products[pid]["code"], products[pid]["name"], old_unit, r["proposed"], None))
+        plan.append({"kind": "unit", "kiotProductId": pid, "brandId": "", "from": old_unit, "to": r["proposed"]})
+        continue
     new = set_cell(row, col_of["Thương hiệu"], r["proposed"], False)
     new = set_cell(new, col_of["Trọng lượng"], "0", True)
     out_rows.append(renumber(new, i))
@@ -207,8 +227,11 @@ with open(base + ".csv", "w", newline="", encoding="utf-8") as f:
     w.writerows(plan)
 with open(base + ".md", "w", encoding="utf-8") as f:
     f.write(f"# {args.out}\n\nFile xuất lúc {exported_at:%d/%m/%Y %H:%M:%S} · bản chụp {snap['takenAt']}\n\n")
-    f.write(f"{len(kept)} SP trong lô · {len(skipped)} SP bị loại\n\n| Mã | Tên | Thương hiệu | Trọng lượng |\n|---|---|---|---|\n")
+    f.write(f"{len(kept)} SP trong lô · {len(skipped)} SP bị loại\n\n| Mã | Tên | {'ĐVT' if args.units else 'Thương hiệu'} | Trọng lượng |\n|---|---|---|---|\n")
     for code, name, ob, nb, ow in changes:
+        if ow is None:
+            f.write(f"| {code} | {name} | {ob or '(trống)'} → {nb} | giữ |\n")
+            continue
         f.write(f"| {code} | {name} | {ob or '(trống)'} → {nb or '(trống)'} | {ow or '0'} → 0 |\n")
     if skipped:
         f.write("\n## Bị loại\n" + "".join(f"- {s}\n" for s in skipped))
