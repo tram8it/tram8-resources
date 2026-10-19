@@ -20,7 +20,7 @@
   "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I4/I8: ảnh KiotViet nhiều ống chồng nhau → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: đoạn chữ nhỏ trên nhãn sau vẽ không đọc đúng; tên lớn, Thái Sơn, KL 90g đúng mẫu",
+    "reason": "I3/I4/I8: ảnh KiotViet nhiều ống chồng nhau → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: đoạn chữ nhỏ trên nhãn sau vẽ không đọc đúng; tên lớn, Thái Sơn, KL 90g đúng mẫu; xoay lại đúng chiều (chủ 19/10)",
     "source": {
       "aiGenerated": true,
       "tool": "Gemini API",
@@ -74,10 +74,22 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T03:58:40.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "rotated to reading orientation"
+    },
+    {
+      "at": "2026-10-19T03:59:08.532Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-18T18:12:29.680Z",
+    "at": "2026-10-19T03:59:08.532Z",
     "fields": [
       "description",
       "image"

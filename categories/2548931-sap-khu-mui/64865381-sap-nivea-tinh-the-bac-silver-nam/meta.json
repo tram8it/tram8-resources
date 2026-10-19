@@ -17,19 +17,19 @@
     "description": "Sáp ngăn mùi NIVEA MEN Silver Protect dành cho nam, dạng thỏi, dùng cho vùng da dưới cánh tay. Nhãn ghi: Anti-bacterial, Anti-perspirant, khô nhanh (Quick dry), bảo vệ 72 giờ.\n\nQuy cách: 50 ml · thỏi\nNhà sản xuất/thương hiệu: NIVEA MEN (Beiersdorf)",
     "exportedAt": "2026-10-19T03:17:44.875Z"
   },
-  "status": "UPLOADED",
+  "status": "READY",
   "image": {
-    "decision": "CROP",
-    "reason": "I9: packshot nền trắng, đúng SP Silver Protect 50ml nhưng ảnh 450×600 không 1:1; đã crop, xem lại đạt (hơi mềm, v4)",
-    "source": null,
-    "rubricVersion": "v4",
-    "vivid": {
-      "rubricVersion": "v10",
-      "saturationGain": 1.25,
-      "contrastGain": 1.08,
-      "toneGain": 1.237,
-      "gamma": 0.8
-    }
+    "decision": "REPLACE",
+    "reason": "Rà ảnh mờ 19/10: ảnh crop phóng to mờ, chữ nhỏ nhoè → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt nội dung",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-19",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh hiện tại (lọ thật)"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -74,6 +74,12 @@
       "by": "init",
       "status": "UPLOADED",
       "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-19T03:59:33Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references — owner 19/10: replace blurry/upscaled/jagged or wrinkled-photo images with crisp flat renders"
     }
   ],
   "submitted": {

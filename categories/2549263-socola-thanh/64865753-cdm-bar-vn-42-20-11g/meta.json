@@ -17,10 +17,10 @@
     "description": "Sô cô la sữa Cadbury Dairy Milk dạng thanh nhỏ 11 g.\n\nQuy cách: 11 g · thanh (bán lẻ từng thanh)\nThương hiệu: Cadbury Dairy Milk (Mondelez)",
     "exportedAt": "2026-10-19T03:17:44.875Z"
   },
-  "status": "UPLOADED",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: vẽ thanh phẳng, không nhăn; chữ như mẫu (Net weight: 11g)",
+    "reason": "I1: chưa có ảnh → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: vẽ thanh phẳng, không nhăn; chữ như mẫu (Net weight: 11g); xoay lại đúng chiều (chủ 19/10)",
     "source": {
       "aiGenerated": true,
       "tool": "Gemini API",
@@ -84,10 +84,22 @@
       "by": "owner",
       "status": "UPLOADED",
       "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T03:58:40.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "rotated to reading orientation"
+    },
+    {
+      "at": "2026-10-19T03:59:01.977Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-17T14:17:30.314Z",
+    "at": "2026-10-19T03:59:01.977Z",
     "fields": [
       "description",
       "image"

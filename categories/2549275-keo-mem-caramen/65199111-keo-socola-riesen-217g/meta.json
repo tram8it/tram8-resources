@@ -17,19 +17,19 @@
     "description": "Kẹo Riesen của Storck (Đức): viên caramel dai đậm vị, phủ sô-cô-la đen.\n\nQuy cách: 217 g · gói\nNhà sản xuất/thương hiệu: Storck · Riesen",
     "exportedAt": "2026-10-19T03:17:44.875Z"
   },
-  "status": "UPLOADED",
+  "status": "READY",
   "image": {
-    "decision": "CROP",
-    "reason": "I9: packshot nền trắng (túi Riesen) nhưng không 1:1; storck/riesen.de không có ảnh theo khối lượng",
-    "source": null,
-    "rubricVersion": "v4",
-    "vivid": {
-      "rubricVersion": "v10",
-      "saturationGain": 1.212,
-      "contrastGain": 1.068,
-      "toneGain": 1.137,
-      "gamma": 0.8
-    }
+    "decision": "REPLACE",
+    "reason": "Rà ảnh mờ 19/10: ảnh chụp túi nhăn, bóng lóa, mềm → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: túi vẽ phẳng; dấu 'DAS ORIGINAL' góc trái dưới vẽ rõ hơn theo mẫu",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-19",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh hiện tại (gói thật)"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -74,6 +74,12 @@
       "by": "init",
       "status": "UPLOADED",
       "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-19T03:59:35Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references — owner 19/10: replace blurry/upscaled/jagged or wrinkled-photo images with crisp flat renders"
     }
   ],
   "submitted": {

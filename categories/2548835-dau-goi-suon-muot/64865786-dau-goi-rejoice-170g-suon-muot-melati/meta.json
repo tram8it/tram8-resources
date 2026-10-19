@@ -17,12 +17,19 @@
     "description": "Dầu gội Rejoice 3 trong 1 Siêu Mượt với tinh dầu argan, giúp tóc suôn mượt, dưỡng tóc và thơm lâu (theo bao bì).\n\nQuy cách: 170 g · chai\nThương hiệu: Rejoice (Procter & Gamble)",
     "exportedAt": "2026-10-19T03:17:44.875Z"
   },
-  "status": "UPLOADED",
+  "status": "READY",
   "image": {
-    "decision": "KEEP",
-    "reason": "Ảnh KiotViet: chai Rejoice 3in1 Siêu mượt (tinh dầu argan) nền trắng; mã vạch 4902430451611 là Rejoice siêu mềm mượt (iCheck, bao bì cũ cùng dòng argan) → giữ ảnh bao bì mới; chuẩn hoá 1:1",
-    "source": null,
-    "rubricVersion": "v19"
+    "decision": "REPLACE",
+    "reason": "Rà ảnh mờ 19/10: ảnh hiện tại mềm, xỉn, chữ nhỏ nhoè → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: thêm dòng 'Khối lượng tịnh 170 g' nhỏ ở đáy chai, khớp tên SP 170g",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-19",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh hiện tại (chai thật)"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "REWRITE",
@@ -73,6 +80,12 @@
       "by": "owner",
       "status": "UPLOADED",
       "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T03:59:33Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references — owner 19/10: replace blurry/upscaled/jagged or wrinkled-photo images with crisp flat renders"
     }
   ],
   "submitted": {

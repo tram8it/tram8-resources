@@ -17,12 +17,19 @@
     "description": "Sữa dưỡng thể ban đêm NIVEA Extra Bright Night Nourish, dùng thoa toàn thân trước khi ngủ để dưỡng ẩm và dưỡng sáng da. Theo chữ in trên chai: chứa Vitamin E, 100% Pure Hyaluron, 40x Vitamin C, công nghệ NiaC Glow Activ, dưỡng ẩm sâu 48 giờ, phù hợp mọi loại da.\n\nQuy cách: 190 ml · chai\nNhà sản xuất/thương hiệu: NIVEA (Beiersdorf)",
     "exportedAt": "2026-10-19T03:17:44.875Z"
   },
-  "status": "UPLOADED",
+  "status": "READY",
   "image": {
-    "decision": "CROP",
-    "reason": "I9: packshot nền trắng, đúng SP (NIVEA Extra Bright Night Nourish 190 ml) nhưng chưa đúng chuẩn 1000×1000; ảnh 600px phóng ~1,75 lần, hơi mềm vẫn đạt (v4); chai in 190 ml, tên KiotViet 200M — theo bao bì (v19; Watsons VN cũng liệt kê bản 190 ml và 200 ml cùng mã hàng, có vẻ hãng đã đổi dung tích)",
-    "source": null,
-    "rubricVersion": "v19"
+    "decision": "REPLACE",
+    "reason": "Rà ảnh mờ 19/10: ảnh crop phóng to mềm, chữ nhỏ nhoè → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt nội dung",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-19",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh hiện tại (chai thật)"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "REWRITE",
@@ -73,6 +80,12 @@
       "by": "owner",
       "status": "UPLOADED",
       "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T03:59:32Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references — owner 19/10: replace blurry/upscaled/jagged or wrinkled-photo images with crisp flat renders"
     }
   ],
   "submitted": {

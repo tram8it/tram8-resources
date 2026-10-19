@@ -17,19 +17,20 @@
     "description": "Khăn ướt tẩy trang Gumi Makeup Remover, khăn lau sạch lớp trang điểm, dầu và bụi bẩn trên da, có bổ sung vitamin E, hương dưa leo dịu nhẹ. Gói nhỏ gọn, tiện mang theo.\n\nQuy cách: 25 tờ, khổ 200 × 200 mm · gói\nXuất xứ: Việt Nam · Thương hiệu: Gumi\nHạn sử dụng: 3 năm",
     "exportedAt": "2026-10-19T03:17:44.875Z"
   },
-  "status": "UPLOADED",
+  "status": "READY",
   "image": {
-    "decision": "CROP",
-    "reason": "I9: packshot nền trắng, đúng gói Gumi Makeup Remover 25 tờ, chỉ chưa 1:1; đã crop và xem lại đạt; chủ 19/10: làm sáng hơn (levels toàn ảnh)",
-    "source": null,
-    "rubricVersion": "v4",
-    "vivid": {
-      "rubricVersion": "v10",
-      "saturationGain": 1.25,
-      "contrastGain": 1.08,
-      "toneGain": 1.041,
-      "gamma": 1
-    }
+    "decision": "REPLACE",
+    "reason": "Rà ảnh mờ 19/10: ảnh crop từ ảnh chụp: túi nhăn, viền cắt lởm chởm, mềm → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: túi vẽ phẳng, không nhăn; không thấy khác biệt nội dung",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-19",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh hiện tại (gói thật) + ảnh gói trên gumi.vn (chỉ làm mẫu)",
+      "referenceUrl": "https://gumi.vn/product/khan-uot-tay-trang-gumi/"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -95,6 +96,12 @@
       "by": "init",
       "status": "UPLOADED",
       "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-19T03:59:34Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references — owner 19/10: replace blurry/upscaled/jagged or wrinkled-photo images with crisp flat renders"
     }
   ],
   "submitted": {

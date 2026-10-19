@@ -17,19 +17,20 @@
     "description": "Bánh trứng Tipo của Hữu Nghị – nền bánh trứng nướng xốp giòn phủ lớp kem trứng sữa béo, vị ngọt vừa. Mỗi bánh gói riêng, đựng trong hộp giấy.\n\nThành phần: trứng gà (27%), đường, bột mì, dầu nhân cọ hydro hóa và tinh luyện, sữa bột béo, chất nhũ hóa (471, 475, 1520, 477, 491), chất làm ẩm (420(ii), 422), muối, chất tạo xốp (450(i), 500(ii), 341(i)). Có chứa trứng, lúa mì, sữa.\nQuy cách: 39 g · hộp\nXuất xứ: Việt Nam · Nhà sản xuất: Công ty Cổ phần Thực phẩm Hữu Nghị\nBảo quản: nơi khô ráo, thoáng mát, tránh ánh nắng trực tiếp. Hạn sử dụng 12 tháng kể từ ngày sản xuất.",
     "exportedAt": "2026-10-19T03:17:44.875Z"
   },
-  "status": "UPLOADED",
+  "status": "READY",
   "image": {
-    "decision": "CROP",
-    "reason": "I9: packshot nền trắng, đúng hộp Tipo bánh trứng (bao bì ghi 39 g, trùng bản 39g trên huunghi.com.vn), chưa 1:1; đã crop, phóng ~3 lần hơi mềm nhưng đạt (v4)",
-    "source": null,
-    "rubricVersion": "v4",
-    "vivid": {
-      "rubricVersion": "v10",
-      "saturationGain": 1.083,
-      "contrastGain": 1.027,
-      "toneGain": 1.113,
-      "gamma": 1
-    }
+    "decision": "REPLACE",
+    "reason": "Rà ảnh mờ 19/10: ảnh crop phóng ~3 lần mềm, có dấu in NSX/HSD trên hộp → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: bỏ dấu in phun ngày SX/HSD; còn lại không thấy khác biệt",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-19",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh hiện tại (hộp thật) + ảnh Tipo bánh trứng trên huunghi.com.vn (chỉ làm mẫu)",
+      "referenceUrl": "https://huunghi.com.vn/tipo-banh-trung-39g/"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -77,6 +78,12 @@
       "by": "init",
       "status": "UPLOADED",
       "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-19T03:59:35Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references — owner 19/10: replace blurry/upscaled/jagged or wrinkled-photo images with crisp flat renders"
     }
   ],
   "submitted": {

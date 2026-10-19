@@ -17,19 +17,19 @@
     "description": "Chỉ nha khoa Jomi hương bạc hà (Mint), cuộn chỉ đựng trong hộp nhựa nhỏ có lưỡi cắt, dùng làm sạch kẽ răng sau khi ăn.\n\nQuy cách: cuộn 50 m (50m/500D) · vỉ 1 hộp\nNhà sản xuất/thương hiệu: Jomi",
     "exportedAt": "2026-10-19T03:17:44.875Z"
   },
-  "status": "UPLOADED",
+  "status": "READY",
   "image": {
-    "decision": "CROP",
-    "reason": "I9: packshot vỉ nền trắng, đúng SP Jomi Mint 50m nhưng ảnh 450×600 không 1:1; đã crop, xem lại đạt",
-    "source": null,
-    "rubricVersion": "v4",
-    "vivid": {
-      "rubricVersion": "v10",
-      "saturationGain": 1.25,
-      "contrastGain": 1.08,
-      "toneGain": 1.091,
-      "gamma": 1
-    }
+    "decision": "REPLACE",
+    "reason": "Rà ảnh mờ 19/10: ảnh crop phóng to mềm, viền vỉ mờ → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt nội dung",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-19",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh hiện tại (vỉ thật)"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "REWRITE",
@@ -74,6 +74,12 @@
       "by": "init",
       "status": "UPLOADED",
       "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-19T03:59:34Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references — owner 19/10: replace blurry/upscaled/jagged or wrinkled-photo images with crisp flat renders"
     }
   ],
   "submitted": {

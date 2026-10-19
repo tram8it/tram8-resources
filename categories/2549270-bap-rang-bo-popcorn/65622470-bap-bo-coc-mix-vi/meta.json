@@ -20,7 +20,7 @@
   "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I4/I8: ảnh KiotViet nhiều ống chồng nhau → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: ống hơi nghiêng; chữ nhỏ trên nhãn không đọc đúng; Mix, flavored popcorn, KL 90g đúng mẫu",
+    "reason": "I3/I4/I8: ảnh KiotViet nhiều ống chồng nhau → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: ống hơi nghiêng; chữ nhỏ trên nhãn không đọc đúng; Mix, flavored popcorn, KL 90g đúng mẫu; xoay lại đúng chiều (chủ 19/10)",
     "source": {
       "aiGenerated": true,
       "tool": "Gemini API",
@@ -74,10 +74,22 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T03:58:40.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "rotated to reading orientation"
+    },
+    {
+      "at": "2026-10-19T03:59:04.076Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-18T18:12:24.743Z",
+    "at": "2026-10-19T03:59:04.076Z",
     "fields": [
       "description",
       "image"

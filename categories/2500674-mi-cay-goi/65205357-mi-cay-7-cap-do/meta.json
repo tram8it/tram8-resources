@@ -17,16 +17,19 @@
     "description": "Mì Koreno Jumbo mì cay 7 cấp độ hương vị chua cay của Paldo, mì kiểu Hàn Quốc kèm gói ớt bột riêng để tự chỉnh độ cay theo 7 cấp.\n\nQuy cách: 101 g · gói\nNhà sản xuất/thương hiệu: Paldo Vina · Koreno Jumbo\nHướng dẫn sử dụng: Đun sôi 450 ml nước, cho vắt mì, gói gia vị và gói ớt bột vào nồi, nấu 4 phút rồi múc ra bát. Chỉnh độ cay bằng lượng ớt bột: cấp 3 khoảng 40% gói, cấp 5 khoảng 70%, cấp 7 cả gói.",
     "exportedAt": "2026-10-19T03:17:44.875Z"
   },
-  "status": "UPLOADED",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "Chủ chọn: cắt gói lẻ Koreno Jumbo mì cay 7 cấp độ 101 g từ ảnh chủ gửi (túi 10 gói + gói lẻ); ảnh nhỏ, phóng ~4,2 lần (vượt mức ~3 lần, chữ nhỏ hơi mờ) — chủ đồng ý dùng",
+    "reason": "Rà ảnh mờ 19/10: ảnh hiện tại rất mờ, chữ nhỏ nhoè không đọc được → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ nhỏ trong ô nhãn bên phải vẽ thành chữ nhỏ không đọc được",
     "source": {
-      "ownerProvided": true,
-      "note": "ảnh 'Mì cay 7 cấp độ Koreno 10 gói' chủ gửi, cắt gói lẻ bên phải",
-      "receivedAt": "2026-10-14"
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-19",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh hiện tại (gói thật)"
     },
-    "rubricVersion": "v6"
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -92,6 +95,12 @@
       "by": "init",
       "status": "UPLOADED",
       "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-19T03:59:34Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references — owner 19/10: replace blurry/upscaled/jagged or wrinkled-photo images with crisp flat renders"
     }
   ],
   "submitted": {

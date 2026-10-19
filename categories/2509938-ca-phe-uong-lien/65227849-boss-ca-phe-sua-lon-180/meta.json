@@ -17,19 +17,20 @@
     "description": "Boss Cà Phê Sữa đóng lon của Suntory, thương hiệu cà phê lon nổi tiếng từ Nhật Bản, vị cà phê sữa thơm béo, ngọt dịu. Ngon hơn khi uống lạnh.\n\nQuy cách: 180 ml · lon\nNhà sản xuất/thương hiệu: Suntory PepsiCo Việt Nam · Boss",
     "exportedAt": "2026-10-19T03:17:44.875Z"
   },
-  "status": "UPLOADED",
+  "status": "READY",
   "image": {
-    "decision": "CROP",
-    "reason": "I9: packshot nền trắng nhưng không 1:1, SP nhỏ; crop phóng 3,2 lần, xem lại vẫn đạt (v4); cùng bao bì với ảnh trên trang Suntory PepsiCo",
-    "source": null,
-    "rubricVersion": "v4",
-    "vivid": {
-      "rubricVersion": "v10",
-      "saturationGain": 1.25,
-      "contrastGain": 1.08,
-      "toneGain": 1.143,
-      "gamma": 1
-    }
+    "decision": "REPLACE",
+    "reason": "Rà ảnh mờ 19/10: ảnh KiotViet crop phóng 3,2 lần: mờ, viền răng cưa, chữ nhoè (chủ 19/10) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ nhỏ mặt bên lon (thành phần) vẽ thành chữ nhỏ không đọc được; lần 1 Gemini thêm tẩu thuốc theo bản lon khác, đã sửa về đúng mặt in đen không tẩu",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-19",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh hiện tại (gói thật) + render lon Boss trên suntorypepsico.vn (chỉ để vẽ nét logo)",
+      "referenceUrl": "https://www.suntorypepsico.vn/thuong-hieu-cua-chung-toi/boss-10"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -77,6 +78,12 @@
       "by": "init",
       "status": "UPLOADED",
       "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-19T03:59:31Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references — owner 19/10: replace blurry/upscaled/jagged or wrinkled-photo images with crisp flat renders"
     }
   ],
   "submitted": {

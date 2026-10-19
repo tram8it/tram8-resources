@@ -17,12 +17,19 @@
     "description": "Dầu gội sạch gàu Head & Shoulders Bạc Hà Mát Lạnh (Cool Menthol), làm sạch gàu và cho cảm giác mát lạnh sảng khoái trên da đầu.\n\nQuy cách: 170 ml · chai\nThương hiệu: Head & Shoulders (Procter & Gamble)",
     "exportedAt": "2026-10-19T03:17:44.875Z"
   },
-  "status": "UPLOADED",
+  "status": "READY",
   "image": {
-    "decision": "KEEP",
-    "reason": "Ảnh KiotViet: chai Head & Shoulders Bạc Hà Mát Lạnh (Cool Menthol) nền trắng, đúng hàng theo mã vạch 4902430375825 (iCheck: bạc hà mát rượi, bao bì cũ); chuẩn hoá 1:1 | 17/10: chủ từ chối vì tối/chữ chưa sáng → tone.py --vivid (sáng + tươi hơn, toàn ảnh)",
-    "source": null,
-    "rubricVersion": "v19"
+    "decision": "REPLACE",
+    "reason": "Rà ảnh mờ 19/10: ảnh hiện tại mềm, xám, chữ nhỏ nhoè → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt nội dung",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-19",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh hiện tại (chai thật)"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -85,6 +92,12 @@
       "by": "init",
       "status": "UPLOADED",
       "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-19T03:59:33Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references — owner 19/10: replace blurry/upscaled/jagged or wrinkled-photo images with crisp flat renders"
     }
   ],
   "submitted": {

@@ -17,19 +17,19 @@
     "description": "Bánh phồng mực kiểu Inđônêxia Indo Chips! của Oishi, miếng phồng giòn xốp đậm vị hải sản, hợp làm món ăn vặt hoặc nhâm nhi cùng bạn bè.\n\nQuy cách: 75 g · gói\nNhà sản xuất/thương hiệu: Oishi Việt Nam · Indo Chips!",
     "exportedAt": "2026-10-19T03:17:44.875Z"
   },
-  "status": "UPLOADED",
+  "status": "READY",
   "image": {
-    "decision": "CROP",
-    "reason": "I9: packshot nền trắng, đúng bao bì như trên oishi.com.vn nhưng gói sát mép trên/dưới; crop về 1:1 (xem lại đạt)",
-    "source": null,
-    "rubricVersion": "v4",
-    "vivid": {
-      "rubricVersion": "v10",
-      "saturationGain": 1.08,
-      "contrastGain": 1.026,
-      "toneGain": 1.001,
-      "gamma": 1
-    }
+    "decision": "REPLACE",
+    "reason": "Rà ảnh mờ 19/10: ảnh crop phóng to mềm → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt nội dung",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-19",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh hiện tại (gói thật)"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -83,6 +83,12 @@
       "by": "init",
       "status": "UPLOADED",
       "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-19T03:59:38Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references — owner 19/10: replace blurry/upscaled/jagged or wrinkled-photo images with crisp flat renders"
     }
   ],
   "submitted": {

@@ -17,16 +17,19 @@
     "description": "Bánh tráng mini rong biển thương hiệu Mèo Food, món ăn vặt đóng gói ăn liền. Bánh tráng miếng nhỏ vị rong biển.\n\nQuy cách: gói\nThương hiệu: Mèo Food",
     "exportedAt": "2026-10-19T03:17:44.875Z"
   },
-  "status": "UPLOADED",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "Ảnh 'Gian hàng chính hãng' Mèo Food chủ gửi (Bánh tráng Mini Rong biển); tách gói khỏi nền cam banner, bỏ logo/khung gian hàng",
+    "reason": "Rà ảnh mờ 19/10: ảnh hiện tại mềm, viền cắt lởm chởm/hở góc trên → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt nội dung",
     "source": {
-      "ownerProvided": true,
-      "note": "ảnh gian hàng chính hãng Mèo Food chủ gửi",
-      "receivedAt": "2026-10-15"
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-19",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh hiện tại (gói thật)"
     },
-    "rubricVersion": "v6"
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -71,6 +74,12 @@
       "by": "init",
       "status": "UPLOADED",
       "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-19T03:59:34Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references — owner 19/10: replace blurry/upscaled/jagged or wrinkled-photo images with crisp flat renders"
     }
   ],
   "submitted": {

@@ -17,16 +17,19 @@
     "description": "Cháo tổ yến thịt bằm Lifesnest dạng ly ăn liền, có tổ yến từ Khánh Hòa, chỉ cần thêm nước sôi.\n\nQuy cách: 50 g · ly\nNhà sản xuất/thương hiệu: Lifesnest",
     "exportedAt": "2026-10-19T03:17:44.875Z"
   },
-  "status": "UPLOADED",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "Chủ gửi ảnh ly Cháo tổ yến thịt bằm (in 50 g, khớp tên SP); tách nền bằng cutout.py, ly nguyên vẹn",
+    "reason": "Rà ảnh mờ 19/10: ảnh hiện tại mờ, hơi nghiêng phối cảnh → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: vẽ thẳng mặt; không thấy khác biệt nội dung",
     "source": {
-      "ownerProvided": true,
-      "note": "ảnh ly cháo tổ yến thịt bằm chủ gửi, tách nền",
-      "receivedAt": "2026-10-14"
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-19",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh hiện tại (ly thật)"
     },
-    "rubricVersion": "v5"
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -71,6 +74,12 @@
       "by": "init",
       "status": "UPLOADED",
       "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-19T03:59:35Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references — owner 19/10: replace blurry/upscaled/jagged or wrinkled-photo images with crisp flat renders"
     }
   ],
   "submitted": {
