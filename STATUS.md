@@ -2,7 +2,7 @@
 
 > Sinh tự động bởi `node tools/status.mjs`. **Không sửa tay.** Nguồn sự thật là `meta.json` của từng SP.
 
-Tổng 2509 SP · đã xem 2509 (100%) · xong 2289 · chờ chủ duyệt 73 · cần chụp 146 · hỏi chủ 1
+Tổng 2509 SP · đã xem 2509 (100%) · xong 2289 · chờ chủ duyệt 75 · cần chụp 144 · hỏi chủ 1
 
 Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` = giữ nguyên + đã lên web.
 
@@ -149,12 +149,12 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 | 139 | Gel bôi trơn | 0.0tr | 5 | 0 | 3 | 0 | 0 | 0 | 0 | 0 | 2 |
 | 140 | Sữa rửa mặt cho da mụn | 0.0tr | 5 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 5 |
 | 141 | Lương khô | 0.0tr | 5 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 4 |
-| 142 | Dụng cụ lông mày / mũi | 0.0tr | 5 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 4 |
+| 142 | Dụng cụ lông mày / mũi | 0.0tr | 5 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 4 |
 | 143 | Vang Đỏ | 0.0tr | 5 | 0 | 4 | 0 | 0 | 0 | 0 | 0 | 1 |
 | 144 | Sữa và các sản phẩm từ sữa | 0.0tr | 5 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 5 |
 | 145 | Snack bánh mì nướng / crouton | 0.0tr | 4 | 0 | 0 | 0 | 2 | 0 | 0 | 0 | 2 |
 | 146 | Bánh mì que | 0.0tr | 4 | 0 | 0 | 0 | 4 | 0 | 0 | 0 | 0 |
-| 147 | Dầu gội - Trị gàu | 0.0tr | 4 | 0 | 0 | 0 | 1 | 0 | 1 | 0 | 2 |
+| 147 | Dầu gội - Trị gàu | 0.0tr | 4 | 0 | 0 | 0 | 0 | 0 | 2 | 0 | 2 |
 | 148 | Dầu xả | 0.0tr | 4 | 0 | 2 | 0 | 0 | 0 | 0 | 0 | 2 |
 | 149 | Nước dừa / thạch uống | 0.0tr | 4 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 4 |
 | 150 | Kem đánh răng - Trắng răng | 0.0tr | 4 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 3 |
