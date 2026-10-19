@@ -17,18 +17,25 @@
     "description": null,
     "exportedAt": "2026-10-19T03:17:44.875Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I2: ảnh KiotViet là gói tai heo chay (SP khác); tra lại 18/10 (mã vạch Kingfoodmart/OFF, \"măng nấm chay vị ớt ngâm\", \"泡椒 笋 菌菇\") — không có ảnh đúng mã → cần chụp · tra lại 19/10 (Yandex ảnh: \"泡椒 笋 菌菇 素食\"; \"măng nấm chay vị ớt ngâm\"; \"泡椒菌菇笋\") — không có ảnh đúng SP/vị",
-    "source": null,
-    "rubricVersion": "v20"
+    "reason": "chủ 19/10: xử lí theo ảnh KiotViet → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: vẽ phẳng, sạch theo ảnh; chữ nhỏ để mờ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-19",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet của SP (gói 素耳尖 泡椒味)"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
-    "decision": "WRITE_NEW",
-    "reason": "D1: chưa có mô tả; mô tả ngắn chỉ từ tên hàng và chữ in mặt trước bao bì (không có trang hãng) ('素耳尖 泡椒味', '魔芋凝胶制品' = sản phẩm thạch khoai nưa, 16 g)",
+    "decision": "REWRITE",
+    "reason": "chủ 19/10: SP là gói 素耳尖 泡椒味 trong ảnh KiotViet; mô tả theo chữ trên gói (魔芋凝胶制品, 净含量 16克)",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v23"
   },
   "question": null,
   "history": [
@@ -79,6 +86,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "np19 re-research 19/10 (image search): still no image of this exact product → NEEDS_PHOTO"
+    },
+    {
+      "at": "2026-10-19T12:59:18Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "redo after Hub rejection:  — Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-19T12:59:18.211Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-19T12:59:18.211Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

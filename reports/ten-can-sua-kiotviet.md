@@ -64,3 +64,4 @@ Hàng thật xác định theo mã vạch; ảnh + mô tả đã làm theo hàng
 | 67814216 | Rong Biển Sợi Vị Tê Cay 30g | Rong biển sợi QIAO'S **vị cay thơm** 30 g (không phải vị tê cay) | ảnh nhân viên 19/10 |
 | 67235516 | Mì oki trẻ em 22g/hộp | Snack mì giòn Oki Oki **vị gà nướng** (Grilled Chicken Flavor), bán theo gói (tên thiếu vị, ghi "hộp") | ảnh nhân viên 19/10 |
 | 67953565 | Khoai Tây Que Vị Fantian | Que cay 翻天娃 (Fantianwa) vị khoai tây chiên (翻天薯条味) — mì gia vị 调味面制品, không phải khoai tây que | ảnh nhân viên 19/10 |
+| 66922789 | Măng Nấm Chay Vị Ớt Ngâm | Gói thật là 素耳尖 泡椒味 (snack chay konjac "tai chay" vị ớt ngâm) 16 g, hãng 银城湘味 — không phải măng nấm | ảnh KiotViet |
