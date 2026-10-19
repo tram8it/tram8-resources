@@ -2,7 +2,7 @@
 
 > Sinh tự động bởi `node tools/status.mjs`. **Không sửa tay.** Nguồn sự thật là `meta.json` của từng SP.
 
-Tổng 2509 SP · đã xem 2509 (100%) · xong 2416 · chờ chủ duyệt 10 · cần chụp 82 · hỏi chủ 1
+Tổng 2509 SP · đã xem 2509 (100%) · xong 2416 · chờ chủ duyệt 13 · cần chụp 79 · hỏi chủ 1
 
 Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` = giữ nguyên + đã lên web.
 
@@ -61,13 +61,13 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 | 51 | Thạch – Rau câu | 0.0tr | 16 | 0 | 0 | 0 | 2 | 0 | 0 | 0 | 14 |
 | 52 | Xịt khử mùi | 0.0tr | 16 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 16 |
 | 53 | Sữa hạt | 0.0tr | 16 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 16 |
-| 54 | Que cay / tăm cay (latiao) | 0.0tr | 15 | 0 | 0 | 0 | 5 | 0 | 0 | 0 | 10 |
+| 54 | Que cay / tăm cay (latiao) | 0.0tr | 15 | 0 | 0 | 0 | 3 | 0 | 2 | 0 | 10 |
 | 55 | Bánh ngọt | 0.0tr | 15 | 0 | 0 | 0 | 2 | 0 | 0 | 0 | 13 |
 | 56 | Cáp sạc & dây | 0.0tr | 15 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 15 |
 | 57 | Chân gà | 0.0tr | 15 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 15 |
 | 58 | Cocktail lon RTD | 0.0tr | 15 | 0 | 3 | 0 | 0 | 0 | 0 | 0 | 12 |
 | 59 | Sữa chua kiểu Hy Lạp | 0.0tr | 15 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 15 |
-| 60 | Măng & rau ngâm cay | 0.0tr | 15 | 0 | 0 | 0 | 5 | 0 | 1 | 0 | 9 |
+| 60 | Măng & rau ngâm cay | 0.0tr | 15 | 0 | 0 | 0 | 4 | 0 | 2 | 0 | 9 |
 | 61 | Xúc xích lắc & snack | 0.0tr | 15 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 15 |
 | 62 | Bánh pie / cake mềm | 0.0tr | 14 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 13 |
 | 63 | Board games/ Card games | 0.0tr | 14 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 14 |
