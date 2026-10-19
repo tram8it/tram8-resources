@@ -192,14 +192,15 @@ Lô **đổi tên / xoá thương hiệu** (4.4, 4.7) dùng prompt riêng, mỗi
 
 ## 6. Việc tiếp theo
 
-Đề xuất ngày 19/10 (bản chụp 03:13 UTC): [`de-xuat-tom-tat.md`](de-xuat-tom-tat.md) · bảng [`de-xuat-tung-sp.csv`](de-xuat-tung-sp.csv) ·
-trang duyệt `review/thuong-hieu.html`. Nhãn đọc từ ảnh cho 210 SP chưa có căn cứ: [`doc-anh.json`](doc-anh.json)
-(4 agent xem từng ảnh, không tra web; tên chỉ bằng chữ Trung/Hàn đánh dấu không chắc).
+**Duyệt xong (chủ, 19/10/2026):** "cứ xử lí đã, cái nào không rõ thì cho vào Khác, tôi sẽ chuyển dần sau".
+Ghi chú chủ đánh trên trang duyệt (https://claude.ai/artifact/XGAYbaKuBMAnD5p9pk5ggh) nằm ở `data/brand-owner.json`
+(Lâm Vũ cho cơm nắm/cơm cuộn, Thanh Hà Foods, Sữa Chua Hạ Long, bỏng ngô IAMG / Proper Corn, combo không chia hãng);
+SP không rõ (`KHAC`) để trống. Đề xuất cuối: [`de-xuat-tom-tat.md`](de-xuat-tom-tat.md).
+Thử `brand-plan` trên bản chụp 19/10: 69 đổi tên · 272 tạo · 1.670 sửa từng SP.
 
-1. Chủ trả lời các câu "còn mở" ở §2 (đồ uống Pepsi / Coca-Cola, Nestlé, các nhãn lơ lửng).
-2. Chủ duyệt trang `review/thuong-hieu.html`, ưu tiên nút "Chỉ SP cần xem"; sửa nào → ghi vào bảng chuẩn
-   hoặc một danh sách sửa tay, chạy lại `brand-propose`.
-3. Bước 1 (trinh sát, chỉ xem) và Bước 2 (thử 1 SP) trên Chrome.
-4. `brand-plan` từ bản chụp mới → chạy từng lô, mỗi lô qua `brand-diff`.
-5. Trong lúc chạy lô: **tạm dừng bấm "Áp dụng" ảnh/mô tả trên Hub** — mỗi lần áp dụng đổi mô tả/ảnh và có thể
+1. Bước 1 — trinh sát KiotViet web trên Chrome (chỉ xem): đổi tên / xoá / gán hàng loạt thương hiệu, nhập Excel.
+2. Bước 2 — thử 1 SP thật, `brand-diff` phải ĐẠT.
+3. `brand-snapshot` mới → `brand-plan` → chạy từng lô, mỗi lô qua `brand-diff`.
+4. Trong lúc chạy lô: **tạm dừng bấm "Áp dụng" ảnh/mô tả trên Hub** — mỗi lần áp dụng đổi mô tả/ảnh và có thể
    cả VAT, `brand-diff` sẽ báo KHÔNG ĐẠT dù lô đúng.
+5. Sau đó chủ chuyển dần SP "Khác" sang nhãn đúng: báo ở trang duyệt (nút Sai) → Claude thêm vào `data/brand-owner.json`.

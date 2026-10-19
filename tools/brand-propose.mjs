@@ -349,6 +349,40 @@ rows.sort(
     a.name.localeCompare(b.name, "vi"),
 );
 
+// The owner's own calls from the review page, and the owner's rule for the rest
+// (19/10/2026): "cái nào không rõ thì cho vào Khác" — anything not clear goes
+// to Khác (empty) now and gets moved later, rather than waiting on review.
+const owner = JSON.parse(await readFile(join(ROOT, "data", "brand-owner.json"), "utf8"));
+const emptyCategories = new Set(owner.emptyCategories ?? []);
+for (const r of rows) {
+  const o = owner.overrides?.[String(r.kiotProductId)];
+  let to = null;
+  let why = "";
+  if (o) {
+    if (o.brand && !byName.has(o.brand)) throw new Error(`brand-owner: ${r.kiotProductId} names ${o.brand}, not in brand-canon.json`);
+    to = o.brand;
+    why = `chủ: ${o.said ?? o.brand}`;
+    r.confidence = "CHU";
+  } else if (emptyCategories.has(r.category)) {
+    to = "";
+    why = "chủ: combo không chia hãng";
+    r.confidence = "CHU";
+  } else if (
+    owner.unclearToEmpty &&
+    (r.confidence === "HOI" ||
+      r.confidence === "XEM_ANH" ||
+      (r.confidence === "KIEM" && !["tên SP", "mô tả + tên"].includes(r.basis) && r.proposed !== CHINESE_GROUP))
+  ) {
+    to = "";
+    why = `không rõ (${r.proposed || "chưa biết"}) → Khác, chủ chuyển dần sau`;
+    r.confidence = "KHAC";
+  }
+  if (to === null) continue;
+  r.note = [r.note, why].filter(Boolean).join("; ");
+  r.proposed = to;
+  r.change = r.proposed === r.current ? "giữ" : !r.current ? "thêm" : !r.proposed ? "—" : "đổi";
+}
+
 // ---- summary ------------------------------------------------------------------
 const count = (f) => rows.filter(f).length;
 const tally = (key) => {
@@ -389,7 +423,8 @@ const md = [
   `Độ chắc: \`CHAC\` = dòng thương hiệu trong mô tả (viết từ bao bì/trang hãng) và tên SP không mâu thuẫn ·`,
   `\`KIEM\` = chỉ từ tên SP, chỉ biết công ty, hoặc nhãn đọc từ ảnh chưa chắc/chưa có trong bảng chuẩn ·`,
   `\`HOI\` = các nguồn mâu thuẫn · \`GIU_CHUA_KIEM\` = chỉ có thương hiệu KiotViet đang gắn ·`,
-  `\`TRONG\` = đã xem ảnh, bao bì không có nhãn → để trống · \`XEM_ANH\` = không có căn cứ, phải xem ảnh.`,
+  `\`TRONG\` = đã xem ảnh, bao bì không có nhãn → để trống · \`XEM_ANH\` = không có căn cứ, phải xem ảnh ·`,
+  `\`CHU\` = chủ quyết trên trang duyệt (\`data/brand-owner.json\`) · \`KHAC\` = không rõ → để trống ("Khác"), chủ chuyển dần sau.`,
   ``,
   `## Thương hiệu KiotViet nên đổi tên (mọi SP của nó cùng về một tên chuẩn)`,
   ``,

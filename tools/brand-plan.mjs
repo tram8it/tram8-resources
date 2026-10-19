@@ -5,8 +5,8 @@
  *   node tools/brand-plan.mjs <fresh-snapshot.json> <de-xuat-tung-sp.csv>
  *        [--include CHAC,KIEM] [--batch 25] [--out-dir work/brand-plan/<stamp>]
  *
- * Only rows whose `confidence` is listed in --include (default CHAC) are
- * planned; HOI / XEM_ANH / GIU_CHUA_KIEM never are until a person settles them.
+ * Only rows whose `confidence` is listed in --include are planned (default:
+ * all but HOI / XEM_ANH, which brand-propose.mjs turns into KHAC anyway).
  * The snapshot must be fresh: a product whose brand differs from the CSV's
  * `current` was changed by someone after the proposal and is left out.
  *
@@ -29,7 +29,9 @@ const flag = (name, fallback) => {
   const at = args.indexOf(name);
   return at >= 0 ? args.splice(at, 2)[1] : fallback;
 };
-const include = new Set(flag("--include", "CHAC").split(","));
+// Owner, 19/10/2026: run everything; unclear rows were already turned into
+// KHAC (empty) by brand-propose.mjs.
+const include = new Set(flag("--include", "CHAC,CHU,TRONG,KHAC,KIEM,GIU_CHUA_KIEM").split(","));
 const batchSize = Number(flag("--batch", "25"));
 const [snapshotPath, proposalsPath] = args;
 if (!snapshotPath || !proposalsPath) {
@@ -61,7 +63,8 @@ for (const r of proposals) {
     continue;
   }
   if (!include.has(r.confidence)) continue;
-  if (r.proposed === "" && r.confidence !== "TRONG") continue; // no proposal, not a decision to clear
+  // An empty proposal is a decision to clear only when someone made it.
+  if (r.proposed === "" && !["TRONG", "CHU", "KHAC"].includes(r.confidence)) continue;
   target.set(String(r.kiotProductId), r.proposed);
 }
 
