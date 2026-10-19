@@ -80,6 +80,8 @@ function compact(p) {
     descriptionSha: sha(description),
     descriptionLength: (description ?? "").length,
     brandLine: brandLine(description),
+    // "Hàng nội địa Trung" needs to know a pack is Chinese when it names no brand.
+    chineseHint: /tiếng Trung|nội địa Trung|Trung Quốc|[\u4e00-\u9fff]/.test(description ?? ""),
     modifiedAt,
   };
 }

@@ -52,13 +52,20 @@ Một nhãn viết hai kiểu là hai nhóm trên web.
    (Acecook, Masan, Mondelez, P&G, Unilever) chỉ dùng khi SP không có nhãn nào khác.
 2. **Cách viết:** **Chữ Hoa Đầu Từ** (Nivea, Kido, Bibigo, Hoco, Durex, Đà Lạt Milk); giữ chữ viết tắt (TH, P/S, OKF, 333);
    giữ dấu tiếng Việt; nháy thẳng `'`.
-3. **SP không có nhãn** (trái cây cắt, đồ nhà làm, đồ dùng không nhãn): **để trống** — web xếp vào nhóm "Khác".
+3. **SP không có nhãn** (trái cây cắt, đồ nhà làm, đồ dùng không nhãn) **và nhãn không nổi tiếng**: **để trống** — web xếp
+   vào nhóm "Khác"; khi duyệt chủ báo nhãn nào cần tách riêng. Đang để trống: nhãn chỉ biết tên công ty (Hải Đăng Đỏ,
+   Lâm Vũ, IAMG, Vinfoods, Tràng An), Love Minimart, Meo Meo, và nhãn mới chỉ đọc từ ảnh có dưới 3 SP
+   (`MIN_NEW_BRAND_PRODUCTS`).
+3b. **Hàng nội địa Trung, nhãn không mạnh:** ghi chung **"Hàng nội địa Trung"** — các nhãn có `"g"` trong bảng chuẩn
+   (Jinmofang, Qiao Da Niang, Meco, Hesan, Kam Yuens, Hongbaolai, Heytea…), nhãn đọc từ ảnh chỉ có chữ Hán, và SP mô tả
+   ghi hàng Trung Quốc mà không thấy nhãn. Giữ riêng nhãn Trung đã có tiếng ở VN: Wang Lao Ji, JDB, Want Want.
 4. **SP ngừng kinh doanh:** **có** chuẩn hoá, **làm sau cùng**.
 5. Thương hiệu rỗng: xoá **cuối cùng**, chỉ khi bản chụp mới nhất = 0 SP (kể cả ngừng bán).
 6. Công ty / dòng con: lưu trong `data/brand-canon.json` (trường `c`, `p`) để web/Hub dùng sau; KiotViet chỉ giữ một tên.
 
 Còn mở (đánh dấu `"ask": true` trong `data/brand-canon.json`, chủ xem ở trang duyệt):
-- Nhãn lơ lửng: À Table, Onigiri Việt, Fresh 2Go, Pizza 4P's, Thanh Hà Foods, Kinh Đô, Camel (bia và thuốc lá cùng tên),
+- Nhãn lơ lửng (đang giữ tên): À Table, Onigiri Việt, Fresh 2Go, Pizza 4P's, Thanh Hà Foods, Kinh Đô, Camel (bia và thuốc lá
+  cùng tên), Play Candy; nhãn đọc từ ảnh chưa chắc: An Nam (6 SP), Zala (3 SP).
   Play Candy, Weisiel, Love Minimart, Meo Meo, Lâm Vũ, Hải Đăng Đỏ.
 
 ---

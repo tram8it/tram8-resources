@@ -153,7 +153,13 @@ const brandLineOf = (text) => {
   return m ? m[1].replace(/\s+/g, " ").trim().replace(/\.$/, "") : null;
 };
 
-/** kiotProductId -> brand line of a description.md in categories/<cat>/<id>-<slug>/. */
+const CHINESE = /tiếng Trung|nội địa Trung|Trung Quốc|[\u4e00-\u9fff]/;
+// Owner, 19/10/2026: Chinese domestic goods whose brand is too small to filter by.
+const CHINESE_GROUP = "Hàng nội địa Trung";
+/** A brand read only off photos, on fewer products than this, is not one customers know: "Khác". */
+const MIN_NEW_BRAND_PRODUCTS = 3;
+
+/** kiotProductId -> {line, chinese} of a description.md in categories/<cat>/<id>-<slug>/. */
 async function localBrandLines(dir) {
   const out = new Map();
   if (!existsSync(dir)) return out;
@@ -163,8 +169,8 @@ async function localBrandLines(dir) {
       const id = prod.isDirectory() ? prod.name.match(/^(\d+)-/)?.[1] : undefined;
       const file = id && join(dir, cat.name, prod.name, "description.md");
       if (!file || !existsSync(file)) continue;
-      const line = brandLineOf(await readFile(file, "utf8"));
-      if (line) out.set(id, line);
+      const text = await readFile(file, "utf8");
+      out.set(id, { line: brandLineOf(text), chinese: CHINESE.test(text) });
     }
   }
   return out;
@@ -186,7 +192,8 @@ for (const p of snapshot.products) {
   const current = p.brand?.name ?? "";
   // What KiotViet shows wins; a description written here but not applied yet
   // is the fallback.
-  const pendingLine = p.brandLine ? null : pending.get(String(p.id));
+  const pendingLine = p.brandLine ? null : (pending.get(String(p.id))?.line ?? null);
+  const chinese = p.chineseHint === true || pending.get(String(p.id))?.chinese === true;
   const line = p.brandLine ?? pendingLine ?? "";
   // "Celano (KIDO Foods)": what is in brackets is usually the company or an
   // alternative spelling, so it only counts when the rest names nothing.
@@ -243,7 +250,10 @@ for (const p of snapshot.products) {
     } else {
       const known = resolve(read.brand, { allowDescOnly: true });
       proposed = known.brands[0] ?? known.companies[0] ?? read.brand;
-      if (!known.brands.length && !known.companies.length) notes.push("nhãn mới, chưa có trong bảng chuẩn");
+      if (!known.brands.length && !known.companies.length) {
+        if (/[\u4e00-\u9fff]/.test(read.brand)) proposed = CHINESE_GROUP;
+        notes.push(`nhãn mới, chưa có trong bảng chuẩn: ${read.brand}`);
+      }
       const clash = other(fromName.brands, proposed);
       if (clash.length) {
         confidence = "HOI";
@@ -268,6 +278,10 @@ for (const p of snapshot.products) {
       proposed = company;
       confidence = "KIEM";
       basis = "chỉ biết công ty";
+    } else if (chinese) {
+      proposed = CHINESE_GROUP;
+      confidence = "KIEM";
+      basis = "mô tả: hàng Trung Quốc, không thấy nhãn";
     } else {
       confidence = "XEM_ANH";
       basis = line ? "mô tả có dòng TH nhưng không khớp bảng chuẩn" : "không có căn cứ";
@@ -310,6 +324,23 @@ for (const r of firstPass) {
     lineCounts.set(e.n, (lineCounts.get(e.n) ?? 0) + 1);
 }
 const rows = propose();
+
+// Last, the owner's groupings: small Chinese brands -> CHINESE_GROUP, little-known
+// ones -> "" (empty; the web shows "Khác"). After the line counts, so a grouped
+// brand still counts towards its parent.
+const newBrandCounts = new Map();
+for (const r of rows) if (r.proposed && !byName.has(r.proposed)) newBrandCounts.set(r.proposed, (newBrandCounts.get(r.proposed) ?? 0) + 1);
+for (const r of rows) {
+  const e = byName.get(r.proposed);
+  let to = r.proposed;
+  if (e?.g !== undefined) to = e.g;
+  else if (!e && r.proposed && newBrandCounts.get(r.proposed) < MIN_NEW_BRAND_PRODUCTS) to = "";
+  if (to === r.proposed) continue;
+  r.note = [r.note, `${r.proposed} → ${to || "Khác (để trống)"}: ${to ? "nhãn Trung nhỏ" : "nhãn không nổi tiếng"}`].filter(Boolean).join("; ");
+  r.proposed = to;
+  if (to === "" && r.confidence === "CHAC") r.confidence = "TRONG";
+  r.change = r.proposed === r.current ? "giữ" : !r.current ? "thêm" : !r.proposed ? "—" : "đổi";
+}
 
 rows.sort(
   (a, b) =>

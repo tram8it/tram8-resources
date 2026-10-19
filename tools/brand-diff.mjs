@@ -88,8 +88,8 @@ const pBefore = new Map(before.products.map((p) => [String(p.id), p]));
 const pAfter = new Map(after.products.map((p) => [String(p.id), p]));
 const label = (p) => `${p.code} ${show(p.name)} (#${p.id})`;
 const brandName = (p) => p.brand?.name ?? "";
-// brandLine is read out of the description, which descriptionSha already covers.
-const IGNORED = new Set(["brand", "modifiedAt", "brandLine"]);
+// brandLine and chineseHint are read out of the description, which descriptionSha already covers.
+const IGNORED = new Set(["brand", "modifiedAt", "brandLine", "chineseHint"]);
 
 for (const [id, p] of pBefore) if (!pAfter.has(id)) alarm("SP_BIEN_MAT", label(p));
 for (const [id, p] of pAfter) if (!pBefore.has(id)) notes.push(`- SP mới tạo giữa hai lần chụp: ${label(p)} — TH ${show(brandName(p))}`);
