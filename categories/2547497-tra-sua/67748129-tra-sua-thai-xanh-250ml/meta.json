@@ -20,14 +20,14 @@
   "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "chủ 19/10: theo ảnh thật (2 lớp kem, chai trơn, gói phẳng) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: vẽ lại sạch theo ảnh thật; chữ nhỏ để mờ",
+    "reason": "chủ 19/10: cho khớp chai Thái đỏ → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: vẽ lại sạch theo ảnh thật; cỡ chai/tem theo Thái đỏ",
     "source": {
       "aiGenerated": true,
       "tool": "Gemini API",
       "model": "gemini-nano-banana-2.1",
       "generatedAt": "2026-10-19",
       "style": "flat clean packaging render (v17)",
-      "reference": "ảnh KiotViet chủ chụp chai/gói thật"
+      "reference": "ảnh KiotViet chai thật + ảnh Thái đỏ cùng dòng (khuôn chai, cỡ tem)"
     },
     "rubricVersion": "v18"
   },
@@ -80,10 +80,22 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T02:55:35Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "redo after Hub rejection: Cái chai nó trơn như các chai trà sữa khác — Gemini API redraw (attempt 3, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-19T02:55:36.196Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-19T02:46:38.042Z",
+    "at": "2026-10-19T02:55:36.196Z",
     "fields": [
       "description",
       "image"
