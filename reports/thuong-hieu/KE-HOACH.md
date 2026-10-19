@@ -1,0 +1,185 @@
+# Kế hoạch chuẩn hoá thương hiệu trên KiotViet (19/10/2026)
+
+Mục tiêu: mỗi sản phẩm trên KiotViet có **đúng một thương hiệu, viết đúng một kiểu**; danh sách
+thương hiệu không còn trùng, gõ sai, tên công ty, tên nhà phân phối hay tên loại hàng.
+Sửa **trực tiếp trên production** bằng Claude in Chrome → kế hoạch này ưu tiên **không sai** hơn nhanh.
+
+> Vì sao phải sửa trên web: API công khai KiotViet **không ghi được thương hiệu** (thử 13–14/10:
+> gửi `tradeMarkId`/`tradeMarkName` → trả 200 nhưng bỏ qua — tram8-hub `docs/25`). Đọc thì được.
+
+---
+
+## 1. Hiện trạng (đo thật 19/10/2026, chỉ đọc qua Hub `GET /api/v1/forward/...`)
+
+| | Số |
+|---|---|
+| Thương hiệu trên KiotViet | **244** |
+| — không còn SP nào | **64** (26%) |
+| SP gốc (không tính đơn vị lốc/thùng) | 2.700 (2.488 đang bán · 212 ngừng) |
+| — **chưa có thương hiệu** | **1.388** (1.244 đang bán) |
+| Đơn vị quy đổi (lốc/thùng) | 1.265 — **luôn cùng thương hiệu với SP gốc** (0 lệch) |
+| SP có dòng "Thương hiệu:/Nhà sản xuất:" trong mô tả (AI viết từ bao bì/trang hãng) | 2.084 |
+
+Các kiểu lỗi (bảng đầy đủ: [`hien-trang-244-thuong-hieu.csv`](hien-trang-244-thuong-hieu.csv)):
+
+| Kiểu | Ví dụ thật | SP bị ảnh hưởng |
+|---|---|---|
+| **Tên công ty thay vì nhãn hàng** | ACECOOK (Hảo Hảo), Pepsico (Pepsi, Poca, Lay's…), Procter & Gamble (Pantene, Rejoice…), Masan Consumer / Masan jinju (Omachi, Kokomi…), KINH DO (Oreo, Cadbury, Toblerone), Nước giải khát Sài Gòn, HABECO, KIDO, Nestle, MAYORA, THO Group, Vinataba | ~280 |
+| **Không phải thương hiệu** | Halal (chứng nhận), Vodka / Whisky / Tennessee Whiskey (loại rượu), Firm Filter Smooth Taste (khẩu hiệu bao thuốc), Khác, IPHONE, Oat milk, JELLY | ~30 |
+| **Gõ sai / trùng** | Lottte (51 SP) ↔ Lotte (4) · X men ↔ X-Men · koko ya ↔ KoKoYa · Coolgate ↔ Colgate · Chuppa Chuđ · DAINISA · Hạ Long Saphhire · HURA (Huda) · Slice (SP ghi SLIDE) · Hershey’s (nháy cong) | ~90 |
+| **Hai tên cho một nhãn** | DP Hoa Linh ↔ Dạ Hương · Công nghệ thực phẩm Châu Á ↔ Cung Đình · ACECOOK ↔ Hảo Hảo · Masan jinju ↔ Kokomi · Firm Filter ↔ Marlboro · RJC ↔ Procter & Gamble (Rejoice) · Navi ↔ Navi Tongue Cleaner | — |
+| **SP gắn nhầm nhãn** | Alpenliebe dưới Chupa Chups · Snickers dưới Skittles · Doritos dưới Lotte · KitKat dưới Lottte · Strongbow dưới Heineken · Monster/Schweppes dưới Cocacola · Merino ↔ Celano lẫn nhau · Paldo/Nongshim dưới KORENO · Glamiss dưới Doctor Care | chưa đếm hết |
+| **Chữ hoa/thường lộn xộn** | NIVEA, omachi, chinsu, ponnie, ĐÀ LẠT MILK, ĂN CÙNG BÀ TUYẾT | — |
+
+Bảng nháp gợi ý: GIỮ 113 · XOÁ (0 SP) 63 · TÁCH (tên công ty/không phải TH) 27 · ĐỔI TÊN 19 ·
+SỬA LẺ 10 · GỘP 5 · HỎI 7 — **20 dòng cần chủ quyết**. Đây là nháp từ tên SP, **chưa xem bao bì**;
+bước 3 mới chốt.
+
+---
+
+## 2. Chủ cần quyết trước (chặn mọi bước sau)
+
+1. **Thương hiệu là gì?** Đề xuất: **nhãn hàng in nổi trên bao bì, tên khách gọi khi mua**
+   (Hảo Hảo, Omachi, Oreo, Poca, Pantene) — **không** phải công ty (Acecook, Masan, PepsiCo, P&G),
+   **không** nhà phân phối, **không** chứng nhận, **không** loại hàng.
+   Tiền lệ của chủ: mì gói 13/10 đã chọn "Hảo Hảo" thay "ACECOOK", "Omachi" thay "Masan Consumer".
+   Cấp: **nhãn chính, không xuống dòng con** — Colgate (không "Colgate SlimSoft"), Samyang (không "Buldak"),
+   Lay's (không "Lay's Stax"). *Trường hợp lưng chừng chủ chọn 1 lần:* Orion / Lotte / Oishi / Want Want
+   (logo công ty in trên mọi gói) → đề xuất **giữ tên công ty** vì đó chính là nhãn khách thấy.
+2. **Cách viết:** theo logo/trang chính hãng, nhưng **không viết HOA toàn bộ** trừ khi là chữ viết tắt
+   (TH, P/S, KIDO). Giữ dấu tiếng Việt (Đà Lạt Milk, Ăn Cùng Bà Tuyết). Nháy thẳng `'` (Lay's, Hershey's).
+   Không thêm hậu tố công ty ("Food", "Group", "Việt Nam").
+3. **Hàng không có nhãn** (trái cây cắt, đồ ăn tươi, cơm nắm, pizza nhà làm, đồ dùng chung):
+   để **trống**, hay một nhãn chung kiểu "Trạm 8"? (Onigiri, FRESH 2GO, Pizza 4Ps, ATABLE đang lơ lửng.)
+4. **SP ngừng kinh doanh (212):** đề xuất **làm luôn** (sau cùng, ưu tiên thấp) để khi xoá thương hiệu
+   không bị vướng; hoặc bỏ qua.
+5. **Xoá 64 thương hiệu rỗng:** đề xuất **có**, nhưng làm **cuối cùng**, sau khi đối chiếu lại = 0 SP.
+6. **Nhà sản xuất** có cần lưu không? KiotViet chỉ có một ô. Đề xuất lưu bảng *nhãn → công ty* trong repo
+   (`data/brand-canon.json`) để Hub dùng cho nhà cung cấp/đầu mối (docs/18 của Hub), không nhét vào KiotViet.
+
+---
+
+## 3. Các bước (làm đúng thứ tự, mỗi bước có cổng kiểm)
+
+### Bước 0 — Chuẩn bị công cụ (repo, không đụng production)
+- `tools/brand-snapshot.mjs`: đọc **toàn bộ** SP + thương hiệu qua Hub (chỉ GET), ghi
+  `snapshots/<giờ>.json` gồm id, mã, tên, đang bán, đơn vị gốc, `tradeMarkId/Name`, nhóm hàng,
+  VAT, giá trước/sau thuế, mô tả, ảnh. **Đây là bản để hoàn tác.**
+- `tools/brand-diff.mjs <trước> <sau> <kế-hoạch>`: báo (a) SP đã đúng đích, (b) SP chưa đúng,
+  (c) **mọi trường khác đã đổi** (VAT, giá, tên, nhóm, mô tả, ảnh) — cái này bắt sự cố kiểu 17/10.
+- `tools/brand-plan.mjs`: từ `data/brand-canon.json` + quyết định từng SP → sinh danh sách thao tác
+  và prompt Chrome theo lô; tự kiểm: mọi đích thuộc danh sách chuẩn, không SP nào trỏ tới TH sắp xoá,
+  không lô nào trộn 2 kiểu thao tác.
+
+### Bước 1 — Trinh sát KiotViet web (Chrome, **chỉ xem, không bấm Lưu**)
+Những điều **chưa biết chắc**, phải nhìn tận mắt trước khi soạn prompt:
+1. Quản lý thương hiệu nằm ở đâu (thường trong ô chọn "Thương hiệu" của form hàng hoá): có **đổi tên**,
+   **xoá** được không; xoá TH đang có SP thì SP ra sao (mất TH? bị chặn?).
+2. Danh sách hàng hoá có **thao tác hàng loạt** gán thương hiệu không (tích nhiều SP → …).
+3. **Nhập file Excel** "cập nhật hàng hoá" có cột Thương hiệu không; file có buộc kèm giá/tồn/VAT không
+   (nguy cơ ghi đè). Nếu có cách an toàn thì nhanh hơn rất nhiều so với sửa tay ~1.900 SP.
+4. Ô chọn thương hiệu tìm kiếm thế nào: gõ "Lotte" có ra cả "Lottte" không → prompt phải chọn **khớp đúng chuỗi**.
+5. SP nhiều đơn vị: sửa SP gốc thì lốc/thùng có theo không (dữ liệu nói có — xác nhận).
+6. Form Sửa có hiện **tên hoá đơn điện tử**, VAT bán/nhập — để ghi lại trước/sau.
+
+Kết quả ghi `reports/thuong-hieu/trinh-sat.md` (kèm ảnh chụp màn hình). **Cổng:** chủ đọc, chọn cách làm
+(sửa từng SP / hàng loạt / Excel).
+
+### Bước 2 — Thử 1 SP thật (chủ ngồi cạnh)
+Chọn 1 SP ít bán (VAT 10%, có lốc/thùng, có mô tả + ảnh). Chụp snapshot → đổi **chỉ** thương hiệu trên web
+→ snapshot → `brand-diff`. **Cổng:** chỉ `tradeMark*` đổi; VAT, giá sau thuế, tên, tên HĐĐT, nhóm, ảnh,
+mô tả **y nguyên**; đơn vị lốc/thùng theo đúng. Có gì khác → dừng, không làm tiếp.
+Nếu Bước 1 chọn Excel: thử file **1 dòng** theo đúng cách này trước khi nhập nhiều.
+
+### Bước 3 — Chốt dữ liệu (repo)
+1. `data/brand-canon.json`: danh sách tên chuẩn (tên đúng chuỗi, bí danh để dò, công ty, `tradeMarkId`
+   giữ lại). Chủ duyệt.
+2. Quyết định **từng SP** (2.700 dòng): TH hiện tại → TH đích, căn cứ (dòng "Thương hiệu:" trong mô tả,
+   chữ trên ảnh bao bì, tên SP), độ chắc. Theo luật repo: SP nào **không chắc** → hỏi chủ, không đoán;
+   SP lẫn nhãn (vd. Lottte có KitKat) phải **xem ảnh**.
+3. Trang duyệt HTML theo từng TH đích (ảnh + tên + TH cũ → mới), như các trang `review/` đang dùng.
+   **Cổng:** chủ duyệt xong từng nhóm.
+
+### Bước 4 — Thực hiện trên Chrome, theo thứ tự này
+Thứ tự để **không bao giờ** có lúc hai thương hiệu cùng tên, và đổi tên một lần sửa được nhiều SP:
+
+| # | Thao tác | Vì sao trước/sau |
+|---|---|---|
+| 4.1 | **Tạo** thương hiệu chuẩn còn thiếu (Pantene, Poca, Strongbow, Oreo…) | chỉ thêm, vô hại; các bước sau cần có đích |
+| 4.2 | **Chuyển SP gắn nhầm** ra khỏi các TH sắp đổi tên/gộp (KitKat khỏi Lottte, Alpenliebe khỏi Chupa Chuđ…) | đổi tên TH sẽ kéo theo mọi SP còn lại — phải sạch trước |
+| 4.3 | **Gộp**: chuyển SP của TH bị bỏ sang TH giữ lại (X men → X-Men; Lotte 4 SP → Lottte 51 SP; Dạ Hương 1 SP → DP Hoa Linh 5 SP) | chọn TH **nhiều SP hơn** làm TH giữ lại → ít thao tác nhất |
+| 4.4 | **Đổi tên** TH giữ lại về tên chuẩn (Lottte → Lotte, DP Hoa Linh → Dạ Hương, DAINISA → Danisa, Bibi go → bibigo…) | sau 4.3 tên chuẩn mới không còn bị trùng |
+| 4.5 | **Tách** TH tên công ty / không phải TH: gán từng SP về nhãn đúng (ACECOOK, Pepsico, Halal…) | nhiều SP nhất; chia lô theo TH đích |
+| 4.6 | **Gán** TH cho SP đang trống (1.244 đang bán, rồi 144 ngừng bán) | chỉ thêm, không làm sai SP đã đúng |
+| 4.7 | **Xoá** TH rỗng | **cuối cùng** — chỉ xoá TH mà snapshot mới nhất = 0 SP (kể cả ngừng bán) |
+
+**Mỗi lô** (≤ 25 SP, cùng một TH đích, cùng một kiểu thao tác):
+1. Chụp snapshot ngay trước lô. `brand-plan` lọc lại: bỏ SP **đã đúng** (chạy lại an toàn), báo SP
+   mà TH hiện tại **khác** TH lúc lập kế hoạch (có người sửa giữa chừng) → không đưa vào lô.
+2. Prompt Chrome (khuôn ở §4) chứa đúng danh sách: mã hàng · tên · TH hiện tại · TH đích.
+3. Snapshot sau lô → `brand-diff`. **Cổng:** 100% SP đúng đích **và** 0 trường khác bị đổi.
+   Sai một SP → dừng, sửa cho đúng trước lô sau. Trường khác bị đổi → dừng hẳn, báo chủ.
+4. Ghi kết quả lô vào `reports/thuong-hieu/nhat-ky.md` (giờ, lô, số OK/bỏ qua, file snapshot).
+
+Ước lượng: sửa tay ~1.900 lượt × ~1 phút ≈ 30+ giờ Chrome → nếu Bước 1–2 cho thấy đổi tên/gộp/Excel
+an toàn thì phần lớn SP đi đường đó; sửa tay chỉ cho SP lẻ.
+
+### Bước 5 — Sau khi xong
+- Snapshot cuối, so với snapshot đầu: báo cáo số SP đổi, 0 trường khác bị đổi, số TH còn lại.
+- Hub tự quét lại toàn bộ SP (`syncStock` là full sweep) → `brand_name` mới lên Hub/web catalog.
+  Kiểm vài SP trên Hub.
+- Cập nhật `data/brands.json` (bí danh) cho khớp tên chuẩn; báo Hub cập nhật ô "nhãn phụ trách" của
+  đầu mối nhà cung cấp nếu đang ghi tên cũ (vd. "Lottte").
+- Quy ước cho nhân viên khi tạo SP mới: **chỉ chọn TH có sẵn**, không gõ mới; muốn thêm → báo chủ.
+  (Việc riêng cho Hub sau: báo cáo tuần "SP mới chưa có TH / TH mới xuất hiện".)
+
+---
+
+## 4. Khuôn prompt cho Claude in Chrome (mỗi lô)
+
+Theo mẫu đã dùng cho VAT 17/10 (`reports/prompt-sua-vat-kiotviet.md`):
+
+> Bạn đang điều khiển Chrome của tôi (đã đăng nhập KiotViet Trạm 8). Việc: **đổi thương hiệu của N SP
+> sang "<TÊN ĐÍCH>"**. KHÔNG sửa bất cứ thứ gì khác.
+>
+> Cho TỪNG SP, lần lượt:
+> 1. Hàng hoá → Danh sách hàng hoá → ô tìm: gõ đúng **mã hàng**, Enter. Phải ra **đúng 1 dòng**, tên khớp danh sách.
+> 2. Mở → Cập nhật. Ghi lại: thương hiệu, VAT bán, VAT nhập, giá sau thuế, tên HĐĐT.
+> 3. Thương hiệu hiện tại phải **đúng** "<TH hiện tại>" trong danh sách.
+> 4. Ô Thương hiệu: chọn mục có tên **đúng từng ký tự** "<TÊN ĐÍCH>" (không chọn mục gần giống).
+> 5. Không chạm: tên hàng, tên HĐĐT, mã, mã vạch, giá, VAT, nhóm, đơn vị, ảnh, mô tả, tồn.
+> 6. Lưu. Mở lại SP: thương hiệu đúng đích; VAT, giá sau thuế, tên HĐĐT y như bước 2.
+>
+> **Dừng và hỏi tôi nếu:** không tìm thấy / ra hơn 1 SP; TH hiện tại khác danh sách; ô chọn không có
+> đúng "<TÊN ĐÍCH>" hoặc có 2 mục giống nhau; KiotViet báo lỗi; bất kỳ trường nào ở bước 6 khác bước 2;
+> KiotViet hiện hộp thoại hỏi áp dụng cho đơn vị khác / cập nhật giá.
+> Không tạo, đổi tên hay xoá thương hiệu trong lô này.
+>
+> Cuối cùng trả bảng: STT · Mã · Tên · TH trước → sau · VAT/giá/tên HĐĐT có đổi không · Kết quả.
+
+Lô **đổi tên / xoá thương hiệu** (4.4, 4.7) dùng prompt riêng, mỗi lần **1 thương hiệu**, kèm số SP kỳ vọng
+đang dùng nó — lệch số → dừng.
+
+---
+
+## 5. Rủi ro và cách chặn
+
+| Rủi ro | Chặn bằng |
+|---|---|
+| KiotViet tự đổi trường khác khi Lưu (như VAT 8% hôm 17/10 qua API) | Bước 2 thử 1 SP; mọi lô có `brand-diff` so mọi trường; Chrome ghi trước/sau VAT, giá, tên HĐĐT (API không đọc được tên HĐĐT) |
+| Chọn nhầm mục gần giống trong ô thương hiệu (Lotte/Lottte, X men/X-Men) | gộp + đổi tên **trước** khi gán hàng loạt (4.3–4.4) → lúc gán đã hết tên gần giống; prompt bắt khớp đúng chuỗi |
+| Sửa nhầm SP (mã trùng — xem `reports/ma-trung-de-tat.md`) | tìm theo mã, phải đúng 1 dòng và đúng tên, không thì dừng |
+| Đổi tên TH kéo theo SP chưa sạch | 4.2 trước 4.4; prompt đổi tên kèm số SP kỳ vọng |
+| Xoá TH còn SP (kể cả ngừng bán) | xoá cuối, chỉ theo snapshot mới nhất = 0 SP |
+| Nhân viên sửa SP cùng lúc | snapshot ngay trước lô; SP lệch so với kế hoạch bị loại khỏi lô; nên chạy ngoài giờ cao điểm |
+| Sai rồi muốn quay lại | snapshot có `tradeMarkId` cũ của mọi SP → sinh prompt đảo ngược; đổi tên đảo được; xoá TH là thứ duy nhất khó đảo → để cuối |
+| Đoán sai thương hiệu | luật repo: không chắc → hỏi chủ; SP lẫn nhãn phải xem ảnh |
+
+---
+
+## 6. Việc tiếp theo
+
+1. Chủ trả lời 6 câu ở §2 và đánh dấu 20 dòng "Chủ cần quyết" trong
+   [`hien-trang-244-thuong-hieu.csv`](hien-trang-244-thuong-hieu.csv).
+2. Viết 3 công cụ ở Bước 0.
+3. Chạy Bước 1 (trinh sát, chỉ xem) trên Chrome.
