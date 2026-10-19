@@ -1,0 +1,96 @@
+# Đề xuất thương hiệu từng SP — tóm tắt
+
+Sinh bởi `tools/brand-propose.mjs` từ bản chụp 2026-10-19T03:13:39.599Z. **Chỉ là đề xuất** — chưa ghi gì lên KiotViet.
+Bảng đầy đủ: [`de-xuat-tung-sp.csv`](de-xuat-tung-sp.csv).
+
+| | SP gốc |
+|---|---|
+| Tổng | 2700 |
+| Độ chắc `CHAC` | 2270 |
+| Độ chắc `KIEM` | 212 |
+| Độ chắc `XEM_ANH` | 119 |
+| Độ chắc `GIU_CHUA_KIEM` | 74 |
+| Độ chắc `TRONG` | 17 |
+| Độ chắc `HOI` | 8 |
+| Thay đổi: thêm | 1253 |
+| Thay đổi: đổi | 861 |
+| Thay đổi: giữ | 585 |
+| Thay đổi: — | 1 |
+
+Độ chắc: `CHAC` = dòng thương hiệu trong mô tả (viết từ bao bì/trang hãng) và tên SP không mâu thuẫn ·
+`KIEM` = chỉ từ tên SP, chỉ biết công ty, hoặc nhãn đọc từ ảnh chưa chắc/chưa có trong bảng chuẩn ·
+`HOI` = các nguồn mâu thuẫn · `GIU_CHUA_KIEM` = chỉ có thương hiệu KiotViet đang gắn ·
+`TRONG` = đã xem ảnh, bao bì không có nhãn → để trống · `XEM_ANH` = không có căn cứ, phải xem ảnh.
+
+## Thương hiệu KiotViet nên đổi tên (mọi SP của nó cùng về một tên chuẩn)
+
+| tradeMarkId | Hiện tại | Tên chuẩn | SP |
+|---|---|---|---|
+| 729003 | AJINOMOTO | Birdy | 2 |
+| 747556 | ALUCOS | Alucos | 1 |
+| 728994 | ĂN CÙNG BÀ TUYẾT | Ăn Cùng Bà Tuyết | 20 |
+| 728964 | ánh dương | Ánh Dương | 2 |
+| 747488 | APIA CAKE | Apia Cake | 1 |
+| 738520 | ATABLE | À Table | 17 |
+| 729048 | Bibi go | Bibigo | 4 |
+| 747638 | biswel | Biswell | 1 |
+| 729082 | chinsu | Chin-Su | 3 |
+| 728968 | CHIP CHIP | Chip Chip | 2 |
+| 729076 | CLOSEUP | Closeup | 2 |
+| 745996 | CoBi Bread | Cobi Bread | 23 |
+| 729099 | Coke | Fanta | 1 |
+| 746247 | ĐÀ LẠT MILK | Đà Lạt Milk | 10 |
+| 728952 | DAINISA | Danisa | 5 |
+| 729027 | DAIRY MILK | Cadbury | 1 |
+| 728990 | DARS MORINAGA | Morinaga | 1 |
+| 728960 | DOVE | Dove | 3 |
+| 728984 | DUREX | Durex | 16 |
+| 731896 | Feastable | Feastables | 14 |
+| 729087 | GARUDA FOOD | Gery | 1 |
+| 729028 | GUMI | Gumi | 7 |
+| 732652 | Hạ Long Saphhire | Bia Hạ Long | 3 |
+| 729031 | HAI HA | Hải Hà | 1 |
+| 738547 | Happy-tos | Happy Tos | 3 |
+| 728959 | HAZELINE | Hazeline | 2 |
+| 736779 | Hershey’s | Hershey's | 3 |
+| 729062 | HEY YO | Hey Yo | 2 |
+| 729024 | Hisamitsu | Salonpas | 1 |
+| 748928 | HoCoTeck | Hoco | 8 |
+| 728977 | HURA | Huda | 1 |
+| 747466 | Jagermeister | Jägermeister | 2 |
+| 747420 | Kronenbourg 1664 | 1664 | 1 |
+| 729013 | LACTACYD | Lactacyd | 3 |
+| 747555 | LASVON | Lasvon | 2 |
+| 729021 | Lays | Lay's | 3 |
+| 729047 | Lc Food | LC Foods | 3 |
+| 728958 | LIFEBUOY | Lifebuoy | 5 |
+| 736982 | Mèo Foods | Mèo Food | 1 |
+| 728995 | MEoW | Meo Meo | 1 |
+| 729026 | MiDas | Midas | 7 |
+| 728988 | NABATI | Nabati | 23 |
+| 728992 | Nghĩa | Kềm Nghĩa | 14 |
+| 728979 | OKF | Vtalk | 2 |
+| 735143 | Onigiri | Onigiri Việt | 4 |
+| 728999 | OREO | Oreo | 18 |
+| 728989 | OREON | Orion | 10 |
+| 728961 | ORION | Orion | 16 |
+| 729012 | OVALTINE | Ovaltine | 7 |
+| 728966 | PHƯƠNG HUYỀN FOOD | Phương Huyền | 29 |
+| 729004 | Pizza 4Ps | Pizza 4P's | 8 |
+| 747537 | Purité De Prôvence | Purité de Provence | 1 |
+| 728967 | QUANG THANH FOODS | Quang Thanh | 7 |
+| 729089 | RJC | Rejoice | 1 |
+| 728963 | ROHTO | Sunplay | 1 |
+| 747469 | SAL SUN | Sal Cocktail | 6 |
+| 729016 | Sao Thái Dương | Thái Dương | 3 |
+| 747455 | Sato Grona | Château Grona | 1 |
+| 736854 | SEOJU FOODS | Seoju | 2 |
+| 732593 | Slice | Slide | 9 |
+| 729086 | star food | Star Food | 3 |
+| 747461 | Tennessee Whiskey | Jack Daniel's | 1 |
+| 747406 | Tiger Beer | Tiger | 2 |
+| 728981 | TRƯỜNG FOOD | Trường Foods | 9 |
+
+## Thương hiệu chuẩn chưa có trên KiotViet (cần tạo) — 327
+
+Nivea (78) · Celano (32) · Nongshim (26) · Omachi (21) · Bento (19) · Ponnie (18) · Heo Cao Bồi (16) · Dorkbua (15) · Miss Bánh Tráng (15) · Tong Garden (15) · Milo (14) · Kaz (13) · Kido (13) · Pororo (13) · G Kitchen (12) · Häagen-Dazs (12) · Koreno (12) · Pepsi (12) · Play Candy (12) · Tao Kae Noi (12) · Hải Đăng Đỏ (11) · KitKat (11) · Lucas (11) · Pringles (11) · Q·B·B (10) · Alpenliebe (9) · Glico (9) · Jinmofang (9) · Meiji (9) · Mix (9) · Baseus (8) · Fresh 2Go (8) · Gillette (8) · Lạc Lạc Tea (8) · Lâm Vũ (8) · Ohayo (8) · Tea365 (8) · Trân Châu Hạ Long (8) · Balance Grow (7) · Bia Hà Nội (7) · M&M's (7) · Red Bull (7) · Ricola (7) · Tic Tac (7) · An Nam (6) · Bia Saigon (6) · Chupa Chups (6) · Clever Mama (6) · Energy Dice (6) · MaMaPop (6) · Mentos (6) · Posi (6) · Qiao Da Niang (6) · Sachi (6) · Siukay (6) · Star Kombucha (6) · Tea+ (6) · Weibao (6) · Meco (6) · Baskin Robbins (5) · Boncha (5) · Coca-Cola (5) · Fansipan (5) · Indomie (5) · Kocori (5) · Kracie (5) · LexJazz (5) · Life's Food (5) · Loacker (5) · Mitu (5) · Monster Energy (5) · NFC (5) · O'food (5) · Playmore (5) · Poca (5) · Ritter Sport (5) · Snack House (5) · ToTo Food (5) · Việt Ngũ Cốc (5) · Xinhuyuan (5) · Absolut (4) · Bibica (4) · Cela (4) · Chobani (4) · Cool Air (4) · Demisoda (4) · Dosi (4) · Fox's (4) · GoodPokki (4) · Hesan (4) · Hubba Bubba (4) · IAMG (4) · Jary (4) · Kam Yuens (4) · Merci (4) · Modern (4) · Number 1 (4) · Phú Hương (4) · Saigon (4) · Snickers (4) · Starbucks (4) · Sting (4) · Thái Sơn (4) · Thu Ba (4) · Yinchengxiangwei (4) · Vinfoods (4) · Abben (3) · Amsterdam (3) · Aquafina (3) · Belik (3) · Cheer Talk (3) · Cosy (3) · Crown (3) · Dominatte (3) · Đại Sâm Lâm (3) · Goblim (3) · Hainada (3) · Head & Shoulders (3) · Hongbaolai (3) · I'Mint (3) · Joyday (3) · Kinh Đô (3) · Kopiko (3) · Love Minimart (3) · Maxim T.O.P (3) · Maxs (3) · Minute Maid (3) · Nutriboost (3) · Onenuts Naturals (3) · Orchid (3) · Paldo (3) · Picnic (3) · Rich Cocoa (3) · Riesen (3) · Siume (3) · Strongbow (3) · Tatawa (3) · Tos Tos (3) · Vissan (3) · Werther's Original (3) · Wolfoo (3) · Woongjin (3) · Yakult (3) · Zala (3) · Heytea (喜茶) (3) · 333 (2) · AFC (2) · Alaco (2) · Alënka (2) · Aoxue (2) · Bidoushi (比逗仕) (2) · Blendy (2) · Bon Gojang (2) · Boss (2) · Bugles (2) · Café Phố (2) · CC (2) · Cengreat (2) · Cheetos (2) · Crazy Scientist (2) · CukTech (2) · Darlie (2) · Dasani (2) · Doritos (2) · Dunkin (2) · Đệ Nhất (2) · Eichbaum (2) · Ennjoi (2) · Eudora (2) · Fres (2) · Funday (2) · Gemez Enaak (2) · Ginnie (2) · Gumi Gumi (2) · Habaria (2) · Haoweiwu (2) · Haribo (2) · Homesoy (2) · JDB (2) · Jelly Belly (2) · Jinmailang (2) · Junzai (君仔) (2) · Kalanxi (2) · Komi (2) · Kuaile Jingu (2) · Lemon Pizza (2) · Lifesnest (2) · Luosiking (2) · Master Kong (2) · Meidan (美丹) (2) · Mirinda (2) · Miss Happyness (2) · Miyaki (2) · Nguyễn Khang (2) · Nobel (2) · Oatside (2) · Oh Teen (2) · Old Spice (2) · Pepperidge Farm (2) · Pipper (2) · Pippi (2) · Pocari Sweat (2) · Quang Hanh (2) · Reecen (2) · Reihaku Hatomugi (2) · Revive (2) · Ribon (2) · Rockstar (2) · Samlip (2) · Steiger (2) · Sugarsky (2) · Toblerone (2) · USAMS (2) · Wake-Up 247 (2) · Wu Lao San (武老三) (2) · Wyn (2) · Xiao Xin 100 (2) · Xuan Guo Le (2) · Yomost (2) · Zhenqiao (2) · Popi (2) · Vela (2) · 7Up (1) · AODA (1) · Apostel (1) · Asahi (1) · Beluga (1) · Ben Thanh Market (1) · Bipho (1) · Bipno (1) · Bourbon (1) · Budweiser (1) · Budweiser Budvar (1) · Cal Cheese (1) · Charpi (1) · Chimay (1) · ChuChuBa (1) · Coffee Joy (1) · Corona (1) · Da Lat Plateau (1) · Dr Thanh (1) · Duvel (1) · Eight Plus (1) · Fantian (1) · Fengkuang Binggancheng (疯狂饼干城) (1) · Fruit Pops (1) · G (1) · Georgia (1) · Gia Nhất (1) · Gingerbon (1) · Glamiss (1) · Go Choco (1) · Golia (1) · Good (1) · Gu Dasao (1) · Ha Long Bay (1) · Hằng Nga (1) · Hòa Việt (1) · Hữu Nghị (1) · Ice Fruit Bear (1) · Jameson (1) · Joco (1) · Johnnie Walker (1) · Không Độ (1) · Kinder (1) · Kiss Delicias (1) · Krizzi (1) · La Chouffe (1) · Lạc Việt (1) · Lavelee (1) · Lẩu Thái (1) · Liefmans (1) · Linzhenxiang (1) · Lotus (1) · Love Mini (1) · Lucky Star (1) · Maohaizi (1) · Mataico (1) · Michelob Ultra (1) · Mogu Mogu (1) · Nhớ Mãi Mãi (1) · Oki (1) · Ominsu (1) · Qiaodouma (俏逗妈) (1) · Quảng Tâm (1) · RE:CIPE (1) · Reeper B (1) · Ritz (1) · Roma (1) · Roni (1) · Sable (1) · Sapporo (1) · Schweppes (1) · SFC Bio (1) · Shuangzai (双仔) (1) · Smirnoff (1) · Sprite (1) · Superstar (1) · Talaethong (1) · Tamarin (1) · Thống Nhất (1) · Tianfeng (1) · Tipo (1) · Toffifee (1) · Trúc Bạch (1) · UKF (1) · Vedett (1) · Vietsun (1) · Wafello (1) · Wang Lao Ji (1) · Yun Xiang Ge (1) · Zhongli (中栗) (1) · Zuchi (1) · 俏逗妞 (Qiaodouniu) (1) · 優之唯品 (Youzhi Weipin) (1) · 双洲 (Shuangzhou) (1) · 君仔 (Junzai) (1) · 植光 (Zhiguang) (1) · 疯狂饼干城 (Fengkuang Binggan Cheng) (1) · Aloha (1) · Dabaijin (1) · Fasty (1) · Mỹ Na (1) · Pizza Cake (1) · So Gook (1) · Tyti (1) · 광천별식품 (Gwangcheon Byeol Sikpum) (1)

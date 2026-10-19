@@ -186,7 +186,14 @@ Lô **đổi tên / xoá thương hiệu** (4.4, 4.7) dùng prompt riêng, mỗi
 
 ## 6. Việc tiếp theo
 
-1. Chủ trả lời 6 câu ở §2 và đánh dấu 20 dòng "Chủ cần quyết" trong
-   [`hien-trang-244-thuong-hieu.csv`](hien-trang-244-thuong-hieu.csv).
-2. Viết 3 công cụ ở Bước 0.
-3. Chạy Bước 1 (trinh sát, chỉ xem) trên Chrome.
+Đề xuất ngày 19/10 (bản chụp 03:13 UTC): [`de-xuat-tom-tat.md`](de-xuat-tom-tat.md) · bảng [`de-xuat-tung-sp.csv`](de-xuat-tung-sp.csv) ·
+trang duyệt `review/thuong-hieu.html`. Nhãn đọc từ ảnh cho 210 SP chưa có căn cứ: [`doc-anh.json`](doc-anh.json)
+(4 agent xem từng ảnh, không tra web; tên chỉ bằng chữ Trung/Hàn đánh dấu không chắc).
+
+1. Chủ trả lời các câu "còn mở" ở §2 (đồ uống Pepsi / Coca-Cola, Nestlé, các nhãn lơ lửng).
+2. Chủ duyệt trang `review/thuong-hieu.html`, ưu tiên nút "Chỉ SP cần xem"; sửa nào → ghi vào bảng chuẩn
+   hoặc một danh sách sửa tay, chạy lại `brand-propose`.
+3. Bước 1 (trinh sát, chỉ xem) và Bước 2 (thử 1 SP) trên Chrome.
+4. `brand-plan` từ bản chụp mới → chạy từng lô, mỗi lô qua `brand-diff`.
+5. Trong lúc chạy lô: **tạm dừng bấm "Áp dụng" ảnh/mô tả trên Hub** — mỗi lần áp dụng đổi mô tả/ảnh và có thể
+   cả VAT, `brand-diff` sẽ báo KHÔNG ĐẠT dù lô đúng.
