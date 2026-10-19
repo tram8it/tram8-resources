@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "Chủ 19/10: ảnh crop KiotViet mờ/nhăn, không đạt chuẩn như SP cùng dòng đã duyệt → Gemini vẽ lại theo phong cách SP cùng dòng (v14/v15/v17) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt chữ lớn (Alpenliebe, 2CHEW, Với Nước ép trái cây, KẸO MỀM HƯƠNG DÂU)",
@@ -74,6 +74,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T02:44:56.965Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -83,5 +89,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T02:30:43.681Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T02:30:43.681Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/a3f3a10e8c1e170dff90bdd076701b09807ae0765056e94454303873a6fb4fb0.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/27/tram8/337469e5eee4414db1ba02ee0b9622d3.png"
+        ]
+      },
+      "description": {
+        "to": "Kẹo mềm Alpenliebe 2Chew hương dâu, thỏi kẹo nhai mềm có nước ép trái cây.\n\nQuy cách: 24,5 g · thỏi\nNhà sản xuất/thương hiệu: Perfetti Van Melle · Alpenliebe",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

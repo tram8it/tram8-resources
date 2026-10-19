@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I3/I4: ảnh hiện có không đạt, không có ảnh hãng/NPP → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Vẽ lại theo chủ 19/10: cốc cao, thon, nắp phẳng, bỏng ngô chỉ tới miệng cốc như cốc thật. Chữ lớn khớp ảnh KiotViet (POPCORN, Đệ nhất bắp rang bơ, Vị Trứng muối 90g — cốc ghi 90 g, tên KiotViet 85 g, v19)",
@@ -99,6 +99,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T02:44:56.965Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -110,9 +116,20 @@
     "hubStatus": "PENDING"
   },
   "review": {
-    "status": "REJECTED",
+    "status": "APPLIED",
     "reviewedBy": "AU KHUONG DUY",
-    "reviewedAt": "2026-10-19T01:45:46.083Z",
-    "note": "Thực tế nó dài thon cao và ít bỏng hơn chút"
+    "reviewedAt": "2026-10-19T02:30:35.797Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T02:30:35.797Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "description": {
+        "to": "Bắp rang bơ (popcorn) vị trứng muối, đựng cốc nhựa cao, nắp phẳng, ăn liền, dùng ăn vặt hoặc khi xem phim.\n\nQuy cách: 90 g · cốc (theo bao bì)",
+        "from": "Bắp rang bơ (popcorn) vị trứng muối, đựng cốc nhựa nắp vòm, ăn liền, dùng ăn vặt hoặc khi xem phim.\n\nQuy cách: 90 g · cốc (theo bao bì)"
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "Chủ 19/10: ảnh crop KiotViet nhăn, có tem phụ → thay bằng ảnh chính hãng Lotte Wellfood (수박바, cùng bao bì 여름엔~ 잘익은 수박바 như ảnh KiotViet); ảnh 512px phóng 2,5 lần (v3/v4), đã bỏ vùng bóng mờ trong suốt quanh gói",
@@ -74,6 +74,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T02:44:56.965Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -83,5 +89,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T02:28:05.225Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T02:28:05.225Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/f96e5f0b6d63b4f9e7d6115a2228c85715c3632d7d5a72288ced0b48f5cb8507.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/27/tram8/24e95739ec6d4cfca2204f7b5bfeac23.png"
+        ]
+      },
+      "description": {
+        "to": "Kem que Watermelon Bar (Subak Bar) của Lotte, tạo hình miếng dưa hấu với vị dưa hấu mát lạnh.\n\nQuy cách: que\nXuất xứ: Hàn Quốc · Nhà sản xuất/thương hiệu: Lotte\nBảo quản: Giữ đông lạnh.",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

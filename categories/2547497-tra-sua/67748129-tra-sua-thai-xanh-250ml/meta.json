@@ -20,14 +20,14 @@
   "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "chủ 19/10: trà sữa Lạc Lạc vẽ lại bằng Gemini → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: nhãn chép từ ảnh thật; dáng chai và màu nước theo ảnh chụp",
+    "reason": "chủ 19/10: theo ảnh thật (2 lớp kem, chai trơn, gói phẳng) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: vẽ lại sạch theo ảnh thật; chữ nhỏ để mờ",
     "source": {
       "aiGenerated": true,
       "tool": "Gemini API",
       "model": "gemini-nano-banana-2.1",
       "generatedAt": "2026-10-19",
       "style": "flat clean packaging render (v17)",
-      "reference": "ảnh KiotViet nhãn chai + ảnh chai trên web Trạm 8"
+      "reference": "ảnh KiotViet chủ chụp chai/gói thật"
     },
     "rubricVersion": "v18"
   },
@@ -62,14 +62,38 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T02:44:56.965Z",
+      "by": "owner",
+      "status": "IN_PROGRESS",
+      "note": "rejected on Hub by AU KHUONG DUY: Cái chai nó trơn như các chai trà sữa khác"
+    },
+    {
+      "at": "2026-10-19T02:46:37Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "redo after Hub rejection: Cái chai nó trơn như các chai trà sữa khác — Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-19T02:46:38.042Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-19T02:39:38.823Z",
+    "at": "2026-10-19T02:46:38.042Z",
     "fields": [
       "description",
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "REJECTED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T02:44:20.103Z",
+    "note": "Cái chai nó trơn như các chai trà sữa khác"
   }
 }

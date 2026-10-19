@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "v13–v15 (chủ 19/10): ảnh nhân viên chụp đã tách nền vẫn kém ảnh các SP cùng dòng đã duyệt (nhăn/loá/nghiêng) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: túi vẽ phẳng, phẳng nếp; chữ nhỏ trên nhãn (thành phần, địa chỉ) không đọc được; vài vụn rong biển rời ở đáy túi",
@@ -80,6 +80,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T02:44:56.965Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -89,5 +95,28 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T02:28:40.702Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T02:28:40.702Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/0309f2ebe9c05ac2c0c89554408d4f58a2ffe253e9d7ca13fa1fd8d6f379b874.webp"
+        ],
+        "from": null
+      },
+      "description": {
+        "to": "Ngô (bắp) sấy giòn vị rong biển, ăn liền như món ăn vặt.\n\nQuy cách: 300 g · gói",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

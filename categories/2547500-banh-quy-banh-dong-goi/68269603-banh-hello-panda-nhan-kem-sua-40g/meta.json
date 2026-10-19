@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "v13–v15 (chủ 19/10): ảnh nhân viên chụp đã tách nền vẫn kém ảnh các SP cùng dòng đã duyệt (nhăn/loá/nghiêng) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: vẽ phẳng, thẳng mặt; chữ nhỏ mặt bên không đọc được",
@@ -98,6 +98,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T02:44:56.965Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -107,5 +113,28 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T02:28:36.922Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T02:28:36.922Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/47d76433f75bc7833e1df91af6b8b4d12439f1e473ee1d6f0e579d6c7f32db7b.webp"
+        ],
+        "from": null
+      },
+      "description": {
+        "to": "Bánh quy Meiji Hello Panda nhân kem sữa: bánh giòn hình gấu trúc nhỏ, bên trong có nhân kem vị sữa. Hộp nhỏ tiện mang theo.\n\nQuy cách: 40 g · hộp\nNhà sản xuất/thương hiệu: Meiji · Hello Panda",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

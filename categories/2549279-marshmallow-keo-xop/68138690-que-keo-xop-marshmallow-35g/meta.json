@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "v13–v15 (chủ 19/10): ảnh nhân viên chụp đã tách nền vẫn kém ảnh các SP cùng dòng đã duyệt (nhăn/loá/nghiêng) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: que kẹo vẽ phẳng; chữ nhỏ không đọc được",
@@ -89,6 +89,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T02:44:56.965Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -98,5 +104,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T02:29:51.689Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T02:29:51.689Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/fe3d2a4b346ba59bf7555a9f4e4ef5c8baf22f1cfa5f9f90ea1f2b1e3b3bdc1f.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/09/17/tram8/85cae63360634432a48ddcdac6a6932c.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Que kẹo xốp marshmallow Ovaltine, nhân vị sô-cô-la mạch nha (Chocolate Flavor Filling), gói riêng từng que.\n\nQuy cách: 35 g · que\nThương hiệu: Ovaltine",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

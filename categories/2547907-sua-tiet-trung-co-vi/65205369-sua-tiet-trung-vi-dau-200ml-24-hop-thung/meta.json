@@ -17,18 +17,17 @@
     "description": "Sữa tiệt trùng (UHT) vị dâu của Binggrae, dòng Strawberry Flavored Milk Drink — bản xuất khẩu của dòng sữa hũ nổi tiếng Hàn Quốc.\n\nQuy cách: 200 ml · hộp\nNhà sản xuất/thương hiệu: Binggrae (Hàn Quốc)\nBảo quản: nơi khô ráo, thoáng mát; ngon hơn khi uống lạnh.",
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "UPLOADED",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "ảnh tự chụp: hộp hơi mờ, nghiêng; ảnh hãng bing.co.kr không có hộp dâu 200ml → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ nhỏ không đọc rõ, chỉ minh hoạ",
+    "reason": "chủ 19/10: thiếu dải xéo đặc trưng Binggrae, hũ sữa khác các vị khác → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: vẽ theo khuôn hộp chính hãng của vị Melon/Banana; chữ phụ bản xuất khẩu có thể khác",
     "source": {
       "aiGenerated": true,
       "tool": "Gemini API",
       "model": "gemini-nano-banana-2.1",
-      "generatedAt": "2026-10-17",
+      "generatedAt": "2026-10-19",
       "style": "flat clean packaging render (v17)",
-      "reference": "ảnh KiotViet của cửa hàng (ảnh tự chụp)",
-      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/04/26/tram8/84dab1d511f140719fd7644658a472c7.jpeg"
+      "reference": "ảnh hãng bing.co.kr hộp Melon và Banana cùng dòng (khuôn hộp)"
     },
     "rubricVersion": "v18"
   },
@@ -81,10 +80,22 @@
       "by": "owner",
       "status": "UPLOADED",
       "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T02:48:28Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "redo after Hub rejection:  — Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-19T02:48:28.302Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-17T14:15:57.961Z",
+    "at": "2026-10-19T02:48:28.302Z",
     "fields": [
       "description",
       "image"

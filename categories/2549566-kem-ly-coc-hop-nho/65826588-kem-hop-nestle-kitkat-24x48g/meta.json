@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I3/I4: ảnh hiện có không đạt, không có ảnh hãng/NPP → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Sửa theo chủ 19/10: ảnh cũ là hộp to 240 g; vẽ lại đúng ly nhỏ 48 g (dáng thấp, rộng như ly OREO 48 g cùng dòng Nestlé). Hoạ tiết KitKat lấy từ hộp to; bảng dinh dưỡng và chữ nhỏ để mờ, không ghi khối lượng",
@@ -93,6 +93,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T02:44:56.965Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -104,9 +110,28 @@
     "hubStatus": "PENDING"
   },
   "review": {
-    "status": "REJECTED",
+    "status": "APPLIED",
     "reviewedBy": "AU KHUONG DUY",
-    "reviewedAt": "2026-10-17T16:10:46.499Z",
-    "note": "Cái này nhầm hình ly to thì phải"
+    "reviewedAt": "2026-10-19T02:28:33.707Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T02:28:33.707Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/e6baa76213ee100ddaac5caa1f6bab457421d48b69f009a4ae743bc541ef6669.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/27/tram8/c743a82aa19945b9ada45a2621567c82.png"
+        ]
+      },
+      "description": {
+        "to": "Kem Nestlé KitKat vị sô cô la kèm bánh xốp KitKat, hộp nhỏ 48 g.\n\nQuy cách: 48 g · hộp\nNhà sản xuất/thương hiệu: Nestlé · KitKat\nBảo quản: Giữ đông ở −18 °C hoặc lạnh hơn.",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

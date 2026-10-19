@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "v13–v15 (chủ 19/10): ảnh nhân viên chụp đã tách nền vẫn kém ảnh các SP cùng dòng đã duyệt (nhăn/loá/nghiêng) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: gói vẽ phẳng, không nhăn; dòng 중량 90g đọc theo gói thật/tên SP",
@@ -89,6 +89,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T02:44:56.965Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -98,5 +104,28 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T02:28:44.205Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T02:28:44.205Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/c7cf98156e51b04ae5b849b8849844f6c90b66afb47a68d8798674d7a1fab407.webp"
+        ],
+        "from": null
+      },
+      "description": {
+        "to": "Snack vị bạch tuộc Jagalchi (자갈치) của Nongshim, bánh giòn hình bạch tuộc.\n\nQuy cách: 90 g · gói\nXuất xứ: Hàn Quốc · Thương hiệu: Nongshim",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

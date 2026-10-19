@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I3/I4: ảnh hiện có không đạt, không có ảnh hãng/NPP → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Sửa theo chủ 19/10: vẽ lại theo ảnh gói thật 40 g (túi đứng dáng lượn màu xanh) thay cho bản dựng từ gói 25 g. Chữ lớn khớp mẫu (Miss Bánh Tráng, Xilay, Bánh tráng trộn muối ớt xiêm xanh, Cao cấp, Khối lượng tịnh 40 g, Cay say mê); bỏ dòng chữ của nhà bán lẻ",
@@ -105,6 +105,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T02:44:56.965Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -116,9 +122,26 @@
     "hubStatus": "PENDING"
   },
   "review": {
-    "status": "REJECTED",
+    "status": "APPLIED",
     "reviewedBy": "AU KHUONG DUY",
-    "reviewedAt": "2026-10-17T13:56:30.386Z",
-    "note": "Bao bì ko giống, search web chưa"
+    "reviewedAt": "2026-10-19T02:30:20.950Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T02:30:20.950Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/6199b73e13cb6babca4ac10057f1410dfbdb7c6eef7bb1a01dd8d8da8b4bcfe8.webp"
+        ],
+        "from": null
+      },
+      "description": {
+        "to": "Bánh tráng trộn vị ớt xiêm xanh thương hiệu Miss Bánh Tráng, dòng cao cấp, ăn liền ngay khi mở gói.\n\nQuy cách: 40 g · gói\nNhà sản xuất/thương hiệu: Công ty CP Thực phẩm Vina Snack · Miss Bánh Tráng",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

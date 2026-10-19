@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I3/I4: ảnh hiện có không đạt, không có ảnh hãng/NPP → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Sửa theo chủ 19/10: lon cao thon, góc nhìn và khung giống các sữa Life's Food đã duyệt. Chữ lớn khớp mẫu (SỮA ĐẬU NÀNH, Life's Food, 100% Nông Sản Việt Nam, 240 ml); chữ nhỏ vẽ mờ",
@@ -96,6 +96,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T02:44:56.965Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -107,9 +113,26 @@
     "hubStatus": "PENDING"
   },
   "review": {
-    "status": "REJECTED",
+    "status": "APPLIED",
     "reviewedBy": "AU KHUONG DUY",
-    "reviewedAt": "2026-10-19T01:42:55.652Z",
-    "note": "Tham khảo các sữa bắp non khác"
+    "reviewedAt": "2026-10-19T02:19:17.896Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T02:19:17.896Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/8b6640bc451cd5cd40ceba7991db2703bd308cf53bc0208f9754658eb4ce0ec0.webp"
+        ],
+        "from": null
+      },
+      "description": {
+        "to": "Sữa đậu nành Life's Food, sữa hạt dinh dưỡng đóng lon; lon ghi 100% nông sản Việt Nam.\n\nQuy cách: 240 ml · lon\nNhà sản xuất/thương hiệu: Life's Food",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

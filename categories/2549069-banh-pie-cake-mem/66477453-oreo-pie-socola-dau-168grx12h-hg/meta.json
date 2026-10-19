@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "v13–v15 (chủ 19/10): ảnh nhân viên chụp đã tách nền vẫn kém ảnh các SP cùng dòng đã duyệt (nhăn/loá/nghiêng) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: hộp vẽ thẳng mặt; chữ nhỏ trên nắp không đọc được",
@@ -92,6 +92,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T02:44:56.965Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -101,5 +107,28 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T02:29:25.705Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T02:29:25.705Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/64d12f5c6222f0754c71035592cacd749ec30d96bf953fe0f118d798400fe1e9.webp"
+        ],
+        "from": null
+      },
+      "description": {
+        "to": "Bánh Oreo Socola Pie vị dâu: bánh mềm phủ sô cô la, nhân marshmallow vị dâu; hộp gồm nhiều gói nhỏ.\n\nQuy cách: 180 g · hộp (theo Open Food Facts)\nThương hiệu: Oreo (Mondelez Kinh Đô)",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
   }
 }
