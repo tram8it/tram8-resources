@@ -17,18 +17,29 @@
     "description": null,
     "exportedAt": "2026-10-19T03:17:44.875Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I2: ảnh KiotViet là hộp Richeese; tra lại 18/10: iCheck mã 8993175542128 ghi 'Bánh nabati Chocolate Wafer 24g' nhưng chỉ có ảnh chung, NPP Hương Thủy chỉ có Nabati socola 16 g/50 g (cỡ khác), Kingfoodmart/OFF không ảnh → cần chụp",
-    "source": null,
-    "rubricVersion": "v23"
+    "reason": "I2: ảnh KiotViet là hộp Richeese; 19/10 tra Open Food Facts mã 8993175542128 ra ảnh mặt trước gói Nabati Chocolate Wafer → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: hai mép hàn hai đầu gói do AI vẽ thêm (ảnh mẫu bị cắt mép)",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-19",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh Open Food Facts cùng mã vạch (chỉ làm mẫu)",
+      "referenceUrl": "https://world.openfoodfacts.org/product/8993175542128"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
-    "source": null,
-    "rubricVersion": "v20",
-    "decision": "WRITE_NEW",
-    "reason": "mã vạch 8993175542128 = bánh Nabati sô-cô-la wafer (iCheck); không ghi khối lượng vì chưa thấy bao bì"
+    "decision": "REWRITE",
+    "reason": "theo chữ in trên gói (ảnh Open Food Facts cùng mã vạch): nabati Chocolate Wafer, choco, Contains vitamin A B1 B2 B6 B12; mã 899 → Indonesia; khối lượng không in mặt trước nên không ghi",
+    "source": {
+      "url": "https://world.openfoodfacts.org/product/8993175542128",
+      "fetchedAt": "2026-10-19T07:31:06Z"
+    },
+    "rubricVersion": "v23"
   },
   "question": null,
   "history": [
@@ -55,6 +66,32 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "re-searched 18/10 (owner feedback, np18): no image of this exact product found; reason updated"
+    },
+    {
+      "at": "2026-10-19T07:31:06Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-19T07:31:06Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "19/10 re-research: description rewritten from pack facts of the found reference"
+    },
+    {
+      "at": "2026-10-19T07:31:19.313Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-19T07:31:19.313Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

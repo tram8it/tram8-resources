@@ -57,3 +57,5 @@ Hàng thật xác định theo mã vạch; ảnh + mô tả đã làm theo hàng
 | 68465276 | 3H dưa chuột muối chua cay gói 20g | Gói hãng 石磨小镇 (我家菜园子 黄瓜 香辣味), không phải 3H | ảnh nhân viên 19/10 |
 | 64865421 | Kem vani Hạt Macadamia Celano hộp 125ml (hộp) | Kem sữa chua Celano Nam việt quất 125 ml, không phải vani macadamia | ảnh nhân viên 19/10; Kingfoodmart/Minh Cầu Mart theo mã 8936011771337 |
 | 67879462 | Cáp Sạc 3in1 ( USB to IP + C + Micro) HoCo X123 (Bộ) | Hộp in "6-IN-1": hai đầu vào USB-A và USB-C, ba đầu ra iP + USB-C + Micro-USB, 3.0A, 1 m | ảnh nhân viên 19/10 |
+| 65017168 | Củ sạc Hoco … CS53A | Nhãn trên củ sạc ghi CS55A (Surplus PD30W+QC3.0), mã vạch 6942007631563 khớp hocotech.com | ảnh KiotViet + hocotech.com |
+| 64865235 | Xúc xích Heo Cao Bồi nhân phô mai vị bắp (mã 8936034877207) | Minh Cầu Mart ghi mã 8936034877207 là vị Nguyên Bản — kiểm tra mã vạch hai vị | minhcaumart.vn |

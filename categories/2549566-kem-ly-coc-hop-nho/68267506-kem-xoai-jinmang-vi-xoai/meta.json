@@ -17,18 +17,26 @@
     "description": null,
     "exportedAt": "2026-10-19T03:17:44.875Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh; tra 18/10: mã 6943090421154 (OFF chỉ có tên 'Blessing Sunshine Golden Mango', không ảnh), Weee chỉ có Propitious Mango khác mã → cần chụp",
-    "source": null,
-    "rubricVersion": "v23"
+    "reason": "chủ 19/10: tra lại → Open Food Facts ghi mã 6943090421154 là 'Blessing Sunshine Golden Mango'; Lenta/AV (Nga) có ảnh kem Hongqi Jinmang 金芒 'GOLDEN MANGO · 金光芒芒 BLESSING SUNSHINE' 75 g → Gemini vẽ lại (v12–v15) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ Trung nhỏ trên vỏ lục giác có thể sai nét; bố cục, chữ lớn (GOLDEN MANGO, 金芒, BLESSING SUNSHINE, 75g) khớp mẫu",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-19",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh Lenta.com (Nga) kem Hongqi Jinmang 75 g (chỉ làm mẫu) + 福芒 cùng hãng đã duyệt (bố cục)",
+      "referenceUrl": "https://lenta.com/product/morozhenoe-jinmang-so-vkusom-mango-s-nach-iz-mango-dzhema197-bez-zmzh-kitajj-75g-910969/"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
-    "reason": "D1: chưa có mô tả; mô tả ngắn chỉ từ tên hàng",
+    "reason": "D1: mô tả theo chữ in trên bao bì (ảnh mẫu Lenta/Alibaba), tên Open Food Facts và mẫu SP cùng hãng",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v20"
   },
   "question": null,
   "history": [
@@ -55,6 +63,55 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "np18 re-research 18/10: still no usable reference for this exact pack (see image.reason)"
+    },
+    {
+      "at": "2026-10-19T07:30:27Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-19T07:30:27.958Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T07:36:11.346Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-19T07:30:27.958Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T07:36:14.158Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T07:36:14.158Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/9cd73fa0c94a49aea6f6ff53208f309a93fffb229394298dc4a1d51b572328d5.webp"
+        ],
+        "from": null
+      },
+      "description": {
+        "to": "Kem vị xoài Jinmang 金芒 (Golden Mango, Blessing Sunshine) tạo hình quả xoài, nhân mứt xoài, đặt trong vòm nhựa trong trên đế giấy lục giác.\n\nQuy cách: 75 g · ly\nNhà sản xuất: Đại Sâm Lâm (Trung Quốc) · Hongqi\nBảo quản: Giữ đông ở −18 °C hoặc lạnh hơn.",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
 }

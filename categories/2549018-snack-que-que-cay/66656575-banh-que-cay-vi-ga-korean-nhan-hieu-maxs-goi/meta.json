@@ -17,18 +17,29 @@
     "description": null,
     "exportedAt": "2026-10-19T03:17:44.875Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh; tra lại 18/10: iCheck mã 8850548010113 ghi 'Snack max vị siêu cay 55g' nhưng ảnh là ảnh chung không phải SP; Kingfoodmart/OFF không có; Yandex \"MAXs snack stick Korean chicken\" chỉ ra Mix VFoods/Lay's → cần chụp",
-    "source": null,
-    "rubricVersion": "v23"
+    "reason": "I1: chưa có ảnh; 19/10 tìm lại theo mã vạch 8850548010113 ra ảnh gói trên minhcaumart.vn → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: ô dinh dưỡng nhỏ có số do AI vẽ (ảnh mẫu không đọc được); chữ Thái nhỏ có thể lệch",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-19",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh Minh Cầu Mart cùng mã vạch (chỉ làm mẫu) + ảnh đã duyệt của SP cùng dòng Maxs (chỉ lấy phong cách)",
+      "referenceUrl": "https://minhcaumart.vn/media/com_eshop/products/8850548010113.webp"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
-    "decision": "WRITE_NEW",
-    "reason": "D1: chưa có mô tả; mô tả ngắn chỉ từ tên hàng",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "REWRITE",
+    "reason": "mô tả theo chữ in trên gói (ảnh Minh Cầu Mart cùng mã vạch): Korean Chicken Spicy Sauce Biscuit Sticks, 55 g, chữ Thái + mã 885 → Thái Lan",
+    "source": {
+      "url": "https://minhcaumart.vn/media/com_eshop/products/8850548010113.webp",
+      "fetchedAt": "2026-10-19T07:31:05Z"
+    },
+    "rubricVersion": "v23"
   },
   "question": null,
   "history": [
@@ -55,6 +66,32 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "re-searched 18/10 (owner feedback, np18): no image of this exact product found; reason updated"
+    },
+    {
+      "at": "2026-10-19T07:31:05Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-19T07:31:05Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "19/10 re-research: description rewritten from pack facts of the found reference"
+    },
+    {
+      "at": "2026-10-19T07:31:10.728Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-19T07:31:10.728Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

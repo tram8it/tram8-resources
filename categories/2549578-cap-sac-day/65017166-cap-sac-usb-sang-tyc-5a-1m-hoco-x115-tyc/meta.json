@@ -17,18 +17,26 @@
     "description": null,
     "exportedAt": "2026-10-19T03:17:44.875Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I4/I5: ảnh KiotViet cắt mất đầu/đáy hộp; tra 18/10: hocotech.com không có X115, chỉ có nhà bán lẻ Nga không ảnh hộp → cần chụp nguyên hộp",
-    "source": null,
-    "rubricVersion": "v23"
+    "reason": "chủ 19/10: tra lại → OZON có ảnh hộp hoco X115 USB-A–USB-C 100W 5.0A 1 m giống hộp trong ảnh KiotViet → Gemini vẽ lại mặt trước hộp (v12–v15) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: dòng chữ đa ngôn ngữ nhỏ dưới 'DATA CABLE' là chữ mờ minh hoạ, không đúng chữ thật",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-19",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh OZON hộp hoco X115 100W (chỉ làm mẫu) + ảnh KiotViet hộp tại cửa hàng",
+      "referenceUrl": "https://www.ozon.ru/product/usb-kabel-type-c-hoco-x115-100w-1-metr-dlina-tsvet-belyy-2975048154/"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
-    "decision": "WRITE_NEW",
-    "reason": "D1: chưa có mô tả; mô tả ngắn từ tên SP và chữ in trên vỉ (5.0A, 1m)",
+    "decision": "REWRITE",
+    "reason": "D4: bổ sung 100W và màu theo chữ in trên hộp (ảnh KiotViet + OZON)",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v20"
   },
   "question": null,
   "history": [
@@ -55,6 +63,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "np18 re-research 18/10: still no usable reference for this exact pack (see image.reason)"
+    },
+    {
+      "at": "2026-10-19T07:33:59Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-19T07:34:05.785Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-19T07:34:05.785Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

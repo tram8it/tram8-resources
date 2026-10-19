@@ -17,18 +17,26 @@
     "description": null,
     "exportedAt": "2026-10-19T03:17:44.875Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh; tra 18/10: mã 6943090421017 (web, OFF, Minh Cầu Mart), '桃気 冰淇淋' — chỉ thấy bản hộp 桃気 khác mã (SP 68497202), không có ảnh ly này → cần chụp",
-    "source": null,
-    "rubricVersion": "v23"
+    "reason": "chủ 19/10: tra lại → Open Food Facts ghi mã 6943090421017 là '桃喜(蜜桃口味冰淇淋)', hãng 大森; Alibaba có ảnh hộp 桃喜 TAOXI JOY PEACH → Gemini vẽ lại (v12–v15) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: góc nhìn hơi chéo như ảnh mẫu; chữ nhỏ (dòng tiếng Anh/Trung dưới TAOXI JOY PEACH, chữ ở mặt bên) có thể sai nét; ảnh mẫu không thấy khối lượng nên ảnh không in",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-19",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh quảng cáo Alibaba kem Hongqi TaoXi 桃喜 (chỉ làm mẫu) + 桃気 cùng hãng đã duyệt (bố cục)",
+      "referenceUrl": "https://www.alibaba.com/product-detail/Hongqi-TaoXi-Original-Peach-Ice-Cream_11000024953208.html"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
-    "reason": "D1: chưa có mô tả; mô tả ngắn chỉ từ tên hàng",
+    "reason": "D1: mô tả theo chữ in trên bao bì (ảnh mẫu Lenta/Alibaba), tên Open Food Facts và mẫu SP cùng hãng",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v20"
   },
   "question": null,
   "history": [
@@ -55,6 +63,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "np18 re-research 18/10: still no usable reference for this exact pack (see image.reason)"
+    },
+    {
+      "at": "2026-10-19T07:30:27Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-19T07:30:31.126Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-19T07:30:31.126Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

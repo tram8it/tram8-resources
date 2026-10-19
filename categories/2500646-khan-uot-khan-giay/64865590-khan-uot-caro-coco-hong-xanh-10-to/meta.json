@@ -17,18 +17,29 @@
     "description": null,
     "exportedAt": "2026-10-19T03:17:44.875Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I2: ảnh KiotViet là hộp Cháo Ngô nếp (SP khác); 18/10 tìm lại: 'khăn ướt Caro Coco 10 tờ', 'khăn ướt Coco gói 10 tờ hương dừa', mã 8938511060270 (web, Open Food Facts, iCheck, Kingfoodmart) — không ra SP → cần chụp mặt trước gói",
-    "source": null,
-    "rubricVersion": "v23"
+    "reason": "I2: ảnh KiotViet là SP khác; 19/10 tra iCheck mã 8938511060270 ra ảnh gói Carococo hồng 10 tờ → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt đáng kể; chữ nhỏ trên huy hiệu 60° không đọc rõ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-19",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh iCheck cùng mã vạch (chỉ làm mẫu)",
+      "referenceUrl": "https://icheck.vn/san-pham/khan-uot-carococo-hong-10-to-goi-8938511060270"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
-    "decision": "WRITE_NEW",
-    "reason": "D1: chưa có mô tả; không có nguồn → mô tả ngắn chỉ từ tên SP",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "REWRITE",
+    "reason": "theo chữ in trên gói (ảnh iCheck cùng mã vạch): Caro Coco, 10 Wipes, Vitamin E, Khăn ướt - Wet Tissue, nắp dán; tên iCheck 'Khăn ướt Carococo hồng (10 tờ/gói)'",
+    "source": {
+      "url": "https://icheck.vn/san-pham/khan-uot-carococo-hong-10-to-goi-8938511060270",
+      "fetchedAt": "2026-10-19T07:31:05Z"
+    },
+    "rubricVersion": "v23"
   },
   "question": null,
   "history": [
@@ -61,6 +72,32 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "18/10 re-research (>=3 searches): still no image of this exact product → NEEDS_PHOTO"
+    },
+    {
+      "at": "2026-10-19T07:31:05Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-19T07:31:05Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "19/10 re-research: description rewritten from pack facts of the found reference"
+    },
+    {
+      "at": "2026-10-19T07:31:14.070Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-19T07:31:14.070Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

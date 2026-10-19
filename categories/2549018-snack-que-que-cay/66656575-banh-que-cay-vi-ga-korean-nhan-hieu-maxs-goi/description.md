@@ -1,4 +1,4 @@
-Bánh que Maxs vị gà cay kiểu Hàn Quốc, que bánh quy giòn, món ăn vặt cho người thích cay.
+Bánh que Maxs vị gà sốt cay Hàn Quốc (Korean Chicken Spicy Sauce Biscuit Sticks), que bánh quy giòn nhập khẩu Thái Lan, món ăn vặt cho người thích cay.
 
-Quy cách: gói
-Nhà sản xuất/thương hiệu: Maxs
+Quy cách: 55 g · gói
+Xuất xứ: Thái Lan · Nhà sản xuất/thương hiệu: Maxs

@@ -17,18 +17,29 @@
     "description": null,
     "exportedAt": "2026-10-19T03:17:44.875Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh; 18/10 tìm lại: mã 4582192960417 (web, Open Beauty Facts, Kingfoodmart), 'Lasvon Retinol Peptide mặt nạ', trang hãng lasvon.vn (chỉ còn tên SP trong mục liên quan, trang SP đã gỡ) — không có ảnh gói nào; nhân viên đã chụp 18/10 (ảnh nhăn/lóa, ở máy chủ) → cần Gemini vẽ lại từ ảnh nhân viên",
-    "source": null,
-    "rubricVersion": "v23"
+    "reason": "I1: chưa có ảnh; 19/10 tra iCheck mã 4582192960417 ra ảnh thiết kế gói của hãng Lasvon (mã vạch in trên gói khớp) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: một miếng mặt nạ (không hộp); dòng nhỏ 'No Colorant' vẽ thành 'No Colorent'; tem tròn nhỏ chữ không đọc được",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-19",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh thiết kế của hãng Lasvon đăng trên iCheck cùng mã vạch (chỉ làm mẫu)",
+      "referenceUrl": "https://icheck.vn/san-pham/4582192960417"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
-    "decision": "WRITE_NEW",
-    "reason": "D1: chưa có mô tả; viết ngắn chỉ từ tên hàng (thương hiệu, loại Retinol Peptide, bán theo miếng) vì không có nguồn hãng",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "REWRITE",
+    "reason": "theo chữ in trên gói (ảnh thiết kế của hãng trên iCheck): Lasvon Clinical, Retinol Peptide Serum Mask, Anti-wrinkle/Firming/Moisturizing, No Alcohol/No Colorant, mặt sau: Wave Corporation, Shizuoka, Japan",
+    "source": {
+      "url": "https://icheck.vn/san-pham/4582192960417",
+      "fetchedAt": "2026-10-19T07:31:06Z"
+    },
+    "rubricVersion": "v23"
   },
   "question": null,
   "history": [
@@ -61,6 +72,32 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "18/10 re-research (>=3 searches): still no image of this exact product → NEEDS_PHOTO"
+    },
+    {
+      "at": "2026-10-19T07:31:06Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-19T07:31:06Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "19/10 re-research: description rewritten from pack facts of the found reference"
+    },
+    {
+      "at": "2026-10-19T07:31:16.408Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-19T07:31:16.408Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

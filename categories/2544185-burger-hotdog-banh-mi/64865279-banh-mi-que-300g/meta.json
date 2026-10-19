@@ -17,12 +17,20 @@
     "description": null,
     "exportedAt": "2026-10-19T03:17:44.875Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I4/I5: ảnh KiotViet chỉ chụp cận nhãn túi Thanh Hà Foods; 18/10 tìm lại: trang hãng thanhhafoods.com (chỉ có pizza, hamburger, mì Ý — không có bánh mì túi), 'Thanh Hà Foods bánh mì que/tươi/bơ mật ong', mã vạch (OFF/iCheck/KFM) — không có ảnh trọn túi (số bánh trong túi) → cần chụp thẳng nguyên túi",
-    "source": null,
-    "rubricVersion": "v23"
+    "reason": "I3/I4/I5: ảnh KiotViet chụp cận nhãn túi; 19/10 tìm web (trang hãng thanhhafoods.com, tên SP, ảnh ngược Yandex) không có ảnh nào, nhưng ảnh KiotViet thấy trọn nhãn dán → vẽ lại cả túi từ ảnh KiotViet (v23) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: mép túi và số bánh trong túi do AI dựng (ảnh mẫu bị cắt mép); bỏ dấu ngày NSX đóng trên nhãn; vài dòng chữ nhỏ có thể lệch",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-19",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet nhân viên chụp (chỉ làm mẫu)",
+      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/03/18/tongpenhchtl/c7cc25dd4bc741ad81e404965179e964.jpeg"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -55,6 +63,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "18/10 re-research (>=3 searches): still no image of this exact product → NEEDS_PHOTO"
+    },
+    {
+      "at": "2026-10-19T07:33:48Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-19T07:34:06.872Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-19T07:34:06.872Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

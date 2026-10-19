@@ -17,18 +17,25 @@
     "description": null,
     "exportedAt": "2026-10-19T03:17:44.875Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I4/I5/I8: ảnh KiotViet cắt mất đầu/đáy vỉ; tra 18/10: hocotech.com chỉ có CS53A 'Surplus PD25W', không có bản PD30W+QC3.0 C-to-C; không có ảnh hộp đúng bản → cần chụp nguyên hộp",
-    "source": null,
-    "rubricVersion": "v23"
+    "reason": "I3/I4/I5: ảnh KiotViet cắt mất vỉ; tra lại 19/10 → nhãn trên củ sạc trong ảnh KiotViet ghi Model CS55A (tên KiotViet ghi CS53A); trang hãng hocotech.com có vỉ 'CS55A Surplus PD30W + QC3.0 EU cable set' USB-C–USB-C, mã vạch mặt sau 6942007631563 trùng mã KiotViet → ảnh hãng mặt trước vỉ, cắt bỏ mặt sau, chuẩn hoá make_image (v13). Tên KiotViet ghi nhầm CS53A — báo chủ sửa nếu muốn",
+    "source": {
+      "url": "https://hocotech.com/wp-content/uploads/2025/07/hoco-cs55a-surplus-pd30w-qc3-wall-charger-eu-set-usbc-usbc-packaging.jpg",
+      "page": "https://hocotech.com/product/power/wall-chargers/wall-charger-cs55a-surplus-pd30w-qc3-0-eu-cable-set/",
+      "fetchedAt": "2026-10-19"
+    },
+    "rubricVersion": "v13"
   },
   "description": {
-    "decision": "WRITE_NEW",
-    "reason": "D1: chưa có mô tả; mô tả ngắn chỉ từ tên SP và chữ in trên vỉ ('30W', 'QC3.0', 'Dual port charger', 'USB-C to USB-C')",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "REWRITE",
+    "reason": "D4: bổ sung model CS55A, GaN, cổng, cáp 1 m, chân EU, điện vào theo trang hãng và vỉ (mã vạch trùng)",
+    "source": {
+      "url": "https://hocotech.com/product/power/wall-chargers/wall-charger-cs55a-surplus-pd30w-qc3-0-eu-cable-set/",
+      "fetchedAt": "2026-10-19"
+    },
+    "rubricVersion": "v20"
   },
   "question": null,
   "history": [
@@ -55,6 +62,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "np18 re-research 18/10: still no usable reference for this exact pack (see image.reason)"
+    },
+    {
+      "at": "2026-10-19T07:33:00Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "np19 re-research: official hoco image (barcode matches) → READY; KiotViet name says CS53A but pack is CS55A"
+    },
+    {
+      "at": "2026-10-19T07:33:00.702Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-19T07:33:00.702Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }
