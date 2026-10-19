@@ -43,10 +43,12 @@ bước 3 mới chốt.
 (vào Mì gói → chọn Hảo Hảo → ra đủ Hảo Hảo); kể cả khi xếp theo danh mục, SP cùng thương hiệu nằm cạnh nhau.
 Một nhãn viết hai kiểu là hai nhóm trên web.
 
-1. **Cấp:** thương hiệu **con của SP trước, rồi tới cha** — "Hảo Hảo" thay "Acecook"; Twister (của Pepsi) → **Pepsi**;
-   Pepsi → Pepsi. Dòng con (Xylitol, Buldak, Probi, Colgate Slim Soft) quy về nhãn cha (Lotte, Samyang, Vinamilk,
-   Colgate). Tên công ty khách không gọi (Acecook, Masan, Mondelez, P&G, Unilever) **không bao giờ** là thương hiệu;
-   chỉ dùng khi SP không có nhãn nào khác.
+1. **Cấp:** **thương hiệu con** của SP — "Hảo Hảo" (không "Acecook"), Mirinda, Twister, 7Up, Sting, Fanta, Sprite,
+   Milo, KitKat; lon Coca-Cola là Coca-Cola. Dòng con **đủ lớn để lọc (≥ 3 SP)** thành thương hiệu riêng (Buldak,
+   Xylitol, Probi, Pocky, Nivea Men…); dòng **1–2 SP gộp về thương hiệu cha** (`MIN_LINE_PRODUCTS` trong
+   `tools/brand-propose.mjs`). Dòng chỉ là "nhãn cha + mô tả" luôn về cha (Colgate Slim Soft, Koreno Jumbo,
+   Cung Đình Kool, X-Men For Boss, Nivea Sun — `"up": true` trong bảng chuẩn). Tên công ty khách không gọi
+   (Acecook, Masan, Mondelez, P&G, Unilever) chỉ dùng khi SP không có nhãn nào khác.
 2. **Cách viết:** **Chữ Hoa Đầu Từ** (Nivea, Kido, Bibigo, Hoco, Durex, Đà Lạt Milk); giữ chữ viết tắt (TH, P/S, OKF, 333);
    giữ dấu tiếng Việt; nháy thẳng `'`.
 3. **SP không có nhãn** (trái cây cắt, đồ nhà làm, đồ dùng không nhãn): **để trống** — web xếp vào nhóm "Khác".
@@ -55,10 +57,6 @@ Một nhãn viết hai kiểu là hai nhóm trên web.
 6. Công ty / dòng con: lưu trong `data/brand-canon.json` (trường `c`, `p`) để web/Hub dùng sau; KiotViet chỉ giữ một tên.
 
 Còn mở (đánh dấu `"ask": true` trong `data/brand-canon.json`, chủ xem ở trang duyệt):
-- Đồ uống Suntory PepsiCo khác ngoài Twister — **Mirinda, 7Up, Sting, Tea+, Aquafina, Revive, Rockstar, Boss**: giữ tên
-  riêng (đang để vậy) hay quy về **Pepsi** như Twister?
-- Tương tự Coca-Cola: **Fanta, Sprite, Schweppes, Minute Maid, Nutriboost, Dasani, Georgia** — riêng hay về **Coca-Cola**?
-- Nestlé: **Milo, KitKat** riêng (đang để vậy) hay **Nestlé**?
 - Nhãn lơ lửng: À Table, Onigiri Việt, Fresh 2Go, Pizza 4P's, Thanh Hà Foods, Kinh Đô, Camel (bia và thuốc lá cùng tên),
   Play Candy, Weisiel, Love Minimart, Meo Meo, Lâm Vũ, Hải Đăng Đỏ.
 

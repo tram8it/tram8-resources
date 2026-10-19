@@ -56,11 +56,24 @@ for (const e of canon) {
 }
 for (const e of canon) if (e.p && !byName.has(e.p)) throw new Error(`brand-canon: ${e.n} has unknown parent ${e.p}`);
 
+/**
+ * A line becomes its own brand once it has this many products, so the shop can
+ * filter by it (Mirinda has many flavours); a line with 1–2 products goes
+ * under its parent (owner, 19/10/2026). `up: false` / `up: true` in the canon
+ * force either way.
+ */
+const MIN_LINE_PRODUCTS = 3;
+// Products proposed under each entry and its lines; null on the first pass,
+// which proposes the most specific entry for every product to count them.
+let lineCounts = null;
+
 /** The name KiotViet must show for this entry: climb parents that roll up. */
 function kiotName(e) {
+  if (lineCounts === null) return e.n;
   let cur = e;
   for (let guard = 0; cur.p && cur.up !== false; guard++) {
     if (guard > 10) throw new Error(`brand-canon: parent loop at ${e.n}`);
+    if (cur.up !== true && (lineCounts.get(cur.n) ?? 0) >= MIN_LINE_PRODUCTS) break;
     cur = byName.get(cur.p);
   }
   return cur.n;
@@ -166,6 +179,7 @@ const imageReads = new Map(
 
 // ---- products ---------------------------------------------------------------
 const kiotBrands = new Map(snapshot.brands.map((b) => [b.name, b.id]));
+function propose() {
 const rows = [];
 for (const p of snapshot.products) {
   if (p.masterUnitId) continue;
@@ -280,6 +294,22 @@ for (const p of snapshot.products) {
     note: notes.join("; "),
   });
 }
+return rows;
+}
+
+lineCounts = new Map();
+const firstPass = (() => {
+  const saved = lineCounts;
+  lineCounts = null;
+  const out = propose();
+  lineCounts = saved;
+  return out;
+})();
+for (const r of firstPass) {
+  for (let e = byName.get(r.proposed); e; e = e.p ? byName.get(e.p) : undefined)
+    lineCounts.set(e.n, (lineCounts.get(e.n) ?? 0) + 1);
+}
+const rows = propose();
 
 rows.sort(
   (a, b) =>
