@@ -123,6 +123,10 @@ for (const [id, a] of pAfter) {
   const got = brandName(a);
   if (got !== expected) {
     if (got.trim() === expected.trim()) alarm("SAI_KHOANG_TRANG", `${label(a)}: ${show(got)} ≠ ${show(expected)}`);
+    else if (got.toLocaleLowerCase("vi") === expected.toLocaleLowerCase("vi"))
+      // An import matches brand names regardless of case and keeps the old
+      // spelling (batch 2, 19/10/2026): fixed by renaming the brand itself.
+      notes.push(`- ${label(a)}: còn ${show(got)}, chờ đổi tên thương hiệu thành ${show(expected)}`);
     else if (planned && got === brandName(b)) alarm("CHUA_LAM", `${label(a)}: vẫn ${show(got)}, cần ${show(expected)}`);
     else alarm("SAI_THUONG_HIEU", `${label(a)}: ${show(brandName(b))} → ${show(got)}, cần ${show(expected)}`);
   } else if (planned && got !== brandName(b) && !a.masterUnitId) done.push(`${label(a)}: ${show(brandName(b))} → ${show(got)}`);

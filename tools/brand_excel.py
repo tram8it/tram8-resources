@@ -33,6 +33,7 @@ ap.add_argument("export")
 ap.add_argument("snapshot")
 ap.add_argument("proposals")
 ap.add_argument("--ids")
+ap.add_argument("--all", action="store_true", help="every product whose brand changes or whose weight (or a unit's) is not 0")
 ap.add_argument("--take", type=int)
 ap.add_argument("--skip", type=int, default=0)
 ap.add_argument("--out", required=True)
@@ -83,6 +84,13 @@ for need in ("Mã hàng", "Tên hàng", "Thương hiệu", "Trọng lượng", "
 want = []
 if args.ids:
     want = args.ids.split(",")
+elif args.all:
+    heavy = {str(p["masterUnitId"]) for p in snap["products"] if p.get("masterUnitId") and (p.get("weight") or 0) > 0}
+    want = [
+        pid
+        for pid, r in proposals.items()
+        if r["change"] != "giữ" or (products.get(pid, {}).get("weight") or 0) > 0 or pid in heavy
+    ]
 else:
     order = [r for r in proposals.values() if r["change"] != "giữ"]
     want = [r["kiotProductId"] for r in order][args.skip : args.skip + (args.take or 0)]
@@ -169,7 +177,8 @@ for i, (pid, row, r) in enumerate(kept, start=2):
     new = set_cell(new, col_of["Trọng lượng"], "0", True)
     out_rows.append(renumber(new, i))
     changes.append((products[pid]["code"], products[pid]["name"], unescape(old_brand), r["proposed"], old_weight))
-    plan.append({"kind": "product", "kiotProductId": pid, "brandId": "", "from": r["current"], "to": r["proposed"]})
+    if r["proposed"] != r["current"]:
+        plan.append({"kind": "product", "kiotProductId": pid, "brandId": "", "from": r["current"], "to": r["proposed"]})
 
 body = "".join(out_rows)
 start = sheet.index(rows[0])
