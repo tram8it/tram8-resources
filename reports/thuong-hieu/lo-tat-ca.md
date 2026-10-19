@@ -2297,3 +2297,17 @@ File xuất lúc 19/10/2026 16:17:54 · bản chụp 2026-10-19T09:20:15.188Z
 
 ## Bị loại
 - 8936186851254 Trà Sữa MoCha 250ml: không có trong file xuất
+
+## Kết quả (19/10/2026 16:26)
+`brand-diff --zero-weight` trên 3.965 dòng ([`lo-tat-ca-diff.md`](lo-tat-ca-diff.md)):
+- **2.023 thay đổi đúng kế hoạch**, 301 thương hiệu mới tự tạo (244 → 556 kể cả cũ), trọng lượng về 0.
+- 512 dòng còn tên cũ chỉ khác hoa/thường (NIVEA, CELANO…) → đổi tên 29 thương hiệu: `prompt-doi-ten-hoa-thuong.md`.
+- Khác dấu (KINH DO / Kinh Đô, HAI HA / Hải Hà, Jagermeister / Jägermeister, Hoa Việt / Hòa Việt, Purité…) KiotViet coi là
+  **khác** → tạo tên mới, tên cũ còn 0 SP → xoá ở bước cuối.
+- 9 cảnh báo, 4 dòng hàng, **không do sai thương hiệu**:
+  - 2 dòng **đơn vị** mì Vifon (8935311103596-1, SP877911): nhóm hàng "Mì gói" → "Mì ly / tô / cốc" = nhóm của hàng gốc.
+    Nhập file đồng bộ đơn vị theo hàng gốc (như form đồng bộ mô tả). Không cần sửa.
+  - Lạp xưởng ăn liền 35g (không có trong file): chủ **Áp dụng** ảnh + mô tả trên Hub lúc 16:22. Không liên quan.
+  - **BUGLES tôm càng cay**: chủ Áp dụng ảnh + mô tả trên Hub lúc 16:22:01 — **sau** khi xuất file (16:17), **trước** khi nhập
+    (16:26). Mô tả giữ (nhập với "cập nhật mô tả = Không"), nhưng **ảnh bị file ghi đè về ảnh cũ** (cột Hình ảnh trong file).
+    → phải áp dụng lại ảnh. Bài học: giữa lúc xuất và lúc nhập **không bấm Áp dụng trên Hub** và không sửa hàng hoá.
