@@ -19,17 +19,14 @@
   },
   "status": "READY",
   "image": {
-    "decision": "CROP",
-    "reason": "I9: packshot nền trắng đúng SP (Binggrae Melona Strawberry), chưa 1:1 → crop",
-    "source": null,
-    "rubricVersion": "v4",
-    "vivid": {
-      "rubricVersion": "v10",
-      "saturationGain": 1.25,
-      "contrastGain": 1.08,
-      "toneGain": 1.047,
-      "gamma": 1
-    }
+    "decision": "REPLACE",
+    "reason": "Chủ 19/10: ảnh crop KiotViet nhăn, mờ → thay bằng ảnh chính hãng Binggrae (Melona Strawberry bản xuất khẩu), cùng nguồn với Melona Banana đã duyệt; ảnh hãng là bản gần giống (gói thật có thêm chữ 메로나, STRAWBERRY FLAVORED ICE BAR, 80 mL (82 g)) — cùng SP cùng vị (v6); phóng 2,8 lần (v3/v4)",
+    "source": {
+      "url": "https://www.bing.co.kr/upload/product/2025/09/b77fd95a-fbd7-4619-9537-b5dcb8fd99c8.png",
+      "page": "https://www.bing.co.kr/product/detail?PDT=62",
+      "fetchedAt": "2026-10-19T02:24:44Z"
+    },
+    "rubricVersion": "v23"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -62,10 +59,22 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T02:24:44Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "q19: brand image replaces cropped KiotViet photo (owner feedback 19/10), checked by eye"
+    },
+    {
+      "at": "2026-10-19T02:25:32.290Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-18T17:51:11.244Z",
+    "at": "2026-10-19T02:25:32.290Z",
     "fields": [
       "description",
       "image"

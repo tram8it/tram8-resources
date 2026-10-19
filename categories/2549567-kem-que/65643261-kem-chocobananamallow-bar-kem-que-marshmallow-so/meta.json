@@ -19,17 +19,17 @@
   },
   "status": "READY",
   "image": {
-    "decision": "CROP",
-    "reason": "I9: packshot nền trắng đúng SP (Chocobananamallow Bar), chưa 1:1 → crop",
-    "source": null,
-    "rubricVersion": "v4",
-    "vivid": {
-      "rubricVersion": "v10",
-      "saturationGain": 1.172,
-      "contrastGain": 1.055,
-      "toneGain": 1.002,
-      "gamma": 1
-    }
+    "decision": "REPLACE",
+    "reason": "Chủ 19/10: ảnh crop KiotViet mờ/nhăn, không đạt chuẩn như SP cùng dòng đã duyệt → Gemini vẽ lại theo phong cách SP cùng dòng (v14/v15/v17) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt chữ lớn (서주, 포~근하고! 달콤~한!, 초바멜로 바, CHOCOBANANAMALLOW BAR)",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-19",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet của SP (mẫu chữ/màu) + ảnh kem 옥수수 아이스샌드 cùng hãng đã duyệt (mẫu phong cách)"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -62,10 +62,22 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T02:24:27Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-19T02:25:24.797Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-18T17:51:11.244Z",
+    "at": "2026-10-19T02:25:24.797Z",
     "fields": [
       "description",
       "image"

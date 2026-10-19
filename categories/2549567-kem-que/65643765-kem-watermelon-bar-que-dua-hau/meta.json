@@ -19,17 +19,14 @@
   },
   "status": "READY",
   "image": {
-    "decision": "CROP",
-    "reason": "I9: packshot nền trắng đúng SP (Lotte Watermelon bar, khớp ảnh trên trang Lotte Wellfood), chưa 1:1 → crop",
-    "source": null,
-    "rubricVersion": "v4",
-    "vivid": {
-      "rubricVersion": "v10",
-      "saturationGain": 1.096,
-      "contrastGain": 1.031,
-      "toneGain": 1.132,
-      "gamma": 0.8
-    }
+    "decision": "REPLACE",
+    "reason": "Chủ 19/10: ảnh crop KiotViet nhăn, có tem phụ → thay bằng ảnh chính hãng Lotte Wellfood (수박바, cùng bao bì 여름엔~ 잘익은 수박바 như ảnh KiotViet); ảnh 512px phóng 2,5 lần (v3/v4), đã bỏ vùng bóng mờ trong suốt quanh gói",
+    "source": {
+      "url": "https://webimage.ldcc.co.kr/upload/conf/upload/2022/06/30/202206300c9405e3c23c445.png",
+      "page": "https://www.lottewellfood.com/brand/detail/product?seq=267&lang=ko",
+      "fetchedAt": "2026-10-19T02:24:44Z"
+    },
+    "rubricVersion": "v23"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -65,10 +62,22 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T02:24:44Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "q19: brand image replaces cropped KiotViet photo (owner feedback 19/10), checked by eye"
+    },
+    {
+      "at": "2026-10-19T02:25:27.913Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-18T17:51:11.244Z",
+    "at": "2026-10-19T02:25:27.913Z",
     "fields": [
       "description",
       "image"
