@@ -2,7 +2,7 @@
 
 > Sinh tự động bởi `node tools/status.mjs`. **Không sửa tay.** Nguồn sự thật là `meta.json` của từng SP.
 
-Tổng 2502 SP · đã xem 2502 (100%) · xong 2248 · chờ chủ duyệt 67 · cần chụp 186 · hỏi chủ 1
+Tổng 2502 SP · đã xem 2502 (100%) · xong 2248 · chờ chủ duyệt 76 · cần chụp 177 · hỏi chủ 1
 
 Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` = giữ nguyên + đã lên web.
 
@@ -112,13 +112,13 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 | 102 | Xà bông | 0.0tr | 9 | 0 | 5 | 0 | 0 | 0 | 0 | 0 | 4 |
 | 103 | Dụng cụ mi | 0.0tr | 8 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 8 |
 | 104 | Dao cạo & cạo râu | 0.0tr | 8 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 8 |
-| 105 | Món ăn no | 0.0tr | 8 | 0 | 0 | 0 | 5 | 0 | 0 | 0 | 3 |
+| 105 | Món ăn no | 0.0tr | 8 | 0 | 0 | 0 | 4 | 0 | 1 | 0 | 3 |
 | 106 | Dầu gội - Suôn mượt | 0.0tr | 8 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 8 |
 | 107 | Dưỡng da body | 0.0tr | 8 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 8 |
 | 108 | Pin các loại | 0.0tr | 8 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 8 |
 | 109 | Soju Vị Trái Cây | 0.0tr | 8 | 0 | 6 | 0 | 0 | 0 | 0 | 0 | 2 |
 | 110 | Trái cây tươi | 0.0tr | 8 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 8 |
-| 111 | Trà sữa | 0.0tr | 8 | 0 | 0 | 0 | 8 | 0 | 0 | 0 | 0 |
+| 111 | Trà sữa | 0.0tr | 8 | 0 | 0 | 0 | 0 | 0 | 8 | 0 | 0 |
 | 112 | Bánh gạo / cơm cháy / bánh ngọt | 0.0tr | 8 | 0 | 0 | 0 | 2 | 0 | 5 | 0 | 1 |
 | 113 | Rong biển ăn liền | 0.0tr | 8 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 7 |
 | 114 | Dụng cụ móng | 0.0tr | 7 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 7 |

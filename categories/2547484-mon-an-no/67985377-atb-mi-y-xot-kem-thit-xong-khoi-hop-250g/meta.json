@@ -17,12 +17,19 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh; 18/10 tìm lại: 'ATB à Table mì Ý xốt kem thịt xông khói hộp 250g' (web chỉ ra mì SG Food khác hãng), mã 8936087530586 (OFF/iCheck/KFM), SP cùng dãy Mì Ý Bò Bằm (khay đen + băng 'Fast and Fresh') — không có ảnh hộp vị xốt kem (món bên trong, nhãn vị) → cần chụp (v23: không vẽ đoán)",
-    "source": null,
-    "rubricVersion": "v23"
+    "reason": "chủ 19/10: vẽ theo hộp ATB bò bằm → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: ảnh minh hoạ: cùng hộp với vị bò bằm; món bên trong và chữ tên vị vẽ theo tên SP, nhãn thật có thể khác chi tiết",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-19",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh hộp ATB Mì Ý Bò Bằm 250g cùng dòng (chủ chỉ định)"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -49,6 +56,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "18/10 re-research (>=3 searches): still no image of this exact product → NEEDS_PHOTO"
+    },
+    {
+      "at": "2026-10-19T02:39:57Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "redo after Hub rejection:  — Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-19T02:39:57.805Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-19T02:39:57.805Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }
