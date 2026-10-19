@@ -1,0 +1,267 @@
+<title>Duyệt Thương Hiệu Trạm 8</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bungee&family=Sarabun:wght@400;600;700&display=swap">
+<style>
+/* Layout: sticky control bar, then categories as they will appear on tram8.vn, each split into brand groups. */
+:root{
+  --bg:#fbf9f8; --surface:#ffffff; --ink:#1f1a19; --muted:#6f6562; --line:#e9e2df;
+  --red:#ef2c28; --red-ink:#b81d1a; --red-soft:#fde6e5;
+  --ok:#16794a; --ok-soft:#dff3e8; --warn:#9a5b00; --warn-soft:#fbefd9; --bad:#b42318;
+  --display:"Bungee","Arial Black",system-ui,sans-serif;
+  --body:"Sarabun",system-ui,-apple-system,"Segoe UI",sans-serif;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#171312; --surface:#211b1a; --ink:#f2ecea; --muted:#ab9f9b; --line:#3a3130;
+  --red:#ff5a50; --red-ink:#ff8a82; --red-soft:#3d1f1d;
+  --ok:#4ccb8a; --ok-soft:#173326; --warn:#f0b450; --warn-soft:#3a2d14; --bad:#ff7b6e; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#171312; --surface:#211b1a; --ink:#f2ecea; --muted:#ab9f9b; --line:#3a3130;
+  --red:#ff5a50; --red-ink:#ff8a82; --red-soft:#3d1f1d;
+  --ok:#4ccb8a; --ok-soft:#173326; --warn:#f0b450; --warn-soft:#3a2d14; --bad:#ff7b6e; color-scheme:dark}
+*{box-sizing:border-box}[hidden]{display:none!important}
+body{background:var(--bg);color:var(--ink);font:15px/1.45 var(--body)}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--surface)}
+.wrap{padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));max-width:1080px;margin:0 auto}
+header{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--surface);border-bottom:3px solid var(--red)}
+header .wrap{padding-block:12px;display:grid;gap:8px;grid-template-columns:minmax(0,1fr)}
+h1{font:400 20px/1.1 var(--display);margin:0;color:var(--red);letter-spacing:.02em}
+.prog{font-size:13px;color:var(--muted);font-variant-numeric:tabular-nums}
+.prog b{color:var(--ink)}
+.bar{display:flex;flex-wrap:wrap;gap:6px;align-items:center}
+.chip{font:600 13px var(--body);padding:5px 10px;border-radius:999px;border:1px solid var(--line);background:var(--bg);color:var(--ink);cursor:pointer}
+.chip[aria-pressed="true"]{background:var(--red);border-color:var(--red);color:#fff}
+.chip:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible{outline:2px solid var(--red);outline-offset:2px}
+.search{display:flex;gap:6px}
+.search input,.search select{font:inherit;padding:7px 10px;border:1px solid var(--line);border-radius:8px;background:var(--bg);color:var(--ink);min-width:0}
+.search input{flex:1 1 0}.search select{flex:0 0 42%;width:42%}
+.howto{margin:14px 0 4px;padding:12px 14px;background:var(--surface);border:1px solid var(--line);border-radius:10px;font-size:14px}
+.howto ol{margin:6px 0 0;padding-left:20px;display:grid;gap:2px}
+.notice{margin:10px 0 0;padding:10px 12px;border-radius:8px;background:var(--warn-soft);color:var(--warn);font-size:14px}
+section{margin-top:26px}
+section>h2{font:700 19px/1.25 var(--body);margin:0 0 4px;text-wrap:balance}
+section>h2 small,.gh small{font-weight:400;color:var(--muted);font-size:13px}
+.g{margin-top:12px;content-visibility:auto;contain-intrinsic-size:auto 300px}
+.gh{display:flex;flex-wrap:wrap;align-items:center;gap:8px;padding:8px 10px;border-radius:10px;background:var(--surface);border:1px solid var(--line)}
+.gh h3{margin:0;font:700 16px var(--body);color:var(--red-ink);flex:1 1 140px;min-width:0;overflow-wrap:anywhere}
+.gh.ok{border-color:var(--ok);background:var(--ok-soft)}
+.gh.ok h3{color:var(--ok)}
+.btn{font:600 13px var(--body);padding:5px 10px;border-radius:8px;border:1px solid var(--line);background:var(--bg);color:var(--ink);cursor:pointer;white-space:nowrap}
+.btn.good[aria-pressed="true"]{background:var(--ok);border-color:var(--ok);color:#fff}
+.btn.badb[aria-pressed="true"]{background:var(--bad);border-color:var(--bad);color:#fff}
+.gnote{flex:1 1 100%;font:inherit;font-size:14px;padding:6px 9px;border:1px dashed var(--line);border-radius:8px;background:var(--bg);color:var(--ink)}
+.items{list-style:none;margin:8px 0 0;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(290px,1fr));gap:8px}
+.items>li{display:grid;grid-template-columns:64px minmax(0,1fr);gap:10px;padding:8px;background:var(--surface);border:1px solid var(--line);border-radius:10px}
+.items>li.off{opacity:.72}
+.items>li.wrong{border-color:var(--bad);box-shadow:inset 3px 0 0 var(--bad)}
+.th{width:64px;height:64px;border-radius:6px;background-color:#fff;background-repeat:no-repeat;background-size:960px auto}
+.th.none{display:grid;place-items:center;font-size:11px;color:#8a8a8a}
+.pn{font-weight:600;font-size:14px;overflow-wrap:anywhere}
+.meta{font-size:12px;color:var(--muted);font-variant-numeric:tabular-nums}
+.br{font-size:14px}.br s{color:var(--muted)}.br strong{font-weight:700}
+.c{display:inline-block;font-size:11px;font-weight:600;margin-left:4px;padding:0 7px;border-radius:999px;border:1px solid currentColor;vertical-align:1px}
+.c.CHAC{color:var(--ok)}.c.KIEM,.c.GIU_CHUA_KIEM{color:var(--warn)}.c.HOI,.c.XEM_ANH{color:var(--bad)}.c.TRONG{color:var(--muted)}
+.note{font-size:12px;color:var(--muted);overflow-wrap:anywhere}
+.acts{display:flex;flex-wrap:wrap;gap:6px;margin-top:4px;align-items:center}
+.fix{display:flex;gap:6px;flex:1 1 100%}
+.fix input{flex:1;min-width:0;font:inherit;font-size:14px;padding:5px 8px;border:1px solid var(--bad);border-radius:8px;background:var(--bg);color:var(--ink)}
+.said{font-size:13px;color:var(--bad);font-weight:600;overflow-wrap:anywhere}
+.empty{margin:30px 0;color:var(--muted);text-align:center}
+@media (prefers-reduced-motion:reduce){*{scroll-behavior:auto!important}}
+</style>
+
+<header><div class="wrap">
+  <h1>Duyệt thương hiệu</h1>
+  <div class="prog" id="prog">Đang tải…</div>
+  <div class="bar" role="group" aria-label="Lọc">
+    <button class="chip" data-f="all" aria-pressed="true">Tất cả</button>
+    <button class="chip" data-f="chg" aria-pressed="false">SP đổi</button>
+    <button class="chip" data-f="look" aria-pressed="false">Cần xem</button>
+    <button class="chip" data-f="todo" aria-pressed="false">Nhãn chưa duyệt</button>
+    <button class="chip" data-f="wrong" aria-pressed="false">Đã báo sai</button>
+  </div>
+  <div class="search">
+    <input id="q" type="search" placeholder="Tìm tên, mã, thương hiệu…" aria-label="Tìm">
+    <select id="jump" aria-label="Tới danh mục"><option value="">Tới danh mục…</option></select>
+  </div>
+</div></header>
+
+<main class="wrap">
+  <div class="howto">
+    <strong>Cách duyệt</strong> — mỗi danh mục chia theo thương hiệu, đúng như web sẽ hiện.
+    <ol>
+      <li>Nhóm đúng hết → bấm <b>✓ Nhãn đúng</b> ở đầu nhóm.</li>
+      <li>SP sai → bấm <b>Sai</b> ở SP đó, gõ thương hiệu đúng (để trống = "Khác"), bấm Lưu.</li>
+      <li>Muốn tách/gộp/đổi tên nhãn → gõ vào ô ghi chú ở đầu nhóm.</li>
+    </ol>
+    Mọi thứ tự lưu; Claude đọc được ghi chú để sửa. Chưa có gì ghi lên KiotViet.
+  </div>
+  <div id="notice" class="notice" hidden></div>
+  <div id="list"></div>
+  <p id="none" class="empty" hidden>Không có SP nào khớp bộ lọc.</p>
+</main>
+
+<script type="application/json" id="data">__DATA__</script>
+<script>
+const D = JSON.parse(document.getElementById("data").textContent);
+// row: [id, code, name, category, active, current, proposed, confidence, note, brandLine, sprite, slot]
+const LABEL = {CHAC:"chắc", KIEM:"cần xem", HOI:"mâu thuẫn", GIU_CHUA_KIEM:"giữ, chưa kiểm", XEM_ANH:"chưa biết", TRONG:"để trống"};
+const COLS = 15, CELL = 64;
+const brandState = new Map();   // brand -> {ok, note}
+const prodState = new Map();    // id -> {brand}
+let db = null, canWrite = false;
+
+const el = (tag, cls, text) => { const e = document.createElement(tag); if (cls) e.className = cls; if (text != null) e.textContent = text; return e; };
+const brandKey = (name) => { let h = 2166136261; for (const ch of name) { h ^= ch.codePointAt(0); h = Math.imul(h, 16777619) >>> 0; } return "b" + h.toString(16); };
+const show = (b) => b || "Khác (để trống)";
+
+// ---- render once ---------------------------------------------------------
+const list = document.getElementById("list");
+const jump = document.getElementById("jump");
+const groups = [];   // {brand, header, items:[li], section}
+const items = [];    // {row, li, text}
+let section = null, cat = null, group = null, catIndex = 0;
+for (const row of D.rows) {
+  const [id, code, name, category, active, current, proposed, conf, note, line, s, k] = row;
+  if (category !== cat) {
+    cat = category; group = null;
+    section = el("section"); section.id = "c" + (catIndex++);
+    const h = el("h2", null, category || "(chưa có danh mục)");
+    const n = D.rows.filter((r) => r[3] === category);
+    h.append(" ", el("small", null, `${n.length} SP · ${new Set(n.map((r) => r[6])).size} nhãn`));
+    section.append(h); list.append(section);
+    const o = el("option", null, category || "(chưa có danh mục)"); o.value = section.id; jump.append(o);
+  }
+  if (!group || group.brand !== proposed) {
+    const wrap = el("div", "g"), gh = el("div", "gh"), ul = el("ul", "items");
+    const h3 = el("h3", null, show(proposed));
+    const okBtn = el("button", "btn good", "✓ Nhãn đúng"); okBtn.type = "button"; okBtn.setAttribute("aria-pressed", "false");
+    const noteIn = el("input", "gnote"); noteIn.placeholder = "Ghi chú cho nhãn (tách / gộp / đổi tên)…"; noteIn.id = "n-" + brandKey(proposed) + "-" + section.id;
+    gh.append(h3, okBtn, noteIn); wrap.append(gh, ul); section.append(wrap);
+    group = {brand: proposed, header: gh, okBtn, noteIn, ul, wrap, section, items: []};
+    groups.push(group);
+    okBtn.onclick = () => saveBrand(group.brand, {ok: okBtn.getAttribute("aria-pressed") !== "true"});
+    let t; noteIn.oninput = ((b, input) => () => { clearTimeout(t); t = setTimeout(() => saveBrand(b, {note: input.value.trim()}), 900); })(proposed, noteIn);
+  }
+  group.header.querySelector("small")?.remove();
+  group.header.querySelector("h3").append(" ", el("small", null, String(group.items.length + 1)));
+
+  const li = el("li"); if (!active) li.classList.add("off");
+  const th = el("div", "th");
+  if (s >= 0) { th.style.backgroundImage = `url(sprites/${s}.jpg)`; th.style.backgroundPosition = `-${(k % COLS) * CELL}px -${Math.floor(k / COLS) * CELL}px`; }
+  else { th.classList.add("none"); th.textContent = "không ảnh"; }
+  const body = el("div");
+  body.append(el("div", "pn", name), el("div", "meta", `${code} · #${id}${active ? "" : " · ngừng bán"}`));
+  const br = el("div", "br");
+  if (current !== proposed) br.append(el("s", null, current || "(trống)"), " → ");
+  br.append(el("strong", null, show(proposed)), el("span", "c " + conf, LABEL[conf] || conf));
+  body.append(br);
+  if (note) body.append(el("div", "note", note));
+  if (line) body.append(el("div", "note", "Mô tả: " + line));
+  const acts = el("div", "acts"), said = el("span", "said");
+  const wrongBtn = el("button", "btn badb", "Sai"); wrongBtn.type = "button"; wrongBtn.setAttribute("aria-pressed", "false");
+  acts.append(wrongBtn, said); body.append(acts);
+  li.append(th, body); group.ul.append(li);
+  const item = {row, li, group, wrongBtn, said, acts, text: `${name} ${code} ${current} ${proposed} ${note}`.toLowerCase()};
+  wrongBtn.onclick = () => openFix(item);
+  group.items.push(item); items.push(item);
+}
+
+// ---- product fix form ----------------------------------------------------
+function openFix(item) {
+  if (item.acts.querySelector(".fix")) return;
+  const [id, , name] = item.row;
+  const f = el("form", "fix"), input = el("input"), save = el("button", "btn", "Lưu"), drop = el("button", "btn", "Bỏ");
+  input.id = "fix-" + id; input.placeholder = "Thương hiệu đúng (trống = Khác)";
+  input.value = prodState.get(id)?.brand ?? item.row[6];
+  save.type = "submit"; drop.type = "button";
+  f.append(input, save, drop); item.acts.append(f); input.focus(); input.select();
+  f.onsubmit = async (e) => { e.preventDefault(); f.remove(); await saveProduct(id, {brand: input.value.trim(), name, proposed: item.row[6]}); };
+  drop.onclick = async () => { f.remove(); if (prodState.has(id)) await saveProduct(id, null); };
+}
+
+// ---- state → UI ----------------------------------------------------------
+function paint() {
+  for (const g of groups) {
+    const st = brandState.get(g.brand) || {};
+    g.okBtn.setAttribute("aria-pressed", st.ok ? "true" : "false");
+    g.header.classList.toggle("ok", !!st.ok);
+    if (document.activeElement !== g.noteIn) g.noteIn.value = st.note || "";
+  }
+  for (const it of items) {
+    const p = prodState.get(it.row[0]);
+    it.li.classList.toggle("wrong", !!p);
+    it.wrongBtn.setAttribute("aria-pressed", p ? "true" : "false");
+    it.said.textContent = p ? "→ " + show(p.brand) : "";
+  }
+  const brands = new Set(D.rows.map((r) => r[6]));
+  const okCount = [...brands].filter((b) => brandState.get(b)?.ok).length;
+  document.getElementById("prog").innerHTML = "";
+  document.getElementById("prog").append(
+    `${D.rows.length} SP · ${brands.size} nhãn · đã duyệt `, el("b", null, `${okCount}/${brands.size}`),
+    " nhãn · báo sai ", el("b", null, String(prodState.size)), ` SP · bản chụp ${D.takenAt.slice(0, 16).replace("T", " ")} UTC`);
+  filter();
+}
+
+let mode = "all";
+function filter() {
+  const q = document.getElementById("q").value.trim().toLowerCase();
+  let any = false;
+  for (const it of items) {
+    const [, , , , , current, proposed, conf] = it.row;
+    const okMode =
+      mode === "all" || (mode === "chg" && current !== proposed) || (mode === "look" && conf !== "CHAC") ||
+      (mode === "todo" && !brandState.get(proposed)?.ok) || (mode === "wrong" && prodState.has(it.row[0]));
+    const vis = okMode && (!q || it.text.includes(q));
+    it.li.hidden = !vis; any ||= vis;
+  }
+  for (const g of groups) g.wrap.hidden = g.items.every((it) => it.li.hidden);
+  for (const s of list.children) s.hidden = [...s.querySelectorAll(".g")].every((w) => w.hidden);
+  document.getElementById("none").hidden = any;
+}
+for (const b of document.querySelectorAll(".chip")) b.onclick = () => {
+  mode = b.dataset.f; for (const x of document.querySelectorAll(".chip")) x.setAttribute("aria-pressed", x === b ? "true" : "false"); filter();
+};
+document.getElementById("q").oninput = filter;
+jump.onchange = () => { if (jump.value) document.getElementById(jump.value).scrollIntoView(); jump.value = ""; };
+
+// ---- storage ---------------------------------------------------------------
+function notice(text) { const n = document.getElementById("notice"); n.textContent = text; n.hidden = !text; }
+async function saveBrand(brand, patch) {
+  if (!db || !canWrite) return notice("Trang đang ở chế độ chỉ xem nên không lưu được. Mở bằng tài khoản chủ để duyệt.");
+  const next = {...(brandState.get(brand) || {ok: false, note: ""}), ...patch};
+  brandState.set(brand, next); paint();
+  try { await db.doc("brands/" + brandKey(brand)).set({name: brand, ok: !!next.ok, note: next.note || "", at: new Date().toISOString()}); notice(""); }
+  catch (e) { notice("Chưa lưu được ghi chú nhãn: " + (e?.message || e?.code || e) + ". Thử lại sau."); }
+}
+async function saveProduct(id, data) {
+  if (!db || !canWrite) return notice("Trang đang ở chế độ chỉ xem nên không lưu được. Mở bằng tài khoản chủ để duyệt.");
+  if (data) prodState.set(id, data); else prodState.delete(id);
+  paint();
+  try {
+    const ref = db.doc("products/" + id);
+    if (data) await ref.set({...data, at: new Date().toISOString()}); else await ref.delete();
+    notice("");
+  } catch (e) { notice("Chưa lưu được SP " + id + ": " + (e?.message || e?.code || e) + ". Thử lại sau."); }
+}
+
+paint();
+(async () => {
+  db = await window.claude?.use?.("db") ?? null;
+  const user = await window.claude?.use?.("user") ?? null;
+  if (!db) return notice("Trang đang ở chế độ chỉ xem (không kết nối được nơi lưu ghi chú). Vẫn xem và lọc được.");
+  const w = user ? user.can("data.write") : null;
+  canWrite = w !== false;
+  if (!canWrite) notice("Bạn chỉ có quyền xem: ghi chú không được lưu.");
+  db.collection("brands").onSnapshot((snap) => {
+    brandState.clear();
+    for (const d of snap.docs) { const v = d.data(); if (v?.name != null) brandState.set(v.name, {ok: !!v.ok, note: v.note || ""}); }
+    paint();
+  }, (e) => notice("Không đọc được ghi chú nhãn: " + (e?.message || e?.code)));
+  db.collection("products").onSnapshot((snap) => {
+    prodState.clear();
+    for (const d of snap.docs) { const v = d.data(); if (v) prodState.set(d.id, {brand: v.brand ?? ""}); }
+    paint();
+  }, (e) => notice("Không đọc được SP đã báo sai: " + (e?.message || e?.code)));
+})();
+</script>
