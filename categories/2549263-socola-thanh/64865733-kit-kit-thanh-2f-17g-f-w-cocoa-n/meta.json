@@ -17,17 +17,19 @@
     "description": "Bánh xốp KitKat 2 thanh phủ sô cô la sữa của Nestlé, giòn xốp, tiện cho bữa ăn nhẹ.\n\nQuy cách: 17 g (2 thanh) · thanh\nNhà sản xuất/thương hiệu: Nestlé · KitKat",
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "UPLOADED",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I5: ảnh cũ chụp nghiêng/nhăn/méo (chủ báo chưa đạt 16/10) → nắn phối cảnh ảnh hiện tại rồi Gemini vẽ lại packshot chính diện, thẳng đứng, nền trắng (v15); đã so chữ/logo với ảnh mẫu",
+    "reason": "chủ 19/10: ảnh KitKat nhìn chán → bộ ảnh đồng bộ: vỏ đặt chéo, to, kèm thanh bánh bóc vỏ → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: vỏ chép từ ảnh cũ; thanh bánh bên cạnh là minh hoạ; chữ nhỏ để mờ",
     "source": {
       "aiGenerated": true,
-      "tool": "Google Gemini Pro (chủ yêu cầu)",
-      "generatedAt": "2026-10-16",
-      "reference": "ảnh KiotViet hiện tại, nắn phối cảnh"
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-19",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh vỏ KitKat hiện có (hàng thật)"
     },
-    "rubricVersion": "v16"
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -93,10 +95,22 @@
       "by": "init",
       "status": "UPLOADED",
       "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-19T03:06:30Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "redo after Hub rejection:  — Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-19T03:06:30.916Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-15T18:09:53.102Z",
+    "at": "2026-10-19T03:06:30.916Z",
     "fields": [
       "description",
       "image"

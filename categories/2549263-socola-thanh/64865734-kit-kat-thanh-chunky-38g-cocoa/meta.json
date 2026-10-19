@@ -17,12 +17,19 @@
     "description": "KitKat Chunky của Nestlé: một thanh bánh xốp lớn phủ lớp sô cô la sữa dày.\n\nQuy cách: 38 g · thanh\nNhà sản xuất/thương hiệu: Nestlé · KitKat",
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "UPLOADED",
+  "status": "READY",
   "image": {
-    "decision": "KEEP",
-    "reason": "I1–I9 đạt: packshot nền trắng, 1:1, đúng SP",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "REPLACE",
+    "reason": "chủ 19/10: ảnh KitKat nhìn chán → bộ ảnh đồng bộ: vỏ đặt chéo, to, kèm thanh bánh bóc vỏ → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: vỏ chép từ ảnh cũ; thanh bánh bên cạnh là minh hoạ; chữ nhỏ để mờ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-19",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh vỏ KitKat hiện có (hàng thật)"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -64,12 +71,25 @@
       "by": "init",
       "status": "UPLOADED",
       "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-19T03:06:33Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "redo after Hub rejection:  — Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-19T03:06:34.055Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-15T02:53:13.415Z",
+    "at": "2026-10-19T03:06:34.055Z",
     "fields": [
-      "description"
+      "description",
+      "image"
     ],
     "hubStatus": "PENDING"
   },
