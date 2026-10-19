@@ -16,8 +16,9 @@ back over a newer edit.
 
 With --units the proposals file is reports/don-vi/de-xuat-*.csv
 (kiotProductId,proposed = the unit) and only the ĐVT cell changes; brand and
-weight are left as exported. Only products with no lốc/thùng rows qualify:
-on those the base unit is what the pack rows convert from.
+weight are left as exported. Only products with no lốc/thùng rows qualify
+(their pack rows convert from the base unit) unless --with-packs is given;
+the pack rows themselves are not in the file and must come out unchanged.
 
 Writes <out>.xlsx, <out>.csv (plan for brand-diff.mjs) and <out>.md (cell-by-
 cell list of what changes). Standard library only.
@@ -42,6 +43,7 @@ ap.add_argument("--all", action="store_true", help="every product whose brand ch
 ap.add_argument("--take", type=int)
 ap.add_argument("--skip", type=int, default=0)
 ap.add_argument("--units", action="store_true", help="set the ĐVT cell from the proposals file instead of the brand")
+ap.add_argument("--with-packs", action="store_true", help="with --units: also take base products that have lốc/thùng rows")
 ap.add_argument("--out", required=True)
 args = ap.parse_args()
 
@@ -143,7 +145,7 @@ for pid in want:
     if args.units:
         if (get("ĐVT") or "") != escape(p.get("unit") or ""):
             problems.append("ĐVT khác")
-        if any(str(q.get("masterUnitId")) == pid for q in products.values()):
+        if not args.with_packs and any(str(q.get("masterUnitId")) == pid for q in products.values()):
             problems.append("có lốc/thùng")
     elif brand_now != r["current"]:
         problems.append("đề xuất lập trên dữ liệu cũ")
