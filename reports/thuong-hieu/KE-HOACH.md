@@ -56,6 +56,8 @@ Một nhãn viết hai kiểu là hai nhóm trên web.
    vào nhóm "Khác"; khi duyệt chủ báo nhãn nào cần tách riêng. Đang để trống: nhãn chỉ biết tên công ty (Hải Đăng Đỏ,
    Lâm Vũ, IAMG, Vinfoods, Tràng An), Love Minimart, Meo Meo, và nhãn mới chỉ đọc từ ảnh có dưới 3 SP
    (`MIN_NEW_BRAND_PRODUCTS`).
+3a. **Trọng lượng về 0 hết** (chủ, 19/10/2026): chưa dùng tới, gram đã ghi trong mô tả; sau này cập nhật một lượt.
+   Làm cùng file Excel đổi thương hiệu (cột Trọng lượng = 0); `brand-diff --zero-weight`.
 3b. **Hàng nội địa Trung, nhãn không mạnh:** ghi chung **"Hàng nội địa Trung"** — các nhãn có `"g"` trong bảng chuẩn
    (Jinmofang, Qiao Da Niang, Meco, Hesan, Kam Yuens, Hongbaolai, Heytea…), nhãn đọc từ ảnh chỉ có chữ Hán, và SP mô tả
    ghi hàng Trung Quốc mà không thấy nhãn. Giữ riêng nhãn Trung đã có tiếng ở VN: Wang Lao Ji, JDB, Want Want.

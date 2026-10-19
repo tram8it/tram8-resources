@@ -2,7 +2,7 @@
  * Compare two brand snapshots (brand-snapshot.mjs) against what a Chrome batch
  * was meant to do, and fail loudly on anything else.
  *
- *   node tools/brand-diff.mjs <before.json> <after.json> [plan.csv] [--out report.md]
+ *   node tools/brand-diff.mjs <before.json> <after.json> [plan.csv] [--zero-weight] [--out report.md]
  *
  * plan.csv columns (header required): kind,kiotProductId,brandId,from,to
  *   product  kiotProductId, from (current brand name, empty = none), to (target name, empty = remove)
@@ -22,6 +22,11 @@ import { isDeepStrictEqual } from "node:util";
 import { parseCsv } from "./lib.mjs";
 
 const args = process.argv.slice(2);
+// Owner, 19/10/2026: weights go to 0 for now (the description states grams;
+// they get filled in one go later). With this flag a weight that became 0 is
+// a note; a weight that changed to anything else is still an alarm.
+const zeroAt = args.indexOf("--zero-weight");
+const zeroWeight = zeroAt >= 0 && args.splice(zeroAt, 1).length > 0;
 const outAt = args.indexOf("--out");
 const outPath = outAt >= 0 ? args.splice(outAt, 2)[1] : null;
 const [beforePath, afterPath, planPath] = args;
@@ -89,6 +94,7 @@ const pAfter = new Map(after.products.map((p) => [String(p.id), p]));
 const label = (p) => `${p.code} ${show(p.name)} (#${p.id})`;
 const brandName = (p) => p.brand?.name ?? "";
 // brandLine and chineseHint are read out of the description, which descriptionSha already covers.
+let zeroed = 0;
 const IGNORED = new Set(["brand", "modifiedAt", "brandLine", "chineseHint"]);
 
 for (const [id, p] of pBefore) if (!pAfter.has(id)) alarm("SP_BIEN_MAT", label(p));
@@ -135,9 +141,15 @@ for (const [id, a] of pAfter) {
   for (const key of new Set([...Object.keys(b), ...Object.keys(a)])) {
     if (IGNORED.has(key) || isDeepStrictEqual(b[key], a[key])) continue;
     if (descHandled && descKeys.includes(key)) continue;
+    if (zeroWeight && key === "weight" && a.weight === 0) {
+      zeroed++;
+      continue;
+    }
     alarm("TRUONG_KHAC_BI_DOI", `${label(a)} · \`${key}\`: ${JSON.stringify(b[key])} → ${JSON.stringify(a[key])}`);
   }
 }
+
+if (zeroed) notes.push(`- ${zeroed} dòng hàng có trọng lượng về 0 (--zero-weight)`);
 
 const report = [
   `# So sánh thương hiệu`,
