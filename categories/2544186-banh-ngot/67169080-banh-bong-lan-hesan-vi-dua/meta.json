@@ -17,12 +17,20 @@
     "description": null,
     "exportedAt": "2026-10-19T03:17:44.875Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I5: ảnh KiotViet chụp cận nhãn túi Hesan (河山); 18/10 tìm lại: 'bánh bông lan Hesan 河山 vị dứa/dâu/truyền thống' (chỉ ra 1 danh mục nhà bán lẻ không ảnh), mã vạch 69723833264xx (OFF/iCheck/KFM) — không có ảnh trọn túi → cần chụp; (hết lượt tìm web 18/10, chưa tìm thêm được)",
-    "source": null,
-    "rubricVersion": "v23"
+    "reason": "I3/I5: ảnh KiotViet chụp cận túi Hesan (河山); 19/10 tìm web (tên Việt, chữ Hàn '옛날카스테라'/'계란빵', 河山, mã vạch, ảnh ngược Yandex) không có ảnh nào, nhưng ảnh KiotViet thấy gần trọn hình in → vẽ lại cả túi từ ảnh KiotViet (v23) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: mép túi, số bánh và phần chữ bị cắt ở mép phải do AI hoàn thiện theo ảnh mẫu",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-19",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet nhân viên chụp (chỉ làm mẫu)",
+      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/07/20/tram8/3becaf75bc41424a80d853c0a55a8240.jpeg"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -55,6 +63,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "18/10 re-research (>=3 searches): still no image of this exact product → NEEDS_PHOTO"
+    },
+    {
+      "at": "2026-10-19T07:36:38Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-19T07:36:39.062Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-19T07:36:39.062Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }
