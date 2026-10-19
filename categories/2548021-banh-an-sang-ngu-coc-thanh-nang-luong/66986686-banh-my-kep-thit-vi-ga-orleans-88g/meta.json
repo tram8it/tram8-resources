@@ -17,18 +17,30 @@
     "description": null,
     "exportedAt": "2026-10-19T03:17:44.875Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh; không tìm được ảnh gói 88 g vị gà Orleans (mã 6970766913217) trên mạng → không có mẫu để Gemini vẽ, cần chụp",
-    "source": null,
-    "rubricVersion": "v17"
+    "reason": "ảnh nhân viên chụp 19/10 (gói nhăn, nền đá) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ thương hiệu cạnh linh vật bị nếp gấp che trong ảnh gốc, Gemini tự viết 'KIDO's' → đã xoá chữ đó (tô nền), chỉ giữ linh vật; dòng chữ nhỏ dưới khối lượng để mờ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-19",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh nhân viên chụp (KiotViet 19/10)",
+      "referenceUrl": "https://cdn1-retail-images.kiotviet.vn/2026/10/19/tram8/ca6195c914134432a696a1d01cf936b1.png"
+    },
+    "rubricVersion": "v23"
   },
   "description": {
     "decision": "WRITE_NEW",
-    "reason": "D1: chưa có mô tả; viết ngắn chỉ từ tên SP",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "mô tả viết từ chữ in trên bao bì trong ảnh nhân viên chụp 19/10 (mặt trước/nắp); chỉ dữ kiện đọc được, không suy diễn",
+    "source": {
+      "url": "https://cdn1-retail-images.kiotviet.vn/2026/10/19/tram8/ca6195c914134432a696a1d01cf936b1.png",
+      "fetchedAt": "2026-10-19T06:34:42Z",
+      "staffPhoto": true
+    },
+    "rubricVersion": "v23"
   },
   "question": null,
   "history": [
@@ -55,6 +67,32 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "staff photo 2026-10-18 received (work/gemini/<id>/refs/2-staff.jpg) but wrinkled/tilted/glare → needs Gemini redraw; GEMINI_API_KEY not set on this machine"
+    },
+    {
+      "at": "2026-10-19T06:33:30Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-19T06:34:42Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "nk6 19/10: staff photo → Gemini redraw accepted; description written from the pack in the photo"
+    },
+    {
+      "at": "2026-10-19T06:35:17.131Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-19T06:35:17.131Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

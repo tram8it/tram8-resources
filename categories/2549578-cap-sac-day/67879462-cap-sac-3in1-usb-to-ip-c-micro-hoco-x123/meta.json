@@ -17,18 +17,30 @@
     "description": null,
     "exportedAt": "2026-10-19T03:17:44.875Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh; tra 18/10: hocotech.com không có X123; nhà bán lẻ (priceoye, mobie.co.nz) chỉ có ảnh dây và có cả bản 2-in-1 cùng tên → cần chụp hộp đang bán",
-    "source": null,
+    "reason": "ảnh nhân viên chụp 19/10 (nền đá); đồng bộ dãy cáp Hoco → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ nhỏ đa ngôn ngữ vẽ gần đúng; chữ lớn (hoco, X123, 6-IN-1, 3.0A, 1m) khớp",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-19",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh nhân viên chụp (KiotViet 19/10)",
+      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/10/19/tram8/5b3a60e7b14b49cfa0603200b2b5c899.png"
+    },
     "rubricVersion": "v23"
   },
   "description": {
     "decision": "WRITE_NEW",
-    "reason": "D1: chưa có mô tả; mô tả ngắn chỉ từ tên SP",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "mô tả viết từ chữ in trên bao bì trong ảnh nhân viên chụp 19/10 (mặt trước/nắp); chỉ dữ kiện đọc được, không suy diễn",
+    "source": {
+      "url": "https://cdn2-retail-images.kiotviet.vn/2026/10/19/tram8/5b3a60e7b14b49cfa0603200b2b5c899.png",
+      "fetchedAt": "2026-10-19T06:34:42Z",
+      "staffPhoto": true
+    },
+    "rubricVersion": "v23"
   },
   "question": null,
   "history": [
@@ -55,6 +67,32 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "np18 re-research 18/10: still no usable reference for this exact pack (see image.reason)"
+    },
+    {
+      "at": "2026-10-19T06:33:32Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-19T06:34:42Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "nk6 19/10: staff photo → Gemini redraw accepted; description written from the pack in the photo"
+    },
+    {
+      "at": "2026-10-19T06:35:40.427Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-19T06:35:40.427Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

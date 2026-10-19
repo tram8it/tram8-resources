@@ -55,3 +55,5 @@ Hàng thật xác định theo mã vạch; ảnh + mô tả đã làm theo hàng
 | 67574185 | Bánh bông lan tam giác vị dâu (Cái) | Bánh bông lan tam giác Weisiel Red Velvet (Red Velvet Flavored Cake), không thấy chữ vị dâu | ảnh KiotViet |
 | 65812658 | Trà lê | Ảnh nhân viên là cốc 植光 蜜瓜奶昔 (sữa lắc dưa lưới) 400 g, không phải trà lê — kiểm tra tên hoặc ảnh gắn nhầm | ảnh nhân viên 19/10 |
 | 68465276 | 3H dưa chuột muối chua cay gói 20g | Gói hãng 石磨小镇 (我家菜园子 黄瓜 香辣味), không phải 3H | ảnh nhân viên 19/10 |
+| 64865421 | Kem vani Hạt Macadamia Celano hộp 125ml (hộp) | Kem sữa chua Celano Nam việt quất 125 ml, không phải vani macadamia | ảnh nhân viên 19/10; Kingfoodmart/Minh Cầu Mart theo mã 8936011771337 |
+| 67879462 | Cáp Sạc 3in1 ( USB to IP + C + Micro) HoCo X123 (Bộ) | Hộp in "6-IN-1": hai đầu vào USB-A và USB-C, ba đầu ra iP + USB-C + Micro-USB, 3.0A, 1 m | ảnh nhân viên 19/10 |

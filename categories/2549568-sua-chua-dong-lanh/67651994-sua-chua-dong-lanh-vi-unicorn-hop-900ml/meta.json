@@ -17,18 +17,30 @@
     "description": null,
     "exportedAt": "2026-10-19T03:17:44.875Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh; nhà sản xuất có lẽ là 'Sữa chua Trần Châu Hạ Long' (chữ trên logo thuyền ở nắp hộp 900ml cùng dòng) nhưng không có trang hãng; Kingfoodmart/Open Food Facts không có mã vạch này; không biết hình vị/kiểu hộp nên không vẽ → cần chụp",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "ảnh nhân viên chụp 19/10 (nền đá); đồng bộ dãy sữa chua đông lạnh 900ml Trân Châu Hạ Long → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: đã bỏ NSX/HSD/mã lô in phun; khối chữ nhỏ thành phần/hướng dẫn để mờ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-19",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh nhân viên chụp (KiotViet 19/10)",
+      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/10/19/tram8/dcccec343d444bbdb2cac301702573aa.png"
+    },
+    "rubricVersion": "v23"
   },
   "description": {
     "decision": "WRITE_NEW",
-    "reason": "D1: chưa có mô tả; mô tả ngắn chỉ từ dữ kiện chắc chắn (tên SP), không có nguồn hãng; không rõ thương hiệu nên bỏ mục nhà sản xuất",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "mô tả viết từ chữ in trên bao bì trong ảnh nhân viên chụp 19/10 (mặt trước/nắp); chỉ dữ kiện đọc được, không suy diễn",
+    "source": {
+      "url": "https://cdn2-retail-images.kiotviet.vn/2026/10/19/tram8/dcccec343d444bbdb2cac301702573aa.png",
+      "fetchedAt": "2026-10-19T06:34:42Z",
+      "staffPhoto": true
+    },
+    "rubricVersion": "v23"
   },
   "question": null,
   "history": [
@@ -49,6 +61,32 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "no reference for this flavour/size (KFM, OFF); sibling 900ml lids show the 'Sữa chua Trần Châu Hạ Long' logo; not drawn to avoid inventing"
+    },
+    {
+      "at": "2026-10-19T06:33:32Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-19T06:34:42Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "nk6 19/10: staff photo → Gemini redraw accepted; description written from the pack in the photo"
+    },
+    {
+      "at": "2026-10-19T06:35:37.422Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-19T06:35:37.422Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

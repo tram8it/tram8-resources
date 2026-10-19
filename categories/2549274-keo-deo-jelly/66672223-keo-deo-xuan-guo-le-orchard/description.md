@@ -1,4 +1,4 @@
-Kẹo dẻo Xuan Guo Le Orchard hương trái cây.
+Kẹo dẻo hình hạt đậu Xuan Guo Le (旋果乐) của Tianfeng, nhiều vị trái cây trong một hũ nhựa trong chia 4 ngăn.
 
-Quy cách: hộp
-Nhà sản xuất/thương hiệu: Xuan Guo Le
+Quy cách: hộp (hũ 4 ngăn)
+Nhà sản xuất/thương hiệu: Tianfeng

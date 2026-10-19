@@ -17,18 +17,30 @@
     "description": "<span style=\"color:#162a52;font-family:Inter, sans-serif;background-color:#ffffff;\">1. Tên sản phẩm: BÁNH MÌ ĐÔNG LẠNH KEM TƯƠI SỐ CÔ LA – CHOCO FRESH CREAM BREAD</span><br style=\"box-sizing:border-box;color:#162a52;font-family:Inter, sans-serif;background-color:#ffffff;\"><span style=\"color:#162a52;font-family:Inter, sans-serif;background-color:#ffffff;\">2. Thành phần: Bột mì 40%, kem làm bánh từ thực vật vị sô cô la 30%, sữa, bơ thay thế, trứng, men bánh mì 2%, phụ gia làm bánh 1% (tinh bột, chất nhũ hóa (INS 472e), đường, chất chống oxy hóa (INS 300), chất xử lý bột (INS 1100(i))).</span><br style=\"box-sizing:border-box;color:#162a52;font-family:Inter, sans-serif;background-color:#ffffff;\"><span style=\"color:#162a52;font-family:Inter, sans-serif;background-color:#ffffff;\">3. Thời hạn sử dụng sản phẩm: 3 ngày kể từ ngày sản xuất.</span><br style=\"box-sizing:border-box;color:#162a52;font-family:Inter, sans-serif;background-color:#ffffff;\"><span style=\"color:#162a52;font-family:Inter, sans-serif;background-color:#ffffff;\">4. Quy cách đóng gói và chất liệu bao bì:</span><br style=\"box-sizing:border-box;color:#162a52;font-family:Inter, sans-serif;background-color:#ffffff;\"><span style=\"color:#162a52;font-family:Inter, sans-serif;background-color:#ffffff;\">– Quy cách đóng gói: Đóng gói kín.</span><br style=\"box-sizing:border-box;color:#162a52;font-family:Inter, sans-serif;background-color:#ffffff;\"><span style=\"color:#162a52;font-family:Inter, sans-serif;background-color:#ffffff;\">Khối lượng tịnh: 75 g. Hoặc khối lượng tịnh khác theo yêu cầu khách hàng và được thể hiện rõ trên bao bì sản phẩm.</span><br style=\"box-sizing:border-box;color:#162a52;font-family:Inter, sans-serif;background-color:#ffffff;\"><span style=\"color:#162a52;font-family:Inter, sans-serif;background-color:#ffffff;\">– Chất liệu bao bì: Sản phẩm được đóng gói trực tiếp trong bao bì nhựa OPP hoặc nhựa PET/ CPP hoặc PA/ PE. Cam kết bao bì đảm bảo vệ sinh an toàn thực phẩm theo quy định của Bộ Y Tế.</span>",
     "exportedAt": "2026-10-19T03:17:44.875Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I2: ảnh KiotViet là gói Choco Fresh Cream một lớp (SP khác); 18/10 tìm lại: danh mục cobibread.com, 'Cobi Double Choco Fresh Cream bread', 'bánh mì kem tươi 2 lớp socola Cobi' + mã 8935299658064, Kingfoodmart/tteokbokki — không có SP 2 lớp → cần chụp mặt trước gói",
-    "source": null,
+    "reason": "ảnh nhân viên chụp 19/10 (gói phồng, nhăn, nền đá); đồng bộ dãy Cobi (vẽ phẳng) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: dòng khối lượng và nhiệt độ bảo quản để mờ (ảnh gốc không đọc được); chữ lớn khớp",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-19",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh nhân viên chụp (KiotViet 19/10)",
+      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/10/19/tram8/07cd1c20435a4046adc56080618b1ea5.png"
+    },
     "rubricVersion": "v23"
   },
   "description": {
     "decision": "REWRITE",
-    "reason": "D2: mô tả cũ là của bánh mì kem tươi sô cô la (SP khác); viết ngắn chỉ từ tên SP, không có nguồn hãng",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "mô tả viết từ chữ in trên bao bì trong ảnh nhân viên chụp 19/10 (mặt trước/nắp); chỉ dữ kiện đọc được, không suy diễn",
+    "source": {
+      "url": "https://cdn2-retail-images.kiotviet.vn/2026/10/19/tram8/07cd1c20435a4046adc56080618b1ea5.png",
+      "fetchedAt": "2026-10-19T06:34:42Z",
+      "staffPhoto": true
+    },
+    "rubricVersion": "v23"
   },
   "question": null,
   "history": [
@@ -55,6 +67,32 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "18/10 re-research (>=3 searches): still no image of this exact product → NEEDS_PHOTO"
+    },
+    {
+      "at": "2026-10-19T06:33:30Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-19T06:34:42Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "nk6 19/10: staff photo → Gemini redraw accepted; description written from the pack in the photo"
+    },
+    {
+      "at": "2026-10-19T06:35:10.886Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-19T06:35:10.886Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }
