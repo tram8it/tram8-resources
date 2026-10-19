@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I1/I3: chưa có ảnh gói lẻ đạt; không có ảnh hãng/NPP (ảnh KiotViet là thùng 12 g x20) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: nửa dưới gói lẻ vẽ theo phần nhìn thấy trên ảnh mẫu, chữ nhỏ dưới 16g không đọc được",
@@ -69,6 +69,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T02:05:27.524Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -78,5 +84,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T01:35:23.655Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T01:35:23.655Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/2a5258e4c62f5910bc770881ed6bf0db1c9850f60d4ec8931916ca23bbfbd12c.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/08/25/tram8/04478500808a4e058e8e5f97f6b1d69c.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Mực xào tương vị cay thơm của Qiaodaniang (巧大娘), mực tẩm gia vị đóng gói nhỏ, ăn liền.\n\nQuy cách: 16 g · gói\nXuất xứ: Trung Quốc · Nhà sản xuất: Hồ Nam Xảo Đại Nương (湖南巧大娘食品有限公司)",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

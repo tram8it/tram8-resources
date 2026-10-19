@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I1: chưa có ảnh → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt chữ lớn (BR baskin robbins, MILKY SODA, MANGO TANGO, 망고탱고 밀키소다, 350 ml (172 kcal))",
@@ -75,6 +75,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T02:05:27.524Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -84,5 +90,89 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T01:51:30.111Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T01:51:30.111Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/0e65885a1798ecb26d3a7ad460c5ed167bcae5f4fb657da497ea07ccceff31da.webp"
+        ],
+        "from": null
+      },
+      "description": {
+        "to": "Soda sữa Baskin Robbins Milky Soda vị xoài (Mango Tango) của Hàn Quốc, nước có ga vị sữa, không chứa cồn. Lon ghi 350 ml (172 kcal).\n\nQuy cách: 350 ml · lon\nXuất xứ: Hàn Quốc · Thương hiệu: Baskin Robbins",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {
+      "price": {
+        "to": 21296.3,
+        "from": 20909.09
+      },
+      "saleTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 68118111
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 68118111
+        }
+      },
+      "taxRate": {
+        "to": "VAT 8%",
+        "from": "VAT 10%"
+      },
+      "productTaxs": {
+        "to": [
+          {
+            "id": 0,
+            "name": "VAT 8%",
+            "taxId": 3,
+            "value": 8,
+            "productId": 68118111
+          }
+        ],
+        "from": [
+          {
+            "id": 0,
+            "name": "VAT 10%",
+            "taxId": 4,
+            "value": 10,
+            "productId": 68118111
+          }
+        ]
+      },
+      "purchaseTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 68118111
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 68118111
+        }
+      }
+    }
   }
 }

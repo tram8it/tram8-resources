@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I1: chưa có ảnh; panasonic.com/vn chặn truy cập (403) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: 4 viên AA NEO bọc màng co trong; gói thật có thêm nhãn giấy nhỏ in mã R6NT trên màng (không vẽ vì không đọc được)",
@@ -87,6 +87,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T02:05:27.524Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -96,5 +102,28 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T01:49:33.344Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T01:49:33.344Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/89aafb6f058e0906c12397ba3a67a94e87a08835edf1558587361082247a05c5.webp"
+        ],
+        "from": null
+      },
+      "description": {
+        "to": "Pin tiểu AA Panasonic NEO mã R6NT/4SB-V, loại pin than (kẽm-carbon) 1,5V, dùng cho điều khiển từ xa, đồng hồ, đèn pin và các thiết bị tiêu thụ điện thấp.\n\nQuy cách: 4 viên bọc màng co · cỡ AA (R6) · 1,5V\nNhà sản xuất/thương hiệu: Panasonic",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

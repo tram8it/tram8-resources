@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "chủ 18/10: khay mì Ý hình chữ nhật; cơm cuộn tái tạo đúng ảnh chụp, giữ góc chéo → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: vẽ lại sạch trên nền trắng; chữ nhỏ để mờ",
@@ -110,6 +110,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T02:05:27.524Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -121,9 +127,28 @@
     "hubStatus": "PENDING"
   },
   "review": {
-    "status": "REJECTED",
+    "status": "APPLIED",
     "reviewedBy": "AU KHUONG DUY",
-    "reviewedAt": "2026-10-18T17:29:52.611Z",
-    "note": "Làm tương tự với cái còn lại"
+    "reviewedAt": "2026-10-18T17:46:29.427Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-18T17:46:29.427Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/1b3be362ff84a53f5b158687fa4f3d286d2d8de9d2dda72ff79059c81ce693e6.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/10/17/tram8/0cc19685898841d1b7ecd1d2cffe3bc5.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Cơm cuộn bò phô mai tan chảy, món cơm cuộn ăn liền tiện lợi cho bữa sáng hoặc bữa nhẹ.\n\nQuy cách: cái",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

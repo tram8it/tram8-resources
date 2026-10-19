@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I3/I6/I8: ảnh KiotViet mờ, cả khay nhiều màu → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: vẽ 1 cái màu đỏ; đáy bật lửa bị khay che trên ảnh gốc nên vẽ theo dáng bật lửa gas thường; hàng có nhiều màu",
@@ -74,6 +74,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T02:05:27.524Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -83,5 +89,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T01:35:42.690Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T01:35:42.690Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/35c4893be3156fbec498ae8ed3bd4c3c947b02051d174b5ff2a9804ca1ae6b24.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/08/07/tram8/79c6a27251ba4fca82a86fb0e7201c2e.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Bật lửa gas loại thường Thống Nhất, mã GL04, bán lẻ từng cái, nhiều màu.\n\nQuy cách: 1 cái\nThương hiệu: Thống Nhất\nLưu ý: Để xa tầm tay trẻ em, tránh nguồn nhiệt và ánh nắng trực tiếp.",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I3/I5: ảnh KiotViet chụp cận nắp → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt chữ lớn (THỊT CHUA TRƯỜNG FOODS, VỊ HẠT RỪNG); bỏ rổ thịt và tiêu đề quảng cáo, chỉ vẽ hũ",
@@ -69,6 +69,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T02:05:27.524Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -78,5 +84,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T01:48:45.687Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T01:48:45.687Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/a3a96cf77650afa1597119c00bd2e0ab4b3498d5a6548ff9e918a2996bcda8be.webp"
+        ],
+        "from": [
+          "https://cdn1-retail-images.kiotviet.vn/2026/03/22/tongpenhchtl/1a855e7d20f04895ba6fc149100b653e.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Thịt chua Trường Foods vị hạt rừng, đặc sản lên men từ thịt heo của vùng Thanh Sơn, Phú Thọ, đóng hũ.\n\nQuy cách: hộp\nNhà sản xuất/thương hiệu: Công ty CP Lita Foods · Trường Foods\nBảo quản: ngăn mát tủ lạnh.",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

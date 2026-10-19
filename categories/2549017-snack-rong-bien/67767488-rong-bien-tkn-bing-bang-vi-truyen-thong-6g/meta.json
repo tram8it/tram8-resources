@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I8: ảnh KiotViet nhiều gói xếp chồng và sai vị; không có ảnh hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ lớn khớp (Tao Kae Noi, Big bang, Save Pack, Grilled Seaweed, Classic Flavour, Net Wt. 0.21oz (6 g)); chữ nhỏ mờ",
@@ -69,6 +69,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T02:05:27.524Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -78,5 +84,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T01:34:56.208Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T01:34:56.208Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/feed38b81b485f6396bf0abec380c7c9ff6cd330ac515f6ea464213e97316892.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/08/22/tram8/6c9a8886acde4544ba333617c5036ec9.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Rong biển Big Bang Tao Kae Noi vị truyền thống, món ăn vặt rong biển giòn ăn liền của thương hiệu Thái Lan.\n\nQuy cách: 6 g · gói\nXuất xứ: Thái Lan · Thương hiệu: Tao Kae Noi",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

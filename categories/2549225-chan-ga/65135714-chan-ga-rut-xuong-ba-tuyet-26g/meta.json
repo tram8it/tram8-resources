@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I1: chưa có ảnh; mã 8938564591011 là gói đơn 26 g (lốc kèm sốt mã khác) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ lớn khớp (Ăn cùng Bà Tuyết, Chân gà Bà Tuyết, Rút xương, Hình ảnh chỉ mang tính chất minh họa); không in khối lượng; chữ nhỏ mờ",
@@ -75,6 +75,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T02:05:27.524Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -84,5 +90,28 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T01:50:45.516Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T01:50:45.516Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/2e8b2616bdc02a30b3d041b068abdc34a01ba6c32eeaa27d1a633dc4666c6071.webp"
+        ],
+        "from": null
+      },
+      "description": {
+        "to": "Chân gà rút xương Ăn Cùng Bà Tuyết: chân gà đã rút xương, đóng gói nhỏ ăn liền.\n\nQuy cách: 26 g · gói\nNhà sản xuất/thương hiệu: Ăn Cùng Bà Tuyết",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

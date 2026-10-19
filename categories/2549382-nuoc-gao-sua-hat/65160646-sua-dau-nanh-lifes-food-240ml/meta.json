@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "READY",
+  "status": "IN_PROGRESS",
   "image": {
     "decision": "REPLACE",
     "reason": "I1: chưa có ảnh → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt chữ lớn (Sữa đậu nành, Life's Food, 100% nông sản Việt Nam, 240 ml)",
@@ -78,6 +78,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T02:05:27.524Z",
+      "by": "owner",
+      "status": "IN_PROGRESS",
+      "note": "rejected on Hub by AU KHUONG DUY: Tham khảo các sữa bắp non khác"
     }
   ],
   "submitted": {
@@ -87,5 +93,11 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "REJECTED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T01:42:55.652Z",
+    "note": "Tham khảo các sữa bắp non khác"
   }
 }

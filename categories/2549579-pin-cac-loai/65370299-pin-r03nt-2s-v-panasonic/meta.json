@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I1: chưa có ảnh; panasonic.com/vn chặn truy cập (403) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: 2 viên AAA NEO bọc màng co trong như hàng R03NT/2S; chữ trên thân pin khớp mẫu",
@@ -87,6 +87,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T02:05:27.524Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -96,5 +102,28 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T01:49:28.377Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T01:49:28.377Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/ace2608ed24513e8b8959242df3731b92f6a8a7a4f1edb329db2912516fa063b.webp"
+        ],
+        "from": null
+      },
+      "description": {
+        "to": "Pin đũa AAA Panasonic NEO mã R03NT/2S-V, loại pin than (kẽm-carbon) 1,5V, dùng cho điều khiển từ xa, đồng hồ, đồ chơi và các thiết bị tiêu thụ điện thấp.\n\nQuy cách: 2 viên bọc màng co · cỡ AAA (R03) · 1,5V\nNhà sản xuất/thương hiệu: Panasonic",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

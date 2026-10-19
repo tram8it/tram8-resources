@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I2: ảnh KiotViet là vỉ Colgate Mềm Mảnh (SP khác) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: vẽ 1 vỉ màu xanh dương; cửa hàng có nhiều màu tay cầm (xanh lá, tím, đỏ…); chữ nhỏ trên vỉ không vẽ",
@@ -78,6 +78,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T02:05:27.524Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -87,5 +93,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T01:49:46.171Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T01:49:46.171Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/e157d4d33a2f0eca283bbf0537535b40ed8cb17368405e2dbb8d325a9aa94354.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/09/17/tram8/5f5b446f79fb464386433003670c955d.png"
+        ]
+      },
+      "description": {
+        "to": "Bàn chải đánh răng Colgate Premier Clean, lông chải mềm, tay cầm có đệm bám chắc tay. Bán lẻ từng vỉ 1 cây, nhiều màu tay cầm.\n\nQuy cách: 1 cây · vỉ\nNhà sản xuất/thương hiệu: Colgate-Palmolive · Colgate",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I1: chưa có ảnh → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt chữ lớn (PÖNNIE, Xúc xích dinh dưỡng THỊT HEO, 95 g (5 cây x 19 g)); nhãn nhỏ 'MỚI' cạnh chữ Thịt heo như mẫu",
@@ -78,6 +78,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T02:05:27.524Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -87,5 +93,28 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T01:48:35.633Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T01:48:35.633Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/2d8185431447e6144dec0e1e9ee5ddc310cdd7b13c11e33e476f9833f7697ab2.webp"
+        ],
+        "from": null
+      },
+      "description": {
+        "to": "Xúc xích dinh dưỡng Ponnie thịt heo, gói 5 cây nhỏ.\n\nQuy cách: 95 g (5 cây × 19 g) · gói\nNhà sản xuất/thương hiệu: Masan MEATLife · Ponnie",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

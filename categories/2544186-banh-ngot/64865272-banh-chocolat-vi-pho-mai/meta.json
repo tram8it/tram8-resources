@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I3/I5: ảnh KiotViet chụp cận một phần mặt hộp, có dải khuyến mãi → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: bỏ dải khuyến mãi góc trái trên (v17); chữ nhỏ 'Khối lượng tịnh: 324 g' hơi mờ",
@@ -78,6 +78,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T02:05:27.524Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -87,5 +93,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T01:48:10.367Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T01:48:10.367Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/99b288f482c085d96f6cc281448bd2ef211791673b199809426d2ce2e8ffb4fb.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/03/28/tongpenhchtl/89890604e8164661a15d8375a5fe1436.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Bánh Bouchee LOTTE CHOCOLAT vị phô mai: bánh bông lan mềm, nhân marshmallow dai phủ sốt phô mai, mặt bánh điểm vân sô-cô-la. Hộp 12 gói, mỗi gói một bánh.\n\nQuy cách: 324 g (12 gói) · hộp\nNhà sản xuất/thương hiệu: LOTTE CHOCOLAT (Lotte)",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

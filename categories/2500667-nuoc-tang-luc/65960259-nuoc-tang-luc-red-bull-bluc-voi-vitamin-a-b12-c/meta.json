@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "KEEP",
     "reason": "Đạt I1–I9: packshot nền trắng 1:1, đúng chai Kratingdaeng Extra A+B12+C (khớp ảnh trên trang TCP)",
@@ -52,6 +52,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description"
+    },
+    {
+      "at": "2026-10-19T02:05:27.524Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -60,5 +66,83 @@
       "description"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T00:14:47.459Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T00:14:47.459Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "description": {
+        "to": "Nước tăng lực Kratingdaeng Extra ABC (Red Bull Thái) chai thuỷ tinh nắp đỏ, chứa 800 mg taurine cùng các vitamin A, B12 và C. Ngon hơn khi uống lạnh.\n\nQuy cách: 145 ml · chai thuỷ tinh\nXuất xứ: Thái Lan · Nhà sản xuất/thương hiệu: T.C. Pharmaceutical · Kratingdaeng",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {
+      "price": {
+        "to": 16666.67,
+        "from": 16363.64
+      },
+      "saleTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 65960259
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 65960259
+        }
+      },
+      "taxRate": {
+        "to": "VAT 8%",
+        "from": "VAT 10%"
+      },
+      "productTaxs": {
+        "to": [
+          {
+            "id": 0,
+            "name": "VAT 8%",
+            "taxId": 3,
+            "value": 8,
+            "productId": 65960259
+          }
+        ],
+        "from": [
+          {
+            "id": 0,
+            "name": "VAT 10%",
+            "taxId": 4,
+            "value": 10,
+            "productId": 65960259
+          }
+        ]
+      },
+      "purchaseTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 65960259
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 65960259
+        }
+      }
+    }
   }
 }

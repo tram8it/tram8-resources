@@ -62,6 +62,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T02:05:27.524Z",
+      "by": "owner",
+      "status": "READY",
+      "note": "apply failed on Hub: KiotViet /products/65593727 returned HTTP 420: {\"responseStatus\":{\"errorCode\":\"KvValidateProductException\",\"message\":\"Hàng hóa SP877355 không thể cập nhật do API chưa hỗ trợ loại hàng hóa này\",\"errors\":[]}}"
     }
   ],
   "submitted": {
@@ -71,5 +77,11 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "FAILED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T01:35:44.417Z",
+    "note": "KiotViet /products/65593727 returned HTTP 420: {\"responseStatus\":{\"errorCode\":\"KvValidateProductException\",\"message\":\"Hàng hóa SP877355 không thể cập nhật do API chưa hỗ trợ loại hàng hóa này\",\"errors\":[]}}"
   }
 }

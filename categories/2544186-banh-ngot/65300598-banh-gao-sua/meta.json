@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I3/I5: ảnh KiotViet chụp cận nửa trên túi → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ nhỏ trên túi không đọc được",
@@ -78,6 +78,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T02:05:27.524Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -87,5 +93,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T01:48:13.436Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T01:48:13.436Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/b5d0e7f769e53eb4026217f1b7a56ee0a522c7055cd070ac7b82c022ad85f607.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/04/30/tram8/6cb0de556faa4f6b870919f2d678bcfe.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Bánh gạo sữa Miyaki vị phô mai, bánh gạo giòn làm với bột sữa nhập khẩu từ New Zealand, không chiên, không chứa chất béo trans. Túi có quai xách, bên trong chia nhiều gói nhỏ tiện ăn vặt.\n\nQuy cách: 240 g · túi\nXuất xứ: Việt Nam · Nhà sản xuất/thương hiệu: Công ty Cổ phần Thương mại Tràng An · Miyaki",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

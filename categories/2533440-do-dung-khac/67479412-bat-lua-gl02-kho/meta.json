@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I3/I4/I8: ảnh KiotViet là khay nhiều bật lửa nền tối → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: vẽ 1 cái màu hồng; màu/hình trái cây trên nhãn thay đổi theo từng cái trong khay",
@@ -78,6 +78,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T02:05:27.524Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -87,5 +93,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T01:35:39.948Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T01:35:39.948Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/67c5f4186234422a0f15186228e73199d376a3d850eac171b1dca94e66002ef2.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/08/06/tram8/59b6e1f5a94b4a988a68366e38c451ed.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Bật lửa gas loại khò (lửa khò) Hòa Việt, mã GL02, bán lẻ từng cái.\n\nQuy cách: 1 cái\nXuất xứ: Việt Nam · Nhà sản xuất/thương hiệu: Hòa Việt\nLưu ý: Để xa tầm tay trẻ em, tránh nguồn nhiệt và ánh nắng trực tiếp.",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

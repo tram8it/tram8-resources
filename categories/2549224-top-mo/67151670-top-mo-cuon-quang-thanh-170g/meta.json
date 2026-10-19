@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I3/I4/I5: ảnh KiotViet chụp cận nhãn, không thấy nắp → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: nhãn khớp ảnh (Quang Thanh Foods, Tóp mỡ cuộn, Muối ớt mắm tỏi); bỏ dấu in NSX/HSD; nắp hũ không thấy trong ảnh nên vẽ nắp nhựa trong; không in khối lượng",
@@ -69,6 +69,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T02:05:27.524Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -78,5 +84,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T01:51:17.119Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T01:51:17.119Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/37c948fcf8f263a937f838599e8b1f9bed7eab75dd67002541a9754a951e9aae.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/20/tram8/819a6cafdaf14c4fab868891a9d33049.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Tóp mỡ cuộn muối ớt mắm tỏi Quang Thanh Foods: tóp mỡ cuộn chiên giòn tẩm muối ớt, mắm và tỏi, đựng hũ nhựa có nắp, dùng ăn vặt hoặc ăn kèm cơm.\n\nQuy cách: 170 g · lọ\nXuất xứ: Việt Nam (Hải Phòng) · Nhà sản xuất/thương hiệu: Quang Thanh Foods",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

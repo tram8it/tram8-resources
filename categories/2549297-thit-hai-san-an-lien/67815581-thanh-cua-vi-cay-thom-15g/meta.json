@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I1/I3: chưa có ảnh gói lẻ đạt; không có ảnh hãng/NPP → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ phiên âm nhỏ dưới logo vẽ sai (ghi 'Sino Yur Chalo' thay vì Qiao Da Niang), dòng chữ nhỏ cuối gói không đọc được; tên lớn, 15克, vị 香辣味 đúng",
@@ -68,6 +68,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T02:05:27.524Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -77,5 +83,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T01:35:20.368Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T01:35:20.368Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/8735d5e7a9e2b81a09c5ecda0ca18b3963540d4c0739b47615e9b385aec9331d.webp"
+        ],
+        "from": [
+          "https://cdn1-retail-images.kiotviet.vn/2026/08/25/tram8/f4304d4d2e0f409c8912e6baa8481fd8.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Thanh cua xé (手撕蟹柳) vị cay thơm của Qiaodaniang (巧大娘), dạng que đóng gói nhỏ, ăn liền.\n\nQuy cách: 15 g · gói\nXuất xứ: Trung Quốc · Thương hiệu: Qiaodaniang (巧大娘)",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

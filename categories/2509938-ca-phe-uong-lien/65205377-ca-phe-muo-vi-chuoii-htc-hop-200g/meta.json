@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "CROP",
     "reason": "I9: packshot nền trắng nhưng không 1:1; crop về 1:1",
@@ -62,6 +62,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T02:05:27.524Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -71,5 +77,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T00:15:10.546Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T00:15:10.546Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/abd6b76aca4b55bd19e348ef35d4cf9d9a00d2cebe89bfc2bcdffa50082d4738.webp"
+        ],
+        "from": [
+          "https://cdn1-retail-images.kiotviet.vn/2026/07/27/tram8/e9ced36eb2ac4e029177b354d47a874e.png"
+        ]
+      },
+      "description": {
+        "to": "Hộp cà phê hương chuối (Banana Coffee) Việt Nam, bao bì minh hoạ chợ Bến Thành, hợp làm quà tặng. Trên hộp ghi đạt chứng nhận ISO 22000.\n\nQuy cách: 200 g (10 gói) · hộp\nXuất xứ: Việt Nam",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

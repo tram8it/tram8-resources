@@ -20,7 +20,7 @@
   "status": "READY",
   "image": {
     "decision": "CROP",
-    "reason": "I9: packshot nền trắng, đúng gói Gumi Makeup Remover 25 tờ, chỉ chưa 1:1; đã crop và xem lại đạt",
+    "reason": "I9: packshot nền trắng, đúng gói Gumi Makeup Remover 25 tờ, chỉ chưa 1:1; đã crop và xem lại đạt; chủ 19/10: làm sáng hơn (levels toàn ảnh)",
     "source": null,
     "rubricVersion": "v4",
     "vivid": {
@@ -65,14 +65,38 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T02:05:27.524Z",
+      "by": "owner",
+      "status": "IN_PROGRESS",
+      "note": "rejected on Hub by AU KHUONG DUY: ảnh đẹp rồi, nhưng cần sáng hơn"
+    },
+    {
+      "at": "2026-10-19T02:06:35.275Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "brightened after owner rejection"
+    },
+    {
+      "at": "2026-10-19T02:06:35.404Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-18T17:49:49.762Z",
+    "at": "2026-10-19T02:06:35.404Z",
     "fields": [
       "description",
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "REJECTED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T01:17:51.652Z",
+    "note": "ảnh đẹp rồi, nhưng cần sáng hơn"
   }
 }

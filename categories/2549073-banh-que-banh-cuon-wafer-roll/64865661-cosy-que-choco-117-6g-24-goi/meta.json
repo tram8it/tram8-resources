@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I2: ảnh KiotViet là bánh quy Cosy Marie; trang Mondelez không có Cosy quế sô cô la → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ lớn khớp (Cosy, Bánh quế Kem vị sôcôla, +20% kem, Khối lượng tịnh 135 g); bao bì đúng mã vạch ghi 135 g (tên KiotViet 117,6 g — bao bì mới thêm 20% kem, v19)",
@@ -69,6 +69,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T02:05:27.524Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -78,5 +84,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T01:35:30.245Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T01:35:30.245Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/b072cb5685b8f1cc9c2d42f2ba515e9df1017db6d1b170cfb6873ca613943a06.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2025/11/29/tongpenhchtl/51c3cfa88b3448c799ff663b3cb15a34.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Bánh quế Cosy kem vị sô cô la: vỏ quế giòn cuộn nhân kem sô cô la, bao bì mới in \"+20% kem\".\n\nQuy cách: 135 g · gói (theo bao bì)\nThương hiệu: Cosy (Mondelez Kinh Đô)",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

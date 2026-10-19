@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I1: chưa có ảnh; trang hãng suntorypepsico.vn chỉ có Boss lon 180 ml → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ nhỏ (thành phần, dòng pháp lý) không đọc được trên ảnh vẽ",
@@ -78,6 +78,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T02:05:27.524Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -87,5 +93,89 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T01:34:34.047Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T01:34:34.047Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/da73199e7c4b1792eca79754e97c3f438211be2034355f229497c3eee88df1d8.webp"
+        ],
+        "from": null
+      },
+      "description": {
+        "to": "Nước tăng lực BOSS Coffee chứa cà phê thật, đóng chai nhựa 325 ml, vị tăng lực có ga hòa quyện hương cà phê Robusta. Ngon hơn khi uống lạnh.\n\nThành phần: nước có ga, đường, dextrose, maltodextrin, cà phê hòa tan, caffeine, taurine, màu caramel, chất điều chỉnh độ acid, hương liệu, chất bảo quản.\nQuy cách: 325 ml · chai\nXuất xứ: Việt Nam · Nhà sản xuất/thương hiệu: Công ty TNHH Nước Giải Khát Suntory PepsiCo Việt Nam · BOSS (Suntory, Nhật Bản)",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {
+      "price": {
+        "to": 11111.11,
+        "from": 10909.09
+      },
+      "saleTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 67970549
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 67970549
+        }
+      },
+      "taxRate": {
+        "to": "VAT 8%",
+        "from": "VAT 10%"
+      },
+      "productTaxs": {
+        "to": [
+          {
+            "id": 0,
+            "name": "VAT 8%",
+            "taxId": 3,
+            "value": 8,
+            "productId": 67970549
+          }
+        ],
+        "from": [
+          {
+            "id": 0,
+            "name": "VAT 10%",
+            "taxId": 4,
+            "value": 10,
+            "productId": 67970549
+          }
+        ]
+      },
+      "purchaseTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 67970549
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 67970549
+        }
+      }
+    }
   }
 }

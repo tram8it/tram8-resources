@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I1: chưa có ảnh/ảnh KiotViet không đạt; không có ảnh hãng/NPP → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: nhãn vị 烧烤鸡肉味 lấy theo tên sản phẩm trên Open Food Facts (ảnh mẫu mờ); khối lượng không vẽ vì mẫu không đọc được",
@@ -78,6 +78,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T02:05:27.524Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -87,5 +93,28 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T01:35:06.064Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T01:35:06.064Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/6e10c5ad07f3e84d0c8c1e931a4c438c605f8ed9cda97e2b1a95e3b38f017755.webp"
+        ],
+        "from": null
+      },
+      "description": {
+        "to": "Que cay Jinmofang (金磨坊) Damianjin — que bột mì bản to tẩm gia vị (sản phẩm mì gia vị), vị gà nướng.\n\nQuy cách: gói\nNhà sản xuất/thương hiệu: Jinmofang (金磨坊)",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

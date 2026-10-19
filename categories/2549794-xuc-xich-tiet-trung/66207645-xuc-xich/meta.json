@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I3/I8: ảnh KiotViet chỉ thấy phần giữa cây → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ lớn khớp ảnh KiotViet (HEO CAO BỒI Snack dinh dưỡng, Nhân Xốt Spaghetti); hai đầu kẹp vẽ theo cây cùng dãy; khối lượng không thấy trên ảnh nên không vẽ",
@@ -75,6 +75,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T02:05:27.524Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -84,5 +90,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T01:51:03.227Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T01:51:03.227Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/e2b1657aa527c72c27b0cc2e76c2b354a7f789477d915585ebfa9d33f15618ce.webp"
+        ],
+        "from": [
+          "https://cdn1-retail-images.kiotviet.vn/2026/06/02/tram8/c81ae663164a48cbad4e12a72528c108.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Xúc xích tiệt trùng Heo Cao Bồi (Snack dinh dưỡng) nhân xốt spaghetti, dạng cây ăn liền.\n\nQuy cách: cây\nNhà sản xuất/thương hiệu: Masan MEATLife · Heo Cao Bồi",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

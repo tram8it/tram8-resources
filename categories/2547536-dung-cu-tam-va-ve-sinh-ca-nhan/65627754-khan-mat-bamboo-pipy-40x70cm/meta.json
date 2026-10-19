@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I2/I3: ảnh KiotViet là quảng cáo mũ ủ tóc (SP khác) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: vẽ 1 khăn màu xanh nhạt; hãng có nhiều màu (vàng kem, tím, nâu, xanh); tên KiotViet ghi 'PIPY', thẻ in 'PIPPER'",
@@ -84,6 +84,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T02:05:27.524Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -93,5 +99,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T01:51:11.032Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T01:51:11.032Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/24c0f8fafe38d8c2b95557f9c5d6365a7985b0fde1fa7a0b23c265c578fc7269.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/05/11/tram8/c4f1105cdd314be59e922a5657790983.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Khăn sợi tre (Bamboo) PIPPER cỡ 40 × 70 cm, mềm mịn, ít xơ, thấm hút nhanh; dùng lau mặt, lau tóc hoặc mang theo khi tập thể thao.\n\nQuy cách: 1 cái · 40 × 70 cm\nNhà phân phối/thương hiệu: Biswell · PIPPER",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

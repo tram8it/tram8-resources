@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I3/I5: ảnh KiotViet cận nhãn, mất nắp và đáy → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: dáng hũ/nắp lấy theo SP cùng hãng Quang Thanh (Óc chó nhân); chữ nhỏ mặt bên và số mã vạch vẽ không đúng; không vẽ NSX/HSD",
@@ -68,6 +68,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T02:05:27.524Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -77,5 +83,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T01:35:54.144Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T01:35:54.144Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/b2446fe68d1d28704f803df66c49f04a3c156e273f178dbbfe23c036a218b31c.webp"
+        ],
+        "from": [
+          "https://cdn1-retail-images.kiotviet.vn/2026/01/23/tongpenhchtl/30e07a05df6e4d35a001f92d895509bd.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Chà là sấy dẻo Quang Thanh Foods, đựng trong hộp nhựa có nắp.\n\nQuy cách: 500 g · hộp\nNhà sản xuất/thương hiệu: Quang Thanh Foods",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

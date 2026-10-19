@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I3/I4: ảnh KiotViet cận nhãn, không thấy cả túi; nhãn đúng mã vạch = Kẹo Dừa Sáp Cafe Muối (v19 tin bao bì) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: dáng túi zip và các viên kẹo trong túi vẽ theo phần túi nhìn thấy; chữ nhỏ trên nhãn có thể sai chính tả; không vẽ NSX/HSD",
@@ -74,6 +74,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T02:05:27.524Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -83,5 +89,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T01:35:57.094Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T01:35:57.094Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/c5285b901dc9687b0e88500c4a60f84ee72ffad0091cc6506d582c9b0be7f9f3.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/01/23/tongpenhchtl/508acd5f40174b898c647f9357442266.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Kẹo dừa sáp vị cà phê muối của Quang Thanh Foods (Hải Phòng), nhãn ghi \"No sugar\" — dùng đường ăn kiêng. Ăn liền.\n\nThành phần chính: nước cốt dừa, cốt dừa nếp, đường ăn kiêng, cà phê, muối…\nQuy cách: gói\nNhà sản xuất/thương hiệu: Công ty TNHH thực phẩm Quang Thanh, Vĩnh Hòa, Hải Phòng\nBảo quản: nơi khô ráo, thoáng mát, tránh ánh nắng trực tiếp; không dùng khi hết hạn.",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

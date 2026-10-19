@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "CROP",
     "reason": "I9: ảnh không 1:1; packshot nền trắng, crop về 1:1, đã xem lại đạt",
@@ -62,6 +62,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T02:05:27.524Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -71,5 +77,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T01:32:29.000Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T01:32:29.000Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/7b2720b8e930ce40a32b487af9de440b1b4cff6d114d4b2548e70abee570f146.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/27/tram8/139a89fd69954b21a8fe942687333e0b.png"
+        ]
+      },
+      "description": {
+        "to": "Kem bánh cá Celano vị sô cô la lúa mạch: vỏ bánh hình cá, nhân kem sô cô la lúa mạch kèm trân châu dai giòn. Dùng ngay khi lấy ra từ ngăn đá.\n\nQuy cách: 100 ml · cái\nNhà sản xuất/thương hiệu: Celano\nBảo quản: Giữ đông lạnh.",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

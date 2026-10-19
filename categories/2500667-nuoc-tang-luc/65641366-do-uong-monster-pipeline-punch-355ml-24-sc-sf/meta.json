@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "KEEP",
     "reason": "Đạt I1–I9: packshot nền trắng 1:1, đúng lon Juice Monster Pipeline Punch 355ml",
@@ -49,6 +49,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description"
+    },
+    {
+      "at": "2026-10-19T02:05:27.524Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -57,5 +63,83 @@
       "description"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T00:14:45.397Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T00:14:45.397Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "description": {
+        "to": "Nước tăng lực Juice Monster Pipeline Punch, kết hợp nước tăng lực với nước trái cây, lon hồng cao thon (sleek). Ngon hơn khi uống lạnh.\n\nQuy cách: 355 ml · lon\nNhà sản xuất/thương hiệu: Monster Energy",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {
+      "price": {
+        "to": 25000,
+        "from": 24545.45
+      },
+      "saleTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 65641366
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 65641366
+        }
+      },
+      "taxRate": {
+        "to": "VAT 8%",
+        "from": "VAT 10%"
+      },
+      "productTaxs": {
+        "to": [
+          {
+            "id": 0,
+            "name": "VAT 8%",
+            "taxId": 3,
+            "value": 8,
+            "productId": 65641366
+          }
+        ],
+        "from": [
+          {
+            "id": 0,
+            "name": "VAT 10%",
+            "taxId": 4,
+            "value": 10,
+            "productId": 65641366
+          }
+        ]
+      },
+      "purchaseTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 65641366
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 65641366
+        }
+      }
+    }
   }
 }

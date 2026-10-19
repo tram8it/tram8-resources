@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I2: ảnh KiotViet là gói sô cô la Fucuco → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: vẽ một hũ từ ảnh chụp 3 hũ; bỏ dấu in NSX/HSD; số điện thoại/GCN làm mờ; nhãn ghi trọng lượng 130 g ± 5 g (tên KiotViet 86 g)",
@@ -69,6 +69,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T02:05:27.524Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -78,5 +84,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T01:49:19.582Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T01:49:19.582Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/7167c69597340fffa022421b1bd5c6f6be7f63bc4bc1ff533768afac87dccc5b.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2025/11/28/tongpenhchtl/e7c4d5f9a2d741e99a674e3c4935f59d.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Gà khô lá chanh Phương Huyền: gà khô xé sợi trộn lá chanh, giòn ngon đậm vị, không chất bảo quản (theo nhãn), đóng hũ nhựa ăn liền.\n\nQuy cách: hũ (nhãn ghi trọng lượng 130 g ± 5 g)\nNhà sản xuất: Công ty TNHH TM Thực phẩm Phương Huyền",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

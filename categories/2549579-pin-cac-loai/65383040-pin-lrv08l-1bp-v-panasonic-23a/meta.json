@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I1: chưa có ảnh; panasonic.com chặn truy cập → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt chữ lớn (Panasonic CELL POWER, LRV08, 12V Micro Alkaline); bỏ ngày hạn in trên vỉ",
@@ -69,6 +69,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T02:05:27.524Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -78,5 +84,28 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T01:49:10.458Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T01:49:10.458Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/61812ad714c46a41d96d0639fd54d97b161c4010bceba2d681e70a24d9cb678a.webp"
+        ],
+        "from": null
+      },
+      "description": {
+        "to": "Pin Panasonic 23A mã LRV08L/1BP-V, pin kiềm 12V cỡ nhỏ, thường dùng cho điều khiển cửa cuốn, remote cổng, chuông cửa không dây.\n\nQuy cách: vỉ 1 viên · cỡ 23A (LRV08) · 12V\nNhà sản xuất/thương hiệu: Panasonic",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I1: chưa có ảnh; ảnh Minh Cầu Mart theo đúng mã vạch 8936221042920 là chai Bupnon Tea 365 Trà hương mật ong → dùng ảnh hãng Masan Consumer (bao bì mới nhất, cùng ảnh SP 66473684)",
@@ -73,6 +73,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T02:05:27.524Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -82,5 +88,89 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T01:36:03.144Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T01:36:03.144Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/f9ee234d830649e104b0669614edbcd67e3c5ab74e847c7e43e5e88dcd74829e.webp"
+        ],
+        "from": null
+      },
+      "description": {
+        "to": "Bupnon Tea 365 Trà Hương Mật Ong của Masan Consumer, nguyên liệu từ lá trà búp non cho vị trà nguyên bản, kết hợp hương mật ong ngọt dịu. Ngon hơn khi uống lạnh.\n\nQuy cách: 500 ml · chai\nNhà sản xuất/thương hiệu: Masan Consumer · Bupnon Tea 365",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {
+      "price": {
+        "to": 11111.11,
+        "from": 10909.09
+      },
+      "saleTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 64865248
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 64865248
+        }
+      },
+      "taxRate": {
+        "to": "VAT 8%",
+        "from": "VAT 10%"
+      },
+      "productTaxs": {
+        "to": [
+          {
+            "id": 0,
+            "name": "VAT 8%",
+            "taxId": 3,
+            "value": 8,
+            "productId": 64865248
+          }
+        ],
+        "from": [
+          {
+            "id": 0,
+            "name": "VAT 10%",
+            "taxId": 4,
+            "value": 10,
+            "productId": 64865248
+          }
+        ]
+      },
+      "purchaseTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 64865248
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 64865248
+        }
+      }
+    }
   }
 }

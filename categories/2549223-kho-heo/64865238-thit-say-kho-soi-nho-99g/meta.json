@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I3/I4: ảnh KiotViet chụp nghiêng, không thấy mặt trước → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: ghép nhãn quấn quanh hũ thành một mặt trước; chữ lớn khớp (Thịt sấy khô, Sợi nhỏ, KLT: 99g, Chất lượng khẳng định thương hiệu số 1); chữ nhỏ (địa chỉ) mờ/không chính xác",
@@ -69,6 +69,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T02:05:27.524Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -78,5 +84,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T01:49:22.578Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T01:49:22.578Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/0b4f7c71f250e59b9d20d01f57fd451676cf25b127be404a0636785ec922158f.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/03/15/tongpenhchtl/9f87ba5831854a2abc478fb7a1af9006.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Thịt sấy khô sợi nhỏ Phương Huyền: thịt sấy khô xé sợi ăn liền, đóng hũ nhựa nắp vặn.\n\nQuy cách: 99 g · hũ\nNhà sản xuất: Công ty TNHH TM TP Phương Huyền",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

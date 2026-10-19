@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I5: ảnh KiotViet gói bị khung cắt đáy → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ lớn khớp (Ohayo!, Chân gà rút xương, Hồng Kông, Vị cay tê, +2 gói sốt đặc biệt); vẽ thêm phần đáy gói bị cắt; không in khối lượng (ảnh không thấy)",
@@ -69,6 +69,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T02:05:27.524Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -78,5 +84,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T01:51:23.825Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T01:51:23.825Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/d06ea6ca6c49b83bd2a6579187d2bf2f7b61883ddb9487bb63cd31df950951f9.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/05/19/tram8/c98c5eea85014ee180cb72ca1014ad71.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Chân gà rút xương Hồng Kông Ohayo! vị cay tê, kèm 2 gói sốt đặc biệt (theo bao bì), ăn liền.\n\nQuy cách: 60 g · gói\nThương hiệu: Ohayo!",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

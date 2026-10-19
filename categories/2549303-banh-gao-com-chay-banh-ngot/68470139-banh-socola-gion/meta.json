@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I4/I5: ảnh KiotViet chụp tay, gói nhăn bóng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt chữ lớn (卡兰希 KALANXI, 脏脏巧脆, 净含量 40克); vẽ phẳng không nhăn",
@@ -81,6 +81,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T02:05:27.524Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -90,5 +96,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T01:50:50.952Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T01:50:50.952Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/ac93e8f2ffd6b7cb0261f4aa6cf87caaca0b2e0b0b1b110812acc543a6ccdc2e.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/10/15/tram8/c8e2f3b20abf4f94aef20f839e6fc7c8.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Snack giòn vị sô cô la KALANXI (脏脏巧脆), dạng viên phủ bột cacao; bao bì ghi là thực phẩm phồng (膨化食品). Hàng nhập khẩu Trung Quốc.\n\nQuy cách: 40 g · gói\nThương hiệu: KALANXI (卡兰希)",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

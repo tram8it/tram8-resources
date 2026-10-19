@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I3/I4/I5: ảnh KiotViet chỉ chụp cận nửa trên gói → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ nhỏ trên gói có thể lệch",
@@ -69,6 +69,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T02:05:27.524Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -78,5 +84,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T01:49:52.094Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T01:49:52.094Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/79691d27a056bf65734fc29ba0f3e45063a8a810b6e35754d1656266e8d9f0a4.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/04/25/tram8/e1fcadd3036b440ca37331e06dcd1c0e.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Bánh tráng trộn vị Tomyum thương hiệu Miss Bánh Tráng, dòng cao cấp, ăn liền ngay khi mở gói.\n\nQuy cách: 40 g · gói\nNhà sản xuất/thương hiệu: Công ty CP Thực phẩm Vina Snack · Miss Bánh Tráng",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I3/I4: ảnh KiotViet chụp ngoài trời, nền đường phố → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ lớn khớp ảnh KiotViet (Bắp rang bơ, POPCORN, Đệ nhất bắp rang bơ, HACCP, vị, KLT: 180g); chữ nhỏ mờ",
@@ -75,6 +75,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T02:05:27.524Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -84,5 +90,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T01:50:02.131Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T01:50:02.131Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/b6898add4f47a4de742bc4e523c706b8522930203d8a01883b9472c45a7d8e86.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/10/15/tram8/4c174231ee324102a9d604a42772252a.png"
+        ]
+      },
+      "description": {
+        "to": "Bỏng ngô (popcorn) vị mật ong, ăn liền, dùng ăn vặt hoặc khi xem phim.\n\nQuy cách: 180 g · gói",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

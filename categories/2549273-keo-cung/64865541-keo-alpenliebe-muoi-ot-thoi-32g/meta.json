@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "CROP",
     "reason": "I9: packshot nền trắng, đúng SP nhưng không 1:1; đã crop và xem lại",
@@ -62,6 +62,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T02:05:27.524Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -71,5 +77,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T01:23:07.018Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T01:23:07.018Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/7b304d0ca8b8129a661623f4a507bb78e7bd8e9795d78f385a68389634847831.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/29/tram8/7019a7823c7c41b48b98977ff8db4bb0.png"
+        ]
+      },
+      "description": {
+        "to": "Kẹo Alpenliebe Muối Ớt, kẹo hương xoài nhân muối ớt, vị chua chua cay cay, dạng thỏi tiện bỏ túi.\n\nQuy cách: 32 g · thỏi\nThương hiệu: Alpenliebe (Perfetti Van Melle)",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

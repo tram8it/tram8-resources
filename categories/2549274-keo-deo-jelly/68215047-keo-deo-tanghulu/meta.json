@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I1: chưa có ảnh/ảnh KiotViet không đạt; không có ảnh hãng/NPP → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ Thái nhỏ ở đáy gói vẽ gần đúng, không đọc chắc được",
@@ -78,6 +78,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T02:05:27.524Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -87,5 +93,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T01:34:59.611Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T01:34:59.611Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/b8e432256b0356984bed1855678273955839abc7a0a69c8df378aa1a56ee548d.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/09/23/tram8/940f741b20ca49a7aba08f075d1254ca.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Kẹo dẻo Playmore kiểu tanghulu (xiên trái cây), hương nho và dâu tây, hàng Thái Lan.\n\nQuy cách: 44 g · gói\nNhà sản xuất/thương hiệu: Playmore",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

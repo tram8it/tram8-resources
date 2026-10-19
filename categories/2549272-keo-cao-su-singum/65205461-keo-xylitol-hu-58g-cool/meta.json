@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "Chủ từ chối bản Super Cool (17/10); ảnh KiotViet và Kingfoodmart đúng mã vạch cho thấy hũ hàng trên kệ là bản Cool → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ nhỏ trên nắp và cờ đỏ góc trái vẽ mờ; còn lại khớp mẫu",
@@ -114,6 +114,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T02:05:27.524Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -125,9 +131,28 @@
     "hubStatus": "PENDING"
   },
   "review": {
-    "status": "REJECTED",
+    "status": "APPLIED",
     "reviewedBy": "AU KHUONG DUY",
-    "reviewedAt": "2026-10-17T09:20:59.984Z",
-    "note": "Đợi chụp thật, xác nhận lại đã"
+    "reviewedAt": "2026-10-19T01:34:37.711Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T01:34:37.711Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/234ec2add76f6d63656ef6064f09981abd80a41ba8885c408bdb638383236228.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/04/26/tram8/4e85ee4dc98e4166b069123ff8cf8b6f.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Kẹo gum không đường Lotte Xylitol hương Cool (bạc hà mát lạnh), đựng trong hũ nhựa nắp bật. Trên hũ in \"Ngăn ngừa sâu răng\".\n\nQuy cách: 58 g · hũ\nNhà sản xuất/thương hiệu: Lotte · Xylitol",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I2/I8: ảnh KiotViet là banner thùng 40 hộp → ảnh hãng hộp 180 ml 'Ngũ Cốc Dinh Dưỡng' trên thanhanfood.com.vn (Thanh An Food – Việt Ngũ Cốc; cần thêm vào brands.json), cùng thiết kế với thùng trên ảnh KiotViet",
@@ -79,6 +79,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T02:05:27.524Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -88,5 +94,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T01:51:26.753Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T01:51:26.753Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/e3c20c1c91595016ec13d30806bf63fd7c99fc15820de27c2094a1c80d8ac07a.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/04/25/tram8/467b6d5db6434f94893619d6372119af.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Sữa hạt ngũ cốc dinh dưỡng Việt Ngũ Cốc uống liền, kết hợp yến mạch, gạo lứt, đậu xanh, đậu nành.\n\nQuy cách: 180 ml · hộp\nXuất xứ: Việt Nam · Nhà sản xuất/thương hiệu: Thanh An Food · Việt Ngũ Cốc",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }
