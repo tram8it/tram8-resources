@@ -24,7 +24,7 @@ import re
 import sys
 import zipfile
 from datetime import datetime, timedelta, timezone
-from xml.sax.saxutils import escape
+from xml.sax.saxutils import escape, unescape
 
 NS_MAIN = "http://schemas.openxmlformats.org/spreadsheetml/2006/main"
 
@@ -168,7 +168,7 @@ for i, (pid, row, r) in enumerate(kept, start=2):
     new = set_cell(row, col_of["Thương hiệu"], r["proposed"], False)
     new = set_cell(new, col_of["Trọng lượng"], "0", True)
     out_rows.append(renumber(new, i))
-    changes.append((products[pid]["code"], products[pid]["name"], old_brand, r["proposed"], old_weight))
+    changes.append((products[pid]["code"], products[pid]["name"], unescape(old_brand), r["proposed"], old_weight))
     plan.append({"kind": "product", "kiotProductId": pid, "brandId": "", "from": r["current"], "to": r["proposed"]})
 
 body = "".join(out_rows)
