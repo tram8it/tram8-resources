@@ -17,23 +17,19 @@
     "description": "Que cay Jinmofang Zhenxinbang vị thịt bò cay kiểu Tứ Xuyên, que bột mì tẩm gia vị cay thơm, món ăn vặt đậm vị.\n\nQuy cách: 120 g · gói\nNhà sản xuất/thương hiệu: Jinmofang (金磨坊)",
     "exportedAt": "2026-10-19T17:14:50.207Z"
   },
-  "status": "UPLOADED",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh → dùng packshot nền trắng đang gắn nhầm ở SP 66921963 (mã vạch in trên gói 6925678105281 = mã SP này, đã đọc phóng to); gói Jinmofang 真心棒 川香牛肉味 120g; chuẩn hoá 1:1 + tăng độ tươi như các SP Jinmofang cùng dãy (v10/v14)",
+    "reason": "Đồng bộ dãy 20/10: ảnh cũ là ảnh chụp gói nhăn, xỉn trong khi các SP Jinmofang cùng dãy là render phẳng → Gemini vẽ lại theo phong cách SP 66921963 → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: nhãn vị 川香牛肉味, mã vạch 6925678105321, 120克 khớp ảnh cũ; chữ nhỏ dưới mã vạch đơn giản hoá",
     "source": {
-      "url": "https://cdn2-retail-images.kiotviet.vn/2026/07/30/tram8/798112d3e9a24e68b6ffa53e08baa66d.png",
-      "page": "KiotViet SP 66921963 (ảnh gắn nhầm SP)",
-      "fetchedAt": "2026-10-17"
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-19",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh hiện tại của SP (nội dung) + ảnh đã duyệt SP cùng dãy 66921963 (phong cách)"
     },
-    "rubricVersion": "v17",
-    "vivid": {
-      "rubricVersion": "v10",
-      "saturationGain": 1.2,
-      "contrastGain": 1.064,
-      "toneGain": 1.084,
-      "gamma": 1
-    }
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -78,10 +74,28 @@
       "by": "init",
       "status": "UPLOADED",
       "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-19T18:26:44Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-19T18:26:52Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "line consistency 20/10: Gemini redraw, flat render like sibling 66921963 (was dull crinkled pack photo)"
+    },
+    {
+      "at": "2026-10-19T18:27:02.542Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-17T07:41:03.637Z",
+    "at": "2026-10-19T18:27:02.542Z",
     "fields": [
       "description",
       "image"

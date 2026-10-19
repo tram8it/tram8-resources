@@ -17,23 +17,19 @@
     "description": "Bánh mỳ sandwich kẹp thịt vị bò tiêu đen của thương hiệu Dominatte, ăn liền, không cần nướng.\n\nQuy cách: 85 g · cái\nThương hiệu: Dominatte",
     "exportedAt": "2026-10-19T17:14:50.207Z"
   },
-  "status": "UPLOADED",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I4: ảnh KiotViet nền đen; dùng bản cùng ảnh nền trắng của cửa hàng (đang gắn ở SP 66986775, cùng gói Dominatte bò tiêu đen), chuẩn hoá 1:1 (phóng ~2,2 lần) + tone/độ tươi như SP cùng dãy 66740598; không có trang hãng",
+    "reason": "Đồng bộ dãy 20/10 (chủ báo): ảnh cũ chụp gói nghiêng, bóng, nhăn trong khi SP cùng dãy vị gà là render phẳng → Gemini vẽ lại theo phong cách SP 66740598 → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ nhỏ dòng cuối (Đảm bảo…) vẽ mờ như ảnh mẫu; khối lượng 85 g theo tên SP; không thấy khác biệt nội dung lớn",
     "source": {
-      "url": "https://cdn2-retail-images.kiotviet.vn/2026/07/27/tram8/b8915075068f4f66b28c0dd050881f64.png",
-      "fetchedAt": "2026-10-17T06:00:00.000Z",
-      "shopPhoto": true
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-19",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh hiện tại của SP (nội dung) + ảnh đã duyệt SP cùng dãy 66740598 vị gà New Orleans (phong cách)"
     },
-    "rubricVersion": "v17",
-    "vivid": {
-      "rubricVersion": "v10",
-      "saturationGain": 1.096,
-      "contrastGain": 1.031,
-      "toneGain": 1.096,
-      "gamma": 1
-    }
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -78,10 +74,28 @@
       "by": "init",
       "status": "UPLOADED",
       "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-19T18:26:44Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-19T18:26:52Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "line consistency 20/10: Gemini redraw, flat render like sibling 66740598 (was tilted glossy pack photo)"
+    },
+    {
+      "at": "2026-10-19T18:26:59.502Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-17T05:08:59.449Z",
+    "at": "2026-10-19T18:26:59.502Z",
     "fields": [
       "description",
       "image"
