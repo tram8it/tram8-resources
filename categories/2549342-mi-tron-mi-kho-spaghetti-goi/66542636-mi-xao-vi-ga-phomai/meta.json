@@ -20,16 +20,13 @@
   "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "chủ 19/10: vẽ lại cho phẳng, nét → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: vẽ phẳng, sạch theo ảnh cũ; chữ nhỏ để mờ",
+    "reason": "chủ 19/10: trùng SP 68270021 (cùng gói Volcano Koreno gà phô mai 118 g) → dùng chung ảnh của 68270021",
     "source": {
-      "aiGenerated": true,
-      "tool": "Gemini API",
-      "model": "gemini-nano-banana-2.1",
-      "generatedAt": "2026-10-19",
-      "style": "flat clean packaging render (v17)",
-      "reference": "ảnh gói hiện có (chủ gửi trước đó)"
+      "url": "https://paldovina.com/upload/san-pham-noi-dia/goi-volcano-ga-pho-mai-800x.png",
+      "fetchedAt": "2026-10-13"
     },
-    "rubricVersion": "v18"
+    "rubricVersion": "v23",
+    "sharedWith": "68270021"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -86,10 +83,22 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T07:49:54.117Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "shares the image of duplicate 68270021"
+    },
+    {
+      "at": "2026-10-19T07:49:54.224Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-19T07:47:35.770Z",
+    "at": "2026-10-19T07:49:54.224Z",
     "fields": [
       "description",
       "image"
