@@ -42,7 +42,7 @@ const card = (r) => {
   const src = image.get(r.kiotProductId);
   const changed = r.current !== r.proposed;
   return `<li class="p${changed ? " chg" : ""}${r.confidence === "CHAC" ? "" : " look"}${r.active === "ngừng" ? " off" : ""}" data-q="${escapeHtml(
-    `${r.name} ${r.code} ${r.current} ${r.proposed}`.toLowerCase(),
+    `${r.name} ${r.code} ${r.current} ${r.proposed} ${r.note}`.toLowerCase(),
   )}">
   ${src ? `<img loading="lazy" src="${escapeHtml(src)}" alt="">` : `<span class="noimg">không ảnh</span>`}
   <div><b>${escapeHtml(r.name)}</b>
