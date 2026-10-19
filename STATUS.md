@@ -2,7 +2,7 @@
 
 > Sinh tự động bởi `node tools/status.mjs`. **Không sửa tay.** Nguồn sự thật là `meta.json` của từng SP.
 
-Tổng 2509 SP · đã xem 2509 (100%) · xong 2337 · chờ chủ duyệt 5 · cần chụp 166 · hỏi chủ 1
+Tổng 2509 SP · đã xem 2509 (100%) · xong 2337 · chờ chủ duyệt 11 · cần chụp 160 · hỏi chủ 1
 
 Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` = giữ nguyên + đã lên web.
 
@@ -40,7 +40,7 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 | 30 | Khô mực | 0.0tr | 22 | 0 | 0 | 0 | 6 | 0 | 0 | 0 | 16 |
 | 31 | Nước tăng lực | 0.0tr | 21 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 21 |
 | 32 | Bánh quế / bánh cuộn (wafer roll) | 0.0tr | 21 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 20 |
-| 33 | Snack phồng tôm/mực/cua | 0.0tr | 21 | 0 | 0 | 0 | 4 | 0 | 0 | 0 | 17 |
+| 33 | Snack phồng tôm/mực/cua | 0.0tr | 21 | 0 | 0 | 0 | 1 | 0 | 3 | 0 | 17 |
 | 34 | Cà phê uống liền | 0.0tr | 21 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 20 |
 | 35 | Cơm nắm Onigiri | 0.0tr | 21 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 20 |
 | 36 | Xúc xích tiệt trùng | 0.0tr | 21 | 0 | 0 | 0 | 2 | 0 | 0 | 0 | 19 |
@@ -94,9 +94,9 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 | 84 | Kem ốc quế | 0.0tr | 11 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 11 |
 | 85 | Kẹo sáng tạo / đồ chơi | 0.0tr | 11 | 0 | 0 | 0 | 2 | 0 | 0 | 0 | 9 |
 | 86 | Khô gà | 0.0tr | 11 | 0 | 2 | 0 | 1 | 0 | 0 | 0 | 8 |
-| 87 | Snack mì | 0.0tr | 12 | 0 | 0 | 0 | 3 | 0 | 0 | 0 | 9 |
+| 87 | Snack mì | 0.0tr | 12 | 0 | 0 | 0 | 2 | 0 | 1 | 0 | 9 |
 | 88 | Dụng cụ sơ cứu | 0.0tr | 10 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 10 |
-| 89 | Bắp rang bơ - Popcorn | 0.0tr | 10 | 0 | 0 | 0 | 8 | 0 | 2 | 0 | 0 |
+| 89 | Bắp rang bơ - Popcorn | 0.0tr | 10 | 0 | 0 | 0 | 6 | 0 | 4 | 0 | 0 |
 | 90 | Thịt & hải sản ăn liền | 0.0tr | 10 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 9 |
 | 91 | Toner - Xịt khoáng - Dưỡng ẩm | 0.0tr | 10 | 0 | 5 | 0 | 1 | 0 | 0 | 0 | 4 |
 | 92 | Phô mai | 0.0tr | 10 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 10 |
