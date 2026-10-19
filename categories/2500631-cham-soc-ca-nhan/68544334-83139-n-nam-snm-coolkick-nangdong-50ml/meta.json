@@ -1,0 +1,72 @@
+{
+  "kiotProductId": "68544334",
+  "code": "4005900907950",
+  "barcode": "4005900907950",
+  "name": "83139 N NAM SNM COOLKICK NANGDONG 50ML",
+  "fullName": "83139 N NAM SNM COOLKICK NANGDONG 50ML (Lo)",
+  "brand": "Nivea",
+  "unit": "Lo",
+  "category": {
+    "kiotCategoryId": "2500631",
+    "name": "Chăm sóc cá nhân",
+    "path": "Chăm sóc cá nhân"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://cdn2-retail-images.kiotviet.vn/2026/10/19/tram8/47a86befb45d40729bb555be6085bc59.jpeg",
+    "description": null,
+    "exportedAt": "2026-10-19T17:14:50.207Z"
+  },
+  "status": "READY",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "SP mới, có ảnh nhân viên → vẽ lại sạch → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: vẽ theo ảnh chụp; chữ nhỏ để mờ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-19",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh nhân viên chụp (KiotViet 19/10) + Nivea Men Silver Protect thỏi đã duyệt (khung)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "theo chữ trên thỏi trong ảnh nhân viên chụp 19/10",
+    "source": {
+      "staffPhoto": true,
+      "takenAt": "2026-10-19"
+    },
+    "rubricVersion": "v23"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-19T17:15:09.663Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-19T17:16:00Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "redo after Hub rejection:  — Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-19T17:16:00.691Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-19T17:16:00.691Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
+}

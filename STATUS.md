@@ -2,7 +2,7 @@
 
 > Sinh tự động bởi `node tools/status.mjs`. **Không sửa tay.** Nguồn sự thật là `meta.json` của từng SP.
 
-Tổng 2509 SP · đã xem 2509 (100%) · xong 2416 · chờ chủ duyệt 13 · cần chụp 79 · hỏi chủ 1
+Tổng 2510 SP · đã xem 2510 (100%) · xong 2416 · chờ chủ duyệt 15 · cần chụp 78 · hỏi chủ 1
 
 Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` = giữ nguyên + đã lên web.
 
@@ -15,9 +15,9 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 | 5 | Snack đậu phộng / hạt‑đậu | 0.0tr | 47 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 47 |
 | 6 | Viên ngậm thảo mộc / bạc hà | 0.0tr | 44 | 0 | 0 | 0 | 2 | 0 | 0 | 0 | 42 |
 | 7 | Kẹo dẻo / jelly | 0.0tr | 44 | 0 | 0 | 0 | 7 | 0 | 0 | 0 | 37 |
-| 8 | Mì ly / tô / cốc | 0.0tr | 41 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 41 |
-| 9 | Kẹo cao su / singum | 0.0tr | 41 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 41 |
-| 10 | Trà đóng chai | 0.0tr | 40 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 40 |
+| 8 | Trà đóng chai | 0.0tr | 41 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 41 |
+| 9 | Mì ly / tô / cốc | 0.0tr | 41 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 41 |
+| 10 | Kẹo cao su / singum | 0.0tr | 41 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 41 |
 | 11 | Snack que / que cay | 0.0tr | 43 | 0 | 1 | 0 | 5 | 0 | 0 | 0 | 37 |
 | 12 | Bánh tráng trộn | 0.0tr | 37 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 37 |
 | 13 | Bánh xốp kem (wafer) | 0.0tr | 31 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 31 |
@@ -84,12 +84,12 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 | 74 | Bàn chải - Người lớn | 0.0tr | 12 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 11 |
 | 75 | Bánh gạo | 0.0tr | 13 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 13 |
 | 76 | Bánh mì kem tươi | 0.0tr | 12 | 0 | 6 | 0 | 0 | 0 | 0 | 0 | 6 |
-| 77 | Nước ngọt ít calories | 0.0tr | 12 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 12 |
-| 78 | Kem bánh | 0.0tr | 12 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 12 |
-| 79 | Sữa chua đông lạnh | 0.0tr | 12 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 12 |
-| 80 | Khô bò | 0.0tr | 11 | 0 | 1 | 0 | 2 | 0 | 0 | 0 | 8 |
-| 81 | Đồ chay giả mặn (konjac) | 0.0tr | 11 | 0 | 0 | 0 | 2 | 0 | 0 | 0 | 9 |
-| 82 | Dầu gội - Dành cho nam | 0.0tr | 11 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 10 |
+| 77 | Kem bánh | 0.0tr | 12 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 12 |
+| 78 | Sữa chua đông lạnh | 0.0tr | 12 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 12 |
+| 79 | Khô bò | 0.0tr | 11 | 0 | 1 | 0 | 2 | 0 | 0 | 0 | 8 |
+| 80 | Đồ chay giả mặn (konjac) | 0.0tr | 11 | 0 | 0 | 0 | 1 | 0 | 1 | 0 | 9 |
+| 81 | Dầu gội - Dành cho nam | 0.0tr | 11 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 10 |
+| 82 | Nước ngọt ít calories | 0.0tr | 11 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 11 |
 | 83 | Snack khoai mì / khoai lang | 0.0tr | 11 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 11 |
 | 84 | Kem ốc quế | 0.0tr | 11 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 11 |
 | 85 | Kẹo sáng tạo / đồ chơi | 0.0tr | 11 | 0 | 0 | 0 | 2 | 0 | 0 | 0 | 9 |
@@ -217,6 +217,7 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 | 207 | Miếng dán ngực | 0.0tr | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 |
 | 208 | Chăm sóc cơ thể | 0.0tr | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 |
 | 209 | Không cồn 0.0 | 0.0tr | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 |
+| 210 | Chăm sóc cá nhân | 0.0tr | 1 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 0 |
 
 ## ⚠️ Bản ghi lỗi
 

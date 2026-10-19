@@ -15,14 +15,21 @@
   "current": {
     "imageUrl": "https://cdn2-retail-images.kiotviet.vn/2026/09/02/tram8/68894fa4fb4f4b319326ffa36c9e764a.jpeg",
     "description": null,
-    "exportedAt": "2026-10-19T03:17:44.875Z"
+    "exportedAt": "2026-10-19T17:14:50.207Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I4: ảnh KiotViet là mặt sau trong suốt của gói; tra lại 18/10 (mã vạch, \"素牛筋 调味面制品\", \"gân bò chay\") — không có ảnh mặt trước → cần chụp mặt trước · tra lại 19/10 (Yandex ảnh: \"素牛筋 调味面制品\"; \"gân bò chay kho\"; \"素牛筋 卤味\") — không có ảnh đúng SP/vị",
-    "source": null,
-    "rubricVersion": "v20"
+    "reason": "chủ 19/10: xử lí theo ảnh có sẵn → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: ảnh minh hoạ: vẽ mặt túi như ảnh chụp (mặt cửa sổ trong); mặt trước in hình chưa có ảnh",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-19",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet của SP (mặt sau túi, cửa sổ trong)"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -61,6 +68,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "np19 re-research 19/10 (image search): still no image of this exact product → NEEDS_PHOTO"
+    },
+    {
+      "at": "2026-10-19T17:16:03Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "redo after Hub rejection:  — Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-19T17:16:03.965Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-19T17:16:03.965Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }
