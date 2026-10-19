@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-19T03:17:44.875Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "ảnh nhân viên mới chụp (KiotViet 19/10) trên mặt đá tối, chỉ làm mẫu → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: lần 2 sửa dòng tiếng Anh và ô năng lượng (60); chữ Thái nhỏ phía trên vẽ mờ; số khối lượng bị che trong ảnh, vẽ 18 g theo tên và gói cùng dòng",
@@ -81,6 +81,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T08:50:58.958Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -90,5 +96,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T07:45:33.814Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T07:45:33.814Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/b9373dce9544af96f012a8d6560c1d7c0f89313a6d568f942dcd40ad9ac76665.webp"
+        ],
+        "from": [
+          "https://cdn1-retail-images.kiotviet.vn/2026/10/19/tram8/fae62f2bb98540a8bc751014abbf9a45.png"
+        ]
+      },
+      "description": {
+        "to": "Snack mực cán Bento (หมึกบด) vị nước tương kiểu Nhật (Japanese style soy sauce flavour): surimi trộn mực cán mỏng, tẩm gia vị, ăn liền. Bao bì tiếng Thái.\n\nQuy cách: 18 g · gói\nThương hiệu: Bento",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

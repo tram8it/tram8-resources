@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-19T03:17:44.875Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "ảnh nhân viên mới chụp (KiotViet 19/10) trên mặt đá tối, chỉ làm mẫu → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ Thái nhỏ và % dinh dưỡng vẽ mờ/ước lượng",
@@ -81,6 +81,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T08:50:58.958Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -90,5 +96,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T07:45:37.197Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T07:45:37.197Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/e2b097e25c4699dbbe6b63c9bcba41b7843d0d01d0b3785ea457178d01498a12.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/10/19/tram8/60def4f689974c1db06038874cd88219.png"
+        ]
+      },
+      "description": {
+        "to": "Snack mực cán Bento (หมึกบด) vị ớt Thái cổ điển (Thai classic chilli flavour): surimi trộn mực cán mỏng, tẩm gia vị, ăn liền. Bao bì tiếng Thái.\n\nQuy cách: 18 g · gói\nThương hiệu: Bento",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

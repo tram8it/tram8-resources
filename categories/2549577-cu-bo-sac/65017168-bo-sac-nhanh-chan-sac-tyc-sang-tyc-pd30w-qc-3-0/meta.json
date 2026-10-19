@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-19T03:17:44.875Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I3/I4/I5: ảnh KiotViet cắt mất vỉ; tra lại 19/10 → nhãn trên củ sạc trong ảnh KiotViet ghi Model CS55A (tên KiotViet ghi CS53A); trang hãng hocotech.com có vỉ 'CS55A Surplus PD30W + QC3.0 EU cable set' USB-C–USB-C, mã vạch mặt sau 6942007631563 trùng mã KiotViet → ảnh hãng mặt trước vỉ, cắt bỏ mặt sau, chuẩn hoá make_image (v13). Tên KiotViet ghi nhầm CS53A — báo chủ sửa nếu muốn",
@@ -74,6 +74,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T08:50:58.958Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -83,5 +89,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T07:36:37.857Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T07:36:37.857Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/2e40a58120ffed6f0f3a7d0d51d577528ef87aa7fd2c52c3318dd97b99e36427.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/03/23/tongpenhchtl/858a768ef31342319f3ce42824ce15c3.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Bộ sạc nhanh Hoco CS55A Surplus 2 cổng (USB-A + USB-C), công nghệ GaN, công suất tối đa 30W, hỗ trợ sạc nhanh PD 30W và QC3.0, kèm cáp USB-C sang USB-C dài 1 m; củ sạc chân tròn (EU), có đèn báo nguồn, điện vào AC 100–240 V; màu trắng.\n\nQuy cách: bộ (củ sạc + cáp)\nThương hiệu: hoco.",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-19T03:17:44.875Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I3/I4/I5: ảnh KiotViet chụp cận nhãn túi; 19/10 tìm web (trang hãng thanhhafoods.com, tên SP, ảnh ngược Yandex) không có ảnh nào, nhưng ảnh KiotViet thấy trọn nhãn dán → vẽ lại cả túi từ ảnh KiotViet (v23) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: mép túi và số bánh trong túi do AI dựng (ảnh mẫu bị cắt mép); bỏ dấu ngày NSX đóng trên nhãn; vài dòng chữ nhỏ có thể lệch",
@@ -75,6 +75,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T08:50:58.958Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -84,5 +90,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T07:36:55.222Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T07:36:55.222Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/a347dfdf4d9ddcc5b46108f73a08d60245804fd36c6659fe9151da121bab973f.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/03/18/tongpenhchtl/7aa8e7cfe9504f868744817c577be3ec.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Bánh mì tươi Thanh Hà Foods đóng túi, nướng nóng lại trước khi ăn.\n\nThành phần: Bột mì, men, muối, nước sạch.\nQuy cách: 400 g · túi (theo tên SP)\nNhà sản xuất: Công ty TNHH Thực phẩm sạch Thanh Hà (Bình Minh, Hà Nội) · Thanh Hà Foods\nBảo quản: Ngăn mát 5 ngày, ngăn đông 6 tháng.\nHướng dẫn sử dụng: Nướng nóng bằng lò nướng hoặc nồi chiên không dầu.",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

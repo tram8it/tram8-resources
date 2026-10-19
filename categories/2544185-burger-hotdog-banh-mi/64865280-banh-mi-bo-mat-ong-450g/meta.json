@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-19T03:17:44.875Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I3/I4/I5: ảnh KiotViet chụp cận nhãn túi; 19/10 tìm web (trang hãng thanhhafoods.com, tên SP, ảnh ngược Yandex) không có ảnh nào, nhưng ảnh KiotViet thấy trọn nhãn dán → vẽ lại cả túi từ ảnh KiotViet (v23) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: mép túi và số bánh trong túi do AI dựng (ảnh mẫu bị cắt mép); bỏ dấu ngày NSX đóng trên nhãn; vài dòng chữ nhỏ có thể lệch",
@@ -75,6 +75,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T08:50:58.958Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -84,5 +90,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T07:37:06.148Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T07:37:06.148Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/a6f5f61a8f57bc980adbdc397f070fe57ba2df6ababad6ba2daa2d9e8471b40e.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/03/18/tongpenhchtl/03a2539071494dbf9c2fb102068e53cf.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Bánh mì bơ mật ong Thanh Hà Foods, làm với bơ thực vật và mật ong, bảo quản đông lạnh, nướng lại trước khi ăn.\n\nThành phần: Bột mỳ (38%), bơ thực vật (15%), dầu thực vật (8%), mật ong (8%), men, muối, đường, nước.\nQuy cách: 450 g · túi\nNhà sản xuất: Công ty TNHH Thực phẩm sạch Thanh Hà (Bình Minh, Hà Nội) · Thanh Hà Foods\nBảo quản: Ngăn đông, hạn sử dụng 6 tháng từ ngày sản xuất.\nHướng dẫn sử dụng: Rã đông, sau đó nướng lò 200°C khoảng 10 phút hoặc nồi chiên không dầu 160°C khoảng 5 phút; dùng ngay sau khi chế biến.",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-19T03:17:44.875Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I3/I4/I5: ảnh KiotViet chụp cận nhãn túi; 19/10 tìm web (tên, 'Lâm Vũ', ảnh ngược Yandex) không có ảnh nào, nhưng ảnh KiotViet thấy trọn nhãn in → vẽ lại cả túi từ ảnh KiotViet (v23) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: mép túi và số que trong túi do AI dựng (ảnh mẫu bị cắt mép); chữ nhỏ (thành phần, bảng dinh dưỡng, địa chỉ) là chữ AI, không đọc theo được; ảnh là cả túi theo nhãn — nếu cửa hàng bán lẻ từng que thì cần ảnh khác",
@@ -69,6 +69,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T08:50:58.958Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -78,5 +84,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T07:36:43.409Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T07:36:43.409Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/7d1a16193b6549584c9eb154b22786749d4828b2517cf182c7f83e084e063bb1.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/02/26/tongpenhchtl/b9a6a9d1ed4c4ce9a9b0bfc26f399d45.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Bánh mì que nhân pate, chà bông và phô mai mozzarella, đóng gói đông lạnh, nướng lại trước khi ăn.\n\nThành phần: Vỏ bánh (bột mì, bơ, đường, bột sữa, trứng gà, nước, muối, men khô, chất ổn định, chất điều vị, chất chống oxy hoá, chất nhũ hoá); xốt (sữa tươi, mayonnaise, phô mai mozzarella, cream cheese…); pate 13,7%; phô mai mozzarella 10,26%; chà bông 4,3%.\nQuy cách: cái\nNhà sản xuất: Công ty TNHH TMDV Ẩm thực Lâm Vũ\nBảo quản: Ngăn đông (−18°C) dùng trong 6 tháng; ngăn mát (2–5°C) dùng trong 2 ngày; không cấp đông lại sau khi rã đông.\nHướng dẫn sử dụng: Rã đông trong ngăn mát 6–7 giờ hoặc ở nhiệt độ thường khoảng 1 giờ, nướng hai mặt ở 180°C trong 4–5 phút tới khi vỏ vàng giòn. Nên mở khe miệng bánh khi nướng để nhân nóng đều và phô mai tan chảy.",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

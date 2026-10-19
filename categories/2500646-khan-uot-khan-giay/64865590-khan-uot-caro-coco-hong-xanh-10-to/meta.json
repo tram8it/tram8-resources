@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-19T03:17:44.875Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I2: ảnh KiotViet là SP khác; 19/10 tra iCheck mã 8938511060270 ra ảnh gói Carococo hồng 10 tờ → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt đáng kể; chữ nhỏ trên huy hiệu 60° không đọc rõ",
@@ -90,6 +90,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T08:50:58.958Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -99,5 +105,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T07:36:25.437Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T07:36:25.437Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/8c16b47c2218b03d6f51bfbd4fecf1f0533c8f117a63cfd234041d7ecfa0e004.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2025/12/05/tongpenhchtl/e1018e69f5c54c4b9c913708cf30cb04.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Khăn ướt Caro Coco gói hồng 10 tờ, có bổ sung vitamin E, gói nhỏ gọn có nắp dán mở lại được, tiện mang theo khi đi học, đi làm, đi chơi.\n\nQuy cách: 10 tờ · gói\nThương hiệu: Caro Coco",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

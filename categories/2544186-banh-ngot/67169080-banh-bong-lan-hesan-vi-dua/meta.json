@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-19T03:17:44.875Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I3/I5: ảnh KiotViet chụp cận túi Hesan (河山); 19/10 tìm web (tên Việt, chữ Hàn '옛날카스테라'/'계란빵', 河山, mã vạch, ảnh ngược Yandex) không có ảnh nào, nhưng ảnh KiotViet thấy gần trọn hình in → vẽ lại cả túi từ ảnh KiotViet (v23) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: mép túi, số bánh và phần chữ bị cắt ở mép phải do AI hoàn thiện theo ảnh mẫu",
@@ -75,6 +75,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T08:50:58.958Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -84,5 +90,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T07:37:21.677Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T07:37:21.677Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/207a415681d45fab94ffe87a4c332657ba0a04509e8e28df8ebd8f92e0ea7040.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/20/tram8/3becaf75bc41424a80d853c0a55a8240.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Bánh bông lan kiểu castella truyền thống Hesan vị dứa, bánh mềm xốp có nhân dứa.\n\nQuy cách: 268 g · gói\nNhà sản xuất/thương hiệu: Hesan (河山)",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

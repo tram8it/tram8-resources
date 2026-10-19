@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-19T03:17:44.875Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "ảnh nhân viên mới chụp (KiotViet 19/10) trên mặt đá tối, chỉ làm mẫu → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt",
@@ -81,6 +81,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T08:50:58.958Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -90,5 +96,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T07:45:52.802Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T07:45:52.802Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/93779a4d9f300940f5a1e26304406876ede5308df507cbf0fe07cb52cfa448e8.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/10/19/tram8/0ba264bd537342ad955146cb8ce4db5b.png"
+        ]
+      },
+      "description": {
+        "to": "Tôm chay vị cay thơm (素虾仁 – 香辣味) của Haoweiwu Foods (好味屋), món ăn vặt làm từ konjac (khoai nưa), tạo hình con tôm.\n\nQuy cách: 20 g · gói\nNhà sản xuất/thương hiệu: Haoweiwu Foods (好味屋)",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

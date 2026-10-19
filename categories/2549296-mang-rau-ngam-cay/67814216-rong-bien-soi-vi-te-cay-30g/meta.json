@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-19T03:17:44.875Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "ảnh nhân viên mới chụp (KiotViet 19/10) trên mặt đá tối, chỉ làm mẫu → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt",
@@ -81,6 +81,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T08:50:58.958Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -90,5 +96,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T07:46:02.151Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T07:46:02.151Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/b359a57e307cd013a90e0a53f3ed99f4ae5a03ac7bac8b409b64fd012e319073.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/10/19/tram8/2b9a239ce3d6458a884c015fc887a31e.png"
+        ]
+      },
+      "description": {
+        "to": "Rong biển sợi QIAO'S vị cay thơm: sợi rong biển trộn gia vị cay, gói nhỏ ăn liền.\n\nQuy cách: 30 g · gói\nThương hiệu: QIAO'S",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

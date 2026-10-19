@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-19T03:17:44.875Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "ảnh nhân viên mới chụp (KiotViet 19/10) trên mặt đá tối, chỉ làm mẫu → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: đã bỏ dòng NSX/HSD in đè trên nhãn, giữ 'TL:170G'; chữ nhỏ hai cạnh nhãn vẽ mờ",
@@ -81,6 +81,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T08:50:58.958Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -90,5 +96,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T07:45:25.948Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T07:45:25.948Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/4e2c940af2e55c061ae5574c83178fe510e83d939d1e6276bd7c4a1517bf62a0.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/10/19/tram8/dce4797ea9fe468ebc572f8aa5a0b956.png"
+        ]
+      },
+      "description": {
+        "to": "Mực xé sợi hấp nước dừa Quang Thanh Foods (Đặc sản Ba Miền), mực khô xé sợi ăn liền, đựng trong hộp nhựa trong có nắp.\n\nQuy cách: 170 g · hộp\nNhà sản xuất/thương hiệu: Quang Thanh Foods",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-19T03:17:44.875Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I1: chưa có ảnh; 19/10 tra iCheck mã 4582192960417 ra ảnh thiết kế gói của hãng Lasvon (mã vạch in trên gói khớp) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: một miếng mặt nạ (không hộp); dòng nhỏ 'No Colorant' vẽ thành 'No Colorent'; tem tròn nhỏ chữ không đọc được",
@@ -90,6 +90,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T08:50:58.958Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -99,5 +105,28 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T07:36:29.742Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T07:36:29.742Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/879adfb3f66e3ed7c4c5e35ae60636488d98e3203c3304a7a32a9ab2466096ea.webp"
+        ],
+        "from": null
+      },
+      "description": {
+        "to": "Mặt nạ giấy Lasvon Clinical Retinol Peptide Serum Mask, mặt nạ serum tinh chất Retinol và Peptide, giúp dưỡng ẩm và làm săn da. Không cồn, không chất tạo màu (theo bao bì).\n\nQuy cách: 1 miếng · gói\nXuất xứ: Nhật Bản · Nhà sản xuất: Wave Corporation · Thương hiệu: Lasvon",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

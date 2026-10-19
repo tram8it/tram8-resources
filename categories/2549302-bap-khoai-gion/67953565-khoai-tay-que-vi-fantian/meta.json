@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-19T03:17:44.875Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "ảnh nhân viên mới chụp (KiotViet 19/10) trên mặt đá tối, chỉ làm mẫu → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: đã bỏ dòng NSX/HSD in phun; phần túi trong vẽ thành nền in đặc hơn",
@@ -81,6 +81,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T08:50:58.958Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -90,5 +96,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T07:46:54.543Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T07:46:54.543Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/9370fadcaeadde0fcb290fc57a9a97fdd902ae46e48a75322de0d4e55babc1ed.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/10/19/tram8/1ad9e26e156f4b82a885361876b41c68.png"
+        ]
+      },
+      "description": {
+        "to": "Que cay Fantianwa (翻天娃) vị khoai tây chiên (翻天薯条味): sản phẩm mì gia vị dạng thanh (调味面制品), không phải khoai tây (theo bao bì).\n\nQuy cách: gói (cân theo trọng lượng)\nNhà sản xuất/thương hiệu: Hunan Fantianwa Food Co. (湖南省翻天娃食品有限公司)",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

@@ -20,17 +20,16 @@
   "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "ảnh nhân viên mới chụp (KiotViet 19/10) trên mặt đá tối, chỉ làm mẫu → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ 'CRACKERS' vẽ đủ chữ S cuối (trong ảnh bị cong lon che); phần cuối dòng 'RICH SPICY SAUCE…' là ước lượng",
+    "reason": "chủ 19/10: ống thực tế dài hơn → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: vẽ lại cao, thon theo ảnh chụp; chữ nhỏ để mờ",
     "source": {
       "aiGenerated": true,
       "tool": "Gemini API",
       "model": "gemini-nano-banana-2.1",
       "generatedAt": "2026-10-19",
       "style": "flat clean packaging render (v17)",
-      "reference": "ảnh nhân viên chụp (KiotViet 19/10)",
-      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/10/19/tram8/95a213da05664e4786e2da697d1adbe7.png"
+      "reference": "ảnh nhân viên chụp (KiotViet 19/10)"
     },
-    "rubricVersion": "v23"
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "REWRITE",
@@ -87,14 +86,38 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T08:50:58.958Z",
+      "by": "owner",
+      "status": "IN_PROGRESS",
+      "note": "rejected on Hub by AU KHUONG DUY: Đúng rồi nhưng cái ống thực tế cảm giác nó dài hơn"
+    },
+    {
+      "at": "2026-10-19T08:53:33Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "redo after Hub rejection: Đúng rồi nhưng cái ống thực tế cảm giác nó dài hơn — Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-19T08:53:33.578Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-19T07:40:05.371Z",
+    "at": "2026-10-19T08:53:33.578Z",
     "fields": [
       "description",
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "REJECTED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T07:44:49.359Z",
+    "note": "Đúng rồi nhưng cái ống thực tế cảm giác nó dài hơn"
   }
 }

@@ -20,7 +20,7 @@
   "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "ảnh nhân viên mới chụp (KiotViet 19/10) trên mặt đá tối, chỉ làm mẫu → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: túi hơi rộng hơn ảnh một chút; chữ nhỏ cuối gói vẽ mờ",
+    "reason": "chủ 19/10: ảnh bị kéo bẹt → Gemini vẽ lại theo ảnh nhân viên chụp, chỉnh tỷ lệ gói về ~1:1,9 như gói thật",
     "source": {
       "aiGenerated": true,
       "tool": "Gemini API",
@@ -28,7 +28,8 @@
       "generatedAt": "2026-10-19",
       "style": "flat clean packaging render (v17)",
       "reference": "ảnh nhân viên chụp (KiotViet 19/10)",
-      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/10/19/tram8/b84ca97ef0b54e9fa9fadfc0615ccaeb.png"
+      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/10/19/tram8/b84ca97ef0b54e9fa9fadfc0615ccaeb.png",
+      "postProcess": "horizontal resize to the real pouch ratio"
     },
     "rubricVersion": "v23"
   },
@@ -81,14 +82,38 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T08:50:58.958Z",
+      "by": "owner",
+      "status": "IN_PROGRESS",
+      "note": "rejected on Hub by AU KHUONG DUY: ảnh hơi bị kéo bẹt"
+    },
+    {
+      "at": "2026-10-19T08:54:19.540Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "redrawn + aspect fixed after owner rejection"
+    },
+    {
+      "at": "2026-10-19T08:54:19.642Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-19T07:40:39.560Z",
+    "at": "2026-10-19T08:54:19.642Z",
     "fields": [
       "description",
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "REJECTED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T07:44:30.488Z",
+    "note": "ảnh hơi bị kéo bẹt"
   }
 }

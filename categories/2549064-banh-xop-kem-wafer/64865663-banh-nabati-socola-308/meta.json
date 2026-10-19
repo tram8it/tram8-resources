@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-19T03:17:44.875Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I2: ảnh KiotViet là hộp Richeese; 19/10 tra Open Food Facts mã 8993175542128 ra ảnh mặt trước gói Nabati Chocolate Wafer → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: hai mép hàn hai đầu gói do AI vẽ thêm (ảnh mẫu bị cắt mép)",
@@ -84,6 +84,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T08:50:58.958Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -93,5 +99,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T07:36:34.468Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T07:36:34.468Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/032f3c347416a5694701aecad339b7c7777335fc0bb8711b9785b0c2f971ab26.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2025/11/28/tongpenhchtl/b4dc5e44a9a84a61ad5e926cd514cb78.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Bánh xốp Nabati Chocolate Wafer nhân kem sô-cô-la, gói nhỏ ăn liền, có bổ sung vitamin A, B1, B2, B6, B12 (theo bao bì).\n\nQuy cách: gói nhỏ · cái\nXuất xứ: Indonesia · Thương hiệu: Nabati",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

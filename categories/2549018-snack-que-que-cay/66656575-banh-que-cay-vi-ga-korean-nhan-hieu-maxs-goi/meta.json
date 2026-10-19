@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-19T03:17:44.875Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I1: chưa có ảnh; 19/10 tìm lại theo mã vạch 8850548010113 ra ảnh gói trên minhcaumart.vn → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: ô dinh dưỡng nhỏ có số do AI vẽ (ảnh mẫu không đọc được); chữ Thái nhỏ có thể lệch",
@@ -84,6 +84,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T08:50:58.958Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -93,5 +99,28 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T07:36:21.669Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T07:36:21.669Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/f9c56bb50c1353b69f49efae6ffc5d907f5832a9fb3515138660748888f37ee6.webp"
+        ],
+        "from": null
+      },
+      "description": {
+        "to": "Bánh que Maxs vị gà sốt cay Hàn Quốc (Korean Chicken Spicy Sauce Biscuit Sticks), que bánh quy giòn nhập khẩu Thái Lan, món ăn vặt cho người thích cay.\n\nQuy cách: 55 g · gói\nXuất xứ: Thái Lan · Nhà sản xuất/thương hiệu: Maxs",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

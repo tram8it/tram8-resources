@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-19T03:17:44.875Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "ảnh nhân viên mới chụp (KiotViet 19/10) trên mặt đá tối, chỉ làm mẫu → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt (bỏ bóng lóa của túi)",
@@ -81,6 +81,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T08:50:58.958Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -90,5 +96,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T07:45:48.578Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T07:45:48.578Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/28a0cb67921af494bca812455e301188dcfb518402ca218f14cd70217749f268.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/10/19/tram8/0dfa2696a8ab4c5aaf3cce24c47abaac.png"
+        ]
+      },
+      "description": {
+        "to": "Đậu phụ khô da hổ QIAO'S vị cay thơm: miếng đậu phụ khô da hổ tẩm gia vị cay, gói nhỏ ăn liền; giữ độ tươi bằng khí nitơ, không hút chân không (theo bao bì).\n\nQuy cách: 20 g · gói\nThương hiệu: QIAO'S",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }
