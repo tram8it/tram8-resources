@@ -1,0 +1,197 @@
+# So sánh thương hiệu
+
+- Trước: 2026-10-19T10:04:05.843Z · Sau: 2026-10-19T12:40:49.783Z
+- Kế hoạch: reports/thuong-hieu/xoa-thuong-hieu-rong.csv · 130 dòng
+- **KHÔNG ĐẠT — 31 cảnh báo** · 128 thay đổi đúng kế hoạch
+
+## Cảnh báo
+- **TH_MOI_NGOAI_KE_HOACH** #749718 "Absolut"
+- **TH_BI_XOA_NGOAI_KE_HOACH** #749128 "Absolut"
+- **TH_BI_XOA_NGOAI_KE_HOACH** #749219 "Gumi Gumi"
+- **TH_BI_XOA_NGOAI_KE_HOACH** #749299 "Nivea Men"
+- **CHUA_XOA** #729046 "Bích chi"
+- **CHUA_XOA** #728973 "HABECO"
+- **SAI_THUONG_HIEU** 4005900740779 "88521 N NAM SRM DEEP GIẢM MỤN 100G (SP)" (#64865195): "Nivea Men" → "Nivea", cần "Nivea Men"
+- **TRUONG_KHAC_BI_DOI** 8935049501503 "Đồ uống COKE 320ML 4×6 SLEEK CAN SF FFWC" (#65142054) · `category`: {"id":2549402,"name":"Nước ngọt ít calories"} → {"id":2500663,"name":"Nước ngọt có gas"}
+- **TRUONG_KHAC_BI_DOI** SP877119 "Đồ uống COKE 320ML 4×6 SLEEK CAN SF FFWC" (#65143634) · `category`: {"id":2549402,"name":"Nước ngọt ít calories"} → {"id":2500663,"name":"Nước ngọt có gas"}
+- **SAI_THUONG_HIEU** 4005900036049 "Lăn khử mùi Nivea Men black white X5 50ml" (#65457385): "Nivea Men" → "Nivea", cần "Nivea Men"
+- **SAI_THUONG_HIEU** 4005808298334 "Lăn khử mùi Nivea Men dry impact 50ml" (#66203819): "Nivea Men" → "Nivea", cần "Nivea Men"
+- **SAI_THUONG_HIEU** 4005808304172 "Lăn khử mùi Nivea Men silver protect 48H" (#65089463): "Nivea Men" → "Nivea", cần "Nivea Men"
+- **SAI_THUONG_HIEU** 4005900639608 "Lăn km Nivea Men Hương mạnh mẽ 50ml" (#64865187): "Nivea Men" → "Nivea", cần "Nivea Men"
+- **SAI_THUONG_HIEU** 4005808301843 "Lăn Nivea Men mát lạnh 72H" (#66203780): "Nivea Men" → "Nivea", cần "Nivea Men"
+- **SAI_THUONG_HIEU** 4005808888696 "Nivea for men whitening Foam acne oil control pore minimising 100g" (#65089653): "Nivea Men" → "Nivea", cần "Nivea Men"
+- **SAI_THUONG_HIEU** 4005808888368 "Nivea Men Foam ex whitening 10X" (#65090041): "Nivea Men" → "Nivea", cần "Nivea Men"
+- **TRUONG_KHAC_BI_DOI** 8934588552267 "Pepsi Hương Vị Kem Dâu Tây Không Calo 235ml" (#68271860) · `category`: {"id":2500663,"name":"Nước ngọt có gas"} → {"id":2549402,"name":"Nước ngọt ít calories"}
+- **TRUONG_KHAC_BI_DOI** SP878270 "Pepsi Hương Vị Kem Dâu Tây Không Calo 235ml" (#68271879) · `category`: {"id":2500663,"name":"Nước ngọt có gas"} → {"id":2549402,"name":"Nước ngọt ít calories"}
+- **TRUONG_KHAC_BI_DOI** SP878271 "Pepsi Hương Vị Kem Dâu Tây Không Calo 235ml" (#68271880) · `category`: {"id":2500663,"name":"Nước ngọt có gas"} → {"id":2549402,"name":"Nước ngọt ít calories"}
+- **SAI_THUONG_HIEU** 4005900926692 "Sáp ngăn mùi Nivea Men cool kick 50ml" (#65457356): "Nivea Men" → "Nivea", cần "Nivea Men"
+- **SAI_THUONG_HIEU** 4005900926715 "Sáp Nivea tinh thể bạc silver nam" (#64865381): "Nivea Men" → "Nivea", cần "Nivea Men"
+- **SAI_THUONG_HIEU** 4005900513243 "Sữa Rửa Mặt Deep Dưỡng Sáng 100g" (#64865196): "Nivea Men" → "Nivea", cần "Nivea Men"
+- **SAI_THUONG_HIEU** 4005808663187 "Sữa Rửa Mặt Nam Extra Bright Mud 100g" (#64865197): "Nivea Men" → "Nivea", cần "Nivea Men"
+- **SAI_THUONG_HIEU** 4005808888382 "Sữa rửa mặt nam Nivea ngăn mụn và nhờn 100g" (#65456299): "Nivea Men" → "Nivea", cần "Nivea Men"
+- **SAI_THUONG_HIEU** 4005808656004 "Sữa rửa mặt Nivea Men anti acne oil control mud Foam 100g" (#65089751): "Nivea Men" → "Nivea", cần "Nivea Men"
+- **SAI_THUONG_HIEU** 4005808888801 "Sửa rửa mặt Nivea Men white acne-oil control spot and oil fighter scrub 10X whitening 100g" (#65456280): "Nivea Men" → "Nivea", cần "Nivea Men"
+- **SAI_THUONG_HIEU** 8850029014630 "Sữa rửa mặt Nivea t sáng da, sạch nhờn bùn khoáng Hương air cool Bạc Hà mát lạnh 100g" (#65456287): "Nivea Men" → "Nivea", cần "Nivea Men"
+- **SAI_THUONG_HIEU** 8850389302811 "Thực Phẩm Bổ Sung Nước Thạch Jelly Gumi Gumi Vitamin B Vị Nho 135g" (#67767640): "Gumi Gumi" → "Gumi", cần "Gumi Gumi"
+- **SAI_THUONG_HIEU** 8850389302835 "Thực Phẩm Bổ Sung Nước Thạch Jelly Gumi Gumi Vitamin C Vị Vải 135g" (#67767695): "Gumi Gumi" → "Gumi", cần "Gumi Gumi"
+- **SAI_THUONG_HIEU** 8850029025315 "Xịt khử mùi Nivea Men deep dry & clean feel 150ml" (#64865193): "Nivea Men" → "Nivea", cần "Nivea Men"
+- **SAI_THUONG_HIEU** 4005900731418 "Xịt Nivea Men 72H X5ANTI" (#65456372): "Nivea Men" → "Nivea", cần "Nivea Men"
+
+## Đã đúng kế hoạch
+- xoá #728980 "ACECOOK"
+- xoá #729003 "AJINOMOTO"
+- xoá #728993 "AKUS"
+- xoá #729044 "AN FOOD"
+- xoá #728997 "ANNA LALA"
+- xoá #747488 "APIA CAKE"
+- xoá #729022 "ASTINI"
+- xoá #738520 "ATABLE"
+- xoá #729064 "AZAM"
+- xoá #729088 "BEIYIN"
+- xoá #729048 "Bibi go"
+- xoá #747638 "biswel"
+- xoá #729029 "Blue star"
+- xoá #729074 "CHADU"
+- xoá #729082 "chinsu"
+- xoá #729038 "Chivas"
+- xoá #728986 "Chuppa Chuđ"
+- xoá #729077 "CLEAR"
+- xoá #729033 "Cocacola"
+- xoá #729099 "Coke"
+- xoá #729097 "Công nghệ thực phẩm Châu Á"
+- xoá #729071 "Coolair"
+- xoá #729092 "Coolgate"
+- xoá #728952 "DAINISA"
+- xoá #729027 "DAIRY MILK"
+- xoá #728990 "DARS MORINAGA"
+- xoá #729035 "DIANA"
+- xoá #729091 "Downy"
+- xoá #729032 "DP An Phú"
+- xoá #728957 "DP Hoa Linh"
+- xoá #729049 "Dược phẩm Nam Hà"
+- xoá #731896 "Feastable"
+- xoá #729093 "Firm Filter Smooth Taste"
+- xoá #729087 "GARUDA FOOD"
+- xoá #728998 "Goody Group"
+- xoá #732652 "Hạ Long Saphhire"
+- xoá #729025 "Hà Việt"
+- xoá #729034 "Hải Châu"
+- xoá #729031 "HAI HA"
+- xoá #729067 "HAKKA"
+- xoá #728954 "Halal"
+- xoá #738547 "Happy-tos"
+- xoá #729069 "Hatomugi"
+- xoá #736779 "Hershey’s"
+- xoá #729024 "Hisamitsu"
+- xoá #729053 "HÒA AN"
+- xoá #729039 "Hoa Việt"
+- xoá #748899 "Hoàng Gia"
+- xoá #748928 "HoCoTeck"
+- xoá #729090 "HS"
+- xoá #728977 "HURA"
+- xoá #729102 "Interfood"
+- xoá #729045 "IPHONE"
+- xoá #747466 "Jagermeister"
+- xoá #729080 "JELLY"
+- xoá #729043 "KAMEDA"
+- xoá #729002 "Kent"
+- xoá #729023 "Khác"
+- xoá #728985 "KIDO"
+- xoá #729019 "KINH DO"
+- xoá #729050 "koko ya"
+- xoá #729059 "KoKoYa"
+- xoá #729063 "Kotex"
+- xoá #747420 "Kronenbourg 1664"
+- xoá #729037 "Kwangtung"
+- xoá #747496 "K-Y"
+- xoá #729021 "Lays"
+- xoá #729047 "Lc Food"
+- xoá #728965 "Lottte"
+- xoá #747506 "Love minimart"
+- xoá #729096 "Masan Consumer"
+- xoá #728956 "Masan jinju"
+- xoá #728982 "MAYORA"
+- xoá #736982 "Mèo Foods"
+- xoá #728995 "MEoW"
+- xoá #729052 "my lan"
+- xoá #747634 "Navi Tongue Cleaner"
+- xoá #729011 "Nestle"
+- xoá #728992 "Nghĩa"
+- xoá #728971 "Nước giải khát Sài Gòn"
+- xoá #729079 "O MO"
+- xoá #729020 "Oat milk"
+- xoá #729042 "ONE ONE"
+- xoá #735143 "Onigiri"
+- xoá #728989 "OREON"
+- xoá #728969 "Pepsico"
+- xoá #728966 "PHƯƠNG HUYỀN FOOD"
+- xoá #729004 "Pizza 4Ps"
+- xoá #729078 "PONDS"
+- xoá #728991 "Procter & Gamble"
+- xoá #747537 "Purité De Prôvence"
+- xoá #729057 "QUABLUE PHARMA"
+- xoá #728967 "QUANG THANH FOODS"
+- xoá #729089 "RJC"
+- xoá #728963 "ROHTO"
+- xoá #747409 "SABECO"
+- xoá #747469 "SAL SUN"
+- xoá #729016 "Sao Thái Dương"
+- xoá #729072 "SAPPI"
+- xoá #747455 "Sato Grona"
+- xoá #729070 "Senka"
+- xoá #736854 "SEOJU FOODS"
+- xoá #729073 "SHADOR"
+- xoá #729005 "SIMPLE"
+- xoá #732593 "Slice"
+- xoá #729094 "Sugus"
+- xoá #729060 "Sunsilk"
+- xoá #729100 "Suntory"
+- xoá #728996 "T.A.P FOOD"
+- xoá #729014 "Teemoon"
+- xoá #747461 "Tennessee Whiskey"
+- xoá #729058 "Thảo Kiên Thủ Đô"
+- xoá #729008 "Thien Huong Food"
+- xoá #729041 "Thiên Long"
+- xoá #729101 "THO Group"
+- xoá #747406 "Tiger Beer"
+- xoá #728981 "TRƯỜNG FOOD"
+- xoá #729103 "Uniben"
+- xoá #729051 "Unicharm"
+- xoá #729068 "VIET SUN"
+- xoá #728972 "Vinataba"
+- xoá #729083 "vivant"
+- xoá #747458 "Vodka"
+- xoá #736769 "Weisiel"
+- xoá #747465 "Whisky"
+- xoá #729036 "X men"
+- xoá #729040 "Xuân Xuân"
+- xoá #729061 "YUMMY"
+
+## Ghi chú
+- SP mới tạo giữa hai lần chụp: 4005900907950 "Sáp ngăn mùi Coolkick 50ml" (#68544334) — TH "Nivea"
+- 4005900740779 "88521 N NAM SRM DEEP GIẢM MỤN 100G (SP)" (#64865195): mô tả đổi định dạng xuống dòng (chữ giữ nguyên)
+- 8935049501503 "Đồ uống COKE 320ML 4×6 SLEEK CAN SF FFWC" (#65142054): mô tả đổi định dạng xuống dòng (chữ giữ nguyên)
+- SP877119 "Đồ uống COKE 320ML 4×6 SLEEK CAN SF FFWC" (#65143634): đơn vị nhận mô tả của hàng gốc (0 → 363 ký tự)
+- 4005900036049 "Lăn khử mùi Nivea Men black white X5 50ml" (#65457385): mô tả đổi định dạng xuống dòng (chữ giữ nguyên)
+- 4005808298334 "Lăn khử mùi Nivea Men dry impact 50ml" (#66203819): mô tả đổi định dạng xuống dòng (chữ giữ nguyên)
+- 4005808304172 "Lăn khử mùi Nivea Men silver protect 48H" (#65089463): mô tả đổi định dạng xuống dòng (chữ giữ nguyên)
+- 4005900639608 "Lăn km Nivea Men Hương mạnh mẽ 50ml" (#64865187): mô tả đổi định dạng xuống dòng (chữ giữ nguyên)
+- 4005808301843 "Lăn Nivea Men mát lạnh 72H" (#66203780): mô tả đổi định dạng xuống dòng (chữ giữ nguyên)
+- 4005808888696 "Nivea for men whitening Foam acne oil control pore minimising 100g" (#65089653): mô tả đổi định dạng xuống dòng (chữ giữ nguyên)
+- 4005808888368 "Nivea Men Foam ex whitening 10X" (#65090041): mô tả đổi định dạng xuống dòng (chữ giữ nguyên)
+- 8934588552267 "Pepsi Hương Vị Kem Dâu Tây Không Calo 235ml" (#68271860): mô tả đổi định dạng xuống dòng (chữ giữ nguyên)
+- SP878270 "Pepsi Hương Vị Kem Dâu Tây Không Calo 235ml" (#68271879): đơn vị nhận mô tả của hàng gốc (0 → 180 ký tự)
+- SP878271 "Pepsi Hương Vị Kem Dâu Tây Không Calo 235ml" (#68271880): đơn vị nhận mô tả của hàng gốc (0 → 180 ký tự)
+- 7312040090709 "Rượu Absolut citron Vodka 700ml" (#65977092): mô tả đổi định dạng xuống dòng (chữ giữ nguyên)
+- 4005900926715 "Sáp Nivea tinh thể bạc silver nam" (#64865381): mô tả đổi định dạng xuống dòng (chữ giữ nguyên)
+- 4005900513243 "Sữa Rửa Mặt Deep Dưỡng Sáng 100g" (#64865196): mô tả đổi định dạng xuống dòng (chữ giữ nguyên)
+- 4005808663187 "Sữa Rửa Mặt Nam Extra Bright Mud 100g" (#64865197): mô tả đổi định dạng xuống dòng (chữ giữ nguyên)
+- 4005808888382 "Sữa rửa mặt nam Nivea ngăn mụn và nhờn 100g" (#65456299): mô tả đổi định dạng xuống dòng (chữ giữ nguyên)
+- 4005808656004 "Sữa rửa mặt Nivea Men anti acne oil control mud Foam 100g" (#65089751): mô tả đổi định dạng xuống dòng (chữ giữ nguyên)
+- 4005808888801 "Sửa rửa mặt Nivea Men white acne-oil control spot and oil fighter scrub 10X whitening 100g" (#65456280): mô tả đổi định dạng xuống dòng (chữ giữ nguyên)
+- 8850029014630 "Sữa rửa mặt Nivea t sáng da, sạch nhờn bùn khoáng Hương air cool Bạc Hà mát lạnh 100g" (#65456287): mô tả đổi định dạng xuống dòng (chữ giữ nguyên)
+- 8850389302811 "Thực Phẩm Bổ Sung Nước Thạch Jelly Gumi Gumi Vitamin B Vị Nho 135g" (#67767640): mô tả đổi định dạng xuống dòng (chữ giữ nguyên)
+- 8850389302835 "Thực Phẩm Bổ Sung Nước Thạch Jelly Gumi Gumi Vitamin C Vị Vải 135g" (#67767695): mô tả đổi định dạng xuống dòng (chữ giữ nguyên)
+- 7312040350056 "Vodka Absolut Raspberri Vodka 700ml T12" (#65977074): mô tả đổi định dạng xuống dòng (chữ giữ nguyên)
+- 8850029025315 "Xịt khử mùi Nivea Men deep dry & clean feel 150ml" (#64865193): mô tả đổi định dạng xuống dòng (chữ giữ nguyên)
+- 4005900731418 "Xịt Nivea Men 72H X5ANTI" (#65456372): mô tả đổi định dạng xuống dòng (chữ giữ nguyên)
