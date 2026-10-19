@@ -2,7 +2,7 @@
 
 > Sinh tự động bởi `node tools/status.mjs`. **Không sửa tay.** Nguồn sự thật là `meta.json` của từng SP.
 
-Tổng 2509 SP · đã xem 2509 (100%) · xong 2289 · chờ chủ duyệt 67 · cần chụp 152 · hỏi chủ 1
+Tổng 2509 SP · đã xem 2509 (100%) · xong 2289 · chờ chủ duyệt 73 · cần chụp 146 · hỏi chủ 1
 
 Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` = giữ nguyên + đã lên web.
 
@@ -20,7 +20,7 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 | 10 | Trà đóng chai | 0.0tr | 40 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 40 |
 | 11 | Snack que / que cay | 0.0tr | 43 | 0 | 1 | 0 | 6 | 0 | 1 | 0 | 35 |
 | 12 | Bánh tráng trộn | 0.0tr | 37 | 0 | 0 | 0 | 0 | 0 | 2 | 0 | 35 |
-| 13 | Bánh xốp kem (wafer) | 0.0tr | 31 | 0 | 0 | 0 | 2 | 0 | 0 | 0 | 29 |
+| 13 | Bánh xốp kem (wafer) | 0.0tr | 31 | 0 | 0 | 0 | 1 | 0 | 1 | 0 | 29 |
 | 14 | Nước trái cây / ép | 0.0tr | 34 | 0 | 0 | 0 | 1 | 0 | 1 | 0 | 32 |
 | 15 | Mì gói | 0.0tr | 31 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 30 |
 | 16 | Kem ly / cốc / hộp nhỏ | 0.0tr | 31 | 0 | 0 | 0 | 7 | 0 | 0 | 0 | 24 |
@@ -30,11 +30,11 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 | 20 | Thức uống bổ sung dinh dưỡng | 0.0tr | 26 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 26 |
 | 21 | Nhập khẩu & premium | 0.0tr | 25 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 25 |
 | 22 | Lăn khử mùi | 0.0tr | 25 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 25 |
-| 23 | Bánh quy kem / kẹp kem | 0.0tr | 24 | 0 | 0 | 0 | 3 | 0 | 3 | 0 | 18 |
+| 23 | Bánh quy kem / kẹp kem | 0.0tr | 24 | 0 | 0 | 0 | 2 | 0 | 4 | 0 | 18 |
 | 24 | Hạt các loại | 0.0tr | 24 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 23 |
 | 25 | Bánh ăn sáng / ngũ cốc / thanh năng lượng | 0.0tr | 23 | 0 | 0 | 0 | 4 | 0 | 1 | 0 | 18 |
 | 26 | Mì cay (Gói) | 0.0tr | 23 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 22 |
-| 27 | Bánh quy giòn / lạt | 0.0tr | 22 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 21 |
+| 27 | Bánh quy giòn / lạt | 0.0tr | 22 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 21 |
 | 28 | Kẹo cứng | 0.0tr | 22 | 0 | 0 | 0 | 1 | 0 | 1 | 0 | 20 |
 | 29 | Món hấp | 0.0tr | 22 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 21 |
 | 30 | Khô mực | 0.0tr | 22 | 0 | 0 | 0 | 6 | 0 | 0 | 0 | 16 |
@@ -51,7 +51,7 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 | 41 | Soda / nước trái cây có gas | 0.0tr | 20 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 20 |
 | 42 | Snack rong biển | 0.0tr | 20 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 20 |
 | 43 | Nước ngọt có gas | 0.0tr | 18 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 18 |
-| 44 | Bánh que chấm socola | 0.0tr | 18 | 0 | 0 | 0 | 1 | 0 | 2 | 0 | 15 |
+| 44 | Bánh que chấm socola | 0.0tr | 18 | 0 | 0 | 0 | 0 | 0 | 3 | 0 | 15 |
 | 45 | Kẹo mềm / caramen | 0.0tr | 17 | 0 | 0 | 0 | 1 | 0 | 2 | 0 | 14 |
 | 46 | Sữa tiệt trùng có vị | 0.0tr | 17 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 17 |
 | 47 | Nước suối / bù khoáng / ion | 0.0tr | 16 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 16 |
@@ -82,7 +82,7 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 | 72 | Sữa chua ăn | 0.0tr | 13 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 13 |
 | 73 | Khô heo | 0.0tr | 14 | 0 | 0 | 0 | 4 | 0 | 0 | 0 | 10 |
 | 74 | Bàn chải - Người lớn | 0.0tr | 12 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 11 |
-| 75 | Bánh gạo | 0.0tr | 13 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 12 |
+| 75 | Bánh gạo | 0.0tr | 13 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 12 |
 | 76 | Bánh mì kem tươi | 0.0tr | 12 | 0 | 6 | 0 | 1 | 0 | 0 | 0 | 5 |
 | 77 | Nước ngọt ít calories | 0.0tr | 12 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 12 |
 | 78 | Kem bánh | 0.0tr | 12 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 11 |
@@ -148,7 +148,7 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 | 138 | Dầu gội - Ngăn rụng tóc | 0.0tr | 5 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 4 |
 | 139 | Gel bôi trơn | 0.0tr | 5 | 0 | 3 | 0 | 0 | 0 | 0 | 0 | 2 |
 | 140 | Sữa rửa mặt cho da mụn | 0.0tr | 5 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 5 |
-| 141 | Lương khô | 0.0tr | 5 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 4 |
+| 141 | Lương khô | 0.0tr | 5 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 4 |
 | 142 | Dụng cụ lông mày / mũi | 0.0tr | 5 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 4 |
 | 143 | Vang Đỏ | 0.0tr | 5 | 0 | 4 | 0 | 0 | 0 | 0 | 0 | 1 |
 | 144 | Sữa và các sản phẩm từ sữa | 0.0tr | 5 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 5 |
@@ -226,6 +226,7 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 - categories/2547533-thuc-pham-che-bien-san/66405418-ngay-ra-dong: NO_CHANGE requires both decisions KEEP
 - categories/2548800-banh-mi-ngot-mem/67574198-banh-bong-lan-tam-giac-vi-socla: NO_CHANGE requires both decisions KEEP
 - categories/2549018-snack-que-que-cay/65136820-bia-cat-tong-ba-tuyet: NO_CHANGE requires both decisions KEEP
+- categories/2549064-banh-xop-kem-wafer/67200260-banh-oc-que-mix: READY but description.md missing
 - categories/2549220-kho-bo/65199232-bo-kho-thu-ba-35g: NO_CHANGE requires both decisions KEEP
 - categories/2549222-kho-ga/65831806-kho-ga-cay: NO_CHANGE requires both decisions KEEP
 - categories/2549222-kho-ga/67068456-kho-ga-la-chanh-276g-hop: NO_CHANGE requires both decisions KEEP
