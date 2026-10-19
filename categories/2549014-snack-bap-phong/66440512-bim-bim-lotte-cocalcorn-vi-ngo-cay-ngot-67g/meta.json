@@ -20,14 +20,14 @@
   "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "chủ 19/10: ảnh cũ là gói sự kiện KBO, nhăn, nghiêng (v17: dùng bản thường) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: ảnh minh hoạ: bỏ chữ/logo sự kiện KBO; nền xanh than và bố cục giữ theo ảnh gói thật; bản thường thật có thể khác chi tiết",
+    "reason": "chủ 19/10: bao bì phải giống SP thật nhất có thể (giữ bản KBO đang bán) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: vẽ phẳng, sạch theo đúng gói đang bán; chữ nhỏ để mờ",
     "source": {
       "aiGenerated": true,
       "tool": "Gemini API",
       "model": "gemini-nano-banana-2.1",
       "generatedAt": "2026-10-19",
       "style": "flat clean packaging render (v17)",
-      "reference": "ảnh gói hiện có (bản sự kiện KBO) + ảnh Kokalkon vị thường đã duyệt"
+      "reference": "ảnh gói đang bán (bản KBO) + Kokalkon vị thường đã duyệt (khung)"
     },
     "rubricVersion": "v18"
   },
@@ -92,10 +92,28 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T03:11:10.027Z",
+      "by": "owner",
+      "status": "IN_PROGRESS",
+      "note": "rejected on Hub by AU KHUONG DUY: Bao bì ko giống sp, cố giống nhất có thể,"
+    },
+    {
+      "at": "2026-10-19T03:12:05Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "redo after Hub rejection: Bao bì ko giống sp, cố giống nhất có thể, — Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-19T03:12:05.285Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-19T03:03:33.516Z",
+    "at": "2026-10-19T03:12:05.285Z",
     "fields": [
       "description",
       "image"
@@ -103,10 +121,10 @@
     "hubStatus": "PENDING"
   },
   "review": {
-    "status": "APPLIED",
+    "status": "REJECTED",
     "reviewedBy": "AU KHUONG DUY",
-    "reviewedAt": "2026-10-15T09:21:24.347Z",
-    "note": null
+    "reviewedAt": "2026-10-19T03:04:40.034Z",
+    "note": "Bao bì ko giống sp, cố giống nhất có thể,"
   },
   "uploaded": {
     "at": "2026-10-15T09:21:24.347Z",
