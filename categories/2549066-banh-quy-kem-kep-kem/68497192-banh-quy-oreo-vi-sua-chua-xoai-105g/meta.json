@@ -17,10 +17,10 @@
     "description": "Bánh quy Oreo vị sữa chua xoài.\n\nQuy cách: 105 g · thỏi\nThương hiệu: Oreo (Mondelēz)",
     "exportedAt": "2026-10-19T03:17:44.875Z"
   },
-  "status": "UPLOADED",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "v13–v15 (chủ 19/10): ảnh nhân viên chụp đã tách nền vẫn kém ảnh các SP cùng dòng đã duyệt (nhăn/loá/nghiêng) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: cây bánh vẽ phẳng, thẳng; dòng 105 g ở chân gói theo tên SP (ảnh thật không đọc rõ)",
+    "reason": "v13–v15 (chủ 19/10): ảnh nhân viên chụp đã tách nền vẫn kém ảnh các SP cùng dòng đã duyệt (nhăn/loá/nghiêng) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: cây bánh vẽ phẳng, thẳng; dòng 105 g ở chân gói theo tên SP (ảnh thật không đọc rõ); xoay lại đúng chiều (chủ 19/10)",
     "source": {
       "aiGenerated": true,
       "tool": "Gemini API",
@@ -86,10 +86,22 @@
       "by": "init",
       "status": "UPLOADED",
       "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-19T04:00:17.202Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "rotated to reading orientation"
+    },
+    {
+      "at": "2026-10-19T04:00:17.302Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-19T02:17:43.873Z",
+    "at": "2026-10-19T04:00:17.302Z",
     "fields": [
       "description",
       "image"

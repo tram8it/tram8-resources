@@ -2,7 +2,7 @@
 
 > Sinh tự động bởi `node tools/status.mjs`. **Không sửa tay.** Nguồn sự thật là `meta.json` của từng SP.
 
-Tổng 2509 SP · đã xem 2509 (100%) · xong 2290 · chờ chủ duyệt 66 · cần chụp 152 · hỏi chủ 1
+Tổng 2509 SP · đã xem 2509 (100%) · xong 2289 · chờ chủ duyệt 67 · cần chụp 152 · hỏi chủ 1
 
 Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` = giữ nguyên + đã lên web.
 
@@ -30,7 +30,7 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 | 20 | Thức uống bổ sung dinh dưỡng | 0.0tr | 26 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 26 |
 | 21 | Nhập khẩu & premium | 0.0tr | 25 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 25 |
 | 22 | Lăn khử mùi | 0.0tr | 25 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 25 |
-| 23 | Bánh quy kem / kẹp kem | 0.0tr | 24 | 0 | 0 | 0 | 3 | 0 | 2 | 0 | 19 |
+| 23 | Bánh quy kem / kẹp kem | 0.0tr | 24 | 0 | 0 | 0 | 3 | 0 | 3 | 0 | 18 |
 | 24 | Hạt các loại | 0.0tr | 24 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 23 |
 | 25 | Bánh ăn sáng / ngũ cốc / thanh năng lượng | 0.0tr | 23 | 0 | 0 | 0 | 4 | 0 | 1 | 0 | 18 |
 | 26 | Mì cay (Gói) | 0.0tr | 23 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 22 |
