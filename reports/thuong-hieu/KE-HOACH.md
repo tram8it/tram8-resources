@@ -47,7 +47,8 @@ Một nhãn viết hai kiểu là hai nhóm trên web.
    Milo, KitKat; lon Coca-Cola là Coca-Cola. Dòng con **đủ lớn để lọc (≥ 3 SP)** thành thương hiệu riêng (Buldak,
    Xylitol, Probi, Pocky, Nivea Men…); dòng **1–2 SP gộp về thương hiệu cha** (`MIN_LINE_PRODUCTS` trong
    `tools/brand-propose.mjs`). Dòng chỉ là "nhãn cha + mô tả" luôn về cha (Colgate Slim Soft, Koreno Jumbo,
-   Cung Đình Kool, X-Men For Boss, Nivea Sun — `"up": true` trong bảng chuẩn). Tên công ty khách không gọi
+   Cung Đình Kool, X-Men For Boss, Nivea Sun, mọi dòng TH true … → TH — `"up": true` trong bảng chuẩn).
+   Web sẽ có **nút chọn hãng kèm logo**: mỗi thương hiệu KiotViet phải có logo riêng → chỉ tách dòng con khi dòng đó có logo của nó. Tên công ty khách không gọi
    (Acecook, Masan, Mondelez, P&G, Unilever) chỉ dùng khi SP không có nhãn nào khác.
 2. **Cách viết:** **Chữ Hoa Đầu Từ** (Nivea, Kido, Bibigo, Hoco, Durex, Đà Lạt Milk); giữ chữ viết tắt (TH, P/S, OKF, 333);
    giữ dấu tiếng Việt; nháy thẳng `'`.
