@@ -2,7 +2,7 @@
 
 > Sinh tự động bởi `node tools/status.mjs`. **Không sửa tay.** Nguồn sự thật là `meta.json` của từng SP.
 
-Tổng 2509 SP · đã xem 2509 (100%) · xong 2337 · chờ chủ duyệt 11 · cần chụp 160 · hỏi chủ 1
+Tổng 2509 SP · đã xem 2509 (100%) · xong 2337 · chờ chủ duyệt 19 · cần chụp 152 · hỏi chủ 1
 
 Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` = giữ nguyên + đã lên web.
 
@@ -64,7 +64,7 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 | 54 | Que cay / tăm cay (latiao) | 0.0tr | 15 | 0 | 0 | 0 | 6 | 0 | 0 | 0 | 9 |
 | 55 | Bánh ngọt | 0.0tr | 15 | 0 | 0 | 0 | 5 | 0 | 0 | 0 | 10 |
 | 56 | Cáp sạc & dây | 0.0tr | 15 | 0 | 0 | 0 | 2 | 0 | 0 | 0 | 13 |
-| 57 | Chân gà | 0.0tr | 15 | 0 | 0 | 0 | 2 | 0 | 0 | 0 | 13 |
+| 57 | Chân gà | 0.0tr | 15 | 0 | 0 | 0 | 0 | 0 | 2 | 0 | 13 |
 | 58 | Cocktail lon RTD | 0.0tr | 15 | 0 | 3 | 0 | 0 | 0 | 0 | 0 | 12 |
 | 59 | Sữa chua kiểu Hy Lạp | 0.0tr | 15 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 15 |
 | 60 | Măng & rau ngâm cay | 0.0tr | 15 | 0 | 0 | 0 | 8 | 0 | 0 | 0 | 7 |
@@ -96,7 +96,7 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 | 86 | Khô gà | 0.0tr | 11 | 0 | 2 | 0 | 1 | 0 | 0 | 0 | 8 |
 | 87 | Snack mì | 0.0tr | 12 | 0 | 0 | 0 | 2 | 0 | 1 | 0 | 9 |
 | 88 | Dụng cụ sơ cứu | 0.0tr | 10 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 10 |
-| 89 | Bắp rang bơ - Popcorn | 0.0tr | 10 | 0 | 0 | 0 | 6 | 0 | 4 | 0 | 0 |
+| 89 | Bắp rang bơ - Popcorn | 0.0tr | 10 | 0 | 0 | 0 | 0 | 0 | 10 | 0 | 0 |
 | 90 | Thịt & hải sản ăn liền | 0.0tr | 10 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 9 |
 | 91 | Toner - Xịt khoáng - Dưỡng ẩm | 0.0tr | 10 | 0 | 5 | 0 | 1 | 0 | 0 | 0 | 4 |
 | 92 | Phô mai | 0.0tr | 10 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 10 |
