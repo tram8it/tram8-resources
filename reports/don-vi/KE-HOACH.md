@@ -90,13 +90,18 @@ Nguyên tắc: **Viết Hoa Chữ Đầu**, mỗi loại vỏ một tên, không
 | | Giữ riêng | Ống, Thỏi, Que, Bao, Viên, Hũ, Quả, Bát, Đôi, Khay, Bịch, Dây, Bánh (xà bông), Lần (phí vận chuyển) |
 | Lốc/thùng | Thùng, Lốc, Hộp, Bịch, Dây, Túi, Vỉ, Gói, Cây, Khay | thùng, Thung, Thùng ( Két ), lốc, dây, bịch… |
 
-**Cần chủ chốt trước khi làm phần lốc/thùng.** Có hai cách:
+**Chủ chốt 19/10/2026: phương án A.**
+- ĐVT lốc/thùng chỉ ghi tên vỏ: "Thùng", "Lốc".
+- Web tự ghép số lượng từ hệ số quy đổi và ĐVT gốc, ví dụ "Thùng 24 Lon".
+- Hub đã làm phần ghép này (tram8-hub, commit f08a4b0). ĐVT nào còn ghi số (như "Lốc 6H") thì vẫn hiện nguyên như cũ,
+  nên đổi dần từng lô không làm web hiện sai.
 
-- **(A) — khuyên dùng.** ĐVT lốc/thùng chỉ ghi tên vỏ: "Thùng", "Lốc".
-  - Web tự ghép số lượng từ hệ số quy đổi và ĐVT gốc, ví dụ "Thùng 24 Lon".
-  - Số không thể lệch hệ số nữa.
-- **(B)** Giữ số trong ĐVT: "Lốc 6H", "Hộp 12 Thanh".
-  - Phải đi kiểm từng dòng cho khớp hệ số.
+Đề xuất cho từng dòng nằm ở `de-xuat-chuan-hoa-dvt.csv` (các cột `current` → `proposed`):
+
+| Loại | Đổi | Giữ / hỏi chủ |
+|---|---|---|
+| Hàng gốc | 314 dòng. Phần lớn chỉ đổi hoa/thường, ví dụ gói → Gói. 82 dòng trong số này có lốc/thùng | 11 dòng ĐVT lạ (mục 2) |
+| Lốc/thùng | 93 dòng: bỏ số và phần trong ngoặc, ví dụ "Lốc 6H" → Lốc, "Thùng ( Két )" → Thùng | 6 dòng rong biển TKN có cả "Hộp 6 Thanh" và "Hộp 12 Thanh". Đổi cả hai về "Hộp" thì một SP sẽ có hai ĐVT trùng tên, nên giữ nguyên |
 
 ## 4. Thứ tự làm
 
@@ -104,12 +109,12 @@ Nguyên tắc: **Viết Hoa Chữ Đầu**, mỗi loại vỏ một tên, không
 2. Chủ xem `bat-thuong-quy-doi.md`:
    - sửa hệ số/giá sai trên web KiotViet;
    - các trường hợp ĐVT lạ ở mục 2 (18000, Cá, Hói, Lọ ( Chai ), Vỉ n, Lốc gốc) cho tôi biết đúng là gì.
-3. **Hàng gốc — đổi chữ hoa/thường và gõ sai:** 325 dòng, nhập Excel cột ĐVT.
+3. **Hàng gốc — đổi chữ hoa/thường và gõ sai:** 314 dòng, nhập Excel cột ĐVT. Làm trước 232 dòng không có lốc/thùng.
    - **Đổi ĐVT hàng gốc có lốc/thùng phải thử riêng trước.** Ô "Mã ĐVT Cơ bản" và "Quy đổi" của dòng lốc/thùng tham chiếu
      tới hàng gốc. Thử trên 1 SP có lốc, xem hệ số và tồn có giữ nguyên không, rồi mới làm loạt.
-4. Lốc/thùng theo cách chủ chọn (A/B). Cũng làm lô 3 → 30 → tất cả.
+4. Lốc/thùng (phương án A): 93 dòng. Cũng làm lô 3 → 30 → tất cả.
 5. Hub/web:
-   - hiển thị "Thùng 24 Lon" (nếu chọn A);
+   - ~~hiển thị "Thùng 24 Lon"~~ — đã làm (f08a4b0);
    - thêm cảnh báo trong catalog sync khi có SP đang bán mà ĐVT trống hoặc ngoài bảng chuẩn, để lỗi kiểu "Bim lay ống" không lặp lại âm thầm.
 
 ## 5. Kiểm soát (như vụ VAT 17/10)
