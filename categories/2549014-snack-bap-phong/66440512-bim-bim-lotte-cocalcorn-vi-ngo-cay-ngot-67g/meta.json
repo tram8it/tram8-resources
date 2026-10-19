@@ -17,19 +17,19 @@
     "description": "Snack ngô hình nón Kokkalcorn (꼬깔콘) Swicy của Lotte vị cay ngọt: bánh hình nón giòn, vị ngô quyện ớt cay ngọt; bao bì phiên bản KBO.\n\nQuy cách: 67 g · gói\nXuất xứ: Hàn Quốc · Nhà sản xuất/thương hiệu: Lotte · Kokkalcorn",
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "UPLOADED",
+  "status": "READY",
   "image": {
-    "decision": "CROP",
-    "reason": "I9: packshot nền trắng, đúng gói 꼬깔콘 Swicy 매콤달콤 (cay ngọt), chỉ chưa 1:1; đã crop và xem lại",
-    "source": null,
-    "rubricVersion": "v4",
-    "vivid": {
-      "rubricVersion": "v10",
-      "saturationGain": 1.187,
-      "contrastGain": 1.06,
-      "toneGain": 1.028,
-      "gamma": 1
-    }
+    "decision": "REPLACE",
+    "reason": "chủ 19/10: ảnh cũ là gói sự kiện KBO, nhăn, nghiêng (v17: dùng bản thường) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: ảnh minh hoạ: bỏ chữ/logo sự kiện KBO; nền xanh than và bố cục giữ theo ảnh gói thật; bản thường thật có thể khác chi tiết",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-19",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh gói hiện có (bản sự kiện KBO) + ảnh Kokalkon vị thường đã duyệt"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -80,10 +80,22 @@
       "by": "init",
       "status": "UPLOADED",
       "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-19T03:03:33Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "redo after Hub rejection:  — Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-19T03:03:33.516Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-15T09:21:19.146Z",
+    "at": "2026-10-19T03:03:33.516Z",
     "fields": [
       "description",
       "image"
