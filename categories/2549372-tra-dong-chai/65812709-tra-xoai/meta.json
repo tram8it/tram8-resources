@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-19T03:17:44.875Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I1: chưa có ảnh; nhân viên chụp cốc thật 19/10 → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: dòng nhỏ dưới tên ghi '芒果|牛乳风味饮料' thay vì '杨枝甘露（芒果牛乳风味饮料）'; bỏ tem nhập khẩu tiếng Việt dán ở thân cốc",
@@ -85,6 +85,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T03:31:45.675Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -94,5 +100,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T03:30:19.496Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T03:30:19.496Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/b1f0eb3d1b8300727f777690b3b1750f739afa3540c0d4f483d663d49161aa7e.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/10/19/tram8/ba0c9742428a466f9350773e2ed86923.png"
+        ]
+      },
+      "description": {
+        "to": "Đồ uống 植光 vị dương chi cam lộ (杨枝甘露) – đồ uống hương sữa xoài, đựng trong cốc nhựa, có cái (thành phần rắn ≥ 2% theo bao bì).\n\nQuy cách: 400 g · cốc\nXuất xứ: Trung Quốc · Thương hiệu: 植光 (Plant Light)",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-19T03:17:44.875Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I1: chưa có ảnh; nhân viên chụp gói thật 19/10, đồng bộ kiểu ảnh với Granola nam việt quất cùng dãy → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: số trong ô dinh dưỡng nhỏ để mờ (ảnh chụp không đọc được); dòng chữ nhỏ trên đầu gói vẽ theo mẫu cùng dãy",
@@ -91,6 +91,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T03:31:45.675Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -100,5 +106,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T03:30:25.847Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T03:30:25.847Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/f652a1fe2f23face6d23835c9b70029012c2431c9f6cb46837002a7d1f7793fe.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/10/19/tram8/3e05e0a4aa964ff698361b1234589174.png"
+        ]
+      },
+      "description": {
+        "to": "Granola KaZ vị mật ong hạnh nhân (Honey, Almonds & Cashews): ngũ cốc dạng cụm giòn với hạnh nhân và hạt điều, gói nhỏ ăn liền.\n\nQuy cách: 35 g · gói\nThương hiệu: KaZ",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

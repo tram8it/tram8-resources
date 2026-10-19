@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-19T03:17:44.875Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I1: chưa có ảnh; nhân viên chụp gói thật 19/10 → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: bỏ mã ngày in; chữ nhỏ dưới 香辣味 vẽ lại theo mẫu",
@@ -91,6 +91,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T03:31:45.675Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -100,5 +106,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T03:30:36.384Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T03:30:36.384Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/b3ef515b4d447fab11c8f8fefcded331cf09dfa197ba24ec84d11bc51774013f.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/10/19/tram8/10dced6355f7459f993d076b308a8fa8.png"
+        ]
+      },
+      "description": {
+        "to": "Dưa chuột ngâm vị cay thơm (黄瓜 香辣味) dòng 我家菜园子 của 石磨小镇, gói nhỏ ăn liền.\n\nQuy cách: 20 g · gói\nThương hiệu: 石磨小镇 (Shimoxiaozhen)",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

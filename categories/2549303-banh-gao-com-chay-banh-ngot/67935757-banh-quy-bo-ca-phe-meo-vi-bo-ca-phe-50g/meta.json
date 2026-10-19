@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-19T03:17:44.875Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I1: chưa có ảnh; nhân viên chụp hộp thật 19/10 → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt đáng kể; dãy nhà minh hoạ ở đáy vẽ lại chi tiết khác đôi chút",
@@ -91,6 +91,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T03:31:45.675Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -100,5 +106,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T03:30:32.713Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T03:30:32.713Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/e0121e66e76f1dc81cf75e7e805150090b408771a697cb4c1850d2aaa65ceffd.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/10/19/tram8/7bd05aca4e1e4df498ca0cb3d2fbf58f.png"
+        ]
+      },
+      "description": {
+        "to": "Bánh quy bơ cà phê hình mèo Cengreat (黄油猫咖饼干), vị bơ cà phê, làm với bơ nhập khẩu theo chữ in trên hộp.\n\nQuy cách: 50 g · hộp\nXuất xứ: Trung Quốc · Thương hiệu: Cengreat (盛歌)",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

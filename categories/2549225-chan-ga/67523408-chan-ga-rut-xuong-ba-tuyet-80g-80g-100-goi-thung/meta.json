@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-19T03:17:44.875Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "chủ 19/10: có ảnh nhân viên → vẽ lại sạch → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: vẽ phẳng, sạch theo ảnh chụp; chữ nhỏ để mờ",
@@ -80,6 +80,12 @@
       "by": "init",
       "status": "READY",
       "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-19T03:31:45.675Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -89,5 +95,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T03:19:51.383Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T03:19:51.383Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/bfbe04c8efdcd5fe56c52e4d888806139688c5996e80fc8e5a7bf8955286881e.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/10/19/tram8/f55b4b17dd5f4ed88c703a359a6a9018.png"
+        ]
+      },
+      "description": {
+        "to": "Chân gà rút xương Bà Tuyết, chân gà đã rút xương tẩm vị cay, gói lớn ăn vặt.\n\nQuy cách: 80 g · gói\nNhà sản xuất/thương hiệu: Ăn Cùng Bà Tuyết",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

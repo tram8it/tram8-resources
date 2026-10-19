@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-19T03:17:44.875Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I1: chưa có ảnh; nhân viên chụp gói thật 19/10 (gói 40 g) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: mã nhỏ dưới logo Halal để mờ; cửa sổ trong suốt vẽ phẳng không nếp nhăn",
@@ -91,6 +91,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T03:31:45.675Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -100,5 +106,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T03:30:39.454Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T03:30:39.454Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/2d657242042ae8c9509eeeed638a21d0d1bf98efb6611512557069aa2891ccb8.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/10/19/tram8/5992329d211443459eed577ec5b2a056.png"
+        ]
+      },
+      "description": {
+        "to": "Khoai tây que Crisup vị bơ mật ong (Honey Butter Flavor), que khoai tây cắt từ củ khoai nguyên, snack ăn liền.\n\nQuy cách: 40 g · gói\nThương hiệu: Crisup",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-19T03:17:44.875Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "SP mới, ảnh KiotViet là lốc 4 hộp chụp trên kệ còn màng co; đơn vị bán Hộp → vẽ 1 hộp → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: nhân vật minh hoạ là 1 trong các mẫu nhân vật in trên lốc; không thấy khác biệt chữ",
@@ -67,6 +67,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T03:31:45.675Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -76,5 +82,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T03:31:01.367Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T03:31:01.367Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/269f4892c80cd9393842e9221e0699c6726d5cba477f2bb54b13f59b4f8783ce.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/10/18/tram8/66347576755144c29210848b28461170.png"
+        ]
+      },
+      "description": {
+        "to": "Thức uống trà sữa Celano vị gạo rang, có thạch.\n\nQuy cách: 170 ml · hộp\nThương hiệu: Celano",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

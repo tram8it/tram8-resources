@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-19T03:17:44.875Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "SP mới, ảnh KiotViet chụp cả rổ gói kem (I3/I4/I8); đồng bộ kiểu ảnh với Kem Mochi Merino đậu đỏ đã duyệt → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: bỏ mã ngày in phun; viên khoai môn cắt hạt lựu vẽ theo mẫu",
@@ -67,6 +67,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T03:31:45.675Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -76,5 +82,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T03:30:49.915Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T03:30:49.915Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/657dbf37c5bd83e1f705c91ede9c2939e9c2afb23da5cec07de8197a7fac57a5.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/10/18/tram8/e8c639c4d1524caea3b4acf1146c1faf.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Kem mochi Merino vị khoai môn, lớp vỏ mochi bọc nhân kem khoai môn, gói riêng từng cái.\n\nQuy cách: 40 g · cái\nThương hiệu: Merino\nBảo quản: Giữ đông lạnh.\nHướng dẫn sử dụng: Để khoảng 5 phút sau khi mở bao bì cho vỏ mochi mềm dẻo hơn.",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

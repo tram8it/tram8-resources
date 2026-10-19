@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-19T03:17:44.875Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "SP mới, ảnh KiotViet là lốc 4 hộp chụp trên kệ còn màng co; đơn vị bán Hộp → vẽ 1 hộp → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: nhân vật minh hoạ là 1 trong các mẫu nhân vật in trên lốc; không thấy khác biệt chữ",
@@ -67,6 +67,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T03:31:45.675Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -76,5 +82,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T03:31:04.801Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T03:31:04.801Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/48d271e77ec5b061cd640f152cbe667f7126d80b52b156dd8058822af828a08a.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/10/18/tram8/9a77fe4e9fb5440e9d5a67987b610569.png"
+        ]
+      },
+      "description": {
+        "to": "Thức uống sữa tươi tiệt trùng Celano vị đậu xanh, có thạch.\n\nQuy cách: 170 ml · hộp\nThương hiệu: Celano",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

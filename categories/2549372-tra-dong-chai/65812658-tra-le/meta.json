@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-19T03:17:44.875Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I1: chưa có ảnh; nhân viên chụp cốc thật 19/10 → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: phần sữa trong cốc vẽ đồng màu, ảnh chụp thấy ít thạch/miếng dưa ở đáy; chữ nhỏ mặt bên lược bỏ",
@@ -85,6 +85,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T03:31:45.675Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -94,5 +100,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T03:30:15.706Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T03:30:15.706Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/c099e9d37ad5bdbb81915356cb1e5cdc431172d201a7786f7723c38d86e69e7a.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/10/19/tram8/e5d0e42498414acb95099dcc7c0315e4.png"
+        ]
+      },
+      "description": {
+        "to": "Đồ uống sữa lắc vị dưa lưới 植光 (蜜瓜奶昔 – đồ uống hương sữa dưa lưới), đựng trong cốc nhựa, có cái (thành phần rắn ≥ 2% theo bao bì).\n\nQuy cách: 400 g · cốc\nThương hiệu: 植光 (Plant Light)",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

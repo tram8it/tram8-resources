@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-19T03:17:44.875Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I3/I8: ảnh nhân viên chụp là hộp trưng bày + 1 cây kẹo; đơn vị bán Cái = 1 cây kẹo 7,5 g (v19) → vẽ 1 cây kẹo còn vỏ + 1 cây đã bóc → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: vỏ kẹo hơi ngả cam hơn ảnh chụp (đỏ); dòng 'Est 1904' ảnh chụp chỉ đọc được 'Est 19…'; viên kẹo bóc vỏ là minh hoạ theo hình in trên vỏ",
@@ -91,6 +91,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T03:31:45.675Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -100,5 +106,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T03:30:12.291Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T03:30:12.291Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/8568801354aaa8e64b54cce06de43de23c35e754fb3cdfba01e13e9b0acf2c54.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/10/19/tram8/f2c687c1a0f64403a645df2548f497fd.png"
+        ]
+      },
+      "description": {
+        "to": "Kẹo mút Ovaltine vị sô cô la mạch nha (malted chocolate), dạng kẹo sữa nén trên que, chứa 72% sữa bột theo bao bì.\n\nQuy cách: 7,5 g · cái (bán lẻ từng cây)\nThương hiệu: Ovaltine",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-19T03:17:44.875Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "SP mới, ảnh KiotViet là ảnh nhân viên chụp nghiêng trên bàn (I3/I4) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: vỏ kem vẽ thẳng, phẳng; không thấy khác biệt chữ",
@@ -67,6 +67,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T03:31:45.675Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -76,5 +82,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T03:30:46.374Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T03:30:46.374Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/10a8e4cec2cfc05dcfe0489e115970434ddf07852658b4ada9fcae7df1fbe451.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/10/18/tram8/c36166b1227142f083f5294479c4b6fa.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Kem que Celano vị phô mai.\n\nQuy cách: que · cái\nThương hiệu: Celano\nBảo quản: Giữ đông lạnh.",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }
