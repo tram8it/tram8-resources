@@ -15,18 +15,21 @@
   "current": {
     "imageUrl": "https://img.tram8.vn/products/1869c6ea3c6dd55d766f017c5799664faccbc8c050c9e2826bffc797b20766fd.webp",
     "description": "Snack khoai tây Pringles vị kem chua hành (Sour Cream & Onion), các lát khoai xếp chồng trong ống có nắp đậy.\n\nQuy cách: 42 g · ống\nThương hiệu: Pringles",
-    "exportedAt": "2026-10-17T17:24:24.434Z"
+    "exportedAt": "2026-10-19T03:17:44.875Z"
   },
-  "status": "UPLOADED",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1/I3: không có ảnh hãng; Gemini vẽ lại bao bì theo ảnh mẫu (v12) — vẽ lại từ ảnh cầm tay trong siêu thị (bao bì cũ, không có dải 'More Pop-tastic'); bỏ tay; chữ nhỏ là chữ giả",
+    "reason": "chủ 19/10: lon lùn Pringles xanh cho khớp 2 lon lùn kia → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: nhãn theo bản mới của lon 102g; chữ nhỏ để mờ",
     "source": {
       "aiGenerated": true,
-      "tool": "Google Gemini (chủ yêu cầu, 15/10/2026)",
-      "generatedAt": "2026-10-15"
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-19",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh lon lùn 42g Original đã duyệt (dáng) + lon Sour Cream 102g bản mới (nhãn)"
     },
-    "rubricVersion": "v12"
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "REWRITE",
@@ -83,10 +86,22 @@
       "by": "init",
       "status": "UPLOADED",
       "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-19T03:18:47Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "redo after Hub rejection:  — Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-19T03:18:47.488Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-15T14:09:28.622Z",
+    "at": "2026-10-19T03:18:47.488Z",
     "fields": [
       "description",
       "image"

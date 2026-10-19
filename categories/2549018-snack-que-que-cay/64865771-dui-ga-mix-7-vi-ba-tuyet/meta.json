@@ -15,19 +15,21 @@
   "current": {
     "imageUrl": "https://img.tram8.vn/products/75ee13854d61a6c5e2b52b6958912f650c28cb7035c2a3b39c8dea35a66f70a9.webp",
     "description": "Snack đùi gà mix 7 vị của thương hiệu Ăn Cùng Bà Tuyết, nhiều hương vị trong cùng một gói, món ăn vặt giòn.\n\nQuy cách: gói\nNhà sản xuất/thương hiệu: Ăn Cùng Bà Tuyết",
-    "exportedAt": "2026-10-17T17:24:24.434Z"
+    "exportedAt": "2026-10-19T03:17:44.875Z"
   },
-  "status": "UPLOADED",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I5: ảnh cũ chụp nghiêng/nhăn/méo (chủ báo chưa đạt 16/10) → nắn phối cảnh ảnh hiện tại rồi Gemini vẽ lại packshot chính diện, thẳng đứng, nền trắng (v15); đã so chữ/logo với ảnh mẫu",
+    "reason": "chủ 19/10: thử làm lại cho nét, tươi hơn → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: vẽ lại sạch hơn; chữ nhỏ để mờ",
     "source": {
       "aiGenerated": true,
-      "tool": "Google Gemini Pro (chủ yêu cầu)",
-      "generatedAt": "2026-10-16",
-      "reference": "ảnh KiotViet hiện tại, nắn phối cảnh"
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-19",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh gói hiện có"
     },
-    "rubricVersion": "v16"
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -90,10 +92,22 @@
       "by": "init",
       "status": "UPLOADED",
       "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-19T03:18:53Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "redo after Hub rejection:  — Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-19T03:18:54.118Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-15T18:09:55.139Z",
+    "at": "2026-10-19T03:18:54.118Z",
     "fields": [
       "description",
       "image"

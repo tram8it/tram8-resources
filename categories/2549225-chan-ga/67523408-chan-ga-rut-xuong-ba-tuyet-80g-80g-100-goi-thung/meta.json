@@ -13,16 +13,23 @@
   },
   "revenue90d": 0,
   "current": {
-    "imageUrl": null,
+    "imageUrl": "https://cdn2-retail-images.kiotviet.vn/2026/10/19/tram8/f55b4b17dd5f4ed88c703a359a6a9018.png",
     "description": null,
-    "exportedAt": "2026-10-17T17:24:24.434Z"
+    "exportedAt": "2026-10-19T03:17:44.875Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh; tra lại 18/10: iCheck/Kingfoodmart/OFF theo mã 8938564591059 không có, Yandex \"chân gà rút xương Bà Tuyết 80g\", \"chân gà Bà Tuyết rút xương gói\" không ra gói 80 g (chỉ có gói 26 g) → cần chụp",
-    "source": null,
-    "rubricVersion": "v23"
+    "reason": "chủ 19/10: có ảnh nhân viên → vẽ lại sạch → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: vẽ phẳng, sạch theo ảnh chụp; chữ nhỏ để mờ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-19",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh nhân viên chụp trên KiotViet 19/10"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -55,6 +62,32 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "re-searched 18/10 (owner feedback, np18): no image of this exact product found; reason updated"
+    },
+    {
+      "at": "2026-10-19T03:18:50Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "redo after Hub rejection:  — Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-19T03:18:50.440Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T03:19:05.400Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-19T03:18:50.440Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }
