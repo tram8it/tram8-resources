@@ -17,12 +17,16 @@
     "description": "Snack Pillows nhân cốt dừa cà phê, phiên bản Oishi kết hợp cùng Cộng: vỏ bánh giòn bên ngoài, nhân mềm vị cốt dừa cà phê bên trong.\n\nQuy cách: 75 g · túi zip\nNhà sản xuất/thương hiệu: Oishi · Pillows",
     "exportedAt": "2026-10-19T17:14:50.207Z"
   },
-  "status": "UPLOADED",
+  "status": "READY",
   "image": {
-    "decision": "KEEP",
-    "reason": "I1–I9 đạt: packshot nền trắng, 1:1, căn giữa; đúng bao bì Pillows nhân cốt dừa cà phê như trang hãng",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "CROP",
+    "reason": "Đồng bộ dãy Pillows 75g (chủ 20/10): gói chỉ chiếm ~76% khung, nhỏ hơn các gói 75g cùng dòng (84%) → phóng lại bằng make_image.py, không sửa chi tiết. Ảnh vẫn hơi tối/kiểu 3D so với render phẳng của dòng — cần Gemini vẽ lại khi có credit",
+    "source": {
+      "url": "https://cdn2-retail-images.kiotviet.vn/2026/06/09/tram8/0f4aba93a2e041b4a1c7733da87bebda.jpg",
+      "fetchedAt": "2026-10-19",
+      "kiotvietImage": true
+    },
+    "rubricVersion": "v23"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -64,6 +68,12 @@
       "by": "init",
       "status": "UPLOADED",
       "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-19T18:32:48Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "line consistency 20/10: pack filled 76% of frame vs 84% for the 75g Pillows line; re-framed with make_image.py (photo-like style still differs, Gemini needed)"
     }
   ],
   "submitted": {

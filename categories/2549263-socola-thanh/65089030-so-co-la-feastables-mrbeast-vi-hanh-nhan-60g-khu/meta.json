@@ -17,20 +17,19 @@
     "description": "Thanh sô cô la Feastables của MrBeast vị hạnh nhân.\n\nQuy cách: 60 g · thanh\nNhà sản xuất/thương hiệu: Feastables (MrBeast)",
     "exportedAt": "2026-10-19T17:14:50.207Z"
   },
-  "status": "UPLOADED",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I4: ảnh chụp trên mặt đá; vị Hạnh nhân không còn trên feastables.com (kiểm lại 17/10/2026), không có ảnh hãng — dùng thiết kế gói đang bán → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt; 'NET WT. 2.1 oz (60g)' khớp gói thật. Lưu ý: feastables.com đã đổi thiết kế các vị khác, vị Almond không có bản mới nên giữ thiết kế này",
+    "reason": "line consistency 20/10: cả dòng Feastables 60g là gói nghiêng + thanh sô cô la bên cạnh; gói Almond là gói phẳng nằm ngang → vẽ lại theo bố cục dòng (v14) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: thanh sô cô la minh hoạ theo SP cùng dòng; chữ nhỏ mặt gói làm mờ",
     "source": {
       "aiGenerated": true,
       "tool": "Gemini API",
       "model": "gemini-nano-banana-2.1",
-      "generatedAt": "2026-10-17",
+      "generatedAt": "2026-10-19",
       "style": "flat clean packaging render (v17)",
-      "reference": "ảnh KiotViet (gói Almond 60g thật của cửa hàng)",
-      "referenceUrl": "https://feastables.com/products.json"
+      "reference": "ảnh image.webp hiện tại của SP (nội dung gói Almond 60g) + ảnh hãng Feastables Socola Sữa 60g 65088097 (chỉ làm mẫu bố cục)"
     },
-    "rubricVersion": "v17"
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -75,10 +74,28 @@
       "by": "init",
       "status": "UPLOADED",
       "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-19T18:28:11Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-19T18:31:50Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "line consistency 20/10: Almond was a flat horizontal pack; line standard is tilted pack + bar beside → Gemini redraw (refs: own image + 65088097)"
+    },
+    {
+      "at": "2026-10-19T18:32:19.735Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-17T04:29:47.973Z",
+    "at": "2026-10-19T18:32:19.735Z",
     "fields": [
       "description",
       "image"

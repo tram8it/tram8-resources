@@ -17,15 +17,20 @@
     "description": "Bánh quế cuộn Oreo Wafer Roll nhân kem vị sô cô la, que quế giòn chia thành 3 gói nhỏ tiện mang theo và chia sẻ.\n\nThành phần: Đường, bột mì, dầu thực vật (dầu cọ, olein cọ), bột cacao, maltodextrin, nước đường high fructose, tinh bột bắp, dextrose, muối, chất nhũ hoá (322(i)), hương sô cô la giống tự nhiên, hương vani tổng hợp.\nQuy cách: 54 g (3 gói × 18 g) · hộp\nXuất xứ: Việt Nam · Nhà sản xuất/thương hiệu: Mondelez Kinh Đô Việt Nam · Oreo\nBảo quản: Nơi khô ráo, thoáng mát, tránh ánh nắng trực tiếp. Hạn sử dụng 12 tháng.",
     "exportedAt": "2026-10-19T17:14:50.207Z"
   },
-  "status": "UPLOADED",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I7, I9: ảnh có tem logo 'ALO' của nơi khác ở góc, không 1:1; thay bằng ảnh hộp Oreo Wafer Roll sô cô la 54g trên trang Mondelez Kinh Đô (https://www.snack-central.com/vn-vi/products/oreo-chocolate-wafer-roll-54g-44188/)",
+    "reason": "line consistency 20/10: hộp vani là mặt trước phẳng, hộp sô cô la là ảnh 3D nghiêng thấy mặt bên → vẽ lại mặt trước phẳng như hộp vani (v14, v17) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: bỏ mặt bên hộp; chữ nhỏ giữ theo ảnh hãng, không thấy khác biệt",
     "source": {
-      "url": "https://images-tastehub.mdlzapps.cloud/images/53534ac1-8f6f-46da-9761-c684ba90cf22.png",
-      "fetchedAt": "2026-10-13"
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-19",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh hãng Mondelez hộp Oreo Wafer Roll sô cô la 54g (nội dung) + ảnh Oreo Wafer Roll vani 64865472 (chỉ làm mẫu bố cục)",
+      "referenceUrl": "https://images-tastehub.mdlzapps.cloud/images/53534ac1-8f6f-46da-9761-c684ba90cf22.png"
     },
-    "rubricVersion": "v4"
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -67,10 +72,28 @@
       "by": "init",
       "status": "UPLOADED",
       "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-19T18:28:11Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-19T18:31:50Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "line consistency 20/10: 3D angled box with side panel; vanilla sibling is flat front → Gemini flat front (refs: brand image + 64865472)"
+    },
+    {
+      "at": "2026-10-19T18:32:22.622Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-16T06:09:02.564Z",
+    "at": "2026-10-19T18:32:22.622Z",
     "fields": [
       "description",
       "image"

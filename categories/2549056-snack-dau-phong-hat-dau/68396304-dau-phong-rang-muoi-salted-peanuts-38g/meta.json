@@ -17,12 +17,12 @@
     "description": "Đậu phộng rang muối Tong Garden (Salted Peanuts): hạt đậu phộng nêm muối, gói nhỏ tiện ăn vặt.\n\nQuy cách: 42 g · gói\nThương hiệu: Tong Garden",
     "exportedAt": "2026-10-19T17:14:50.207Z"
   },
-  "status": "UPLOADED",
+  "status": "READY",
   "image": {
-    "decision": "KEEP",
-    "reason": "Đạt I1–I9: packshot nền trắng 1:1, gói Tong Garden Salted Peanuts in 42 g (chủ 17/10: tin bao bì, tên ghi 38g lệch nhỏ)",
+    "decision": "CROP",
+    "reason": "đồng bộ dãy Tong Garden 20/10: ảnh KiotViet (packshot đạt I1–I8, gói 42 g theo bao bì) sát mép, SP chiếm 95% khung → đưa về 84% như các gói Tong Garden khác",
     "source": null,
-    "rubricVersion": "v19"
+    "rubricVersion": "v23"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -73,12 +73,25 @@
       "by": "owner",
       "status": "UPLOADED",
       "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T18:31:54Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "line consistency 20/10: re-framed KiotViet packshot from 95% to 84% fill to match the Tong Garden bags"
+    },
+    {
+      "at": "2026-10-19T18:32:52.003Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-17T08:59:42.627Z",
+    "at": "2026-10-19T18:32:52.003Z",
     "fields": [
-      "description"
+      "description",
+      "image"
     ],
     "hubStatus": "PENDING"
   },

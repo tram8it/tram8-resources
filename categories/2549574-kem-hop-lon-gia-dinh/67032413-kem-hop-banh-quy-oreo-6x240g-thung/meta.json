@@ -17,16 +17,16 @@
     "description": "Thùng 6 hũ kem Oreo vị kem sữa với vụn bánh quy Oreo, mỗi hũ 240 g.\n\nQuy cách: 6 hũ x 240 g · thùng\nThương hiệu: Oreo\nBảo quản: giữ đông lạnh.",
     "exportedAt": "2026-10-19T17:14:50.207Z"
   },
-  "status": "UPLOADED",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I8: ảnh tay cầm 1 hũ trong tủ đông; dùng ảnh hũ Oreo nền trắng của SP lẻ 67039441 (cùng mã gốc); SKU là thùng 6 hũ → ảnh minh hoạ 1 hũ, mô tả ghi rõ thùng 6 hũ",
+    "reason": "line consistency 20/10: ảnh thùng vẫn là ảnh tự chụp cũ của hũ lẻ (nắp in hạn dùng), trong khi hũ lẻ 67039441 cùng mã đã thay bằng ảnh vẽ sạch → dùng đúng ảnh image.webp của 67039441; SKU thùng 6 hũ, ảnh minh hoạ 1 hũ",
     "source": {
       "sameAs": "67039441",
-      "fetchedAt": "2026-10-17",
-      "url": "https://cdn2-retail-images.kiotviet.vn/2026/07/30/tram8/cabb816e79f5489caab895442ea9fd54.png"
+      "aiGenerated": true,
+      "fetchedAt": "2026-10-19"
     },
-    "rubricVersion": "v19"
+    "rubricVersion": "v23"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -77,10 +77,22 @@
       "by": "owner",
       "status": "UPLOADED",
       "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T18:32:04Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "line consistency 20/10: still the old self-photo (date print, dull lid) while the single-pint sibling 67039441 with the same barcode root has the clean render → copied 67039441 image.webp"
+    },
+    {
+      "at": "2026-10-19T18:32:40.219Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-17T14:02:55.695Z",
+    "at": "2026-10-19T18:32:40.219Z",
     "fields": [
       "description",
       "image"

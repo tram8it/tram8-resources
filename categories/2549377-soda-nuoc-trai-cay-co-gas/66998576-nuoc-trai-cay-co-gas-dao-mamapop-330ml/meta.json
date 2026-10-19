@@ -17,12 +17,12 @@
     "description": "Nước trái cây có gas MaMaPop vị cam đào (Peach Paradise), không cồn. Trên lon in khẩu hiệu \"Ngon như mẹ làm!\".\n\nQuy cách: 330 ml · lon\nThương hiệu: MaMaPop",
     "exportedAt": "2026-10-19T17:14:50.207Z"
   },
-  "status": "UPLOADED",
+  "status": "READY",
   "image": {
-    "decision": "KEEP",
-    "reason": "Đạt I1–I9: packshot nền trắng, 1:1, nằm giữa, lề vừa phải (hơi mềm, đạt theo v4)",
+    "decision": "CROP",
+    "reason": "đồng bộ dãy MaMaPop 330ml 20/10: ảnh KiotViet nhỏ (71%) và nhạt hơn các lon cùng dãy → crop về 84% + tone.py --vivid như các lon MaMaPop khác",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v23"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -61,12 +61,25 @@
       "by": "init",
       "status": "UPLOADED",
       "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-19T18:31:54Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "line consistency 20/10: re-framed (71% -> 84%) and tone.py --vivid to match the other MaMaPop cans"
+    },
+    {
+      "at": "2026-10-19T18:32:54.800Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-18T17:50:53.780Z",
+    "at": "2026-10-19T18:32:54.800Z",
     "fields": [
-      "description"
+      "description",
+      "image"
     ],
     "hubStatus": "PENDING"
   },

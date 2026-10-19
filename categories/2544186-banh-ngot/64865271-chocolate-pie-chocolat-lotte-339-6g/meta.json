@@ -17,18 +17,17 @@
     "description": "Bánh Chocolate Pie Lotte Chocolat, bánh bông lan nhân kem phủ sô-cô-la, hộp nhiều bánh tiện chia sẻ.\n\nQuy cách: 339,6 g · hộp\nNhà sản xuất/thương hiệu: Lotte",
     "exportedAt": "2026-10-19T17:14:50.207Z"
   },
-  "status": "UPLOADED",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I4: ảnh chụp hộp trên kệ cửa hàng, nền lộn xộn, có băng keo LOTTE; không có ảnh hãng dùng được → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ nhỏ trên nắp hộp (thông tin dinh dưỡng, dòng 12 gói) vẽ mờ không đọc được; bỏ băng keo LOTTE dán ngang hộp ở ảnh cửa hàng; còn lại không thấy khác biệt",
+    "reason": "line consistency 20/10: hộp Bouchee là mặt trước phẳng, hộp Chocolate Pie vẽ nghiêng thấy nắp/mặt bên → vẽ lại mặt trước phẳng như Bouchee (v14, v17) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: bỏ nắp/mặt bên hộp; chữ nhỏ làm mờ",
     "source": {
       "aiGenerated": true,
       "tool": "Gemini API",
       "model": "gemini-nano-banana-2.1",
-      "generatedAt": "2026-10-17",
+      "generatedAt": "2026-10-19",
       "style": "flat clean packaging render (v17)",
-      "reference": "ảnh Kingfoodmart (chỉ làm mẫu) + ảnh KiotViet",
-      "referenceUrl": "https://storage.googleapis.com/onelife-public/8935341300323.jpg"
+      "reference": "ảnh image.webp hiện tại của SP (nội dung hộp Chocolate Pie 339,6g) + ảnh Lotte Chocolat Bouchee 64865272 (chỉ làm mẫu bố cục)"
     },
     "rubricVersion": "v18"
   },
@@ -75,10 +74,28 @@
       "by": "init",
       "status": "UPLOADED",
       "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-19T18:28:11Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 3, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-19T18:31:50Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "line consistency 20/10: angled box showing top/side; Bouchee sibling is flat front → Gemini flat front (refs: own image + 64865272)"
+    },
+    {
+      "at": "2026-10-19T18:32:25.806Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-17T07:42:24.106Z",
+    "at": "2026-10-19T18:32:25.806Z",
     "fields": [
       "description",
       "image"

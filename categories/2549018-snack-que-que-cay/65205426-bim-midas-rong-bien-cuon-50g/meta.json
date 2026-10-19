@@ -17,10 +17,10 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "UPLOADED",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "Chủ: cảm giác không giống thật → vẽ túi đỏ bo góc, có lỗ treo, mép hàn phẳng như hàng thật → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt; 50 g ± 2 g như bao bì",
+    "reason": "line consistency 20/10: ảnh Gemini chủ đã duyệt 18/10 nằm trên ô nền xám và nhỏ hơn hẳn các SP cùng dòng → tách nền (cutout.py), làm trắng lỗ treo, chuẩn hoá 84%",
     "source": {
       "aiGenerated": true,
       "tool": "Gemini API",
@@ -29,7 +29,7 @@
       "style": "flat clean packaging render (v17)",
       "reference": "ảnh bán lẻ + ảnh KiotViet (chỉ làm mẫu)"
     },
-    "rubricVersion": "v18"
+    "rubricVersion": "v23"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -98,10 +98,22 @@
       "by": "owner",
       "status": "UPLOADED",
       "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T18:32:04Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "line consistency 20/10: pack small on a grey backdrop box unlike siblings → cutout.py to white + re-framed to 84%, same approved pack"
+    },
+    {
+      "at": "2026-10-19T18:32:33.804Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-18T11:34:36.290Z",
+    "at": "2026-10-19T18:32:33.804Z",
     "fields": [
       "description",
       "image"

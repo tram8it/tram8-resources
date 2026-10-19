@@ -20,12 +20,13 @@
   "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I7: ảnh ghép lỗi (vỉ bị mờ trong suốt, nhíp đặt lệch ngoài vỉ); thay bằng ảnh nhíp N.407 nền trắng trên trang hãng. Trang SP: https://nghia.vn/vi/nhip-nho-long-may-kem-nghia-n-407",
+    "reason": "đồng bộ dãy Nhíp vỉ giấy Kềm Nghĩa 20/10: ảnh trước là nhíp trần, các SP cùng dãy hiện nhíp trong vỉ giấy → ảnh hãng N.407 trong vỉ giấy trên trang Kềm Nghĩa (https://nghia.vn/vi/nhip-nho-long-may-kem-nghia-n-407)",
     "source": {
-      "url": "https://img.nghiagroup.com/upload/image/30858/N.407-3-Photoroom638702125626431338.png",
-      "fetchedAt": "2026-10-14"
+      "url": "https://img.nghiagroup.com/upload/image/30858/N.407-5638702125806881183.png",
+      "page": "https://nghia.vn/vi/nhip-nho-long-may-kem-nghia-n-407",
+      "fetchedAt": "2026-10-20"
     },
-    "rubricVersion": "v4"
+    "rubricVersion": "v23"
   },
   "description": {
     "decision": "REWRITE",
@@ -79,10 +80,22 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T18:31:54Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "line consistency 20/10: bare tweezer -> official N.407 photo in its paper card, like N-406/N-402"
+    },
+    {
+      "at": "2026-10-19T18:32:57.282Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-19T12:57:15.103Z",
+    "at": "2026-10-19T18:32:57.282Z",
     "fields": [
       "description",
       "image"

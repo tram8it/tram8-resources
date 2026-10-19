@@ -17,12 +17,16 @@
     "description": "Xà phòng cục Safeguard Fresh Green with Herbal Extract – hương thảo mộc, có chiết xuất thảo mộc, dùng để tắm và rửa tay hằng ngày.\n\nQuy cách: bánh (hộp giấy)\nNhà sản xuất/thương hiệu: Procter & Gamble · Safeguard",
     "exportedAt": "2026-10-19T17:14:50.207Z"
   },
-  "status": "UPLOADED",
+  "status": "READY",
   "image": {
-    "decision": "KEEP",
-    "reason": "Đạt I1–I9: packshot hộp Safeguard Fresh Green nền trắng, 1:1, căn giữa",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "CROP",
+    "reason": "Đồng bộ dãy Safeguard (chủ 20/10): ảnh KiotViet chưa chuẩn 1000×1000/84% → đặt lại ~84% bằng make_image.py, không sửa chi tiết",
+    "source": {
+      "url": "https://cdn2-retail-images.kiotviet.vn/2026/05/27/tram8/a3073955aef34e48881aa59655faeefe.jpeg",
+      "fetchedAt": "2026-10-19",
+      "kiotvietImage": true
+    },
+    "rubricVersion": "v23"
   },
   "description": {
     "decision": "REWRITE",
@@ -61,6 +65,12 @@
       "by": "init",
       "status": "UPLOADED",
       "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-19T18:32:48Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "line consistency 20/10: re-framed KiotViet box image to the 84% standard of the line"
     }
   ],
   "submitted": {
