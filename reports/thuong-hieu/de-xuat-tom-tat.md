@@ -41,7 +41,7 @@ Bảng đầy đủ: [`de-xuat-tung-sp.csv`](de-xuat-tung-sp.csv).
 | 729099 | Coke | Fanta | 1 |
 | 746247 | ĐÀ LẠT MILK | Đà Lạt Milk | 10 |
 | 728952 | DAINISA | Danisa | 5 |
-| 729027 | DAIRY MILK | Dairy Milk | 1 |
+| 729027 | DAIRY MILK | Cadbury | 1 |
 | 728990 | DARS MORINAGA | Dars | 1 |
 | 728960 | DOVE | Dove | 3 |
 | 728984 | DUREX | Durex | 16 |
