@@ -17,18 +17,26 @@
     "description": null,
     "exportedAt": "2026-10-19T03:17:44.875Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh; tra lại 18/10 (mã vạch Kingfoodmart/OFF, \"Crazy Scientist chew orange 80g\", \"Crazy Scientist chew candy\") — chỉ có lọ dâu/nho cùng dãy, không có ảnh lọ vị cam → cần chụp lọ",
-    "source": null,
-    "rubricVersion": "v20"
+    "reason": "chủ 19/10: tra lại → có ảnh lọ Crazy Scientist Chew Candy ORANGE FLAVOR (Net WT 80 g x 12) trên Alibaba → Gemini vẽ lại theo lọ dâu/nho cùng dãy (v12–v15, v14) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: ảnh mẫu là lọ nằm trong hộp trưng bày, tem nắp hình quả cam và hoạ tiết nhỏ do AI dựng theo lọ cùng dãy; mặt trước không in khối lượng",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-19",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh Alibaba hộp trưng bày lọ Crazy Scientist vị cam 80 g (chỉ làm mẫu) + lọ dâu/nho cùng dãy đã duyệt (bố cục)",
+      "referenceUrl": "https://www.alibaba.com/product-detail/New-Arrival-Bittzy-Chewy-Sweety-Mini_1601655911930.html"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
-    "reason": "D1: chưa có mô tả; không có trang hãng/ảnh bao bì — mô tả ngắn chỉ từ tên SP và đơn vị bán",
+    "reason": "D1: mô tả theo chữ in trên lọ (Orange flavor) và tên KiotViet 80 g, cùng mẫu lọ dâu/nho",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v20"
   },
   "question": null,
   "history": [
@@ -55,6 +63,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "np18 re-research 18/10: still no image of this exact pack"
+    },
+    {
+      "at": "2026-10-19T07:25:45Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-19T07:25:46.123Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-19T07:25:46.123Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }
