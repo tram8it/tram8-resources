@@ -17,17 +17,18 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "IN_PROGRESS",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "ảnh tự chụp (nghiêng, nắp mờ, in hạn dùng); không có ảnh hãng bao bì Thái → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: bảng dinh dưỡng GDA và chữ nhỏ làm mờ (ảnh mẫu không đọc được); bỏ hạn dùng in trên nắp",
+    "reason": "I3/I4: ảnh hiện có không đạt, không có ảnh hãng/NPP → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Sửa theo chủ 19/10: ảnh cũ là hộp to 240 g; vẽ lại đúng ly nhỏ 48 g (dáng thấp, rộng như ly OREO 48 g cùng dòng Nestlé). Hoạ tiết KitKat lấy từ hộp to; bảng dinh dưỡng và chữ nhỏ để mờ, không ghi khối lượng",
     "source": {
       "aiGenerated": true,
       "tool": "Gemini API",
       "model": "gemini-nano-banana-2.1",
-      "generatedAt": "2026-10-17",
+      "generatedAt": "2026-10-19",
       "style": "flat clean packaging render (v17)",
-      "reference": "ảnh KiotViet (chỉ làm mẫu)"
+      "reference": "ảnh KiotViet (hộp KitKat 240 g, chỉ lấy hoạ tiết) + ảnh đã duyệt Kem hộp OREO 24x48g (mẫu dáng ly nhỏ 48 g, phong cách)",
+      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/07/27/tram8/c743a82aa19945b9ada45a2621567c82.png"
     },
     "rubricVersion": "v18"
   },
@@ -80,10 +81,22 @@
       "by": "owner",
       "status": "IN_PROGRESS",
       "note": "rejected on Hub by AU KHUONG DUY: Cái này nhầm hình ly to thì phải"
+    },
+    {
+      "at": "2026-10-19T02:15:26Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 4, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-19T02:15:26.436Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-17T14:14:38.281Z",
+    "at": "2026-10-19T02:15:26.436Z",
     "fields": [
       "description",
       "image"

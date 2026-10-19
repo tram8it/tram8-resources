@@ -17,17 +17,17 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "IN_PROGRESS",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt chữ lớn (PÖNNIE, Xúc xích giòn ăn liền, MINI, Sụn vị BBQ, 20 g); chỉ vẽ mặt trước gói",
+    "reason": "I3/I4: ảnh hiện có không đạt, không có ảnh hãng/NPP → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Sửa theo chủ 19/10: gói dẹt dài như gói thật, đặt 2 khúc xúc xích mini cạnh gói (minh hoạ ruột, như các hotdog Ponnie đã duyệt) cho khách thấy SP nhỏ. Chữ lớn khớp mẫu (PÖNNIE, Xúc xích giòn ăn liền, MINI, Sụn vị BBQ, 20 g)",
     "source": {
       "aiGenerated": true,
       "tool": "Gemini API",
       "model": "gemini-nano-banana-2.1",
-      "generatedAt": "2026-10-18",
+      "generatedAt": "2026-10-19",
       "style": "flat clean packaging render (v17)",
-      "reference": "ảnh Minh Cầu Mart theo đúng mã vạch (chỉ làm mẫu)",
+      "reference": "ảnh Minh Cầu Mart theo đúng mã vạch (chỉ làm mẫu, qua bản vẽ lần 1) + ảnh đã duyệt Hotdog Ponnie vị cay (mẫu phong cách)",
       "referenceUrl": "https://minhcaumart.vn/media/com_eshop/products/8936034877399.webp"
     },
     "rubricVersion": "v18"
@@ -84,10 +84,22 @@
       "by": "owner",
       "status": "IN_PROGRESS",
       "note": "rejected on Hub by AU KHUONG DUY: tham khảo mấy cái xúc xích ponie khác, cái này nhìn hơi to khách nhầm"
+    },
+    {
+      "at": "2026-10-19T02:11:44Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-19T02:11:44.806Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-18T18:25:13.844Z",
+    "at": "2026-10-19T02:11:44.806Z",
     "fields": [
       "description",
       "image"

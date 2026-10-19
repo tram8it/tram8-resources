@@ -17,18 +17,18 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "IN_PROGRESS",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh; hãng chỉ có ảnh gói trong banner → vẽ lại → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: ẢNH MINH HOẠ: thiết kế lấy từ gói 25 g cùng vị, khối lượng sửa thành 40 g theo tên hàng; con dấu tròn nhỏ màu cam, chữ trong dấu không đọc được (gốc màu xanh)",
+    "reason": "I3/I4: ảnh hiện có không đạt, không có ảnh hãng/NPP → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Sửa theo chủ 19/10: vẽ lại theo ảnh gói thật 40 g (túi đứng dáng lượn màu xanh) thay cho bản dựng từ gói 25 g. Chữ lớn khớp mẫu (Miss Bánh Tráng, Xilay, Bánh tráng trộn muối ớt xiêm xanh, Cao cấp, Khối lượng tịnh 40 g, Cay say mê); bỏ dòng chữ của nhà bán lẻ",
     "source": {
       "aiGenerated": true,
       "tool": "Gemini API",
       "model": "gemini-nano-banana-2.1",
-      "generatedAt": "2026-10-17",
+      "generatedAt": "2026-10-19",
       "style": "flat clean packaging render (v17)",
-      "reference": "ảnh gói Xì Lay muối ớt xiêm xanh 25 g trên banner trang hãng vinasnack.com.vn (chỉ làm mẫu)",
-      "referenceUrl": "https://bizweb.dktcdn.net/100/462/274/themes/872296/assets/slider_2.jpg"
+      "reference": "ảnh gói 40 g muối ớt xiêm xanh trên imnuts.vn (nhà bán lẻ, chỉ làm mẫu) + ảnh đã duyệt Miss Xilay vị Tomyum 40g (mẫu phong cách)",
+      "referenceUrl": "https://cdn.hstatic.net/products/200000495609/y-mini-miss-banh-trang-vi-muoi-ot-xiem-xanh-40g-banh-keo-an-vat-imnuts_526c981d1e344dacbd01dab1b8c930d5.jpg"
     },
     "rubricVersion": "v18"
   },
@@ -93,10 +93,22 @@
       "by": "owner",
       "status": "IN_PROGRESS",
       "note": "rejected on Hub by AU KHUONG DUY: Bao bì ko giống, search web chưa"
+    },
+    {
+      "at": "2026-10-19T02:18:36Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 3, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-19T02:18:36.206Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-17T13:54:08.970Z",
+    "at": "2026-10-19T02:18:36.206Z",
     "fields": [
       "description",
       "image"

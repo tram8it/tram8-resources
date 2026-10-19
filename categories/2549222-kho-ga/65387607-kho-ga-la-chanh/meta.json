@@ -17,18 +17,18 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "IN_PROGRESS",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I5: ảnh KiotViet chụp cận, mất mép gói → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ lớn khớp ảnh KiotViet (G, Khô gà vị lá chanh, Dai thơm đậm vị, Từ 100% thịt gà tươi, Khối lượng tịnh: 22 g); viền trên/dưới gói lấy theo ảnh iCheck",
+    "reason": "I3/I4: ảnh hiện có không đạt, không có ảnh hãng/NPP → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Sửa theo chủ 19/10: gói dài hơn, hẹp hơn (dáng đứng) như gói thật. Chữ lớn khớp ảnh KiotViet (G, Khô gà vị lá chanh, Dai thơm đậm vị, Từ 100% thịt gà tươi, Khối lượng tịnh: 22 g)",
     "source": {
       "aiGenerated": true,
       "tool": "Gemini API",
       "model": "gemini-nano-banana-2.1",
-      "generatedAt": "2026-10-18",
+      "generatedAt": "2026-10-19",
       "style": "flat clean packaging render (v17)",
       "reference": "ảnh KiotViet gói hiện hành 22 g + ảnh iCheck theo mã vạch (bản cũ, chỉ làm mẫu)",
-      "referenceUrl": "https://assets.icheck.vn/image/2023/app/4/13/48f2cf619f12c17310a23682573e41f9.jpeg"
+      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/05/01/tram8/03d66f33ec44469faf87d9086f554f20.jpeg"
     },
     "rubricVersion": "v18"
   },
@@ -75,10 +75,22 @@
       "by": "owner",
       "status": "IN_PROGRESS",
       "note": "rejected on Hub by AU KHUONG DUY: Cái gói này nó dài hơn ảnh 1 chút và hẹp hơn"
+    },
+    {
+      "at": "2026-10-19T02:10:03Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-19T02:10:03.243Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-18T18:26:13.794Z",
+    "at": "2026-10-19T02:10:03.243Z",
     "fields": [
       "description",
       "image"

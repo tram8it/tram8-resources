@@ -17,17 +17,17 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "IN_PROGRESS",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt chữ lớn (Sữa đậu nành, Life's Food, 100% nông sản Việt Nam, 240 ml)",
+    "reason": "I3/I4: ảnh hiện có không đạt, không có ảnh hãng/NPP → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Sửa theo chủ 19/10: lon cao thon, góc nhìn và khung giống các sữa Life's Food đã duyệt. Chữ lớn khớp mẫu (SỮA ĐẬU NÀNH, Life's Food, 100% Nông Sản Việt Nam, 240 ml); chữ nhỏ vẽ mờ",
     "source": {
       "aiGenerated": true,
       "tool": "Gemini API",
       "model": "gemini-nano-banana-2.1",
-      "generatedAt": "2026-10-18",
+      "generatedAt": "2026-10-19",
       "style": "flat clean packaging render (v17)",
-      "reference": "ảnh Minh Cầu Mart theo đúng mã vạch (chỉ làm mẫu)",
+      "reference": "ảnh Minh Cầu Mart theo đúng mã vạch (chỉ làm mẫu, qua bản vẽ lần 1) + ảnh đã duyệt Sữa gạo rang Life's Food 240ml (mẫu phong cách)",
       "referenceUrl": "https://minhcaumart.vn/media/com_eshop/products/8936220510635.webp"
     },
     "rubricVersion": "v18"
@@ -84,10 +84,22 @@
       "by": "owner",
       "status": "IN_PROGRESS",
       "note": "rejected on Hub by AU KHUONG DUY: Tham khảo các sữa bắp non khác"
+    },
+    {
+      "at": "2026-10-19T02:13:01Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-19T02:13:01.431Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-18T18:25:20.225Z",
+    "at": "2026-10-19T02:13:01.431Z",
     "fields": [
       "description",
       "image"

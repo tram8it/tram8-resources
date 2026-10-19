@@ -17,17 +17,17 @@
     "description": null,
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "IN_PROGRESS",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I4: ảnh KiotViet chụp ngoài trời, nền đường phố → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ lớn khớp ảnh KiotViet (POPCORN, Đệ nhất bắp rang bơ, Vị Phômai 90g — cốc ghi 90 g, tên KiotViet 85 g, v19)",
+    "reason": "I3/I4: ảnh hiện có không đạt, không có ảnh hãng/NPP → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Vẽ lại theo chủ 19/10: cốc cao, thon, nắp phẳng, bỏng ngô chỉ tới miệng cốc như cốc thật. Chữ lớn khớp ảnh KiotViet (POPCORN, Đệ nhất bắp rang bơ, Vị Phômai 90g — cốc ghi 90 g, tên KiotViet 85 g, v19)",
     "source": {
       "aiGenerated": true,
       "tool": "Gemini API",
       "model": "gemini-nano-banana-2.1",
-      "generatedAt": "2026-10-18",
+      "generatedAt": "2026-10-19",
       "style": "flat clean packaging render (v17)",
-      "reference": "ảnh KiotViet do cửa hàng chụp (chỉ làm mẫu)",
+      "reference": "ảnh KiotViet do cửa hàng chụp (mẫu dáng cốc + chữ) + ảnh đã duyệt Bỏng ngô Vị Mật Ong 85g (mẫu phong cách)",
       "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/10/15/tram8/627692491da3437cbd15d9c8455589f5.png"
     },
     "rubricVersion": "v18"
@@ -81,10 +81,22 @@
       "by": "owner",
       "status": "IN_PROGRESS",
       "note": "rejected on Hub by AU KHUONG DUY: Thực tế nó dài thon cao và ít bỏng hơn chút"
+    },
+    {
+      "at": "2026-10-19T02:08:51Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 3, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-19T02:08:53.901Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-18T18:32:13.885Z",
+    "at": "2026-10-19T02:08:53.901Z",
     "fields": [
       "description",
       "image"
