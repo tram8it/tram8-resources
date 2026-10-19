@@ -17,17 +17,17 @@
     "description": "Thanh Snickers nhân đậu phộng, caramel và nougat mềm phủ sô cô la sữa, nhãn tiếng Việt.\n\nQuy cách: 51 g · thanh\nNhà sản xuất/thương hiệu: Snickers",
     "exportedAt": "2026-10-17T17:24:24.434Z"
   },
-  "status": "UPLOADED",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I5: ảnh tự chụp gói nhăn, chụp nghiêng; không có ảnh hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: huy hiệu 247 kcal theo ảnh mẫu; chữ nhỏ đầu gói (khẩu phần, %, thành phần) vẽ mờ không đọc được",
+    "reason": "chủ 19/10: làm như KitKat — vỏ đặt chéo, to, kèm thanh bánh bóc vỏ → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: vỏ chép từ ảnh cũ; thanh bánh bên cạnh là minh hoạ; chữ nhỏ để mờ",
     "source": {
       "aiGenerated": true,
       "tool": "Gemini API",
       "model": "gemini-nano-banana-2.1",
-      "generatedAt": "2026-10-17",
+      "generatedAt": "2026-10-19",
       "style": "flat clean packaging render (v17)",
-      "reference": "ảnh Kingfoodmart (chỉ làm mẫu) + ảnh KiotViet"
+      "reference": "ảnh vỏ Snickers hiện có (hàng thật) + bộ ảnh KitKat đã làm (bố cục)"
     },
     "rubricVersion": "v18"
   },
@@ -98,10 +98,22 @@
       "by": "owner",
       "status": "UPLOADED",
       "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T03:08:50Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "redo after Hub rejection:  — Gemini API redraw (attempt 3, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-19T03:08:50.355Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-17T15:38:39.538Z",
+    "at": "2026-10-19T03:08:50.355Z",
     "fields": [
       "description",
       "image"
