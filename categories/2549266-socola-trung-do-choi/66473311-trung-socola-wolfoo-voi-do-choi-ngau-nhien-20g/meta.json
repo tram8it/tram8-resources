@@ -17,18 +17,26 @@
     "description": null,
     "exportedAt": "2026-10-19T03:17:44.875Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh; tra lại 18/10 (mã vạch Kingfoodmart/OFF/web, \"trứng socola Wolfoo đồ chơi 20g\", \"Wolfoo chocolate egg surprise\") — không có ảnh nào của trứng Wolfoo → cần chụp",
-    "source": null,
-    "rubricVersion": "v20"
+    "reason": "chủ 19/10: tra lại → Minh Cầu Mart đúng mã vạch có ảnh trứng Wolfoo 20g (2 mẫu Lucy Magic Egg / Super Wolfoo Egg) → Gemini vẽ lại từ ảnh bao bì rõ nét mẫu Lucy (v12–v15) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: SP bán ngẫu nhiên 2 mẫu vỏ (Lucy hồng / Super Wolfoo xanh), ảnh hiện mẫu Lucy; dòng chữ Thái nhỏ có thể sai chi tiết",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-19",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh bao bì Lucy Magic Egg trên web bán lẻ (bizweb, chỉ làm mẫu); Minh Cầu Mart đúng mã 8859533603255 xác nhận 2 mẫu Lucy/Super Wolfoo",
+      "referenceUrl": "https://mavink.com/explore/Tr%E1%BB%A9ng-Socola-%C4%90%E1%BB%93-Ch%C6%A1i"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
-    "reason": "D1: chưa có mô tả; viết ngắn chỉ từ tên SP (Wolfoo, đồ chơi ngẫu nhiên, 20g)",
+    "reason": "D1: mô tả từ chữ in trên bao bì (Wolfoo, Funday, Surprise Toys, 20 g) và ảnh Minh Cầu Mart đúng mã (2 mẫu vỏ)",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v20"
   },
   "question": null,
   "history": [
@@ -55,6 +63,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "np18 re-research 18/10: still no image of this exact pack"
+    },
+    {
+      "at": "2026-10-19T07:16:54Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-19T07:16:54.958Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-19T07:16:54.958Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

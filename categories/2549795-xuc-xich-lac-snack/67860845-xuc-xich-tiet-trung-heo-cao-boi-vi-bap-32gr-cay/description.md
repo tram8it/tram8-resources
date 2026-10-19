@@ -1,4 +1,4 @@
-Xúc xích tiệt trùng Heo Cao Bồi vị bắp, cây nhỏ bóc vỏ ăn liền, tiện làm món ăn vặt.
+Xúc xích tiệt trùng Heo Cao Bồi nhân phô mai vị bắp, dòng snack dinh dưỡng, nhân phô mai tan chảy bên trong. Món ăn vặt tiện lợi, xé ăn ngay.
 
-Quy cách: 32 g · cây
+Quy cách: 32 g · cây (bán lẻ từng cây)
 Nhà sản xuất/thương hiệu: Heo Cao Bồi

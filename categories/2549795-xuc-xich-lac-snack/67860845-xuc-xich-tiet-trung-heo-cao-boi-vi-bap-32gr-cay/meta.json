@@ -17,18 +17,26 @@
     "description": null,
     "exportedAt": "2026-10-19T03:17:44.875Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh; Heo Cao Bồi (SNF) không có trang hãng truy cập được; không tìm thấy ảnh cây xúc xích vị bắp 32g ở Kingfoodmart/Open Food Facts/web → cần chụp 1 cây",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "chủ 19/10: tra lại trên mạng → ảnh Shopee thẻ treo túi lưới 'Nhân Phô Mai Vị Bắp' (cây 32 g cùng vị) → dùng chung ảnh Gemini vẽ lại của SP 64865235 cùng vị (v12–v15, đồng bộ dãy v14). Khác gói thật: ảnh minh hoạ dạng gói theo bố cục dãy Heo Cao Bồi, cây thật là xúc xích hình trụ; chữ nhỏ để mờ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-19",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh Shopee (thẻ treo túi lưới, chỉ làm mẫu) + vị Bơ Sữa Mật Ong đã duyệt (bố cục); dùng chung ảnh SP 64865235",
+      "sharedWith": "64865235"
+    },
+    "rubricVersion": "v14"
   },
   "description": {
     "decision": "WRITE_NEW",
-    "reason": "D1: chưa có mô tả; mô tả ngắn chỉ từ dữ kiện chắc chắn (tên KiotViet), không có nguồn hãng",
+    "reason": "D1: mô tả ngắn theo dãy Heo Cao Bồi (nhân phô mai vị bắp, cây 32 g)",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v20"
   },
   "question": null,
   "history": [
@@ -49,6 +57,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "no reference image found for the 32g stick (KFM/OFF/web search)"
+    },
+    {
+      "at": "2026-10-19T07:14:19Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "np19 re-research: same image as sibling 64865235 (same flavour, Gemini render) → READY"
+    },
+    {
+      "at": "2026-10-19T07:14:19.420Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-19T07:14:19.420Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

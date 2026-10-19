@@ -17,16 +17,23 @@
     "description": null,
     "exportedAt": "2026-10-19T03:17:44.875Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh; tra 18/10: chưa xác định được túi mã 8936034877214 là vị nguyên bản hay vị bắp (mã 8936034877207 ở Minh Cầu Mart là nguyên bản) → cần chụp túi lưới đang bán",
-    "source": null,
-    "rubricVersion": "v23"
+    "reason": "chủ 19/10: hàng là 1 cây xúc xích, không phải gói dẹt → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: vẽ theo ảnh trên sàn; chữ nhỏ để mờ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-19",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh Shopee/Quality for Life chủ tìm (chỉ làm mẫu)"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
-    "reason": "D1: mô tả ngắn từ tên hàng (nhân phô mai, túi 15 cây × 32 g), cùng mẫu SP Heo Cao Bồi vị bắp",
+    "reason": "D1/D2: mô tả theo cây vị nguyên bản (Minh Cầu Mart) và mẫu vị cùng dòng; đơn vị KiotViet \"Cái\" = 1 cây 32 g (v19)",
     "source": null,
     "rubricVersion": "v20"
   },
@@ -55,6 +62,38 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "np18 re-research 18/10: still no usable reference for this exact pack (see image.reason)"
+    },
+    {
+      "at": "2026-10-19T07:13:43Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-19T07:13:47.172Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T07:17:42Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "redo after Hub rejection:  — Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-19T07:17:43.144Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-19T07:17:43.144Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

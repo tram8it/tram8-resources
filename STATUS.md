@@ -2,7 +2,7 @@
 
 > Sinh tự động bởi `node tools/status.mjs`. **Không sửa tay.** Nguồn sự thật là `meta.json` của từng SP.
 
-Tổng 2509 SP · đã xem 2509 (100%) · xong 2289 · chờ chủ duyệt 92 · cần chụp 127 · hỏi chủ 1
+Tổng 2509 SP · đã xem 2509 (100%) · xong 2288 · chờ chủ duyệt 96 · cần chụp 124 · hỏi chủ 1
 
 Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` = giữ nguyên + đã lên web.
 
@@ -68,7 +68,7 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 | 58 | Cocktail lon RTD | 0.0tr | 15 | 0 | 3 | 0 | 0 | 0 | 0 | 0 | 12 |
 | 59 | Sữa chua kiểu Hy Lạp | 0.0tr | 15 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 15 |
 | 60 | Măng & rau ngâm cay | 0.0tr | 15 | 0 | 0 | 0 | 8 | 0 | 1 | 0 | 6 |
-| 61 | Xúc xích lắc & snack | 0.0tr | 15 | 0 | 0 | 0 | 2 | 0 | 0 | 0 | 13 |
+| 61 | Xúc xích lắc & snack | 0.0tr | 15 | 0 | 0 | 0 | 0 | 0 | 3 | 0 | 12 |
 | 62 | Bánh pie / cake mềm | 0.0tr | 14 | 0 | 0 | 0 | 1 | 0 | 2 | 0 | 11 |
 | 63 | Board games/ Card games | 0.0tr | 14 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 14 |
 | 64 | Mì cay (Ly/Tô/Cốc) | 0.0tr | 14 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 14 |
@@ -193,7 +193,7 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 | 183 | Đồ uống nội địa | 0.0tr | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 2 |
 | 184 | Gin & Tequila | 0.0tr | 2 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
 | 185 | Sáp khử mùi | 0.0tr | 2 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 1 |
-| 186 | Socola trứng / đồ chơi | 0.0tr | 2 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 1 |
+| 186 | Socola trứng / đồ chơi | 0.0tr | 2 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 1 |
 | 187 | Thịt khô đóng gói khác | 0.0tr | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 2 |
 | 188 | Makgeolli | 0.0tr | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 2 |
 | 189 | Kem & Đồ đông lạnh | 0.0tr | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 2 |

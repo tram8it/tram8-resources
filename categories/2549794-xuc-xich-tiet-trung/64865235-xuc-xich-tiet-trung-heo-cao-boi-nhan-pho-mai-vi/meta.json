@@ -20,14 +20,14 @@
   "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "chủ 19/10: tìm trên mạng có ảnh → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: nội dung theo thẻ treo túi lưới trên Shopee; bố cục theo vị cùng dòng; chữ nhỏ để mờ",
+    "reason": "chủ 19/10: hàng là 1 cây xúc xích, không phải gói dẹt → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: vẽ theo ảnh trên sàn; chữ nhỏ để mờ",
     "source": {
       "aiGenerated": true,
       "tool": "Gemini API",
       "model": "gemini-nano-banana-2.1",
       "generatedAt": "2026-10-19",
       "style": "flat clean packaging render (v17)",
-      "reference": "ảnh Shopee chủ tìm (thẻ treo túi lưới, chỉ làm mẫu) + vị Bơ Sữa Mật Ong đã duyệt (bố cục)"
+      "reference": "ảnh Shopee/Quality for Life chủ tìm (chỉ làm mẫu)"
     },
     "rubricVersion": "v18"
   },
@@ -74,10 +74,22 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T07:17:45Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "redo after Hub rejection:  — Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-19T07:17:45.911Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-19T07:06:16.551Z",
+    "at": "2026-10-19T07:17:45.911Z",
     "fields": [
       "description",
       "image"
