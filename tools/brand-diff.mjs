@@ -59,6 +59,7 @@ const byKind = (k) => plan.filter((r) => r.kind === k);
 const productPlan = new Map(byKind("product").map((r) => [String(r.kiotProductId), r]));
 const renamePlan = new Map(byKind("rename").map((r) => [String(r.brandId), r]));
 const createPlan = new Map(byKind("create").map((r) => [r.to, r]));
+const productTargets = new Set(byKind("product").map((r) => r.to).filter(Boolean));
 const deletePlan = new Map(byKind("delete").map((r) => [String(r.brandId), r]));
 
 // ---- brand list -------------------------------------------------------------
@@ -71,6 +72,10 @@ for (const [id, name] of brandsAfter) {
     if (createPlan.has(name)) {
       done.push(`tạo ${show(name)} (#${id})`);
       createPlan.delete(name);
+    } else if (productTargets.has(name)) {
+      // An Excel import creates a brand it does not know yet, under exactly the
+      // name in the file (measured 19/10/2026, batch 2: 11 new brands, once each).
+      done.push(`tạo khi nhập file ${show(name)} (#${id})`);
     } else alarm("TH_MOI_NGOAI_KE_HOACH", `#${id} ${show(name)}`);
   } else if (brandsBefore.get(id) !== name) {
     const r = renamePlan.get(id);
@@ -140,6 +145,8 @@ for (const [id, a] of pAfter) {
   }
   for (const key of new Set([...Object.keys(b), ...Object.keys(a)])) {
     if (IGNORED.has(key) || isDeepStrictEqual(b[key], a[key])) continue;
+    // "" and null both mean "nothing here" (orderTemplate turned "" → null on import).
+    if ((b[key] === "" || b[key] === null || b[key] === undefined) && (a[key] === "" || a[key] === null || a[key] === undefined)) continue;
     if (descHandled && descKeys.includes(key)) continue;
     if (zeroWeight && key === "weight" && a.weight === 0) {
       zeroed++;
