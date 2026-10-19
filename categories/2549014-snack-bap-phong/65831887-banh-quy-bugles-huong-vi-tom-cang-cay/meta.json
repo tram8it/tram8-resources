@@ -17,12 +17,20 @@
     "description": null,
     "exportedAt": "2026-10-19T03:17:44.875Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh; tra lại 18/10: iCheck/Kingfoodmart/OFF theo mã 6945705879329 không có, Yandex ảnh \"bugles tôm càng cay\", \"Bugles 小龙虾味\", \"6945705879329\", WebSearch \"bánh snack Bugles tôm càng cay lon nhập khẩu\" chỉ ra Bugles Mỹ/Nga, không có lon vị tôm càng cay → cần chụp mặt trước lon",
-    "source": null,
-    "rubricVersion": "v23"
+    "reason": "ảnh nhân viên mới chụp (KiotViet 19/10) trên mặt đá tối, chỉ làm mẫu → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ 'CRACKERS' vẽ đủ chữ S cuối (trong ảnh bị cong lon che); phần cuối dòng 'RICH SPICY SAUCE…' là ước lượng",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-19",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh nhân viên chụp (KiotViet 19/10)",
+      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/10/19/tram8/95a213da05664e4786e2da697d1adbe7.png"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -61,6 +69,12 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "re-searched 18/10 (owner feedback, np18): no image of this exact product found; reason updated"
+    },
+    {
+      "at": "2026-10-19T07:38:29Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
     }
   ]
 }

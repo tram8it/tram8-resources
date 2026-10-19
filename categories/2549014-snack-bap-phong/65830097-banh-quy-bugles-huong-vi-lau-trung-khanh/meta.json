@@ -20,7 +20,7 @@
   "status": "NEEDS_PHOTO",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh. Đã tìm lại 17/10/2026 (RUBRIC v13–v17): không có trang hãng trong data/brands.json; mã vạch 6945705879336 không có trên web/OpenFoodFacts; dòng 妙脆角 (Cheetos/PepsiCo Trung Quốc) trên JD/Weee chỉ thấy gói túi 40g/65g các vị khác, không thấy bản vị này, cũng không thấy dạng ống; tiền tố mã vạch 6945705 khác mã PepsiCo TQ (6924743) nên chưa chắc cùng nhà sản xuất. Không có ảnh mẫu nào để Gemini vẽ đúng (không biết bao bì, khối lượng) → cần nhân viên chụp mặt trước (thấy rõ vị, khối lượng tịnh).",
+    "reason": "I1: chưa có ảnh. Đã tìm lại 17/10/2026 (RUBRIC v13–v17): không có trang hãng trong data/brands.json; mã vạch 6945705879336 không có trên web/OpenFoodFacts; dòng 妙脆角 (Cheetos/PepsiCo Trung Quốc) trên JD/Weee chỉ thấy gói túi 40g/65g các vị khác, không thấy bản vị này, cũng không thấy dạng ống; tiền tố mã vạch 6945705 khác mã PepsiCo TQ (6924743) nên chưa chắc cùng nhà sản xuất. Không có ảnh mẫu nào để Gemini vẽ đúng (không biết bao bì, khối lượng) → cần nhân viên chụp mặt trước (thấy rõ vị, khối lượng tịnh). | 19/10 tìm lại bằng ảnh (Yandex Images: '妙脆角 重庆火锅味', 'Bugles lẩu Trùng Khánh', '6945705879336', 'Bugles 妙脆角 罐装', '妙脆角 重庆火锅'; iCheck/Kingfoodmart/Minh Cầu/Open Food Facts theo mã vạch; WebSearch không có kết quả tiếng Việt) — không có ảnh đúng SP/vị → vẫn cần nhân viên chụp",
     "source": null,
     "rubricVersion": "v17"
   },
@@ -55,6 +55,12 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "staff photo 2026-10-18 received (work/gemini/<id>/refs/2-staff.jpg) but wrinkled/tilted/glare → needs Gemini redraw; GEMINI_API_KEY not set on this machine"
+    },
+    {
+      "at": "2026-10-19T07:38:02Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "19/10 re-research with image search (owner request): no image of this exact product/variant found"
     }
   ]
 }
