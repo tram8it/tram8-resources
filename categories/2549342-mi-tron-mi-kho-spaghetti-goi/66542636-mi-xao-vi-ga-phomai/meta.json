@@ -17,16 +17,19 @@
     "description": "Mì xào Koreno Volcano vị gà phô mai của Paldo, vị rất cay kiểu gà xào dakgalbi Hàn Quốc.\n\nQuy cách: 118 g · gói\nNhà sản xuất/thương hiệu: Paldo Vina · Koreno",
     "exportedAt": "2026-10-19T03:17:44.875Z"
   },
-  "status": "UPLOADED",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "Chủ gửi ảnh gói Koreno Volcano vị gà phomai 118 g; tách nền xám bằng cutout.py. Chữ nhỏ dòng khối lượng trên ảnh bị méo (dấu hiệu ảnh AI/ảnh xử lý), chữ lớn đúng bao bì",
+    "reason": "chủ 19/10: vẽ lại cho phẳng, nét → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: vẽ phẳng, sạch theo ảnh cũ; chữ nhỏ để mờ",
     "source": {
-      "ownerProvided": true,
-      "note": "ảnh gói Volcano gà phô mai chủ gửi, tách nền",
-      "receivedAt": "2026-10-14"
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-19",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh gói hiện có (chủ gửi trước đó)"
     },
-    "rubricVersion": "v6"
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -71,10 +74,22 @@
       "by": "init",
       "status": "UPLOADED",
       "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-19T07:47:35Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "redo after Hub rejection:  — Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-19T07:47:35.770Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-14T15:37:16.948Z",
+    "at": "2026-10-19T07:47:35.770Z",
     "fields": [
       "description",
       "image"
