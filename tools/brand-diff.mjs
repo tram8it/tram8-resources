@@ -116,8 +116,25 @@ for (const [id, a] of pAfter) {
     else alarm("SAI_THUONG_HIEU", `${label(a)}: ${show(brandName(b))} → ${show(got)}, cần ${show(expected)}`);
   } else if (planned && got !== brandName(b) && !a.masterUnitId) done.push(`${label(a)}: ${show(brandName(b))} → ${show(got)}`);
 
+  // Saving the KiotViet web form rewrites the description without changing
+  // its text: line breaks become <br>, and a lốc/thùng row takes its base
+  // product's description (measured 19/10/2026). Same text = a note, not an alarm.
+  const descKeys = ["descriptionSha", "descriptionLength", "descriptionTextSha"];
+  const descChanged = descKeys.some((k) => !isDeepStrictEqual(b[k], a[k]));
+  let descHandled = false;
+  if (descChanged && b.descriptionTextSha && a.descriptionTextSha) {
+    const base = a.masterUnitId ? pAfter.get(String(a.masterUnitId)) : undefined;
+    if (b.descriptionTextSha === a.descriptionTextSha) {
+      notes.push(`- ${label(a)}: mô tả đổi định dạng xuống dòng (chữ giữ nguyên)`);
+      descHandled = true;
+    } else if (base && a.descriptionTextSha === base.descriptionTextSha) {
+      notes.push(`- ${label(a)}: đơn vị nhận mô tả của hàng gốc (${b.descriptionLength} → ${a.descriptionLength} ký tự)`);
+      descHandled = true;
+    }
+  }
   for (const key of new Set([...Object.keys(b), ...Object.keys(a)])) {
     if (IGNORED.has(key) || isDeepStrictEqual(b[key], a[key])) continue;
+    if (descHandled && descKeys.includes(key)) continue;
     alarm("TRUONG_KHAC_BI_DOI", `${label(a)} · \`${key}\`: ${JSON.stringify(b[key])} → ${JSON.stringify(a[key])}`);
   }
 }

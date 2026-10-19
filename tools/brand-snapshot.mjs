@@ -79,6 +79,10 @@ function compact(p) {
     ...rest,
     descriptionSha: sha(description),
     descriptionLength: (description ?? "").length,
+    // Saving the product form on KiotViet web turns line breaks into <br>
+    // (measured 19/10/2026): same text, different bytes. brand-diff tells
+    // the two apart with this hash of the text alone.
+    descriptionTextSha: sha(descriptionText(description)),
     brandLine: brandLine(description),
     // "Hàng nội địa Trung" needs to know a pack is Chinese when it names no brand.
     chineseHint: /tiếng Trung|nội địa Trung|Trung Quốc|[\u4e00-\u9fff]/.test(description ?? ""),
@@ -91,6 +95,16 @@ function compact(p) {
  * descriptions written in this repo end with — what brand-propose.mjs reads.
  * Descriptions pasted in by hand on KiotViet may be HTML, so tags go first.
  */
+function descriptionText(description) {
+  return (description ?? "")
+    .replace(/<br\s*\/?>|<\/p>|<\/li>/gi, "\n")
+    .replace(/<[^>]+>/g, "")
+    .replace(/&nbsp;/g, " ")
+    .replace(/&amp;/g, "&")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
 function brandLine(description) {
   const text = (description ?? "")
     .replace(/<br\s*\/?>|<\/p>|<\/li>/gi, "\n")
