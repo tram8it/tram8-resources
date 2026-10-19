@@ -32,6 +32,9 @@ không đụng ô khác, trả lại file `thu-excel-2-sp.xlsx` kèm bảng so s
 
 ## Bước 3 — kiểm
 
-Nhắn Claude "xong excel": chụp lại dữ liệu, `brand-diff` so mọi trường của mọi SP. Đạt khi chỉ 2 SP (và đơn vị của
-chúng) đổi thương hiệu, **không trường nào khác đổi ở bất kỳ SP nào**. Riêng tên HĐĐT API không đọc được: mở form
-2 SP trên web, xem ô "Tên hàng trên hoá đơn điện tử" (cả dòng đơn vị) giống trước.
+1. **Xuất lại** đúng 2 SP như Bước 1 (giữ tất cả cột) và gửi Claude file mới.
+2. Nhắn "xong excel". Claude chụp lại dữ liệu qua API và:
+   - `brand-diff` so mọi trường của **mọi** SP: chỉ 2 SP (và đơn vị của chúng) được đổi thương hiệu, không trường nào khác
+     đổi ở bất kỳ SP nào;
+   - so **từng ô** file xuất trước/sau (bắt cả tên HĐĐT, lô–HSD — những thứ API không đọc được): chỉ ô Thương hiệu khác.
+   Cả hai đạt → đường Excel dùng được; một trong hai không đạt → sửa từng SP trên form.
