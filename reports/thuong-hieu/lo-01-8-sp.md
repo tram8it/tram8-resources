@@ -18,3 +18,14 @@ Mỗi SP thử một điều. Cắt bằng `tools/brand_excel.py … --ids` từ
 file xuất trước/sau chỉ khác ô Thương hiệu + Trọng lượng; KiotViet có đúng **một** "Pantene" mới.
 Không đạt mục 3/5 (không tự tạo / không xoá được) thì vẫn dùng được Excel, chỉ đổi cách: tạo thương hiệu trên web trước,
 và xoá thương hiệu trên form.
+
+## Kết quả (19/10/2026) — ĐẠT
+Nhập 7 SP (SP ngừng kinh doanh #7 không có trong file xuất: xuất file chỉ ra hàng đang kinh doanh).
+- `brand-diff --zero-weight` trên 3.965 dòng: **ĐẠT**, chỉ 7 SP đổi đúng kế hoạch ([`lo-01-diff.md`](lo-01-diff.md)).
+- Trọng lượng hàng gốc về 0 → **đơn vị về 0 theo** (Dây 60/50/60 → 0). Lỗi nhân trọng lượng không còn khi gốc = 0.
+- Ô Thương hiệu **trống xoá được** thương hiệu (Nước muối).
+- 2 SP "Pantene" về cùng một thương hiệu #747652 — nhưng Pantene **đã có sẵn** (0 SP) nên **chưa biết** nhập tên chưa có thì
+  KiotViet tự tạo hay báo lỗi → thử ở lô 2.
+- So từng ô file xuất trước/sau 7 SP: chỉ khác Thương hiệu, Trọng lượng — và "Thời gian tạo", nhưng đó là do **hai kiểu xuất**
+  (xuất toàn bộ vs xuất SP đã lọc) ghi giờ tạo khác nhau: xuất lọc 15:16 trước lô 1 cũng đã ra 15:38:22.737 cho X-Men, API
+  `createdAt` trước/sau lô 1 không đổi (15:39:05.237).
