@@ -17,15 +17,19 @@
     "description": "Bánh xốp kem phô mai dâu Nabati (Strawberry Cheesecake Flavoured Wafer), lớp xốp giòn xen kem vị bánh phô mai dâu.\n\nQuy cách: 50 g · gói\nNhà sản xuất/thương hiệu: Nabati",
     "exportedAt": "2026-10-20T16:17:47.475Z"
   },
-  "status": "UPLOADED",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh dùng được → ảnh nhân viên chụp tại quầy 18/10 (rõ, thẳng, đủ sáng): tách nền (cutout.py) + cân màu tone.py --vivid",
+    "reason": "I3/I4: ảnh hiện có không đạt, không có ảnh hãng/NPP → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: line consistency 20/10: crumpled perspective pack redrawn flat like the other Nabati 50g wafers",
     "source": {
-      "staffPhoto": true,
-      "takenAt": "2026-10-18"
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-20",
+      "style": "flat clean packaging render (v17)",
+      "reference": "own current image.webp (content) + sibling 64865669 image.webp (line style, reference only)"
     },
-    "rubricVersion": "v22"
+    "rubricVersion": "v23"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -76,6 +80,18 @@
       "by": "init",
       "status": "UPLOADED",
       "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-20T16:43:52Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-20T16:44:35Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "line consistency 20/10: crumpled perspective -> flat like Nabati 50g line (Gemini redraw)"
     }
   ],
   "submitted": {

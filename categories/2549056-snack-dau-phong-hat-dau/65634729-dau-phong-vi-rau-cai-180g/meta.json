@@ -17,20 +17,19 @@
     "description": "Đậu phộng vị rau cải GOODY! Vegetable của Snack House: hạt đậu phộng bọc lớp vỏ giòn vị rau cải (Crunchy & Crispy Coated Peanuts), đựng trong hũ.\n\nQuy cách: 180 g · hộp\nThương hiệu: Snack House GOODY!",
     "exportedAt": "2026-10-20T16:17:47.475Z"
   },
-  "status": "UPLOADED",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I4: ảnh chụp điện thoại, nền tường xám/bàn, đáy hũ bị cắt; không tìm được ảnh hãng Snack House/GOODY! → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: nhãn hũ thật không in khối lượng nên ảnh cũng không có khối lượng (180g chỉ theo tên KiotViet); đáy hũ vẽ bổ sung (ảnh gốc bị cắt); chữ nhỏ trên logo Snackhouse là bản vẽ lại",
+    "reason": "I3/I4: ảnh hiện có không đạt, không có ảnh hãng/NPP → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: line consistency 20/10: jar slimmed to the Goody! jar proportions of the line; no weight printed (as on the real label)",
     "source": {
       "aiGenerated": true,
       "tool": "Gemini API",
       "model": "gemini-nano-banana-2.1",
-      "generatedAt": "2026-10-17",
+      "generatedAt": "2026-10-20",
       "style": "flat clean packaging render (v17)",
-      "reference": "ảnh KiotViet hiện tại (ảnh chụp điện thoại hũ thật)",
-      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/05/11/tram8/bc7092ced8a64cf584aab74ff82b1248.jpeg"
+      "reference": "own current image.webp (content) + sibling 66998653 image.webp (line style, reference only)"
     },
-    "rubricVersion": "v17"
+    "rubricVersion": "v23"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -75,6 +74,18 @@
       "by": "init",
       "status": "UPLOADED",
       "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-20T16:43:51Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 4, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-20T16:44:35Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "line consistency 20/10: jar slimmed to Goody! jar line (Gemini redraw)"
     }
   ],
   "submitted": {

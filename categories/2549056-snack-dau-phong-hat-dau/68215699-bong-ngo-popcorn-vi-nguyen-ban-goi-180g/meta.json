@@ -17,10 +17,10 @@
     "description": "Bỏng ngô (popcorn) vị nguyên bản, ăn liền, dùng ăn vặt hoặc khi xem phim.\n\nQuy cách: 180 g · gói",
     "exportedAt": "2026-10-20T16:17:47.475Z"
   },
-  "status": "UPLOADED",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I4: ảnh KiotViet chụp ngoài trời, nền đường phố → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ lớn khớp ảnh KiotViet (Bắp rang bơ, POPCORN, Đệ nhất bắp rang bơ, HACCP, vị, KLT: 180g); chữ nhỏ mờ",
+    "reason": "line consistency 20/10: bag width matched to the IAMG 180g popcorn bags (w61 -> w67) — I3/I4: ảnh KiotViet chụp ngoài trời, nền đường phố → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ lớn khớp ảnh KiotViet (Bắp rang bơ, POPCORN, Đệ nhất bắp rang bơ, HACCP, vị, KLT: 180g); chữ nhỏ mờ",
     "source": {
       "aiGenerated": true,
       "tool": "Gemini API",
@@ -30,7 +30,7 @@
       "reference": "ảnh KiotViet do cửa hàng chụp (chỉ làm mẫu)",
       "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/10/15/tram8/1ea11356afe14b02baaf825e5152f726.png"
     },
-    "rubricVersion": "v18"
+    "rubricVersion": "v23"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -87,6 +87,12 @@
       "by": "init",
       "status": "UPLOADED",
       "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-20T16:44:25Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "line consistency 20/10: bag width matched to the IAMG 180g popcorn bags (w61 -> w67)"
     }
   ],
   "submitted": {

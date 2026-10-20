@@ -17,17 +17,17 @@
     "description": "Bánh lát khoai tây Slide vị thịt nướng (Barbecue), các lát khoai xếp trong lon có nắp đậy.\n\nQuy cách: 90 g · lon\nThương hiệu: Slide",
     "exportedAt": "2026-10-20T16:17:47.475Z"
   },
-  "status": "UPLOADED",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I2: bao bì cũ/không đạt (chủ báo 15/10) → Gemini vẽ lại theo ảnh mẫu bao bì hiện hành (v15) — khớp mẫu Lotte: Slide, BAR BE CUE, Bánh lát khoai tây vị thịt nướng, khối lượng 90g",
+    "reason": "line consistency 20/10: drop shadow removed like the other Slide 90g cans — I2: bao bì cũ/không đạt (chủ báo 15/10) → Gemini vẽ lại theo ảnh mẫu bao bì hiện hành (v15) — khớp mẫu Lotte: Slide, BAR BE CUE, Bánh lát khoai tây vị thịt nướng, khối lượng 90g",
     "source": {
       "aiGenerated": true,
       "tool": "Google Gemini (chủ yêu cầu, RUBRIC v12–v15)",
       "generatedAt": "2026-10-15",
       "referenceUrl": "https://www.lottemart.vn/media/catalog/product/cache/0x0/8/9/8934680011983-1.jpg.webp"
     },
-    "rubricVersion": "v15"
+    "rubricVersion": "v23"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -96,6 +96,12 @@
       "by": "init",
       "status": "UPLOADED",
       "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-20T16:44:25Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "line consistency 20/10: drop shadow removed like the other Slide 90g cans"
     }
   ],
   "submitted": {

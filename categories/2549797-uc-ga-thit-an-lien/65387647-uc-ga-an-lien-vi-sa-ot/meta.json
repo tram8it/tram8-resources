@@ -17,10 +17,10 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "UPLOADED",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I4/I5: ảnh chụp điện thoại cận gói trong thùng, nền lộn xộn, gói bị cắt; không có trang hãng G Kitchen dùng được → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt chữ chính (tên, vị, huy hiệu protein); mặt trước không in khối lượng (100 g in mặt sau) như gói thật; hình miếng ức gà vẽ lại",
+    "reason": "line consistency 20/10: pouch width matched to the G Kitchen chicken-breast pouches (w45 -> w53) — I3/I4/I5: ảnh chụp điện thoại cận gói trong thùng, nền lộn xộn, gói bị cắt; không có trang hãng G Kitchen dùng được → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt chữ chính (tên, vị, huy hiệu protein); mặt trước không in khối lượng (100 g in mặt sau) như gói thật; hình miếng ức gà vẽ lại",
     "source": {
       "aiGenerated": true,
       "tool": "Gemini API",
@@ -30,7 +30,7 @@
       "reference": "ảnh Lotte Mart theo mã vạch (chỉ làm mẫu, đã bỏ nền có chữ Lotte) + ảnh KiotViet",
       "referenceUrl": "https://cdn.lottemart.vn/media/catalog/product/8/9/8936146447725-1.jpg"
     },
-    "rubricVersion": "v18"
+    "rubricVersion": "v23"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -69,6 +69,12 @@
       "by": "owner",
       "status": "UPLOADED",
       "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-20T16:44:26Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "line consistency 20/10: pouch width matched to the G Kitchen chicken-breast pouches (w45 -> w53)"
     }
   ],
   "submitted": {

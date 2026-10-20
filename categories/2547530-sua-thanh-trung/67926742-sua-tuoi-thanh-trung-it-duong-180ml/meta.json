@@ -17,10 +17,10 @@
     "description": "Sữa tươi thanh trùng Dalat Milk ít đường, hộp 180 ml. Sản phẩm thanh trùng, cần giữ lạnh.\n\nQuy cách: 180 ml · hộp\nNhà sản xuất/thương hiệu: Dalat Milk",
     "exportedAt": "2026-10-20T16:17:47.475Z"
   },
-  "status": "UPLOADED",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh; trang hãng dalatmilk.vn lỗi → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: dấu sao sau ÍT ĐƯỜNG vẽ thành ngôi sao 4 cánh (bản thật là dấu *); chữ nhỏ cạnh bên vẽ mờ",
+    "reason": "line consistency 20/10: carton width matched to the Dalat Milk 180ml cartons (w54 -> w50) — I1: chưa có ảnh; trang hãng dalatmilk.vn lỗi → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: dấu sao sau ÍT ĐƯỜNG vẽ thành ngôi sao 4 cánh (bản thật là dấu *); chữ nhỏ cạnh bên vẽ mờ",
     "source": {
       "aiGenerated": true,
       "tool": "Gemini API",
@@ -30,7 +30,7 @@
       "reference": "ảnh Kingfoodmart theo mã vạch (chỉ làm mẫu)",
       "referenceUrl": "https://storage.googleapis.com/onelife-public/8935318100055.jpg"
     },
-    "rubricVersion": "v18"
+    "rubricVersion": "v23"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -75,6 +75,12 @@
       "by": "owner",
       "status": "UPLOADED",
       "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-20T16:44:25Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "line consistency 20/10: carton width matched to the Dalat Milk 180ml cartons (w54 -> w50)"
     }
   ],
   "submitted": {

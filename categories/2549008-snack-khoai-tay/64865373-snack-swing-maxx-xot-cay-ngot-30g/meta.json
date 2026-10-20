@@ -17,17 +17,19 @@
     "description": "Bánh snack khoai tây Swing Maxx vị xốt cay ngọt Hàn Quốc của Orion, lát khoai cắt gợn sóng dày.\n\nThành phần: khoai tây 59,1%, dầu thực vật, bột gia vị xốt cay ngọt Hàn Quốc 7% (đường, maltodextrin, bột tương ớt 13%, muối, chất điều vị (621, 635), bột gia vị bò, chiết xuất nấm men, bột hành, hương liệu tổng hợp, bột tỏi, bột giấm, bột nước tương, chất chống đông vón (551), bột kim chi, vảy rau ngò tây, chất điều chỉnh độ acid (296, 364(ii)), chất tạo màu tự nhiên (160c(i)), bột gia vị cay 0,5%, chất tạo ngọt tổng hợp (951, 955), bột gừng).\nQuy cách: 30 g · gói\nXuất xứ: Việt Nam · Nhà sản xuất: Công ty TNHH Thực phẩm Orion Vina\nHạn sử dụng: 6 tháng kể từ ngày sản xuất (in trên bao bì).",
     "exportedAt": "2026-10-20T16:17:47.475Z"
   },
-  "status": "UPLOADED",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1/I3: ảnh hiện tại chụp cận/không thấy nguyên gói; không có ảnh hãng; Gemini vẽ lại theo ảnh mẫu (v15) — mẫu Lotte Mart gói 52g cùng thiết kế (khớp ảnh nhân viên chụp): Swing MAXX, SWEET 'N SPICY Xốt Gochujang; chữ nhỏ trên nhãn tròn bị méo",
+    "reason": "I3/I4: ảnh hiện có không đạt, không có ảnh hãng/NPP → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: line consistency 20/10: tilted 3/4 bag redrawn flat front-on like Swing Maxx 63g; small print illegible",
     "source": {
       "aiGenerated": true,
-      "tool": "Google Gemini (chủ yêu cầu, RUBRIC v12–v15)",
-      "generatedAt": "2026-10-15",
-      "referenceUrl": "https://www.lottemart.vn/media/catalog/product/cache/0x0/8/9/8936029422443-1.jpg.webp"
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-20",
+      "style": "flat clean packaging render (v17)",
+      "reference": "own current image.webp (content) + sibling 66557890 image.webp (line style, reference only)"
     },
-    "rubricVersion": "v15"
+    "rubricVersion": "v23"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -75,6 +77,18 @@
       "by": "init",
       "status": "UPLOADED",
       "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-20T16:43:51Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-20T16:44:35Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "line consistency 20/10: tilted 3/4 bag -> flat front like Swing Maxx 63g (Gemini redraw)"
     }
   ],
   "submitted": {

@@ -17,15 +17,19 @@
     "description": "Thuốc lá điếu Thăng Long No.5 hương cherry, loại điếu nhỏ (slim cigarette), bao giấy.\n\nQuy cách: bao\nThương hiệu: Thăng Long\nHút thuốc gây bệnh tim mạch và nhiều bệnh khác. Sản phẩm dành cho người từ 18 tuổi trở lên.",
     "exportedAt": "2026-10-20T16:17:47.475Z"
   },
-  "status": "UPLOADED",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh dùng được → ảnh nhân viên chụp tại quầy 18/10 (rõ, thẳng, đủ sáng): tách nền (cutout.py) + cân màu tone.py --vivid",
+    "reason": "I3/I4: ảnh hiện có không đạt, không có ảnh hãng/NPP → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: line consistency 20/10: worn textured photo redrawn as a clean flat pack like Thang Long No.6",
     "source": {
-      "staffPhoto": true,
-      "takenAt": "2026-10-18"
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-20",
+      "style": "flat clean packaging render (v17)",
+      "reference": "own current image.webp (content) + sibling 64865575 image.webp (line style, reference only)"
     },
-    "rubricVersion": "v22"
+    "rubricVersion": "v23"
   },
   "description": {
     "decision": "REWRITE",
@@ -85,6 +89,24 @@
       "by": "init",
       "status": "UPLOADED",
       "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-20T16:43:52Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-20T16:44:06Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-20T16:44:35Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "line consistency 20/10: worn photo -> clean flat render like Thang Long No.6 (Gemini redraw)"
     }
   ],
   "submitted": {

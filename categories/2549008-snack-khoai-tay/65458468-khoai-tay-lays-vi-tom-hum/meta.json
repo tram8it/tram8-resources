@@ -17,18 +17,19 @@
     "description": null,
     "exportedAt": "2026-10-20T16:17:47.475Z"
   },
-  "status": "UPLOADED",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "Câu hỏi cũ tự giải theo mã vạch (chủ: làm nốt cả danh mục, 16/10); Gemini vẽ phẳng sạch — mã vạch Thái = Lay's Stax Spicy Lobster lon 42g (Lotte Mart)",
+    "reason": "I3/I4: ảnh hiện có không đạt, không có ảnh hãng/NPP → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: line consistency 20/10: camera raised so the lid top is visible like the other Stax 42g cans; Thai pack design unchanged",
     "source": {
       "aiGenerated": true,
-      "tool": "Google Gemini Pro",
-      "generatedAt": "2026-10-16",
-      "style": "flat clean packaging render",
-      "referenceUrl": "https://www.lottemart.vn/media/catalog/product/cache/0x0/8/8/8850718816057-1.jpg.webp"
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-20",
+      "style": "flat clean packaging render (v17)",
+      "reference": "own current image.webp (content) + sibling 64865564 image.webp (line style, reference only)"
     },
-    "rubricVersion": "v17"
+    "rubricVersion": "v23"
   },
   "description": {
     "decision": "KEEP",
@@ -73,10 +74,28 @@
       "by": "init",
       "status": "UPLOADED",
       "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-20T16:43:50Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-20T16:44:35Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "line consistency 20/10: camera raised so lid top shows like the Stax 42g line (Gemini redraw)"
+    },
+    {
+      "at": "2026-10-20T16:44:41.679Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: image"
     }
   ],
   "submitted": {
-    "at": "2026-10-16T03:10:36.918Z",
+    "at": "2026-10-20T16:44:41.679Z",
     "fields": [
       "image"
     ],

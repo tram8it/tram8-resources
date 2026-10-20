@@ -17,10 +17,10 @@
     "description": "Bánh bông lan tam giác APIA CAKE (三角蛋糕) vị phô mai (芝士味), hai lát bông lan mềm xếp thành hình tam giác, đóng gói riêng từng cái, tiện ăn sáng hoặc ăn nhẹ.\n\nQuy cách: 100 g · gói\nNhà sản xuất/thương hiệu: APIA CAKE (阿婆) · hàng nhập khẩu, bao bì tiếng Trung",
     "exportedAt": "2026-10-20T16:17:47.475Z"
   },
-  "status": "UPLOADED",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I5: ảnh chụp gói nghiêng, mềm, có in ngày SX/HSD → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Bỏ ngày SX/HSD in trên màng; tên, vị và 净含量:100克 khớp. Dòng chữ rất nhỏ trên khối lượng là chữ mờ AI vẽ, không đúng nguyên văn.",
+    "reason": "line consistency 20/10: pack width matched to the Apia triangle cakes (w42 -> w37) — I5: ảnh chụp gói nghiêng, mềm, có in ngày SX/HSD → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Bỏ ngày SX/HSD in trên màng; tên, vị và 净含量:100克 khớp. Dòng chữ rất nhỏ trên khối lượng là chữ mờ AI vẽ, không đúng nguyên văn.",
     "source": {
       "aiGenerated": true,
       "tool": "Gemini API",
@@ -30,7 +30,7 @@
       "reference": "ảnh KiotViet (ảnh tự chụp)",
       "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/09/14/tram8/f1a399fd848a40e79e95157f99babf66.png"
     },
-    "rubricVersion": "v18"
+    "rubricVersion": "v23"
   },
   "description": {
     "decision": "REWRITE",
@@ -75,6 +75,12 @@
       "by": "owner",
       "status": "UPLOADED",
       "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-20T16:44:25Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "line consistency 20/10: pack width matched to the Apia triangle cakes (w42 -> w37)"
     }
   ],
   "submitted": {

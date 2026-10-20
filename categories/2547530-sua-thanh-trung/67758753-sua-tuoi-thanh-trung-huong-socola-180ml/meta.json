@@ -17,10 +17,10 @@
     "description": "Sữa tươi thanh trùng Dalat Milk hương sôcôla, đóng hộp giấy 180 ml; trên bao bì ghi \"hoàn toàn từ sữa tươi cao nguyên\".\n\nQuy cách: 180 ml · hộp giấy\nNhà sản xuất/thương hiệu: Dalat Milk\nBảo quản: lạnh ở 2–6 °C.",
     "exportedAt": "2026-10-20T16:17:47.475Z"
   },
-  "status": "UPLOADED",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I4/I7: ảnh có nền xám và logo cửa hàng khác (Big Green); trang hãng dalatmilk.vn lỗi → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ nhỏ ở hai cạnh bên vẽ mờ, không đọc được; mặt trước đúng tên, vị, 180 ml",
+    "reason": "line consistency 20/10: carton width matched to the Dalat Milk 180ml cartons (w56 -> w50) — I4/I7: ảnh có nền xám và logo cửa hàng khác (Big Green); trang hãng dalatmilk.vn lỗi → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ nhỏ ở hai cạnh bên vẽ mờ, không đọc được; mặt trước đúng tên, vị, 180 ml",
     "source": {
       "aiGenerated": true,
       "tool": "Gemini API",
@@ -30,7 +30,7 @@
       "reference": "ảnh Kingfoodmart theo mã vạch (chỉ làm mẫu) + ảnh KiotViet",
       "referenceUrl": "https://storage.googleapis.com/onelife-public/8938503131728.jpg"
     },
-    "rubricVersion": "v18"
+    "rubricVersion": "v23"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -75,6 +75,12 @@
       "by": "owner",
       "status": "UPLOADED",
       "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-20T16:44:25Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "line consistency 20/10: carton width matched to the Dalat Milk 180ml cartons (w56 -> w50)"
     }
   ],
   "submitted": {

@@ -17,10 +17,10 @@
     "description": "Bánh xốp Loacker Quadratini Napolitaner (hạt phỉ): những viên wafer vuông nhỏ gồm 5 lớp vỏ xốp giòn và 4 lớp kem hạt phỉ Ý rang (kem chiếm 74%). Sản xuất tại Ý, không thêm hương liệu và phẩm màu (theo Loacker).\n\nThành phần: Bột mì, dầu dừa, xirô glucoza, đường, hạt phỉ 11% trong kem, bột whey (sữa), sữa bột gầy, bột đậu nành, bột ca cao ít béo, chiết xuất mạch nha lúa mạch, chất tạo xốp (natri hydro cacbonat, dinatri diphosphat), muối, chất nhũ hóa lecithin đậu nành, gia vị, vani Bourbon. Có thể chứa đậu phộng, hạnh nhân, mù tạt và vừng.\nQuy cách: 125 g · gói\nXuất xứ: Ý · Nhà sản xuất/thương hiệu: A. Loacker Spa/AG · Loacker",
     "exportedAt": "2026-10-20T16:17:47.475Z"
   },
-  "status": "UPLOADED",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I4/I5/I7 + v17: ảnh chụp điện thoại cận gói bản kỷ niệm 100 năm, có tem nhãn phụ, bị cắt mép; loacker.com chỉ có ảnh gói 250 g → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: vẽ lại từ ảnh hãng gói 250 g: dáng túi theo bản 250 g; dòng khối lượng ghi 125g, bỏ chữ Ả Rập khối lượng; không có tem 'No.1 in Italy' dán thêm như hàng ở cửa hàng; chữ nhỏ mặt bên không đọc được",
+    "reason": "line consistency 20/10: bag width matched to the Loacker Quadratini 125g bags (w52 -> w58) — I3/I4/I5/I7 + v17: ảnh chụp điện thoại cận gói bản kỷ niệm 100 năm, có tem nhãn phụ, bị cắt mép; loacker.com chỉ có ảnh gói 250 g → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: vẽ lại từ ảnh hãng gói 250 g: dáng túi theo bản 250 g; dòng khối lượng ghi 125g, bỏ chữ Ả Rập khối lượng; không có tem 'No.1 in Italy' dán thêm như hàng ở cửa hàng; chữ nhỏ mặt bên không đọc được",
     "source": {
       "aiGenerated": true,
       "tool": "Gemini API",
@@ -30,7 +30,7 @@
       "reference": "ảnh chính hãng loacker.com gói 250 g (bao bì hiện hành), Gemini đổi khối lượng thành 125g",
       "referenceUrl": "https://www.loacker.com/int/en/products/world-of-wafers/quadratini-napolitaner"
     },
-    "rubricVersion": "v17"
+    "rubricVersion": "v23"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -78,6 +78,12 @@
       "by": "init",
       "status": "UPLOADED",
       "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-20T16:44:25Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "line consistency 20/10: bag width matched to the Loacker Quadratini 125g bags (w52 -> w58)"
     }
   ],
   "submitted": {
