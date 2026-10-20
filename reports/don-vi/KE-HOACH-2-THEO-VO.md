@@ -88,3 +88,12 @@ Giống đợt 1, mỗi lô đều có bản chụp trước/sau và `brand-diff
 4. Lô cho các SP có lốc/thùng.
 5. Lô B sau khi chủ chốt.
 6. Thêm cảnh báo trong Hub: SP đang bán mà ĐVT không thuộc bảng chuẩn, hoặc khác vỏ ghi trong quy cách.
+
+## Kết quả (20–21/10/2026)
+- Lô thử 3 SP, lô 2 (189 SP không có lốc/thùng) và lô 3 (178 SP có lốc/thùng): `brand-diff` cả ba lô **ĐẠT**.
+  370/370 SP đã đổi đúng ĐVT. Hệ số quy đổi và giá của các dòng lốc/thùng giữ nguyên.
+- Sau đợt này, ĐVT hàng gốc còn 30 từ: Gói 912 · Hộp 393 · Chai 303 · Cái 278 · Lon 148 · Ly 117 · Lọ 112 · Thanh 92 · Que 74 ·
+  Ống 53 · Tuýp 48 · Tô 39 · … (các từ hiếm có lý do ghi ở trên).
+- SP mới tạo trên KiotViet lại ghi ĐVT chữ thường: "cái" (SP878337 bánh bao cuộn xúc xích) và "thanh" (Milo Wafer).
+  Hai SP này để lô sau. Vì vậy cần thêm cảnh báo trong Hub: SP đang bán có ĐVT ngoài bảng chuẩn thì báo.
+- Còn lại: 519 SP chưa có dòng quy cách (mục D); sửa dòng quy cách Yakult trong mô tả ("lốc 5 chai" → 1 lọ 65 ml).
