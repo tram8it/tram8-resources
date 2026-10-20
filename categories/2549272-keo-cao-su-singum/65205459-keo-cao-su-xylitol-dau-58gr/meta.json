@@ -17,17 +17,17 @@
     "description": "Kẹo gum không đường Lotte Xylitol hương dâu (Strawberry Mint).\n\nQuy cách: 58 g · hũ\nNhà sản xuất/thương hiệu: Lotte Việt Nam · Xylitol",
     "exportedAt": "2026-10-20T16:17:47.475Z"
   },
-  "status": "UPLOADED",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "Rà ảnh mờ 19/10: ảnh crop phóng to mờ, chữ nhỏ nhoè → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ 'NGĂN NGỪA SÂU RĂNG / PREVENTS TOOTH DECAY' vẽ rõ theo mẫu",
+    "reason": "line consistency 20/10 (v14): jar at eye level (lid top not visible) vs slightly-from-above Xylitol jars -> slightly above → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: nắp có in chữ XYLITOL như hũ cùng dòng; chữ nhỏ minh hoạ",
     "source": {
       "aiGenerated": true,
       "tool": "Gemini API",
       "model": "gemini-nano-banana-2.1",
-      "generatedAt": "2026-10-19",
+      "generatedAt": "2026-10-20",
       "style": "flat clean packaging render (v17)",
-      "reference": "ảnh hiện tại (lọ thật)"
+      "reference": "ảnh hiện tại của SP (nội dung) + ảnh SP cùng dòng 65205458 (góc chụp/khung/ánh sáng)"
     },
     "rubricVersion": "v18"
   },
@@ -98,10 +98,22 @@
       "by": "init",
       "status": "UPLOADED",
       "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-20T16:40:24Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "line consistency 20/10: jar at eye level (lid top not visible) vs slightly-from-above Xylitol jars -> slightly above (Gemini API redraw (attempt 3, gemini-nano-banana-2.1), checked by eye against references)"
+    },
+    {
+      "at": "2026-10-20T16:40:58.917Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-19T04:00:52.299Z",
+    "at": "2026-10-20T16:40:58.917Z",
     "fields": [
       "description",
       "image"

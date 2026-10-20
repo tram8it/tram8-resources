@@ -17,20 +17,15 @@
     "description": "Nước uống Pororo hương vị đào dành cho trẻ em, chai nắp bật tiện mang theo, bao bì in \"Bổ sung kẽm\".\n\nQuy cách: 235 ml · chai\nThương hiệu: Pororo",
     "exportedAt": "2026-10-20T16:17:47.475Z"
   },
-  "status": "UPLOADED",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I2: ảnh hiện tại là chùm trái cây, không phải SP → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt ở chữ lớn (logo Pororo 뽀로로, 'Bổ sung kẽm - Tăng cường miễn dịch'); chữ nhỏ hông chai không đọc được",
+    "reason": "line consistency 20/10: ảnh hãng Paldo Vina (chai đào, nhãn VN mới) cùng nguồn với các vị Pororo khác; thay ảnh Gemini",
     "source": {
-      "aiGenerated": true,
-      "tool": "Gemini API",
-      "model": "gemini-nano-banana-2.1",
-      "generatedAt": "2026-10-17",
-      "style": "flat clean packaging render (v17)",
-      "reference": "ảnh KiotViet đang gắn nhầm cho SP Pororo dâu (66542729) — thực ra là chai đào bản Việt Nam",
-      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/07/27/tram8/a394a69df746404d83c596d36c55e692.png"
+      "url": "https://paldovina.com/upload/nuoc-uong/noi-dia/pororo-dao.png",
+      "fetchedAt": "2026-10-20"
     },
-    "rubricVersion": "v17"
+    "rubricVersion": "v23"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -75,10 +70,22 @@
       "by": "init",
       "status": "UPLOADED",
       "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-20T16:35:30Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "line consistency 20/10: replaced Gemini redraw with Paldo Vina brand render like the other Pororo flavours"
+    },
+    {
+      "at": "2026-10-20T16:41:28.886Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-17T05:15:35.811Z",
+    "at": "2026-10-20T16:41:28.886Z",
     "fields": [
       "description",
       "image"

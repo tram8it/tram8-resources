@@ -17,20 +17,15 @@
     "description": "Nước uống Pororo hương vị nho sữa dành cho trẻ em, chai nắp bật tiện mang theo, bao bì in \"Bổ sung kẽm\".\n\nQuy cách: 235 ml · chai\nThương hiệu: Pororo",
     "exportedAt": "2026-10-20T16:17:47.475Z"
   },
-  "status": "UPLOADED",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "ảnh tự chụp: chai nhựa bóng, hơi mờ; không có ảnh hãng nền trắng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ nhỏ không đọc được, chỉ minh hoạ",
+    "reason": "line consistency 20/10: ảnh hãng Paldo Vina (chai nho sữa, nhãn VN mới) cùng nguồn với các vị Pororo khác; thay ảnh Gemini vẽ từ ảnh chụp tay",
     "source": {
-      "aiGenerated": true,
-      "tool": "Gemini API",
-      "model": "gemini-nano-banana-2.1",
-      "generatedAt": "2026-10-17",
-      "style": "flat clean packaging render (v17)",
-      "reference": "ảnh KiotViet của cửa hàng (ảnh tự chụp)",
-      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/07/24/tram8/c2dd545af79a448ab2300407fc7bc67c.png"
+      "url": "https://paldovina.com/upload/nuoc-uong/noi-dia/pororo-nho-sua.png",
+      "fetchedAt": "2026-10-20"
     },
-    "rubricVersion": "v18"
+    "rubricVersion": "v23"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -81,10 +76,22 @@
       "by": "owner",
       "status": "UPLOADED",
       "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-20T16:35:30Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "line consistency 20/10: replaced Gemini redraw (older-looking full-colour label) with Paldo Vina brand render like the other Pororo flavours"
+    },
+    {
+      "at": "2026-10-20T16:41:26.574Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-17T14:13:39.994Z",
+    "at": "2026-10-20T16:41:26.574Z",
     "fields": [
       "description",
       "image"

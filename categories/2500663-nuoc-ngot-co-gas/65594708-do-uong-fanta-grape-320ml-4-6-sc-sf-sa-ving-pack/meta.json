@@ -17,16 +17,19 @@
     "description": "Nước ngọt có gas Fanta hương nho của Coca-Cola Việt Nam, có bổ sung vitamin B3, B5, B6. Ngon hơn khi uống lạnh.\n\nThành phần: nước bão hòa CO₂, đường mía, đường HFCS, chất điều chỉnh độ acid (330, 331(iii), 452(i)), hương nho tự nhiên và tổng hợp, chất tạo ngọt tổng hợp (955, 950), chất bảo quản (211), màu tổng hợp (129, 133), hỗn hợp vitamin (B3, B5, B6).\nQuy cách: 320 ml · lon\nNhà sản xuất/thương hiệu: Coca-Cola Việt Nam · Fanta",
     "exportedAt": "2026-10-20T16:17:47.475Z"
   },
-  "status": "UPLOADED",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "ảnh tự chụp (mềm, lóa) → ảnh hãng lon Fanta Hương Nho 320 ml, bao bì mới nhất (v19) trên trang Coca-Cola Việt Nam",
+    "reason": "line consistency 20/10: Fanta Hương Nho can had condensation droplets while Fanta Cam/Soda kem/Dâu cans are dry renders → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt chữ lớn; lon khô, bỏ giọt nước như các vị Fanta khác",
     "source": {
-      "url": "https://www.coca-cola.com/content/dam/onexp/vn/vi/brands/fanta/vn-fanta-hu-grapes.png",
-      "fetchedAt": "2026-10-17",
-      "page": "https://www.coca-cola.com/vn/vi/brands/fanta"
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-20",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh hãng coca-cola.com lon Fanta Nho (nội dung) + lon Fanta Cam đã duyệt (kiểu ảnh)"
     },
-    "rubricVersion": "v20"
+    "rubricVersion": "v23"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -80,10 +83,22 @@
       "by": "owner",
       "status": "UPLOADED",
       "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-20T16:39:35Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "line consistency 20/10: Fanta Hương Nho can had condensation droplets while Fanta Cam/Soda kem/Dâu cans are dry renders -> Gemini redraw (own image for content, approved sibling for style); Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-20T16:41:35.956Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-17T14:15:22.883Z",
+    "at": "2026-10-20T16:41:35.956Z",
     "fields": [
       "description",
       "image"

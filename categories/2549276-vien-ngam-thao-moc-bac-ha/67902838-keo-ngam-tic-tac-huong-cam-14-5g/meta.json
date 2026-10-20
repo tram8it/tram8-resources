@@ -17,20 +17,19 @@
     "description": "Kẹo ngậm Tic Tac hương cam, viên nhỏ trong hộp nhựa nắp bật tiện mang theo.\n\nQuy cách: 14,5 g · lọ\nNhà sản xuất/thương hiệu: Tic Tac (Ferrero)",
     "exportedAt": "2026-10-20T16:17:47.475Z"
   },
-  "status": "UPLOADED",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I2: ảnh cũ là hộp Tic Tac cam bản Mỹ 29 g (1 oz), không phải hộp 14,5 g Việt Nam → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Theo hộp 14,5 g (T30) nhập khẩu bởi Hương Thủy trên ảnh Pharmacity; dải nhãn nhỏ trên nắp chỉ vẽ phác; màu hộp cam sáng hơn ảnh mẫu một chút.",
+    "reason": "line consistency 20/10 (v14): grey rectangle background behind box vs clean white Tic Tac siblings -> clean white → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt nội dung",
     "source": {
       "aiGenerated": true,
       "tool": "Gemini API",
       "model": "gemini-nano-banana-2.1",
-      "generatedAt": "2026-10-17",
+      "generatedAt": "2026-10-20",
       "style": "flat clean packaging render (v17)",
-      "reference": "ảnh Pharmacity (chỉ làm mẫu)",
-      "referenceUrl": "https://www.pharmacity.vn/tic-tac-huong-cam-145g.html"
+      "reference": "ảnh hiện tại của SP (nội dung) + ảnh SP cùng dòng 67902833 (góc chụp/khung/ánh sáng)"
     },
-    "rubricVersion": "v17"
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -75,10 +74,22 @@
       "by": "init",
       "status": "UPLOADED",
       "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-20T16:40:24Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "line consistency 20/10: grey rectangle background behind box vs clean white Tic Tac siblings -> clean white (Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references)"
+    },
+    {
+      "at": "2026-10-20T16:40:56.571Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-17T04:43:14.107Z",
+    "at": "2026-10-20T16:40:56.571Z",
     "fields": [
       "description",
       "image"

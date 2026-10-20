@@ -17,18 +17,17 @@
     "description": "Trà lên men Star Kombucha của Goody Group vị ổi hồng, trà kombucha có hương trái cây.\n\nQuy cách: lon\nNhà sản xuất/thương hiệu: Goody Group · Star Kombucha",
     "exportedAt": "2026-10-20T16:17:47.475Z"
   },
-  "status": "UPLOADED",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I2: ảnh cũ là lon Vải Kiwi, sai vị; ảnh hãng là bản quốc tế nền màu → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: ảnh một lon (SP bán theo lon); huy hiệu 'Nguyên liệu tự nhiên' bị khuất ở mép lon như ảnh mẫu; các chữ lớn khớp",
+    "reason": "Đồng bộ dòng SP 20/10: fatter can and different logo lettering vs other Star Kombucha cans → same can/label layout as 65893957 → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: thêm dải 'TRÀ LÊN MEN KOMBUCHA' trên cổ lon như các lon cùng dòng; chữ vị khớp (ỔI HỒNG, PINK GUAVA)",
     "source": {
       "aiGenerated": true,
       "tool": "Gemini API",
       "model": "gemini-nano-banana-2.1",
-      "generatedAt": "2026-10-17",
+      "generatedAt": "2026-10-20",
       "style": "flat clean packaging render (v17)",
-      "reference": "ảnh Kingfoodmart lon Ổi Hồng (chỉ làm mẫu)",
-      "referenceUrl": "https://storage.googleapis.com/onelife-public/8936185350215.jpg"
+      "reference": "ảnh hiện tại của SP (nội dung) + ảnh SP cùng dòng đã duyệt (góc chụp/khung/tỉ lệ)"
     },
     "rubricVersion": "v18"
   },
@@ -75,6 +74,12 @@
       "by": "init",
       "status": "UPLOADED",
       "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-20T16:42:20Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
     }
   ],
   "submitted": {

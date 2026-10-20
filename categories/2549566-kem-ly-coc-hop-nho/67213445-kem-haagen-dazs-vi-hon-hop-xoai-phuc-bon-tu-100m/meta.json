@@ -17,20 +17,19 @@
     "description": "Kem Häagen-Dazs vị xoài và phúc bồn tử (Mango & Raspberry), ly nhỏ 100 ml.\n\nQuy cách: 100 ml · ly\nNhà sản xuất/thương hiệu: Häagen-Dazs\nBảo quản: Giữ đông ở −18 °C hoặc lạnh hơn.",
     "exportedAt": "2026-10-20T16:17:47.475Z"
   },
-  "status": "UPLOADED",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I4: ảnh tay cầm, chụp điện thoại; trang hãng chỉ có ảnh hộp 4 ly → Gemini vẽ lại → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Chữ nhỏ bên trái (biểu tượng calo, dòng 'Es Krim Rasa Mangga & Raspberry') đã làm mờ/bỏ; còn sót dòng chữ rất nhỏ '* Glex adults GDA' không có thật; khối lượng 81g/100ml khớp ảnh ly thật",
+    "reason": "Đồng bộ dòng SP 20/10: tub taller/narrower than other Häagen-Dazs minicups → same squat tub as 66545345 → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt chữ lớn (Häagen-Dazs, MANGO & RASPBERRY, 81g/100ml, cờ Pháp)",
     "source": {
       "aiGenerated": true,
       "tool": "Gemini API",
       "model": "gemini-nano-banana-2.1",
-      "generatedAt": "2026-10-17",
+      "generatedAt": "2026-10-20",
       "style": "flat clean packaging render (v17)",
-      "reference": "ảnh hộp Fruit Fantasy 4 ly mini trên trang chính hãng haagendazs.com.sg (cắt ly Mango & Raspberry) + ảnh KiotViet (tay cầm) + ảnh ly Dâu tây cùng dãy làm mẫu dáng",
-      "referenceUrl": "https://www.haagendazs.com.sg/products/fruit-fantasy-minicup-multipack"
+      "reference": "ảnh hiện tại của SP (nội dung) + ảnh SP cùng dòng đã duyệt (góc chụp/khung/tỉ lệ)"
     },
-    "rubricVersion": "v17"
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -75,6 +74,12 @@
       "by": "init",
       "status": "UPLOADED",
       "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-20T16:42:20Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 4, gemini-nano-banana-2.1), checked by eye against references"
     }
   ],
   "submitted": {

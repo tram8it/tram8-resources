@@ -17,19 +17,19 @@
     "description": "Kem ốc quế Celano vị sô cô la hương vani, bán lẻ từng cây, bảo quản đông lạnh.\n\nQuy cách: 110 ml · cái\nNhà sản xuất/thương hiệu: Celano\nBảo quản: ngăn đông tủ lạnh.",
     "exportedAt": "2026-10-20T16:17:47.475Z"
   },
-  "status": "UPLOADED",
+  "status": "READY",
   "image": {
-    "decision": "CROP",
-    "reason": "I9: packshot nền trắng, đúng SP, chỉ chưa 1:1; đã crop và xem lại đạt",
-    "source": null,
-    "rubricVersion": "v4",
-    "vivid": {
-      "rubricVersion": "v10",
-      "saturationGain": 1.047,
-      "contrastGain": 1.015,
-      "toneGain": 1,
-      "gamma": 1
-    }
+    "decision": "REPLACE",
+    "reason": "line consistency 20/10: cone seen side-on with closed tip and darker photo look, vs Celano cones seen slightly from above with the round lid visible → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: nắp tròn trên đỉnh thấy từ trên (hình kem trên nắp là minh hoạ); chữ lớn giữ nguyên",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-20",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh hiện có (nội dung) + Celano Hạt Dẻ Cười đã duyệt (kiểu ảnh)"
+    },
+    "rubricVersion": "v23"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -74,10 +74,22 @@
       "by": "init",
       "status": "UPLOADED",
       "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-20T16:39:38Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "line consistency 20/10: cone seen side-on with closed tip and darker photo look, vs Celano cones seen slightly from above with the round lid visible -> Gemini redraw (own image for content, approved sibling for style); Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-20T16:42:02.400Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-18T17:51:24.005Z",
+    "at": "2026-10-20T16:42:02.400Z",
     "fields": [
       "description",
       "image"

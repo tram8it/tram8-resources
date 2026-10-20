@@ -17,18 +17,17 @@
     "description": "Kem Häagen-Dazs vị dâu tây (Strawberry), ly nhỏ 100 ml.\n\nQuy cách: 100 ml · ly\nNhà sản xuất/thương hiệu: Häagen-Dazs\nBảo quản: Giữ đông ở −18 °C hoặc lạnh hơn.",
     "exportedAt": "2026-10-20T16:17:47.475Z"
   },
-  "status": "UPLOADED",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "ảnh tự chụp (nghiêng, phóng to mờ); trang hãng SG không có vị dâu → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: bỏ chữ nhỏ, logo Halal, cờ Pháp dưới ly cho đồng bộ với các vị khác (ảnh hãng)",
+    "reason": "Đồng bộ dòng SP 20/10: tub taller/narrower than other Häagen-Dazs minicups → same squat tub as 66545345 → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt chữ lớn (Häagen-Dazs, STRAWBERRY)",
     "source": {
       "aiGenerated": true,
       "tool": "Gemini API",
       "model": "gemini-nano-banana-2.1",
-      "generatedAt": "2026-10-17",
+      "generatedAt": "2026-10-20",
       "style": "flat clean packaging render (v17)",
-      "reference": "ảnh Kingfoodmart (chỉ làm mẫu) + ảnh KiotViet",
-      "referenceUrl": "https://storage.googleapis.com/onelife-public/074570022021.jpg"
+      "reference": "ảnh hiện tại của SP (nội dung) + ảnh SP cùng dòng đã duyệt (góc chụp/khung/tỉ lệ)"
     },
     "rubricVersion": "v18"
   },
@@ -81,6 +80,12 @@
       "by": "owner",
       "status": "UPLOADED",
       "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-20T16:42:19Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 4, gemini-nano-banana-2.1), checked by eye against references"
     }
   ],
   "submitted": {

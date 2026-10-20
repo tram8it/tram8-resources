@@ -17,10 +17,10 @@
     "description": "Sữa chua lên men tự nhiên Yomost hương cam của FrieslandCampina, dạng hộp giấy có ống hút.\n\nQuy cách: hộp\nNhà sản xuất/thương hiệu: FrieslandCampina Việt Nam · Yomost",
     "exportedAt": "2026-10-20T16:17:47.475Z"
   },
-  "status": "UPLOADED",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I4/I8: ảnh chụp điện thoại tay cầm lốc 4 hộp; không truy cập được trang hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: vẽ 1 hộp đứng; '94 Kcal', '4%', 'Trong 170 ml', 'Thể tích thực: 170 ml' khớp ảnh thật; chữ nhỏ còn lại để mờ. Kingfoodmart có ảnh cùng mã vạch bản chữ tiếng Anh 'ORANGE FLAVOR' không có huy hiệu Yo! — đã theo bản tiếng Việt trong ảnh cửa hàng",
+    "reason": "I3/I4/I8: ảnh chụp điện thoại tay cầm lốc 4 hộp; không truy cập được trang hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: vẽ 1 hộp đứng; '94 Kcal', '4%', 'Trong 170 ml', 'Thể tích thực: 170 ml' khớp ảnh thật; chữ nhỏ còn lại để mờ. Kingfoodmart có ảnh cùng mã vạch bản chữ tiếng Anh 'ORANGE FLAVOR' không có huy hiệu Yo! — đã theo bản tiếng Việt trong ảnh cửa hàng | line consistency 20/10: thu hẹp chiều ngang hộp ×0,87 cho đúng tỉ lệ hộp 170 ml như vị bạc hà việt quất",
     "source": {
       "aiGenerated": true,
       "tool": "Gemini API",
@@ -30,7 +30,7 @@
       "reference": "ảnh KiotViet (lốc 4 hộp chụp tay) + ảnh Kingfoodmart hộp Yomost bạc hà việt quất cùng dòng (chỉ làm mẫu bố cục)",
       "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/04/28/tram8/3f2d7a0ea455448fb942f159cd5d035b.jpeg"
     },
-    "rubricVersion": "v17"
+    "rubricVersion": "v23"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -75,10 +75,22 @@
       "by": "init",
       "status": "UPLOADED",
       "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-20T16:36:35Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "line consistency 20/10: carton ~15% wider than sibling 170 ml carton -> rescaled width x0.87 (PIL + make_image)"
+    },
+    {
+      "at": "2026-10-20T16:41:33.173Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-17T05:16:35.058Z",
+    "at": "2026-10-20T16:41:33.173Z",
     "fields": [
       "description",
       "image"

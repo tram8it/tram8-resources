@@ -17,19 +17,19 @@
     "description": "Kẹo Alpenliebe Muối Ớt, kẹo hương xoài nhân muối ớt, vị chua chua cay cay, dạng thỏi tiện bỏ túi.\n\nQuy cách: 32 g · thỏi\nThương hiệu: Alpenliebe (Perfetti Van Melle)",
     "exportedAt": "2026-10-20T16:17:47.475Z"
   },
-  "status": "UPLOADED",
+  "status": "READY",
   "image": {
-    "decision": "CROP",
-    "reason": "I9: packshot nền trắng, đúng SP nhưng không 1:1; đã crop và xem lại",
-    "source": null,
-    "rubricVersion": "v4",
-    "vivid": {
-      "rubricVersion": "v10",
-      "saturationGain": 1.067,
-      "contrastGain": 1.022,
-      "toneGain": 1,
-      "gamma": 1
-    }
+    "decision": "REPLACE",
+    "reason": "Đồng bộ dòng SP 20/10: curved/perspective photo-look stick vs flat renders of the Alpenliebe 32g sticks → flat render like 66200669 → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt chữ lớn (Alpenliebe, Muối Ớt, Kẹo hương xoài nhân muối ớt)",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-20",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh hiện tại của SP (nội dung) + ảnh SP cùng dòng đã duyệt (góc chụp/khung/tỉ lệ)"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -74,6 +74,12 @@
       "by": "init",
       "status": "UPLOADED",
       "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-20T16:42:20Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
     }
   ],
   "submitted": {

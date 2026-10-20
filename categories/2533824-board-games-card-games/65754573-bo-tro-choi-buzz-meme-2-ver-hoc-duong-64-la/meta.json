@@ -17,22 +17,19 @@
     "description": "Bộ bài Buzz Meme 2 – phiên bản Học Đường: trò chơi thẻ bài chủ đề ảnh meme về trường lớp, hợp cho nhóm bạn học sinh, sinh viên.\n\nQuy cách: 64 lá · hộp giấy",
     "exportedAt": "2026-10-20T16:17:47.475Z"
   },
-  "status": "UPLOADED",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3, I4: ảnh điện thoại chụp hộp trên mặt đá; không có trang Toy Galaxy. Đã tách nền ảnh KiotViet (ảnh chụp thẳng, nét, thấy trọn hộp) bằng cutout.py + tone.py --vivid, đồng bộ với các bộ Toy Galaxy khác trong danh mục (đều dùng ảnh chụp đã tách nền, v14); còn vệt bóng màng co, hơi mềm nhưng đạt (v4)",
+    "reason": "line consistency 20/10: staff photo with shrink-wrap glare among flat Toy Galaxy box renders → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: bỏ màng co bọc ngoài; chữ lớn giữ nguyên",
     "source": {
-      "staffPhoto": true,
-      "takenAt": null,
-      "url": "https://cdn2-retail-images.kiotviet.vn/2026/05/15/tram8/3d686b934331411386fdeb4d65e4270b.png",
-      "note": "ảnh KiotViet hiện có"
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-20",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh chụp tay hộp Buzz Meme 2 (nội dung) + hộp Không Nói Thì Làm Ver Công Sở đã duyệt (kiểu ảnh)"
     },
-    "rubricVersion": "v17",
-    "vivid": {
-      "rubricVersion": "v10",
-      "saturationGain": 1.25,
-      "contrastGain": 1.08
-    }
+    "rubricVersion": "v23"
   },
   "description": {
     "decision": "REWRITE",
@@ -77,10 +74,22 @@
       "by": "init",
       "status": "UPLOADED",
       "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-20T16:39:36Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "line consistency 20/10: staff photo with shrink-wrap glare among flat Toy Galaxy box renders -> Gemini redraw (own image for content, approved sibling for style); Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-20T16:41:43.861Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-17T07:52:26.583Z",
+    "at": "2026-10-20T16:41:43.861Z",
     "fields": [
       "description",
       "image"

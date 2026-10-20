@@ -17,10 +17,10 @@
     "description": "Sữa chua uống men sống Vinamilk Probi ít đường.\n\nQuy cách: 130 ml · chai\nXuất xứ: Việt Nam · Nhà sản xuất/thương hiệu: Vinamilk · Probi",
     "exportedAt": "2026-10-20T16:17:47.475Z"
   },
-  "status": "UPLOADED",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh; hãng chỉ có lốc ít đường bọc màng, không có ảnh chai lẻ → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: nhãn chai lẻ ít đường dựng theo kiểu chai Probi mới (như lọ ít đường 65 ml đã duyệt), chưa có ảnh hãng chai lẻ 130 ml để đối chiếu",
+    "reason": "I1: chưa có ảnh; hãng chỉ có lốc ít đường bọc màng, không có ảnh chai lẻ → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: nhãn chai lẻ ít đường dựng theo kiểu chai Probi mới (như lọ ít đường 65 ml đã duyệt), chưa có ảnh hãng chai lẻ 130 ml để đối chiếu | line consistency 20/10: thu hẹp chiều ngang chai ×0,875 cho đúng tỉ lệ chai 130 ml như vị truyền thống/việt quất",
     "source": {
       "aiGenerated": true,
       "tool": "Gemini API",
@@ -30,7 +30,7 @@
       "reference": "ảnh hãng chai Probi 130 ml (vị truyền thống, lấy dáng chai) + ảnh lọ ít đường 65 ml đã duyệt + ảnh lốc ít đường Kingfoodmart",
       "referenceUrl": "https://storage.googleapis.com/onelife-public/8934673303521.jpg"
     },
-    "rubricVersion": "v18"
+    "rubricVersion": "v23"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -81,10 +81,22 @@
       "by": "init",
       "status": "UPLOADED",
       "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-20T16:36:35Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "line consistency 20/10: 130 ml bottle drawn ~14% too wide vs sibling 130 ml bottles -> rescaled width x0.875 (PIL + make_image)"
+    },
+    {
+      "at": "2026-10-20T16:41:31.198Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-18T18:22:40.738Z",
+    "at": "2026-10-20T16:41:31.198Z",
     "fields": [
       "description",
       "image"

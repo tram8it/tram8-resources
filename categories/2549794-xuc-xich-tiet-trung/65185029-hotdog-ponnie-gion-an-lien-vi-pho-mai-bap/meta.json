@@ -17,19 +17,19 @@
     "description": "Xúc xích giòn ăn liền Ponnie (Meat Snack) mini vị phô mai bắp.\n\nQuy cách: 20 g · gói\nNhà sản xuất/thương hiệu: Masan MEATLife · Ponnie",
     "exportedAt": "2026-10-20T16:17:47.475Z"
   },
-  "status": "UPLOADED",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "chủ 18/10: ảnh phải đúng bao bì thật; vẽ lại gói thật từ ảnh KiotViet, bỏ ảnh minh hoạ món ăn → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: vẽ lại phẳng, sạch; chữ nhỏ không đọc được để mờ; độ nhăn màng khác ảnh thật",
+    "reason": "line consistency 20/10: crumpled glossy pillow-pack photo-look with no sausage beside, vs flat Ponnie hotdog renders with a cut sausage beside the pack → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: gói phẳng, không nhăn; thêm 1 khúc xúc xích cạnh gói như các vị khác (minh hoạ)",
     "source": {
       "aiGenerated": true,
       "tool": "Gemini API",
       "model": "gemini-nano-banana-2.1",
-      "generatedAt": "2026-10-18",
+      "generatedAt": "2026-10-20",
       "style": "flat clean packaging render (v17)",
-      "reference": "ảnh KiotViet của SP (hàng thật tại quầy)"
+      "reference": "ảnh Gemini cũ từ ảnh KiotViet (nội dung) + gói Hotdog vị bắp đã duyệt (kiểu ảnh)"
     },
-    "rubricVersion": "v18"
+    "rubricVersion": "v23"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -116,10 +116,22 @@
       "by": "init",
       "status": "UPLOADED",
       "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-20T16:39:37Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "line consistency 20/10: crumpled glossy pillow-pack photo-look with no sausage beside, vs flat Ponnie hotdog renders with a cut sausage beside the pack -> Gemini redraw (own image for content, approved sibling for style); Gemini API redraw (attempt 7, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-20T16:41:57.610Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-18T17:28:43.171Z",
+    "at": "2026-10-20T16:41:57.610Z",
     "fields": [
       "description",
       "image"

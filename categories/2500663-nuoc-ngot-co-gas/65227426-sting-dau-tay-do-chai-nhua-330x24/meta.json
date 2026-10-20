@@ -17,16 +17,19 @@
     "description": "Nước tăng lực Sting hương dâu tây đỏ của Suntory PepsiCo Việt Nam; theo hãng, công thức có hồng sâm và vitamin nhóm B. Chai nhựa nắp vặn tiện mang theo.\n\nQuy cách: 330 ml · chai\nNhà sản xuất/thương hiệu: Suntory PepsiCo Việt Nam · Sting",
     "exportedAt": "2026-10-20T16:17:47.475Z"
   },
-  "status": "UPLOADED",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "ảnh tự chụp (mềm, lóa) → ảnh hãng chai Sting Dâu tây đỏ 330 ml trên trang Suntory PepsiCo; phóng 1,3 lần",
+    "reason": "line consistency 20/10: Sting Dâu 330 ml bottle covered in condensation droplets while the Sting Gold 330 ml bottle is a dry clean render → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt chữ lớn; chai khô, bỏ giọt nước",
     "source": {
-      "url": "https://api.suntorypepsico.vn/assets/93b9b9c9-45b1-40f2-9b98-9cb2660ad33d",
-      "fetchedAt": "2026-10-17",
-      "page": "https://www.suntorypepsico.vn/thuong-hieu-cua-chung-toi/sting-11"
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-20",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh hãng chai Sting Dâu hiện có (nội dung) + chai Sting Gold Pro 330 ml đã duyệt (kiểu ảnh)"
     },
-    "rubricVersion": "v20"
+    "rubricVersion": "v23"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -80,10 +83,22 @@
       "by": "owner",
       "status": "UPLOADED",
       "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-20T16:41:18Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "line consistency 20/10: condensation droplets vs dry sibling bottle -> Gemini redraw (own image for content, Sting Gold bottle for style); Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-20T16:42:11.287Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-17T14:15:21.191Z",
+    "at": "2026-10-20T16:42:11.287Z",
     "fields": [
       "description",
       "image"

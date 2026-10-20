@@ -17,15 +17,19 @@
     "description": "Mì trộn khoai tây Omachi xốt tôm phô mai trứng muối dạng tô: sợi mì vàng dai trộn cùng xốt tôm, phô mai và trứng muối đậm đà. Tô có nắp tiện dùng ngay.\n\nQuy cách: 105 g · tô\nNhà sản xuất/thương hiệu: Masan Consumer · Omachi",
     "exportedAt": "2026-10-20T16:17:47.475Z"
   },
-  "status": "UPLOADED",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh; ảnh tô 105 g trên trang Masan Consumer (https://masanconsumer.com/nganh-hang/thuc-pham-tien-loi/mi-tron/mi-dinh-duong-khoai-tay-omachi-mi-tron-xot-tom-pho-mai-trung-muoi-to-105gr/)",
+    "reason": "line consistency 20/10 (v14): bowl at eye level, smaller in frame vs slightly-from-above Omachi bowls -> same elevation/size → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt nội dung",
     "source": {
-      "url": "https://masanconsumer.com/wp-content/uploads/2024/12/pho-mai-trung-muoi-min.png",
-      "fetchedAt": "2026-10-13"
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-20",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh hiện tại của SP (nội dung) + ảnh SP cùng dòng 64865823 (góc chụp/khung/ánh sáng)"
     },
-    "rubricVersion": "v4"
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -67,10 +71,22 @@
       "by": "init",
       "status": "UPLOADED",
       "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-20T16:40:25Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "line consistency 20/10: bowl at eye level, smaller in frame vs slightly-from-above Omachi bowls -> same elevation/size (Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references)"
+    },
+    {
+      "at": "2026-10-20T16:41:08.517Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-14T14:17:48.675Z",
+    "at": "2026-10-20T16:41:08.517Z",
     "fields": [
       "description",
       "image"

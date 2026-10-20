@@ -17,15 +17,19 @@
     "description": "Kẹo dẻo Zoo Sâu Mắt To của Bibica, viên kẹo tạo hình dây sâu mắt to ngộ nghĩnh, dai mềm, ngọt thanh, là món ăn vặt bé yêu thích.\n\nQuy cách: 24 g · gói\nNhà sản xuất/thương hiệu: Bibica · Zoo Jelly\nBảo quản: nơi khô ráo, thoáng mát, tránh ánh nắng trực tiếp; đóng kín bao bì sau khi mở.",
     "exportedAt": "2026-10-20T16:17:47.475Z"
   },
-  "status": "UPLOADED",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh; dùng ảnh gói 24 g trên trang Bibica (https://www.bibica.com.vn/keo-deo-zoo-sau-mat-to-sau-tuyet)",
+    "reason": "line consistency 20/10: bag in slight perspective and ~13% narrower than the other 24 g Zoo bags → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt chữ lớn; vẽ phẳng thẳng",
     "source": {
-      "url": "https://bizweb.dktcdn.net/100/512/219/products/keo-1000x1000-44-c73290ac-c824-4916-b51f-17a8c3d32ba3.jpg",
-      "fetchedAt": "2026-10-13"
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-20",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh hãng Bibica gói Sâu Mắt To (nội dung) + gói Sâu Tuyết 24 g đã duyệt (kiểu ảnh)"
     },
-    "rubricVersion": "v4"
+    "rubricVersion": "v23"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -67,10 +71,22 @@
       "by": "init",
       "status": "UPLOADED",
       "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-20T16:39:37Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "line consistency 20/10: bag in slight perspective and ~13% narrower than the other 24 g Zoo bags -> Gemini redraw (own image for content, approved sibling for style); Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-20T16:42:00.077Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-16T06:09:11.081Z",
+    "at": "2026-10-20T16:42:00.077Z",
     "fields": [
       "description",
       "image"

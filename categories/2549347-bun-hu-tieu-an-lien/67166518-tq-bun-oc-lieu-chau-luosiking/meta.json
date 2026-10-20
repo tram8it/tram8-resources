@@ -17,16 +17,19 @@
     "description": "Bún ốc Liễu Châu (luosifen) vị truyền thống Luosiking dạng ly ăn liền, kèm nước dùng ốc kiểu Liễu Châu.\n\nQuy cách: 188 g · ly\nXuất xứ: Trung Quốc · Nhà sản xuất/thương hiệu: Luosiking",
     "exportedAt": "2026-10-20T16:17:47.475Z"
   },
-  "status": "UPLOADED",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I4: ảnh điện thoại chụp ly trên nền gạch. Thay bằng ảnh chủ gửi (ly cầm tay trong cửa hàng), tách nền bằng cutout.py, bỏ tay và nền kệ; ly nguyên vẹn",
+    "reason": "line consistency 20/10 (v14): phone-photo look (dull, greyish lid) vs clean Luosiking render -> clean render → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt nội dung; chữ nhỏ minh hoạ",
     "source": {
-      "ownerProvided": true,
-      "note": "ảnh chủ gửi qua chat, tách nền",
-      "receivedAt": "2026-10-14"
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-20",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh hiện tại của SP (nội dung) + ảnh SP cùng dòng 66921899 (góc chụp/khung/ánh sáng)"
     },
-    "rubricVersion": "v5"
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -77,10 +80,22 @@
       "by": "init",
       "status": "UPLOADED",
       "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-20T16:40:26Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "line consistency 20/10: phone-photo look (dull, greyish lid) vs clean Luosiking render -> clean render (Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references)"
+    },
+    {
+      "at": "2026-10-20T16:41:11.515Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-14T11:56:53.967Z",
+    "at": "2026-10-20T16:41:11.515Z",
     "fields": [
       "description",
       "image"

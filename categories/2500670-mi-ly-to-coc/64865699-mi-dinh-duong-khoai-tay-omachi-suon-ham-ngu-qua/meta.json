@@ -17,16 +17,19 @@
     "description": "Mì dinh dưỡng khoai tây Omachi dạng ly, hương vị sườn hầm ngũ quả của Masan; sợi mì có trứng và khoai tây.\n\nQuy cách: 72 g · ly\nNhà sản xuất/thương hiệu: Masan Consumer · Omachi",
     "exportedAt": "2026-10-20T16:17:47.475Z"
   },
-  "status": "UPLOADED",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh. Ảnh chủ gửi, nền trắng, chuẩn hoá bằng make_image.py. Bao bì mới ghi 72 g (tên KiotViet ghi 70gr)",
+    "reason": "Đồng bộ dòng SP 20/10: camera too high (lid top visible) vs other Omachi cups → eye level like 64865698 → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt chữ lớn (MỚI, Omachi, Mì ly Sườn hầm ngũ quả, 72 g)",
     "source": {
-      "ownerProvided": true,
-      "note": "Ảnh packshot nền trắng, chủ gửi qua chat (chưa rõ trang gốc)",
-      "receivedAt": "2026-10-14"
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-20",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh hiện tại của SP (nội dung) + ảnh SP cùng dòng đã duyệt (góc chụp/khung/tỉ lệ)"
     },
-    "rubricVersion": "v5"
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -71,6 +74,12 @@
       "by": "init",
       "status": "UPLOADED",
       "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-20T16:42:19Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
     }
   ],
   "submitted": {

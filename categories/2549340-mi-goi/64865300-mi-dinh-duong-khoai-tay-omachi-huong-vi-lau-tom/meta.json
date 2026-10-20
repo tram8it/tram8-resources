@@ -17,16 +17,19 @@
     "description": "Mì khoai tây Omachi vị tôm chua cay Thái của Masan Consumer. Sợi mì làm từ trứng và khoai tây, nước dùng từ xương và thịt hầm.\n\nQuy cách: 80 g · gói\nNhà sản xuất/thương hiệu: Masan Consumer · Omachi",
     "exportedAt": "2026-10-20T16:17:47.475Z"
   },
-  "status": "UPLOADED",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh; ảnh chủ gửi từ gian hàng chính hãng Omachi, đã cắt bỏ khung/chữ quảng cáo. Bao bì ghi ‘Tôm chua cay Thái’ — tên KiotViet ‘lẩu tôm càng’ nên sửa",
+    "reason": "line consistency 20/10 (v14): pillow render without crimped seals vs Omachi flat crimped packs -> same render style → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt nội dung",
     "source": {
-      "ownerProvided": true,
-      "channel": "Omachi — gian hàng chính hãng (sàn TMĐT)",
-      "receivedAt": "2026-10-13"
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-20",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh hiện tại của SP (nội dung) + ảnh SP cùng dòng 64865805 (góc chụp/khung/ánh sáng)"
     },
-    "rubricVersion": "v4"
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -80,6 +83,18 @@
       "by": "init",
       "status": "UPLOADED",
       "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-20T16:40:26Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "line consistency 20/10: pillow render without crimped seals vs Omachi flat crimped packs -> same render style (Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references)"
+    },
+    {
+      "at": "2026-10-20T16:41:17.530Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: name, weightGram, brand, description, image"
     }
   ],
   "master": {
@@ -90,7 +105,7 @@
     "rubricVersion": "v4"
   },
   "submitted": {
-    "at": "2026-10-13T16:19:03.544Z",
+    "at": "2026-10-20T16:41:17.530Z",
     "fields": [
       "name",
       "weightGram",

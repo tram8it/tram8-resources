@@ -17,10 +17,10 @@
     "description": "Xúc xích tiệt trùng Ponnie Big Size vị heo truyền thống, cây lớn ăn liền.\n\nQuy cách: cây\nNhà sản xuất/thương hiệu: Masan MEATLife · Ponnie",
     "exportedAt": "2026-10-20T16:17:47.475Z"
   },
-  "status": "UPLOADED",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I7: ảnh tự chụp cây xúc xích, có in NSX/HSD; không có ảnh hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: bỏ dòng in NSX/HSD; đoạn thành phần chữ nhỏ không đọc được; còn lại không thấy khác biệt",
+    "reason": "I3/I7: ảnh tự chụp cây xúc xích, có in NSX/HSD; không có ảnh hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: bỏ dòng in NSX/HSD; đoạn thành phần chữ nhỏ không đọc được; còn lại không thấy khác biệt | line consistency 20/10: nới chiều ngang cây xúc xích ×1,14 cho cùng tỉ lệ với các cây Ponnie Big Size khác",
     "source": {
       "aiGenerated": true,
       "tool": "Gemini API",
@@ -30,7 +30,7 @@
       "reference": "ảnh Kingfoodmart (chỉ làm mẫu) + ảnh KiotViet",
       "referenceUrl": "https://storage.googleapis.com/onelife-public/8936034878648.jpg"
     },
-    "rubricVersion": "v18"
+    "rubricVersion": "v23"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -81,10 +81,22 @@
       "by": "owner",
       "status": "UPLOADED",
       "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-20T16:41:17Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "line consistency 20/10: Big Size stick ~13% slimmer than the other Ponnie Big Size sticks -> rescaled width x1.14 (PIL + make_image)"
+    },
+    {
+      "at": "2026-10-20T16:42:06.313Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-17T15:17:19.024Z",
+    "at": "2026-10-20T16:42:06.313Z",
     "fields": [
       "description",
       "image"

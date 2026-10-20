@@ -17,19 +17,19 @@
     "description": "Kem que Häagen-Dazs vị vani caramen hạnh nhân, đóng hộp giấy từng que.\n\nQuy cách: 80 ml · que\nNhà sản xuất/thương hiệu: Häagen-Dazs\nBảo quản: Giữ đông lạnh.",
     "exportedAt": "2026-10-20T16:17:47.475Z"
   },
-  "status": "UPLOADED",
+  "status": "READY",
   "image": {
-    "decision": "CROP",
-    "reason": "I9: packshot hộp nền trắng đúng SP (Häagen-Dazs Vanilla Caramel Almond), chưa 1:1 → crop",
-    "source": null,
-    "rubricVersion": "v4",
-    "vivid": {
-      "rubricVersion": "v10",
-      "saturationGain": 1.25,
-      "contrastGain": 1.08,
-      "toneGain": 1,
-      "gamma": 1
-    }
+    "decision": "REPLACE",
+    "reason": "line consistency 20/10 (v14): 3D box perspective vs flat front Häagen-Dazs boxes -> flat front face → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt nội dung; chữ nhỏ minh hoạ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-20",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh hiện tại của SP (nội dung) + ảnh SP cùng dòng 67761658 (góc chụp/khung/ánh sáng)"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -74,10 +74,22 @@
       "by": "init",
       "status": "UPLOADED",
       "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-20T16:40:24Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "line consistency 20/10: 3D box perspective vs flat front Häagen-Dazs boxes -> flat front face (Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references)"
+    },
+    {
+      "at": "2026-10-20T16:40:54.012Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-18T17:51:11.244Z",
+    "at": "2026-10-20T16:40:54.012Z",
     "fields": [
       "description",
       "image"

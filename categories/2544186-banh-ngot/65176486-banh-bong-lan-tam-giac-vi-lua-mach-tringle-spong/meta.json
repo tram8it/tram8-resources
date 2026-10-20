@@ -17,17 +17,17 @@
     "description": "Bánh bông lan tam giác LexJazz vị lúa mạch, bánh mềm cắt hình tam giác đóng gói riêng.\n\nQuy cách: 100 g · cái\nNhà sản xuất/thương hiệu: LexJazz",
     "exportedAt": "2026-10-20T16:17:47.475Z"
   },
-  "status": "UPLOADED",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I4/I8: ảnh chụp 2 gói trên kệ, nền lộn xộn; không có ảnh hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: vẽ 1 gói; bỏ dòng in ngày sản xuất/hạn dùng; gói ghi vị '大麦若叶' (lá lúa mạch non)",
+    "reason": "Đồng bộ dòng SP 20/10: pack narrower than other LexJazz triangle cakes → same width as 65176491 → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt chữ lớn (LexJazz, 纯三角蛋糕, 大麦若叶味, 100克)",
     "source": {
       "aiGenerated": true,
       "tool": "Gemini API",
       "model": "gemini-nano-banana-2.1",
-      "generatedAt": "2026-10-17",
+      "generatedAt": "2026-10-20",
       "style": "flat clean packaging render (v17)",
-      "reference": "ảnh KiotViet (2 gói trên kệ)"
+      "reference": "ảnh hiện tại của SP (nội dung) + ảnh SP cùng dòng đã duyệt (góc chụp/khung/tỉ lệ)"
     },
     "rubricVersion": "v18"
   },
@@ -74,6 +74,12 @@
       "by": "init",
       "status": "UPLOADED",
       "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-20T16:42:20Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
     }
   ],
   "submitted": {

@@ -17,15 +17,19 @@
     "description": "Bánh que Pocky vị Cookies & Cream của Glico: que bánh quy sô-cô-la phủ lớp kem hương sữa trộn vụn bánh cookie.\n\nQuy cách: 40 g · hộp\nNhà sản xuất/thương hiệu: Glico · Pocky",
     "exportedAt": "2026-10-20T16:17:47.475Z"
   },
-  "status": "UPLOADED",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I2: ảnh cũ là Pocky trà xanh, sai vị; thay bằng ảnh hãng Pocky Cookies & Cream NET 40 g (bản xuất khẩu) trên glico.com/sg/product/pocky/",
+    "reason": "line consistency 20/10 (v14): 3/4 box with side panel vs flat front Pocky boxes -> flat front → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: bỏ dải chữ nhỏ 'Share happiness' ở mép trên",
     "source": {
-      "url": "https://www.glico.com/sg/assets/images/large/EXPCC%20DV03.jpg",
-      "fetchedAt": "2026-10-13"
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-20",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh hiện tại của SP (nội dung) + ảnh SP cùng dòng 67182647 (góc chụp/khung/ánh sáng)"
     },
-    "rubricVersion": "v4"
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -67,10 +71,22 @@
       "by": "init",
       "status": "UPLOADED",
       "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-20T16:40:25Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "line consistency 20/10: 3/4 box with side panel vs flat front Pocky boxes -> flat front (Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references)"
+    },
+    {
+      "at": "2026-10-20T16:41:03.238Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-16T06:08:44.260Z",
+    "at": "2026-10-20T16:41:03.238Z",
     "fields": [
       "description",
       "image"

@@ -17,20 +17,19 @@
     "description": "Bánh quế Nabati Rolls Richeese dạng que dài, vỏ quế giòn nhân kem phô mai. Hợp ăn vặt, dùng kèm trà hoặc sữa.\n\nQuy cách: 50 g · hộp\nNhà sản xuất/thương hiệu: Nabati · Richeese",
     "exportedAt": "2026-10-20T16:17:47.475Z"
   },
-  "status": "UPLOADED",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3, I4, I5: ảnh chụp điện thoại mặt hộp, nền không trắng, hộp bị cắt; trang Nabati không có dòng Rolls → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Dải chữ đáy hộp không thấy trên ảnh gốc (bị cắt): dòng tên thứ hai và khối nhà sản xuất để mờ không đọc được; dòng 'Net weight / Khối lượng tịnh : 50 g' theo bố cục hộp Richoco cùng dòng và tên KiotViet (50G). Phần trên hộp khớp ảnh gốc.",
+    "reason": "Đồng bộ dòng SP 20/10: box wider than other Nabati Rolls 50g boxes → same narrow box as 67181639 → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: ít chấm phô mai trang trí hơn; chữ lớn khớp (nabati Rolls, WAFER STICK, Richeese, 50 g)",
     "source": {
       "aiGenerated": true,
       "tool": "Gemini API",
       "model": "gemini-nano-banana-2.1",
-      "generatedAt": "2026-10-17",
+      "generatedAt": "2026-10-20",
       "style": "flat clean packaging render (v17)",
-      "reference": "ảnh KiotViet hộp Rolls Richeese (cắt mất đáy) + ảnh KiotViet hộp Rolls Richoco cùng dòng (chỉ lấy bố cục dải chữ đáy)",
-      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/02/26/tongpenhchtl/65ec4ea55a024f9fa6fdd18043cd3eb1.jpeg"
+      "reference": "ảnh hiện tại của SP (nội dung) + ảnh SP cùng dòng đã duyệt (góc chụp/khung/tỉ lệ)"
     },
-    "rubricVersion": "v17"
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -75,6 +74,12 @@
       "by": "init",
       "status": "UPLOADED",
       "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-20T16:42:20Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 5, gemini-nano-banana-2.1), checked by eye against references"
     }
   ],
   "submitted": {

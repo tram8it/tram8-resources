@@ -17,20 +17,19 @@
     "description": "Thịt chua Trường Foods vị hạt rừng, đặc sản lên men từ thịt heo của vùng Thanh Sơn, Phú Thọ, đóng hũ.\n\nQuy cách: hộp\nNhà sản xuất/thương hiệu: Công ty CP Lita Foods · Trường Foods\nBảo quản: ngăn mát tủ lạnh.",
     "exportedAt": "2026-10-20T16:17:47.475Z"
   },
-  "status": "UPLOADED",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I5: ảnh KiotViet chụp cận nắp → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt chữ lớn (THỊT CHUA TRƯỜNG FOODS, VỊ HẠT RỪNG); bỏ rổ thịt và tiêu đề quảng cáo, chỉ vẽ hũ",
+    "reason": "line consistency 20/10: jar shot from a higher camera (lid top visible, jar taller in frame) vs eye-level Trường Foods jars → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt chữ lớn; góc chụp ngang tầm mắt",
     "source": {
       "aiGenerated": true,
       "tool": "Gemini API",
       "model": "gemini-nano-banana-2.1",
-      "generatedAt": "2026-10-18",
+      "generatedAt": "2026-10-20",
       "style": "flat clean packaging render (v17)",
-      "reference": "ảnh Minh Cầu Mart theo đúng mã vạch (chỉ làm mẫu)",
-      "referenceUrl": "https://minhcaumart.vn/media/com_eshop/products/8938556154255.webp"
+      "reference": "ảnh Gemini cũ (nội dung) + hũ Vị Truyền Thống đã duyệt (kiểu ảnh)"
     },
-    "rubricVersion": "v18"
+    "rubricVersion": "v23"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -81,10 +80,22 @@
       "by": "init",
       "status": "UPLOADED",
       "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-20T16:39:37Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "line consistency 20/10: jar shot from a higher camera (lid top visible, jar taller in frame) vs eye-level Trường Foods jars -> Gemini redraw (own image for content, approved sibling for style); Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-20T16:41:54.862Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-18T18:25:26.146Z",
+    "at": "2026-10-20T16:41:54.862Z",
     "fields": [
       "description",
       "image"

@@ -17,19 +17,19 @@
     "description": "Nước tăng lực Juice Monster Mango Loco, kết hợp nước tăng lực với nước trái cây vị xoài nhiệt đới, lon cao thon (sleek). Ngon hơn khi uống lạnh.\n\nQuy cách: 355 ml · lon\nNhà sản xuất/thương hiệu: Monster Energy",
     "exportedAt": "2026-10-20T16:17:47.475Z"
   },
-  "status": "UPLOADED",
+  "status": "READY",
   "image": {
-    "decision": "CROP",
-    "reason": "I9: packshot nền trắng nhưng không 1:1, SP nhỏ; crop phóng 2,9 lần, xem lại đạt",
-    "source": null,
-    "rubricVersion": "v4",
-    "vivid": {
-      "rubricVersion": "v10",
-      "saturationGain": 1.102,
-      "contrastGain": 1.033,
-      "toneGain": 1.108,
-      "gamma": 0.8
-    }
+    "decision": "REPLACE",
+    "reason": "line consistency 20/10: Mango Loco can was a soft low-res photo (blurry edges) while Monster Green is a crisp render → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt chữ lớn; chữ nhỏ quanh đáy lon minh hoạ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-20",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh lon Mango Loco hiện có (nội dung) + lon Monster Green đã duyệt (kiểu ảnh)"
+    },
+    "rubricVersion": "v23"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -74,10 +74,22 @@
       "by": "init",
       "status": "UPLOADED",
       "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-20T16:39:36Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "line consistency 20/10: Mango Loco can was a soft low-res photo (blurry edges) while Monster Green is a crisp render -> Gemini redraw (own image for content, approved sibling for style); Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-20T16:41:38.412Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-18T17:47:59.352Z",
+    "at": "2026-10-20T16:41:38.412Z",
     "fields": [
       "description",
       "image"

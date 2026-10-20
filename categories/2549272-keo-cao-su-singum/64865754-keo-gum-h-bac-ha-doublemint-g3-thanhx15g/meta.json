@@ -17,18 +17,17 @@
     "description": "Kẹo gum bong bóng Lotte Fusen Nomi hương cola chanh, viên tròn đựng trong hộp.\n\nQuy cách: 15 g · lọ\nNhà sản xuất/thương hiệu: Lotte · Fusen Nomi",
     "exportedAt": "2026-10-20T16:17:47.475Z"
   },
-  "status": "UPLOADED",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I4: ảnh chụp 3 hộp trên nền đá; mã vạch 8934677000686 là Fusen Nomi hương cola 15 g (iCheck), khớp ảnh → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: ảnh minh hoạ một hộp đứng từ ảnh hộp nằm; chữ nhỏ không đọc được",
+    "reason": "line consistency 20/10 (v14): different bottle/cap shape vs Fusen Nomi siblings -> same dome-cap bottle → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt nội dung; chữ nhỏ minh hoạ",
     "source": {
       "aiGenerated": true,
       "tool": "Gemini API",
       "model": "gemini-nano-banana-2.1",
-      "generatedAt": "2026-10-17",
+      "generatedAt": "2026-10-20",
       "style": "flat clean packaging render (v17)",
-      "reference": "ảnh KiotViet (3 hộp trên bàn đá) + iCheck",
-      "referenceUrl": "https://cdn1-retail-images.kiotviet.vn/2026/01/10/tongpenhchtl/5a82c9479380481987a992ae8c77783f.jpeg"
+      "reference": "ảnh hiện tại của SP (nội dung) + ảnh SP cùng dòng 64865755 (góc chụp/khung/ánh sáng)"
     },
     "rubricVersion": "v18"
   },
@@ -81,10 +80,22 @@
       "by": "owner",
       "status": "UPLOADED",
       "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-20T16:40:25Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "line consistency 20/10: different bottle/cap shape vs Fusen Nomi siblings -> same dome-cap bottle (Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references)"
+    },
+    {
+      "at": "2026-10-20T16:41:01.092Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-17T14:09:39.946Z",
+    "at": "2026-10-20T16:41:01.092Z",
     "fields": [
       "description",
       "image"

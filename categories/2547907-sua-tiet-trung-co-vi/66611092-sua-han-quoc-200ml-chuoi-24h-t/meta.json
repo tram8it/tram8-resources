@@ -17,18 +17,17 @@
     "description": "Sữa tiệt trùng (UHT) vị chuối của Binggrae, dòng Banana Flavored Milk Drink — bản xuất khẩu của dòng sữa hũ nổi tiếng Hàn Quốc.\n\nQuy cách: 200 ml · hộp\nNhà sản xuất/thương hiệu: Binggrae (Hàn Quốc)\nBảo quản: nơi khô ráo, thoáng mát; ngon hơn khi uống lạnh.",
     "exportedAt": "2026-10-20T16:17:47.475Z"
   },
-  "status": "UPLOADED",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "ảnh tự chụp: hộp nghiêng, mờ; ảnh hãng bing.co.kr quá nhỏ (158px) nên chỉ làm mẫu → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt",
+    "reason": "line consistency 20/10 (v14): carton seen slightly from above (top flaps visible) vs flat front-on Binggrae cartons -> eye level → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt nội dung",
     "source": {
       "aiGenerated": true,
       "tool": "Gemini API",
       "model": "gemini-nano-banana-2.1",
-      "generatedAt": "2026-10-17",
+      "generatedAt": "2026-10-20",
       "style": "flat clean packaging render (v17)",
-      "reference": "ảnh KiotViet của cửa hàng (ảnh tự chụp)",
-      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/06/21/tram8/780f032217fb4d78bc8dc893d97a6100.jpeg"
+      "reference": "ảnh hiện tại của SP (nội dung) + ảnh SP cùng dòng 64865325 (góc chụp/khung/ánh sáng)"
     },
     "rubricVersion": "v18"
   },
@@ -81,10 +80,22 @@
       "by": "owner",
       "status": "UPLOADED",
       "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-20T16:40:24Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "line consistency 20/10: carton seen slightly from above (top flaps visible) vs flat front-on Binggrae cartons -> eye level (Gemini API redraw (attempt 3, gemini-nano-banana-2.1), checked by eye against references)"
+    },
+    {
+      "at": "2026-10-20T16:40:51.883Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-17T14:16:00.497Z",
+    "at": "2026-10-20T16:40:51.883Z",
     "fields": [
       "description",
       "image"

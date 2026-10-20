@@ -17,10 +17,10 @@
     "description": "Bánh snack tortilla (bánh ngô giòn hình tam giác) Tos Tos vị phô mai Nacho, ăn liền như món ăn vặt.\n\nQuy cách: 145 g · gói\nNhà sản xuất/thương hiệu: Tos Tos (PT Dua Kelinci, Indonesia)",
     "exportedAt": "2026-10-20T16:17:47.475Z"
   },
-  "status": "UPLOADED",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I4/I5: ảnh chụp điện thoại; trang hãng chỉ có Nacho Cheese 140 g (bản xuất Thái), mã vạch 8995077606489 là gói 145 g (Open Food Facts) → Gemini vẽ lại từ ảnh hãng, dòng khối lượng 145 g; chủ chốt 17/10/2026 (v19) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: mặt trước giống ảnh hãng; chữ nhỏ nhà sản xuất/BPOM ở đáy là chữ AI vẽ, không đọc đúng; không có nhãn chữ Hàn như gói cửa hàng",
+    "reason": "I3/I4/I5: ảnh chụp điện thoại; trang hãng chỉ có Nacho Cheese 140 g (bản xuất Thái), mã vạch 8995077606489 là gói 145 g (Open Food Facts) → Gemini vẽ lại từ ảnh hãng, dòng khối lượng 145 g; chủ chốt 17/10/2026 (v19) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: mặt trước giống ảnh hãng; chữ nhỏ nhà sản xuất/BPOM ở đáy là chữ AI vẽ, không đọc đúng; không có nhãn chữ Hàn như gói cửa hàng | line consistency 20/10: bỏ bóng elip dưới sàn để cùng kiểu bóng với Tos Tos BBQ/Roasted Corn",
     "source": {
       "aiGenerated": true,
       "tool": "Gemini API",
@@ -30,7 +30,7 @@
       "reference": "ảnh chính hãng Dua Kelinci Tos Tos Nacho Cheese 140g (bản Thái) + Korean BBQ 145g (bố cục đáy bản Indonesia)",
       "referenceUrl": "https://duakelinci.com/brand/tostos"
     },
-    "rubricVersion": "v18"
+    "rubricVersion": "v23"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -90,10 +90,22 @@
       "by": "owner",
       "status": "UPLOADED",
       "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-20T16:41:17Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "line consistency 20/10: wide floor-shadow ellipse vs no floor shadow on the other Tos Tos bags -> shadow removed with PIL (bag untouched)"
+    },
+    {
+      "at": "2026-10-20T16:42:08.742Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-17T08:58:00.153Z",
+    "at": "2026-10-20T16:42:08.742Z",
     "fields": [
       "description",
       "image"

@@ -17,17 +17,19 @@
     "description": "Chân gà Bà Tuyết vị sả tắc, chân gà tẩm sả và tắc chua cay, đóng gói riêng từng chiếc, ăn liền.\n\nQuy cách: cái\nNhà sản xuất/thương hiệu: Ăn Cùng Bà Tuyết",
     "exportedAt": "2026-10-20T16:17:47.475Z"
   },
-  "status": "UPLOADED",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I5: ảnh cũ chụp nghiêng/nhăn/méo (chủ báo chưa đạt 16/10) → nắn phối cảnh ảnh hiện tại rồi Gemini vẽ lại packshot chính diện, thẳng đứng, nền trắng (v15); đã so chữ/logo với ảnh mẫu",
+    "reason": "line consistency 20/10 (v14): crumpled dented glossy pouch vs flat Bà Tuyết pouches -> flat smooth pouch → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: hoa văn nền vẽ lại theo dòng; chữ nhỏ minh hoạ",
     "source": {
       "aiGenerated": true,
-      "tool": "Google Gemini Pro (chủ yêu cầu)",
-      "generatedAt": "2026-10-16",
-      "reference": "ảnh KiotViet hiện tại, nắn phối cảnh"
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-20",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh hiện tại của SP (nội dung) + ảnh SP cùng dòng 65135714 (góc chụp/khung/ánh sáng)"
     },
-    "rubricVersion": "v16"
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -90,10 +92,22 @@
       "by": "init",
       "status": "UPLOADED",
       "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-20T16:40:25Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "line consistency 20/10: crumpled dented glossy pouch vs flat Bà Tuyết pouches -> flat smooth pouch (Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references)"
+    },
+    {
+      "at": "2026-10-20T16:41:05.525Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-15T18:10:03.871Z",
+    "at": "2026-10-20T16:41:05.525Z",
     "fields": [
       "description",
       "image"
