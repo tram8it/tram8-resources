@@ -17,18 +17,17 @@
     "description": "Bánh gạo sữa Miyaki vị phô mai, bánh gạo giòn làm với bột sữa nhập khẩu từ New Zealand, không chiên, không chứa chất béo trans. Túi có quai xách, bên trong chia nhiều gói nhỏ tiện ăn vặt.\n\nQuy cách: 240 g · túi\nXuất xứ: Việt Nam · Nhà sản xuất/thương hiệu: Công ty Cổ phần Thương mại Tràng An · Miyaki",
     "exportedAt": "2026-10-20T16:17:47.475Z"
   },
-  "status": "UPLOADED",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I5: ảnh KiotViet chụp cận nửa trên túi → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ nhỏ trên túi không đọc được",
+    "reason": "Đồng bộ dòng SP 20/10: perspective photo-look bag, smaller vs flat Miyaki render → flat like 65300595 → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt chữ lớn (BÁNH GẠO SỮA, MIYAKI, VỊ PHÔ MAI)",
     "source": {
       "aiGenerated": true,
       "tool": "Gemini API",
       "model": "gemini-nano-banana-2.1",
-      "generatedAt": "2026-10-18",
+      "generatedAt": "2026-10-20",
       "style": "flat clean packaging render (v17)",
-      "reference": "ảnh túi trên vantoanchau.com (chỉ làm mẫu) + ảnh KiotViet",
-      "referenceUrl": "https://vantoanchau.com/san-pham/banh-gao-sua-miyaki-240g-vi-pho-mai/"
+      "reference": "ảnh hiện tại của SP (nội dung) + ảnh SP cùng dòng đã duyệt (góc chụp/khung/tỉ lệ)"
     },
     "rubricVersion": "v18"
   },
@@ -90,6 +89,12 @@
       "by": "init",
       "status": "UPLOADED",
       "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-20T16:42:21Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
     }
   ],
   "submitted": {

@@ -17,18 +17,17 @@
     "description": "Kem Celano vị sô cô la hạnh nhân, dạng ly có nắp, 125 ml.\n\nQuy cách: 125 ml · ly\nNhà sản xuất/thương hiệu: Celano\nBảo quản: Giữ đông ở −18 °C hoặc lạnh hơn.",
     "exportedAt": "2026-10-20T16:17:47.475Z"
   },
-  "status": "UPLOADED",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "ảnh tự chụp (nghiêng, phóng to mờ); không có ảnh hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt",
+    "reason": "Đồng bộ dòng SP 20/10: 3/4 cup view vs top-down lid of other Celano 125 ml cups → top-down lid like 64865229 → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: nắp vẽ theo phần nắp thấy trên ảnh cũ (Celano, CHOCOLATE ALMOND, Làm từ SỮA TƯƠI); chữ nhỏ dưới banner nắp bị lược",
     "source": {
       "aiGenerated": true,
       "tool": "Gemini API",
       "model": "gemini-nano-banana-2.1",
-      "generatedAt": "2026-10-17",
+      "generatedAt": "2026-10-20",
       "style": "flat clean packaging render (v17)",
-      "reference": "ảnh Kingfoodmart (chỉ làm mẫu) + ảnh KiotViet",
-      "referenceUrl": "https://storage.googleapis.com/onelife-public/8936011771306.jpg"
+      "reference": "ảnh hiện tại của SP (nội dung) + ảnh SP cùng dòng đã duyệt (góc chụp/khung/tỉ lệ)"
     },
     "rubricVersion": "v18"
   },
@@ -81,6 +80,12 @@
       "by": "owner",
       "status": "UPLOADED",
       "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-20T16:42:21Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 3, gemini-nano-banana-2.1), checked by eye against references"
     }
   ],
   "submitted": {

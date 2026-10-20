@@ -17,17 +17,17 @@
     "description": "Trà đào sữa Lạc Lạc, đồ uống pha sẵn đóng chai.\n\nQuy cách: chai\nThương hiệu: Lạc Lạc",
     "exportedAt": "2026-10-20T16:17:47.475Z"
   },
-  "status": "UPLOADED",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "chủ 19/10: trà sữa Lạc Lạc vẽ lại bằng Gemini → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: nhãn chép từ ảnh thật; dáng chai và màu nước theo ảnh chụp",
+    "reason": "Đồng bộ dòng SP 20/10: bottle narrower than most Lạc Lạc 250 ml bottles → same bottle as 67748069 → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt chữ (TRÀ ĐÀO SỮA, A cup of Tea, a cup of Joy)",
     "source": {
       "aiGenerated": true,
       "tool": "Gemini API",
       "model": "gemini-nano-banana-2.1",
-      "generatedAt": "2026-10-19",
+      "generatedAt": "2026-10-20",
       "style": "flat clean packaging render (v17)",
-      "reference": "ảnh KiotViet nhãn chai + ảnh chai trên web Trạm 8"
+      "reference": "ảnh hiện tại của SP (nội dung) + ảnh SP cùng dòng đã duyệt (góc chụp/khung/tỉ lệ)"
     },
     "rubricVersion": "v18"
   },
@@ -74,6 +74,12 @@
       "by": "init",
       "status": "UPLOADED",
       "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-20T16:42:21Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
     }
   ],
   "submitted": {

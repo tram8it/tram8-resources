@@ -17,15 +17,19 @@
     "description": "Mì tô Shin Ramyun của Nongshim (phiên bản tô lớn) – sợi mì dai trong nước súp bò cay đậm đà, có rau củ sấy, nấm và ớt.\n\nThành phần: bột mì, tinh bột khoai tây, dầu cọ, tinh bột khoai tây biến tính, muối; dưới 2%: chiết xuất xương bò, mỡ bò, tiêu đen, tỏi, hành, nấm, ớt đỏ, tương đậu nành, rau củ sấy (hành lá, nấm, cà rốt, cải thìa, ớt), đường, bột ngọt và phụ gia. Có chứa lúa mì, đậu nành, mè.\nQuy cách: 114 g · tô\nNhà sản xuất/thương hiệu: Nongshim (Nongshim America)",
     "exportedAt": "2026-10-20T16:17:47.475Z"
   },
-  "status": "UPLOADED",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I7: ảnh có watermark 'SMARCO' của cửa hàng khác; thay bằng ảnh Shin Ramyun Original Bowl 114 g trên trang Nongshim USA (mã vạch 031146 là Nongshim America). Trang SP: https://www.nongshimusa.com/product-detail?pid=21",
+    "reason": "Đồng bộ dòng SP 20/10: higher camera, smaller bowl vs other Nongshim big bowls → angle/size like 65205414 → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: giữ bao bì Mỹ của mã vạch 031146; chữ lớn khớp (Shin Ramyun, 5:30, NONGSHIM)",
     "source": {
-      "url": "https://www.nongshimusa.com/html5/imgs/products/imgs/shin_ramyun_big_bowl.png",
-      "fetchedAt": "2026-10-13"
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-20",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh hiện tại của SP (nội dung) + ảnh SP cùng dòng đã duyệt (góc chụp/khung/tỉ lệ)"
     },
-    "rubricVersion": "v4"
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -67,6 +71,12 @@
       "by": "init",
       "status": "UPLOADED",
       "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-20T16:42:21Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
     }
   ],
   "submitted": {
