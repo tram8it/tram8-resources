@@ -2,7 +2,7 @@
 
 > Sinh tự động bởi `node tools/status.mjs`. **Không sửa tay.** Nguồn sự thật là `meta.json` của từng SP.
 
-Tổng 2510 SP · đã xem 2510 (100%) · xong 2379 · chờ chủ duyệt 52 · cần chụp 78 · hỏi chủ 1
+Tổng 2513 SP · đã xem 2513 (100%) · xong 2379 · chờ chủ duyệt 55 · cần chụp 78 · hỏi chủ 1
 
 Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` = giữ nguyên + đã lên web.
 
@@ -10,7 +10,7 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 |---|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
 | 1 | Snack khoai tây | 0.0tr | 75 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 74 |
 | 2 | Snack bắp & phồng | 0.0tr | 66 | 0 | 0 | 0 | 2 | 1 | 2 | 0 | 61 |
-| 3 | Kem que | 0.0tr | 61 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 61 |
+| 3 | Kem que | 0.0tr | 64 | 0 | 0 | 0 | 0 | 0 | 3 | 0 | 61 |
 | 4 | Socola thanh | 0.0tr | 53 | 0 | 7 | 0 | 0 | 0 | 1 | 0 | 45 |
 | 5 | Snack đậu phộng / hạt‑đậu | 0.0tr | 47 | 0 | 0 | 0 | 0 | 0 | 2 | 0 | 45 |
 | 6 | Viên ngậm thảo mộc / bạc hà | 0.0tr | 44 | 0 | 0 | 0 | 2 | 0 | 0 | 0 | 42 |
@@ -129,12 +129,12 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 | 119 | Sữa rửa mặt NỮ | 0.0tr | 7 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 7 |
 | 120 | Tẩy da chết - Face | 0.0tr | 7 | 0 | 7 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 121 | Whisky & Bourbon | 0.0tr | 7 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 7 |
-| 122 | Kem hộp lớn / gia đình | 0.0tr | 7 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 6 |
-| 123 | Thực phẩm chế biến sẵn | 0.0tr | 7 | 0 | 1 | 0 | 1 | 0 | 0 | 0 | 5 |
-| 124 | Thịt chua | 0.0tr | 7 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 6 |
-| 125 | Sữa thanh trùng | 0.0tr | 7 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 6 |
-| 126 | Bún / hủ tiếu ăn liền | 0.0tr | 6 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 5 |
-| 127 | Dầu gội khô | 0.0tr | 6 | 0 | 5 | 0 | 0 | 0 | 0 | 0 | 1 |
+| 122 | Thực phẩm chế biến sẵn | 0.0tr | 7 | 0 | 1 | 0 | 1 | 0 | 0 | 0 | 5 |
+| 123 | Thịt chua | 0.0tr | 7 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 6 |
+| 124 | Sữa thanh trùng | 0.0tr | 7 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 6 |
+| 125 | Bún / hủ tiếu ăn liền | 0.0tr | 6 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 5 |
+| 126 | Dầu gội khô | 0.0tr | 6 | 0 | 5 | 0 | 0 | 0 | 0 | 0 | 1 |
+| 127 | Kem hộp lớn / gia đình | 0.0tr | 7 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 6 |
 | 128 | Kem viên / kim cương | 0.0tr | 6 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 5 |
 | 129 | Ô mai - Xí muội | 0.0tr | 6 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 5 |
 | 130 | Son dưỡng môi | 0.0tr | 6 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 6 |

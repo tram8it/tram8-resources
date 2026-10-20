@@ -1,0 +1,69 @@
+{
+  "kiotProductId": "68546162",
+  "code": "769828111311",
+  "barcode": "769828111311",
+  "name": "Kem power vị chuối hm ( kem chuối )",
+  "fullName": "Kem power vị chuối hm ( kem chuối ) (Que)",
+  "brand": "Lotte",
+  "unit": "Que",
+  "category": {
+    "kiotCategoryId": "2549567",
+    "name": "Kem que",
+    "path": "Kem & Đồ đông lạnh > Kem que"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://cdn2-retail-images.kiotviet.vn/2026/10/20/tram8/b479bcbf105341aaab7384cfdbb1959d.jpeg",
+    "description": null,
+    "exportedAt": "2026-10-20T03:28:31.246Z"
+  },
+  "status": "READY",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "SP mới: ảnh chụp bị cắt, có in hạn dùng → vẽ lại sạch → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: vẽ trọn gói theo ảnh; bỏ hạn dùng; chữ nhỏ để mờ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-20",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet của SP (chụp gói, bị cắt đáy) + kem que cùng danh mục (khung)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "theo chữ trên bao bì (ảnh KiotViet 20/10)",
+    "source": null,
+    "rubricVersion": "v23"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-20T03:28:53.537Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-20T03:30:10Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "redo after Hub rejection:  — Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-20T03:30:11.089Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-20T03:30:11.089Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
+}
