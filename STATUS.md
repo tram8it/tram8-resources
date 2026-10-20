@@ -2,7 +2,7 @@
 
 > Sinh tự động bởi `node tools/status.mjs`. **Không sửa tay.** Nguồn sự thật là `meta.json` của từng SP.
 
-Tổng 2516 SP · đã xem 2516 (100%) · xong 2299 · chờ chủ duyệt 141 · cần chụp 75 · hỏi chủ 1
+Tổng 2516 SP · đã xem 2516 (100%) · xong 2299 · chờ chủ duyệt 145 · cần chụp 71 · hỏi chủ 1
 
 Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` = giữ nguyên + đã lên web.
 
@@ -80,7 +80,7 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 | 70 | Khăn ướt – khăn giấy | 0.0tr | 13 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 13 |
 | 71 | Pizza | 0.0tr | 13 | 0 | 5 | 0 | 0 | 0 | 1 | 0 | 7 |
 | 72 | Sữa chua ăn | 0.0tr | 13 | 0 | 0 | 0 | 0 | 0 | 2 | 0 | 11 |
-| 73 | Khô heo | 0.0tr | 14 | 0 | 0 | 0 | 3 | 0 | 0 | 0 | 11 |
+| 73 | Khô heo | 0.0tr | 14 | 0 | 0 | 0 | 1 | 0 | 2 | 0 | 11 |
 | 74 | Bàn chải - Người lớn | 0.0tr | 12 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 11 |
 | 75 | Bánh gạo | 0.0tr | 13 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 13 |
 | 76 | Bánh mì kem tươi | 0.0tr | 12 | 0 | 0 | 0 | 0 | 0 | 8 | 0 | 4 |
@@ -130,12 +130,12 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 | 120 | Tẩy da chết - Face | 0.0tr | 7 | 0 | 7 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 121 | Whisky & Bourbon | 0.0tr | 7 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 7 |
 | 122 | Thực phẩm chế biến sẵn | 0.0tr | 7 | 0 | 1 | 0 | 0 | 0 | 1 | 0 | 5 |
-| 123 | Thịt chua | 0.0tr | 7 | 0 | 0 | 0 | 1 | 0 | 1 | 0 | 5 |
+| 123 | Thịt chua | 0.0tr | 7 | 0 | 0 | 0 | 0 | 0 | 2 | 0 | 5 |
 | 124 | Sữa thanh trùng | 0.0tr | 7 | 0 | 0 | 0 | 0 | 0 | 3 | 0 | 4 |
 | 125 | Bún / hủ tiếu ăn liền | 0.0tr | 6 | 0 | 1 | 0 | 0 | 0 | 1 | 0 | 4 |
 | 126 | Dầu gội khô | 0.0tr | 6 | 0 | 5 | 0 | 0 | 0 | 0 | 0 | 1 |
 | 127 | Kem hộp lớn / gia đình | 0.0tr | 7 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 6 |
-| 128 | Kem viên / kim cương | 0.0tr | 6 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 5 |
+| 128 | Kem viên / kim cương | 0.0tr | 6 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 5 |
 | 129 | Ô mai - Xí muội | 0.0tr | 6 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 5 |
 | 130 | Son dưỡng môi | 0.0tr | 6 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 6 |
 | 131 | Bánh quy & bánh đóng gói | 0.0tr | 6 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 6 |

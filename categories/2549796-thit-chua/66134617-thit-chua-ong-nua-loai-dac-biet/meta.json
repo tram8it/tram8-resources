@@ -17,11 +17,15 @@
     "description": null,
     "exportedAt": "2026-10-20T16:17:47.475Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh; tra 18/10: trang hãng truongfoods.vn chỉ có ống nứa thường (đã dùng cho SP 67762216), không có bản 'loại đặc biệt' → cần chụp · tra lại 19/10 (Yandex ảnh: \"thịt chua ống nứa đặc biệt Trường Foods\"; \"thịt chua Trường Foods đặc biệt\"; \"thịt chua ống nứa Thanh Sơn đặc biệt\") — không có ảnh đúng SP/vị",
-    "source": null,
+    "reason": "ảnh minh hoạ (chủ 20/10: SP không được để trống ảnh) — route 2: ảnh ống nứa thường cùng dòng Trường Foods đã duyệt (67762216) + nhãn 'Loại đặc biệt' (size_tag.py). Khác hàng thật: nhãn ống in chữ của bản thường; bản loại đặc biệt chưa thấy ảnh thật, nhãn 'Loại đặc biệt' là chú thích gắn thêm, không in trên ống. Trước đó: I1: chưa có ảnh; tra 18/10: trang hãng truongfoods.vn chỉ có ống nứa thường (đã dùng cho SP 67762216), không có bản 'loại đặc biệt' → cần chụp · tra lại 19/10 (Yandex ảnh: \"thịt chua ống nứa đặc biệt Trường Foods\"; \"thịt chua Trường Foods đặc biệt\"; \"thịt chua ống nứa Thanh Sơn đặc biệt\") — không có",
+    "source": {
+      "illustration": true,
+      "derivedFrom": "image.webp của SP 67762216 Thịt chua ống nứa",
+      "generatedAt": "2026-10-20"
+    },
     "rubricVersion": "v23"
   },
   "description": {
@@ -61,6 +65,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "np19 re-research 19/10 (image search): still no image of this exact product → NEEDS_PHOTO"
+    },
+    {
+      "at": "2026-10-20T16:48:00Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "illustration 20/10: route 2: ảnh ống nứa thường cùng dòng Trường Foods đã duyệt (67762216) + nhãn 'Loại đặc biệt' (size_tag.py)"
+    },
+    {
+      "at": "2026-10-20T16:48:19.948Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-20T16:48:19.948Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

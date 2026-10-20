@@ -17,20 +17,19 @@
     "description": null,
     "exportedAt": "2026-10-20T16:17:47.475Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "Chủ: đợi chụp ảnh vỏ, cần cả SP kèm vỏ · tra lại 19/10 (Yandex ảnh: \"Lotte Tico green tea\"; \"Tico choco crispy green tea\"; \"로떼 티코 녹차\") — không có ảnh đúng SP/vị",
+    "reason": "ảnh minh hoạ (chủ 20/10: SP không được để trống ảnh) — route 2: theo ảnh Tico sô cô la sữa cùng dòng đã duyệt, đổi nhân thành kem trà xanh. Khác hàng thật: màu nhân trà xanh là suy luận từ tên; không có vỏ gói (chủ từng muốn ảnh kèm vỏ — chưa có ảnh vỏ). Trước đó: Chủ: đợi chụp ảnh vỏ, cần cả SP kèm vỏ · tra lại 19/10 (Yandex ảnh: \"Lotte Tico green tea\"; \"Tico choco crispy green tea\"; \"로떼 티코 녹차\") — không có ảnh đúng SP/vị",
     "source": {
       "aiGenerated": true,
+      "illustration": true,
       "tool": "Gemini API",
       "model": "gemini-nano-banana-2.1",
       "generatedAt": "2026-10-17",
-      "style": "flat clean packaging render (v17)",
-      "reference": "ảnh viên kem Tico Milk Choco cùng dòng (SP 67729996, vẽ theo hộp trên trang Lotte Wellfood)",
-      "referenceUrl": "https://www.kurly.com/goods/1001584828"
+      "reference": "ảnh SP cùng dòng đã duyệt (Tico choco crispy vanilla)"
     },
-    "rubricVersion": "v18"
+    "rubricVersion": "v23"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -99,10 +98,22 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "np19 re-research 19/10 (image search): still no image of this exact product → NEEDS_PHOTO"
+    },
+    {
+      "at": "2026-10-20T16:48:00Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "illustration 20/10: route 2: theo ảnh Tico sô cô la sữa cùng dòng đã duyệt, đổi nhân thành kem trà xanh"
+    },
+    {
+      "at": "2026-10-20T16:48:17.500Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-17T14:02:17.388Z",
+    "at": "2026-10-20T16:48:17.500Z",
     "fields": [
       "description",
       "image"

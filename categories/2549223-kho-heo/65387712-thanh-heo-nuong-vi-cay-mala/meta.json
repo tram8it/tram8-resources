@@ -17,11 +17,18 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "chủ 18/10: kiểm tra ảnh thật trên web trước khi vẽ — web không có (đã tìm tên, mã vạch, iCheck, Kingfoodmart); cần nhân viên chụp cả gói mặt trước · tra lại 19/10 (Yandex ảnh: \"thanh heo nướng mala\"; \"heo nướng que vị cay mala gói\"; \"thịt heo nướng thanh mala snack\" + \"G Kitchen thanh heo nướng\", trang gkitchen.com (503); ảnh KiotViet là hộp 150 g (15 gói × 10 g) bị cắt, đơn vị KiotViet \"Thanh\" = 1 gói 10 g chưa thấy ảnh)",
-    "source": null,
+    "reason": "ảnh minh hoạ (chủ 20/10: SP không được để trống ảnh) — route 1: vẽ lại hộp 150 g từ ảnh KiotViet bị cắt. Khác hàng thật: vẽ thành túi phẳng nguyên vẹn; chữ lớn khớp ảnh (THANH HEO NƯỚNG, Vị cay Mala, 150 g (15 gói x 10 g)); đơn vị bán lẻ là 1 thanh 10 g, ảnh là hộp/túi 150 g. Trước đó: chủ 18/10: kiểm tra ảnh thật trên web trước khi vẽ — web không có (đã tìm tên, mã vạch, iCheck, Kingfoodmart); cần nhân viên chụp cả gói mặt trước · tra lại 19/10 (Yandex ảnh: \"thanh heo nướng mala\"; \"heo nướng que vị cay mala gói\"; \"thịt heo nướng thanh mala snack\" + \"G Kitchen thanh heo nướng\", tr",
+    "source": {
+      "aiGenerated": true,
+      "illustration": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-18",
+      "reference": "ảnh KiotViet hiện có của SP (hộp bị cắt khung)"
+    },
     "rubricVersion": "v23"
   },
   "description": {
@@ -97,10 +104,22 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "np19 re-research 19/10 (image search): still no image of this exact product → NEEDS_PHOTO"
+    },
+    {
+      "at": "2026-10-20T16:47:59Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "illustration 20/10: route 1: vẽ lại hộp 150 g từ ảnh KiotViet bị cắt"
+    },
+    {
+      "at": "2026-10-20T16:48:11.718Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-18T00:18:58.461Z",
+    "at": "2026-10-20T16:48:11.718Z",
     "fields": [
       "description",
       "image"
