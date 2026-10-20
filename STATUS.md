@@ -2,7 +2,7 @@
 
 > Sinh tự động bởi `node tools/status.mjs`. **Không sửa tay.** Nguồn sự thật là `meta.json` của từng SP.
 
-Tổng 2516 SP · đã xem 2516 (100%) · xong 2299 · chờ chủ duyệt 145 · cần chụp 71 · hỏi chủ 1
+Tổng 2516 SP · đã xem 2516 (100%) · xong 2299 · chờ chủ duyệt 146 · cần chụp 70 · hỏi chủ 1
 
 Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` = giữ nguyên + đã lên web.
 
@@ -46,7 +46,7 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 | 36 | Xúc xích tiệt trùng | 0.0tr | 21 | 0 | 0 | 0 | 0 | 0 | 2 | 0 | 19 |
 | 37 | Mì trộn / mì khô / spaghetti (Ly/Tô/Cốc) | 0.0tr | 21 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 20 |
 | 38 | Vị nguyên bản | 0.0tr | 21 | 0 | 0 | 0 | 0 | 0 | 2 | 0 | 19 |
-| 39 | Thuốc lá (18+) | 0.0tr | 20 | 0 | 0 | 0 | 1 | 0 | 1 | 0 | 18 |
+| 39 | Thuốc lá (18+) | 0.0tr | 20 | 0 | 0 | 0 | 0 | 0 | 2 | 0 | 18 |
 | 40 | Nước tẩy trang - Dầu tẩy trang | 0.0tr | 20 | 0 | 9 | 0 | 0 | 0 | 0 | 0 | 11 |
 | 41 | Soda / nước trái cây có gas | 0.0tr | 20 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 19 |
 | 42 | Snack rong biển | 0.0tr | 20 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 20 |
@@ -223,7 +223,6 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 
 ## ⚠️ Bản ghi lỗi
 
-- categories/2533374-thuoc-la-18/65100242-20456-thang-long-20-s-luxury-blue-bao-cung: reviewed but image/description decision missing
 - categories/2533440-do-dung-khac/65089127-ke-trung-bay-bang-giay-25-4-39-1-1400-standee-25: NO_CHANGE requires both decisions KEEP
 - categories/2533440-do-dung-khac/67918470-phi-van-chuyen: NO_CHANGE requires both decisions KEEP
 - categories/2547533-thuc-pham-che-bien-san/66405418-ngay-ra-dong: NO_CHANGE requires both decisions KEEP
