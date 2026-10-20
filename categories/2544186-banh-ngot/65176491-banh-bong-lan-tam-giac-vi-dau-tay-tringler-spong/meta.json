@@ -15,14 +15,21 @@
   "current": {
     "imageUrl": "https://cdn2-retail-images.kiotviet.vn/2026/04/25/tram8/dc35a29d2576491e89e91d5228bd5ead.jpeg",
     "description": null,
-    "exportedAt": "2026-10-20T03:28:31.246Z"
+    "exportedAt": "2026-10-20T16:17:47.475Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I8: ảnh KiotViet chỉ có mặt sau 2 gói; không tìm được ảnh mặt trước gói LexJazz vị dâu (草莓味) trên web → không biết màu/hình mặt trước, cần nhân viên chụp mặt trước 1 gói (17/10/2026) | 19/10 tìm lại bằng ảnh (Yandex Images: 'LexJazz 三角蛋糕 草莓', 'bánh bông lan tam giác vị dâu LexJazz', '6974682243076', 'LexJazz cake', 'LexJazz 蛋糕'; iCheck/Kingfoodmart/Minh Cầu/Open Food Facts theo mã vạch; WebSearch không có kết quả tiếng Việt); ảnh ngược Yandex trên ảnh KiotViet (mặt sau) không ra gói; SP cùng dòng vị socola/lúa mạch có mặt trước nhưng màu/hình vị dâu không suy ra được — không có ảnh đúng SP/vị → vẫn cần nhân viên chụp",
-    "source": null,
-    "rubricVersion": "v17"
+    "reason": "chủ 20/10: ảnh lỗi/chưa có ảnh, khách không hình dung được SP → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: ảnh minh hoạ: mặt trước gói dâu suy từ vị socola cùng dòng; chưa có ảnh mặt trước thật",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-20",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh LexJazz socola cùng dòng (bố cục) + ảnh mặt sau gói dâu thật (màu)"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -55,6 +62,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "19/10 re-research with image search (owner request): no image of this exact product/variant found"
+    },
+    {
+      "at": "2026-10-20T16:22:12Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "redo after Hub rejection:  — Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-20T16:22:12.699Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-20T16:22:12.699Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

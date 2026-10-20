@@ -1,0 +1,69 @@
+{
+  "kiotProductId": "68555642",
+  "code": "6917878371108",
+  "barcode": "6917878371108",
+  "name": "Milo Wafer thanh",
+  "fullName": "Milo Wafer thanh (thanh)",
+  "brand": "Milo",
+  "unit": "thanh",
+  "category": {
+    "kiotCategoryId": "2506670",
+    "name": "Các loại kẹo",
+    "path": "Các loại kẹo"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://cdn2-retail-images.kiotviet.vn/2026/10/20/tram8/c82435b0b9e54f95851139e6986b09f2.jpeg",
+    "description": null,
+    "exportedAt": "2026-10-20T16:17:47.475Z"
+  },
+  "status": "READY",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "SP mới 20/10 → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: 1 thanh theo vỏ thật; thanh bánh bên cạnh là minh hoạ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-20",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (hộp thanh Milo) + bộ ảnh KitKat (bố cục)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "theo chữ trên bao bì (ảnh KiotViet 20/10)",
+    "source": null,
+    "rubricVersion": "v23"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-20T16:18:11.603Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-20T16:19:43Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "redo after Hub rejection:  — Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-20T16:19:43.890Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-20T16:19:43.890Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
+}

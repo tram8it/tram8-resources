@@ -15,22 +15,21 @@
   "current": {
     "imageUrl": "https://img.tram8.vn/products/c3c011cf80b2c7afbd458c488d82ba281f1c2e598a73b01e0d9c8d30d82b5a6a.webp",
     "description": "Kẹo gum cuộn Lotte Doraemon hương soda, đựng trong hộp hình đầu Doraemon.\n\nQuy cách: cuộn\nNhà sản xuất/thương hiệu: Lotte · Doraemon",
-    "exportedAt": "2026-10-20T03:28:31.246Z"
+    "exportedAt": "2026-10-20T16:17:47.475Z"
   },
-  "status": "UPLOADED",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I4: ảnh chụp tay cầm trong kho; không có ảnh hãng/NPP → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Bỏ màng co nhăn; mặt hộp không có chữ (vị soda không in ở mặt trước), mặt Doraemon le lưỡi khớp ảnh thật",
+    "reason": "chủ 20/10: ảnh lỗi/chưa có ảnh, khách không hình dung được SP → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: ảnh minh hoạ: mở nắp bên, kéo dải kẹo ra cho khách thấy là kẹo gum cuộn",
     "source": {
       "aiGenerated": true,
       "tool": "Gemini API",
       "model": "gemini-nano-banana-2.1",
-      "generatedAt": "2026-10-17",
+      "generatedAt": "2026-10-20",
       "style": "flat clean packaging render (v17)",
-      "reference": "ảnh KiotViet (chụp tay cầm trong kho)",
-      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/08/29/tram8/4271ad9929524331b8b6422bd7fde6e6.jpeg"
+      "reference": "ảnh hộp Doraemon hiện có"
     },
-    "rubricVersion": "v17"
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -75,10 +74,22 @@
       "by": "init",
       "status": "UPLOADED",
       "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-20T16:22:09Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "redo after Hub rejection:  — Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-20T16:22:09.670Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-17T04:49:30.023Z",
+    "at": "2026-10-20T16:22:09.670Z",
     "fields": [
       "description",
       "image"

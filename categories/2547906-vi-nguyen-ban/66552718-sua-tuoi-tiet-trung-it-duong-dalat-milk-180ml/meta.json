@@ -15,19 +15,19 @@
   "current": {
     "imageUrl": "https://img.tram8.vn/products/d45f7e8f206aada6545364f093e9287cec8fbee7306d73b11fe025965d7e0b66.webp",
     "description": "Sữa tươi tiệt trùng Dalat Milk ít đường.\n\nQuy cách: 180 ml · hộp\nNhà sản xuất/thương hiệu: Dalat Milk",
-    "exportedAt": "2026-10-20T03:28:31.246Z"
+    "exportedAt": "2026-10-20T16:17:47.475Z"
   },
-  "status": "UPLOADED",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I4: ảnh nền đen; dalatmilk.vn không truy cập được, không có ảnh hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt (chỉ đổi nền đen sang trắng)",
+    "reason": "chủ 20/10: đồng bộ góc/cỡ với SP cùng dòng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: vẽ lại theo góc và cỡ của SP cùng dòng; chữ nhỏ để mờ",
     "source": {
       "aiGenerated": true,
       "tool": "Gemini API",
       "model": "gemini-nano-banana-2.1",
-      "generatedAt": "2026-10-17",
+      "generatedAt": "2026-10-20",
       "style": "flat clean packaging render (v17)",
-      "reference": "ảnh KiotViet hiện tại (render nền đen)"
+      "reference": "ảnh hiện có + vị Có đường cùng dòng (góc, cỡ)"
     },
     "rubricVersion": "v18"
   },
@@ -74,10 +74,22 @@
       "by": "init",
       "status": "UPLOADED",
       "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-20T16:23:58Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "redo after Hub rejection:  — Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-20T16:23:58.387Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-17T07:43:07.134Z",
+    "at": "2026-10-20T16:23:58.387Z",
     "fields": [
       "description",
       "image"

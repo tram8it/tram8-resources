@@ -15,20 +15,19 @@
   "current": {
     "imageUrl": "https://img.tram8.vn/products/61ab25a0dfc07b24c8caeab6f818ab830f89d1bf986c6e6e9c6c0ddee65e1065.webp",
     "description": "Sữa chua Đà Lạt Milk nha đam, làm hoàn toàn từ sữa tươi cao nguyên (theo chữ in trên hộp).\n\nQuy cách: 100 g · hộp\nXuất xứ: Việt Nam · Nhà sản xuất/thương hiệu: Đà Lạt Milk",
-    "exportedAt": "2026-10-20T03:28:31.246Z"
+    "exportedAt": "2026-10-20T16:17:47.475Z"
   },
-  "status": "UPLOADED",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I4: ảnh cũ chụp trong cửa hàng, nền là kệ; dalatmilk.vn không truy cập được → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: mặt nắp không thấy (ảnh mẫu không có nắp); chữ nhỏ hai cạnh hộp là nét mờ không đọc được, bảng dinh dưỡng bỏ trống; dòng chữ Nhật dưới chân đồi vẽ theo ảnh mẫu",
+    "reason": "chủ 20/10: đồng bộ góc/cỡ với SP cùng dòng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: vẽ lại theo góc và cỡ của SP cùng dòng; chữ nhỏ để mờ",
     "source": {
       "aiGenerated": true,
       "tool": "Gemini API",
       "model": "gemini-nano-banana-2.1",
-      "generatedAt": "2026-10-17",
+      "generatedAt": "2026-10-20",
       "style": "flat clean packaging render (v17)",
-      "reference": "ảnh KiotViet chụp hộp nha đam tại cửa hàng + ảnh render vị đào Kingfoodmart (chỉ làm mẫu góc chụp/kiểu vẽ)",
-      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/08/22/tram8/895766c1561b44248bf1cdca88057e5d.jpeg"
+      "reference": "ảnh hiện có + vị Đào cùng dòng (góc chụp)"
     },
     "rubricVersion": "v18"
   },
@@ -75,10 +74,22 @@
       "by": "init",
       "status": "UPLOADED",
       "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-20T16:23:54Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "redo after Hub rejection:  — Gemini API redraw (attempt 4, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-20T16:23:55.136Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-17T07:46:57.685Z",
+    "at": "2026-10-20T16:23:55.136Z",
     "fields": [
       "description",
       "image"

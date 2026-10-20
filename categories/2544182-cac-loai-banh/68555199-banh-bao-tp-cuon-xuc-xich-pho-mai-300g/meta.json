@@ -1,0 +1,69 @@
+{
+  "kiotProductId": "68555199",
+  "code": "SP878337",
+  "barcode": "8935335403597",
+  "name": "Bánh bao tp cuộn xúc xích phô mai 300g",
+  "fullName": "Bánh bao tp cuộn xúc xích phô mai 300g (cái)",
+  "brand": "Thọ Phát",
+  "unit": "cái",
+  "category": {
+    "kiotCategoryId": "2544182",
+    "name": "Các loại bánh",
+    "path": "Các loại bánh"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://cdn2-retail-images.kiotviet.vn/2026/10/20/tram8/9b946ee931ac4f079cb32c4a5f472bf6.jpeg",
+    "description": null,
+    "exportedAt": "2026-10-20T16:17:47.475Z"
+  },
+  "status": "READY",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "SP mới 20/10 → ảnh món ăn Gemini vẽ từ ảnh bao bì (v18: món hấp bán lẻ hiện cái bánh và nhân); ảnh minh hoạ. Khác hàng thật: ảnh minh hoạ món hấp (v18): 1 cuộn nguyên + 1 cuộn cắt theo hình trên nhãn",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-20",
+      "style": "food photo, whole + cut showing filling (v18)",
+      "reference": "ảnh KiotViet (khay Thọ Phát) + bánh bao Thọ Phát đã duyệt (kiểu ảnh món)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "theo chữ trên bao bì (ảnh KiotViet 20/10)",
+    "source": null,
+    "rubricVersion": "v23"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-20T16:18:11.603Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-20T16:19:40Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "redo after Hub rejection:  — Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-20T16:19:40.697Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-20T16:19:40.697Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
+}

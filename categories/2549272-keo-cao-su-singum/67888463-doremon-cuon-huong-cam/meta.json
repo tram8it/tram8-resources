@@ -15,22 +15,21 @@
   "current": {
     "imageUrl": "https://img.tram8.vn/products/6cfe570bf4d2d274e892aa184f6ad7ca8ed847f566d5be5c067c05f5b81f4da2.webp",
     "description": "Kẹo gum cuộn Lotte Doraemon hương cam, đựng trong hộp hình đầu Doraemon.\n\nQuy cách: cuộn\nNhà sản xuất/thương hiệu: Lotte · Doraemon",
-    "exportedAt": "2026-10-20T03:28:31.246Z"
+    "exportedAt": "2026-10-20T16:17:47.475Z"
   },
-  "status": "UPLOADED",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I4: ảnh chụp tay cầm trong kho; không có ảnh hãng/NPP → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Bỏ màng co; mặt hộp không có chữ (vị cam không in ở mặt trước), mặt Doraemon nháy mắt cười há miệng khớp ảnh thật",
+    "reason": "chủ 20/10: ảnh lỗi/chưa có ảnh, khách không hình dung được SP → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: ảnh minh hoạ: mở nắp bên, kéo dải kẹo ra cho khách thấy là kẹo gum cuộn (theo ảnh Minh Cầu của SP, không dùng làm mẫu vì có watermark)",
     "source": {
       "aiGenerated": true,
       "tool": "Gemini API",
       "model": "gemini-nano-banana-2.1",
-      "generatedAt": "2026-10-17",
+      "generatedAt": "2026-10-20",
       "style": "flat clean packaging render (v17)",
-      "reference": "ảnh KiotViet (chụp tay cầm trong kho)",
-      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/08/29/tram8/1027f7cc44f54fa79fc53f81b4cb2144.jpeg"
+      "reference": "ảnh hộp Doraemon hiện có"
     },
-    "rubricVersion": "v17"
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -75,10 +74,22 @@
       "by": "init",
       "status": "UPLOADED",
       "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-20T16:22:06Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "redo after Hub rejection:  — Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-20T16:22:06.443Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-17T04:49:28.502Z",
+    "at": "2026-10-20T16:22:06.443Z",
     "fields": [
       "description",
       "image"
