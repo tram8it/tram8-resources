@@ -3,6 +3,26 @@
 Bản chụp KiotViet sau lô 9 (20/10/2026). Đợt 1 đã chuẩn hoá *cách viết*; đợt này sửa ĐVT ghi *sai loại vỏ*.
 Ví dụ: Slide đựng ống nhưng ghi Hộp, kem que ghi Cái.
 
+## Chủ chốt 20/10/2026 → đề xuất cuối: `de-xuat-dot-2.csv` (370 SP; 180 SP có lốc/thùng)
+- **B1** cốc → **Ly**, tô → **Tô**: áp cho mọi hàng gốc còn ghi Cốc hoặc Bát (110 SP).
+- **B2** kem que → **Que** (54 SP).
+- **B3** đồ ăn đựng hũ: vỏ **tròn → Lọ**, vỏ **vuông → Hộp**.
+  - Đồ dưỡng (sáp nẻ, kem, Vaseline, mặt nạ, gel dạng hũ) và kem hộp 240 g (Oreo, Milo, KitKat) giữ **Hũ**. Tiếng Việt gọi những thứ này là hũ.
+  - Đã xem ảnh từng SP. Ô mai Phương Huyền và đậu Goody vỏ vuông → Hộp. Xúc xích lắc Heo Cao Bồi là cốc có nắp → Ly.
+- **B4** túi/bịch → **Gói** (24 SP).
+- **B5** giữ **Thanh** cho kẹo cuộn, không đổi.
+- **Yakult** giữ **Lọ**: giá 7.000 đ là giá 1 lọ, chỉ dòng quy cách trong mô tả ghi nhầm "lốc 5 chai".
+- **Coolkick** → **Thỏi**. **Bim ống YeGam** → **Ống**.
+- Lốc/thùng đã kiểm: không SP nào có hai dòng trùng hệ số; không có dòng lốc/thùng nào bị ngừng bán trong khi hàng gốc còn bán.
+- Sau đợt này, ĐVT hàng gốc còn 30 từ. Ngoài các từ chính, chỉ còn vài từ hiếm, đều có lý do:
+  - Bánh: xà bông cục.
+  - Lần: phí vận chuyển.
+  - Đôi: pin, ủng.
+  - Quả: trứng socola.
+  - Bình: bia 2 L.
+  - Phần: combo.
+  - Không còn Cốc, Bát, Túi, Bịch ở hàng gốc. Ở dòng lốc/thùng, Bịch/Túi vẫn dùng làm vỏ ngoài chứa nhiều gói.
+
 ## Cách rà
 - Với mỗi hàng gốc, so ĐVT với từ chỉ vỏ trong dòng **Quy cách** của mô tả. Đây là dòng đã viết khi xem ảnh từng SP.
   - 2.221 / 2.701 hàng gốc có dòng quy cách.
