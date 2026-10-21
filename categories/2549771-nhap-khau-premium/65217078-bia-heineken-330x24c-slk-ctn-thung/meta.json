@@ -17,18 +17,17 @@
     "description": "<h3 data-path-to-node=\"5\"><strong>Mô tả sản phẩm:</strong></h3><p data-path-to-node=\"6\"><strong>1. Giới thiệu sản phẩm</strong></p><ul data-path-to-node=\"7\"><li><p data-path-to-node=\"7,0,0\"><strong>Bia Heineken 330ml Lon Sleek Cao</strong> là dòng sản phẩm bia cao cấp mang thương hiệu toàn cầu đến từ tập đoàn <strong>Heineken</strong>, biểu tượng của chất lượng thượng hạng và phong cách sống hiện đại.</p></li><li><p data-path-to-node=\"7,1,0\">Với thiết kế lon cao (Sleek) thon gọn, sang trọng cùng hương vị đậm đà, tươi mới không thay đổi suốt hơn một thế kỷ qua, đây là sự lựa chọn hoàn hảo cho các bữa tiệc đẳng cấp, liên hoan, hội nghị hay làm quà biếu tặng lịch lãm.</p></li></ul><p data-path-to-node=\"10\"><strong>2. Thông tin chi tiết</strong></p><ul data-path-to-node=\"11\"><li><p data-path-to-node=\"11,0,0\"><strong>Thương hiệu:</strong> Heineken</p></li><li><p data-path-to-node=\"11,1,0\"><strong>Xuất xứ:</strong> Việt Nam (Sản xuất theo tiêu chuẩn toàn cầu của Heineken)</p></li><li><p data-path-to-node=\"11,2,0\"><strong>Loại sản phẩm:</strong> Bia Lager cao cấp</p></li><li><p data-path-to-node=\"11,3,0\"><strong>Nồng độ cồn (ABV):</strong> 5.0%</p></li><li><p data-path-to-node=\"11,4,0\"><strong>Dung tích:</strong> 330ml / lon (Kiểu lon Sleek cao)</p></li><li><p data-path-to-node=\"11,5,0\"><strong>Quy cách đóng gói:</strong> 24 lon / thùng</p></li><li><p data-path-to-node=\"11,6,0\"><strong>Hạn sử dụng:</strong> In rõ trên bao bì sản phẩm (thường 12 tháng kể từ ngày sản xuất)</p></li></ul><p data-path-to-node=\"12\"><strong>3. Hướng dẫn sử dụng và bảo quản</strong></p><ul data-path-to-node=\"13\"><li><p data-path-to-node=\"13,0,0\"><strong>Cách dùng:</strong> Ngon nhất khi uống lạnh, nhiệt độ thưởng thức lý tưởng từ 6°C - 10°C. Nên ướp lạnh trước khi uống, hạn chế dùng kèm đá trực tiếp để trọn vẹn hương vị đậm đà, nguyên bản.</p></li><li><p data-path-to-node=\"13,1,0\"><strong>Bảo quản:</strong> Nơi khô ráo, thoáng mát, tránh ánh nắng trực tiếp hoặc nơi có nhiệt độ cao.</p></li><li><p data-path-to-node=\"13,2,0\"><strong>Lưu ý:</strong> Sản phẩm không dành cho người dưới 18 tuổi và phụ nữ có thai hoặc đang cho con bú. <em>\"Đã uống rượu bia – Không lái xe\"</em>.</p></li></ul>",
     "exportedAt": "2026-10-21T08:30:12.288Z"
   },
-  "status": "UPLOADED",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3: ảnh lon bị cắt chữ hai bên (cận cảnh) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Lon sleek 330ml vẽ trọn nắp và đáy; chữ Heineken quấn quanh lon nên mặt trước chỉ thấy một phần, giống lon thật. Ảnh là 1 lon (đơn vị Lon).",
+    "reason": "chủ 21/10: ảnh các lon bia không đồng bộ → vẽ lại chính diện, ánh sáng đều, cùng cỡ trong khung như các lon khác → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: giữ thiết kế/chữ của lon; chỉ đổi góc, ánh sáng, độ nét; chữ nhỏ có thể mờ",
     "source": {
       "aiGenerated": true,
       "tool": "Gemini API",
       "model": "gemini-nano-banana-2.1",
-      "generatedAt": "2026-10-17",
+      "generatedAt": "2026-10-21",
       "style": "flat clean packaging render (v17)",
-      "reference": "ảnh Kingfoodmart (chỉ làm mẫu) + ảnh KiotViet",
-      "referenceUrl": "https://storage.googleapis.com/onelife-public/8934822212339.jpg"
+      "reference": "ảnh hiện tại của SP (KiotViet/đã duyệt) + lon cùng dòng 68505054 làm mẫu phong cách"
     },
     "rubricVersion": "v18"
   },
@@ -81,10 +80,22 @@
       "by": "owner",
       "status": "UPLOADED",
       "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-21T12:41:45Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 3, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-21T12:41:45.764Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: image"
     }
   ],
   "submitted": {
-    "at": "2026-10-17T15:15:14.410Z",
+    "at": "2026-10-21T12:41:45.764Z",
     "fields": [
       "image"
     ],

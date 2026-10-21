@@ -17,12 +17,19 @@
     "description": "Bia Camel Premium, lon thấp màu đỏ 330 ml, độ cồn 4,9%.\n\nQuy cách: 330 ml · lon\nNhà sản xuất/thương hiệu: Camel\nSản phẩm dành cho người từ 18 tuổi trở lên.",
     "exportedAt": "2026-10-21T08:30:12.288Z"
   },
-  "status": "UPLOADED",
+  "status": "READY",
   "image": {
-    "decision": "KEEP",
-    "reason": "I1–I9 đạt: packshot nền trắng lon Camel Premium đỏ 330 ml, 1:1, căn giữa; giống hệt ảnh SP 65960710",
-    "source": null,
-    "rubricVersion": "v20"
+    "decision": "REPLACE",
+    "reason": "chủ 21/10: ảnh các lon bia không đồng bộ → vẽ lại chính diện, ánh sáng đều, cùng cỡ trong khung như các lon khác → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: giữ thiết kế/chữ của lon; chỉ đổi góc, ánh sáng, độ nét; chữ nhỏ có thể mờ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-21",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh hiện tại của SP (KiotViet/đã duyệt) + lon cùng dòng 68505054 làm mẫu phong cách"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "REWRITE",
@@ -67,12 +74,25 @@
       "by": "owner",
       "status": "UPLOADED",
       "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-21T12:40:59Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-21T12:40:59.816Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-17T14:05:35.235Z",
+    "at": "2026-10-21T12:40:59.816Z",
     "fields": [
-      "description"
+      "description",
+      "image"
     ],
     "hubStatus": "PENDING"
   },

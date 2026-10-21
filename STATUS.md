@@ -2,7 +2,7 @@
 
 > Sinh tự động bởi `node tools/status.mjs`. **Không sửa tay.** Nguồn sự thật là `meta.json` của từng SP.
 
-Tổng 2546 SP · đã xem 2546 (100%) · xong 2297 · chờ chủ duyệt 247 · cần chụp 1 · hỏi chủ 1
+Tổng 2546 SP · đã xem 2546 (100%) · xong 2281 · chờ chủ duyệt 263 · cần chụp 1 · hỏi chủ 1
 
 Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` = giữ nguyên + đã lên web.
 
@@ -25,11 +25,11 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 | 15 | Mì gói | 0.0tr | 31 | 0 | 1 | 0 | 0 | 0 | 3 | 0 | 27 |
 | 16 | Kem ly / cốc / hộp nhỏ | 0.0tr | 31 | 0 | 0 | 0 | 0 | 0 | 5 | 0 | 26 |
 | 17 | Sữa chua uống | 0.0tr | 31 | 0 | 0 | 0 | 0 | 0 | 2 | 0 | 29 |
-| 18 | Lager Phổ Thông | 0.0tr | 29 | 0 | 10 | 0 | 1 | 0 | 0 | 0 | 18 |
+| 18 | Lager Phổ Thông | 0.0tr | 29 | 0 | 0 | 0 | 1 | 0 | 15 | 0 | 13 |
 | 19 | Mì trộn / mì khô / spaghetti (Gói) | 0.0tr | 26 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 26 |
 | 20 | Thức uống bổ sung dinh dưỡng | 0.0tr | 26 | 0 | 0 | 0 | 0 | 0 | 3 | 0 | 23 |
 | 21 | Bánh quy kem / kẹp kem | 0.0tr | 25 | 0 | 0 | 0 | 0 | 0 | 5 | 0 | 20 |
-| 22 | Nhập khẩu & premium | 0.0tr | 25 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 25 |
+| 22 | Nhập khẩu & premium | 0.0tr | 25 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 24 |
 | 23 | Lăn khử mùi | 0.0tr | 25 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 25 |
 | 24 | Hạt các loại | 0.0tr | 24 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 23 |
 | 25 | Bánh quy giòn / lạt | 0.0tr | 23 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 22 |

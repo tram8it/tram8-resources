@@ -17,12 +17,19 @@
     "description": "Bia Saigon Special dùng hoa bia Yakima nhập từ Mỹ và kỹ thuật dry hopping (thêm hoa bia một lần nữa trong lúc lên men), cho hương thơm tươi mới và vị sảng khoái. Độ cồn 4,9%. Lon cao 330 ml.\n\nThành phần: Nước, malt đại mạch, ngũ cốc, hoa bia.\nQuy cách: 330 ml · lon\nXuất xứ: Việt Nam · Nhà sản xuất/thương hiệu: SABECO (Tổng công ty CP Bia - Rượu - Nước giải khát Sài Gòn)\nBảo quản: Nơi khô ráo, thoáng mát; tránh nguồn nhiệt và ánh nắng trực tiếp.\nHướng dẫn sử dụng: Ngon hơn khi uống lạnh, tốt nhất ở 10–15 °C.\nSản phẩm dành cho người từ 18 tuổi trở lên.",
     "exportedAt": "2026-10-21T08:30:12.288Z"
   },
-  "status": "UPLOADED",
+  "status": "READY",
   "image": {
-    "decision": "KEEP",
-    "reason": "I1–I9 đạt: packshot nền trắng, đúng SP, 1:1, căn giữa",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "REPLACE",
+    "reason": "chủ 21/10: ảnh các lon bia không đồng bộ → vẽ lại chính diện, ánh sáng đều, cùng cỡ trong khung như các lon khác → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: giữ thiết kế/chữ của lon; chỉ đổi góc, ánh sáng, độ nét; chữ nhỏ có thể mờ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-21",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh hiện tại của SP (KiotViet/đã duyệt) + lon cùng dòng 68505054 làm mẫu phong cách"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "REWRITE",
@@ -64,12 +71,25 @@
       "by": "init",
       "status": "UPLOADED",
       "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-21T12:41:16Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-21T12:41:17.213Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-18T17:51:38.708Z",
+    "at": "2026-10-21T12:41:17.213Z",
     "fields": [
-      "description"
+      "description",
+      "image"
     ],
     "hubStatus": "PENDING"
   },

@@ -17,20 +17,19 @@
     "description": "Bia 333 của SABECO được ủ từ hoa bia Hallertau của Đức theo công thức và men bia kế thừa từ Pháp, cho hương bia nồng nàn và vị đầy đặn quen thuộc. Độ cồn 5,3%.<br><br>Thành phần: Nước, malt đại mạch, ngũ cốc, hoa bia.<br>Quy cách: 330 ml · lon<br>Xuất xứ: Việt Nam · Nhà sản xuất/thương hiệu: SABECO (Tổng công ty CP Bia - Rượu - Nước giải khát Sài Gòn)<br>Bảo quản: Nơi khô ráo, thoáng mát; tránh nguồn nhiệt và ánh nắng trực tiếp.<br>Hướng dẫn sử dụng: Ngon hơn khi uống lạnh, tốt nhất ở 10–15 °C.<br>Sản phẩm dành cho người từ 18 tuổi trở lên.",
     "exportedAt": "2026-10-21T08:30:12.288Z"
   },
-  "status": "UPLOADED",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I2/v2: ảnh KiotViet là bao bì 333 Export đời cũ; trang SABECO chỉ có banner nền màu → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: theo bao bì mới (owner rule: dùng bao bì mới nhất) dù ảnh cửa hàng là lon 333 Export cũ; chữ lớn và 3 dòng 'HOA BIA HALLERTAU ĐỨC…' khớp ảnh mẫu; chữ nhỏ khác để mờ",
+    "reason": "chủ 21/10: ảnh các lon bia không đồng bộ → vẽ lại chính diện, ánh sáng đều, cùng cỡ trong khung như các lon khác → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: giữ thiết kế/chữ của lon; chỉ đổi góc, ánh sáng, độ nét; chữ nhỏ có thể mờ",
     "source": {
       "aiGenerated": true,
       "tool": "Gemini API",
       "model": "gemini-nano-banana-2.1",
-      "generatedAt": "2026-10-17",
+      "generatedAt": "2026-10-21",
       "style": "flat clean packaging render (v17)",
-      "reference": "ảnh Kingfoodmart lon 333 bao bì mới cùng mã vạch 8935012413338 (chỉ làm mẫu); banner sabeco.com.vn xác nhận bao bì 'Triple The Excellence'",
-      "referenceUrl": "https://storage.googleapis.com/onelife-public/8935012413338.jpg"
+      "reference": "ảnh hiện tại của SP (KiotViet/đã duyệt) + lon cùng dòng 68505054 làm mẫu phong cách"
     },
-    "rubricVersion": "v17"
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "REWRITE",
@@ -78,10 +77,22 @@
       "by": "init",
       "status": "UPLOADED",
       "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-21T12:41:42Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-21T12:41:42.616Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-17T05:19:22.582Z",
+    "at": "2026-10-21T12:41:42.616Z",
     "fields": [
       "description",
       "image"
