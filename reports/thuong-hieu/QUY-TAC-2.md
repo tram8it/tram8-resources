@@ -1,0 +1,70 @@
+# Thương hiệu: đối chiếu quy tắc "khách gọi tên gì" (21/10/2026)
+
+Bản chụp KiotViet sau đợt ĐVT 2 (20/10/2026): 2.701 hàng gốc · 423 thương hiệu đang dùng · 188 SP để trống ·
+145 SP ghi "Hàng nội địa Trung".
+
+## Quy tắc (chủ, 21/10/2026)
+- **Khách gọi tên gì khi hỏi mua thì thương hiệu là tên đó.**
+- **Gộp về thương hiệu mẹ** khi logo mẹ in to trên bao bì và khách gọi theo tên mẹ ("bim Oishi").
+- **Giữ tên dòng sản phẩm** khi khách gọi theo tên dòng và công ty mẹ chỉ là nhà sản xuất (Poca, O'Star, Swing, Marine Boy).
+  Không gộp theo tên công ty.
+- **Mỗi thương hiệu chỉ một cách viết**, theo tên chính thức in trên bao bì.
+  Khác chữ là khác thương hiệu, ví dụ thêm "Stax", thêm "Foods".
+- **Không phải thương hiệu thì để trống.**
+
+So với các quyết định ngày 19/10 (`KE-HOACH.md`), quy tắc mới khớp gần hết:
+- Hảo Hảo, Mirinda, 7Up, Sting, Twister, Milo, KitKat vẫn tách riêng như cũ.
+- "Lay's Stax" đã gộp về "Lay's", đúng với quy tắc viết thống nhất.
+
+Có hai chỗ khác:
+1. Dòng con không còn tách theo số SP (≥ 3 SP) mà theo **logo mẹ có in to không**.
+   Vì vậy 4X và Pillows (đang tách vì có 4 và 8 SP) phải gộp về Oishi.
+2. Ngày 19/10 chủ chọn ghi "Hàng nội địa Trung". Quy tắc mới coi đó **không phải thương hiệu** và bảo hạn chế dùng.
+
+## Kiểm tra hiện trạng
+- **Viết thống nhất:** đạt.
+  - Không có hai thương hiệu nào trùng nhau khi bỏ hoa/thường, dấu và khoảng trắng như web làm.
+  - Cặp tiền tố duy nhất là "Budweiser" và "Budweiser Budvar". Đây là hai bia khác hãng, nên giữ cả hai.
+- **Tên công ty dùng làm thương hiệu:** không còn.
+- **Lay's:** 29 SP, một cách viết.
+
+## Đề xuất đổi
+
+| # | Hiện | Đổi thành | SP | Lý do | Báo session tram8-web? |
+|---|---|---|---|---|---|
+| 1 | 4X | **Oishi** | 4 | Logo Oishi in to, khách gọi "bim Oishi" (quy tắc của chủ) | Không: gộp vào thương hiệu đã có |
+| 2 | Pillows | **Oishi** | 8 | như trên | Không |
+| 3 | Samyang | **Buldak** | 4 | Mì tô gà cay, mì tô khô gà cay (đen, hoa hồng), Jjajang cay: đều là dòng Buldak | Không: Buldak đã có 15 SP |
+| 4 | Orion: "BánhOstar Tảo 33G" | **O'Star** | 1 | Ghi nhầm hãng; O'Star là thương hiệu riêng | Không |
+
+Cần chủ xem (đề xuất của tôi ghi trong ngoặc):
+
+| # | Hiện | SP | Câu hỏi |
+|---|---|---|---|
+| 5 | Samyang: "Mì trộn tương tàu 140g" | 1 | Có phải Buldak không? Nếu là mì Jjajang thường của Samyang thì để Samyang hay Khác? (Xem ảnh vỏ) |
+| 6 | Orion | 14 | Đây là nhóm lẫn lộn, gồm: Chocopie (2), Custas, YeGam (2), Miz, Boom (2), J. Boy, corn chip, 2Mix, con cá bống bang, kẹo họng, măng cay tiêu xanh. Theo quy tắc, khách gọi "Chocopie", "Custas", "Yegam" chứ không gọi "Orion". (Đề xuất: **Chocopie**, **Custas** tách riêng; "Măng cay tiêu xanh" và "Kẹo họng" gần như chắc không phải Orion, cần xem lại.) |
+| 7 | SuSu (6) · Probi (11) · Hayđấy (5) | 22 | Chủ quyết: giữ tên dòng hay gộp về Vinamilk. Vinamilk hiện có 29 SP: kem, sữa chua ăn, nước dừa… |
+| 8 | Hàng nội địa Trung | 145 (118 đang bán) | Bỏ trống hết, hay giữ? Hai cách đều bị xếp cuối trên web. Để trống thì không lẫn với thương hiệu thật; giữ thì còn lọc được nhóm hàng Trung. |
+
+Các dòng con khác vẫn giữ tên riêng, vì khách gọi theo tên dòng:
+- Pocky, Hi-Chew, Dars, Richeese, Richoco, Melona, Shin Ramyun, Cup Noodles, Xylitol, Toppo, Koala's March,
+  Hello Panda, Zoo Jelly, Ông Thọ…
+- Chủ thấy cái nào khách gọi theo tên mẹ thì báo, tôi gộp.
+
+## Cách làm: nhập Excel, **không sửa tay trên form**
+Phần "Cách sửa" trong quy tắc ghi là sửa tay trên web KiotViet. Nên dùng cách nhập Excel như ngày 19/10, vì:
+- **Lưu form sản phẩm** trên KiotViet tự đặt lại VAT (sự cố 17/10), đổi xuống dòng trong mô tả thành `<br>`,
+  và kéo mô tả của đơn vị lớn theo hàng gốc.
+- **Nhập Excel** chỉ ghi ô thương hiệu, có bản chụp trước/sau và `brand-diff` kiểm từng trường.
+  Cách này đã làm cho 2.023 SP mà không lỗi.
+
+Các bước:
+1. Chủ trả lời 5–8.
+2. Chủ xuất toàn bộ danh sách hàng hoá.
+3. Lô thử 3 SP (1 Pillows, 1 Samyang, O'Star).
+4. Lô còn lại.
+5. Nếu chủ chọn tên mới chưa có trên web (Chocopie, Custas…), báo session tram8-web để thêm logo và hạng
+   (`src/brand-logos.ts`, `public/brands/`, `src/brand-tiers.ts`).
+6. Sau khi gộp, xoá thương hiệu rỗng trên trang Thiết lập → Thương hiệu: 4X, Pillows, Samyang nếu không còn SP.
+
+Bảng chuẩn `data/brand-canon.json` sẽ được cập nhật theo quyết định, để `brand-propose.mjs` không tách ra lại.
