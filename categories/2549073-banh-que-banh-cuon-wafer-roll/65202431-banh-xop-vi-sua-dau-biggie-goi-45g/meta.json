@@ -20,23 +20,22 @@
   "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "ảnh minh hoạ (chủ 20/10: SP không được để trống ảnh) — route 4: bánh xốp kem sữa dâu trong túi trong, không nhãn. Khác hàng thật: không tìm được gói Biggie sữa dâu 45 g nên vẽ túi trong trơn, không vẽ logo Oishi/Biggie; hình bánh minh hoạ. Trước đó: ảnh minh hoạ",
+    "reason": "nhân viên chụp ảnh thật 21/10 → thay ảnh minh hoạ trung tính; Gemini vẽ lại packshot thẳng, nền trắng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: theo ảnh nhân viên: thiết kế, chữ; bỏ giấy tờ/bàn phía sau",
     "source": {
       "aiGenerated": true,
       "tool": "Gemini API",
       "model": "gemini-nano-banana-2.1",
       "generatedAt": "2026-10-21",
       "style": "flat clean packaging render (v17)",
-      "reference": "không có ảnh mẫu (vẽ từ tên SP)",
-      "illustration": true
+      "reference": "ảnh nhân viên chụp trên KiotViet 21/10"
     },
-    "rubricVersion": "v23"
+    "rubricVersion": "v18"
   },
   "description": {
-    "decision": "WRITE_NEW",
-    "reason": "D1: chưa có mô tả; viết ngắn chỉ từ tên SP",
+    "decision": "REWRITE",
+    "reason": "theo chữ in trên gói trong ảnh nhân viên chụp 21/10 (Oishi Biggie, Que lớn, Bổ sung Vitamin A, C và Canxi, Không màu nhân tạo); 45 g theo tên KiotViet",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v23"
   },
   "question": null,
   "history": [
@@ -81,10 +80,22 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-21T13:15:37Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-21T13:15:37.980Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-21T02:08:47.413Z",
+    "at": "2026-10-21T13:15:37.980Z",
     "fields": [
       "description",
       "image"

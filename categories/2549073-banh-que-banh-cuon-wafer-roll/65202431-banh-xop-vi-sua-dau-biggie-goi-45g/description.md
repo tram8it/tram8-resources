@@ -1,4 +1,4 @@
-Bánh xốp que Oishi Biggie vị sữa dâu, vỏ xốp giòn nhân kem, gói nhỏ tiện ăn vặt.
+Bánh xốp que Oishi Biggie vị sữa dâu, que lớn có nhân kem; trên gói ghi bổ sung vitamin A, C và canxi, không màu nhân tạo.
 
 Quy cách: 45 g · gói
-Nhà sản xuất/thương hiệu: Oishi · Biggie
+Thương hiệu: Oishi
