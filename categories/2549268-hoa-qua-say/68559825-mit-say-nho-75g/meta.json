@@ -17,18 +17,25 @@
     "description": null,
     "exportedAt": "2026-10-21T08:30:12.288Z"
   },
-  "status": "TODO",
+  "status": "READY",
   "image": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "REPLACE",
+    "reason": "I3/I4: ảnh chụp gói trên kệ, lẫn gói khác; không tìm được ảnh hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: dải tên thương hiệu trên đỉnh túi bị che trong ảnh mẫu, Gemini vẽ chữ THUẬN HƯƠNG",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-21",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (ảnh nhân viên chụp 21/10, chỉ làm mẫu)"
+    },
+    "rubricVersion": "v23"
   },
   "description": {
-    "decision": null,
-    "reason": null,
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; không có trang hãng — mô tả ngắn chỉ từ tên SP và chữ in mặt trước bao bì (ảnh KiotViet); không ghi khối lượng khi gói không đọc được",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v23"
   },
   "question": null,
   "history": [
@@ -37,6 +44,26 @@
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-21T08:42:43Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references; description WRITE_NEW from pack front"
+    },
+    {
+      "at": "2026-10-21T08:43:08.873Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-21T08:43:08.873Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

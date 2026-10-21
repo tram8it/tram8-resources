@@ -66,3 +66,7 @@ Hàng thật xác định theo mã vạch; ảnh + mô tả đã làm theo hàng
 | 67953565 | Khoai Tây Que Vị Fantian | Que cay 翻天娃 (Fantianwa) vị khoai tây chiên (翻天薯条味) — mì gia vị 调味面制品, không phải khoai tây que | ảnh nhân viên 19/10 |
 | 66922789 | Măng Nấm Chay Vị Ớt Ngâm | Gói thật là 素耳尖 泡椒味 (snack chay konjac "tai chay" vị ớt ngâm) 16 g, hãng 银城湘味 — không phải măng nấm | ảnh KiotViet |
 | 67814936 | Rau Tiến Vua Muối Chua Cay 20g | Gói thật là 石磨小镇 我家菜园子 贡菜 vị cay thơm (香辣味), bán theo cân — không phải hãng 3H, không ghi 20 g | ảnh nhân viên 19/10 |
+| 68562071 | Thịt Bò Chay Xé Sợi ( Hương Vị Vịt BBQ ) (Cái) | Gói trong ảnh là 好味屋 手撕素牛排 **vị vịt đen** (黑鸭味), không phải "vịt BBQ" — có thể bị tráo tên với 68562174 | ảnh KiotViet 21/10 |
+| 68562174 | Thịt Bò Chay Xe Sợi ( Hương Vị Vịt Đen ) (Cái) | Gói trong ảnh là 好味屋 手撕素牛排 **vị nướng BBQ** (烧烤味), không phải vịt đen — có thể bị tráo tên với 68562071 | ảnh KiotViet 21/10 |
+| 68562310 | Kẹo Dẻo Tianfeng Drift Bottle ( Kẹo Dẻo Vị Sô Cô La ) (Lọ) | Nhãn ghi 巧克力味石头糖 = **kẹo viên hình hòn sỏi vị sô cô la**, không phải kẹo dẻo | ảnh KiotViet 21/10 |
+| 68562087 | Xá Xíu Thơm ( Vị Thơm Cay ) (Gói) | Gói là 双娇 老长沙 香卤丝 = sợi bột mì nêm gia vị (调味面制品) vị cay thơm, **không phải xá xíu** | ảnh KiotViet 21/10 |
