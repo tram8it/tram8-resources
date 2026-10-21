@@ -17,12 +17,20 @@
     "description": null,
     "exportedAt": "2026-10-21T08:30:12.288Z"
   },
-  "status": "TODO",
+  "status": "READY",
   "image": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "REPLACE",
+    "reason": "I3/I4: ảnh KiotViet chụp điện thoại trên thùng hàng, có tem thuế; hãng không có ảnh riêng chai 100 ml → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: bỏ tem thuế trên nắp; dòng nồng độ vẽ '19%±2%vol' (nhãn thật '19%+/-2%vol'); chữ dập nổi vai chai tượng trưng",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-21",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet chai thật 100 ml + ảnh chính hãng ruoumam.com.vn (nhãn bản 530 ml, ảnh bộ MẦM mini 100 ml) — chỉ làm mẫu",
+      "referenceUrl": "https://ruoumam.com.vn/san-pham/mua-sau-ha-noi-mini/"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": null,
@@ -37,6 +45,12 @@
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-21T08:45:06Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
     }
   ]
 }
