@@ -17,12 +17,19 @@
     "description": null,
     "exportedAt": "2026-10-20T16:17:47.475Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I4: ảnh KiotViet tay cầm hũ, không thấy nhãn trước; tra lại 18/10 (mã vạch Kingfoodmart/OFF, \"hạnh nhân Phương Huyền\", \"Phương Huyền Food\" — không có trang hãng/ảnh hũ hạnh nhân nguyên vỏ) → cần chụp mặt nhãn hũ · tra lại 19/10 (Yandex ảnh: \"hạt hạnh nhân Phương Huyền\"; \"Phương Huyền hạnh nhân hũ\"; \"hạnh nhân rang bơ hũ Phương Huyền\") — không có ảnh đúng SP/vị",
-    "source": null,
-    "rubricVersion": "v20"
+    "reason": "ảnh minh hoạ (chủ 20/10: SP không được để trống ảnh) — route 1: vẽ lại hũ thật từ ảnh KiotViet của SP. Khác hàng thật: ảnh minh hoạ hũ nhựa trong nắp xanh đựng hạnh nhân nguyên vỏ theo ảnh KiotViet; nhãn trước chưa thấy nên không vẽ nhãn/chữ. Trước đó: I3/I4: ảnh KiotViet tay cầm hũ, không thấy nhãn trước; tra lại 18/10 (mã vạch Kingfoodmart/OFF, \"hạnh nhân Phương Huyền\", \"Phương Huyền Food\" — không có trang hãng/ảnh hũ hạnh nhân nguyên vỏ) → cần chụp mặt nhãn hũ · tra lại 19/10 (Yandex ảnh: \"hạt hạnh nhân Phương Huyền\"; \"Phương Huyền hạnh nhân hũ",
+    "source": {
+      "aiGenerated": true,
+      "illustration": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-21",
+      "reference": "ảnh KiotViet của SP (work/gemini/64865432/refs/3-kiotviet.jpg)"
+    },
+    "rubricVersion": "v23"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -61,6 +68,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "np19 re-research 19/10 (image search): still no image of this exact product → NEEDS_PHOTO"
+    },
+    {
+      "at": "2026-10-21T01:52:42Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "illustration 20/10: route 1: vẽ lại hũ thật từ ảnh KiotViet của SP"
+    },
+    {
+      "at": "2026-10-21T01:52:42.731Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-21T01:52:42.731Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }
