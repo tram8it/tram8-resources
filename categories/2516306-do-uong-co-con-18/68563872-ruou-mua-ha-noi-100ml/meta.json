@@ -20,7 +20,7 @@
   "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I4: ảnh KiotViet chụp điện thoại trên thùng hàng, có tem thuế; hãng không có ảnh riêng chai 100 ml → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: bỏ tem thuế trên nắp; dòng nồng độ vẽ '19%±2%vol' (nhãn thật '19%+/-2%vol'); chữ dập nổi vai chai tượng trưng",
+    "reason": "I3/I4: ảnh KiotViet chụp điện thoại trên thùng hàng, có tem thuế; hãng không có ảnh riêng chai 100 ml → Gemini vẽ lại từ ảnh mẫu (v12–v15, v17, v19: đúng chai đang bán, 1 chai/đơn vị Chai, đồng bộ dãy 100 ml); đã so chữ/logo với mẫu. Khác gói thật: bỏ tem thuế trên nắp; dòng nồng độ vẽ '19%±2%vol' (nhãn thật '19%+/-2%vol'); chữ dập nổi vai chai tượng trưng",
     "source": {
       "aiGenerated": true,
       "tool": "Gemini API",
@@ -30,13 +30,16 @@
       "reference": "ảnh KiotViet chai thật 100 ml + ảnh chính hãng ruoumam.com.vn (nhãn bản 530 ml, ảnh bộ MẦM mini 100 ml) — chỉ làm mẫu",
       "referenceUrl": "https://ruoumam.com.vn/san-pham/mua-sau-ha-noi-mini/"
     },
-    "rubricVersion": "v18"
+    "rubricVersion": "v23"
   },
   "description": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết theo khuôn _category.md (chỉ dữ kiện, 2 dòng 18+ cố định). Tên + dung tích theo nhãn; nguyên liệu chính (quả sấu và gừng) theo trang hãng; nồng độ 19% ± 2% vol đọc trên nhãn chai thật (ảnh KiotViet); xuất xứ Việt Nam theo trang hãng; thương hiệu MẦM Craft Distillery in trên nhãn. Không ghi công ty sản xuất vì nhãn chai này không đọc được (nhãn mẫu 530 ml năm 2022 in Hộ KD Bùi Anh Minh / NPP CTCP Vỏ Cây Vàng, chủ tiền tố 8938528).",
+    "source": {
+      "url": "https://ruoumam.com.vn/san-pham/mua-sau-ha-noi-mini/",
+      "fetchedAt": "2026-10-21"
+    },
+    "rubricVersion": "v23"
   },
   "question": null,
   "history": [
@@ -50,7 +53,21 @@
       "at": "2026-10-21T08:45:06Z",
       "by": "ai",
       "status": "READY",
-      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references; description WRITE_NEW from label + ruoumam.com.vn (https://ruoumam.com.vn/san-pham/mua-sau-ha-noi-mini/)"
+    },
+    {
+      "at": "2026-10-21T08:46:29.025Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-21T08:46:29.025Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

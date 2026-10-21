@@ -2,7 +2,7 @@
 
 > Sinh tự động bởi `node tools/status.mjs`. **Không sửa tay.** Nguồn sự thật là `meta.json` của từng SP.
 
-Tổng 2546 SP · đã xem 2536 (100%) · xong 2297 · chờ chủ duyệt 237 · cần chụp 1 · hỏi chủ 1
+Tổng 2546 SP · đã xem 2546 (100%) · xong 2297 · chờ chủ duyệt 247 · cần chụp 1 · hỏi chủ 1
 
 Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` = giữ nguyên + đã lên web.
 
@@ -101,7 +101,7 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 | 91 | Bắp rang bơ - Popcorn | 0.0tr | 10 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 10 |
 | 92 | Toner - Xịt khoáng - Dưỡng ẩm | 0.0tr | 10 | 0 | 5 | 0 | 0 | 0 | 1 | 0 | 4 |
 | 93 | Phô mai | 0.0tr | 10 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 10 |
-| 94 | Đồ uống có cồn (18+) | 0.0tr | 10 | 10 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 94 | Đồ uống có cồn (18+) | 0.0tr | 10 | 0 | 0 | 0 | 0 | 0 | 10 | 0 | 0 |
 | 95 | Bắp & khoai giòn | 0.0tr | 9 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 9 |
 | 96 | Bao cao su | 0.0tr | 9 | 0 | 6 | 0 | 0 | 0 | 0 | 0 | 3 |
 | 97 | Dụng cụ tắm và vệ sinh cá nhân | 0.0tr | 9 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 8 |
