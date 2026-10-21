@@ -68,3 +68,30 @@ Các bước:
 6. Sau khi gộp, xoá thương hiệu rỗng trên trang Thiết lập → Thương hiệu: 4X, Pillows, Samyang nếu không còn SP.
 
 Bảng chuẩn `data/brand-canon.json` sẽ được cập nhật theo quyết định, để `brand-propose.mjs` không tách ra lại.
+
+## Rà thương hiệu con (chủ 21/10: "rà các thương hiệu con, có gì báo để gộp hết"; Twister → Pepsi)
+Chỉ tính những thương hiệu con mà thương hiệu mẹ **cũng đang là thương hiệu trên KiotViet**. Tên công ty không tính
+(Procter & Gamble, Unilever, Masan…), vì quy tắc không gộp theo tên công ty.
+
+| Mẹ (SP hiện có) | Con (SP) | Đề xuất |
+|---|---|---|
+| Pepsi (7) | Twister (5) | **gộp** (chủ đã chốt) |
+| Samyang (5 → 1) | Buldak (15) | **gộp về Samyang** (chủ: "Samyang nổi tiếng hơn") |
+| Oishi (58) | 4X (4), Pillows (8) | **gộp** (đang làm) |
+| Vinamilk (29) | Probi (11), SuSu (6) | **gộp** (đang làm) · Hayđấy (5) · Ông Thọ (4) chờ chủ |
+| Lotte (27) | Xylitol (21), Doraemon (4), Koala's March (3), Toppo (3), Kkokalcorn (3), Suku Suku (3), Fusen Nomi (2) | gộp; logo LOTTE in to trên mọi gói |
+| Orion (15) | O'Star (7), Swing (5), Marine Boy (5), Bánh Gạo An (4), C'est Bon (3) | quy tắc 21/10 giữ O'Star/Swing/Marine Boy; nay chủ muốn gộp hết thì gộp |
+| Nabati (11) | Richoco (8), Richeese (6) | gộp |
+| Nongshim (20) | Shin Ramyun (5) | gộp |
+| Binggrae (10) | Melona (4) | gộp |
+| Meiji (6) | Hello Panda (3) | gộp |
+| Nissin (4) | Cup Noodles (4), Raoh (3) | gộp |
+| Gery (3) | Chocolatos (4) | gộp |
+| OKF (3) | Vtalk (3) | gộp |
+| LC Foods (3) | Oh Teen (2) | gộp |
+| Doctor Care (3) | Glamiss (1) | gộp |
+| Biswell (1) | Pipper (2) | gộp |
+| Heineken (1) | Tiger (2), Strongbow (3) | **không gộp**: Tiger là bia khác, Strongbow là cider; khách không gọi "Heineken" |
+
+Các thương hiệu cùng công ty nhưng không có "mẹ" là thương hiệu (vd Mirinda 2, 7Up 1, Sting 4 của Suntory PepsiCo)
+vẫn là thương hiệu riêng. Chủ muốn gộp Mirinda/7Up vào Pepsi thì báo.
