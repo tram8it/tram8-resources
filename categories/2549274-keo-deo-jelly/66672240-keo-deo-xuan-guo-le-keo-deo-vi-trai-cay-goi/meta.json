@@ -20,22 +20,22 @@
   "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "ảnh minh hoạ (chủ 20/10: SP không được để trống ảnh) — route 2: vẽ theo hũ 4 ngăn 旋果乐 Tianfeng cùng dòng (66672223, cùng mã GS1 6910289). Khác hàng thật: ảnh minh hoạ: dáng hũ 4 ngăn, logo Tian Feng và chữ 旋果乐 theo SP cùng dòng (đơn vị KiotViet là Hộp); màu hồng của nắp/nhãn và màu kẹo là suy đoán; bỏ chữ phụ, khối lượng vì chưa thấy hộp thật. Trước đó: I1: chưa có ảnh; tra lại 18/10 (mã vạch Kingfoodmart/OFF, \"炫果乐 软糖\", \"Xuan Guo Le kẹo dẻo trái cây\") — không có ảnh → cần chụp · tra lại 19/10 (Yandex ảnh: \"炫果乐 软糖\"; \"炫果乐 水果软糖\"; \"Xuan Guo Le gummy\") — không có ảnh đúng SP/vị",
+    "reason": "nhân viên chụp ảnh thật 21/10 → thay ảnh minh hoạ; Gemini vẽ lại packshot nền trắng, bỏ dấu ngày in → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: theo ảnh nhân viên; bỏ dấu NSX/HSD; chữ nhỏ có thể khác",
     "source": {
       "aiGenerated": true,
-      "illustration": true,
       "tool": "Gemini API",
       "model": "gemini-nano-banana-2.1",
       "generatedAt": "2026-10-21",
-      "reference": "ảnh đã duyệt của SP cùng dòng 66672223 (image.webp)"
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh nhân viên chụp trên KiotViet 21/10"
     },
-    "rubricVersion": "v23"
+    "rubricVersion": "v18"
   },
   "description": {
-    "decision": "WRITE_NEW",
-    "reason": "D1: chưa có mô tả; không có trang hãng/ảnh bao bì — mô tả ngắn chỉ từ tên SP và đơn vị bán; tên ghi '(Gói)' nhưng đơn vị là Hộp nên bỏ mục quy cách",
+    "decision": "REWRITE",
+    "reason": "theo chữ in trên gói trong ảnh nhân viên chụp 21/10",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v23"
   },
   "question": null,
   "history": [
@@ -86,10 +86,22 @@
       "by": "init",
       "status": "READY",
       "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-21T11:13:20Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-21T11:13:20.188Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-21T02:02:00.008Z",
+    "at": "2026-10-21T11:13:20.188Z",
     "fields": [
       "description",
       "image"

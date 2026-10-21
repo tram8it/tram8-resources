@@ -20,22 +20,22 @@
   "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "ảnh minh hoạ (chủ 20/10: SP không được để trống ảnh) — route 4: ảnh minh hoạ trung tính chính sản phẩm, không nhãn/chữ/thương hiệu. Khác hàng thật: ảnh minh hoạ trung tính: bao bì trong suốt không nhãn, không chữ, không logo; hình dáng/màu sản phẩm suy theo tên SP, chưa thấy bao bì thật. Trước đó: I1: chưa có ảnh; tra lại 18/10 (mã vạch Kingfoodmart/OFF, \"可乐瓶 软糖 瓶装 6910289452398\", \"kẹo dẻo cola chai\") — không có ảnh → cần chụp · tra lại 19/10 (Yandex ảnh: \"可乐瓶软糖\"; \"kẹo dẻo chai cola\"; \"cola bottle gummy jar China\") — không có ảnh đúng SP/vị",
+    "reason": "nhân viên chụp ảnh thật 21/10 → thay ảnh minh hoạ; Gemini vẽ lại packshot nền trắng, bỏ dấu ngày in → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: theo ảnh nhân viên; bỏ dấu NSX/HSD; chữ nhỏ có thể khác",
     "source": {
       "aiGenerated": true,
-      "illustration": true,
       "tool": "Gemini API",
       "model": "gemini-nano-banana-2.1",
       "generatedAt": "2026-10-21",
-      "reference": "không có ảnh mẫu (chỉ tên SP; đơn vị Chai)"
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh nhân viên chụp trên KiotViet 21/10"
     },
-    "rubricVersion": "v23"
+    "rubricVersion": "v18"
   },
   "description": {
-    "decision": "WRITE_NEW",
-    "reason": "D1: chưa có mô tả; không có trang hãng/ảnh bao bì — mô tả ngắn chỉ từ tên SP và đơn vị bán",
+    "decision": "REWRITE",
+    "reason": "theo chữ in trên gói trong ảnh nhân viên chụp 21/10",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v23"
   },
   "question": null,
   "history": [
@@ -86,10 +86,22 @@
       "by": "init",
       "status": "READY",
       "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-21T11:13:16Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-21T11:13:16.770Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-21T02:14:34.001Z",
+    "at": "2026-10-21T11:13:16.770Z",
     "fields": [
       "description",
       "image"
