@@ -1,0 +1,105 @@
+{
+  "kiotProductId": "68203058",
+  "code": "SP878228",
+  "barcode": "8935335403313",
+  "name": "Banh Bao TP YMach Ga Nam Pho Mai",
+  "fullName": "Banh Bao TP YMach Ga Nam Pho Mai (Cái)",
+  "brand": "Thọ Phát",
+  "unit": "Cái",
+  "category": {
+    "kiotCategoryId": "2547488",
+    "name": "Món hấp",
+    "path": "Món ngon Trạm 8 > Món hấp"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/013db852f8fe2921c99947680b5a69c7db52be27dc5bc714b0e6f62de412a367.webp",
+    "description": "Bánh bao Thọ Phát nhân gà, nấm và phô mai.\n\nQuy cách: cái\nThương hiệu: Thọ Phát",
+    "exportedAt": "2026-10-21T08:30:12.288Z"
+  },
+  "status": "READY",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "chủ 20/10: SP chưa có ảnh → vẽ ảnh món (v18) → ảnh món ăn Gemini vẽ từ ảnh bao bì (v18: món hấp bán lẻ hiện cái bánh và nhân); ảnh minh hoạ. Khác hàng thật: ảnh minh hoạ: vỏ yến mạch và nhân gà nấm phô mai theo tên SP; chưa có ảnh gói thật",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-20",
+      "style": "food photo, whole + cut showing filling (v18)",
+      "reference": "ảnh bánh bao Thọ Phát cùng dòng đã duyệt (kiểu ảnh món)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết ngắn chỉ từ tên SP (chưa rõ chữ 'YMach' trong tên nên bỏ qua)",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:27:27.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "b28 review: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T08:10:42.667Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "wave3: no pack or bun reference found; v18 food render needs pack photo"
+    },
+    {
+      "at": "2026-10-18T18:46:02Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "18/10 re-research (>=3 searches): still no image of this exact product → NEEDS_PHOTO"
+    },
+    {
+      "at": "2026-10-19T07:38:02Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "19/10 re-research with image search (owner request): no image of this exact product/variant found"
+    },
+    {
+      "at": "2026-10-20T16:42:18Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "redo after Hub rejection:  — Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-20T16:42:18.850Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-21T08:30:34.700Z",
+      "by": "init",
+      "status": "READY",
+      "note": "category moved 2547533-thuc-pham-che-bien-san -> 2547488-mon-hap"
+    },
+    {
+      "at": "2026-10-21T08:30:34.700Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-20T16:42:18.850Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
+}

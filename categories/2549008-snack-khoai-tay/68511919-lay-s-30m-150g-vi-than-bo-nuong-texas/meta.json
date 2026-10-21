@@ -1,0 +1,119 @@
+{
+  "kiotProductId": "68511919",
+  "code": "8936079121815",
+  "barcode": "8936079121815",
+  "name": "LAYS WAVY THAN BO NUONG TEXAS 150G",
+  "fullName": "LAYS WAVY THAN BO NUONG TEXAS 150G (Gói)",
+  "brand": "Lay's",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2549008",
+    "name": "Snack khoai tây",
+    "path": "Đồ ăn vặt > Snacks > Snack khoai tây"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/3edbca1b51766408f4a62b61a127b037dd332b541d6113c9057bc3ec90a1e44c.webp",
+    "description": "Snack khoai tây Lay's Wavy lát gợn sóng, vị thăn bò nướng Texas (Texas Tenderloin Steak), gói lớn Family Pack.\n\nQuy cách: 150 g · gói\nThương hiệu: Lay's (PepsiCo)",
+    "exportedAt": "2026-10-21T08:30:12.288Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I3/I4: ảnh KiotViet chụp tay, gói nhăn bóng, nền kho; trang hãng laysvietnam.com chặn bot (Incapsula) → Gemini vẽ lại (v12–v15, đồng bộ dãy Lay's đã vẽ bằng Gemini) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: huy hiệu FAMILY PACK màu xanh lá theo ảnh cửa hàng (ảnh Kingfoodmart là bản huy hiệu xanh dương); ô dinh dưỡng và chú thích nhỏ góc phải dưới được làm mờ (Gemini tự bịa số) — mặt trước không in khối lượng đọc được; các chữ lớn (Lay's, tên vị, tiếng Anh, Snack Khoai Tây) khớp mẫu",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh render Kingfoodmart đúng mã vạch (chỉ làm mẫu) + ảnh KiotViet của cửa hàng",
+      "referenceUrl": "https://storage.googleapis.com/onelife-public/8936079121815.jpg"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; mô tả ngắn chỉ từ dữ kiện chắc chắn (tên SP, thương hiệu, vị, chữ in mặt trước bao bì; khối lượng theo tên KiotViet nếu có); không có trang hãng truy cập được",
+    "source": null,
+    "rubricVersion": "v21"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-17T17:36:27Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T17:37:03.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "new short description from pack front + name"
+    },
+    {
+      "at": "2026-10-17T17:37:39.237Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T03:19:05.400Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-21T08:30:34.700Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "category moved 2501062-snacks -> 2549008-snack-khoai-tay"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T17:37:39.237Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T17:44:03.779Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T17:44:03.779Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/3edbca1b51766408f4a62b61a127b037dd332b541d6113c9057bc3ec90a1e44c.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/10/17/tram8/97abeaeb24ef4292afdd1a08d00613db.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Snack khoai tây Lay's Wavy lát gợn sóng, vị thăn bò nướng Texas (Texas Tenderloin Steak), gói lớn Family Pack.\n\nQuy cách: 150 g · gói\nThương hiệu: Lay's (PepsiCo)",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}
