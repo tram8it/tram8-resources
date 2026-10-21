@@ -17,12 +17,19 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3: ảnh KiotViet là đĩa trái cây đổ ra; tra lại 18/10 (mã vạch Kingfoodmart/OFF, \"Phương Huyền trái cây sấy 245g hũ\", \"Phương Huyền Food\") — không có ảnh bao bì → cần chụp mặt trước gói · tra lại 19/10 (Yandex ảnh: \"trái cây sấy 245g Phương Huyền\"; \"trái cây sấy thập cẩm hũ 245g\"; \"Phương Huyền Food trái cây sấy\") — không có ảnh đúng SP/vị",
-    "source": null,
-    "rubricVersion": "v20"
+    "reason": "ảnh minh hoạ (chủ 20/10: SP không được để trống ảnh) — route 4: ảnh minh hoạ trung tính chính sản phẩm, không nhãn/chữ/thương hiệu. Khác hàng thật: ảnh minh hoạ trung tính: bao bì trong suốt không nhãn, không chữ, không logo; hình dáng/màu sản phẩm suy theo tên SP, chưa thấy bao bì thật. Trước đó: I3: ảnh KiotViet là đĩa trái cây đổ ra; tra lại 18/10 (mã vạch Kingfoodmart/OFF, \"Phương Huyền trái cây sấy 245g hũ\", \"Phương Huyền Food\") — không có ảnh bao bì → cần chụp mặt trước gói · tra lại 19/10 (Yandex ảnh: \"trái cây sấy 245g Phương Huyền\"; \"trái cây sấy thập cẩm hũ 245g\"; \"Phương Huyền Food",
+    "source": {
+      "aiGenerated": true,
+      "illustration": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-21",
+      "reference": "ảnh KiotViet của SP (đĩa trái cây sấy, work/gemini/64865425/refs/3-kiotviet.jpeg) cho hình miếng trái cây"
+    },
+    "rubricVersion": "v23"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -61,6 +68,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "np19 re-research 19/10 (image search): still no image of this exact product → NEEDS_PHOTO"
+    },
+    {
+      "at": "2026-10-21T02:14:29Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "illustration 20/10: route 4: ảnh minh hoạ trung tính chính sản phẩm, không nhãn/chữ/thương hiệu"
+    },
+    {
+      "at": "2026-10-21T02:14:30.168Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-21T02:14:30.168Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

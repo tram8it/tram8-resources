@@ -17,12 +17,19 @@
     "description": null,
     "exportedAt": "2026-10-20T16:17:47.475Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh; tra lại 18/10 (mã vạch Kingfoodmart/OFF/web, \"bột gạo xào nước sốt gà\", \"鸡汁 米粉 零食\") — không có ảnh đúng mã → cần chụp · tra lại 19/10 (Yandex ảnh: \"鸡汁米粉 零食\"; \"鸡汁味 米粉 辣条\"; \"bột gạo xào nước sốt gà\") — không có ảnh đúng SP/vị",
-    "source": null,
-    "rubricVersion": "v20"
+    "reason": "ảnh minh hoạ (chủ 20/10: SP không được để trống ảnh) — route 4: ảnh minh hoạ trung tính chính sản phẩm, không nhãn/chữ/thương hiệu. Khác hàng thật: ảnh minh hoạ trung tính: bao bì trong suốt không nhãn, không chữ, không logo; hình dáng/màu sản phẩm suy theo tên SP, chưa thấy bao bì thật. Trước đó: I1: chưa có ảnh; tra lại 18/10 (mã vạch Kingfoodmart/OFF/web, \"bột gạo xào nước sốt gà\", \"鸡汁 米粉 零食\") — không có ảnh đúng mã → cần chụp · tra lại 19/10 (Yandex ảnh: \"鸡汁米粉 零食\"; \"鸡汁味 米粉 辣条\"; \"bột gạo xào nước sốt gà\") — không có ảnh đúng SP/vị",
+    "source": {
+      "aiGenerated": true,
+      "illustration": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-21",
+      "reference": "không có ảnh mẫu (chỉ tên SP)"
+    },
+    "rubricVersion": "v23"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -61,6 +68,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "np19 re-research 19/10 (image search): still no image of this exact product → NEEDS_PHOTO"
+    },
+    {
+      "at": "2026-10-21T02:14:48Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "illustration 20/10: route 4: ảnh minh hoạ trung tính chính sản phẩm, không nhãn/chữ/thương hiệu"
+    },
+    {
+      "at": "2026-10-21T02:14:48.898Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-21T02:14:48.898Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

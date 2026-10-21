@@ -20,23 +20,22 @@
   "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "ảnh minh hoạ (chủ 20/10: SP không được để trống ảnh) — route 2: vẽ theo bố cục gói Toto Mini Pocket cùng dòng, đổi chữ vị/màu/hình. Khác hàng thật: màu xanh lá, gà con và hình khô gà lá chanh suy ra; chữ theo tên SP; không ghi khối lượng. Trước đó: ảnh minh hoạ",
+    "reason": "chủ 21/10 gửi ảnh gói thật: Khô gà lá chanh Phương Huyền Food → thay ảnh minh hoạ Toto sai hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: theo ảnh: nền vàng lửa đỏ, logo Phương Huyền, Mới!!, cửa sổ khô gà, gà trống; không ghi khối lượng",
     "source": {
       "aiGenerated": true,
       "tool": "Gemini API",
       "model": "gemini-nano-banana-2.1",
       "generatedAt": "2026-10-21",
       "style": "flat clean packaging render (v17)",
-      "reference": "ảnh đã duyệt SP cùng dòng Toto Food Mini Pocket 66646853 (bò sa tế), 66646840 (heo cháy tỏi)",
-      "illustration": true
+      "reference": "ảnh chủ gửi qua chat 21/10 (gói Phương Huyền Food)"
     },
-    "rubricVersion": "v23"
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
-    "reason": "D1: chưa có mô tả; mô tả ngắn chỉ từ tên hàng",
+    "reason": "D1: chưa có mô tả; từ tên hàng + chữ in trên gói (ảnh chủ gửi 21/10: PHUONG HUYEN FOOD)",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v23"
   },
   "question": null,
   "history": [
@@ -81,10 +80,28 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-21T02:17:31Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "redo after Hub rejection:  — Gemini API redraw (attempt 3, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-21T02:17:31.555Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-21T02:17:45.937Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-21T02:02:49.967Z",
+    "at": "2026-10-21T02:17:45.937Z",
     "fields": [
       "description",
       "image"

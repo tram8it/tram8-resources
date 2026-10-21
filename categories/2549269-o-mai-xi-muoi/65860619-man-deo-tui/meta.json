@@ -17,18 +17,25 @@
     "description": null,
     "exportedAt": "2026-10-20T16:17:47.475Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I6: ảnh KiotViet chỉ là chén mận; tra lại 18/10 (mã vạch Kingfoodmart/OFF, \"Posi mận dẻo túi\", trang Behance posifood) — không rõ nhãn hiệu, không có ảnh túi → cần chụp túi · tra lại 19/10 (Yandex ảnh: \"mận dẻo túi Posi\"; \"Posi food mận dẻo\"; \"mận dẻo Posi\") — không có ảnh đúng SP/vị",
-    "source": null,
-    "rubricVersion": "v20"
+    "reason": "ảnh minh hoạ (chủ 20/10: SP không được để trống ảnh) — route 4: ảnh minh hoạ trung tính chính sản phẩm, không nhãn/chữ/thương hiệu. Khác hàng thật: ảnh minh hoạ trung tính: bao bì trong suốt không nhãn, không chữ, không logo; hình dáng/màu sản phẩm suy theo tên SP, chưa thấy bao bì thật. Trước đó: I3/I6: ảnh KiotViet chỉ là chén mận; tra lại 18/10 (mã vạch Kingfoodmart/OFF, \"Posi mận dẻo túi\", trang Behance posifood) — không rõ nhãn hiệu, không có ảnh túi → cần chụp túi · tra lại 19/10 (Yandex ảnh: \"mận dẻo túi Posi\"; \"Posi food mận dẻo\"; \"mận dẻo Posi\") — không có ảnh đúng SP/vị",
+    "source": {
+      "aiGenerated": true,
+      "illustration": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-21",
+      "reference": "ảnh KiotViet của SP (chén mận, work/gemini/65860619/refs/3-kiotviet.jpeg) cho hình quả mận"
+    },
+    "rubricVersion": "v23"
   },
   "description": {
-    "decision": "ASK_OWNER",
-    "reason": "Chưa có mô tả; chờ chủ xác nhận hãng và khối lượng",
+    "decision": "WRITE_NEW",
+    "reason": "D1: mô tả ngắn chỉ từ dữ kiện chắc chắn (tên SP, đơn vị, khối lượng trong tên)",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v23"
   },
   "question": null,
   "history": [
@@ -61,6 +68,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "np19 re-research 19/10 (image search): still no image of this exact product → NEEDS_PHOTO"
+    },
+    {
+      "at": "2026-10-21T02:15:06Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "illustration 20/10: route 4: ảnh minh hoạ trung tính chính sản phẩm, không nhãn/chữ/thương hiệu"
+    },
+    {
+      "at": "2026-10-21T02:15:06.645Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-21T02:15:06.645Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }
