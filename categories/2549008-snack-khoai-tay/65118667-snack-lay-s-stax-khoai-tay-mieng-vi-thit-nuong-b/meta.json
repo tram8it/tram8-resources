@@ -17,17 +17,19 @@
     "description": "Snack khoai tây miếng Lay's Stax vị thịt nướng BBQ, các miếng khoai xếp chồng trong ống có nắp đậy, tiện mang theo.<br><br>Quy cách: 145 g · ống<br>Thương hiệu: Lay's (PepsiCo)",
     "exportedAt": "2026-10-20T16:17:47.475Z"
   },
-  "status": "UPLOADED",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1/I3: ảnh hiện tại chụp cận/không thấy nguyên gói; không có ảnh hãng; Gemini vẽ lại theo ảnh mẫu (v15) — khớp mẫu Lotte Mart: STAX, BARBECUE, Vị Thịt Nướng BBQ, FAMILY PACK; tách nền xám",
+    "reason": "chủ 21/10: ảnh không giống các ống cùng dòng (tối, mờ, nhỏ hơn) → vẽ lại đồng bộ dòng Stax 145g → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: cùng góc, độ sáng, độ tươi, cỡ trong khung với ống Kem chua 145g; giữ thiết kế BBQ",
     "source": {
       "aiGenerated": true,
-      "tool": "Google Gemini (chủ yêu cầu, RUBRIC v12–v15)",
-      "generatedAt": "2026-10-15",
-      "referenceUrl": "https://www.lottemart.vn/media/catalog/product/cache/0x0/8/9/8936079126094-1.jpg.webp"
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-21",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh hiện tại + SP cùng dòng 65118710 (Kem chua 145g) và 65090726 (BBQ 90g)"
     },
-    "rubricVersion": "v15"
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -78,10 +80,22 @@
       "by": "init",
       "status": "UPLOADED",
       "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-21T02:13:45Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "redo after Hub rejection:  — Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-21T02:13:45.527Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-15T15:17:42.489Z",
+    "at": "2026-10-21T02:13:45.527Z",
     "fields": [
       "description",
       "image"
