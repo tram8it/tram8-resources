@@ -17,12 +17,19 @@
     "description": null,
     "exportedAt": "2026-10-20T16:17:47.475Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh; tra lại 18/10 (mã vạch trên OFF/ean-search/cimri/akakce, \"Haribo Happy Cola 25g\", \"Haribo Happy Kola 25 g\") — chỉ có túi lớn/cuộn 25 g bản EU, không có gói 25 g bản Thổ Nhĩ Kỳ → cần chụp · tra lại 19/10 (Yandex ảnh: \"Haribo Happy Cola 25g\"; \"Haribo Happy Kola 25 gr\"; \"Haribo Happy Cola small bag\" + mã vạch, hariboshop.com (Haribo Thổ Nhĩ Kỳ) chỉ có 80/160/175/200 g, không có gói 25 g)",
-    "source": null,
-    "rubricVersion": "v20"
+    "reason": "ảnh minh hoạ (chủ 20/10: SP không được để trống ảnh) — vẽ lại từ ảnh chính hãng HARIBO Thổ Nhĩ Kỳ (túi lớn Happy Cola) thành gói nhỏ 25 g. Khác hàng thật: ảnh minh hoạ gói 25 g: mặt trước theo túi lớn chính hãng (mẫu không phải gói 25 g); bỏ nhãn 'KankaBoy Share Size' của túi lớn; không ghi khối lượng; dáng gói nhỏ là suy đoán. Trước đó: I1: chưa có ảnh; tra lại 18/10 (mã vạch trên OFF/ean-search/cimri/akakce, \"Haribo Happy Cola 25g\", \"Haribo Happy Kola 25 g\") — chỉ có túi lớn/cuộn 25 g bản EU, không có gói 25 g bản Thổ Nhĩ Kỳ → cần chụp · tra lại 19/10 (Yandex ảnh: \"Haribo Happy Cola 25g\"; \"Haribo Happy Kola 25 gr\"; \"Haribo Happy C",
+    "source": {
+      "aiGenerated": true,
+      "illustration": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-21",
+      "reference": "https://assets.haribo.com/image/upload/v1/consumer-sites/tr-tr/Products/Happy-Cola.png (haribo.com/tr-tr/urunler, trang hãng)"
+    },
+    "rubricVersion": "v23"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -64,6 +71,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "np19 re-research 19/10 (image search): still no image of this exact product → NEEDS_PHOTO"
+    },
+    {
+      "at": "2026-10-21T02:06:25Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "illustration 20/10: vẽ lại từ ảnh chính hãng HARIBO Thổ Nhĩ Kỳ (túi lớn Happy Cola) thành gói nhỏ 25 g"
+    },
+    {
+      "at": "2026-10-21T02:06:26.118Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-21T02:06:26.118Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

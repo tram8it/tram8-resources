@@ -17,12 +17,19 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3, I4, I5: ảnh chụp cận nhãn, bị cắt khung; không tìm được ảnh hãng/nhà bán lẻ nem chua bì Wyn 180g để làm mẫu → cần chụp nguyên gói · tra lại 19/10 (Yandex ảnh: \"nem chua bì Wyn\"; \"g-kitchen nem chua bì\"; \"nem chua bì 180g\") — không có ảnh đúng SP/vị",
-    "source": null,
-    "rubricVersion": "v17"
+    "reason": "ảnh minh hoạ (chủ 20/10: SP không được để trống ảnh) — route 1: dựng lại nguyên gói từ ảnh KiotViet chụp cận nhãn. Khác hàng thật: ảnh minh hoạ: dựng nguyên gói từ ảnh cận nhãn, giữ chữ đọc được (NEM CHUA BÌ, CHUA NHẸ HÀI HÒA, DAI NGON - NGỌT THỊT); logo tròn vàng để trống vì không đọc được, 3 huy hiệu để trống chữ (AI viết sai), hình dáng hai đầu gói là suy đoán; không ghi khối lượng. Trước đó: I3, I4, I5: ảnh chụp cận nhãn, bị cắt khung; không tìm được ảnh hãng/nhà bán lẻ nem chua bì Wyn 180g để làm mẫu → cần chụp nguyên gói · tra lại 19/10 (Yandex ảnh: \"nem chua bì Wyn\"; \"g-kitchen nem chua bì\"; \"nem chua bì 180g\") — không có ảnh đúng SP/vị",
+    "source": {
+      "aiGenerated": true,
+      "illustration": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-21",
+      "reference": "ảnh KiotViet của SP (work/gemini/65387699/refs/3-kiotviet.jpeg)"
+    },
+    "rubricVersion": "v23"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -55,6 +62,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "np19 re-research 19/10 (image search): still no image of this exact product → NEEDS_PHOTO"
+    },
+    {
+      "at": "2026-10-21T01:54:24Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "illustration 20/10: route 1: dựng lại nguyên gói từ ảnh KiotViet chụp cận nhãn"
+    },
+    {
+      "at": "2026-10-21T01:54:25.030Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-21T01:54:25.030Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

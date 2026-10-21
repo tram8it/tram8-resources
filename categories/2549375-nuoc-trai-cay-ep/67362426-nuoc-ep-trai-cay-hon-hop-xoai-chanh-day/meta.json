@@ -17,12 +17,19 @@
     "description": null,
     "exportedAt": "2026-10-20T16:17:47.475Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh; mã 6975716892536 (hàng Trung Quốc) không ra kết quả nào, chưa rõ thương hiệu/bao bì → cần nhân viên chụp · tra lại 19/10 (Yandex ảnh: \"芒果百香果 复合果汁\"; \"xoài chanh dây nước ép chai\"; \"芒果百香果 果汁饮料 瓶\") — không có ảnh đúng SP/vị",
-    "source": null,
-    "rubricVersion": "v4"
+    "reason": "ảnh minh hoạ (chủ 20/10: SP không được để trống ảnh) — route 2: vẽ theo chai cùng dòng LOVE MINI vị chanh (67362255, mã vạch liền kề). Khác hàng thật: ảnh minh hoạ: bố cục chai/nhãn lấy theo SP cùng dòng (mã vạch liền kề 6975716892529); màu nước/nhãn cam và hình xoài + chanh dây là suy đoán theo vị; tiêu đề tiếng Việt lấy từ tên KiotViet thay cho tên chữ Hán chưa biết; bỏ thể tích và chữ phụ vì chưa thấy gói thật. Trước đó: I1: chưa có ảnh; mã 6975716892536 (hàng Trung Quốc) không ra kết quả nào, chưa rõ thương hiệu/bao bì → cần nhân viên chụp · tra lại 19/10 (Yandex ảnh: \"芒果百香果 复合果汁\"; \"xoài chanh dây nước ép chai\"; \"芒果百香果 果汁饮料 瓶\") — không có ảnh đúng SP/vị",
+    "source": {
+      "aiGenerated": true,
+      "illustration": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-21",
+      "reference": "ảnh đã duyệt của SP cùng dòng 67362255 (image.webp)"
+    },
+    "rubricVersion": "v23"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -55,6 +62,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "np19 re-research 19/10 (image search): still no image of this exact product → NEEDS_PHOTO"
+    },
+    {
+      "at": "2026-10-21T01:55:18Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "illustration 20/10: route 2: vẽ theo chai cùng dòng LOVE MINI vị chanh (67362255, mã vạch liền kề)"
+    },
+    {
+      "at": "2026-10-21T01:55:18.674Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-21T01:55:18.674Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

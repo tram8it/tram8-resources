@@ -17,12 +17,19 @@
     "description": null,
     "exportedAt": "2026-10-20T16:17:47.475Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh; tra lại 18/10 (mã vạch Kingfoodmart/OFF, \"Quang Thanh Foods đặc sản ba miền\", \"kẹo trái cây Quang Thanh 200g\") — hãng không có web/ảnh → cần chụp · tra lại 19/10 (Yandex ảnh: \"kẹo trái cây Quang Thanh 200g\"; \"Quang Thanh kẹo trái cây\"; \"kẹo trái cây túi 200g Quang Thanh foods\") — không có ảnh đúng SP/vị",
-    "source": null,
-    "rubricVersion": "v20"
+    "reason": "ảnh minh hoạ (chủ 20/10: SP không được để trống ảnh) — route 2: vẽ theo túi zip + nhãn kraft Quang Thanh Foods cùng hãng (64865525 Kẹo dừa). Khác hàng thật: ảnh minh hoạ: dáng túi zip và nhãn theo SP cùng hãng; chữ 'Kẹo Trái Cây' lấy từ tên KiotViet, hình trái cây và viên kẹo nhiều màu là suy đoán; bỏ khối chữ nhỏ, mã vạch, QR vì chưa thấy nhãn thật. Trước đó: I1: chưa có ảnh; tra lại 18/10 (mã vạch Kingfoodmart/OFF, \"Quang Thanh Foods đặc sản ba miền\", \"kẹo trái cây Quang Thanh 200g\") — hãng không có web/ảnh → cần chụp · tra lại 19/10 (Yandex ảnh: \"kẹo trái cây Quang Thanh 200g\"; \"Quang Thanh kẹo trái cây\"; \"kẹo trái cây túi 200g Quang Thanh foods\") — kh",
+    "source": {
+      "aiGenerated": true,
+      "illustration": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-21",
+      "reference": "ảnh đã duyệt của SP cùng hãng 64865525 (image.webp)"
+    },
+    "rubricVersion": "v23"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -61,6 +68,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "np19 re-research 19/10 (image search): still no image of this exact product → NEEDS_PHOTO"
+    },
+    {
+      "at": "2026-10-21T02:02:03Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "illustration 20/10: route 2: vẽ theo túi zip + nhãn kraft Quang Thanh Foods cùng hãng (64865525 Kẹo dừa)"
+    },
+    {
+      "at": "2026-10-21T02:02:03.215Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-21T02:02:03.215Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

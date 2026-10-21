@@ -17,12 +17,19 @@
     "description": null,
     "exportedAt": "2026-10-20T16:17:47.475Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh; tra lại 18/10 (mã vạch Kingfoodmart/OFF, \"薄荷糖 茉莉 绿茶味 6921571101207\", \"kẹo bạc hà vị nhài\") — không có ảnh → cần chụp · tra lại 19/10 (Yandex ảnh: \"茉莉绿茶 薄荷糖\"; \"薄荷糖 茉莉绿茶味 铁盒\"; \"jasmine green tea mint candy\") — không có ảnh đúng SP/vị",
-    "source": null,
-    "rubricVersion": "v20"
+    "reason": "ảnh minh hoạ (chủ 20/10: SP không được để trống ảnh) — route 2: vẽ theo hộp Kiss Delicias cùng dòng (66728190, cùng mã GS1 6921571). Khác hàng thật: ảnh minh hoạ: dáng hộp + logo theo SP cùng dòng (thương hiệu suy theo mã GS1 chung); màu xanh, hình hoa nhài + lá trà là suy đoán theo tên vị; chỉ giữ chữ chung 薄荷味糖, bỏ chữ vị, khối lượng và chữ phụ vì chưa thấy hộp thật. Trước đó: I1: chưa có ảnh; tra lại 18/10 (mã vạch Kingfoodmart/OFF, \"薄荷糖 茉莉 绿茶味 6921571101207\", \"kẹo bạc hà vị nhài\") — không có ảnh → cần chụp · tra lại 19/10 (Yandex ảnh: \"茉莉绿茶 薄荷糖\"; \"薄荷糖 茉莉绿茶味 铁盒\"; \"jasmine green tea mint candy\") — không có ảnh đúng SP/vị",
+    "source": {
+      "aiGenerated": true,
+      "illustration": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-21",
+      "reference": "ảnh đã duyệt của SP cùng dòng 66728190 (image.webp)"
+    },
+    "rubricVersion": "v23"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -61,6 +68,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "np19 re-research 19/10 (image search): still no image of this exact product → NEEDS_PHOTO"
+    },
+    {
+      "at": "2026-10-21T01:58:23Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "illustration 20/10: route 2: vẽ theo hộp Kiss Delicias cùng dòng (66728190, cùng mã GS1 6921571)"
+    },
+    {
+      "at": "2026-10-21T01:58:24.049Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-21T01:58:24.049Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

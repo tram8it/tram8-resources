@@ -17,12 +17,19 @@
     "description": null,
     "exportedAt": "2026-10-20T16:17:47.475Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh; Nutifood Eshop không bán mochi Merino, không tìm được ảnh mẫu vị đậu xanh (không vẽ theo gói đậu đỏ để tránh bịa) → cần nhân viên chụp · tra lại 19/10 (Yandex ảnh: \"Merino mochi đậu xanh\"; \"kem mochi Merino đậu xanh\"; \"Merino mochi\" + WebSearch \"kem Mochi Merino đậu xanh 40g\" — không ra)",
-    "source": null,
-    "rubricVersion": "v17"
+    "reason": "ảnh minh hoạ (chủ 20/10: SP không được để trống ảnh) — route 2: vẽ theo gói Merino Kem Mochi cùng dòng (đậu đỏ 66917873, khoai môn 68522785). Khác hàng thật: ảnh minh hoạ: bố cục gói theo SP cùng dòng; màu xanh nhạt của gói, chữ vị ĐẬU XANH và nhân đậu xanh vàng là suy đoán theo tên vị, chưa thấy gói thật. Trước đó: I1: chưa có ảnh; Nutifood Eshop không bán mochi Merino, không tìm được ảnh mẫu vị đậu xanh (không vẽ theo gói đậu đỏ để tránh bịa) → cần nhân viên chụp · tra lại 19/10 (Yandex ảnh: \"Merino mochi đậu xanh\"; \"kem mochi Merino đậu xanh\"; \"Merino mochi\" + WebSearch \"kem Mochi Merino đậu xanh 40g\" — khôn",
+    "source": {
+      "aiGenerated": true,
+      "illustration": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-21",
+      "reference": "ảnh đã duyệt của SP cùng dòng 66917873 + ảnh 68522785"
+    },
+    "rubricVersion": "v23"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -55,6 +62,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "np19 re-research 19/10 (image search): still no image of this exact product → NEEDS_PHOTO"
+    },
+    {
+      "at": "2026-10-21T01:56:59Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "illustration 20/10: route 2: vẽ theo gói Merino Kem Mochi cùng dòng (đậu đỏ 66917873, khoai môn 68522785)"
+    },
+    {
+      "at": "2026-10-21T01:56:59.174Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-21T01:56:59.174Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

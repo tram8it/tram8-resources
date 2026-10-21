@@ -17,12 +17,19 @@
     "description": null,
     "exportedAt": "2026-10-20T16:17:47.475Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh; tra lại 18/10 (mã vạch Kingfoodmart/OFF, \"炫果乐 软糖\", \"Xuan Guo Le kẹo dẻo trái cây\") — không có ảnh → cần chụp · tra lại 19/10 (Yandex ảnh: \"炫果乐 软糖\"; \"炫果乐 水果软糖\"; \"Xuan Guo Le gummy\") — không có ảnh đúng SP/vị",
-    "source": null,
-    "rubricVersion": "v20"
+    "reason": "ảnh minh hoạ (chủ 20/10: SP không được để trống ảnh) — route 2: vẽ theo hũ 4 ngăn 旋果乐 Tianfeng cùng dòng (66672223, cùng mã GS1 6910289). Khác hàng thật: ảnh minh hoạ: dáng hũ 4 ngăn, logo Tian Feng và chữ 旋果乐 theo SP cùng dòng (đơn vị KiotViet là Hộp); màu hồng của nắp/nhãn và màu kẹo là suy đoán; bỏ chữ phụ, khối lượng vì chưa thấy hộp thật. Trước đó: I1: chưa có ảnh; tra lại 18/10 (mã vạch Kingfoodmart/OFF, \"炫果乐 软糖\", \"Xuan Guo Le kẹo dẻo trái cây\") — không có ảnh → cần chụp · tra lại 19/10 (Yandex ảnh: \"炫果乐 软糖\"; \"炫果乐 水果软糖\"; \"Xuan Guo Le gummy\") — không có ảnh đúng SP/vị",
+    "source": {
+      "aiGenerated": true,
+      "illustration": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-21",
+      "reference": "ảnh đã duyệt của SP cùng dòng 66672223 (image.webp)"
+    },
+    "rubricVersion": "v23"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -61,6 +68,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "np19 re-research 19/10 (image search): still no image of this exact product → NEEDS_PHOTO"
+    },
+    {
+      "at": "2026-10-21T02:01:59Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "illustration 20/10: route 2: vẽ theo hũ 4 ngăn 旋果乐 Tianfeng cùng dòng (66672223, cùng mã GS1 6910289)"
+    },
+    {
+      "at": "2026-10-21T02:02:00.008Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-21T02:02:00.008Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

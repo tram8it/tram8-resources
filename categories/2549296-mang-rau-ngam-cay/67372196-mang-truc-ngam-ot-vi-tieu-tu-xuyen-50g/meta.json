@@ -17,12 +17,19 @@
     "description": null,
     "exportedAt": "2026-10-20T16:17:47.475Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh; tra lại 18/10 (mã vạch Kingfoodmart/OFF, \"măng trúc ngâm ớt tiêu tứ xuyên 50g\", \"藤椒 竹笋\") — không có ảnh đúng mã → cần chụp · tra lại 19/10 (Yandex ảnh: \"藤椒竹笋 50g\"; \"măng trúc tiêu tứ xuyên 50g\"; \"藤椒笋 零食\") — không có ảnh đúng SP/vị",
-    "source": null,
-    "rubricVersion": "v20"
+    "reason": "ảnh minh hoạ (chủ 20/10: SP không được để trống ảnh) — route 2: vẽ theo gói 零零邦 BOOM cùng dòng (67375713 山椒笋尖, cùng mã GS1 6976843). Khác hàng thật: ảnh minh hoạ: dáng gói và logo 零零邦 BOOM theo SP cùng dòng; vị tiêu Tứ Xuyên: gói xanh đậm, măng + chùm tiêu xanh + ớt là suy đoán theo tên; bỏ tên chữ Hán, khối lượng, huy hiệu 0脂肪 và chữ phụ vì chưa thấy gói thật. Trước đó: I1: chưa có ảnh; tra lại 18/10 (mã vạch Kingfoodmart/OFF, \"măng trúc ngâm ớt tiêu tứ xuyên 50g\", \"藤椒 竹笋\") — không có ảnh đúng mã → cần chụp · tra lại 19/10 (Yandex ảnh: \"藤椒竹笋 50g\"; \"măng trúc tiêu tứ xuyên 50g\"; \"藤椒笋 零食\") — không có ảnh đúng SP/vị",
+    "source": {
+      "aiGenerated": true,
+      "illustration": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-21",
+      "reference": "ảnh KiotViet của SP cùng dòng 67375713 (work/gemini/67372196/refs/sibling-67375713-kiotviet.png)"
+    },
+    "rubricVersion": "v23"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -61,6 +68,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "np19 re-research 19/10 (image search): still no image of this exact product → NEEDS_PHOTO"
+    },
+    {
+      "at": "2026-10-21T02:00:38Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "illustration 20/10: route 2: vẽ theo gói 零零邦 BOOM cùng dòng (67375713 山椒笋尖, cùng mã GS1 6976843)"
+    },
+    {
+      "at": "2026-10-21T02:00:38.445Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-21T02:00:38.445Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }
