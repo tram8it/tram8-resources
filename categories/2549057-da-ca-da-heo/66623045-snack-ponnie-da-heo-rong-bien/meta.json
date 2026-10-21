@@ -17,11 +17,19 @@
     "description": null,
     "exportedAt": "2026-10-20T16:17:47.475Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I5: ảnh KiotViet chụp cận, mất nửa dưới gói (vị rong biển, khối lượng); tra lại 18/10: iCheck/Kingfoodmart/OFF theo mã 8936034878884 không có, masanconsumer.com chặn (403), Yandex \"Ponnie da heo snack\", \"Ponnie meat snack da heo rong biển\", \"snack da heo Ponnie Masan\" chỉ ra xúc xích/khô gà Ponnie → cần chụp trọn mặt trước | 19/10 tìm lại bằng ảnh (Yandex Images: 'Ponnie da heo rong biển', 'snack da heo Ponnie', '8936034878884', 'Ponnie meat snack da heo zònnn', 'Ponnie da heo'; iCheck/Kingfoodmart/Minh Cầu/Open Food Facts theo mã vạch; WebSearch không có kết quả tiếng Việt); masanconsumer.com chặn (Cloudflare), ảnh ngược Yandex trên ảnh KiotViet không ra gói; ảnh KiotViet mất nửa dưới (vị, khối lượng) — không có ảnh đúng SP/vị → vẫn cần nhân viên chụp",
-    "source": null,
+    "reason": "ảnh minh hoạ (chủ 20/10: SP không được để trống ảnh) — route 1+2: dựng lại gói từ ảnh KiotViet bị cắt, bố cục theo gói Kim chi cùng dòng. Khác hàng thật: nửa dưới gói suy ra; nhãn tròn 'RONG BIỂN' và hình lá rong biển suy từ tên SP; không ghi khối lượng. Trước đó: ảnh minh hoạ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-21",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet hiện có (gói xanh bị cắt nửa dưới) + ảnh đã duyệt SP cùng dòng 66623085 Kim chi (bố cục)",
+      "illustration": true
+    },
     "rubricVersion": "v23"
   },
   "description": {
@@ -61,6 +69,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "19/10 re-research with image search (owner request): no image of this exact product/variant found"
+    },
+    {
+      "at": "2026-10-21T01:55:52Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "illustration 20/10: route 1+2: dựng lại gói từ ảnh KiotViet bị cắt, bố cục theo gói Kim chi cùng dòng"
+    },
+    {
+      "at": "2026-10-21T01:55:52.556Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-21T01:55:52.556Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

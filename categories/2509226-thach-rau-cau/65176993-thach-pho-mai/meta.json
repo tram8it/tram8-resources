@@ -17,11 +17,19 @@
     "description": null,
     "exportedAt": "2026-10-20T16:17:47.475Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I5: ảnh KiotViet chỉ thấy một góc hộp Gia Nhất; 18/10 tìm lại: 'Thạch phô mai Gia Nhất hộp', 'Gia Nhất thạch rau câu công ty', mã 8935357300232/…195 (web, Open Food Facts, iCheck, Kingfoodmart) — không có ảnh trọn hộp nào → cần chụp thẳng mặt trước hộp | 19/10 tìm lại bằng ảnh (Yandex Images: 'thạch phô mai Gia Nhất', 'thạch rau câu phô mai hộp', '8935357300232', 'Gia Nhất thạch phô mai', 'Gia Nhất jelly'; iCheck/Kingfoodmart/Minh Cầu/Open Food Facts theo mã vạch; WebSearch không có kết quả tiếng Việt); ảnh ngược Yandex trên ảnh KiotViet không ra hộp — không có ảnh đúng SP/vị → vẫn cần nhân viên chụp",
-    "source": null,
+    "reason": "ảnh minh hoạ (chủ 20/10: SP không được để trống ảnh) — route 1: dựng lại cả hộp từ ảnh KiotViet bị cắt (một góc hộp). Khác hàng thật: vẽ suy ra phần hộp không thấy trong ảnh; chỉ giữ chữ đọc được (Thạch Phô mai, GIA NHẤT); không ghi khối lượng; màu nắp cốc có thể khác. Trước đó: ảnh minh hoạ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-21",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet hiện có (một góc hộp Gia Nhất)",
+      "illustration": true
+    },
     "rubricVersion": "v23"
   },
   "description": {
@@ -61,6 +69,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "19/10 re-research with image search (owner request): no image of this exact product/variant found"
+    },
+    {
+      "at": "2026-10-21T01:54:28Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "illustration 20/10: route 1: dựng lại cả hộp từ ảnh KiotViet bị cắt (một góc hộp)"
+    },
+    {
+      "at": "2026-10-21T01:54:28.988Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-21T01:54:28.988Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

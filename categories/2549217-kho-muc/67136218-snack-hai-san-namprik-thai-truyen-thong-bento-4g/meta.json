@@ -17,11 +17,19 @@
     "description": null,
     "exportedAt": "2026-10-20T16:17:47.475Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh; tra lại 18/10: iCheck/Kingfoodmart/OFF theo mã VN 8935342400312 không có, snnp.co.th chỉ có gói Thái, Yandex \"Bento Snack Hải Sản NamPrik Thái Truyền Thống\", \"Bento Max Extreme Namprik\" chỉ ra gói Thái → cần chụp gói VN 4 g | 19/10 tìm lại bằng ảnh (Yandex Images: 'Bento namprik 4g', '8935342400312', 'Bento snack hải sản 4g'; iCheck/Kingfoodmart/Minh Cầu/Open Food Facts theo mã vạch; WebSearch không có kết quả tiếng Việt) — không có ảnh đúng SP/vị → vẫn cần nhân viên chụp",
-    "source": null,
+    "reason": "ảnh minh hoạ (chủ 20/10: SP không được để trống ảnh) — route 2: vẽ theo bố cục gói Bento 4g cùng dòng, đổi chữ vị/màu. Khác hàng thật: màu cam suy ra (theo gói 18 g cam cùng vị); chữ vị theo tên SP; nhãn vàng chỉ ghi 'Vị NamPrik Thái'. Trước đó: ảnh minh hoạ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-21",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh đã duyệt SP cùng dòng Bento 4g 67136256 (Cay Ngọt), 67136280 (Cay Nồng)",
+      "illustration": true
+    },
     "rubricVersion": "v23"
   },
   "description": {
@@ -61,6 +69,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "19/10 re-research with image search (owner request): no image of this exact product/variant found"
+    },
+    {
+      "at": "2026-10-21T02:02:39Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "illustration 20/10: route 2: vẽ theo bố cục gói Bento 4g cùng dòng, đổi chữ vị/màu"
+    },
+    {
+      "at": "2026-10-21T02:02:40.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-21T02:02:40.000Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

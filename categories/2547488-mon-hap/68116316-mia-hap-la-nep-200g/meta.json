@@ -17,12 +17,20 @@
     "description": null,
     "exportedAt": "2026-10-20T16:17:47.475Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh; không có thương hiệu/nhà sản xuất (mã 8936186850707 không có trên Open Food Facts) → cần chụp | 19/10 tìm lại bằng ảnh (Yandex Images: 'mía hấp lá nếp 200g', '8936186850707', 'mía hấp lá nếp'; iCheck/Kingfoodmart/Minh Cầu/Open Food Facts theo mã vạch; WebSearch không có kết quả tiếng Việt) — không có ảnh đúng SP/vị → vẫn cần nhân viên chụp",
-    "source": null,
-    "rubricVersion": "v17"
+    "reason": "ảnh minh hoạ (chủ 20/10: SP không được để trống ảnh) — route 4: mía hấp lá nếp trong túi trong, không nhãn. Khác hàng thật: không có bao bì/nhãn thật; vẽ túi trong trơn, không ghi khối lượng; cách cắt mía/lá minh hoạ. Trước đó: ảnh minh hoạ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-21",
+      "style": "flat clean packaging render (v17)",
+      "reference": "không có ảnh mẫu (vẽ từ tên SP)",
+      "illustration": true
+    },
+    "rubricVersion": "v23"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -55,6 +63,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "19/10 re-research with image search (owner request): no image of this exact product/variant found"
+    },
+    {
+      "at": "2026-10-21T02:04:36Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "illustration 20/10: route 4: mía hấp lá nếp trong túi trong, không nhãn"
+    },
+    {
+      "at": "2026-10-21T02:04:37.098Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-21T02:04:37.098Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

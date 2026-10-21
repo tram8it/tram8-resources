@@ -17,11 +17,19 @@
     "description": null,
     "exportedAt": "2026-10-20T16:17:47.475Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh; 18/10 tìm lại: mã 4897124973589 (web/OFF/iCheck/KFM), 'bánh mì hamburger gà Orleans 85g', SP cùng dãy 4897124973602 là gói CC 'Black Pepper Beef Burger' tiếng Trung — không có ảnh gói vị gà Orleans → cần chụp mặt trước gói | 19/10 tìm lại bằng ảnh (Yandex Images: '4897124973589', 'Orleans chicken burger bread 85g', 'Orleans hamburger bread'; iCheck/Kingfoodmart/Minh Cầu/Open Food Facts theo mã vạch; WebSearch không có kết quả tiếng Việt) — không có ảnh đúng SP/vị → vẫn cần nhân viên chụp",
-    "source": null,
+    "reason": "ảnh minh hoạ (chủ 20/10: SP không được để trống ảnh) — route 2: vẽ theo bố cục gói CC cùng dòng, đổi chữ vị/màu/nhân. Khác hàng thật: tên vị tiếng Trung/Anh (奥尔良鸡肉堡 ORLEANS CHICKEN BURGER), màu cam, miếng gà đều suy từ tên SP; 85克 theo gói cùng dòng; dòng chữ nhỏ không đọc được. Trước đó: ảnh minh hoạ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-21",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh đã duyệt SP cùng dòng CC 65176511 (bò tiêu đen), 65176513 (heo cay)",
+      "illustration": true
+    },
     "rubricVersion": "v23"
   },
   "description": {
@@ -61,6 +69,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "19/10 re-research with image search (owner request): no image of this exact product/variant found"
+    },
+    {
+      "at": "2026-10-21T01:59:29Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "illustration 20/10: route 2: vẽ theo bố cục gói CC cùng dòng, đổi chữ vị/màu/nhân"
+    },
+    {
+      "at": "2026-10-21T01:59:30.121Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-21T01:59:30.121Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

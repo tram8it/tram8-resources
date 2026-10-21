@@ -17,18 +17,26 @@
     "description": null,
     "exportedAt": "2026-10-20T16:17:47.475Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh; 18/10 tìm lại: mã 8936029425321 (web, OFF, iCheck, Kingfoodmart), 'Orion 2Mix vị phô mai', 'O'Star x Swing 2MIX các vị' — dòng 2MIX chỉ có Phô mai cay (đã có, mã …314) và Pizza cà chua; không phân định được mã …321 là vị nào → cần chụp mặt trước gói | 19/10 tìm lại bằng ảnh (Yandex Images: 'Orion 2Mix phô mai', '8936029425321', 'snack 2 mix vị phô mai', 'O'Star Swing 2Mix', '2MIX snack Orion'; iCheck/Kingfoodmart/Minh Cầu/Open Food Facts theo mã vạch; WebSearch không có kết quả tiếng Việt) — không có ảnh đúng SP/vị → vẫn cần nhân viên chụp",
-    "source": null,
+    "reason": "ảnh minh hoạ (chủ 20/10: SP không được để trống ảnh) — route 2: vẽ theo gói 2MIX cùng dòng, đổi chữ vị. Khác hàng thật: chữ 'VỊ PHÔ MAI' theo tên SP (không tìm được gói thật mã 8936029425321); bỏ ớt khỏi hình; không ghi khối lượng. Trước đó: ảnh minh hoạ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-21",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh đã duyệt SP cùng dòng Orion O'Star x Swing 2MIX 64865369 (vị phô mai cay)",
+      "illustration": true
+    },
     "rubricVersion": "v23"
   },
   "description": {
-    "decision": "ASK_OWNER",
-    "reason": "D1: chưa có mô tả; chờ chủ xác nhận vị/khối lượng",
+    "decision": "WRITE_NEW",
+    "reason": "D1: viết từ dữ kiện đã biết (tên, đơn vị KiotViet) — không thêm công dụng/thành phần chưa có nguồn (20/10)",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v23"
   },
   "question": null,
   "history": [
@@ -67,6 +75,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "19/10 re-research with image search (owner request): no image of this exact product/variant found"
+    },
+    {
+      "at": "2026-10-21T01:59:32Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "illustration 20/10: route 2: vẽ theo gói 2MIX cùng dòng, đổi chữ vị"
+    },
+    {
+      "at": "2026-10-21T01:59:32.762Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-21T01:59:32.762Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

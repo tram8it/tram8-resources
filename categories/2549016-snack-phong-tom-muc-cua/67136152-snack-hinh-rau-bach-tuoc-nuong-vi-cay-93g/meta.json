@@ -17,11 +17,19 @@
     "description": null,
     "exportedAt": "2026-10-20T16:17:47.475Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh; tra lại 18/10: iCheck/Kingfoodmart/OFF theo mã 6937821522616 không có; không rõ hãng (mã Trung Quốc), Yandex/WebSearch theo tên không ra gói râu bạch tuộc nướng 93 g → cần chụp | 19/10 tìm lại bằng ảnh (Yandex Images: 'snack râu bạch tuộc nướng vị cay 93g', '6937821522616', '烤章鱼须 零食 93g', '章鱼须 香辣 93g', 'râu bạch tuộc nướng snack'; iCheck/Kingfoodmart/Minh Cầu/Open Food Facts theo mã vạch; WebSearch không có kết quả tiếng Việt) — không có ảnh đúng SP/vị → vẫn cần nhân viên chụp",
-    "source": null,
+    "reason": "ảnh minh hoạ (chủ 20/10: SP không được để trống ảnh) — route 4: snack râu bạch tuộc trong túi trong, không nhãn. Khác hàng thật: không biết bao bì thật (hàng Trung Quốc) nên vẽ túi trong trơn; hình miếng snack minh hoạ; không ghi khối lượng. Trước đó: ảnh minh hoạ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-21",
+      "style": "flat clean packaging render (v17)",
+      "reference": "không có ảnh mẫu (vẽ từ tên SP)",
+      "illustration": true
+    },
     "rubricVersion": "v23"
   },
   "description": {
@@ -61,6 +69,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "19/10 re-research with image search (owner request): no image of this exact product/variant found"
+    },
+    {
+      "at": "2026-10-21T02:07:04Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "illustration 20/10: route 4: snack râu bạch tuộc trong túi trong, không nhãn"
+    },
+    {
+      "at": "2026-10-21T02:07:04.339Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-21T02:07:04.339Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

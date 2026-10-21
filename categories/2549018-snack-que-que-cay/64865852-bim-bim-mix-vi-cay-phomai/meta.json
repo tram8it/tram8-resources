@@ -17,11 +17,19 @@
     "description": null,
     "exportedAt": "2026-10-20T16:17:47.475Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I2: ảnh KiotViet là gói Mix Thái (VFoods) Hot Chilli, không phải Mix VN vị cay phô mai; tra lại 18/10: iCheck/Kingfoodmart/OFF theo mã 8938560922000 không có, Yandex \"bim bim que Mix vị tomyum\", \"bánh que Mix vị cay phô mai gói\", \"Mix 바삭하고 맛있다 snack\" không ra gói → cần chụp | 19/10 tìm lại bằng ảnh (Yandex Images: 'bim bim Mix vị cay phô mai', '8938560922000'; iCheck/Kingfoodmart/Minh Cầu/Open Food Facts theo mã vạch; WebSearch không có kết quả tiếng Việt); dòng Mix VN chữ Hàn: ảnh KiotViet SP khác chỉ thấy nửa trên gói — không có ảnh đúng SP/vị → vẫn cần nhân viên chụp",
-    "source": null,
+    "reason": "ảnh minh hoạ (chủ 20/10: SP không được để trống ảnh) — route 2: vẽ theo bố cục gói Mix cùng dòng, đổi chữ vị/màu/hình vị. Khác hàng thật: màu đỏ và hình phô mai + ớt suy ra; chữ 'Vị cay phô mai' theo tên SP; bỏ dòng chữ Hàn thành phần; không ghi khối lượng. Trước đó: ảnh minh hoạ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-21",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh minh hoạ SP cùng dòng Mix 65110112 (Vị Tomyum), 65110120 (Vị BBQ)",
+      "illustration": true
+    },
     "rubricVersion": "v23"
   },
   "description": {
@@ -61,6 +69,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "19/10 re-research with image search (owner request): no image of this exact product/variant found"
+    },
+    {
+      "at": "2026-10-21T01:59:19Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "illustration 20/10: route 2: vẽ theo bố cục gói Mix cùng dòng, đổi chữ vị/màu/hình vị"
+    },
+    {
+      "at": "2026-10-21T01:59:19.936Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-21T01:59:19.936Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

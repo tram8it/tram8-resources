@@ -17,11 +17,19 @@
     "description": null,
     "exportedAt": "2026-10-20T16:17:47.475Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I2: ảnh KiotViet là hũ 'Khô Bò Miếng'; tra lại 18/10: iCheck mã 8936202660044 cũng ghi 'Bò khô miếng' (ảnh hũ Khô Bò Miếng) — mã vạch và tên 'thịt trâu' mâu thuẫn, không có ảnh hũ thịt trâu sấy → cần chụp hũ thật | 19/10 tìm lại bằng ảnh (Yandex Images: 'thịt trâu sấy khô Phương Huyền', 'Phương Huyền Food khô trâu hũ', '8936202660044', 'thịt trâu sấy Phương Huyền', 'Phương Huyền food'; iCheck/Kingfoodmart/Minh Cầu/Open Food Facts theo mã vạch; WebSearch không có kết quả tiếng Việt); iCheck mã này vẫn là hũ 'Bò Khô Miếng' — không có ảnh đúng SP/vị → vẫn cần nhân viên chụp",
-    "source": null,
+    "reason": "ảnh minh hoạ (chủ 20/10: SP không được để trống ảnh) — route 4: hũ nhựa trong nắp đen đựng thịt sấy, không nhãn. Khác hàng thật: không vẽ nhãn/thương hiệu vì ảnh KiotViet và mã vạch là hũ 'Bò Khô Miếng', không có ảnh nhãn thịt trâu; màu/thớ thịt minh hoạ. Trước đó: ảnh minh hoạ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-21",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet hiện có (chỉ để lấy kiểu hũ nhựa nắp đen)",
+      "illustration": true
+    },
     "rubricVersion": "v23"
   },
   "description": {
@@ -61,6 +69,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "19/10 re-research with image search (owner request): no image of this exact product/variant found"
+    },
+    {
+      "at": "2026-10-21T01:56:58Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "illustration 20/10: route 4: hũ nhựa trong nắp đen đựng thịt sấy, không nhãn"
+    },
+    {
+      "at": "2026-10-21T01:56:58.604Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-21T01:56:58.604Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

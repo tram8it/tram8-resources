@@ -17,11 +17,19 @@
     "description": null,
     "exportedAt": "2026-10-20T16:17:47.475Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh; tra lại 18/10: iCheck/Kingfoodmart/OFF theo mã VN 8935342400459 không có, Yandex \"Bento Max Extreme Namprik\", \"Bento Snack Hải Sản NamPrik…\" chỉ ra gói Thái → cần chụp gói VN 18 g cam | 19/10 tìm lại bằng ảnh (Yandex Images: 'Bento namprik 18g cam', '8935342400459'; iCheck/Kingfoodmart/Minh Cầu/Open Food Facts theo mã vạch; WebSearch không có kết quả tiếng Việt) — không có ảnh đúng SP/vị → vẫn cần nhân viên chụp",
-    "source": null,
+    "reason": "ảnh minh hoạ (chủ 20/10: SP không được để trống ảnh) — route 2: vẽ theo bố cục gói Bento Max Extreme 18g cùng dòng, đổi chữ vị/màu. Khác hàng thật: màu cam theo tên SP; chữ vị theo tên SP; dòng khối lượng 22 g (18 g + 4 g) theo gói cùng dòng; dòng tiếng Anh không đọc được. Trước đó: ảnh minh hoạ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-21",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh đã duyệt SP cùng dòng Bento Max Extreme 18g 67136491 (đỏ), 67136558 (xanh)",
+      "illustration": true
+    },
     "rubricVersion": "v23"
   },
   "description": {
@@ -61,6 +69,26 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "19/10 re-research with image search (owner request): no image of this exact product/variant found"
+    },
+    {
+      "at": "2026-10-21T02:02:44Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "illustration 20/10: route 2: vẽ theo bố cục gói Bento Max Extreme 18g cùng dòng, đổi chữ vị/màu"
+    },
+    {
+      "at": "2026-10-21T02:02:45.297Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-21T02:02:45.297Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }
