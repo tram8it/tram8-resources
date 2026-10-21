@@ -20,7 +20,7 @@ Quy cách: <dung tích> · chai/lon · Nồng độ: <chỉ khi đọc được 
 Xuất xứ: <…> · Thương hiệu: <…> · Nhà sản xuất: <chỉ khi chắc>
 
 Chỉ bán cho người từ 18 tuổi trở lên.
-Không bán cho người dưới 18 tuổi. Uống có trách nhiệm, đã uống rượu bia không lái xe.
+Uống có trách nhiệm, đã uống rượu bia không lái xe.
 ```
 
 ## Ảnh
