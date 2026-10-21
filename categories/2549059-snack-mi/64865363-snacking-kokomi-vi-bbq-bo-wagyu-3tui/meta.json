@@ -17,12 +17,19 @@
     "description": null,
     "exportedAt": "2026-10-20T16:17:47.475Z"
   },
-  "status": "IN_PROGRESS",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh; tra lại 18/10: iCheck/Kingfoodmart/OFF theo mã 8936236471135 không có, masanconsumer.com chặn (403), WebSearch \"Kokomi Snacking mì giòn ăn liền vị BBQ bò Wagyu Masan\", Yandex \"Kokomi Snacking\", \"Kokomi snack mì giòn bò Wagyu\" không ra gói → cần chụp | 19/10 tìm lại bằng ảnh (Yandex Images: 'Kokomi Snacking bò Wagyu', 'Kokomi snacking mì giòn', '8936236471135', 'Kokomi snack mì', 'Kokomi Snacking Masan'; iCheck/Kingfoodmart/Minh Cầu/Open Food Facts theo mã vạch; WebSearch không có kết quả tiếng Việt) — không có ảnh đúng SP/vị → vẫn cần nhân viên chụp | 21/10 (chủ nhắc): tìm ra ảnh render gói 70g trên chaulongmart.vn (https://pos.nvncdn.com/35ab07-173722/ps/Kokomi-Snacking-Mi-Huong-Vi-Bo-70g.jpg) — trang bán lẻ, chỉ dùng làm mẫu Gemini; đang chờ nạp tiền Gemini (HTTP 402) để vẽ lại",
-    "source": null,
-    "rubricVersion": "v23"
+    "reason": "I1: chưa có ảnh; Gemini vẽ lại packshot gói 70g từ ảnh render (chủ nhắc 21/10) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: khớp mẫu: thiết kế, màu, chữ, linh vật; nền trắng, chính diện",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-21",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh render gói 70g trên chaulongmart.vn (trang bán lẻ, chỉ làm mẫu)"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -67,6 +74,26 @@
       "by": "ai",
       "status": "IN_PROGRESS",
       "note": "reference found (retailer render, Gemini ref only); waiting for Gemini credit"
+    },
+    {
+      "at": "2026-10-21T01:51:49Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "redo after Hub rejection:  — Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-21T01:51:49.636Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-21T01:51:49.636Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }
