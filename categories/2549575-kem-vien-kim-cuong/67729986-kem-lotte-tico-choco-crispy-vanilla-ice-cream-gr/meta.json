@@ -20,16 +20,16 @@
   "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "ảnh minh hoạ (chủ 20/10: SP không được để trống ảnh) — route 2: theo ảnh Tico sô cô la sữa cùng dòng đã duyệt, đổi nhân thành kem trà xanh. Khác hàng thật: màu nhân trà xanh là suy luận từ tên; không có vỏ gói (chủ từng muốn ảnh kèm vỏ — chưa có ảnh vỏ). Trước đó: Chủ: đợi chụp ảnh vỏ, cần cả SP kèm vỏ · tra lại 19/10 (Yandex ảnh: \"Lotte Tico green tea\"; \"Tico choco crispy green tea\"; \"로떼 티코 녹차\") — không có ảnh đúng SP/vị",
+    "reason": "chủ 21/10: ảnh cần cho thấy quy cách đóng gói → ảnh ghép gói lẻ (đơn vị bán: Cái) + viên kem cắt đôi + hộp 15 viên phía sau; Hub chỉ nhận 1 ảnh/SP → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: gói lẻ và hộp theo ảnh chủ chụp; câu chữ trên gói lẻ thay đổi theo từng gói",
     "source": {
       "aiGenerated": true,
-      "illustration": true,
       "tool": "Gemini API",
       "model": "gemini-nano-banana-2.1",
-      "generatedAt": "2026-10-17",
-      "reference": "ảnh SP cùng dòng đã duyệt (Tico choco crispy vanilla)"
+      "generatedAt": "2026-10-21",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh chủ chụp 21/10: hộp Tico matcha 15 viên + gói lẻ"
     },
-    "rubricVersion": "v23"
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -110,10 +110,22 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-21T02:34:19Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "redo after Hub rejection: Đợi chụp ảnh vỏ, phải có cả sp kèm vỏ. — Gemini API redraw (attempt 3, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-21T02:34:19.713Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-20T16:48:17.500Z",
+    "at": "2026-10-21T02:34:19.713Z",
     "fields": [
       "description",
       "image"
