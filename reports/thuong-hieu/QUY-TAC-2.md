@@ -116,3 +116,14 @@ vẫn là thương hiệu riêng. Chủ muốn gộp Mirinda/7Up vào Pepsi thì
   Hayđấy, Hello Panda, Kkokalcorn, Koala's March, Marine Boy, Melona, Mirinda, Oh Teen, Ông Thọ, O'Star, Pillows,
   Pipper, Probi, Raoh, Richeese, Richoco, Shin Ramyun, Suku Suku, SuSu, Swing, Toppo, Twister, Vtalk.
 - Chủ sửa tay: 2 SP Bento thanh cua surimi → LC Foods.
+
+## Đợt 3 (21/10/2026): `gop-dot-3.csv`, 32 SP, `brand-diff` đổi đúng 32/32
+- Đổi:
+  - Modern, Phú Hương, Đệ Nhất, Hằng Nga, Lẩu Thái, Good, Nhớ Mãi Mãi → **Acecook** (thương hiệu mới, KiotViet tạo khi nhập).
+  - Miyaki, Fasty, Tyti → **Tràng An** (thương hiệu mới).
+  - Sprite, Schweppes, Georgia, Dasani → Coca-Cola. Revive, Rockstar → Pepsi. Cosy, AFC → Kinh Đô. Trúc Bạch → Bia Hà Nội.
+- Giữ riêng (nổi tiếng riêng và nhiều mã): Hảo Hảo, Siukay, Fanta, Minute Maid, Nutriboost, Boss, các dòng Mayora.
+- Đã báo session tram8-web thêm logo và hạng cho Acecook và Tràng An.
+- 4 cảnh báo còn lại: chủ đổi tay tên 2 SP "Thịt Bò Chay Xé Sợi" (Vịt Đen ↔ Vịt BBQ). Không thuộc file nhập.
+- Thương hiệu không còn SP nào, chờ chủ xoá: **54**. Gồm 35 cái của đợt 2, cộng thêm AFC, Cosy, Dasani, Đệ Nhất, Fasty, Georgia,
+  Good, Hằng Nga, Lẩu Thái, Miyaki, Modern, Nhớ Mãi Mãi, Phú Hương, Revive, Rockstar, Schweppes, Sprite, Trúc Bạch, Tyti.
