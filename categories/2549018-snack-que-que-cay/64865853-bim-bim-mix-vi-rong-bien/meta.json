@@ -20,17 +20,17 @@
   "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "ảnh minh hoạ (chủ 20/10: SP không được để trống ảnh) — route 2: vẽ theo bố cục gói Mix cùng dòng, đổi chữ vị/màu/hình vị. Khác hàng thật: màu xanh lá và hình lá rong biển suy ra; chữ 'Vị rong biển' theo tên SP; bỏ dòng chữ Hàn thành phần; không ghi khối lượng. Trước đó: ảnh minh hoạ",
+    "reason": "ảnh minh hoạ (chủ 20/10); chủ 21/10: gói Mix là túi đứng (doypack) như gói VFOODS chủ gửi → vẽ lại dáng túi, giữ thiết kế → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: dáng túi đứng, đáy bo tròn; thiết kế/chữ Hàn giữ như ảnh trước, có thể sai nét; không ghi khối lượng",
     "source": {
       "aiGenerated": true,
       "tool": "Gemini API",
       "model": "gemini-nano-banana-2.1",
       "generatedAt": "2026-10-21",
       "style": "flat clean packaging render (v17)",
-      "reference": "ảnh minh hoạ SP cùng dòng Mix 65110112 (Vị Tomyum), 65110120 (Vị BBQ)",
+      "reference": "ảnh minh hoạ trước (thiết kế theo ảnh KiotViet) + dáng túi đứng theo gói Mix Hot Chilli 75g chủ gửi",
       "illustration": true
     },
-    "rubricVersion": "v23"
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -81,10 +81,22 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-21T02:51:30Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "redo after Hub rejection:  — Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-21T02:51:30.722Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-21T01:59:23.355Z",
+    "at": "2026-10-21T02:51:30.722Z",
     "fields": [
       "description",
       "image"
