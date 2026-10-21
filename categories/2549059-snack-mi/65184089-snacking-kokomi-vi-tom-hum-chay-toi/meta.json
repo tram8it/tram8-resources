@@ -17,10 +17,10 @@
     "description": null,
     "exportedAt": "2026-10-20T16:17:47.475Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "IN_PROGRESS",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh; tra lại 18/10: iCheck/Kingfoodmart/OFF theo mã 8936236471128 không có, masanconsumer.com chặn (403), WebSearch \"Kokomi Snacking vị tôm hùm cháy tỏi\", Yandex \"Kokomi Snacking\" không ra gói → cần chụp | 19/10 tìm lại bằng ảnh (Yandex Images: 'Kokomi snacking tôm hùm cháy tỏi', '8936236471128'; iCheck/Kingfoodmart/Minh Cầu/Open Food Facts theo mã vạch; WebSearch không có kết quả tiếng Việt) — không có ảnh đúng SP/vị → vẫn cần nhân viên chụp",
+    "reason": "I1: chưa có ảnh; tra lại 18/10: iCheck/Kingfoodmart/OFF theo mã 8936236471128 không có, masanconsumer.com chặn (403), WebSearch \"Kokomi Snacking vị tôm hùm cháy tỏi\", Yandex \"Kokomi Snacking\" không ra gói → cần chụp | 19/10 tìm lại bằng ảnh (Yandex Images: 'Kokomi snacking tôm hùm cháy tỏi', '8936236471128'; iCheck/Kingfoodmart/Minh Cầu/Open Food Facts theo mã vạch; WebSearch không có kết quả tiếng Việt) — không có ảnh đúng SP/vị → vẫn cần nhân viên chụp | 21/10 (chủ nhắc): tìm ra ảnh render gói 70g trên chaulongmart.vn (https://pos.nvncdn.com/35ab07-173722/ps/Kokomi-Snacking-Mi-Huong-Vi-Tom-Hum-70g.jpg) — trang bán lẻ, chỉ dùng làm mẫu Gemini; đang chờ nạp tiền Gemini (HTTP 402) để vẽ lại",
     "source": null,
     "rubricVersion": "v23"
   },
@@ -61,6 +61,12 @@
       "by": "ai",
       "status": "NEEDS_PHOTO",
       "note": "19/10 re-research with image search (owner request): no image of this exact product/variant found"
+    },
+    {
+      "at": "2026-10-21T01:49:34Z",
+      "by": "ai",
+      "status": "IN_PROGRESS",
+      "note": "reference found (retailer render, Gemini ref only); waiting for Gemini credit"
     }
   ]
 }
