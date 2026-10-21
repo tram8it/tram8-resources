@@ -95,3 +95,15 @@ Chỉ tính những thương hiệu con mà thương hiệu mẹ **cũng đang l
 
 Các thương hiệu cùng công ty nhưng không có "mẹ" là thương hiệu (vd Mirinda 2, 7Up 1, Sting 4 của Suntory PepsiCo)
 vẫn là thương hiệu riêng. Chủ muốn gộp Mirinda/7Up vào Pepsi thì báo.
+
+## Chủ chốt 21/10 → `gop-dot-2.csv` (33 thương hiệu con, 148 SP)
+- **Gộp:** Hayđấy và Ông Thọ → Vinamilk. O'Star, Swing, Marine Boy, Bánh Gạo An, C'est Bon → Orion. Twister, Mirinda, 7Up → Pepsi.
+  Buldak → Samyang. Các dòng con khác trong bảng trên → thương hiệu mẹ.
+- **Không gộp:** Xylitol, vì nổi tiếng riêng (ít ai biết là của Lotte) và có nhiều mã hàng (21). Heineken / Tiger / Strongbow giữ riêng.
+- **Quy tắc rút ra:** dòng con giữ tên riêng khi **vừa nổi tiếng riêng vừa có nhiều mã hàng**. Nổi tiếng mà ít mã hàng
+  (Mirinda 2, 7Up 1) thì vẫn gộp về mẹ.
+- "Hàng nội địa Trung" giữ nguyên (chủ 21/10).
+- Danh sách đổi `doi-dot-2.csv` cũ đã lỗi thời: Samyang không còn đổi sang Buldak, O'Star → Orion. Danh sách mới sẽ lập lại từ file xuất mới.
+- `data/brand-canon.json` đã ghi `p` và `up: true` cho 33 thương hiệu con, và `up: false` cho Xylitol.
+- Sau khi nhập: báo session "Sắp xếp sản phẩm theo thương hiệu" (session lo tram8-web) danh sách gộp, để kiểm logo và hạng
+  của các thương hiệu mẹ ít SP (Gery, Meiji, Binggrae, OKF, LC Foods, Doctor Care, Biswell). Xoá các thương hiệu không còn SP nào.
