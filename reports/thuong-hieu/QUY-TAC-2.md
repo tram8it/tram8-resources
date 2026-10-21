@@ -107,3 +107,12 @@ vẫn là thương hiệu riêng. Chủ muốn gộp Mirinda/7Up vào Pepsi thì
 - `data/brand-canon.json` đã ghi `p` và `up: true` cho 33 thương hiệu con, và `up: false` cho Xylitol.
 - Sau khi nhập: báo session "Sắp xếp sản phẩm theo thương hiệu" (session lo tram8-web) danh sách gộp, để kiểm logo và hạng
   của các thương hiệu mẹ ít SP (Gery, Meiji, Binggrae, OKF, LC Foods, Doctor Care, Biswell). Xoá các thương hiệu không còn SP nào.
+
+## Kết quả (21/10/2026)
+- Lô thử (3 SP) và lô 2 (146 SP): `brand-diff` đổi đúng **149/149 SP**. Các cảnh báo còn lại đều là giá do chủ sửa tay trong lúc nhập
+  (kẹo dẻo Xuan Guo Le, thanh mai sấy, rượu 375 ml), không thuộc file nhập.
+- 35 thương hiệu không còn SP nào, chờ chủ xoá ở Thiết lập → Hàng hóa → Thương hiệu:
+  4X, 7Up, Bánh Gạo An, Bích chi, Buldak, C'est Bon, Chocolatos, Cup Noodles, Doraemon, Fusen Nomi, Glamiss, HABECO,
+  Hayđấy, Hello Panda, Kkokalcorn, Koala's March, Marine Boy, Melona, Mirinda, Oh Teen, Ông Thọ, O'Star, Pillows,
+  Pipper, Probi, Raoh, Richeese, Richoco, Shin Ramyun, Suku Suku, SuSu, Swing, Toppo, Twister, Vtalk.
+- Chủ sửa tay: 2 SP Bento thanh cua surimi → LC Foods.
