@@ -67,3 +67,17 @@ Nhập Excel cột "Nhóm hàng(3 Cấp)", theo đúng quy trình đã làm vớ
 4. Làm lô còn lại.
 
 Khi nhập, dòng lốc/thùng tự theo nhóm của hàng gốc (đo được ở lô ĐVT 8, ngày 20/10).
+
+## Chủ chốt 22/10/2026
+- **Thêm nhóm "Cà phê hòa tan"** dưới "Đồ uống đóng chai", cạnh "Cà phê uống liền". Đưa vào 6 SP:
+  - Cộng bạc xỉu (gói và hộp);
+  - 4 hộp quà cà phê Chồn / muối / chuối / dừa.
+- Trà Blendy (gói pha) vẫn để ở "Trà đóng chai", vì chủ chỉ thêm nhóm cà phê.
+- Lạp xưởng (Wyn, Fansipan) → Giò chả / chả lụa.
+- Đậu phụ khô cay (4 SP) → Đồ chay giả mặn.
+- Tiger Crystal 330 ml → Lager Phổ Thông.
+- Bánh bao Thọ Phát 300 g → Món ngon Trạm 8 > Món hấp.
+- Danh sách cập nhật: 225 SP. Cột `confidence` có 3 giá trị:
+  - `CHU` (13): chủ quyết.
+  - `CHAC` (132): chắc chắn.
+  - `KIEM` (80): chủ nên liếc.
