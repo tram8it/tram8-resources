@@ -127,3 +127,8 @@ vẫn là thương hiệu riêng. Chủ muốn gộp Mirinda/7Up vào Pepsi thì
 - 4 cảnh báo còn lại: chủ đổi tay tên 2 SP "Thịt Bò Chay Xé Sợi" (Vịt Đen ↔ Vịt BBQ). Không thuộc file nhập.
 - Thương hiệu không còn SP nào, chờ chủ xoá: **54**. Gồm 35 cái của đợt 2, cộng thêm AFC, Cosy, Dasani, Đệ Nhất, Fasty, Georgia,
   Good, Hằng Nga, Lẩu Thái, Miyaki, Modern, Nhớ Mãi Mãi, Phú Hương, Revive, Rockstar, Schweppes, Sprite, Trúc Bạch, Tyti.
+
+## Đợt 4 (23/10/2026): `gop-dot-4.csv`, 17 SP, `brand-diff` đổi đúng 17/17
+- Hảo Hảo (11 SP) và Siukay (6 SP) gộp về **Acecook** (chủ 23/10). Acecook hiện có 31 SP.
+- Đã báo session tram8-web bỏ logo của Hảo Hảo và Siukay.
+- Thương hiệu không còn SP nào, chờ chủ xoá: **56** (54 cái cũ, cộng Hảo Hảo và Siukay).
