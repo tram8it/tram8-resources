@@ -82,3 +82,8 @@ Khi nhập, dòng lốc/thùng tự theo nhóm của hàng gốc (đo được �
   - `CHAC` (132): chắc chắn.
   - `KIEM` (80): chủ nên liếc.
 - Sửa lại (chủ, 22/10): **không thêm nhóm "Cà phê hòa tan"**. 6 SP cà phê hoà tan để nguyên ở "Cà phê uống liền". Danh sách còn 219 SP.
+
+## Kết quả (22/10/2026)
+- Lô thử 3 SP và lô 2 (216 SP): `brand-diff` đổi đúng **219/219 SP**. Không trường nào ngoài nhóm hàng bị đổi.
+  Riêng 2 dòng có trọng lượng về 0, đúng quy tắc trọng lượng = 0.
+- Dòng lốc/thùng tự đi theo nhóm của hàng gốc.
