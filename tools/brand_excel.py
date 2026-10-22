@@ -20,6 +20,10 @@ weight are left as exported. Only products with no lốc/thùng rows qualify
 (their pack rows convert from the base unit) unless --with-packs is given;
 the pack rows themselves are not in the file and must come out unchanged.
 
+With --category the proposals file is reports/danh-muc/de-xuat-sua-danh-muc.csv
+(id, current, proposed as "A > B > C") and only the category cell changes;
+KiotViet writes it as "A>>B>>C" and moves a product's lốc/thùng rows with it.
+
 Writes <out>.xlsx, <out>.csv (plan for brand-diff.mjs) and <out>.md (cell-by-
 cell list of what changes). Standard library only.
 """
@@ -43,6 +47,7 @@ ap.add_argument("--all", action="store_true", help="every product whose brand ch
 ap.add_argument("--take", type=int)
 ap.add_argument("--skip", type=int, default=0)
 ap.add_argument("--units", action="store_true", help="set the ĐVT cell from the proposals file instead of the brand")
+ap.add_argument("--category", action="store_true", help="set the Nhóm hàng(3 Cấp) cell from the proposals file (paths written 'A > B > C')")
 ap.add_argument("--with-packs", action="store_true", help="with --units: also take base products that have lốc/thùng rows")
 ap.add_argument("--out", required=True)
 args = ap.parse_args()
@@ -50,7 +55,7 @@ args = ap.parse_args()
 snap = json.load(open(args.snapshot, encoding="utf-8"))
 products = {str(p["id"]): p for p in snap["products"]}
 by_code = {p["code"]: p for p in snap["products"]}
-proposals = {r["kiotProductId"]: r for r in csv.DictReader(open(args.proposals, encoding="utf-8-sig"))}
+proposals = {(r.get("kiotProductId") or r["id"]): r for r in csv.DictReader(open(args.proposals, encoding="utf-8-sig"))}
 
 zin = zipfile.ZipFile(args.export)
 names = zin.namelist()
@@ -84,7 +89,7 @@ header = cells(rows[0])
 col_of = {}
 for col, (_a, val) in header.items():
     col_of[(val or "").strip()] = col
-for need in ("Mã hàng", "ĐVT", "Tên hàng", "Thương hiệu", "Trọng lượng", "Giá bán sau thuế", "VAT hàng bán (%)"):
+for need in ("Mã hàng", "ĐVT", "Nhóm hàng(3 Cấp)", "Tên hàng", "Thương hiệu", "Trọng lượng", "Giá bán sau thuế", "VAT hàng bán (%)"):
     if need not in col_of:
         sys.exit(f"export has no column '{need}'")
 
@@ -92,6 +97,8 @@ for need in ("Mã hàng", "ĐVT", "Tên hàng", "Thương hiệu", "Trọng lư�
 want = []
 if args.ids:
     want = args.ids.split(",")
+elif args.category:
+    want = list(proposals)
 elif args.units:
     rows_with_unit = [pid for pid, r in proposals.items() if r["proposed"]]
     want = rows_with_unit if args.all else rows_with_unit[args.skip : args.skip + (args.take or 0)]
@@ -142,7 +149,10 @@ for pid in want:
         problems.append("giá sau thuế khác")
     if (get("Thương hiệu") or "") != escape(brand_now):
         problems.append("thương hiệu khác")
-    if args.units:
+    if args.category:
+        if unescape(get("Nhóm hàng(3 Cấp)") or "") != ">>".join(r["current"].split(" > ")):
+            problems.append("nhóm hàng khác")
+    elif args.units:
         if (get("ĐVT") or "") != escape(p.get("unit") or ""):
             problems.append("ĐVT khác")
         if not args.with_packs and any(str(q.get("masterUnitId")) == pid for q in products.values()):
@@ -189,6 +199,12 @@ for i, (pid, row, r) in enumerate(kept, start=2):
     c = cells(row)
     old_brand = (c.get(col_of["Thương hiệu"]) or (None, None))[1] or ""
     old_weight = (c.get(col_of["Trọng lượng"]) or (None, None))[1] or ""
+    if args.category:
+        new_path = ">>".join(r["proposed"].split(" > "))
+        out_rows.append(renumber(set_cell(row, col_of["Nhóm hàng(3 Cấp)"], new_path, False), i))
+        changes.append((products[pid]["code"], products[pid]["name"], r["current"], r["proposed"], None))
+        plan.append({"kind": "category", "kiotProductId": pid, "brandId": "", "from": r["current"], "to": r["proposed"]})
+        continue
     if args.units:
         old_unit = unescape((c.get(col_of["ĐVT"]) or (None, None))[1] or "")
         out_rows.append(renumber(set_cell(row, col_of["ĐVT"], r["proposed"], False), i))
@@ -229,7 +245,7 @@ with open(base + ".csv", "w", newline="", encoding="utf-8") as f:
     w.writerows(plan)
 with open(base + ".md", "w", encoding="utf-8") as f:
     f.write(f"# {args.out}\n\nFile xuất lúc {exported_at:%d/%m/%Y %H:%M:%S} · bản chụp {snap['takenAt']}\n\n")
-    f.write(f"{len(kept)} SP trong lô · {len(skipped)} SP bị loại\n\n| Mã | Tên | {'ĐVT' if args.units else 'Thương hiệu'} | Trọng lượng |\n|---|---|---|---|\n")
+    f.write(f"{len(kept)} SP trong lô · {len(skipped)} SP bị loại\n\n| Mã | Tên | {'Nhóm hàng' if args.category else 'ĐVT' if args.units else 'Thương hiệu'} | Trọng lượng |\n|---|---|---|---|\n")
     for code, name, ob, nb, ow in changes:
         if ow is None:
             f.write(f"| {code} | {name} | {ob or '(trống)'} → {nb} | giữ |\n")

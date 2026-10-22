@@ -9,6 +9,8 @@
  *   rename   brandId, from, to   — every product on that brand is expected to show `to`
  *   create   to
  *   delete   brandId, from
+ *   category kiotProductId, from, to — paths "A > B > C"; the product's leaf must
+ *            become the last segment of `to`, and its lốc/thùng rows follow it
  *   unit     kiotProductId, from (current ĐVT, empty = none), to — a product
  *            with no lốc/thùng rows; fullName follows as "<name> (<unit>)"
  * No plan = nothing is expected to change.
@@ -52,7 +54,8 @@ for (const [i, row] of plan.entries()) {
     (row.kind === "rename" && row.brandId && row.from && row.to) ||
     (row.kind === "create" && row.to) ||
     (row.kind === "delete" && row.brandId && row.from) ||
-    (row.kind === "unit" && row.kiotProductId && row.to);
+    (row.kind === "unit" && row.kiotProductId && row.to) ||
+    (row.kind === "category" && row.kiotProductId && row.to);
   if (!ok) {
     console.error(`plan row ${i + 2} is incomplete or has an unknown kind: ${JSON.stringify(row)}`);
     process.exit(2);
@@ -64,6 +67,7 @@ const renamePlan = new Map(byKind("rename").map((r) => [String(r.brandId), r]));
 const createPlan = new Map(byKind("create").map((r) => [r.to, r]));
 const productTargets = new Set(byKind("product").map((r) => r.to).filter(Boolean));
 const unitPlan = new Map(byKind("unit").map((r) => [String(r.kiotProductId), r]));
+const categoryPlan = new Map(byKind("category").map((r) => [String(r.kiotProductId), r]));
 const deletePlan = new Map(byKind("delete").map((r) => [String(r.brandId), r]));
 
 // ---- brand list -------------------------------------------------------------
@@ -160,7 +164,16 @@ for (const [id, a] of pAfter) {
     else if (a.unit === unitTo.to) alarm("SAI_TEN_DAY_DU", `${label(a)}: fullName ${show(a.fullName)}, cần ${show(wantFull)}`);
     else alarm(a.unit === b.unit ? "CHUA_LAM" : "SAI_DVT", `${label(a)}: ĐVT ${show(b.unit)} → ${show(a.unit)}, cần ${show(unitTo.to)}`);
   }
+  // A lốc/thùng row takes its base product's category on import.
+  const catTo = categoryPlan.get(id) ?? (a.masterUnitId ? categoryPlan.get(String(a.masterUnitId)) : undefined);
+  if (catTo) {
+    const leaf = catTo.to.split(" > ").at(-1);
+    if (a.category?.name === leaf) {
+      if (!a.masterUnitId) done.push(`${label(a)}: nhóm ${show(b.category?.name)} → ${show(leaf)}`);
+    } else alarm(a.category?.name === b.category?.name ? "CHUA_LAM" : "SAI_NHOM", `${label(a)}: nhóm ${show(b.category?.name)} → ${show(a.category?.name)}, cần ${show(leaf)}`);
+  }
   for (const key of new Set([...Object.keys(b), ...Object.keys(a)])) {
+    if (catTo && key === "category") continue;
     if (unitTo && (key === "unit" || key === "fullName")) continue;
     if (IGNORED.has(key) || isDeepStrictEqual(b[key], a[key])) continue;
     // "" and null both mean "nothing here" (orderTemplate turned "" → null on import).
