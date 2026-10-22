@@ -81,3 +81,4 @@ Khi nhập, dòng lốc/thùng tự theo nhóm của hàng gốc (đo được �
   - `CHU` (13): chủ quyết.
   - `CHAC` (132): chắc chắn.
   - `KIEM` (80): chủ nên liếc.
+- Sửa lại (chủ, 22/10): **không thêm nhóm "Cà phê hòa tan"**. 6 SP cà phê hoà tan để nguyên ở "Cà phê uống liền". Danh sách còn 219 SP.
