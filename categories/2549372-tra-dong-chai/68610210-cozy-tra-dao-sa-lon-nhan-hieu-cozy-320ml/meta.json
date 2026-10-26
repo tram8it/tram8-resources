@@ -17,18 +17,28 @@
     "description": null,
     "exportedAt": "2026-10-26T02:38:41.284Z"
   },
-  "status": "TODO",
+  "status": "READY",
   "image": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "REPLACE",
+    "reason": "I3/I4/I5: ảnh KiotViet chụp lon trên bàn làm việc, đáy lon bị cắt; cozy.vn chỉ có ảnh bối cảnh → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: vẽ tiếp phần đáy lon bị cắt (nền cam + đáy bạc); chữ nhỏ có thể hơi khác",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-26",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet + ảnh lon Cozy cùng dòng đã duyệt (chỉ để đồng bộ kiểu vẽ)"
+    },
+    "rubricVersion": "v23"
   },
   "description": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; theo trang Cozy (Trà đào sả, có quy cách lon 320 ml) và chữ trên lon",
+    "source": {
+      "url": "https://cozy.vn/tra-dao-sa/",
+      "fetchedAt": "2026-10-26"
+    },
+    "rubricVersion": "v23"
   },
   "question": null,
   "history": [
@@ -37,6 +47,26 @@
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-26T02:59:11Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references; description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-26T02:59:47.625Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-26T02:59:47.625Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

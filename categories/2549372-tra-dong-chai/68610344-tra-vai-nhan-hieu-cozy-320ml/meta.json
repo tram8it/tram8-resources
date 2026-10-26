@@ -17,18 +17,25 @@
     "description": null,
     "exportedAt": "2026-10-26T02:38:41.284Z"
   },
-  "status": "TODO",
+  "status": "READY",
   "image": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "REPLACE",
+    "reason": "I3/I4/I5: ảnh KiotViet chụp lon trên bàn làm việc, đáy lon bị cắt; cozy.vn không có ảnh lon trà vải → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: vẽ tiếp phần đáy lon bị cắt (họa tiết đỏ + đáy bạc), mã vạch để mờ; hoạ tiết vàng trên nền đỏ là thiết kế của lon đang bán (chỉ biết một mẫu này)",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-26",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet + ảnh lon Cozy cùng dòng đã duyệt (chỉ để đồng bộ kiểu vẽ)"
+    },
+    "rubricVersion": "v23"
   },
   "description": {
-    "decision": null,
-    "reason": null,
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết từ tên SP và chữ trên lon (cozy.vn không ghi thành phần cho dạng lon)",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v23"
   },
   "question": null,
   "history": [
@@ -37,6 +44,26 @@
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-26T02:59:11Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references; description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-26T02:59:49.833Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-26T02:59:49.833Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

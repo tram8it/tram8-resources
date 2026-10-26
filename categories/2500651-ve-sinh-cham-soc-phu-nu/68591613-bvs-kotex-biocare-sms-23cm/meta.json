@@ -17,18 +17,25 @@
     "description": null,
     "exportedAt": "2026-10-26T02:38:41.284Z"
   },
-  "status": "TODO",
+  "status": "READY",
   "image": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "REPLACE",
+    "reason": "I3/I4/I8: ảnh KiotViet chụp nhiều gói trên kệ, mép trên bị cắt, có băng \"Mua 1 tặng 1\" và gói hằng ngày tặng kèm; kotex.com.vn chặn bot (Cloudflare) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: một gói, bỏ băng \"Mua 1 tặng 1\" và gói Bio-Care hằng ngày dán kèm; dòng chữ tiếng Anh dưới băng chỉ thấy phần \"from irritation, bacteria & odor*\", giữ như vậy",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-26",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (chỉ làm mẫu)"
+    },
+    "rubricVersion": "v23"
   },
   "description": {
-    "decision": null,
-    "reason": null,
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết từ chữ in trên mặt gói (ảnh KiotViet, mã vạch 8935107204179)",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v23"
   },
   "question": null,
   "history": [
@@ -37,6 +44,26 @@
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-26T02:59:09Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references; description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-26T02:59:23.380Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-26T02:59:23.380Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

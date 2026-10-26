@@ -17,18 +17,26 @@
     "description": null,
     "exportedAt": "2026-10-26T02:38:41.284Z"
   },
-  "status": "TODO",
+  "status": "READY",
   "image": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "REPLACE",
+    "reason": "I3/I4/I7: ảnh KiotViet tay cầm trong cửa hàng, có tem giá dán tay → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: bỏ tem giá dán tay; chữ nhỏ để như mẫu",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-26",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh gói của Kingfoodmart theo mã vạch 3073781153859 + ảnh KiotViet (chỉ làm mẫu)",
+      "referenceUrl": "https://storage.googleapis.com/onelife-public/3073781153859.jpg"
+    },
+    "rubricVersion": "v23"
   },
   "description": {
-    "decision": null,
-    "reason": null,
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết từ chữ in mặt trước gói (78 g, x15, 4 dưỡng chất)",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v23"
   },
   "question": null,
   "history": [
@@ -37,6 +45,26 @@
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-26T02:59:10Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references; description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-26T02:59:42.328Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-26T02:59:42.328Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

@@ -17,18 +17,25 @@
     "description": null,
     "exportedAt": "2026-10-26T02:38:41.284Z"
   },
-  "status": "TODO",
+  "status": "READY",
   "image": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "REPLACE",
+    "reason": "I3/I4/I8: ảnh KiotViet chụp hai gói trên kệ, kèm băng \"Mua 1 tặng 1\" và gói bông tẩy trang tặng kèm; kotex.com.vn chặn bot (Cloudflare), không có ảnh hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: một gói, bỏ băng khuyến mãi \"Mua 1 tặng 1 – quà tặng 15.000đ\" và gói bông tẩy trang dán kèm (không in trên gói); vẽ phẳng, chữ nhỏ mặt gói giữ như ảnh",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-26",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (chỉ làm mẫu)"
+    },
+    "rubricVersion": "v23"
   },
   "description": {
-    "decision": null,
-    "reason": null,
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết từ chữ in trên mặt gói (ảnh KiotViet, mã vạch 8935107201192)",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v23"
   },
   "question": null,
   "history": [
@@ -37,6 +44,26 @@
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-26T02:59:09Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references; description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-26T02:59:20.734Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-26T02:59:20.734Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

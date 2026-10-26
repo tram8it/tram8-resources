@@ -17,18 +17,29 @@
     "description": null,
     "exportedAt": "2026-10-26T02:38:41.284Z"
   },
-  "status": "TODO",
+  "status": "READY",
   "image": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "REPLACE",
+    "reason": "I3/I4/I5: ảnh KiotViet chụp chai trên bàn làm việc, đáy chai bị cắt; trang hãng chỉ có ảnh quảng cáo có cảnh nền → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: vẽ tiếp phần đáy chai theo dáng chai trên ảnh quảng cáo của hãng; chữ nhỏ hai bên nhãn để mờ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-26",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet + ảnh quảng cáo Vạn Xuân trên cozy.vn (chỉ lấy dáng chai)",
+      "referenceUrl": "https://cozy.vn/wp-content/uploads/2026/09/Van-Xuan-KV.jpg"
+    },
+    "rubricVersion": "v23"
   },
   "description": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; theo bài ra mắt Vạn Xuân trên cozy.vn (Công ty CP Sản phẩm Sinh Thái) và chữ trên nhãn",
+    "source": {
+      "url": "https://cozy.vn/cong-ty-co-phan-san-pham-sinh-thai-ra-mat-hai-thuong-hieu-moi-f5-va-van-xuan/",
+      "fetchedAt": "2026-10-26"
+    },
+    "rubricVersion": "v23"
   },
   "question": null,
   "history": [
@@ -37,6 +48,26 @@
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-26T02:59:11Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references; description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-26T02:59:54.422Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-26T02:59:54.422Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }
