@@ -20,17 +20,16 @@
   "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I7: ảnh KiotViet là mặt sau gói, có watermark SEETHAI; snnp.co.th không có gói vị sốt cay Hàn Quốc → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: mặt trước theo ảnh Villa Market (FDA 74-2-04559-6-0057, Net Wt. 18 g); bảng dinh dưỡng và chữ Thái nhỏ có thể hơi khác",
+    "reason": "chủ 26/10: duyệt nhầm, ảnh trước không giống gói thật → vẽ lại theo ảnh chủ chụp (Bento Extreme Snack Spicy Korean Sauce 18g) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: theo ảnh chủ: thiết kế, chữ, thang cay 4/5, Net Wt 18 g; chữ Thái nhỏ có thể khác nét",
     "source": {
       "aiGenerated": true,
       "tool": "Gemini API",
       "model": "gemini-nano-banana-2.1",
       "generatedAt": "2026-10-26",
       "style": "flat clean packaging render (v17)",
-      "reference": "ảnh mặt trước gói của Villa Market (chỉ làm mẫu) + ảnh SP cùng dòng Bento đã duyệt (chỉ để đồng bộ kiểu vẽ)",
-      "referenceUrl": "https://shop.villamarket.com/product/260006"
+      "reference": "ảnh chủ chụp gói thật 26/10 + SP cùng dòng 67136563"
     },
-    "rubricVersion": "v23"
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
@@ -59,10 +58,22 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-26T05:47:38Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-26T05:47:38.764Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-26T02:59:33.540Z",
+    "at": "2026-10-26T05:47:38.764Z",
     "fields": [
       "description",
       "image"
