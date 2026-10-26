@@ -1,0 +1,140 @@
+{
+  "kiotProductId": "64865542",
+  "code": "8935001719977",
+  "barcode": "8935001719977",
+  "name": "Kẹo Mentos quả mọng",
+  "fullName": "Kẹo Mentos quả mọng (Thanh)",
+  "brand": "Mentos",
+  "unit": "Thanh",
+  "category": {
+    "kiotCategoryId": "2549275",
+    "name": "Kẹo mềm / caramen",
+    "path": "Các loại kẹo > Kẹo mềm / caramen"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/6edeee5610946d37576f9953131678858b7dd34ef2b5d6d3df41bba02c0b5084.webp",
+    "description": "Kẹo Mentos hương quả mọng, dạng thanh nhỏ gọn bỏ túi.\n\nQuy cách: thanh\nNhà sản xuất/thương hiệu: Mentos",
+    "exportedAt": "2026-10-26T02:38:41.284Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "v13–v15 (chủ 19/10): ảnh nhân viên chụp đã tách nền vẫn kém ảnh các SP cùng dòng đã duyệt (nhăn/loá/nghiêng) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: thanh kẹo vẽ phẳng; chữ nhỏ không đọc được",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-19",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh nhân viên chụp 18/10 (chỉ làm mẫu) + ảnh đã duyệt 65918855 (same shop category (candy sticks), chỉ làm mẫu phong cách)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; không có trang hãng/ảnh bao bì — mô tả ngắn chỉ từ tên SP và đơn vị bán",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:19:58.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "image NEEDS_PHOTO, description WRITE_NEW (name only)"
+    },
+    {
+      "at": "2026-10-17T04:38:48Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "v17: tìm ảnh mẫu cho Gemini không có — giữ NEEDS_PHOTO"
+    },
+    {
+      "at": "2026-10-18T17:56:03Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "staff photo 2026-10-18 (Zalo); cutout + tone --vivid"
+    },
+    {
+      "at": "2026-10-18T17:57:08.837Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-18T18:24:52.139Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T02:16:57Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-19T02:17:57.067Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T02:44:56.965Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T03:19:05.400Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-26T02:38:48.902Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "category moved 2549274-keo-deo-jelly -> 2549275-keo-mem-caramen"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-19T02:17:57.067Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T02:29:39.600Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T02:29:39.600Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/6edeee5610946d37576f9953131678858b7dd34ef2b5d6d3df41bba02c0b5084.webp"
+        ],
+        "from": null
+      },
+      "description": {
+        "to": "Kẹo Mentos hương quả mọng, dạng thanh nhỏ gọn bỏ túi.\n\nQuy cách: thanh\nNhà sản xuất/thương hiệu: Mentos",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

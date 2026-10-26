@@ -1,0 +1,125 @@
+{
+  "kiotProductId": "65678870",
+  "code": "SP877407",
+  "barcode": "4897106554089",
+  "name": "Bánh bông lan tam giác Weisiel red velvet",
+  "fullName": "Bánh bông lan tam giác Weisiel red velvet (Cái)",
+  "brand": "Hàng nội địa Trung",
+  "unit": "Cái",
+  "category": {
+    "kiotCategoryId": "2548802",
+    "name": "Bánh bông lan & phô mai",
+    "path": "Các loại bánh > Bánh ngọt > Bánh bông lan & phô mai"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/033d30422cf2d46022da65bec2fa7f94d05b2b3f8334926aca5cb2565d862546.webp",
+    "description": "Bánh bông lan tam giác Weisiel vị red velvet, bánh mềm hai lớp kẹp kem, đóng gói riêng từng chiếc.\n\nQuy cách: cái\nNhà sản xuất/thương hiệu: Weisiel",
+    "exportedAt": "2026-10-26T02:38:41.284Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I4/I5: ảnh chụp gói, lóa, có in ngày SX/HSD → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Bỏ ngày SX/HSD in trên màng; chữ nhỏ ở dải đỏ đáy bỏ. Gói vẽ thẳng, phẳng nên dáng hơi khác ảnh chụp nghiêng.",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (ảnh tự chụp)",
+      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/07/30/tram8/16961f0a405e4a0e80356521553e828b.png"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; mô tả ngắn chỉ từ tên hàng và chữ in mặt trước bao bì (không có trang hãng) ('Red Velvet Flavored Cake')",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:30:00.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "b20 review: image CROP, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-15T09:16:17Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "tone.py --vivid: white balance/levels + brand-like colour (owner request)"
+    },
+    {
+      "at": "2026-10-17T15:15:32Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T15:15:32.625Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-26T02:38:48.902Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "category moved 2544186-banh-ngot -> 2548802-banh-bong-lan-pho-mai"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T15:15:32.625Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T17:07:24.497Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T17:07:24.497Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/033d30422cf2d46022da65bec2fa7f94d05b2b3f8334926aca5cb2565d862546.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/30/tram8/16961f0a405e4a0e80356521553e828b.png"
+        ]
+      },
+      "description": {
+        "to": "Bánh bông lan tam giác Weisiel vị red velvet, bánh mềm hai lớp kẹp kem, đóng gói riêng từng chiếc.\n\nQuy cách: cái\nNhà sản xuất/thương hiệu: Weisiel",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

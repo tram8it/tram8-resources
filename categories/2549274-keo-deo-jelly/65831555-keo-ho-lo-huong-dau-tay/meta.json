@@ -1,0 +1,118 @@
+{
+  "kiotProductId": "65831555",
+  "code": "6976613321143",
+  "barcode": "6976613321143",
+  "name": "Kẹo hồ lô Hương dâu Tây",
+  "fullName": "Kẹo hồ lô Hương dâu Tây (Gói)",
+  "brand": "Ennjoi",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2549274",
+    "name": "Kẹo dẻo / jelly",
+    "path": "Các loại kẹo > Kẹo dẻo / jelly"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/cff2a8589f5c8c37a6eb7f0650ecbf162089e2084e7fc016c08366a37520b629.webp",
+    "description": "Kẹo dẻo hình xiên dango (kẹo hồ lô) Ennjoi hương dâu tây, các viên kẹo tròn xếp thành xiên.\n\nQuy cách: gói\nThương hiệu: Ennjoi",
+    "exportedAt": "2026-10-26T02:38:41.284Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "CROP",
+    "reason": "I9: packshot nền trắng, đúng SP (hương dâu in trên gói) nhưng không 1:1; đã crop và xem lại",
+    "source": null,
+    "rubricVersion": "v4",
+    "vivid": {
+      "rubricVersion": "v10",
+      "saturationGain": 1.25,
+      "contrastGain": 1.08,
+      "toneGain": 1.102,
+      "gamma": 1
+    }
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; không có trang hãng — mô tả ngắn chỉ từ tên SP và chữ in mặt trước bao bì (ảnh hiện tại)",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T22:00:00.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "batch b14 review (rubric v4): image CROP, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-15T09:16:17Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "tone.py --vivid: white balance/levels + brand-like colour (owner request)"
+    },
+    {
+      "at": "2026-10-18T17:50:31.789Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T02:05:27.524Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T03:19:05.400Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-26T02:38:48.902Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "category moved 2549273-keo-cung -> 2549274-keo-deo-jelly"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-18T17:50:31.789Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T01:23:19.291Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T01:23:19.291Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/cff2a8589f5c8c37a6eb7f0650ecbf162089e2084e7fc016c08366a37520b629.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/27/tram8/c263536f809f435085d3c473089518a4.png"
+        ]
+      },
+      "description": {
+        "to": "Kẹo dẻo hình xiên dango (kẹo hồ lô) Ennjoi hương dâu tây, các viên kẹo tròn xếp thành xiên.\n\nQuy cách: gói\nThương hiệu: Ennjoi",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

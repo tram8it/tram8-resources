@@ -1,0 +1,119 @@
+{
+  "kiotProductId": "65226129",
+  "code": "8934952007362",
+  "barcode": "8934952007362",
+  "name": "Bánh Dorayaki chà bông xốt bơ Nhật",
+  "fullName": "Bánh Dorayaki chà bông xốt bơ Nhật (Gói)",
+  "brand": null,
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2548802",
+    "name": "Bánh bông lan & phô mai",
+    "path": "Các loại bánh > Bánh ngọt > Bánh bông lan & phô mai"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/49d274f00c06b830d2db085629d3002c607220caa13b9f28a9ab8b1da82165a7.webp",
+    "description": "Bánh Dorayaki KIDO nhân chà bông xốt bơ, bánh rán kiểu Nhật mềm thơm sữa và trứng.\n\nQuy cách: gói\nNhà sản xuất/thương hiệu: KIDO",
+    "exportedAt": "2026-10-26T02:38:41.284Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I3/I4/I5: ảnh chụp túi trên kệ, bị khung cắt; trang KIDO không truy cập được → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh Kingfoodmart (chỉ làm mẫu) + ảnh KiotViet",
+      "referenceUrl": "https://storage.googleapis.com/onelife-public/8934952007362.jpg"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; mô tả ngắn chỉ từ tên hàng và chữ in mặt trước bao bì (không có trang hãng) ('KIDO Dora-yaki, Chà Bông Xốt Bơ, hương vị Nhật Bản')",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:30:00.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "b20 review: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T07:42:01Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T07:42:30.076Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T08:06:02.482Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-26T02:38:48.902Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "category moved 2544186-banh-ngot -> 2548802-banh-bong-lan-pho-mai"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T07:42:30.076Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T07:45:43.676Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T07:45:43.676Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/49d274f00c06b830d2db085629d3002c607220caa13b9f28a9ab8b1da82165a7.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/04/27/tram8/831de119446b468d9f99c2cfe173c2da.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Bánh Dorayaki KIDO nhân chà bông xốt bơ, bánh rán kiểu Nhật mềm thơm sữa và trứng.\n\nQuy cách: gói\nNhà sản xuất/thương hiệu: KIDO",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

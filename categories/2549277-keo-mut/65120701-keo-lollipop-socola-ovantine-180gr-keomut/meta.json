@@ -1,0 +1,147 @@
+{
+  "kiotProductId": "65120701",
+  "code": "6906791587819",
+  "barcode": "6906791587819",
+  "name": "Kẹo Lollipop Socola Ovantine 180gr ( KeoMut)",
+  "fullName": "Kẹo Lollipop Socola Ovantine 180gr ( KeoMut) (Que)",
+  "brand": "Ovaltine",
+  "unit": "Que",
+  "category": {
+    "kiotCategoryId": "2549277",
+    "name": "Kẹo mút",
+    "path": "Các loại kẹo > Kẹo mút"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/8568801354aaa8e64b54cce06de43de23c35e754fb3cdfba01e13e9b0acf2c54.webp",
+    "description": "Kẹo mút Ovaltine vị sô cô la mạch nha (malted chocolate), dạng kẹo sữa nén trên que, chứa 72% sữa bột theo bao bì.\n\nQuy cách: 7,5 g · cái (bán lẻ từng cây)\nThương hiệu: Ovaltine",
+    "exportedAt": "2026-10-26T02:38:41.284Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I3/I8: ảnh nhân viên chụp là hộp trưng bày + 1 cây kẹo; đơn vị bán Cái = 1 cây kẹo 7,5 g (v19) → vẽ 1 cây kẹo còn vỏ + 1 cây đã bóc → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: vỏ kẹo hơi ngả cam hơn ảnh chụp (đỏ); dòng 'Est 1904' ảnh chụp chỉ đọc được 'Est 19…'; viên kẹo bóc vỏ là minh hoạ theo hình in trên vỏ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-19",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh nhân viên chụp (KiotViet 19/10)",
+      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/10/19/tram8/f2c687c1a0f64403a645df2548f497fd.png"
+    },
+    "rubricVersion": "v23"
+  },
+  "description": {
+    "decision": "REWRITE",
+    "reason": "D2: mô tả cũ ghi 180 g (khối lượng cả hộp); đơn vị bán là Cái → viết lại theo vỏ kẹo trong ảnh nhân viên chụp (7,5 g, 72% sữa bột)",
+    "source": {
+      "staffPhoto": true,
+      "takenAt": "2026-10-19",
+      "url": "https://cdn2-retail-images.kiotviet.vn/2026/10/19/tram8/f2c687c1a0f64403a645df2548f497fd.png"
+    },
+    "rubricVersion": "v23"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:05:53.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "b26: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T08:25:58Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "retried 17/10: no usable reference, stays NEEDS_PHOTO"
+    },
+    {
+      "at": "2026-10-18T18:22:31.468Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "np18 re-research 18/10: still no image of this exact pack"
+    },
+    {
+      "at": "2026-10-19T03:19:05.400Z",
+      "by": "init",
+      "status": "NEEDS_PHOTO",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-19T03:24:13Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-19T03:27:10Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "description written from the pack in the staff photo uploaded to KiotViet (19/10); image redrawn by Gemini from that photo"
+    },
+    {
+      "at": "2026-10-19T03:27:24.453Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T03:31:45.675Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T17:15:09.663Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-26T02:38:48.902Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "category moved 2549264-socola-vien-keo-socola -> 2549277-keo-mut"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-19T03:27:24.453Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T03:30:12.291Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T03:30:12.291Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/8568801354aaa8e64b54cce06de43de23c35e754fb3cdfba01e13e9b0acf2c54.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/10/19/tram8/f2c687c1a0f64403a645df2548f497fd.png"
+        ]
+      },
+      "description": {
+        "to": "Kẹo mút Ovaltine vị sô cô la mạch nha (malted chocolate), dạng kẹo sữa nén trên que, chứa 72% sữa bột theo bao bì.\n\nQuy cách: 7,5 g · cái (bán lẻ từng cây)\nThương hiệu: Ovaltine",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

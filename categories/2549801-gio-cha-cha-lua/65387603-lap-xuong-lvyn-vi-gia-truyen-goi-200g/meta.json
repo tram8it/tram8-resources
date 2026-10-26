@@ -1,0 +1,125 @@
+{
+  "kiotProductId": "65387603",
+  "code": "8936146443758",
+  "barcode": "8936146443758",
+  "name": "Lạp xưởng lvyn vị gia truyền gói 200g",
+  "fullName": "Lạp xưởng lvyn vị gia truyền gói 200g (Gói)",
+  "brand": "Wyn",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2549801",
+    "name": "Giò chả / chả lụa",
+    "path": "Xúc Xích & Thịt Nguội > Giò chả / chả lụa"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/7de08f694a6566ec5c9520b72133920ca71a8661a23e584226aa951f5ff885b3.webp",
+    "description": "Lạp xưởng Wyn vị gia truyền, đóng gói sẵn, gói in nhãn \"Nấu ngay\".\n\nQuy cách: 200 g · gói\nNhà sản xuất/thương hiệu: Wyn",
+    "exportedAt": "2026-10-26T02:38:41.284Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "ảnh tự chụp (túi nhăn, nghiêng); không có ảnh hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ lớn khớp (WYN, Lạp Xưởng Vị Gia Truyền); dòng khối lượng nhỏ vẽ '200 g' theo tên SP (ảnh gốc không thấy)",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet của cửa hàng (chỉ làm mẫu)",
+      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/07/27/tram8/ae2677bc45744b5f97f1a84a4bafa993.png"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; không tìm được trang hãng Wyn → viết ngắn chỉ từ chữ in mặt trước gói và khối lượng trong tên SP (200g)",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:23:34.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "image CROP, description WRITE_NEW from front-of-pack text"
+    },
+    {
+      "at": "2026-10-15T09:16:17Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "tone.py --vivid: white balance/levels + brand-like colour (owner request)"
+    },
+    {
+      "at": "2026-10-17T14:20:01Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T14:20:01.986Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-26T02:38:48.902Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "category moved 2549802-pate -> 2549801-gio-cha-cha-lua"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T14:20:01.986Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T16:49:06.466Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T16:49:06.466Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/7de08f694a6566ec5c9520b72133920ca71a8661a23e584226aa951f5ff885b3.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/27/tram8/ae2677bc45744b5f97f1a84a4bafa993.png"
+        ]
+      },
+      "description": {
+        "to": "Lạp xưởng Wyn vị gia truyền, đóng gói sẵn, gói in nhãn \"Nấu ngay\".\n\nQuy cách: 200 g · gói\nNhà sản xuất/thương hiệu: Wyn",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

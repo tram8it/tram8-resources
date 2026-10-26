@@ -1,0 +1,118 @@
+{
+  "kiotProductId": "65176472",
+  "code": "6974682243113",
+  "barcode": "6974682243113",
+  "name": "Bánh Bông Lan Tam Giác Vị Socola( Triangle Sponger Cake Chocolate Falover",
+  "fullName": "Bánh Bông Lan Tam Giác Vị Socola( Triangle Sponger Cake Chocolate Falover (Cái)",
+  "brand": "Hàng nội địa Trung",
+  "unit": "Cái",
+  "category": {
+    "kiotCategoryId": "2548802",
+    "name": "Bánh bông lan & phô mai",
+    "path": "Các loại bánh > Bánh ngọt > Bánh bông lan & phô mai"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/244d2faa1d27390b50b7734bc96448d4b1902a151408ca1c2c755dc961764357.webp",
+    "description": "Bánh bông lan tam giác LexJazz vị sô-cô-la, bánh mềm cắt hình tam giác đóng gói riêng.\n\nQuy cách: 100 g · cái\nNhà sản xuất/thương hiệu: LexJazz",
+    "exportedAt": "2026-10-26T02:38:41.284Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I3/I4/I8: ảnh chụp 2 gói trên kệ, nền lộn xộn; không có ảnh hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: vẽ 1 gói; bỏ dòng in ngày sản xuất/hạn dùng; phần nắp trên (hình mái cung điện) bị cắt ở ảnh mẫu nên vẽ theo gói cùng dòng vị lúa mạch",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (2 gói trên kệ)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; mô tả ngắn chỉ từ tên hàng và chữ in mặt trước bao bì (không có trang hãng) ('LexJazz 纯三角蛋糕 巧克力味', 100 g)",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:30:00.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "b20 review: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T07:42:01Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T07:42:32.401Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T08:06:02.482Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-26T02:38:48.902Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "category moved 2544186-banh-ngot -> 2548802-banh-bong-lan-pho-mai"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T07:42:32.401Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T07:45:47.931Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T07:45:47.931Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/244d2faa1d27390b50b7734bc96448d4b1902a151408ca1c2c755dc961764357.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/04/25/tram8/d22dcf9241d04bc78c99cfc5fe56d8ba.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Bánh bông lan tam giác LexJazz vị sô-cô-la, bánh mềm cắt hình tam giác đóng gói riêng.\n\nQuy cách: 100 g · cái\nNhà sản xuất/thương hiệu: LexJazz",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

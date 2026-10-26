@@ -1,0 +1,131 @@
+{
+  "kiotProductId": "68163743",
+  "code": "8936079122263",
+  "barcode": "8936079122263",
+  "name": "POCA BANH PHONG TOM 60G",
+  "fullName": "POCA BANH PHONG TOM 60G (Gói)",
+  "brand": "Poca",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2549016",
+    "name": "Snack phồng tôm/mực/cua",
+    "path": "Đồ ăn vặt > Snacks > Snack phồng tôm/mực/cua"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/7038020477e7eefe7dfbfb749fb8fe987e9a72fe59075754fc60f2791ce74bf4.webp",
+    "description": "Bánh phồng tôm Poca Party: miếng bánh phồng giòn xốp, vị tôm thơm.\n\nQuy cách: 60 g · gói\nNhà sản xuất/thương hiệu: PepsiCo · Poca",
+    "exportedAt": "2026-10-26T02:38:41.284Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I2/I6: ảnh KiotViet nhỏ (502px), bao bì đời cũ; không có trang hãng Poca; không tìm được ảnh bao bì mới (logo POCA nền đen) cho vị phồng tôm trên Co.op/Kingfoodmart → giữ bao bì cũ (là gói thường, không phải bản sự kiện), Gemini vẽ lại cho sạch (v12–v15) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: vẫn là bao bì Poca Party đời cũ, chưa phải thiết kế POCA mới (không tìm được ảnh mẫu bao bì mới); dải đỏ góc trái trên bị cắt chữ 'MỚ…' giống ảnh mẫu; mặt trước không in khối lượng; vị trí miếng bánh, tôm không giống hệt",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet hiện tại (bao bì Poca Party thường, đời cũ)",
+      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/09/19/tram8/cd397597a5b2430fb6781331043bee0f.jpeg"
+    },
+    "rubricVersion": "v17"
+  },
+  "description": {
+    "decision": "REWRITE",
+    "reason": "D2: mô tả cũ ghi gia vị \"Bò lúc lắc\" (của vị khác); viết lại ngắn chỉ từ tên hàng (60 g) và chữ in mặt trước bao bì (Poca Party, bánh phồng tôm)",
+    "source": null,
+    "rubricVersion": "v17"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:23:35.000Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "asked owner: old Poca packaging still current?"
+    },
+    {
+      "at": "2026-10-17T04:05:31Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T04:05:40.950Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: image"
+    },
+    {
+      "at": "2026-10-17T04:06:18Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "short description written from pack front text"
+    },
+    {
+      "at": "2026-10-17T04:06:21.163Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T05:23:58.238Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-26T02:38:48.902Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "category moved 2549014-snack-bap-phong -> 2549016-snack-phong-tom-muc-cua"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T04:06:21.163Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T04:07:45.783Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T04:07:45.783Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/7038020477e7eefe7dfbfb749fb8fe987e9a72fe59075754fc60f2791ce74bf4.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/09/19/tram8/cd397597a5b2430fb6781331043bee0f.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Bánh phồng tôm Poca Party: miếng bánh phồng giòn xốp, vị tôm thơm.\n\nQuy cách: 60 g · gói\nNhà sản xuất/thương hiệu: PepsiCo · Poca",
+        "from": "<p style=\"margin-bottom:0px;font-style:normal;font-variant-caps:normal;font-width:normal;font-family:'Helvetica Neue';font-kerning:auto;font-variant-alternates:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variant-position:normal;font-variant-emoji:normal;font-feature-settings:normal;font-optical-sizing:auto;font-variation-settings:normal;\">Snack Poca Phồng Tôm với Với vị bánh phồng tôm thơm ngon trên từng miếng snack thơm giòn tan, đậm vị. Thích hợp là món ăn kèm vừa ăn vừa xem phim nghe nhạc. Snack Poca thơm ngon, hảo hạng và chất lượng, dễ mang theo bên người</p><p style=\"margin-bottom:0px;font-style:normal;font-variant-caps:normal;font-width:normal;font-family:'Helvetica Neue';font-kerning:auto;font-variant-alternates:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variant-position:normal;font-variant-emoji:normal;font-feature-settings:normal;font-optical-sizing:auto;font-variation-settings:normal;min-height:15px;\"></p><p style=\"margin-bottom:0px;font-style:normal;font-variant-caps:normal;font-width:normal;font-family:'Helvetica Neue';font-kerning:auto;font-variant-alternates:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variant-position:normal;font-variant-emoji:normal;font-feature-settings:normal;font-optical-sizing:auto;font-variation-settings:normal;\">Thành phần: Bột mì, dầu thực vật, tinh bột sắn, bột gia vị Bò lúc lắc 4,5% (đường, muối I-ốt, maltodextrin, bột nước tương, hương liệu (tự nhiên và giống tự nhiên), chất điều vị (621, 635), gia vị và thảo mộc, dầu đậu nành, chất chống đông vón 551, chất điều chỉnh độ acid 330, chất tạo màu tự nhiên 160c(i), chất tạo ngọt tổng hợp 951), bột bắp, muối I-ốt, chất tạo xốp 500(ii), shortening, đường, chất điều vị 621</p><p style=\"margin-bottom:0px;font-style:normal;font-variant-caps:normal;font-width:normal;font-family:'Helvetica Neue';font-kerning:auto;font-variant-alternates:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variant-position:normal;font-variant-emoji:normal;font-feature-settings:normal;font-optical-sizing:auto;font-variation-settings:normal;min-height:15px;\"></p><p style=\"margin-bottom:0px;font-style:normal;font-variant-caps:normal;font-width:normal;font-family:'Helvetica Neue';font-kerning:auto;font-variant-alternates:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variant-position:normal;font-variant-emoji:normal;font-feature-settings:normal;font-optical-sizing:auto;font-variation-settings:normal;\">Thương hiệu/ xuất sử sản phẩm: Poca</p><p style=\"margin-bottom:0px;font-style:normal;font-variant-caps:normal;font-width:normal;font-family:'Helvetica Neue';font-kerning:auto;font-variant-alternates:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variant-position:normal;font-variant-emoji:normal;font-feature-settings:normal;font-optical-sizing:auto;font-variation-settings:normal;min-height:15px;\"></p><p style=\"margin-bottom:0px;font-style:normal;font-variant-caps:normal;font-width:normal;font-family:'Helvetica Neue';font-kerning:auto;font-variant-alternates:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variant-position:normal;font-variant-emoji:normal;font-feature-settings:normal;font-optical-sizing:auto;font-variation-settings:normal;\">Bảo quản sản phẩm ở nơi khô ráo, thoáng mát. </p><p style=\"margin-bottom:0px;font-style:normal;font-variant-caps:normal;font-width:normal;font-family:'Helvetica Neue';font-kerning:auto;font-variant-alternates:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variant-position:normal;font-variant-emoji:normal;font-feature-settings:normal;font-optical-sizing:auto;font-variation-settings:normal;min-height:15px;\"></p><p style=\"margin-bottom:0px;font-style:normal;font-variant-caps:normal;font-width:normal;font-family:'Helvetica Neue';font-kerning:auto;font-variant-alternates:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variant-position:normal;font-variant-emoji:normal;font-feature-settings:normal;font-optical-sizing:auto;font-variation-settings:normal;\">Sản phẩm có thể dùng ăn trực tiếp.</p><p style=\"margin-bottom:0px;font-style:normal;font-variant-caps:normal;font-width:normal;font-family:'Helvetica Neue';font-kerning:auto;font-variant-alternates:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variant-position:normal;font-variant-emoji:normal;font-feature-settings:normal;font-optical-sizing:auto;font-variation-settings:normal;min-height:15px;\"></p><p style=\"margin-bottom:0px;font-style:normal;font-variant-caps:normal;font-width:normal;font-family:'Helvetica Neue';font-kerning:auto;font-variant-alternates:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variant-position:normal;font-variant-emoji:normal;font-feature-settings:normal;font-optical-sizing:auto;font-variation-settings:normal;\">Lưu ý: Không dùng cho người dị ứng các thành phẩn sản phẩm</p><p style=\"box-sizing:border-box;margin-bottom:1rem;padding:0px;outline:0px;word-break:keep-all;scrollbar-width:thin;caret-color:#141416;color:#141416;font-family:__ROBOTO_04b26a, __ROBOTO_Fallback_04b26a;\"></p>"
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

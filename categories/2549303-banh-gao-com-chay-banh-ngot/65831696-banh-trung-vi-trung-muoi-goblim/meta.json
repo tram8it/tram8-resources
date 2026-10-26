@@ -1,0 +1,125 @@
+{
+  "kiotProductId": "65831696",
+  "code": "6971533425209",
+  "barcode": "6971533425209",
+  "name": "Bánh trứng vị trứng muối Goblim",
+  "fullName": "Bánh trứng vị trứng muối Goblim (Gói)",
+  "brand": "Goblim",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2549303",
+    "name": "Bánh gạo / cơm cháy / bánh ngọt",
+    "path": "Đồ ăn vặt > Đồ nội địa Trung > Bánh gạo / cơm cháy / bánh ngọt"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/01ddc6b670c2e03d66fcdd54948dcbca9beb325abb82adbf4d458de4458eb829.webp",
+    "description": "Bánh trứng nhân chảy Goblim vị lòng đỏ trứng muối (Flowing Heart Egg Crisp – Salted egg yolk flavor), vỏ bánh ngàn lớp với nhân kem trứng muối chảy.\n\nQuy cách: 1 gói\nNhà sản xuất/thương hiệu: Goblim",
+    "exportedAt": "2026-10-26T02:38:41.284Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "ảnh tự chụp: gói nhăn, bóng, nhỏ; không có ảnh hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ nhỏ tiếng Trung không đọc rõ, chỉ minh hoạ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet của cửa hàng (ảnh tự chụp)",
+      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/07/27/tram8/7100dfcdf2e64fd289822492678762bb.png"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết ngắn chỉ từ tên SP và chữ in mặt trước bao bì (không có trang hãng)",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:36:29.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "b10 review: image CROP, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-15T09:16:17Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "tone.py --vivid: white balance/levels + brand-like colour (owner request)"
+    },
+    {
+      "at": "2026-10-17T14:15:55Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T14:15:55.677Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-26T02:38:48.902Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "category moved 2549064-banh-xop-kem-wafer -> 2549303-banh-gao-com-chay-banh-ngot"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T14:15:55.677Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T16:34:44.819Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T16:34:44.819Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/01ddc6b670c2e03d66fcdd54948dcbca9beb325abb82adbf4d458de4458eb829.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/27/tram8/7100dfcdf2e64fd289822492678762bb.png"
+        ]
+      },
+      "description": {
+        "to": "Bánh trứng nhân chảy Goblim vị lòng đỏ trứng muối (Flowing Heart Egg Crisp – Salted egg yolk flavor), vỏ bánh ngàn lớp với nhân kem trứng muối chảy.\n\nQuy cách: 1 gói\nNhà sản xuất/thương hiệu: Goblim",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

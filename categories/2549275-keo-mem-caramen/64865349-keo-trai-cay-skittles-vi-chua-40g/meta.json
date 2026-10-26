@@ -1,0 +1,124 @@
+{
+  "kiotProductId": "64865349",
+  "code": "4897010448061",
+  "barcode": "4897010448061",
+  "name": "Kẹo trái cây Skittles vị chua 40g",
+  "fullName": "Kẹo trái cây Skittles vị chua 40g (Gói)",
+  "brand": "Skittles",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2549275",
+    "name": "Kẹo mềm / caramen",
+    "path": "Các loại kẹo > Kẹo mềm / caramen"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/95fe952f33f7e8ec3f831aada7e4178e2c13ca44101cb1dea2e276f3478ea52a.webp",
+    "description": "Kẹo trái cây Skittles vị chua (Sour): viên kẹo nhiều màu vị trái cây chua chua ngọt ngọt, đựng trong túi có dải khóa mở ra đóng lại được.\n\nQuy cách: 40 g · gói\nNhà sản xuất/thương hiệu: Skittles",
+    "exportedAt": "2026-10-26T02:38:41.284Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "ảnh tự chụp (nhăn, bóng, nghiêng); không có ảnh hãng đúng bao bì VN → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: ô năng lượng và mã nhỏ dưới logo Halal được làm mờ (ảnh mẫu không đọc được); 40 g khớp tên SP",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (chỉ làm mẫu)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; không có trang hãng — mô tả ngắn chỉ từ tên SP và chữ in mặt trước bao bì (ảnh hiện tại)",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:19:58.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "image CROP, description WRITE_NEW (pack front)"
+    },
+    {
+      "at": "2026-10-15T09:16:17Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "tone.py --vivid: white balance/levels + brand-like colour (owner request)"
+    },
+    {
+      "at": "2026-10-17T14:09:20Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 3, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T14:09:38.851Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-26T02:38:48.902Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "category moved 2549274-keo-deo-jelly -> 2549275-keo-mem-caramen"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T14:09:38.851Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T15:37:54.921Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T15:37:54.921Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/95fe952f33f7e8ec3f831aada7e4178e2c13ca44101cb1dea2e276f3478ea52a.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/29/tram8/76c058d2ce084a9795cf24f7d924717a.png"
+        ]
+      },
+      "description": {
+        "to": "Kẹo trái cây Skittles vị chua (Sour): viên kẹo nhiều màu vị trái cây chua chua ngọt ngọt, đựng trong túi có dải khóa mở ra đóng lại được.\n\nQuy cách: 40 g · gói\nNhà sản xuất/thương hiệu: Skittles",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

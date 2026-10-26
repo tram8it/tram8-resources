@@ -1,0 +1,125 @@
+{
+  "kiotProductId": "65127476",
+  "code": "8935001720300",
+  "barcode": "8935001720300",
+  "name": "Mentos Pure Fresh",
+  "fullName": "Mentos Pure Fresh (Lọ)",
+  "brand": "Mentos",
+  "unit": "Lọ",
+  "category": {
+    "kiotCategoryId": "2549272",
+    "name": "Kẹo cao su / singum",
+    "path": "Các loại kẹo > Kẹo cao su / singum"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/4d9050520c106eff3d3d54f2feb6f9b0cf10cea6ddb4d33e3d022b4efc4e430b.webp",
+    "description": "Kẹo gum không đường Mentos Pure Fresh hương bạc hà, có xylitol, cho hơi thở thơm mát, đựng trong lọ nhỏ.\n\nQuy cách: 17,5 g · lọ\nNhà sản xuất/thương hiệu: Mentos (Perfetti Van Melle)",
+    "exportedAt": "2026-10-26T02:38:41.284Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "ảnh tự chụp: hũ nhựa bóng, hơi mờ; không có ảnh hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet của cửa hàng (ảnh tự chụp)",
+      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/07/30/tram8/c9c061b6a1f945c68a7dd9c29322ff01.png"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; không có trang hãng — mô tả ngắn chỉ từ tên SP và chữ in mặt trước bao bì (ảnh hiện tại)",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:19:58.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "image CROP (soft), description WRITE_NEW (pack front)"
+    },
+    {
+      "at": "2026-10-15T09:16:17Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "tone.py --vivid: white balance/levels + brand-like colour (owner request)"
+    },
+    {
+      "at": "2026-10-17T14:09:24Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T14:09:24.164Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-26T02:38:48.902Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "category moved 2549276-vien-ngam-thao-moc-bac-ha -> 2549272-keo-cao-su-singum"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T14:09:24.164Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T15:36:41.881Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T15:36:41.881Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/4d9050520c106eff3d3d54f2feb6f9b0cf10cea6ddb4d33e3d022b4efc4e430b.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/30/tram8/c9c061b6a1f945c68a7dd9c29322ff01.png"
+        ]
+      },
+      "description": {
+        "to": "Kẹo gum không đường Mentos Pure Fresh hương bạc hà, có xylitol, cho hơi thở thơm mát, đựng trong lọ nhỏ.\n\nQuy cách: 17,5 g · lọ\nNhà sản xuất/thương hiệu: Mentos (Perfetti Van Melle)",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

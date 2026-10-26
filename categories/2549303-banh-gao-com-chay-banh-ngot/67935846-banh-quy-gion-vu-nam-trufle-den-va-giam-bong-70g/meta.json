@@ -1,0 +1,137 @@
+{
+  "kiotProductId": "67935846",
+  "code": "SP878139",
+  "barcode": "6952767622886",
+  "name": "Bánh Quy Giòn Vụ Nấm Trufle Đen Và Giăm Bông 70g",
+  "fullName": "Bánh Quy Giòn Vụ Nấm Trufle Đen Và Giăm Bông 70g (Gói)",
+  "brand": "Hàng nội địa Trung",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2549303",
+    "name": "Bánh gạo / cơm cháy / bánh ngọt",
+    "path": "Đồ ăn vặt > Đồ nội địa Trung > Bánh gạo / cơm cháy / bánh ngọt"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/0742dbe15e98ccea745e4370829e3878f6eb0abf33e77c80d6513ab3d36cd83f.webp",
+    "description": "Bánh quy giòn mỏng Cengreat (盛歌) vị nấm truffle đen và giăm bông (黑松露火腿味); có thêm bơ, không chiên, có vitamin B6 (theo bao bì).\n\nQuy cách: 70 g · gói\nThương hiệu: Cengreat (盛歌)",
+    "exportedAt": "2026-10-26T02:38:41.284Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "ảnh nhân viên mới chụp (KiotViet 19/10) trên mặt đá tối, chỉ làm mẫu → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-19",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh nhân viên chụp (KiotViet 19/10)",
+      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/10/19/tram8/f2b2f069948c4665a3423bdb4494c3b5.png"
+    },
+    "rubricVersion": "v23"
+  },
+  "description": {
+    "decision": "REWRITE",
+    "reason": "D2/D4: mô tả cũ viết từ tên hàng khi chưa thấy bao bì; viết lại chỉ từ chữ in mặt trước bao bì trên ảnh nhân viên chụp (KiotViet 19/10)",
+    "source": null,
+    "rubricVersion": "v23"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:14:01.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "no image, no official source; description WRITE_NEW from name"
+    },
+    {
+      "at": "2026-10-17T12:00:00Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "Đợt 3: tra Kingfoodmart, Open Food Facts và web theo mã vạch/tên — không có ảnh mẫu bao bì nào (chưa có ảnh KiotViet) → giữ NEEDS_PHOTO, cần nhân viên chụp"
+    },
+    {
+      "at": "2026-10-18T18:46:07Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "np18 re-research 18/10: still no usable reference for this exact pack (see image.reason)"
+    },
+    {
+      "at": "2026-10-19T07:38:32Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-19T07:39:29Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "staff photo 19/10 (nk7): Gemini redraw of the real pack + description rewritten from pack text; image rubric v23"
+    },
+    {
+      "at": "2026-10-19T07:40:52.859Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T08:50:58.958Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T17:15:09.663Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-26T02:38:48.902Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "category moved 2549302-bap-khoai-gion -> 2549303-banh-gao-com-chay-banh-ngot"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-19T07:40:52.859Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T07:46:38.635Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T07:46:38.635Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/0742dbe15e98ccea745e4370829e3878f6eb0abf33e77c80d6513ab3d36cd83f.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/10/19/tram8/f2b2f069948c4665a3423bdb4494c3b5.png"
+        ]
+      },
+      "description": {
+        "to": "Bánh quy giòn mỏng Cengreat (盛歌) vị nấm truffle đen và giăm bông (黑松露火腿味); có thêm bơ, không chiên, có vitamin B6 (theo bao bì).\n\nQuy cách: 70 g · gói\nThương hiệu: Cengreat (盛歌)",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

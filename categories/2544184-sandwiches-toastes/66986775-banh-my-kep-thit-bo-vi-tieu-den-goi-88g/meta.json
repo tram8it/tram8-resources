@@ -1,0 +1,136 @@
+{
+  "kiotProductId": "66986775",
+  "code": "6970766913224",
+  "barcode": "6970766913224",
+  "name": "Bánh mỳ kẹp thịt bò vị tiêu đen gói 88g",
+  "fullName": "Bánh mỳ kẹp thịt bò vị tiêu đen gói 88g (Cái)",
+  "brand": "Dominatte",
+  "unit": "Cái",
+  "category": {
+    "kiotCategoryId": "2544184",
+    "name": "Sandwiches - Toastes",
+    "path": "Các loại bánh > Sandwiches - Toastes"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/db1a48e1d5042cfc141ac4aeccf6bb3aa003a4ffe512c998e6e3adad36e5c39b.webp",
+    "description": "Bánh mỳ sandwich kẹp thịt vị bò tiêu đen của thương hiệu Dominatte, ăn liền, không cần nướng.\n\nQuy cách: 85 g · cái\nThương hiệu: Dominatte",
+    "exportedAt": "2026-10-26T02:38:41.284Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "Chủ: gói méo mó quá → vẽ phẳng, vuông vắn → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: dòng chữ nhỏ dưới 'Không cần nướng' để mờ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-18",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (chỉ làm mẫu)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; dùng chung mô tả SP 66740705 (cùng gói, 85 g in trên gói; tên KiotViet ghi 88 g — v19: theo bao bì)",
+    "source": null,
+    "rubricVersion": "v20"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:46:45.000Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "b13: ASK_OWNER"
+    },
+    {
+      "at": "2026-10-17T14:00:59.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "resolved without asking: ảnh KiotViet của mã 6970766913224 là đúng gói Dominatte bò tiêu đen như 66740705 (85 g; tên ghi 88 g, lệch <5% → theo bao bì, v19) → cùng ảnh/mô tả; cặp mã ghi ở reports/ma-trung-de-tat.md"
+    },
+    {
+      "at": "2026-10-17T14:05:29.813Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "IN_PROGRESS",
+      "note": "rejected on Hub by AU KHUONG DUY: Nó méo mó quá"
+    },
+    {
+      "at": "2026-10-18T11:32:03Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "redo after Hub rejection: Nó méo mó quá — Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-18T11:32:03.572Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-18T17:16:08.691Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T03:19:05.400Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-26T02:38:48.902Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "category moved 2548021-banh-an-sang-ngu-coc-thanh-nang-luong -> 2544184-sandwiches-toastes"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-18T11:32:03.572Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-18T17:11:34.664Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-18T17:11:34.664Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/db1a48e1d5042cfc141ac4aeccf6bb3aa003a4ffe512c998e6e3adad36e5c39b.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/27/tram8/b8915075068f4f66b28c0dd050881f64.png"
+        ]
+      },
+      "description": {
+        "to": "Bánh mỳ sandwich kẹp thịt vị bò tiêu đen của thương hiệu Dominatte, ăn liền, không cần nướng.\n\nQuy cách: 85 g · cái\nThương hiệu: Dominatte",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

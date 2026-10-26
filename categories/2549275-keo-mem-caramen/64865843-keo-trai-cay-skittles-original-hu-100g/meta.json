@@ -1,0 +1,119 @@
+{
+  "kiotProductId": "64865843",
+  "code": "48970104480236",
+  "barcode": "4897010448023",
+  "name": "Kẹo trái cây Skittles Original hũ 100g",
+  "fullName": "Kẹo trái cây Skittles Original hũ 100g (Lọ)",
+  "brand": "Skittles",
+  "unit": "Lọ",
+  "category": {
+    "kiotCategoryId": "2549275",
+    "name": "Kẹo mềm / caramen",
+    "path": "Các loại kẹo > Kẹo mềm / caramen"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/86c7a4c3946cdc419d8d4f04c410f8f506bb1b788f14d96374698d1516e9b61c.webp",
+    "description": "Kẹo trái cây Skittles Original vị truyền thống, viên kẹo nhiều màu đựng trong hũ nhựa nắp vặn.\n\nQuy cách: 100 g · lọ\nNhà sản xuất/thương hiệu: Skittles",
+    "exportedAt": "2026-10-26T02:38:41.284Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I3: ảnh tay cầm sản phẩm; Skittles hũ 100 g bản châu Á không có trên trang chính hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Dùng bao bì mới có dòng tiếng Việt 'KHỐI LƯỢNG TỊNH: 100 g' (ảnh KiotViet là nhãn cũ chỉ tiếng Anh). Ô năng lượng bên trái để mờ không đọc được; nhãn vị trên vòng vàng: chữ vị chanh để mờ; dòng tiếng Việt 'KẸO TRÁI CÂY SKITTLES VỊ TRUYỀN THỐNG' bị khuất theo độ cong hũ như gói thật.",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh Open Food Facts hũ Skittles 100g bao bì mới song ngữ (2025, chỉ làm mẫu) + ảnh KiotViet (tay cầm, nhãn cũ chỉ tiếng Anh)",
+      "referenceUrl": "https://world.openfoodfacts.org/product/4897010448023"
+    },
+    "rubricVersion": "v17"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; không có trang hãng — mô tả ngắn chỉ từ tên SP và chữ in mặt trước bao bì (ảnh hiện tại)",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:19:58.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "image NEEDS_PHOTO, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T04:38:38Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T04:38:57.041Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T05:23:58.238Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-26T02:38:48.902Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "category moved 2549274-keo-deo-jelly -> 2549275-keo-mem-caramen"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T04:38:57.041Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T04:39:59.694Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T04:39:59.694Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/86c7a4c3946cdc419d8d4f04c410f8f506bb1b788f14d96374698d1516e9b61c.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2025/11/22/tongpenhchtl/2cbd8a9a4ede4912b4811347b5410af0.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Kẹo trái cây Skittles Original vị truyền thống, viên kẹo nhiều màu đựng trong hũ nhựa nắp vặn.\n\nQuy cách: 100 g · lọ\nNhà sản xuất/thương hiệu: Skittles",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

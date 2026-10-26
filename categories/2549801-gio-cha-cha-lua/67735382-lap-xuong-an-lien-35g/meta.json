@@ -1,0 +1,156 @@
+{
+  "kiotProductId": "67735382",
+  "code": "8938547067038",
+  "barcode": "8938547067038",
+  "name": "Lạp xưởng ăn liền 35g",
+  "fullName": "Lạp xưởng ăn liền 35g (Cái)",
+  "brand": null,
+  "unit": "Cái",
+  "category": {
+    "kiotCategoryId": "2549801",
+    "name": "Giò chả / chả lụa",
+    "path": "Xúc Xích & Thịt Nguội > Giò chả / chả lụa"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/5d98be2d643b3d7eaae4d5daf33dfcb8ff29a03faa9802201e7e9c97b47cb91a.webp",
+    "description": "Lạp xưởng ăn liền Fansipan Jerky, mở gói ăn ngay; thơm ngon, tiện lợi (theo bao bì).\n\nQuy cách: 35 ± 5 g · cái (1 gói)\nThương hiệu: Fansipan · Số CBCL: 05/2022/FAN",
+    "exportedAt": "2026-10-26T02:38:41.284Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "chủ 19/10: ảnh bị kéo bẹt → Gemini vẽ lại theo ảnh nhân viên chụp, chỉnh tỷ lệ gói về ~1:1,9 như gói thật",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-19",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh nhân viên chụp (KiotViet 19/10)",
+      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/10/19/tram8/b84ca97ef0b54e9fa9fadfc0615ccaeb.png",
+      "postProcess": "horizontal resize to the real pouch ratio"
+    },
+    "rubricVersion": "v23"
+  },
+  "description": {
+    "decision": "REWRITE",
+    "reason": "D2/D4: mô tả cũ viết từ tên hàng khi chưa thấy bao bì; viết lại chỉ từ chữ in mặt trước bao bì trên ảnh nhân viên chụp (KiotViet 19/10)",
+    "source": null,
+    "rubricVersion": "v23"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:13:31.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "no image; description WRITE_NEW from name"
+    },
+    {
+      "at": "2026-10-17T08:24:52.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "wave3: no usable reference for a Gemini redraw"
+    },
+    {
+      "at": "2026-10-18T18:22:34.275Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "np18 re-research 18/10: still no image of this exact pack"
+    },
+    {
+      "at": "2026-10-19T07:38:32Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-19T07:39:29Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "staff photo 19/10 (nk7): Gemini redraw of the real pack + description rewritten from pack text; image rubric v23"
+    },
+    {
+      "at": "2026-10-19T07:40:39.560Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T08:50:58.958Z",
+      "by": "owner",
+      "status": "IN_PROGRESS",
+      "note": "rejected on Hub by AU KHUONG DUY: ảnh hơi bị kéo bẹt"
+    },
+    {
+      "at": "2026-10-19T08:54:19.540Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "redrawn + aspect fixed after owner rejection"
+    },
+    {
+      "at": "2026-10-19T08:54:19.642Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T12:54:58.177Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T17:15:09.663Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-26T02:38:48.902Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "category moved 2549297-thit-hai-san-an-lien -> 2549801-gio-cha-cha-lua"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-19T08:54:19.642Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T09:22:16.541Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T09:22:16.541Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/5d98be2d643b3d7eaae4d5daf33dfcb8ff29a03faa9802201e7e9c97b47cb91a.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/10/19/tram8/b84ca97ef0b54e9fa9fadfc0615ccaeb.png"
+        ]
+      },
+      "description": {
+        "to": "Lạp xưởng ăn liền Fansipan Jerky, mở gói ăn ngay; thơm ngon, tiện lợi (theo bao bì).\n\nQuy cách: 35 ± 5 g · cái (1 gói)\nThương hiệu: Fansipan · Số CBCL: 05/2022/FAN",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

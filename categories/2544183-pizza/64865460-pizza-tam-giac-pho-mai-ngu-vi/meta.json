@@ -1,0 +1,142 @@
+{
+  "kiotProductId": "64865460",
+  "code": "SP000650",
+  "barcode": null,
+  "name": "Pizza Tam Giác Phô Mai Ngũ Vị",
+  "fullName": "Pizza Tam Giác Phô Mai Ngũ Vị (Cái)",
+  "brand": "Lemon Pizza",
+  "unit": "Cái",
+  "category": {
+    "kiotCategoryId": "2544183",
+    "name": "Pizza",
+    "path": "Các loại bánh > Pizza"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/d1427ba976e33689ca2dca5c97b3aa993d6ec7c13e608261e7337cecd07b3f5d.webp",
+    "description": "Pizza tam giác phô mai ngũ vị đông lạnh, miếng pizza phủ phô mai, làm nóng bằng lò nướng hoặc nồi chiên không dầu theo hướng dẫn trên bao bì.\n\nQuy cách: cái\nNhà sản xuất/thương hiệu: Lemon Pizza",
+    "exportedAt": "2026-10-26T02:38:41.284Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "chủ 18/10: ảnh phải đúng bao bì thật; vẽ lại gói thật từ ảnh KiotViet, bỏ ảnh minh hoạ món ăn → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: vẽ lại phẳng, sạch; chữ nhỏ không đọc được để mờ; độ nhăn màng khác ảnh thật",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-18",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet của SP (hàng thật tại quầy)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết ngắn từ tên SP và chữ in mặt trước túi (Pizza phô mai ngũ vị, tam giác; dùng lò nướng hoặc nồi chiên không dầu)",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:44:35.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "image NEEDS_PHOTO, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T17:51:26Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T17:51:23Z",
+      "by": "owner",
+      "status": "READY",
+      "note": "chủ 17/10: ảnh món ăn hấp dẫn, đồng bộ"
+    },
+    {
+      "at": "2026-10-17T17:52:33.072Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-18T17:16:08.691Z",
+      "by": "owner",
+      "status": "IN_PROGRESS",
+      "note": "rejected on Hub by AU KHUONG DUY: 1 cái thôi."
+    },
+    {
+      "at": "2026-10-18T17:27:34Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "redo after Hub rejection: 1 cái thôi. — Gemini API redraw (attempt 4, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-18T17:27:34.881Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-18T17:44:24.092Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T03:19:05.400Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-26T02:38:48.902Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "category moved 2547494-com-nam-onigiri -> 2544183-pizza"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-18T17:27:34.881Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-18T17:32:03.407Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-18T17:32:03.407Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/d1427ba976e33689ca2dca5c97b3aa993d6ec7c13e608261e7337cecd07b3f5d.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/02/26/tongpenhchtl/46a3f0a341814fa4b0fc74861a2f033a.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Pizza tam giác phô mai ngũ vị đông lạnh, miếng pizza phủ phô mai, làm nóng bằng lò nướng hoặc nồi chiên không dầu theo hướng dẫn trên bao bì.\n\nQuy cách: cái\nNhà sản xuất/thương hiệu: Lemon Pizza",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "kiotProductId": "64865433",
+  "code": "8938522697021",
+  "barcode": "8938522697021",
+  "name": "Thịt Sấy Khô Hộp Xốp 86g",
+  "fullName": "Thịt Sấy Khô Hộp Xốp 86g (Khay)",
+  "brand": "Phương Huyền",
+  "unit": "Khay",
+  "category": {
+    "kiotCategoryId": "2549220",
+    "name": "Khô bò",
+    "path": "Đồ ăn vặt > Thịt khô và chân gà > Khô bò"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/e4279671eff631182e8d67a74fa1b3e6669e97b9f8e6dfdf749df496c6353530.webp",
+    "description": "Thịt bò khô dạng sợi Phương Huyền (Beef Jerky), ăn liền, đóng khay xốp.\n\nQuy cách: khay\nNhà sản xuất/thương hiệu: Phương Huyền",
+    "exportedAt": "2026-10-26T02:38:41.284Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I3/I4: ảnh điện thoại tay cầm, nền cửa hàng; mã vạch 8938522697021 là Thịt bò khô Phương Huyền (iCheck), khớp ảnh → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ nhỏ trên nhãn không đọc được; khay vẽ lại phẳng",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (ảnh điện thoại của hàng trên kệ)",
+      "referenceUrl": "https://cdn1-retail-images.kiotviet.vn/2026/01/23/tongpenhchtl/3586c02192634eb0bf5b588f9de2920d.jpeg"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "source": null,
+    "rubricVersion": "v20",
+    "decision": "WRITE_NEW",
+    "reason": "mã vạch 8938522697021 = Thịt bò khô Phương Huyền bò sợi (iCheck); không ghi khối lượng vì nhãn trên ảnh cửa hàng không đọc được (iCheck ghi 95gr, tên ghi 86g)"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:49:09.000Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "b21: image ASK_OWNER, description ASK_OWNER"
+    },
+    {
+      "at": "2026-10-17T14:07:38Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T14:08:44Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "resolved without asking: barcode/evidence decides (mã vạch 8938522697021 = Thịt bò khô Phương Huyền bò sợi (iCheck); không ghi khối lượng vì nhãn trên ảnh cửa hàng không đọc được (iCheck ghi 95gr, tên ghi 86g))"
+    },
+    {
+      "at": "2026-10-17T14:09:29.809Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-26T02:38:48.902Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "category moved 2549223-kho-heo -> 2549220-kho-bo"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T14:09:29.809Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T15:37:11.599Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T15:37:11.599Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/e4279671eff631182e8d67a74fa1b3e6669e97b9f8e6dfdf749df496c6353530.webp"
+        ],
+        "from": [
+          "https://cdn1-retail-images.kiotviet.vn/2026/01/23/tongpenhchtl/3586c02192634eb0bf5b588f9de2920d.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Thịt bò khô dạng sợi Phương Huyền (Beef Jerky), ăn liền, đóng khay xốp.\n\nQuy cách: khay\nNhà sản xuất/thương hiệu: Phương Huyền",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

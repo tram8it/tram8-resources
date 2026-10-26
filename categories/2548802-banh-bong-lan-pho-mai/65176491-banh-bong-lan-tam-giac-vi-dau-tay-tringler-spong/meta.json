@@ -1,0 +1,99 @@
+{
+  "kiotProductId": "65176491",
+  "code": "6974682243076",
+  "barcode": "6974682243076",
+  "name": "Bánh Bông Lan Tam Giác Vị dâu Tây ( Tringler Sponger Cake Strabew Bery Flavor",
+  "fullName": "Bánh Bông Lan Tam Giác Vị dâu Tây ( Tringler Sponger Cake Strabew Bery Flavor (Cái)",
+  "brand": "Hàng nội địa Trung",
+  "unit": "Cái",
+  "category": {
+    "kiotCategoryId": "2548802",
+    "name": "Bánh bông lan & phô mai",
+    "path": "Các loại bánh > Bánh ngọt > Bánh bông lan & phô mai"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/a53b572fac5ac55589aca2fae9c82d3752f3eeca8be34e0008a37e863cbae898.webp",
+    "description": "Bánh bông lan tam giác vị dâu tây, bánh mềm cắt hình tam giác đóng gói riêng.\n\nQuy cách: cái\nNhà sản xuất/thương hiệu: LexJazz",
+    "exportedAt": "2026-10-26T02:38:41.284Z"
+  },
+  "status": "READY",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "chủ 20/10: ảnh lỗi/chưa có ảnh, khách không hình dung được SP → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: ảnh minh hoạ: mặt trước gói dâu suy từ vị socola cùng dòng; chưa có ảnh mặt trước thật",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-20",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh LexJazz socola cùng dòng (bố cục) + ảnh mặt sau gói dâu thật (màu)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; mô tả ngắn chỉ từ tên hàng (không có trang hãng)",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:30:00.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "b20 review: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T07:42:19+00:00",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "I3/I8: ảnh KiotViet chỉ có mặt sau 2 gói; không tìm được ảnh mặt trước gói LexJazz vị dâu (草莓味) trên web → không biết màu/hình mặt trước, cần nhân viên chụp mặt trước 1 gói (17/10/2026)"
+    },
+    {
+      "at": "2026-10-19T07:38:02Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "19/10 re-research with image search (owner request): no image of this exact product/variant found"
+    },
+    {
+      "at": "2026-10-20T16:22:12Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "redo after Hub rejection:  — Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-20T16:22:12.699Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-21T08:30:34.700Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-26T02:38:48.902Z",
+      "by": "init",
+      "status": "READY",
+      "note": "category moved 2544186-banh-ngot -> 2548802-banh-bong-lan-pho-mai"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-20T16:22:12.699Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
+}

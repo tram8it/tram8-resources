@@ -1,0 +1,118 @@
+{
+  "kiotProductId": "66728279",
+  "code": "8938552123798",
+  "barcode": "8938552123798",
+  "name": "Trứng cút ngũ vị",
+  "fullName": "Trứng cút ngũ vị (Gói)",
+  "brand": "Alaco",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2549797",
+    "name": "Ức gà & thịt ăn liền",
+    "path": "Xúc Xích & Thịt Nguội > Ức gà & thịt ăn liền"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/ab4693c587c84a2c5b5b71634a15584bbc5afc229811836c322bf6403b5b5381.webp",
+    "description": "Trứng cút ăn liền Alaco vị ngũ vị, trứng cút đã chế biến đóng gói, mở ra ăn ngay.\n\nQuy cách: gói\nXuất xứ: Việt Nam · Nhà sản xuất/thương hiệu: Alaco",
+    "exportedAt": "2026-10-26T02:38:41.284Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I3/I4/I8: ảnh chụp điện thoại đống gói hàng; không có trang hãng Alaco dùng được → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: phần dưới gói (khối lượng, chữ nhỏ) không thấy trong ảnh mẫu → vẽ theo gói cùng dòng, chữ nhỏ mờ; mã vạch Gemini vẽ (số khớp 8938552123798 nhưng vạch không phải mã thật)",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh SP cùng dòng 'Trứng cút vị muối nướng' đã duyệt (mẫu kiểu ảnh) + ảnh KiotViet gói ngũ vị"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; mô tả ngắn từ tên SP và chữ in mặt trước bao bì",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:13:31.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "phone photo of a pile; description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T08:24:19Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T08:24:19.634Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-26T02:38:48.902Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "category moved 2549297-thit-hai-san-an-lien -> 2549797-uc-ga-thit-an-lien"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T08:24:19.634Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T08:37:42.801Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T08:37:42.801Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/ab4693c587c84a2c5b5b71634a15584bbc5afc229811836c322bf6403b5b5381.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/06/28/tram8/7b99458b0750410cb350a31751582501.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Trứng cút ăn liền Alaco vị ngũ vị, trứng cút đã chế biến đóng gói, mở ra ăn ngay.\n\nQuy cách: gói\nXuất xứ: Việt Nam · Nhà sản xuất/thương hiệu: Alaco",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

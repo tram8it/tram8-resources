@@ -1,0 +1,131 @@
+{
+  "kiotProductId": "64865289",
+  "code": "8993175541008",
+  "barcode": "8993175541008",
+  "name": "Bánh Sanck AHH' Phủ Kem Phô Mai(Nabati AHH' Strawberry cheesecake Flavoured Coated Snack 9G",
+  "fullName": "Bánh Sanck AHH' Phủ Kem Phô Mai(Nabati AHH' Strawberry cheesecake Flavoured Coated Snack 9G (Hộp)",
+  "brand": "Nabati",
+  "unit": "Hộp",
+  "category": {
+    "kiotCategoryId": "2549014",
+    "name": "Snack bắp & phồng",
+    "path": "Đồ ăn vặt > Snacks > Snack bắp & phồng"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/df8f3c92944bc722e5081da6c46c0a50f5643fae5225c36151d615293485f8f5.webp",
+    "description": "Bánh snack Richeese Ahh' Triple Cheese của Nabati, bánh xoắn giòn phủ kem phô mai (Cheese Cream Coated Snack), có bổ sung vitamin A, B1, B2, B6, B12 (theo bao bì). Hàng Indonesia.\n\nQuy cách: hộp 160 g (10 gói x 16 g)\nNhà sản xuất/thương hiệu: PT Kaldu Sari Nabati Indonesia · Richeese",
+    "exportedAt": "2026-10-26T02:38:41.284Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I3/I5: ảnh KiotViet chụp sát, cắt mất hộp; vẽ lại hộp Richeese Ahh' Triple Cheese 160 g đúng mã vạch 8993175541008 → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ nhỏ mặt hộp có thể lệch nhẹ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh Kingfoodmart theo mã vạch (chỉ làm mẫu) + ảnh KiotViet",
+      "referenceUrl": "https://storage.googleapis.com/onelife-public/8993175541008.jpg"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "REWRITE",
+    "reason": "D2: mô tả cũ theo tên (dâu phô mai 9 g); mã vạch 8993175541008 là Richeese Ahh' Triple Cheese hộp 160 g → viết theo bao bì",
+    "source": null,
+    "rubricVersion": "v19"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:36:29.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "b10 review: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T05:18:38Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "tên (dâu phô mai) và ảnh (Ahh' phô mai vàng) lệch vị; không tìm thấy ảnh mẫu → hỏi chủ"
+    },
+    {
+      "at": "2026-10-17T14:10:33Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T14:11:32Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "resolved without asking: barcode 8993175541008 = Richeese Ahh' Triple Cheese box 160g (iCheck, Kingfoodmart) = current image; name (strawberry cheesecake 9g) logged"
+    },
+    {
+      "at": "2026-10-17T14:12:12.703Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-26T02:38:48.902Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "category moved 2549064-banh-xop-kem-wafer -> 2549014-snack-bap-phong"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T14:12:12.703Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T15:41:12.549Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T15:41:12.549Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/df8f3c92944bc722e5081da6c46c0a50f5643fae5225c36151d615293485f8f5.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/03/15/tongpenhchtl/c404710c138a4a8b83034832b934bc85.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Bánh snack Richeese Ahh' Triple Cheese của Nabati, bánh xoắn giòn phủ kem phô mai (Cheese Cream Coated Snack), có bổ sung vitamin A, B1, B2, B6, B12 (theo bao bì). Hàng Indonesia.\n\nQuy cách: hộp 160 g (10 gói x 16 g)\nNhà sản xuất/thương hiệu: PT Kaldu Sari Nabati Indonesia · Richeese",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

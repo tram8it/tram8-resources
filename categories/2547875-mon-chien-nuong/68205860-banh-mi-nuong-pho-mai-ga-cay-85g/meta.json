@@ -1,0 +1,132 @@
+{
+  "kiotProductId": "68205860",
+  "code": "8935299660517",
+  "barcode": "8935299660517",
+  "name": "Bánh Mì Nướng Phô Mai Gà Cay 85g",
+  "fullName": "Bánh Mì Nướng Phô Mai Gà Cay 85g (Gói)",
+  "brand": "Cobi Bread",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2547875",
+    "name": "Món chiên - nướng",
+    "path": "Món ngon Trạm 8 > Món chiên - nướng"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/05dcd713a3e5a99a088f18e76d339abdfb46492be8ce7e62dbed28c5cc6b107f.webp",
+    "description": "Bánh mì nướng Pocket Toast Cheese Buldak của Cobi Bread: bánh mì sandwich ép kín nhân thịt gà sốt cay kiểu Hàn và phô mai sợi, nướng nóng là ăn được, tiện cho bữa sáng hoặc bữa nhẹ.\n\nThành phần: bột mì 43,42%, thịt gà 13,89%, phô mai sợi 13,89%, đường, tương ớt gochujang, siro bắp, bơ thay thế, nước tương, dầu mè, muối, bột ớt, men khô, tỏi, dầu đậu nành, phụ gia làm bánh, chất bảo quản. Có gluten.\nQuy cách: 85 g · gói\nXuất xứ: Việt Nam · Nhà sản xuất/thương hiệu: Cobi Bread\nBảo quản: mát 0–10 °C (4 ngày) hoặc đông lạnh dưới -18 °C (12 tháng); đã rã đông thì không cấp đông lại.\nHướng dẫn sử dụng: bánh bảo quản mát nướng nồi chiên không dầu 180 °C khoảng 3 phút; bánh đông lạnh rã đông bằng lò vi sóng 1–2 phút rồi nướng 160–180 °C trong 2–3 phút.",
+    "exportedAt": "2026-10-26T02:38:41.284Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I1: chưa có ảnh; SP mới chưa có trên cobibread.com → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: gói vẽ phẳng; chữ nhỏ ở các biểu tượng hướng dẫn không chắc đúng từng chữ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-18",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh mặt trước gói trên tteokbokki.vn (chỉ làm mẫu)",
+      "referenceUrl": "https://tteokbokki.vn/products/sandwich-nuong-nhan-ga-cay-pho-mai-cobi-bread-85g"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "REWRITE",
+    "reason": "D2: bổ sung thành phần, bảo quản, cách dùng theo nhãn gói (đọc ở trang tteokbokki.vn, chỉ lấy dữ kiện in trên bao bì)",
+    "source": {
+      "url": "https://tteokbokki.vn/products/sandwich-nuong-nhan-ga-cay-pho-mai-cobi-bread-85g",
+      "fetchedAt": "2026-10-18T18:17:14Z"
+    },
+    "rubricVersion": "v23"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:51:28.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "needs photo; short description from name"
+    },
+    {
+      "at": "2026-10-17T07:55:21.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "17/10: still no reference (cobibread.com search, KFM, OFF, web)"
+    },
+    {
+      "at": "2026-10-18T18:16:53Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-18T18:17:14Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "description written (REWRITE) on 18/10 re-research"
+    },
+    {
+      "at": "2026-10-18T18:17:17.427Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T02:05:27.524Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T03:19:05.400Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-26T02:38:48.902Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "category moved 2544184-sandwiches-toastes -> 2547875-mon-chien-nuong"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-18T18:17:17.427Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T01:48:06.756Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T01:48:06.756Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/05dcd713a3e5a99a088f18e76d339abdfb46492be8ce7e62dbed28c5cc6b107f.webp"
+        ],
+        "from": null
+      },
+      "description": {
+        "to": "Bánh mì nướng Pocket Toast Cheese Buldak của Cobi Bread: bánh mì sandwich ép kín nhân thịt gà sốt cay kiểu Hàn và phô mai sợi, nướng nóng là ăn được, tiện cho bữa sáng hoặc bữa nhẹ.\n\nThành phần: bột mì 43,42%, thịt gà 13,89%, phô mai sợi 13,89%, đường, tương ớt gochujang, siro bắp, bơ thay thế, nước tương, dầu mè, muối, bột ớt, men khô, tỏi, dầu đậu nành, phụ gia làm bánh, chất bảo quản. Có gluten.\nQuy cách: 85 g · gói\nXuất xứ: Việt Nam · Nhà sản xuất/thương hiệu: Cobi Bread\nBảo quản: mát 0–10 °C (4 ngày) hoặc đông lạnh dưới -18 °C (12 tháng); đã rã đông thì không cấp đông lại.\nHướng dẫn sử dụng: bánh bảo quản mát nướng nồi chiên không dầu 180 °C khoảng 3 phút; bánh đông lạnh rã đông bằng lò vi sóng 1–2 phút rồi nướng 160–180 °C trong 2–3 phút.",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

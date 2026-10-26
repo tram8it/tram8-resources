@@ -1,0 +1,141 @@
+{
+  "kiotProductId": "64865283",
+  "code": "6976192792693",
+  "barcode": "6976192792693",
+  "name": "Bánh Mì Humburger Thịt Heo Cay 85g",
+  "fullName": "Bánh Mì Humburger Thịt Heo Cay 85g (Cái)",
+  "brand": "Baokeshi",
+  "unit": "Cái",
+  "category": {
+    "kiotCategoryId": "2544185",
+    "name": "Burger - Hotdog - Bánh mì",
+    "path": "Các loại bánh > Burger - Hotdog - Bánh mì"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/0e2fd4cfe8119d46e8cc21c0e6a10c8564c27ad2196455fac7b34675a0d690a6.webp",
+    "description": "Bánh hamburger vị heo cay của Baokeshi, đóng gói từng chiếc, ăn liền. Theo bao bì: không chiên qua dầu, làm nóng trong khoảng 1 phút.\n\nQuy cách: 85 g · cái\nThương hiệu: Baokeshi",
+    "exportedAt": "2026-10-26T02:38:41.284Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "ảnh nhân viên chụp 19/10 (gói nhăn, nền đá); đồng bộ dãy hamburger Baokeshi → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt ở chữ lớn (Bánh Hamburger Vị Heo Cay, Không chiên qua dầu, 85g)",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-19",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh nhân viên chụp (KiotViet 19/10)",
+      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/10/19/tram8/070ee7fcc8a740b6be91ba4cb03837b3.png"
+    },
+    "rubricVersion": "v23"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "mô tả viết từ chữ in trên bao bì trong ảnh nhân viên chụp 19/10 (mặt trước/nắp); chỉ dữ kiện đọc được, không suy diễn",
+    "source": {
+      "url": "https://cdn2-retail-images.kiotviet.vn/2026/10/19/tram8/070ee7fcc8a740b6be91ba4cb03837b3.png",
+      "fetchedAt": "2026-10-19T06:34:42Z",
+      "staffPhoto": true
+    },
+    "rubricVersion": "v23"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:46:45.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "b13: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T06:30:00.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "searched for references (barcode, Vietnamese/Chinese names, retailers): none usable; no Gemini call"
+    },
+    {
+      "at": "2026-10-18T17:56:03Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "staff photo 2026-10-18 received (work/gemini/<id>/refs/2-staff.jpg) but wrinkled/tilted/glare → needs Gemini redraw; GEMINI_API_KEY not set on this machine"
+    },
+    {
+      "at": "2026-10-19T06:33:30Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-19T06:34:42Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "nk6 19/10: staff photo → Gemini redraw accepted; description written from the pack in the photo"
+    },
+    {
+      "at": "2026-10-19T06:35:13.997Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T07:23:08.254Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T17:15:09.663Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-26T02:38:48.902Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "category moved 2548021-banh-an-sang-ngu-coc-thanh-nang-luong -> 2544185-burger-hotdog-banh-mi"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-19T06:35:13.997Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T06:56:55.430Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T06:56:55.430Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/0e2fd4cfe8119d46e8cc21c0e6a10c8564c27ad2196455fac7b34675a0d690a6.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/10/19/tram8/070ee7fcc8a740b6be91ba4cb03837b3.png"
+        ]
+      },
+      "description": {
+        "to": "Bánh hamburger vị heo cay của Baokeshi, đóng gói từng chiếc, ăn liền. Theo bao bì: không chiên qua dầu, làm nóng trong khoảng 1 phút.\n\nQuy cách: 85 g · cái\nThương hiệu: Baokeshi",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

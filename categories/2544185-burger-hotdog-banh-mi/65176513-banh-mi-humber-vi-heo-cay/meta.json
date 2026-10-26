@@ -1,0 +1,125 @@
+{
+  "kiotProductId": "65176513",
+  "code": "4897124973596",
+  "barcode": "4897124973596",
+  "name": "Bánh Mì Humber Vị Heo Cay",
+  "fullName": "Bánh Mì Humber Vị Heo Cay (Cái)",
+  "brand": null,
+  "unit": "Cái",
+  "category": {
+    "kiotCategoryId": "2544185",
+    "name": "Burger - Hotdog - Bánh mì",
+    "path": "Các loại bánh > Burger - Hotdog - Bánh mì"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/fab6ecc8d25afd62de1f95857c16d724b2fb2592838fe98d97e98ce45348867d.webp",
+    "description": "Bánh mì hamburger nhân thịt heo vị cay (Spicy Flavor Pork Burger), bao bì tiếng Trung – Anh. Theo bao bì: bánh không chiên, miếng nhân có hàm lượng thịt từ 65%, ăn liền.\n\nQuy cách: 85 g · cái",
+    "exportedAt": "2026-10-26T02:38:41.284Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I5: ảnh chụp gói, nhăn, mềm → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: 香辣味猪肉堡 SPICY FLAVOR PORK BURGER, 65%, 净含量:85克 khớp ảnh KiotViet; vài chữ rất nhỏ có thể sai.",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (ảnh tự chụp)",
+      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/07/30/tram8/da003bb126b647109c3b0cb469745ffc.png"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết ngắn chỉ từ chữ in mặt trước gói (tên, 85 g, bánh không chiên, nhân thịt ≥65%)",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:46:45.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "b13: image CROP, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-15T09:16:17Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "tone.py --vivid: white balance/levels + brand-like colour (owner request)"
+    },
+    {
+      "at": "2026-10-17T15:19:13Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T15:19:14.052Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-26T02:38:48.902Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "category moved 2548021-banh-an-sang-ngu-coc-thanh-nang-luong -> 2544185-burger-hotdog-banh-mi"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T15:19:14.052Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T17:09:08.868Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T17:09:08.868Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/fab6ecc8d25afd62de1f95857c16d724b2fb2592838fe98d97e98ce45348867d.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/30/tram8/da003bb126b647109c3b0cb469745ffc.png"
+        ]
+      },
+      "description": {
+        "to": "Bánh mì hamburger nhân thịt heo vị cay (Spicy Flavor Pork Burger), bao bì tiếng Trung – Anh. Theo bao bì: bánh không chiên, miếng nhân có hàm lượng thịt từ 65%, ăn liền.\n\nQuy cách: 85 g · cái",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "kiotProductId": "65300595",
+  "code": "8936137711231",
+  "barcode": "8936137711231",
+  "name": "Bánh gạo sữa miyaki",
+  "fullName": "Bánh gạo sữa miyaki (Gói)",
+  "brand": "Tràng An",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2549068",
+    "name": "Bánh gạo",
+    "path": "Bánh quy & bánh đóng gói > Bánh gạo"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/808d8584f8de111ca0d25cbb3b339d221c0115a200fb32425335c507e43e8bf4.webp",
+    "description": "Bánh gạo sữa Miyaki vị sữa, bánh gạo giòn làm với bột sữa nhập khẩu từ New Zealand, không chiên. Túi có quai xách, bên trong chia nhiều gói nhỏ tiện ăn vặt.\n\nQuy cách: 240 g · túi\nXuất xứ: Việt Nam · Nhà sản xuất/thương hiệu: Công ty Cổ phần Thương mại Tràng An · Miyaki",
+    "exportedAt": "2026-10-26T02:38:41.284Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I3/I5: ảnh KiotViet chụp cận nửa trên túi → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: nửa dưới túi (cửa sổ thấy gói nhỏ, huy hiệu Nguồn sữa New Zealand, 2 dòng công bố) vẽ theo túi vị phô mai cùng dòng; nửa trên đúng ảnh KiotViet",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-18",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (nửa trên túi thật) + ảnh túi vị phô mai cùng dòng và túi vị sữa đời trước trên vantoanchau.com (chỉ làm mẫu)",
+      "referenceUrl": "https://vantoanchau.com/san-pham/banh-gao-sua-miyaki-240g/"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "REWRITE",
+    "reason": "D2: viết lại theo chữ in trên túi cùng dòng (Tràng An, bột sữa New Zealand, không chiên) và khối lượng 240 g ở trang bán lẻ",
+    "source": {
+      "url": "https://vantoanchau.com/san-pham/banh-gao-sua-miyaki-240g/",
+      "fetchedAt": "2026-10-18T18:17:14Z"
+    },
+    "rubricVersion": "v23"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:30:00.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "b20 review: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T07:42:19+00:00",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "I3/I5: ảnh KiotViet chụp cận nửa trên túi, mất phần dưới (khối lượng, vị); không tìm được ảnh mẫu Miyaki trên web/Kingfoodmart/Open Food Facts → cần nhân viên chụp trọn mặt trước túi (17/10/2026)"
+    },
+    {
+      "at": "2026-10-18T18:16:53Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-18T18:17:14Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "description written (REWRITE) on 18/10 re-research"
+    },
+    {
+      "at": "2026-10-18T18:17:26.234Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T02:05:27.524Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T03:19:05.400Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-26T02:38:48.902Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "category moved 2544186-banh-ngot -> 2549068-banh-gao"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-18T18:17:26.234Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T01:48:16.389Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T01:48:16.389Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/808d8584f8de111ca0d25cbb3b339d221c0115a200fb32425335c507e43e8bf4.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/04/30/tram8/ca176261dd6e48a19bbc8bf9f4ceeaf0.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Bánh gạo sữa Miyaki vị sữa, bánh gạo giòn làm với bột sữa nhập khẩu từ New Zealand, không chiên. Túi có quai xách, bên trong chia nhiều gói nhỏ tiện ăn vặt.\n\nQuy cách: 240 g · túi\nXuất xứ: Việt Nam · Nhà sản xuất/thương hiệu: Công ty Cổ phần Thương mại Tràng An · Miyaki",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

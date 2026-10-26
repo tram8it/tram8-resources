@@ -1,0 +1,140 @@
+{
+  "kiotProductId": "65205420",
+  "code": "8801062381814",
+  "barcode": "8801062381814",
+  "name": "Snack Doritos vị phô mai (84g*12 gói/thùng)",
+  "fullName": "Snack Doritos vị phô mai (84g*12 gói/thùng) (Gói)",
+  "brand": "Doritos",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2549014",
+    "name": "Snack bắp & phồng",
+    "path": "Đồ ăn vặt > Snacks > Snack bắp & phồng"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/656cf6d58810354375de45389aa5ec2a0b86c7196d9f1f54a00851fddab3a1fa.webp",
+    "description": "Snack bắp Doritos vị phô mai nacho, bao bì tiếng Hàn.\n\nQuy cách: 84 g · gói\nThương hiệu: Doritos",
+    "exportedAt": "2026-10-26T02:38:41.284Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I2: ảnh cũ là bản FIFA World Cup (bao bì sự kiện); chủ: dùng bao bì thường, cùng mã vạch thì ruột như nhau (16/10) → Gemini vẽ phẳng theo bản thường 'No.1 나초' (v15)",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Google Gemini Pro",
+      "generatedAt": "2026-10-16",
+      "referenceUrl": "https://images.emarteveryday.co.kr/images/app/webapps/evd_web2/share/SKU/mall/14/18/8801062381814_1.png"
+    },
+    "rubricVersion": "v16"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; mô tả ngắn chỉ từ dữ kiện chắc chắn (tên, thương hiệu, vị, khối lượng, chữ mặt trước bao bì); không có trang hãng truy cập được",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:20:32.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "batch b01: image CROP, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-15T02:50:49.957Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-15T09:16:17Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "tone.py --vivid: white balance/levels + brand-like colour (owner request)"
+    },
+    {
+      "at": "2026-10-15T09:19:36.401Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-15T18:09:39Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "image redo blocked; question for owner"
+    },
+    {
+      "at": "2026-10-16T02:23:03Z",
+      "by": "owner",
+      "status": "READY",
+      "note": "owner: use the regular (non-event) pack; same barcode = same contents"
+    },
+    {
+      "at": "2026-10-16T02:23:03.743Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-16T03:12:33.562Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-26T02:38:48.902Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "category moved 2549008-snack-khoai-tay -> 2549014-snack-bap-phong"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-16T02:23:03.743Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-16T02:29:03.110Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-16T02:29:03.110Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/656cf6d58810354375de45389aa5ec2a0b86c7196d9f1f54a00851fddab3a1fa.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/30/tram8/7bcb5c1f04bb4df8932b14ab0a10664a.png"
+        ]
+      },
+      "description": {
+        "to": "Snack bắp Doritos vị phô mai nacho, bao bì tiếng Hàn.\n\nQuy cách: 84 g · gói\nThương hiệu: Doritos",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

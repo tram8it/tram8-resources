@@ -1,0 +1,125 @@
+{
+  "kiotProductId": "65205348",
+  "code": "8935358700031",
+  "barcode": "8935358700031",
+  "name": "Nước Hồng Sâm Pororo dạng chai vị táo",
+  "fullName": "Nước Hồng Sâm Pororo dạng chai vị táo (Chai)",
+  "brand": "Pororo",
+  "unit": "Chai",
+  "category": {
+    "kiotCategoryId": "2549384",
+    "name": "Thức uống bổ sung dinh dưỡng",
+    "path": "Đồ uống đóng chai > Thức uống bổ sung dinh dưỡng"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/c3064683d37466618eb7fe11e7f0fcd2eefc6a1acb15c1f39fbab31f655cdf50.webp",
+    "description": "Nước uống Pororo hương táo, bao bì ghi bổ sung kẽm; chai nắp thể thao.\n\nQuy cách: chai\nThương hiệu: Pororo",
+    "exportedAt": "2026-10-26T02:38:41.284Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I3: ảnh KiotViet tay cầm trong siêu thị; mã vạch 8935358700031 là Pororo hương táo (Kingfoodmart), bao bì mới hơn ảnh cửa hàng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: dùng bao bì mới nhất (chai cửa hàng là bản cũ ghi Apple Flavor)",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh Kingfoodmart theo mã vạch (chỉ làm mẫu, bao bì mới)",
+      "referenceUrl": "https://storage.googleapis.com/onelife-public/8935358700031.jpg"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "source": null,
+    "rubricVersion": "v20",
+    "decision": "WRITE_NEW",
+    "reason": "mã vạch 8935358700031 = nước Pororo hương táo (Kingfoodmart), không phải hồng sâm; dung tích không đọc được"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:32:10.000Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "batch b09 review: image ASK_OWNER, description ASK_OWNER"
+    },
+    {
+      "at": "2026-10-17T14:07:39Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T14:08:44Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "resolved without asking: barcode/evidence decides (mã vạch 8935358700031 = nước Pororo hương táo (Kingfoodmart), không phải hồng sâm; dung tích không đọc được)"
+    },
+    {
+      "at": "2026-10-17T14:10:03.739Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-26T02:38:48.902Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "category moved 2549375-nuoc-trai-cay-ep -> 2549384-thuc-uong-bo-sung-dinh-duong"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T14:10:03.739Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T15:38:44.530Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T15:38:44.530Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/c3064683d37466618eb7fe11e7f0fcd2eefc6a1acb15c1f39fbab31f655cdf50.webp"
+        ],
+        "from": [
+          "https://cdn1-retail-images.kiotviet.vn/2026/04/26/tram8/9ee67751d34f47b682b309536ce041b4.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Nước uống Pororo hương táo, bao bì ghi bổ sung kẽm; chai nắp thể thao.\n\nQuy cách: chai\nThương hiệu: Pororo",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

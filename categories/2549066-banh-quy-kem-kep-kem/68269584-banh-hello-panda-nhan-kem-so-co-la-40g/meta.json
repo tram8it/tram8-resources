@@ -1,0 +1,135 @@
+{
+  "kiotProductId": "68269584",
+  "code": "8888077108308",
+  "barcode": "8888077108308",
+  "name": "Bánh Hello Panda Nhân Kem Sô-Cô-La 40g",
+  "fullName": "Bánh Hello Panda Nhân Kem Sô-Cô-La 40g (Hộp)",
+  "brand": "Meiji",
+  "unit": "Hộp",
+  "category": {
+    "kiotCategoryId": "2549066",
+    "name": "Bánh quy kem / kẹp kem",
+    "path": "Bánh quy & bánh đóng gói > Bánh quy kem / kẹp kem"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/e9e79f38c431b7255b801b7537df021248dd1e7ea2acc6ac396e39c789f9a946.webp",
+    "description": "Bánh quy Hello Panda của Meiji nhân kem vị sô-cô-la: bánh quy giòn in hình gấu trúc, bên trong là lớp nhân kem mềm. Dùng ăn vặt hoặc chia sẻ cùng bạn bè.\n\nQuy cách: 43 g · hộp\nNhà sản xuất/thương hiệu: Meiji · Hello Panda",
+    "exportedAt": "2026-10-26T02:38:41.284Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I1: chưa có ảnh; hãng (meiji.com.sg) chặn bot, không có packshot → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: mã số nhỏ dưới logo halal vẽ 'C11333' (gói thật 'C11353', rất nhỏ); còn lại không thấy khác biệt; hộp in 43 g (tên KiotViet 40g, theo bao bì, v19)",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh Open Food Facts cùng mã vạch 8888077108308 (ảnh tay cầm, chỉ làm mẫu)",
+      "referenceUrl": "https://world.openfoodfacts.org/product/8888077108308"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết ngắn từ dữ kiện chắc chắn (tên hàng, thương hiệu, vị); khối lượng 43 g theo hộp cùng mã vạch (Open Food Facts), v19",
+    "source": null,
+    "rubricVersion": "v19"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:20:10.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "b29: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T08:25:42Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "ask owner: pack weight differs from KiotViet name"
+    },
+    {
+      "at": "2026-10-17T08:58:42Z",
+      "by": "owner",
+      "status": "ASK_OWNER",
+      "note": "Chủ trả lời 17/10 (RUBRIC v19): khối lượng theo bao bì đúng mã vạch (43 g), lệch nhỏ không cần sửa tên"
+    },
+    {
+      "at": "2026-10-17T08:58:42Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T08:58:43Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Mô tả: sửa quy cách 40 g → 43 g theo bao bì (v19)"
+    },
+    {
+      "at": "2026-10-17T08:58:43.143Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-26T02:38:48.902Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "category moved 2547500-banh-quy-banh-dong-goi -> 2549066-banh-quy-kem-kep-kem"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T08:58:43.143Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T09:06:46.199Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T09:06:46.199Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/e9e79f38c431b7255b801b7537df021248dd1e7ea2acc6ac396e39c789f9a946.webp"
+        ],
+        "from": null
+      },
+      "description": {
+        "to": "Bánh quy Hello Panda của Meiji nhân kem vị sô-cô-la: bánh quy giòn in hình gấu trúc, bên trong là lớp nhân kem mềm. Dùng ăn vặt hoặc chia sẻ cùng bạn bè.\n\nQuy cách: 43 g · hộp\nNhà sản xuất/thương hiệu: Meiji · Hello Panda",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

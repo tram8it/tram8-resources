@@ -1,0 +1,118 @@
+{
+  "kiotProductId": "68437849",
+  "code": "SP878298",
+  "barcode": "079656004021",
+  "name": "BB GEL PHƠI NẮNG BẢO VỆ DA SPF15 236ML 2026",
+  "fullName": "BB GEL PHƠI NẮNG BẢO VỆ DA SPF15 236ML 2026 (Chai)",
+  "brand": "Banana Boat",
+  "unit": "Chai",
+  "category": {
+    "kiotCategoryId": "2547903",
+    "name": "Xịt chống nắng",
+    "path": "Chăm sóc cá nhân > Sản phẩm chống nắng > Xịt chống nắng"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/3fbae6d6bd871cfe038224cd61e2cf0c336286a1f5e58e545fd762dd034d396f.webp",
+    "description": "Gel tắm nắng có chống nắng Banana Boat Protective Tanning Gel SPF 15, pha dầu dừa, dạng chai xịt. Chai in \"For Medium Protection\" và \"Water Resistant\".\n\nQuy cách: 236 ml · chai\nNhà sản xuất/thương hiệu: Banana Boat",
+    "exportedAt": "2026-10-26T02:38:41.284Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I3/I4: ảnh chụp điện thoại cầm tay trong cửa hàng, nền kệ hàng; bananaboat.com không có SP này → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt chữ lớn; chữ nhỏ mặt bên không vẽ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (chụp tay tại cửa hàng)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết ngắn chỉ từ chữ in mặt trước chai (Protective Tanning Gel, SPF 15, Blended with Coconut Oil, For Medium Protection, Water Resistant, 236 mL)",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:27:46.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "hand-held phone photo; no official image; description from front label. KiotViet brand is NIVEA but product is Banana Boat"
+    },
+    {
+      "at": "2026-10-17T08:17:36Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T08:17:37.209Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-26T02:38:48.902Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "category moved 2547535-cham-soc-co-the -> 2547903-xit-chong-nang"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T08:17:37.209Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T08:35:48.072Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T08:35:48.072Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/3fbae6d6bd871cfe038224cd61e2cf0c336286a1f5e58e545fd762dd034d396f.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/10/10/tram8/c4b037c34fc849518635d54798f260b2.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Gel tắm nắng có chống nắng Banana Boat Protective Tanning Gel SPF 15, pha dầu dừa, dạng chai xịt. Chai in \"For Medium Protection\" và \"Water Resistant\".\n\nQuy cách: 236 ml · chai\nNhà sản xuất/thương hiệu: Banana Boat",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

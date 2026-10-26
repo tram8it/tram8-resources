@@ -1,0 +1,131 @@
+{
+  "kiotProductId": "67169122",
+  "code": "6972383326463",
+  "barcode": "6972383326463",
+  "name": "Bánh Bông Lan Hesan Vị Truyền Thống",
+  "fullName": "Bánh Bông Lan Hesan Vị Truyền Thống (Gói)",
+  "brand": "Hàng nội địa Trung",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2548802",
+    "name": "Bánh bông lan & phô mai",
+    "path": "Các loại bánh > Bánh ngọt > Bánh bông lan & phô mai"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/700fd50da03ed67b5cd6335c1de9ee2116080a33971f9a4e41eb7ec24560a31d.webp",
+    "description": "Bánh bông lan trứng kiểu truyền thống Hesan, bánh mềm xốp thơm vị trứng.\n\nQuy cách: 268 g · gói\nNhà sản xuất/thương hiệu: Hesan (河山)",
+    "exportedAt": "2026-10-26T02:38:41.284Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I3/I5: ảnh KiotViet chụp cận túi Hesan (河山); 19/10 tìm web (tên Việt, chữ Hàn '옛날카스테라'/'계란빵', 河山, mã vạch, ảnh ngược Yandex) không có ảnh nào, nhưng ảnh KiotViet thấy gần trọn hình in → vẽ lại cả túi từ ảnh KiotViet (v23) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: mép túi, số bánh và phần chữ bị cắt ở mép phải do AI hoàn thiện theo ảnh mẫu",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-19",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet nhân viên chụp (chỉ làm mẫu)",
+      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/07/20/tram8/47d3c8e81dea4b0cb4c8533a94153dc3.jpeg"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; mô tả ngắn chỉ từ tên hàng và chữ in mặt trước bao bì (không có trang hãng) ('河山 옛날 계란빵', khối lượng tịnh 268 g)",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:30:00.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "b20 review: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T07:42:19+00:00",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "I3/I5: ảnh KiotViet chụp cận nhãn túi Hesan (河山), không thấy trọn túi (mép, số bánh, dòng khối lượng bị cắt); không tìm được ảnh mẫu trên web/Kingfoodmart/Open Food Facts → Gemini sẽ phải đoán hình túi, cần nhân viên chụp trọn mặt trước túi (17/10/2026)"
+    },
+    {
+      "at": "2026-10-18T18:46:03Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "18/10 re-research (>=3 searches): still no image of this exact product → NEEDS_PHOTO"
+    },
+    {
+      "at": "2026-10-19T07:36:38Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-19T07:36:46.065Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T08:50:58.958Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T17:15:09.663Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-26T02:38:48.902Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "category moved 2544186-banh-ngot -> 2548802-banh-bong-lan-pho-mai"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-19T07:36:46.065Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T07:37:28.190Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T07:37:28.190Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/700fd50da03ed67b5cd6335c1de9ee2116080a33971f9a4e41eb7ec24560a31d.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/20/tram8/47d3c8e81dea4b0cb4c8533a94153dc3.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Bánh bông lan trứng kiểu truyền thống Hesan, bánh mềm xốp thơm vị trứng.\n\nQuy cách: 268 g · gói\nNhà sản xuất/thương hiệu: Hesan (河山)",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

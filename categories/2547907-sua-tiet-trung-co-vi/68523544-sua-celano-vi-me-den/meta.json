@@ -1,0 +1,123 @@
+{
+  "kiotProductId": "68523544",
+  "code": "8936011779340",
+  "barcode": "8936011779340",
+  "name": "Sữa Celano Vị Mè Đen",
+  "fullName": "Sữa Celano Vị Mè Đen (Hộp)",
+  "brand": "Celano",
+  "unit": "Hộp",
+  "category": {
+    "kiotCategoryId": "2547907",
+    "name": "Sữa tiệt trùng có vị",
+    "path": "Sữa và các sản phẩm từ sữa > Sữa tiệt trùng > Sữa tiệt trùng có vị"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/83cad6cc93308f28f3c02359370cf62d9df7ce07eded60d0458cccd4d682c5c7.webp",
+    "description": "Thức uống sữa tươi tiệt trùng Celano vị mè đen, có thạch.\n\nQuy cách: 170 ml · hộp\nThương hiệu: Celano",
+    "exportedAt": "2026-10-26T02:38:41.284Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "SP mới, ảnh KiotViet là lốc 4 hộp chụp trên kệ còn màng co; đơn vị bán Hộp → vẽ 1 hộp → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: nhân vật minh hoạ là 1 trong các mẫu nhân vật in trên lốc (mỗi hộp một nhân vật); không thấy khác biệt chữ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-19",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh nhân viên chụp (KiotViet 19/10)",
+      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/10/18/tram8/7d5cee55f17f4dad83e33f3ece458da1.png"
+    },
+    "rubricVersion": "v23"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: SP mới, chưa có mô tả; mô tả ngắn từ chữ in trên hộp trong ảnh KiotViet",
+    "source": {
+      "staffPhoto": true,
+      "takenAt": "2026-10-18",
+      "url": "https://cdn2-retail-images.kiotviet.vn/2026/10/18/tram8/7d5cee55f17f4dad83e33f3ece458da1.png"
+    },
+    "rubricVersion": "v23"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-19T03:19:05.400Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-19T03:26:08Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-19T03:27:10Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "description written from the pack in the staff photo uploaded to KiotViet (19/10); image redrawn by Gemini from that photo"
+    },
+    {
+      "at": "2026-10-19T03:27:57.276Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T03:31:45.675Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T17:15:09.663Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-26T02:38:48.902Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "category moved 2500635-sua-va-cac-san-pham-tu-sua -> 2547907-sua-tiet-trung-co-vi"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-19T03:27:57.276Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T03:30:53.311Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T03:30:53.311Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/83cad6cc93308f28f3c02359370cf62d9df7ce07eded60d0458cccd4d682c5c7.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/10/18/tram8/7d5cee55f17f4dad83e33f3ece458da1.png"
+        ]
+      },
+      "description": {
+        "to": "Thức uống sữa tươi tiệt trùng Celano vị mè đen, có thạch.\n\nQuy cách: 170 ml · hộp\nThương hiệu: Celano",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

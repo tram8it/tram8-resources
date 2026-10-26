@@ -1,0 +1,123 @@
+{
+  "kiotProductId": "68523565",
+  "code": "8936011778039",
+  "barcode": "8936011778039",
+  "name": "Sữa Tươi Celano Yến Mạch cafe Latte 180ml",
+  "fullName": "Sữa Tươi Celano Yến Mạch cafe Latte 180ml (Hộp)",
+  "brand": "Celano",
+  "unit": "Hộp",
+  "category": {
+    "kiotCategoryId": "2547908",
+    "name": "Sữa hạt",
+    "path": "Sữa và các sản phẩm từ sữa > Sữa tiệt trùng > Sữa hạt"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/2e67b9f21fcf777a09edd3966fbd04a13d5e0feb26859359896c345b4ecf82a0.webp",
+    "description": "Sữa yến mạch Celano Oat Milk vị cà phê latte (Café Latte), hộp giấy kèm ống hút.\n\nQuy cách: 180 ml · hộp\nThương hiệu: Celano",
+    "exportedAt": "2026-10-26T02:38:41.284Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "SP mới, ảnh KiotViet là lốc 4 hộp chụp trên kệ còn màng co; đơn vị bán Hộp → vẽ 1 hộp → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không vẽ ống hút dán ngoài hộp; nhân vật minh hoạ là 1 trong các mẫu in trên lốc",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-19",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh nhân viên chụp (KiotViet 19/10)",
+      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/10/18/tram8/29c2ac7f45924ba7beafed954f7cd69e.png"
+    },
+    "rubricVersion": "v23"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: SP mới, chưa có mô tả; mô tả ngắn từ chữ in trên hộp trong ảnh KiotViet (Oat Milk, Café Latte, 180 ml)",
+    "source": {
+      "staffPhoto": true,
+      "takenAt": "2026-10-18",
+      "url": "https://cdn2-retail-images.kiotviet.vn/2026/10/18/tram8/29c2ac7f45924ba7beafed954f7cd69e.png"
+    },
+    "rubricVersion": "v23"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-19T03:19:05.400Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-19T03:26:08Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-19T03:27:10Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "description written from the pack in the staff photo uploaded to KiotViet (19/10); image redrawn by Gemini from that photo"
+    },
+    {
+      "at": "2026-10-19T03:27:59.428Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T03:31:45.675Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T17:15:09.663Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-26T02:38:48.902Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "category moved 2500635-sua-va-cac-san-pham-tu-sua -> 2547908-sua-hat"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-19T03:27:59.428Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T03:30:57.129Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T03:30:57.129Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/2e67b9f21fcf777a09edd3966fbd04a13d5e0feb26859359896c345b4ecf82a0.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/10/18/tram8/29c2ac7f45924ba7beafed954f7cd69e.png"
+        ]
+      },
+      "description": {
+        "to": "Sữa yến mạch Celano Oat Milk vị cà phê latte (Café Latte), hộp giấy kèm ống hút.\n\nQuy cách: 180 ml · hộp\nThương hiệu: Celano",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

@@ -1,0 +1,144 @@
+{
+  "kiotProductId": "67201485",
+  "code": "6947093141095",
+  "barcode": "6947093141095",
+  "name": "Tai heo chay vị ớt ngâm",
+  "fullName": "Tai heo chay vị ớt ngâm (Gói)",
+  "brand": "Hàng nội địa Trung",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2549295",
+    "name": "Đồ chay giả mặn (konjac)",
+    "path": "Đồ ăn vặt > Đồ nội địa Trung > Đồ chay giả mặn (konjac)"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/ad39ecc3dacab54eaaa619e45b22e2d6fc61094856c77dcce70324742bf23498.webp",
+    "description": "Tai heo chay vị ớt ngâm (素耳尖 泡椒味) của Yinchengxiangwei (银城湘味): món ăn vặt làm từ gel khoai nưa (konjac) tẩm vị ớt ngâm, ăn liền.\n\nQuy cách: 16 g · gói\nXuất xứ: Trung Quốc · Thương hiệu: Yinchengxiangwei (银城湘味)",
+    "exportedAt": "2026-10-26T02:38:41.284Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I3/I5: ảnh tự chụp gói nhăn, bóng, hơi mờ; không có ảnh hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: gói bạc vẽ sáng hơn (gần trắng xám); 净含量:16克 như ảnh gốc; chữ nhỏ không đọc được",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; mô tả ngắn từ chữ in mặt trước bao bì (không có trang hãng)",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:13:31.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "image CROP, description WRITE_NEW (front-of-pack facts)"
+    },
+    {
+      "at": "2026-10-14T07:59:16Z",
+      "by": "ai",
+      "status": "IN_PROGRESS",
+      "note": "Giữ lại: image.webp trùng hệt ảnh của SP 66922789 (mã vạch khác) — kiểm lại vị/quy cách bằng mắt trước khi gửi"
+    },
+    {
+      "at": "2026-10-15T09:16:17Z",
+      "by": "ai",
+      "status": "IN_PROGRESS",
+      "note": "tone.py --vivid: white balance/levels + brand-like colour (owner request)"
+    },
+    {
+      "at": "2026-10-15T17:17:54.573Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "duplicate image checked by eye: correct pack for this SP (素耳尖 泡椒味 16 g); the other code 66922789 is asked"
+    },
+    {
+      "at": "2026-10-15T17:18:15.491Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-16T01:43:10.560Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-17T15:31:21Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T15:39:11.570Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-26T02:38:48.902Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "category moved 2549297-thit-hai-san-an-lien -> 2549295-do-chay-gia-man-konjac"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T15:39:11.570Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T17:21:11.794Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T17:21:11.794Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/ad39ecc3dacab54eaaa619e45b22e2d6fc61094856c77dcce70324742bf23498.webp"
+        ],
+        "from": [
+          "https://img.tram8.vn/products/464873740d50092de91b10002f221261360135bae4201a698ded972ffab18f58.webp"
+        ]
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

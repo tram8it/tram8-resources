@@ -1,0 +1,119 @@
+{
+  "kiotProductId": "64865202",
+  "code": "8938538379119",
+  "barcode": "8938538379119",
+  "name": "Nước muối",
+  "fullName": "Nước muối (Chai)",
+  "brand": null,
+  "unit": "Chai",
+  "category": {
+    "kiotCategoryId": "2548828",
+    "name": "Nước súc miệng - Muối",
+    "path": "Chăm sóc cá nhân > Chăm sóc răng miệng > Nước súc miệng - Muối"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/756b9b702112de5be28c66225bce0a8176c83eaeb1d7fdbfaae6d59e00001f39.webp",
+    "description": "Nước muối súc miệng Natri clorid 0,9%, chai nhựa 500 ml có nắp vòi.\n\nThành phần: Natri clorid 0,9%.\nQuy cách: 500 ml · chai\nLưu ý: nhãn ghi \"Không được tiêm\". Đọc kỹ thông tin trên nhãn trước khi dùng.",
+    "exportedAt": "2026-10-26T02:38:41.284Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I3/I6: ảnh tự chụp chai trong, bóng lóa; không có ảnh hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: đã làm mờ dòng tên/địa chỉ/SĐT nhà sản xuất và cột số lô/NSX bên phải vì Gemini bịa số",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (chai tự chụp của cửa hàng)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "REWRITE",
+    "reason": "D2/D3: mô tả cũ dạng AI dài (HTML), nhiều dữ kiện không kiểm chứng và lời công dụng/điều trị; nhãn chai ghi 'Nước muối súc miệng', không phải 'nước muối sinh lý'; viết lại chỉ từ chữ in trên nhãn (Natri clorid 0,9%, 500 ml, GMP WHO, không được tiêm) | rà soát v9: Assumes Nam Ha brand and nasal/eye uses; product is a 0.9% NaCl mouth-rinse bottle, brand unverified",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:02:48.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "image KEEP, description REWRITE from label"
+    },
+    {
+      "at": "2026-10-17T15:28:33Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T15:28:33.325Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-26T02:38:48.902Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "category moved 2547873-dung-cu-so-cuu -> 2548828-nuoc-suc-mieng-muoi"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T15:28:33.325Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T17:20:29.901Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T17:20:29.901Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/756b9b702112de5be28c66225bce0a8176c83eaeb1d7fdbfaae6d59e00001f39.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/09/14/tram8/293007023cd24aa48b40f13bfa2e831f.png",
+          "https://cdn1-retail-images.kiotviet.vn/2026/03/30/tongpenhchtl/9df7c4d40ddc402cadea92d84702aa51.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Nước muối súc miệng Natri clorid 0,9%, chai nhựa 500 ml có nắp vòi.\n\nThành phần: Natri clorid 0,9%.\nQuy cách: 500 ml · chai\nLưu ý: nhãn ghi \"Không được tiêm\". Đọc kỹ thông tin trên nhãn trước khi dùng.",
+        "from": "<h3 data-path-to-node=\"2\"><strong></strong></h3><h3 data-path-to-node=\"2\"><strong>TÊN SẢN PHẨM </strong></h3><ul data-path-to-node=\"3\"><li><p data-path-to-node=\"3,0,0\"><strong>Tên sản phẩm:</strong> Nước Muối Sinh Lý Natri Clorid 0.9% Nam Hà Chai 500ml</p></li><li><p data-path-to-node=\"3,1,0\"><strong>Tên viết tắt/Gợi ý tìm kiếm:</strong> Nước muối Nam Hà 500ml, Nước muối sinh lý Nam Hà, Natri Clorid 0.9% Nam Hà.</p></li></ul><h3 data-path-to-node=\"5\"><strong>THÔNG TIN CHI TIẾT SẢN PHẨM</strong></h3><ul data-path-to-node=\"6\"><li><p data-path-to-node=\"6,0,0\"><strong>Thương hiệu:</strong> Dược Nam Hà (Namha Pharma)</p></li><li><p data-path-to-node=\"6,1,0\"><strong>Xuất xứ:</strong> Việt Nam</p></li><li><p data-path-to-node=\"6,2,0\"><strong>Loại sản phẩm:</strong> Vật tư y tế / Dược phẩm thiết yếu / Dung dịch vệ sinh</p></li><li><p data-path-to-node=\"6,3,0\"><strong>Dung tích:</strong> 500ml / Chai</p></li><li><p data-path-to-node=\"6,4,0\"><strong>Quy cách đóng gói:</strong> Chai nhựa kèm nắp vặn tiện lợi (Bán lẻ từng chai hoặc theo lốc / thùng)</p></li><li><p data-path-to-node=\"6,5,0\"><strong>Thành phần chính:</strong> Natri Clorid (NaCl) 0.9%, Nước tinh khiết vừa đủ.</p></li><li><p data-path-to-node=\"6,6,0\"><strong>Hạn sử dụng & Bảo quản:</strong> Xem trên bao bì sản phẩm (Bảo quản nơi khô ráo, thoáng mát, tránh ánh nắng trực tiếp).</p></li></ul><h3 data-path-to-node=\"8\"><strong>MÔ TẢ SẢN PHẨM </strong></h3><h4 data-path-to-node=\"9\"><strong>1. Giới thiệu chung</strong></h4><p data-path-to-node=\"10\">Nước muối sinh lý <strong>Natri Clorid 0.9% chai 500ml từ Dược Nam Hà</strong> là sản phẩm y tế uy tín, chất lượng cao, quen thuộc trong tủ thuốc của mọi gia đình Việt. Được sản xuất trên dây chuyền hiện đại của thương hiệu dược phẩm lâu đời Nam Hà, sản phẩm đạt chuẩn độ đẳng trương (0.9%), tuyệt đối an toàn và lành tính cho việc vệ sinh cơ thể hằng ngày.</p><h4 data-path-to-node=\"11\"><strong>2. Công dụng và ưu điểm nổi bật</strong></h4><ul data-path-to-node=\"12\"><li><p data-path-to-node=\"12,0,0\"><strong>Vệ sinh đường hô hấp hiệu quả:</strong> Giúp rửa sạch dịch nhầy, bụi bẩn, vi khuẩn ở mũi và họng; hỗ trợ làm giảm nghẹt mũi, sổ mũi, viêm mũi dị ứng hoặc viêm họng.</p></li><li><p data-path-to-node=\"12,1,0\"><strong>Vệ sinh răng miệng:</strong> Dùng làm nước súc miệng hằng ngày giúp loại bỏ mảng bám, vi khuẩn, khử mùi hôi miệng và bảo vệ nướu khỏe mạnh.</p></li><li><p data-path-to-node=\"12,2,0\"><strong>Hỗ trợ sát trùng vết thương nhẹ:</strong> Dùng để rửa sạch các vết trầy xước ngoài da, rửa mắt khi bị bụi bẩn bay vào mà không gây xót hay kích ứng da.</p></li><li><p data-path-to-node=\"12,3,0\"><strong>Thương hiệu dược phẩm uy tín:</strong> Sản phẩm của Công ty Cổ phần Dược phẩm Nam Hà với quy trình kiểm định nghiêm ngặt, đảm bảo an toàn tuyệt đối cho cả người lớn và trẻ em.</p></li><li><p data-path-to-node=\"12,4,0\"><strong>Dung tích lớn tiện lợi:</strong> Chai 500ml kinh tế, thích hợp sử dụng thường xuyên cho cả gia đình, văn phòng hoặc các cơ sở y tế.</p></li></ul><h4 data-path-to-node=\"13\"><strong>3. Hướng dẫn sử dụng và bảo quản</strong></h4><ul data-path-to-node=\"14\"><li><p data-path-to-node=\"14,0,0\"><strong>Cách sử dụng:</strong></p><ul data-path-to-node=\"14,0,1\"><li><p data-path-to-node=\"14,0,1,0,0\"><strong>Vệ sinh mũi/họng:</strong> Rót ra cốc sạch hoặc dùng dụng cụ chuyên dụng để nhỏ/rửa mũi, súc miệng sâu trong cổ họng từ 2 - 3 lần/ngày.</p></li><li><p data-path-to-node=\"14,0,1,1,0\"><strong>Vệ sinh vết thương/mắt:</strong> Dùng trực tiếp để rửa trôi bụi bẩn hoặc sát khuẩn vùng da bị tổn thương nhẹ.</p></li></ul></li><li><p data-path-to-node=\"14,1,0\"><strong>Bảo quản:</strong></p><ul data-path-to-node=\"14,1,1\"><li><p data-path-to-node=\"14,1,1,0,0\">Đậy kín nắp ngay sau khi sử dụng để tránh nhiễm khuẩn từ môi trường.</p></li><li><p data-path-to-node=\"14,1,1,1,0\">Bảo quản nơi khô ráo, thoáng mát, tránh ánh nắng trực tiếp.</p></li><li><p data-path-to-node=\"14,1,1,2,0\"><em>Lưu ý:</em> Nên sử dụng trong thời gian ngắn sau khi đã mở nắp chai.</p></li></ul></li></ul><ul data-path-to-node=\"14\"><li><ul data-path-to-node=\"14,1,1\"><li><p data-path-to-node=\"14,1,1,2,0\"></p></li></ul></li></ul>"
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

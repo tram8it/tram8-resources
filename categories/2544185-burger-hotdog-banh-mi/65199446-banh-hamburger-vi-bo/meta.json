@@ -1,0 +1,136 @@
+{
+  "kiotProductId": "65199446",
+  "code": "6976192792686",
+  "barcode": "6976192792686",
+  "name": "Bánh hamburger vị bò",
+  "fullName": "Bánh hamburger vị bò (Cái)",
+  "brand": null,
+  "unit": "Cái",
+  "category": {
+    "kiotCategoryId": "2544185",
+    "name": "Burger - Hotdog - Bánh mì",
+    "path": "Các loại bánh > Burger - Hotdog - Bánh mì"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/b717aa2c01dcdee9b3fa966a3ab60951bfe2c361f17e86ab1914fc336f7eb656.webp",
+    "description": "Bánh mì hamburger nhân thịt bò sốt tiêu đen (Black Pepper Beef Burger), bao bì tiếng Trung – Anh. Theo bao bì: bánh không chiên, miếng nhân có hàm lượng thịt từ 65%, ăn liền.\n\nQuy cách: 85 g · cái",
+    "exportedAt": "2026-10-26T02:38:41.284Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "Chủ: chưa ổn, vẽ vuông vắn hơn → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: dòng chữ nhỏ trong ngoặc dưới 净含量:85克 để mờ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-18",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (chỉ làm mẫu)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; dùng chung mô tả SP 65176511 (cùng gói, chữ in mặt trước: 85 g, không chiên, nhân thịt ≥65%)",
+    "source": null,
+    "rubricVersion": "v20"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:46:45.000Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "b13: ASK_OWNER"
+    },
+    {
+      "at": "2026-10-17T14:00:59.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "resolved without asking: ảnh kệ của mã 6976192792686 giống hệt gói Black Pepper Beef Burger 85 g của 65176511 (mã 4897124973602) → cùng ảnh/mô tả; cặp mã ghi ở reports/ma-trung-de-tat.md"
+    },
+    {
+      "at": "2026-10-17T14:05:27.638Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "IN_PROGRESS",
+      "note": "rejected on Hub by AU KHUONG DUY: Ảnh này chưa ổn. Vẽ vuông vắn hơn đc ko?"
+    },
+    {
+      "at": "2026-10-18T11:31:59Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "redo after Hub rejection: Ảnh này chưa ổn. Vẽ vuông vắn hơn đc ko? — Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-18T11:32:00.154Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-18T17:16:08.691Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T03:19:05.400Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-26T02:38:48.902Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "category moved 2548021-banh-an-sang-ngu-coc-thanh-nang-luong -> 2544185-burger-hotdog-banh-mi"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-18T11:32:00.154Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-18T17:11:31.517Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-18T17:11:31.517Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/b717aa2c01dcdee9b3fa966a3ab60951bfe2c361f17e86ab1914fc336f7eb656.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/27/tram8/352c15805f6046468f4bc4df0a3de1bb.png"
+        ]
+      },
+      "description": {
+        "to": "Bánh mì hamburger nhân thịt bò sốt tiêu đen (Black Pepper Beef Burger), bao bì tiếng Trung – Anh. Theo bao bì: bánh không chiên, miếng nhân có hàm lượng thịt từ 65%, ăn liền.\n\nQuy cách: 85 g · cái",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

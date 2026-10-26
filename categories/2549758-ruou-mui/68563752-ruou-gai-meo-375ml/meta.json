@@ -1,0 +1,91 @@
+{
+  "kiotProductId": "68563752",
+  "code": "8938528985429",
+  "barcode": "8938528985429",
+  "name": "RƯỢU GÁI MÈO 375ML",
+  "fullName": "RƯỢU GÁI MÈO 375ML (Chai)",
+  "brand": null,
+  "unit": "Chai",
+  "category": {
+    "kiotCategoryId": "2549758",
+    "name": "Rượu Mùi",
+    "path": "Đồ uống có cồn (18+) > Rượu mạnh > Rượu Mùi"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/afa45a4d353d5176214521d1de913e77b88c44178a2042042a1e8b3babc013be.webp",
+    "description": "Rượu Gái Mèo của MẦM Craft Distillery (dòng Say Xưa), rượu trái cây làm từ táo mèo Yên Bái.\n\nQuy cách: 375 ml · chai\nXuất xứ: Việt Nam · Thương hiệu: MẦM Craft Distillery\n\nChỉ bán cho người từ 18 tuổi trở lên.\nUống có trách nhiệm, đã uống rượu bia không lái xe.",
+    "exportedAt": "2026-10-26T02:38:41.284Z"
+  },
+  "status": "READY",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I3/I4: ảnh KiotViet chụp điện thoại trên thùng hàng; ảnh hãng là banner có huy hiệu → Gemini vẽ lại từ ảnh mẫu (v12–v15, v17, v19: đúng chai đang bán, 1 chai/đơn vị Chai, đồng bộ dãy 375 ml); đã so chữ/logo với mẫu. Khác gói thật: bỏ tem thuế dán trên nắp; vai chai có chữ dập nổi như ảnh hãng; chữ nhỏ trên nhãn không đọc rõ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-21",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet chai thật 375 ml (chụp trên thùng hàng) + ảnh banner chính hãng ruoumam.com.vn (chỉ lấy hình nhãn, nền banner/huy hiệu không dùng)",
+      "referenceUrl": "https://ruoumam.com.vn/san-pham/gai-meo-375ml/"
+    },
+    "rubricVersion": "v23"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết theo khuôn _category.md (chỉ dữ kiện, 2 dòng 18+ cố định). Tên + dung tích theo nhãn; nguyên liệu chính (táo mèo Yên Bái) theo trang hãng; nồng độ bỏ trống: chữ nồng độ trên ảnh chai thật không đọc được, còn trang hãng (22–26% ±2%) lệch với nhãn trên ảnh hãng (vd. 25,5% ±1%); xuất xứ Việt Nam theo trang hãng; thương hiệu MẦM Craft Distillery in trên nhãn. Không ghi công ty sản xuất vì nhãn chai này không đọc được (nhãn mẫu 530 ml năm 2022 in Hộ KD Bùi Anh Minh / NPP CTCP Vỏ Cây Vàng, chủ tiền tố 8938528).",
+    "source": {
+      "url": "https://ruoumam.com.vn/san-pham/gai-meo-375ml/",
+      "fetchedAt": "2026-10-21"
+    },
+    "rubricVersion": "v23"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-21T08:30:34.700Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-21T08:45:06Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references; description WRITE_NEW from label + ruoumam.com.vn (https://ruoumam.com.vn/san-pham/gai-meo-375ml/)"
+    },
+    {
+      "at": "2026-10-21T08:46:21.317Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-21T08:47:35.141Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-26T02:38:48.902Z",
+      "by": "init",
+      "status": "READY",
+      "note": "category moved 2516306-do-uong-co-con-18 -> 2549758-ruou-mui"
+    },
+    {
+      "at": "2026-10-26T02:38:48.902Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-21T08:47:35.141Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
+}

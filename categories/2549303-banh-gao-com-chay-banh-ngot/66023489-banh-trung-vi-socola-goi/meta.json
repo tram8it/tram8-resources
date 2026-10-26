@@ -1,0 +1,118 @@
+{
+  "kiotProductId": "66023489",
+  "code": "6971533425322",
+  "barcode": "6971533425322",
+  "name": "Bánh trứng vị socola gói",
+  "fullName": "Bánh trứng vị socola gói (Gói)",
+  "brand": "Goblim",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2549303",
+    "name": "Bánh gạo / cơm cháy / bánh ngọt",
+    "path": "Đồ ăn vặt > Đồ nội địa Trung > Bánh gạo / cơm cháy / bánh ngọt"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/a70c5f9f835c9a4f859b8dce1fa54052f3dd7f582e52067fd61f96d6b77d607f.webp",
+    "description": "Bánh trứng nhân chảy Goblim vị sô-cô-la (Flowing Heart Egg Crisp – Chocolate flavor), vỏ bánh ngàn lớp với nhân kem sô-cô-la chảy.\n\nQuy cách: 1 gói\nNhà sản xuất/thương hiệu: Goblim",
+    "exportedAt": "2026-10-26T02:38:41.284Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I3/I5: ảnh chụp cận mặt gói, không thấy nguyên SP; không có trang hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: dáng gói và bố cục theo gói vị phô mai cùng dòng; dòng chữ Trung nhỏ phía trên '计量方式 散装称重' không đúng nguyên văn (chữ rất nhỏ); không thấy phần mép phải gói thật",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet chụp cận gói vị sô-cô-la + ảnh gói Goblim vị phô mai cùng dòng (đã duyệt) để lấy dáng gói"
+    },
+    "rubricVersion": "v17"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết ngắn chỉ từ tên SP và chữ in mặt trước bao bì (không có trang hãng)",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:36:29.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "b10 review: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T05:18:17Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T05:19:06.559Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T05:52:57.796Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-26T02:38:48.902Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "category moved 2549064-banh-xop-kem-wafer -> 2549303-banh-gao-com-chay-banh-ngot"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T05:19:06.559Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T05:27:32.631Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T05:27:32.631Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/a70c5f9f835c9a4f859b8dce1fa54052f3dd7f582e52067fd61f96d6b77d607f.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/05/27/tram8/cbf2717c427d4fafbd4d7a50e8c1ec5e.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Bánh trứng nhân chảy Goblim vị sô-cô-la (Flowing Heart Egg Crisp – Chocolate flavor), vỏ bánh ngàn lớp với nhân kem sô-cô-la chảy.\n\nQuy cách: 1 gói\nNhà sản xuất/thương hiệu: Goblim",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

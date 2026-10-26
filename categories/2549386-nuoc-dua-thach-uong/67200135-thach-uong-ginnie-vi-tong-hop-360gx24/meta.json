@@ -1,0 +1,132 @@
+{
+  "kiotProductId": "67200135",
+  "code": "0628719913321",
+  "barcode": "0628719913321",
+  "name": "Thạch uống Ginnie vị tổng hợp 360gx24",
+  "fullName": "Thạch uống Ginnie vị tổng hợp 360gx24 (Gói)",
+  "brand": "Ginnie",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2549386",
+    "name": "Nước dừa / thạch uống",
+    "path": "Đồ uống đóng chai > Nước dừa / thạch uống"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/e8854eca11f97c9be867981820d2c50ed26a7425080225bf996a6f402dafa565.webp",
+    "description": "Thạch uống Ginnie Jelly Drink Mix Flavor, túi lớn có quai xách đựng nhiều gói thạch uống nhỏ có vòi hút, gồm bốn vị: dâu tây, dưa lưới, nho và sữa chua.\n\nQuy cách: 360 g · túi\nXuất xứ: Canada · Nhà sản xuất/thương hiệu: SRL IVY CANADA INC. · Ginnie (nhập khẩu bởi Hợp Phát Foods)",
+    "exportedAt": "2026-10-26T02:38:41.284Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I1: chưa có ảnh → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: túi vẽ phẳng, không nếp nhăn/bóng; chữ nhỏ trên các gói con không đọc được",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-18",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh SP trên trang nhà nhập khẩu Hợp Phát Foods (cùng mã vạch 0628719913321)",
+      "referenceUrl": "https://hopphatfoods.com/vi/san-pham/thach-nuoc-ginnie-360g/"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "REWRITE",
+    "reason": "D2: viết lại theo trang nhà nhập khẩu Hợp Phát Foods (cùng mã vạch) và chữ in trên túi; đơn vị KiotViet là gói (1 túi 360 g)",
+    "source": {
+      "url": "https://hopphatfoods.com/vi/san-pham/thach-nuoc-ginnie-360g/",
+      "fetchedAt": "2026-10-18T18:07:05Z"
+    },
+    "rubricVersion": "v23"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:54:06.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "b19: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T12:00:00.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "Gemini pass: no usable reference found; still needs photo"
+    },
+    {
+      "at": "2026-10-18T18:07:03Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-18T18:07:05Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "description written (REWRITE) on 18/10 re-research"
+    },
+    {
+      "at": "2026-10-18T18:08:00.305Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T02:05:27.524Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T03:19:05.400Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-26T02:38:48.902Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "category moved 2509226-thach-rau-cau -> 2549386-nuoc-dua-thach-uong"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-18T18:08:00.305Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T01:35:36.639Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T01:35:36.639Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/e8854eca11f97c9be867981820d2c50ed26a7425080225bf996a6f402dafa565.webp"
+        ],
+        "from": null
+      },
+      "description": {
+        "to": "Thạch uống Ginnie Jelly Drink Mix Flavor, túi lớn có quai xách đựng nhiều gói thạch uống nhỏ có vòi hút, gồm bốn vị: dâu tây, dưa lưới, nho và sữa chua.\n\nQuy cách: 360 g · túi\nXuất xứ: Canada · Nhà sản xuất/thương hiệu: SRL IVY CANADA INC. · Ginnie (nhập khẩu bởi Hợp Phát Foods)",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

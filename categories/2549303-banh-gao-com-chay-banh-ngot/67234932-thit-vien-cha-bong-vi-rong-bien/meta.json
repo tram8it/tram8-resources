@@ -1,0 +1,137 @@
+{
+  "kiotProductId": "67234932",
+  "code": "6924161383380",
+  "barcode": "6924161383380",
+  "name": "Thịt viên chà bông (vị rong biển)",
+  "fullName": "Thịt viên chà bông (vị rong biển) (Hộp)",
+  "brand": "Hàng nội địa Trung",
+  "unit": "Hộp",
+  "category": {
+    "kiotCategoryId": "2549303",
+    "name": "Bánh gạo / cơm cháy / bánh ngọt",
+    "path": "Đồ ăn vặt > Đồ nội địa Trung > Bánh gạo / cơm cháy / bánh ngọt"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/dfaaf61bc86a4dc36f8045e9823e17c832c7115aa1340c6bbf36ebe8a5308dfd.webp",
+    "description": "Bánh nướng viên chà bông vị rong biển (海苔味 肉松丸子 – 烘烤类糕点) của 韩世: viên bánh bọc chà bông và rong biển, đựng trong lon có nắp nhựa.\n\nQuy cách: 48 g · hộp (lon)\nThương hiệu: 韩世",
+    "exportedAt": "2026-10-26T02:38:41.284Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "ảnh nhân viên mới chụp (KiotViet 19/10) trên mặt đá tối, chỉ làm mẫu → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: huy hiệu tròn nhỏ góc phải (ảnh không đọc được) vẽ thành '酥脆松口'",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-19",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh nhân viên chụp (KiotViet 19/10)",
+      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/10/19/tram8/06a00e61d6454b49abb59649eac9e18d.png"
+    },
+    "rubricVersion": "v23"
+  },
+  "description": {
+    "decision": "REWRITE",
+    "reason": "D2/D4: mô tả cũ viết từ tên hàng khi chưa thấy bao bì; viết lại chỉ từ chữ in mặt trước bao bì trên ảnh nhân viên chụp (KiotViet 19/10)",
+    "source": null,
+    "rubricVersion": "v23"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-14T00:26:21.026Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "batch f3: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T12:00:00Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "Đợt 3: tra Kingfoodmart, Open Food Facts và web theo mã vạch/tên — không có ảnh mẫu bao bì nào (chưa có ảnh KiotViet) → giữ NEEDS_PHOTO, cần nhân viên chụp"
+    },
+    {
+      "at": "2026-10-18T18:22:34.364Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "np18 re-research 18/10: still no image of this exact pack"
+    },
+    {
+      "at": "2026-10-19T07:38:32Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-19T07:39:29Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "staff photo 19/10 (nk7): Gemini redraw of the real pack + description rewritten from pack text; image rubric v23"
+    },
+    {
+      "at": "2026-10-19T07:40:42.798Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T08:50:58.958Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T17:15:09.663Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-26T02:38:48.902Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "category moved 2549298-rong-bien-vi-bien -> 2549303-banh-gao-com-chay-banh-ngot"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-19T07:40:42.798Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T07:46:16.075Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T07:46:16.075Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/dfaaf61bc86a4dc36f8045e9823e17c832c7115aa1340c6bbf36ebe8a5308dfd.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/10/19/tram8/06a00e61d6454b49abb59649eac9e18d.png"
+        ]
+      },
+      "description": {
+        "to": "Bánh nướng viên chà bông vị rong biển (海苔味 肉松丸子 – 烘烤类糕点) của 韩世: viên bánh bọc chà bông và rong biển, đựng trong lon có nắp nhựa.\n\nQuy cách: 48 g · hộp (lon)\nThương hiệu: 韩世",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

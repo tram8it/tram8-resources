@@ -1,0 +1,81 @@
+{
+  "kiotProductId": "68555642",
+  "code": "6917878371108",
+  "barcode": "6917878371108",
+  "name": "Milo Wafer thanh",
+  "fullName": "Milo Wafer thanh (Thanh)",
+  "brand": "Milo",
+  "unit": "Thanh",
+  "category": {
+    "kiotCategoryId": "2549064",
+    "name": "Bánh xốp kem (wafer)",
+    "path": "Bánh quy & bánh đóng gói > Bánh xốp kem (wafer)"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/7432748b8edfdf3d41be354a0667602c278d651a39c53bfe81a33bc18bc320b0.webp",
+    "description": "Bánh xốp phủ sô-cô-la NESTLÉ MILO MAX Double Choc dạng thanh, lớp kem sô-cô-la kẹp giữa các lớp bánh xốp.<br><br>Quy cách: thanh<br>Thương hiệu: NESTLÉ MILO",
+    "exportedAt": "2026-10-26T02:38:41.284Z"
+  },
+  "status": "READY",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "SP mới 20/10 → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: 1 thanh theo vỏ thật; thanh bánh bên cạnh là minh hoạ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-20",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (hộp thanh Milo) + bộ ảnh KitKat (bố cục)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "theo chữ trên bao bì (ảnh KiotViet 20/10)",
+    "source": null,
+    "rubricVersion": "v23"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-20T16:18:11.603Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-20T16:19:43Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "redo after Hub rejection:  — Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-20T16:19:43.890Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-21T08:30:34.700Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-26T02:38:48.902Z",
+      "by": "init",
+      "status": "READY",
+      "note": "category moved 2506670-cac-loai-keo -> 2549064-banh-xop-kem-wafer"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-20T16:19:43.890Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
+}

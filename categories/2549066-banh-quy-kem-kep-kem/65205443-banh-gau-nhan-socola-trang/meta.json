@@ -1,0 +1,125 @@
+{
+  "kiotProductId": "65205443",
+  "code": "8852008304879",
+  "barcode": "8852008304879",
+  "name": "Bánh Gấu Nhân Socola Trắng",
+  "fullName": "Bánh Gấu Nhân Socola Trắng (Hộp)",
+  "brand": "Lotte",
+  "unit": "Hộp",
+  "category": {
+    "kiotCategoryId": "2549066",
+    "name": "Bánh quy kem / kẹp kem",
+    "path": "Bánh quy & bánh đóng gói > Bánh quy kem / kẹp kem"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/87f91f8ba0f79c1c6a961828ac7a0857cfbeb9538b278cd324608e7bb66dd9ed.webp",
+    "description": "Bánh quy hình gấu Koala's March nhân kem vị sữa Hokkaido (sô cô la trắng) của Lotte, hộp nhỏ tiện mang theo.\n\nQuy cách: 37 g · hộp\nThương hiệu: Lotte · Koala's March",
+    "exportedAt": "2026-10-26T02:38:41.284Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "ảnh tự chụp: hộp nghiêng, hơi mờ; không có ảnh hãng cho bản Thái → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ nhỏ không đọc rõ, chỉ minh hoạ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet của cửa hàng (ảnh tự chụp)",
+      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/07/30/tram8/e0121c24c65f471b8b02ce4f425670bb.png"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; không có trang hãng — mô tả ngắn chỉ từ tên SP và chữ in mặt trước bao bì (ảnh hiện tại)",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T22:00:00.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "batch b14 review (rubric v4): image CROP, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-15T09:16:17Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "tone.py --vivid: white balance/levels + brand-like colour (owner request)"
+    },
+    {
+      "at": "2026-10-17T14:18:08Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T14:18:08.334Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-26T02:38:48.902Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "category moved 2549065-banh-quy-gion-lat -> 2549066-banh-quy-kem-kep-kem"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T14:18:08.334Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T16:46:40.554Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T16:46:40.554Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/87f91f8ba0f79c1c6a961828ac7a0857cfbeb9538b278cd324608e7bb66dd9ed.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/30/tram8/e0121c24c65f471b8b02ce4f425670bb.png"
+        ]
+      },
+      "description": {
+        "to": "Bánh quy hình gấu Koala's March nhân kem vị sữa Hokkaido (sô cô la trắng) của Lotte, hộp nhỏ tiện mang theo.\n\nQuy cách: 37 g · hộp\nThương hiệu: Lotte · Koala's March",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

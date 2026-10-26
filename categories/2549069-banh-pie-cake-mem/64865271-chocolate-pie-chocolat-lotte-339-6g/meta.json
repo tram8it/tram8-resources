@@ -1,0 +1,142 @@
+{
+  "kiotProductId": "64865271",
+  "code": "8935341300323",
+  "barcode": "8935341300323",
+  "name": "Chocolate pie chocolat Lotte 339.6g",
+  "fullName": "Chocolate pie chocolat Lotte 339.6g (Hộp)",
+  "brand": "Lotte",
+  "unit": "Hộp",
+  "category": {
+    "kiotCategoryId": "2549069",
+    "name": "Bánh pie / cake mềm",
+    "path": "Bánh quy & bánh đóng gói > Bánh pie / cake mềm"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/36fbd66dc44d6425e8e1e8db58b151973c3d300c35774657ac9ded0eb1c71058.webp",
+    "description": "Bánh Chocolate Pie Lotte Chocolat, bánh bông lan nhân kem phủ sô-cô-la, hộp nhiều bánh tiện chia sẻ.\n\nQuy cách: 339,6 g · hộp\nNhà sản xuất/thương hiệu: Lotte",
+    "exportedAt": "2026-10-26T02:38:41.284Z"
+  },
+  "status": "READY",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "line consistency 20/10: hộp Bouchee là mặt trước phẳng, hộp Chocolate Pie vẽ nghiêng thấy nắp/mặt bên → vẽ lại mặt trước phẳng như Bouchee (v14, v17) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: bỏ nắp/mặt bên hộp; chữ nhỏ làm mờ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-19",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh image.webp hiện tại của SP (nội dung hộp Chocolate Pie 339,6g) + ảnh Lotte Chocolat Bouchee 64865272 (chỉ làm mẫu bố cục)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; mô tả ngắn chỉ từ tên hàng và chữ in mặt trước bao bì (không có trang hãng) ('Bánh Socola Pie LOTTE CHOCOLAT')",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:30:00.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "b20 review: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T07:42:00Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T07:42:24.106Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T08:06:02.482Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-19T18:28:11Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 3, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-19T18:31:50Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "line consistency 20/10: angled box showing top/side; Bouchee sibling is flat front → Gemini flat front (refs: own image + 64865272)"
+    },
+    {
+      "at": "2026-10-19T18:32:25.806Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-20T03:28:53.537Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-26T02:38:48.902Z",
+      "by": "init",
+      "status": "READY",
+      "note": "category moved 2544186-banh-ngot -> 2549069-banh-pie-cake-mem"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-19T18:32:25.806Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T07:45:36.014Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T07:45:36.014Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/9256ed70dd4da6c299936978ecef6c90352e7ae3e0f234c2f2f96453f11cdd89.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/03/28/tongpenhchtl/c001e3f8b98f4dfe8a074eb88994ee06.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Bánh Chocolate Pie Lotte Chocolat, bánh bông lan nhân kem phủ sô-cô-la, hộp nhiều bánh tiện chia sẻ.\n\nQuy cách: 339,6 g · hộp\nNhà sản xuất/thương hiệu: Lotte",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

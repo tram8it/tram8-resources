@@ -1,0 +1,123 @@
+{
+  "kiotProductId": "67767640",
+  "code": "8850389302811",
+  "barcode": "8850389302811",
+  "name": "Thực Phẩm Bổ Sung Nước Thạch Jelly Gumi Gumi Vitamin B Vị Nho 135g",
+  "fullName": "Thực Phẩm Bổ Sung Nước Thạch Jelly Gumi Gumi Vitamin B Vị Nho 135g (Gói)",
+  "brand": "Gumi",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2549386",
+    "name": "Nước dừa / thạch uống",
+    "path": "Đồ uống đóng chai > Nước dừa / thạch uống"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/4171fd8d99936978123a46f5d5b8d0b9a7dbebe750f693015eac69f61e70fe9b.webp",
+    "description": "Nước thạch Gumi Gumi Jelly vị nho, bổ sung vitamin B; túi có vòi hút uống liền.<br><br>Quy cách: 135 g · túi<br>Nhà sản xuất/thương hiệu: Gumi Gumi",
+    "exportedAt": "2026-10-26T02:38:41.284Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I1: chưa có ảnh; trang hãng Sappe không truy cập được → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ Thái nhỏ có thể sai nét; khối lượng 135 g đúng như mẫu",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh Kingfoodmart (chỉ làm mẫu)",
+      "referenceUrl": "https://storage.googleapis.com/onelife-public/8850389302811.jpg"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết ngắn chỉ từ tên hàng (không có nguồn hãng)",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:54:06.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "b19: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T07:41:17Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T07:41:34.360Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T08:06:02.482Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-19T17:15:09.663Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-26T02:38:48.902Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "category moved 2509226-thach-rau-cau -> 2549386-nuoc-dua-thach-uong"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T07:41:34.360Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T07:45:28.002Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T07:45:28.002Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/4171fd8d99936978123a46f5d5b8d0b9a7dbebe750f693015eac69f61e70fe9b.webp"
+        ],
+        "from": null
+      },
+      "description": {
+        "to": "Nước thạch Gumi Gumi Jelly vị nho, bổ sung vitamin B; túi có vòi hút uống liền.\n\nQuy cách: 135 g · túi\nNhà sản xuất/thương hiệu: Gumi Gumi",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

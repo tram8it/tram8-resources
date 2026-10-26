@@ -1,0 +1,152 @@
+{
+  "kiotProductId": "68269603",
+  "code": "8888077108346",
+  "barcode": "8888077108346",
+  "name": "Bánh Hello Panda Nhân Kem Sữa 40g",
+  "fullName": "Bánh Hello Panda Nhân Kem Sữa 40g (Hộp)",
+  "brand": "Meiji",
+  "unit": "Hộp",
+  "category": {
+    "kiotCategoryId": "2549066",
+    "name": "Bánh quy kem / kẹp kem",
+    "path": "Bánh quy & bánh đóng gói > Bánh quy kem / kẹp kem"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/47d76433f75bc7833e1df91af6b8b4d12439f1e473ee1d6f0e579d6c7f32db7b.webp",
+    "description": "Bánh quy Meiji Hello Panda nhân kem sữa: bánh giòn hình gấu trúc nhỏ, bên trong có nhân kem vị sữa. Hộp nhỏ tiện mang theo.\n\nQuy cách: 40 g · hộp\nNhà sản xuất/thương hiệu: Meiji · Hello Panda",
+    "exportedAt": "2026-10-26T02:38:41.284Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "v13–v15 (chủ 19/10): ảnh nhân viên chụp đã tách nền vẫn kém ảnh các SP cùng dòng đã duyệt (nhăn/loá/nghiêng) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: vẽ phẳng, thẳng mặt; chữ nhỏ mặt bên không đọc được",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-19",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh nhân viên chụp 18/10 (chỉ làm mẫu) + ảnh đã duyệt 68269584 (same line, chỉ làm mẫu phong cách)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết ngắn từ dữ kiện chắc chắn (tên hàng, thương hiệu, vị); khối lượng 40 g theo tên KiotViet — meiji.com.sg chỉ liệt kê 47 g/234 g, nhân viên chụp ảnh nên kiểm lại số in trên hộp",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:20:10.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "b29: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T08:25:43Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "ask owner: pack weight differs from KiotViet name"
+    },
+    {
+      "at": "2026-10-17T08:59:45Z",
+      "by": "owner",
+      "status": "ASK_OWNER",
+      "note": "Chủ trả lời 17/10 (RUBRIC v19): khối lượng theo bao bì đúng mã vạch, lệch nhỏ không cần sửa tên"
+    },
+    {
+      "at": "2026-10-17T08:59:45Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "v19: khối lượng 40 g có vẻ đúng (Watsons MY bán bản 40 g) → hết câu hỏi; chưa có ảnh mẫu → NEEDS_PHOTO"
+    },
+    {
+      "at": "2026-10-18T17:56:03Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "staff photo 2026-10-18 (Zalo); cutout + tone --vivid"
+    },
+    {
+      "at": "2026-10-18T17:56:40.658Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-18T18:24:21.957Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T02:16:53Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-19T02:17:14.342Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T02:44:56.965Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T03:19:05.400Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-26T02:38:48.902Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "category moved 2547500-banh-quy-banh-dong-goi -> 2549066-banh-quy-kem-kep-kem"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-19T02:17:14.342Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T02:28:36.922Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T02:28:36.922Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/47d76433f75bc7833e1df91af6b8b4d12439f1e473ee1d6f0e579d6c7f32db7b.webp"
+        ],
+        "from": null
+      },
+      "description": {
+        "to": "Bánh quy Meiji Hello Panda nhân kem sữa: bánh giòn hình gấu trúc nhỏ, bên trong có nhân kem vị sữa. Hộp nhỏ tiện mang theo.\n\nQuy cách: 40 g · hộp\nNhà sản xuất/thương hiệu: Meiji · Hello Panda",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

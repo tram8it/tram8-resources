@@ -1,0 +1,123 @@
+{
+  "kiotProductId": "68522683",
+  "code": "8936011772754",
+  "barcode": "8936011772754",
+  "name": "Kem celano vị phô mai",
+  "fullName": "Kem celano vị phô mai (Cái)",
+  "brand": "Celano",
+  "unit": "Cái",
+  "category": {
+    "kiotCategoryId": "2549567",
+    "name": "Kem que",
+    "path": "Kem & Đồ đông lạnh > Kem que"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/10a8e4cec2cfc05dcfe0489e115970434ddf07852658b4ada9fcae7df1fbe451.webp",
+    "description": "Kem que Celano vị phô mai.\n\nQuy cách: que · cái\nThương hiệu: Celano\nBảo quản: Giữ đông lạnh.",
+    "exportedAt": "2026-10-26T02:38:41.284Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "SP mới, ảnh KiotViet là ảnh nhân viên chụp nghiêng trên bàn (I3/I4) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: vỏ kem vẽ thẳng, phẳng; không thấy khác biệt chữ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-19",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh nhân viên chụp (KiotViet 19/10)",
+      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/10/18/tram8/c36166b1227142f083f5294479c4b6fa.jpeg"
+    },
+    "rubricVersion": "v23"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: SP mới, chưa có mô tả; mô tả ngắn từ chữ in trên vỏ kem (Celano, Kem phô mai) trong ảnh KiotViet",
+    "source": {
+      "staffPhoto": true,
+      "takenAt": "2026-10-18",
+      "url": "https://cdn2-retail-images.kiotviet.vn/2026/10/18/tram8/c36166b1227142f083f5294479c4b6fa.jpeg"
+    },
+    "rubricVersion": "v23"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-19T03:19:05.400Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-19T03:26:07Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-19T03:27:10Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "description written from the pack in the staff photo uploaded to KiotViet (19/10); image redrawn by Gemini from that photo"
+    },
+    {
+      "at": "2026-10-19T03:27:52.752Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T03:31:45.675Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T17:15:09.663Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-26T02:38:48.902Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "category moved 2513195-kem-do-dong-lanh -> 2549567-kem-que"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-19T03:27:52.752Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T03:30:46.374Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T03:30:46.374Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/10a8e4cec2cfc05dcfe0489e115970434ddf07852658b4ada9fcae7df1fbe451.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/10/18/tram8/c36166b1227142f083f5294479c4b6fa.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Kem que Celano vị phô mai.\n\nQuy cách: que · cái\nThương hiệu: Celano\nBảo quản: Giữ đông lạnh.",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

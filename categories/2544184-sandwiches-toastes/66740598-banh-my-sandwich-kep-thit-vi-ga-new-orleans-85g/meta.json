@@ -1,0 +1,125 @@
+{
+  "kiotProductId": "66740598",
+  "code": "6980016910804",
+  "barcode": "6980016910804",
+  "name": "Bánh mỳ sandwich kẹp thịt vị gà New Orleans 85g/gói",
+  "fullName": "Bánh mỳ sandwich kẹp thịt vị gà New Orleans 85g/gói (Cái)",
+  "brand": "Dominatte",
+  "unit": "Cái",
+  "category": {
+    "kiotCategoryId": "2544184",
+    "name": "Sandwiches - Toastes",
+    "path": "Các loại bánh > Sandwiches - Toastes"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/507e0a20ac34df6db2256638f1912fbc11f95bf88b4aa0f821a446054ebf4324.webp",
+    "description": "Bánh mỳ sandwich kẹp thịt vị gà New Orleans của thương hiệu Dominatte, ăn liền, không cần nướng.\n\nQuy cách: 85 g · cái\nThương hiệu: Dominatte",
+    "exportedAt": "2026-10-26T02:38:41.284Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I5: ảnh chụp gói, nhăn → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Bánh mỳ sandwich kẹp thịt vị gà New Orleans, ≥65%, Khối lượng tịnh: 85 g khớp ảnh KiotViet.",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (ảnh tự chụp)",
+      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/07/30/tram8/52889564792948e7b0c38e9ea93fb83c.png"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết ngắn chỉ từ chữ in mặt trước gói (Dominatte, vị, 85 g, không cần nướng)",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:46:45.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "b13: image CROP, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-15T09:16:17Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "tone.py --vivid: white balance/levels + brand-like colour (owner request)"
+    },
+    {
+      "at": "2026-10-17T15:19:16Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T15:19:16.598Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-26T02:38:48.902Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "category moved 2548021-banh-an-sang-ngu-coc-thanh-nang-luong -> 2544184-sandwiches-toastes"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T15:19:16.598Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T17:09:12.291Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T17:09:12.291Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/507e0a20ac34df6db2256638f1912fbc11f95bf88b4aa0f821a446054ebf4324.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/30/tram8/52889564792948e7b0c38e9ea93fb83c.png"
+        ]
+      },
+      "description": {
+        "to": "Bánh mỳ sandwich kẹp thịt vị gà New Orleans của thương hiệu Dominatte, ăn liền, không cần nướng.\n\nQuy cách: 85 g · cái\nThương hiệu: Dominatte",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

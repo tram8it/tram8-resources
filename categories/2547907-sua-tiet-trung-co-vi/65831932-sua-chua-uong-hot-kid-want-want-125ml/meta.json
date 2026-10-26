@@ -1,0 +1,125 @@
+{
+  "kiotProductId": "65831932",
+  "code": "69021824",
+  "barcode": "69021824",
+  "name": "Sữa chua uống hot kid want want 125ml",
+  "fullName": "Sữa chua uống hot kid want want 125ml (Hộp)",
+  "brand": "Want Want",
+  "unit": "Hộp",
+  "category": {
+    "kiotCategoryId": "2547907",
+    "name": "Sữa tiệt trùng có vị",
+    "path": "Sữa và các sản phẩm từ sữa > Sữa tiệt trùng > Sữa tiệt trùng có vị"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/a9962ea46e7a068eec736b342643585a365d8109c285074e89b79d5aa181d5ed.webp",
+    "description": "Sữa Want Want Hot Kid (旺仔牛奶) hộp giấy 125 ml, sữa điều chế (调制乳) uống liền, kèm ống hút.\n\nQuy cách: 125 ml · hộp\nNhà sản xuất/thương hiệu: Want Want · Hot Kid",
+    "exportedAt": "2026-10-26T02:38:41.284Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I3/I8: ảnh chụp nhiều hộp có ống hút trong túi nilon; không có ảnh hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt đáng kể; chữ Trung nhỏ ở cạnh hộp có thể khác",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh Open Food Facts mã 69021824 + ảnh KiotViet (chỉ làm mẫu)",
+      "referenceUrl": "https://world.openfoodfacts.org/product/69021824"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; theo bao bì đúng mã vạch (Open Food Facts: Wang Zai Milk 125 ml, in 调制乳 = sữa điều chế) — tên KiotViet ghi 'sữa chua uống' nhưng hộp là sữa",
+    "source": null,
+    "rubricVersion": "v19"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:36:29.000Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "b10 review: needs owner answer, nothing changed"
+    },
+    {
+      "at": "2026-10-17T14:07:32Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T14:08:33Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "resolved without asking: mã 69021824 (Open Food Facts) và ảnh KiotViet đều là sữa Hot Kid 旺仔牛奶 125 ml → mô tả theo bao bì (v19)"
+    },
+    {
+      "at": "2026-10-17T14:09:35.043Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-26T02:38:48.902Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "category moved 2547911-sua-chua-uong -> 2547907-sua-tiet-trung-co-vi"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T14:09:35.043Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T15:37:38.306Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T15:37:38.306Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/a9962ea46e7a068eec736b342643585a365d8109c285074e89b79d5aa181d5ed.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/05/19/tram8/d5f52f1093dc4328a40bae83e157fd60.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Sữa Want Want Hot Kid (旺仔牛奶) hộp giấy 125 ml, sữa điều chế (调制乳) uống liền, kèm ống hút.\n\nQuy cách: 125 ml · hộp\nNhà sản xuất/thương hiệu: Want Want · Hot Kid",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

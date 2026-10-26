@@ -1,0 +1,141 @@
+{
+  "kiotProductId": "65812709",
+  "code": "6928583201123",
+  "barcode": "6928583201123",
+  "name": "Trà xoài",
+  "fullName": "Trà xoài (Ly)",
+  "brand": "Hàng nội địa Trung",
+  "unit": "Ly",
+  "category": {
+    "kiotCategoryId": "2549387",
+    "name": "Đồ uống nội địa",
+    "path": "Đồ ăn vặt > Đồ nội địa Trung > Đồ uống nội địa"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/b1f0eb3d1b8300727f777690b3b1750f739afa3540c0d4f483d663d49161aa7e.webp",
+    "description": "Đồ uống 植光 vị dương chi cam lộ (杨枝甘露) – đồ uống hương sữa xoài, đựng trong cốc nhựa, có cái (thành phần rắn ≥ 2% theo bao bì).\n\nQuy cách: 400 g · cốc\nXuất xứ: Trung Quốc · Thương hiệu: 植光 (Plant Light)",
+    "exportedAt": "2026-10-26T02:38:41.284Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I1: chưa có ảnh; nhân viên chụp cốc thật 19/10 → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: dòng nhỏ dưới tên ghi '芒果|牛乳风味饮料' thay vì '杨枝甘露（芒果牛乳风味饮料）'; bỏ tem nhập khẩu tiếng Việt dán ở thân cốc",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-19",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh nhân viên chụp (KiotViet 19/10)",
+      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/10/19/tram8/ba0c9742428a466f9350773e2ed86923.png"
+    },
+    "rubricVersion": "v23"
+  },
+  "description": {
+    "decision": "REWRITE",
+    "reason": "D2/D4: mô tả cũ chỉ từ tên; viết theo bao bì thật trong ảnh nhân viên chụp (植光 杨枝甘露 – đồ uống hương sữa xoài, 400 g)",
+    "source": {
+      "staffPhoto": true,
+      "takenAt": "2026-10-19",
+      "url": "https://cdn2-retail-images.kiotviet.vn/2026/10/19/tram8/ba0c9742428a466f9350773e2ed86923.png"
+    },
+    "rubricVersion": "v23"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:31:48.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "review b08: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T05:20:11Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "Barcode not found on web/OFF; no reference to draw from"
+    },
+    {
+      "at": "2026-10-19T03:19:05.400Z",
+      "by": "init",
+      "status": "NEEDS_PHOTO",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-19T03:24:13Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-19T03:27:10Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "description written from the pack in the staff photo uploaded to KiotViet (19/10); image redrawn by Gemini from that photo"
+    },
+    {
+      "at": "2026-10-19T03:27:30.800Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T03:31:45.675Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T17:15:09.663Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-26T02:38:48.902Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "category moved 2549372-tra-dong-chai -> 2549387-do-uong-noi-dia"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-19T03:27:30.800Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T03:30:19.496Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T03:30:19.496Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/b1f0eb3d1b8300727f777690b3b1750f739afa3540c0d4f483d663d49161aa7e.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/10/19/tram8/ba0c9742428a466f9350773e2ed86923.png"
+        ]
+      },
+      "description": {
+        "to": "Đồ uống 植光 vị dương chi cam lộ (杨枝甘露) – đồ uống hương sữa xoài, đựng trong cốc nhựa, có cái (thành phần rắn ≥ 2% theo bao bì).\n\nQuy cách: 400 g · cốc\nXuất xứ: Trung Quốc · Thương hiệu: 植光 (Plant Light)",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}
