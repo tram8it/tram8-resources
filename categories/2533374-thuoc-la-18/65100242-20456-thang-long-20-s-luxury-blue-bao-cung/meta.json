@@ -17,7 +17,7 @@
     "description": "Thuốc lá điếu đầu lọc Thăng Long Luxury, bao cứng màu xanh dương.<br><br>Quy cách: bao<br>Thương hiệu: Thăng Long · Nhà sản xuất: Công ty TNHH MTV Thuốc lá Thăng Long (Vinataba)<br><br>Chỉ bán cho người từ 18 tuổi trở lên.<br>Hút thuốc lá có hại cho sức khỏe.",
     "exportedAt": "2026-10-26T02:38:41.284Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I3/I5: ảnh KiotViet tay cầm, mất phần dưới bao → thay bằng ảnh nhân viên chụp thẳng trọn mặt trước bao (20/10); chỉ cắt sát mép bao + cân trắng/sáng (tone.py), giữ nguyên cảnh báo sức khỏe",
@@ -76,6 +76,12 @@
       "by": "init",
       "status": "READY",
       "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-26T04:58:33.990Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -85,5 +91,91 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-21T01:27:28.796Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-21T01:27:28.796Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/353ce3a7c57bd9094626766bed02a16e8b06aa39a3c515f1e17ff559b5769ddc.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/04/22/tram8/07a4a56b181d4f6d96f057aa68619e54.png"
+        ]
+      },
+      "description": {
+        "to": "Thuốc lá điếu đầu lọc Thăng Long Luxury, bao cứng màu xanh dương.\n\nQuy cách: bao\nThương hiệu: Thăng Long · Nhà sản xuất: Công ty TNHH MTV Thuốc lá Thăng Long (Vinataba)\n\nChỉ bán cho người từ 18 tuổi trở lên.\nHút thuốc lá có hại cho sức khỏe.",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {
+      "price": {
+        "to": 23148.15,
+        "from": 22727.27
+      },
+      "saleTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 65100242
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 65100242
+        }
+      },
+      "taxRate": {
+        "to": "VAT 8%",
+        "from": "VAT 10%"
+      },
+      "productTaxs": {
+        "to": [
+          {
+            "id": 0,
+            "name": "VAT 8%",
+            "taxId": 3,
+            "value": 8,
+            "productId": 65100242
+          }
+        ],
+        "from": [
+          {
+            "id": 0,
+            "name": "VAT 10%",
+            "taxId": 4,
+            "value": 10,
+            "productId": 65100242
+          }
+        ]
+      },
+      "purchaseTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 65100242
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 65100242
+        }
+      }
+    }
   }
 }

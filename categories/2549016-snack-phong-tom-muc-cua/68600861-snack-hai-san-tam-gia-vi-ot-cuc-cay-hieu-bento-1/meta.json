@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-26T02:38:41.284Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I6: ảnh KiotViet là ảnh gói nhỏ trên nền trắng (gói ~370 px), nguồn không phải trang hãng; snnp.co.th không có gói Angry Spicy → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: vẽ lại nét hơn theo ảnh KiotViet; chữ nhỏ ở đáy gói (khối lượng, số FDA) để mờ vì ảnh mẫu không đọc được",
@@ -56,6 +56,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-26T04:58:33.990Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -65,5 +71,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-26T04:56:36.944Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-26T04:56:36.944Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/c1af5cfeeddb08037add32900b7992aa83cff33fde7893275c012bab9fbe603e.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/10/24/tram8/4ac7487c4c7f4de99deec39b8a015f9f.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Snack hải sản Bento \"Angry Spicy\" vị ớt cực cay: miếng hải sản cán mỏng tẩm gia vị ớt, ăn liền, dành cho người thích cay.\n\nQuy cách: 18 g · gói\nThương hiệu: Bento",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

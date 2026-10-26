@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-26T02:38:41.284Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I3/I4/I8: ảnh KiotViet chụp nhiều gói trên kệ kèm băng \"Mua 1 tặng 1\"; kotex.com.vn chặn bot (Cloudflare) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: một gói, bỏ băng \"Mua 1 tặng 1\"; chữ nhỏ để như mẫu",
@@ -57,6 +57,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-26T04:58:33.990Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -66,5 +72,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-26T04:56:17.090Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-26T04:56:17.090Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/545a9093797510490ccb79a794dd12e6f24690650dd0c156d9c58ce0a77d0bc5.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/10/23/tram8/898262f988024651895cd1c626f9924d.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Băng vệ sinh Kotex Cicada siêu mỏng (0,06 cm theo nhãn), có cánh, dùng ban ngày, bổ sung vitamin B5, dịu nhẹ cho da. Gói nhập khẩu, nhãn chính tiếng Trung (高洁丝 Kotex).\n\nQuy cách: 24 cm · gói 7 miếng\nThương hiệu: Kotex",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

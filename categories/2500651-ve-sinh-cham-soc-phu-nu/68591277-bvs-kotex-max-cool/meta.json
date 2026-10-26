@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-26T02:38:41.284Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I3/I4/I8: ảnh KiotViet chụp hai gói trên kệ, kèm băng \"Mua 1 tặng 1\" và gói bông tẩy trang tặng kèm; kotex.com.vn chặn bot (Cloudflare), không có ảnh hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: một gói, bỏ băng khuyến mãi \"Mua 1 tặng 1 – quà tặng 15.000đ\" và gói bông tẩy trang dán kèm (không in trên gói); vẽ phẳng, chữ nhỏ mặt gói giữ như ảnh",
@@ -56,6 +56,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-26T04:58:33.990Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -65,5 +71,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-26T04:55:52.480Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-26T04:55:52.480Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/647147c15d02e37f04ac2df491c8ed2c161ca33c624824d5fddb98aed3f401a4.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/10/23/tram8/40e6d3054c6b40f1acb130f5ab3cf4ac.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Băng vệ sinh Kotex Maxcool French Spa siêu mỏng có cánh, chiết xuất lavender, công nghệ Macro Cooling cho cảm giác mát lạnh, thư giãn (lên đến 5 giờ theo nhãn), bề mặt mềm mại, khô thoáng.\n\nQuy cách: 23 cm · gói 8 miếng\nThương hiệu: Kotex · Kimberly-Clark Việt Nam",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

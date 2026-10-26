@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-26T02:38:41.284Z"
   },
-  "status": "READY",
+  "status": "IN_PROGRESS",
   "image": {
     "decision": "REPLACE",
     "reason": "ảnh minh hoạ (chủ 20/10: SP không được để trống ảnh) — route 2: vẽ theo túi zip + nhãn Quang Thanh Foods cùng hãng (mã GS1 8936236 như 64865525, 65152373). Khác hàng thật: ảnh minh hoạ: dáng túi/nhãn theo SP cùng hãng (hãng suy theo mã GS1 chung); chữ 'Xoài Sấy Dẻo' lấy từ tên KiotViet, hình xoài và miếng xoài sấy là suy đoán; logo ghép lại từ ảnh đã duyệt 64865525; bỏ chữ nhỏ, mã vạch vì chưa thấy nhãn thật. Trước đó: I1: chưa có ảnh; tra lại 18/10 (mã vạch Kingfoodmart/OFF, \"Quang Thanh Foods xoài sấy dẻo 400g\", \"Quang Thanh Foods đặc sản ba miền\") — hãng không có web, không có ảnh bao bì → cần chụp mặt trước gói · tra lại 19/10 (Yandex ảnh: \"xoài sấy dẻo 400g Quang Thanh\"; \"Quang Thanh foods xoài sấy dẻo\"; \"xoà",
@@ -80,6 +80,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-26T04:58:33.990Z",
+      "by": "owner",
+      "status": "IN_PROGRESS",
+      "note": "rejected on Hub by AU KHUONG DUY: Toàn ảnh bịa ra ko dùng đc"
     }
   ],
   "submitted": {
@@ -89,5 +95,11 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "REJECTED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-21T12:59:28.780Z",
+    "note": "Toàn ảnh bịa ra ko dùng đc"
   }
 }

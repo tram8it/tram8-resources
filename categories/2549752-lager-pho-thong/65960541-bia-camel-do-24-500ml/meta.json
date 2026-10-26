@@ -17,7 +17,7 @@
     "description": "<h3 data-path-to-node=\"5\"><strong>Mô tả sản phẩm:</strong></h3><p data-path-to-node=\"6\"><strong>1. Giới thiệu sản phẩm</strong></p><ul data-path-to-node=\"7\"><li><p data-path-to-node=\"7,0,0\"><strong>Bia Camel Đỏ 500ml</strong> là một trong những dòng sản phẩm chủ lực và được ưa chuộng nhất của <strong>Công ty TNHH A&B Việt Nam</strong>.</p></li><li><p data-path-to-node=\"7,1,0\">Khoác lên mình thiết kế lon lớn 500ml với sắc đỏ mạnh mẽ, sang trọng, sản phẩm mang đến hương vị đậm đà, sảng khoái, là sự lựa chọn hoàn hảo cho các buổi tiệc tùng, liên hoan, sum họp gia đình hoặc làm quà biếu tặng trong các dịp lễ Tết.</p></li></ul><p data-path-to-node=\"10\"><strong>2. Thông tin chi tiết</strong></p><ul data-path-to-node=\"11\"><li><p data-path-to-node=\"11,0,0\"><strong>Thương hiệu:</strong> Camel (A&B Vietnam)</p></li><li><p data-path-to-node=\"11,1,0\"><strong>Công ty sản xuất:</strong> Công ty TNHH A&B Việt Nam</p></li><li><p data-path-to-node=\"11,2,0\"><strong>Xuất xứ:</strong> Việt Nam</p></li><li><p data-path-to-node=\"11,3,0\"><strong>Loại bia:</strong> Bia Lager / Bia vàng cao cấp</p></li><li><p data-path-to-node=\"11,4,0\"><strong>Dung tích:</strong> 500ml / lon</p></li><li><p data-path-to-node=\"11,5,0\"><strong>Quy cách đóng gói:</strong> 24 lon / thùng</p></li><li><p data-path-to-node=\"11,6,0\"><strong>Hạn sử dụng:</strong> In rõ trên bao bì sản phẩm (thường 9–12 tháng kể từ ngày sản xuất)</p></li></ul><p data-path-to-node=\"12\"><strong>3. Hướng dẫn sử dụng và bảo quản</strong></p><ul data-path-to-node=\"13\"><li><p data-path-to-node=\"13,0,0\"><strong>Cách dùng:</strong> Ngon hơn khi uống lạnh, nhiệt độ thưởng thức lý tưởng từ 8°C - 12°C. Nên ướp lạnh trước khi uống, hạn chế dùng kèm đá trực tiếp để giữ trọn vẹn vị đậm đà nguyên bản.</p></li><li><p data-path-to-node=\"13,1,0\"><strong>Bảo quản:</strong> Nơi khô ráo, thoáng mát, tránh ánh nắng trực tiếp hoặc nơi có nhiệt độ cao.</p></li><li><p data-path-to-node=\"13,2,0\"><strong>Lưu ý:</strong> Sản phẩm không dành cho người dưới 18 tuổi và phụ nữ có thai hoặc đang cho con bú. <em>\"Đã uống rượu bia – Không lái xe\"</em>.</p></li></ul>",
     "exportedAt": "2026-10-26T02:38:41.284Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "chủ 21/10: ảnh các lon bia không đồng bộ → vẽ lại chính diện, ánh sáng đều, cùng cỡ trong khung như các lon khác → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: giữ thiết kế/chữ của lon; chỉ đổi góc, ánh sáng, độ nét; chữ nhỏ có thể mờ",
@@ -74,6 +74,12 @@
       "by": "init",
       "status": "READY",
       "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-26T04:58:33.990Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -82,5 +88,87 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-21T12:47:19.482Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-21T12:47:19.482Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/b7f923d9bc5c477052961c95c510392f38d8672f82a4abc72d31dcb57b8d12ca.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/09/12/tram8/09966685d52a4a20ac6a0eb37a093d31.png"
+        ]
+      }
+    },
+    "unexpectedChanges": {
+      "price": {
+        "to": 23148.15,
+        "from": 22727.27
+      },
+      "saleTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 65960541
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 65960541
+        }
+      },
+      "taxRate": {
+        "to": "VAT 8%",
+        "from": "VAT 10%"
+      },
+      "productTaxs": {
+        "to": [
+          {
+            "id": 0,
+            "name": "VAT 8%",
+            "taxId": 3,
+            "value": 8,
+            "productId": 65960541
+          }
+        ],
+        "from": [
+          {
+            "id": 0,
+            "name": "VAT 10%",
+            "taxId": 4,
+            "value": 10,
+            "productId": 65960541
+          }
+        ]
+      },
+      "purchaseTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 65960541
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 65960541
+        }
+      }
+    }
   }
 }

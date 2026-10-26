@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-26T02:38:41.284Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I2: ảnh KiotViet là hộp 16 miếng (khác SP 8 miếng 120 g, mã vạch 3073781154351), nhỏ 225 px → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: nắp hộp vẽ theo mẫu Kingfoodmart (bao bì hiện hành có huy hiệu For Good); chữ nhỏ có thể hơi khác",
@@ -57,6 +57,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-26T04:58:33.990Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -66,5 +72,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-26T04:57:23.314Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-26T04:57:23.314Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/7b35c9e3f9f51a7f6f16754fcc3e98f50a5f88207ed332c667d1856a9d8e8c46.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/10/25/tram8/b3a9c9dc7b4b461c81f79fdbe6f54bc4.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Phô mai Con Bò Cười (La Vache qui rit) vị truyền thống, hộp tròn 8 miếng chia sẵn, thơm ngon, mềm mịn; ăn trực tiếp, phết bánh mì hoặc kèm bánh quy.\n\nQuy cách: 120 g · hộp 8 miếng\nThương hiệu: Con Bò Cười (La Vache qui rit)",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

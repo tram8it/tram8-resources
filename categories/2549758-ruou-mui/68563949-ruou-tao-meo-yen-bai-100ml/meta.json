@@ -17,7 +17,7 @@
     "description": "Rượu Táo Mèo Yên Bái của MẦM Craft Distillery (chai mini), rượu trái cây làm từ táo mèo.\n\nQuy cách: 100 ml · chai · Nồng độ: 16% ± 2% vol\nXuất xứ: Việt Nam · Thương hiệu: MẦM Craft Distillery\n\nChỉ bán cho người từ 18 tuổi trở lên.\nUống có trách nhiệm, đã uống rượu bia không lái xe.",
     "exportedAt": "2026-10-26T02:38:41.284Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I3/I4: ảnh KiotViet chụp điện thoại trên thùng hàng, có tem thuế; hãng không có ảnh riêng chai 100 ml → Gemini vẽ lại từ ảnh mẫu (v12–v15, v17, v19: đúng chai đang bán, 1 chai/đơn vị Chai, đồng bộ dãy 100 ml); đã so chữ/logo với mẫu. Khác gói thật: bỏ tem thuế trên nắp; chữ dập nổi vai chai tượng trưng; chữ nhỏ không đọc rõ",
@@ -78,6 +78,12 @@
       "by": "init",
       "status": "READY",
       "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-26T04:58:33.990Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -87,5 +93,91 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-21T08:50:39.020Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-21T08:50:39.020Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/6971353a148e5ec6753b9fde774b838a1b63b8925a81576b86783b38cba39a25.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/10/21/tram8/d39a4546ceb94d6e90c834ec12a77712.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Rượu Táo Mèo Yên Bái của MẦM Craft Distillery (chai mini), rượu trái cây làm từ táo mèo.\n\nQuy cách: 100 ml · chai · Nồng độ: 16% ± 2% vol\nXuất xứ: Việt Nam · Thương hiệu: MẦM Craft Distillery\n\nChỉ bán cho người từ 18 tuổi trở lên.\nUống có trách nhiệm, đã uống rượu bia không lái xe.",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {
+      "price": {
+        "to": 83333.33,
+        "from": 81818.18
+      },
+      "saleTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 68563949
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 68563949
+        }
+      },
+      "taxRate": {
+        "to": "VAT 8%",
+        "from": "VAT 10%"
+      },
+      "productTaxs": {
+        "to": [
+          {
+            "id": 0,
+            "name": "VAT 8%",
+            "taxId": 3,
+            "value": 8,
+            "productId": 68563949
+          }
+        ],
+        "from": [
+          {
+            "id": 0,
+            "name": "VAT 10%",
+            "taxId": 4,
+            "value": 10,
+            "productId": 68563949
+          }
+        ]
+      },
+      "purchaseTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 68563949
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 68563949
+        }
+      }
+    }
   }
 }

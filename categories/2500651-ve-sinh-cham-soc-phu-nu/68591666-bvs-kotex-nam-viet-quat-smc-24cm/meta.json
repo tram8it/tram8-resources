@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-26T02:38:41.284Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I3/I4/I8: ảnh KiotViet chụp nhiều gói trên kệ kèm băng \"Mua 1 tặng 1\"; kotex.com.vn chặn bot (Cloudflare) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: một gói, bỏ băng \"Mua 1 tặng 1\"; chữ Trung nhỏ ở đáy gói để mờ/khó đọc",
@@ -57,6 +57,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-26T04:58:33.990Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -66,5 +72,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-26T04:55:59.902Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-26T04:55:59.902Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/3ce40fe58f9d93f4052c1541acaae4514c4ba07646e9bb6dcae23e9b09f813f9.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/10/23/tram8/62817d64efa345a3a14035a2d5bfe65c.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Băng vệ sinh Kotex siêu mỏng có cánh, chiết xuất nam việt quất, bổ sung lợi khuẩn L19 (theo nhãn). Gói nhập khẩu, nhãn chính tiếng Trung (高洁丝 Kotex).\n\nQuy cách: 24 cm (240 mm) · gói 8 miếng\nThương hiệu: Kotex",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-26T02:38:41.284Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I3/I4/I5: ảnh KiotViet chụp chai trên bàn làm việc, đáy chai bị cắt; trang hãng chỉ có ảnh quảng cáo có cảnh nền → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: vẽ tiếp phần đáy chai theo dáng chai trên ảnh quảng cáo của hãng; chữ nhỏ hai bên nhãn để mờ",
@@ -60,6 +60,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-26T04:58:33.990Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -69,5 +75,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-26T04:57:43.552Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-26T04:57:43.552Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/eefacbc5da6b1ce8e5a72ec8fc6a5117bbc3eef0a63ddfeb5afd899d21623cc3.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/10/25/tram8/2f28aa9001f747a49fa2b84058885b58.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Nước uống đóng chai Vạn Xuân \"Mát lành tự nhiên\": nguồn nước và nơi sản xuất tại vùng Đất Tổ Phú Thọ, lọc bằng công nghệ RO, chai dáng búp sen.\n\nQuy cách: 500 ml · chai\nNhà sản xuất: Công ty CP Sản phẩm Sinh Thái (cùng công ty trà Cozy) · Thương hiệu: Vạn Xuân",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-26T02:38:41.284Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I3/I4/I8: ảnh KiotViet chụp nhiều gói trên kệ, mép trên bị cắt, có băng \"Mua 1 tặng 1\" và gói hằng ngày tặng kèm; kotex.com.vn chặn bot (Cloudflare) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: một gói, bỏ băng \"Mua 1 tặng 1\" và gói Bio-Care hằng ngày dán kèm; dòng chữ tiếng Anh dưới băng chỉ thấy phần \"from irritation, bacteria & odor*\", giữ như vậy",
@@ -56,6 +56,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-26T04:58:33.990Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -65,5 +71,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-26T04:55:56.662Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-26T04:55:56.662Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/acd9d3777275300a7681f697990ee2c9af88ec9963bc968d89d62ea33bc19330.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/10/23/tram8/704a44a432a848c2951c442d8137a63d.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Băng vệ sinh Kotex Bio-Care Ultra Comfort cho ngày ra ít đến vừa (Regular Flow), đã được kiểm nghiệm da liễu (theo nhãn).\n\nQuy cách: 23 cm · gói 6 miếng\nThương hiệu: Kotex",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

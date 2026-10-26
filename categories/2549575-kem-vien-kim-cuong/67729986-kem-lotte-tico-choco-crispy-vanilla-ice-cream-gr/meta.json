@@ -17,7 +17,7 @@
     "description": "Kem Tico Matcha (티코 말차) của Lotte Hàn Quốc – viên kem trà xanh nhỏ phủ sô cô la sữa, ăn gọn một miếng.\n\nQuy cách: bán lẻ 1 viên (hộp 15 viên × 30 ml gói riêng)\nXuất xứ: Hàn Quốc · Nhà sản xuất: Lotte Wellfood\nBảo quản: đông lạnh.",
     "exportedAt": "2026-10-26T02:38:41.284Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "chủ 21/10: ảnh cần cho thấy quy cách đóng gói → ảnh ghép gói lẻ (đơn vị bán: Cái) + viên kem cắt đôi + hộp 15 viên phía sau; Hub chỉ nhận 1 ảnh/SP → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: gói lẻ và hộp theo ảnh chủ chụp; câu chữ trên gói lẻ thay đổi theo từng gói",
@@ -128,6 +128,12 @@
       "by": "init",
       "status": "READY",
       "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-26T04:58:33.990Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -139,9 +145,26 @@
     "hubStatus": "PENDING"
   },
   "review": {
-    "status": "REJECTED",
+    "status": "APPLIED",
     "reviewedBy": "AU KHUONG DUY",
-    "reviewedAt": "2026-10-17T14:11:58.799Z",
-    "note": "Đợi chụp ảnh vỏ, phải có cả sp kèm vỏ."
+    "reviewedAt": "2026-10-21T02:36:42.624Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-21T02:36:42.624Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/415e430d8ed247ffcfeff1e2506c74123ac67b634964650529354edb34404a40.webp"
+        ],
+        "from": null
+      },
+      "description": {
+        "to": "Kem Tico Matcha (티코 말차) của Lotte Hàn Quốc – viên kem trà xanh nhỏ phủ sô cô la sữa, ăn gọn một miếng.\n\nQuy cách: bán lẻ 1 viên (hộp 15 viên × 30 ml gói riêng)\nXuất xứ: Hàn Quốc · Nhà sản xuất: Lotte Wellfood\nBảo quản: đông lạnh.",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

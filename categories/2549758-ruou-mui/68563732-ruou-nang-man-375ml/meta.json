@@ -17,7 +17,7 @@
     "description": "Rượu Nàng Mận của MẦM Craft Distillery (dòng Say Xưa), rượu trái cây làm từ mận máu.\n\nQuy cách: 375 ml · chai\nXuất xứ: Việt Nam · Thương hiệu: MẦM Craft Distillery\n\nChỉ bán cho người từ 18 tuổi trở lên.\nUống có trách nhiệm, đã uống rượu bia không lái xe.",
     "exportedAt": "2026-10-26T02:38:41.284Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I3/I4: ảnh KiotViet chụp điện thoại trên thùng hàng; ảnh hãng là banner có huy hiệu → Gemini vẽ lại từ ảnh mẫu (v12–v15, v17, v19: đúng chai đang bán, 1 chai/đơn vị Chai, đồng bộ dãy 375 ml); đã so chữ/logo với mẫu. Khác gói thật: bỏ tem thuế/QR dán trên nắp; chữ nhỏ trên nhãn (nồng độ, chữ dọc) không đọc rõ",
@@ -78,6 +78,12 @@
       "by": "init",
       "status": "READY",
       "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-26T04:58:33.990Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -87,5 +93,91 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-21T08:50:14.271Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-21T08:50:14.271Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/0e121b8c2636ee0c88fe75a5b605eb6b1d4fa12c129379b1b4d1c229579c2b72.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/10/21/tram8/42f7f1178a364748987518f4228df120.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Rượu Nàng Mận của MẦM Craft Distillery (dòng Say Xưa), rượu trái cây làm từ mận máu.\n\nQuy cách: 375 ml · chai\nXuất xứ: Việt Nam · Thương hiệu: MẦM Craft Distillery\n\nChỉ bán cho người từ 18 tuổi trở lên.\nUống có trách nhiệm, đã uống rượu bia không lái xe.",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {
+      "price": {
+        "to": 202777.78,
+        "from": 199090.91
+      },
+      "saleTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 68563732
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 68563732
+        }
+      },
+      "taxRate": {
+        "to": "VAT 8%",
+        "from": "VAT 10%"
+      },
+      "productTaxs": {
+        "to": [
+          {
+            "id": 0,
+            "name": "VAT 8%",
+            "taxId": 3,
+            "value": 8,
+            "productId": 68563732
+          }
+        ],
+        "from": [
+          {
+            "id": 0,
+            "name": "VAT 10%",
+            "taxId": 4,
+            "value": 10,
+            "productId": 68563732
+          }
+        ]
+      },
+      "purchaseTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 68563732
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 68563732
+        }
+      }
+    }
   }
 }

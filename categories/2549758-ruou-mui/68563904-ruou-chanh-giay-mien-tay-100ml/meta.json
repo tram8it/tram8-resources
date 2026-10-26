@@ -17,7 +17,7 @@
     "description": "Rượu Chanh Giấy Miền Tây của MẦM Craft Distillery (chai mini), rượu trái cây làm từ chanh giấy.\n\nQuy cách: 100 ml · chai\nXuất xứ: Việt Nam · Thương hiệu: MẦM Craft Distillery\n\nChỉ bán cho người từ 18 tuổi trở lên.\nUống có trách nhiệm, đã uống rượu bia không lái xe.",
     "exportedAt": "2026-10-26T02:38:41.284Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I2: ảnh KiotViet là chai 530 ml (nhãn in 530ML), không phải chai 100 ml đang bán → Gemini vẽ lại từ ảnh mẫu (v12–v15, v17, v19: đúng chai đang bán, 1 chai/đơn vị Chai, đồng bộ dãy 100 ml); đã so chữ/logo với mẫu. Khác gói thật: dải dung tích vẽ '100ml - 19.0% vol' theo ảnh bộ mini chính hãng (chữ trên ảnh hãng mờ); chữ dập nổi vai chai tượng trưng",
@@ -78,6 +78,12 @@
       "by": "init",
       "status": "READY",
       "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-26T04:58:33.990Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -87,5 +93,91 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-21T08:50:33.125Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-21T08:50:33.125Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/62e72526158995bb90774334962a2ff156cab7d248e14a7a61e3a7031b9c05a9.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/10/21/tram8/e87f0dc158a843e0a31c3c69d5b790e2.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Rượu Chanh Giấy Miền Tây của MẦM Craft Distillery (chai mini), rượu trái cây làm từ chanh giấy.\n\nQuy cách: 100 ml · chai\nXuất xứ: Việt Nam · Thương hiệu: MẦM Craft Distillery\n\nChỉ bán cho người từ 18 tuổi trở lên.\nUống có trách nhiệm, đã uống rượu bia không lái xe.",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {
+      "price": {
+        "to": 83333.33,
+        "from": 81818.18
+      },
+      "saleTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 68563904
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 68563904
+        }
+      },
+      "taxRate": {
+        "to": "VAT 8%",
+        "from": "VAT 10%"
+      },
+      "productTaxs": {
+        "to": [
+          {
+            "id": 0,
+            "name": "VAT 8%",
+            "taxId": 3,
+            "value": 8,
+            "productId": 68563904
+          }
+        ],
+        "from": [
+          {
+            "id": 0,
+            "name": "VAT 10%",
+            "taxId": 4,
+            "value": 10,
+            "productId": 68563904
+          }
+        ]
+      },
+      "purchaseTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 68563904
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 68563904
+        }
+      }
+    }
   }
 }

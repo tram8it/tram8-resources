@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-26T02:38:41.284Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I3/I4/I7: ảnh KiotViet chụp điện thoại, nền xám, có tem dán NSX/HSD; ảnh hãng cobibread.com là ảnh túi 6 bánh/ảnh bối cảnh, không có ảnh bánh lẻ → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: bỏ tem NSX/HSD; chữ trắng in trên màng theo ảnh KiotViet, dòng khối lượng \"50g\" theo trang hãng (6 cái x 50 g); màng vẽ phẳng, sạch",
@@ -60,6 +60,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-26T04:58:33.990Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -69,5 +75,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-26T04:55:47.722Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-26T04:55:47.722Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/1d3e8ecb2ebffe5b790afdf255ad1e8448ec9f1aecd90f368b42cb615d63b095.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/10/23/tram8/94ecc7169966428886d3c335f718d3cc.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Bánh bông lan sữa Cobi Bread (Milk Cake) dạng bánh lẻ đóng màng riêng: bánh vuông mềm xốp, thơm vị sữa, mặt bánh in hình bình sữa. Tiện ăn sáng hoặc ăn nhẹ.\n\nQuy cách: 50 g · cái (bánh lẻ, túi gốc 300 g gồm 6 cái)\nThành phần nổi bật: không dùng phẩm màu nhân tạo, không hương liệu tổng hợp; chất bảo quản INS 202, 282 (theo trang hãng)\nThương hiệu: Cobi Bread · Nhà nhập khẩu: Công ty TNHH Quốc tế Cobi",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

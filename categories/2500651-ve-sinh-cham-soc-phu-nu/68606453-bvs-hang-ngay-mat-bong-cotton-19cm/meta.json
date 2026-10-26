@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-26T02:38:41.284Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I3/I4/I8: ảnh KiotViet chụp nhiều gói đôi xếp chồng trên kệ; kotex.com.vn chặn bot (Cloudflare) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: một đơn vị = gói đôi 2 x 10 miếng có nhãn tiếng Việt in \"Hàng ngày 19cm – 10 miếng x2 – Mua 1 tặng 1\" (giữ vì in trên nhãn gói đôi); chữ rất nhỏ trên nhãn có thể khác; màng bọc hơi bóng",
@@ -57,6 +57,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-26T04:58:33.990Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -66,5 +72,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-26T04:56:58.303Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-26T04:56:58.303Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/a3d304de553bdb7f97ab188700b8985f9bf981dff645a82f1fa6c04e4c99b0e4.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/10/24/tram8/eedf2d1cd1cd426e808f2e0c03e59f0f.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Băng vệ sinh hằng ngày Kotex mặt bông (纯棉 – cotton), siêu mỏng, dài 19 cm. Gói đôi nhập khẩu, nhãn chính tiếng Trung (高洁丝 Kotex), có nhãn phụ tiếng Việt.\n\nQuy cách: 19 cm (190 mm) · gói đôi 2 x 10 miếng\nThương hiệu: Kotex",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

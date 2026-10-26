@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-13T13:18:36.970Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "ảnh minh hoạ (chủ 20/10: SP không được để trống ảnh) — route 1: vẽ lại hộp 150 g từ ảnh KiotViet bị cắt. Khác hàng thật: vẽ thành túi phẳng nguyên vẹn; chữ lớn khớp ảnh (THANH HEO NƯỚNG, Vị cay Mala, 150 g (15 gói x 10 g)); đơn vị bán lẻ là 1 thanh 10 g, ảnh là hộp/túi 150 g. Trước đó: chủ 18/10: kiểm tra ảnh thật trên web trước khi vẽ — web không có (đã tìm tên, mã vạch, iCheck, Kingfoodmart); cần nhân viên chụp cả gói mặt trước · tra lại 19/10 (Yandex ảnh: \"thanh heo nướng mala\"; \"heo nướng que vị cay mala gói\"; \"thịt heo nướng thanh mala snack\" + \"G Kitchen thanh heo nướng\", tr",
@@ -116,6 +116,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-26T04:58:33.990Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -127,9 +133,28 @@
     "hubStatus": "PENDING"
   },
   "review": {
-    "status": "REJECTED",
+    "status": "APPLIED",
     "reviewedBy": "AU KHUONG DUY",
-    "reviewedAt": "2026-10-18T17:06:58.015Z",
-    "note": "Kiểm tra ảnh sp thật trên web trước khi gen lại"
+    "reviewedAt": "2026-10-20T16:51:13.755Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-20T16:51:13.755Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/b1bd5128d1d25c03e86bfc2a4b531f8e83802026fdf611407cba9404f9240011.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/05/01/tram8/6707e03143f74c91888ee345178f644e.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Thanh heo nướng vị cay Mala – thịt heo nướng thơm mềm, đậm đà kiểu Singapore, làm từ công thức độc quyền.\n\nQuy cách: bán lẻ 1 thanh (gói 10 g; hộp 150 g gồm 15 gói × 10 g)\nTrên bao bì: Thịt sạch · HACCP · ISO 22000:2018\nThương hiệu: GreenFeed (logo in trên hộp)",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

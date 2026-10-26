@@ -17,7 +17,7 @@
     "description": "Rượu Mùa Hà Nội của MẦM Craft Distillery (chai mini), rượu trái cây làm từ quả sấu và gừng.\n\nQuy cách: 100 ml · chai · Nồng độ: 19% ± 2% vol\nXuất xứ: Việt Nam · Thương hiệu: MẦM Craft Distillery\n\nChỉ bán cho người từ 18 tuổi trở lên.\nUống có trách nhiệm, đã uống rượu bia không lái xe.",
     "exportedAt": "2026-10-26T02:38:41.284Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I3/I4: ảnh KiotViet chụp điện thoại trên thùng hàng, có tem thuế; hãng không có ảnh riêng chai 100 ml → Gemini vẽ lại từ ảnh mẫu (v12–v15, v17, v19: đúng chai đang bán, 1 chai/đơn vị Chai, đồng bộ dãy 100 ml); đã so chữ/logo với mẫu. Khác gói thật: bỏ tem thuế trên nắp; dòng nồng độ vẽ '19%±2%vol' (nhãn thật '19%+/-2%vol'); chữ dập nổi vai chai tượng trưng",
@@ -78,6 +78,12 @@
       "by": "init",
       "status": "READY",
       "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-26T04:58:33.990Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -87,5 +93,91 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-21T08:50:26.980Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-21T08:50:26.980Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/e29349a750792b0e4f84573224c7e691dbb24aa2e9c6a1087caf5cb633010eb2.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/10/21/tram8/5b1076ab7f744f7db2d0d4965c49d659.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Rượu Mùa Hà Nội của MẦM Craft Distillery (chai mini), rượu trái cây làm từ quả sấu và gừng.\n\nQuy cách: 100 ml · chai · Nồng độ: 19% ± 2% vol\nXuất xứ: Việt Nam · Thương hiệu: MẦM Craft Distillery\n\nChỉ bán cho người từ 18 tuổi trở lên.\nUống có trách nhiệm, đã uống rượu bia không lái xe.",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {
+      "price": {
+        "to": 83333.33,
+        "from": 81818.18
+      },
+      "saleTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 68563872
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 68563872
+        }
+      },
+      "taxRate": {
+        "to": "VAT 8%",
+        "from": "VAT 10%"
+      },
+      "productTaxs": {
+        "to": [
+          {
+            "id": 0,
+            "name": "VAT 8%",
+            "taxId": 3,
+            "value": 8,
+            "productId": 68563872
+          }
+        ],
+        "from": [
+          {
+            "id": 0,
+            "name": "VAT 10%",
+            "taxId": 4,
+            "value": 10,
+            "productId": 68563872
+          }
+        ]
+      },
+      "purchaseTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 68563872
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 68563872
+        }
+      }
+    }
   }
 }

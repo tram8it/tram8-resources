@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-26T02:38:41.284Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I3/I4/I5: ảnh KiotViet chụp hai gói trên kệ, gói trên bị cắt; kotex.com.vn chặn bot (Cloudflare) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: một gói; giữ dải vàng \"Mới mặt lưới mềm – Tặng 1 miếng\" vì in sẵn trên gói (3+1 miếng); chữ nhỏ quanh hình miếng băng có thể hơi khác",
@@ -56,6 +56,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-26T04:58:33.990Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -65,5 +71,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-26T04:56:31.219Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-26T04:56:31.219Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/fc0f1d8055b676fcb0e5950a6a6cb71343005a77a8dab6a06c2612975eb4ec1e.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/10/23/tram8/25ebad778dc14b119ce11ba8d196610e.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Băng vệ sinh Kotex Siêu Ban Đêm có cánh, mặt lưới mềm hoá, đệm chống tràn sau MoonCushion; nhãn ghi lên đến 100% không tràn sau.\n\nQuy cách: 35 cm · gói 3 + 1 miếng (4 miếng)\nThương hiệu: Kotex",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

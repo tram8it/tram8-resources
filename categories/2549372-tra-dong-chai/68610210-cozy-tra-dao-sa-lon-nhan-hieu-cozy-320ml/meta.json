@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-26T02:38:41.284Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I3/I4/I5: ảnh KiotViet chụp lon trên bàn làm việc, đáy lon bị cắt; cozy.vn chỉ có ảnh bối cảnh → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: vẽ tiếp phần đáy lon bị cắt (nền cam + đáy bạc); chữ nhỏ có thể hơi khác",
@@ -59,6 +59,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-26T04:58:33.990Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -68,5 +74,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-26T04:57:28.396Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-26T04:57:28.396Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/e63059b7e1103acff52d81cb141222a169e54051a20d700786f38961fae930f0.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/10/25/tram8/1e1724460237438aa379f1292337850e.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Trà đào sả Cozy uống liền: vị trà thanh nhẹ, hương sả thơm dịu và vị đào chua ngọt hài hoà; ngon hơn khi uống lạnh. Lon ghi không sử dụng chất bảo quản.\n\nThành phần: nước tinh khiết, đường mía, lá trà xanh, sả tươi, hương đào, hương trà xanh.\nQuy cách: 320 ml · lon\nNhà sản xuất/thương hiệu: Cozy (Công ty CP Sản phẩm Sinh Thái)",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

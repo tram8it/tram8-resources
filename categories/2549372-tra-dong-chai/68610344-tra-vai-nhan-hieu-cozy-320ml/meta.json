@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-26T02:38:41.284Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "I3/I4/I5: ảnh KiotViet chụp lon trên bàn làm việc, đáy lon bị cắt; cozy.vn không có ảnh lon trà vải → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: vẽ tiếp phần đáy lon bị cắt (họa tiết đỏ + đáy bạc), mã vạch để mờ; hoạ tiết vàng trên nền đỏ là thiết kế của lon đang bán (chỉ biết một mẫu này)",
@@ -56,6 +56,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-26T04:58:33.990Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -65,5 +71,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-26T04:57:32.280Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-26T04:57:32.280Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/0e111122360b0eeaa6a7913290f8f696457af65f1460f3c90503aa6da044b895.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/10/25/tram8/ca78121e01f2415490b9e7972c7f672a.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Trà vải Cozy (Cozy Tea Lychee) uống liền, hương vải thơm ngọt, ngon hơn khi uống lạnh. Lon ghi không chất bảo quản (No preservatives).\n\nQuy cách: 320 ml · lon\nNhà sản xuất/thương hiệu: Cozy (Công ty CP Sản phẩm Sinh Thái)",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }
