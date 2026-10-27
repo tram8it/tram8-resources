@@ -17,24 +17,23 @@
     "description": "Chân gà có xương Bà Tuyết kèm gói sốt, chân gà tẩm vị cay, món ăn vặt ăn liền.\n\nQuy cách: 40 g · gói\nNhà sản xuất/thương hiệu: Ăn Cùng Bà Tuyết",
     "exportedAt": "2026-10-26T02:38:41.284Z"
   },
-  "status": "UPLOADED",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I4: ảnh chụp điện thoại gói kèm gói sốt, gói lộn ngược, nền lộn xộn; không có ảnh hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: gói chân gà theo ảnh đã duyệt của SP 64865622 (CHÂN GÀ BÀ TUYẾT, CÓ XƯƠNG); logo tròn 'Ăn cùng Bà Tuyết' trên đầu gói vẽ to và rõ hơn gói thật (gói thật logo nhỏ hơn); gói sốt 'SỐT BÀ TUYẾT – VỊ CHUA NGỌT' vẽ theo ảnh mẫu, đặt cạnh gói; không in khối lượng, 40g theo tên",
+    "reason": "chủ 27/10: SP là lốc 3 gói chân gà có xương + 1 gói sốt → vẽ 3 gói xoè + sốt như lốc rút xương → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: 3 gói có xương xoè + gói sốt chua ngọt, bỏ mặt trước kiểu rút xương",
     "source": {
       "aiGenerated": true,
       "tool": "Gemini API",
       "model": "gemini-nano-banana-2.1",
-      "generatedAt": "2026-10-17",
+      "generatedAt": "2026-10-27",
       "style": "flat clean packaging render (v17)",
-      "reference": "ảnh Gemini đã duyệt của SP cùng dãy 64865622 (Chân gà có xương Bà Tuyết) + ảnh KiotViet hiện có (gói kèm gói sốt)",
-      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/07/13/tram8/5732a3c210e7456e8d6b44b93fa767ca.png"
+      "reference": "ảnh chủ gửi 27/10 (gói có xương + sốt) + bố cục lốc 66369104"
     },
     "rubricVersion": "v18"
   },
   "description": {
-    "decision": "WRITE_NEW",
-    "reason": "D1: chưa có mô tả; mô tả ngắn chỉ từ tên hàng và chữ in mặt trước bao bì (không có trang hãng) ('Chân gà Bà Tuyết có xương' + gói 'Sốt Bà Tuyết')",
+    "decision": "REWRITE",
+    "reason": "chủ 27/10: SP là lốc 3 gói có xương + 1 gói sốt (giống lốc rút xương 66369104)",
     "source": null,
     "rubricVersion": "v4"
   },
@@ -75,10 +74,28 @@
       "by": "init",
       "status": "UPLOADED",
       "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-27T01:48:23Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 4, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-27T01:48:23+00:00",
+      "by": "ai",
+      "status": "READY",
+      "note": "mô tả: lốc 3 gói × 40 g + 1 gói sốt"
+    },
+    {
+      "at": "2026-10-27T01:48:25.746Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-17T07:44:14.909Z",
+    "at": "2026-10-27T01:48:25.746Z",
     "fields": [
       "description",
       "image"

@@ -2,7 +2,7 @@
 
 > Sinh tự động bởi `node tools/status.mjs`. **Không sửa tay.** Nguồn sự thật là `meta.json` của từng SP.
 
-Tổng 2561 SP · đã xem 2561 (100%) · xong 2510 · chờ chủ duyệt 4 · cần chụp 1 · hỏi chủ 1
+Tổng 2561 SP · đã xem 2561 (100%) · xong 2507 · chờ chủ duyệt 7 · cần chụp 1 · hỏi chủ 1
 
 Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` = giữ nguyên + đã lên web.
 
@@ -65,7 +65,7 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 | 55 | Xịt khử mùi | 0.0tr | 16 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 16 |
 | 56 | Bánh gạo | 0.0tr | 16 | 0 | 0 | 1 | 0 | 0 | 0 | 0 | 15 |
 | 57 | Cáp sạc & dây | 0.0tr | 15 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 15 |
-| 58 | Chân gà | 0.0tr | 15 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 15 |
+| 58 | Chân gà | 0.0tr | 15 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 14 |
 | 59 | Cocktail lon RTD | 0.0tr | 15 | 0 | 3 | 0 | 0 | 0 | 0 | 0 | 12 |
 | 60 | Sữa chua kiểu Hy Lạp | 0.0tr | 15 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 15 |
 | 61 | Mì cay (Ly/Tô/Cốc) | 0.0tr | 15 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 15 |
@@ -155,7 +155,7 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 | 145 | Kẹo mút | 0.0tr | 5 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 5 |
 | 146 | Miến ăn liền | 0.0tr | 5 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 5 |
 | 147 | Đồ uống nội địa | 0.0tr | 5 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 5 |
-| 148 | Vang Đỏ | 0.0tr | 5 | 0 | 4 | 0 | 0 | 0 | 0 | 0 | 1 |
+| 148 | Vang Đỏ | 0.0tr | 5 | 0 | 2 | 0 | 0 | 0 | 2 | 0 | 1 |
 | 149 | Dụng cụ mi | 0.0tr | 4 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 4 |
 | 150 | Snack & bim bim theo Trend | 0.0tr | 4 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 4 |
 | 151 | Snack bánh mì nướng / crouton | 0.0tr | 4 | 0 | 0 | 2 | 0 | 0 | 0 | 0 | 2 |
