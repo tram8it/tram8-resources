@@ -15,19 +15,19 @@
   "current": {
     "imageUrl": "https://cdn2-retail-images.kiotviet.vn/2026/09/12/tram8/b3bdd96fa695469c88c50f9feb9d966b.png",
     "description": "<h3 data-path-to-node=\"5\"><strong>Mô tả sản phẩm:</strong></h3><p data-path-to-node=\"6\"><strong>1. Giới thiệu sản phẩm</strong></p><ul data-path-to-node=\"7\"><li><p data-path-to-node=\"7,0,0\"><strong>Bia Sài Gòn Export Premium 330ml</strong> là phiên bản nâng cấp cao cấp của dòng bia Sài Gòn Đỏ quen thuộc, được nghiên cứu và phát triển bởi <strong>Tổng công ty Cổ phần Bia - Rượu - Nước giải khát Sài Gòn (SABECO)</strong>.</p></li><li><p data-path-to-node=\"7,1,0\">Sự kết hợp giữa diện mạo lon cao (Sleek) hiện đại, sang trọng và công thức ủ nấu cải tiến mang đến trải nghiệm thưởng thức hoàn hảo, vừa giữ được nét đặc trưng quen thuộc vừa nâng tầm đẳng cấp cho các bữa tiệc.</p></li></ul><p data-path-to-node=\"10\"><strong>2. Thông tin chi tiết</strong></p><ul data-path-to-node=\"11\"><li><p data-path-to-node=\"11,0,0\"><strong>Thương hiệu:</strong> Sài Gòn Export Premium (SABECO)</p></li><li><p data-path-to-node=\"11,1,0\"><strong>Công ty sản xuất:</strong> Tổng công ty Cổ phần Bia - Rượu - Nước giải khát Sài Gòn (SABECO)</p></li><li><p data-path-to-node=\"11,2,0\"><strong>Xuất xứ:</strong> Việt Nam</p></li><li><p data-path-to-node=\"11,3,0\"><strong>Loại sản phẩm:</strong> Bia Lager cao cấp (Lon cao)</p></li><li><p data-path-to-node=\"11,4,0\"><strong>Dung tích:</strong> 330ml / lon</p></li><li><p data-path-to-node=\"11,5,0\"><strong>Quy cách đóng gói:</strong> 24 lon / thùng</p></li><li><p data-path-to-node=\"11,6,0\"><strong>Hạn sử dụng:</strong> In rõ trên bao bì sản phẩm</p></li></ul><p data-path-to-node=\"12\"><strong>3. Hướng dẫn sử dụng và bảo quản</strong></p><ul data-path-to-node=\"13\"><li><p data-path-to-node=\"13,0,0\"><strong>Cách dùng:</strong> Ngon hơn khi uống lạnh, nhiệt độ thưởng thức lý tưởng từ 8°C - 12°C. Nên ướp lạnh trước khi uống, hạn chế dùng kèm đá trực tiếp để trọn vẹn hương vị đậm đà nguyên bản.</p></li><li><p data-path-to-node=\"13,1,0\"><strong>Bảo quản:</strong> Nơi khô ráo, thoáng mát, tránh ánh nắng trực tiếp hoặc nơi có nhiệt độ cao.</p></li><li><p data-path-to-node=\"13,2,0\"><strong>Lưu ý:</strong> Sản phẩm không dành cho người dưới 18 tuổi và phụ nữ có thai hoặc đang cho con bú. <em>\"Đã uống rượu bia – Không lái xe\"</em>.</p></li></ul>",
-    "exportedAt": "2026-10-26T02:38:41.284Z"
+    "exportedAt": "2026-10-27T10:01:26.459Z"
   },
-  "status": "IN_PROGRESS",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "chủ 21/10: ảnh các lon bia không đồng bộ → vẽ lại chính diện, ánh sáng đều, cùng cỡ trong khung như các lon khác → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: giữ thiết kế/chữ của lon; chỉ đổi góc, ánh sáng, độ nét; chữ nhỏ có thể mờ",
+    "reason": "chủ 21/10 'Con rồng ko giống': lần trước vẽ rồng vàng đặc → vẽ lại chỉ từ ảnh lon thật: rồng nét viền đỏ trên nền bạc, lon cao thon 330ml → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: giữ nguyên thiết kế lon; chỉ làm nét, ánh sáng đều, nền trắng",
     "source": {
       "aiGenerated": true,
       "tool": "Gemini API",
       "model": "gemini-nano-banana-2.1",
-      "generatedAt": "2026-10-21",
+      "generatedAt": "2026-10-27",
       "style": "flat clean packaging render (v17)",
-      "reference": "ảnh hiện tại của SP (KiotViet/đã duyệt) + lon cùng dòng 68505054 làm mẫu phong cách"
+      "reference": "ảnh hiện tại của SP trên KiotViet (lon sleek bạc–đỏ)"
     },
     "rubricVersion": "v18"
   },
@@ -74,10 +74,22 @@
       "by": "owner",
       "status": "IN_PROGRESS",
       "note": "rejected on Hub by AU KHUONG DUY: Con rông ko giống"
+    },
+    {
+      "at": "2026-10-27T10:08:46Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-27T10:08:47.062Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: image"
     }
   ],
   "submitted": {
-    "at": "2026-10-21T12:41:13.668Z",
+    "at": "2026-10-27T10:08:47.062Z",
     "fields": [
       "image"
     ],

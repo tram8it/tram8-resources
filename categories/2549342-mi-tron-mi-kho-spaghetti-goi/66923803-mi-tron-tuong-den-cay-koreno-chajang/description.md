@@ -1,4 +1,4 @@
-Mì trộn tương đen cay Koreno Chajang của Paldo Vina, hương vị tương đen kiểu Hàn Quốc thêm vị cay, úp 4 phút.
+Mì trộn sốt tương đen kiểu Hàn (炸酱面 – mì Zhajiang), mì chiên ăn liền kèm gói sốt tương đen. Gói nhập khẩu, nhãn chính tiếng Trung.
 
-Quy cách: 78 g · gói
-Nhà sản xuất/thương hiệu: Paldo Vina · Koreno
+Quy cách: 113 g (vắt mì 90 g + gia vị) · gói
+Thương hiệu: 俏逗妈

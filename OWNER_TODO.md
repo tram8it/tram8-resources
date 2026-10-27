@@ -44,7 +44,7 @@ còn gì), đọc file này và **nhắc chủ từng mục còn mở**. Ghi th�
 - [ ] Thương hiệu sửa tay: xem `reports/thuong-hieu-can-sua-tay-mi-goi.csv`
 - [ ] Ngừng kinh doanh: 64865678 Phở Gà Cung Đình mã 8936010681422 (chủ xác nhận đã lâu không
       bán) — từ chối đề xuất trên Hub và tắt trên KiotViet
-- [ ] Mã trùng: 66923803 "Mì trộn tương đen cay Koreno Chajang" (mã vạch 6951454407706, đầu Trung Quốc) và 65205363 "… Koreno Chajang (Gói)" (8936028641654) cùng là gói Koreno Chajang cay 78 g — sửa mã vạch hoặc gộp
+- [x] (27/10: đã xong — chủ đổi 66923803 thành "Mì Trộn Sốt Tương Đen (LoVe Maxx)" gói 炸酱面 nhập khẩu, khớp mã 695…) Mã trùng: 66923803 "Mì trộn tương đen cay Koreno Chajang" (mã vạch 6951454407706, đầu Trung Quốc) và 65205363 "… Koreno Chajang (Gói)" (8936028641654) cùng là gói Koreno Chajang cay 78 g — sửa mã vạch hoặc gộp
 - [ ] Mã trùng: 66542636 "Mì xào vị Gà phomai" (mã 8936028643153) và 68270021 "Volcano Koreno gà phô mai 118g" (mã 8936028641104) cùng là gói Volcano gà phô mai 118 g theo ảnh chủ gửi; hồ sơ Paldo chỉ có …1104 (gói) và …1111 (lốc 4+1) — kiểm tra mã …3153 có đúng không, gộp nếu trùng
 - [ ] Mã trùng: 4 cặp Feastables MrBeast (mã nội bộ 390000032… và mã vạch 85002788…) cùng một
       sản phẩm — gộp/tắt mã thừa

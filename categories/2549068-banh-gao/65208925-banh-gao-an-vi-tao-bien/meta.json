@@ -3,9 +3,9 @@
   "code": "8936029426359",
   "barcode": "8936029426359",
   "name": "Bánh gạo an vị tảo biển",
-  "fullName": "Bánh gạo an vị tảo biển (Gói)",
+  "fullName": "Bánh gạo an vị tảo biển (Hộp)",
   "brand": "Orion",
-  "unit": "Gói",
+  "unit": "Hộp",
   "category": {
     "kiotCategoryId": "2549068",
     "name": "Bánh gạo",
@@ -13,27 +13,30 @@
   },
   "revenue90d": 0,
   "current": {
-    "imageUrl": "https://img.tram8.vn/products/c2f9cbb5c16f14e4d15a2459b0ae411d34d4541ba80b1438b6f8736961c5a9fd.webp",
+    "imageUrl": "https://cdn2-retail-images.kiotviet.vn/2026/10/27/tram8/5efba31a8b8748939fa8a1a88bf1e075.jpeg",
     "description": "Bánh gạo nướng An vị tảo biển của Orion: bánh gạo nướng từ giống gạo Nhật Japonica, rắc tảo biển vị thanh mặn, không chất bảo quản (theo trang hãng); gói gồm nhiều gói nhỏ.\n\nQuy cách: 111,3 g (14 gói) · gói\nThương hiệu: Orion",
-    "exportedAt": "2026-10-26T02:38:41.284Z"
+    "exportedAt": "2026-10-27T10:01:26.459Z"
   },
-  "status": "UPLOADED",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh → packshot chính hãng Orion (orion.vn) gói Bánh gạo nướng An vị tảo biển 111,3 g (14 gói); mã vạch đầu 8936029 của Orion. Trang hãng chỉ có cỡ 14 gói",
+    "reason": "ảnh KiotViet 27/10: SP giờ là hộp Tết xanh (đơn vị Hộp), không phải túi → vẽ lại mặt trước hộp trên nền trắng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: mặt trước hộp chính diện, bỏ nền đá và bóng loá",
     "source": {
-      "url": "https://orion.vn/media/fyqihyvo/rice-racker-14p-tao.png",
-      "page": "https://orion.vn/san-pham/san-pham/banh-gao-nuong-an-vi-tao-bien/",
-      "fetchedAt": "2026-10-18T18:40:34Z"
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-27",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh nhân viên chụp SP thật trên KiotViet 27/10"
     },
-    "rubricVersion": "v23"
+    "rubricVersion": "v18"
   },
   "description": {
-    "decision": "WRITE_NEW",
-    "reason": "D1: từ trang sản phẩm Orion và chữ in trên bao bì",
+    "decision": "REWRITE",
+    "reason": "ảnh KiotViet 27/10 cho thấy bao bì thật khác (mì: gói 炸酱面 nhập khẩu; bánh gạo: hộp Tết) → viết lại theo bao bì thật; không ghi khối lượng chưa thấy trên ảnh",
     "source": {
-      "url": "https://orion.vn/san-pham/san-pham/banh-gao-nuong-an-vi-tao-bien/",
-      "fetchedAt": "2026-10-18T18:40:34Z"
+      "staffPhoto": true,
+      "takenAt": "2026-10-27"
     },
     "rubricVersion": "v23"
   },
@@ -80,10 +83,34 @@
       "by": "init",
       "status": "UPLOADED",
       "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-27T10:02:11.418Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-27T10:07:25Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-27T10:07:25+00:00",
+      "by": "ai",
+      "status": "READY",
+      "note": "mô tả viết lại theo ảnh SP thật 27/10"
+    },
+    {
+      "at": "2026-10-27T10:07:31.420Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-18T18:40:34.590Z",
+    "at": "2026-10-27T10:07:31.420Z",
     "fields": [
       "description",
       "image"

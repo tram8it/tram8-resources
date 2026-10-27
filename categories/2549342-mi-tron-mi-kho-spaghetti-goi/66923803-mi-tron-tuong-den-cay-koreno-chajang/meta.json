@@ -2,8 +2,8 @@
   "kiotProductId": "66923803",
   "code": "6951454407706",
   "barcode": "6951454407706",
-  "name": "Mì trộn tương đen cay Koreno Chajang",
-  "fullName": "Mì trộn tương đen cay Koreno Chajang (Gói)",
+  "name": "Mì Trộn Sốt Tương Đen ( LoVe Maxx )",
+  "fullName": "Mì Trộn Sốt Tương Đen ( LoVe Maxx ) (Gói)",
   "brand": "Koreno",
   "unit": "Gói",
   "category": {
@@ -13,25 +13,31 @@
   },
   "revenue90d": 0,
   "current": {
-    "imageUrl": "https://img.tram8.vn/products/aff84231434556d79996f30e46e4d06c2a5fae9e4345d5f5521ce14f77c90a52.webp",
+    "imageUrl": "https://cdn2-retail-images.kiotviet.vn/2026/10/27/tram8/6c771c92a3aa4d56a70a431ff718c1f7.jpeg",
     "description": "Mì trộn tương đen cay Koreno Chajang của Paldo Vina, hương vị tương đen kiểu Hàn Quốc thêm vị cay, úp 4 phút.\n\nQuy cách: 78 g · gói\nNhà sản xuất/thương hiệu: Paldo Vina · Koreno",
-    "exportedAt": "2026-10-26T02:38:41.284Z"
+    "exportedAt": "2026-10-27T10:01:26.459Z"
   },
-  "status": "UPLOADED",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "Chủ gửi render gói Koreno Chajang cay 78 g (paldovina.com); chuẩn hoá bằng make_image.py",
+    "reason": "ảnh KiotViet 27/10 cho thấy SP thật là gói mì tương đen 炸酱面 nhập khẩu (không phải Koreno Chajang) → vẽ lại gói phẳng, chính diện trên nền trắng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: gói thật được làm phẳng, bỏ nếp nhăn và nền đá",
     "source": {
-      "ownerProvided": true,
-      "note": "render gói Koreno Chajang cay 78g chủ gửi",
-      "receivedAt": "2026-10-14"
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-27",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh nhân viên chụp SP thật trên KiotViet 27/10"
     },
-    "rubricVersion": "v6"
+    "rubricVersion": "v18"
   },
   "description": {
-    "decision": "WRITE_NEW",
-    "reason": "D1: viết từ chữ in trên gói (Koreno Chajang, mì trộn tương đen, cay, úp 4 phút, 78 g); chủ xác nhận SP",
-    "source": null,
+    "decision": "REWRITE",
+    "reason": "ảnh KiotViet 27/10 cho thấy bao bì thật khác (mì: gói 炸酱面 nhập khẩu; bánh gạo: hộp Tết) → viết lại theo bao bì thật; không ghi khối lượng chưa thấy trên ảnh",
+    "source": {
+      "staffPhoto": true,
+      "takenAt": "2026-10-27"
+    },
     "rubricVersion": "v4"
   },
   "question": null,
@@ -71,10 +77,34 @@
       "by": "init",
       "status": "UPLOADED",
       "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-27T10:02:11.418Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-27T10:07:25Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-27T10:07:25+00:00",
+      "by": "ai",
+      "status": "READY",
+      "note": "mô tả viết lại theo ảnh SP thật 27/10"
+    },
+    {
+      "at": "2026-10-27T10:07:25.674Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-14T16:12:58.286Z",
+    "at": "2026-10-27T10:07:25.674Z",
     "fields": [
       "description",
       "image"
