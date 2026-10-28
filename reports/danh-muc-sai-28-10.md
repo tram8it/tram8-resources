@@ -33,7 +33,7 @@ Hub không bao giờ đổi danh mục → chủ sửa tay trên KiotViet. Mã =
 | SP878139 | Bánh Quy Giòn Vị Nấm Truffle Đen Và Giăm Bông 70g | Đồ nội địa Trung › Bánh gạo / cơm cháy / bánh ngọt | Có vẻ trùng/cùng dòng "Bánh Quy Mặn Vị Nấm Truffle Đen Và Dăm Bông" (Cobi, 8935299665482) ở Bánh quy giòn — kiểm tra, có thể là mã trùng |
 | 8936028641081 | Mì xào Koreno Volcano vị gà 118g | Mì cay (Gói) | "Volcano gà phô mai 118g" đang ở Mì trộn / mì khô (Gói) — chọn một |
 
-## C. Nên xem lại (không chắc, chủ quyết)
+## C. Nên xem lại — chủ 28/10: giữ nguyên, không đổi
 
 | Mã hàng | Sản phẩm | Đang ở | Ghi chú |
 |---|---|---|---|
