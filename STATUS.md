@@ -2,7 +2,7 @@
 
 > Sinh tự động bởi `node tools/status.mjs`. **Không sửa tay.** Nguồn sự thật là `meta.json` của từng SP.
 
-Tổng 2588 SP · đã xem 2588 (100%) · xong 2512 · chờ chủ duyệt 29 · cần chụp 1 · hỏi chủ 2
+Tổng 2588 SP · đã xem 2588 (100%) · xong 2512 · chờ chủ duyệt 30 · cần chụp 1 · hỏi chủ 1
 
 Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` = giữ nguyên + đã lên web.
 
@@ -138,7 +138,7 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 | 128 | Dầu xả | 0.0tr | 6 | 0 | 2 | 0 | 0 | 0 | 0 | 0 | 4 |
 | 129 | Nước dừa / thạch uống | 0.0tr | 6 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 6 |
 | 130 | Kem viên / kim cương | 0.0tr | 6 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 6 |
-| 131 | Kẹo mút | 0.0tr | 6 | 0 | 0 | 0 | 0 | 1 | 0 | 0 | 5 |
+| 131 | Kẹo mút | 0.0tr | 6 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 5 |
 | 132 | Ô mai - Xí muội | 0.0tr | 6 | 0 | 0 | 1 | 0 | 0 | 0 | 0 | 5 |
 | 133 | Thực phẩm chế biến sẵn | 0.0tr | 6 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 5 |
 | 134 | Sáp khử mùi | 0.0tr | 6 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 6 |
@@ -238,6 +238,5 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 - categories/2549263-socola-thanh/65267693-so-co-la-tim-46-38g-thanh: NO_CHANGE requires both decisions KEEP
 - categories/2549263-socola-thanh/65267694-socola-yen-mach-44-41g-thanh: NO_CHANGE requires both decisions KEEP
 - categories/2549263-socola-thanh/65267695-so-co-la-sua-44-40g-thanh: NO_CHANGE requires both decisions KEEP
-- categories/2549277-keo-mut/68648875-keo-mut-lollipop-ice-hieu-lotte-660g: reviewed but image/description decision missing
 - categories/2549347-bun-hu-tieu-an-lien/66921899-bun-oc-lieu-chau-vi-rau-luosifen-king: NO_CHANGE requires both decisions KEEP
 - categories/2549391-rong-bien-an-lien/68030135-bbg-rong-bien-cha-bong-tom-30g: NO_CHANGE requires both decisions KEEP

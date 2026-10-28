@@ -17,20 +17,30 @@
     "description": null,
     "exportedAt": "2026-10-28T12:19:07.195Z"
   },
-  "status": "ASK_OWNER",
+  "status": "READY",
   "image": {
-    "decision": "ASK_OWNER",
-    "reason": "đơn vị Que nhưng ảnh 4 que nhiều vị; không rõ nên thể hiện 1 que hay cả bộ vị",
-    "source": null,
-    "rubricVersion": null
+    "decision": "REPLACE",
+    "reason": "chủ 28/10: bán theo que → vẽ 1 que (vị 스크류 Screw) phẳng, chính diện, nền trắng; bỏ giá cắm và các que khác → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chỉ 1 que trong 4 vị của hũ; chữ nhỏ có thể mờ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-28",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet 28/10 (que bên phải, vị Screw)"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
-    "decision": null,
-    "reason": null,
-    "source": null,
+    "decision": "WRITE_NEW",
+    "reason": "SP mới; viết theo ảnh chụp (4 vị trên que) + tên hàng",
+    "source": {
+      "staffPhoto": true,
+      "takenAt": "2026-10-28"
+    },
     "rubricVersion": null
   },
-  "question": "Kẹo mút Lollipop Ice Lotte bán theo \"Que\" (hũ 660g nhiều vị). Ảnh KiotViet chụp 4 que khác vị cắm trên giá. Ảnh web nên vẽ 1 que (vị nào?) hay 4 que đủ vị như ảnh chụp?",
+  "question": null,
   "history": [
     {
       "at": "2026-10-28T12:19:24.077Z",
@@ -43,6 +53,38 @@
       "by": "ai",
       "status": "ASK_OWNER",
       "note": "Kẹo mút Lollipop Ice Lotte bán theo \"Que\" (hũ 660g nhiều vị). Ảnh KiotViet chụp 4 que khác vị cắm trên giá. Ảnh web nên vẽ 1 que (vị nào?) hay 4 que đủ vị như ảnh chụp?"
+    },
+    {
+      "at": "2026-10-28T12:37:23Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-28T12:37:23+00:00",
+      "by": "owner",
+      "status": "READY",
+      "note": "chủ 28/10: vẽ 1 que thôi"
+    },
+    {
+      "at": "2026-10-28T12:37:23.446Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-28T12:37:43.610Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-28T12:37:43.610Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }
