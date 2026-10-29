@@ -1,0 +1,376 @@
+# So sánh thương hiệu / đơn vị
+
+- Trước: 2026-10-29T13:49:54.164Z · Sau: 2026-10-29T14:04:11.922Z
+- Kế hoạch: (không có — không được đổi gì) · 0 dòng
+- **KHÔNG ĐẠT — 363 cảnh báo** · 0 thay đổi đúng kế hoạch
+
+## Cảnh báo
+- **TRUONG_KHAC_BI_DOI** 4603928000976 "Beluga Noble Vodka 40% 700ml Vodka" (#65977157) · `fullName`: "Beluga Noble Vodka 40% 700ml Vodka (Chai)" → "Beluga Noble Vodka 40% 700ml Vodka - 40% (Chai)"
+- **TRUONG_KHAC_BI_DOI** 4603928000976 "Beluga Noble Vodka 40% 700ml Vodka" (#65977157) · `hasVariants`: false → true
+- **TRUONG_KHAC_BI_DOI** 4603928000976 "Beluga Noble Vodka 40% 700ml Vodka" (#65977157) · `attributes`: [] → [{"name":"NỒNG ĐỘ CỒN","value":"40%"}]
+- **TRUONG_KHAC_BI_DOI** 87167344 "BIA AMSTERDAM MARINER 4,8%" (#68505054) · `fullName`: "BIA AMSTERDAM MARINER 4,8% (Lon)" → "BIA AMSTERDAM MARINER 4,8% - 4.8% (Lon)"
+- **TRUONG_KHAC_BI_DOI** 87167344 "BIA AMSTERDAM MARINER 4,8%" (#68505054) · `hasVariants`: false → true
+- **TRUONG_KHAC_BI_DOI** 87167344 "BIA AMSTERDAM MARINER 4,8%" (#68505054) · `attributes`: [] → [{"name":"NỒNG ĐỘ CỒN","value":"4.8%"}]
+- **TRUONG_KHAC_BI_DOI** 8716700009596 "BIA AMSTERDAM MARINER 4,8%" (#68505055) · `fullName`: "BIA AMSTERDAM MARINER 4,8% (Thùng)" → "BIA AMSTERDAM MARINER 4,8% - 4.8% (Thùng)"
+- **TRUONG_KHAC_BI_DOI** 8716700009596 "BIA AMSTERDAM MARINER 4,8%" (#68505055) · `hasVariants`: false → true
+- **TRUONG_KHAC_BI_DOI** 8716700009596 "BIA AMSTERDAM MARINER 4,8%" (#68505055) · `attributes`: [] → [{"name":"NỒNG ĐỘ CỒN","value":"4.8%"}]
+- **TRUONG_KHAC_BI_DOI** 87167993 "BIA AMSTERDAM MAXIMATOR 11,6%" (#68505155) · `fullName`: "BIA AMSTERDAM MAXIMATOR 11,6% (Lon)" → "BIA AMSTERDAM MAXIMATOR 11,6% - 11.6% (Lon)"
+- **TRUONG_KHAC_BI_DOI** 87167993 "BIA AMSTERDAM MAXIMATOR 11,6%" (#68505155) · `hasVariants`: false → true
+- **TRUONG_KHAC_BI_DOI** 87167993 "BIA AMSTERDAM MAXIMATOR 11,6%" (#68505155) · `attributes`: [] → [{"name":"NỒNG ĐỘ CỒN","value":"11.6%"}]
+- **TRUONG_KHAC_BI_DOI** 8716700006489 "BIA AMSTERDAM MAXIMATOR 11,6%" (#68505156) · `fullName`: "BIA AMSTERDAM MAXIMATOR 11,6% (Thùng)" → "BIA AMSTERDAM MAXIMATOR 11,6% - 11.6% (Thùng)"
+- **TRUONG_KHAC_BI_DOI** 8716700006489 "BIA AMSTERDAM MAXIMATOR 11,6%" (#68505156) · `hasVariants`: false → true
+- **TRUONG_KHAC_BI_DOI** 8716700006489 "BIA AMSTERDAM MAXIMATOR 11,6%" (#68505156) · `attributes`: [] → [{"name":"NỒNG ĐỘ CỒN","value":"11.6%"}]
+- **TRUONG_KHAC_BI_DOI** 8716700015238 "BIA AMSTERDAM NAVIGATOR 8%" (#68505104) · `fullName`: "BIA AMSTERDAM NAVIGATOR 8% (Lon)" → "BIA AMSTERDAM NAVIGATOR 8% - 8% (Lon)"
+- **TRUONG_KHAC_BI_DOI** 8716700015238 "BIA AMSTERDAM NAVIGATOR 8%" (#68505104) · `hasVariants`: false → true
+- **TRUONG_KHAC_BI_DOI** 8716700015238 "BIA AMSTERDAM NAVIGATOR 8%" (#68505104) · `attributes`: [] → [{"name":"NỒNG ĐỘ CỒN","value":"8%"}]
+- **TRUONG_KHAC_BI_DOI** 8716700021031 "BIA AMSTERDAM NAVIGATOR 8%" (#68505105) · `fullName`: "BIA AMSTERDAM NAVIGATOR 8% (Thùng)" → "BIA AMSTERDAM NAVIGATOR 8% - 8% (Thùng)"
+- **TRUONG_KHAC_BI_DOI** 8716700021031 "BIA AMSTERDAM NAVIGATOR 8%" (#68505105) · `hasVariants`: false → true
+- **TRUONG_KHAC_BI_DOI** 8716700021031 "BIA AMSTERDAM NAVIGATOR 8%" (#68505105) · `attributes`: [] → [{"name":"NỒNG ĐỘ CỒN","value":"8%"}]
+- **TRUONG_KHAC_BI_DOI** 4054500101381 "Bia Apostel Weissbier Lon Đen 500ml 5,3%" (#68504348) · `fullName`: "Bia Apostel Weissbier Lon Đen 500ml 5,3% (Lon)" → "Bia Apostel Weissbier Lon Đen 500ml 5,3% - 5.3% (Lon)"
+- **TRUONG_KHAC_BI_DOI** 4054500101381 "Bia Apostel Weissbier Lon Đen 500ml 5,3%" (#68504348) · `hasVariants`: false → true
+- **TRUONG_KHAC_BI_DOI** 4054500101381 "Bia Apostel Weissbier Lon Đen 500ml 5,3%" (#68504348) · `attributes`: [] → [{"name":"NỒNG ĐỘ CỒN","value":"5.3%"}]
+- **TRUONG_KHAC_BI_DOI** 4054500601386 "Bia Apostel Weissbier Lon Đen 500ml 5,3%" (#68504349) · `fullName`: "Bia Apostel Weissbier Lon Đen 500ml 5,3% (Thùng)" → "Bia Apostel Weissbier Lon Đen 500ml 5,3% - 5.3% (Thùng)"
+- **TRUONG_KHAC_BI_DOI** 4054500601386 "Bia Apostel Weissbier Lon Đen 500ml 5,3%" (#68504349) · `hasVariants`: false → true
+- **TRUONG_KHAC_BI_DOI** 4054500601386 "Bia Apostel Weissbier Lon Đen 500ml 5,3%" (#68504349) · `attributes`: [] → [{"name":"NỒNG ĐỘ CỒN","value":"5.3%"}]
+- **TRUONG_KHAC_BI_DOI** 8885021010069 "Bia camel Đỏ 24*500ml" (#65960541) · `fullName`: "Bia camel Đỏ 24*500ml (Lon)" → "Bia camel Đỏ 24*500ml - 4.9% (Lon)"
+- **TRUONG_KHAC_BI_DOI** 8885021010069 "Bia camel Đỏ 24*500ml" (#65960541) · `hasVariants`: false → true
+- **TRUONG_KHAC_BI_DOI** 8885021010069 "Bia camel Đỏ 24*500ml" (#65960541) · `attributes`: [] → [{"name":"NỒNG ĐỘ CỒN","value":"4.9%"}]
+- **TRUONG_KHAC_BI_DOI** SP877558 "Bia camel Đỏ 24*500ml" (#65960542) · `fullName`: "Bia camel Đỏ 24*500ml (Thùng)" → "Bia camel Đỏ 24*500ml - 4.9% (Thùng)"
+- **TRUONG_KHAC_BI_DOI** SP877558 "Bia camel Đỏ 24*500ml" (#65960542) · `hasVariants`: false → true
+- **TRUONG_KHAC_BI_DOI** SP877558 "Bia camel Đỏ 24*500ml" (#65960542) · `attributes`: [] → [{"name":"NỒNG ĐỘ CỒN","value":"4.9%"}]
+- **TRUONG_KHAC_BI_DOI** 8936236640043 "Bia Camel đỏ 330ml" (#65960710) · `fullName`: "Bia Camel đỏ 330ml (Lon)" → "Bia Camel đỏ 330ml - 4.9% (Lon)"
+- **TRUONG_KHAC_BI_DOI** 8936236640043 "Bia Camel đỏ 330ml" (#65960710) · `hasVariants`: false → true
+- **TRUONG_KHAC_BI_DOI** 8936236640043 "Bia Camel đỏ 330ml" (#65960710) · `attributes`: [] → [{"name":"NỒNG ĐỘ CỒN","value":"4.9%"}]
+- **TRUONG_KHAC_BI_DOI** SP877561 "Bia Camel đỏ 330ml" (#65960711) · `fullName`: "Bia Camel đỏ 330ml (Thùng)" → "Bia Camel đỏ 330ml - 4.9% (Thùng)"
+- **TRUONG_KHAC_BI_DOI** SP877561 "Bia Camel đỏ 330ml" (#65960711) · `hasVariants`: false → true
+- **TRUONG_KHAC_BI_DOI** SP877561 "Bia Camel đỏ 330ml" (#65960711) · `attributes`: [] → [{"name":"NỒNG ĐỘ CỒN","value":"4.9%"}]
+- **TRUONG_KHAC_BI_DOI** 8936236640067 "Bia Camel đỏ 330ml" (#66113775) · `fullName`: "Bia Camel đỏ 330ml (Lon)" → "Bia Camel đỏ 330ml - 4.9% (Lon)"
+- **TRUONG_KHAC_BI_DOI** 8936236640067 "Bia Camel đỏ 330ml" (#66113775) · `hasVariants`: false → true
+- **TRUONG_KHAC_BI_DOI** 8936236640067 "Bia Camel đỏ 330ml" (#66113775) · `attributes`: [] → [{"name":"NỒNG ĐỘ CỒN","value":"4.9%"}]
+- **TRUONG_KHAC_BI_DOI** SP877611 "Bia Camel đỏ 330ml" (#66114160) · `fullName`: "Bia Camel đỏ 330ml (Thùng)" → "Bia Camel đỏ 330ml - 4.9% (Thùng)"
+- **TRUONG_KHAC_BI_DOI** SP877611 "Bia Camel đỏ 330ml" (#66114160) · `hasVariants`: false → true
+- **TRUONG_KHAC_BI_DOI** SP877611 "Bia Camel đỏ 330ml" (#66114160) · `attributes`: [] → [{"name":"NỒNG ĐỘ CỒN","value":"4.9%"}]
+- **TRUONG_KHAC_BI_DOI** 8936236640326 "Bia Camel Premium 500ml đỏ" (#66552746) · `fullName`: "Bia Camel Premium 500ml đỏ (Lon)" → "Bia Camel Premium 500ml đỏ - 4.9% (Lon)"
+- **TRUONG_KHAC_BI_DOI** 8936236640326 "Bia Camel Premium 500ml đỏ" (#66552746) · `hasVariants`: false → true
+- **TRUONG_KHAC_BI_DOI** 8936236640326 "Bia Camel Premium 500ml đỏ" (#66552746) · `attributes`: [] → [{"name":"NỒNG ĐỘ CỒN","value":"4.9%"}]
+- **TRUONG_KHAC_BI_DOI** SP877818 "Bia Camel Premium 500ml đỏ" (#66552747) · `fullName`: "Bia Camel Premium 500ml đỏ (Thùng)" → "Bia Camel Premium 500ml đỏ - 4.9% (Thùng)"
+- **TRUONG_KHAC_BI_DOI** SP877818 "Bia Camel Premium 500ml đỏ" (#66552747) · `hasVariants`: false → true
+- **TRUONG_KHAC_BI_DOI** SP877818 "Bia Camel Premium 500ml đỏ" (#66552747) · `attributes`: [] → [{"name":"NỒNG ĐỘ CỒN","value":"4.9%"}]
+- **TRUONG_KHAC_BI_DOI** 5410908000012 "Bia Chimay Đỏ 330ml" (#68504884) · `fullName`: "Bia Chimay Đỏ 330ml (Chai)" → "Bia Chimay Đỏ 330ml - 7% (Chai)"
+- **TRUONG_KHAC_BI_DOI** 5410908000012 "Bia Chimay Đỏ 330ml" (#68504884) · `hasVariants`: false → true
+- **TRUONG_KHAC_BI_DOI** 5410908000012 "Bia Chimay Đỏ 330ml" (#68504884) · `attributes`: [] → [{"name":"NỒNG ĐỘ CỒN","value":"7%"}]
+- **TRUONG_KHAC_BI_DOI** 15410908000019 "Bia Chimay Đỏ 330ml" (#68504885) · `fullName`: "Bia Chimay Đỏ 330ml (Thùng)" → "Bia Chimay Đỏ 330ml - 7% (Thùng)"
+- **TRUONG_KHAC_BI_DOI** 15410908000019 "Bia Chimay Đỏ 330ml" (#68504885) · `hasVariants`: false → true
+- **TRUONG_KHAC_BI_DOI** 15410908000019 "Bia Chimay Đỏ 330ml" (#68504885) · `attributes`: [] → [{"name":"NỒNG ĐỘ CỒN","value":"7%"}]
+- **TRUONG_KHAC_BI_DOI** 4054500113797 "Bia Đức Esper Stout 500ml 7.5%" (#68505268) · `fullName`: "Bia Đức Esper Stout 500ml 7.5% (Lon)" → "Bia Đức Esper Stout 500ml 7.5% - 7.5% (Lon)"
+- **TRUONG_KHAC_BI_DOI** 4054500113797 "Bia Đức Esper Stout 500ml 7.5%" (#68505268) · `hasVariants`: false → true
+- **TRUONG_KHAC_BI_DOI** 4054500113797 "Bia Đức Esper Stout 500ml 7.5%" (#68505268) · `attributes`: [] → [{"name":"NỒNG ĐỘ CỒN","value":"7.5%"}]
+- **TRUONG_KHAC_BI_DOI** 4054500613792 "Bia Đức Esper Stout 500ml 7.5%" (#68505269) · `fullName`: "Bia Đức Esper Stout 500ml 7.5% (Thùng)" → "Bia Đức Esper Stout 500ml 7.5% - 7.5% (Thùng)"
+- **TRUONG_KHAC_BI_DOI** 4054500613792 "Bia Đức Esper Stout 500ml 7.5%" (#68505269) · `hasVariants`: false → true
+- **TRUONG_KHAC_BI_DOI** 4054500613792 "Bia Đức Esper Stout 500ml 7.5%" (#68505269) · `attributes`: [] → [{"name":"NỒNG ĐỘ CỒN","value":"7.5%"}]
+- **TRUONG_KHAC_BI_DOI** 5411681408002 "Bia Duvel 666 6,6% Bỉ Chai 330ml" (#68504254) · `fullName`: "Bia Duvel 666 6,6% Bỉ Chai 330ml (Chai)" → "Bia Duvel 666 6,6% Bỉ Chai 330ml - 6.66% (Chai)"
+- **TRUONG_KHAC_BI_DOI** 5411681408002 "Bia Duvel 666 6,6% Bỉ Chai 330ml" (#68504254) · `hasVariants`: false → true
+- **TRUONG_KHAC_BI_DOI** 5411681408002 "Bia Duvel 666 6,6% Bỉ Chai 330ml" (#68504254) · `attributes`: [] → [{"name":"NỒNG ĐỘ CỒN","value":"6.66%"}]
+- **TRUONG_KHAC_BI_DOI** 5411681407951 "Bia Duvel 666 6,6% Bỉ Chai 330ml" (#68504255) · `fullName`: "Bia Duvel 666 6,6% Bỉ Chai 330ml (Thùng)" → "Bia Duvel 666 6,6% Bỉ Chai 330ml - 6.66% (Thùng)"
+- **TRUONG_KHAC_BI_DOI** 5411681407951 "Bia Duvel 666 6,6% Bỉ Chai 330ml" (#68504255) · `hasVariants`: false → true
+- **TRUONG_KHAC_BI_DOI** 5411681407951 "Bia Duvel 666 6,6% Bỉ Chai 330ml" (#68504255) · `attributes`: [] → [{"name":"NỒNG ĐỘ CỒN","value":"6.66%"}]
+- **TRUONG_KHAC_BI_DOI** 4260556082004 "Bia Hamburg Reeper B Đức Lon 500ml 5%" (#68505310) · `fullName`: "Bia Hamburg Reeper B Đức Lon 500ml 5% (Lon)" → "Bia Hamburg Reeper B Đức Lon 500ml 5% - 5% (Lon)"
+- **TRUONG_KHAC_BI_DOI** 4260556082004 "Bia Hamburg Reeper B Đức Lon 500ml 5%" (#68505310) · `hasVariants`: false → true
+- **TRUONG_KHAC_BI_DOI** 4260556082004 "Bia Hamburg Reeper B Đức Lon 500ml 5%" (#68505310) · `attributes`: [] → [{"name":"NỒNG ĐỘ CỒN","value":"5%"}]
+- **TRUONG_KHAC_BI_DOI** SP878310 "Bia Hamburg Reeper B Đức Lon 500ml 5%" (#68505311) · `fullName`: "Bia Hamburg Reeper B Đức Lon 500ml 5% (Thùng)" → "Bia Hamburg Reeper B Đức Lon 500ml 5% - 5% (Thùng)"
+- **TRUONG_KHAC_BI_DOI** SP878310 "Bia Hamburg Reeper B Đức Lon 500ml 5%" (#68505311) · `hasVariants`: false → true
+- **TRUONG_KHAC_BI_DOI** SP878310 "Bia Hamburg Reeper B Đức Lon 500ml 5%" (#68505311) · `attributes`: [] → [{"name":"NỒNG ĐỘ CỒN","value":"5%"}]
+- **TRUONG_KHAC_BI_DOI** 8936000443979 "Bia Hơi Hà Nội Lon 500ml" (#67660844) · `fullName`: "Bia Hơi Hà Nội Lon 500ml (Lon)" → "Bia Hơi Hà Nội Lon 500ml - 4.1% (Lon)"
+- **TRUONG_KHAC_BI_DOI** 8936000443979 "Bia Hơi Hà Nội Lon 500ml" (#67660844) · `hasVariants`: false → true
+- **TRUONG_KHAC_BI_DOI** 8936000443979 "Bia Hơi Hà Nội Lon 500ml" (#67660844) · `attributes`: [] → [{"name":"NỒNG ĐỘ CỒN","value":"4.1%"}]
+- **TRUONG_KHAC_BI_DOI** SP878013 "Bia Hơi Hà Nội Lon 500ml" (#67660845) · `fullName`: "Bia Hơi Hà Nội Lon 500ml (Thùng)" → "Bia Hơi Hà Nội Lon 500ml - 4.1% (Thùng)"
+- **TRUONG_KHAC_BI_DOI** SP878013 "Bia Hơi Hà Nội Lon 500ml" (#67660845) · `hasVariants`: false → true
+- **TRUONG_KHAC_BI_DOI** SP878013 "Bia Hơi Hà Nội Lon 500ml" (#67660845) · `attributes`: [] → [{"name":"NỒNG ĐỘ CỒN","value":"4.1%"}]
+- **TRUONG_KHAC_BI_DOI** 8934692090037 "BIA K BLANC LON 330ML ( Bia 1664 )" (#68503310) · `fullName`: "BIA K BLANC LON 330ML ( Bia 1664 ) (Thùng)" → "BIA K BLANC LON 330ML ( Bia 1664 ) - 5% (Thùng)"
+- **TRUONG_KHAC_BI_DOI** 8934692090037 "BIA K BLANC LON 330ML ( Bia 1664 )" (#68503310) · `hasVariants`: false → true
+- **TRUONG_KHAC_BI_DOI** 8934692090037 "BIA K BLANC LON 330ML ( Bia 1664 )" (#68503310) · `attributes`: [] → [{"name":"NỒNG ĐỘ CỒN","value":"5%"}]
+- **TRUONG_KHAC_BI_DOI** 8934692090020 "BIA K BLANC LON 330ML ( Bia 1664 )" (#64865727) · `fullName`: "BIA K BLANC LON 330ML ( Bia 1664 ) (Lon)" → "BIA K BLANC LON 330ML ( Bia 1664 ) - 5% (Lon)"
+- **TRUONG_KHAC_BI_DOI** 8934692090020 "BIA K BLANC LON 330ML ( Bia 1664 )" (#64865727) · `hasVariants`: false → true
+- **TRUONG_KHAC_BI_DOI** 8934692090020 "BIA K BLANC LON 330ML ( Bia 1664 )" (#64865727) · `attributes`: [] → [{"name":"NỒNG ĐỘ CỒN","value":"5%"}]
+- **TRUONG_KHAC_BI_DOI** 8935012413338 "Bia lon 333 (PAT2)" (#65140174) · `fullName`: "Bia lon 333 (PAT2) (Lon)" → "Bia lon 333 (PAT2) - 5.3% (Lon)"
+- **TRUONG_KHAC_BI_DOI** 8935012413338 "Bia lon 333 (PAT2)" (#65140174) · `hasVariants`: false → true
+- **TRUONG_KHAC_BI_DOI** 8935012413338 "Bia lon 333 (PAT2)" (#65140174) · `attributes`: [] → [{"name":"NỒNG ĐỘ CỒN","value":"5.3%"}]
+- **TRUONG_KHAC_BI_DOI** SP877117 "Bia lon 333 (PAT2)" (#65141814) · `fullName`: "Bia lon 333 (PAT2) (Thùng)" → "Bia lon 333 (PAT2) - 5.3% (Thùng)"
+- **TRUONG_KHAC_BI_DOI** SP877117 "Bia lon 333 (PAT2)" (#65141814) · `hasVariants`: false → true
+- **TRUONG_KHAC_BI_DOI** SP877117 "Bia lon 333 (PAT2)" (#65141814) · `attributes`: [] → [{"name":"NỒNG ĐỘ CỒN","value":"5.3%"}]
+- **TRUONG_KHAC_BI_DOI** 4054500011383 "Bia Lúa Mạch Đức Cây Sồi Eichbaum Strong Lon 500ml 7.9%" (#68505216) · `fullName`: "Bia Lúa Mạch Đức Cây Sồi Eichbaum Strong Lon 500ml 7.9% (Lon)" → "Bia Lúa Mạch Đức Cây Sồi Eichbaum Strong Lon 500ml 7.9% - 7.9% (Lon)"
+- **TRUONG_KHAC_BI_DOI** 4054500011383 "Bia Lúa Mạch Đức Cây Sồi Eichbaum Strong Lon 500ml 7.9%" (#68505216) · `hasVariants`: false → true
+- **TRUONG_KHAC_BI_DOI** 4054500011383 "Bia Lúa Mạch Đức Cây Sồi Eichbaum Strong Lon 500ml 7.9%" (#68505216) · `attributes`: [] → [{"name":"NỒNG ĐỘ CỒN","value":"7.9%"}]
+- **TRUONG_KHAC_BI_DOI** 4054500611590 "Bia Lúa Mạch Đức Cây Sồi Eichbaum Strong Lon 500ml 7.9%" (#68505218) · `fullName`: "Bia Lúa Mạch Đức Cây Sồi Eichbaum Strong Lon 500ml 7.9% (Thùng)" → "Bia Lúa Mạch Đức Cây Sồi Eichbaum Strong Lon 500ml 7.9% - 7.9% (Thùng)"
+- **TRUONG_KHAC_BI_DOI** 4054500611590 "Bia Lúa Mạch Đức Cây Sồi Eichbaum Strong Lon 500ml 7.9%" (#68505218) · `hasVariants`: false → true
+- **TRUONG_KHAC_BI_DOI** 4054500611590 "Bia Lúa Mạch Đức Cây Sồi Eichbaum Strong Lon 500ml 7.9%" (#68505218) · `attributes`: [] → [{"name":"NỒNG ĐỘ CỒN","value":"7.9%"}]
+- **TRUONG_KHAC_BI_DOI** 8935012443304 "Bia Saigon Special Lon 330 – 24 NCP1 2025 (SP33_25N1)" (#64865840) · `fullName`: "Bia Saigon Special Lon 330 – 24 NCP1 2025 (SP33_25N1) (Lon)" → "Bia Saigon Special Lon 330 – 24 NCP1 2025 (SP33_25N1) - 4.9% (Lon)"
+- **TRUONG_KHAC_BI_DOI** 8935012443304 "Bia Saigon Special Lon 330 – 24 NCP1 2025 (SP33_25N1)" (#64865840) · `hasVariants`: false → true
+- **TRUONG_KHAC_BI_DOI** 8935012443304 "Bia Saigon Special Lon 330 – 24 NCP1 2025 (SP33_25N1)" (#64865840) · `attributes`: [] → [{"name":"NỒNG ĐỘ CỒN","value":"4.9%"}]
+- **TRUONG_KHAC_BI_DOI** SP877114 "Bia Saigon Special Lon 330 – 24 NCP1 2025 (SP33_25N1)" (#65140482) · `fullName`: "Bia Saigon Special Lon 330 – 24 NCP1 2025 (SP33_25N1) (Thùng)" → "Bia Saigon Special Lon 330 – 24 NCP1 2025 (SP33_25N1) - 4.9% (Thùng)"
+- **TRUONG_KHAC_BI_DOI** SP877114 "Bia Saigon Special Lon 330 – 24 NCP1 2025 (SP33_25N1)" (#65140482) · `hasVariants`: false → true
+- **TRUONG_KHAC_BI_DOI** SP877114 "Bia Saigon Special Lon 330 – 24 NCP1 2025 (SP33_25N1)" (#65140482) · `attributes`: [] → [{"name":"NỒNG ĐỘ CỒN","value":"4.9%"}]
+- **TRUONG_KHAC_BI_DOI** 8936061260447 "Bia Sapporo 500ml" (#68503620) · `fullName`: "Bia Sapporo 500ml (Lon)" → "Bia Sapporo 500ml - 5% (Lon)"
+- **TRUONG_KHAC_BI_DOI** 8936061260447 "Bia Sapporo 500ml" (#68503620) · `hasVariants`: false → true
+- **TRUONG_KHAC_BI_DOI** 8936061260447 "Bia Sapporo 500ml" (#68503620) · `attributes`: [] → [{"name":"NỒNG ĐỘ CỒN","value":"5%"}]
+- **TRUONG_KHAC_BI_DOI** 8936061260454 "Bia Sapporo 500ml" (#68503622) · `fullName`: "Bia Sapporo 500ml (Thùng)" → "Bia Sapporo 500ml - 5% (Thùng)"
+- **TRUONG_KHAC_BI_DOI** 8936061260454 "Bia Sapporo 500ml" (#68503622) · `hasVariants`: false → true
+- **TRUONG_KHAC_BI_DOI** 8936061260454 "Bia Sapporo 500ml" (#68503622) · `attributes`: [] → [{"name":"NỒNG ĐỘ CỒN","value":"5%"}]
+- **TRUONG_KHAC_BI_DOI** 8934822823252 "Bia Tiger Crystal 250x24C SLK Ctn 13" (#67139613) · `fullName`: "Bia Tiger Crystal 250x24C SLK Ctn 13 (Lon)" → "Bia Tiger Crystal 250x24C SLK Ctn 13 - 4.6% (Lon)"
+- **TRUONG_KHAC_BI_DOI** 8934822823252 "Bia Tiger Crystal 250x24C SLK Ctn 13" (#67139613) · `hasVariants`: false → true
+- **TRUONG_KHAC_BI_DOI** 8934822823252 "Bia Tiger Crystal 250x24C SLK Ctn 13" (#67139613) · `attributes`: [] → [{"name":"NỒNG ĐỘ CỒN","value":"4.6%"}]
+- **TRUONG_KHAC_BI_DOI** SP877913 "Bia Tiger Crystal 250x24C SLK Ctn 13" (#67139614) · `fullName`: "Bia Tiger Crystal 250x24C SLK Ctn 13 (Thùng)" → "Bia Tiger Crystal 250x24C SLK Ctn 13 - 4.6% (Thùng)"
+- **TRUONG_KHAC_BI_DOI** SP877913 "Bia Tiger Crystal 250x24C SLK Ctn 13" (#67139614) · `hasVariants`: false → true
+- **TRUONG_KHAC_BI_DOI** SP877913 "Bia Tiger Crystal 250x24C SLK Ctn 13" (#67139614) · `attributes`: [] → [{"name":"NỒNG ĐỘ CỒN","value":"4.6%"}]
+- **TRUONG_KHAC_BI_DOI** SP877720 "Bia Tiger Crystal 330ml" (#66436664) · `fullName`: "Bia Tiger Crystal 330ml (Thùng)" → "Bia Tiger Crystal 330ml - 4.6% (Thùng)"
+- **TRUONG_KHAC_BI_DOI** SP877720 "Bia Tiger Crystal 330ml" (#66436664) · `hasVariants`: false → true
+- **TRUONG_KHAC_BI_DOI** SP877720 "Bia Tiger Crystal 330ml" (#66436664) · `attributes`: [] → [{"name":"NỒNG ĐỘ CỒN","value":"4.6%"}]
+- **TRUONG_KHAC_BI_DOI** 8934822801335 "Bia Tiger Crystal 330ml" (#65217095) · `fullName`: "Bia Tiger Crystal 330ml (Lon)" → "Bia Tiger Crystal 330ml - 4.6% (Lon)"
+- **TRUONG_KHAC_BI_DOI** 8934822801335 "Bia Tiger Crystal 330ml" (#65217095) · `hasVariants`: false → true
+- **TRUONG_KHAC_BI_DOI** 8934822801335 "Bia Tiger Crystal 330ml" (#65217095) · `attributes`: [] → [{"name":"NỒNG ĐỘ CỒN","value":"4.6%"}]
+- **TRUONG_KHAC_BI_DOI** 5411686700118 "Bia Trái Cây Liefmans Fruitesse 3.8%" (#68503890) · `fullName`: "Bia Trái Cây Liefmans Fruitesse 3.8% (Chai)" → "Bia Trái Cây Liefmans Fruitesse 3.8% - 3.8% (Chai)"
+- **TRUONG_KHAC_BI_DOI** 5411686700118 "Bia Trái Cây Liefmans Fruitesse 3.8%" (#68503890) · `hasVariants`: false → true
+- **TRUONG_KHAC_BI_DOI** 5411686700118 "Bia Trái Cây Liefmans Fruitesse 3.8%" (#68503890) · `attributes`: [] → [{"name":"NỒNG ĐỘ CỒN","value":"3.8%"}]
+- **TRUONG_KHAC_BI_DOI** 15411686700191 "Bia Trái Cây Liefmans Fruitesse 3.8%" (#68503891) · `fullName`: "Bia Trái Cây Liefmans Fruitesse 3.8% (Thùng)" → "Bia Trái Cây Liefmans Fruitesse 3.8% - 3.8% (Thùng)"
+- **TRUONG_KHAC_BI_DOI** 15411686700191 "Bia Trái Cây Liefmans Fruitesse 3.8%" (#68503891) · `hasVariants`: false → true
+- **TRUONG_KHAC_BI_DOI** 15411686700191 "Bia Trái Cây Liefmans Fruitesse 3.8%" (#68503891) · `attributes`: [] → [{"name":"NỒNG ĐỘ CỒN","value":"3.8%"}]
+- **TRUONG_KHAC_BI_DOI** 8934692040056 "Bia Tuborg" (#64865514) · `fullName`: "Bia Tuborg (Lon)" → "Bia Tuborg - 4.3% (Lon)"
+- **TRUONG_KHAC_BI_DOI** 8934692040056 "Bia Tuborg" (#64865514) · `hasVariants`: false → true
+- **TRUONG_KHAC_BI_DOI** 8934692040056 "Bia Tuborg" (#64865514) · `attributes`: [] → [{"name":"NỒNG ĐỘ CỒN","value":"4.3%"}]
+- **TRUONG_KHAC_BI_DOI** 8934692040018 "Bia Tuborg lon 330ml" (#64865515) · `fullName`: "Bia Tuborg lon 330ml (Lon)" → "Bia Tuborg lon 330ml - 4.6% (Lon)"
+- **TRUONG_KHAC_BI_DOI** 8934692040018 "Bia Tuborg lon 330ml" (#64865515) · `hasVariants`: false → true
+- **TRUONG_KHAC_BI_DOI** 8934692040018 "Bia Tuborg lon 330ml" (#64865515) · `attributes`: [] → [{"name":"NỒNG ĐỘ CỒN","value":"4.6%"}]
+- **TRUONG_KHAC_BI_DOI** 8938519351004 "Bia tươi Camel 1 Lít*8" (#65960617) · `fullName`: "Bia tươi Camel 1 Lít*8 (Chai)" → "Bia tươi Camel 1 Lít*8 - 4.5% (Chai)"
+- **TRUONG_KHAC_BI_DOI** 8938519351004 "Bia tươi Camel 1 Lít*8" (#65960617) · `hasVariants`: false → true
+- **TRUONG_KHAC_BI_DOI** 8938519351004 "Bia tươi Camel 1 Lít*8" (#65960617) · `attributes`: [] → [{"name":"NỒNG ĐỘ CỒN","value":"4.5%"}]
+- **TRUONG_KHAC_BI_DOI** SP877559 "Bia tươi Camel 1 Lít*8" (#65960618) · `fullName`: "Bia tươi Camel 1 Lít*8 (Thùng)" → "Bia tươi Camel 1 Lít*8 - 4.5% (Thùng)"
+- **TRUONG_KHAC_BI_DOI** SP877559 "Bia tươi Camel 1 Lít*8" (#65960618) · `hasVariants`: false → true
+- **TRUONG_KHAC_BI_DOI** SP877559 "Bia tươi Camel 1 Lít*8" (#65960618) · `attributes`: [] → [{"name":"NỒNG ĐỘ CỒN","value":"4.5%"}]
+- **TRUONG_KHAC_BI_DOI** 8938519351011 "Bia Tươi Camel 2LIT" (#65960655) · `fullName`: "Bia Tươi Camel 2LIT (Bình)" → "Bia Tươi Camel 2LIT - 4.5% (Bình)"
+- **TRUONG_KHAC_BI_DOI** 8938519351011 "Bia Tươi Camel 2LIT" (#65960655) · `hasVariants`: false → true
+- **TRUONG_KHAC_BI_DOI** 8938519351011 "Bia Tươi Camel 2LIT" (#65960655) · `attributes`: [] → [{"name":"NỒNG ĐỘ CỒN","value":"4.5%"}]
+- **TRUONG_KHAC_BI_DOI** SP877560 "Bia Tươi Camel 2LIT" (#65960656) · `fullName`: "Bia Tươi Camel 2LIT (Thùng)" → "Bia Tươi Camel 2LIT - 4.5% (Thùng)"
+- **TRUONG_KHAC_BI_DOI** SP877560 "Bia Tươi Camel 2LIT" (#65960656) · `hasVariants`: false → true
+- **TRUONG_KHAC_BI_DOI** SP877560 "Bia Tươi Camel 2LIT" (#65960656) · `attributes`: [] → [{"name":"NỒNG ĐỘ CỒN","value":"4.5%"}]
+- **TRUONG_KHAC_BI_DOI** 5410769100081 "Bia Vàng La Chouffe 8% Bỉ Chai 330ml" (#68504648) · `fullName`: "Bia Vàng La Chouffe 8% Bỉ Chai 330ml (Chai)" → "Bia Vàng La Chouffe 8% Bỉ Chai 330ml - 8% (Chai)"
+- **TRUONG_KHAC_BI_DOI** 5410769100081 "Bia Vàng La Chouffe 8% Bỉ Chai 330ml" (#68504648) · `hasVariants`: false → true
+- **TRUONG_KHAC_BI_DOI** 5410769100081 "Bia Vàng La Chouffe 8% Bỉ Chai 330ml" (#68504648) · `attributes`: [] → [{"name":"NỒNG ĐỘ CỒN","value":"8%"}]
+- **TRUONG_KHAC_BI_DOI** 5410769100388 "Bia Vàng La Chouffe 8% Bỉ Chai 330ml" (#68504649) · `fullName`: "Bia Vàng La Chouffe 8% Bỉ Chai 330ml (Thùng)" → "Bia Vàng La Chouffe 8% Bỉ Chai 330ml - 8% (Thùng)"
+- **TRUONG_KHAC_BI_DOI** 5410769100388 "Bia Vàng La Chouffe 8% Bỉ Chai 330ml" (#68504649) · `hasVariants`: false → true
+- **TRUONG_KHAC_BI_DOI** 5410769100388 "Bia Vàng La Chouffe 8% Bỉ Chai 330ml" (#68504649) · `attributes`: [] → [{"name":"NỒNG ĐỘ CỒN","value":"8%"}]
+- **TRUONG_KHAC_BI_DOI** 6975948330080 "Bia Vedett White 4,3% Chai 330ml" (#68504802) · `fullName`: "Bia Vedett White 4,3% Chai 330ml (Chai)" → "Bia Vedett White 4,3% Chai 330ml - 4.3% (Chai)"
+- **TRUONG_KHAC_BI_DOI** 6975948330080 "Bia Vedett White 4,3% Chai 330ml" (#68504802) · `hasVariants`: false → true
+- **TRUONG_KHAC_BI_DOI** 6975948330080 "Bia Vedett White 4,3% Chai 330ml" (#68504802) · `attributes`: [] → [{"name":"NỒNG ĐỘ CỒN","value":"4.3%"}]
+- **TRUONG_KHAC_BI_DOI** 16975948330025 "Bia Vedett White 4,3% Chai 330ml" (#68504803) · `fullName`: "Bia Vedett White 4,3% Chai 330ml (Thùng)" → "Bia Vedett White 4,3% Chai 330ml - 4.3% (Thùng)"
+- **TRUONG_KHAC_BI_DOI** 16975948330025 "Bia Vedett White 4,3% Chai 330ml" (#68504803) · `hasVariants`: false → true
+- **TRUONG_KHAC_BI_DOI** 16975948330025 "Bia Vedett White 4,3% Chai 330ml" (#68504803) · `attributes`: [] → [{"name":"NỒNG ĐỘ CỒN","value":"4.3%"}]
+- **TRUONG_KHAC_BI_DOI** 8936185351366 "Chill Cocktail Light Đào Thùng 24 lon 320ml" (#65925391) · `fullName`: "Chill Cocktail Light Đào Thùng 24 lon 320ml (Lon)" → "Chill Cocktail Light Đào Thùng 24 lon 320ml - 3% (Lon)"
+- **TRUONG_KHAC_BI_DOI** 8936185351366 "Chill Cocktail Light Đào Thùng 24 lon 320ml" (#65925391) · `hasVariants`: false → true
+- **TRUONG_KHAC_BI_DOI** 8936185351366 "Chill Cocktail Light Đào Thùng 24 lon 320ml" (#65925391) · `attributes`: [] → [{"name":"NỒNG ĐỘ CỒN","value":"3%"}]
+- **TRUONG_KHAC_BI_DOI** SP877547 "Chill Cocktail Light Đào Thùng 24 lon 320ml" (#65925392) · `fullName`: "Chill Cocktail Light Đào Thùng 24 lon 320ml (Thùng)" → "Chill Cocktail Light Đào Thùng 24 lon 320ml - 3% (Thùng)"
+- **TRUONG_KHAC_BI_DOI** SP877547 "Chill Cocktail Light Đào Thùng 24 lon 320ml" (#65925392) · `hasVariants`: false → true
+- **TRUONG_KHAC_BI_DOI** SP877547 "Chill Cocktail Light Đào Thùng 24 lon 320ml" (#65925392) · `attributes`: [] → [{"name":"NỒNG ĐỘ CỒN","value":"3%"}]
+- **TRUONG_KHAC_BI_DOI** 8936185351380 "Chill Cocktail Light Dâu Thùng 24 lon 320ml" (#65925359) · `fullName`: "Chill Cocktail Light Dâu Thùng 24 lon 320ml (Lon)" → "Chill Cocktail Light Dâu Thùng 24 lon 320ml - 3% (Lon)"
+- **TRUONG_KHAC_BI_DOI** 8936185351380 "Chill Cocktail Light Dâu Thùng 24 lon 320ml" (#65925359) · `hasVariants`: false → true
+- **TRUONG_KHAC_BI_DOI** 8936185351380 "Chill Cocktail Light Dâu Thùng 24 lon 320ml" (#65925359) · `attributes`: [] → [{"name":"NỒNG ĐỘ CỒN","value":"3%"}]
+- **TRUONG_KHAC_BI_DOI** SP877546 "Chill Cocktail Light Dâu Thùng 24 lon 320ml" (#65925361) · `fullName`: "Chill Cocktail Light Dâu Thùng 24 lon 320ml (Thùng)" → "Chill Cocktail Light Dâu Thùng 24 lon 320ml - 3% (Thùng)"
+- **TRUONG_KHAC_BI_DOI** SP877546 "Chill Cocktail Light Dâu Thùng 24 lon 320ml" (#65925361) · `hasVariants`: false → true
+- **TRUONG_KHAC_BI_DOI** SP877546 "Chill Cocktail Light Dâu Thùng 24 lon 320ml" (#65925361) · `attributes`: [] → [{"name":"NỒNG ĐỘ CỒN","value":"3%"}]
+- **TRUONG_KHAC_BI_DOI** 8936185354190 "Chill Cocktail Light Dứa Thùng 12" (#65925596) · `fullName`: "Chill Cocktail Light Dứa Thùng 12 (Lon)" → "Chill Cocktail Light Dứa Thùng 12 - 3% (Lon)"
+- **TRUONG_KHAC_BI_DOI** 8936185354190 "Chill Cocktail Light Dứa Thùng 12" (#65925596) · `hasVariants`: false → true
+- **TRUONG_KHAC_BI_DOI** 8936185354190 "Chill Cocktail Light Dứa Thùng 12" (#65925596) · `attributes`: [] → [{"name":"NỒNG ĐỘ CỒN","value":"3%"}]
+- **TRUONG_KHAC_BI_DOI** SP877579 "Chill Cocktail Light Dứa Thùng 12" (#66003108) · `fullName`: "Chill Cocktail Light Dứa Thùng 12 (Thùng)" → "Chill Cocktail Light Dứa Thùng 12 - 3% (Thùng)"
+- **TRUONG_KHAC_BI_DOI** SP877579 "Chill Cocktail Light Dứa Thùng 12" (#66003108) · `hasVariants`: false → true
+- **TRUONG_KHAC_BI_DOI** SP877579 "Chill Cocktail Light Dứa Thùng 12" (#66003108) · `attributes`: [] → [{"name":"NỒNG ĐỘ CỒN","value":"3%"}]
+- **TRUONG_KHAC_BI_DOI** 8936185351410 "Chill Cocktail Light Nho Thùng 24 lon 320ml" (#65925188) · `fullName`: "Chill Cocktail Light Nho Thùng 24 lon 320ml (Lon)" → "Chill Cocktail Light Nho Thùng 24 lon 320ml - 3% (Lon)"
+- **TRUONG_KHAC_BI_DOI** 8936185351410 "Chill Cocktail Light Nho Thùng 24 lon 320ml" (#65925188) · `hasVariants`: false → true
+- **TRUONG_KHAC_BI_DOI** 8936185351410 "Chill Cocktail Light Nho Thùng 24 lon 320ml" (#65925188) · `attributes`: [] → [{"name":"NỒNG ĐỘ CỒN","value":"3%"}]
+- **TRUONG_KHAC_BI_DOI** SP877544 "Chill Cocktail Light Nho Thùng 24 lon 320ml" (#65925190) · `fullName`: "Chill Cocktail Light Nho Thùng 24 lon 320ml (Thùng)" → "Chill Cocktail Light Nho Thùng 24 lon 320ml - 3% (Thùng)"
+- **TRUONG_KHAC_BI_DOI** SP877544 "Chill Cocktail Light Nho Thùng 24 lon 320ml" (#65925190) · `hasVariants`: false → true
+- **TRUONG_KHAC_BI_DOI** SP877544 "Chill Cocktail Light Nho Thùng 24 lon 320ml" (#65925190) · `attributes`: [] → [{"name":"NỒNG ĐỘ CỒN","value":"3%"}]
+- **TRUONG_KHAC_BI_DOI** 8936185351373 "Chill Cocktail Light Vải Hoa Hồng Thùng 24 lon 320ml" (#65925417) · `fullName`: "Chill Cocktail Light Vải Hoa Hồng Thùng 24 lon 320ml (Lon)" → "Chill Cocktail Light Vải Hoa Hồng Thùng 24 lon 320ml - 3% (Lon)"
+- **TRUONG_KHAC_BI_DOI** 8936185351373 "Chill Cocktail Light Vải Hoa Hồng Thùng 24 lon 320ml" (#65925417) · `hasVariants`: false → true
+- **TRUONG_KHAC_BI_DOI** 8936185351373 "Chill Cocktail Light Vải Hoa Hồng Thùng 24 lon 320ml" (#65925417) · `attributes`: [] → [{"name":"NỒNG ĐỘ CỒN","value":"3%"}]
+- **TRUONG_KHAC_BI_DOI** SP877548 "Chill Cocktail Light Vải Hoa Hồng Thùng 24 lon 320ml" (#65925419) · `fullName`: "Chill Cocktail Light Vải Hoa Hồng Thùng 24 lon 320ml (Thùng)" → "Chill Cocktail Light Vải Hoa Hồng Thùng 24 lon 320ml - 3% (Thùng)"
+- **TRUONG_KHAC_BI_DOI** SP877548 "Chill Cocktail Light Vải Hoa Hồng Thùng 24 lon 320ml" (#65925419) · `hasVariants`: false → true
+- **TRUONG_KHAC_BI_DOI** SP877548 "Chill Cocktail Light Vải Hoa Hồng Thùng 24 lon 320ml" (#65925419) · `attributes`: [] → [{"name":"NỒNG ĐỘ CỒN","value":"3%"}]
+- **TRUONG_KHAC_BI_DOI** 8936185351397 "Chill Cocktail Light Việt Quất Thùng 24 lon 320ml" (#65925328) · `fullName`: "Chill Cocktail Light Việt Quất Thùng 24 lon 320ml (Lon)" → "Chill Cocktail Light Việt Quất Thùng 24 lon 320ml - 3% (Lon)"
+- **TRUONG_KHAC_BI_DOI** 8936185351397 "Chill Cocktail Light Việt Quất Thùng 24 lon 320ml" (#65925328) · `hasVariants`: false → true
+- **TRUONG_KHAC_BI_DOI** 8936185351397 "Chill Cocktail Light Việt Quất Thùng 24 lon 320ml" (#65925328) · `attributes`: [] → [{"name":"NỒNG ĐỘ CỒN","value":"3%"}]
+- **TRUONG_KHAC_BI_DOI** SP877545 "Chill Cocktail Light Việt Quất Thùng 24 lon 320ml" (#65925329) · `fullName`: "Chill Cocktail Light Việt Quất Thùng 24 lon 320ml (Thùng)" → "Chill Cocktail Light Việt Quất Thùng 24 lon 320ml - 3% (Thùng)"
+- **TRUONG_KHAC_BI_DOI** SP877545 "Chill Cocktail Light Việt Quất Thùng 24 lon 320ml" (#65925329) · `hasVariants`: false → true
+- **TRUONG_KHAC_BI_DOI** SP877545 "Chill Cocktail Light Việt Quất Thùng 24 lon 320ml" (#65925329) · `attributes`: [] → [{"name":"NỒNG ĐỘ CỒN","value":"3%"}]
+- **TRUONG_KHAC_BI_DOI** 6915878224219 "CORONA 11.3P250ML 1×24 CartonOW- VNEXP ( Bia Corona Chai 250ml )" (#68503450) · `fullName`: "CORONA 11.3P250ML 1×24 CartonOW- VNEXP ( Bia Corona Chai 250ml ) (Chai)" → "CORONA 11.3P250ML 1×24 CartonOW- VNEXP ( Bia Corona Chai 250ml ) - 4.5% (Chai)"
+- **TRUONG_KHAC_BI_DOI** 6915878224219 "CORONA 11.3P250ML 1×24 CartonOW- VNEXP ( Bia Corona Chai 250ml )" (#68503450) · `hasVariants`: false → true
+- **TRUONG_KHAC_BI_DOI** 6915878224219 "CORONA 11.3P250ML 1×24 CartonOW- VNEXP ( Bia Corona Chai 250ml )" (#68503450) · `attributes`: [] → [{"name":"NỒNG ĐỘ CỒN","value":"4.5%"}]
+- **TRUONG_KHAC_BI_DOI** 6915878224226 "CORONA 11.3P250ML 1×24 CartonOW- VNEXP ( Bia Corona Chai 250ml )" (#68503452) · `fullName`: "CORONA 11.3P250ML 1×24 CartonOW- VNEXP ( Bia Corona Chai 250ml ) (Thùng)" → "CORONA 11.3P250ML 1×24 CartonOW- VNEXP ( Bia Corona Chai 250ml ) - 4.5% (Thùng)"
+- **TRUONG_KHAC_BI_DOI** 6915878224226 "CORONA 11.3P250ML 1×24 CartonOW- VNEXP ( Bia Corona Chai 250ml )" (#68503452) · `hasVariants`: false → true
+- **TRUONG_KHAC_BI_DOI** 6915878224226 "CORONA 11.3P250ML 1×24 CartonOW- VNEXP ( Bia Corona Chai 250ml )" (#68503452) · `attributes`: [] → [{"name":"NỒNG ĐỘ CỒN","value":"4.5%"}]
+- **TRUONG_KHAC_BI_DOI** 8934822111298 "Đồ uống lên men Strongbow Gold Apple vị táo vàng 330ml" (#66397852) · `fullName`: "Đồ uống lên men Strongbow Gold Apple vị táo vàng 330ml (Lon)" → "Đồ uống lên men Strongbow Gold Apple vị táo vàng 330ml - 4.5% (Lon)"
+- **TRUONG_KHAC_BI_DOI** 8934822111298 "Đồ uống lên men Strongbow Gold Apple vị táo vàng 330ml" (#66397852) · `hasVariants`: false → true
+- **TRUONG_KHAC_BI_DOI** 8934822111298 "Đồ uống lên men Strongbow Gold Apple vị táo vàng 330ml" (#66397852) · `attributes`: [] → [{"name":"NỒNG ĐỘ CỒN","value":"4.5%"}]
+- **TRUONG_KHAC_BI_DOI** 082184000052 "Jack daniels 5ml" (#65977062) · `fullName`: "Jack daniels 5ml (Chai)" → "Jack daniels 5ml - 40% (Chai)"
+- **TRUONG_KHAC_BI_DOI** 082184000052 "Jack daniels 5ml" (#65977062) · `hasVariants`: false → true
+- **TRUONG_KHAC_BI_DOI** 082184000052 "Jack daniels 5ml" (#65977062) · `attributes`: [] → [{"name":"NỒNG ĐỘ CỒN","value":"40%"}]
+- **TRUONG_KHAC_BI_DOI** 5010278100710 "Jimbeam black cherry" (#65977026) · `fullName`: "Jimbeam black cherry (Chai)" → "Jimbeam black cherry - 32.5% (Chai)"
+- **TRUONG_KHAC_BI_DOI** 5010278100710 "Jimbeam black cherry" (#65977026) · `hasVariants`: false → true
+- **TRUONG_KHAC_BI_DOI** 5010278100710 "Jimbeam black cherry" (#65977026) · `attributes`: [] → [{"name":"NỒNG ĐỘ CỒN","value":"32.5%"}]
+- **TRUONG_KHAC_BI_DOI** 8809018212038 "Pt-rượu Soju hq Damso Original truyền thống 17%vol 360ml T20C" (#65200090) · `fullName`: "Pt-rượu Soju hq Damso Original truyền thống 17%vol 360ml T20C (Chai)" → "Pt-rượu Soju hq Damso Original truyền thống 17%vol 360ml T20C - 17% (Chai)"
+- **TRUONG_KHAC_BI_DOI** 8809018212038 "Pt-rượu Soju hq Damso Original truyền thống 17%vol 360ml T20C" (#65200090) · `hasVariants`: false → true
+- **TRUONG_KHAC_BI_DOI** 8809018212038 "Pt-rượu Soju hq Damso Original truyền thống 17%vol 360ml T20C" (#65200090) · `attributes`: [] → [{"name":"NỒNG ĐỘ CỒN","value":"17%"}]
+- **TRUONG_KHAC_BI_DOI** 8809018212120 "Pt-rượu Soju hq Damso vị lychee vải 12%vol 350ml T20C" (#65200505) · `fullName`: "Pt-rượu Soju hq Damso vị lychee vải 12%vol 350ml T20C (Chai)" → "Pt-rượu Soju hq Damso vị lychee vải 12%vol 350ml T20C - 12% (Chai)"
+- **TRUONG_KHAC_BI_DOI** 8809018212120 "Pt-rượu Soju hq Damso vị lychee vải 12%vol 350ml T20C" (#65200505) · `hasVariants`: false → true
+- **TRUONG_KHAC_BI_DOI** 8809018212120 "Pt-rượu Soju hq Damso vị lychee vải 12%vol 350ml T20C" (#65200505) · `attributes`: [] → [{"name":"NỒNG ĐỘ CỒN","value":"12%"}]
+- **TRUONG_KHAC_BI_DOI** 7312040090709 "Rượu Absolut citron Vodka 700ml" (#65977092) · `fullName`: "Rượu Absolut citron Vodka 700ml (Chai)" → "Rượu Absolut citron Vodka 700ml - 40% (Chai)"
+- **TRUONG_KHAC_BI_DOI** 7312040090709 "Rượu Absolut citron Vodka 700ml" (#65977092) · `hasVariants`: false → true
+- **TRUONG_KHAC_BI_DOI** 7312040090709 "Rượu Absolut citron Vodka 700ml" (#65977092) · `attributes`: [] → [{"name":"NỒNG ĐỘ CỒN","value":"40%"}]
+- **TRUONG_KHAC_BI_DOI** 7312040017683 "Rượu Absolut vodka 12x70CL" (#65510116) · `fullName`: "Rượu Absolut vodka 12x70CL (Chai)" → "Rượu Absolut vodka 12x70CL - 40% (Chai)"
+- **TRUONG_KHAC_BI_DOI** 7312040017683 "Rượu Absolut vodka 12x70CL" (#65510116) · `hasVariants`: false → true
+- **TRUONG_KHAC_BI_DOI** 7312040017683 "Rượu Absolut vodka 12x70CL" (#65510116) · `attributes`: [] → [{"name":"NỒNG ĐỘ CỒN","value":"40%"}]
+- **TRUONG_KHAC_BI_DOI** 8938528985863 "RƯỢU CHANH GIẤY MIỀN TÂY 100ML" (#68563904) · `fullName`: "RƯỢU CHANH GIẤY MIỀN TÂY 100ML (Chai)" → "RƯỢU CHANH GIẤY MIỀN TÂY 100ML - 19% (Chai)"
+- **TRUONG_KHAC_BI_DOI** 8938528985863 "RƯỢU CHANH GIẤY MIỀN TÂY 100ML" (#68563904) · `hasVariants`: false → true
+- **TRUONG_KHAC_BI_DOI** 8938528985863 "RƯỢU CHANH GIẤY MIỀN TÂY 100ML" (#68563904) · `attributes`: [] → [{"name":"NỒNG ĐỘ CỒN","value":"19%"}]
+- **TRUONG_KHAC_BI_DOI** 8850952588321 "Rượu Cocktail Fruitales Chill On The Beach 12% Chai 275ml" (#67844615) · `fullName`: "Rượu Cocktail Fruitales Chill On The Beach 12% Chai 275ml (Chai)" → "Rượu Cocktail Fruitales Chill On The Beach 12% Chai 275ml - 12% (Chai)"
+- **TRUONG_KHAC_BI_DOI** 8850952588321 "Rượu Cocktail Fruitales Chill On The Beach 12% Chai 275ml" (#67844615) · `hasVariants`: false → true
+- **TRUONG_KHAC_BI_DOI** 8850952588321 "Rượu Cocktail Fruitales Chill On The Beach 12% Chai 275ml" (#67844615) · `attributes`: [] → [{"name":"NỒNG ĐỘ CỒN","value":"12%"}]
+- **TRUONG_KHAC_BI_DOI** 8850952588123 "Rượu Cocktail Fruitales Negroni 12% Chai 275ml" (#67844624) · `fullName`: "Rượu Cocktail Fruitales Negroni 12% Chai 275ml (Chai)" → "Rượu Cocktail Fruitales Negroni 12% Chai 275ml - 12% (Chai)"
+- **TRUONG_KHAC_BI_DOI** 8850952588123 "Rượu Cocktail Fruitales Negroni 12% Chai 275ml" (#67844624) · `hasVariants`: false → true
+- **TRUONG_KHAC_BI_DOI** 8850952588123 "Rượu Cocktail Fruitales Negroni 12% Chai 275ml" (#67844624) · `attributes`: [] → [{"name":"NỒNG ĐỘ CỒN","value":"12%"}]
+- **TRUONG_KHAC_BI_DOI** 8850952588420 "Rượu Cocktail Fruitales Pina Colada 12% Chai 275ml" (#67844631) · `fullName`: "Rượu Cocktail Fruitales Pina Colada 12% Chai 275ml (Chai)" → "Rượu Cocktail Fruitales Pina Colada 12% Chai 275ml - 12% (Chai)"
+- **TRUONG_KHAC_BI_DOI** 8850952588420 "Rượu Cocktail Fruitales Pina Colada 12% Chai 275ml" (#67844631) · `hasVariants`: false → true
+- **TRUONG_KHAC_BI_DOI** 8850952588420 "Rượu Cocktail Fruitales Pina Colada 12% Chai 275ml" (#67844631) · `attributes`: [] → [{"name":"NỒNG ĐỘ CỒN","value":"12%"}]
+- **TRUONG_KHAC_BI_DOI** 8938528985382 "RƯỢU EM MƠ 375ML" (#68563786) · `fullName`: "RƯỢU EM MƠ 375ML (Chai)" → "RƯỢU EM MƠ 375ML - 29.5% (Chai)"
+- **TRUONG_KHAC_BI_DOI** 8938528985382 "RƯỢU EM MƠ 375ML" (#68563786) · `hasVariants`: false → true
+- **TRUONG_KHAC_BI_DOI** 8938528985382 "RƯỢU EM MƠ 375ML" (#68563786) · `attributes`: [] → [{"name":"NỒNG ĐỘ CỒN","value":"29.5%"}]
+- **TRUONG_KHAC_BI_DOI** 7640175745615 "Rượu Gin bombay sapphire 40% chai 750ml" (#65977113) · `fullName`: "Rượu Gin bombay sapphire 40% chai 750ml (Chai)" → "Rượu Gin bombay sapphire 40% chai 750ml - 40% (Chai)"
+- **TRUONG_KHAC_BI_DOI** 7640175745615 "Rượu Gin bombay sapphire 40% chai 750ml" (#65977113) · `hasVariants`: false → true
+- **TRUONG_KHAC_BI_DOI** 7640175745615 "Rượu Gin bombay sapphire 40% chai 750ml" (#65977113) · `attributes`: [] → [{"name":"NỒNG ĐỘ CỒN","value":"40%"}]
+- **TRUONG_KHAC_BI_DOI** 5010278100826 "Rượu Jim Beam trắng 750ml" (#65977051) · `fullName`: "Rượu Jim Beam trắng 750ml (Chai)" → "Rượu Jim Beam trắng 750ml - 40% (Chai)"
+- **TRUONG_KHAC_BI_DOI** 5010278100826 "Rượu Jim Beam trắng 750ml" (#65977051) · `hasVariants`: false → true
+- **TRUONG_KHAC_BI_DOI** 5010278100826 "Rượu Jim Beam trắng 750ml" (#65977051) · `attributes`: [] → [{"name":"NỒNG ĐỘ CỒN","value":"40%"}]
+- **TRUONG_KHAC_BI_DOI** 5000267190167 "Rượu Johnnie Walker Black Label 12 YO BSW 40% 750ml" (#65510195) · `fullName`: "Rượu Johnnie Walker Black Label 12 YO BSW 40% 750ml (Chai)" → "Rượu Johnnie Walker Black Label 12 YO BSW 40% 750ml - 40% (Chai)"
+- **TRUONG_KHAC_BI_DOI** 5000267190167 "Rượu Johnnie Walker Black Label 12 YO BSW 40% 750ml" (#65510195) · `hasVariants`: false → true
+- **TRUONG_KHAC_BI_DOI** 5000267190167 "Rượu Johnnie Walker Black Label 12 YO BSW 40% 750ml" (#65510195) · `attributes`: [] → [{"name":"NỒNG ĐỘ CỒN","value":"40%"}]
+- **TRUONG_KHAC_BI_DOI** 8809056363082 "Rượu Korice Makgeolli" (#67844724) · `fullName`: "Rượu Korice Makgeolli (Chai)" → "Rượu Korice Makgeolli - 6% (Chai)"
+- **TRUONG_KHAC_BI_DOI** 8809056363082 "Rượu Korice Makgeolli" (#67844724) · `hasVariants`: false → true
+- **TRUONG_KHAC_BI_DOI** 8809056363082 "Rượu Korice Makgeolli" (#67844724) · `attributes`: [] → [{"name":"NỒNG ĐỘ CỒN","value":"6%"}]
+- **TRUONG_KHAC_BI_DOI** 8809056360210 "Rượu Korice Makgeolli Hạt Dẻ" (#67844728) · `fullName`: "Rượu Korice Makgeolli Hạt Dẻ (Chai)" → "Rượu Korice Makgeolli Hạt Dẻ - 6% (Chai)"
+- **TRUONG_KHAC_BI_DOI** 8809056360210 "Rượu Korice Makgeolli Hạt Dẻ" (#67844728) · `hasVariants`: false → true
+- **TRUONG_KHAC_BI_DOI** 8809056360210 "Rượu Korice Makgeolli Hạt Dẻ" (#67844728) · `attributes`: [] → [{"name":"NỒNG ĐỘ CỒN","value":"6%"}]
+- **TRUONG_KHAC_BI_DOI** 8938528985917 "RƯỢU MẬN MÁU HOÀNG SU PHÌ 100ML" (#68563887) · `fullName`: "RƯỢU MẬN MÁU HOÀNG SU PHÌ 100ML (Chai)" → "RƯỢU MẬN MÁU HOÀNG SU PHÌ 100ML - 19% (Chai)"
+- **TRUONG_KHAC_BI_DOI** 8938528985917 "RƯỢU MẬN MÁU HOÀNG SU PHÌ 100ML" (#68563887) · `hasVariants`: false → true
+- **TRUONG_KHAC_BI_DOI** 8938528985917 "RƯỢU MẬN MÁU HOÀNG SU PHÌ 100ML" (#68563887) · `attributes`: [] → [{"name":"NỒNG ĐỘ CỒN","value":"19%"}]
+- **TRUONG_KHAC_BI_DOI** 8938528985931 "RƯỢU MƠ MÁ ĐÀO MỘC CHÂU 100ML" (#68563851) · `fullName`: "RƯỢU MƠ MÁ ĐÀO MỘC CHÂU 100ML (Chai)" → "RƯỢU MƠ MÁ ĐÀO MỘC CHÂU 100ML - 19% (Chai)"
+- **TRUONG_KHAC_BI_DOI** 8938528985931 "RƯỢU MƠ MÁ ĐÀO MỘC CHÂU 100ML" (#68563851) · `hasVariants`: false → true
+- **TRUONG_KHAC_BI_DOI** 8938528985931 "RƯỢU MƠ MÁ ĐÀO MỘC CHÂU 100ML" (#68563851) · `attributes`: [] → [{"name":"NỒNG ĐỘ CỒN","value":"19%"}]
+- **TRUONG_KHAC_BI_DOI** 8938528985665 "RƯỢU MÙA HÀ NỘI 100ML" (#68563872) · `fullName`: "RƯỢU MÙA HÀ NỘI 100ML (Chai)" → "RƯỢU MÙA HÀ NỘI 100ML - 19% (Chai)"
+- **TRUONG_KHAC_BI_DOI** 8938528985665 "RƯỢU MÙA HÀ NỘI 100ML" (#68563872) · `hasVariants`: false → true
+- **TRUONG_KHAC_BI_DOI** 8938528985665 "RƯỢU MÙA HÀ NỘI 100ML" (#68563872) · `attributes`: [] → [{"name":"NỒNG ĐỘ CỒN","value":"19%"}]
+- **TRUONG_KHAC_BI_DOI** 40677798 "Rượu Mùi Jagermeister 120x0.02L" (#65510284) · `fullName`: "Rượu Mùi Jagermeister 120x0.02L (Chai)" → "Rượu Mùi Jagermeister 120x0.02L - 35% (Chai)"
+- **TRUONG_KHAC_BI_DOI** 40677798 "Rượu Mùi Jagermeister 120x0.02L" (#65510284) · `hasVariants`: false → true
+- **TRUONG_KHAC_BI_DOI** 40677798 "Rượu Mùi Jagermeister 120x0.02L" (#65510284) · `attributes`: [] → [{"name":"NỒNG ĐỘ CỒN","value":"35%"}]
+- **TRUONG_KHAC_BI_DOI** 40677767 "Rượu Mùi Jagermeister 48x0.2L" (#65510009) · `fullName`: "Rượu Mùi Jagermeister 48x0.2L (Chai)" → "Rượu Mùi Jagermeister 48x0.2L - 35% (Chai)"
+- **TRUONG_KHAC_BI_DOI** 40677767 "Rượu Mùi Jagermeister 48x0.2L" (#65510009) · `hasVariants`: false → true
+- **TRUONG_KHAC_BI_DOI** 40677767 "Rượu Mùi Jagermeister 48x0.2L" (#65510009) · `attributes`: [] → [{"name":"NỒNG ĐỘ CỒN","value":"35%"}]
+- **TRUONG_KHAC_BI_DOI** 4901061107201 "Rượu Sake Ozeki Hozonjo Karatamba 15% 720ml" (#65510431) · `fullName`: "Rượu Sake Ozeki Hozonjo Karatamba 15% 720ml (Chai)" → "Rượu Sake Ozeki Hozonjo Karatamba 15% 720ml - 15% (Chai)"
+- **TRUONG_KHAC_BI_DOI** 4901061107201 "Rượu Sake Ozeki Hozonjo Karatamba 15% 720ml" (#65510431) · `hasVariants`: false → true
+- **TRUONG_KHAC_BI_DOI** 4901061107201 "Rượu Sake Ozeki Hozonjo Karatamba 15% 720ml" (#65510431) · `attributes`: [] → [{"name":"NỒNG ĐỘ CỒN","value":"15%"}]
+- **TRUONG_KHAC_BI_DOI** 8809018212052 "Rượu Soju Hàn Quốc Damso vị đào 360ml" (#65635394) · `fullName`: "Rượu Soju Hàn Quốc Damso vị đào 360ml (Chai)" → "Rượu Soju Hàn Quốc Damso vị đào 360ml - 12% (Chai)"
+- **TRUONG_KHAC_BI_DOI** 8809018212052 "Rượu Soju Hàn Quốc Damso vị đào 360ml" (#65635394) · `hasVariants`: false → true
+- **TRUONG_KHAC_BI_DOI** 8809018212052 "Rượu Soju Hàn Quốc Damso vị đào 360ml" (#65635394) · `attributes`: [] → [{"name":"NỒNG ĐỘ CỒN","value":"12%"}]
+- **TRUONG_KHAC_BI_DOI** 8809640030642 "Rượu Soju Hàn Quốc Damso vị dứa 360ml" (#65200106) · `fullName`: "Rượu Soju Hàn Quốc Damso vị dứa 360ml (Chai)" → "Rượu Soju Hàn Quốc Damso vị dứa 360ml - 12% (Chai)"
+- **TRUONG_KHAC_BI_DOI** 8809640030642 "Rượu Soju Hàn Quốc Damso vị dứa 360ml" (#65200106) · `hasVariants`: false → true
+- **TRUONG_KHAC_BI_DOI** 8809640030642 "Rượu Soju Hàn Quốc Damso vị dứa 360ml" (#65200106) · `attributes`: [] → [{"name":"NỒNG ĐỘ CỒN","value":"12%"}]
+- **TRUONG_KHAC_BI_DOI** 8809018212069 "Rượu Soju Hàn Quốc Damso vị nho 360ml" (#65200373) · `fullName`: "Rượu Soju Hàn Quốc Damso vị nho 360ml (Chai)" → "Rượu Soju Hàn Quốc Damso vị nho 360ml - 12% (Chai)"
+- **TRUONG_KHAC_BI_DOI** 8809018212069 "Rượu Soju Hàn Quốc Damso vị nho 360ml" (#65200373) · `hasVariants`: false → true
+- **TRUONG_KHAC_BI_DOI** 8809018212069 "Rượu Soju Hàn Quốc Damso vị nho 360ml" (#65200373) · `attributes`: [] → [{"name":"NỒNG ĐỘ CỒN","value":"12%"}]
+- **TRUONG_KHAC_BI_DOI** 8809640030710 "Rượu Soju Hàn Quốc Damso vị nho kyoho 360ml" (#65200060) · `fullName`: "Rượu Soju Hàn Quốc Damso vị nho kyoho 360ml (Chai)" → "Rượu Soju Hàn Quốc Damso vị nho kyoho 360ml - 12% (Chai)"
+- **TRUONG_KHAC_BI_DOI** 8809640030710 "Rượu Soju Hàn Quốc Damso vị nho kyoho 360ml" (#65200060) · `hasVariants`: false → true
+- **TRUONG_KHAC_BI_DOI** 8809640030710 "Rượu Soju Hàn Quốc Damso vị nho kyoho 360ml" (#65200060) · `attributes`: [] → [{"name":"NỒNG ĐỘ CỒN","value":"12%"}]
+- **TRUONG_KHAC_BI_DOI** 8809018212106 "Rượu Soju Hàn Quốc Damso vị quýt 360ml" (#65200071) · `fullName`: "Rượu Soju Hàn Quốc Damso vị quýt 360ml (Chai)" → "Rượu Soju Hàn Quốc Damso vị quýt 360ml - 12% (Chai)"
+- **TRUONG_KHAC_BI_DOI** 8809018212106 "Rượu Soju Hàn Quốc Damso vị quýt 360ml" (#65200071) · `hasVariants`: false → true
+- **TRUONG_KHAC_BI_DOI** 8809018212106 "Rượu Soju Hàn Quốc Damso vị quýt 360ml" (#65200071) · `attributes`: [] → [{"name":"NỒNG ĐỘ CỒN","value":"12%"}]
+- **TRUONG_KHAC_BI_DOI** 8938528985894 "RƯỢU TÁO MÈO YÊN BÁI 100ML" (#68563949) · `fullName`: "RƯỢU TÁO MÈO YÊN BÁI 100ML (Chai)" → "RƯỢU TÁO MÈO YÊN BÁI 100ML - 16% (Chai)"
+- **TRUONG_KHAC_BI_DOI** 8938528985894 "RƯỢU TÁO MÈO YÊN BÁI 100ML" (#68563949) · `hasVariants`: false → true
+- **TRUONG_KHAC_BI_DOI** 8938528985894 "RƯỢU TÁO MÈO YÊN BÁI 100ML" (#68563949) · `attributes`: [] → [{"name":"NỒNG ĐỘ CỒN","value":"16%"}]
+- **TRUONG_KHAC_BI_DOI** 811538010948 "Rượu Tequila Jose Cuervo Especial Reposado 5cl-50ml" (#67756261) · `fullName`: "Rượu Tequila Jose Cuervo Especial Reposado 5cl-50ml (Chai)" → "Rượu Tequila Jose Cuervo Especial Reposado 5cl-50ml - 40% (Chai)"
+- **TRUONG_KHAC_BI_DOI** 811538010948 "Rượu Tequila Jose Cuervo Especial Reposado 5cl-50ml" (#67756261) · `hasVariants`: false → true
+- **TRUONG_KHAC_BI_DOI** 811538010948 "Rượu Tequila Jose Cuervo Especial Reposado 5cl-50ml" (#67756261) · `attributes`: [] → [{"name":"NỒNG ĐỘ CỒN","value":"40%"}]
+- **TRUONG_KHAC_BI_DOI** 5011013100132 "Rượu vang Baileys Original" (#65977012) · `fullName`: "Rượu vang Baileys Original (Chai)" → "Rượu vang Baileys Original - 17% (Chai)"
+- **TRUONG_KHAC_BI_DOI** 5011013100132 "Rượu vang Baileys Original" (#65977012) · `hasVariants`: false → true
+- **TRUONG_KHAC_BI_DOI** 5011013100132 "Rượu vang Baileys Original" (#65977012) · `attributes`: [] → [{"name":"NỒNG ĐỘ CỒN","value":"17%"}]
+- **TRUONG_KHAC_BI_DOI** 7804634122694 "Rượu Vang Đỏ Viesta Red Wine Chai 750ml" (#67844607) · `fullName`: "Rượu Vang Đỏ Viesta Red Wine Chai 750ml (Chai)" → "Rượu Vang Đỏ Viesta Red Wine Chai 750ml - 12% (Chai)"
+- **TRUONG_KHAC_BI_DOI** 7804634122694 "Rượu Vang Đỏ Viesta Red Wine Chai 750ml" (#67844607) · `hasVariants`: false → true
+- **TRUONG_KHAC_BI_DOI** 7804634122694 "Rượu Vang Đỏ Viesta Red Wine Chai 750ml" (#67844607) · `attributes`: [] → [{"name":"NỒNG ĐỘ CỒN","value":"12%"}]
+- **TRUONG_KHAC_BI_DOI** 7804634122106 "Rượu Vang Passion Carbernet 375 ml" (#67844656) · `fullName`: "Rượu Vang Passion Carbernet 375 ml (Chai)" → "Rượu Vang Passion Carbernet 375 ml - 13.5% (Chai)"
+- **TRUONG_KHAC_BI_DOI** 7804634122106 "Rượu Vang Passion Carbernet 375 ml" (#67844656) · `hasVariants`: false → true
+- **TRUONG_KHAC_BI_DOI** 7804634122106 "Rượu Vang Passion Carbernet 375 ml" (#67844656) · `attributes`: [] → [{"name":"NỒNG ĐỘ CỒN","value":"13.5%"}]
+- **TRUONG_KHAC_BI_DOI** 7804634121260 "Rượu Vang Passion Carbernet 750 ml" (#67844599) · `fullName`: "Rượu Vang Passion Carbernet 750 ml (Chai)" → "Rượu Vang Passion Carbernet 750 ml - 13.5% (Chai)"
+- **TRUONG_KHAC_BI_DOI** 7804634121260 "Rượu Vang Passion Carbernet 750 ml" (#67844599) · `hasVariants`: false → true
+- **TRUONG_KHAC_BI_DOI** 7804634121260 "Rượu Vang Passion Carbernet 750 ml" (#67844599) · `attributes`: [] → [{"name":"NỒNG ĐỘ CỒN","value":"13.5%"}]
+- **TRUONG_KHAC_BI_DOI** 7804634121291 "Rượu Vang Passion Classic" (#67844591) · `fullName`: "Rượu Vang Passion Classic (Chai)" → "Rượu Vang Passion Classic - 13.5% (Chai)"
+- **TRUONG_KHAC_BI_DOI** 7804634121291 "Rượu Vang Passion Classic" (#67844591) · `hasVariants`: false → true
+- **TRUONG_KHAC_BI_DOI** 7804634121291 "Rượu Vang Passion Classic" (#67844591) · `attributes`: [] → [{"name":"NỒNG ĐỘ CỒN","value":"13.5%"}]
+- **TRUONG_KHAC_BI_DOI** 7804634121499 "Rượu Vang Viesta Classic" (#67844589) · `fullName`: "Rượu Vang Viesta Classic (Chai)" → "Rượu Vang Viesta Classic - 12.5% (Chai)"
+- **TRUONG_KHAC_BI_DOI** 7804634121499 "Rượu Vang Viesta Classic" (#67844589) · `hasVariants`: false → true
+- **TRUONG_KHAC_BI_DOI** 7804634121499 "Rượu Vang Viesta Classic" (#67844589) · `attributes`: [] → [{"name":"NỒNG ĐỘ CỒN","value":"12.5%"}]
+- **TRUONG_KHAC_BI_DOI** 082184090473 "Rượu Whiskey Jack Daniel's Tennessee 40%-12x700ml" (#65510394) · `fullName`: "Rượu Whiskey Jack Daniel's Tennessee 40%-12x700ml (Chai)" → "Rượu Whiskey Jack Daniel's Tennessee 40%-12x700ml - 40% (Chai)"
+- **TRUONG_KHAC_BI_DOI** 082184090473 "Rượu Whiskey Jack Daniel's Tennessee 40%-12x700ml" (#65510394) · `hasVariants`: false → true
+- **TRUONG_KHAC_BI_DOI** 082184090473 "Rượu Whiskey Jack Daniel's Tennessee 40%-12x700ml" (#65510394) · `attributes`: [] → [{"name":"NỒNG ĐỘ CỒN","value":"40%"}]
+- **TRUONG_KHAC_BI_DOI** 8938528985900 "RƯỢU XÍ MUỘI 100ML" (#68563929) · `fullName`: "RƯỢU XÍ MUỘI 100ML (Chai)" → "RƯỢU XÍ MUỘI 100ML - 19% (Chai)"
+- **TRUONG_KHAC_BI_DOI** 8938528985900 "RƯỢU XÍ MUỘI 100ML" (#68563929) · `hasVariants`: false → true
+- **TRUONG_KHAC_BI_DOI** 8938528985900 "RƯỢU XÍ MUỘI 100ML" (#68563929) · `attributes`: [] → [{"name":"NỒNG ĐỘ CỒN","value":"19%"}]
+- **TRUONG_KHAC_BI_DOI** 8938541788120 "Sal Cocktail Vị Cam" (#67721947) · `fullName`: "Sal Cocktail Vị Cam (Chai)" → "Sal Cocktail Vị Cam - 3.5% (Chai)"
+- **TRUONG_KHAC_BI_DOI** 8938541788120 "Sal Cocktail Vị Cam" (#67721947) · `hasVariants`: false → true
+- **TRUONG_KHAC_BI_DOI** 8938541788120 "Sal Cocktail Vị Cam" (#67721947) · `attributes`: [] → [{"name":"NỒNG ĐỘ CỒN","value":"3.5%"}]
+- **TRUONG_KHAC_BI_DOI** SP878024 "Sal Cocktail Vị Cam" (#67721948) · `fullName`: "Sal Cocktail Vị Cam (Thùng)" → "Sal Cocktail Vị Cam - 3.5% (Thùng)"
+- **TRUONG_KHAC_BI_DOI** SP878024 "Sal Cocktail Vị Cam" (#67721948) · `hasVariants`: false → true
+- **TRUONG_KHAC_BI_DOI** SP878024 "Sal Cocktail Vị Cam" (#67721948) · `attributes`: [] → [{"name":"NỒNG ĐỘ CỒN","value":"3.5%"}]
+- **TRUONG_KHAC_BI_DOI** 8938541788144 "Sal Cocktail Vị Đào" (#67721930) · `fullName`: "Sal Cocktail Vị Đào (Chai)" → "Sal Cocktail Vị Đào - 3.5% (Chai)"
+- **TRUONG_KHAC_BI_DOI** 8938541788144 "Sal Cocktail Vị Đào" (#67721930) · `hasVariants`: false → true
+- **TRUONG_KHAC_BI_DOI** 8938541788144 "Sal Cocktail Vị Đào" (#67721930) · `attributes`: [] → [{"name":"NỒNG ĐỘ CỒN","value":"3.5%"}]
+- **TRUONG_KHAC_BI_DOI** SP878022 "Sal Cocktail Vị Đào" (#67721931) · `fullName`: "Sal Cocktail Vị Đào (Thùng)" → "Sal Cocktail Vị Đào - 3.5% (Thùng)"
+- **TRUONG_KHAC_BI_DOI** SP878022 "Sal Cocktail Vị Đào" (#67721931) · `hasVariants`: false → true
+- **TRUONG_KHAC_BI_DOI** SP878022 "Sal Cocktail Vị Đào" (#67721931) · `attributes`: [] → [{"name":"NỒNG ĐỘ CỒN","value":"3.5%"}]
+- **TRUONG_KHAC_BI_DOI** 8938541788175 "Sal Cocktail Vị Dâu" (#67721873) · `fullName`: "Sal Cocktail Vị Dâu (Chai)" → "Sal Cocktail Vị Dâu - 3.5% (Chai)"
+- **TRUONG_KHAC_BI_DOI** 8938541788175 "Sal Cocktail Vị Dâu" (#67721873) · `hasVariants`: false → true
+- **TRUONG_KHAC_BI_DOI** 8938541788175 "Sal Cocktail Vị Dâu" (#67721873) · `attributes`: [] → [{"name":"NỒNG ĐỘ CỒN","value":"3.5%"}]
+- **TRUONG_KHAC_BI_DOI** SP878019 "Sal Cocktail Vị Dâu" (#67721874) · `fullName`: "Sal Cocktail Vị Dâu (Thùng)" → "Sal Cocktail Vị Dâu - 3.5% (Thùng)"
+- **TRUONG_KHAC_BI_DOI** SP878019 "Sal Cocktail Vị Dâu" (#67721874) · `hasVariants`: false → true
+- **TRUONG_KHAC_BI_DOI** SP878019 "Sal Cocktail Vị Dâu" (#67721874) · `attributes`: [] → [{"name":"NỒNG ĐỘ CỒN","value":"3.5%"}]
+- **TRUONG_KHAC_BI_DOI** 8938541788168 "Sal Cocktail Vị Dứa" (#67721897) · `fullName`: "Sal Cocktail Vị Dứa (Chai)" → "Sal Cocktail Vị Dứa - 3.5% (Chai)"
+- **TRUONG_KHAC_BI_DOI** 8938541788168 "Sal Cocktail Vị Dứa" (#67721897) · `hasVariants`: false → true
+- **TRUONG_KHAC_BI_DOI** 8938541788168 "Sal Cocktail Vị Dứa" (#67721897) · `attributes`: [] → [{"name":"NỒNG ĐỘ CỒN","value":"3.5%"}]
+- **TRUONG_KHAC_BI_DOI** SP878020 "Sal Cocktail Vị Dứa" (#67721898) · `fullName`: "Sal Cocktail Vị Dứa (Thùng)" → "Sal Cocktail Vị Dứa - 3.5% (Thùng)"
+- **TRUONG_KHAC_BI_DOI** SP878020 "Sal Cocktail Vị Dứa" (#67721898) · `hasVariants`: false → true
+- **TRUONG_KHAC_BI_DOI** SP878020 "Sal Cocktail Vị Dứa" (#67721898) · `attributes`: [] → [{"name":"NỒNG ĐỘ CỒN","value":"3.5%"}]
+- **TRUONG_KHAC_BI_DOI** 8938541788151 "Sal Cocktail Vị Táo" (#67721955) · `fullName`: "Sal Cocktail Vị Táo (Chai)" → "Sal Cocktail Vị Táo - 3.5% (Chai)"
+- **TRUONG_KHAC_BI_DOI** 8938541788151 "Sal Cocktail Vị Táo" (#67721955) · `hasVariants`: false → true
+- **TRUONG_KHAC_BI_DOI** 8938541788151 "Sal Cocktail Vị Táo" (#67721955) · `attributes`: [] → [{"name":"NỒNG ĐỘ CỒN","value":"3.5%"}]
+- **TRUONG_KHAC_BI_DOI** SP878025 "Sal Cocktail Vị Táo" (#67721956) · `fullName`: "Sal Cocktail Vị Táo (Thùng)" → "Sal Cocktail Vị Táo - 3.5% (Thùng)"
+- **TRUONG_KHAC_BI_DOI** SP878025 "Sal Cocktail Vị Táo" (#67721956) · `hasVariants`: false → true
+- **TRUONG_KHAC_BI_DOI** SP878025 "Sal Cocktail Vị Táo" (#67721956) · `attributes`: [] → [{"name":"NỒNG ĐỘ CỒN","value":"3.5%"}]
+- **TRUONG_KHAC_BI_DOI** 8938541788137 "Sal Cocktail Vị Việt Quất" (#67721940) · `fullName`: "Sal Cocktail Vị Việt Quất (Chai)" → "Sal Cocktail Vị Việt Quất - 3.5% (Chai)"
+- **TRUONG_KHAC_BI_DOI** 8938541788137 "Sal Cocktail Vị Việt Quất" (#67721940) · `hasVariants`: false → true
+- **TRUONG_KHAC_BI_DOI** 8938541788137 "Sal Cocktail Vị Việt Quất" (#67721940) · `attributes`: [] → [{"name":"NỒNG ĐỘ CỒN","value":"3.5%"}]
+- **TRUONG_KHAC_BI_DOI** SP878023 "Sal Cocktail Vị Việt Quất" (#67721941) · `fullName`: "Sal Cocktail Vị Việt Quất (Thùng)" → "Sal Cocktail Vị Việt Quất - 3.5% (Thùng)"
+- **TRUONG_KHAC_BI_DOI** SP878023 "Sal Cocktail Vị Việt Quất" (#67721941) · `hasVariants`: false → true
+- **TRUONG_KHAC_BI_DOI** SP878023 "Sal Cocktail Vị Việt Quất" (#67721941) · `attributes`: [] → [{"name":"NỒNG ĐỘ CỒN","value":"3.5%"}]
+- **TRUONG_KHAC_BI_DOI** 8809018212076 "Soju HQ Damso vị grape nho xanh 12%vol 350ml" (#65205395) · `fullName`: "Soju HQ Damso vị grape nho xanh 12%vol 350ml (Chai)" → "Soju HQ Damso vị grape nho xanh 12%vol 350ml - 12% (Chai)"
+- **TRUONG_KHAC_BI_DOI** 8809018212076 "Soju HQ Damso vị grape nho xanh 12%vol 350ml" (#65205395) · `hasVariants`: false → true
+- **TRUONG_KHAC_BI_DOI** 8809018212076 "Soju HQ Damso vị grape nho xanh 12%vol 350ml" (#65205395) · `attributes`: [] → [{"name":"NỒNG ĐỘ CỒN","value":"12%"}]
+- **TRUONG_KHAC_BI_DOI** 8934822121297 "Strongbow Red Berries Dâu đỏ" (#66398015) · `fullName`: "Strongbow Red Berries Dâu đỏ (Lon)" → "Strongbow Red Berries Dâu đỏ - 4.5% (Lon)"
+- **TRUONG_KHAC_BI_DOI** 8934822121297 "Strongbow Red Berries Dâu đỏ" (#66398015) · `hasVariants`: false → true
+- **TRUONG_KHAC_BI_DOI** 8934822121297 "Strongbow Red Berries Dâu đỏ" (#66398015) · `attributes`: [] → [{"name":"NỒNG ĐỘ CỒN","value":"4.5%"}]
+- **TRUONG_KHAC_BI_DOI** 7312040017508 "Vodka Absolut 50ml" (#65505976) · `fullName`: "Vodka Absolut 50ml (Chai)" → "Vodka Absolut 50ml - 40% (Chai)"
+- **TRUONG_KHAC_BI_DOI** 7312040017508 "Vodka Absolut 50ml" (#65505976) · `hasVariants`: false → true
+- **TRUONG_KHAC_BI_DOI** 7312040017508 "Vodka Absolut 50ml" (#65505976) · `attributes`: [] → [{"name":"NỒNG ĐỘ CỒN","value":"40%"}]
+- **TRUONG_KHAC_BI_DOI** 7312040350056 "Vodka Absolut Raspberri Vodka 700ml T12" (#65977074) · `fullName`: "Vodka Absolut Raspberri Vodka 700ml T12 (Chai)" → "Vodka Absolut Raspberri Vodka 700ml T12 - 38% (Chai)"
+- **TRUONG_KHAC_BI_DOI** 7312040350056 "Vodka Absolut Raspberri Vodka 700ml T12" (#65977074) · `hasVariants`: false → true
+- **TRUONG_KHAC_BI_DOI** 7312040350056 "Vodka Absolut Raspberri Vodka 700ml T12" (#65977074) · `attributes`: [] → [{"name":"NỒNG ĐỘ CỒN","value":"38%"}]
+
+## Đã đúng kế hoạch
+(không có)
+
+## Ghi chú
+(không có)

@@ -19,3 +19,6 @@ Hub dùng thuộc tính này làm bộ lọc web: **dưới 15%** lên web (sau 
 Thêm thuộc tính làm KiotViet đổi `hasVariants` false → true và tên đầy đủ thành "… - 4.5% (Lon)".
 Tên đầy đủ được in trên HĐĐT **khi ô tên HĐĐT trống**: 69/185 dòng có cồn đang trống tên HĐĐT (đa số là dòng thùng).
 Cả 3 SP lô thử đều đã có tên HĐĐT.
+
+## Kết quả lô 1 (29/10/2026)
+83 SP gốc + 38 dòng thùng/lốc nhận đúng thuộc tính; ngoài thuộc tính, tên đầy đủ và cờ biến thể, không trường nào khác đổi; không SP nào ngoài lô bị đụng.
