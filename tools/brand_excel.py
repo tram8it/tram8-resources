@@ -24,6 +24,10 @@ With --category the proposals file is reports/danh-muc/de-xuat-sua-danh-muc.csv
 (id, current, proposed as "A > B > C") and only the category cell changes;
 KiotViet writes it as "A>>B>>C" and moves a product's lốc/thùng rows with it.
 
+With --attribute the proposals file is reports/do-con/*.csv (kiotProductId,current,
+proposed as the whole "Thuộc tính" cell, e.g. "NỒNG ĐỘ CỒN:5%") and only that cell
+changes.
+
 Writes <out>.xlsx, <out>.csv (plan for brand-diff.mjs) and <out>.md (cell-by-
 cell list of what changes). Standard library only.
 """
@@ -48,6 +52,7 @@ ap.add_argument("--take", type=int)
 ap.add_argument("--skip", type=int, default=0)
 ap.add_argument("--units", action="store_true", help="set the ĐVT cell from the proposals file instead of the brand")
 ap.add_argument("--category", action="store_true", help="set the Nhóm hàng(3 Cấp) cell from the proposals file (paths written 'A > B > C')")
+ap.add_argument("--attribute", action="store_true", help="set the Thuộc tính cell from the proposals file (current/proposed are the whole cell)")
 ap.add_argument("--with-packs", action="store_true", help="with --units: also take base products that have lốc/thùng rows")
 ap.add_argument("--out", required=True)
 args = ap.parse_args()
@@ -97,7 +102,7 @@ for need in ("Mã hàng", "ĐVT", "Nhóm hàng(3 Cấp)", "Tên hàng", "Thươn
 want = []
 if args.ids:
     want = args.ids.split(",")
-elif args.category:
+elif args.category or args.attribute:
     want = list(proposals)
 elif args.units:
     rows_with_unit = [pid for pid, r in proposals.items() if r["proposed"]]
@@ -149,7 +154,10 @@ for pid in want:
         problems.append("giá sau thuế khác")
     if (get("Thương hiệu") or "") != escape(brand_now):
         problems.append("thương hiệu khác")
-    if args.category:
+    if args.attribute:
+        if unescape(get("Thuộc tính") or "") != r["current"]:
+            problems.append("thuộc tính khác")
+    elif args.category:
         if unescape(get("Nhóm hàng(3 Cấp)") or "") != ">>".join(r["current"].split(" > ")):
             problems.append("nhóm hàng khác")
     elif args.units:
@@ -204,6 +212,12 @@ for i, (pid, row, r) in enumerate(kept, start=2):
         out_rows.append(renumber(set_cell(row, col_of["Nhóm hàng(3 Cấp)"], new_path, False), i))
         changes.append((products[pid]["code"], products[pid]["name"], r["current"], r["proposed"], None))
         plan.append({"kind": "category", "kiotProductId": pid, "brandId": "", "from": r["current"], "to": r["proposed"]})
+        continue
+    if args.attribute:
+        old_attr = unescape((c.get(col_of["Thuộc tính"]) or (None, None))[1] or "")
+        out_rows.append(renumber(set_cell(row, col_of["Thuộc tính"], r["proposed"], False), i))
+        changes.append((products[pid]["code"], products[pid]["name"], old_attr, r["proposed"], None))
+        plan.append({"kind": "attribute", "kiotProductId": pid, "brandId": "", "from": old_attr, "to": r["proposed"]})
         continue
     if args.units:
         old_unit = unescape((c.get(col_of["ĐVT"]) or (None, None))[1] or "")
