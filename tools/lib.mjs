@@ -57,7 +57,7 @@ export function parseCsv(text) {
 const csvCell = (value) => {
   const raw = value === null || value === undefined ? "" : String(value);
   // A cell starting like a formula would run in Excel/Sheets when the file is opened: keep it text.
-  const s = /^[=+\-@\t\r]/.test(raw) ? `'${raw}` : raw;
+  const s = /^[=+\-@\t\r]/.test(raw) && !/^-?\d+([.,]\d+)?$/.test(raw) ? `'${raw}` : raw;
   return /[",\n\r]/.test(s) ? `"${s.replace(/"/g, '""')}"` : s;
 };
 /** BOM so Excel opens Vietnamese text correctly. */
