@@ -53,6 +53,7 @@ ap.add_argument("--skip", type=int, default=0)
 ap.add_argument("--units", action="store_true", help="set the ĐVT cell from the proposals file instead of the brand")
 ap.add_argument("--category", action="store_true", help="set the Nhóm hàng(3 Cấp) cell from the proposals file (paths written 'A > B > C')")
 ap.add_argument("--attribute", action="store_true", help="set the Thuộc tính cell from the proposals file (current/proposed are the whole cell)")
+ap.add_argument("--rewrite-ok", default="", help="with --attribute: ids edited after the export only by our own earlier attribute batch (checked with brand-diff); their row is written back with the new attribute")
 ap.add_argument("--with-packs", action="store_true", help="with --units: also take base products that have lốc/thùng rows")
 ap.add_argument("--out", required=True)
 args = ap.parse_args()
@@ -168,6 +169,8 @@ for pid in want:
     elif brand_now != r["current"]:
         problems.append("đề xuất lập trên dữ liệu cũ")
     mod = p.get("modifiedAt")
+    if args.attribute and pid in args.rewrite_ok.split(","):
+        mod = None  # only our attribute import touched it since the export (owner correction)
     if mod:
         modified = datetime.fromisoformat(mod[:19]).replace(tzinfo=timezone(timedelta(hours=7)))
         if modified > exported_at:

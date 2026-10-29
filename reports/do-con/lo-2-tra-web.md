@@ -1,8 +1,8 @@
 # work/excel/do-con-lo-2
 
-File xuất lúc 29/10/2026 20:34:44 · bản chụp 2026-10-29T14:04:11.922Z
+File xuất lúc 29/10/2026 20:34:44 · bản chụp 2026-10-29T14:47:33.487Z
 
-25 SP trong lô · 0 SP bị loại
+35 SP trong lô · 0 SP bị loại
 
 | Mã | Tên | Thương hiệu | Trọng lượng |
 |---|---|---|---|
@@ -31,3 +31,13 @@ File xuất lúc 29/10/2026 20:34:44 · bản chụp 2026-10-29T14:04:11.922Z
 | 8935012413321 | Bia lon Saigon Lager 330ml (LASG) | (trống) → NỒNG ĐỘ CỒN:4.3% | giữ |
 | SP877610 | Bia camel xanh Lager 24* 330ml | (trống) → NỒNG ĐỘ CỒN:4.5% | giữ |
 | 8934692070213 | Bia Huda Ice twist | (trống) → NỒNG ĐỘ CỒN:4.2% | giữ |
+| 8935012443342 | Bia Saigon Export Premium lon 330 – 24 RCP2 2025 (EXSL_25R2) | (trống) → NỒNG ĐỘ CỒN:4.8% | giữ |
+| 8936236640005 | Bia Camel xanh lùn giật nắp | (trống) → NỒNG ĐỘ CỒN:4.5% | giữ |
+| 6953236392217 | Bia Két Innốc Mataico,1000ml | (trống) → NỒNG ĐỘ CỒN:4.7% | giữ |
+| 4820189121282 | Rượu Sâm Panh Satogrona 750 ml | (trống) → NỒNG ĐỘ CỒN:13% | giữ |
+| 6973039130557 | Bia nguyên chất loại 1L-Bia bộ đội | (trống) → NỒNG ĐỘ CỒN:5.5% | giữ |
+| 8938511769074 | Bia Fade | (trống) → NỒNG ĐỘ CỒN:6.7% | giữ |
+| 8938528985351 | RƯỢU NÀNG MẬN 375ML | (trống) → NỒNG ĐỘ CỒN:22% | giữ |
+| 8938528985399 | RƯỢU CÔ CHANH 375ML | (trống) → NỒNG ĐỘ CỒN:26% | giữ |
+| 8938528985429 | RƯỢU GÁI MÈO 375ML | (trống) → NỒNG ĐỘ CỒN:24% | giữ |
+| 8938528985382 | RƯỢU EM MƠ 375ML | (trống) → NỒNG ĐỘ CỒN:23% | giữ |
