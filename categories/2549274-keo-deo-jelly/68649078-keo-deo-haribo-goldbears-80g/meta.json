@@ -4,7 +4,7 @@
   "barcode": "8691216090439",
   "name": "Kẹo Dẻo Haribo Goldbears 80g",
   "fullName": "Kẹo Dẻo Haribo Goldbears 80g (Gói)",
-  "brand": null,
+  "brand": "Haribo",
   "unit": "Gói",
   "category": {
     "kiotCategoryId": "2549274",
@@ -13,11 +13,11 @@
   },
   "revenue90d": 0,
   "current": {
-    "imageUrl": "https://cdn2-retail-images.kiotviet.vn/2026/10/28/tram8/221fa5d0e41c4912b49ad77ba54e7802.jpeg",
-    "description": null,
-    "exportedAt": "2026-10-28T12:19:07.195Z"
+    "imageUrl": "https://img.tram8.vn/products/1f04f6b43b5773d3268c142fb9eba053c6ad7ff910a3969696bd81f5402360ad.webp",
+    "description": "Kẹo dẻo Haribo Goldbears, viên kẹo hình chú gấu nhỏ nhiều màu hương trái cây, dòng kẹo truyền thống của Haribo.\n\nQuy cách: 80 g · gói\nThương hiệu: Haribo",
+    "exportedAt": "2026-10-30T07:47:17.631Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "SP mới 28/10: ảnh KiotViet là ảnh chụp tay (nền lộn xộn, nhăn, chéo) → vẽ lại gói phẳng chính diện nền trắng theo đúng ảnh chụp → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: gói làm phẳng, ánh sáng đều; bỏ dấu ngày NSX/HSD đóng tay; chữ nhỏ có thể mờ",
@@ -65,6 +65,18 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-30T07:46:51.387Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-30T07:47:19.672Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
     }
   ],
   "submitted": {
@@ -74,5 +86,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-28T12:40:56.162Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-28T12:40:56.162Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/1f04f6b43b5773d3268c142fb9eba053c6ad7ff910a3969696bd81f5402360ad.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/10/28/tram8/221fa5d0e41c4912b49ad77ba54e7802.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Kẹo dẻo Haribo Goldbears, viên kẹo hình chú gấu nhỏ nhiều màu hương trái cây, dòng kẹo truyền thống của Haribo.\n\nQuy cách: 80 g · gói\nThương hiệu: Haribo",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

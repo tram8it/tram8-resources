@@ -13,11 +13,11 @@
   },
   "revenue90d": 0,
   "current": {
-    "imageUrl": "https://cdn2-retail-images.kiotviet.vn/2026/10/28/tram8/dcef21a7ed6b461aa9196c693a307f4a.jpeg",
-    "description": null,
-    "exportedAt": "2026-10-28T12:19:07.195Z"
+    "imageUrl": "https://img.tram8.vn/products/63468a26d7e5c19c8390ac3b761a66b8798c87d3493a745cc2782f1d9ec53767.webp",
+    "description": "Kẹo Lotte Anytime xylitol không đường vị Bluemarine (bạc hà). Hàng nhập khẩu, nhãn chính tiếng Hàn.\n\nQuy cách: 60 g · gói\nThương hiệu: Lotte",
+    "exportedAt": "2026-10-30T07:47:17.631Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "SP mới 28/10: ảnh KiotViet là ảnh chụp tay (nền lộn xộn, nhăn, chéo) → vẽ lại gói phẳng chính diện nền trắng theo đúng ảnh chụp → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: gói làm phẳng, ánh sáng đều; bỏ dấu ngày NSX/HSD đóng tay; chữ nhỏ có thể mờ",
@@ -65,6 +65,18 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-30T07:46:51.387Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-30T07:47:19.672Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
     }
   ],
   "submitted": {
@@ -74,5 +86,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-28T12:40:02.442Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-28T12:40:02.442Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/63468a26d7e5c19c8390ac3b761a66b8798c87d3493a745cc2782f1d9ec53767.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/10/28/tram8/dcef21a7ed6b461aa9196c693a307f4a.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Kẹo Lotte Anytime xylitol không đường vị Bluemarine (bạc hà). Hàng nhập khẩu, nhãn chính tiếng Hàn.\n\nQuy cách: 60 g · gói\nThương hiệu: Lotte",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

@@ -13,26 +13,26 @@
   },
   "revenue90d": 0,
   "current": {
-    "imageUrl": "https://img.tram8.vn/products/e130955acbc389174059ecb5f1ca4d7288246183b07648e0298648f52370e61f.webp",
+    "imageUrl": "https://cdn2-retail-images.kiotviet.vn/2026/10/29/tram8/15679269e7ac47eea9cced53490f35b0.jpeg",
     "description": "Kem que Joyday Crunchy Cookies Cream: kem vị cookies & cream phủ lớp sô cô la giòn.\n\nQuy cách: 66 g · que\nNhà sản xuất/thương hiệu: Joyday\nBảo quản: Giữ đông lạnh.",
-    "exportedAt": "2026-10-28T12:19:07.195Z"
+    "exportedAt": "2026-10-30T07:47:17.631Z"
   },
-  "status": "UPLOADED",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I3/I4/I8: ảnh tủ đông, nhiều SP, bản bóng đá → ảnh hãng joyday.com (bao bì thường, v17). Bao bì in \"Net Volume: 70ml\", tên KiotViet 66g — kem ~0,94 g/ml nên khớp, không phải lệch quy cách",
+    "reason": "ảnh KiotViet 30/10 cho thấy hàng thật là Crunchy Vanilla Cookies (vỏ xanh) → ảnh hãng Joyday cùng mẫu",
     "source": {
-      "url": "https://www.joyday.com/api/media/uploads/2026/06/Copy-of-Crunchy-Cookies-Cream-70ml-Local-Factory-New-2022-Gold-1-498x1024.webp",
-      "page": "https://www.joyday.com/product/crunchy-cookies-cream",
-      "fetchedAt": "2026-10-17T04:16:38Z"
+      "url": "https://www.joyday.com/api/media/uploads/2026/05/01-Crunchy-Vanilla-Cookies-Cream-65ml-Local-Factory-New-2024-Done-CMYK-498x1024.png",
+      "page": "https://www.joyday.com/product/crunchy-vanilla-cookies",
+      "fetchedAt": "2026-10-30T08:22:59+00:00"
     },
-    "rubricVersion": "v17"
+    "rubricVersion": "v18"
   },
   "description": {
-    "decision": "WRITE_NEW",
-    "reason": "D1: chưa có mô tả; không có trang hãng — mô tả ngắn chỉ từ dữ kiện chắc chắn (tên SP, chữ in mặt trước bao bì)",
+    "decision": "REWRITE",
+    "reason": "viết theo chữ in trên bao bì/ảnh chụp + trang hãng; không thêm dữ kiện ngoài nguồn",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v18"
   },
   "question": null,
   "history": [
@@ -77,10 +77,28 @@
       "by": "init",
       "status": "UPLOADED",
       "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-30T07:47:19.672Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-30T08:22:59+00:00",
+      "by": "ai",
+      "status": "READY",
+      "note": "ảnh từ nguồn hãng/ảnh sẵn có, đã xem bằng mắt"
+    },
+    {
+      "at": "2026-10-30T08:24:07.902Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-17T04:18:43.873Z",
+    "at": "2026-10-30T08:24:07.902Z",
     "fields": [
       "description",
       "image"

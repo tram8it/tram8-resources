@@ -1,0 +1,69 @@
+{
+  "kiotProductId": "68670209",
+  "code": "8935001846352",
+  "barcode": "8935001846352",
+  "name": "Keo Khô Trắng TP - G014",
+  "fullName": "Keo Khô Trắng TP - G014 (Lọ)",
+  "brand": "Thiên Long",
+  "unit": "Lọ",
+  "category": {
+    "kiotCategoryId": "2549806",
+    "name": "Băng dính – keo – kéo",
+    "path": "Văn phòng phẩm > Băng dính – keo – kéo"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://cdn2-retail-images.kiotviet.vn/2026/10/30/tram8/39df16c31d424d32ba763c9d601fd742.jpeg",
+    "description": null,
+    "exportedAt": "2026-10-30T07:47:17.631Z"
+  },
+  "status": "READY",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "SP mới 30/10, không có ảnh hãng nền trắng dùng được → vẽ keo khô TP-G014 mẫu chim cánh cụt → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: làm phẳng, ánh sáng đều; chữ nhỏ có thể mờ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-30",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet chụp hàng thật 30/10"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "viết theo chữ in trên bao bì/ảnh chụp + trang hãng; không thêm dữ kiện ngoài nguồn",
+    "source": null,
+    "rubricVersion": "v18"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-30T07:47:19.672Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-30T08:23:01Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-30T08:24:13.186Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-30T08:24:13.186Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
+}

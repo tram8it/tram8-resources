@@ -1,0 +1,121 @@
+{
+  "kiotProductId": "68644346",
+  "code": "8936241860023",
+  "barcode": "8936241860023",
+  "name": "Hạt Macca Đậu Tổng Hợp Và Hoa Quả Sấy Zennut 30g",
+  "fullName": "Hạt Macca Đậu Tổng Hợp Và Hoa Quả Sấy Zennut 30g (Gói)",
+  "brand": "Zennut",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2549267",
+    "name": "Hạt các loại",
+    "path": "Đồ ăn vặt > Hạt các loại · Hoa quả sấy > Hạt các loại"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/b00bbfe2d6892cacacc4a4c75554c7b19aff26fa967a11164ba911b02200711b.webp",
+    "description": "Gói hạt Zennut: hạt macca mix đậu tổng hợp và hoa quả sấy, gói nhỏ ăn liền.\n\nQuy cách: 30 g · gói\nThương hiệu: Zennut",
+    "exportedAt": "2026-10-30T07:47:17.631Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "SP mới 28/10: ảnh KiotViet là ảnh chụp tay (nền lộn xộn, nhăn, chéo) → vẽ lại gói phẳng chính diện nền trắng theo đúng ảnh chụp → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: gói làm phẳng, ánh sáng đều; bỏ dấu ngày NSX/HSD đóng tay; chữ nhỏ có thể mờ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-28",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh nhân viên chụp SP thật (KiotViet 28/10)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "SP mới chưa có mô tả → viết theo chữ in trên bao bì (ảnh chụp) + tên hàng; không thêm dữ kiện ngoài bao bì",
+    "source": {
+      "staffPhoto": true,
+      "takenAt": "2026-10-28"
+    },
+    "rubricVersion": "v18"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-28T12:19:24.077Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-28T12:26:00Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-28T12:25:59+00:00",
+      "by": "ai",
+      "status": "READY",
+      "note": "mô tả mới theo bao bì"
+    },
+    {
+      "at": "2026-10-28T12:26:29.034Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-30T07:46:51.387Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-30T07:47:19.672Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "category moved 2500661-hat-cac-loai-hoa-qua-say -> 2549267-hat-cac-loai"
+    },
+    {
+      "at": "2026-10-30T07:47:19.672Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-28T12:26:29.034Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-28T12:37:31.108Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-28T12:37:31.108Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/b00bbfe2d6892cacacc4a4c75554c7b19aff26fa967a11164ba911b02200711b.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/10/28/tram8/36cfdc39ec214fe3aa4d8e457c7ab39a.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Gói hạt Zennut: hạt macca mix đậu tổng hợp và hoa quả sấy, gói nhỏ ăn liền.\n\nQuy cách: 30 g · gói\nThương hiệu: Zennut",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

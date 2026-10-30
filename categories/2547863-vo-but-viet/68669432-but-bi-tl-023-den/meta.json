@@ -1,0 +1,69 @@
+{
+  "kiotProductId": "68669432",
+  "code": "8935001804550",
+  "barcode": "8935001804550",
+  "name": "Bút Bi TL-023 Đen",
+  "fullName": "Bút Bi TL-023 Đen (Cái)",
+  "brand": "Thiên Long",
+  "unit": "Cái",
+  "category": {
+    "kiotCategoryId": "2547863",
+    "name": "Vở - Bút viết",
+    "path": "Văn phòng phẩm > Vở - Bút viết"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://cdn2-retail-images.kiotviet.vn/2026/10/30/tram8/b058fcfc04ef4b0b8616bc701012b614.jpeg",
+    "description": null,
+    "exportedAt": "2026-10-30T07:47:17.631Z"
+  },
+  "status": "READY",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "SP mới 30/10, không có ảnh hãng nền trắng dùng được → vẽ TL-023 đen (cùng bố cục với TL-023 đỏ) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: làm phẳng, ánh sáng đều; chữ nhỏ có thể mờ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-30",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet chụp hàng thật 30/10"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "viết theo chữ in trên bao bì/ảnh chụp + trang hãng; không thêm dữ kiện ngoài nguồn",
+    "source": null,
+    "rubricVersion": "v18"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-30T07:47:19.672Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-30T08:23:00Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-30T08:24:31.823Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-30T08:24:31.823Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
+}

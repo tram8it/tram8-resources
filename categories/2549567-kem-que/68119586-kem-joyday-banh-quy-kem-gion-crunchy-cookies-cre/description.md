@@ -1,5 +1,5 @@
-Kem que Joyday Crunchy Cookies Cream: kem vị cookies & cream phủ lớp sô cô la giòn.
+Kem que Joyday Crunchy Vanilla Cookies: kem sữa vị vani với vụn bánh quy, phủ sô cô la giòn.
 
-Quy cách: 66 g · que
-Nhà sản xuất/thương hiệu: Joyday
-Bảo quản: Giữ đông lạnh.
+Quy cách: 65 ml · que
+Nhà sản xuất/thương hiệu: Joyday (PT Yili Indonesia Dairy)
+Bảo quản: giữ đông lạnh.

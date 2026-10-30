@@ -1,0 +1,121 @@
+{
+  "kiotProductId": "68644494",
+  "code": "6931754808595",
+  "barcode": "6931754808595",
+  "name": "Mực Chay OKI OKI Sốt Cay 18g",
+  "fullName": "Mực Chay OKI OKI Sốt Cay 18g (Cái)",
+  "brand": "Oki",
+  "unit": "Cái",
+  "category": {
+    "kiotCategoryId": "2549295",
+    "name": "Đồ chay giả mặn (konjac)",
+    "path": "Đồ ăn vặt > Đồ nội địa Trung > Đồ chay giả mặn (konjac)"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/77f39a0551f8c6229dcb952412835bdf31926adc7041bc9399b05e3ceb1f18f6.webp",
+    "description": "Mực chay Konjac OKI OKI sốt cay: snack chay làm từ konjac (khoai nưa) tạo hình con mực.\n\nQuy cách: 18 g · gói\nThương hiệu: OKI OKI",
+    "exportedAt": "2026-10-30T07:47:17.631Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "SP mới 28/10: ảnh KiotViet là ảnh chụp tay (nền lộn xộn, nhăn, chéo) → vẽ lại gói phẳng chính diện nền trắng theo đúng ảnh chụp → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: gói làm phẳng, ánh sáng đều; bỏ dấu ngày NSX/HSD đóng tay; chữ nhỏ có thể mờ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-28",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh nhân viên chụp SP thật (KiotViet 28/10)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "SP mới chưa có mô tả → viết theo chữ in trên bao bì (ảnh chụp) + tên hàng; không thêm dữ kiện ngoài bao bì",
+    "source": {
+      "staffPhoto": true,
+      "takenAt": "2026-10-28"
+    },
+    "rubricVersion": "v18"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-28T12:19:24.077Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-28T12:26:00Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-28T12:25:59+00:00",
+      "by": "ai",
+      "status": "READY",
+      "note": "mô tả mới theo bao bì"
+    },
+    {
+      "at": "2026-10-28T12:26:21.825Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-30T07:46:51.387Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-30T07:47:19.672Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "category moved 2500632-do-an-vat -> 2549295-do-chay-gia-man-konjac"
+    },
+    {
+      "at": "2026-10-30T07:47:19.672Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-28T12:26:21.825Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-28T12:37:13.185Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-28T12:37:13.185Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/77f39a0551f8c6229dcb952412835bdf31926adc7041bc9399b05e3ceb1f18f6.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/10/28/tram8/9354a8611bee49918b85b2b039a68d67.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Mực chay Konjac OKI OKI sốt cay: snack chay làm từ konjac (khoai nưa) tạo hình con mực.\n\nQuy cách: 18 g · gói\nThương hiệu: OKI OKI",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

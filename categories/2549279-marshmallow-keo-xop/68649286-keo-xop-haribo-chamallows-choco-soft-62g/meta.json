@@ -4,7 +4,7 @@
   "barcode": "8691216106604",
   "name": "Kẹo Xốp Haribo Chamallows Choco - Soft 62g",
   "fullName": "Kẹo Xốp Haribo Chamallows Choco - Soft 62g (Gói)",
-  "brand": null,
+  "brand": "Haribo",
   "unit": "Gói",
   "category": {
     "kiotCategoryId": "2549279",
@@ -13,11 +13,11 @@
   },
   "revenue90d": 0,
   "current": {
-    "imageUrl": "https://cdn2-retail-images.kiotviet.vn/2026/10/28/tram8/aac399eeb4bf401cb25ea608da717c1d.jpeg",
-    "description": null,
-    "exportedAt": "2026-10-28T12:19:07.195Z"
+    "imageUrl": "https://img.tram8.vn/products/b126e707f67ed298d04bc38e1284218efb1977a75b038dc34b8fe5c088136232.webp",
+    "description": "Kẹo xốp Haribo Chamallows Choco-soft, marshmallow mềm có nhân sô cô la.\n\nQuy cách: 62 g · gói\nThương hiệu: Haribo",
+    "exportedAt": "2026-10-30T07:47:17.631Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "SP mới 28/10: ảnh KiotViet là ảnh chụp tay (nền lộn xộn, nhăn, chéo) → vẽ lại gói phẳng chính diện nền trắng theo đúng ảnh chụp → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: gói làm phẳng, ánh sáng đều; bỏ dấu ngày NSX/HSD đóng tay; chữ nhỏ có thể mờ",
@@ -65,6 +65,18 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-30T07:46:51.387Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-30T07:47:19.672Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
     }
   ],
   "submitted": {
@@ -74,5 +86,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-28T12:41:14.066Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-28T12:41:14.066Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/b126e707f67ed298d04bc38e1284218efb1977a75b038dc34b8fe5c088136232.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/10/28/tram8/aac399eeb4bf401cb25ea608da717c1d.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Kẹo xốp Haribo Chamallows Choco-soft, marshmallow mềm có nhân sô cô la.\n\nQuy cách: 62 g · gói\nThương hiệu: Haribo",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

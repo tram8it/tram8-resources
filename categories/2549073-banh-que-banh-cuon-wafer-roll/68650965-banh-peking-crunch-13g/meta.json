@@ -1,0 +1,69 @@
+{
+  "kiotProductId": "68650965",
+  "code": "8850425006734",
+  "barcode": "8850425006734",
+  "name": "Bánh Peking Crunch 13g",
+  "fullName": "Bánh Peking Crunch 13g (Cái)",
+  "brand": null,
+  "unit": "Cái",
+  "category": {
+    "kiotCategoryId": "2549073",
+    "name": "Bánh quế / bánh cuộn (wafer roll)",
+    "path": "Bánh quy & bánh đóng gói > Bánh quế / bánh cuộn (wafer roll)"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://cdn1-retail-images.kiotviet.vn/2026/10/28/tram8/6a066702a4824472aaa6d6aefe6078df.jpeg",
+    "description": null,
+    "exportedAt": "2026-10-30T07:47:17.631Z"
+  },
+  "status": "READY",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "SP mới 30/10, không có ảnh hãng nền trắng dùng được → vẽ Peking Crunch → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: làm phẳng, ánh sáng đều; chữ nhỏ có thể mờ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-30",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet chụp hàng thật 30/10"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "viết theo chữ in trên bao bì/ảnh chụp + trang hãng; không thêm dữ kiện ngoài nguồn",
+    "source": null,
+    "rubricVersion": "v18"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-30T07:47:19.672Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-30T08:23:01Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-30T08:23:23.714Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-30T08:23:23.714Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
+}

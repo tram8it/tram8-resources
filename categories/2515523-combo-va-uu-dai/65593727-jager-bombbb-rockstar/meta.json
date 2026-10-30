@@ -15,7 +15,7 @@
   "current": {
     "imageUrl": "https://cdn2-retail-images.kiotviet.vn/2026/05/09/tram8/41f41ab9acc6457b9cef7d65fde3b8da.png",
     "description": null,
-    "exportedAt": "2026-10-28T12:19:07.195Z"
+    "exportedAt": "2026-10-30T07:47:17.631Z"
   },
   "status": "READY",
   "image": {
@@ -68,10 +68,16 @@
       "by": "owner",
       "status": "READY",
       "note": "apply failed on Hub: KiotViet /products/65593727 returned HTTP 420: {\"responseStatus\":{\"errorCode\":\"KvValidateProductException\",\"message\":\"Hàng hóa SP877355 không thể cập nhật do API chưa hỗ trợ loại hàng hóa này\",\"errors\":[]}}"
+    },
+    {
+      "at": "2026-10-30T08:23:17.486Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-18T18:08:07.915Z",
+    "at": "2026-10-30T08:23:17.486Z",
     "fields": [
       "description",
       "image"

@@ -4,7 +4,7 @@
   "barcode": "8938552123040",
   "name": "Chân Gà Rút Xương Ủ Muối Hương Vị Cay Ngọt AlACO 26g",
   "fullName": "Chân Gà Rút Xương Ủ Muối Hương Vị Cay Ngọt AlACO 26g (Cái)",
-  "brand": null,
+  "brand": "Alaco",
   "unit": "Cái",
   "category": {
     "kiotCategoryId": "2549225",
@@ -13,11 +13,11 @@
   },
   "revenue90d": 0,
   "current": {
-    "imageUrl": "https://cdn2-retail-images.kiotviet.vn/2026/10/28/tram8/3fa438db637c42c2b413b90b2c526e72.jpeg",
-    "description": null,
-    "exportedAt": "2026-10-28T12:19:07.195Z"
+    "imageUrl": "https://img.tram8.vn/products/c125898cef99e3b9b8b7794e5382775d21c2ba9a19b12cd22d391a5cbe9996c2.webp",
+    "description": "Chân gà rút xương Alaco ủ muối vị cay ngọt, ăn liền.\n\nQuy cách: 26 g · gói\nThương hiệu: Alaco · sản xuất tại Việt Nam",
+    "exportedAt": "2026-10-30T07:47:17.631Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "SP mới 28/10: ảnh KiotViet là ảnh chụp tay (nền lộn xộn, nhăn, chéo) → vẽ lại gói phẳng chính diện nền trắng theo đúng ảnh chụp → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: gói làm phẳng, ánh sáng đều; bỏ dấu ngày NSX/HSD đóng tay; chữ nhỏ có thể mờ",
@@ -65,6 +65,18 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-30T07:46:51.387Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-30T07:47:19.672Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
     }
   ],
   "submitted": {
@@ -74,5 +86,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-28T12:37:47.544Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-28T12:37:47.544Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/c125898cef99e3b9b8b7794e5382775d21c2ba9a19b12cd22d391a5cbe9996c2.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/10/28/tram8/3fa438db637c42c2b413b90b2c526e72.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Chân gà rút xương Alaco ủ muối vị cay ngọt, ăn liền.\n\nQuy cách: 26 g · gói\nThương hiệu: Alaco · sản xuất tại Việt Nam",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

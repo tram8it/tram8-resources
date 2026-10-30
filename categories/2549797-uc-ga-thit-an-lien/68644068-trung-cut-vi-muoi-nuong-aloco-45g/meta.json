@@ -1,0 +1,121 @@
+{
+  "kiotProductId": "68644068",
+  "code": "8938552123828",
+  "barcode": "8938552123828",
+  "name": "Trứng Cút Vị Muối Nướng ALOCO 45g",
+  "fullName": "Trứng Cút Vị Muối Nướng ALOCO 45g (Gói)",
+  "brand": "Alaco",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2549797",
+    "name": "Ức gà & thịt ăn liền",
+    "path": "Xúc Xích & Thịt Nguội > Ức gà & thịt ăn liền"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/c4ba8b3b587a093c5c4d36daeea4d38167c2fd8433f4c40df6fef79f47f5b460.webp",
+    "description": "Trứng cút Alaco vị muối nướng, trứng cút bóc vỏ ăn liền, gói có ô trong nhìn thấy trứng.\n\nQuy cách: 45 g · gói\nThương hiệu: Alaco · sản xuất tại Việt Nam",
+    "exportedAt": "2026-10-30T07:47:17.631Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "SP mới 28/10: ảnh KiotViet là ảnh chụp tay (nền lộn xộn, nhăn, chéo) → vẽ lại gói phẳng chính diện nền trắng theo đúng ảnh chụp → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: gói làm phẳng, ánh sáng đều; bỏ dấu ngày NSX/HSD đóng tay; chữ nhỏ có thể mờ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-28",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh nhân viên chụp SP thật (KiotViet 28/10)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "SP mới chưa có mô tả → viết theo chữ in trên bao bì (ảnh chụp) + tên hàng; không thêm dữ kiện ngoài bao bì",
+    "source": {
+      "staffPhoto": true,
+      "takenAt": "2026-10-28"
+    },
+    "rubricVersion": "v18"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-28T12:19:24.077Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-28T12:25:59Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-28T12:25:59+00:00",
+      "by": "ai",
+      "status": "READY",
+      "note": "mô tả mới theo bao bì"
+    },
+    {
+      "at": "2026-10-28T12:26:16.039Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-30T07:46:51.387Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-30T07:47:19.672Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "category moved 2500632-do-an-vat -> 2549797-uc-ga-thit-an-lien"
+    },
+    {
+      "at": "2026-10-30T07:47:19.672Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-28T12:26:16.039Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-28T12:37:03.773Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-28T12:37:03.773Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/c4ba8b3b587a093c5c4d36daeea4d38167c2fd8433f4c40df6fef79f47f5b460.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/10/28/tram8/c27d26906d35490f9d6bb8e416351972.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Trứng cút Alaco vị muối nướng, trứng cút bóc vỏ ăn liền, gói có ô trong nhìn thấy trứng.\n\nQuy cách: 45 g · gói\nThương hiệu: Alaco · sản xuất tại Việt Nam",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

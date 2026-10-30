@@ -2,8 +2,8 @@
   "kiotProductId": "66542636",
   "code": "SP877790",
   "barcode": "8936028643153",
-  "name": "Mì xào vị Gà phomai",
-  "fullName": "Mì xào vị Gà phomai (Gói)",
+  "name": "Mì Xào Hương Vị Bò Xào Bulgogi Phô Mai Cay Koreno",
+  "fullName": "Mì Xào Hương Vị Bò Xào Bulgogi Phô Mai Cay Koreno (Gói)",
   "brand": "Koreno",
   "unit": "Gói",
   "category": {
@@ -13,26 +13,26 @@
   },
   "revenue90d": 0,
   "current": {
-    "imageUrl": "https://img.tram8.vn/products/c9605df09ab01de32c8b43b1d20ac1ae81490ccb60b495959c2458281241e9af.webp",
+    "imageUrl": "https://cdn2-retail-images.kiotviet.vn/2026/10/30/tram8/b983f692e0cb43e1a0e72684ba5f8c91.jpeg",
     "description": "Mì xào Koreno Volcano vị gà phô mai của Paldo, vị rất cay kiểu gà xào dakgalbi Hàn Quốc.\n\nQuy cách: 118 g · gói\nNhà sản xuất/thương hiệu: Paldo Vina · Koreno",
-    "exportedAt": "2026-10-28T12:19:07.195Z"
+    "exportedAt": "2026-10-30T07:47:17.631Z"
   },
-  "status": "UPLOADED",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "chủ 19/10: trùng SP 68270021 (cùng gói Volcano Koreno gà phô mai 118 g) → dùng chung ảnh của 68270021",
+    "reason": "chủ đổi SP thành Koreno Bulgogi phô mai cay (ảnh KiotViet 30/10) → ảnh hãng Paldo Vina cùng gói",
     "source": {
-      "url": "https://paldovina.com/upload/san-pham-noi-dia/goi-volcano-ga-pho-mai-800x.png",
-      "fetchedAt": "2026-10-13"
+      "url": "https://paldovina.com/upload/san-pham-noi-dia/goi-bulgogi-pho-mai-cay-800x.png",
+      "page": "https://paldovina.com/san-pham",
+      "fetchedAt": "2026-10-30T08:22:59+00:00"
     },
-    "rubricVersion": "v23",
-    "sharedWith": "68270021"
+    "rubricVersion": "v18"
   },
   "description": {
-    "decision": "WRITE_NEW",
-    "reason": "D1: viết từ chữ in trên gói (Volcano, vị gà phomai, cay cực đã, 118 g) và hồ sơ Paldo Vina",
+    "decision": "REWRITE",
+    "reason": "viết theo chữ in trên bao bì/ảnh chụp + trang hãng; không thêm dữ kiện ngoài nguồn",
     "source": null,
-    "rubricVersion": "v4"
+    "rubricVersion": "v18"
   },
   "question": null,
   "history": [
@@ -107,10 +107,28 @@
       "by": "init",
       "status": "UPLOADED",
       "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-30T07:47:19.672Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-30T08:22:59+00:00",
+      "by": "ai",
+      "status": "READY",
+      "note": "ảnh từ nguồn hãng/ảnh sẵn có, đã xem bằng mắt"
+    },
+    {
+      "at": "2026-10-30T08:23:55.932Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-19T07:49:54.224Z",
+    "at": "2026-10-30T08:23:55.932Z",
     "fields": [
       "description",
       "image"

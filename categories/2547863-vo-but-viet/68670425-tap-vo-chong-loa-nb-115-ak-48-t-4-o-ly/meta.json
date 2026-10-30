@@ -1,0 +1,69 @@
+{
+  "kiotProductId": "68670425",
+  "code": "8935324039554",
+  "barcode": "8935324039554",
+  "name": "Tập ( Vở ) Chống Lóa NB - 115 /AK 48 T- 4 Ô Ly",
+  "fullName": "Tập ( Vở ) Chống Lóa NB - 115 /AK 48 T- 4 Ô Ly (Quyển)",
+  "brand": "Thiên Long",
+  "unit": "Quyển",
+  "category": {
+    "kiotCategoryId": "2547863",
+    "name": "Vở - Bút viết",
+    "path": "Văn phòng phẩm > Vở - Bút viết"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://cdn2-retail-images.kiotviet.vn/2026/10/30/tram8/e839d1fb84064124bf640259d84ae61c.jpeg",
+    "description": null,
+    "exportedAt": "2026-10-30T07:47:17.631Z"
+  },
+  "status": "READY",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "SP mới 30/10, không có ảnh hãng nền trắng dùng được → vẽ tập NB-115/AK, bỏ nhãn lốc 10 quyển → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: làm phẳng, ánh sáng đều; chữ nhỏ có thể mờ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-30",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet chụp hàng thật 30/10"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "viết theo chữ in trên bao bì/ảnh chụp + trang hãng; không thêm dữ kiện ngoài nguồn",
+    "source": null,
+    "rubricVersion": "v18"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-30T07:47:19.672Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-30T08:23:01Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-30T08:24:21.329Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-30T08:24:21.329Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
+}

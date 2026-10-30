@@ -15,7 +15,7 @@
   "current": {
     "imageUrl": "https://cdn2-retail-images.kiotviet.vn/2026/06/20/tram8/32d12818e7a6419493efc872f5701832.jpeg",
     "description": null,
-    "exportedAt": "2026-10-28T12:19:07.195Z"
+    "exportedAt": "2026-10-30T07:47:17.631Z"
   },
   "status": "READY",
   "image": {
@@ -80,10 +80,16 @@
       "by": "owner",
       "status": "READY",
       "note": "apply failed on Hub: KiotViet /products/66594108 returned HTTP 420: {\"responseStatus\":{\"errorCode\":\"KvValidateProductException\",\"message\":\"Hàng hóa SP877841 không thể cập nhật do API chưa hỗ trợ loại hàng hóa này\",\"errors\":[]}}"
+    },
+    {
+      "at": "2026-10-30T08:23:13.978Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-18T18:08:11.283Z",
+    "at": "2026-10-30T08:23:13.978Z",
     "fields": [
       "description",
       "image"

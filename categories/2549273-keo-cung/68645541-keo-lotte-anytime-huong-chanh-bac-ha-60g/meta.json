@@ -13,11 +13,11 @@
   },
   "revenue90d": 0,
   "current": {
-    "imageUrl": "https://cdn2-retail-images.kiotviet.vn/2026/10/28/tram8/a250a20d9c9a42ccac5c8ff2378aa662.jpeg",
-    "description": null,
-    "exportedAt": "2026-10-28T12:19:07.195Z"
+    "imageUrl": "https://img.tram8.vn/products/3857821664e46c782f7d316acf53f1fe6d555db8b2bbf2f5677cb218deaafc20.webp",
+    "description": "Kẹo Lotte Anytime xylitol không đường vị chanh bạc hà (Lemon Mint). Hàng nhập khẩu, nhãn chính tiếng Hàn.\n\nQuy cách: 60 g · gói\nThương hiệu: Lotte",
+    "exportedAt": "2026-10-30T07:47:17.631Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "SP mới 28/10: ảnh KiotViet là ảnh chụp tay (nền lộn xộn, nhăn, chéo) → vẽ lại gói phẳng chính diện nền trắng theo đúng ảnh chụp → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: gói làm phẳng, ánh sáng đều; bỏ dấu ngày NSX/HSD đóng tay; chữ nhỏ có thể mờ",
@@ -65,6 +65,18 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-30T07:46:51.387Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-30T07:47:19.672Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
     }
   ],
   "submitted": {
@@ -74,5 +86,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-28T12:39:58.143Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-28T12:39:58.143Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/3857821664e46c782f7d316acf53f1fe6d555db8b2bbf2f5677cb218deaafc20.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/10/28/tram8/a250a20d9c9a42ccac5c8ff2378aa662.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Kẹo Lotte Anytime xylitol không đường vị chanh bạc hà (Lemon Mint). Hàng nhập khẩu, nhãn chính tiếng Hàn.\n\nQuy cách: 60 g · gói\nThương hiệu: Lotte",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

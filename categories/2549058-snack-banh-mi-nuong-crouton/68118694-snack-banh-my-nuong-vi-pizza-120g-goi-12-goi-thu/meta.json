@@ -13,16 +13,23 @@
   },
   "revenue90d": 0,
   "current": {
-    "imageUrl": "https://cdn2-retail-images.kiotviet.vn/2026/09/16/tram8/f748665d248d4aa9ac8cf2e1441fba25.jpeg",
+    "imageUrl": "https://cdn2-retail-images.kiotviet.vn/2026/10/29/tram8/e8dcd1992fad435782bc71a02776e62b.png",
     "description": "Snack bánh mì baguette mini nướng giòn vị pizza Samlip Premium Pizza Snack, phủ gia vị pizza, ăn vặt trực tiếp.\n\nQuy cách: 120 g · gói\nXuất xứ: Hàn Quốc · Nhà sản xuất/thương hiệu: Samlip\nBảo quản: nơi khô ráo, thoáng mát.",
-    "exportedAt": "2026-10-28T12:19:07.195Z"
+    "exportedAt": "2026-10-30T07:47:17.631Z"
   },
-  "status": "UPLOADED",
+  "status": "READY",
   "image": {
-    "decision": "KEEP",
-    "reason": "I1–I9 đạt: packshot gói Samlip Premium Pizza Snack 120 g, nền trắng, 1:1, nguyên vẹn",
-    "source": null,
-    "rubricVersion": "v4"
+    "decision": "REPLACE",
+    "reason": "SP mới 30/10, không có ảnh hãng nền trắng dùng được → vẽ Samlip Pizza Snack mini baguette → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: làm phẳng, ánh sáng đều; chữ nhỏ có thể mờ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-30",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet chụp hàng thật 30/10"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "REWRITE",
@@ -67,12 +74,31 @@
       "by": "init",
       "status": "UPLOADED",
       "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-30T07:47:19.672Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-30T08:23:02Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-30T08:23:49.934Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-15T02:52:35.399Z",
+    "at": "2026-10-30T08:23:49.934Z",
     "fields": [
-      "description"
+      "description",
+      "image"
     ],
     "hubStatus": "PENDING"
   },
