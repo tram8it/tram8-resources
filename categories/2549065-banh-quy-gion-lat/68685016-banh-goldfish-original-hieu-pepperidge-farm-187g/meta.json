@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-31T14:03:52.974Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "SP mới 31/10, không tìm được ảnh hãng dùng được (web hãng chặn/không có/khác nhãn) → vẽ lại từ ảnh chụp → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: bỏ tem giá; chữ nhỏ có thể mờ",
@@ -56,6 +56,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-31T14:17:03.691Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -65,5 +71,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-31T14:16:52.749Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-31T14:16:52.749Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/3c2fcf1679b75cf5d33340e97f89c48f5639b1fdc63fc9e249fb8c1a24aa7df9.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/10/31/tram8/bcb4e4f1bcd946a09d6c2c3012f79250.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Bánh quy giòn Pepperidge Farm Goldfish Original hình cá, nướng, không hương liệu và chất bảo quản nhân tạo (theo bao bì). Hàng Mỹ.\n\nQuy cách: 187 g (6,6 oz) · gói\nThương hiệu: Goldfish (Pepperidge Farm)",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

@@ -19,12 +19,11 @@
   },
   "status": "READY",
   "image": {
-    "decision": "REPLACE",
-    "reason": "ảnh tự chụp/ảnh nhỏ → ảnh hãng cùng sản phẩm; chuẩn hoá 1000×1000",
+    "decision": "CROP",
+    "reason": "chủ 31/10: \"ảnh cũ mới giống thật\" → giữ ảnh KiotViet, chỉ chuẩn hoá khung 1000×1000",
     "source": {
-      "url": "https://images.squarespace-cdn.com/content/v1/611ef30c67e7c934d2569d2c/1630176689199-FXGU6OC5I3ZGPIZM498H/S%C3%B4ng+C%C3%A1i+Vi%E1%BB%87t+Nam+Floral+Gin+-+Front+-+White+background.JPG",
-      "page": "https://www.songcaidistillery.com/purchase",
-      "fetchedAt": "2026-10-31T12:56:26+00:00"
+      "kiotviet": "https://cdn2-retail-images.kiotviet.vn/2026/10/31/tram8/d172142f4b314dcfb39d7df95e7a5ec0.jpg",
+      "fetchedAt": "2026-10-31T14:18:14+00:00"
     },
     "rubricVersion": "v18"
   },
@@ -55,14 +54,44 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-31T14:17:03.691Z",
+      "by": "owner",
+      "status": "IN_PROGRESS",
+      "note": "rejected on Hub by AU KHUONG DUY: Chai này ảnh cũ mới giống thật"
+    },
+    {
+      "at": "2026-10-31T14:18:14+00:00",
+      "by": "ai",
+      "status": "READY",
+      "note": "theo chủ: dùng lại ảnh cũ"
+    },
+    {
+      "at": "2026-10-31T14:18:19.002Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-31T14:18:52.608Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-31T12:57:53.836Z",
+    "at": "2026-10-31T14:18:52.608Z",
     "fields": [
       "description",
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "REJECTED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-31T14:12:06.807Z",
+    "note": "Chai này ảnh cũ mới giống thật"
   }
 }
