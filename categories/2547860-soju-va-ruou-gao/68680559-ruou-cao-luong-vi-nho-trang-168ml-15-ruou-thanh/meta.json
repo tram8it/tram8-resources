@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-31T14:03:52.974Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "SP mới 31/10, không tìm được ảnh hãng dùng được (web hãng chặn/không có/khác nhãn) → vẽ lại từ ảnh chụp → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: bỏ tem giá; chữ nhỏ có thể mờ",
@@ -56,6 +56,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-31T14:26:35.820Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -65,5 +71,91 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-31T14:17:50.872Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-31T14:17:50.872Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/3b0ffcc638f71fd6b502d7c15fa103a50fa8f59a4876455da975f46d7fde6c72.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/10/31/tram8/f30f75728d234a7a90c016fba14e3efe.jpg"
+        ]
+      },
+      "description": {
+        "to": "Rượu cao lương Guolifang vị nho trắng, 15%. Hàng Trung Quốc.\n\nQuy cách: 168 ml · chai\nThương hiệu: Guolifang (Jiangxiaobai)",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {
+      "price": {
+        "to": 81481.48,
+        "from": 80000
+      },
+      "saleTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 68680559
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 68680559
+        }
+      },
+      "taxRate": {
+        "to": "VAT 8%",
+        "from": "VAT 10%"
+      },
+      "productTaxs": {
+        "to": [
+          {
+            "id": 0,
+            "name": "VAT 8%",
+            "taxId": 3,
+            "value": 8,
+            "productId": 68680559
+          }
+        ],
+        "from": [
+          {
+            "id": 0,
+            "name": "VAT 10%",
+            "taxId": 4,
+            "value": 10,
+            "productId": 68680559
+          }
+        ]
+      },
+      "purchaseTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 68680559
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 68680559
+        }
+      }
+    }
   }
 }

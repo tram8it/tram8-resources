@@ -20,14 +20,14 @@
   "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "SP mới 31/10: ảnh hãng là cỡ gói khác (khối lượng in khác) → vẽ lại theo gói thật → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ nhỏ có thể mờ",
+    "reason": "chủ 31/10: hàng family size, gói cao dài — ảnh cũ thấp làm khách nhầm cỡ → vẽ lại dáng gói cao (~1,8–2 lần chiều ngang), cả lô cùng tỉ lệ → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ nhỏ có thể mờ",
     "source": {
       "aiGenerated": true,
       "tool": "Gemini API",
       "model": "gemini-nano-banana-2.1",
       "generatedAt": "2026-10-31",
       "style": "flat clean packaging render (v17)",
-      "reference": "ảnh KiotViet chụp hàng thật + ảnh hãng (cheetos.com/doritos.com)"
+      "reference": "ảnh KiotViet + ảnh hãng (cheetos.com/doritos.com) + ảnh chủ gửi Doritos 31/10"
     },
     "rubricVersion": "v18"
   },
@@ -56,10 +56,22 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-31T14:31:50Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 3, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-31T14:31:54.336Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-31T14:15:36.651Z",
+    "at": "2026-10-31T14:31:54.336Z",
     "fields": [
       "description",
       "image"

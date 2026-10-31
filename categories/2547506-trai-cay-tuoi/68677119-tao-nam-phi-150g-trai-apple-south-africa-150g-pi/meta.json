@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-31T14:03:52.974Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "SP mới 31/10, không tìm được ảnh hãng dùng được (web hãng chặn/không có/khác nhãn) → vẽ lại từ ảnh chụp → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: bỏ tem giá; chữ nhỏ có thể mờ",
@@ -56,6 +56,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-31T14:26:35.820Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -65,5 +71,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-31T14:17:59.497Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-31T14:17:59.497Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/e391642d7467934b74328b5bd7ee7bcde24be9b858c1754ce287d2180c589045.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/10/30/tram8/291d196c171a47a4a5dd64019a8fbd84.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Táo Nam Phi, bán theo quả (khoảng 150 g/quả).\n\nQuy cách: quả\nNhà cung cấp: Kamereo",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

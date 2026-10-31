@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-31T14:03:52.974Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "SP mới 31/10, không tìm được ảnh hãng dùng được (web hãng chặn/không có/khác nhãn) → vẽ lại từ ảnh chụp → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: bỏ tem giá; chữ nhỏ có thể mờ",
@@ -56,6 +56,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-31T14:26:35.820Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -65,5 +71,91 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-31T14:17:16.416Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-31T14:17:16.416Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/ffb79b750fba61ea078c75c732abdef21f3c67dd8839188fe83c09bc8edda009.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/10/31/tram8/f9a6cfa4b7904dda82d6240970481ade.jpg"
+        ]
+      },
+      "description": {
+        "to": "Rượu tequila Jose Cuervo Especial Silver, 35%.\n\nQuy cách: 750 ml · chai\nThương hiệu: Jose Cuervo",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {
+      "price": {
+        "to": 915740.74,
+        "from": 899090.91
+      },
+      "saleTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 68680043
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 68680043
+        }
+      },
+      "taxRate": {
+        "to": "VAT 8%",
+        "from": "VAT 10%"
+      },
+      "productTaxs": {
+        "to": [
+          {
+            "id": 0,
+            "name": "VAT 8%",
+            "taxId": 3,
+            "value": 8,
+            "productId": 68680043
+          }
+        ],
+        "from": [
+          {
+            "id": 0,
+            "name": "VAT 10%",
+            "taxId": 4,
+            "value": 10,
+            "productId": 68680043
+          }
+        ]
+      },
+      "purchaseTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 68680043
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 68680043
+        }
+      }
+    }
   }
 }

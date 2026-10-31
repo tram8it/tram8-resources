@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-31T14:03:52.974Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "SP mới 31/10, không tìm được ảnh hãng dùng được (web hãng chặn/không có/khác nhãn) → vẽ lại từ ảnh chụp → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: bỏ tem giá; chữ nhỏ có thể mờ",
@@ -56,6 +56,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-31T14:26:35.820Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -65,5 +71,91 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-31T14:17:12.558Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-31T14:17:12.558Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/1c816cb39f8b0d4be13b9efa17ea75a573ac4fd271081f75c53b66b27f3653af.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/10/31/tram8/4e4a48440e424eb4bb6839d3f98331c5.jpg"
+        ]
+      },
+      "description": {
+        "to": "Rượu Jameson Caskmates Stout Edition, Irish Whiskey ủ thùng bia stout, 40%.\n\nQuy cách: 700 ml · chai\nThương hiệu: Jameson",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {
+      "price": {
+        "to": 712037.04,
+        "from": 699090.91
+      },
+      "saleTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 68680093
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 68680093
+        }
+      },
+      "taxRate": {
+        "to": "VAT 8%",
+        "from": "VAT 10%"
+      },
+      "productTaxs": {
+        "to": [
+          {
+            "id": 0,
+            "name": "VAT 8%",
+            "taxId": 3,
+            "value": 8,
+            "productId": 68680093
+          }
+        ],
+        "from": [
+          {
+            "id": 0,
+            "name": "VAT 10%",
+            "taxId": 4,
+            "value": 10,
+            "productId": 68680093
+          }
+        ]
+      },
+      "purchaseTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 68680093
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 68680093
+        }
+      }
+    }
   }
 }

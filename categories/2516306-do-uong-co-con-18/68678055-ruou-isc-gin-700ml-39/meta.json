@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-31T14:03:52.974Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "chủ 31/10 từ chối: chai thực tế cao, thon hơn → vẽ lại đúng tỉ lệ chai 700ml → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ nhỏ có thể mờ",
@@ -74,6 +74,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-31T14:26:35.820Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -85,9 +91,89 @@
     "hubStatus": "PENDING"
   },
   "review": {
-    "status": "REJECTED",
+    "status": "APPLIED",
     "reviewedBy": "AU KHUONG DUY",
-    "reviewedAt": "2026-10-31T14:15:09.809Z",
-    "note": "Chai thực tế cao dài hơn"
+    "reviewedAt": "2026-10-31T14:21:50.362Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-31T14:21:50.362Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/7fcf876c9499dc819356061a4a929057fbbd7ac4eed60601d2ef36783b283dcc.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/10/30/tram8/b660c27eca82411aa326369e47b65e21.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Rượu ISC Gin, Special Quality, 39%.\n\nQuy cách: 700 ml · chai\nNhà sản xuất: International Spirits Corporation (Việt Nam)",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {
+      "price": {
+        "to": 202777.78,
+        "from": 199090.91
+      },
+      "saleTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 68678055
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 68678055
+        }
+      },
+      "taxRate": {
+        "to": "VAT 8%",
+        "from": "VAT 10%"
+      },
+      "productTaxs": {
+        "to": [
+          {
+            "id": 0,
+            "name": "VAT 8%",
+            "taxId": 3,
+            "value": 8,
+            "productId": 68678055
+          }
+        ],
+        "from": [
+          {
+            "id": 0,
+            "name": "VAT 10%",
+            "taxId": 4,
+            "value": 10,
+            "productId": 68678055
+          }
+        ]
+      },
+      "purchaseTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 68678055
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 68678055
+        }
+      }
+    }
   }
 }

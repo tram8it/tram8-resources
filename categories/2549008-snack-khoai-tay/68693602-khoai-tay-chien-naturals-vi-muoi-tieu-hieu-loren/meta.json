@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-31T14:03:52.974Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "SP mới 31/10: ảnh hãng là mẫu bao bì mới, khác gói đang bán → vẽ lại theo gói thật → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ nhỏ có thể mờ",
@@ -56,6 +56,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-31T14:26:35.820Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -65,5 +71,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-31T14:21:20.226Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-31T14:21:20.226Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/e99ff1465fc05a3fcaf22f054b6637722e0d781bb7614f863c1f6aa171124d32.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/10/31/tram8/2b0f86f44b224c459c3512efd23db195.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Khoai tây chiên lát Lorenz Naturals vị muối biển và tiêu (Sea Salt & Pepper), chiên cả vỏ. Hàng Đức.\n\nQuy cách: 100 g · gói\nThương hiệu: Lorenz",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

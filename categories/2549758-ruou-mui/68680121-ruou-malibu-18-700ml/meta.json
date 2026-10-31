@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-31T14:03:52.974Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "SP mới 31/10, không tìm được ảnh hãng dùng được (web hãng chặn/không có/khác nhãn) → vẽ lại từ ảnh chụp → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: bỏ tem giá; chữ nhỏ có thể mờ",
@@ -56,6 +56,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-31T14:26:35.820Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -65,5 +71,91 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-31T14:17:28.901Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-31T14:17:28.901Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/731025b5a9d2524d8febc7abd50527f08c52dadac8eabd66675871ea5af2f2a7.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/10/31/tram8/feac723a975f48dcbbce3f836b710b66.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Rượu Malibu, rượu mùi rum dừa, 18%.\n\nQuy cách: 700 ml · chai\nThương hiệu: Malibu",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {
+      "price": {
+        "to": 601851.85,
+        "from": 590909.09
+      },
+      "saleTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 68680121
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 68680121
+        }
+      },
+      "taxRate": {
+        "to": "VAT 8%",
+        "from": "VAT 10%"
+      },
+      "productTaxs": {
+        "to": [
+          {
+            "id": 0,
+            "name": "VAT 8%",
+            "taxId": 3,
+            "value": 8,
+            "productId": 68680121
+          }
+        ],
+        "from": [
+          {
+            "id": 0,
+            "name": "VAT 10%",
+            "taxId": 4,
+            "value": 10,
+            "productId": 68680121
+          }
+        ]
+      },
+      "purchaseTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 68680121
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 68680121
+        }
+      }
+    }
   }
 }

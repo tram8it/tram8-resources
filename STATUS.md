@@ -2,13 +2,13 @@
 
 > Sinh tự động bởi `node tools/status.mjs`. **Không sửa tay.** Nguồn sự thật là `meta.json` của từng SP.
 
-Tổng 2687 SP · đã xem 2687 (100%) · xong 2613 · chờ chủ duyệt 29 · cần chụp 0 · hỏi chủ 1
+Tổng 2687 SP · đã xem 2687 (100%) · xong 2632 · chờ chủ duyệt 10 · cần chụp 0 · hỏi chủ 1
 
 Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` = giữ nguyên + đã lên web.
 
 | # | Category | DT 90 ngày | Tổng | Chưa xem | Giữ nguyên | Đang làm | Cần chụp | Hỏi chủ | Chờ duyệt | Đã duyệt | Đã lên web |
 |---|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| 1 | Snack khoai tây | 0.0tr | 81 | 0 | 0 | 0 | 0 | 0 | 3 | 0 | 78 |
+| 1 | Snack khoai tây | 0.0tr | 81 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 81 |
 | 2 | Snack bắp & phồng | 0.0tr | 74 | 0 | 0 | 0 | 0 | 1 | 4 | 0 | 69 |
 | 3 | Kem que | 0.0tr | 62 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 62 |
 | 4 | Socola thanh | 0.0tr | 51 | 0 | 7 | 0 | 0 | 0 | 0 | 0 | 44 |
@@ -51,7 +51,7 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 | 41 | Soda / nước trái cây có gas | 0.0tr | 20 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 20 |
 | 42 | Nước suối / bù khoáng / ion | 0.0tr | 19 | 0 | 0 | 1 | 0 | 0 | 0 | 0 | 18 |
 | 43 | Cơm nắm Onigiri | 0.0tr | 19 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 18 |
-| 44 | Whisky & Bourbon | 0.0tr | 19 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 18 |
+| 44 | Whisky & Bourbon | 0.0tr | 19 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 19 |
 | 45 | Snack rong biển | 0.0tr | 19 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 19 |
 | 46 | Bánh que chấm socola | 0.0tr | 18 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 18 |
 | 47 | Nước tẩy trang - Dầu tẩy trang | 0.0tr | 18 | 0 | 9 | 0 | 0 | 0 | 0 | 0 | 9 |
@@ -65,7 +65,7 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 | 55 | Món ăn no | 0.0tr | 16 | 0 | 0 | 1 | 0 | 0 | 0 | 0 | 15 |
 | 56 | Kombucha / lên men | 0.0tr | 16 | 0 | 0 | 1 | 0 | 0 | 0 | 0 | 15 |
 | 57 | Mặt nạ | 0.0tr | 16 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 16 |
-| 58 | Rượu Mùi | 0.0tr | 16 | 0 | 0 | 0 | 0 | 0 | 2 | 0 | 14 |
+| 58 | Rượu Mùi | 0.0tr | 16 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 16 |
 | 59 | Xịt khử mùi | 0.0tr | 16 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 16 |
 | 60 | Bánh gạo | 0.0tr | 16 | 0 | 0 | 1 | 0 | 0 | 0 | 0 | 15 |
 | 61 | Cáp sạc & dây | 0.0tr | 15 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 15 |
@@ -78,7 +78,7 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 | 68 | Bánh pie / cake mềm | 0.0tr | 14 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 14 |
 | 69 | Board games/ Card games | 0.0tr | 14 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 14 |
 | 70 | Sữa tắm | 0.0tr | 14 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 13 |
-| 71 | Trái cây tươi | 0.0tr | 14 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 13 |
+| 71 | Trái cây tươi | 0.0tr | 14 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 14 |
 | 72 | Tokbokki & bánh gạo Hàn | 0.0tr | 13 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 13 |
 | 73 | Củ / bộ sạc | 0.0tr | 13 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 13 |
 | 74 | Khô bò | 0.0tr | 13 | 0 | 1 | 2 | 0 | 0 | 0 | 0 | 10 |
@@ -116,7 +116,7 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 | 106 | Dụng cụ lông mày / mũi | 0.0tr | 9 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 9 |
 | 107 | Gia vị - Đồ chấm | 0.0tr | 9 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 9 |
 | 108 | Sữa rửa mặt NAM | 0.0tr | 9 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 9 |
-| 109 | Soju Vị Trái Cây | 0.0tr | 9 | 0 | 6 | 0 | 0 | 0 | 1 | 0 | 2 |
+| 109 | Soju Vị Trái Cây | 0.0tr | 9 | 0 | 6 | 0 | 0 | 0 | 0 | 0 | 3 |
 | 110 | Xà bông | 0.0tr | 9 | 0 | 3 | 0 | 0 | 0 | 0 | 0 | 6 |
 | 111 | Rong biển ăn liền | 0.0tr | 9 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 8 |
 | 112 | Món chiên - nướng | 0.0tr | 8 | 0 | 6 | 0 | 0 | 0 | 0 | 0 | 2 |
@@ -133,7 +133,7 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 | 123 | Tẩy da chết - Face | 0.0tr | 7 | 0 | 7 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 124 | Snack mì | 0.0tr | 8 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 8 |
 | 125 | Dưỡng da body | 0.0tr | 7 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 7 |
-| 126 | Gin & Tequila | 0.0tr | 7 | 0 | 1 | 0 | 0 | 0 | 3 | 0 | 3 |
+| 126 | Gin & Tequila | 0.0tr | 7 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 6 |
 | 127 | Thịt chua | 0.0tr | 7 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 7 |
 | 128 | Ức gà & thịt ăn liền | 0.0tr | 10 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 10 |
 | 129 | Sữa thanh trùng | 0.0tr | 7 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 7 |
@@ -175,8 +175,8 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 | 165 | Tăm nha khoa | 0.0tr | 4 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 4 |
 | 166 | Tampon | 0.0tr | 4 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 4 |
 | 167 | Băng dính – keo – kéo | 0.0tr | 4 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 4 |
-| 168 | Soju Và Rượu Gạo | 0.0tr | 4 | 0 | 0 | 0 | 0 | 0 | 3 | 0 | 1 |
-| 169 | Đồ uống có cồn (18+) | 0.0tr | 4 | 0 | 0 | 0 | 0 | 0 | 2 | 0 | 2 |
+| 168 | Soju Và Rượu Gạo | 0.0tr | 4 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 4 |
+| 169 | Đồ uống có cồn (18+) | 0.0tr | 4 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 3 |
 | 170 | BVS ban ngày | 0.0tr | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 3 |
 | 171 | BVS dạng quần | 0.0tr | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 3 |
 | 172 | Tráng miệng | 0.0tr | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 3 |
@@ -191,14 +191,14 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 | 181 | Udon & mì tươi | 0.0tr | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 3 |
 | 182 | Nước súc miệng - Thơm miệng | 0.0tr | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 3 |
 | 183 | Socola trứng / đồ chơi | 0.0tr | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 3 |
-| 184 | Salads | 0.0tr | 3 | 0 | 0 | 0 | 0 | 0 | 3 | 0 | 0 |
+| 184 | Salads | 0.0tr | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 3 |
 | 185 | Đồ uống đóng chai | 0.0tr | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 3 |
 | 186 | BVS đêm | 0.0tr | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 2 |
 | 187 | Áo mưa | 0.0tr | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 2 |
 | 188 | Serum dưỡng tóc | 0.0tr | 2 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
 | 189 | Khẩu trang y tế | 0.0tr | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 2 |
 | 190 | Nem chua | 0.0tr | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 3 |
-| 191 | Sake | 0.0tr | 2 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 1 |
+| 191 | Sake | 0.0tr | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 2 |
 | 192 | Thịt khô đóng gói khác | 0.0tr | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 2 |
 | 193 | Makgeolli | 0.0tr | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 2 |
 | 194 | Văn phòng phẩm | 0.0tr | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 2 |

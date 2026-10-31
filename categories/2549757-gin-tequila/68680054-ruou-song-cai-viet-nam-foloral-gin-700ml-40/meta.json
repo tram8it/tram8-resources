@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-31T14:03:52.974Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "CROP",
     "reason": "chủ 31/10: \"ảnh cũ mới giống thật\" → giữ ảnh KiotViet, chỉ chuẩn hoá khung 1000×1000",
@@ -78,6 +78,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-31T14:26:35.820Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -89,9 +95,89 @@
     "hubStatus": "PENDING"
   },
   "review": {
-    "status": "REJECTED",
+    "status": "APPLIED",
     "reviewedBy": "AU KHUONG DUY",
-    "reviewedAt": "2026-10-31T14:12:06.807Z",
-    "note": "Chai này ảnh cũ mới giống thật"
+    "reviewedAt": "2026-10-31T14:21:54.520Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-31T14:21:54.520Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/3d8a920c4df38d6af839e75049ce6963fc5472ea8f812e12c4c88f02525adaf8.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/10/31/tram8/d172142f4b314dcfb39d7df95e7a5ec0.jpg"
+        ]
+      },
+      "description": {
+        "to": "Rượu gin Sông Cái Việt Nam Floral Gin (Dry Gin), 40%.\n\nQuy cách: 700 ml · chai\nNhà sản xuất: Sông Cái Distillery (Việt Nam)",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {
+      "price": {
+        "to": 1291666.67,
+        "from": 1268181.82
+      },
+      "saleTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 68680054
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 68680054
+        }
+      },
+      "taxRate": {
+        "to": "VAT 8%",
+        "from": "VAT 10%"
+      },
+      "productTaxs": {
+        "to": [
+          {
+            "id": 0,
+            "name": "VAT 8%",
+            "taxId": 3,
+            "value": 8,
+            "productId": 68680054
+          }
+        ],
+        "from": [
+          {
+            "id": 0,
+            "name": "VAT 10%",
+            "taxId": 4,
+            "value": 10,
+            "productId": 68680054
+          }
+        ]
+      },
+      "purchaseTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 68680054
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 68680054
+        }
+      }
+    }
   }
 }

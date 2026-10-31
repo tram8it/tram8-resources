@@ -20,14 +20,11 @@
   "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "chủ 31/10 từ chối: chai thực tế cao, thon hơn → vẽ lại đúng tỉ lệ chai 700ml → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ nhỏ có thể mờ",
+    "reason": "chủ 31/10 từ chối 2 lần ảnh vẽ (sai dáng chai) → ảnh chính hãng trên trang Công ty CP Rượu Quốc Tế (ISC)",
     "source": {
-      "aiGenerated": true,
-      "tool": "Gemini API",
-      "model": "gemini-nano-banana-2.1",
-      "generatedAt": "2026-10-31",
-      "style": "flat clean packaging render (v17)",
-      "reference": "ảnh KiotViet chụp hàng thật"
+      "url": "http://ruouquocteisc.com/upload/product/550x770x2/875296132231.jpg",
+      "page": "http://ruouquocteisc.com/san-pham/ruou-isc-rum.html",
+      "fetchedAt": "2026-10-31T14:28:31+00:00"
     },
     "rubricVersion": "v18"
   },
@@ -74,10 +71,28 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-31T14:26:35.820Z",
+      "by": "owner",
+      "status": "IN_PROGRESS",
+      "note": "rejected on Hub by AU KHUONG DUY: Vẫn ko đúng, bạn tìm qua mấy chai isc rum trên mạng xem"
+    },
+    {
+      "at": "2026-10-31T14:28:31+00:00",
+      "by": "ai",
+      "status": "READY",
+      "note": "ảnh hãng ISC thay ảnh vẽ"
+    },
+    {
+      "at": "2026-10-31T14:28:31.885Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-31T14:18:14.834Z",
+    "at": "2026-10-31T14:28:31.885Z",
     "fields": [
       "description",
       "image"
@@ -87,7 +102,7 @@
   "review": {
     "status": "REJECTED",
     "reviewedBy": "AU KHUONG DUY",
-    "reviewedAt": "2026-10-31T14:13:26.412Z",
-    "note": "Chai này bị sai tỉ lệ, thực tế cao dài"
+    "reviewedAt": "2026-10-31T14:20:57.639Z",
+    "note": "Vẫn ko đúng, bạn tìm qua mấy chai isc rum trên mạng xem"
   }
 }
