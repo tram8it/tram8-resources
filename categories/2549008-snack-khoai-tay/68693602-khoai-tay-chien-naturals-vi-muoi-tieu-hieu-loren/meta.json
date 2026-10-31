@@ -20,14 +20,11 @@
   "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "chủ 31/10: 3 gói Lorenz mỗi gói một kiểu → vẽ lại cùng dáng, cỡ, ánh sáng; giữ thiết kế từng gói thật → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ nhỏ có thể mờ",
+    "reason": "chủ 31/10: hàng về là bao bì Lorenz Naturals mới (logo chữ xanh) → ảnh hãng lorenz-snacks.com cùng mẫu 100g; ảnh hãng có thêm dòng nhỏ \"With natural ingredients\"",
     "source": {
-      "aiGenerated": true,
-      "tool": "Gemini API",
-      "model": "gemini-nano-banana-2.1",
-      "generatedAt": "2026-10-31",
-      "style": "flat clean packaging render (v17)",
-      "reference": "ảnh KiotViet + gói Lorenz Naturals Salted đã vẽ (để đồng bộ kiểu)"
+      "url": "https://lorenz-snacks.com/sites/default/files/2026-09/21003541_naturals_seasaltpepper_100g_nm_fop_web_imageteaser-desktop_1176x1008px.png",
+      "page": "https://lorenz-snacks.com/naturals-sea-salt-pepper",
+      "fetchedAt": "2026-10-31T14:45:10+00:00"
     },
     "rubricVersion": "v18"
   },
@@ -74,10 +71,22 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-31T14:45:10+00:00",
+      "by": "ai",
+      "status": "READY",
+      "note": "ảnh hãng bao bì mới thay ảnh vẽ bao bì cũ"
+    },
+    {
+      "at": "2026-10-31T14:45:10.803Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-31T14:37:07.383Z",
+    "at": "2026-10-31T14:45:10.803Z",
     "fields": [
       "description",
       "image"
