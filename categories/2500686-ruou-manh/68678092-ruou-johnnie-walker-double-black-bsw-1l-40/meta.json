@@ -13,11 +13,11 @@
   },
   "revenue90d": 0,
   "current": {
-    "imageUrl": "https://cdn2-retail-images.kiotviet.vn/2026/10/30/tram8/ab1add1a89174a62b8049ed4fde60176.jpg",
-    "description": null,
-    "exportedAt": "2026-10-31T12:31:12.226Z"
+    "imageUrl": "https://img.tram8.vn/products/4e8f78ea4d0bddf288d77436e1ee0e1b5bf9962f08a5b80fc4d3850c3fbc6308.webp",
+    "description": "Rượu Johnnie Walker Double Black, Blended Scotch Whisky, 40%.\n\nQuy cách: 1 L · chai\nThương hiệu: Johnnie Walker (Diageo)",
+    "exportedAt": "2026-10-31T14:03:52.974Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "ảnh tự chụp/ảnh nhỏ → ảnh hãng cùng sản phẩm; chuẩn hoá 1000×1000",
@@ -55,6 +55,18 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-31T14:03:31.059Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-31T14:03:54.159Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
     }
   ],
   "submitted": {
@@ -64,5 +76,91 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-31T13:13:39.375Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-31T13:13:39.375Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/4e8f78ea4d0bddf288d77436e1ee0e1b5bf9962f08a5b80fc4d3850c3fbc6308.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/10/30/tram8/ab1add1a89174a62b8049ed4fde60176.jpg"
+        ]
+      },
+      "description": {
+        "to": "Rượu Johnnie Walker Double Black, Blended Scotch Whisky, 40%.\n\nQuy cách: 1 L · chai\nThương hiệu: Johnnie Walker (Diageo)",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {
+      "price": {
+        "to": 1435185.19,
+        "from": 1409090.91
+      },
+      "saleTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 68678092
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 68678092
+        }
+      },
+      "taxRate": {
+        "to": "VAT 8%",
+        "from": "VAT 10%"
+      },
+      "productTaxs": {
+        "to": [
+          {
+            "id": 0,
+            "name": "VAT 8%",
+            "taxId": 3,
+            "value": 8,
+            "productId": 68678092
+          }
+        ],
+        "from": [
+          {
+            "id": 0,
+            "name": "VAT 10%",
+            "taxId": 4,
+            "value": 10,
+            "productId": 68678092
+          }
+        ]
+      },
+      "purchaseTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 68678092
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 68678092
+        }
+      }
+    }
   }
 }

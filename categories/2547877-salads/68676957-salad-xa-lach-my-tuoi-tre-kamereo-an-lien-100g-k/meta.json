@@ -15,16 +15,19 @@
   "current": {
     "imageUrl": "https://cdn2-retail-images.kiotviet.vn/2026/10/30/tram8/f0611c71c84940bd899e6bfb017cd517.jpeg",
     "description": null,
-    "exportedAt": "2026-10-31T12:31:12.226Z"
+    "exportedAt": "2026-10-31T14:03:52.974Z"
   },
   "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "ảnh tự chụp/ảnh nhỏ → ảnh hãng cùng sản phẩm; chuẩn hoá 1000×1000",
+    "reason": "chủ 31/10: salad là hộp nhựa trong túi, gói xốt Kewpie đặt trên — ảnh thẳng không thể hiện được → vẽ góc nghiêng 3/4 như ảnh chủ, 3 loại cùng bố cục → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: bỏ tem giá; chữ nhỏ có thể mờ",
     "source": {
-      "url": "https://images-handler.kamereo.vn/eyJidWNrZXQiOiJpbWFnZS1oYW5kbGVyLXByb2QiLCJrZXkiOiJzdXBwbGllci82NTQvUFJPRFVDVF9JTUFHRS9kNjEyMzg5NC01MjUyLTRjYzMtOWVlNi04MTA4ZGU0ZTc3OWEuanBnIn0=",
-      "page": "https://kamereo.vn/products/salad-xa-lach-my-tuoi-tre-kamereo-an-lien-100g-K898",
-      "fetchedAt": "2026-10-31T12:56:26+00:00"
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-31",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh chủ gửi 31/10 (góc nghiêng hộp + gói xốt)"
     },
     "rubricVersion": "v18"
   },
@@ -55,10 +58,22 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-31T14:11:22Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 3, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-31T14:12:06.708Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-31T12:57:12.307Z",
+    "at": "2026-10-31T14:12:06.708Z",
     "fields": [
       "description",
       "image"

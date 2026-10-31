@@ -13,11 +13,11 @@
   },
   "revenue90d": 0,
   "current": {
-    "imageUrl": "https://cdn2-retail-images.kiotviet.vn/2026/10/31/tram8/8385654db5e54eb8a973db7bb94ed25c.jpg",
-    "description": null,
-    "exportedAt": "2026-10-31T12:31:12.226Z"
+    "imageUrl": "https://img.tram8.vn/products/28e37d05e260b64bc7c03ff4ce28084866badff7ad8c4fa32f779e527050d93f.webp",
+    "description": "Rượu Jameson Caskmates IPA Edition, Irish Whiskey ủ thùng bia IPA, 40%.\n\nQuy cách: 700 ml · chai\nThương hiệu: Jameson",
+    "exportedAt": "2026-10-31T14:03:52.974Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "CROP",
     "reason": "ảnh KiotViet đã là ảnh hãng nền trắng đúng sản phẩm → chỉ chuẩn hoá khung",
@@ -52,6 +52,18 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-31T14:03:31.059Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-31T14:03:54.159Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
     }
   ],
   "submitted": {
@@ -61,5 +73,91 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-31T13:14:19.260Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-31T13:14:19.260Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/28e37d05e260b64bc7c03ff4ce28084866badff7ad8c4fa32f779e527050d93f.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/10/31/tram8/8385654db5e54eb8a973db7bb94ed25c.jpg"
+        ]
+      },
+      "description": {
+        "to": "Rượu Jameson Caskmates IPA Edition, Irish Whiskey ủ thùng bia IPA, 40%.\n\nQuy cách: 700 ml · chai\nThương hiệu: Jameson",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {
+      "price": {
+        "to": 712037.04,
+        "from": 699090.91
+      },
+      "saleTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 68680085
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 68680085
+        }
+      },
+      "taxRate": {
+        "to": "VAT 8%",
+        "from": "VAT 10%"
+      },
+      "productTaxs": {
+        "to": [
+          {
+            "id": 0,
+            "name": "VAT 8%",
+            "taxId": 3,
+            "value": 8,
+            "productId": 68680085
+          }
+        ],
+        "from": [
+          {
+            "id": 0,
+            "name": "VAT 10%",
+            "taxId": 4,
+            "value": 10,
+            "productId": 68680085
+          }
+        ]
+      },
+      "purchaseTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 68680085
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 68680085
+        }
+      }
+    }
   }
 }

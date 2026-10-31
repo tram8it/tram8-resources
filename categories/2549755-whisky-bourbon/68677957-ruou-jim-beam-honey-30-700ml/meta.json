@@ -13,11 +13,11 @@
   },
   "revenue90d": 0,
   "current": {
-    "imageUrl": "https://cdn2-retail-images.kiotviet.vn/2026/10/30/tram8/76c8c387b3154a6baa118447e9aa4910.jpeg",
-    "description": null,
-    "exportedAt": "2026-10-31T12:31:12.226Z"
+    "imageUrl": "https://img.tram8.vn/products/f40824b6f26fb8e5ec0c8f656633136257a675ecf69fa9846cd6958612c7484f.webp",
+    "description": "Rượu Jim Beam Honey, rượu mùi pha bourbon và mật ong, 30%.\n\nQuy cách: 700 ml · chai\nThương hiệu: Jim Beam",
+    "exportedAt": "2026-10-31T14:03:52.974Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "ảnh tự chụp/ảnh nhỏ → ảnh hãng cùng sản phẩm; chuẩn hoá 1000×1000",
@@ -55,6 +55,18 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-31T14:03:31.059Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-31T14:03:54.159Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
     }
   ],
   "submitted": {
@@ -64,5 +76,91 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-31T13:13:52.240Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-31T13:13:52.240Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/f40824b6f26fb8e5ec0c8f656633136257a675ecf69fa9846cd6958612c7484f.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/10/30/tram8/76c8c387b3154a6baa118447e9aa4910.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Rượu Jim Beam Honey, rượu mùi pha bourbon và mật ong, 30%.\n\nQuy cách: 700 ml · chai\nThương hiệu: Jim Beam",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {
+      "price": {
+        "to": 509259.26,
+        "from": 500000
+      },
+      "saleTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 68677957
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 68677957
+        }
+      },
+      "taxRate": {
+        "to": "VAT 8%",
+        "from": "VAT 10%"
+      },
+      "productTaxs": {
+        "to": [
+          {
+            "id": 0,
+            "name": "VAT 8%",
+            "taxId": 3,
+            "value": 8,
+            "productId": 68677957
+          }
+        ],
+        "from": [
+          {
+            "id": 0,
+            "name": "VAT 10%",
+            "taxId": 4,
+            "value": 10,
+            "productId": 68677957
+          }
+        ]
+      },
+      "purchaseTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 68677957
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 68677957
+        }
+      }
+    }
   }
 }

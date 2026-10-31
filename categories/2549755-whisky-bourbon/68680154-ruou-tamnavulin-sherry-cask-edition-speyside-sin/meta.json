@@ -13,11 +13,11 @@
   },
   "revenue90d": 0,
   "current": {
-    "imageUrl": "https://cdn2-retail-images.kiotviet.vn/2026/10/31/tram8/39263855f3b1407093d412056a0bdf4c.jpg",
-    "description": null,
-    "exportedAt": "2026-10-31T12:31:12.226Z"
+    "imageUrl": "https://img.tram8.vn/products/634bc2395a312298ff08fcdfb895a0d8d0420931db0a8612c3f651a3217b77a8.webp",
+    "description": "Rượu Tamnavulin Sherry Cask Edition, Speyside Single Malt Scotch Whisky, 40%.\n\nQuy cách: 700 ml · chai\nThương hiệu: Tamnavulin",
+    "exportedAt": "2026-10-31T14:03:52.974Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "ảnh tự chụp/ảnh nhỏ → ảnh hãng cùng sản phẩm; chuẩn hoá 1000×1000",
@@ -55,6 +55,18 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-31T14:03:31.059Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-31T14:03:54.159Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
     }
   ],
   "submitted": {
@@ -64,5 +76,91 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-31T13:14:30.459Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-31T13:14:30.459Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/634bc2395a312298ff08fcdfb895a0d8d0420931db0a8612c3f651a3217b77a8.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/10/31/tram8/39263855f3b1407093d412056a0bdf4c.jpg"
+        ]
+      },
+      "description": {
+        "to": "Rượu Tamnavulin Sherry Cask Edition, Speyside Single Malt Scotch Whisky, 40%.\n\nQuy cách: 700 ml · chai\nThương hiệu: Tamnavulin",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {
+      "price": {
+        "to": 869444.44,
+        "from": 853636.36
+      },
+      "saleTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 68680154
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 68680154
+        }
+      },
+      "taxRate": {
+        "to": "VAT 8%",
+        "from": "VAT 10%"
+      },
+      "productTaxs": {
+        "to": [
+          {
+            "id": 0,
+            "name": "VAT 8%",
+            "taxId": 3,
+            "value": 8,
+            "productId": 68680154
+          }
+        ],
+        "from": [
+          {
+            "id": 0,
+            "name": "VAT 10%",
+            "taxId": 4,
+            "value": 10,
+            "productId": 68680154
+          }
+        ]
+      },
+      "purchaseTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 68680154
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 68680154
+        }
+      }
+    }
   }
 }

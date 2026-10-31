@@ -13,11 +13,11 @@
   },
   "revenue90d": 0,
   "current": {
-    "imageUrl": "https://cdn2-retail-images.kiotviet.vn/2026/10/31/tram8/fda78e5a81874cca9bcf4b4525bbc6ff.jpg",
-    "description": null,
-    "exportedAt": "2026-10-31T12:31:12.226Z"
+    "imageUrl": "https://img.tram8.vn/products/3eb0f37cc07b29f0f781d80a085abf11f125abef0e5d731faca4b8a7587ddb4a.webp",
+    "description": "Rượu The Singleton of Dufftown 12 năm, Single Malt Scotch Whisky, 40%.\n\nQuy cách: 700 ml · chai\nThương hiệu: The Singleton (Diageo)",
+    "exportedAt": "2026-10-31T14:03:52.974Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "ảnh tự chụp/ảnh nhỏ → ảnh hãng cùng sản phẩm; chuẩn hoá 1000×1000",
@@ -55,6 +55,18 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-31T14:03:31.059Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-31T14:03:54.159Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
     }
   ],
   "submitted": {
@@ -64,5 +76,92 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-31T13:14:09.824Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-31T13:14:09.824Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/3eb0f37cc07b29f0f781d80a085abf11f125abef0e5d731faca4b8a7587ddb4a.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/10/31/tram8/fda78e5a81874cca9bcf4b4525bbc6ff.jpg",
+          "https://cdn2-retail-images.kiotviet.vn/2026/10/31/tram8/7abcb722c2034a92b385689123d242b1.jpg"
+        ]
+      },
+      "description": {
+        "to": "Rượu The Singleton of Dufftown 12 năm, Single Malt Scotch Whisky, 40%.\n\nQuy cách: 700 ml · chai\nThương hiệu: The Singleton (Diageo)",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {
+      "price": {
+        "to": 1563888.89,
+        "from": 1535454.55
+      },
+      "saleTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 68680055
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 68680055
+        }
+      },
+      "taxRate": {
+        "to": "VAT 8%",
+        "from": "VAT 10%"
+      },
+      "productTaxs": {
+        "to": [
+          {
+            "id": 0,
+            "name": "VAT 8%",
+            "taxId": 3,
+            "value": 8,
+            "productId": 68680055
+          }
+        ],
+        "from": [
+          {
+            "id": 0,
+            "name": "VAT 10%",
+            "taxId": 4,
+            "value": 10,
+            "productId": 68680055
+          }
+        ]
+      },
+      "purchaseTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 68680055
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 68680055
+        }
+      }
+    }
   }
 }

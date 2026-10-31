@@ -15,16 +15,19 @@
   "current": {
     "imageUrl": "https://cdn2-retail-images.kiotviet.vn/2026/10/30/tram8/9ba2adcbfe0f4b7f95645c2cf5abb96f.jpeg",
     "description": null,
-    "exportedAt": "2026-10-31T12:31:12.226Z"
+    "exportedAt": "2026-10-31T14:03:52.974Z"
   },
   "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "ảnh tự chụp/ảnh nhỏ → ảnh hãng cùng sản phẩm; chuẩn hoá 1000×1000",
+    "reason": "chủ 31/10: salad là hộp nhựa trong túi, gói xốt Kewpie đặt trên — ảnh thẳng không thể hiện được → vẽ góc nghiêng 3/4 như ảnh chủ, 3 loại cùng bố cục → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: bỏ tem giá; chữ nhỏ có thể mờ",
     "source": {
-      "url": "https://images-handler.kamereo.vn/eyJidWNrZXQiOiJpbWFnZS1oYW5kbGVyLXByb2QiLCJrZXkiOiJzdXBwbGllci82NTQvUFJPRFVDVF9JTUFHRS9jMDliNmI0YS03Nzc0LTQ2OWItOTJhMS0xY2UxMmI1NDIxYTIuanBnIn0=",
-      "page": "https://kamereo.vn/products/salad-xa-lach-hon-hop-giai-nhiet-kamereo-an-lien-100g-K897",
-      "fetchedAt": "2026-10-31T12:56:26+00:00"
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-31",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh chủ gửi 31/10 (góc nghiêng hộp + gói xốt)"
     },
     "rubricVersion": "v18"
   },
@@ -55,10 +58,22 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-31T14:11:22Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-31T14:12:10.805Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-31T12:57:15.198Z",
+    "at": "2026-10-31T14:12:10.805Z",
     "fields": [
       "description",
       "image"

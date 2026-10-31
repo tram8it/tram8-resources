@@ -13,11 +13,11 @@
   },
   "revenue90d": 0,
   "current": {
-    "imageUrl": "https://cdn1-retail-images.kiotviet.vn/2026/10/31/tram8/ca91293f2c9c43b8ae8d748b2f26706a.jpg",
-    "description": null,
-    "exportedAt": "2026-10-31T12:31:12.226Z"
+    "imageUrl": "https://img.tram8.vn/products/b41a380411d0f5f0a6552a2f4e136f4b8da3084cfc2d07b0df903e11589c25c1.webp",
+    "description": "Bia thủ công THƠM Tây Bắc, kiểu Belgian Saison với hạt dổi và mắc khén, 6,3% cồn (theo trang hãng).\n\nQuy cách: 330 ml · chai\nNhà sản xuất: Thơm Brewing (Việt Nam)",
+    "exportedAt": "2026-10-31T14:03:52.974Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "ảnh tự chụp/ảnh nhỏ → ảnh hãng cùng sản phẩm (poster hãng, đã tách nền chai); chuẩn hoá 1000×1000",
@@ -55,6 +55,18 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-31T14:03:31.059Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-31T14:03:54.159Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
     }
   ],
   "submitted": {
@@ -64,5 +76,91 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-31T13:12:21.760Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-31T13:12:21.760Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/b41a380411d0f5f0a6552a2f4e136f4b8da3084cfc2d07b0df903e11589c25c1.webp"
+        ],
+        "from": [
+          "https://cdn1-retail-images.kiotviet.vn/2026/10/31/tram8/ca91293f2c9c43b8ae8d748b2f26706a.jpg"
+        ]
+      },
+      "description": {
+        "to": "Bia thủ công THƠM Tây Bắc, kiểu Belgian Saison với hạt dổi và mắc khén, 6,3% cồn (theo trang hãng).\n\nQuy cách: 330 ml · chai\nNhà sản xuất: Thơm Brewing (Việt Nam)",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {
+      "price": {
+        "to": 72222.22,
+        "from": 70909.09
+      },
+      "saleTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 68683487
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 68683487
+        }
+      },
+      "taxRate": {
+        "to": "VAT 8%",
+        "from": "VAT 10%"
+      },
+      "productTaxs": {
+        "to": [
+          {
+            "id": 0,
+            "name": "VAT 8%",
+            "taxId": 3,
+            "value": 8,
+            "productId": 68683487
+          }
+        ],
+        "from": [
+          {
+            "id": 0,
+            "name": "VAT 10%",
+            "taxId": 4,
+            "value": 10,
+            "productId": 68683487
+          }
+        ]
+      },
+      "purchaseTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 68683487
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 68683487
+        }
+      }
+    }
   }
 }
