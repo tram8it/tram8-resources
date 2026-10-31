@@ -13,11 +13,11 @@
   },
   "revenue90d": 0,
   "current": {
-    "imageUrl": "https://cdn1-retail-images.kiotviet.vn/2026/10/28/tram8/6a066702a4824472aaa6d6aefe6078df.jpeg",
-    "description": null,
-    "exportedAt": "2026-10-30T07:47:17.631Z"
+    "imageUrl": "https://img.tram8.vn/products/4b0bca88e1c893fe306fb541c80889b3c2038271e746e682a5aa016db8b87531.webp",
+    "description": "Bánh xốp Euro Peking Crunch nhân kem, phủ sô cô la caramel và ngũ cốc; bổ sung vitamin A, D, E (theo bao bì).\n\nQuy cách: 13 g · cái\nThương hiệu: Euro",
+    "exportedAt": "2026-10-31T12:31:12.226Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "SP mới 30/10, không có ảnh hãng nền trắng dùng được → vẽ Peking Crunch → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: làm phẳng, ánh sáng đều; chữ nhỏ có thể mờ",
@@ -56,6 +56,18 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-31T12:30:47.901Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-31T12:31:13.488Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
     }
   ],
   "submitted": {
@@ -65,5 +77,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-30T08:39:01.204Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-30T08:39:01.204Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/4b0bca88e1c893fe306fb541c80889b3c2038271e746e682a5aa016db8b87531.webp"
+        ],
+        "from": [
+          "https://cdn1-retail-images.kiotviet.vn/2026/10/28/tram8/6a066702a4824472aaa6d6aefe6078df.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Bánh xốp Euro Peking Crunch nhân kem, phủ sô cô la caramel và ngũ cốc; bổ sung vitamin A, D, E (theo bao bì).\n\nQuy cách: 13 g · cái\nThương hiệu: Euro",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

@@ -13,11 +13,11 @@
   },
   "revenue90d": 0,
   "current": {
-    "imageUrl": "https://cdn2-retail-images.kiotviet.vn/2026/10/30/tram8/1572c497f9ef440dac604d00607c29d7.jpeg",
-    "description": null,
-    "exportedAt": "2026-10-30T07:47:17.631Z"
+    "imageUrl": "https://img.tram8.vn/products/1113d9a02f2db6e5e6b1c3f87a0238eb6d8925eb4f53f789642d577e34af2fad.webp",
+    "description": "Bút bi bấm Thiên Long TL-023, nét 0,8 mm (theo trang hãng), mực xanh.\n\nQuy cách: cây\nThương hiệu: Thiên Long",
+    "exportedAt": "2026-10-31T12:31:12.226Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "SP mới 30/10, không có ảnh hãng nền trắng dùng được → vẽ TL-023 xanh (cùng bố cục với TL-023 đỏ) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: làm phẳng, ánh sáng đều; chữ nhỏ có thể mờ",
@@ -56,6 +56,18 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-31T12:30:47.901Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-31T12:31:13.488Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
     }
   ],
   "submitted": {
@@ -65,5 +77,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-30T08:40:15.259Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-30T08:40:15.259Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/1113d9a02f2db6e5e6b1c3f87a0238eb6d8925eb4f53f789642d577e34af2fad.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/10/30/tram8/1572c497f9ef440dac604d00607c29d7.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Bút bi bấm Thiên Long TL-023, nét 0,8 mm (theo trang hãng), mực xanh.\n\nQuy cách: cây\nThương hiệu: Thiên Long",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

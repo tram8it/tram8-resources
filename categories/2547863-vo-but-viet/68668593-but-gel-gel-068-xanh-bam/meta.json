@@ -13,11 +13,11 @@
   },
   "revenue90d": 0,
   "current": {
-    "imageUrl": "https://cdn2-retail-images.kiotviet.vn/2026/10/30/tram8/d0bfbe5c174a4ee4baed5565a868e936.jpeg",
-    "description": null,
-    "exportedAt": "2026-10-30T07:47:17.631Z"
+    "imageUrl": "https://img.tram8.vn/products/2aad09ef551ff5a58448e7c9f93a1de2c97d54b80b8a48decada89899139f852.webp",
+    "description": "Bút gel bấm Fasgel Thiên Long GEL-068, thân trong suốt, mực xanh.\n\nQuy cách: cây\nThương hiệu: Thiên Long",
+    "exportedAt": "2026-10-31T12:31:12.226Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "SP mới 30/10, không có ảnh hãng nền trắng dùng được → vẽ bút GEL-068 xanh → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: làm phẳng, ánh sáng đều; chữ nhỏ có thể mờ",
@@ -56,6 +56,18 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-31T12:30:47.901Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-31T12:31:13.488Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
     }
   ],
   "submitted": {
@@ -65,5 +77,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-30T08:40:51.032Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-30T08:40:51.032Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/2aad09ef551ff5a58448e7c9f93a1de2c97d54b80b8a48decada89899139f852.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/10/30/tram8/d0bfbe5c174a4ee4baed5565a868e936.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Bút gel bấm Fasgel Thiên Long GEL-068, thân trong suốt, mực xanh.\n\nQuy cách: cây\nThương hiệu: Thiên Long",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

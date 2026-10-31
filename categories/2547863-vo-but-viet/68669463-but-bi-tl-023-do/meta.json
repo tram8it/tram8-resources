@@ -13,11 +13,11 @@
   },
   "revenue90d": 0,
   "current": {
-    "imageUrl": "https://cdn2-retail-images.kiotviet.vn/2026/10/30/tram8/7007acc86e774986b50e43e88852c927.jpeg",
-    "description": null,
-    "exportedAt": "2026-10-30T07:47:17.631Z"
+    "imageUrl": "https://img.tram8.vn/products/9b64c898fa8ceb5a4db49d38b4ee7ec4d6115da9d6953af2e1a05b0e7869d6f5.webp",
+    "description": "Bút bi bấm Thiên Long TL-023, nét 0,8 mm (theo trang hãng), mực đỏ.\n\nQuy cách: cây\nThương hiệu: Thiên Long",
+    "exportedAt": "2026-10-31T12:31:12.226Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "CROP",
     "reason": "ảnh KiotViet đã là ảnh nền trắng đúng bút TL-023 đỏ → chỉ chuẩn hoá khung 1000×1000",
@@ -52,6 +52,18 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-31T12:30:47.901Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-31T12:31:13.488Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
     }
   ],
   "submitted": {
@@ -61,5 +73,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-30T08:40:39.845Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-30T08:40:39.845Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/9b64c898fa8ceb5a4db49d38b4ee7ec4d6115da9d6953af2e1a05b0e7869d6f5.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/10/30/tram8/7007acc86e774986b50e43e88852c927.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Bút bi bấm Thiên Long TL-023, nét 0,8 mm (theo trang hãng), mực đỏ.\n\nQuy cách: cây\nThương hiệu: Thiên Long",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }
