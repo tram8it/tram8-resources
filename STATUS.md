@@ -2,14 +2,14 @@
 
 > Sinh tự động bởi `node tools/status.mjs`. **Không sửa tay.** Nguồn sự thật là `meta.json` của từng SP.
 
-Tổng 2687 SP · đã xem 2687 (100%) · xong 2630 · chờ chủ duyệt 12 · cần chụp 0 · hỏi chủ 1
+Tổng 2687 SP · đã xem 2687 (100%) · xong 2636 · chờ chủ duyệt 6 · cần chụp 0 · hỏi chủ 1
 
 Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` = giữ nguyên + đã lên web.
 
 | # | Category | DT 90 ngày | Tổng | Chưa xem | Giữ nguyên | Đang làm | Cần chụp | Hỏi chủ | Chờ duyệt | Đã duyệt | Đã lên web |
 |---|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
 | 1 | Snack khoai tây | 0.0tr | 81 | 0 | 0 | 0 | 0 | 0 | 2 | 0 | 79 |
-| 2 | Snack bắp & phồng | 0.0tr | 74 | 0 | 0 | 0 | 0 | 1 | 4 | 0 | 69 |
+| 2 | Snack bắp & phồng | 0.0tr | 74 | 0 | 0 | 0 | 0 | 1 | 0 | 0 | 73 |
 | 3 | Kem que | 0.0tr | 62 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 62 |
 | 4 | Socola thanh | 0.0tr | 51 | 0 | 7 | 0 | 0 | 0 | 0 | 0 | 44 |
 | 5 | Kẹo dẻo / jelly | 0.0tr | 46 | 0 | 0 | 5 | 0 | 0 | 0 | 0 | 41 |
@@ -111,7 +111,7 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 | 101 | Hơi/tươi | 0.0tr | 9 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 9 |
 | 102 | Dụng cụ tắm và vệ sinh cá nhân | 0.0tr | 9 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 9 |
 | 103 | Nước ngọt ít calories | 0.0tr | 9 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 9 |
-| 104 | Snack khoai mì / khoai lang | 0.0tr | 9 | 0 | 0 | 0 | 0 | 0 | 2 | 0 | 7 |
+| 104 | Snack khoai mì / khoai lang | 0.0tr | 9 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 8 |
 | 105 | Toner - Xịt khoáng - Dưỡng ẩm | 0.0tr | 9 | 0 | 5 | 0 | 0 | 0 | 0 | 0 | 4 |
 | 106 | Dụng cụ lông mày / mũi | 0.0tr | 9 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 9 |
 | 107 | Gia vị - Đồ chấm | 0.0tr | 9 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 9 |
@@ -176,7 +176,7 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 | 166 | Tampon | 0.0tr | 4 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 4 |
 | 167 | Băng dính – keo – kéo | 0.0tr | 4 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 4 |
 | 168 | Soju Và Rượu Gạo | 0.0tr | 4 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 4 |
-| 169 | Đồ uống có cồn (18+) | 0.0tr | 4 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 3 |
+| 169 | Đồ uống có cồn (18+) | 0.0tr | 4 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 4 |
 | 170 | BVS ban ngày | 0.0tr | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 3 |
 | 171 | BVS dạng quần | 0.0tr | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 3 |
 | 172 | Tráng miệng | 0.0tr | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 3 |

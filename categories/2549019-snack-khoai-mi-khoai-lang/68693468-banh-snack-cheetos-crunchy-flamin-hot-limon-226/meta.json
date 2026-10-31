@@ -20,14 +20,14 @@
   "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "chủ 31/10: hàng family size, gói cao dài — ảnh cũ thấp làm khách nhầm cỡ → vẽ lại dáng gói cao (~1,8–2 lần chiều ngang), cả lô cùng tỉ lệ → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ nhỏ có thể mờ",
+    "reason": "chủ 31/10: gói không dài đến mức đó → vẽ lại tỉ lệ ~1,6–1,8 như các gói family size cùng lô → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ nhỏ có thể mờ",
     "source": {
       "aiGenerated": true,
       "tool": "Gemini API",
       "model": "gemini-nano-banana-2.1",
       "generatedAt": "2026-10-31",
       "style": "flat clean packaging render (v17)",
-      "reference": "ảnh KiotViet + ảnh hãng (cheetos.com/doritos.com) + ảnh chủ gửi Doritos 31/10"
+      "reference": "ảnh KiotViet + gói Cheddar Jalapeño cùng lô (tỉ lệ)"
     },
     "rubricVersion": "v18"
   },
@@ -74,10 +74,28 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-31T14:39:21.269Z",
+      "by": "owner",
+      "status": "IN_PROGRESS",
+      "note": "rejected on Hub by AU KHUONG DUY: Ko dài đến mức đấy"
+    },
+    {
+      "at": "2026-10-31T14:40:18Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 3, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-31T14:40:18.521Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-31T14:32:02.260Z",
+    "at": "2026-10-31T14:40:18.521Z",
     "fields": [
       "description",
       "image"
@@ -87,7 +105,7 @@
   "review": {
     "status": "REJECTED",
     "reviewedBy": "AU KHUONG DUY",
-    "reviewedAt": "2026-10-31T14:19:45.130Z",
-    "note": "Family size nên nó to dài hơn ảnh bạn tạo"
+    "reviewedAt": "2026-10-31T14:33:59.397Z",
+    "note": "Ko dài đến mức đấy"
   }
 }

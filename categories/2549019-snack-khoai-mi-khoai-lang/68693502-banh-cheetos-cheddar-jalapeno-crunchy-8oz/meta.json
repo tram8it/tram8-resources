@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-10-31T14:03:52.974Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "chủ 31/10: hàng family size, gói cao dài — ảnh cũ thấp làm khách nhầm cỡ → vẽ lại dáng gói cao (~1,8–2 lần chiều ngang), cả lô cùng tỉ lệ → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ nhỏ có thể mờ",
@@ -74,6 +74,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-31T14:39:21.269Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -85,9 +91,28 @@
     "hubStatus": "PENDING"
   },
   "review": {
-    "status": "REJECTED",
+    "status": "APPLIED",
     "reviewedBy": "AU KHUONG DUY",
-    "reviewedAt": "2026-10-31T14:19:56.879Z",
-    "note": "Family size nên to dài hơn"
+    "reviewedAt": "2026-10-31T14:34:48.315Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-31T14:34:48.315Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/404cf115d9e407f953e9b85df9789f5d4b2285377b58a267c5e2ba7285ee2f75.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/10/31/tram8/d1cc895ebf4b4fc6ad2f53e64ee292a6.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Snack phô mai giòn Cheetos Crunchy Cheddar Jalapeño, vị phô mai cheddar và ớt jalapeño. Hàng Mỹ.\n\nQuy cách: 8 oz (226,8 g) · gói\nThương hiệu: Cheetos (Frito-Lay)",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }
