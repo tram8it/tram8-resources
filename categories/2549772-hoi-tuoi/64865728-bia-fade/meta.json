@@ -17,18 +17,24 @@
     "description": null,
     "exportedAt": "2026-10-31T12:31:12.226Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "I1: chưa có ảnh; mã 8938511769074 không có trên iCheck, Open Food Facts, Kingfoodmart, tìm web không thấy 'Bia Fade' → không có ảnh mẫu nào để vẽ · tra lại 19/10 (Yandex ảnh: \"bia Fade\"; \"Fade beer Vietnam\"; \"bia Fade chai\" + WebSearch \"bia Fade\" — không ra)",
-    "source": null,
-    "rubricVersion": "v19"
+    "reason": "ảnh tự chụp/ảnh nhỏ → ảnh hãng cùng sản phẩm (poster hãng, đã tách nền chai); chuẩn hoá 1000×1000",
+    "source": {
+      "url": "https://product.hstatic.net/200000182571/product/z3325929427230_c63490bfc2349bac938507db728d12c0_8a11a735cf4a464c881f68ce757ef433.jpg",
+      "page": "https://thombrewery.vn/products/beer-fade-to-black",
+      "fetchedAt": "2026-10-31T12:56:26+00:00"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": "WRITE_NEW",
-    "reason": "D1: chưa có mô tả; chờ ảnh chai thật để đọc nhãn",
-    "source": null,
-    "rubricVersion": "v19"
+    "reason": "viết theo nhãn/ảnh chụp + trang hãng; không thêm dữ kiện ngoài nguồn",
+    "source": {
+      "url": "https://thombrewery.vn/products/beer-fade-to-black"
+    },
+    "rubricVersion": "v18"
   },
   "question": null,
   "history": [
@@ -67,6 +73,26 @@
       "by": "init",
       "status": "NEEDS_PHOTO",
       "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-31T12:56:26+00:00",
+      "by": "ai",
+      "status": "READY",
+      "note": "ảnh hãng/ảnh sẵn có, đã xem bằng mắt; mô tả mới"
+    },
+    {
+      "at": "2026-10-31T12:56:41.079Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-31T12:56:41.079Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

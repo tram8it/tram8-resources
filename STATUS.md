@@ -2,7 +2,7 @@
 
 > Sinh tự động bởi `node tools/status.mjs`. **Không sửa tay.** Nguồn sự thật là `meta.json` của từng SP.
 
-Tổng 2678 SP · đã xem 2622 (98%) · xong 2573 · chờ chủ duyệt 3 · cần chụp 1 · hỏi chủ 1
+Tổng 2678 SP · đã xem 2659 (99%) · xong 2573 · chờ chủ duyệt 41 · cần chụp 0 · hỏi chủ 1
 
 Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` = giữ nguyên + đã lên web.
 
@@ -31,7 +31,7 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 | 21 | Bánh xốp kem (wafer) | 0.0tr | 27 | 0 | 0 | 3 | 0 | 0 | 0 | 0 | 24 |
 | 22 | Mì trộn / mì khô / spaghetti (Gói) | 0.0tr | 27 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 27 |
 | 23 | Thức uống bổ sung dinh dưỡng | 0.0tr | 27 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 27 |
-| 24 | Bánh quy giòn / lạt | 0.0tr | 26 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 24 |
+| 24 | Bánh quy giòn / lạt | 0.0tr | 26 | 1 | 0 | 0 | 0 | 0 | 1 | 0 | 24 |
 | 25 | Nước tăng lực | 0.0tr | 25 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 25 |
 | 26 | Hạt các loại | 0.0tr | 25 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 25 |
 | 27 | Đồ chay giả mặn (konjac) | 0.0tr | 25 | 0 | 0 | 1 | 0 | 0 | 0 | 0 | 24 |
@@ -39,7 +39,7 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 | 29 | Nhập khẩu & premium | 0.0tr | 24 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 24 |
 | 30 | Kẹo mềm / caramen | 0.0tr | 24 | 0 | 0 | 1 | 0 | 0 | 0 | 0 | 23 |
 | 31 | Khô mực | 0.0tr | 23 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 23 |
-| 32 | Mì trộn / mì khô / spaghetti (Ly/Tô/Cốc) | 0.0tr | 23 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 22 |
+| 32 | Mì trộn / mì khô / spaghetti (Ly/Tô/Cốc) | 0.0tr | 23 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 22 |
 | 33 | Sữa tiệt trùng có vị | 0.0tr | 23 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 23 |
 | 34 | Lăn khử mùi | 0.0tr | 22 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 22 |
 | 35 | Mì cay (Gói) | 0.0tr | 22 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 22 |
@@ -51,7 +51,7 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 | 41 | Soda / nước trái cây có gas | 0.0tr | 20 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 20 |
 | 42 | Nước suối / bù khoáng / ion | 0.0tr | 19 | 0 | 0 | 1 | 0 | 0 | 0 | 0 | 18 |
 | 43 | Cơm nắm Onigiri | 0.0tr | 19 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 18 |
-| 44 | Whisky & Bourbon | 0.0tr | 19 | 14 | 0 | 0 | 0 | 0 | 0 | 0 | 5 |
+| 44 | Whisky & Bourbon | 0.0tr | 19 | 2 | 0 | 0 | 0 | 0 | 12 | 0 | 5 |
 | 45 | Snack rong biển | 0.0tr | 19 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 19 |
 | 46 | Bánh que chấm socola | 0.0tr | 18 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 18 |
 | 47 | Nước tẩy trang - Dầu tẩy trang | 0.0tr | 18 | 0 | 9 | 0 | 0 | 0 | 0 | 0 | 9 |
@@ -78,7 +78,7 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 | 68 | Bánh pie / cake mềm | 0.0tr | 14 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 14 |
 | 69 | Board games/ Card games | 0.0tr | 14 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 14 |
 | 70 | Sữa tắm | 0.0tr | 14 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 13 |
-| 71 | Trái cây tươi | 0.0tr | 14 | 6 | 0 | 0 | 0 | 0 | 0 | 0 | 8 |
+| 71 | Trái cây tươi | 0.0tr | 14 | 1 | 0 | 0 | 0 | 0 | 5 | 0 | 8 |
 | 72 | Tokbokki & bánh gạo Hàn | 0.0tr | 13 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 13 |
 | 73 | Củ / bộ sạc | 0.0tr | 13 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 13 |
 | 74 | Khô bò | 0.0tr | 13 | 0 | 1 | 2 | 0 | 0 | 0 | 0 | 10 |
@@ -108,7 +108,7 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 | 98 | Dụng cụ sơ cứu | 0.0tr | 9 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 9 |
 | 99 | Bánh ăn sáng / ngũ cốc / thanh năng lượng | 0.0tr | 9 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 9 |
 | 100 | Bao cao su | 0.0tr | 9 | 0 | 6 | 0 | 0 | 0 | 0 | 0 | 3 |
-| 101 | Hơi/tươi | 0.0tr | 9 | 6 | 0 | 0 | 1 | 0 | 0 | 0 | 2 |
+| 101 | Hơi/tươi | 0.0tr | 9 | 0 | 0 | 0 | 0 | 0 | 7 | 0 | 2 |
 | 102 | Dụng cụ tắm và vệ sinh cá nhân | 0.0tr | 9 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 9 |
 | 103 | Nước ngọt ít calories | 0.0tr | 9 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 9 |
 | 104 | Toner - Xịt khoáng - Dưỡng ẩm | 0.0tr | 9 | 0 | 5 | 0 | 0 | 0 | 0 | 0 | 4 |
@@ -133,9 +133,9 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 | 123 | Tẩy da chết - Face | 0.0tr | 7 | 0 | 7 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 124 | Snack mì | 0.0tr | 8 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 8 |
 | 125 | Dưỡng da body | 0.0tr | 7 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 7 |
-| 126 | Gin & Tequila | 0.0tr | 7 | 5 | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
+| 126 | Gin & Tequila | 0.0tr | 7 | 2 | 1 | 0 | 0 | 0 | 3 | 0 | 1 |
 | 127 | Thịt chua | 0.0tr | 7 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 7 |
-| 128 | Ức gà & thịt ăn liền | 0.0tr | 10 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 8 |
+| 128 | Ức gà & thịt ăn liền | 0.0tr | 10 | 0 | 0 | 0 | 0 | 0 | 2 | 0 | 8 |
 | 129 | Sữa thanh trùng | 0.0tr | 7 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 7 |
 | 130 | Vodka | 0.0tr | 6 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 5 |
 | 131 | Thịt & hải sản ăn liền | 0.0tr | 6 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 6 |
@@ -176,7 +176,7 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 | 166 | Tampon | 0.0tr | 4 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 4 |
 | 167 | Băng dính – keo – kéo | 0.0tr | 4 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 4 |
 | 168 | Soju Và Rượu Gạo | 0.0tr | 4 | 4 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 169 | Đồ uống có cồn (18+) | 0.0tr | 4 | 4 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 169 | Đồ uống có cồn (18+) | 0.0tr | 4 | 3 | 0 | 0 | 0 | 0 | 1 | 0 | 0 |
 | 170 | BVS ban ngày | 0.0tr | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 3 |
 | 171 | BVS dạng quần | 0.0tr | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 3 |
 | 172 | Tráng miệng | 0.0tr | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 3 |
@@ -191,8 +191,8 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 | 181 | Udon & mì tươi | 0.0tr | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 3 |
 | 182 | Nước súc miệng - Thơm miệng | 0.0tr | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 3 |
 | 183 | Socola trứng / đồ chơi | 0.0tr | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 3 |
-| 184 | Salads | 0.0tr | 3 | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 185 | Đồ uống đóng chai | 0.0tr | 3 | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 184 | Salads | 0.0tr | 3 | 0 | 0 | 0 | 0 | 0 | 3 | 0 | 0 |
+| 185 | Đồ uống đóng chai | 0.0tr | 3 | 1 | 0 | 0 | 0 | 0 | 2 | 0 | 0 |
 | 186 | BVS đêm | 0.0tr | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 2 |
 | 187 | Áo mưa | 0.0tr | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 2 |
 | 188 | Serum dưỡng tóc | 0.0tr | 2 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
@@ -202,7 +202,7 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 | 192 | Thịt khô đóng gói khác | 0.0tr | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 2 |
 | 193 | Makgeolli | 0.0tr | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 2 |
 | 194 | Văn phòng phẩm | 0.0tr | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 2 |
-| 195 | Rượu mạnh | 0.0tr | 2 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 195 | Rượu mạnh | 0.0tr | 2 | 1 | 0 | 0 | 0 | 0 | 1 | 0 | 0 |
 | 196 | Thanh cua / surimi | 0.0tr | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 |
 | 197 | Chỉ nha khoa | 0.0tr | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 |
 | 198 | Dầu gội - Phục hồi | 0.0tr | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 |

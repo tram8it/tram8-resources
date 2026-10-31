@@ -17,18 +17,24 @@
     "description": null,
     "exportedAt": "2026-10-31T12:31:12.226Z"
   },
-  "status": "TODO",
+  "status": "READY",
   "image": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "REPLACE",
+    "reason": "ảnh tự chụp/ảnh nhỏ → ảnh hãng cùng sản phẩm; chuẩn hoá 1000×1000",
+    "source": {
+      "url": "https://image-handler-prod.s3-ap-southeast-1.amazonaws.com/supplier/654/PRODUCT_IMAGE/b892c0d9-8e59-4ac4-a622-061e2e1253f0.jpeg",
+      "page": "https://kamereo.vn/products/buoi-tach-mui-mix-kamereo-200g-FRU093",
+      "fetchedAt": "2026-10-31T12:56:26+00:00"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "WRITE_NEW",
+    "reason": "viết theo nhãn/ảnh chụp + trang hãng; không thêm dữ kiện ngoài nguồn",
+    "source": {
+      "url": "https://kamereo.vn/products/buoi-tach-mui-mix-kamereo-200g-FRU093"
+    },
+    "rubricVersion": "v18"
   },
   "question": null,
   "history": [
@@ -37,6 +43,26 @@
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-10-31T12:56:26+00:00",
+      "by": "ai",
+      "status": "READY",
+      "note": "ảnh hãng/ảnh sẵn có, đã xem bằng mắt; mô tả mới"
+    },
+    {
+      "at": "2026-10-31T12:57:02.522Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-10-31T12:57:02.522Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }
