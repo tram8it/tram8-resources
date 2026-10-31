@@ -17,17 +17,17 @@
     "description": null,
     "exportedAt": "2026-10-31T14:03:52.974Z"
   },
-  "status": "UPLOADED",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "SP mới 31/10: ảnh hãng là mẫu bao bì mới, khác gói đang bán → vẽ lại theo gói thật → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ nhỏ có thể mờ",
+    "reason": "chủ 31/10: 3 gói Lorenz mỗi gói một kiểu → vẽ lại cùng dáng, cỡ, ánh sáng; giữ thiết kế từng gói thật → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ nhỏ có thể mờ",
     "source": {
       "aiGenerated": true,
       "tool": "Gemini API",
       "model": "gemini-nano-banana-2.1",
       "generatedAt": "2026-10-31",
       "style": "flat clean packaging render (v17)",
-      "reference": "ảnh KiotViet chụp hàng thật"
+      "reference": "ảnh KiotViet + gói Lorenz Naturals Salted đã vẽ (để đồng bộ kiểu)"
     },
     "rubricVersion": "v18"
   },
@@ -62,10 +62,22 @@
       "by": "owner",
       "status": "UPLOADED",
       "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-31T14:36:58Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-31T14:37:07.383Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-10-31T14:15:26.050Z",
+    "at": "2026-10-31T14:37:07.383Z",
     "fields": [
       "description",
       "image"
