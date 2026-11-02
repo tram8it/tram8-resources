@@ -1,0 +1,69 @@
+{
+  "kiotProductId": "68694427",
+  "code": "6975712000287",
+  "barcode": "6975712000287",
+  "name": "KẸO CỨNG VỊ BẠC HÀ KHÔNG ĐƯỜNG MINI JAR",
+  "fullName": "KẸO CỨNG VỊ BẠC HÀ KHÔNG ĐƯỜNG MINI JAR (Lọ)",
+  "brand": null,
+  "unit": "Lọ",
+  "category": {
+    "kiotCategoryId": "2549273",
+    "name": "Kẹo cứng",
+    "path": "Các loại kẹo > Kẹo cứng"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://cdn2-retail-images.kiotviet.vn/2026/10/31/tram8/bae79deffa084d59a24a8fba18ac89f8.jpeg",
+    "description": null,
+    "exportedAt": "2026-11-02T09:01:20.661Z"
+  },
+  "status": "READY",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "SP mới 02/11: không có ảnh hãng dùng được (web KIDO không có trang SP; Garudafood chỉ có hộp phiên bản Indonesia khác hộp đang bán) → vẽ lại từ ảnh chụp → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: bỏ dấu ngày in tay; chữ nhỏ có thể mờ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-11-02",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet chụp hàng thật"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "viết theo bao bì + tên hàng",
+    "source": null,
+    "rubricVersion": "v18"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-11-02T09:01:21.866Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-11-02T09:06:33Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-11-02T09:07:03.178Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    }
+  ],
+  "submitted": {
+    "at": "2026-11-02T09:07:03.178Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
+}

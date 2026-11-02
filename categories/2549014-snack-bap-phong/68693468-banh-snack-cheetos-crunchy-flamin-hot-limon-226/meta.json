@@ -1,0 +1,148 @@
+{
+  "kiotProductId": "68693468",
+  "code": "028400760454",
+  "barcode": "028400760454",
+  "name": "Bánh Snack Cheetos Crunchy Flamin Hot Limon 226.8g",
+  "fullName": "Bánh Snack Cheetos Crunchy Flamin Hot Limon 226.8g (Gói)",
+  "brand": "Cheetos",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2549014",
+    "name": "Snack bắp & phồng",
+    "path": "Đồ ăn vặt > Snacks > Snack bắp & phồng"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/15ea3a955ff151a3ca4a2fa531062aa7a7c1e2f2e0f8c5f98327091bc2e28630.webp",
+    "description": "Snack phô mai giòn Cheetos Crunchy Flamin' Hot Limón, vị cay chanh. Hàng Mỹ.<br><br>Quy cách: 8 oz (226,8 g) · gói<br>Thương hiệu: Cheetos (Frito-Lay)",
+    "exportedAt": "2026-11-02T09:01:20.661Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "chủ 31/10: gói không dài đến mức đó → vẽ lại tỉ lệ ~1,6–1,8 như các gói family size cùng lô → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ nhỏ có thể mờ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-31",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet + gói Cheddar Jalapeño cùng lô (tỉ lệ)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "viết theo bao bì + tên hàng",
+    "source": null,
+    "rubricVersion": "v18"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-31T14:03:54.159Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-31T14:15:25Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-31T14:15:43.320Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-31T14:26:35.820Z",
+      "by": "owner",
+      "status": "IN_PROGRESS",
+      "note": "rejected on Hub by AU KHUONG DUY: Family size nên nó to dài hơn ảnh bạn tạo"
+    },
+    {
+      "at": "2026-10-31T14:31:51Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-31T14:32:02.260Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-31T14:39:21.269Z",
+      "by": "owner",
+      "status": "IN_PROGRESS",
+      "note": "rejected on Hub by AU KHUONG DUY: Ko dài đến mức đấy"
+    },
+    {
+      "at": "2026-10-31T14:40:18Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 3, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-31T14:40:18.521Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-11-02T09:00:56.217Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-11-02T09:01:21.866Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "category moved 2549019-snack-khoai-mi-khoai-lang -> 2549014-snack-bap-phong"
+    },
+    {
+      "at": "2026-11-02T09:01:21.866Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-31T14:40:18.521Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-31T14:41:11.223Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-31T14:41:11.223Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/15ea3a955ff151a3ca4a2fa531062aa7a7c1e2f2e0f8c5f98327091bc2e28630.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/10/31/tram8/61d70adb657646b5ae8b18b9f23579ff.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Snack phô mai giòn Cheetos Crunchy Flamin' Hot Limón, vị cay chanh. Hàng Mỹ.\n\nQuy cách: 8 oz (226,8 g) · gói\nThương hiệu: Cheetos (Frito-Lay)",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

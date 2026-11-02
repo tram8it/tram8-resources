@@ -1,0 +1,173 @@
+{
+  "kiotProductId": "68680538",
+  "code": "6938514107998",
+  "barcode": "6938514107998",
+  "name": "Rượu Cao Lương Vị Cam 168ml - 15% ( Rượu Thanh Niên )",
+  "fullName": "Rượu Cao Lương Vị Cam 168ml - 15% ( Rượu Thanh Niên ) - 15% (Chai)",
+  "brand": null,
+  "unit": "Chai",
+  "category": {
+    "kiotCategoryId": "2556625",
+    "name": "Rượu Cao Lương",
+    "path": "Đồ uống có cồn (18+) > Soju Và Rượu Gạo > Rượu Cao Lương"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/3ae888a91294dee989e209548cd611c46a7a21ba438c26dbd5b77ced49795528.webp",
+    "description": "Rượu cao lương Guolifang vị cam, 15%. Hàng Trung Quốc.\n\nQuy cách: 168 ml · chai\nThương hiệu: Guolifang (Jiangxiaobai)",
+    "exportedAt": "2026-11-02T09:01:20.661Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "SP mới 31/10, không tìm được ảnh hãng dùng được (web hãng chặn/không có/khác nhãn) → vẽ lại từ ảnh chụp → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: bỏ tem giá; chữ nhỏ có thể mờ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-31",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet chụp hàng thật"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "viết theo nhãn trên ảnh chụp + tên hàng; không thêm dữ kiện ngoài nguồn",
+    "source": null,
+    "rubricVersion": "v18"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-31T12:31:13.488Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-31T14:11:22Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-31T14:12:02.196Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-31T14:26:35.820Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-11-02T09:01:21.866Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "category moved 2549761-soju-vi-trai-cay -> 2556625-ruou-cao-luong"
+    },
+    {
+      "at": "2026-11-02T09:01:21.866Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-31T14:12:02.196Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-31T14:17:55.658Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-31T14:17:55.658Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/3ae888a91294dee989e209548cd611c46a7a21ba438c26dbd5b77ced49795528.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/10/31/tram8/e197b63a72d5418ba1261ed98d7aab53.jpg"
+        ]
+      },
+      "description": {
+        "to": "Rượu cao lương Guolifang vị cam, 15%. Hàng Trung Quốc.\n\nQuy cách: 168 ml · chai\nThương hiệu: Guolifang (Jiangxiaobai)",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {
+      "price": {
+        "to": 81481.48,
+        "from": 80000
+      },
+      "saleTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 68680538
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 68680538
+        }
+      },
+      "taxRate": {
+        "to": "VAT 8%",
+        "from": "VAT 10%"
+      },
+      "productTaxs": {
+        "to": [
+          {
+            "id": 0,
+            "name": "VAT 8%",
+            "taxId": 3,
+            "value": 8,
+            "productId": 68680538
+          }
+        ],
+        "from": [
+          {
+            "id": 0,
+            "name": "VAT 10%",
+            "taxId": 4,
+            "value": 10,
+            "productId": 68680538
+          }
+        ]
+      },
+      "purchaseTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 68680538
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 68680538
+        }
+      }
+    }
+  }
+}
