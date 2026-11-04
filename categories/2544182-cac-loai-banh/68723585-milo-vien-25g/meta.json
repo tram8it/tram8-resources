@@ -1,0 +1,69 @@
+{
+  "kiotProductId": "68723585",
+  "code": "9556070222343",
+  "barcode": "9556070222343",
+  "name": "Milo viên 25g",
+  "fullName": "Milo viên 25g (Gói)",
+  "brand": "Milo",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2544182",
+    "name": "Các loại bánh",
+    "path": "Các loại bánh"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://cdn2-retail-images.kiotviet.vn/2026/11/02/tram8/479d9a6c1a004fb6a96bb09cd87ff4e3.jpeg",
+    "description": null,
+    "exportedAt": "2026-11-04T06:30:15.826Z"
+  },
+  "status": "READY",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "SP mới 04/11: ảnh KiotViet chụp tay (cầm tay, nền thùng) → vẽ lại gói phẳng; bảng dinh dưỡng để mờ vì ảnh thật không đọc được → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: ảnh minh hoạ; chữ nhỏ có thể mờ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-11-04",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet chụp hàng thật"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "viết theo nhãn trên ảnh chụp + tên hàng",
+    "source": null,
+    "rubricVersion": "v18"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-11-04T06:30:17.162Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-11-04T06:32:45Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-11-04T06:32:46.267Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    }
+  ],
+  "submitted": {
+    "at": "2026-11-04T06:32:46.267Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
+}

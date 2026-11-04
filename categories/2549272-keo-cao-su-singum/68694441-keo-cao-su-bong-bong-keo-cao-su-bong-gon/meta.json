@@ -13,11 +13,11 @@
   },
   "revenue90d": 0,
   "current": {
-    "imageUrl": "https://cdn2-retail-images.kiotviet.vn/2026/10/31/tram8/c479c476a71a4e47bf05b08ac9f557b0.jpeg",
-    "description": null,
-    "exportedAt": "2026-11-02T09:01:20.661Z"
+    "imageUrl": "https://img.tram8.vn/products/ed49f615a184c2e47b890ae4cdd0bc4e4c6f52abe1f52956c69b0cf0444b4296.webp",
+    "description": "Kẹo cao su bong bóng vị kẹo bông gòn (Cotton Bubble Gum), gói nhỏ. Hàng Trung Quốc.\n\nQuy cách: 11 g · gói",
+    "exportedAt": "2026-11-04T06:30:15.826Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "SP mới 02/11: không có ảnh hãng dùng được (web KIDO không có trang SP; Garudafood chỉ có hộp phiên bản Indonesia khác hộp đang bán) → vẽ lại từ ảnh chụp → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: bỏ dấu ngày in tay; chữ nhỏ có thể mờ",
@@ -56,6 +56,18 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-11-04T06:29:50.359Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-11-04T06:30:17.162Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
     }
   ],
   "submitted": {
@@ -65,5 +77,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-11-02T09:42:04.889Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-11-02T09:42:04.889Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/ed49f615a184c2e47b890ae4cdd0bc4e4c6f52abe1f52956c69b0cf0444b4296.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/10/31/tram8/c479c476a71a4e47bf05b08ac9f557b0.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Kẹo cao su bong bóng vị kẹo bông gòn (Cotton Bubble Gum), gói nhỏ. Hàng Trung Quốc.\n\nQuy cách: 11 g · gói",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

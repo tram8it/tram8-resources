@@ -13,11 +13,11 @@
   },
   "revenue90d": 0,
   "current": {
-    "imageUrl": "https://cdn2-retail-images.kiotviet.vn/2026/11/01/tram8/ce35e0af994645d89d052b2d737a6141.jpeg",
-    "description": null,
-    "exportedAt": "2026-11-02T09:01:20.661Z"
+    "imageUrl": "https://img.tram8.vn/products/baace76b6a0f53a3a374dbfeb60a912b5ff326c7e11f66d4ec80f81bb8b02730.webp",
+    "description": "Hộp bánh quế cuộn Chocolatos vị phô mai (Sweet Cheese), giòn xốp. Hàng Indonesia.\n\nQuy cách: 70 g · hộp\nThương hiệu: Chocolatos (Garudafood)",
+    "exportedAt": "2026-11-04T06:30:15.826Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "SP mới 02/11: không có ảnh hãng dùng được (web KIDO không có trang SP; Garudafood chỉ có hộp phiên bản Indonesia khác hộp đang bán) → vẽ lại từ ảnh chụp → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: bỏ dấu ngày in tay; chữ nhỏ có thể mờ",
@@ -56,6 +56,18 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-11-04T06:29:50.359Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-11-04T06:30:17.162Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
     }
   ],
   "submitted": {
@@ -65,5 +77,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-11-02T09:41:58.099Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-11-02T09:41:58.099Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/baace76b6a0f53a3a374dbfeb60a912b5ff326c7e11f66d4ec80f81bb8b02730.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/11/01/tram8/ce35e0af994645d89d052b2d737a6141.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Hộp bánh quế cuộn Chocolatos vị phô mai (Sweet Cheese), giòn xốp. Hàng Indonesia.\n\nQuy cách: 70 g · hộp\nThương hiệu: Chocolatos (Garudafood)",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }
