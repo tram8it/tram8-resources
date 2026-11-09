@@ -1,0 +1,69 @@
+{
+  "kiotProductId": "68785799",
+  "code": "2050000655722",
+  "barcode": "2050000655722",
+  "name": "Bộ Tú LK",
+  "fullName": "Bộ Tú LK (Bộ)",
+  "brand": null,
+  "unit": "Bộ",
+  "category": {
+    "kiotCategoryId": "2533824",
+    "name": "Board games/ Card games",
+    "path": "Văn phòng phẩm > Board games/ Card games"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://cdn2-retail-images.kiotviet.vn/2026/11/06/tram8/5072c24158214d66ad72f68c94a6e452.jpeg",
+    "description": null,
+    "exportedAt": "2026-11-09T06:00:30.064Z"
+  },
+  "status": "READY",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "SP mới 09/11: ảnh chụp tay → vẽ lại hộp bài trên nền trắng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: ảnh minh hoạ; chữ nhỏ có thể mờ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-11-09",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet chụp hàng thật"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "viết theo ảnh chụp + tên hàng",
+    "source": null,
+    "rubricVersion": "v18"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-11-09T06:00:31.106Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-11-09T06:02:44Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-11-09T06:02:47.569Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    }
+  ],
+  "submitted": {
+    "at": "2026-11-09T06:02:47.569Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
+}

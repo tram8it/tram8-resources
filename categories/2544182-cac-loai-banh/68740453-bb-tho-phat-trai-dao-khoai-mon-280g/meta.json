@@ -13,11 +13,11 @@
   },
   "revenue90d": 0,
   "current": {
-    "imageUrl": "https://cdn2-retail-images.kiotviet.vn/2026/11/03/tram8/8d45b4add91f48f3950e328092506d3c.jpeg",
-    "description": null,
-    "exportedAt": "2026-11-04T06:30:15.826Z"
+    "imageUrl": "https://img.tram8.vn/products/db02aba2b296cba09a2ce55ccc022cace9b186d43f70240d99f0eb857646dd1d.webp",
+    "description": "Bánh bao Thọ Phát hình trái đào, nhân khoai môn (khay 280 g theo bao bì). Hấp hoặc quay lò vi sóng trước khi ăn.\n\nQuy cách: cái\nNhà sản xuất: Thọ Phát (KIDO)",
+    "exportedAt": "2026-11-09T06:00:30.064Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "SP mới 04/11: v18: món hấp bán lẻ hiện cái bánh và nhân → ảnh món Gemini vẽ từ ảnh khay + bánh trái đào Thọ Phát đã duyệt → ảnh món ăn Gemini vẽ từ ảnh bao bì (v18: món hấp bán lẻ hiện cái bánh và nhân); ảnh minh hoạ. Khác hàng thật: ảnh minh hoạ; chữ nhỏ có thể mờ",
@@ -56,6 +56,18 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-11-09T06:00:06.804Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-11-09T06:00:31.106Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
     }
   ],
   "submitted": {
@@ -65,5 +77,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-11-04T06:37:14.534Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-11-04T06:37:14.534Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/db02aba2b296cba09a2ce55ccc022cace9b186d43f70240d99f0eb857646dd1d.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/11/03/tram8/8d45b4add91f48f3950e328092506d3c.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Bánh bao Thọ Phát hình trái đào, nhân khoai môn (khay 280 g theo bao bì). Hấp hoặc quay lò vi sóng trước khi ăn.\n\nQuy cách: cái\nNhà sản xuất: Thọ Phát (KIDO)",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }
