@@ -4,7 +4,7 @@ Nguồn sự thật là KiotViet: thuộc tính SP **`LÀM NÓNG`**, giá trị 
 `NỒNG ĐỘ CỒN` (reports/do-con). Hub đọc thuộc tính này vào `products.heat_up`; web hiện tag "Làm nóng" và
 công tắc trong giỏ (mặc định bật, miễn phí, cả giao tận nơi lẫn nhận tại cửa hàng).
 
-## Danh sách đã duyệt — `danh-sach.csv` (101 SP gốc, lấy từ catalog web 9/11/2026)
+## Danh sách đã duyệt — `danh-sach.csv` (103 SP gốc, lấy từ catalog web 9/11/2026)
 
 - Có: cơm nắm/cơm cuộn, bánh mì nướng nhân Cobi, món ăn no (cơm rang, mì Ý, sandwich/hamburger ATB),
   món hấp (bánh bao, bánh giò, mía hấp), pizza, hamburger, bánh mì que có nhân, sandwich kẹp thịt,
