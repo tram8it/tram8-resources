@@ -17,18 +17,22 @@
     "description": null,
     "exportedAt": "2026-11-09T06:00:30.064Z"
   },
-  "status": "TODO",
+  "status": "READY",
   "image": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "REPLACE",
+    "reason": "ảnh chụp tay → ảnh hãng cùng sản phẩm",
+    "source": {
+      "url": "https://orion.vn/media/urxpazyv/untitled-design-23.png",
+      "page": "https://orion.vn/san-pham/san-pham/banh-quy-an-sang-miz-vi-sua-dau/",
+      "fetchedAt": "2026-11-09T06:16:53+00:00"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
-    "decision": null,
-    "reason": null,
+    "decision": "WRITE_NEW",
+    "reason": "viết theo bao bì + tên hàng",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v18"
   },
   "question": null,
   "history": [
@@ -37,6 +41,26 @@
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-11-09T06:16:53+00:00",
+      "by": "ai",
+      "status": "READY",
+      "note": "ảnh hãng"
+    },
+    {
+      "at": "2026-11-09T06:17:01.029Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-11-09T06:17:01.029Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

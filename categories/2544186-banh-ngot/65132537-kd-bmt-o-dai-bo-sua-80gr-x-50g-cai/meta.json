@@ -17,12 +17,12 @@
     "description": null,
     "exportedAt": "2026-11-09T06:00:30.064Z"
   },
-  "status": "TODO",
+  "status": "NEEDS_PHOTO",
   "image": {
-    "decision": null,
-    "reason": null,
+    "decision": "ASK_OWNER",
+    "reason": "không có ảnh hãng (Kinh Đô chỉ có vị sô cô la); ảnh KiotViet lấy từ trang bán hàng có watermark muamua.co → cần ảnh chụp gói thật",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v18"
   },
   "description": {
     "decision": null,
@@ -37,6 +37,12 @@
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-11-09T06:16:53+00:00",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "cần ảnh chụp gói thật"
     }
   ]
 }

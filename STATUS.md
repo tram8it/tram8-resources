@@ -2,17 +2,17 @@
 
 > Sinh tự động bởi `node tools/status.mjs`. **Không sửa tay.** Nguồn sự thật là `meta.json` của từng SP.
 
-Tổng 2721 SP · đã xem 2705 (99%) · xong 2654 · chờ chủ duyệt 6 · cần chụp 0 · hỏi chủ 1
+Tổng 2721 SP · đã xem 2721 (100%) · xong 2654 · chờ chủ duyệt 21 · cần chụp 1 · hỏi chủ 1
 
 Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` = giữ nguyên + đã lên web.
 
 | # | Category | DT 90 ngày | Tổng | Chưa xem | Giữ nguyên | Đang làm | Cần chụp | Hỏi chủ | Chờ duyệt | Đã duyệt | Đã lên web |
 |---|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| 1 | Snack khoai tây | 0.0tr | 83 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 81 |
-| 2 | Snack bắp & phồng | 0.0tr | 77 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 75 |
+| 1 | Snack khoai tây | 0.0tr | 83 | 0 | 0 | 0 | 0 | 0 | 2 | 0 | 81 |
+| 2 | Snack bắp & phồng | 0.0tr | 77 | 0 | 0 | 0 | 0 | 1 | 1 | 0 | 75 |
 | 3 | Kem que | 0.0tr | 62 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 62 |
 | 4 | Socola thanh | 0.0tr | 51 | 0 | 7 | 0 | 0 | 0 | 0 | 0 | 44 |
-| 5 | Kẹo dẻo / jelly | 0.0tr | 48 | 2 | 0 | 5 | 0 | 0 | 0 | 0 | 41 |
+| 5 | Kẹo dẻo / jelly | 0.0tr | 48 | 0 | 0 | 5 | 0 | 0 | 2 | 0 | 41 |
 | 6 | Viên ngậm thảo mộc / bạc hà | 0.0tr | 44 | 0 | 0 | 1 | 0 | 0 | 0 | 0 | 43 |
 | 7 | Trà đóng chai | 0.0tr | 43 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 43 |
 | 8 | Kẹo cao su / singum | 0.0tr | 43 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 43 |
@@ -22,7 +22,7 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 | 12 | Bánh tráng trộn | 0.0tr | 37 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 37 |
 | 13 | Bánh quy kem / kẹp kem | 0.0tr | 33 | 0 | 0 | 1 | 0 | 0 | 0 | 0 | 32 |
 | 14 | Nước trái cây / ép | 0.0tr | 35 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 35 |
-| 15 | Kẹo cứng | 0.0tr | 30 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 29 |
+| 15 | Kẹo cứng | 0.0tr | 30 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 29 |
 | 16 | Mì gói | 0.0tr | 30 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 29 |
 | 17 | Kem ly / cốc / hộp nhỏ | 0.0tr | 30 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 30 |
 | 18 | Snack phồng tôm/mực/cua | 0.0tr | 29 | 0 | 0 | 1 | 0 | 0 | 0 | 0 | 28 |
@@ -45,7 +45,7 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 | 35 | Lăn khử mùi | 0.0tr | 22 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 22 |
 | 36 | Mì cay (Gói) | 0.0tr | 22 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 22 |
 | 37 | Bánh pie / cake mềm | 0.0tr | 21 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 21 |
-| 38 | Bánh que chấm socola | 0.0tr | 21 | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 18 |
+| 38 | Bánh que chấm socola | 0.0tr | 21 | 0 | 0 | 0 | 0 | 0 | 3 | 0 | 18 |
 | 39 | Cà phê uống liền | 0.0tr | 21 | 0 | 0 | 1 | 0 | 0 | 0 | 0 | 20 |
 | 40 | Xúc xích tiệt trùng | 0.0tr | 21 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 21 |
 | 41 | Vị nguyên bản | 0.0tr | 21 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 21 |
@@ -54,7 +54,7 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 | 44 | Nước suối / bù khoáng / ion | 0.0tr | 19 | 0 | 0 | 1 | 0 | 0 | 0 | 0 | 18 |
 | 45 | Cơm nắm Onigiri | 0.0tr | 19 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 18 |
 | 46 | Whisky & Bourbon | 0.0tr | 19 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 19 |
-| 47 | Sữa hạt | 0.0tr | 19 | 2 | 0 | 1 | 0 | 0 | 0 | 0 | 16 |
+| 47 | Sữa hạt | 0.0tr | 19 | 0 | 0 | 1 | 0 | 0 | 2 | 0 | 16 |
 | 48 | Snack rong biển | 0.0tr | 19 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 19 |
 | 49 | Nước tẩy trang - Dầu tẩy trang | 0.0tr | 18 | 0 | 9 | 0 | 0 | 0 | 0 | 0 | 9 |
 | 50 | Chân gà | 0.0tr | 18 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 18 |
@@ -98,7 +98,7 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 | 88 | Sữa chua đông lạnh | 0.0tr | 12 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 12 |
 | 89 | Nước gạo / sữa hạt | 0.0tr | 12 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 12 |
 | 90 | Phô mai | 0.0tr | 12 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 12 |
-| 91 | Bánh ăn sáng / ngũ cốc / thanh năng lượng | 0.0tr | 11 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 9 |
+| 91 | Bánh ăn sáng / ngũ cốc / thanh năng lượng | 0.0tr | 11 | 0 | 0 | 0 | 0 | 0 | 2 | 0 | 9 |
 | 92 | Burger - Hotdog - Bánh mì | 0.0tr | 11 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 11 |
 | 93 | Kem hộp lớn / gia đình | 0.0tr | 12 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 12 |
 | 94 | Kẹo sáng tạo / đồ chơi | 0.0tr | 11 | 0 | 0 | 2 | 0 | 0 | 0 | 0 | 9 |
@@ -174,7 +174,7 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 | 164 | Socola hộp / quà tặng | 0.0tr | 4 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 4 |
 | 165 | Tăm nha khoa | 0.0tr | 4 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 4 |
 | 166 | Tampon | 0.0tr | 4 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 4 |
-| 167 | Socola trứng / đồ chơi | 0.0tr | 4 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 3 |
+| 167 | Socola trứng / đồ chơi | 0.0tr | 4 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 3 |
 | 168 | Băng dính – keo – kéo | 0.0tr | 4 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 4 |
 | 169 | Rum | 0.0tr | 4 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 4 |
 | 170 | Rượu Cao Lương | 0.0tr | 4 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 4 |
@@ -197,7 +197,7 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 | 187 | BVS đêm | 0.0tr | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 2 |
 | 188 | Áo mưa | 0.0tr | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 2 |
 | 189 | Serum dưỡng tóc | 0.0tr | 2 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
-| 190 | Bánh ngọt | 0.0tr | 2 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 190 | Bánh ngọt | 0.0tr | 2 | 0 | 0 | 0 | 1 | 0 | 1 | 0 | 0 |
 | 191 | Khẩu trang y tế | 0.0tr | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 2 |
 | 192 | Nem chua | 0.0tr | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 3 |
 | 193 | Thịt khô đóng gói khác | 0.0tr | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 2 |
@@ -234,6 +234,7 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 
 - categories/2533440-do-dung-khac/65089127-ke-trung-bay-bang-giay-25-4-39-1-1400-standee-25: NO_CHANGE requires both decisions KEEP
 - categories/2533440-do-dung-khac/67918470-phi-van-chuyen: NO_CHANGE requires both decisions KEEP
+- categories/2544186-banh-ngot/65132537-kd-bmt-o-dai-bo-sua-80gr-x-50g-cai: reviewed but image/description decision missing
 - categories/2547533-thuc-pham-che-bien-san/66405418-ngay-ra-dong: NO_CHANGE requires both decisions KEEP
 - categories/2548802-banh-bong-lan-pho-mai/67574198-banh-bong-lan-tam-giac-vi-socla: NO_CHANGE requires both decisions KEEP
 - categories/2549018-snack-que-que-cay/65136820-bia-cat-tong-ba-tuyet: NO_CHANGE requires both decisions KEEP
