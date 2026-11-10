@@ -32,3 +32,10 @@ công tắc trong giỏ (mặc định bật, miễn phí, cả giao tận nơi 
 - Thêm thuộc tính làm KiotViet đổi **tên đầy đủ** thành "Tên - Có (đơn vị)". Tên này in lên HĐĐT nếu ô
   "Tên hàng hoá trên HĐĐT" để trống (đã gặp với NỒNG ĐỘ CỒN).
 - Dòng lốc/thùng tự theo SP gốc.
+
+## Kết quả
+
+- 10/11/2026 11:1x: chủ nhập lô thử 4 SP. Hub đọc lúc 11:17; web hiện đúng: Cơm nắm → "Hâm nóng", Bánh bao → "Hấp nóng",
+  Bánh mì nướng → "Nướng" (bật sẵn), Pizza Napoli Salami → "Nướng" (tắt sẵn). KiotViet nhận thuộc tính `LÀM NÓNG TÙY CHỌN`.
+- Cả lô 99 SP còn lại (`work/excel/lam-nong-ca-lo`, từ export 10/11 08:04): 32 Nướng, 31 Hâm, 22 Hấp (bật sẵn),
+  14 pizza Nướng (tắt sẵn).
