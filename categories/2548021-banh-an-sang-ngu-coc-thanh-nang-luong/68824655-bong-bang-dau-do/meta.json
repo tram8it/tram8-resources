@@ -13,11 +13,11 @@
   },
   "revenue90d": 0,
   "current": {
-    "imageUrl": "https://cdn2-retail-images.kiotviet.vn/2026/11/08/tram8/7f330b21e35547b2b12af38417a1ecb6.jpeg",
-    "description": null,
-    "exportedAt": "2026-11-09T06:00:30.064Z"
+    "imageUrl": "https://img.tram8.vn/products/d816be30e1a188fbe9c2d0d8e17a02a1e993b059da9751ecc819b4dcc8665569.webp",
+    "description": "Bánh con cá Bống Bang Orion nhân mochi cốm xanh đậu đỏ, gói 5 con cá.\n\nQuy cách: gói\nThương hiệu: Orion",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "SP mới 09/11: ảnh hãng là bao bì khác gói đang bán → vẽ lại từ ảnh chụp → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ nhỏ có thể mờ",
@@ -56,6 +56,18 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-11-13T01:08:41.850Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-11-13T01:09:35.548Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -65,5 +77,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-11-09T12:54:31.025Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-11-09T12:54:31.025Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/d816be30e1a188fbe9c2d0d8e17a02a1e993b059da9751ecc819b4dcc8665569.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/11/08/tram8/7f330b21e35547b2b12af38417a1ecb6.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Bánh con cá Bống Bang Orion nhân mochi cốm xanh đậu đỏ, gói 5 con cá.\n\nQuy cách: gói\nThương hiệu: Orion",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

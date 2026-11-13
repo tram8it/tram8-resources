@@ -13,11 +13,11 @@
   },
   "revenue90d": 0,
   "current": {
-    "imageUrl": "https://cdn2-retail-images.kiotviet.vn/2026/11/06/tram8/4607d752f32b4badbefaebd20822d535.jpeg",
-    "description": null,
-    "exportedAt": "2026-11-09T06:00:30.064Z"
+    "imageUrl": "https://img.tram8.vn/products/f00821331f7398f6fa7905f655bbbd90fd0706fec009941040b09e20a0ed28ae.webp",
+    "description": "Tập phong bì kiểu thư máy bay (viền sọc xanh đỏ), in sẵn dòng người gửi/người nhận, ô dán tem và ảnh Cầu Trường Tiền.\n\nQuy cách: tập",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "SP mới 09/11: ảnh chụp tay → vẽ lại tập phong bì, bỏ tem giá → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: ảnh minh hoạ; chữ nhỏ có thể mờ",
@@ -56,6 +56,18 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-11-13T01:08:41.850Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-11-13T01:09:35.548Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -65,5 +77,91 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-11-09T12:54:27.495Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-11-09T12:54:27.495Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/f00821331f7398f6fa7905f655bbbd90fd0706fec009941040b09e20a0ed28ae.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/11/06/tram8/4607d752f32b4badbefaebd20822d535.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Tập phong bì kiểu thư máy bay (viền sọc xanh đỏ), in sẵn dòng người gửi/người nhận, ô dán tem và ảnh Cầu Trường Tiền.\n\nQuy cách: tập",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {
+      "price": {
+        "to": 8796.3,
+        "from": 8636.36
+      },
+      "saleTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 68785852
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 68785852
+        }
+      },
+      "taxRate": {
+        "to": "VAT 8%",
+        "from": "VAT 10%"
+      },
+      "productTaxs": {
+        "to": [
+          {
+            "id": 0,
+            "name": "VAT 8%",
+            "taxId": 3,
+            "value": 8,
+            "productId": 68785852
+          }
+        ],
+        "from": [
+          {
+            "id": 0,
+            "name": "VAT 10%",
+            "taxId": 4,
+            "value": 10,
+            "productId": 68785852
+          }
+        ]
+      },
+      "purchaseTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 68785852
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 68785852
+        }
+      }
+    }
   }
 }

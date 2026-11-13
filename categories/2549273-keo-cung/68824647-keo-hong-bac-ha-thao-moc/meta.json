@@ -13,11 +13,11 @@
   },
   "revenue90d": 0,
   "current": {
-    "imageUrl": "https://cdn2-retail-images.kiotviet.vn/2026/11/08/tram8/10587ef7437d4db896d82c778960530b.jpeg",
-    "description": null,
-    "exportedAt": "2026-11-09T06:00:30.064Z"
+    "imageUrl": "https://img.tram8.vn/products/c02ca8d334e607bb8b022a3d90e9bbdeca89222738667d2531d913c6fcc1ac9f.webp",
+    "description": "Kẹo ngậm Họng Orion vị bạc hà thảo mộc.\n\nQuy cách: gói\nThương hiệu: Orion",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "ảnh chụp tay → ảnh hãng cùng sản phẩm",
@@ -53,6 +53,18 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-11-13T01:08:41.850Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-11-13T01:09:35.548Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -62,5 +74,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-11-09T12:54:49.475Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-11-09T12:54:49.475Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/c02ca8d334e607bb8b022a3d90e9bbdeca89222738667d2531d913c6fcc1ac9f.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/11/08/tram8/10587ef7437d4db896d82c778960530b.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Kẹo ngậm Họng Orion vị bạc hà thảo mộc.\n\nQuy cách: gói\nThương hiệu: Orion",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

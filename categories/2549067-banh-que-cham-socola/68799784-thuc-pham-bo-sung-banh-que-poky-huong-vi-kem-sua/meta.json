@@ -13,11 +13,11 @@
   },
   "revenue90d": 0,
   "current": {
-    "imageUrl": "https://cdn2-retail-images.kiotviet.vn/2026/11/07/tram8/19faf1677d5944708a8f7c7ac46cea94.jpeg",
-    "description": null,
-    "exportedAt": "2026-11-09T06:00:30.064Z"
+    "imageUrl": "https://img.tram8.vn/products/80dfb3a51ea2e213887aa7bd090eac79171130612fe08603847c0603fb608707.webp",
+    "description": "Bánh que Glico Pocky phủ kem sữa Hokkaido, bổ sung canxi (theo bao bì). Hàng Thái Lan.\n\nQuy cách: 40 g · hộp\nThương hiệu: Glico Pocky",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "SP mới 09/11: không có ảnh hãng (web hãng không có SP này) → vẽ lại từ ảnh chụp → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ nhỏ có thể mờ",
@@ -56,6 +56,18 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-11-13T01:08:41.850Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-11-13T01:09:35.548Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -65,5 +77,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-11-09T12:55:24.513Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-11-09T12:55:24.513Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/80dfb3a51ea2e213887aa7bd090eac79171130612fe08603847c0603fb608707.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/11/07/tram8/19faf1677d5944708a8f7c7ac46cea94.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Bánh que Glico Pocky phủ kem sữa Hokkaido, bổ sung canxi (theo bao bì). Hàng Thái Lan.\n\nQuy cách: 40 g · hộp\nThương hiệu: Glico Pocky",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

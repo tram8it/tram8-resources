@@ -13,11 +13,11 @@
   },
   "revenue90d": 0,
   "current": {
-    "imageUrl": "https://cdn2-retail-images.kiotviet.vn/2026/11/06/tram8/5072c24158214d66ad72f68c94a6e452.jpeg",
-    "description": null,
-    "exportedAt": "2026-11-09T06:00:30.064Z"
+    "imageUrl": "https://img.tram8.vn/products/9a81a4bd9f55df39f2e0f0edd0e06273180ddd19c99a364c2f3189d17063a326.webp",
+    "description": "Bộ bài tây Club Special Diamondpuke, hộp giấy.\n\nQuy cách: bộ",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "SP mới 09/11: ảnh chụp tay → vẽ lại hộp bài trên nền trắng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: ảnh minh hoạ; chữ nhỏ có thể mờ",
@@ -56,6 +56,18 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-11-13T01:08:41.850Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-11-13T01:09:35.548Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -65,5 +77,91 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-11-09T12:54:24.442Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-11-09T12:54:24.442Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/9a81a4bd9f55df39f2e0f0edd0e06273180ddd19c99a364c2f3189d17063a326.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/11/06/tram8/5072c24158214d66ad72f68c94a6e452.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Bộ bài tây Club Special Diamondpuke, hộp giấy.\n\nQuy cách: bộ",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {
+      "price": {
+        "to": 13425.93,
+        "from": 13181.82
+      },
+      "saleTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 68785799
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 68785799
+        }
+      },
+      "taxRate": {
+        "to": "VAT 8%",
+        "from": "VAT 10%"
+      },
+      "productTaxs": {
+        "to": [
+          {
+            "id": 0,
+            "name": "VAT 8%",
+            "taxId": 3,
+            "value": 8,
+            "productId": 68785799
+          }
+        ],
+        "from": [
+          {
+            "id": 0,
+            "name": "VAT 10%",
+            "taxId": 4,
+            "value": 10,
+            "productId": 68785799
+          }
+        ]
+      },
+      "purchaseTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 68785799
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 68785799
+        }
+      }
+    }
   }
 }

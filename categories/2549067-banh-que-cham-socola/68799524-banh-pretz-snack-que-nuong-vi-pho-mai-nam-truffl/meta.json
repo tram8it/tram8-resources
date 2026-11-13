@@ -13,11 +13,11 @@
   },
   "revenue90d": 0,
   "current": {
-    "imageUrl": "https://cdn2-retail-images.kiotviet.vn/2026/11/07/tram8/3ac2de65a2c640fa8110ca9cfe04b763.jpeg",
-    "description": null,
-    "exportedAt": "2026-11-09T06:00:30.064Z"
+    "imageUrl": "https://img.tram8.vn/products/bfa82bbd7422a7ccd7224ebb92173543b7794164fde7e8b579379001406a6df7.webp",
+    "description": "Bánh que nướng Glico Pretz vị phô mai nấm truffle. Hàng Thái Lan.\n\nQuy cách: 26 g · hộp\nThương hiệu: Glico Pretz",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "SP mới 09/11: không có ảnh hãng (web hãng không có SP này) → vẽ lại từ ảnh chụp → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ nhỏ có thể mờ",
@@ -56,6 +56,18 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-11-13T01:08:41.850Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-11-13T01:09:35.548Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -65,5 +77,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-11-09T12:55:21.460Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-11-09T12:55:21.460Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/bfa82bbd7422a7ccd7224ebb92173543b7794164fde7e8b579379001406a6df7.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/11/07/tram8/3ac2de65a2c640fa8110ca9cfe04b763.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Bánh que nướng Glico Pretz vị phô mai nấm truffle. Hàng Thái Lan.\n\nQuy cách: 26 g · hộp\nThương hiệu: Glico Pretz",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

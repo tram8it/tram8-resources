@@ -13,11 +13,11 @@
   },
   "revenue90d": 0,
   "current": {
-    "imageUrl": "https://cdn2-retail-images.kiotviet.vn/2026/11/08/tram8/25a55a749d7a46089ffde8b3ae657a1b.jpeg",
-    "description": null,
-    "exportedAt": "2026-11-09T06:00:30.064Z"
+    "imageUrl": "https://img.tram8.vn/products/431faa6ecb477118a5fe89630a7938c4cfa4203e0ce446b4f96d8d9b6b04c457.webp",
+    "description": "Bánh quy ăn sáng Miz Orion vị sữa dâu, hộp.<br><br>Quy cách: hộp<br>Thương hiệu: Orion",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "ảnh chụp tay → ảnh hãng cùng sản phẩm",
@@ -53,6 +53,18 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-11-13T01:08:41.850Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-11-13T01:09:35.548Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -62,5 +74,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-11-09T12:54:34.984Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-11-09T12:54:34.984Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/431faa6ecb477118a5fe89630a7938c4cfa4203e0ce446b4f96d8d9b6b04c457.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/11/08/tram8/25a55a749d7a46089ffde8b3ae657a1b.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Bánh quy ăn sáng Miz Orion vị sữa dâu, hộp.\n\nQuy cách: hộp\nThương hiệu: Orion",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

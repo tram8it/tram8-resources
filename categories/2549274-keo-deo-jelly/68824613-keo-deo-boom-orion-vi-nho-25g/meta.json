@@ -15,7 +15,7 @@
   "current": {
     "imageUrl": "https://cdn2-retail-images.kiotviet.vn/2026/11/08/tram8/1342aa87c5b14374836bacc365452509.jpeg",
     "description": null,
-    "exportedAt": "2026-11-09T06:00:30.064Z"
+    "exportedAt": "2026-11-13T01:08:38.982Z"
   },
   "status": "READY",
   "image": {
@@ -56,6 +56,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-11-13T01:09:35.548Z",
+      "by": "owner",
+      "status": "READY",
+      "note": "apply failed on Hub: r2_put_failed 500 <?xml version=\"1.0\" encoding=\"UTF-8\"?><Error><Code>InternalError</Code><Message>We encountered an internal error. Please try again.</Message></Error>"
     }
   ],
   "submitted": {
@@ -65,5 +71,11 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "FAILED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-11-09T12:55:10.012Z",
+    "note": "r2_put_failed 500 <?xml version=\"1.0\" encoding=\"UTF-8\"?><Error><Code>InternalError</Code><Message>We encountered an internal error. Please try again.</Message></Error>"
   }
 }

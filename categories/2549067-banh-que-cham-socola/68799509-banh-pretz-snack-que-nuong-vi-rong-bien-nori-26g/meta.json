@@ -13,11 +13,11 @@
   },
   "revenue90d": 0,
   "current": {
-    "imageUrl": "https://cdn2-retail-images.kiotviet.vn/2026/11/07/tram8/0f586902dbc648abb8f4a23d7109c645.jpeg",
-    "description": null,
-    "exportedAt": "2026-11-09T06:00:30.064Z"
+    "imageUrl": "https://img.tram8.vn/products/892f8edee53794d4ea7933ab92ba926792bb7e151cd570eb7dc39462805754a2.webp",
+    "description": "Bánh que nướng Glico Pretz vị rong biển Nori. Hàng Thái Lan.\n\nQuy cách: 26 g · hộp\nThương hiệu: Glico Pretz",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "SP mới 09/11: không có ảnh hãng (web hãng không có SP này) → vẽ lại từ ảnh chụp → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ nhỏ có thể mờ",
@@ -56,6 +56,18 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-11-13T01:08:41.850Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-11-13T01:09:35.548Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -65,5 +77,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-11-09T12:55:17.447Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-11-09T12:55:17.447Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/892f8edee53794d4ea7933ab92ba926792bb7e151cd570eb7dc39462805754a2.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/11/07/tram8/0f586902dbc648abb8f4a23d7109c645.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Bánh que nướng Glico Pretz vị rong biển Nori. Hàng Thái Lan.\n\nQuy cách: 26 g · hộp\nThương hiệu: Glico Pretz",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

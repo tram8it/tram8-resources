@@ -13,11 +13,11 @@
   },
   "revenue90d": 0,
   "current": {
-    "imageUrl": "https://cdn2-retail-images.kiotviet.vn/2026/11/06/tram8/49eff678af2a47a79c94a4814763ee91.jpeg",
-    "description": null,
-    "exportedAt": "2026-11-09T06:00:30.064Z"
+    "imageUrl": "https://img.tram8.vn/products/73e506c9022ba6e92ae0ad81a6654a5e291cefae8a04532d3d403351f32eb664.webp",
+    "description": "Sữa đậu nành Hershey's Soyfresh vị bánh quy kem (Cookies 'n' Creme), không chất bảo quản (theo bao bì).\n\nQuy cách: 236 ml · hộp\nThương hiệu: Hershey's Soyfresh",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "SP mới 09/11: không có ảnh hãng (web hãng không có SP này) → vẽ lại từ ảnh chụp → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ nhỏ có thể mờ",
@@ -56,6 +56,18 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-11-13T01:08:41.850Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-11-13T01:09:35.548Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -65,5 +77,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-11-09T12:55:31.079Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-11-09T12:55:31.079Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/73e506c9022ba6e92ae0ad81a6654a5e291cefae8a04532d3d403351f32eb664.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/11/06/tram8/49eff678af2a47a79c94a4814763ee91.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Sữa đậu nành Hershey's Soyfresh vị bánh quy kem (Cookies 'n' Creme), không chất bảo quản (theo bao bì).\n\nQuy cách: 236 ml · hộp\nThương hiệu: Hershey's Soyfresh",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

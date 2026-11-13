@@ -13,11 +13,11 @@
   },
   "revenue90d": 0,
   "current": {
-    "imageUrl": "https://cdn2-retail-images.kiotviet.vn/2026/11/05/tram8/ed727ed6b47e4ed1ae2c647d2b199902.jpeg",
-    "description": null,
-    "exportedAt": "2026-11-09T06:00:30.064Z"
+    "imageUrl": "https://img.tram8.vn/products/d173b2087116d82e35f9ee0ea441a7360c8252196c35e607f6b09f174dc00477.webp",
+    "description": "Bánh bao Thọ Phát tạo hình tuần lộc, nhân sô cô la, mẫu Giáng sinh (khay 240 g theo bao bì). Hấp hoặc quay lò vi sóng trước khi ăn.\n\nQuy cách: cái\nNhà sản xuất: Thọ Phát (KIDO)",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "SP mới 09/11: v18: món hấp bán lẻ hiện cái bánh và nhân → ảnh món Gemini vẽ từ ảnh khay, cùng kiểu bánh người tuyết đã duyệt → ảnh món ăn Gemini vẽ từ ảnh bao bì (v18: món hấp bán lẻ hiện cái bánh và nhân); ảnh minh hoạ. Khác hàng thật: ảnh minh hoạ; chữ nhỏ có thể mờ",
@@ -56,6 +56,18 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-11-13T01:08:41.850Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-11-13T01:09:35.548Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -65,5 +77,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-11-09T12:54:20.363Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-11-09T12:54:20.363Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/d173b2087116d82e35f9ee0ea441a7360c8252196c35e607f6b09f174dc00477.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/11/05/tram8/ed727ed6b47e4ed1ae2c647d2b199902.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Bánh bao Thọ Phát tạo hình tuần lộc, nhân sô cô la, mẫu Giáng sinh (khay 240 g theo bao bì). Hấp hoặc quay lò vi sóng trước khi ăn.\n\nQuy cách: cái\nNhà sản xuất: Thọ Phát (KIDO)",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }
