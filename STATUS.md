@@ -238,9 +238,6 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 
 ## ⚠️ Bản ghi lỗi
 
-- categories/2513195-kem-do-dong-lanh/68918510-kem-bliss-hop-dua-non-330g: reviewed but image/description decision missing
-- categories/2513195-kem-do-dong-lanh/68918531-kem-bliss-hop-socola-bac-ha-330g: reviewed but image/description decision missing
-- categories/2513195-kem-do-dong-lanh/68918561-kem-bliss-hop-pho-mai-dau-330g: reviewed but image/description decision missing
 - categories/2533440-do-dung-khac/65089127-ke-trung-bay-bang-giay-25-4-39-1-1400-standee-25: NO_CHANGE requires both decisions KEEP
 - categories/2533440-do-dung-khac/67918470-phi-van-chuyen: NO_CHANGE requires both decisions KEEP
 - categories/2544186-banh-ngot/65132537-kd-bmt-o-dai-bo-sua-80gr-x-50g-cai: reviewed but image/description decision missing
