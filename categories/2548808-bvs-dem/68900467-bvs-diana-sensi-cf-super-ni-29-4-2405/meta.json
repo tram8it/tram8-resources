@@ -1,0 +1,69 @@
+{
+  "kiotProductId": "68900467",
+  "code": "8934755010415",
+  "barcode": "8934755010415",
+  "name": "BVS Diana Sensi CF Super Ni 29 4 - 2405",
+  "fullName": "BVS Diana Sensi CF Super Ni 29 4 - 2405 (Gói)",
+  "brand": "Diana",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2548808",
+    "name": "BVS đêm",
+    "path": "Chăm sóc cá nhân > Vệ sinh & chăm sóc phụ nữ > BVS đêm"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://cdn2-retail-images.kiotviet.vn/2026/11/13/tram8/b581eb104218446488adb65b52a4897f.jpeg",
+    "description": null,
+    "exportedAt": "2026-11-16T16:56:14.850Z"
+  },
+  "status": "READY",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "ảnh quá nhỏ, mờ; trang hãng chỉ có bao bì mới Super Night → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ nhỏ vẽ lại có thể khác; logo, tên, hình theo mẫu",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-11-16",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (ảnh hãng cỡ nhỏ 237px, bao bì cũ đang bán)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết theo chữ trên bao bì, không thêm dữ kiện",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-11-16T16:56:15.865Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-11-16T17:31:47Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-11-16T17:36:37.297Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    }
+  ],
+  "submitted": {
+    "at": "2026-11-16T17:36:37.297Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
+}

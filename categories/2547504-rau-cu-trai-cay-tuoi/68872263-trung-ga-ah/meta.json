@@ -15,20 +15,27 @@
   "current": {
     "imageUrl": "https://cdn2-retail-images.kiotviet.vn/2026/11/12/tram8/8ac0fe5cf3d64931992a0573729f2f30.jpeg",
     "description": null,
-    "exportedAt": "2026-11-13T01:08:38.982Z"
+    "exportedAt": "2026-11-16T16:56:14.850Z"
   },
-  "status": "TODO",
+  "status": "READY",
   "image": {
-    "decision": null,
-    "reason": null,
-    "source": null,
-    "rubricVersion": null
+    "decision": "REPLACE",
+    "reason": "đáy quả trứng bị giá che, nền kệ → vẽ lại một quả trứng nguyên → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt (đáy trứng vẽ theo hình tự nhiên)",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-11-16",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (quả trứng đặt trên giá)"
+    },
+    "rubricVersion": "v18"
   },
   "description": {
-    "decision": null,
-    "reason": null,
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết theo chữ trên bao bì/nhãn và tên KiotViet",
     "source": null,
-    "rubricVersion": null
+    "rubricVersion": "v4"
   },
   "question": null,
   "history": [
@@ -37,6 +44,26 @@
       "by": "init",
       "status": "TODO",
       "note": "created from export"
+    },
+    {
+      "at": "2026-11-16T17:05:02Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-11-16T17:05:40.966Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-11-16T17:05:40.966Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

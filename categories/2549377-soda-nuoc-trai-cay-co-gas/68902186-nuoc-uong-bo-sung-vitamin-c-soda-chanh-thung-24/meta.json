@@ -1,0 +1,72 @@
+{
+  "kiotProductId": "68902186",
+  "code": "8934803027549",
+  "barcode": "8934803027549",
+  "name": "Nước Uống Bổ Sung Vitamin C Soda Chanh Thùng 24 Chai × 350ml",
+  "fullName": "Nước Uống Bổ Sung Vitamin C Soda Chanh Thùng 24 Chai × 350ml (Chai)",
+  "brand": "Oishi",
+  "unit": "Chai",
+  "category": {
+    "kiotCategoryId": "2549377",
+    "name": "Soda / nước trái cây có gas",
+    "path": "Đồ uống đóng chai > Soda / nước trái cây có gas"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://cdn1-retail-images.kiotviet.vn/2026/11/14/tram8/74ce8b4f41424bc5970cecc2e8f079f1.jpeg",
+    "description": null,
+    "exportedAt": "2026-11-16T16:56:14.850Z"
+  },
+  "status": "READY",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "ảnh hãng nhãn tiếng Anh; chai bán ở cửa hàng nhãn tiếng Việt → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ nhỏ vẽ lại có thể khác; logo, tên, hình theo mẫu",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-11-16",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet + ảnh hãng oishi.com.vn (nhãn tiếng Anh)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết theo chữ trên bao bì và trang hãng, không thêm dữ kiện",
+    "source": {
+      "url": "https://oishi.com.vn/san-pham",
+      "fetchedAt": "2026-11-16"
+    },
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-11-16T16:56:15.865Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-11-16T17:31:48Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-11-16T17:38:08.877Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    }
+  ],
+  "submitted": {
+    "at": "2026-11-16T17:38:08.877Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
+}

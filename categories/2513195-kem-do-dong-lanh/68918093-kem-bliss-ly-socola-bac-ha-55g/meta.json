@@ -1,0 +1,69 @@
+{
+  "kiotProductId": "68918093",
+  "code": "8936213150817",
+  "barcode": "8936213150817",
+  "name": "Kem Bliss Ly Socola Bạc Hà 55g",
+  "fullName": "Kem Bliss Ly Socola Bạc Hà 55g (Ly)",
+  "brand": null,
+  "unit": "Ly",
+  "category": {
+    "kiotCategoryId": "2513195",
+    "name": "Kem & Đồ đông lạnh",
+    "path": "Kem & Đồ đông lạnh"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://cdn2-retail-images.kiotviet.vn/2026/11/15/tram8/0e5ec19d92c94868850bd024da4708c9.jpeg",
+    "description": null,
+    "exportedAt": "2026-11-16T16:56:14.850Z"
+  },
+  "status": "READY",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "ảnh cầm tay, nền cửa hàng; Bliss không có trang SP truy cập được → vẽ nắp nhìn thẳng từ trên → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt ở chữ/logo trên nắp",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-11-16",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (nắp ly cầm tay)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết theo chữ trên bao bì, không thêm dữ kiện",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-11-16T16:56:15.865Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-11-16T17:33:16Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-11-16T17:35:19.881Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    }
+  ],
+  "submitted": {
+    "at": "2026-11-16T17:35:19.881Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
+}

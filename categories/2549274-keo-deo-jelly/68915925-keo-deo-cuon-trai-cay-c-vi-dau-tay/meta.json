@@ -1,0 +1,69 @@
+{
+  "kiotProductId": "68915925",
+  "code": "6931008410734",
+  "barcode": "6931008410734",
+  "name": "Kẹo Dẻo Cuộn Trái Cây C ( Vị Dâu Tây )",
+  "fullName": "Kẹo Dẻo Cuộn Trái Cây C ( Vị Dâu Tây ) (Gói)",
+  "brand": null,
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2549274",
+    "name": "Kẹo dẻo / jelly",
+    "path": "Các loại kẹo > Kẹo dẻo / jelly"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://cdn2-retail-images.kiotviet.vn/2026/11/15/tram8/35f65626d4ee410299e0139a53b2d120.jpeg",
+    "description": null,
+    "exportedAt": "2026-11-16T16:56:14.850Z"
+  },
+  "status": "READY",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "ảnh chụp nghiêng/nhăn, có thùng hàng phía sau; hàng nội địa Trung, không có trang hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ Hán, logo, hình theo ảnh; chữ nhỏ không đọc được để trống",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-11-16",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (gói chụp tại kho)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết theo chữ trên bao bì và tên KiotViet, không thêm dữ kiện",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-11-16T16:56:15.865Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-11-16T17:14:36Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-11-16T17:37:40.044Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    }
+  ],
+  "submitted": {
+    "at": "2026-11-16T17:37:40.044Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
+}

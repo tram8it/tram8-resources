@@ -1,0 +1,69 @@
+{
+  "kiotProductId": "68918486",
+  "code": "8936213150534",
+  "barcode": "8936213150534",
+  "name": "Kem Bliss Hộp Hạt Dẻ Cười 330g",
+  "fullName": "Kem Bliss Hộp Hạt Dẻ Cười 330g (Hộp)",
+  "brand": null,
+  "unit": "Hộp",
+  "category": {
+    "kiotCategoryId": "2513195",
+    "name": "Kem & Đồ đông lạnh",
+    "path": "Kem & Đồ đông lạnh"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://cdn2-retail-images.kiotviet.vn/2026/11/15/tram8/7e321c76eee14eef8ea63f6b6be9f766.jpeg",
+    "description": null,
+    "exportedAt": "2026-11-16T16:56:14.850Z"
+  },
+  "status": "READY",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "ảnh nghiêng, nền kho; không có trang hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: phần thân hộp bị che trong ảnh được vẽ tiếp theo mẫu",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-11-16",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (hộp chụp nghiêng)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết theo chữ trên bao bì, không thêm dữ kiện",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-11-16T16:56:15.865Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-11-16T17:33:17Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-11-16T17:35:41.643Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    }
+  ],
+  "submitted": {
+    "at": "2026-11-16T17:35:41.643Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
+}
