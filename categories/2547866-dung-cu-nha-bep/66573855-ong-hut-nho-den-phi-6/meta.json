@@ -1,0 +1,125 @@
+{
+  "kiotProductId": "66573855",
+  "code": "SP877828",
+  "barcode": null,
+  "name": "Ống hút nhỏ đen phi 6",
+  "fullName": "Ống hút nhỏ đen phi 6 (Cái)",
+  "brand": null,
+  "unit": "Cái",
+  "category": {
+    "kiotCategoryId": "2547866",
+    "name": "Dụng cụ nhà bếp",
+    "path": "Gia dụng & Tiện ích > Bếp và phòng ăn > Dụng cụ nhà bếp"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/37019b73a0fb7e5fb36561b90841c33bd94928577f99640a675fd65a5d3e2fef.webp",
+    "description": "Ống hút nhựa màu đen loại nhỏ, đường kính 6 mm, dùng cho nước ngọt, cà phê, trà.\n\nQuy cách: 1 cái · phi 6 mm",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I3/I4: ảnh chụp điện thoại cả bó ống hút, nền lộn xộn; đơn vị Cái = 1 ống (chủ 17/10); hàng không thương hiệu → Gemini vẽ 1 ống, ảnh minh hoạ → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: ảnh minh hoạ 1 ống hút đen trơn thẳng; chiều dài thật chưa đo",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (bó ống hút trong túi)",
+      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/06/19/tram8/3161441afafe4c768b91a9ac5bf56c7d.jpeg"
+    },
+    "rubricVersion": "v19"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; mô tả ngắn chỉ từ tên SP (hàng không thương hiệu, không có trang hãng)",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:22:49.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "b30: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T08:32:35Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "Ống hút nhỏ đen phi 6 (đơn vị 'Cái'): ảnh hiện có là cả bó ống hút trong túi. Cửa hàng bán 1 ống lẻ hay 1 bó/túi? Nếu 1 ống: em vẽ 1 ống hút đen trơn; nếu 1 bó: cho biết bao nhiêu ống/bó và gửi ảnh chụp túi."
+    },
+    {
+      "at": "2026-10-17T09:10:44Z",
+      "by": "owner",
+      "status": "ASK_OWNER",
+      "note": "owner 17/10 (RUBRIC v19): unit Cái = one straw"
+    },
+    {
+      "at": "2026-10-17T09:10:44Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T09:10:44.231Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T09:10:44.231Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T09:15:03.983Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T09:15:03.983Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/37019b73a0fb7e5fb36561b90841c33bd94928577f99640a675fd65a5d3e2fef.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/06/19/tram8/3161441afafe4c768b91a9ac5bf56c7d.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Ống hút nhựa màu đen loại nhỏ, đường kính 6 mm, dùng cho nước ngọt, cà phê, trà.\n\nQuy cách: 1 cái · phi 6 mm",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "kiotProductId": "65477995",
+  "code": "8938555224560",
+  "barcode": "8938555224560",
+  "name": "Khăn ướt mini Nguyễn Khang",
+  "fullName": "Khăn ướt mini Nguyễn Khang (Gói)",
+  "brand": "Nguyễn Khang",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2500646",
+    "name": "Khăn ướt – khăn giấy",
+    "path": "Gia dụng & Tiện ích > Khăn ướt – khăn giấy"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/30441d4a41d0f1be5885c2adec4bd69b14e0b317ca0ab24073fee939bc3fa9cd.webp",
+    "description": "Khăn ướt mini Nguyễn Khang, gói nhỏ có nắp mở, tiện bỏ túi để lau tay, lau mặt khi đi học, đi chơi. Bao bì ghi đạt chứng nhận Hàng Việt Nam Chất Lượng Cao.\n\nQuy cách: gói 8 tờ\nNhà sản xuất/thương hiệu: Nguyễn Khang",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I8/I6: ảnh là bịch nhiều gói, nhỏ mờ; đơn vị Gói = 1 gói mini 8 tờ (chủ 17/10) → Gemini vẽ 1 gói từ ảnh bịch, ảnh minh hoạ → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ 'Chất Lượng Cao' bị che trên ảnh mẫu, Gemini ghi đủ cụm chuẩn; nét vẽ trẻ em/logo sạch hơn ảnh chụp",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (bịch nhiều gói mini)",
+      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/07/27/tram8/da29b8786eb24abc8f5365abbc0ef25d.png"
+    },
+    "rubricVersion": "v19"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết theo chữ in trên gói (Khăn ướt mini Nguyễn Khang, 8 tờ, HVNCLC); bán 1 gói theo đơn vị KiotViet",
+    "source": null,
+    "rubricVersion": "v19"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:04:56.000Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "ask owner: single pack or bundle"
+    },
+    {
+      "at": "2026-10-17T09:09:56Z",
+      "by": "owner",
+      "status": "ASK_OWNER",
+      "note": "owner 17/10 (RUBRIC v19): unit Gói = one mini 8-sheet packet"
+    },
+    {
+      "at": "2026-10-17T09:09:56Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T09:09:56Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "description WRITE_NEW from the packet print"
+    },
+    {
+      "at": "2026-10-17T09:10:03.963Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T09:10:03.963Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T09:14:55.973Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T09:14:55.973Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/30441d4a41d0f1be5885c2adec4bd69b14e0b317ca0ab24073fee939bc3fa9cd.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/27/tram8/da29b8786eb24abc8f5365abbc0ef25d.png"
+        ]
+      },
+      "description": {
+        "to": "Khăn ướt mini Nguyễn Khang, gói nhỏ có nắp mở, tiện bỏ túi để lau tay, lau mặt khi đi học, đi chơi. Bao bì ghi đạt chứng nhận Hàng Việt Nam Chất Lượng Cao.\n\nQuy cách: gói 8 tờ\nNhà sản xuất/thương hiệu: Nguyễn Khang",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

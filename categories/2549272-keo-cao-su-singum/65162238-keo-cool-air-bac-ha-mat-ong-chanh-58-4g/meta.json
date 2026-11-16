@@ -1,0 +1,137 @@
+{
+  "kiotProductId": "65162238",
+  "code": "8936114080558",
+  "barcode": "8936114080558",
+  "name": "Kẹo Cool Air Bạc Hà mật ong chanh 58.4g",
+  "fullName": "Kẹo Cool Air Bạc Hà mật ong chanh 58.4g (Lọ)",
+  "brand": "Cool Air",
+  "unit": "Lọ",
+  "category": {
+    "kiotCategoryId": "2549272",
+    "name": "Kẹo cao su / singum",
+    "path": "Các loại kẹo > Kẹo cao su / singum"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/6479d33a56787e14dd0f556784aaa20eb20330d34f6bee4f35dc4b846196302d.webp",
+    "description": "Kẹo sing-gum Wrigley's Cool Air hương bạc hà – mật ong, chanh, đựng trong hũ.\n\nQuy cách: 55,4 g · lọ\nThương hiệu: Wrigley's Cool Air",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "Chủ: cần vẽ lại, ảnh chưa đạt → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: khối lượng in 58,4 g theo ảnh OFF cùng mã vạch (= tên KiotViet); ảnh KiotViet cũ in 55,4 g (lô cũ)",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-18",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet + ảnh Open Food Facts cùng mã vạch (chỉ làm mẫu)",
+      "referenceUrl": "https://world.openfoodfacts.org/product/8936114080558"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết ngắn từ chữ in trên hũ (55,4 g theo nhãn)",
+    "source": null,
+    "rubricVersion": "v19"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:31:48.000Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "image ASK_OWNER, description ASK_OWNER"
+    },
+    {
+      "at": "2026-10-17T08:45:00Z",
+      "by": "owner",
+      "note": "RUBRIC v19: khối lượng tin bao bì đúng mã vạch hơn tên KiotViet; chỉ hỏi khi lệch > ~10% hoặc rõ là cỡ khác",
+      "status": "ASK_OWNER"
+    },
+    {
+      "at": "2026-10-17T09:30:00Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "image CROP; description WRITE_NEW from pack text (weight per pack, RUBRIC v19)"
+    },
+    {
+      "at": "2026-10-17T08:59:51.854Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "IN_PROGRESS",
+      "note": "rejected on Hub by AU KHUONG DUY: Cần vẽ lại, ảnh này chưa đạt"
+    },
+    {
+      "at": "2026-10-18T11:29:24Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "redo after Hub rejection: Cần vẽ lại, ảnh này chưa đạt — Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-18T11:29:25.075Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-18T17:16:08.691Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T03:19:05.400Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-18T11:29:25.075Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-18T17:11:06.824Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-18T17:11:06.824Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/6479d33a56787e14dd0f556784aaa20eb20330d34f6bee4f35dc4b846196302d.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/30/tram8/3e13459f44354c6f82d82e256e7f08ca.png"
+        ]
+      },
+      "description": {
+        "to": "Kẹo sing-gum Wrigley's Cool Air hương bạc hà – mật ong, chanh, đựng trong hũ.\n\nQuy cách: 55,4 g · lọ\nThương hiệu: Wrigley's Cool Air",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

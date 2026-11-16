@@ -1,0 +1,111 @@
+{
+  "kiotProductId": "67247645",
+  "code": "8935299660579",
+  "barcode": "8935299660579",
+  "name": "Bánh Croissant Mini Phủ Socola Sữa",
+  "fullName": "Bánh Croissant Mini Phủ Socola Sữa (Gói)",
+  "brand": "Cobi Bread",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2549069",
+    "name": "Bánh pie / cake mềm",
+    "path": "Bánh quy & bánh đóng gói > Bánh pie / cake mềm"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/ea9fae907ff70e86af4c2c39f75a79f89f4cd4f6295ef834aad6dcdfa1cc92b4.webp",
+    "description": "Bánh croissant cỡ nhỏ phủ sô cô la sữa, ăn liền, tiện mang theo làm món ăn nhẹ.\n\nQuy cách: gói",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I1: chưa có ảnh; ảnh hãng Cobi Bread (cobibread.com) nền xám và cắt mất đáy túi nên không dùng thẳng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt (Milk Chocolate Mini Croissant, BÁNH CROISSANT MINI PHỦ SOCOLA SỮA, KHỐI LƯỢNG TỊNH 49 g khớp ảnh hãng); vẽ đủ cả đáy túi",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh hãng cobibread.com + ảnh Kingfoodmart (chỉ làm mẫu)",
+      "referenceUrl": "https://cobibread.com/product/snack-mini-croissant-4-vi/"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; chỉ từ dữ kiện tên SP (RUBRIC v2 nguồn 3), bổ sung khi có ảnh bao bì",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:55:08.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "b21: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T07:52:06Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T07:52:19.958Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T08:06:02.482Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T07:52:19.958Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T07:57:06.503Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T07:57:06.503Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/ea9fae907ff70e86af4c2c39f75a79f89f4cd4f6295ef834aad6dcdfa1cc92b4.webp"
+        ],
+        "from": null
+      },
+      "description": {
+        "to": "Bánh croissant cỡ nhỏ phủ sô cô la sữa, ăn liền, tiện mang theo làm món ăn nhẹ.\n\nQuy cách: gói",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

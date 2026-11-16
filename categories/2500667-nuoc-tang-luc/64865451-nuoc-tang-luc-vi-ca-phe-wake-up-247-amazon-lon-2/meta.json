@@ -1,0 +1,180 @@
+{
+  "kiotProductId": "64865451",
+  "code": "8934683010723",
+  "barcode": "8934683010723",
+  "name": "Nước Tăng Lực Vị Cà Phê Wake up 247 Amazon Lon 245ml",
+  "fullName": "Nước Tăng Lực Vị Cà Phê Wake up 247 Amazon Lon 245ml (Lon)",
+  "brand": "Wake-Up 247",
+  "unit": "Lon",
+  "category": {
+    "kiotCategoryId": "2500667",
+    "name": "Nước tăng lực",
+    "path": "Đồ uống đóng chai > Nước tăng lực"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/8ff784ba73abc3d940fc86df5d6fc62b1c339e3e4f6bdf9a500acf05cb5a3bcf.webp",
+    "description": "Nước tăng lực Wake-up 247 vị cà phê dạng lon, bổ sung taurine và các vitamin B3, B6, B12. Ngon hơn khi uống lạnh.\n\nQuy cách: 245 ml · lon\nNhà sản xuất/thương hiệu: Wake-up 247",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "ảnh tự chụp (lon nghiêng, bóng lóa); masanconsumer.com chặn (403) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: lần 1 Gemini tự đổi chữ thành 'vị cà phê' → đã sửa về đúng 'NƯỚC TĂNG LỰC VÀNG MỚI'; chân dung cầu thủ in trên lon vẽ lại theo ảnh gốc (khuôn mặt có thể không giống hệt); 245 ml khớp",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet của cửa hàng (chỉ làm mẫu)",
+      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/07/30/tram8/9125b291a0144534af9acecc728c1ba7.png"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết ngắn từ tên SP và chữ in mặt trước lon (trang Masan không truy cập được)",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:31:42.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "image CROP, description WRITE_NEW (front-of-pack facts)"
+    },
+    {
+      "at": "2026-10-15T09:16:17Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "tone.py --vivid: white balance/levels + brand-like colour (owner request)"
+    },
+    {
+      "at": "2026-10-17T14:16:36Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T14:16:36.485Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T14:16:36.485Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T16:46:24.634Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T16:46:24.634Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/8ff784ba73abc3d940fc86df5d6fc62b1c339e3e4f6bdf9a500acf05cb5a3bcf.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/30/tram8/9125b291a0144534af9acecc728c1ba7.png"
+        ]
+      },
+      "description": {
+        "to": "Nước tăng lực Wake-up 247 vị cà phê dạng lon, bổ sung taurine và các vitamin B3, B6, B12. Ngon hơn khi uống lạnh.\n\nQuy cách: 245 ml · lon\nNhà sản xuất/thương hiệu: Wake-up 247",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {
+      "price": {
+        "to": 11574.07,
+        "from": 11363.64
+      },
+      "saleTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 64865451
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 64865451
+        }
+      },
+      "taxRate": {
+        "to": "VAT 8%",
+        "from": "VAT 10%"
+      },
+      "productTaxs": {
+        "to": [
+          {
+            "id": 0,
+            "name": "VAT 8%",
+            "taxId": 3,
+            "value": 8,
+            "productId": 64865451
+          }
+        ],
+        "from": [
+          {
+            "id": 0,
+            "name": "VAT 10%",
+            "taxId": 4,
+            "value": 10,
+            "productId": 64865451
+          }
+        ]
+      },
+      "purchaseTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 64865451
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 64865451
+        }
+      }
+    }
+  }
+}

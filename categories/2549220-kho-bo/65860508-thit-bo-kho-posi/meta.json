@@ -1,0 +1,132 @@
+{
+  "kiotProductId": "65860508",
+  "code": "8938520099148",
+  "barcode": "8938520099148",
+  "name": "Thịt bò khô posi",
+  "fullName": "Thịt bò khô posi (Gói)",
+  "brand": "Posi",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2549220",
+    "name": "Khô bò",
+    "path": "Đồ ăn vặt > Thịt khô và chân gà > Khô bò"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/7ffbd52d0a78bab65eb0dde139ec4b3327071515599b991218b6a7908d4cc606.webp",
+    "description": "Thịt bò khô vị cay (Spicy) của Poso, đóng túi zip, dùng làm món ăn vặt hoặc đồ nhắm.\n\nQuy cách: 40 g · túi\nNhà sản xuất/thương hiệu: Poso",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "ảnh tự chụp (túi nhăn, bóng lóa); không có ảnh hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt; 40 g như ảnh mẫu",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (ảnh tự chụp, chỉ làm mẫu)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; mô tả ngắn từ chữ in mặt trước gói (Poso, Thịt bò khô, Dried Beef, Spicy, 40 g)",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:54:44.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "image CROP, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-15T02:52:49.366Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-15T09:16:17Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "tone.py --vivid: white balance/levels + brand-like colour (owner request)"
+    },
+    {
+      "at": "2026-10-15T09:18:44.866Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-16T01:38:49.852Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-17T14:23:04Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T14:23:40.122Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T14:23:40.122Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T16:50:06.969Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T16:50:06.969Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/7ffbd52d0a78bab65eb0dde139ec4b3327071515599b991218b6a7908d4cc606.webp"
+        ],
+        "from": [
+          "https://img.tram8.vn/products/91bbfcb986cb3e270989fabfde58d29e2ed7691220ee51b2ff98015721ccc065.webp"
+        ]
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

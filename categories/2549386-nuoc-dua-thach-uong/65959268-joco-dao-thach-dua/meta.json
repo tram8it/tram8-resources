@@ -1,0 +1,123 @@
+{
+  "kiotProductId": "65959268",
+  "code": "8936048477301",
+  "barcode": "8936048477301",
+  "name": "Joco đào Thạch Dừa",
+  "fullName": "Joco đào Thạch Dừa (Chai)",
+  "brand": "Joco",
+  "unit": "Chai",
+  "category": {
+    "kiotCategoryId": "2549386",
+    "name": "Nước dừa / thạch uống",
+    "path": "Đồ uống đóng chai > Nước dừa / thạch uống"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/78ba62341587822b75b636b7a2fa30e1c6912aa21043d92bf0fa05d718743bf8.webp",
+    "description": "Nước trái cây JOCO đào thạch dừa của Uniben, kết hợp nước đào với thạch dừa dai giòn. Ngon hơn khi uống lạnh.\n\nQuy cách: 450 ml · chai\nNhà sản xuất/thương hiệu: Uniben · JOCO",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I3/I4/I5: ảnh KiotViet là thùng carton → ảnh chai từ trang hãng Uniben unibenfoods.com (JOCO Peach Nata de coco), tách nền xám nhạt bằng cutout.py",
+    "source": {
+      "url": "https://unibenfoods.com/files/products/joco/joco-daothachdua-800-x800px.jpg",
+      "fetchedAt": "2026-10-18T18:32:33Z"
+    },
+    "rubricVersion": "v23"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: theo trang hãng Uniben (nước đào kết hợp thạch dừa) và chữ trên chai (Natural Premium Drink, 450 ml)",
+    "source": {
+      "url": "https://unibenfoods.com/en/products/joco/joco-grape-nata-de-coco-juice",
+      "fetchedAt": "2026-10-18T18:32:33Z"
+    },
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-14T00:28:47.224Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "batch f3: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T08:31:37Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "carton photo only, no bottle reference; still needs staff photo"
+    },
+    {
+      "at": "2026-10-18T18:32:33Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "np18 re-research: brand image found, normalised with make_image.py"
+    },
+    {
+      "at": "2026-10-18T18:32:33Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "np18 re-research: description rewritten from pack/official facts"
+    },
+    {
+      "at": "2026-10-18T18:32:33.463Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T02:05:27.524Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T03:19:05.400Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-18T18:32:33.463Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T01:50:17.286Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T01:50:17.286Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/78ba62341587822b75b636b7a2fa30e1c6912aa21043d92bf0fa05d718743bf8.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/05/24/tram8/7ff4833cb6004cbc8a8df5abaaf40fee.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Nước trái cây JOCO đào thạch dừa của Uniben, kết hợp nước đào với thạch dừa dai giòn. Ngon hơn khi uống lạnh.\n\nQuy cách: 450 ml · chai\nNhà sản xuất/thương hiệu: Uniben · JOCO",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

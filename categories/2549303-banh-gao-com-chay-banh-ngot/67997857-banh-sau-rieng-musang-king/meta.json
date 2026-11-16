@@ -1,0 +1,131 @@
+{
+  "kiotProductId": "67997857",
+  "code": "SP878161",
+  "barcode": "6975553830050",
+  "name": "Bánh Sầu Riêng Musang King",
+  "fullName": "Bánh Sầu Riêng Musang King (Gói)",
+  "brand": "Hàng nội địa Trung",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2549303",
+    "name": "Bánh gạo / cơm cháy / bánh ngọt",
+    "path": "Đồ ăn vặt > Đồ nội địa Trung > Bánh gạo / cơm cháy / bánh ngọt"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/03bfd4d5c1259a6821ae011e8042d2cd5b196cec4dadd671297e6527647199a2.webp",
+    "description": "Bánh pie ngọt nhân đậu – sầu riêng (榴莲饼), vỏ bánh mềm, nhân sầu riêng.\n\nQuy cách: 300 g · gói\nXuất xứ: Trung Quốc",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "v13–v15 (chủ 19/10): ảnh nhân viên chụp đã tách nền vẫn kém ảnh các SP cùng dòng đã duyệt (nhăn/loá/nghiêng) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: túi vẽ phẳng; chữ nhỏ không đọc được",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-19",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh nhân viên chụp 18/10 (chỉ làm mẫu) + ảnh đã duyệt 68470139 (same shop category, chỉ làm mẫu phong cách)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "REWRITE",
+    "reason": "sửa theo chữ in mặt trước bao bì trong ảnh nhân viên chụp (khối lượng, vị, thương hiệu); không có trang hãng",
+    "source": {
+      "staffPhoto": true,
+      "takenAt": "2026-10-18"
+    },
+    "rubricVersion": "v22"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:21:09.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "image REPLACE → NEEDS_PHOTO, description WRITE_NEW (name only)"
+    },
+    {
+      "at": "2026-10-17T08:25:59Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "retried 17/10: no usable reference, stays NEEDS_PHOTO"
+    },
+    {
+      "at": "2026-10-18T17:56:03Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "staff photo 2026-10-18 (Zalo); cutout + tone --vivid"
+    },
+    {
+      "at": "2026-10-18T17:56:51.283Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T02:17:00Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-19T02:18:37.573Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T02:44:56.965Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T03:19:05.400Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-19T02:18:37.573Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T02:30:24.616Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T02:30:24.616Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/03bfd4d5c1259a6821ae011e8042d2cd5b196cec4dadd671297e6527647199a2.webp"
+        ],
+        "from": null
+      },
+      "description": {
+        "to": "Bánh pie ngọt nhân đậu – sầu riêng (榴莲饼), vỏ bánh mềm, nhân sầu riêng.\n\nQuy cách: 300 g · gói\nXuất xứ: Trung Quốc",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "kiotProductId": "65560291",
+  "code": "8938508228669",
+  "barcode": "8938508228669",
+  "name": "Mì Ý Bò bằm Đông Lạnh 4P",
+  "fullName": "Mì Ý Bò bằm Đông Lạnh 4P - Hâm (Hộp)",
+  "brand": "Pizza 4P's",
+  "unit": "Hộp",
+  "category": {
+    "kiotCategoryId": "2547533",
+    "name": "Thực phẩm chế biến sẵn",
+    "path": "Kem & Đồ đông lạnh > Thực phẩm chế biến sẵn"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/fc1f979bd80cb0a3ec6de29f468467ce36b3b6a6e881ece387d0081a3c81bfb1.webp",
+    "description": "Mì spaghetti bò bằm (Spaghetti Bolognese) với phô mai Scamorza hun khói nhà làm, dòng Healthy Snack Pasta của Pizza 4P's, cấp đông nhanh, hâm nóng là dùng.\n\nQuy cách: 365 g · hộp\nThương hiệu: Pizza 4P's\nBảo quản: giữ đông lạnh.",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "Rà ảnh mờ 19/10: ảnh crop phóng to mờ, hộp chụp lệch phối cảnh → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: vẽ thẳng mặt; không thấy khác biệt nội dung",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-19",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh hiện tại (hộp thật)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết ngắn từ chữ in mặt trước hộp (không tìm được trang hãng Pizza 4P's có SP này)",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:27:27.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "b28 review: image CROP, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-15T09:16:17Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "tone.py --vivid: white balance/levels + brand-like colour (owner request)"
+    },
+    {
+      "at": "2026-10-18T17:48:28.507Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T02:05:27.524Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T03:19:05.400Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-19T03:59:35Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references — owner 19/10: replace blurry/upscaled/jagged or wrinkled-photo images with crisp flat renders"
+    },
+    {
+      "at": "2026-10-19T04:00:47.055Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T07:23:08.254Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T17:15:09.663Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-19T04:00:47.055Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T05:18:42.928Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T05:18:42.928Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/fc1f979bd80cb0a3ec6de29f468467ce36b3b6a6e881ece387d0081a3c81bfb1.webp"
+        ],
+        "from": [
+          "https://img.tram8.vn/products/bbf79d5f2a5ecd371a416e5da6ab67d99412ac5cb0a7e849a325e31ca42dd33c.webp"
+        ]
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

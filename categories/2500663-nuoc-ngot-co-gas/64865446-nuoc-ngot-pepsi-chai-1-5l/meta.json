@@ -1,0 +1,177 @@
+{
+  "kiotProductId": "64865446",
+  "code": "8934588013065",
+  "barcode": "8934588013065",
+  "name": "Nước ngọt Pepsi chai 1.5l",
+  "fullName": "Nước ngọt Pepsi chai 1.5l (Chai)",
+  "brand": "Pepsi",
+  "unit": "Chai",
+  "category": {
+    "kiotCategoryId": "2500663",
+    "name": "Nước ngọt có gas",
+    "path": "Đồ uống đóng chai > Nước ngọt có gas"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/081e576f8dc6fbf59b3df46346331d0fcf005f801ec09f9e96dbc06b52ecf9ea.webp",
+    "description": "Nước ngọt có gas Pepsi vị cola của Suntory PepsiCo Việt Nam, chai lớn 1,5 lít phù hợp dùng cho gia đình, bữa tiệc. Ngon hơn khi uống lạnh.<br><br>Quy cách: 1,5 L · chai<br>Nhà sản xuất/thương hiệu: Suntory PepsiCo Việt Nam · Pepsi",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I3/I4/I5: ảnh chụp tay cầm, nền bàn, chai bị cắt; suntorypepsico.vn không có ảnh chai 1,5 L → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: nắp vẽ màu xanh dương (ảnh mẫu Kingfoodmart nắp sáng màu, ảnh cửa hàng không thấy nắp) — chủ kiểm màu nắp; dáng chai hơi thẳng hơn chai thật; nhãn và logo Pepsi khớp",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh Kingfoodmart (chỉ làm mẫu) + ảnh KiotViet",
+      "referenceUrl": "https://storage.googleapis.com/onelife-public/8934588013065.jpg"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết ngắn từ dữ kiện chắc chắn (tên, thương hiệu, dung tích) + giới thiệu trên trang hãng",
+    "source": {
+      "url": "https://www.suntorypepsico.vn/thuong-hieu-cua-chung-toi/pepsi-3",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:41:16.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "b17: image needs photo (no official 1.5L packshot), description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T07:43:10Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T07:43:34.644Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T08:06:02.482Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T07:43:34.644Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T07:47:33.428Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T07:47:33.428Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/081e576f8dc6fbf59b3df46346331d0fcf005f801ec09f9e96dbc06b52ecf9ea.webp"
+        ],
+        "from": [
+          "https://cdn1-retail-images.kiotviet.vn/2026/01/25/tongpenhchtl/bb1f8344532648e9aceca7b4749bffdd.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Nước ngọt có gas Pepsi vị cola của Suntory PepsiCo Việt Nam, chai lớn 1,5 lít phù hợp dùng cho gia đình, bữa tiệc. Ngon hơn khi uống lạnh.\n\nQuy cách: 1,5 L · chai\nNhà sản xuất/thương hiệu: Suntory PepsiCo Việt Nam · Pepsi",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {
+      "price": {
+        "to": 20370.37,
+        "from": 20000
+      },
+      "saleTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 64865446
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 64865446
+        }
+      },
+      "taxRate": {
+        "to": "VAT 8%",
+        "from": "VAT 10%"
+      },
+      "productTaxs": {
+        "to": [
+          {
+            "id": 0,
+            "name": "VAT 8%",
+            "taxId": 3,
+            "value": 8,
+            "productId": 64865446
+          }
+        ],
+        "from": [
+          {
+            "id": 0,
+            "name": "VAT 10%",
+            "taxId": 4,
+            "value": 10,
+            "productId": 64865446
+          }
+        ]
+      },
+      "purchaseTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 64865446
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 64865446
+        }
+      }
+    }
+  }
+}

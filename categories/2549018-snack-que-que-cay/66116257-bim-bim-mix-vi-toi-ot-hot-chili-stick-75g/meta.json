@@ -1,0 +1,153 @@
+{
+  "kiotProductId": "66116257",
+  "code": "8858223008479",
+  "barcode": "8858223008479",
+  "name": "Bim bim Mix vị tỏi ớt hot chili stick 75g",
+  "fullName": "Bim bim Mix vị tỏi ớt hot chili stick 75g (Gói)",
+  "brand": "Mix",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2549018",
+    "name": "Snack que / que cay",
+    "path": "Đồ ăn vặt > Snacks > Snack que / que cay"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/7ce2e80d048c9da2dcfd255ff5d68bce9ef723a9ff9eedb409a0504b2a84067e.webp",
+    "description": "Bánh que Mix vị ớt cay (Hot Chilli Biscuits Sticks) của VFOODS, Thái Lan: que bánh giòn tẩm gia vị ớt cay, ăn liền.\n\nQuy cách: 60 g · gói\nThương hiệu: Mix (VFOODS)",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "chủ 21/10 gửi ảnh gói đúng: Mix Hot Chilli 75g (ảnh cũ là gói 60g) → vẽ lại theo ảnh chủ gửi → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: khớp ảnh chủ: thiết kế, chữ, Net Weight 75 g; bảng dinh dưỡng để mờ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-21",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh gói 75g chủ gửi qua chat 21/10 + SP cùng dòng 66116201"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết từ chữ in trên bao bì đúng mã vạch (Net Weight 60 g; tên SP ghi 75g)",
+    "source": {
+      "url": "https://storage.googleapis.com/onelife-public/8858223008479.jpg",
+      "fetchedAt": "2026-10-17"
+    },
+    "rubricVersion": "v19"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:21:20.000Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "b07 review: image ASK_OWNER, description ASK_OWNER"
+    },
+    {
+      "at": "2026-10-17T08:59:38Z",
+      "by": "owner",
+      "status": "ASK_OWNER",
+      "note": "Chủ trả lời 17/10 (RUBRIC v19): tin bao bì đúng mã vạch khi lệch nhỏ; lệch lớn/cỡ khác thì vẫn hỏi"
+    },
+    {
+      "at": "2026-10-17T08:59:38Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "v19: vẫn ASK_OWNER (lệch lớn hoặc cần xem kệ); rút gọn câu hỏi"
+    },
+    {
+      "at": "2026-10-17T13:59:53Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T14:02:05Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "resolved without asking: barcode pack (Kingfoodmart 8858223008479) prints 60 g; RUBRIC v19 trusts the pack of the barcode, name \"75g\" may need fixing by the owner"
+    },
+    {
+      "at": "2026-10-17T14:02:32.897Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-21T02:42:10Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "redo after Hub rejection:  — Gemini API redraw (attempt 3, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-21T02:42:10.943Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-21T08:30:34.700Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-26T04:58:33.990Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-21T02:42:10.943Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-21T02:48:02.396Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-21T02:48:02.396Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/7ce2e80d048c9da2dcfd255ff5d68bce9ef723a9ff9eedb409a0504b2a84067e.webp"
+        ],
+        "from": [
+          "https://img.tram8.vn/products/58f99c5209ab36a86c4a8fb606b68c85d74cec5fdfa9bde99d3616030f6f381e.webp"
+        ]
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

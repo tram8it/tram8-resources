@@ -1,0 +1,112 @@
+{
+  "kiotProductId": "67815351",
+  "code": "6927514395504",
+  "barcode": "6927514395504",
+  "name": "Măng Giòn Vị Ớt Xanh 30g",
+  "fullName": "Măng Giòn Vị Ớt Xanh 30g (Gói)",
+  "brand": "Hàng nội địa Trung",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2549296",
+    "name": "Măng & rau ngâm cay",
+    "path": "Đồ ăn vặt > Đồ nội địa Trung > Măng & rau ngâm cay"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/f321b2c4c8c543880f29cffb52e0a6faaf1d6b7c7185e1fcaa0ac7b7f147c99f.webp",
+    "description": "Măng giòn vị ớt xanh (山椒脆笋), măng giòn ngâm ớt xanh chua cay, gói nhỏ ăn liền.\n\nQuy cách: 30 g · gói",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I3/I4: ảnh tay cầm gói trong cửa hàng; không có ảnh hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ phiên âm rất nhỏ dưới logo ghi 'Qian Da Niang' (thật: Qiao Da Niang); dòng hàm lượng cái (固形物含量) và chữ nhỏ trong ô trong suốt vẽ mờ; bỏ tay cầm",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (tay cầm gói trong cửa hàng)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; mô tả ngắn chỉ từ tên hàng và chữ in mặt trước bao bì (không có trang hãng) ('山椒脆笋')",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:30:00.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "b20 review: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T07:45:53Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 3, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T07:45:53.919Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T08:06:02.482Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T07:45:53.919Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T07:49:11.314Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T07:49:11.314Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/f321b2c4c8c543880f29cffb52e0a6faaf1d6b7c7185e1fcaa0ac7b7f147c99f.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/08/25/tram8/bae19c0d970142e5bb4e858f42621e11.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Măng giòn vị ớt xanh (山椒脆笋), măng giòn ngâm ớt xanh chua cay, gói nhỏ ăn liền.\n\nQuy cách: 30 g · gói",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

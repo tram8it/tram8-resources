@@ -1,0 +1,156 @@
+{
+  "kiotProductId": "64865622",
+  "code": "8938564591004",
+  "barcode": "8938564591004",
+  "name": "Chân gà có xương bà tuyết",
+  "fullName": "Chân gà có xương bà tuyết (Cái)",
+  "brand": "Ăn Cùng Bà Tuyết",
+  "unit": "Cái",
+  "category": {
+    "kiotCategoryId": "2549225",
+    "name": "Chân gà",
+    "path": "Đồ ăn vặt > Thịt khô và chân gà > Chân gà"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/3b714797873e9a25099efc889bdd2d626664863209199aff57db2466195e5cc1.webp",
+    "description": "Chân gà có xương Bà Tuyết, chân gà tẩm vị cay đóng gói riêng từng chiếc, món ăn vặt ăn liền.\n\nQuy cách: cái\nNhà sản xuất/thương hiệu: Ăn Cùng Bà Tuyết",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "Đồng bộ dãy 20/10: ảnh cũ gói bóng, nhăn, thiếu logo tròn so với SP cùng gói 67031611/67523426 (render phẳng) → Gemini vẽ lại theo phong cách SP 67031611, chỉ 1 gói không kèm sốt → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: logo tròn 'Ăn cùng Bà Tuyết' vẽ theo SP 67031611 (gói thật logo nhỏ hơn); không in khối lượng như gói thật",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-19",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh hiện tại của SP (nội dung) + ảnh đã duyệt SP cùng dãy 67031611 (phong cách, cùng gói)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; mô tả ngắn chỉ từ tên hàng và chữ in mặt trước bao bì (không có trang hãng) ('Chân gà Bà Tuyết có xương')",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:30:00.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "b20 review: image CROP, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-15T02:53:07.960Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-15T09:16:17Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "tone.py --vivid: white balance/levels + brand-like colour (owner request)"
+    },
+    {
+      "at": "2026-10-15T09:21:50.812Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-15T18:09:39Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "owner flagged pending image; Gemini front-on redraw from perspective-corrected photo"
+    },
+    {
+      "at": "2026-10-15T18:09:52.089Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-16T01:38:49.852Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-19T18:26:44Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-19T18:26:52Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "line consistency 20/10: Gemini redraw, flat render like sibling 67031611 (was glossy pack without round logo)"
+    },
+    {
+      "at": "2026-10-19T18:27:06.196Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-20T03:28:53.537Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-26T04:58:33.990Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-19T18:27:06.196Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T18:40:37.079Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T18:40:37.079Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/3b714797873e9a25099efc889bdd2d626664863209199aff57db2466195e5cc1.webp"
+        ],
+        "from": [
+          "https://img.tram8.vn/products/92438b8a74952aab74c9dd549e042084c9842637e7a0b53e6cf4b307ddd579f3.webp"
+        ]
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

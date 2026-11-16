@@ -1,0 +1,113 @@
+{
+  "kiotProductId": "67767218",
+  "code": "8857107232016",
+  "barcode": "8857107232016",
+  "name": "Rong Biển TKN BIG SHEET Vị Truyền Thống 3.2g",
+  "fullName": "Rong Biển TKN BIG SHEET Vị Truyền Thống 3.2g (Gói)",
+  "brand": "Tao Kae Noi",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2549017",
+    "name": "Snack rong biển",
+    "path": "Đồ ăn vặt > Snacks > Snack rong biển"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/19540e7ef897828856f32aaf5040935f0a661b845bd2993142d040dcc5a49536.webp",
+    "description": "Rong biển tấm Big Sheet Tao Kae Noi vị truyền thống, món ăn vặt rong biển giòn ăn liền của thương hiệu Thái Lan.\n\nQuy cách: gói\nXuất xứ: Thái Lan · Thương hiệu: Tao Kae Noi",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I4, I5: nền không trắng, gói bị cắt; trang hãng taokaenoi.co.th lỗi TLS → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: khối lượng 'Net Wt. 0.11 oz (3.2 g) / 淨重 3.2 克' theo hộp hãng + OFF (ảnh KiotViet cũ in 4g); dòng chữ nhỏ vàng góc trái lấy theo ảnh KiotViet bản cũ, có thể khác chút với bao bì mới",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh trang hãng Taokaenoi USA (taokaenoiusa.com, hộp 12 gói, mặt hộp = mẫu in gói) + ảnh Open Food Facts (gói lẻ, chỉ làm mẫu) + ảnh KiotViet",
+      "referenceUrl": "https://www.taokaenoiusa.com/product-page/big-sheet-original"
+    },
+    "rubricVersion": "v17"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; mô tả ngắn chỉ từ tên SP + chữ in mặt trước gói (trang hãng taokaenoi.co.th lỗi chứng chỉ, không dùng được); bỏ khối lượng vì tên ghi 3,2 g nhưng gói trong ảnh ghi 4 g",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:51:33.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "b17: needs photo (official site unusable), description from name/front of pack"
+    },
+    {
+      "at": "2026-10-17T05:26:08Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T05:26:56.794Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T08:06:02.482Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T05:26:56.794Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T07:06:34.588Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T07:06:34.588Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/19540e7ef897828856f32aaf5040935f0a661b845bd2993142d040dcc5a49536.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/08/22/tram8/6711f7cbad114695ad436d4012d99bce.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Rong biển tấm Big Sheet Tao Kae Noi vị truyền thống, món ăn vặt rong biển giòn ăn liền của thương hiệu Thái Lan.\n\nQuy cách: gói\nXuất xứ: Thái Lan · Thương hiệu: Tao Kae Noi",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

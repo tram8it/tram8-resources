@@ -1,0 +1,122 @@
+{
+  "kiotProductId": "65141750",
+  "code": "7622210410474",
+  "barcode": "7622210410474",
+  "name": "Chocolate Cadbury Dairy Milk",
+  "fullName": "Chocolate Cadbury Dairy Milk (Thanh)",
+  "brand": "Cadbury",
+  "unit": "Thanh",
+  "category": {
+    "kiotCategoryId": "2549263",
+    "name": "Socola thanh",
+    "path": "Đồ ăn vặt > Chocolate > Socola thanh"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/77b73daf2c8ea09e0205a3d45e4029cf68923f8b7c5cc54c05a703aa968aaaa2.webp",
+    "description": "Sô-cô-la sữa Cadbury Dairy Milk vị truyền thống, thanh sô-cô-la sữa béo mịn.\n\nQuy cách: 160 g · thanh\nNhà sản xuất/thương hiệu: Cadbury (Mondelēz) · Dairy Milk",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I2/v19: ảnh KiotViet là thanh 165 g đời cũ, dùng chung với SP 64865660; mã 7622210410474 (Kingfoodmart, Open Food Facts) là Dairy Milk vị truyền thống 160 g bao bì mới → vẽ lại theo bao bì mới; không có trang hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ dinh dưỡng nhỏ và mã dưới logo halal để mờ (không bịa số); còn lại như mẫu",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh Kingfoodmart theo mã 7622210410474 + ảnh Open Food Facts cùng mã (chỉ làm mẫu)",
+      "referenceUrl": "https://storage.googleapis.com/onelife-public/7622210410474.jpg"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết ngắn từ chữ in mặt trước bao bì mới (ảnh Kingfoodmart/Open Food Facts theo mã 7622210410474)",
+    "source": {
+      "url": "https://world.openfoodfacts.org/product/7622210410474",
+      "fetchedAt": "2026-10-17"
+    },
+    "rubricVersion": "v20"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:14:49.000Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "duplicate image across two barcodes, asked owner"
+    },
+    {
+      "at": "2026-10-17T14:03:49Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T14:04:21.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "resolved without asking: mã 7622210410474 = Dairy Milk vị truyền thống 160 g (Kingfoodmart + Open Food Facts); khác mã …511 (Fruit & Nut) → hai SP khác nhau; 165→160 g theo bao bì mới (v19)"
+    },
+    {
+      "at": "2026-10-17T14:05:40.749Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T14:05:40.749Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T14:26:25.330Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T14:26:25.330Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/77b73daf2c8ea09e0205a3d45e4029cf68923f8b7c5cc54c05a703aa968aaaa2.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/04/23/tram8/a553fa4072b94aa6a71af49918f9ac79.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Sô-cô-la sữa Cadbury Dairy Milk vị truyền thống, thanh sô-cô-la sữa béo mịn.\n\nQuy cách: 160 g · thanh\nNhà sản xuất/thương hiệu: Cadbury (Mondelēz) · Dairy Milk",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "kiotProductId": "65181134",
+  "code": "8935311100458",
+  "barcode": "8935311100458",
+  "name": "Mỳ lẩu thái tôm cốc 60g",
+  "fullName": "Mỳ lẩu thái tôm cốc 60g (Ly)",
+  "brand": "Vifon",
+  "unit": "Ly",
+  "category": {
+    "kiotCategoryId": "2500670",
+    "name": "Mì ly / tô / cốc",
+    "path": "Đồ khô - Mì Gói > Mì ly / tô / cốc"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/41f00e994f2baf98b9f723bdd0c33b6ef23efc6b8f7dd64468701fd3bd6ca756.webp",
+    "description": "Mì ly Vifon Lẩu Thái Tôm, mì ăn liền vị tôm chua cay kiểu Thái, dạng cốc tiện mang theo.\n\nQuy cách: 60 g · cốc\nXuất xứ: Việt Nam · Nhà sản xuất/thương hiệu: Vifon",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "ảnh tự chụp (màng co bóng lóa, mềm); không có ảnh hãng dùng được → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt (bỏ màng co)",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet hiện có (ảnh tự chụp)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; vifon.com.vn không có SP này → mô tả ngắn chỉ từ tên hàng và chữ in mặt trước ly",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:21:20.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "b07 review: image CROP, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-14T02:46:24.248Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-14T09:24:31.419Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-17T14:14:30Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T14:15:54.226Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T14:15:54.226Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T16:34:41.473Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T16:34:41.473Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/41f00e994f2baf98b9f723bdd0c33b6ef23efc6b8f7dd64468701fd3bd6ca756.webp"
+        ],
+        "from": [
+          "https://img.tram8.vn/products/04a1ecafb25bef626cc90e69fbfcead187a0dabe2d9ca1fb4137ed2e0f343b59.webp"
+        ]
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

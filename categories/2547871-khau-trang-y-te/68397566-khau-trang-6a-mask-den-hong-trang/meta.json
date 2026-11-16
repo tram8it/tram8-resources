@@ -1,0 +1,115 @@
+{
+  "kiotProductId": "68397566",
+  "code": "8938545682967",
+  "barcode": "8938545682967",
+  "name": "Khẩu Trang 6A Mask Đen, Hồng, Trắng",
+  "fullName": "Khẩu Trang 6A Mask Đen, Hồng, Trắng (Gói)",
+  "brand": "Gumi",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2547871",
+    "name": "Khẩu trang y tế",
+    "path": "Chăm sóc sức khoẻ > Khẩu trang y tế"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/67a6f5bf4ce848072e98bd67b1923e4b5516020fc607285825f777d3fc70a192.webp",
+    "description": "Khẩu trang chống nắng Gumi 6A Face Mask, 4 lớp, dây đeo tai, bao bì in \"UV Protection\". Có các màu đen, hồng, trắng.\n\nQuy cách: gói 10 cái · 4 lớp\nNhà sản xuất/thương hiệu: Gumi (Công ty Cổ phần Sản xuất và Phân phối Gumi)",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I3/I4: ảnh chụp điện thoại cầm tay, nền bàn làm việc; gumi.vn chỉ có banner nền hồng có chữ → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ khớp ảnh mẫu; ảnh là túi khẩu trang màu trắng (tên SP có 3 màu Đen, Hồng, Trắng)",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (chụp tay cầm túi đang bán)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết ngắn từ chữ in trên gói (6A Face Mask, 10 PCS, 4 plies, UV protection) và trang hãng, không ghi công dụng lọc/kháng khuẩn",
+    "source": {
+      "url": "https://gumi.vn/product/khau-trang-chong-nang-6a-mask-gumi-4-lop/",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:25:38.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "phone photo; official images are banners; description from pack + gumi.vn"
+    },
+    {
+      "at": "2026-10-17T08:32:24Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T08:32:24.372Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T08:32:24.372Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T08:42:19.896Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T08:42:19.896Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/67a6f5bf4ce848072e98bd67b1923e4b5516020fc607285825f777d3fc70a192.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/10/07/tram8/5a042b5e55604ba8b8f11078ec2fe18f.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Khẩu trang chống nắng Gumi 6A Face Mask, 4 lớp, dây đeo tai, bao bì in \"UV Protection\". Có các màu đen, hồng, trắng.\n\nQuy cách: gói 10 cái · 4 lớp\nNhà sản xuất/thương hiệu: Gumi (Công ty Cổ phần Sản xuất và Phân phối Gumi)",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

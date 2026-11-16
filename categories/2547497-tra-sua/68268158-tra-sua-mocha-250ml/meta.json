@@ -1,0 +1,173 @@
+{
+  "kiotProductId": "68268158",
+  "code": "8936186851254",
+  "barcode": "8936186851254",
+  "name": "Trà Sữa MoCha 250ml",
+  "fullName": "Trà Sữa MoCha 250ml (Chai)",
+  "brand": null,
+  "unit": "Chai",
+  "category": {
+    "kiotCategoryId": "2547497",
+    "name": "Trà sữa",
+    "path": "Món ngon Trạm 8 > Đồ uống pha chế > Trà sữa"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/d4af99bfa8b81716861b3e9e474ef0f84edd427ddf1328b59d0890e2a4794401.webp",
+    "description": "Trà sữa Mocha, đồ uống pha sẵn đóng chai.\n\nQuy cách: 250 ml · chai",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "chủ 19/10: trà sữa Lạc Lạc vẽ bằng Gemini theo các vị cùng dòng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: ảnh minh hoạ: chưa có ảnh nhãn thật của vị này — tranh trên nhãn và màu nước là vẽ theo tên vị",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-19",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh 2 vị Lạc Lạc cùng dòng (mẫu phong cách)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; không có nguồn → viết ngắn chỉ từ tên SP (vị, dung tích)",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:17:04.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "image REPLACE → NEEDS_PHOTO, description WRITE_NEW (name only)"
+    },
+    {
+      "at": "2026-10-19T02:39:46Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "redo after Hub rejection:  — Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-19T02:39:46.489Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T02:44:56.965Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T03:19:05.400Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-19T02:39:46.489Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T02:42:51.272Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T02:42:51.272Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/d4af99bfa8b81716861b3e9e474ef0f84edd427ddf1328b59d0890e2a4794401.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/10/19/tram8/d7c671dd7715489cbc3f4b094dc4a9c1.png"
+        ]
+      },
+      "description": {
+        "to": "Trà sữa Mocha, đồ uống pha sẵn đóng chai.\n\nQuy cách: 250 ml · chai",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {
+      "price": {
+        "to": 25462.96,
+        "from": 25000
+      },
+      "saleTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 68268158
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 68268158
+        }
+      },
+      "taxRate": {
+        "to": "VAT 8%",
+        "from": "VAT 10%"
+      },
+      "productTaxs": {
+        "to": [
+          {
+            "id": 0,
+            "name": "VAT 8%",
+            "taxId": 3,
+            "value": 8,
+            "productId": 68268158
+          }
+        ],
+        "from": [
+          {
+            "id": 0,
+            "name": "VAT 10%",
+            "taxId": 4,
+            "value": 10,
+            "productId": 68268158
+          }
+        ]
+      },
+      "purchaseTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 68268158
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 68268158
+        }
+      }
+    }
+  }
+}

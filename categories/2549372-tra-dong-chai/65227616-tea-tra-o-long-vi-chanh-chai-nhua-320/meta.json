@@ -1,0 +1,119 @@
+{
+  "kiotProductId": "65227616",
+  "code": "8934588763113",
+  "barcode": "8934588763113",
+  "name": "Tea+ Trà Ô Long Vị Chanh Chai nhựa 320",
+  "fullName": "Tea+ Trà Ô Long Vị Chanh Chai nhựa 320 (Chai)",
+  "brand": "Tea+",
+  "unit": "Chai",
+  "category": {
+    "kiotCategoryId": "2549372",
+    "name": "Trà đóng chai",
+    "path": "Đồ uống đóng chai > Trà đóng chai"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/605a6b9475783dabb76c19fb555ebb29288841fffa8161b97284b1cf06969dc4.webp",
+    "description": "Trà ô long xanh Tea+ Plus hương vị chanh, đóng chai nhựa.\n\nQuy cách: 320 ml · chai\nNhà sản xuất/thương hiệu: Suntory Pepsico · Tea+ Plus",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I3/I4: ảnh chụp chai trên bàn, nền tường; mã vạch 8934588763113 khác mã chai Tea+ vị chanh nhãn vàng (64865445) và ảnh nhân viên là Ô Long XANH hương vị chanh → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: có thêm chữ SUNTORY nhỏ dưới PLUS như gói thật (mờ trên ảnh gốc)",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet do nhân viên chụp (có tem mã vạch cửa hàng)",
+      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/04/27/tram8/4c4b86650ffa4d2d99d5653885c70dfa.jpeg"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "source": null,
+    "rubricVersion": "v20",
+    "decision": "WRITE_NEW",
+    "reason": "ảnh nhân viên + mã vạch riêng 8934588763113 = Tea+ Ô Long Xanh hương vị chanh 320 ml"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:31:48.000Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "image ASK_OWNER, description ASK_OWNER"
+    },
+    {
+      "at": "2026-10-17T14:07:37Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T14:08:43Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "resolved without asking: barcode/evidence decides (ảnh nhân viên + mã vạch riêng 8934588763113 = Tea+ Ô Long Xanh hương vị chanh 320 ml)"
+    },
+    {
+      "at": "2026-10-17T14:09:59.636Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T14:09:59.636Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T15:38:34.412Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T15:38:34.412Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/605a6b9475783dabb76c19fb555ebb29288841fffa8161b97284b1cf06969dc4.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/04/27/tram8/4c4b86650ffa4d2d99d5653885c70dfa.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Trà ô long xanh Tea+ Plus hương vị chanh, đóng chai nhựa.\n\nQuy cách: 320 ml · chai\nNhà sản xuất/thương hiệu: Suntory Pepsico · Tea+ Plus",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

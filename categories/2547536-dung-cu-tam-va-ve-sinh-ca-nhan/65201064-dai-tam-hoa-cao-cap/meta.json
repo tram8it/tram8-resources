@@ -1,0 +1,154 @@
+{
+  "kiotProductId": "65201064",
+  "code": "8936170880222",
+  "barcode": "8936170880222",
+  "name": "Dải tắm hoa cao cấp",
+  "fullName": "Dải tắm hoa cao cấp (Gói)",
+  "brand": "Vietsun",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2547536",
+    "name": "Dụng cụ tắm và vệ sinh cá nhân",
+    "path": "Chăm sóc cá nhân > Chăm sóc cơ thể > Dụng cụ tắm và vệ sinh cá nhân"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/92a62640e88993ed2324dec3fdb33b472ef3630eb799d91794f3eff494d8ef7e.webp",
+    "description": "Dải tắm hoa cao cấp Vietsun (dòng Sunsilk), dạng dải lưới mềm dùng để tạo bọt với sữa tắm và kỳ cọ lưng, toàn thân khi tắm. Theo bao bì: an toàn, siêu mềm, thoải mái khi massage.\n\nQuy cách: 1 dải · túi\nNhà sản xuất/thương hiệu: Vietsun",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I3: ảnh cũ là 6 dải tắm không bao bì; chủ gửi ảnh túi đang bán (Vietsun 'Dải Tắm Hoa Cao Cấp') → Gemini vẽ lại phẳng từ ảnh đó → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Lỗ treo vẽ dạng khe; chữ rất nhỏ dưới số 24 (HOURS) không đọc được",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh chủ chụp túi hàng trên kệ 17/10"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "REWRITE",
+    "reason": "Theo túi chủ gửi 17/10: Vietsun, 1 dải trong túi",
+    "source": null,
+    "rubricVersion": "v20"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:19:32.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "needs staff photo; description WRITE_NEW from name/pack"
+    },
+    {
+      "at": "2026-10-17T08:31:35Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "Dải tắm hoa cao cấp (mã vạch 8936170880222): ảnh hiện có là 6 dải tắm nhiều màu, không bao bì. Cửa hàng bán 1 dải màu ngẫu nhiên hay có bao bì riêng? Nếu có túi/nhãn, anh gửi 1 ảnh chụp 1 cái để em vẽ lại; nếu bán dải trần, anh chọn 1 màu để em vẽ 1 dải."
+    },
+    {
+      "at": "2026-10-17T09:12:35+00:00",
+      "by": "owner",
+      "status": "ASK_OWNER",
+      "note": "owner 17/10 (RUBRIC v19): one unit per KiotViet unit"
+    },
+    {
+      "at": "2026-10-17T09:12:35+00:00",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "unit empty; packaging/colour needs a shelf check → question shortened"
+    },
+    {
+      "at": "2026-10-17T14:07:18Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T14:08:32Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "resolved without asking: SP bán 1 cái → Gemini vẽ 1 dải từ ảnh 6 dải (ảnh minh hoạ, màu theo hàng có sẵn)"
+    },
+    {
+      "at": "2026-10-17T14:09:15.501Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T15:21:46Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T15:21:46+00:00",
+      "by": "owner",
+      "status": "READY",
+      "note": "Chủ gửi ảnh túi Dải Tắm Hoa Cao Cấp Vietsun đang bán"
+    },
+    {
+      "at": "2026-10-17T15:21:46.696Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T15:21:46.696Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T17:10:13.016Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T17:10:13.016Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/92a62640e88993ed2324dec3fdb33b472ef3630eb799d91794f3eff494d8ef7e.webp"
+        ],
+        "from": [
+          "https://cdn1-retail-images.kiotviet.vn/2026/10/17/tram8/a489694a411e41acb89b386111d45216.png"
+        ]
+      },
+      "description": {
+        "to": "Dải tắm hoa cao cấp Vietsun (dòng Sunsilk), dạng dải lưới mềm dùng để tạo bọt với sữa tắm và kỳ cọ lưng, toàn thân khi tắm. Theo bao bì: an toàn, siêu mềm, thoải mái khi massage.\n\nQuy cách: 1 dải · túi\nNhà sản xuất/thương hiệu: Vietsun",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "kiotProductId": "67767834",
+  "code": "8936183002833",
+  "barcode": "8936183002833",
+  "name": "Snack Bánh Tráng Nướng SHACHI Phủ Phô Mai 45g",
+  "fullName": "Snack Bánh Tráng Nướng SHACHI Phủ Phô Mai 45g (Gói)",
+  "brand": "Sachi",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2546102",
+    "name": "Bánh tráng trộn",
+    "path": "Đồ ăn vặt > Bánh tráng trộn"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/69fca5621ba71b4a64e6d7105d1cc271adff31cf21a45de0c93d31caa19923c1.webp",
+    "description": "Snack bánh tráng nướng phủ phô mai thương hiệu Sachi, làm từ bánh tráng truyền thống, giòn rụm, ăn liền.\n\nQuy cách: 45 g · gói\nThương hiệu: Sachi",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I1: chưa có ảnh; trang hãng Sachi không dùng được (HTTPS hết hạn) → Gemini vẽ lại → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: thiết kế vàng (bản đúng mã vạch trên Kingfoodmart), khác kiểu 'Ngon mê ly' của các vị cùng dòng vì chưa tìm thấy bản mới cho vị phô mai; khối lượng 45 g đúng như gói",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh Kingfoodmart đúng mã vạch 8936183002833 (chỉ làm mẫu)",
+      "referenceUrl": "https://storage.googleapis.com/onelife-public/8936183002833.jpg"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết ngắn chỉ từ dữ kiện chắc chắn (tên SP, chữ in mặt trước bao bì), không có trang hãng/nhãn sau; 45 g theo tên SP",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:32:10.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "batch b09 review: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T05:15:16Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "Không có ảnh mặt trước gói 'Ngon mê ly' vị phô mai; chỉ có bản xuất khẩu khác thiết kế → hỏi chủ"
+    },
+    {
+      "at": "2026-10-17T09:15:20Z",
+      "by": "owner",
+      "status": "ASK_OWNER",
+      "note": "17/10/2026 (RUBRIC v19): dùng bao bì mới nhất của hãng nếu tìm được; tin bao bì/đơn vị KiotViet"
+    },
+    {
+      "at": "2026-10-17T09:15:20Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "still ASK_OWNER: Kingfoodmart shows only the older yellow design; newest 'Ngon mê ly' front not found — needs a shelf photo"
+    },
+    {
+      "at": "2026-10-17T13:55:01Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T13:55:01Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "resolved without asking: Kingfoodmart photo of this exact barcode shows the yellow 45 g pack; newest 'Ngon mê ly' design not found anywhere → use the barcode-matched pack (v19)"
+    },
+    {
+      "at": "2026-10-17T13:55:01.299Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T13:55:01.299Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T13:56:40.744Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T13:56:40.744Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/69fca5621ba71b4a64e6d7105d1cc271adff31cf21a45de0c93d31caa19923c1.webp"
+        ],
+        "from": null
+      },
+      "description": {
+        "to": "Snack bánh tráng nướng phủ phô mai thương hiệu Sachi, làm từ bánh tráng truyền thống, giòn rụm, ăn liền.\n\nQuy cách: 45 g · gói\nThương hiệu: Sachi",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

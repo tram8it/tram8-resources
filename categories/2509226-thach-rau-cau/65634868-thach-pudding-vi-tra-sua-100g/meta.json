@@ -1,0 +1,112 @@
+{
+  "kiotProductId": "65634868",
+  "code": "6948839512506",
+  "barcode": "6948839512506",
+  "name": "Thạch pudding vị trà sữa 100g",
+  "fullName": "Thạch pudding vị trà sữa 100g (Ly)",
+  "brand": "Clever Mama",
+  "unit": "Ly",
+  "category": {
+    "kiotCategoryId": "2509226",
+    "name": "Thạch – Rau câu",
+    "path": "Đồ ăn vặt > Thạch – Rau câu"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/b01e2933882087a26a198ef96a8da17e85d068c2f58e18823f93303c74e9b3fb.webp",
+    "description": "Thạch pudding Clever Mama vị trà sữa (Milk Tea Flavor Pudding), cốc ăn liền.\n\nQuy cách: 100 g · cốc\nNhà sản xuất/thương hiệu: Clever Mama",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I3/I4: ảnh chụp điện thoại, nền xám/không trắng; không có ảnh hãng (Clever Mama) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: bỏ dòng in ngày sản xuất/hạn dùng; mặt trước không in khối lượng (ảnh mẫu cũng không thấy) nên ảnh không có số 100g",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (ảnh chụp tại cửa hàng)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết ngắn chỉ từ chữ in mặt trước cốc và tên hàng (không có nguồn hãng)",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:54:06.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "b19: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T07:41:16Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T07:41:28.540Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T08:06:02.482Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T07:41:28.540Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T07:45:16.280Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T07:45:16.280Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/b01e2933882087a26a198ef96a8da17e85d068c2f58e18823f93303c74e9b3fb.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/05/11/tram8/b05b5d13fba342769a1c1664a91d5b6e.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Thạch pudding Clever Mama vị trà sữa (Milk Tea Flavor Pudding), cốc ăn liền.\n\nQuy cách: 100 g · cốc\nNhà sản xuất/thương hiệu: Clever Mama",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

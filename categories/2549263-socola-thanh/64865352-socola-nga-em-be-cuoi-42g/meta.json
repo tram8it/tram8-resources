@@ -1,0 +1,113 @@
+{
+  "kiotProductId": "64865352",
+  "code": "4600300081691",
+  "barcode": "4600300081691",
+  "name": "Socola Nga em bé cười 42g",
+  "fullName": "Socola Nga em bé cười 42g (Thanh)",
+  "brand": "Alënka",
+  "unit": "Thanh",
+  "category": {
+    "kiotCategoryId": "2549263",
+    "name": "Socola thanh",
+    "path": "Đồ ăn vặt > Chocolate > Socola thanh"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/35dec2fc9bd3d28705281ffecc10a1306364d6ede0be54455decc9eb1588e03c.webp",
+    "description": "Thanh sô cô la Alёnka của Nga với nhân xốp vị crème brûlée (kem cháy đường), bao bì in hình em bé Alёnka quen thuộc.\n\nQuy cách: 42 g · thanh\nXuất xứ: Nga · Nhà sản xuất/thương hiệu: Krasny Oktyabr · Alёnka",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I4/I7: ảnh chụp trên nền xám, có tem giá dán; trang hãng không có ảnh SP này → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt ở chữ lớn; tem giá đã bỏ, phần hình bé gái hoạt hình và cốc kem phía sau vẽ lại theo ảnh mẫu; chữ nhỏ dưới cùng không đọc được (như gói thật)",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh Open Food Facts (mã vạch 4600300081691, 42 g; chỉ làm mẫu) + ảnh KiotViet",
+      "referenceUrl": "https://world.openfoodfacts.org/product/4600300081691"
+    },
+    "rubricVersion": "v17"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết ngắn từ chữ in trên bao bì (ảnh hiện tại) + tên SP, không có trang hãng",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:14:49.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "image needs photo; description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T04:29:25Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T04:29:42.892Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T05:23:58.238Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T04:29:42.892Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T04:36:15.314Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T04:36:15.314Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/35dec2fc9bd3d28705281ffecc10a1306364d6ede0be54455decc9eb1588e03c.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/03/28/tongpenhchtl/9085f712a36d4b20a737aa5c4e988507.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Thanh sô cô la Alёnka của Nga với nhân xốp vị crème brûlée (kem cháy đường), bao bì in hình em bé Alёnka quen thuộc.\n\nQuy cách: 42 g · thanh\nXuất xứ: Nga · Nhà sản xuất/thương hiệu: Krasny Oktyabr · Alёnka",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

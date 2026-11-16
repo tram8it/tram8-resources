@@ -1,0 +1,167 @@
+{
+  "kiotProductId": "65595916",
+  "code": "SP877361",
+  "barcode": "8938565079075",
+  "name": "Cơm nắm Gà Tomyum",
+  "fullName": "Cơm nắm Gà Tomyum - Hâm (Cái)",
+  "brand": "Onigiri Việt",
+  "unit": "Cái",
+  "category": {
+    "kiotCategoryId": "2547494",
+    "name": "Cơm nắm Onigiri",
+    "path": "Món ngon Trạm 8 > Cơm nắm Onigiri"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/9ba062a48ef446eba8bc2c668a190bdc00338a7d19a25a6bec13856e42df9d55.webp",
+    "description": "Cơm nắm tam giác Onigiri Việt nhân gà Tomyum, bọc rong biển, đóng gói kiểu Nhật với dải xé mở theo thứ tự 1–2–3. Tiện dùng cho bữa sáng hoặc bữa nhẹ.\n\nQuy cách: cái\nNhà sản xuất/thương hiệu: Onigiri Việt",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "chủ 19/10: Teriyaki tối màu, Tomyum nhỏ hơn Heo cao bồi → đồng bộ cả bộ cơm nắm → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: vẽ lại theo khuôn Heo cao bồi; nhãn vị chép từ ảnh cũ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-19",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh nhãn vị hiện có + ảnh Heo cao bồi đã duyệt (khuôn chuẩn)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "KEEP",
+    "reason": "mô tả đang trên web đã đúng (đã áp dụng 17/10)",
+    "source": null,
+    "rubricVersion": "v23"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:44:35.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "image CROP, description WRITE_NEW (front-of-pack facts)"
+    },
+    {
+      "at": "2026-10-15T09:16:17Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "tone.py --vivid: white balance/levels + brand-like colour (owner request)"
+    },
+    {
+      "at": "2026-10-17T14:23:01Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T14:23:02.122Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-17T17:51:23Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T17:51:23Z",
+      "by": "owner",
+      "status": "READY",
+      "note": "chủ 17/10: ảnh món ăn hấp dẫn, đồng bộ"
+    },
+    {
+      "at": "2026-10-17T17:51:43.773Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-18T17:16:08.691Z",
+      "by": "owner",
+      "status": "IN_PROGRESS",
+      "note": "rejected on Hub by AU KHUONG DUY: Xem lại cái bị từ chối khác"
+    },
+    {
+      "at": "2026-10-18T17:18:45.257Z",
+      "by": "owner",
+      "status": "NO_CHANGE",
+      "note": "chủ 18/10: ảnh hiện tại (bao bì Onigiri) đẹp rồi, giữ; các cơm nắm khác theo phong cách này"
+    },
+    {
+      "at": "2026-10-19T02:58:14Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "redo after Hub rejection: Xem lại cái bị từ chối khác — Gemini API redraw (attempt 3, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-19T02:58:14.401Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: image"
+    },
+    {
+      "at": "2026-10-19T03:11:10.027Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T03:19:05.400Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-19T02:58:14.401Z",
+    "fields": [
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T02:59:09.888Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T02:59:09.888Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/9ba062a48ef446eba8bc2c668a190bdc00338a7d19a25a6bec13856e42df9d55.webp"
+        ],
+        "from": [
+          "https://img.tram8.vn/products/d38e974d3358d647078d56410bb34b7dc3bf108344e4abfddcc0d7f503055036.webp"
+        ]
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

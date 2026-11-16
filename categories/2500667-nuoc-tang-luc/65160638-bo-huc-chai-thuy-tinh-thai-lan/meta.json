@@ -1,0 +1,180 @@
+{
+  "kiotProductId": "65160638",
+  "code": "8850228000106",
+  "barcode": "8850228000106",
+  "name": "Bò Húc chai thuỷ tinh Thái Lan",
+  "fullName": "Bò Húc chai thuỷ tinh Thái Lan (Chai)",
+  "brand": "Red Bull",
+  "unit": "Chai",
+  "category": {
+    "kiotCategoryId": "2500667",
+    "name": "Nước tăng lực",
+    "path": "Đồ uống đóng chai > Nước tăng lực"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/f33233b0ea8f93daef400fb34d89e8911017aa1109ca0f527866b6df64930985.webp",
+    "description": "Nước tăng lực Kratingdaeng (Red Bull Thái Lan) loại cổ điển, chai thuỷ tinh, bổ sung taurine, caffeine, vitamin B12 và B6.\n\nQuy cách: 150 ml · chai\nNhà sản xuất/thương hiệu: T.C. Pharmaceutical (Thái Lan) · Kratingdaeng",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I2: ảnh KiotViet là chai Kratingdaeng Extra (SP khác, mã 8850228003022); mã vạch 8850228000106 là Kratingdaeng cổ điển 150 ml (Kingfoodmart, Open Food Facts); trang TCP chỉ có ảnh nhỏ bản nội địa Thái → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt đáng kể với ảnh mẫu; chữ nhỏ trên nắp không đọc được",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh Kingfoodmart + Open Food Facts của mã vạch 8850228000106 (chỉ làm mẫu)",
+      "referenceUrl": "https://storage.googleapis.com/onelife-public/8850228000106.jpg"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; theo bao bì đúng mã vạch (Open Food Facts: Kratingdaeng Thai style 150 ml, thành phần taurine, caffeine, B12, B6)",
+    "source": null,
+    "rubricVersion": "v19"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:31:42.000Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "variant unclear: classic Kratingdaeng vs Extra A+B12+C"
+    },
+    {
+      "at": "2026-10-17T14:07:17Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T14:08:32Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "resolved without asking: mã vạch 8850228000106 = Kratingdaeng cổ điển 150 ml (Kingfoodmart + Open Food Facts); loại Extra A+B12+C đã có SP riêng 65960259 (mã 8850228003022), ảnh KiotViet cũ chụp nhầm loại Extra"
+    },
+    {
+      "at": "2026-10-17T14:09:13.066Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T14:09:13.066Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T15:20:30.261Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T15:20:30.261Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/f33233b0ea8f93daef400fb34d89e8911017aa1109ca0f527866b6df64930985.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/27/tram8/902c28cba44745a3861b4a9b218de214.png"
+        ]
+      },
+      "description": {
+        "to": "Nước tăng lực Kratingdaeng (Red Bull Thái Lan) loại cổ điển, chai thuỷ tinh, bổ sung taurine, caffeine, vitamin B12 và B6.\n\nQuy cách: 150 ml · chai\nNhà sản xuất/thương hiệu: T.C. Pharmaceutical (Thái Lan) · Kratingdaeng",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {
+      "price": {
+        "to": 16666.67,
+        "from": 16363.64
+      },
+      "saleTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 65160638
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 65160638
+        }
+      },
+      "taxRate": {
+        "to": "VAT 8%",
+        "from": "VAT 10%"
+      },
+      "productTaxs": {
+        "to": [
+          {
+            "id": 0,
+            "name": "VAT 8%",
+            "taxId": 3,
+            "value": 8,
+            "productId": 65160638
+          }
+        ],
+        "from": [
+          {
+            "id": 0,
+            "name": "VAT 10%",
+            "taxId": 4,
+            "value": 10,
+            "productId": 65160638
+          }
+        ]
+      },
+      "purchaseTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 65160638
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 65160638
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "kiotProductId": "64865242",
+  "code": "8938556154255",
+  "barcode": "8938556154255",
+  "name": "Thịt Chua Vị Hạt Rừng",
+  "fullName": "Thịt Chua Vị Hạt Rừng (Hộp)",
+  "brand": "Trường Foods",
+  "unit": "Hộp",
+  "category": {
+    "kiotCategoryId": "2549796",
+    "name": "Thịt chua",
+    "path": "Xúc Xích & Thịt Nguội > Thịt chua"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/5414040af24e0eb093492f08c12ac5bc80a2ccdf8614562bca112038e9feb9f0.webp",
+    "description": "Thịt chua Trường Foods vị hạt rừng, đặc sản lên men từ thịt heo của vùng Thanh Sơn, Phú Thọ, đóng hũ.\n\nQuy cách: hộp\nNhà sản xuất/thương hiệu: Công ty CP Lita Foods · Trường Foods\nBảo quản: ngăn mát tủ lạnh.",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "line consistency 20/10: jar shot from a higher camera (lid top visible, jar taller in frame) vs eye-level Trường Foods jars → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt chữ lớn; góc chụp ngang tầm mắt",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-20",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh Gemini cũ (nội dung) + hũ Vị Truyền Thống đã duyệt (kiểu ảnh)"
+    },
+    "rubricVersion": "v23"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết ngắn từ tên SP (trang hãng không có vị này)",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:29:30.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "b28 review: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T08:24:52.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "wave3: no usable reference for a Gemini redraw"
+    },
+    {
+      "at": "2026-10-18T18:24:54Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-18T18:25:26.146Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T02:05:27.524Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T03:19:05.400Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-20T16:39:37Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "line consistency 20/10: jar shot from a higher camera (lid top visible, jar taller in frame) vs eye-level Trường Foods jars -> Gemini redraw (own image for content, approved sibling for style); Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-20T16:41:54.862Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-21T08:30:34.700Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-26T04:58:33.990Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-20T16:41:54.862Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-20T16:45:17.074Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-20T16:45:17.074Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/5414040af24e0eb093492f08c12ac5bc80a2ccdf8614562bca112038e9feb9f0.webp"
+        ],
+        "from": [
+          "https://img.tram8.vn/products/a3a96cf77650afa1597119c00bd2e0ab4b3498d5a6548ff9e918a2996bcda8be.webp"
+        ]
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

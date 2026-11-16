@@ -1,0 +1,113 @@
+{
+  "kiotProductId": "65107093",
+  "code": "8996001350805",
+  "barcode": "8996001350805",
+  "name": "Bánh Go Choco Rollz",
+  "fullName": "Bánh Go Choco Rollz (Gói)",
+  "brand": "Go Choco",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2549073",
+    "name": "Bánh quế / bánh cuộn (wafer roll)",
+    "path": "Bánh quy & bánh đóng gói > Bánh quế / bánh cuộn (wafer roll)"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/776b91e3f28f3b5c44a89abfa586a9fcae4899c7bda260080fec03562984e546.webp",
+    "description": "Bánh quế Go Choco Rollz của Mayora, que quế giòn nhân sô cô la, mỗi gói một que tiện ăn vặt.\n\nQuy cách: 16 g · gói\nNhà sản xuất/thương hiệu: Mayora · Go Choco",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I3, I4, I8: ảnh chụp điện thoại hộp trưng bày 20 gói trên bàn, nền không trắng; đơn vị bán là cái; trang Mayora lỗi chứng chỉ → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Vẽ 1 thanh theo ảnh OFF cùng mã vạch (bản 'Delicious Cashew / Premium Choco'); cửa hàng đang bán hộp bản Thái (3 bát) chưa thấy rõ mặt thanh bên trong — chủ xem có đúng thanh không. Logo GO CHOCO có hình núi vàng phía trên (như logo trên hộp). Chữ nhỏ dưới thanh để mờ; không in khối lượng.",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh Open Food Facts 1 thanh Go Choco Rollz cùng mã vạch 8996001350805 (chỉ làm mẫu) + ảnh KiotViet hộp trưng bày",
+      "referenceUrl": "https://world.openfoodfacts.org/product/8996001350805"
+    },
+    "rubricVersion": "v17"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết ngắn từ chữ in trên hộp (ảnh hiện tại), không có nguồn hãng",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:36:40.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "image NEEDS_PHOTO (official site unusable), description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T05:30:09Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T05:30:42.205Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T08:06:02.482Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T05:30:42.205Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T07:07:53.835Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T07:07:53.835Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/776b91e3f28f3b5c44a89abfa586a9fcae4899c7bda260080fec03562984e546.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/04/22/tram8/f9dd51a909c44aa9b651e65145ecdca5.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Bánh quế Go Choco Rollz của Mayora, que quế giòn nhân sô cô la, mỗi gói một que tiện ăn vặt.\n\nQuy cách: 16 g · gói\nNhà sản xuất/thương hiệu: Mayora · Go Choco",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

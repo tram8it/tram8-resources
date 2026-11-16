@@ -1,0 +1,132 @@
+{
+  "kiotProductId": "65754573",
+  "code": "SP877427",
+  "barcode": "8938564564138",
+  "name": "Bộ trò chơi Buzz Meme 2 (Ver Học Đường) 64 lá",
+  "fullName": "Bộ trò chơi Buzz Meme 2 (Ver Học Đường) 64 lá (Hộp)",
+  "brand": "Toy Galaxy",
+  "unit": "Hộp",
+  "category": {
+    "kiotCategoryId": "2533824",
+    "name": "Board games/ Card games",
+    "path": "Văn phòng phẩm > Board games/ Card games"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/3644c49f1aba3d19b6c168574010a2fc53fdcdaf766606fb943ff6c151950032.webp",
+    "description": "Bộ bài Buzz Meme 2 – phiên bản Học Đường: trò chơi thẻ bài chủ đề ảnh meme về trường lớp, hợp cho nhóm bạn học sinh, sinh viên.\n\nQuy cách: 64 lá · hộp giấy",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "line consistency 20/10: staff photo with shrink-wrap glare among flat Toy Galaxy box renders → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: bỏ màng co bọc ngoài; chữ lớn giữ nguyên",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-20",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh chụp tay hộp Buzz Meme 2 (nội dung) + hộp Không Nói Thì Làm Ver Công Sở đã duyệt (kiểu ảnh)"
+    },
+    "rubricVersion": "v23"
+  },
+  "description": {
+    "decision": "REWRITE",
+    "reason": "D3: mô tả cũ là văn quảng cáo kiểu chatbot (HTML, lời lẽ quá đà); viết lại từ chữ in trên hộp",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:56:37.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "b21: image REPLACE, description REWRITE"
+    },
+    {
+      "at": "2026-10-17T07:52:26.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "cutout.py + tone.py --vivid on current KiotViet photo; same method as the Toy Galaxy siblings (v14)"
+    },
+    {
+      "at": "2026-10-17T07:52:26.583Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T08:06:02.482Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-20T16:39:36Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "line consistency 20/10: staff photo with shrink-wrap glare among flat Toy Galaxy box renders -> Gemini redraw (own image for content, approved sibling for style); Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-20T16:41:43.861Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-21T08:30:34.700Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-26T04:58:33.990Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-20T16:41:43.861Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-20T16:45:00.895Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-20T16:45:00.895Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/3644c49f1aba3d19b6c168574010a2fc53fdcdaf766606fb943ff6c151950032.webp"
+        ],
+        "from": [
+          "https://img.tram8.vn/products/f33a1912aa4bbfa5ea16109b8cabe4ca35be72836a8378ea72f9afbb3104d57b.webp"
+        ]
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

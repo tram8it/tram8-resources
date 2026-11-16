@@ -1,0 +1,119 @@
+{
+  "kiotProductId": "65151021",
+  "code": "8936202660556",
+  "barcode": "8936202660556",
+  "name": "Ngô nếp trắng sấy giòn 360g 3 m.iền",
+  "fullName": "Ngô nếp trắng sấy giòn 360g 3 m.iền (Gói)",
+  "brand": "Phương Huyền",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2549014",
+    "name": "Snack bắp & phồng",
+    "path": "Đồ ăn vặt > Snacks > Snack bắp & phồng"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/b681a9dbb37aa9cc5fabfb440a07fea1f05c1c3ab587c7aee1c2a4cd3f715e4f.webp",
+    "description": "Ngô giòn sốc mắm cay Phương Huyền (Đặc sản ba miền), hạt ngô chiên giòn sốc cùng nước mắm và ớt cay, túi trong dán nhãn.\n\nQuy cách: 360 g · gói\nNhà sản xuất/thương hiệu: Công ty TNHH TM TP Phương Huyền",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I3/I4: ảnh chụp điện thoại túi trong, nền lộn xộn; không có ảnh hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ nhỏ trên nhãn làm mờ, vài chữ nhỏ còn lơ mơ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (túi thật, mã vạch in trên nhãn 8936202660556)",
+      "referenceUrl": "https://icheck.vn/san-pham/8936202660556"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; tên ghi ngô nếp trắng sấy giòn nhưng mã vạch là Ngô giòn sốc mắm cay → viết theo nhãn",
+    "source": null,
+    "rubricVersion": "v19"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:23:35.000Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "asked owner: name vs image flavour"
+    },
+    {
+      "at": "2026-10-17T14:10:34Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T14:11:33Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "resolved without asking: barcode 8936202660556 printed on the photographed label + iCheck = Ngô giòn sốc mắm cay 360g = current photo; name logged"
+    },
+    {
+      "at": "2026-10-17T14:12:18.937Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T14:12:18.937Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T15:41:22.293Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T15:41:22.293Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/b681a9dbb37aa9cc5fabfb440a07fea1f05c1c3ab587c7aee1c2a4cd3f715e4f.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/04/24/tram8/6cd1481ba6e84e20a3af52cfc708b23d.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Ngô giòn sốc mắm cay Phương Huyền (Đặc sản ba miền), hạt ngô chiên giòn sốc cùng nước mắm và ớt cay, túi trong dán nhãn.\n\nQuy cách: 360 g · gói\nNhà sản xuất/thương hiệu: Công ty TNHH TM TP Phương Huyền",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

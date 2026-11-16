@@ -1,0 +1,168 @@
+{
+  "kiotProductId": "65831887",
+  "code": "6945705879329",
+  "barcode": "6945705879329",
+  "name": "BÁNH QUY BUGLES - HƯƠNG VỊ TÔM CÀNG CAY",
+  "fullName": "BÁNH QUY BUGLES - HƯƠNG VỊ TÔM CÀNG CAY (Ống)",
+  "brand": "Bugles",
+  "unit": "Ống",
+  "category": {
+    "kiotCategoryId": "2549014",
+    "name": "Snack bắp & phồng",
+    "path": "Đồ ăn vặt > Snacks > Snack bắp & phồng"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/a60a9543daf8a604ab7e1d113ecdf8039afcd4daaa49fd8d98ba10ea7e0468e0.webp",
+    "description": "Bánh snack giòn Bugles Crackers hình tam giác, hương vị tôm càng cay (Artificial Spicy Crawfish Flavor), đựng trong ống có nắp.\n\nQuy cách: 100 g (3,53 oz) · ống\nThương hiệu: Bugles Crackers",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "chủ 19/10: ống thực tế dài hơn → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: vẽ lại cao, thon theo ảnh chụp; chữ nhỏ để mờ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-19",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh nhân viên chụp (KiotViet 19/10)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "REWRITE",
+    "reason": "D2/D4: mô tả cũ viết từ tên hàng khi chưa thấy bao bì; viết lại chỉ từ chữ in mặt trước bao bì trên ảnh nhân viên chụp (KiotViet 19/10)",
+    "source": null,
+    "rubricVersion": "v23"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:23:35.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "image needs staff photo, description WRITE_NEW (from name)"
+    },
+    {
+      "at": "2026-10-17T12:00:00Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "re-searched for brand/retailer references (web, barcode lookups, JD, Weee): none found for this exact pack; no Gemini call made"
+    },
+    {
+      "at": "2026-10-18T17:56:03Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "staff photo 2026-10-18 received (work/gemini/<id>/refs/2-staff.jpg) but wrinkled/tilted/glare → needs Gemini redraw; GEMINI_API_KEY not set on this machine"
+    },
+    {
+      "at": "2026-10-18T18:46:11Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "re-searched 18/10 (owner feedback, np18): no image of this exact product found; reason updated"
+    },
+    {
+      "at": "2026-10-19T07:38:29Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-19T07:39:29Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "staff photo 19/10 (nk7): Gemini redraw of the real pack + description rewritten from pack text; image rubric v23"
+    },
+    {
+      "at": "2026-10-19T07:40:05.371Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T08:50:58.958Z",
+      "by": "owner",
+      "status": "IN_PROGRESS",
+      "note": "rejected on Hub by AU KHUONG DUY: Đúng rồi nhưng cái ống thực tế cảm giác nó dài hơn"
+    },
+    {
+      "at": "2026-10-19T08:53:33Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "redo after Hub rejection: Đúng rồi nhưng cái ống thực tế cảm giác nó dài hơn — Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-19T08:53:33.578Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T12:54:58.177Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T12:56:27.209Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "resubmitted: KiotViet image reverted to the staff photo after the 09:22 apply"
+    },
+    {
+      "at": "2026-10-19T12:56:27.321Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T17:15:09.663Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-26T04:58:33.990Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-19T12:56:27.321Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T12:59:31.599Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T12:59:31.599Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/a60a9543daf8a604ab7e1d113ecdf8039afcd4daaa49fd8d98ba10ea7e0468e0.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/10/19/tram8/95a213da05664e4786e2da697d1adbe7.png"
+        ]
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

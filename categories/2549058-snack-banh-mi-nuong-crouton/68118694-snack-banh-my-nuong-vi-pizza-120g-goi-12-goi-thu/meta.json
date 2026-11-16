@@ -1,0 +1,138 @@
+{
+  "kiotProductId": "68118694",
+  "code": "8801068050592",
+  "barcode": "8801068050592",
+  "name": "Snack Bánh Mỳ Nướng Vị Pizza 120g / gói × 12 gói / thùng",
+  "fullName": "Snack Bánh Mỳ Nướng Vị Pizza 120g / gói × 12 gói / thùng (Gói)",
+  "brand": "Samlip",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2549058",
+    "name": "Snack bánh mì nướng / crouton",
+    "path": "Đồ ăn vặt > Snacks > Snack bánh mì nướng / crouton"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/55bf5c84971855d778d2f7e6fa08b65127a47e0ea3523c26de54586bfe7f5738.webp",
+    "description": "Snack bánh mì baguette mini nướng giòn vị pizza Samlip Premium Pizza Snack, phủ gia vị pizza, ăn vặt trực tiếp.\n\nQuy cách: 120 g · gói\nXuất xứ: Hàn Quốc · Nhà sản xuất/thương hiệu: Samlip\nBảo quản: nơi khô ráo, thoáng mát.",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "SP mới 30/10, không có ảnh hãng nền trắng dùng được → vẽ Samlip Pizza Snack mini baguette → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: làm phẳng, ánh sáng đều; chữ nhỏ có thể mờ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-30",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet chụp hàng thật 30/10"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "REWRITE",
+    "reason": "D2/D3: mô tả cũ sai chính tả, thành phần bị cắt cụt và chép y bản vị tỏi; viết lại ngắn chỉ từ chữ in mặt trước gói (120 g, gia vị pizza) | rà soát v9: Thin, truncated ingredient list copied verbatim with garlic variant (no pizza seasoning), typos",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-14T00:26:21.026Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "batch f3: image KEEP, description REWRITE"
+    },
+    {
+      "at": "2026-10-15T02:41:28.290Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description"
+    },
+    {
+      "at": "2026-10-15T02:52:35.399Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description"
+    },
+    {
+      "at": "2026-10-16T01:38:49.852Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-30T07:47:19.672Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-30T08:23:02Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-30T08:23:49.934Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-31T12:30:47.901Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-31T12:31:13.488Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-30T08:23:49.934Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-30T08:39:33.692Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-30T08:39:33.692Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/55bf5c84971855d778d2f7e6fa08b65127a47e0ea3523c26de54586bfe7f5738.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/10/29/tram8/e8dcd1992fad435782bc71a02776e62b.png"
+        ]
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

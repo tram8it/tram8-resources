@@ -1,0 +1,159 @@
+{
+  "kiotProductId": "64865473",
+  "code": "SP000519",
+  "barcode": "4902888183447",
+  "name": "DARS ĐEN MORINAGA 42G",
+  "fullName": "DARS ĐEN MORINAGA 42G (Hộp)",
+  "brand": "Dars",
+  "unit": "Hộp",
+  "category": {
+    "kiotCategoryId": "2549263",
+    "name": "Socola thanh",
+    "path": "Đồ ăn vặt > Chocolate > Socola thanh"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/233cd7c2a2900881eb2aa80b618b6c8312f0cb63ca563b2d946840181fe7a6bc.webp",
+    "description": "Sô cô la đen Morinaga DARS (Dark), hộp gồm 12 viên sô cô la nhỏ chia sẵn, thương hiệu Nhật Bản.\n\nQuy cách: 42 g (12 viên) · hộp\nNhà sản xuất/thương hiệu: Morinaga · DARS",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I3/I4: ảnh chụp nhiều hộp trên kệ, không có ảnh hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: bảng dinh dưỡng góc trên trái vẽ mờ; còn lại như hộp thật (BRAND FROM JAPAN, Dark, 12 pieces) · Chủ yêu cầu quay ngang: xoay ảnh Gemini lần 2 90° (hộp nằm ngang như hàng thật), không vẽ lại",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh Open Food Facts theo mã vạch 4902888183447 (chỉ làm mẫu) + ảnh kệ KiotViet",
+      "referenceUrl": "https://world.openfoodfacts.org/product/4902888183447",
+      "postprocess": "rotated 90° CCW (owner: horizontal)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết ngắn từ chữ in trên hộp đúng mã vạch (Open Food Facts: Dark, 12 pieces, 42 g)",
+    "source": {
+      "url": "https://world.openfoodfacts.org/product/4902888183447",
+      "fetchedAt": "2026-10-17"
+    },
+    "rubricVersion": "v19"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:14:49.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "image needs photo; description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T04:29:38Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "Gemini attempt 1 from shelf photo invents front details (logo, Dark on front, colour); OFF shows a different Thai design for this barcode; asked owner which design / for a front photo"
+    },
+    {
+      "at": "2026-10-17T09:16:39Z",
+      "by": "owner",
+      "status": "ASK_OWNER",
+      "note": "17/10/2026 (RUBRIC v19): dùng bao bì mới nhất của hãng nếu tìm được; tin bao bì; lệch lớn thì hỏi lại"
+    },
+    {
+      "at": "2026-10-17T09:16:39Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "still ASK_OWNER: no brand image; shelf photo only partial — needs a front photo"
+    },
+    {
+      "at": "2026-10-17T14:03:14Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T14:03:58Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "resolved without asking: Open Food Facts photos of barcode 4902888183447 show the same BRAND FROM JAPAN Dark box as the shelf photo (front, barcode, 42 g); used as Gemini reference"
+    },
+    {
+      "at": "2026-10-17T14:04:17.475Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "IN_PROGRESS",
+      "note": "rejected on Hub by AU KHUONG DUY: Quay ảnh sp sai hướng, nên quay ngang."
+    },
+    {
+      "at": "2026-10-17T18:02:07Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "redo after Hub rejection: Quay ảnh sp sai hướng, nên quay ngang. — rotated attempt-2 render 90° to horizontal (no API call)"
+    },
+    {
+      "at": "2026-10-17T18:07:40.728Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-18T17:16:08.691Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T03:19:05.400Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T18:07:40.728Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-18T17:10:24.218Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-18T17:10:24.218Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/233cd7c2a2900881eb2aa80b618b6c8312f0cb63ca563b2d946840181fe7a6bc.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/01/29/tongpenhchtl/5e22657540d04232a6b82e00e9ebda8d.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Sô cô la đen Morinaga DARS (Dark), hộp gồm 12 viên sô cô la nhỏ chia sẵn, thương hiệu Nhật Bản.\n\nQuy cách: 42 g (12 viên) · hộp\nNhà sản xuất/thương hiệu: Morinaga · DARS",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "kiotProductId": "66923624",
+  "code": "6947093142542",
+  "barcode": "6947093142542",
+  "name": "Cá Khô Vị QQ (Vị Chua Ngọt)",
+  "fullName": "Cá Khô Vị QQ (Vị Chua Ngọt) (Gói)",
+  "brand": "Hàng nội địa Trung",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2549297",
+    "name": "Thịt & hải sản ăn liền",
+    "path": "Đồ ăn vặt > Đồ nội địa Trung > Thịt & hải sản ăn liền"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/4762d317896204fa082c8ddac9ece6baded7119f78ab485b8f1fdbca4dae3dda.webp",
+    "description": "Cá QQ vị chua ngọt (糖醋味) của Yinchengxiangwei (银城湘味), cá tẩm gia vị kiểu Hồ Nam, đóng gói nhỏ ăn liền.<br><br>Quy cách: 12 g · gói<br>Xuất xứ: Trung Quốc · Nhà sản xuất: Hồ Nam Ngân Thành Tương Vị (湖南银城湘味食品有限公司)",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I3/I5: ảnh tự chụp gói nhăn, bóng, hơi mờ; không có ảnh hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ Trung nhỏ vẽ gần đúng; 净含量 12克",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; mô tả ngắn từ chữ in mặt trước bao bì (không có trang hãng)",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:13:30.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "image CROP, description WRITE_NEW (front-of-pack facts)"
+    },
+    {
+      "at": "2026-10-15T02:54:18.812Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-15T09:16:17Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "tone.py --vivid: white balance/levels + brand-like colour (owner request)"
+    },
+    {
+      "at": "2026-10-15T09:17:39.319Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-16T01:38:49.852Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-17T15:31:21Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T15:39:08.200Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-11-02T09:01:21.866Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T15:39:08.200Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T17:21:08.068Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T17:21:08.068Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/4762d317896204fa082c8ddac9ece6baded7119f78ab485b8f1fdbca4dae3dda.webp"
+        ],
+        "from": [
+          "https://img.tram8.vn/products/bf4b761b96df9e2161d2156cf562cbde266f072a1f49fa804102a60d7b46d75a.webp"
+        ]
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

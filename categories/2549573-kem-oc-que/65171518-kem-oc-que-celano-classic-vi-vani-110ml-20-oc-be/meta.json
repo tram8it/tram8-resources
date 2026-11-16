@@ -1,0 +1,132 @@
+{
+  "kiotProductId": "65171518",
+  "code": "8936011771023",
+  "barcode": "8936011771023",
+  "name": "Kem Ốc Quế Celano Classic Vị Vani 110ml × 20 ( Ốc Bé )",
+  "fullName": "Kem Ốc Quế Celano Classic Vị Vani 110ml × 20 ( Ốc Bé ) (Cái)",
+  "brand": "Celano",
+  "unit": "Cái",
+  "category": {
+    "kiotCategoryId": "2549573",
+    "name": "Kem ốc quế",
+    "path": "Kem & Đồ đông lạnh > Kem ốc quế"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/7128e020a3cfe03424a44bfec3608edddd5a2801be0cbda810f295f783bd6b53.webp",
+    "description": "Kem ốc quế Celano Classic hương vani, phủ sô cô la, bán lẻ từng cây, bảo quản đông lạnh.\n\nQuy cách: 110 ml · cái\nNhà sản xuất/thương hiệu: Celano\nBảo quản: ngăn đông tủ lạnh.",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "line consistency 20/10: cone seen side-on with closed tip and darker photo look, vs Celano cones seen slightly from above with the round lid visible → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: nắp tròn trên đỉnh thấy từ trên (hình kem trên nắp là minh hoạ); chữ lớn giữ nguyên",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-20",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh hiện có (nội dung) + Celano Hạt Dẻ Cười đã duyệt (kiểu ảnh)"
+    },
+    "rubricVersion": "v23"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; mô tả ngắn từ chữ in mặt trước bao bì (Celano, kem hương vani, phủ sô cô la) + dung tích/khối lượng theo tên hàng",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:57:37.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "image CROP, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-15T09:16:17Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "tone.py --vivid: white balance/levels + brand-like colour (owner request)"
+    },
+    {
+      "at": "2026-10-18T17:51:24.005Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T02:05:27.524Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T03:19:05.400Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-20T16:39:38Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "line consistency 20/10: cone seen side-on with closed tip and darker photo look, vs Celano cones seen slightly from above with the round lid visible -> Gemini redraw (own image for content, approved sibling for style); Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-20T16:42:04.441Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-21T08:30:34.700Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-26T04:58:33.990Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-20T16:42:04.441Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-20T16:45:31.386Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-20T16:45:31.386Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/7128e020a3cfe03424a44bfec3608edddd5a2801be0cbda810f295f783bd6b53.webp"
+        ],
+        "from": [
+          "https://img.tram8.vn/products/f679fd3766751c21d46e61717628cc2c7a750cb17390adf0de2f4b441d1fd61f.webp"
+        ]
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

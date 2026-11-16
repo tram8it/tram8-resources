@@ -1,0 +1,152 @@
+{
+  "kiotProductId": "65094351",
+  "code": "8938531133688",
+  "barcode": "8938531133688",
+  "name": "Cafe bạc xỉu white coffee",
+  "fullName": "Cafe bạc xỉu white coffee (Gói)",
+  "brand": "Cộng Cà Phê",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2509938",
+    "name": "Cà phê uống liền",
+    "path": "Đồ uống đóng chai > Cà phê uống liền"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/a1edd67d7b03fdbb554550f953049f733ebebb544a195578355672ccf4c2fd9a.webp",
+    "description": "Bạc xỉu hoà tan (white coffee) của Cộng Cà Phê, lấy cảm hứng từ món bạc xỉu bán chạy tại quán: cà phê Robusta, sữa đặc và nước cốt dừa. Chỉ cần pha với nước nóng, thêm đá nếu thích uống lạnh.\n\nThành phần chính: cà phê Robusta, cốt dừa, sữa.\nQuy cách: 15 g · gói\nXuất xứ: Việt Nam · Nhà sản xuất/thương hiệu: Công ty TNHH Cung Ứng Khác Biệt · Cộng Cà Phê",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "Chủ yêu cầu có hộp đi kèm → ảnh hãng Cộng: gói 15 g cạnh hộp 5 gói (75 g)",
+    "source": {
+      "url": "https://cdn.hstatic.net/products/200000189081/bac_xiu_15grx5_goi_e0ec52bb70ff4ed6af03cad135134547_master.png",
+      "page": "https://shop.congcaphe.com/products/bac-xiu",
+      "fetchedAt": "2026-10-17"
+    },
+    "rubricVersion": "v22"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết từ trang Cộng (shop.congcaphe.com/products/bac-xiu) và chữ in trên gói; đơn vị KiotViet trống → 1 gói lẻ 15 g (v19)",
+    "source": {
+      "url": "https://shop.congcaphe.com/products/bac-xiu",
+      "fetchedAt": "2026-10-17"
+    },
+    "rubricVersion": "v20"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:42:31.000Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "pack size unclear"
+    },
+    {
+      "at": "2026-10-17T09:12:35+00:00",
+      "by": "owner",
+      "status": "ASK_OWNER",
+      "note": "owner 17/10 (RUBRIC v19): trust KiotViet unit"
+    },
+    {
+      "at": "2026-10-17T09:12:35+00:00",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "unit is empty and barcode not found on shop.congcaphe.com → still needs the shelf; question shortened"
+    },
+    {
+      "at": "2026-10-17T14:17:50Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "still ASK_OWNER: shop.congcaphe.com sells 5/12/30/50-stick packs without barcodes; 12-stick box is the separate SKU 8938531133640; no photo or unit to decide"
+    },
+    {
+      "at": "2026-10-17T14:32:02Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T14:32:10Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "resolved by rule v20: blank KiotViet unit = one single unit → one 15 g stick sachet (brand shop.congcaphe.com sachet as Gemini ref, glass cropped out)"
+    },
+    {
+      "at": "2026-10-17T14:35:58.210Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "IN_PROGRESS",
+      "note": "rejected on Hub by AU KHUONG DUY: Cái này phải có cái hộp của nó đi kèm chứ"
+    },
+    {
+      "at": "2026-10-17T17:57:10Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "redo after Hub rejection: Cái này phải có cái hộp của nó đi kèm chứ — official brand image"
+    },
+    {
+      "at": "2026-10-17T18:07:35.367Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-18T17:16:08.691Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T03:19:05.400Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T18:07:35.367Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-18T17:10:17.867Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-18T17:10:17.867Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/a1edd67d7b03fdbb554550f953049f733ebebb544a195578355672ccf4c2fd9a.webp"
+        ],
+        "from": null
+      },
+      "description": {
+        "to": "Bạc xỉu hoà tan (white coffee) của Cộng Cà Phê, lấy cảm hứng từ món bạc xỉu bán chạy tại quán: cà phê Robusta, sữa đặc và nước cốt dừa. Chỉ cần pha với nước nóng, thêm đá nếu thích uống lạnh.\n\nThành phần chính: cà phê Robusta, cốt dừa, sữa.\nQuy cách: 15 g · gói\nXuất xứ: Việt Nam · Nhà sản xuất/thương hiệu: Công ty TNHH Cung Ứng Khác Biệt · Cộng Cà Phê",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

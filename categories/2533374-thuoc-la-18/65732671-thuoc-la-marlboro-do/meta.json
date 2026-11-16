@@ -1,0 +1,174 @@
+{
+  "kiotProductId": "65732671",
+  "code": "89301210",
+  "barcode": "89301210",
+  "name": "Thuốc Marlboro Goid ( Bao Đỏ )",
+  "fullName": "Thuốc Marlboro Goid ( Bao Đỏ ) (Bao)",
+  "brand": "Marlboro",
+  "unit": "Bao",
+  "category": {
+    "kiotCategoryId": "2533374",
+    "name": "Thuốc lá (18+)",
+    "path": "Thuốc lá (18+)"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/37c5940f2bc0b22b4649d37e577dedc208855d74541c9f0522f20ba47f83c3e5.webp",
+    "description": "Thuốc lá điếu đầu lọc Marlboro đỏ (Red), bao cứng; bao in \"Selected premium tobaccos\".\n\nQuy cách: bao\nThương hiệu: Marlboro\n\nChỉ bán cho người từ 18 tuổi trở lên.\nHút thuốc lá có hại cho sức khỏe.",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I6/I7: ảnh có watermark iCheck và tem điện tử → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: bỏ watermark và tem điện tử; phần hình cảnh báo dưới tem do AI vẽ tiếp; logo Marlboro tông đỏ chìm như ảnh mẫu",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh iCheck đang dùng trên KiotViet (có watermark iCheck, chỉ làm mẫu)",
+      "referenceUrl": "https://icheck.vn/san-pham/thuoc-la-marlboro-do-89301210"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; mô tả ngắn chỉ từ chữ in trên bao (khuôn _category.md); không ghi số điếu khi bao không in",
+    "source": null,
+    "rubricVersion": "v18"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-17T08:54:55Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T08:55:17Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "description WRITE_NEW (tobacco template: facts printed on pack, 18+ and health lines)"
+    },
+    {
+      "at": "2026-10-17T08:56:38.211Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T08:56:38.211Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T09:06:25.682Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T09:06:25.682Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/37c5940f2bc0b22b4649d37e577dedc208855d74541c9f0522f20ba47f83c3e5.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/05/14/tram8/e161f0e25bbd433bbda375b9e61ea34c.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Thuốc lá điếu đầu lọc Marlboro đỏ (Red), bao cứng; bao in \"Selected premium tobaccos\".\n\nQuy cách: bao\nThương hiệu: Marlboro\n\nChỉ bán cho người từ 18 tuổi trở lên.\nHút thuốc lá có hại cho sức khỏe.",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {
+      "price": {
+        "to": 39814.81,
+        "from": 39090.91
+      },
+      "saleTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 65732671
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 65732671
+        }
+      },
+      "taxRate": {
+        "to": "VAT 8%",
+        "from": "VAT 10%"
+      },
+      "productTaxs": {
+        "to": [
+          {
+            "id": 0,
+            "name": "VAT 8%",
+            "taxId": 3,
+            "value": 8,
+            "productId": 65732671
+          }
+        ],
+        "from": [
+          {
+            "id": 0,
+            "name": "VAT 10%",
+            "taxId": 4,
+            "value": 10,
+            "productId": 65732671
+          }
+        ]
+      },
+      "purchaseTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 65732671
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 65732671
+        }
+      }
+    }
+  }
+}

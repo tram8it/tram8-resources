@@ -1,0 +1,166 @@
+{
+  "kiotProductId": "68680058",
+  "code": "4901777303553",
+  "barcode": "4901777303553",
+  "name": "Rượu Whisky Suntory Toki 43% - 700ml",
+  "fullName": "Rượu Whisky Suntory Toki 43% - 700ml - 43% (Chai)",
+  "brand": "Suntory",
+  "unit": "Chai",
+  "category": {
+    "kiotCategoryId": "2549755",
+    "name": "Whisky & Bourbon",
+    "path": "Đồ uống có cồn (18+) > Rượu mạnh > Whisky & Bourbon"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/a68e2393bdbf51a481f7113df709f069f63c0e811e6008da2f51b9653069bdd6.webp",
+    "description": "Rượu Suntory Whisky Toki, Japanese Blended Whisky, 43%.\n\nQuy cách: 700 ml · chai\nThương hiệu: Suntory",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "ảnh tự chụp/ảnh nhỏ → ảnh hãng cùng sản phẩm; chuẩn hoá 1000×1000",
+    "source": {
+      "url": "https://house.suntory.com/sites/default/files/2026-04/bottle-toki-whisky-house-of-suntory.png",
+      "page": "https://house.suntory.com/toki-whisky",
+      "fetchedAt": "2026-10-31T12:56:26+00:00"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "viết theo nhãn/ảnh chụp + trang hãng; không thêm dữ kiện ngoài nguồn",
+    "source": {
+      "url": "https://house.suntory.com/toki-whisky"
+    },
+    "rubricVersion": "v18"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-31T12:31:13.488Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-31T12:56:26+00:00",
+      "by": "ai",
+      "status": "READY",
+      "note": "ảnh hãng/ảnh sẵn có, đã xem bằng mắt; mô tả mới"
+    },
+    {
+      "at": "2026-10-31T12:57:40.147Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-31T14:03:31.059Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-31T14:03:54.159Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-31T12:57:40.147Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-31T13:14:12.807Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-31T13:14:12.807Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/a68e2393bdbf51a481f7113df709f069f63c0e811e6008da2f51b9653069bdd6.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/10/31/tram8/7e6bd2501834458f8b514e78e976f49a.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Rượu Suntory Whisky Toki, Japanese Blended Whisky, 43%.\n\nQuy cách: 700 ml · chai\nThương hiệu: Suntory",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {
+      "price": {
+        "to": 1221296.3,
+        "from": 1199090.91
+      },
+      "saleTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 68680058
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 68680058
+        }
+      },
+      "taxRate": {
+        "to": "VAT 8%",
+        "from": "VAT 10%"
+      },
+      "productTaxs": {
+        "to": [
+          {
+            "id": 0,
+            "name": "VAT 8%",
+            "taxId": 3,
+            "value": 8,
+            "productId": 68680058
+          }
+        ],
+        "from": [
+          {
+            "id": 0,
+            "name": "VAT 10%",
+            "taxId": 4,
+            "value": 10,
+            "productId": 68680058
+          }
+        ]
+      },
+      "purchaseTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 68680058
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 68680058
+        }
+      }
+    }
+  }
+}

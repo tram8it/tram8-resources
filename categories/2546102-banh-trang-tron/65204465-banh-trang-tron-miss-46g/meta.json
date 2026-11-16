@@ -1,0 +1,119 @@
+{
+  "kiotProductId": "65204465",
+  "code": "8938549708182",
+  "barcode": "8938549708182",
+  "name": "Bánh tráng trộn miss 46g",
+  "fullName": "Bánh tráng trộn miss 46g (Gói)",
+  "brand": "Miss Bánh Tráng",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2546102",
+    "name": "Bánh tráng trộn",
+    "path": "Đồ ăn vặt > Bánh tráng trộn"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/c53dde15141c137f5f75240ce1f09aba66c94247ab7bebb113deda3c264d4308.webp",
+    "description": "Bánh tráng trộn phô mai Miss Bánh Tráng (dòng cao cấp), bánh tráng trộn sẵn với bột gia vị phô mai, mở gói ăn ngay.\n\nQuy cách: 40 g · gói\nNhà sản xuất/thương hiệu: Vina Snack · Miss Bánh Tráng",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I2/I3: ảnh KiotViet là mặt sau gói; Miss Bánh Tráng (vinasnack.com.vn) không có ảnh gói này → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: dòng chữ rất nhỏ dưới 'Mixed Rice Paper With Cheese' (nhà máy đạt chuẩn HACCP/ISO) AI vẽ không đúng chữ, không đọc được ở cỡ web; mặt trước không in khối lượng",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh Kingfoodmart + ảnh iCheck của mã vạch 8938549708182 (chỉ làm mẫu)",
+      "referenceUrl": "https://storage.googleapis.com/onelife-public/8938549708182.jpg"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; vị phô mai theo bao bì đúng mã vạch (Kingfoodmart, iCheck); khối lượng 40 g theo chữ 'KLT: 40G' in trên gói (ảnh KiotViet mặt sau) — tên KiotViet ghi 46g",
+    "source": null,
+    "rubricVersion": "v19"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:32:10.000Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "batch b09 review: image ASK_OWNER, description ASK_OWNER"
+    },
+    {
+      "at": "2026-10-17T14:07:18Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T14:08:32Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "resolved without asking: mã vạch = Bánh tráng trộn Phô mai (Kingfoodmart, iCheck); gói ở cửa hàng in KLT 40 g (ảnh KiotViet) → mô tả theo bao bì (v19), tên ghi 46g không cần sửa"
+    },
+    {
+      "at": "2026-10-17T14:09:17.874Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T14:09:17.874Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T15:20:56.965Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T15:20:56.965Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/c53dde15141c137f5f75240ce1f09aba66c94247ab7bebb113deda3c264d4308.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/04/25/tram8/35a986048d66418eb5d7d979832d1ab0.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Bánh tráng trộn phô mai Miss Bánh Tráng (dòng cao cấp), bánh tráng trộn sẵn với bột gia vị phô mai, mở gói ăn ngay.\n\nQuy cách: 40 g · gói\nNhà sản xuất/thương hiệu: Vina Snack · Miss Bánh Tráng",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

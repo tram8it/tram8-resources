@@ -1,0 +1,99 @@
+{
+  "kiotProductId": "67047978",
+  "code": "SP877902",
+  "barcode": "8938546723256",
+  "name": "Giấm táo lên men 320ml",
+  "fullName": "Giấm táo lên men 320ml (Lon)",
+  "brand": null,
+  "unit": "Lon",
+  "category": {
+    "kiotCategoryId": "2549380",
+    "name": "Kombucha / lên men",
+    "path": "Đồ uống đóng chai > Kombucha / lên men"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": null,
+    "description": null,
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "IN_PROGRESS",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "ảnh minh hoạ (chủ 20/10: SP không được để trống ảnh) — route 4: ảnh minh hoạ trung tính chính sản phẩm, không nhãn/chữ/thương hiệu. Khác hàng thật: ảnh minh hoạ trung tính: bao bì trong suốt không nhãn, không chữ, không logo; hình dáng/màu sản phẩm suy theo tên SP, chưa thấy bao bì thật. Trước đó: I1: chưa có ảnh; không rõ thương hiệu (mã 8938546723256), không tìm được ảnh nào trên mạng → cần nhân viên chụp lon · tra lại 19/10 (Yandex ảnh: \"giấm táo lên men 320ml lon\"; \"nước giấm táo lên men lon\"; \"apple cider vinegar drink can 320ml Vietnam\" + WebSearch \"giấm táo lên men lon 320ml\" — không r",
+    "source": {
+      "aiGenerated": true,
+      "illustration": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-21",
+      "reference": "không có ảnh mẫu (chỉ tên SP; đơn vị Lon 320 ml)"
+    },
+    "rubricVersion": "v23"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết ngắn từ tên SP",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:07:05.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "b18 review (rubric v4): image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T07:53:48Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "searched brand/retail/OFF/Kingfoodmart for a reference: none usable, stays NEEDS_PHOTO"
+    },
+    {
+      "at": "2026-10-19T07:35:23Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "np19 re-research 19/10 (image search): still no image of this exact product → NEEDS_PHOTO"
+    },
+    {
+      "at": "2026-10-21T02:14:57Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "illustration 20/10: route 4: ảnh minh hoạ trung tính chính sản phẩm, không nhãn/chữ/thương hiệu"
+    },
+    {
+      "at": "2026-10-21T02:14:57.240Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-26T04:58:33.990Z",
+      "by": "owner",
+      "status": "IN_PROGRESS",
+      "note": "rejected on Hub by AU KHUONG DUY: Toàn ảnh bịa ra ko dùng đc"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-21T02:14:57.240Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "REJECTED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-21T12:59:31.003Z",
+    "note": "Toàn ảnh bịa ra ko dùng đc"
+  }
+}

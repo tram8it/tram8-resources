@@ -1,0 +1,134 @@
+{
+  "kiotProductId": "66064275",
+  "code": "8934803056389",
+  "barcode": "8934803056389",
+  "name": "Đậu phộng da cá vị BBQ cay",
+  "fullName": "Đậu phộng da cá vị BBQ cay (Gói)",
+  "brand": "Oishi",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2549056",
+    "name": "Snack đậu phộng / hạt‑đậu",
+    "path": "Đồ ăn vặt > Snacks > Snack đậu phộng / hạt‑đậu"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/20f324e7ab33715b0948044688b6e5404455e84ff80997c7c22082aa1c37e7eb.webp",
+    "description": "Pinattsu là snack đậu phộng của Oishi: hạt đậu phộng bọc lớp da cá giòn, rang không dùng dầu. Vị BBQ cay.\n\nQuy cách: 30 g · gói\nThương hiệu: Oishi",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "Chủ: là gói, không phải túi zip → vẽ gói gối hàn kín hai đầu → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: mặt trước theo ảnh hãng, dạng gói theo ảnh KiotViet; 30 g theo trang hãng",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-18",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh hãng Oishi (oishi.com.vn) + ảnh KiotViet gói thật (chỉ làm mẫu)",
+      "referenceUrl": "https://oishi.com.vn/san-pham"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; theo trang Oishi (Pinattsu rang không dùng dầu; da cá BBQ cay 30/80g) + khối lượng in trên gói (30 g)",
+    "source": {
+      "url": "https://oishi.com.vn/san-pham",
+      "fetchedAt": "2026-10-17"
+    },
+    "rubricVersion": "v19"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:14:56.000Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "asked owner: pack size unknown (30g vs 80g)"
+    },
+    {
+      "at": "2026-10-17T14:02:05Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "resolved without asking: the shop photo shows the barcode 8934803056389 next to \"30 g\"; Oishi lists Pinattsu da cá BBQ cay 30/80g"
+    },
+    {
+      "at": "2026-10-17T14:02:22.779Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "IN_PROGRESS",
+      "note": "rejected on Hub by AU KHUONG DUY: Gói, ko phải túi zip."
+    },
+    {
+      "at": "2026-10-18T11:29:21Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "redo after Hub rejection: Gói, ko phải túi zip. — Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-18T11:29:21.494Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-18T17:16:08.691Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T03:19:05.400Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-18T11:29:21.494Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-18T17:11:04.078Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-18T17:11:04.078Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/20f324e7ab33715b0948044688b6e5404455e84ff80997c7c22082aa1c37e7eb.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/05/28/tram8/61e3426bda7b478b9d55f65cc843aa44.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Pinattsu là snack đậu phộng của Oishi: hạt đậu phộng bọc lớp da cá giòn, rang không dùng dầu. Vị BBQ cay.\n\nQuy cách: 30 g · gói\nThương hiệu: Oishi",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

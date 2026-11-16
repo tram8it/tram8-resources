@@ -1,0 +1,180 @@
+{
+  "kiotProductId": "64865246",
+  "code": "4891599338393",
+  "barcode": "4891599338393",
+  "name": "Trà thảo mộc JIA DUO BAO 310ml",
+  "fullName": "Trà thảo mộc JIA DUO BAO 310ml (Lon)",
+  "brand": "JDB",
+  "unit": "Lon",
+  "category": {
+    "kiotCategoryId": "2549372",
+    "name": "Trà đóng chai",
+    "path": "Đồ uống đóng chai > Trà đóng chai"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/bfec06debfc83ab7632846d6c438c32484a69ca3b0ea6166387e5ed94c586ee8.webp",
+    "description": "Trà thảo mộc JDB (加多宝, Jiaduobao) đóng lon.\n\nQuy cách: 310 ml · lon\nThương hiệu: JDB (加多宝)",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I2: ảnh KiotViet là lon Wang Lao Ji; mã vạch 4891599338393 là lon JDB 加多宝 310 ml (Open Food Facts, iCheck) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ Hán nhỏ ở thân lon có thể khác nét so với lon thật",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh Open Food Facts + iCheck theo mã vạch (chỉ làm mẫu)",
+      "referenceUrl": "https://world.openfoodfacts.org/product/4891599338393"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "source": null,
+    "rubricVersion": "v20",
+    "decision": "WRITE_NEW",
+    "reason": "mã vạch 4891599338393 = JDB 加多宝 310 ml (OFF, iCheck)"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:31:48.000Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "image ASK_OWNER, description ASK_OWNER"
+    },
+    {
+      "at": "2026-10-17T14:07:35Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T14:08:43Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "resolved without asking: barcode/evidence decides (mã vạch 4891599338393 = JDB 加多宝 310 ml (OFF, iCheck))"
+    },
+    {
+      "at": "2026-10-17T14:09:56.174Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T14:09:56.174Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T15:38:28.333Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T15:38:28.333Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/bfec06debfc83ab7632846d6c438c32484a69ca3b0ea6166387e5ed94c586ee8.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/30/tram8/6fb5b9bd82ae4efb8f290418639a194e.png"
+        ]
+      },
+      "description": {
+        "to": "Trà thảo mộc JDB (加多宝, Jiaduobao) đóng lon.\n\nQuy cách: 310 ml · lon\nThương hiệu: JDB (加多宝)",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {
+      "price": {
+        "to": 21296.3,
+        "from": 20909.09
+      },
+      "saleTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 64865246
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 64865246
+        }
+      },
+      "taxRate": {
+        "to": "VAT 8%",
+        "from": "VAT 10%"
+      },
+      "productTaxs": {
+        "to": [
+          {
+            "id": 0,
+            "name": "VAT 8%",
+            "taxId": 3,
+            "value": 8,
+            "productId": 64865246
+          }
+        ],
+        "from": [
+          {
+            "id": 0,
+            "name": "VAT 10%",
+            "taxId": 4,
+            "value": 10,
+            "productId": 64865246
+          }
+        ]
+      },
+      "purchaseTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 64865246
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 64865246
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,179 @@
+{
+  "kiotProductId": "65893485",
+  "code": "8936185354114",
+  "barcode": "8936185354114",
+  "name": "Cela Dưa Hấu Thùng 12 Lon 320ml",
+  "fullName": "Cela Dưa Hấu Thùng 12 Lon 320ml (Lon)",
+  "brand": "Cela",
+  "unit": "Lon",
+  "category": {
+    "kiotCategoryId": "2549380",
+    "name": "Kombucha / lên men",
+    "path": "Đồ uống đóng chai > Kombucha / lên men"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/37d01f93dded1652f12a17cf7295eff0bdd4242b166817d914da98231d482cf4.webp",
+    "description": "Cela của Goody Group, nước giải khát vị dưa hấu có tiền lợi khuẩn (prebiotics) và chất xơ (theo chữ in trên lon).\n\nQuy cách: 320 ml · lon\nNhà sản xuất/thương hiệu: Goody Group · Cela",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I3/I4: ảnh tự chụp lon, bóng xám; không có ảnh hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ nhỏ cạnh lon (Probiotics…) và tem Halal không đọc được rõ; huy hiệu '5g Chất xơ' theo các vị Cela khác (ảnh thật khuất một phần)",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (lon tự chụp của cửa hàng)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết từ tên SP và chữ in trên lon",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:07:05.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "b18 review (rubric v4): image CROP, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-15T09:16:17Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "tone.py --vivid: white balance/levels + brand-like colour (owner request)"
+    },
+    {
+      "at": "2026-10-17T15:15:39Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T15:15:39.273Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T15:15:39.273Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T17:07:27.971Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T17:07:27.971Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/37d01f93dded1652f12a17cf7295eff0bdd4242b166817d914da98231d482cf4.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/30/tram8/64586ee91e1042669e563c8d68293972.png"
+        ]
+      },
+      "description": {
+        "to": "Cela của Goody Group, nước giải khát vị dưa hấu có tiền lợi khuẩn (prebiotics) và chất xơ (theo chữ in trên lon).\n\nQuy cách: 320 ml · lon\nNhà sản xuất/thương hiệu: Goody Group · Cela",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {
+      "price": {
+        "to": 26851.85,
+        "from": 26363.64
+      },
+      "saleTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 65893485
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 65893485
+        }
+      },
+      "taxRate": {
+        "to": "VAT 8%",
+        "from": "VAT 10%"
+      },
+      "productTaxs": {
+        "to": [
+          {
+            "id": 0,
+            "name": "VAT 8%",
+            "taxId": 3,
+            "value": 8,
+            "productId": 65893485
+          }
+        ],
+        "from": [
+          {
+            "id": 0,
+            "name": "VAT 10%",
+            "taxId": 4,
+            "value": 10,
+            "productId": 65893485
+          }
+        ]
+      },
+      "purchaseTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 65893485
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 65893485
+        }
+      }
+    }
+  }
+}

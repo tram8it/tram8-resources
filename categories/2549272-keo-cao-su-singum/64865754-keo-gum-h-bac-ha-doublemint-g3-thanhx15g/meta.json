@@ -1,0 +1,138 @@
+{
+  "kiotProductId": "64865754",
+  "code": "8934677000686",
+  "barcode": "8934677000686",
+  "name": "Kẹo gum h.bạc hà Doublemint G3 THANHX15G",
+  "fullName": "Kẹo gum h.bạc hà Doublemint G3 THANHX15G (Lọ)",
+  "brand": "Doublemint",
+  "unit": "Lọ",
+  "category": {
+    "kiotCategoryId": "2549272",
+    "name": "Kẹo cao su / singum",
+    "path": "Các loại kẹo > Kẹo cao su / singum"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/dd3974ab438b67ed17cbd9fa97a1727c143f5035741982917b45ec03a4473009.webp",
+    "description": "Kẹo gum bong bóng Lotte Fusen Nomi hương cola chanh, viên tròn đựng trong hộp.\n\nQuy cách: 15 g · lọ\nNhà sản xuất/thương hiệu: Lotte · Fusen Nomi",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "line consistency 20/10 (v14): different bottle/cap shape vs Fusen Nomi siblings -> same dome-cap bottle → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt nội dung; chữ nhỏ minh hoạ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-20",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh hiện tại của SP (nội dung) + ảnh SP cùng dòng 64865755 (góc chụp/khung/ánh sáng)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "source": null,
+    "rubricVersion": "v20",
+    "decision": "WRITE_NEW",
+    "reason": "mã vạch 8934677000686 = Lotte Fusen Nomi hương cola 15 g (iCheck), ảnh ghi Hương Cola Chanh"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:31:48.000Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "image ASK_OWNER, description ASK_OWNER"
+    },
+    {
+      "at": "2026-10-17T14:07:38Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T14:08:44Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "resolved without asking: barcode/evidence decides (mã vạch 8934677000686 = Lotte Fusen Nomi hương cola 15 g (iCheck), ảnh ghi Hương Cola Chanh)"
+    },
+    {
+      "at": "2026-10-17T14:09:39.946Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-20T16:40:25Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "line consistency 20/10: different bottle/cap shape vs Fusen Nomi siblings -> same dome-cap bottle (Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references)"
+    },
+    {
+      "at": "2026-10-20T16:41:01.092Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-21T08:30:34.700Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-26T04:58:33.990Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-20T16:41:01.092Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-20T16:44:24.955Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-20T16:44:24.955Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/dd3974ab438b67ed17cbd9fa97a1727c143f5035741982917b45ec03a4473009.webp"
+        ],
+        "from": [
+          "https://img.tram8.vn/products/3fd0bf2fc0810b73ab744b0f4505543e92de3af4751ccef60a1cfd64b7646d09.webp"
+        ]
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

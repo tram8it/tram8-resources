@@ -1,0 +1,113 @@
+{
+  "kiotProductId": "65643109",
+  "code": "8801206005873",
+  "barcode": "8801206005873",
+  "name": "Kem nho ống Hàn Quốc",
+  "fullName": "Kem nho ống Hàn Quốc (Ống)",
+  "brand": null,
+  "unit": "Ống",
+  "category": {
+    "kiotCategoryId": "2549567",
+    "name": "Kem que",
+    "path": "Kem & Đồ đông lạnh > Kem que"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/8badd99dd7a2eb72104d65cbe8f4fd9b3545e5a1499d02cd47a7865abefbd9be.webp",
+    "description": "Kem ống vị nho của Hàn Quốc.\n\nQuy cách: ống\nXuất xứ: Hàn Quốc\nBảo quản: Giữ đông lạnh.",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I3/I4: ảnh chụp trên nền xám, có tem phụ tiếng Việt che chữ; trang hãng không truy cập được → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Tên thật trên gói là '왕포도알' (kem ống nho Zero Sugar của Seoju); đã bỏ tem phụ tiếng Việt — phần 'ZERO SUGAR 0%' dưới tem do AI vẽ lại theo phần còn thấy; chữ nhỏ dọc thân để mờ, không có số khối lượng/kcal",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet hiện có (ảnh chụp tại cửa hàng, chỉ làm mẫu); trang hãng seoju.co.kr không truy cập được",
+      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/05/11/tram8/286e78094109449191e1c678c937aea0.jpeg"
+    },
+    "rubricVersion": "v17"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; không có trang hãng — mô tả ngắn chỉ từ dữ kiện chắc chắn (tên SP, thương hiệu, vị, quy cách)",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:22:18.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "image needs photo (no usable official source), description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T04:21:14Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T04:21:31.797Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T05:23:58.238Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T04:21:31.797Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T04:24:28.034Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T04:24:28.034Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/8badd99dd7a2eb72104d65cbe8f4fd9b3545e5a1499d02cd47a7865abefbd9be.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/05/11/tram8/286e78094109449191e1c678c937aea0.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Kem ống vị nho của Hàn Quốc.\n\nQuy cách: ống\nXuất xứ: Hàn Quốc\nBảo quản: Giữ đông lạnh.",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

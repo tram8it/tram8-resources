@@ -1,0 +1,141 @@
+{
+  "kiotProductId": "68465276",
+  "code": "6956405214112",
+  "barcode": "6956405214112",
+  "name": "3H dưa chuột muối chua cay gói 20g",
+  "fullName": "3H dưa chuột muối chua cay gói 20g (Gói)",
+  "brand": "Hàng nội địa Trung",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2549296",
+    "name": "Măng & rau ngâm cay",
+    "path": "Đồ ăn vặt > Đồ nội địa Trung > Măng & rau ngâm cay"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/b3ef515b4d447fab11c8f8fefcded331cf09dfa197ba24ec84d11bc51774013f.webp",
+    "description": "Dưa chuột ngâm vị cay thơm (黄瓜 香辣味) dòng 我家菜园子 của 石磨小镇, gói nhỏ ăn liền.\n\nQuy cách: 20 g · gói\nThương hiệu: 石磨小镇 (Shimoxiaozhen)",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I1: chưa có ảnh; nhân viên chụp gói thật 19/10 → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: bỏ mã ngày in; chữ nhỏ dưới 香辣味 vẽ lại theo mẫu",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-19",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh nhân viên chụp (KiotViet 19/10)",
+      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/10/19/tram8/10dced6355f7459f993d076b308a8fa8.png"
+    },
+    "rubricVersion": "v23"
+  },
+  "description": {
+    "decision": "REWRITE",
+    "reason": "D2: mô tả cũ ghi thương hiệu 3H; bao bì thật trong ảnh nhân viên chụp là 石磨小镇 我家菜园子 黄瓜 香辣味 → viết theo bao bì (khối lượng 20 g theo tên hàng, bao bì ghi cân theo trọng lượng)",
+    "source": {
+      "staffPhoto": true,
+      "takenAt": "2026-10-19",
+      "url": "https://cdn2-retail-images.kiotviet.vn/2026/10/19/tram8/10dced6355f7459f993d076b308a8fa8.png"
+    },
+    "rubricVersion": "v23"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:30:00.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "b20 review: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T07:46:04+00:00",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "I1: chưa có ảnh trên KiotViet; tra mã vạch trên Kingfoodmart, Open Food Facts và web (17/10/2026) không ra ảnh bao bì nào → không có mẫu để Gemini vẽ, cần nhân viên chụp mặt trước 1 gói"
+    },
+    {
+      "at": "2026-10-18T18:22:34.229Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "np18 re-research 18/10: still no image of this exact pack"
+    },
+    {
+      "at": "2026-10-19T03:19:05.400Z",
+      "by": "init",
+      "status": "NEEDS_PHOTO",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-19T03:24:57Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-19T03:27:10Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "description written from the pack in the staff photo uploaded to KiotViet (19/10); image redrawn by Gemini from that photo"
+    },
+    {
+      "at": "2026-10-19T03:27:44.906Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T03:31:45.675Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T17:15:09.663Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-19T03:27:44.906Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T03:30:36.384Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T03:30:36.384Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/b3ef515b4d447fab11c8f8fefcded331cf09dfa197ba24ec84d11bc51774013f.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/10/19/tram8/10dced6355f7459f993d076b308a8fa8.png"
+        ]
+      },
+      "description": {
+        "to": "Dưa chuột ngâm vị cay thơm (黄瓜 香辣味) dòng 我家菜园子 của 石磨小镇, gói nhỏ ăn liền.\n\nQuy cách: 20 g · gói\nThương hiệu: 石磨小镇 (Shimoxiaozhen)",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

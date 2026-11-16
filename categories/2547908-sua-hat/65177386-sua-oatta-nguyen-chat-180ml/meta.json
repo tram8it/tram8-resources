@@ -1,0 +1,119 @@
+{
+  "kiotProductId": "65177386",
+  "code": "8935011853791",
+  "barcode": "8935011853791",
+  "name": "Sữa oatta nguyên chất 180ml",
+  "fullName": "Sữa oatta nguyên chất 180ml (Hộp)",
+  "brand": "Việt Ngũ Cốc",
+  "unit": "Hộp",
+  "category": {
+    "kiotCategoryId": "2547908",
+    "name": "Sữa hạt",
+    "path": "Sữa và các sản phẩm từ sữa > Sữa tiệt trùng > Sữa hạt"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/129031b4e70b62f26514888f38821e5bbdf7589e53bc7754add41bdccc36f65c.webp",
+    "description": "Sữa yến mạch nguyên chất Oatta Drink của Việt Ngũ Cốc, 100% từ thực vật, không đường. Theo bao bì, có bổ sung biotin và omega.\n\nQuy cách: 180 ml · hộp\nNhà sản xuất/thương hiệu: Oatta (Việt Ngũ Cốc)",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "ảnh tự chụp (hộp méo, mềm); không có ảnh hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ lớn khớp (Vietngucoc, Oatta Drink, Sữa yến mạch nguyên chất 100%, Không đường, Thể tích thực 180 ml); huy hiệu tròn nhỏ có chữ mờ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet của cửa hàng (chỉ làm mẫu)",
+      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/07/30/tram8/3c92042e97b245428c1f6f2b7daafc27.png"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết ngắn chỉ từ chữ in mặt trước hộp (không có trang hãng)",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:09:58.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "b19: image CROP, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-15T09:16:17Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "tone.py --vivid: white balance/levels + brand-like colour (owner request)"
+    },
+    {
+      "at": "2026-10-17T14:16:17Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T14:16:17.159Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T14:16:17.159Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T16:36:52.174Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T16:36:52.174Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/129031b4e70b62f26514888f38821e5bbdf7589e53bc7754add41bdccc36f65c.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/30/tram8/3c92042e97b245428c1f6f2b7daafc27.png"
+        ]
+      },
+      "description": {
+        "to": "Sữa yến mạch nguyên chất Oatta Drink của Việt Ngũ Cốc, 100% từ thực vật, không đường. Theo bao bì, có bổ sung biotin và omega.\n\nQuy cách: 180 ml · hộp\nNhà sản xuất/thương hiệu: Oatta (Việt Ngũ Cốc)",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

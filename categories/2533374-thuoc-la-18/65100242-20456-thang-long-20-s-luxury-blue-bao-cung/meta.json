@@ -1,0 +1,181 @@
+{
+  "kiotProductId": "65100242",
+  "code": "SP001031",
+  "barcode": "8935047690759",
+  "name": "20456 Thăng Long ( 20's Luxury Blue ) bao cứng",
+  "fullName": "20456 Thăng Long ( 20's Luxury Blue ) bao cứng (Bao)",
+  "brand": "Thăng Long",
+  "unit": "Bao",
+  "category": {
+    "kiotCategoryId": "2533374",
+    "name": "Thuốc lá (18+)",
+    "path": "Thuốc lá (18+)"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/353ce3a7c57bd9094626766bed02a16e8b06aa39a3c515f1e17ff559b5769ddc.webp",
+    "description": "Thuốc lá điếu đầu lọc Thăng Long Luxury, bao cứng màu xanh dương.<br><br>Quy cách: bao<br>Thương hiệu: Thăng Long · Nhà sản xuất: Công ty TNHH MTV Thuốc lá Thăng Long (Vinataba)<br><br>Chỉ bán cho người từ 18 tuổi trở lên.<br>Hút thuốc lá có hại cho sức khỏe.",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I3/I5: ảnh KiotViet tay cầm, mất phần dưới bao → thay bằng ảnh nhân viên chụp thẳng trọn mặt trước bao (20/10); chỉ cắt sát mép bao + cân trắng/sáng (tone.py), giữ nguyên cảnh báo sức khỏe",
+    "source": {
+      "staffPhoto": true,
+      "takenAt": "2026-10-20"
+    },
+    "rubricVersion": "v23"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; theo khuôn _category.md, chỉ chữ in trên bao trong ảnh nhân viên chụp (THĂNG LONG, Luxury, bao cứng); nhà sản xuất theo tiền tố mã vạch 8935047 (Thuốc lá Thăng Long); bao không in số điếu nên không ghi",
+    "source": null,
+    "rubricVersion": "v23"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-17T08:55:39Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "bottom half of current pack not visible in any reference"
+    },
+    {
+      "at": "2026-10-18T18:11:52Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "18/10 re-research (>=3 searches): still no image of this exact product → NEEDS_PHOTO"
+    },
+    {
+      "at": "2026-10-19T07:38:02Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "19/10 re-research with image search (owner request): no image of this exact product/variant found"
+    },
+    {
+      "at": "2026-10-20T17:31:03Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "staff photo 20/10: cropped to pack, tone-balanced; description written from pack text"
+    },
+    {
+      "at": "2026-10-20T17:31:03.418Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-21T08:30:34.700Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-26T04:58:33.990Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-20T17:31:03.418Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-21T01:27:28.796Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-21T01:27:28.796Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/353ce3a7c57bd9094626766bed02a16e8b06aa39a3c515f1e17ff559b5769ddc.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/04/22/tram8/07a4a56b181d4f6d96f057aa68619e54.png"
+        ]
+      },
+      "description": {
+        "to": "Thuốc lá điếu đầu lọc Thăng Long Luxury, bao cứng màu xanh dương.\n\nQuy cách: bao\nThương hiệu: Thăng Long · Nhà sản xuất: Công ty TNHH MTV Thuốc lá Thăng Long (Vinataba)\n\nChỉ bán cho người từ 18 tuổi trở lên.\nHút thuốc lá có hại cho sức khỏe.",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {
+      "price": {
+        "to": 23148.15,
+        "from": 22727.27
+      },
+      "saleTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 65100242
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 65100242
+        }
+      },
+      "taxRate": {
+        "to": "VAT 8%",
+        "from": "VAT 10%"
+      },
+      "productTaxs": {
+        "to": [
+          {
+            "id": 0,
+            "name": "VAT 8%",
+            "taxId": 3,
+            "value": 8,
+            "productId": 65100242
+          }
+        ],
+        "from": [
+          {
+            "id": 0,
+            "name": "VAT 10%",
+            "taxId": 4,
+            "value": 10,
+            "productId": 65100242
+          }
+        ]
+      },
+      "purchaseTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 65100242
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 65100242
+        }
+      }
+    }
+  }
+}

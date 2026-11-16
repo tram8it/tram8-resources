@@ -1,0 +1,148 @@
+{
+  "kiotProductId": "65094583",
+  "code": "8935001717393",
+  "barcode": "8935001717393",
+  "name": "Kẹo mút Chupa Chups sắc màu 580g 58 cây",
+  "fullName": "Kẹo mút Chupa Chups sắc màu 580g 58 cây (Gói)",
+  "brand": "Chupa Chups",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2549277",
+    "name": "Kẹo mút",
+    "path": "Các loại kẹo > Kẹo mút"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/4a19a2f83e1c4b3b6c002bd1e57138c1bdbd5290f628d6b6d404169e41669856.webp",
+    "description": "Túi kẹo mút Chupa Chups hương hỗn hợp với vitamin C, gồm nhiều cây kẹo mút đóng chung một túi.\n\nQuy cách: 58 cây · túi\nNhà sản xuất/thương hiệu: Perfetti Van Melle · Chupa Chups",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "Chủ: bán theo cây → vẽ 1 cây kẹo lớn cạnh túi → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: cây kẹo đứng cạnh túi minh hoạ 1 đơn vị bán; dòng khối lượng tịnh để mờ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-18",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (ảnh điện thoại túi thật, chỉ làm mẫu)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "REWRITE",
+    "reason": "D2: bỏ số gam — tên ghi 580 g nhưng dòng khối lượng trên túi đọc không chắc (giống 558 g); chỉ giữ số cây theo tên",
+    "source": null,
+    "rubricVersion": "v19"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-14T00:38:56.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "batch f1: image REPLACE→NEEDS_PHOTO, description WRITE_NEW short"
+    },
+    {
+      "at": "2026-10-17T08:25:43Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "ask owner: pack weight differs from KiotViet name"
+    },
+    {
+      "at": "2026-10-17T08:45:00Z",
+      "by": "owner",
+      "note": "RUBRIC v19: khối lượng tin bao bì đúng mã vạch hơn tên KiotViet; chỉ hỏi khi lệch > ~10% hoặc rõ là cỡ khác",
+      "status": "ASK_OWNER"
+    },
+    {
+      "at": "2026-10-17T08:56:55Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T09:30:00Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "description REWRITE: weight per pack (RUBRIC v19)"
+    },
+    {
+      "at": "2026-10-17T08:59:56.287Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "IN_PROGRESS",
+      "note": "rejected on Hub by AU KHUONG DUY: Cái này bán theo cây, nên hãy làm lớn 1 cây rồi để cạnh gói."
+    },
+    {
+      "at": "2026-10-18T11:35:52Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "redo after Hub rejection: Cái này bán theo cây, nên hãy làm lớn 1 cây rồi để cạnh gói. — Gemini API redraw (attempt 3, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-18T11:35:52.871Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-18T17:16:08.691Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T03:19:05.400Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-18T11:35:52.871Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-18T17:12:09.290Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-18T17:12:09.290Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/4a19a2f83e1c4b3b6c002bd1e57138c1bdbd5290f628d6b6d404169e41669856.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/04/22/tram8/c9724db81823488887d6f303154ff2f8.png"
+        ]
+      },
+      "description": {
+        "to": "Túi kẹo mút Chupa Chups hương hỗn hợp với vitamin C, gồm nhiều cây kẹo mút đóng chung một túi.\n\nQuy cách: 58 cây · túi\nNhà sản xuất/thương hiệu: Perfetti Van Melle · Chupa Chups",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

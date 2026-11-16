@@ -1,0 +1,184 @@
+{
+  "kiotProductId": "68118111",
+  "code": "8809288636787",
+  "barcode": "8809288636787",
+  "name": "SODA SỮA VỊ XOÀI - MILKY SODA MANGO TANGO 350ML (nước có ga , không chứa cồn )",
+  "fullName": "SODA SỮA VỊ XOÀI - MILKY SODA MANGO TANGO 350ML (nước có ga , không chứa cồn ) (Lon)",
+  "brand": "Baskin Robbins",
+  "unit": "Lon",
+  "category": {
+    "kiotCategoryId": "2549377",
+    "name": "Soda / nước trái cây có gas",
+    "path": "Đồ uống đóng chai > Soda / nước trái cây có gas"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/0e65885a1798ecb26d3a7ad460c5ed167bcae5f4fb657da497ea07ccceff31da.webp",
+    "description": "Soda sữa Baskin Robbins Milky Soda vị xoài (Mango Tango) của Hàn Quốc, nước có ga vị sữa, không chứa cồn. Lon ghi 350 ml (172 kcal).\n\nQuy cách: 350 ml · lon\nXuất xứ: Hàn Quốc · Thương hiệu: Baskin Robbins",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I1: chưa có ảnh → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt chữ lớn (BR baskin robbins, MILKY SODA, MANGO TANGO, 망고탱고 밀키소다, 350 ml (172 kcal))",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-18",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh nhà bán lẻ Snackje (chỉ làm mẫu)",
+      "referenceUrl": "https://cdn.shopify.com/s/files/1/0976/8422/6387/files/baskin-robbins_mango_tango_milky_soda_350ml.webp"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: từ chữ trên lon (ảnh Snackje): Baskin Robbins Milky Soda, 350 ml (172 kcal); theo mẫu SP cùng dòng 64865253",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:53:05.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "b17: needs photo (no image), description from name"
+    },
+    {
+      "at": "2026-10-17T07:53:48Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "searched brand/retail/OFF/Kingfoodmart for a reference: none usable, stays NEEDS_PHOTO"
+    },
+    {
+      "at": "2026-10-18T18:44:51Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-18T18:44:57Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "np18 re-research: description rewritten from pack/official facts"
+    },
+    {
+      "at": "2026-10-18T18:44:57.401Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T02:05:27.524Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T03:19:05.400Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-18T18:44:57.401Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T01:51:30.111Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T01:51:30.111Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/0e65885a1798ecb26d3a7ad460c5ed167bcae5f4fb657da497ea07ccceff31da.webp"
+        ],
+        "from": null
+      },
+      "description": {
+        "to": "Soda sữa Baskin Robbins Milky Soda vị xoài (Mango Tango) của Hàn Quốc, nước có ga vị sữa, không chứa cồn. Lon ghi 350 ml (172 kcal).\n\nQuy cách: 350 ml · lon\nXuất xứ: Hàn Quốc · Thương hiệu: Baskin Robbins",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {
+      "price": {
+        "to": 21296.3,
+        "from": 20909.09
+      },
+      "saleTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 68118111
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 68118111
+        }
+      },
+      "taxRate": {
+        "to": "VAT 8%",
+        "from": "VAT 10%"
+      },
+      "productTaxs": {
+        "to": [
+          {
+            "id": 0,
+            "name": "VAT 8%",
+            "taxId": 3,
+            "value": 8,
+            "productId": 68118111
+          }
+        ],
+        "from": [
+          {
+            "id": 0,
+            "name": "VAT 10%",
+            "taxId": 4,
+            "value": 10,
+            "productId": 68118111
+          }
+        ]
+      },
+      "purchaseTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 68118111
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 68118111
+        }
+      }
+    }
+  }
+}

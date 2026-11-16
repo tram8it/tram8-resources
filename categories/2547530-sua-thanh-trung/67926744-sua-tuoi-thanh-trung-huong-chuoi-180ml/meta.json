@@ -1,0 +1,111 @@
+{
+  "kiotProductId": "67926744",
+  "code": "8935318100093",
+  "barcode": "8935318100093",
+  "name": "Sữa Tươi Thanh Trùng Hương Chuối 180ml",
+  "fullName": "Sữa Tươi Thanh Trùng Hương Chuối 180ml (Hộp)",
+  "brand": "Đà Lạt Milk",
+  "unit": "Hộp",
+  "category": {
+    "kiotCategoryId": "2547530",
+    "name": "Sữa thanh trùng",
+    "path": "Sữa và các sản phẩm từ sữa > Sữa thanh trùng"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/c12689f46933fbb78306f25279a4eef0067234f0850e404ac46c5ec3f620fe8e.webp",
+    "description": "Sữa tươi thanh trùng Dalat Milk hương chuối, hộp 180 ml. Sản phẩm thanh trùng, cần giữ lạnh.\n\nQuy cách: 180 ml · hộp\nNhà sản xuất/thương hiệu: Dalat Milk",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I1: chưa có ảnh; trang hãng dalatmilk.vn lỗi → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ nhỏ ở hai cạnh bên vẽ mờ; mặt trước đúng HƯƠNG CHUỐI, 180 ml",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh Kingfoodmart theo mã vạch (chỉ làm mẫu)",
+      "referenceUrl": "https://storage.googleapis.com/onelife-public/8935318100093.jpg"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; không truy cập được trang hãng, viết ngắn chỉ từ dữ kiện chắc chắn (tên SP; thương hiệu theo mã vạch cùng dãy với SP Dalat Milk)",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-14T00:27:22.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "batch f1: image REPLACE→NEEDS_PHOTO (no image), description WRITE_NEW short"
+    },
+    {
+      "at": "2026-10-17T08:23:03Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T08:23:13.761Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T08:23:13.761Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T08:37:11.427Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T08:37:11.427Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/c12689f46933fbb78306f25279a4eef0067234f0850e404ac46c5ec3f620fe8e.webp"
+        ],
+        "from": null
+      },
+      "description": {
+        "to": "Sữa tươi thanh trùng Dalat Milk hương chuối, hộp 180 ml. Sản phẩm thanh trùng, cần giữ lạnh.\n\nQuy cách: 180 ml · hộp\nNhà sản xuất/thương hiệu: Dalat Milk",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

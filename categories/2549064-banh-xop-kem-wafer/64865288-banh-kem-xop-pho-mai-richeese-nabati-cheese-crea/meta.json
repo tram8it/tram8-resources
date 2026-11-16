@@ -1,0 +1,134 @@
+{
+  "kiotProductId": "64865288",
+  "code": "8993175532648",
+  "barcode": "8993175532648",
+  "name": "Bánh Kem Xốp Phô Mai Richeese ( Nabati Cheese Cream Wafer 15G (300g)",
+  "fullName": "Bánh Kem Xốp Phô Mai Richeese ( Nabati Cheese Cream Wafer 15G (300g) (Hộp)",
+  "brand": "Nabati",
+  "unit": "Hộp",
+  "category": {
+    "kiotCategoryId": "2549064",
+    "name": "Bánh xốp kem (wafer)",
+    "path": "Bánh quy & bánh đóng gói > Bánh xốp kem (wafer)"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/899b9316cd30ce9a33787eb0a041fe5d93c043fd6cde6d38f8c605597e4a3102.webp",
+    "description": "Bánh kem xốp phô mai Nabati Richeese, các gói nhỏ đóng trong hộp, tiện chia phần ăn vặt. Có bổ sung vitamin A, B1, B2, B6, B12 (theo bao bì).\n\nQuy cách: 320 g (20 gói × 16 g) · hộp\nNhà sản xuất/thương hiệu: Nabati (PT Kaldu Sari Nabati Indonesia)",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I2: ảnh KiotViet là hộp đời rất cũ, ảnh nhỏ 200px; bao bì đúng mã vạch (Open Food Facts) in 320 g (20 x 16 g) — chủ chốt 17/10/2026 (v19): tin bao bì (lệch ~7% so với tên 300g), không sửa tên → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt chữ lớn; con dấu tròn và chữ nhỏ dưới đáy là chữ AI vẽ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh Open Food Facts cùng mã vạch 8993175532648 (hộp Nabati Richeese 320 g, nhãn tiếng Việt)",
+      "referenceUrl": "https://world.openfoodfacts.org/product/8993175532648"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "REWRITE",
+    "reason": "Mô tả cũ ghi 300 g (gói 15 g); bao bì đúng mã vạch in 'Khối lượng tịnh 320 g (20 x 16 g)', nhà sản xuất PT Kaldu Sari Nabati Indonesia → sửa theo bao bì (RUBRIC v19)",
+    "source": {
+      "url": "https://world.openfoodfacts.org/product/8993175532648",
+      "fetchedAt": "2026-10-17T09:35:00Z"
+    },
+    "rubricVersion": "v19"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:36:29.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "b10 review: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T05:18:38Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "khối lượng in trên hộp không xác định (OFF: 320 g = 20 × 16 g; tên: 300 g) → hỏi chủ"
+    },
+    {
+      "at": "2026-10-17T09:07:14Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T09:07:14Z",
+      "by": "owner",
+      "status": "ASK_OWNER",
+      "note": "17/10/2026 (RUBRIC v19): tin bao bì đúng mã vạch (320 g) hơn tên 300g"
+    },
+    {
+      "at": "2026-10-17T09:07:14Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini redraw from OFF photo (320 g box) accepted; description 320 g (20 x 16 g)"
+    },
+    {
+      "at": "2026-10-17T09:07:14.932Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T09:07:14.932Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T09:14:31.925Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T09:14:31.925Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/899b9316cd30ce9a33787eb0a041fe5d93c043fd6cde6d38f8c605597e4a3102.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/03/15/tongpenhchtl/9e962d5eb3ee4e2399ebb58ba237275b.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Bánh kem xốp phô mai Nabati Richeese, các gói nhỏ đóng trong hộp, tiện chia phần ăn vặt. Có bổ sung vitamin A, B1, B2, B6, B12 (theo bao bì).\n\nQuy cách: 320 g (20 gói × 16 g) · hộp\nNhà sản xuất/thương hiệu: Nabati (PT Kaldu Sari Nabati Indonesia)",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

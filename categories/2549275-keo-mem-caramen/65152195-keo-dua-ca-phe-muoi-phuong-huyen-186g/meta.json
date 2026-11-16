@@ -1,0 +1,134 @@
+{
+  "kiotProductId": "65152195",
+  "code": "8936202669283",
+  "barcode": "8936202669283",
+  "name": "Kẹo dừa cà phê muối Phương Huyền 186g",
+  "fullName": "Kẹo dừa cà phê muối Phương Huyền 186g (Gói)",
+  "brand": "Phương Huyền",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2549275",
+    "name": "Kẹo mềm / caramen",
+    "path": "Các loại kẹo > Kẹo mềm / caramen"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/2a7dc664756d4608ae4b4865e2e93f0c5c26d845404d6062170963fd934cbbc6.webp",
+    "description": "Kẹo dừa vị cà phê muối của Phương Huyền.\n\nQuy cách: 186 g · gói\nNhà sản xuất/thương hiệu: Phương Huyền",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "v13–v15 (chủ 19/10): ảnh nhân viên chụp đã tách nền vẫn kém ảnh các SP cùng dòng đã duyệt (nhăn/loá/nghiêng) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: túi vẽ phẳng; thêm ô ghi 186g ở chân túi theo tên SP (ảnh thật không thấy rõ dòng khối lượng); chữ nhỏ không đọc được",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-19",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh nhân viên chụp 18/10 (chỉ làm mẫu) + ảnh đã duyệt 64865525 (same shop category (coconut candy bags), chỉ làm mẫu phong cách)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết ngắn từ tên SP",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:07:05.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "b18 review (rubric v4): image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T07:47:30Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "I1: chưa có ảnh; hàng cơ sở địa phương (Phương Huyền), không có trang hãng, không tìm được ảnh bán lẻ/Open Food Facts nào của mã 8936202669283 để Gemini vẽ → cần nhân viên chụp mặt trước gói"
+    },
+    {
+      "at": "2026-10-18T17:56:03Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "staff photo 2026-10-18 (Zalo); cutout + tone --vivid"
+    },
+    {
+      "at": "2026-10-18T17:57:09.671Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-18T18:24:59.116Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T02:16:57Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-19T02:18:05.151Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T02:44:56.965Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T03:19:05.400Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-19T02:18:05.151Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T02:29:45.508Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T02:29:45.508Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/2a7dc664756d4608ae4b4865e2e93f0c5c26d845404d6062170963fd934cbbc6.webp"
+        ],
+        "from": null
+      },
+      "description": {
+        "to": "Kẹo dừa vị cà phê muối của Phương Huyền.\n\nQuy cách: 186 g · gói\nNhà sản xuất/thương hiệu: Phương Huyền",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

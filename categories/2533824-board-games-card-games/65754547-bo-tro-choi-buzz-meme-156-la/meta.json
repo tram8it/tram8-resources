@@ -1,0 +1,132 @@
+{
+  "kiotProductId": "65754547",
+  "code": "SP877426",
+  "barcode": "8938564564220",
+  "name": "Bộ trò chơi Buzz Meme 156 lá",
+  "fullName": "Bộ trò chơi Buzz Meme 156 lá (Hộp)",
+  "brand": "Toy Galaxy",
+  "unit": "Hộp",
+  "category": {
+    "kiotCategoryId": "2533824",
+    "name": "Board games/ Card games",
+    "path": "Văn phòng phẩm > Board games/ Card games"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/4bc9d8c0e74650b4eaa7dfe80b2daf41ecf6632cb58c90f69dcfd2a9814111cc.webp",
+    "description": "Bộ bài Buzz Meme: trò chơi thẻ bài chủ đề ảnh meme vui nhộn, hợp cho tiệc và các buổi tụ tập đông người.\n\nQuy cách: 156 lá · hộp giấy\nNhà phát hành: Toy Galaxy",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "line consistency 20/10: staff photo of the 156-card box at an angle (perspective) vs flat renders → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: vẽ thẳng mặt trên hộp, bỏ phối cảnh; mặt bên hộp không thấy",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-20",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh chụp tay hộp Buzz Meme 156 (nội dung) + hộp Ver Công Sở đã duyệt (kiểu ảnh)"
+    },
+    "rubricVersion": "v23"
+  },
+  "description": {
+    "decision": "REWRITE",
+    "reason": "D3: mô tả cũ là văn quảng cáo kiểu chatbot (HTML, lời lẽ quá đà, có ký tự rác); viết lại từ chữ in trên hộp",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:56:37.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "b21: image REPLACE, description REWRITE"
+    },
+    {
+      "at": "2026-10-17T07:52:24.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "cutout.py + tone.py --vivid on current KiotViet photo; same method as the Toy Galaxy siblings (v14)"
+    },
+    {
+      "at": "2026-10-17T07:52:24.175Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T08:06:02.482Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-20T16:39:37Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "line consistency 20/10: staff photo of the 156-card box at an angle (perspective) vs flat renders -> Gemini redraw (own image for content, approved sibling for style); Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-20T16:41:52.679Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-21T08:30:34.700Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-26T04:58:33.990Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-20T16:41:52.679Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-20T16:45:14.073Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-20T16:45:14.073Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/4bc9d8c0e74650b4eaa7dfe80b2daf41ecf6632cb58c90f69dcfd2a9814111cc.webp"
+        ],
+        "from": [
+          "https://img.tram8.vn/products/e1322976eff551726319ede16f0abd3e56595c7b6219e0c21d74ed3ac2ae6949.webp"
+        ]
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

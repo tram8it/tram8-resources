@@ -1,0 +1,141 @@
+{
+  "kiotProductId": "67935757",
+  "code": "SP878137",
+  "barcode": "6952767621308",
+  "name": "Bánh Quy Bơ cà Phê Mèo Vị Bơ Cà Phê 50g",
+  "fullName": "Bánh Quy Bơ cà Phê Mèo Vị Bơ Cà Phê 50g (Hộp)",
+  "brand": "Hàng nội địa Trung",
+  "unit": "Hộp",
+  "category": {
+    "kiotCategoryId": "2549303",
+    "name": "Bánh gạo / cơm cháy / bánh ngọt",
+    "path": "Đồ ăn vặt > Đồ nội địa Trung > Bánh gạo / cơm cháy / bánh ngọt"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/e0121e66e76f1dc81cf75e7e805150090b408771a697cb4c1850d2aaa65ceffd.webp",
+    "description": "Bánh quy bơ cà phê hình mèo Cengreat (黄油猫咖饼干), vị bơ cà phê, làm với bơ nhập khẩu theo chữ in trên hộp.\n\nQuy cách: 50 g · hộp\nXuất xứ: Trung Quốc · Thương hiệu: Cengreat (盛歌)",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I1: chưa có ảnh; nhân viên chụp hộp thật 19/10 → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt đáng kể; dãy nhà minh hoạ ở đáy vẽ lại chi tiết khác đôi chút",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-19",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh nhân viên chụp (KiotViet 19/10)",
+      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/10/19/tram8/7bd05aca4e1e4df498ca0cb3d2fbf58f.png"
+    },
+    "rubricVersion": "v23"
+  },
+  "description": {
+    "decision": "REWRITE",
+    "reason": "D2/D4: đơn vị bán là Hộp (mô tả cũ ghi gói); thêm thương hiệu và chữ in trên hộp theo ảnh nhân viên chụp (Cengreat 盛歌 黄油猫咖饼干, 50 g)",
+    "source": {
+      "staffPhoto": true,
+      "takenAt": "2026-10-19",
+      "url": "https://cdn2-retail-images.kiotviet.vn/2026/10/19/tram8/7bd05aca4e1e4df498ca0cb3d2fbf58f.png"
+    },
+    "rubricVersion": "v23"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:21:09.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "image REPLACE → NEEDS_PHOTO, description WRITE_NEW (name only)"
+    },
+    {
+      "at": "2026-10-17T08:25:59Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "retried 17/10: no usable reference, stays NEEDS_PHOTO"
+    },
+    {
+      "at": "2026-10-18T18:46:07Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "np18 re-research 18/10: still no usable reference for this exact pack (see image.reason)"
+    },
+    {
+      "at": "2026-10-19T03:19:05.400Z",
+      "by": "init",
+      "status": "NEEDS_PHOTO",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-19T03:24:57Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-19T03:27:10Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "description written from the pack in the staff photo uploaded to KiotViet (19/10); image redrawn by Gemini from that photo"
+    },
+    {
+      "at": "2026-10-19T03:27:41.312Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T03:31:45.675Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T17:15:09.663Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-19T03:27:41.312Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T03:30:32.713Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T03:30:32.713Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/e0121e66e76f1dc81cf75e7e805150090b408771a697cb4c1850d2aaa65ceffd.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/10/19/tram8/7bd05aca4e1e4df498ca0cb3d2fbf58f.png"
+        ]
+      },
+      "description": {
+        "to": "Bánh quy bơ cà phê hình mèo Cengreat (黄油猫咖饼干), vị bơ cà phê, làm với bơ nhập khẩu theo chữ in trên hộp.\n\nQuy cách: 50 g · hộp\nXuất xứ: Trung Quốc · Thương hiệu: Cengreat (盛歌)",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

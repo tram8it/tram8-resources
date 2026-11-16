@@ -1,0 +1,135 @@
+{
+  "kiotProductId": "65572870",
+  "code": "SP877344",
+  "barcode": "8934673303521",
+  "name": "Sữa chua uống men sống ít đường Vinamilk Probi 130ml",
+  "fullName": "Sữa chua uống men sống ít đường Vinamilk Probi 130ml (Chai)",
+  "brand": "Vinamilk",
+  "unit": "Chai",
+  "category": {
+    "kiotCategoryId": "2547911",
+    "name": "Sữa chua uống",
+    "path": "Sữa và các sản phẩm từ sữa > Sữa chua > Sữa chua uống"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/017ae92d1d578ea0b348ececaacb0f3105983cdc5fc164364c5138391c594e30.webp",
+    "description": "Sữa chua uống men sống Vinamilk Probi ít đường.\n\nQuy cách: 130 ml · chai\nXuất xứ: Việt Nam · Nhà sản xuất/thương hiệu: Vinamilk · Probi",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "IN_PROGRESS",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I1: chưa có ảnh; hãng chỉ có lốc ít đường bọc màng, không có ảnh chai lẻ → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: nhãn chai lẻ ít đường dựng theo kiểu chai Probi mới (như lọ ít đường 65 ml đã duyệt), chưa có ảnh hãng chai lẻ 130 ml để đối chiếu | line consistency 20/10: thu hẹp chiều ngang chai ×0,875 cho đúng tỉ lệ chai 130 ml như vị truyền thống/việt quất",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-18",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh hãng chai Probi 130 ml (vị truyền thống, lấy dáng chai) + ảnh lọ ít đường 65 ml đã duyệt + ảnh lốc ít đường Kingfoodmart",
+      "referenceUrl": "https://storage.googleapis.com/onelife-public/8934673303521.jpg"
+    },
+    "rubricVersion": "v23"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết ngắn chỉ từ tên SP (trang hãng không còn SP này)",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:36:29.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "b10 review: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T00:00:00Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "Tìm ảnh mẫu cho Gemini (RUBRIC v12–v17) không có kết quả: vinamilk.com.vn không có Probi ít đường; nhà bán lẻ chỉ có ảnh lốc 4 bọc màng (không thấy nhãn chai), không đủ để vẽ chai lẻ → cần nhân viên chụp"
+    },
+    {
+      "at": "2026-10-18T18:22:34Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-18T18:22:40.738Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T02:05:27.524Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T03:19:05.400Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-20T16:36:35Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "line consistency 20/10: 130 ml bottle drawn ~14% too wide vs sibling 130 ml bottles -> rescaled width x0.875 (PIL + make_image)"
+    },
+    {
+      "at": "2026-10-20T16:41:31.198Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-26T04:58:33.990Z",
+      "by": "owner",
+      "status": "IN_PROGRESS",
+      "note": "rejected on Hub by AU KHUONG DUY: Cảm giác bị bóp chữ"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-20T16:41:31.198Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "REJECTED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-20T16:43:13.291Z",
+    "note": "Cảm giác bị bóp chữ"
+  },
+  "uploaded": {
+    "at": "2026-10-19T01:48:26.008Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/017ae92d1d578ea0b348ececaacb0f3105983cdc5fc164364c5138391c594e30.webp"
+        ],
+        "from": null
+      },
+      "description": {
+        "to": "Sữa chua uống men sống Vinamilk Probi ít đường.\n\nQuy cách: 130 ml · chai\nXuất xứ: Việt Nam · Nhà sản xuất/thương hiệu: Vinamilk · Probi",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

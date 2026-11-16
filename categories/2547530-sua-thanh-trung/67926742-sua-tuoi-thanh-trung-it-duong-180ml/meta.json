@@ -1,0 +1,133 @@
+{
+  "kiotProductId": "67926742",
+  "code": "8935318100055",
+  "barcode": "8935318100055",
+  "name": "Sữa Tươi Thanh Trùng Ít Đường 180ml",
+  "fullName": "Sữa Tươi Thanh Trùng Ít Đường 180ml (Hộp)",
+  "brand": "Đà Lạt Milk",
+  "unit": "Hộp",
+  "category": {
+    "kiotCategoryId": "2547530",
+    "name": "Sữa thanh trùng",
+    "path": "Sữa và các sản phẩm từ sữa > Sữa thanh trùng"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/871bd604b4153370e1623ab68a8ec2328983c4665dfa2a0746f060ae32747e71.webp",
+    "description": "Sữa tươi thanh trùng Dalat Milk ít đường, hộp 180 ml. Sản phẩm thanh trùng, cần giữ lạnh.\n\nQuy cách: 180 ml · hộp\nNhà sản xuất/thương hiệu: Dalat Milk",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "line consistency 20/10: carton width matched to the Dalat Milk 180ml cartons (w54 -> w50) — I1: chưa có ảnh; trang hãng dalatmilk.vn lỗi → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: dấu sao sau ÍT ĐƯỜNG vẽ thành ngôi sao 4 cánh (bản thật là dấu *); chữ nhỏ cạnh bên vẽ mờ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh Kingfoodmart theo mã vạch (chỉ làm mẫu)",
+      "referenceUrl": "https://storage.googleapis.com/onelife-public/8935318100055.jpg"
+    },
+    "rubricVersion": "v23"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; không truy cập được trang hãng, viết ngắn chỉ từ dữ kiện chắc chắn (tên SP; thương hiệu theo mã vạch cùng dãy với SP Dalat Milk ít đường 450 ml)",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-14T00:27:22.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "batch f1: image REPLACE→NEEDS_PHOTO (no image), description WRITE_NEW short"
+    },
+    {
+      "at": "2026-10-17T08:23:03Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T08:23:12.274Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-20T16:44:25Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "line consistency 20/10: carton width matched to the Dalat Milk 180ml cartons (w54 -> w50)"
+    },
+    {
+      "at": "2026-10-20T16:45:36.476Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-21T08:30:34.700Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-26T04:58:33.990Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-20T16:45:36.476Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-20T16:50:52.642Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-20T16:50:52.642Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/871bd604b4153370e1623ab68a8ec2328983c4665dfa2a0746f060ae32747e71.webp"
+        ],
+        "from": [
+          "https://img.tram8.vn/products/8cf8d3dd0a32aa583a0dd6e90e7008531ed6dc402caca9afb3acdfaff63feade.webp"
+        ]
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

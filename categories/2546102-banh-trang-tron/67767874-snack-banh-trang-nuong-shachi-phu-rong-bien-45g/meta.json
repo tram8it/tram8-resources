@@ -1,0 +1,126 @@
+{
+  "kiotProductId": "67767874",
+  "code": "8936183003069",
+  "barcode": "8936183003069",
+  "name": "Snack Bánh Tráng Nướng SHACHI Phủ Rong Biển 45g",
+  "fullName": "Snack Bánh Tráng Nướng SHACHI Phủ Rong Biển 45g (Gói)",
+  "brand": "Sachi",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2546102",
+    "name": "Bánh tráng trộn",
+    "path": "Đồ ăn vặt > Bánh tráng trộn"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/36e3bde2a94aa9c59451c076d4ecb0ca2643f253816df6b31c37f63f569720d6.webp",
+    "description": "Snack bánh tráng nướng Sachi phủ rong biển: bánh tráng làm từ gạo, bột mì và nước cốt dừa, nướng giòn rụm, phủ rong biển thơm, vị cay nhẹ. Ăn chay được.\n\nQuy cách: 45 g · gói\nXuất xứ: Việt Nam · Thương hiệu: Sachi (Sachi Foods)",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I1: chưa có ảnh; trang hãng chỉ có ảnh banner → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ nhỏ ở các nhãn phụ (Thơm ngon đậm vị, Giòn rụm, Healthy…) theo banner, có thể lệch nét",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-18",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh banner trên trang hãng banhtrangsachi.com (có giỏ bánh, chỉ làm mẫu) + kiểu ảnh Sachi Phủ Mực Nướng đã duyệt",
+      "referenceUrl": "https://banhtrangsachi.com/banh-trang-nuong-tam-vi-rong-bien/"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "REWRITE",
+    "reason": "D2: bổ sung nguyên liệu theo trang hãng banhtrangsachi.com và chữ in trên gói",
+    "source": {
+      "url": "https://banhtrangsachi.com/banh-trang-nuong-tam-vi-rong-bien/",
+      "fetchedAt": "2026-10-18T18:31:12Z"
+    },
+    "rubricVersion": "v23"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:32:10.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "batch b09 review: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T05:15:16Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "Không có ảnh mẫu nào của vị rong biển"
+    },
+    {
+      "at": "2026-10-18T18:30:55Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-18T18:31:12Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "description written (REWRITE) on 18/10 re-research"
+    },
+    {
+      "at": "2026-10-18T18:31:30.278Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T02:05:27.524Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T03:19:05.400Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-18T18:31:30.278Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T01:49:55.104Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T01:49:55.104Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/36e3bde2a94aa9c59451c076d4ecb0ca2643f253816df6b31c37f63f569720d6.webp"
+        ],
+        "from": null
+      },
+      "description": {
+        "to": "Snack bánh tráng nướng Sachi phủ rong biển: bánh tráng làm từ gạo, bột mì và nước cốt dừa, nướng giòn rụm, phủ rong biển thơm, vị cay nhẹ. Ăn chay được.\n\nQuy cách: 45 g · gói\nXuất xứ: Việt Nam · Thương hiệu: Sachi (Sachi Foods)",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

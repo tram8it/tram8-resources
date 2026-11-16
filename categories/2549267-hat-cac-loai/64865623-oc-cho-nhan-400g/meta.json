@@ -1,0 +1,113 @@
+{
+  "kiotProductId": "64865623",
+  "code": "SP000312",
+  "barcode": "8936236140284",
+  "name": "Óc Chó Nhân 400g",
+  "fullName": "Óc Chó Nhân 400g (Lọ)",
+  "brand": "Quang Thanh",
+  "unit": "Lọ",
+  "category": {
+    "kiotCategoryId": "2549267",
+    "name": "Hạt các loại",
+    "path": "Đồ ăn vặt > Hạt các loại · Hoa quả sấy > Hạt các loại"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/1bdf82399f649c271f54d553724b9d2fbb4f90b646922bcf12be81b807fde0d6.webp",
+    "description": "Nhân hạt óc chó (Walnuts) Quang Thanh Foods đóng hũ nhựa.\n\nQuy cách: 400 g · hũ\nThương hiệu: Quang Thanh Foods",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I3, I5: ảnh chụp cận nhãn, hũ bị khung cắt; không có trang hãng Quang Thanh Foods → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Mặt trước nhãn chép đúng (TL:400G, Óc Chó Nhân, Walnuts, omega 3, 100% Organic, Nutrition For Family); bỏ dòng NXS/HSD. Nắp hũ không thấy trong ảnh mẫu → vẽ nắp nhựa trong (cần chủ so với hàng thật). Chữ ở hai mép nhãn (bảng thành phần, địa chỉ, mã vạch) là chữ AI tự vẽ, nhỏ, không đọc được đầy đủ.",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (ảnh chụp tại cửa hàng)",
+      "referenceUrl": "https://cdn1-retail-images.kiotviet.vn/2026/01/04/tongpenhchtl/7a3382d6c567427aae982ad1d8f3db4c.jpeg"
+    },
+    "rubricVersion": "v17"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; mô tả ngắn chỉ từ dữ kiện chắc chắn (tên SP, chữ in mặt trước bao bì) vì không có trang hãng",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:43:14.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T05:13:03Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T05:13:08.580Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T05:23:58.238Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T05:13:08.580Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T05:14:20.159Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T05:14:20.159Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/1bdf82399f649c271f54d553724b9d2fbb4f90b646922bcf12be81b807fde0d6.webp"
+        ],
+        "from": [
+          "https://cdn1-retail-images.kiotviet.vn/2026/01/04/tongpenhchtl/7a3382d6c567427aae982ad1d8f3db4c.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Nhân hạt óc chó (Walnuts) Quang Thanh Foods đóng hũ nhựa.\n\nQuy cách: 400 g · hũ\nThương hiệu: Quang Thanh Foods",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

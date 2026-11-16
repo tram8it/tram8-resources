@@ -1,0 +1,120 @@
+{
+  "kiotProductId": "68693563",
+  "code": "028400017091",
+  "barcode": "028400017091",
+  "name": "Bánh Snack Doritos Cool Ranch 7oz",
+  "fullName": "Bánh Snack Doritos Cool Ranch 7oz (Gói)",
+  "brand": "Doritos",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2549014",
+    "name": "Snack bắp & phồng",
+    "path": "Đồ ăn vặt > Snacks > Snack bắp & phồng"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/0023a723e6d0c213cf9f19c7023ad645da35bfcb34a05724c6e65632099b3259.webp",
+    "description": "Snack bánh tortilla Doritos vị Cool Ranch. Hàng Mỹ.\n\nQuy cách: 7 oz · gói\nThương hiệu: Doritos (Frito-Lay)",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "chủ 31/10: hàng family size, gói cao dài — ảnh cũ thấp làm khách nhầm cỡ → vẽ lại dáng gói cao (~1,8–2 lần chiều ngang), cả lô cùng tỉ lệ → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ nhỏ có thể mờ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-31",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet + ảnh hãng (cheetos.com/doritos.com) + ảnh chủ gửi Doritos 31/10"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "viết theo bao bì + tên hàng",
+    "source": null,
+    "rubricVersion": "v18"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-31T14:03:54.159Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-31T14:15:25Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-31T14:15:41.109Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-31T14:26:35.820Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-31T14:31:51Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 4, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-31T14:31:59.784Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-31T14:39:21.269Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-11-02T09:01:21.866Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-31T14:31:59.784Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-31T14:34:44.771Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-31T14:34:44.771Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/0023a723e6d0c213cf9f19c7023ad645da35bfcb34a05724c6e65632099b3259.webp"
+        ],
+        "from": [
+          "https://img.tram8.vn/products/2f636226fbad3b2fe37428b726e74f399795d6d1c3f3391e8dd1f3eeafadf532.webp"
+        ]
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

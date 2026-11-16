@@ -1,0 +1,180 @@
+{
+  "kiotProductId": "65960464",
+  "code": "5061005923461",
+  "barcode": "5061005923461",
+  "name": "Sữa lợi khuẩn ukf 320G-923461",
+  "fullName": "Sữa lợi khuẩn ukf 320G-923461 (Chai)",
+  "brand": "UKF",
+  "unit": "Chai",
+  "category": {
+    "kiotCategoryId": "2547911",
+    "name": "Sữa chua uống",
+    "path": "Sữa và các sản phẩm từ sữa > Sữa chua > Sữa chua uống"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/9798d883c0845177f2997eccbca0082ac20f82b95c7754a1ce99b9be4b5d03e6.webp",
+    "description": "Sữa lợi khuẩn UKF (Lactic Acid Bacteria), đồ uống có men vi sinh, không béo theo chữ in trên chai (Active probiotics, Zero fat).\n\nQuy cách: 320 g · chai\nNhà sản xuất/thương hiệu: UKF",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "ảnh tự chụp (chai mềm, bóng); không có ảnh hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ lớn khớp (UKF, Active Probiotics, Zero Fat, Lactic Acid Bacteria, Net Wt: 320g); chữ nhỏ dưới mờ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet của cửa hàng (chỉ làm mẫu)",
+      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/07/29/tram8/b8dbdb2b75a84e77b13ee292c1fc3e40.png"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết ngắn chỉ từ tên SP và chữ in mặt trước bao bì (không có trang hãng)",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:36:29.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "b10 review: image CROP, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-15T09:16:17Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "tone.py --vivid: white balance/levels + brand-like colour (owner request)"
+    },
+    {
+      "at": "2026-10-17T14:19:52Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T14:19:52.806Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T14:19:52.806Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T16:48:45.800Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T16:48:45.800Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/9798d883c0845177f2997eccbca0082ac20f82b95c7754a1ce99b9be4b5d03e6.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/29/tram8/b8dbdb2b75a84e77b13ee292c1fc3e40.png"
+        ]
+      },
+      "description": {
+        "to": "Sữa lợi khuẩn UKF (Lactic Acid Bacteria), đồ uống có men vi sinh, không béo theo chữ in trên chai (Active probiotics, Zero fat).\n\nQuy cách: 320 g · chai\nNhà sản xuất/thương hiệu: UKF",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {
+      "price": {
+        "to": 21296.3,
+        "from": 20909.09
+      },
+      "saleTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 65960464
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 65960464
+        }
+      },
+      "taxRate": {
+        "to": "VAT 8%",
+        "from": "VAT 10%"
+      },
+      "productTaxs": {
+        "to": [
+          {
+            "id": 0,
+            "name": "VAT 8%",
+            "taxId": 3,
+            "value": 8,
+            "productId": 65960464
+          }
+        ],
+        "from": [
+          {
+            "id": 0,
+            "name": "VAT 10%",
+            "taxId": 4,
+            "value": 10,
+            "productId": 65960464
+          }
+        ]
+      },
+      "purchaseTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 65960464
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 65960464
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "kiotProductId": "64865627",
+  "code": "8936202668460",
+  "barcode": "8936202668460",
+  "name": "Ô mai mận xào gừng",
+  "fullName": "Ô mai mận xào gừng (Hộp)",
+  "brand": "Phương Huyền",
+  "unit": "Hộp",
+  "category": {
+    "kiotCategoryId": "2549269",
+    "name": "Ô mai - Xí muội",
+    "path": "Đồ ăn vặt > Hạt các loại · Hoa quả sấy > Ô mai - Xí muội"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/bbaa2cfb7a36db15f48b70cfdefec61202e7e5f3df6cde9476febc2c4cd68812.webp",
+    "description": "Ô mai mận xào gừng của Phương Huyền Food, đựng trong hũ nhựa nắp vặn.\n\nQuy cách: 200 g · hũ\nThương hiệu: Phương Huyền Food",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I3/I4/I5: ảnh tay cầm/hũ chụp điện thoại, nền không trắng, bị khung cắt; Phương Huyền Food không có trang hãng có ảnh SP → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: đáy hũ vẽ suy ra từ ảnh bị cắt; đã bỏ dòng in NSX/HSD; nhãn và Khối lượng tịnh 200G đúng",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet chụp hũ (chỉ làm mẫu)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; mô tả ngắn từ chữ in mặt trước nhãn (tên, thương hiệu, khối lượng tịnh)",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-14T00:28:46.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "batch f2: image REPLACE -> needs photo, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T08:24:16Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T08:24:38.813Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T08:24:38.813Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T08:37:58.382Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T08:37:58.382Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/bbaa2cfb7a36db15f48b70cfdefec61202e7e5f3df6cde9476febc2c4cd68812.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2025/12/05/tongpenhchtl/a78f9ef866c444d184cfce04c1c16c94.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Ô mai mận xào gừng của Phương Huyền Food, đựng trong hũ nhựa nắp vặn.\n\nQuy cách: 200 g · hũ\nThương hiệu: Phương Huyền Food",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "kiotProductId": "65766247",
+  "code": "064900000485",
+  "barcode": "064900000485",
+  "name": "Kẹo sing-gum Hubba Bubba Original vị truyền thống 56g",
+  "fullName": "Kẹo sing-gum Hubba Bubba Original vị truyền thống 56g (Hộp)",
+  "brand": "Hubba Bubba",
+  "unit": "Hộp",
+  "category": {
+    "kiotCategoryId": "2549272",
+    "name": "Kẹo cao su / singum",
+    "path": "Các loại kẹo > Kẹo cao su / singum"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/47235d3c934c763aab5d42b84e954cb9b80667f07907ff677a6f0eb13637ef7d.webp",
+    "description": "Kẹo sing-gum Hubba Bubba Bubble Tape vị truyền thống (Original), dạng cuộn dài trong hộp tròn.\n\nQuy cách: 56 g · hộp\nNhà sản xuất/thương hiệu: Wrigley's · Hubba Bubba",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I7: ảnh có tem giá/mã vạch của cửa hàng; hubbabubba.com chặn bot (403) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: dòng thành phần nhỏ chạy quanh viền vẽ lại gần đúng, có thể sai chính tả nhỏ (vd. 'SIRUP' thay 'SIROP'); chữ lớn và '56 g' đúng",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh Open Food Facts cùng mã vạch 0064900000485 (bản Canada, chỉ làm mẫu) + ảnh KiotViet",
+      "referenceUrl": "https://world.openfoodfacts.org/product/0064900000485"
+    },
+    "rubricVersion": "v17"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết ngắn từ tên SP và chữ in mặt trước bao bì (không có nguồn hãng)",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:31:48.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "review b08: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T04:54:44Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T04:54:56.323Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T05:23:58.238Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T04:54:56.323Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T05:02:11.704Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T05:02:11.704Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/47235d3c934c763aab5d42b84e954cb9b80667f07907ff677a6f0eb13637ef7d.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/30/tram8/f821dd1ae42d4e1d99d0fe7000c7b851.png"
+        ]
+      },
+      "description": {
+        "to": "Kẹo sing-gum Hubba Bubba Bubble Tape vị truyền thống (Original), dạng cuộn dài trong hộp tròn.\n\nQuy cách: 56 g · hộp\nNhà sản xuất/thương hiệu: Wrigley's · Hubba Bubba",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

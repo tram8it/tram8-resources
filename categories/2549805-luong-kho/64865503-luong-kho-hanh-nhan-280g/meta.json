@@ -1,0 +1,130 @@
+{
+  "kiotProductId": "64865503",
+  "code": "8938554662264",
+  "barcode": "8938554662264",
+  "name": "Lương khô hạnh nhân 280g",
+  "fullName": "Lương khô hạnh nhân 280g (Gói)",
+  "brand": "Energy Dice",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2549805",
+    "name": "Lương khô",
+    "path": "Bánh quy & bánh đóng gói > Lương khô"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/0068fa9bd671babaea4e1ef7e32424904f9f1daccfbf188eca67baf44cd7051f.webp",
+    "description": "Lương khô ăn kiêng vị hạnh nhân Energy Dice, dạng viên nén gói riêng. Ăn trực tiếp, dùng ngay sau khi mở bao bì.\n\nQuy cách: 280 g · gói\nXuất xứ: Việt Nam · Nhà sản xuất/thương hiệu: Công ty CP Chế biến và Thương mại Thực phẩm Hải Châu (Hà Nội) · Energy Dice\nBảo quản: nơi khô ráo, thoáng mát, tránh ánh nắng trực tiếp.",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "có ảnh nhân viên mới → vẽ lại sạch → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: vẽ phẳng, sạch theo ảnh chụp; chữ nhỏ để mờ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-19",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh nhân viên chụp (KiotViet 19/10)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết ngắn từ chữ in trên gói (Lương khô ăn kiêng hạnh nhân, nhà sản xuất, hướng dẫn, bảo quản); bảng thành phần trong ảnh bị lóa một phần nên không chép",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-14T00:31:15.096Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "batch f3: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T08:24:52.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "wave3: no usable reference for a Gemini redraw"
+    },
+    {
+      "at": "2026-10-18T17:56:03Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "staff photo 2026-10-18 received (work/gemini/<id>/refs/2-staff.jpg) but wrinkled/tilted/glare → needs Gemini redraw; GEMINI_API_KEY not set on this machine"
+    },
+    {
+      "at": "2026-10-18T18:46:08Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "np18 re-research 18/10: still no usable reference for this exact pack (see image.reason)"
+    },
+    {
+      "at": "2026-10-19T05:20:40Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "redo after Hub rejection:  — Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-19T05:20:40.505Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T07:23:08.254Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T17:15:09.663Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-19T05:20:40.505Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T05:23:26.485Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T05:23:26.485Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/0068fa9bd671babaea4e1ef7e32424904f9f1daccfbf188eca67baf44cd7051f.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/10/19/tram8/e68b1407652f4971a85d79e70e973b03.png"
+        ]
+      },
+      "description": {
+        "to": "Lương khô ăn kiêng vị hạnh nhân Energy Dice, dạng viên nén gói riêng. Ăn trực tiếp, dùng ngay sau khi mở bao bì.\n\nQuy cách: 280 g · gói\nXuất xứ: Việt Nam · Nhà sản xuất/thương hiệu: Công ty CP Chế biến và Thương mại Thực phẩm Hải Châu (Hà Nội) · Energy Dice\nBảo quản: nơi khô ráo, thoáng mát, tránh ánh nắng trực tiếp.",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

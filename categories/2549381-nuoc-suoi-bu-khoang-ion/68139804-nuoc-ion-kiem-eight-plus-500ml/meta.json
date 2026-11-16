@@ -1,0 +1,112 @@
+{
+  "kiotProductId": "68139804",
+  "code": "8938520772072",
+  "barcode": "8938520772072",
+  "name": "Nước ion kiềm eight plus 500ml",
+  "fullName": "Nước ion kiềm eight plus 500ml (Chai)",
+  "brand": "Eight Plus",
+  "unit": "Chai",
+  "category": {
+    "kiotCategoryId": "2549381",
+    "name": "Nước suối / bù khoáng / ion",
+    "path": "Đồ uống đóng chai > Nước suối / bù khoáng / ion"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/f6cae3bc65fb3a2d9409f1728782b36e1c2e457b45472cc4f1e61ed68754ed96.webp",
+    "description": "Nước uống i-on kiềm thiên nhiên Eight Plus (pH Water, Alkaline).\n\nQuy cách: 500 ml · chai\nNhà sản xuất/thương hiệu: Eight Plus",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I3/I4/I5: ảnh chụp chai trên nền xi măng, bị cắt nắp/đáy; không tìm được trang hãng Eight Plus → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: nắp và đáy chai vẽ suy ra (ảnh mẫu bị cắt); dòng chữ nhỏ '100% Natural Alkaline Water' đọc từ ảnh mẫu mờ, có thể lệch",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet chụp chai (chỉ làm mẫu)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết từ chữ in trên nhãn ở ảnh hiện tại",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:07:05.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "b18 review (rubric v4): image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T07:50:37Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T07:50:38.574Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T08:06:02.482Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T07:50:38.574Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T07:56:50.294Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T07:56:50.294Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/f6cae3bc65fb3a2d9409f1728782b36e1c2e457b45472cc4f1e61ed68754ed96.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/09/17/tram8/b9a35712c563456797562e86b7431267.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Nước uống i-on kiềm thiên nhiên Eight Plus (pH Water, Alkaline).\n\nQuy cách: 500 ml · chai\nNhà sản xuất/thương hiệu: Eight Plus",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

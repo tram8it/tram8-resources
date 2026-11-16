@@ -1,0 +1,173 @@
+{
+  "kiotProductId": "68504567",
+  "code": "6953236392217",
+  "barcode": "6953236392217",
+  "name": "Bia Két Innốc Mataico,1000ml",
+  "fullName": "Bia Két Innốc Mataico,1000ml - 4.7% (Lon)",
+  "brand": "Hàng nội địa Trung",
+  "unit": "Lon",
+  "category": {
+    "kiotCategoryId": "2549771",
+    "name": "Nhập khẩu & premium",
+    "path": "Đồ uống có cồn (18+) > Bia > Nhập khẩu & premium"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/4d8a27c4f3540689513913fcb81d49330a48debb30ce399cbd688138acb42c61.webp",
+    "description": "Bia trắng thủ công (精酿白啤酒) Mataico, đựng trong lon kiểu két (keg) bằng kim loại 1 lít, nhãn tiếng Trung.\n\nQuy cách: 1 L · lon két\nThương hiệu: Mataico (美太功)\nSản phẩm dành cho người từ 18 tuổi trở lên.",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I3/I4: ảnh chụp điện thoại trong cửa hàng, nền thùng/kệ, lon bị cắt; không có ảnh hãng dùng được → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Đoạn thành phần/địa chỉ và mã vạch mặt bên để mờ (không đọc được); nắp keg vẽ theo ảnh",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-3.1-flash-image",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: KiotViet chưa có mô tả; viết ngắn từ chữ in trên nhãn (ảnh KiotViet: 净含量 1L)",
+    "source": null,
+    "rubricVersion": "v20"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-17T17:42:08Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-3.1-flash-image), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T17:43:21Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T17:43:54.160Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-18T17:16:08.691Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T03:19:05.400Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T17:43:54.160Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T17:48:00.941Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T17:48:00.941Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/4d8a27c4f3540689513913fcb81d49330a48debb30ce399cbd688138acb42c61.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/10/16/tram8/0cf5ad50ddf9488283525a5d63f616dc.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Bia trắng thủ công (精酿白啤酒) Mataico, đựng trong lon kiểu két (keg) bằng kim loại 1 lít, nhãn tiếng Trung.\n\nQuy cách: 1 L · lon két\nThương hiệu: Mataico (美太功)\nSản phẩm dành cho người từ 18 tuổi trở lên.",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {
+      "price": {
+        "to": 76851.85,
+        "from": 75454.55
+      },
+      "saleTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 68504567
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 68504567
+        }
+      },
+      "taxRate": {
+        "to": "VAT 8%",
+        "from": "VAT 10%"
+      },
+      "productTaxs": {
+        "to": [
+          {
+            "id": 0,
+            "name": "VAT 8%",
+            "taxId": 3,
+            "value": 8,
+            "productId": 68504567
+          }
+        ],
+        "from": [
+          {
+            "id": 0,
+            "name": "VAT 10%",
+            "taxId": 4,
+            "value": 10,
+            "productId": 68504567
+          }
+        ]
+      },
+      "purchaseTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 68504567
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 68504567
+        }
+      }
+    }
+  }
+}

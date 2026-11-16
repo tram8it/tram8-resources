@@ -15,11 +15,13 @@ và `STATUS.md` rồi làm tiếp đúng chỗ — không dựa vào trí nhớ 
 **Giới hạn cứng (vi phạm là dừng):**
 
 1. **Nguồn ảnh/mô tả chỉ từ trang chính hãng** của nhà sản xuất/thương hiệu (danh sách trong
+   `data/brands.json`), hoặc trang **nhà phân phối đang cấp hàng cho Trạm 8** (RUBRIC v11, `role: "distributor"` trong
    `data/brands.json`). **Cấm** lấy từ nhà bán lẻ/sàn: xem `data/blocked-domains.json`
    (Bách Hóa Xanh, WinMart, Shopee, …). Không tìm được trên trang hãng → **CẦN CHỤP**, không lấy tạm.
 2. **Không sửa cái đang đúng.** Khoảng 1/3 sản phẩm đã đúng: chỉ sửa cái **chắc chắn sai**.
 3. **Không chắc thì không đoán** → trạng thái `ASK_OWNER` kèm câu hỏi cụ thể.
-4. **Không bịa thông tin** trong mô tả. Thiếu dữ kiện thì bỏ trống mục đó.
+4. **Không bịa thông tin** trong mô tả. Thiếu dữ kiện thì bỏ trống mục đó. Thứ tự nguồn mô tả khi trang hãng
+   không có: xem `RUBRIC.md` v2 (nhãn mặt sau → mô tả ngắn từ dữ kiện chắc chắn).
 5. **Repo này chỉ chuẩn bị.** Không phiên nào gọi API ghi vào Hub/KiotViet. Đưa lên web là bước
    riêng (§7), chỉ cho sản phẩm `APPROVED`.
 
@@ -88,6 +90,33 @@ giữ ảnh nhưng viết lại mô tả.
 3. Commit theo lô: `review(<category>): <n> SP — X giữ, Y sửa, Z cần chụp, W hỏi chủ`. Push.
 4. Báo chủ: link trang duyệt + danh sách `ASK_OWNER` + danh sách `NEEDS_PHOTO`.
 
+## 5b. Cách chủ làm việc (đã thống nhất 14/10/2026)
+
+Mọi phiên AI làm theo đúng nhịp này:
+
+1. **Cuốn chiếu từng danh mục, làm xong hẳn mới sang danh mục khác.** "Xong" = trên tram8.vn mọi SP
+   của danh mục có ảnh đúng + mô tả, Hub không còn đề xuất chờ, chỉ còn câu hỏi chủ đã thấy.
+   Trước khi báo xong: `proposals.mjs sync`, đối chiếu `tram8.vn/data/catalog.json` (SP không ảnh),
+   liệt kê đủ những gì còn lại — đừng nói "xong" khi còn sót.
+2. **Ưu tiên ảnh hãng.** Tìm kỹ trên trang/kênh chính chủ (cả trang theo nước: buldak.com/vn,
+   indomie.vn, afotech.vn, paldovina.com, hồ sơ tự công bố PDF…), **kể cả khi ảnh hiện tại đã đạt**.
+   Trang chặn bot thì nói thẳng và nhờ chủ lấy ảnh — không vượt chặn.
+   **Không có ảnh hãng hoặc không đủ nét** → ảnh nhà phân phối (hỏi chủ NPP nào) → **Gemini vẽ lại**
+   (điều khiển Gemini trên Chrome của chủ, tài khoản admin@tram8.vn) từ ảnh mẫu rõ nhất — BHX, Lotte Mart…
+   chỉ làm mẫu. Ảnh chụp tay chỉ dùng khi **rất đẹp**, và khi đã dùng thì **cả dãy SP** dùng chụp tay;
+   mặc định ưu tiên Gemini cho đồng bộ (RUBRIC v13–v14). So từng ảnh vẽ với mẫu: chữ vị,
+   khối lượng, logo; Gemini hay tự thêm chữ (vd. '161g') → bảo nó xoá. Tải ảnh về: chỉ lấy file
+   `Gemini_Generated_Image_*` vừa tải (`find ~/Downloads -mmin -2`) — Downloads có ảnh riêng của chủ.
+3. **Chủ gửi ảnh vào chat** (render hãng, ảnh gian hàng chính hãng, ảnh nhân viên chụp, ảnh AI chủ tạo):
+   xử lý ngay — tách nền/cắt sát/tô trắng nền, chuẩn hoá 1:1, **mở ảnh ra xem mép, nắp, đáy, chữ**
+   (hay bị cắt cụt hoặc dính vật bên cạnh), so với ảnh cũ, rồi gửi đề xuất. Ảnh AI: báo chủ chỗ khác
+   gói thật (RUBRIC v8).
+4. **Hỏi ít, hỏi đúng, gom lại.** Câu hỏi nêu mã vạch, ảnh đang thấy, các phương án; chủ trả lời ngắn
+   ("đúng hình đấy", "bán gói lẻ") là đủ để làm tiếp.
+5. **Việc phải sửa tay trên KiotViet** (tên sai, mã trùng, đổi danh mục) → ghi `OWNER_TODO.md`, không chặn.
+6. Sau mỗi lô: commit + push; báo chủ ngắn gọn bằng tiếng Việt, bảng SP → ảnh → ghi chú; lỗi của mình
+   thì nhận và nói đã sửa thế nào.
+
 ## 6. Chủ duyệt và tiêu chí được học thêm
 
 - Chủ duyệt theo lô trên trang duyệt; trả lời bằng tin nhắn hoặc file trong `answers/`.
@@ -96,13 +125,23 @@ giữ ảnh nhưng viết lại mô tả.
   lại — chỉ khi chủ yêu cầu.
 - Chủ báo lại “SP này chưa đúng” bất cứ lúc nào → SP về `IN_PROGRESS`, ghi lý do vào `history`.
 
-## 7. Đưa lên web (bước riêng, sau cùng)
+## 7. Đưa lên web và KiotViet — chủ duyệt tay trên Hub
 
-- Làm ở repo **tram8-hub**, một PR riêng: API hẹp `PUT /api/v1/products/:kiotProductId/content`
-  **chỉ nhận ảnh + mô tả**, scope riêng, ghi log giá trị cũ để rollback; trường do Hub sở hữu nên
-  sync KiotViet không ghi đè. (Thiết kế chi tiết khi tới bước này.)
-- Chỉ đẩy SP `APPROVED`. Thử 20 SP → kiểm tram8.vn → đẩy phần còn lại theo category.
-- Sau khi đẩy: `UPLOADED` + ngày + hash ảnh.
+Chủ quyết 13/10/2026: nội dung về **thẳng bản ghi sản phẩm trên KiotViet** — tên (mẫu
+"Loại + Thương hiệu + Vị + Khối lượng"), trọng lượng (khối lượng tịnh), thương hiệu (in trên gói),
+ảnh, mô tả — nhưng **mọi thay đổi do chủ duyệt bằng tay trên Hub**. **Tên trên hoá đơn điện tử không
+bao giờ đổi.** Hub: `docs/25-ghi-san-pham-kiotviet.md`.
+
+1. SP làm xong (`READY`) → `node tools/proposals.mjs submit <category>` (xem trước) → `--send`.
+   Token: `products:read` + `products:proposals:write` (không có quyền ghi KiotViet).
+2. Chủ mở **Hub › Công cụ › Duyệt nội dung SP**: so KiotViet hiện tại với đề xuất từng trường, bỏ
+   chọn/sửa nếu cần, **Áp dụng** hoặc **Từ chối** kèm lý do. Sau khi áp dụng, đối chiếu trên KiotViet.
+3. `node tools/proposals.mjs sync` → đã áp dụng thành `UPLOADED`; bị từ chối về `IN_PROGRESS` kèm lý do
+   trong `history` — sửa rồi gửi lại.
+4. Thương hiệu chưa có trên KiotViet → trang duyệt báo trước; chủ tạo trên KiotViet rồi áp dụng.
+5. Vị trí kệ chưa ghi qua API — đặt trên KiotViet (vd. "Kệ đồ khô").
+
+`review/<category>.html` vẫn dùng được để tự xem lại trước khi gửi.
 
 ## 8. Đầu vào cần có
 

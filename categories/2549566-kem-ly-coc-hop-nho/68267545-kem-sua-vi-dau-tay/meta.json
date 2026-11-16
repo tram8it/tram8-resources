@@ -1,0 +1,140 @@
+{
+  "kiotProductId": "68267545",
+  "code": "SP878255",
+  "barcode": "6970377577402",
+  "name": "Kem Sữa Vị Dâu Tây",
+  "fullName": "Kem Sữa Vị Dâu Tây (Ly)",
+  "brand": null,
+  "unit": "Ly",
+  "category": {
+    "kiotCategoryId": "2549566",
+    "name": "Kem ly / cốc / hộp nhỏ",
+    "path": "Kem & Đồ đông lạnh > Kem ly / cốc / hộp nhỏ"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/48b331a1cfd7bc312afd5e73affddb0262ddfb3b0fed004f218ace1560bf5429.webp",
+    "description": "Kem sữa vị dâu tây, dạng ly.\n\nQuy cách: ly\nBảo quản: Giữ đông ở −18 °C hoặc lạnh hơn.",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "chủ 21/10: ảnh minh hoạ cũ sai hình kem → vẽ theo ảnh chủ chụp → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: kem hình quả dâu đỏ hồng, hộp xanh nhạt, Net 75g theo ảnh; chữ nhỏ để mờ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-21",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh chủ chụp kem thật tại cửa hàng 21/10 (hộp xanh, kem hình quả dâu)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; mô tả ngắn chỉ từ tên hàng",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:40:09.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "rubric v4: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T05:15:38Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "re-checked brand sites/retail/OFF for references (batch 17/10): none usable"
+    },
+    {
+      "at": "2026-10-18T18:46:07Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "np18 re-research 18/10: still no usable reference for this exact pack (see image.reason)"
+    },
+    {
+      "at": "2026-10-19T07:35:23Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "np19 re-research 19/10 (image search): still no image of this exact product → NEEDS_PHOTO"
+    },
+    {
+      "at": "2026-10-21T01:56:15Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "illustration 20/10: route 2: vẽ theo SP cùng dòng 3D Ice Cream Pop Firstfood vị dứa (68267601, mã vạch cùng dãy 6970377577xxx)"
+    },
+    {
+      "at": "2026-10-21T01:56:15.971Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-21T02:17:25Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "redo after Hub rejection:  — Gemini API redraw (attempt 3, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-21T02:17:25.551Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-21T08:30:34.700Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-26T04:58:33.990Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-21T02:17:25.551Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-21T02:18:51.022Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-21T02:18:51.022Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/48b331a1cfd7bc312afd5e73affddb0262ddfb3b0fed004f218ace1560bf5429.webp"
+        ],
+        "from": null
+      },
+      "description": {
+        "to": "Kem sữa vị dâu tây, dạng ly.\n\nQuy cách: ly\nBảo quản: Giữ đông ở −18 °C hoặc lạnh hơn.",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

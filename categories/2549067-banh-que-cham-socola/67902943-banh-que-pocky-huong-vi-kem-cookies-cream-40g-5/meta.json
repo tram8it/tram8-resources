@@ -1,0 +1,129 @@
+{
+  "kiotProductId": "67902943",
+  "code": "8851019500195",
+  "barcode": "8851019500195",
+  "name": "BÁNH QUE POCKY HƯƠNG VỊ KEM COOKIES & CREAM 40G ×5 HỘP",
+  "fullName": "BÁNH QUE POCKY HƯƠNG VỊ KEM COOKIES & CREAM 40G ×5 HỘP (Hộp)",
+  "brand": "Pocky",
+  "unit": "Hộp",
+  "category": {
+    "kiotCategoryId": "2549067",
+    "name": "Bánh que chấm socola",
+    "path": "Bánh quy & bánh đóng gói > Bánh que chấm socola"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/86867fe989ca866b0ab28e6f01b9aa0ab0b946c49ceda155b5799f64b7f55e9f.webp",
+    "description": "Bánh que Pocky vị Cookies & Cream của Glico: que bánh quy sô-cô-la phủ lớp kem hương sữa trộn vụn bánh cookie.\n\nQuy cách: 40 g · hộp\nNhà sản xuất/thương hiệu: Glico · Pocky",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "line consistency 20/10 (v14): 3/4 box with side panel vs flat front Pocky boxes -> flat front → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: bỏ dải chữ nhỏ 'Share happiness' ở mép trên",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-20",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh hiện tại của SP (nội dung) + ảnh SP cùng dòng 67182647 (góc chụp/khung/ánh sáng)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết từ chữ in trên hộp (ảnh hãng)",
+    "source": {
+      "url": "https://www.glico.com/sg/product/pocky/",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:07:05.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "b18 review (rubric v4): image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-16T06:08:44.260Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T03:59:04.373Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-20T16:40:25Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "line consistency 20/10: 3/4 box with side panel vs flat front Pocky boxes -> flat front (Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references)"
+    },
+    {
+      "at": "2026-10-20T16:41:03.238Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-21T08:30:34.700Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-26T04:58:33.990Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-20T16:41:03.238Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-20T16:44:28.193Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-20T16:44:28.193Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/86867fe989ca866b0ab28e6f01b9aa0ab0b946c49ceda155b5799f64b7f55e9f.webp"
+        ],
+        "from": [
+          "https://img.tram8.vn/products/551dcbedec604308433ef326148536134e98c7865309a5301c55d6d0db4ca043.webp"
+        ]
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

@@ -1,0 +1,187 @@
+{
+  "kiotProductId": "64865800",
+  "code": "8936193070051",
+  "barcode": "8936193070051",
+  "name": "Nước Dr Thanh Trà Thanh Nhiệt",
+  "fullName": "Nước Dr Thanh Trà Thanh Nhiệt (Chai)",
+  "brand": "Dr Thanh",
+  "unit": "Chai",
+  "category": {
+    "kiotCategoryId": "2549372",
+    "name": "Trà đóng chai",
+    "path": "Đồ uống đóng chai > Trà đóng chai"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/7d58ad550bc7db1dea10d3d1a6f1aebb67eb3619996dd7177410f0430d860c84.webp",
+    "description": "Trà thảo mộc Dr.Thanh (Cooling Tea) của Tân Hiệp Phát, từ 9 loại thảo mộc tự nhiên, uống thanh nhiệt; đóng chai công nghệ Aseptic.\n\nQuy cách: 330 ml · chai\nThương hiệu: Dr.Thanh (Tân Hiệp Phát)",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I1: chưa có ảnh; trang hãng chỉ có ảnh lifestyle → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ nhỏ trên nhãn có thể khác; không ghi dung tích trên ảnh",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh Open Food Facts theo mã vạch 8936193070051 (chai thật, chỉ làm mẫu)",
+      "referenceUrl": "https://world.openfoodfacts.org/product/8936193070051"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết ngắn từ chữ in trên chai; dung tích 330 ml theo ảnh lốc 6 chai × 330 ml cùng mã vạch trên Open Food Facts",
+    "source": {
+      "url": "https://world.openfoodfacts.org/product/8936193070051",
+      "fetchedAt": "2026-10-17"
+    },
+    "rubricVersion": "v19"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:31:48.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "review b08: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T05:20:11Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "Brand site has 330 ml packshot (and a larger size); volume of the sold SKU unknown -> asked owner"
+    },
+    {
+      "at": "2026-10-17T14:09:04Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T14:09:04Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "resolved without asking: Open Food Facts photos for barcode 8936193070051 show the red Dr.Thanh bottle and a 6 x 330 ml pack, so the size is 330 ml"
+    },
+    {
+      "at": "2026-10-17T14:09:11.793Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T14:09:11.793Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T15:19:59.251Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T15:19:59.251Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/7d58ad550bc7db1dea10d3d1a6f1aebb67eb3619996dd7177410f0430d860c84.webp"
+        ],
+        "from": null
+      },
+      "description": {
+        "to": "Trà thảo mộc Dr.Thanh (Cooling Tea) của Tân Hiệp Phát, từ 9 loại thảo mộc tự nhiên, uống thanh nhiệt; đóng chai công nghệ Aseptic.\n\nQuy cách: 330 ml · chai\nThương hiệu: Dr.Thanh (Tân Hiệp Phát)",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {
+      "price": {
+        "to": 11574.07,
+        "from": 11363.64
+      },
+      "saleTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 64865800
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 64865800
+        }
+      },
+      "taxRate": {
+        "to": "VAT 8%",
+        "from": "VAT 10%"
+      },
+      "productTaxs": {
+        "to": [
+          {
+            "id": 0,
+            "name": "VAT 8%",
+            "taxId": 3,
+            "value": 8,
+            "productId": 64865800
+          }
+        ],
+        "from": [
+          {
+            "id": 0,
+            "name": "VAT 10%",
+            "taxId": 4,
+            "value": 10,
+            "productId": 64865800
+          }
+        ]
+      },
+      "purchaseTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 64865800
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 64865800
+        }
+      }
+    }
+  }
+}

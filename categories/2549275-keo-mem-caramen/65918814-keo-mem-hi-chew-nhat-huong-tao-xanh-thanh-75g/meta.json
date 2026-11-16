@@ -1,0 +1,149 @@
+{
+  "kiotProductId": "65918814",
+  "code": "4902888210211",
+  "barcode": "4902888210211",
+  "name": "Kẹo mềm hi-chew Nhật Hương táo xanh Thanh 75g",
+  "fullName": "Kẹo mềm hi-chew Nhật Hương táo xanh Thanh 75g (Thanh)",
+  "brand": "Hi-Chew",
+  "unit": "Thanh",
+  "category": {
+    "kiotCategoryId": "2549275",
+    "name": "Kẹo mềm / caramen",
+    "path": "Các loại kẹo > Kẹo mềm / caramen"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/4b4cdcb5a7498d6c74962e102f1da8b9915682a1ab8e5fa3b764c75733c922f6.webp",
+    "description": "Kẹo mềm Hi-Chew vị táo xanh (Green Apple) của Morinaga (Nhật Bản), viên kẹo nhai dai vị trái cây, đóng thỏi.\n\nQuy cách: 75 g · thỏi\nNhà sản xuất/thương hiệu: Morinaga · Hi-Chew",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I7/I6: ảnh KiotViet có logo cửa hàng khác (EURUS), nhỏ 225px → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ khối lượng 'NET WT. 75g' theo chủ (mẫu in 1.76oz(50g), Open Food Facts cùng mã vạch ghi 57 g); không tìm được ảnh thỏi 75 g nên thiết kế theo thỏi bản Mỹ; bỏ dòng dinh dưỡng mặt trên và logo EURUS",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh Bokksu Market (chỉ làm mẫu, thỏi Hi-Chew Green Apple bản Mỹ 50 g) + ảnh KiotViet",
+      "referenceUrl": "https://bokksumarket.com/products/morinaga-hi-chew-stick-green-apple"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết ngắn từ tên SP, khối lượng 75 g theo chủ xác nhận 17/10",
+    "source": null,
+    "rubricVersion": "v19"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:07:05.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "b18 review (rubric v4): image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T07:47:30Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "Mã 4902888210211 'Kẹo mềm hi-chew Nhật Hương táo xanh Thanh 75g': ảnh KiotViet hiện tại là thanh Hi-Chew Green Apple bản Mỹ ghi NET WT 1.76oz (50 g); Open Food Facts cùng mã vạch là thanh NET 57 g. Không thấy thanh táo xanh 75 g. Gói đang bán in bao nhiêu gam? Chọn: (a) 57 g → sửa tên KiotViet, vẽ l"
+    },
+    {
+      "at": "2026-10-17T08:45:00Z",
+      "by": "owner",
+      "note": "RUBRIC v19: khối lượng tin bao bì đúng mã vạch hơn tên KiotViet; chỉ hỏi khi lệch > ~10% hoặc rõ là cỡ khác",
+      "status": "ASK_OWNER"
+    },
+    {
+      "at": "2026-10-17T09:30:00Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "gap > ~10% / other size or needs shelf check: question shortened to the two numbers (RUBRIC v19)"
+    },
+    {
+      "at": "2026-10-17T12:00:00Z",
+      "by": "owner",
+      "status": "ASK_OWNER",
+      "note": "Kiểm kệ 17/10: chưa trả lời"
+    },
+    {
+      "at": "2026-10-17T13:30:00Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "not answered in 17/10 shelf check — left ASK_OWNER"
+    },
+    {
+      "at": "2026-10-17T13:51:52Z",
+      "by": "owner",
+      "status": "ASK_OWNER",
+      "note": "Chủ trả lời 17/10: khối lượng 75 g là đúng; tìm gói Hi-Chew táo xanh làm mẫu và vẽ với 75 g"
+    },
+    {
+      "at": "2026-10-17T13:52:11Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T13:52:24.170Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T13:52:24.170Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T13:55:31.977Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T13:55:31.977Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/4b4cdcb5a7498d6c74962e102f1da8b9915682a1ab8e5fa3b764c75733c922f6.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/05/23/tram8/a2e05bc0f895452da9adf7ea5d9b4047.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Kẹo mềm Hi-Chew vị táo xanh (Green Apple) của Morinaga (Nhật Bản), viên kẹo nhai dai vị trái cây, đóng thỏi.\n\nQuy cách: 75 g · thỏi\nNhà sản xuất/thương hiệu: Morinaga · Hi-Chew",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

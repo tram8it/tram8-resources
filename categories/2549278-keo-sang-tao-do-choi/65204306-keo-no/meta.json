@@ -1,0 +1,112 @@
+{
+  "kiotProductId": "65204306",
+  "code": "6971506064695",
+  "barcode": "6971506064695",
+  "name": "Kẹo nổ",
+  "fullName": "Kẹo nổ (Gói)",
+  "brand": "Hàng nội địa Trung",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2549278",
+    "name": "Kẹo sáng tạo / đồ chơi",
+    "path": "Các loại kẹo > Kẹo sáng tạo / đồ chơi"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/70b0bf7204732c2bcb7217d5d6a701aa8537a474a72d244472772d72595d460e.webp",
+    "description": "Kẹo mút Sugarsky Pop Lollipop hai vị kèm gói kẹo nổ, hương trái cây tổng hợp, món kẹo vui cho trẻ em.\n\nQuy cách: 17 g (kẹo mút 15 g + kẹo nổ 2 g) · gói\nNhà sản xuất/thương hiệu: Sugarsky",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I3, I4, I5: ảnh chụp cận gói bằng điện thoại, gói bị cắt, nền không trắng; không có trang hãng Sugarsky → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: mép gói, góc trên trái và phần dưới gói vẽ suy ra từ ảnh cận bị cắt; chữ lớn và 'Khối lượng tịnh: 17g (kẹo mút 15g + Kẹo nổ 2g)' đúng",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet chụp cận gói (chỉ làm mẫu)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết từ chữ in mặt trước gói trong ảnh hiện tại (Sugarsky Pop Lollipop, kẹo mút hai vị kèm kẹo nổ, vị trái cây tổng hợp, KL tịnh 17 g = kẹo mút 15 g + kẹo nổ 2 g)",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:00:36.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "image REPLACE (phone close-up), description WRITE_NEW from pack"
+    },
+    {
+      "at": "2026-10-17T08:21:37Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T08:21:39.774Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T08:21:39.774Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T08:36:37.286Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T08:36:37.286Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/70b0bf7204732c2bcb7217d5d6a701aa8537a474a72d244472772d72595d460e.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/04/25/tram8/3c6754c68ce2437380fa6a27cd7716ce.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Kẹo mút Sugarsky Pop Lollipop hai vị kèm gói kẹo nổ, hương trái cây tổng hợp, món kẹo vui cho trẻ em.\n\nQuy cách: 17 g (kẹo mút 15 g + kẹo nổ 2 g) · gói\nNhà sản xuất/thương hiệu: Sugarsky",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

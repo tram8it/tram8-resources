@@ -1,0 +1,119 @@
+{
+  "kiotProductId": "65109400",
+  "code": "8992775345023",
+  "barcode": "8992775345023",
+  "name": "Banh Cuon Gery Phu Socola 299gx12hop",
+  "fullName": "Banh Cuon Gery Phu Socola 299gx12hop (Thanh)",
+  "brand": "Gery",
+  "unit": "Thanh",
+  "category": {
+    "kiotCategoryId": "2549073",
+    "name": "Bánh quế / bánh cuộn (wafer roll)",
+    "path": "Bánh quy & bánh đóng gói > Bánh quế / bánh cuộn (wafer roll)"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/f72f1d504722a09919d7dd0098de0db24cf36206a88698fe777ab6411553ee64.webp",
+    "description": "Bánh cuộn Gery Crunch Roll vị sô cô la: que quế nhân kem hương sô cô la, phủ caramel, vụn bánh quy và kem hương sô cô la.\n\nQuy cách: 23 g · thanh\nXuất xứ: Indonesia · Nhà sản xuất/thương hiệu: Garudafood · Gery",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "ảnh tự chụp: thanh bánh nhăn, bóng, hơi nghiêng; không có ảnh hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: bảng dinh dưỡng, chữ nhỏ chỉ minh hoạ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet của cửa hàng (ảnh tự chụp)",
+      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/07/30/tram8/8f63f153e8e7405b9fb2f85fac0b539f.png"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết từ chữ in trên bao bì (ảnh hiện tại), không có nguồn hãng",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:36:40.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "image CROP, description WRITE_NEW (pack facts)"
+    },
+    {
+      "at": "2026-10-15T09:16:17Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "tone.py --vivid: white balance/levels + brand-like colour (owner request)"
+    },
+    {
+      "at": "2026-10-17T14:18:16Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T14:18:16.549Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T14:18:16.549Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T16:47:06.511Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T16:47:06.511Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/f72f1d504722a09919d7dd0098de0db24cf36206a88698fe777ab6411553ee64.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/30/tram8/8f63f153e8e7405b9fb2f85fac0b539f.png"
+        ]
+      },
+      "description": {
+        "to": "Bánh cuộn Gery Crunch Roll vị sô cô la: que quế nhân kem hương sô cô la, phủ caramel, vụn bánh quy và kem hương sô cô la.\n\nQuy cách: 23 g · thanh\nXuất xứ: Indonesia · Nhà sản xuất/thương hiệu: Garudafood · Gery",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

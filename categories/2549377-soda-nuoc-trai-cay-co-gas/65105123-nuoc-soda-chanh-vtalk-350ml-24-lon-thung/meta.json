@@ -1,0 +1,180 @@
+{
+  "kiotProductId": "65105123",
+  "code": "8809344661234",
+  "barcode": "8809344661234",
+  "name": "Nước Soda Chanh Vtalk ( 350ml * 24 lon / Thùng )",
+  "fullName": "Nước Soda Chanh Vtalk ( 350ml * 24 lon / Thùng ) (Lon)",
+  "brand": "OKF",
+  "unit": "Lon",
+  "category": {
+    "kiotCategoryId": "2549377",
+    "name": "Soda / nước trái cây có gas",
+    "path": "Đồ uống đóng chai > Soda / nước trái cây có gas"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/fdeb7992e034da3fe0e68981e8a7f0e712e41ad7a2ae9680854cfda2ebd1ffe0.webp",
+    "description": "Nước soda chanh Vtalk Blue Lemonade (Hàn Quốc), nước có ga vị chanh, màu xanh dương đặc trưng. Lon nhựa trong nắp giật.\n\nQuy cách: 350 ml · lon\nXuất xứ: Hàn Quốc · Thương hiệu: Vtalk",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "ảnh tự chụp (lon mềm, nghiêng, mất chữ mép trái); không có ảnh hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: lần 1 vẽ chanh vàng → sửa lại lát chanh xanh như ảnh gốc; chữ khớp (VTALK Blue Lemonade, 브이톡 블루 레몬에이드, 0.108 %, 350 ml (156 kcal))",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet của cửa hàng (chỉ làm mẫu)",
+      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/04/22/tram8/fadc217249924156ad4f8fbf1c6b9730.jpeg"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; không truy cập được trang hãng → mô tả ngắn từ tên SP + chữ in trên lon (Blue Lemonade, 350 ml); bán lẻ theo lon (đơn vị KiotViet: Lon)",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:53:05.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "b17: image CROP, description WRITE_NEW (pack facts)"
+    },
+    {
+      "at": "2026-10-15T09:16:17Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "tone.py --vivid: white balance/levels + brand-like colour (owner request)"
+    },
+    {
+      "at": "2026-10-17T14:23:21Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T14:23:21.546Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T14:23:21.546Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T16:49:55.032Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T16:49:55.032Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/fdeb7992e034da3fe0e68981e8a7f0e712e41ad7a2ae9680854cfda2ebd1ffe0.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/04/22/tram8/fadc217249924156ad4f8fbf1c6b9730.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Nước soda chanh Vtalk Blue Lemonade (Hàn Quốc), nước có ga vị chanh, màu xanh dương đặc trưng. Lon nhựa trong nắp giật.\n\nQuy cách: 350 ml · lon\nXuất xứ: Hàn Quốc · Thương hiệu: Vtalk",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {
+      "price": {
+        "to": 24537.04,
+        "from": 24090.91
+      },
+      "saleTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 65105123
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 65105123
+        }
+      },
+      "taxRate": {
+        "to": "VAT 8%",
+        "from": "VAT 10%"
+      },
+      "productTaxs": {
+        "to": [
+          {
+            "id": 0,
+            "name": "VAT 8%",
+            "taxId": 3,
+            "value": 8,
+            "productId": 65105123
+          }
+        ],
+        "from": [
+          {
+            "id": 0,
+            "name": "VAT 10%",
+            "taxId": 4,
+            "value": 10,
+            "productId": 65105123
+          }
+        ]
+      },
+      "purchaseTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 65105123
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 65105123
+        }
+      }
+    }
+  }
+}

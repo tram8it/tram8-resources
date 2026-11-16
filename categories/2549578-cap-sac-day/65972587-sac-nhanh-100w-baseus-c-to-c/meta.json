@@ -1,0 +1,112 @@
+{
+  "kiotProductId": "65972587",
+  "code": "SP877563",
+  "barcode": "6932172678531",
+  "name": "Sạc nhanh 100W Baseus c to c",
+  "fullName": "Sạc nhanh 100W Baseus c to c (Cái)",
+  "brand": "Baseus",
+  "unit": "Cái",
+  "category": {
+    "kiotCategoryId": "2549578",
+    "name": "Cáp sạc & dây",
+    "path": "Phụ kiện điện tử > Cáp sạc & dây"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/80b3a0344f9fb533eb19d9f4ffda206a6f7cd96f5f397c62cddfbd905ab4e119.webp",
+    "description": "Cáp sạc nhanh Baseus Dynamic 4 hai đầu USB-C, công suất 100W, dây bện nylon màu đen; dùng sạc laptop, điện thoại, máy tính bảng và truyền dữ liệu.\n\nQuy cách: dài 1 m · cái\nThương hiệu: Baseus",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I7: ảnh có tem giá/mã vạch của cửa hàng dán trên hộp; baseus.com không có mẫu này → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: phần chữ bị tem che (dòng 'Fast Charging Cable USB-C to USB-C' và dòng mô tả nhỏ) được vẽ theo hộp cùng dãy; chữ nhỏ dưới các biểu tượng hơi khác cỡ; không thấy khác biệt về thông số (100W | 1m)",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (hộp thật tại cửa hàng) + ảnh hộp Baseus Dynamic 4 cùng dãy (65972794, chỉ làm mẫu bố cục)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; mô tả ngắn từ chữ in trên vỏ hộp (không có trang hãng cho mã này)",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:18:56.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "price sticker on pack, no official image; description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T08:16:28Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T08:16:29.632Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T08:16:29.632Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T08:35:15.393Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T08:35:15.393Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/80b3a0344f9fb533eb19d9f4ffda206a6f7cd96f5f397c62cddfbd905ab4e119.webp"
+        ],
+        "from": [
+          "https://cdn1-retail-images.kiotviet.vn/2026/07/30/tram8/a3821067ef7243fcb12e3aa3801a1e51.png"
+        ]
+      },
+      "description": {
+        "to": "Cáp sạc nhanh Baseus Dynamic 4 hai đầu USB-C, công suất 100W, dây bện nylon màu đen; dùng sạc laptop, điện thoại, máy tính bảng và truyền dữ liệu.\n\nQuy cách: dài 1 m · cái\nThương hiệu: Baseus",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

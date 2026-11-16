@@ -1,0 +1,113 @@
+{
+  "kiotProductId": "68117901",
+  "code": "8809288634936",
+  "barcode": "8809288634936",
+  "name": "Nước Uống Có Ga Zero Vị Lê 350ml ( Zero Sparkling Pear ) không có cồn dùng được ngay không cần pha loãng",
+  "fullName": "Nước Uống Có Ga Zero Vị Lê 350ml ( Zero Sparkling Pear ) không có cồn dùng được ngay không cần pha loãng (Lon)",
+  "brand": "Dunkin",
+  "unit": "Lon",
+  "category": {
+    "kiotCategoryId": "2549402",
+    "name": "Nước ngọt ít calories",
+    "path": "Đồ uống đóng chai > Nước ngọt ít calories"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/662e7d9cc28e1f7e6514222a39c33faef2f6010f128c13f194afbb6c10ece63e.webp",
+    "description": "Nước uống có ga Dunkin Zero Sparkling vị lê, không calo, không cồn, uống liền không cần pha.\n\nQuy cách: 350 ml · lon\nNhà sản xuất/thương hiệu: Dunkin",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I7, I4: ảnh hiện có là ảnh của shop khác (dải màu vàng, logo cửa hàng khác); không có trang hãng/NPP của dòng Dunkin Zero Sparkling → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: dùng bao bì mới (chữ DUNKIN' dọc, cùng kiểu lon vị mận đang có) thay cho bao bì cũ trong ảnh KiotViet; dòng chữ quanh mép lon ('ZERO CALORIES', 'SPARKLING PEA…') bị mép lon che như lon thật",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh lon trên pyony.com (giá CU Hàn Quốc, cùng mã vạch, chỉ làm mẫu) + ảnh lon vị mận cùng dòng",
+      "referenceUrl": "https://pyony.com/brands/cu/products/37523/"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; mô tả ngắn chỉ từ tên SP và chữ in trên lon ('Zero Calories', 'Sparkling'), không có nguồn hãng",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:10:57.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "shop image with banner/logo, no official source → NEEDS_PHOTO; description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T07:58:34Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T07:58:34.248Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T08:06:02.482Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T07:58:34.248Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T08:03:26.859Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T08:03:26.859Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/662e7d9cc28e1f7e6514222a39c33faef2f6010f128c13f194afbb6c10ece63e.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/09/16/tram8/a2b94b3b6d784643ad8b60d738c82d3f.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Nước uống có ga Dunkin Zero Sparkling vị lê, không calo, không cồn, uống liền không cần pha.\n\nQuy cách: 350 ml · lon\nNhà sản xuất/thương hiệu: Dunkin",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

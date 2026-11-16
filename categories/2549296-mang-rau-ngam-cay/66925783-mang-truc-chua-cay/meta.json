@@ -1,0 +1,131 @@
+{
+  "kiotProductId": "66925783",
+  "code": "6976584700015",
+  "barcode": "6976584700015",
+  "name": "Măng trúc chua cay",
+  "fullName": "Măng trúc chua cay (Gói)",
+  "brand": "Hàng nội địa Trung",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2549296",
+    "name": "Măng & rau ngâm cay",
+    "path": "Đồ ăn vặt > Đồ nội địa Trung > Măng & rau ngâm cay"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/c7627601adbd859e43b74c0e0cdd4e99523e998268ca0e2e42fc995d04ad0b32.webp",
+    "description": "Măng trúc vị ớt ngâm (山椒味笋条) của 十年有成: thanh măng ngâm ớt, vị chua cay, 0% chất béo (theo bao bì), ăn liền.\n\nQuy cách: gói (cân theo trọng lượng, cái ≥ 75%)\nThương hiệu: 十年有成",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "ảnh nhân viên mới chụp (KiotViet 19/10) trên mặt đá tối, chỉ làm mẫu → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: bảng dinh dưỡng nhỏ nhìn ngược qua túi trong như ảnh, vẽ mờ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-19",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh nhân viên chụp (KiotViet 19/10)",
+      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/10/19/tram8/4a24ecc9f78c4e9d866101e365fca7e9.png"
+    },
+    "rubricVersion": "v23"
+  },
+  "description": {
+    "decision": "REWRITE",
+    "reason": "D2/D4: mô tả cũ viết từ tên hàng khi chưa thấy bao bì; viết lại chỉ từ chữ in mặt trước bao bì trên ảnh nhân viên chụp (KiotViet 19/10) — gói cân theo trọng lượng (计量称重), không in khối lượng cố định",
+    "source": null,
+    "rubricVersion": "v23"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:30:00.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "b20 review: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T07:46:04+00:00",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "I1: chưa có ảnh trên KiotViet; tra mã vạch trên Kingfoodmart, Open Food Facts và web (17/10/2026) không ra ảnh bao bì nào → không có mẫu để Gemini vẽ, cần nhân viên chụp mặt trước 1 gói"
+    },
+    {
+      "at": "2026-10-18T18:22:33.952Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "np18 re-research 18/10: still no image of this exact pack"
+    },
+    {
+      "at": "2026-10-19T07:38:31Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-19T07:39:29Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "staff photo 19/10 (nk7): Gemini redraw of the real pack + description rewritten from pack text; image rubric v23"
+    },
+    {
+      "at": "2026-10-19T07:40:33.581Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T08:50:58.958Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T17:15:09.663Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-19T07:40:33.581Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T07:45:55.748Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T07:45:55.748Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/c7627601adbd859e43b74c0e0cdd4e99523e998268ca0e2e42fc995d04ad0b32.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/10/19/tram8/4a24ecc9f78c4e9d866101e365fca7e9.png"
+        ]
+      },
+      "description": {
+        "to": "Măng trúc vị ớt ngâm (山椒味笋条) của 十年有成: thanh măng ngâm ớt, vị chua cay, 0% chất béo (theo bao bì), ăn liền.\n\nQuy cách: gói (cân theo trọng lượng, cái ≥ 75%)\nThương hiệu: 十年有成",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

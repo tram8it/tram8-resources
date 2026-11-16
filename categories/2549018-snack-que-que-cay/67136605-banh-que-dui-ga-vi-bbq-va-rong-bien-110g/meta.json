@@ -1,0 +1,130 @@
+{
+  "kiotProductId": "67136605",
+  "code": "8850157514507",
+  "barcode": "8850157514507",
+  "name": "Bánh Que Đùi Gà Vị BBQ Và Rong Biển 110g",
+  "fullName": "Bánh Que Đùi Gà Vị BBQ Và Rong Biển 110g (Gói)",
+  "brand": "Dorkbua",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2549018",
+    "name": "Snack que / que cay",
+    "path": "Đồ ăn vặt > Snacks > Snack que / que cay"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/4ac018645445dae57182197c3fe8502446fefc94ae8fff113b892cd3307052c4.webp",
+    "description": "Bánh que đùi gà Lotus của Dorkbua vị BBQ và rong biển kiểu Hàn Quốc, bánh giòn tạo hình đùi gà, túi có khóa kéo.\n\nQuy cách: 115 g · gói\nNhà sản xuất/thương hiệu: Dorkbua (Lotus)",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I3/I4: ảnh chụp, nền xám, gói nhăn → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: ô dinh dưỡng vẽ mờ (vài số % nhỏ còn lờ mờ, không chắc khớp gói thật), số đăng ký mờ; bỏ dấu in ngày/lô; gói in 115 g (tên 110g, theo bao bì, v19)",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet hiện tại (gói thật 115 g, túi zip)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; mô tả ngắn từ chữ in mặt trước bao bì; quy cách 115 g theo gói thật (v19)",
+    "source": null,
+    "rubricVersion": "v19"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:21:20.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "b07 review: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T12:00:00Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "Gói thật + Open Food Facts ghi 115 g, tên KiotViet 110 g → hỏi chủ, chưa gọi Gemini"
+    },
+    {
+      "at": "2026-10-17T08:55:26Z",
+      "by": "owner",
+      "status": "ASK_OWNER",
+      "note": "Chủ trả lời 17/10 (RUBRIC v19): khối lượng theo bao bì đúng mã vạch, lệch nhỏ (≤ ~10%) không cần sửa tên"
+    },
+    {
+      "at": "2026-10-17T08:55:27Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 3, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T08:55:28Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Mô tả: thêm quy cách 115 g theo bao bì (v19)"
+    },
+    {
+      "at": "2026-10-17T08:55:41.274Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T08:55:41.274Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T09:05:32.900Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T09:05:32.900Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/4ac018645445dae57182197c3fe8502446fefc94ae8fff113b892cd3307052c4.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/18/tram8/3b08e11c159b4625a5b6ced5b3c6868f.png"
+        ]
+      },
+      "description": {
+        "to": "Bánh que đùi gà Lotus của Dorkbua vị BBQ và rong biển kiểu Hàn Quốc, bánh giòn tạo hình đùi gà, túi có khóa kéo.\n\nQuy cách: 115 g · gói\nNhà sản xuất/thương hiệu: Dorkbua (Lotus)",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

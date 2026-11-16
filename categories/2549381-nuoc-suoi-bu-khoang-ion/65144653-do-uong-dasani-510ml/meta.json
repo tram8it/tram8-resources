@@ -1,0 +1,129 @@
+{
+  "kiotProductId": "65144653",
+  "code": "8935049510864",
+  "barcode": "8935049510864",
+  "name": "Đồ uống DASANI 510ML",
+  "fullName": "Đồ uống DASANI 510ML (Chai)",
+  "brand": "Coca-Cola",
+  "unit": "Chai",
+  "category": {
+    "kiotCategoryId": "2549381",
+    "name": "Nước suối / bù khoáng / ion",
+    "path": "Đồ uống đóng chai > Nước suối / bù khoáng / ion"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://cdn2-retail-images.kiotviet.vn/2026/04/23/tram8/2a782b838d874ad2aff0e8e279fed6bc.jpeg",
+    "description": "Nước uống đóng chai Dasani.\n\nQuy cách: 510 ml · chai\nNhà sản xuất/thương hiệu: Coca-Cola · Dasani",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "IN_PROGRESS",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I2: ảnh KiotViet là Dasani tinh khiết 500 ml; mã vạch 8935049510864 là Dasani 510 ml nhãn xanh lá (Kingfoodmart) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh Kingfoodmart theo mã vạch (chỉ làm mẫu)",
+      "referenceUrl": "https://storage.googleapis.com/onelife-public/8935049510864.jpg"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "source": null,
+    "rubricVersion": "v20",
+    "decision": "WRITE_NEW",
+    "reason": "mã vạch 8935049510864 = Dasani 510 ml nhãn xanh lá (Kingfoodmart)"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:07:05.000Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "b18 review (rubric v4): image ASK_OWNER, description ASK_OWNER"
+    },
+    {
+      "at": "2026-10-17T14:07:36Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T14:08:43Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "resolved without asking: barcode/evidence decides (mã vạch 8935049510864 = Dasani 510 ml nhãn xanh lá (Kingfoodmart))"
+    },
+    {
+      "at": "2026-10-17T14:10:09.398Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T12:57:11.616Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "resubmitted: KiotViet image is not the approved image"
+    },
+    {
+      "at": "2026-10-19T12:57:11.736Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-26T04:58:33.990Z",
+      "by": "owner",
+      "status": "IN_PROGRESS",
+      "note": "rejected on Hub by AU KHUONG DUY: Đang oke rồi"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-19T12:57:11.736Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "REJECTED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T12:59:22.528Z",
+    "note": "Đang oke rồi"
+  },
+  "uploaded": {
+    "at": "2026-10-17T15:32:01.044Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "description": {
+        "to": "Nước uống đóng chai Dasani.\n\nQuy cách: 510 ml · chai\nNhà sản xuất/thương hiệu: Coca-Cola · Dasani",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

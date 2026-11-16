@@ -1,0 +1,113 @@
+{
+  "kiotProductId": "68497204",
+  "code": "6920858268701",
+  "barcode": "6920858268701",
+  "name": "Kem Đá Sữa Chua Vải",
+  "fullName": "Kem Đá Sữa Chua Vải (Gói)",
+  "brand": "Hàng nội địa Trung",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2549575",
+    "name": "Kem viên / kim cương",
+    "path": "Kem & Đồ đông lạnh > Kem viên / kim cương"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/d38171eb8064568f98a9bdbf5e0ac00121c5416c8a262428524d789e881180b4.webp",
+    "description": "Kem đá Hongbaolai vị vải sữa chua (荔枝酸奶冻), dạng viên đựng trong túi.\n\nQuy cách: túi\nThương hiệu: Hongbaolai (宏宝莱)\nBảo quản: Giữ đông ở −18 °C hoặc lạnh hơn.",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I3/I4/I7: ảnh chụp trong cửa hàng, có dấu chìm 'DDL 便利店'; không tìm được ảnh hãng/nhà bán lẻ → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: phần giữa túi bị dấu chìm che nên bố cục hình tròn lychee/sữa chua vẽ lại gần đúng, không chắc từng hình; không có chữ khối lượng (gói thật không đọc được)",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-3.1-flash-image",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet của cửa hàng",
+      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/10/16/tram8/92bef06ad9974d6ba5a91f69a464228f.jpeg"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; theo chữ in trên túi ở ảnh KiotViet; khối lượng không đọc được nên không ghi",
+    "source": null,
+    "rubricVersion": "v20"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-17T17:40:47Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-3.1-flash-image), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T18:00:00Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "description WRITE_NEW (theo chữ in trên túi ở ảnh KiotViet; khối lượng không đọc được nên không ghi)"
+    },
+    {
+      "at": "2026-10-17T17:42:04.059Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T03:19:05.400Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T17:42:04.059Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T17:45:03.700Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T17:45:03.700Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/d38171eb8064568f98a9bdbf5e0ac00121c5416c8a262428524d789e881180b4.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/10/16/tram8/92bef06ad9974d6ba5a91f69a464228f.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Kem đá Hongbaolai vị vải sữa chua (荔枝酸奶冻), dạng viên đựng trong túi.\n\nQuy cách: túi\nThương hiệu: Hongbaolai (宏宝莱)\nBảo quản: Giữ đông ở −18 °C hoặc lạnh hơn.",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

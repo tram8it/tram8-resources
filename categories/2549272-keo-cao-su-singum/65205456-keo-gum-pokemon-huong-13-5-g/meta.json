@@ -1,0 +1,113 @@
+{
+  "kiotProductId": "65205456",
+  "code": "8934677051114",
+  "barcode": "8934677051114",
+  "name": "Kẹo gum pokemon Hương 13,5 G",
+  "fullName": "Kẹo gum pokemon Hương 13,5 G (Thanh)",
+  "brand": "Lotte",
+  "unit": "Thanh",
+  "category": {
+    "kiotCategoryId": "2549272",
+    "name": "Kẹo cao su / singum",
+    "path": "Các loại kẹo > Kẹo cao su / singum"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/31e91c06e767ff7f30b5a404c4f6b50b2f06302bc942ea16a30418a18985b045.webp",
+    "description": "Kẹo gum thổi Lotte Pokémon hương dưa lưới, dòng \"hương vị biến hoá\", dạng thanh.\n\nQuy cách: 13,5 g · thanh\nNhà sản xuất/thương hiệu: Lotte · Pokémon",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I3/I5: ảnh chụp tay cầm, bị cắt hai đầu; không có ảnh hãng/NPP/nhà bán lẻ → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Bỏ mã NSX/HSD in đen; hai đầu thanh do AI dựng lại (ảnh mẫu bị cắt, đầu trái vẽ nếp gấp giấy, đầu phải phẳng) — chữ LOTTE, POKÉMON, kẹo gum thổi, Hương vị BIẾN HOÁ, HƯƠNG DƯA LƯỚI, Khối lượng tịnh: 13,5 g khớp ảnh thật",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (chụp tay cầm)",
+      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/04/26/tram8/88ba778924ae44e790905da511354ebf.jpeg"
+    },
+    "rubricVersion": "v17"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết ngắn từ tên SP và chữ in mặt trước bao bì (không có nguồn hãng)",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:31:48.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "review b08: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T04:49:14Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T04:49:24.054Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T05:23:58.238Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T04:49:24.054Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T04:53:06.763Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T04:53:06.763Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/31e91c06e767ff7f30b5a404c4f6b50b2f06302bc942ea16a30418a18985b045.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/04/26/tram8/88ba778924ae44e790905da511354ebf.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Kẹo gum thổi Lotte Pokémon hương dưa lưới, dòng \"hương vị biến hoá\", dạng thanh.\n\nQuy cách: 13,5 g · thanh\nNhà sản xuất/thương hiệu: Lotte · Pokémon",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

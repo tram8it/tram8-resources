@@ -7,11 +7,12 @@ Repo chuẩn bị **ảnh + mô tả sản phẩm** cho tram8.vn (chuỗi cửa 
 1. `PLAYBOOK.md` — kế hoạch dài hạn và quy trình một phiên (§5). Làm đúng thứ tự, không nhảy bước.
 2. `RUBRIC.md` — bộ tiêu chí cố định, **gồm nhật ký thay đổi ở cuối**. Mọi quyết định ghi `rubricVersion`.
 3. `STATUS.md` — đang ở đâu. Chạy `node tools/status.mjs` trước để chắc nó mới.
+4. `OWNER_TODO.md` — việc chủ hẹn làm sau. **Nhắc chủ** các mục còn mở khi xong hết sản phẩm hoặc khi chủ hỏi còn gì; ghi thêm việc mới chủ hẹn.
 
 ## Luật cứng (vi phạm là dừng lại, hỏi chủ)
 - **Xem từng sản phẩm bằng mắt** (mở ảnh ra xem). Script chỉ hỗ trợ đo/crop/tải — không quyết định thay.
 - **Chỉ sửa cái chắc chắn sai.** Không chắc → `status: "ASK_OWNER"` + `question` cụ thể. Không đoán.
-- **Nguồn chỉ từ trang chính hãng** trong `data/brands.json`. Domain trong `data/blocked-domains.json`
+- **Nguồn chỉ từ trang chính hãng** hoặc **trang NPP đang cấp hàng cho Trạm 8** (RUBRIC v11) trong `data/brands.json`. Domain trong `data/blocked-domains.json`
   (Bách Hóa Xanh, WinMart, sàn TMĐT…) **cấm tuyệt đối**. Không tìm được → `NEEDS_PHOTO`.
 - **Không bịa** dữ kiện mô tả. Không chép nguyên văn quảng cáo của hãng.
 - `meta.json` là nguồn sự thật; `STATUS.md`, `NEEDS_PHOTO.csv`, `ASK_OWNER.md`, `review/*.html`
@@ -31,6 +32,11 @@ Repo chuẩn bị **ảnh + mô tả sản phẩm** cho tram8.vn (chuỗi cửa 
                    "rubricVersion": "v1" },
   "description": { "decision": "KEEP|REWRITE|WRITE_NEW|ASK_OWNER", "reason": "…",
                    "source": { "url": "…", "fetchedAt": "…" } | null, "rubricVersion": "v1" },
+  "master": { "name": "Mì Hảo Hảo tôm chua cay 75g", "weightGram": 75, "brand": "Hảo Hảo",   // đề xuất ghi lên KiotViet
+              "reason": "…", "rubricVersion": "v4" },                                      // (tên HĐĐT không bao giờ đổi)
+  "submitted": { "at": "…", "fields": ["name", "…"] },                                       // tool ghi khi gửi đề xuất
+  "review": { "status": "APPLIED|REJECTED|FAILED", "reviewedBy": "…", "reviewedAt": "…", "note": "…" }, // tool sync ghi
+  "uploaded": { "at": "…", "by": "…", "kiotviet": { … }, "unexpectedChanges": { … } },        // khi chủ đã áp dụng
   "question": null,
   "history": [ { "at": "ISO", "by": "ai|owner|init", "status": "…", "note": "…" } ]
 }
@@ -42,7 +48,14 @@ Thành phẩm nằm cạnh `meta.json`: `image.webp` (1000×1000, chuẩn trong 
 |---|---|
 | `node tools/init-from-export.mjs inbox/<export>` | tạo/cập nhật thư mục từ file export của tram8-hub |
 | `node tools/status.mjs` | sinh lại STATUS.md / NEEDS_PHOTO.csv / ASK_OWNER.md, báo bản ghi lỗi |
-| `node tools/review-page.mjs <category>` | trang duyệt trước/sau cho chủ → `review/` |
+| `node tools/review-page.mjs <category>` | trang duyệt trước/sau cho chủ → `review/` (ảnh mới nhúng sẵn) |
+| `python3 tools/cutout.py <ảnh> <out.webp> [--box X0,Y0,X1,Y1]` | tách nền màu/banner (ảnh nhân viên chụp, ảnh hãng có nền/chữ khuyến mãi) rồi chuẩn hoá như `make_image.py`; cần `pip install "rembg[cpu]"`. **Mở ảnh ra xem viền** |
+| `python3 tools/tone.py <image.webp> <out.webp>` · `--scan` | cân bằng trắng + độ sáng (chỉ chỉnh toàn ảnh, nền giữ trắng) cho ảnh thiếu sáng; `--scan` liệt kê ảnh thiếu sáng; `--vivid` = tone + tăng độ tươi cho giống ảnh hãng (RUBRIC v10, tự giảm cho ảnh đã tươi). **Mở ảnh so trước/sau** |
+| `python3 tools/size_tag.py <image.webp> <out.webp> 53g` | gắn nhãn khối lượng khi nhiều cỡ dùng chung một ảnh (RUBRIC v16); chạy trên ảnh **chưa** gắn nhãn |
+| `python3 tools/gemini_redraw.py gen <dir>… [--ref …] [--dry-run]` · `fix` · `accept` | vẽ lại ảnh SP bằng Gemini API (RUBRIC v12–v17), khoá đọc từ `GEMINI_API_KEY`; ảnh thô + `candidate.webp` vào `work/gemini/<id>/`; **mở ảnh so với mẫu** rồi mới `accept` (ghi `image.webp` + meta → READY). In số lần gọi + chi phí ước tính |
+| `node tools/pull-from-hub.mjs` | kéo danh mục + SP từ API nội dung của Hub (chỉ GET) → `inbox/` |
+| `node tools/proposals.mjs submit <category> [--only <id>] [--send]` | gửi SP **READY** vào hàng chờ duyệt trên Hub (mặc định chỉ liệt kê) |
+| `node tools/proposals.mjs sync` | đọc quyết định của chủ về: áp dụng → `UPLOADED`, từ chối → `IN_PROGRESS` + lý do |
 
 ## Ngôn ngữ
 Tài liệu tiếng Việt. Code, comment, commit message tiếng Anh.

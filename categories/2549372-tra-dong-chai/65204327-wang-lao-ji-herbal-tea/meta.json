@@ -1,0 +1,180 @@
+{
+  "kiotProductId": "65204327",
+  "code": "6956367338680",
+  "barcode": "6956367338680",
+  "name": "Trà Thảo Mộc JIA DUO BAO 310ml",
+  "fullName": "Trà Thảo Mộc JIA DUO BAO 310ml (Lon)",
+  "brand": "Wang Lao Ji",
+  "unit": "Lon",
+  "category": {
+    "kiotCategoryId": "2549372",
+    "name": "Trà đóng chai",
+    "path": "Đồ uống đóng chai > Trà đóng chai"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/0686e9193cb0492c5c8bf1d76ac0254aaa8f7baa0f3c45546cd21957d3101749.webp",
+    "description": "Trà thảo mộc Wang Lao Ji (王老吉) đóng lon, thức uống thảo mộc pha sẵn.<br><br>Quy cách: lon<br>Nhà sản xuất/thương hiệu: Wang Lao Ji",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I3/I4: ảnh chụp tay cầm, nền phòng; không có trang chính hãng Việt Nam cho Wang Lao Ji → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ Hán chép theo ảnh ('净含量:310毫升'); cột chữ nhỏ bên trái màu tối hơn ảnh chụp một chút",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (lon cầm tay)",
+      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/04/25/tram8/fcac8488f8ed477d89b2a338f0f80bb6.jpeg"
+    },
+    "rubricVersion": "v17"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết ngắn từ tên SP và chữ in trên lon",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:31:48.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "review b08: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T05:19:52Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T05:20:37.174Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T05:52:57.796Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-11-02T09:01:21.866Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T05:20:37.174Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T05:28:26.443Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T05:28:26.443Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/0686e9193cb0492c5c8bf1d76ac0254aaa8f7baa0f3c45546cd21957d3101749.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/04/25/tram8/fcac8488f8ed477d89b2a338f0f80bb6.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Trà thảo mộc Wang Lao Ji (王老吉) đóng lon, thức uống thảo mộc pha sẵn.\n\nQuy cách: lon\nNhà sản xuất/thương hiệu: Wang Lao Ji",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {
+      "price": {
+        "to": 16203.7,
+        "from": 15909.09
+      },
+      "saleTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 65204327
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 65204327
+        }
+      },
+      "taxRate": {
+        "to": "VAT 8%",
+        "from": "VAT 10%"
+      },
+      "productTaxs": {
+        "to": [
+          {
+            "id": 0,
+            "name": "VAT 8%",
+            "taxId": 3,
+            "value": 8,
+            "productId": 65204327
+          }
+        ],
+        "from": [
+          {
+            "id": 0,
+            "name": "VAT 10%",
+            "taxId": 4,
+            "value": 10,
+            "productId": 65204327
+          }
+        ]
+      },
+      "purchaseTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 65204327
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 65204327
+        }
+      }
+    }
+  }
+}

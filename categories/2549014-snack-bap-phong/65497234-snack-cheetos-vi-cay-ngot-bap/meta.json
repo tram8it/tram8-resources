@@ -1,0 +1,128 @@
+{
+  "kiotProductId": "65497234",
+  "code": "8801062380015",
+  "barcode": "8801062380015",
+  "name": "Snack cheetos vị cay ngọt bắp",
+  "fullName": "Snack cheetos vị cay ngọt bắp (Gói)",
+  "brand": "Cheetos",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2549014",
+    "name": "Snack bắp & phồng",
+    "path": "Đồ ăn vặt > Snacks > Snack bắp & phồng"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/653af9e8042db077a53862029a0c7317f8674176b8c8da5c44a8dc8aad16b138.webp",
+    "description": "Snack Cheetos vị cay ngọt (매콤달콤) bản Hàn Quốc, que bắp giòn tẩm gia vị cay ngọt; sản xuất theo giấy phép bởi Lotte.\n\nQuy cách: gói\nXuất xứ: Hàn Quốc · Nhà sản xuất/thương hiệu: Lotte · Cheetos",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I3/I5: ảnh cũ chụp nghiêng/nhăn/méo (chủ báo chưa đạt 16/10) → nắn phối cảnh ảnh hiện tại rồi Gemini vẽ lại packshot chính diện, thẳng đứng, nền trắng (v15); đã so chữ/logo với ảnh mẫu",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Google Gemini Pro (chủ yêu cầu)",
+      "generatedAt": "2026-10-16",
+      "reference": "ảnh KiotViet hiện tại, nắn phối cảnh"
+    },
+    "rubricVersion": "v16"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết ngắn chỉ từ tên hàng và chữ in trên bao bì; tên hàng không ghi khối lượng nên bỏ",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:23:35.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "image CROP, description WRITE_NEW (pack facts)"
+    },
+    {
+      "at": "2026-10-15T02:51:19.419Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-15T09:16:17Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "tone.py --vivid: white balance/levels + brand-like colour (owner request)"
+    },
+    {
+      "at": "2026-10-15T09:21:24.303Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-15T18:09:39Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "owner flagged pending image; Gemini front-on redraw from perspective-corrected photo"
+    },
+    {
+      "at": "2026-10-15T18:09:59.459Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-16T01:43:10.560Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-15T18:09:59.459Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-16T01:39:22.155Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-16T01:39:22.155Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/653af9e8042db077a53862029a0c7317f8674176b8c8da5c44a8dc8aad16b138.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/27/tram8/6a6621fa15e0406580c91aabba1fd7fb.png"
+        ]
+      },
+      "description": {
+        "to": "Snack Cheetos vị cay ngọt (매콤달콤) bản Hàn Quốc, que bắp giòn tẩm gia vị cay ngọt; sản xuất theo giấy phép bởi Lotte.\n\nQuy cách: gói\nXuất xứ: Hàn Quốc · Nhà sản xuất/thương hiệu: Lotte · Cheetos",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

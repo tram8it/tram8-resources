@@ -1,0 +1,132 @@
+{
+  "kiotProductId": "64865468",
+  "code": "8992760223015",
+  "barcode": "8992760223015",
+  "name": "Oreo Choco 105G",
+  "fullName": "Oreo Choco 105G (Thanh)",
+  "brand": "Oreo",
+  "unit": "Thanh",
+  "category": {
+    "kiotCategoryId": "2549066",
+    "name": "Bánh quy kem / kẹp kem",
+    "path": "Bánh quy & bánh đóng gói > Bánh quy kem / kẹp kem"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/27fc00cf3ddb847563de23c875bd938520fb6ccef0e3cc979680a036dfac6479.webp",
+    "description": "Bánh quy Oreo nhân kem sô cô la (Chocolate Creme): hai lớp bánh quy ca cao giòn kẹp lớp kem vị sô cô la.\n\nQuy cách: 105 g · thanh\nThương hiệu: Oreo (Mondelēz)",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "Đồng bộ dòng SP (chủ 20/10): kiểu ảnh theo Oreo Strawberry 105g → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ nhỏ dưới logo để mờ, không đọc được",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-19",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh hiện tại/KiotViet của SP (nội dung) + ảnh đã duyệt của SP cùng dòng Oreo Strawberry 105g (kiểu, góc, khung)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết ngắn chỉ từ dữ kiện chắc chắn (tên, vị, khối lượng theo tên SP, chữ in mặt trước gói)",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:46:45.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "b13: image CROP, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-15T09:16:17Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "tone.py --vivid: white balance/levels + brand-like colour (owner request)"
+    },
+    {
+      "at": "2026-10-18T17:50:05.066Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T02:05:27.524Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T03:19:05.400Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-19T18:53:22Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "line consistency 20/10: tilted roll -> flat straight roll like the other Oreo 105 g — Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-19T18:53:37.147Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-20T03:28:53.537Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-26T04:58:33.990Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-19T18:53:37.147Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-20T03:25:09.138Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-20T03:25:09.138Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/27fc00cf3ddb847563de23c875bd938520fb6ccef0e3cc979680a036dfac6479.webp"
+        ],
+        "from": [
+          "https://img.tram8.vn/products/34f78b8c4d77309b0b689c118dfb78992a7198be01ecf18ec7e83d66f4305c51.webp"
+        ]
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "kiotProductId": "64865431",
+  "code": "8936034878686",
+  "barcode": "8936034878686",
+  "name": "Chân gà Ponnie xốt cay tê",
+  "fullName": "Chân gà Ponnie xốt cay tê (Cái)",
+  "brand": "Ponnie",
+  "unit": "Cái",
+  "category": {
+    "kiotCategoryId": "2549225",
+    "name": "Chân gà",
+    "path": "Đồ ăn vặt > Thịt khô và chân gà > Chân gà"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/d9020cb99f0f1316cb2b8217cb45a7b105ac8f0f54b44528d69956c396a376a7.webp",
+    "description": "Chân gà xốt cay tê Ponnie Meat Snack, chân gà tẩm xốt vị cay tê đóng gói riêng từng chiếc, ăn liền.\n\nQuy cách: 33 g · cái\nNhà sản xuất/thương hiệu: Ponnie (Masan)",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I3/I5: ảnh cũ chụp nghiêng/nhăn/méo (chủ báo chưa đạt 16/10) → nắn phối cảnh ảnh hiện tại rồi Gemini vẽ lại packshot chính diện, thẳng đứng, nền trắng (v15); đã so chữ/logo với ảnh mẫu",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Google Gemini Pro (chủ yêu cầu)",
+      "generatedAt": "2026-10-16",
+      "reference": "ảnh KiotViet hiện tại, nắn phối cảnh"
+    },
+    "rubricVersion": "v16"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; mô tả ngắn chỉ từ tên hàng và chữ in mặt trước bao bì (không có trang hãng) ('PONNIE Meat Snack chân gà xốt Kay Têee', 33 g) — masanconsumer.com không có trang Ponnie",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:30:00.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "b20 review: image CROP, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-15T02:53:07.960Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-15T09:16:17Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "tone.py --vivid: white balance/levels + brand-like colour (owner request)"
+    },
+    {
+      "at": "2026-10-15T09:21:52.906Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-15T18:09:39Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "owner flagged pending image; Gemini front-on redraw from perspective-corrected photo"
+    },
+    {
+      "at": "2026-10-15T18:09:48.912Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-16T01:38:49.852Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-15T18:09:48.912Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-16T01:37:21.815Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-16T01:37:21.815Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/d9020cb99f0f1316cb2b8217cb45a7b105ac8f0f54b44528d69956c396a376a7.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/24/tram8/f9689db160724c109923ac3dc73910dd.png"
+        ]
+      },
+      "description": {
+        "to": "Chân gà xốt cay tê Ponnie Meat Snack, chân gà tẩm xốt vị cay tê đóng gói riêng từng chiếc, ăn liền.\n\nQuy cách: 33 g · cái\nNhà sản xuất/thương hiệu: Ponnie (Masan)",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

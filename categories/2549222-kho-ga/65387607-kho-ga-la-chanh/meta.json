@@ -1,0 +1,137 @@
+{
+  "kiotProductId": "65387607",
+  "code": "8936146441808",
+  "barcode": "8936146441808",
+  "name": "Khô gà lá chanh",
+  "fullName": "Khô gà lá chanh (Gói)",
+  "brand": null,
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2549222",
+    "name": "Khô gà",
+    "path": "Đồ ăn vặt > Thịt khô và chân gà > Khô gà"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/348862350e1e7ec4097332426108450e84cde8b56330ee7470bd2c22f4a1df0c.webp",
+    "description": "Khô gà vị lá chanh G Kitchen: khô gà dai thơm, đậm vị, làm từ 100% thịt gà tươi (theo bao bì), gói nhỏ ăn liền.\n\nQuy cách: 22 g · gói",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I3/I4: ảnh hiện có không đạt, không có ảnh hãng/NPP → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Sửa theo chủ 19/10: gói dài hơn, hẹp hơn (dáng đứng) như gói thật. Chữ lớn khớp ảnh KiotViet (G, Khô gà vị lá chanh, Dai thơm đậm vị, Từ 100% thịt gà tươi, Khối lượng tịnh: 22 g)",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-19",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet gói hiện hành 22 g + ảnh iCheck theo mã vạch (bản cũ, chỉ làm mẫu)",
+      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/05/01/tram8/03d66f33ec44469faf87d9086f554f20.jpeg"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: từ chữ in mặt trước bao bì (ảnh KiotViet, ảnh iCheck theo mã vạch)",
+    "source": null,
+    "rubricVersion": "v23"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:01:41.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "image REPLACE (close-up), description WRITE_NEW from pack"
+    },
+    {
+      "at": "2026-10-17T08:24:52.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "wave3: no usable reference for a Gemini redraw"
+    },
+    {
+      "at": "2026-10-18T18:26:08Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-18T18:26:13.794Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T02:05:27.524Z",
+      "by": "owner",
+      "status": "IN_PROGRESS",
+      "note": "rejected on Hub by AU KHUONG DUY: Cái gói này nó dài hơn ảnh 1 chút và hẹp hơn"
+    },
+    {
+      "at": "2026-10-19T02:10:03Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-19T02:10:03.243Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T02:44:56.965Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T03:19:05.400Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-19T02:10:03.243Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T02:18:56.957Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T02:18:56.957Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/348862350e1e7ec4097332426108450e84cde8b56330ee7470bd2c22f4a1df0c.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/05/01/tram8/03d66f33ec44469faf87d9086f554f20.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Khô gà vị lá chanh G Kitchen: khô gà dai thơm, đậm vị, làm từ 100% thịt gà tươi (theo bao bì), gói nhỏ ăn liền.\n\nQuy cách: 22 g · gói",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

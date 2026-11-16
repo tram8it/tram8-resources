@@ -1,0 +1,109 @@
+{
+  "kiotProductId": "68610210",
+  "code": "8936010532199",
+  "barcode": "8936010532199",
+  "name": "Cozy Trà Đào Sả Lon Nhãn Hiệu Cozy 320ml",
+  "fullName": "Cozy Trà Đào Sả Lon Nhãn Hiệu Cozy 320ml (Lon)",
+  "brand": "Cozy",
+  "unit": "Lon",
+  "category": {
+    "kiotCategoryId": "2549372",
+    "name": "Trà đóng chai",
+    "path": "Đồ uống đóng chai > Trà đóng chai"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/e63059b7e1103acff52d81cb141222a169e54051a20d700786f38961fae930f0.webp",
+    "description": "Trà đào sả Cozy uống liền: vị trà thanh nhẹ, hương sả thơm dịu và vị đào chua ngọt hài hoà; ngon hơn khi uống lạnh. Lon ghi không sử dụng chất bảo quản.\n\nThành phần: nước tinh khiết, đường mía, lá trà xanh, sả tươi, hương đào, hương trà xanh.\nQuy cách: 320 ml · lon\nNhà sản xuất/thương hiệu: Cozy (Công ty CP Sản phẩm Sinh Thái)",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I3/I4/I5: ảnh KiotViet chụp lon trên bàn làm việc, đáy lon bị cắt; cozy.vn chỉ có ảnh bối cảnh → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: vẽ tiếp phần đáy lon bị cắt (nền cam + đáy bạc); chữ nhỏ có thể hơi khác",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-26",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet + ảnh lon Cozy cùng dòng đã duyệt (chỉ để đồng bộ kiểu vẽ)"
+    },
+    "rubricVersion": "v23"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; theo trang Cozy (Trà đào sả, có quy cách lon 320 ml) và chữ trên lon",
+    "source": {
+      "url": "https://cozy.vn/tra-dao-sa/",
+      "fetchedAt": "2026-10-26"
+    },
+    "rubricVersion": "v23"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-26T02:38:48.902Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-26T02:59:11Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references; description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-26T02:59:47.625Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-26T04:58:33.990Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-27T10:02:11.418Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-26T02:59:47.625Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-26T04:57:28.396Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-26T04:57:28.396Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/e63059b7e1103acff52d81cb141222a169e54051a20d700786f38961fae930f0.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/10/25/tram8/1e1724460237438aa379f1292337850e.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Trà đào sả Cozy uống liền: vị trà thanh nhẹ, hương sả thơm dịu và vị đào chua ngọt hài hoà; ngon hơn khi uống lạnh. Lon ghi không sử dụng chất bảo quản.\n\nThành phần: nước tinh khiết, đường mía, lá trà xanh, sả tươi, hương đào, hương trà xanh.\nQuy cách: 320 ml · lon\nNhà sản xuất/thương hiệu: Cozy (Công ty CP Sản phẩm Sinh Thái)",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

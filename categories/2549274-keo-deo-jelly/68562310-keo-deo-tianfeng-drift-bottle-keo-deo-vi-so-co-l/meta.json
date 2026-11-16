@@ -1,0 +1,106 @@
+{
+  "kiotProductId": "68562310",
+  "code": "6910289454064",
+  "barcode": "6910289454064",
+  "name": "Kẹo Dẻo Tianfeng Drift Bottle ( Kẹo Dẻo Vị Sô Cô La )",
+  "fullName": "Kẹo Dẻo Tianfeng Drift Bottle ( Kẹo Dẻo Vị Sô Cô La ) (Lọ)",
+  "brand": "Tianfeng",
+  "unit": "Lọ",
+  "category": {
+    "kiotCategoryId": "2549274",
+    "name": "Kẹo dẻo / jelly",
+    "path": "Các loại kẹo > Kẹo dẻo / jelly"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/79471217e236aee528bea69e17a4ec3594ae67091e0b7f8807c3835325729ef0.webp",
+    "description": "Kẹo viên hình hòn sỏi vị sô cô la (巧克力味石头糖) Tianfeng \"Drift Bottle\" (天凤漂流瓶), nhiều màu trắng, nâu, xám, đựng trong lọ nhựa nắp vặn.\n\nQuy cách: 1 lọ\nNhà sản xuất/thương hiệu: Tianfeng (天凤)",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I3/I4: ảnh chụp lọ trên thùng carton, nền lẫn; không tìm được ảnh hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: khối lượng in trên nhãn không đọc được nên để trống",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-21",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (ảnh nhân viên chụp 21/10, chỉ làm mẫu) + ảnh lọ cùng dòng 68562263"
+    },
+    "rubricVersion": "v23"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; không có trang hãng — mô tả ngắn chỉ từ tên SP và chữ in mặt trước bao bì (ảnh KiotViet); không ghi khối lượng khi gói không đọc được",
+    "source": null,
+    "rubricVersion": "v23"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-21T08:30:34.700Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-21T08:42:47Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references; description WRITE_NEW from pack front"
+    },
+    {
+      "at": "2026-10-21T08:43:45.996Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-26T02:38:48.902Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-26T04:58:33.990Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-21T08:43:45.996Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-21T08:49:51.936Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-21T08:49:51.936Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/79471217e236aee528bea69e17a4ec3594ae67091e0b7f8807c3835325729ef0.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/10/21/tram8/da531bd5312043fab3dbf34245c46bca.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Kẹo viên hình hòn sỏi vị sô cô la (巧克力味石头糖) Tianfeng \"Drift Bottle\" (天凤漂流瓶), nhiều màu trắng, nâu, xám, đựng trong lọ nhựa nắp vặn.\n\nQuy cách: 1 lọ\nNhà sản xuất/thương hiệu: Tianfeng (天凤)",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

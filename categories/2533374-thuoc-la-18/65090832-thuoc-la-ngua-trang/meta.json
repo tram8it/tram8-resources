@@ -1,0 +1,180 @@
+{
+  "kiotProductId": "65090832",
+  "code": "8934647041206",
+  "barcode": "8934647041206",
+  "name": "Thuốc lá ngựa trắng",
+  "fullName": "Thuốc lá ngựa trắng (Bao)",
+  "brand": "White Horse",
+  "unit": "Bao",
+  "category": {
+    "kiotCategoryId": "2533374",
+    "name": "Thuốc lá (18+)",
+    "path": "Thuốc lá (18+)"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/1b199a45548330024b19183e439d95f5cde2e638ce9dcfca4562c9edd73001e7.webp",
+    "description": "Thuốc lá điếu đầu lọc White Horse (Ngựa Trắng) Broadleaf Virginia, bao cứng.\n\nQuy cách: bao\nThương hiệu: White Horse · Nhà sản xuất: Tổng Công ty Khánh Việt (Khatoco)\n\nChỉ bán cho người từ 18 tuổi trở lên.\nHút thuốc lá có hại cho sức khỏe.",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I3/I5: ảnh KiotViet là cả dãy bao trên quầy, quá nhỏ → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ nhỏ trên bao không vẽ; tem thuế bỏ theo khuôn danh mục",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-18",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh bao hiện hành trên khoithuocsaigon.com + ảnh bao đời cũ minhcaumart.vn (chỉ làm mẫu)",
+      "referenceUrl": "https://khoithuocsaigon.com/thuoc-la-white-horse-vnsx/"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: theo khuôn danh mục; tên/loại theo chữ in trên bao (WHITE HORSE, BROADLEAF VIRGINIA), nhà sản xuất theo bảng danh mục (Khatoco, tiền tố 8934647)",
+    "source": null,
+    "rubricVersion": "v23"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-17T08:55:39Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "no readable reference of the current pack (shelf photo; iCheck shows pre-graphic-warning design)"
+    },
+    {
+      "at": "2026-10-18T18:07:53Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-18T18:07:54Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "description written (WRITE_NEW) on 18/10 re-research"
+    },
+    {
+      "at": "2026-10-18T18:08:13.241Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T02:05:27.524Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T03:19:05.400Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-18T18:08:13.241Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T01:35:51.161Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T01:35:51.161Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/1b199a45548330024b19183e439d95f5cde2e638ce9dcfca4562c9edd73001e7.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/04/22/tram8/670a162e277d4719b307b17647b52135.png"
+        ]
+      },
+      "description": {
+        "to": "Thuốc lá điếu đầu lọc White Horse (Ngựa Trắng) Broadleaf Virginia, bao cứng.\n\nQuy cách: bao\nThương hiệu: White Horse · Nhà sản xuất: Tổng Công ty Khánh Việt (Khatoco)\n\nChỉ bán cho người từ 18 tuổi trở lên.\nHút thuốc lá có hại cho sức khỏe.",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {
+      "price": {
+        "to": 36111.11,
+        "from": 35454.55
+      },
+      "saleTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 65090832
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 65090832
+        }
+      },
+      "taxRate": {
+        "to": "VAT 8%",
+        "from": "VAT 10%"
+      },
+      "productTaxs": {
+        "to": [
+          {
+            "id": 0,
+            "name": "VAT 8%",
+            "taxId": 3,
+            "value": 8,
+            "productId": 65090832
+          }
+        ],
+        "from": [
+          {
+            "id": 0,
+            "name": "VAT 10%",
+            "taxId": 4,
+            "value": 10,
+            "productId": 65090832
+          }
+        ]
+      },
+      "purchaseTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 65090832
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 65090832
+        }
+      }
+    }
+  }
+}

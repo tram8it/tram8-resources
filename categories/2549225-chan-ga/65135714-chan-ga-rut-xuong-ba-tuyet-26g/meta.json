@@ -1,0 +1,123 @@
+{
+  "kiotProductId": "65135714",
+  "code": "8938564591011",
+  "barcode": "8938564591011",
+  "name": "Chân Gà Rút Xương Bà Tuyết 26g",
+  "fullName": "Chân Gà Rút Xương Bà Tuyết 26g (Gói)",
+  "brand": "Ăn Cùng Bà Tuyết",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2549225",
+    "name": "Chân gà",
+    "path": "Đồ ăn vặt > Thịt khô và chân gà > Chân gà"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/2e8b2616bdc02a30b3d041b068abdc34a01ba6c32eeaa27d1a633dc4666c6071.webp",
+    "description": "Chân gà rút xương Ăn Cùng Bà Tuyết: chân gà đã rút xương, đóng gói nhỏ ăn liền.\n\nQuy cách: 26 g · gói\nNhà sản xuất/thương hiệu: Ăn Cùng Bà Tuyết",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I1: chưa có ảnh; mã 8938564591011 là gói đơn 26 g (lốc kèm sốt mã khác) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ lớn khớp (Ăn cùng Bà Tuyết, Chân gà Bà Tuyết, Rút xương, Hình ảnh chỉ mang tính chất minh họa); không in khối lượng; chữ nhỏ mờ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-18",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet gói 26 g đơn của SP cùng dòng 66369104 + ảnh đã duyệt của lốc cùng dòng (chỉ làm mẫu)",
+      "referenceUrl": "https://img.tram8.vn/products/0abb5dd850928234da70433ad8b87886c0fdb70eff0ef8e4163006f357566e13.webp"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: từ tên SP và chữ in mặt trước bao bì (ảnh gói 26 g cùng dòng)",
+    "source": null,
+    "rubricVersion": "v23"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:30:00.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "b20 review: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T07:44:12Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "ASK_OWNER: no photo; ask whether same pack as 66369104"
+    },
+    {
+      "at": "2026-10-17T14:04:41.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "NEEDS_PHOTO: không có nguồn ảnh cho mã …011 (khác mã gói kèm sốt …035); bỏ câu hỏi, cần chụp gói"
+    },
+    {
+      "at": "2026-10-18T18:39:40Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-18T18:39:45.497Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T02:05:27.524Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T03:19:05.400Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-18T18:39:45.497Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T01:50:45.516Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T01:50:45.516Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/2e8b2616bdc02a30b3d041b068abdc34a01ba6c32eeaa27d1a633dc4666c6071.webp"
+        ],
+        "from": null
+      },
+      "description": {
+        "to": "Chân gà rút xương Ăn Cùng Bà Tuyết: chân gà đã rút xương, đóng gói nhỏ ăn liền.\n\nQuy cách: 26 g · gói\nNhà sản xuất/thương hiệu: Ăn Cùng Bà Tuyết",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

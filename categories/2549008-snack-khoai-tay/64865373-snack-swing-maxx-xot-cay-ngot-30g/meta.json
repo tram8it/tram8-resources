@@ -1,0 +1,141 @@
+{
+  "kiotProductId": "64865373",
+  "code": "8936029422436",
+  "barcode": "8936029422436",
+  "name": "Snack Swing maxx xốt cay ngọt 30g",
+  "fullName": "Snack Swing maxx xốt cay ngọt 30g (Gói)",
+  "brand": "Orion",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2549008",
+    "name": "Snack khoai tây",
+    "path": "Đồ ăn vặt > Snacks > Snack khoai tây"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/c97bd7ebba5c6841c6faec29553efc15bd43f6bddfd64cc7496ffdce9499d69a.webp",
+    "description": "Bánh snack khoai tây Swing Maxx vị xốt cay ngọt Hàn Quốc của Orion, lát khoai cắt gợn sóng dày.\n\nThành phần: khoai tây 59,1%, dầu thực vật, bột gia vị xốt cay ngọt Hàn Quốc 7% (đường, maltodextrin, bột tương ớt 13%, muối, chất điều vị (621, 635), bột gia vị bò, chiết xuất nấm men, bột hành, hương liệu tổng hợp, bột tỏi, bột giấm, bột nước tương, chất chống đông vón (551), bột kim chi, vảy rau ngò tây, chất điều chỉnh độ acid (296, 364(ii)), chất tạo màu tự nhiên (160c(i)), bột gia vị cay 0,5%, chất tạo ngọt tổng hợp (951, 955), bột gừng).\nQuy cách: 30 g · gói\nXuất xứ: Việt Nam · Nhà sản xuất: Công ty TNHH Thực phẩm Orion Vina\nHạn sử dụng: 6 tháng kể từ ngày sản xuất (in trên bao bì).",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I3/I4: ảnh hiện có không đạt, không có ảnh hãng/NPP → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: line consistency 20/10: tilted 3/4 bag redrawn flat front-on like Swing Maxx 63g; small print illegible",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-20",
+      "style": "flat clean packaging render (v17)",
+      "reference": "own current image.webp (content) + sibling 66557890 image.webp (line style, reference only)"
+    },
+    "rubricVersion": "v23"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; từ hồ sơ tự công bố 84/OFV/2024 trên orion.vn (có cỡ 30g)",
+    "source": {
+      "url": "https://orion.vn/media/0uono0es/84_tcb-bánh-snack-swing-maxx-vị-xốt-cay-ngọt-hàn-quốc.pdf",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:20:32.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "batch b01: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-15T15:16:21Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "image replaced per RUBRIC v15 (brand / Gemini redraw)"
+    },
+    {
+      "at": "2026-10-15T15:16:40.657Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-16T01:38:49.852Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-20T16:43:51Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-20T16:44:35Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "line consistency 20/10: tilted 3/4 bag -> flat front like Swing Maxx 63g (Gemini redraw)"
+    },
+    {
+      "at": "2026-10-20T16:44:49.915Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-21T08:30:34.700Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-26T04:58:33.990Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-20T16:44:49.915Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-20T16:50:06.810Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-20T16:50:06.810Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/c97bd7ebba5c6841c6faec29553efc15bd43f6bddfd64cc7496ffdce9499d69a.webp"
+        ],
+        "from": [
+          "https://img.tram8.vn/products/9f0a25614a03e50611d83e53b32592e9e9e34b003a7b2442e7aa0ed97142776a.webp"
+        ]
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

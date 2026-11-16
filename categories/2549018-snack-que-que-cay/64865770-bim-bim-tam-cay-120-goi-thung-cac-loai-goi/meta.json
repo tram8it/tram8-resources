@@ -1,0 +1,142 @@
+{
+  "kiotProductId": "64865770",
+  "code": "8936234180473",
+  "barcode": "8936234180473",
+  "name": "Bim bim tăm cay (120 gói/thùng) các loại (Gói)",
+  "fullName": "Bim bim tăm cay (120 gói/thùng) các loại (Gói) (Gói)",
+  "brand": "Ăn Cùng Bà Tuyết",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2549018",
+    "name": "Snack que / que cay",
+    "path": "Đồ ăn vặt > Snacks > Snack que / que cay"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/0ae2305b6dcddf9ee92f6ed960319bf8fd2a1631514b57b3b4ce271b514f848c.webp",
+    "description": "Bim bim tăm cay Bà Tuyết, que snack nhỏ vị cay, gói đen.\n\nQuy cách: gói\nNhà sản xuất/thương hiệu: Ăn Cùng Bà Tuyết",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "Chủ: túi tăm cay không cắt răng cưa hai đầu → vẽ mép hàn phẳng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-18",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (ảnh tự chụp, chỉ làm mẫu)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết ngắn từ chữ in mặt trước gói (TĂM CAY BÀ TUYẾT); khối lượng không thấy nên không ghi",
+    "source": null,
+    "rubricVersion": "v19"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:21:20.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "b07 review: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T12:00:00Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "Tên 'các loại' — chưa rõ mã vạch gồm một hay nhiều mẫu; hỏi chủ trước khi vẽ Gemini"
+    },
+    {
+      "at": "2026-10-17T14:03:16Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T14:03:59Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "resolved without asking: the KiotViet photo shows the black pack for this barcode (the gold Chiến Thần Lạc Hồng pack is a separate SKU 8936234180565); drawn from it"
+    },
+    {
+      "at": "2026-10-17T14:04:34.078Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "IN_PROGRESS",
+      "note": "rejected on Hub by AU KHUONG DUY: Cái túi tăm cay này ko phải loại cắt răng cưa 2 đầu như thế"
+    },
+    {
+      "at": "2026-10-18T11:35:44Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "redo after Hub rejection: Cái túi tăm cay này ko phải loại cắt răng cưa 2 đầu như thế — Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-18T11:35:45.027Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-18T17:16:08.691Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T03:19:05.400Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-18T11:35:45.027Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-18T17:12:02.255Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-18T17:12:02.255Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/0ae2305b6dcddf9ee92f6ed960319bf8fd2a1631514b57b3b4ce271b514f848c.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2025/11/27/tongpenhchtl/6ce37f5810e349ddbef1ffc51f170760.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Bim bim tăm cay Bà Tuyết, que snack nhỏ vị cay, gói đen.\n\nQuy cách: gói\nNhà sản xuất/thương hiệu: Ăn Cùng Bà Tuyết",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

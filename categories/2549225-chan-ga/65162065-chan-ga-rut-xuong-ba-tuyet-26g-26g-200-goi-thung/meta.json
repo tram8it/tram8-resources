@@ -1,0 +1,112 @@
+{
+  "kiotProductId": "65162065",
+  "code": "8938352123615",
+  "barcode": "8938552123675",
+  "name": "Chân gà rút xương bà Tuyết 26g (26g*200 gói/thùng) (Gói)",
+  "fullName": "Chân gà rút xương bà Tuyết 26g (26g*200 gói/thùng) (Gói) (Gói)",
+  "brand": "Ăn Cùng Bà Tuyết",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2549225",
+    "name": "Chân gà",
+    "path": "Đồ ăn vặt > Thịt khô và chân gà > Chân gà"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/53b5f66d1791d4f77bd1257cf0a8f2a4218bc197119fe21f0a84bc80e4577e77.webp",
+    "description": "Chân gà rút xương Bà Tuyết, chân gà đã rút xương tẩm vị cay, gói nhỏ ăn vặt tiện lợi.\n\nQuy cách: 26 g · gói\nNhà sản xuất/thương hiệu: Ăn Cùng Bà Tuyết",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I3/I4/I8: ảnh chụp điện thoại nhiều gói chồng nhau, nền lộn xộn; không có ảnh hãng → dùng ảnh Gemini vẽ lại của SP 66369104 (cùng gói Chân gà Bà Tuyết RÚT XƯƠNG 26g, ảnh hiện có của SP này cho thấy cùng mẫu bao bì; v14 đồng bộ dãy). Khác gói thật: mã vạch SP này 8938552123675 khác SP 66369104 (8938564591035) — có thể là lô bao bì cũ/mới, mặt trước giống nhau; không thấy khối lượng in mặt trước, 26g theo tên",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh Gemini của SP 66369104 (vẽ từ ảnh tay cầm gói thật); so với ảnh KiotViet hiện có của SP này",
+      "referenceUrl": "https://cdn1-retail-images.kiotviet.vn/2026/04/24/tram8/761d46700a494d69a15b0f2584a6a939.jpeg"
+    },
+    "rubricVersion": "v17"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; mô tả ngắn chỉ từ tên hàng (không có trang hãng); '200 gói/thùng' là quy cách thùng nhập, không ghi vào mô tả gói",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:30:00.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "b20 review: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T07:44:12Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "image REPLACE: reuse Gemini render of sibling 66369104 (same Bà Tuyết rút xương 26g front, checked against this product's photo)"
+    },
+    {
+      "at": "2026-10-17T07:44:17.462Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T08:06:02.482Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T07:44:17.462Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T07:49:06.895Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T07:49:06.895Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/53b5f66d1791d4f77bd1257cf0a8f2a4218bc197119fe21f0a84bc80e4577e77.webp"
+        ],
+        "from": [
+          "https://cdn1-retail-images.kiotviet.vn/2026/04/24/tram8/761d46700a494d69a15b0f2584a6a939.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Chân gà rút xương Bà Tuyết, chân gà đã rút xương tẩm vị cay, gói nhỏ ăn vặt tiện lợi.\n\nQuy cách: 26 g · gói\nNhà sản xuất/thương hiệu: Ăn Cùng Bà Tuyết",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

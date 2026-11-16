@@ -1,0 +1,112 @@
+{
+  "kiotProductId": "65200718",
+  "code": "8936193870002",
+  "barcode": "8936193870002",
+  "name": "Dải tắm Orchid xoắn",
+  "fullName": "Dải tắm Orchid xoắn (Cái)",
+  "brand": "Orchid",
+  "unit": "Cái",
+  "category": {
+    "kiotCategoryId": "2547536",
+    "name": "Dụng cụ tắm và vệ sinh cá nhân",
+    "path": "Chăm sóc cá nhân > Chăm sóc cơ thể > Dụng cụ tắm và vệ sinh cá nhân"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/ca8d78d9a7d5b82adbe1f3d47d211e331e1aafcc1392d92eb563d743c035684f.webp",
+    "description": "Dải tắm Orchid dạng xoắn, dùng tạo bọt và kỳ cọ khi tắm.\n\nQuy cách: cái\nThương hiệu: Orchid",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I3/I4: ảnh tay cầm, nền sàn nhà; không có trang hãng (Bisswell/Orchid) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: phần chữ Orchid bị ngón tay che được vẽ hoàn chỉnh; chữ nhỏ trên tem tròn và dây ruy băng không đọc được; đáy túi bị cắt trong ảnh thật nên vẽ theo suy đoán (nối tiếp dải tắm)",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (tay cầm túi dải tắm)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; mô tả ngắn chỉ từ tên SP và chữ đọc được trên bao bì (không có trang hãng)",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:19:32.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "needs staff photo; description WRITE_NEW from name/pack"
+    },
+    {
+      "at": "2026-10-17T08:31:18Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T08:31:24.177Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T08:31:24.177Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T08:42:16.201Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T08:42:16.201Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/ca8d78d9a7d5b82adbe1f3d47d211e331e1aafcc1392d92eb563d743c035684f.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/04/25/tram8/c02cb1b15d4d49178959d9263af894cf.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Dải tắm Orchid dạng xoắn, dùng tạo bọt và kỳ cọ khi tắm.\n\nQuy cách: cái\nThương hiệu: Orchid",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

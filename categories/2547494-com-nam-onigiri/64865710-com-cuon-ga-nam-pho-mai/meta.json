@@ -1,0 +1,136 @@
+{
+  "kiotProductId": "64865710",
+  "code": "SP000271",
+  "barcode": "8936239700225",
+  "name": "Cơm Cuộn Gà Nấm Phô Mai",
+  "fullName": "Cơm Cuộn Gà Nấm Phô Mai - Hâm (Cuộn)",
+  "brand": "Lâm Vũ",
+  "unit": "Cuộn",
+  "category": {
+    "kiotCategoryId": "2547494",
+    "name": "Cơm nắm Onigiri",
+    "path": "Món ngon Trạm 8 > Cơm nắm Onigiri"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/3a2c45eaea4ed75b64b6e624610dc46b584640f98393762800f84918f3abe4e5.webp",
+    "description": "Cơm cuộn gà nấm phô mai kiểu kimbap, cơm gạo Nhật cuộn rong biển với thịt gà, nấm hương, bắp ngọt và phô mai Cheddar. Hàng đông lạnh, chỉ cần hâm nóng là dùng được.\n\nThành phần: Gạo Nhật (40%), thịt gà (7%), phô mai Cheddar (4%), nấm hương (3%), bắp ngọt, mè, dầu mè, muối, rong biển, chất điều vị (INS 621).\nQuy cách: cuộn\nHướng dẫn sử dụng: Hâm nóng bằng lò vi sóng trước khi dùng — sản phẩm đông lạnh khoảng 1 phút 30 giây, sản phẩm đã rã đông (để ngăn mát 7–8 giờ) khoảng 1 phút, đến khi cơm nóng đều. Bao bì dùng được trong lò vi sóng.\nBảo quản: Ngăn đông tủ lạnh ≤ -18°C. Hạn sử dụng 6 tháng kể từ ngày sản xuất.\nXuất xứ: Việt Nam · Nhà sản xuất: Công ty TNHH Hải Đăng Đô (TP. Hồ Chí Minh)",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "chủ 18/10: ảnh phải đúng bao bì thật; vẽ lại gói thật từ ảnh KiotViet, bỏ ảnh minh hoạ món ăn → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: vẽ lại phẳng, sạch; chữ nhỏ không đọc được để mờ; độ nhăn màng khác ảnh thật",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-18",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet của SP (hàng thật tại quầy)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết từ chữ in trên nhãn bao bì (ảnh hiện tại)",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:44:35.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "image NEEDS_PHOTO (local product), description WRITE_NEW from pack label"
+    },
+    {
+      "at": "2026-10-17T17:51:25Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T17:51:23Z",
+      "by": "owner",
+      "status": "READY",
+      "note": "chủ 17/10: ảnh món ăn hấp dẫn, đồng bộ"
+    },
+    {
+      "at": "2026-10-17T17:52:19.007Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-18T17:16:08.691Z",
+      "by": "owner",
+      "status": "IN_PROGRESS",
+      "note": "rejected on Hub by AU KHUONG DUY: Xem lại các sp bị từ chối khác để biết lý do từ chối cơm nắm"
+    },
+    {
+      "at": "2026-10-18T17:27:44Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "redo after Hub rejection: Xem lại các sp bị từ chối khác để biết lý do từ chối cơm nắm — Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-18T17:27:45.067Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-18T17:44:24.092Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T03:19:05.400Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-18T17:27:45.067Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-18T17:32:13.714Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-18T17:32:13.714Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/3a2c45eaea4ed75b64b6e624610dc46b584640f98393762800f84918f3abe4e5.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2025/12/30/tongpenhchtl/ee2a44ec0b1b4f61ba053fc4aa7c6344.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Cơm cuộn gà nấm phô mai kiểu kimbap, cơm gạo Nhật cuộn rong biển với thịt gà, nấm hương, bắp ngọt và phô mai Cheddar. Hàng đông lạnh, chỉ cần hâm nóng là dùng được.\n\nThành phần: Gạo Nhật (40%), thịt gà (7%), phô mai Cheddar (4%), nấm hương (3%), bắp ngọt, mè, dầu mè, muối, rong biển, chất điều vị (INS 621).\nQuy cách: cuộn\nHướng dẫn sử dụng: Hâm nóng bằng lò vi sóng trước khi dùng — sản phẩm đông lạnh khoảng 1 phút 30 giây, sản phẩm đã rã đông (để ngăn mát 7–8 giờ) khoảng 1 phút, đến khi cơm nóng đều. Bao bì dùng được trong lò vi sóng.\nBảo quản: Ngăn đông tủ lạnh ≤ -18°C. Hạn sử dụng 6 tháng kể từ ngày sản xuất.\nXuất xứ: Việt Nam · Nhà sản xuất: Công ty TNHH Hải Đăng Đô (TP. Hồ Chí Minh)",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

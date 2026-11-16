@@ -1,0 +1,150 @@
+{
+  "kiotProductId": "64865379",
+  "code": "8938531758218",
+  "barcode": "8938531758218",
+  "name": "Bông Tẩy Trang Jomi 80M",
+  "fullName": "Bông Tẩy Trang Jomi 80M (Gói)",
+  "brand": "Jomi",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2548852",
+    "name": "Bông & khăn tẩy trang",
+    "path": "Chăm sóc cá nhân > Chăm sóc da mặt > Bông & khăn tẩy trang"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/6c6406503c14fdf90a62a2872e937a041edb861088763e4b9fa89295a0f85635.webp",
+    "description": "Bông tẩy trang Jomi Cotton Pads, miếng bông tròn dùng để tẩy trang, thoa nước hoa hồng hoặc làm sạch da hằng ngày.\n\nQuy cách: 80 miếng · gói\nThương hiệu: Jomi",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "Rà ảnh mờ 19/10: ảnh crop phóng to mờ, viền túi lởm chởm → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt nội dung",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-19",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh hiện tại (gói thật)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "REWRITE",
+    "reason": "D2, D3: mô tả cũ dạng HTML do chatbot viết, có mục gợi ý từ khóa, quảng cáo quá đà và ghi 'chính hãng Nhật Bản' không kiểm chứng; Jomi không có trang hãng → viết lại ngắn từ chữ in trên gói (Cotton Pads, bông tẩy trang, 80 miếng) | rà soát v9: Wrong origin: claims made in Japan; Vietnamese barcode, unverified claims",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:27:22.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "b29: image CROP, description REWRITE"
+    },
+    {
+      "at": "2026-10-15T09:16:17Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "tone.py --vivid: white balance/levels + brand-like colour (owner request)"
+    },
+    {
+      "at": "2026-10-18T17:49:49.762Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T02:05:27.524Z",
+      "by": "owner",
+      "status": "IN_PROGRESS",
+      "note": "rejected on Hub by AU KHUONG DUY: Làm sáng hơn"
+    },
+    {
+      "at": "2026-10-19T02:06:32.247Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "brightened after owner rejection"
+    },
+    {
+      "at": "2026-10-19T02:06:32.374Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T02:44:56.965Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T03:19:05.400Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-19T03:59:37Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references — owner 19/10: replace blurry/upscaled/jagged or wrinkled-photo images with crisp flat renders"
+    },
+    {
+      "at": "2026-10-19T04:01:02.568Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T07:23:08.254Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T17:15:09.663Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-19T04:01:02.568Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T05:19:11.811Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T05:19:11.811Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/6c6406503c14fdf90a62a2872e937a041edb861088763e4b9fa89295a0f85635.webp"
+        ],
+        "from": [
+          "https://img.tram8.vn/products/91c824936f2a675e27574dcc0426b98734d874168d025ff3733e1a24e2fe3a2f.webp"
+        ]
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

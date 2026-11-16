@@ -1,0 +1,192 @@
+{
+  "kiotProductId": "68504084",
+  "code": "8936094291661",
+  "barcode": "8936094291661",
+  "name": "Bia Michelob Ultra 250ml",
+  "fullName": "Bia Michelob Ultra 250ml - 4.2% (Lon)",
+  "brand": "Michelob Ultra",
+  "unit": "Lon",
+  "category": {
+    "kiotCategoryId": "2549771",
+    "name": "Nhập khẩu & premium",
+    "path": "Đồ uống có cồn (18+) > Bia > Nhập khẩu & premium"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/11056baaa5eae3b4cf31921d160beb6bda164c36180446cdb95ac65fc4c308c6.webp",
+    "description": "Bia Michelob ULTRA, bia nhẹ (Superior Light Beer) vị êm; lon in 68 calo và 2,1 g carb mỗi 250 ml.<br><br>Quy cách: 250 ml · lon<br>Thương hiệu: Michelob ULTRA<br>Sản phẩm dành cho người từ 18 tuổi trở lên.",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I3/I4: ảnh chụp điện thoại trong cửa hàng, nền thùng/kệ, lon bị cắt; không có ảnh hãng dùng được → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Lon xanh như hàng trên kệ (Kingfoodmart cùng mã vạch còn ảnh lon trắng đời trước/khác); chữ nhỏ dưới đáy để mờ · Chủ: tỉ lệ sai, lon không béo thế → co ngang cho lon cao/rộng ≈ 2,08 như ảnh Kingfoodmart lon 250 ml; giữ màu xanh như ảnh KiotViet (hàng trên kệ)",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (lon xanh 250 ml)",
+      "postprocess": "narrowed horizontally to can height/width 2.08 (measured on Kingfoodmart photo of barcode)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: KiotViet chưa có mô tả; viết ngắn từ chữ in trên lon (ảnh KiotViet)",
+    "source": null,
+    "rubricVersion": "v20"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-17T17:42:07Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T17:43:21Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T17:43:46.416Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "IN_PROGRESS",
+      "note": "rejected on Hub by AU KHUONG DUY: tỉ lệ sai rồi, nó k béo thế"
+    },
+    {
+      "at": "2026-10-17T18:03:49Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "redo after Hub rejection: tỉ lệ sai rồi, nó k béo thế — narrowed horizontally to can height/width 2.08 (measured on Kingfoodmart photo of barcode) (no API call)"
+    },
+    {
+      "at": "2026-10-17T18:07:47.585Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-18T17:16:08.691Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T03:19:05.400Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T18:07:47.585Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-18T17:10:36.088Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-18T17:10:36.088Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/11056baaa5eae3b4cf31921d160beb6bda164c36180446cdb95ac65fc4c308c6.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/10/16/tram8/796411f4d30c4d13abeee1f615c5f632.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Bia Michelob ULTRA, bia nhẹ (Superior Light Beer) vị êm; lon in 68 calo và 2,1 g carb mỗi 250 ml.\n\nQuy cách: 250 ml · lon\nThương hiệu: Michelob ULTRA\nSản phẩm dành cho người từ 18 tuổi trở lên.",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {
+      "price": {
+        "to": 16666.67,
+        "from": 16363.64
+      },
+      "saleTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 68504084
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 68504084
+        }
+      },
+      "taxRate": {
+        "to": "VAT 8%",
+        "from": "VAT 10%"
+      },
+      "productTaxs": {
+        "to": [
+          {
+            "id": 0,
+            "name": "VAT 8%",
+            "taxId": 3,
+            "value": 8,
+            "productId": 68504084
+          }
+        ],
+        "from": [
+          {
+            "id": 0,
+            "name": "VAT 10%",
+            "taxId": 4,
+            "value": 10,
+            "productId": 68504084
+          }
+        ]
+      },
+      "purchaseTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 68504084
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 68504084
+        }
+      }
+    }
+  }
+}

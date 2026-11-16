@@ -1,0 +1,154 @@
+{
+  "kiotProductId": "65175159",
+  "code": "8934673500968",
+  "barcode": "8934673500968",
+  "name": "SCA Nha đam IĐ VNM Collagen 100g",
+  "fullName": "SCA Nha đam IĐ VNM Collagen 100g (Hộp)",
+  "brand": "Vinamilk",
+  "unit": "Hộp",
+  "category": {
+    "kiotCategoryId": "2547910",
+    "name": "Sữa chua ăn",
+    "path": "Sữa và các sản phẩm từ sữa > Sữa chua > Sữa chua ăn"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/45b15b779ec21924db8369b539f620cb47ec8a81ff10689b5166f5fc2af0ab6d.webp",
+    "description": "Sữa chua ăn Vinamilk Nha đam ít đường với miếng nha đam giòn dai, lên men với men Streptococcus thermophilus và Lactobacillus bulgaricus.\n\nThành phần: sữa 76,7% (nước, sữa bột, chất béo sữa, whey bột, sữa tươi chuẩn hóa), nha đam 15%, đường 7,4%, gelatin thực phẩm, chất ổn định (1422, 471), hương liệu (hương vải tổng hợp) dùng cho thực phẩm, men Streptococcus thermophilus và Lactobacillus bulgaricus, vitamin D3. Có chứa sữa.\nQuy cách: 100 g · hộp\nBảo quản: lạnh 2–8 °C; dùng hết sau khi mở.\nXuất xứ: Việt Nam · Nhà sản xuất/thương hiệu: Vinamilk (Công ty CP Sữa Việt Nam)",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "Đồng bộ dòng SP (chủ 20/10): kiểu ảnh theo 64865328 → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: mã vạch in trên nắp theo mã vạch thật 8934673500968",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-19",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh hiện tại/KiotViet của SP (nội dung) + ảnh đã duyệt của SP cùng dòng 64865328 (kiểu, góc, khung)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "REWRITE",
+    "reason": "Thành phần theo bao bì mới nhất trên ảnh hãng (sữa 76,7%, nha đam 15%, đường 7,4%, hương vải); mô tả cũ ghi số liệu bao bì cũ (78%/12%/7,5%) và chữ Collagen không còn trên bao bì",
+    "source": {
+      "url": "https://d8um25gjecm9v.cloudfront.net/cms/SCA_VNM_Nhadam_ID_1_e2cb58034e.png",
+      "page": "https://www.vinamilk.com.vn/products/sua-chua-vinamilk-nha-dam-it-duong",
+      "fetchedAt": "2026-10-17"
+    },
+    "rubricVersion": "v19"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:10:12.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "needs photo; description WRITE_NEW (vinamilk.com.vn)"
+    },
+    {
+      "at": "2026-10-17T07:47:12.000Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "17/10: only 4-pack brand images exist for this single-cup SKU → ask owner"
+    },
+    {
+      "at": "2026-10-17T09:06:23Z",
+      "by": "owner",
+      "status": "ASK_OWNER",
+      "note": "owner 17/10 (RUBRIC v19): unit Hộp = one 100 g cup; only multipack image → Gemini draws one cup (illustration)"
+    },
+    {
+      "at": "2026-10-17T09:06:23Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T09:06:23Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "description REWRITE: ingredients from the newest pack"
+    },
+    {
+      "at": "2026-10-17T09:06:40.368Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T18:53:23Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "line consistency 20/10: straight cup -> 3/4 view like the other two Vinamilk yogurt flavours — Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-19T18:53:53.165Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-20T03:28:53.537Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-26T04:58:33.990Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-19T18:53:53.165Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-20T03:25:29.153Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-20T03:25:29.153Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/45b15b779ec21924db8369b539f620cb47ec8a81ff10689b5166f5fc2af0ab6d.webp"
+        ],
+        "from": [
+          "https://img.tram8.vn/products/a4a5eb16cfba09ef3f065924e5cd67920b5742d8836fb4e37caadd9ee7f47f2f.webp"
+        ]
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

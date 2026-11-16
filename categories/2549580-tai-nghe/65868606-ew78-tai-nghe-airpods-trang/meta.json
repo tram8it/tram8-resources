@@ -1,0 +1,119 @@
+{
+  "kiotProductId": "65868606",
+  "code": "6942007631808",
+  "barcode": "6942007631808",
+  "name": "EW78 tai nghe airpods trắng",
+  "fullName": "EW78 tai nghe airpods trắng (Bộ)",
+  "brand": null,
+  "unit": "Bộ",
+  "category": {
+    "kiotCategoryId": "2549580",
+    "name": "Tai nghe",
+    "path": "Phụ kiện điện tử > Tai nghe"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/a7dab0754b14e0940fb2c8b5704d41572b38dc6a506945cae4f840ad3830dd7e.webp",
+    "description": "Tai nghe không dây nhét tai EW78 màu trắng, kiểu thân ngắn, đóng hộp giấy trắng.\n\nQuy cách: 1 bộ · hộp\nMẫu: EW78 · màu trắng",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "ảnh tự chụp (hộp xám, thiếu sáng); không có ảnh hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: hộp trắng trơn với hình tai nghe như ảnh gốc, không có chữ; chỉ làm sáng/sạch",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet của cửa hàng (chỉ làm mẫu)",
+      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/07/29/tram8/810139d93ee843e3b04b2ce10f73d08e.png"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; mô tả ngắn chỉ từ tên SP và chữ in trên hộp (không rõ hãng/không có trang hãng); không dùng tên thương hiệu Apple",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:27:51.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "b30: image CROP, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-15T09:16:17Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "tone.py --vivid: white balance/levels + brand-like colour (owner request)"
+    },
+    {
+      "at": "2026-10-17T14:23:14Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T14:23:14.261Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T14:23:14.261Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T16:49:44.671Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T16:49:44.671Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/a7dab0754b14e0940fb2c8b5704d41572b38dc6a506945cae4f840ad3830dd7e.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/29/tram8/810139d93ee843e3b04b2ce10f73d08e.png"
+        ]
+      },
+      "description": {
+        "to": "Tai nghe không dây nhét tai EW78 màu trắng, kiểu thân ngắn, đóng hộp giấy trắng.\n\nQuy cách: 1 bộ · hộp\nMẫu: EW78 · màu trắng",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

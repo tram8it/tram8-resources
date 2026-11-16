@@ -1,0 +1,136 @@
+{
+  "kiotProductId": "65925871",
+  "code": "8934760219278",
+  "barcode": "8934760219278",
+  "name": "Tipo hộp 48g",
+  "fullName": "Tipo hộp 48g (Hộp)",
+  "brand": "Tipo",
+  "unit": "Hộp",
+  "category": {
+    "kiotCategoryId": "2549069",
+    "name": "Bánh pie / cake mềm",
+    "path": "Bánh quy & bánh đóng gói > Bánh pie / cake mềm"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/b485b9859022a18268a03d51d1bdf7ae5d5670196e8a51bd8f51817d9b64482c.webp",
+    "description": "Bánh trứng Tipo của Hữu Nghị – nền bánh trứng nướng xốp giòn phủ lớp kem trứng sữa béo, vị ngọt vừa. Mỗi bánh gói riêng, đựng trong hộp giấy.\n\nThành phần: trứng gà (27%), đường, bột mì, dầu nhân cọ hydro hóa và tinh luyện, sữa bột béo, chất nhũ hóa (471, 475, 1520, 477, 491), chất làm ẩm (420(ii), 422), muối, chất tạo xốp (450(i), 500(ii), 341(i)). Có chứa trứng, lúa mì, sữa.\nQuy cách: 39 g · hộp\nXuất xứ: Việt Nam · Nhà sản xuất: Công ty Cổ phần Thực phẩm Hữu Nghị\nBảo quản: nơi khô ráo, thoáng mát, tránh ánh nắng trực tiếp. Hạn sử dụng 12 tháng kể từ ngày sản xuất.",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "Rà ảnh mờ 19/10: ảnh crop phóng ~3 lần mềm, có dấu in NSX/HSD trên hộp → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: bỏ dấu in phun ngày SX/HSD; còn lại không thấy khác biệt",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-19",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh hiện tại (hộp thật) + ảnh Tipo bánh trứng trên huunghi.com.vn (chỉ làm mẫu)",
+      "referenceUrl": "https://huunghi.com.vn/tipo-banh-trung-39g/"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; theo trang Hữu Nghị Tipo Bánh Trứng 39g (hộp trên ảnh ghi 39 g, tên KiotViet ghi 48g)",
+    "source": {
+      "url": "https://huunghi.com.vn/tipo-banh-trung-39g/",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:55:08.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "b21: image CROP, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-15T09:16:17Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "tone.py --vivid: white balance/levels + brand-like colour (owner request)"
+    },
+    {
+      "at": "2026-10-18T17:50:17.717Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T02:05:27.524Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T03:19:05.400Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-19T03:59:35Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references — owner 19/10: replace blurry/upscaled/jagged or wrinkled-photo images with crisp flat renders"
+    },
+    {
+      "at": "2026-10-19T04:00:49.555Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T07:23:08.254Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T17:15:09.663Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-19T04:00:49.555Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T05:18:46.316Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T05:18:46.316Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/b485b9859022a18268a03d51d1bdf7ae5d5670196e8a51bd8f51817d9b64482c.webp"
+        ],
+        "from": [
+          "https://img.tram8.vn/products/2cf645ce7d7fd12eb9b5c15b3b4f92dda17edee69c1ba02680d5abef711b3b6d.webp"
+        ]
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

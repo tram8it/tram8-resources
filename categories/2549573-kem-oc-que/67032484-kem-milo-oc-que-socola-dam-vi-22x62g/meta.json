@@ -1,0 +1,119 @@
+{
+  "kiotProductId": "67032484",
+  "code": "8850125007000",
+  "barcode": "8850125007000",
+  "name": "Kem Milo ốc quế socola đậm vị 22x62g",
+  "fullName": "Kem Milo ốc quế socola đậm vị 22x62g (Cái)",
+  "brand": "Milo",
+  "unit": "Cái",
+  "category": {
+    "kiotCategoryId": "2549573",
+    "name": "Kem ốc quế",
+    "path": "Kem & Đồ đông lạnh > Kem ốc quế"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/027331ce3b5675ecb3bef8749dbb1584313bffef1a3dfb1574b9bfd41ab51931.webp",
+    "description": "Kem ốc quế Nestlé MILO vị sô cô la đậm, bán lẻ từng cây, bảo quản đông lạnh.\n\nQuy cách: 62 g · cái\nNhà sản xuất/thương hiệu: Nestlé · MILO\nBảo quản: ngăn đông tủ lạnh.",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "ảnh tự chụp (nghiêng, vỏ nhăn); không có ảnh hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh Kingfoodmart (chỉ làm mẫu) + ảnh KiotViet",
+      "referenceUrl": "https://storage.googleapis.com/onelife-public/8850125007000.jpg"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; mô tả ngắn từ chữ in mặt trước bao bì (Nestlé MILO, kem ốc quế sô cô la) + dung tích/khối lượng theo tên hàng",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:57:37.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "image CROP, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-15T09:16:17Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "tone.py --vivid: white balance/levels + brand-like colour (owner request)"
+    },
+    {
+      "at": "2026-10-17T14:12:37Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T14:14:40.511Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T14:14:40.511Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T16:16:54.043Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T16:16:54.043Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/027331ce3b5675ecb3bef8749dbb1584313bffef1a3dfb1574b9bfd41ab51931.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/30/tram8/04c9f82c41a14280914bfd2fd1260424.png"
+        ]
+      },
+      "description": {
+        "to": "Kem ốc quế Nestlé MILO vị sô cô la đậm, bán lẻ từng cây, bảo quản đông lạnh.\n\nQuy cách: 62 g · cái\nNhà sản xuất/thương hiệu: Nestlé · MILO\nBảo quản: ngăn đông tủ lạnh.",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

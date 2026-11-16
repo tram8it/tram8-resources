@@ -1,0 +1,151 @@
+{
+  "kiotProductId": "64865300",
+  "code": "8936221041763",
+  "barcode": "8936221041763",
+  "name": "Mì dinh dưỡng khoai tây Omachi hương vị lẩu tôm càng 30gói x 80gr",
+  "fullName": "Mì dinh dưỡng khoai tây Omachi hương vị lẩu tôm càng 30gói x 80gr (Gói)",
+  "brand": "Omachi",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2549340",
+    "name": "Mì gói",
+    "path": "Đồ khô - Mì Gói > Mì gói"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/30cdc5c10c275d0e632a7ab6d8db41a4008ea9115ae1f6cff6e1b9a202746f24.webp",
+    "description": "Mì khoai tây Omachi vị tôm chua cay Thái của Masan Consumer. Sợi mì làm từ trứng và khoai tây, nước dùng từ xương và thịt hầm.\n\nQuy cách: 80 g · gói\nNhà sản xuất/thương hiệu: Masan Consumer · Omachi",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "line consistency 20/10 (v14): pillow render without crimped seals vs Omachi flat crimped packs -> same render style → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt nội dung",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-20",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh hiện tại của SP (nội dung) + ảnh SP cùng dòng 64865805 (góc chụp/khung/ánh sáng)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; theo bao bì chủ xác nhận + trang Masan (sợi trứng + khoai tây, 80 g)",
+    "source": {
+      "url": "https://masanconsumer.com/en/omachi-potato-noodles-hot-and-sour-shirmp-80gr/",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T14:00:00.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "pilot review: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-13T15:30:00.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "rubric v2 (owner 13/10: newest packaging, generated description when no source): image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-13T17:30:00.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "owner-provided official-store image; READY"
+    },
+    {
+      "at": "2026-10-13T16:19:03.544Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: name, weightGram, brand, description, image"
+    },
+    {
+      "at": "2026-10-14T09:24:31.419Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-20T16:40:26Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "line consistency 20/10: pillow render without crimped seals vs Omachi flat crimped packs -> same render style (Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references)"
+    },
+    {
+      "at": "2026-10-20T16:41:17.530Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: name, weightGram, brand, description, image"
+    },
+    {
+      "at": "2026-10-21T08:30:34.700Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-26T04:58:33.990Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "master": {
+    "name": "Mì Omachi tôm chua cay Thái 80g",
+    "weightGram": 80,
+    "brand": "Omachi",
+    "reason": "Mẫu tên: Loại + Thương hiệu + Vị + Khối lượng (chủ chốt 13/10); khối lượng tịnh và thương hiệu theo bao bì",
+    "rubricVersion": "v4"
+  },
+  "submitted": {
+    "at": "2026-10-20T16:41:17.530Z",
+    "fields": [
+      "name",
+      "weightGram",
+      "brand",
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-20T16:44:40.281Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-20T16:44:40.281Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/30cdc5c10c275d0e632a7ab6d8db41a4008ea9115ae1f6cff6e1b9a202746f24.webp"
+        ],
+        "from": [
+          "https://img.tram8.vn/products/e3c37839f50b8c89ade9ee73e7e68cff0396f0627d040897b384a043b40009d8.webp"
+        ]
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

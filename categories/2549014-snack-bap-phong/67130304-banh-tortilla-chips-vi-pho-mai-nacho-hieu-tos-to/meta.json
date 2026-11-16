@@ -1,0 +1,148 @@
+{
+  "kiotProductId": "67130304",
+  "code": "8995077606489",
+  "barcode": "8995077606489",
+  "name": "Bánh Tortilla Chips Vị Phô Mai Nacho Hiệu Tos Tos 145g",
+  "fullName": "Bánh Tortilla Chips Vị Phô Mai Nacho Hiệu Tos Tos 145g (Gói)",
+  "brand": "Tos Tos",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2549014",
+    "name": "Snack bắp & phồng",
+    "path": "Đồ ăn vặt > Snacks > Snack bắp & phồng"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/175d3974a686d614499f5fad0e2392d86cbf48dea4cf8f028a49c13a86427722.webp",
+    "description": "Bánh snack tortilla (bánh ngô giòn hình tam giác) Tos Tos vị phô mai Nacho, ăn liền như món ăn vặt.\n\nQuy cách: 145 g · gói\nNhà sản xuất/thương hiệu: Tos Tos (PT Dua Kelinci, Indonesia)",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I3/I4/I5: ảnh chụp điện thoại; trang hãng chỉ có Nacho Cheese 140 g (bản xuất Thái), mã vạch 8995077606489 là gói 145 g (Open Food Facts) → Gemini vẽ lại từ ảnh hãng, dòng khối lượng 145 g; chủ chốt 17/10/2026 (v19) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: mặt trước giống ảnh hãng; chữ nhỏ nhà sản xuất/BPOM ở đáy là chữ AI vẽ, không đọc đúng; không có nhãn chữ Hàn như gói cửa hàng | line consistency 20/10: bỏ bóng elip dưới sàn để cùng kiểu bóng với Tos Tos BBQ/Roasted Corn",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh chính hãng Dua Kelinci Tos Tos Nacho Cheese 140g (bản Thái) + Korean BBQ 145g (bố cục đáy bản Indonesia)",
+      "referenceUrl": "https://duakelinci.com/brand/tostos"
+    },
+    "rubricVersion": "v23"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết từ chữ in trên bao bì hãng (Tortilla chips Nacho Cheese, PT Dua Kelinci, Indonesia); khối lượng 145 g theo mã vạch (Open Food Facts) và tên",
+    "source": {
+      "url": "https://duakelinci.com/brand/tostos",
+      "fetchedAt": "2026-10-17T09:05:00Z"
+    },
+    "rubricVersion": "v19"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:23:35.000Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "asked owner: Korean-print pack, 140g vs 145g"
+    },
+    {
+      "at": "2026-10-17T08:57:59Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T08:58:00Z",
+      "by": "owner",
+      "status": "ASK_OWNER",
+      "note": "17/10/2026 (RUBRIC v19): dùng bao bì mới nhất của hãng; lệch 140/145 g nhỏ, tin bao bì đúng mã vạch"
+    },
+    {
+      "at": "2026-10-17T08:58:00Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini redraw of Dua Kelinci Nacho render with 145 g line accepted; description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T08:58:00.153Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-20T16:41:17Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "line consistency 20/10: wide floor-shadow ellipse vs no floor shadow on the other Tos Tos bags -> shadow removed with PIL (bag untouched)"
+    },
+    {
+      "at": "2026-10-20T16:42:08.742Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-21T08:30:34.700Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-26T04:58:33.990Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-20T16:42:08.742Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-20T16:45:38.255Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-20T16:45:38.255Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/175d3974a686d614499f5fad0e2392d86cbf48dea4cf8f028a49c13a86427722.webp"
+        ],
+        "from": [
+          "https://img.tram8.vn/products/5fe3729bde9889652a19a9bf97a7858afd81024244a621b6274f742c809a9d42.webp"
+        ]
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

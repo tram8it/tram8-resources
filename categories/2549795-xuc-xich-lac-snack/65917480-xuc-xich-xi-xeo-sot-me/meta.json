@@ -1,0 +1,112 @@
+{
+  "kiotProductId": "65917480",
+  "code": "8936034878228",
+  "barcode": "8936034878228",
+  "name": "Xúc xích xì xèo sốt Me",
+  "fullName": "Xúc xích xì xèo sốt Me (Gói)",
+  "brand": "Heo Cao Bồi",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2549795",
+    "name": "Xúc xích lắc & snack",
+    "path": "Xúc Xích & Thịt Nguội > Xúc xích lắc & snack"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/5a0a111276bb099744a060699bac6fcb19dda7ff10c985a53179280fe0cad233.webp",
+    "description": "Xúc xích Xì Xèo của Heo Cao Bồi, dòng snack dinh dưỡng, ăn kèm xốt me chua ngọt. Món ăn vặt đóng gói tiện mang theo.\n\nQuy cách: gói\nNhà sản xuất/thương hiệu: Heo Cao Bồi",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I3, I4, I5: ảnh chụp cận gói, bị khung cắt, nền không trắng; Heo Cao Bồi (SNF) không có trang hãng truy cập được → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: ảnh cửa hàng bị cắt đầu và đáy gói: dải logo trên cùng, mép hàn và phần đáy là AI dựng (đáy gói thật có thể in khối lượng/chữ khác); tỉ lệ gói thật có thể cao hơn; còn lại (heo cao bồi, 'Xốt me chua ngọt', 'XÚC XÍCH XÌ XÈO') theo ảnh thật",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (gói đang bán, bị cắt đầu/đáy) + logo từ ảnh hũ Heo Cao Bồi trên Kingfoodmart (chỉ làm mẫu)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; mô tả ngắn chỉ từ dữ kiện chắc chắn (tên KiotViet, chữ mặt trước gói 'Xúc xích Xì Xèo', 'xốt me chua ngọt'); tên không ghi khối lượng nên bỏ",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:57:41.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "image REPLACE (no official source) → NEEDS_PHOTO, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T07:56:18Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T07:56:18.877Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T08:06:02.482Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T07:56:18.877Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T08:03:23.672Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T08:03:23.672Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/5a0a111276bb099744a060699bac6fcb19dda7ff10c985a53179280fe0cad233.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/05/23/tram8/f793326f361d4fa1a59d69eb0c5d9c61.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Xúc xích Xì Xèo của Heo Cao Bồi, dòng snack dinh dưỡng, ăn kèm xốt me chua ngọt. Món ăn vặt đóng gói tiện mang theo.\n\nQuy cách: gói\nNhà sản xuất/thương hiệu: Heo Cao Bồi",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

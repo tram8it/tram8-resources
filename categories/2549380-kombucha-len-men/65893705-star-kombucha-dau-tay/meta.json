@@ -1,0 +1,119 @@
+{
+  "kiotProductId": "65893705",
+  "code": "8936185350185",
+  "barcode": "8936185350185",
+  "name": "Star Kombucha Dâu Tây",
+  "fullName": "Star Kombucha Dâu Tây (Lon)",
+  "brand": "Star Kombucha",
+  "unit": "Lon",
+  "category": {
+    "kiotCategoryId": "2549380",
+    "name": "Kombucha / lên men",
+    "path": "Đồ uống đóng chai > Kombucha / lên men"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/0b0040bcd5c148bafbf1aaf522257b81016b53a72f0a2240be5ce902ec35cda1.webp",
+    "description": "Trà lên men Star Kombucha của Goody Group vị dâu tây, trà kombucha có hương trái cây.\n\nQuy cách: lon\nNhà sản xuất/thương hiệu: Goody Group · Star Kombucha",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I3/I4: ảnh tự chụp lon, bóng xám; không có ảnh hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt đáng kể; huy hiệu nhỏ bên phải không đọc được",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh Kingfoodmart (chỉ làm mẫu) + ảnh KiotViet",
+      "referenceUrl": "https://storage.googleapis.com/onelife-public/8936185350185.jpg"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết từ tên SP và chữ in trên lon (starkombucha.com chỉ có ảnh bản quốc tế nền màu)",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:07:05.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "b18 review (rubric v4): image CROP, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-15T09:16:17Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "tone.py --vivid: white balance/levels + brand-like colour (owner request)"
+    },
+    {
+      "at": "2026-10-17T15:13:44Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T15:13:45.086Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T15:13:45.086Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T16:57:41.521Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T16:57:41.521Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/0b0040bcd5c148bafbf1aaf522257b81016b53a72f0a2240be5ce902ec35cda1.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/24/tram8/a1b521d56d2343de880ce06670a31b35.png"
+        ]
+      },
+      "description": {
+        "to": "Trà lên men Star Kombucha của Goody Group vị dâu tây, trà kombucha có hương trái cây.\n\nQuy cách: lon\nNhà sản xuất/thương hiệu: Goody Group · Star Kombucha",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

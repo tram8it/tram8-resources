@@ -1,0 +1,176 @@
+{
+  "kiotProductId": "64865775",
+  "code": "8934603000247",
+  "barcode": "8934603000247",
+  "name": "SAIGON Menthol DS BC",
+  "fullName": "SAIGON Menthol DS BC (Bao)",
+  "brand": "Saigon",
+  "unit": "Bao",
+  "category": {
+    "kiotCategoryId": "2533374",
+    "name": "Thuốc lá (18+)",
+    "path": "Thuốc lá (18+)"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/0ba676e8885efd0d6e5dc1f42342bace52f9bbd2763407d8e0f21791f67a759f.webp",
+    "description": "Thuốc lá điếu đầu lọc Saigon Menthol (bạc hà), bao cứng; bao in \"Virginia filter cigarettes\".\n\nQuy cách: bao\nThương hiệu: Saigon · Nhà sản xuất: Công ty TNHH MTV Thuốc lá Sài Gòn (Vinataba)\n\nChỉ bán cho người từ 18 tuổi trở lên.\nHút thuốc lá có hại cho sức khỏe.",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I6/I7: ảnh KiotViet nhỏ, tem điện tử che hình cảnh báo → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: bỏ tem điện tử; phần hình cảnh báo dưới tem vẽ theo hình cảnh báo chuẩn cùng mẫu; logo cổng Sài Gòn có thêm vòng tròn nhạt phía sau (gốc không rõ)",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet + ảnh Thăng Long Change (chỉ để lấy phần hình cảnh báo bị tem che)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; mô tả ngắn chỉ từ chữ in trên bao (khuôn _category.md); nhà sản xuất theo chủ mã vạch 8934603 trên iCheck; không ghi số điếu khi bao không in",
+    "source": {
+      "url": "https://icheck.vn/san-pham/8934603000247",
+      "fetchedAt": "2026-10-17"
+    },
+    "rubricVersion": "v18"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-17T08:54:53Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T08:55:17Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "description WRITE_NEW (tobacco template: facts printed on pack, 18+ and health lines)"
+    },
+    {
+      "at": "2026-10-17T08:56:21.308Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T08:56:21.308Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T09:05:54.373Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T09:05:54.373Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/0ba676e8885efd0d6e5dc1f42342bace52f9bbd2763407d8e0f21791f67a759f.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/30/tram8/7e494a2ea996429bae54b3d7615945dc.png"
+        ]
+      },
+      "description": {
+        "to": "Thuốc lá điếu đầu lọc Saigon Menthol (bạc hà), bao cứng; bao in \"Virginia filter cigarettes\".\n\nQuy cách: bao\nThương hiệu: Saigon · Nhà sản xuất: Công ty TNHH MTV Thuốc lá Sài Gòn (Vinataba)\n\nChỉ bán cho người từ 18 tuổi trở lên.\nHút thuốc lá có hại cho sức khỏe.",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {
+      "price": {
+        "to": 21296.3,
+        "from": 20909.09
+      },
+      "saleTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 64865775
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 64865775
+        }
+      },
+      "taxRate": {
+        "to": "VAT 8%",
+        "from": "VAT 10%"
+      },
+      "productTaxs": {
+        "to": [
+          {
+            "id": 0,
+            "name": "VAT 8%",
+            "taxId": 3,
+            "value": 8,
+            "productId": 64865775
+          }
+        ],
+        "from": [
+          {
+            "id": 0,
+            "name": "VAT 10%",
+            "taxId": 4,
+            "value": 10,
+            "productId": 64865775
+          }
+        ]
+      },
+      "purchaseTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 64865775
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 64865775
+        }
+      }
+    }
+  }
+}

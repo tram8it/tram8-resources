@@ -1,0 +1,119 @@
+{
+  "kiotProductId": "65200938",
+  "code": "8938554662066",
+  "barcode": "8938554662066",
+  "name": "Lương khô 5*",
+  "fullName": "Lương khô 5* (Gói)",
+  "brand": null,
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2549805",
+    "name": "Lương khô",
+    "path": "Bánh quy & bánh đóng gói > Lương khô"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/6e7d5355a39787f52876ef49f0a1639458ba8612025913ecfd23c5db5005e6b5.webp",
+    "description": "Lương khô 5 sao dạng thanh nén chia ô, bao bì ghi giàu dinh dưỡng. Ăn trực tiếp.\n\nQuy cách: gói\nXuất xứ: Việt Nam",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I5: gói giấy bạc nhăn → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Lương Khô 5*, Giàu dinh dưỡng khớp ảnh KiotViet; vẽ phẳng, không nhăn.",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (ảnh tự chụp)",
+      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/07/29/tram8/5b11776de7f64828b6658da0e1916001.png"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết ngắn chỉ từ chữ in mặt trước gói (Lương Khô 5 sao, giàu dinh dưỡng); không thấy khối lượng",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-14T00:31:15.096Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "batch f3: image CROP, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-15T09:16:17Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "tone.py --vivid: white balance/levels + brand-like colour (owner request)"
+    },
+    {
+      "at": "2026-10-17T15:19:34Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T15:19:35.137Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T15:19:35.137Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T17:09:38.770Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T17:09:38.770Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/6e7d5355a39787f52876ef49f0a1639458ba8612025913ecfd23c5db5005e6b5.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/29/tram8/5b11776de7f64828b6658da0e1916001.png"
+        ]
+      },
+      "description": {
+        "to": "Lương khô 5 sao dạng thanh nén chia ô, bao bì ghi giàu dinh dưỡng. Ăn trực tiếp.\n\nQuy cách: gói\nXuất xứ: Việt Nam",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "kiotProductId": "64865669",
+  "code": "8993175535878",
+  "barcode": "8993175535878",
+  "name": "BÁNH KEM XỐP PHÔ MAI RICHEESE NABATI CHEESE WAFER 50G",
+  "fullName": "BÁNH KEM XỐP PHÔ MAI RICHEESE NABATI CHEESE WAFER 50G (Gói)",
+  "brand": "Nabati",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2549064",
+    "name": "Bánh xốp kem (wafer)",
+    "path": "Bánh quy & bánh đóng gói > Bánh xốp kem (wafer)"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/c6a38afedbb7f29fc4ec28ebf8fbfac488a342aec529ffaf3c812c8b07d637f2.webp",
+    "description": "Bánh kem xốp phô mai Nabati Richeese (Cheese Cream Wafer), lớp xốp giòn xen kem phô mai, bổ sung vitamin A, B1, B2.\n\nQuy cách: 50 g · gói\nNhà sản xuất/thương hiệu: Nabati",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "ảnh tự chụp: gói nhăn, bóng; không có ảnh hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ nhỏ (thành phần, khối lượng) không đọc rõ, chỉ minh hoạ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet của cửa hàng (ảnh tự chụp)",
+      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/07/24/tram8/5483c4ae023b4700874dd19bf558c13a.png"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết ngắn chỉ từ tên SP và chữ in mặt trước bao bì (không có trang hãng)",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:36:29.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "b10 review: image CROP, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-15T09:16:17Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "tone.py --vivid: white balance/levels + brand-like colour (owner request)"
+    },
+    {
+      "at": "2026-10-17T14:13:57Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T14:13:57.693Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T14:13:57.693Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T16:15:36.116Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T16:15:36.116Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/c6a38afedbb7f29fc4ec28ebf8fbfac488a342aec529ffaf3c812c8b07d637f2.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/24/tram8/5483c4ae023b4700874dd19bf558c13a.png"
+        ]
+      },
+      "description": {
+        "to": "Bánh kem xốp phô mai Nabati Richeese (Cheese Cream Wafer), lớp xốp giòn xen kem phô mai, bổ sung vitamin A, B1, B2.\n\nQuy cách: 50 g · gói\nNhà sản xuất/thương hiệu: Nabati",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

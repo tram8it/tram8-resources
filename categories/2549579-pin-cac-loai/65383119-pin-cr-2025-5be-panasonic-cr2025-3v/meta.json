@@ -1,0 +1,141 @@
+{
+  "kiotProductId": "65383119",
+  "code": "4984824343092",
+  "barcode": "4984824343092",
+  "name": "Pin CR-2025/5BE Panasonic CR2025 3V",
+  "fullName": "Pin CR-2025/5BE Panasonic CR2025 3V (Viên)",
+  "brand": "Panasonic",
+  "unit": "Viên",
+  "category": {
+    "kiotCategoryId": "2549579",
+    "name": "Pin các loại",
+    "path": "Phụ kiện điện tử > Pin các loại"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/a687ffcc140d574e249111fee21d9005fe8840907be8a5dda129fa532e387089.webp",
+    "description": "Pin cúc áo Panasonic CR2025, pin lithium 3V dạng đồng xu, dùng cho đồng hồ, chìa khóa xe, cân điện tử, điều khiển nhỏ.\n\nQuy cách: bán lẻ 1 viên (tách từ vỉ 5 viên) · cỡ CR2025 · 3V\nNhà sản xuất/thương hiệu: Panasonic",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "Chủ: cần bao bì; đơn vị bán 1 viên → vẽ vỉ 1 viên → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: tên ghi /5BE (dây 5 vỉ), cửa hàng bán lẻ từng viên nên vẽ 1 vỉ 1 viên; viên pin màu bạc sáng hơn ảnh mẫu",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-18",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh vỉ pin Panasonic CR2025 trên batteryjunction.com (chỉ làm mẫu)",
+      "referenceUrl": "https://www.batteryjunction.com/panasonic-cr2025"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "REWRITE",
+    "reason": "v19: đơn vị KiotViet là 'Viên' — sửa quy cách 'vỉ 5 viên' thành bán lẻ 1 viên",
+    "source": null,
+    "rubricVersion": "v19"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:15:39.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "image REPLACE → NEEDS_PHOTO, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T08:23:45Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "Pin cúc áo Panasonic CR2016/CR2025/CR2032 bản 5BE (mã vạch 4984824343085 / 4984824343092 / 8887549855481): trên KiotViet đơn vị là 'Viên' nhưng mã vạch là của vỉ 5 viên. Ảnh nên là (a) cả vỉ 5 viên hay (b) 1 viên? Ảnh CR2032 hiện có là vỉ bản Trung Quốc (chữ 松下电器, logo cửa hàng khác) — có giống vỉ cửa hàng đang bán không? Nếu không, xin ảnh chụp vỉ thật để em vẽ lại cho cả 3 mã."
+    },
+    {
+      "at": "2026-10-17T08:54:03Z",
+      "by": "owner",
+      "status": "ASK_OWNER",
+      "note": "Chủ trả lời (17/10/2026, RUBRIC v19): tin đơn vị KiotViet 'Viên' — ảnh 1 viên pin, mô tả ghi bán lẻ 1 viên; tên giữ '/5BE' cho khớp HĐĐT."
+    },
+    {
+      "at": "2026-10-17T08:54:04Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T09:11:18.059Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "IN_PROGRESS",
+      "note": "rejected on Hub by AU KHUONG DUY: Cần bao bì"
+    },
+    {
+      "at": "2026-10-18T00:18:46Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "redo after Hub rejection: Cần bao bì — Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-18T00:18:46.663Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-18T17:16:08.691Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T03:19:05.400Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-18T00:18:46.663Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-18T17:10:43.181Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-18T17:10:43.181Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/a687ffcc140d574e249111fee21d9005fe8840907be8a5dda129fa532e387089.webp"
+        ],
+        "from": null
+      },
+      "description": {
+        "to": "Pin cúc áo Panasonic CR2025, pin lithium 3V dạng đồng xu, dùng cho đồng hồ, chìa khóa xe, cân điện tử, điều khiển nhỏ.\n\nQuy cách: bán lẻ 1 viên (tách từ vỉ 5 viên) · cỡ CR2025 · 3V\nNhà sản xuất/thương hiệu: Panasonic",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

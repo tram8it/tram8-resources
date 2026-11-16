@@ -1,0 +1,125 @@
+{
+  "kiotProductId": "67902482",
+  "code": "9556007002260",
+  "barcode": "9556007002260",
+  "name": "SỮA ĐẬU NÀNH HIỆU HOMESOY VỊ DƯA LƯỚI 250ML×24",
+  "fullName": "SỮA ĐẬU NÀNH HIỆU HOMESOY VỊ DƯA LƯỚI 250ML×24 (Hộp)",
+  "brand": "Homesoy",
+  "unit": "Hộp",
+  "category": {
+    "kiotCategoryId": "2547908",
+    "name": "Sữa hạt",
+    "path": "Sữa và các sản phẩm từ sữa > Sữa tiệt trùng > Sữa hạt"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/640bca297ef9fee38531afa38e82fe676c24663abe0540d961d222b2260ff3b2.webp",
+    "description": "Sữa đậu nành Homesoy vị dưa lưới, nấu theo công thức truyền thống, không chất bảo quản.\n\nQuy cách: 250 ml · hộp\nNhà sản xuất/thương hiệu: Homesoy",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I2/I6: ảnh hiện có là hộp 1 lít bản cũ, nhỏ 246×356; không có ảnh hộp 250 ml vị dưa lưới → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: ẢNH MINH HOẠ: ghép hộp 250 ml bản Original với nhãn vị Honey Melon của hộp 1 L; hộp bán tại VN có thể có nhãn phụ/khác chi tiết",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh hộp Homesoy Original 250 ml (mẫu hộp) + hộp Honey Melon 1 L (mẫu vị) trên homesoy.my (trang Homesoy Malaysia, chưa có trong brands.json; chỉ làm mẫu)",
+      "referenceUrl": "https://www.homesoy.my/products"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết ngắn chỉ từ tên hàng và chữ in trên hộp",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:09:58.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "b19: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T07:53:48Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "ASK_OWNER: no 250 ml reference, asked owner"
+    },
+    {
+      "at": "2026-10-17T14:07:21Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T14:07:21Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "resolved without asking: unit Hộp = one 250 ml carton (v19); homesoy.my has the 250 ml Original carton + Honey Melon 1 L → default 'size from sibling', illustrative render"
+    },
+    {
+      "at": "2026-10-17T14:07:22.067Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T14:07:22.067Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T15:18:04.064Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T15:18:04.064Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/640bca297ef9fee38531afa38e82fe676c24663abe0540d961d222b2260ff3b2.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/08/30/tram8/f8493e85160e49d9a291bb6bd68a0b30.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Sữa đậu nành Homesoy vị dưa lưới, nấu theo công thức truyền thống, không chất bảo quản.\n\nQuy cách: 250 ml · hộp\nNhà sản xuất/thương hiệu: Homesoy",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

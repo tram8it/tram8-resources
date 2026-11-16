@@ -1,0 +1,120 @@
+{
+  "kiotProductId": "68693446",
+  "code": "028400025409",
+  "barcode": "028400025409",
+  "name": "Bánh Snack Cheetos Puffs 9oz",
+  "fullName": "Bánh Snack Cheetos Puffs 9oz (Gói)",
+  "brand": "Cheetos",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2549014",
+    "name": "Snack bắp & phồng",
+    "path": "Đồ ăn vặt > Snacks > Snack bắp & phồng"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/5e2feca54f69d9340f7ffaafaee37e94d0ce68484fdccadf003053302264e8a7.webp",
+    "description": "Snack phô mai Cheetos Puffs dạng que xốp. Hàng Mỹ.\n\nQuy cách: 9 oz (255,1 g) · gói\nThương hiệu: Cheetos (Frito-Lay)",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "chủ 31/10: hàng family size, gói cao dài — ảnh cũ thấp làm khách nhầm cỡ → vẽ lại dáng gói cao (~1,8–2 lần chiều ngang), cả lô cùng tỉ lệ → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ nhỏ có thể mờ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-31",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet + ảnh hãng (cheetos.com/doritos.com) + ảnh chủ gửi Doritos 31/10"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "viết theo bao bì + tên hàng",
+    "source": null,
+    "rubricVersion": "v18"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-31T14:03:54.159Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-31T14:15:24Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-31T14:15:33.800Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-31T14:26:35.820Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-31T14:31:50Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 4, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-31T14:31:51.593Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-31T14:39:21.269Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-11-02T09:01:21.866Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-31T14:31:51.593Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-31T14:34:28.537Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-31T14:34:28.537Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/5e2feca54f69d9340f7ffaafaee37e94d0ce68484fdccadf003053302264e8a7.webp"
+        ],
+        "from": [
+          "https://img.tram8.vn/products/c564c8b27a712784c1698f86295a11f17d40653e505e70b6d035f2db8c011fc1.webp"
+        ]
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

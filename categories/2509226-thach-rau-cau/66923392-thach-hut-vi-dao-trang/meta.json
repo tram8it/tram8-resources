@@ -1,0 +1,156 @@
+{
+  "kiotProductId": "66923392",
+  "code": "6921101239417",
+  "barcode": "6921101239417",
+  "name": "Thạch hút (vị đào trắng)",
+  "fullName": "Thạch hút (vị đào trắng) (Gói)",
+  "brand": "Hàng nội địa Trung",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2509226",
+    "name": "Thạch – Rau câu",
+    "path": "Đồ ăn vặt > Thạch – Rau câu"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/c2b4618103e00be4a9cbfce359b81a2790cafeb8cf1df3450274e18929314168.webp",
+    "description": "Thạch hút konjac vị đào trắng, dạng túi có vòi hút tiện mang theo. Theo bao bì, hàm lượng nước ép trái cây từ 15% trở lên.\n\nQuy cách: túi",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "Chủ: cái nắp không còn giống → sửa nắp ngắn, to như hàng thật → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt; ≥15% như ảnh mẫu",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-18",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (ảnh tự chụp, chỉ làm mẫu)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết ngắn chỉ từ chữ in mặt trước túi (không có nguồn hãng)",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:54:06.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "b19: image CROP, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-15T02:50:25.191Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-15T09:16:17Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "tone.py --vivid: white balance/levels + brand-like colour (owner request)"
+    },
+    {
+      "at": "2026-10-15T09:17:19.023Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-16T01:38:49.852Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-17T14:23:06Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T14:23:54.815Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "IN_PROGRESS",
+      "note": "rejected on Hub by AU KHUONG DUY: Cái nắp ko còn giống nữa"
+    },
+    {
+      "at": "2026-10-18T11:33:14Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "redo after Hub rejection: Cái nắp ko còn giống nữa — Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-18T11:33:14.809Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-18T17:16:08.691Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T03:19:05.400Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-18T11:33:14.809Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-18T17:11:48.883Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-18T17:11:48.883Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/c2b4618103e00be4a9cbfce359b81a2790cafeb8cf1df3450274e18929314168.webp"
+        ],
+        "from": [
+          "https://img.tram8.vn/products/bed3cad4756e45ef9764c29c16a7704ee14bfc4868aca2137e8f17617acb4bc2.webp"
+        ]
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

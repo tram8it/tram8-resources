@@ -1,0 +1,119 @@
+{
+  "kiotProductId": "65162430",
+  "code": "9555192510109",
+  "barcode": "9555192510109",
+  "name": "Ln Doublemint dâu Tây Thanh",
+  "fullName": "Ln Doublemint dâu Tây Thanh (Thanh)",
+  "brand": "Doublemint",
+  "unit": "Thanh",
+  "category": {
+    "kiotCategoryId": "2549272",
+    "name": "Kẹo cao su / singum",
+    "path": "Các loại kẹo > Kẹo cao su / singum"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/b69941cff93467c0b623508aa12c2a1039516a89d0ee0f91f7f2ea439306ed0d.webp",
+    "description": "Kẹo cao su Wrigley's Doublemint hương dâu bạc hà (Strawberry Mint), thanh 5 miếng.\n\nQuy cách: 13,5 g · thanh 5 miếng\nNhà sản xuất/thương hiệu: Wrigley's · Doublemint",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I2: ảnh KiotViet là hũ Doublemint bạc hà; mã vạch 9555192510109 là Doublemint Strawberry Mint thanh 5 miếng 13,5 g (Open Food Facts) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: ảnh minh hoạ từ ảnh tay cầm; chữ nhỏ bên phải không đọc rõ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh Open Food Facts theo mã vạch (ảnh tay cầm, chỉ làm mẫu)",
+      "referenceUrl": "https://world.openfoodfacts.org/product/9555192510109"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "source": null,
+    "rubricVersion": "v20",
+    "decision": "WRITE_NEW",
+    "reason": "mã vạch 9555192510109 = Wrigley's Doublemint Strawberry Mint 13,5 g (Open Food Facts)"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:31:48.000Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "image ASK_OWNER, description ASK_OWNER"
+    },
+    {
+      "at": "2026-10-17T14:07:35Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T14:08:43Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "resolved without asking: barcode/evidence decides (mã vạch 9555192510109 = Wrigley's Doublemint Strawberry Mint 13,5 g (Open Food Facts))"
+    },
+    {
+      "at": "2026-10-17T14:09:42.564Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T14:09:42.564Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T15:52:24.910Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T15:52:24.910Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/b69941cff93467c0b623508aa12c2a1039516a89d0ee0f91f7f2ea439306ed0d.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/04/24/tram8/a61649aef80b429ba8681d6f7bd72041.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Kẹo cao su Wrigley's Doublemint hương dâu bạc hà (Strawberry Mint), thanh 5 miếng.\n\nQuy cách: 13,5 g · thanh 5 miếng\nNhà sản xuất/thương hiệu: Wrigley's · Doublemint",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "kiotProductId": "68649139",
+  "code": "8691216090446",
+  "barcode": "8691216090446",
+  "name": "Kẹo Dẻo Haribo Happy Cola 80g",
+  "fullName": "Kẹo Dẻo Haribo Happy Cola 80g (Gói)",
+  "brand": "Haribo",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2549274",
+    "name": "Kẹo dẻo / jelly",
+    "path": "Các loại kẹo > Kẹo dẻo / jelly"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/54e4beb9572e06210c670e3a2b60d7e2d3f12a39b1993cda11f2f8cba68312d4.webp",
+    "description": "Kẹo dẻo Haribo Happy Cola, viên kẹo hình chai cola vị cola.\n\nQuy cách: 80 g · gói\nThương hiệu: Haribo",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "SP mới 28/10: ảnh KiotViet là ảnh chụp tay (nền lộn xộn, nhăn, chéo) → vẽ lại gói phẳng chính diện nền trắng theo đúng ảnh chụp → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: gói làm phẳng, ánh sáng đều; bỏ dấu ngày NSX/HSD đóng tay; chữ nhỏ có thể mờ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-28",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh nhân viên chụp SP thật (KiotViet 28/10)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "SP mới chưa có mô tả → viết theo chữ in trên bao bì (ảnh chụp) + tên hàng; không thêm dữ kiện ngoài bao bì",
+    "source": {
+      "staffPhoto": true,
+      "takenAt": "2026-10-28"
+    },
+    "rubricVersion": "v18"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-28T12:19:24.077Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-28T12:26:03Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-28T12:25:59+00:00",
+      "by": "ai",
+      "status": "READY",
+      "note": "mô tả mới theo bao bì"
+    },
+    {
+      "at": "2026-10-28T12:27:08.774Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-30T07:46:51.387Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-30T07:47:19.672Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-28T12:27:08.774Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-28T12:41:04.766Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-28T12:41:04.766Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/54e4beb9572e06210c670e3a2b60d7e2d3f12a39b1993cda11f2f8cba68312d4.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/10/28/tram8/2555732740074c4e9ee2c5a42b781099.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Kẹo dẻo Haribo Happy Cola, viên kẹo hình chai cola vị cola.\n\nQuy cách: 80 g · gói\nThương hiệu: Haribo",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

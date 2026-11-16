@@ -1,0 +1,131 @@
+{
+  "kiotProductId": "65202488",
+  "code": "8934803042283",
+  "barcode": "8934803042283",
+  "name": "Bim bim Oishi snack crab me! snack cua vị xốt chua ngọt 75g",
+  "fullName": "Bim bim Oishi snack crab me! snack cua vị xốt chua ngọt 75g (Gói)",
+  "brand": "Oishi",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2549016",
+    "name": "Snack phồng tôm/mực/cua",
+    "path": "Đồ ăn vặt > Snacks > Snack phồng tôm/mực/cua"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/0b0ed792856ce2de4f2fdb33dec2bcbd0fc6134f212c6d0adc8c611fe6f6a649.webp",
+    "description": "Snack cua Crab Me! của Oishi vị xốt chua ngọt, gói lớn; miếng snack hình càng cua giòn, vị cua đậm đà quyện chua ngọt.\n\nQuy cách: 75 g · gói\nNhà sản xuất/thương hiệu: Oishi Việt Nam · Crab Me!",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I3/I5: ảnh cũ chụp nghiêng/nhăn/méo (chủ báo chưa đạt 16/10) → nắn phối cảnh ảnh hiện tại rồi Gemini vẽ lại packshot chính diện, thẳng đứng, nền trắng (v15); đã so chữ/logo với ảnh mẫu",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Google Gemini Pro (chủ yêu cầu)",
+      "generatedAt": "2026-10-16",
+      "reference": "ảnh KiotViet hiện tại, nắn phối cảnh"
+    },
+    "rubricVersion": "v16"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; theo trang hãng Oishi (Crab Me! vị xốt chua ngọt) + khối lượng theo tên SP",
+    "source": {
+      "url": "https://oishi.com.vn/san-pham",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:48:23.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "b17: image CROP, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-15T02:51:43.087Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-15T09:16:17Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "tone.py --vivid: white balance/levels + brand-like colour (owner request)"
+    },
+    {
+      "at": "2026-10-15T09:17:31.911Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-15T18:09:39Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "owner flagged pending image; Gemini front-on redraw from perspective-corrected photo"
+    },
+    {
+      "at": "2026-10-15T18:09:58.437Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-16T01:38:49.852Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-15T18:09:58.437Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-16T01:37:43.301Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-16T01:37:43.301Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/0b0ed792856ce2de4f2fdb33dec2bcbd0fc6134f212c6d0adc8c611fe6f6a649.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/30/tram8/1a8f870a3f604a658a8e1ec92d131126.png"
+        ]
+      },
+      "description": {
+        "to": "Snack cua Crab Me! của Oishi vị xốt chua ngọt, gói lớn; miếng snack hình càng cua giòn, vị cua đậm đà quyện chua ngọt.\n\nQuy cách: 75 g · gói\nNhà sản xuất/thương hiệu: Oishi Việt Nam · Crab Me!",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

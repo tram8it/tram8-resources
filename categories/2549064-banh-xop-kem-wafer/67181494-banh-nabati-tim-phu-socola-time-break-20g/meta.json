@@ -1,0 +1,149 @@
+{
+  "kiotProductId": "67181494",
+  "code": "8993175564991",
+  "barcode": "8993175564991",
+  "name": "Bánh Nabati tím phủ socola time break 20g",
+  "fullName": "Bánh Nabati tím phủ socola time break 20g (Gói)",
+  "brand": "Nabati",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2549064",
+    "name": "Bánh xốp kem (wafer)",
+    "path": "Bánh quy & bánh đóng gói > Bánh xốp kem (wafer)"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/692f75e9b7d8fe3ec06fd344d17fe40681149c06a9b47221df07cce9f4e52b7a.webp",
+    "description": "Bánh kem xốp phủ sô-cô-la Nabati Richoco Time Break, 5 thanh (5 fingers) trong một gói.\n\nQuy cách: 20 g · gói\nXuất xứ: Indonesia · Nhà sản xuất/thương hiệu: PT Kaldu Sari Nabati Indonesia · Nabati",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I3, I4: ảnh KiotViet chụp cả thùng gói, nền không trắng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: dòng khối lượng sửa thành 20 g theo chủ (ảnh mẫu in 16 g; gói Time Break 5 fingers 20 g có bán ở Indonesia); giữ gói màu đỏ như ảnh KiotViet — không tìm được ảnh gói 'tím' nào; chữ nhỏ trong huy hiệu HALAL không đọc được",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (gói đỏ Time Break 5fingers, in 16 g); không tìm được ảnh theo mã vạch 8993175564991 (Kingfoodmart 404, Open Food Facts không có)",
+      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/07/21/tram8/c0216e4866714dae979ff85557ca2a82.png"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết ngắn chỉ từ tên SP và chữ in mặt trước bao bì (không có trang hãng)",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:36:29.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "b10 review: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T05:18:38Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "khối lượng trên gói (16 g) khác tên KiotViet (20 g) → hỏi chủ"
+    },
+    {
+      "at": "2026-10-17T08:45:00Z",
+      "by": "owner",
+      "note": "RUBRIC v19: khối lượng tin bao bì đúng mã vạch hơn tên KiotViet; chỉ hỏi khi lệch > ~10% hoặc rõ là cỡ khác",
+      "status": "ASK_OWNER"
+    },
+    {
+      "at": "2026-10-17T09:30:00Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "gap > ~10% / other size or needs shelf check: question shortened to the two numbers (RUBRIC v19)"
+    },
+    {
+      "at": "2026-10-17T12:00:00Z",
+      "by": "owner",
+      "status": "ASK_OWNER",
+      "note": "Kiểm kệ 17/10: gói in 20 g (không có ảnh, chưa cho biết màu gói)"
+    },
+    {
+      "at": "2026-10-17T13:30:00Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "20 g confirmed; no 20 g pack reference found (KiotViet photo = red 16 g pack); question narrowed to pack colour"
+    },
+    {
+      "at": "2026-10-17T13:51:52Z",
+      "by": "owner",
+      "status": "ASK_OWNER",
+      "note": "Chủ trả lời 17/10: mã vạch 8993175564991 — tự tra trên web và vẽ đúng gói theo mã vạch (tên ghi \"tím\")"
+    },
+    {
+      "at": "2026-10-17T13:52:10Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T13:52:18.030Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T13:52:18.030Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T13:55:10.702Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T13:55:10.702Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/692f75e9b7d8fe3ec06fd344d17fe40681149c06a9b47221df07cce9f4e52b7a.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/21/tram8/c0216e4866714dae979ff85557ca2a82.png"
+        ]
+      },
+      "description": {
+        "to": "Bánh kem xốp phủ sô-cô-la Nabati Richoco Time Break, 5 thanh (5 fingers) trong một gói.\n\nQuy cách: 20 g · gói\nXuất xứ: Indonesia · Nhà sản xuất/thương hiệu: PT Kaldu Sari Nabati Indonesia · Nabati",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

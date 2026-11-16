@@ -1,0 +1,112 @@
+{
+  "kiotProductId": "67815476",
+  "code": "6927514392589",
+  "barcode": "6927514392589",
+  "name": "Sách Bò Chay Vị Ớt Ngâm Chua Cay 18g",
+  "fullName": "Sách Bò Chay Vị Ớt Ngâm Chua Cay 18g (Gói)",
+  "brand": "Hàng nội địa Trung",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2549295",
+    "name": "Đồ chay giả mặn (konjac)",
+    "path": "Đồ ăn vặt > Đồ nội địa Trung > Đồ chay giả mặn (konjac)"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/ef8ff4f421bec5ce332fe2870bb669fc1d64d4be0895cc1c3af01023ee21728e.webp",
+    "description": "Sách bò chay vị ớt ngâm chua cay (泡椒素毛肚) dòng 魔芋爽 của 巧大娘, món ăn vặt làm từ konjac (khoai nưa).\n\nQuy cách: 18 g · gói\nNhà sản xuất/thương hiệu: 巧大娘 (Qiao Da Niang)",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I3, I4, I8: ảnh chụp điện thoại có cả hộp lớn phía sau, nền không trắng; không có ảnh hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Ảnh mẫu nhỏ nên chữ nhỏ (图片仅供参考) và nét minh hoạ do AI vẽ; chữ lớn và 18克 đúng mẫu",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (chỉ làm mẫu)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; mô tả ngắn từ chữ in mặt trước gói (巧大娘, 魔芋爽, 泡椒素毛肚 = sách bò chay vị ớt ngâm) + khối lượng theo tên hàng",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:55:32.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "image REPLACE (phone photo), description WRITE_NEW from front of pack"
+    },
+    {
+      "at": "2026-10-17T08:12:38Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T08:12:58.140Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T08:12:58.140Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T08:34:34.701Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T08:34:34.701Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/ef8ff4f421bec5ce332fe2870bb669fc1d64d4be0895cc1c3af01023ee21728e.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/08/25/tram8/b71f9fbebad749f2b19a27169e0ef932.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Sách bò chay vị ớt ngâm chua cay (泡椒素毛肚) dòng 魔芋爽 của 巧大娘, món ăn vặt làm từ konjac (khoai nưa).\n\nQuy cách: 18 g · gói\nNhà sản xuất/thương hiệu: 巧大娘 (Qiao Da Niang)",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

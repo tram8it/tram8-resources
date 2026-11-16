@@ -1,0 +1,190 @@
+{
+  "kiotProductId": "64865840",
+  "code": "8935012443304",
+  "barcode": "8935012443304",
+  "name": "Bia Saigon Special Lon 330 – 24 NCP1 2025 (SP33_25N1)",
+  "fullName": "Bia Saigon Special Lon 330 – 24 NCP1 2025 (SP33_25N1) - 4.9% (Lon)",
+  "brand": "Bia Saigon",
+  "unit": "Lon",
+  "category": {
+    "kiotCategoryId": "2549752",
+    "name": "Lager Phổ Thông",
+    "path": "Đồ uống có cồn (18+) > Bia > Lager Phổ Thông"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/6ac365f9db1fa377725e478815eb539004f8e53d72b9a64162c9e1d695edfc53.webp",
+    "description": "Bia Saigon Special dùng hoa bia Yakima nhập từ Mỹ và kỹ thuật dry hopping (thêm hoa bia một lần nữa trong lúc lên men), cho hương thơm tươi mới và vị sảng khoái. Độ cồn 4,9%. Lon cao 330 ml.\n\nThành phần: Nước, malt đại mạch, ngũ cốc, hoa bia.\nQuy cách: 330 ml · lon\nXuất xứ: Việt Nam · Nhà sản xuất/thương hiệu: SABECO (Tổng công ty CP Bia - Rượu - Nước giải khát Sài Gòn)\nBảo quản: Nơi khô ráo, thoáng mát; tránh nguồn nhiệt và ánh nắng trực tiếp.\nHướng dẫn sử dụng: Ngon hơn khi uống lạnh, tốt nhất ở 10–15 °C.\nSản phẩm dành cho người từ 18 tuổi trở lên.",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "chủ 21/10: ảnh các lon bia không đồng bộ → vẽ lại chính diện, ánh sáng đều, cùng cỡ trong khung như các lon khác → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: giữ thiết kế/chữ của lon; chỉ đổi góc, ánh sáng, độ nét; chữ nhỏ có thể mờ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-21",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh hiện tại của SP (KiotViet/đã duyệt) + lon cùng dòng 68505054 làm mẫu phong cách"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "REWRITE",
+    "reason": "D2/D3: mô tả cũ do chatbot sinh (HTML), quảng cáo quá đà và có dữ kiện phỏng đoán/không kiểm chứng (sai: \"100% lúa mạch, không pha ngũ cốc\" trái với trang hãng); viết lại theo trang SABECO | rà soát v9: Incorrect fact: '100% barley, no other grains' contradicts ingredients (contains cereal)",
+    "source": {
+      "url": "https://www.sabeco.com.vn/san-pham/bia/saigon-special",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:40:09.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "rubric v4: image KEEP, description REWRITE"
+    },
+    {
+      "at": "2026-10-18T17:51:38.708Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description"
+    },
+    {
+      "at": "2026-10-19T02:05:27.524Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T03:19:05.400Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-21T12:41:16Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-21T12:41:17.213Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-26T02:38:48.902Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-26T04:58:33.990Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-21T12:41:17.213Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-21T12:47:08.214Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-21T12:47:08.214Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/6ac365f9db1fa377725e478815eb539004f8e53d72b9a64162c9e1d695edfc53.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/09/12/tram8/65c0255a28bd44fdab1a717850289c52.png"
+        ]
+      }
+    },
+    "unexpectedChanges": {
+      "price": {
+        "to": 19444.44,
+        "from": 19090.91
+      },
+      "saleTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 64865840
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 64865840
+        }
+      },
+      "taxRate": {
+        "to": "VAT 8%",
+        "from": "VAT 10%"
+      },
+      "productTaxs": {
+        "to": [
+          {
+            "id": 0,
+            "name": "VAT 8%",
+            "taxId": 3,
+            "value": 8,
+            "productId": 64865840
+          }
+        ],
+        "from": [
+          {
+            "id": 0,
+            "name": "VAT 10%",
+            "taxId": 4,
+            "value": 10,
+            "productId": 64865840
+          }
+        ]
+      },
+      "purchaseTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 64865840
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 64865840
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "kiotProductId": "64865519",
+  "code": "SP000707",
+  "barcode": "8934595061844",
+  "name": "Kẹo Jelly Trái Cây Tổng Hợp 350G",
+  "fullName": "Kẹo Jelly Trái Cây Tổng Hợp 350G (Gói)",
+  "brand": "Hải Hà",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2549274",
+    "name": "Kẹo dẻo / jelly",
+    "path": "Các loại kẹo > Kẹo dẻo / jelly"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/f441e1207942c72b2d533b71ae02d8763e52cf9ce9b16f02d81e510ebfb711d3.webp",
+    "description": "Kẹo jelly trái cây tổng hợp Pooz của Hải Hà, nhiều viên kẹo thạch hương trái cây trong túi lớn.\n\nQuy cách: 350 g · gói\nNhà sản xuất: Công ty CP Bánh kẹo Hải Hà",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I1: chưa có ảnh → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: ô trong suốt thấy kẹo được vẽ thành nền trắng sữa; bỏ dấu ngày in; chữ lớn và 350 g như gói hãng",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh hãng haihaco.com.vn (túi Pooz 350 g, chỉ làm mẫu vì trang chưa có trong brands.json)",
+      "referenceUrl": "https://www.haihaco.com.vn/vi/brands/keo-jelly-trai-cay-pooz"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết ngắn từ chữ in trên túi (trang hãng) và iCheck (mã 8934595061844 = Kẹo jelly trái cây tổng hợp 350g)",
+    "source": {
+      "url": "https://icheck.vn/san-pham/8934595061844",
+      "fetchedAt": "2026-10-17"
+    },
+    "rubricVersion": "v19"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:19:58.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "image NEEDS_PHOTO, description WRITE_NEW (name only)"
+    },
+    {
+      "at": "2026-10-17T04:40:02.000Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "Hai Ha site has Pooz mixed jelly 350g packshot; barcode on photo unreadable/possibly different — asked owner to confirm"
+    },
+    {
+      "at": "2026-10-17T14:09:04Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T14:09:04Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "resolved without asking: iCheck confirms barcode 8934595061844 = Hải Hà mixed fruit jelly 350 g (Pooz); drawn from the newest red Pooz 350 g bag on haihaco.com.vn"
+    },
+    {
+      "at": "2026-10-17T14:09:09.727Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T14:09:09.727Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T15:19:35.989Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T15:19:35.989Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/f441e1207942c72b2d533b71ae02d8763e52cf9ce9b16f02d81e510ebfb711d3.webp"
+        ],
+        "from": null
+      },
+      "description": {
+        "to": "Kẹo jelly trái cây tổng hợp Pooz của Hải Hà, nhiều viên kẹo thạch hương trái cây trong túi lớn.\n\nQuy cách: 350 g · gói\nNhà sản xuất: Công ty CP Bánh kẹo Hải Hà",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

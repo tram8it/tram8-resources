@@ -1,0 +1,124 @@
+{
+  "kiotProductId": "65160547",
+  "code": "884394008459",
+  "barcode": "884394008459",
+  "name": "Nước gạo Hàn Quốc 1,5lx12chai",
+  "fullName": "Nước gạo Hàn Quốc 1,5lx12chai (Chai)",
+  "brand": "Woongjin",
+  "unit": "Chai",
+  "category": {
+    "kiotCategoryId": "2549382",
+    "name": "Nước gạo / sữa hạt",
+    "path": "Đồ uống đóng chai > Nước gạo / sữa hạt"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/61ed8538ccf9684e497741dc6b1fd6269d2e4f18ff90986aae3d4ce2276a22aa.webp",
+    "description": "Nước gạo Hàn Quốc Woongjin Morning Rice (아침햇살 – \"nắng sớm\"), thức uống làm từ gạo, đóng chai nhựa.\n\nQuy cách: 1,5 L · chai\nXuất xứ: Hàn Quốc · Nhà sản xuất/thương hiệu: Woongjin",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I1: chưa có ảnh; mã 884394008459 là mã UPC 12 số của Woongjin Foods America (hàng xuất khẩu Mỹ) cho chai Morning Rice 아침햇살 1,5 L — cùng SP với 65155120 (Woongjin 1,5 L, mã Hàn) → dùng lại ảnh vẽ của SP đó (đã duyệt). Chai thật có thể dán thêm nhãn phụ tiếng Anh.",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh Kingfoodmart theo mã 8801382123446 (chỉ làm mẫu) + ảnh KiotViet",
+      "referenceUrl": "https://storage.googleapis.com/onelife-public/8801382123446.jpg",
+      "copiedFrom": "65155120"
+    },
+    "rubricVersion": "v23"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; theo SP cùng chai 65155120 (Woongjin Morning Rice 1,5 L)",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:21:22.000Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "b26: image ASK_OWNER, description ASK_OWNER"
+    },
+    {
+      "at": "2026-10-17T14:04:41.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "NEEDS_PHOTO: mã 884394008459 không có nguồn; theo v19 bán theo chai (đơn vị KiotViet); bỏ câu hỏi, cần chụp chai"
+    },
+    {
+      "at": "2026-10-18T18:46:32Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "np18 re-research: same Woongjin Morning Rice 1.5L pack as 65155120, image reused"
+    },
+    {
+      "at": "2026-10-18T18:46:37Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "np18 re-research: description rewritten from pack/official facts"
+    },
+    {
+      "at": "2026-10-18T18:46:38.020Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T02:05:27.524Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T03:19:05.400Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-18T18:46:38.020Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T01:51:35.916Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T01:51:35.916Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/61ed8538ccf9684e497741dc6b1fd6269d2e4f18ff90986aae3d4ce2276a22aa.webp"
+        ],
+        "from": null
+      },
+      "description": {
+        "to": "Nước gạo Hàn Quốc Woongjin Morning Rice (아침햇살 – \"nắng sớm\"), thức uống làm từ gạo, đóng chai nhựa.\n\nQuy cách: 1,5 L · chai\nXuất xứ: Hàn Quốc · Nhà sản xuất/thương hiệu: Woongjin",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

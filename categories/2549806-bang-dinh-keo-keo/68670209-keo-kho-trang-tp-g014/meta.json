@@ -1,0 +1,106 @@
+{
+  "kiotProductId": "68670209",
+  "code": "8935001846352",
+  "barcode": "8935001846352",
+  "name": "Keo Khô Trắng TP - G014",
+  "fullName": "Keo Khô Trắng TP - G014 (Lọ)",
+  "brand": "Thiên Long",
+  "unit": "Lọ",
+  "category": {
+    "kiotCategoryId": "2549806",
+    "name": "Băng dính – keo – kéo",
+    "path": "Văn phòng phẩm > Băng dính – keo – kéo"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/e0dc715ed214e63af75d4be39093806769b4b36b1c09f839547f0a7fe6e1f118.webp",
+    "description": "Keo dán giấy dạng thỏi (keo khô) Thiên Long TP-G014.\n\nQuy cách: lọ\nThương hiệu: Thiên Long",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "SP mới 30/10, không có ảnh hãng nền trắng dùng được → vẽ keo khô TP-G014 mẫu chim cánh cụt → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: làm phẳng, ánh sáng đều; chữ nhỏ có thể mờ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-30",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet chụp hàng thật 30/10"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "viết theo chữ in trên bao bì/ảnh chụp + trang hãng; không thêm dữ kiện ngoài nguồn",
+    "source": null,
+    "rubricVersion": "v18"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-30T07:47:19.672Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-30T08:23:01Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-30T08:24:13.186Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-31T12:30:47.901Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-31T12:31:13.488Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-30T08:24:13.186Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-30T08:40:02.259Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-30T08:40:02.259Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/e0dc715ed214e63af75d4be39093806769b4b36b1c09f839547f0a7fe6e1f118.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/10/30/tram8/39df16c31d424d32ba763c9d601fd742.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Keo dán giấy dạng thỏi (keo khô) Thiên Long TP-G014.\n\nQuy cách: lọ\nThương hiệu: Thiên Long",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

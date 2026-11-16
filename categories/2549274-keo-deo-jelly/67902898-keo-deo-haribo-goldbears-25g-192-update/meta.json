@@ -1,0 +1,108 @@
+{
+  "kiotProductId": "67902898",
+  "code": "8691216110359",
+  "barcode": "8691216110359",
+  "name": "KẸO DẺO HARIBO GOLDBEARS 25G×192 UPDATE",
+  "fullName": "KẸO DẺO HARIBO GOLDBEARS 25G×192 UPDATE (Gói)",
+  "brand": "Haribo",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2549274",
+    "name": "Kẹo dẻo / jelly",
+    "path": "Các loại kẹo > Kẹo dẻo / jelly"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": null,
+    "description": null,
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "IN_PROGRESS",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "ảnh minh hoạ (chủ 20/10: SP không được để trống ảnh) — vẽ lại từ ảnh chính hãng HARIBO Thổ Nhĩ Kỳ (Altın Ayıcık 80 g) thành gói nhỏ 25 g. Khác hàng thật: ảnh minh hoạ gói 25 g: mặt trước theo túi 80 g chính hãng (mẫu không phải gói 25 g); bỏ nhãn 'KankaBoy'; không ghi khối lượng; dáng gói nhỏ là suy đoán. Trước đó: I1: chưa có ảnh; tra lại 18/10 (mã vạch trên OFF/ean-search/cimri/akakce, \"Haribo Altın Ayıcık 25 gr\", \"Haribo Goldbears 25g\") — chỉ có túi 80–200 g, không có gói 25 g bản Thổ Nhĩ Kỳ → cần chụp · tra lại 19/10 (Yandex ảnh: \"Haribo Goldbears 25g\"; \"Haribo Altın Ayıcık 25 gr\"; \"Haribo Goldbären 25g\" +",
+    "source": {
+      "aiGenerated": true,
+      "illustration": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-21",
+      "reference": "https://assets.haribo.com/image/upload/v1/consumer-sites/tr-tr/Downloads/Alt%C4%B1n-Ay%C4%B1c%C4%B1k-80g.png (haribo.com/tr-tr/urunler/altin-ayicik, trang hãng)"
+    },
+    "rubricVersion": "v23"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; từ tên SP và trang Haribo (Gấu vàng)",
+    "source": {
+      "url": "https://www.haribo.com/tr-tr/urunler/altin-ayicik",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:19:58.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "image NEEDS_PHOTO, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T04:38:48Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "v17: tìm ảnh mẫu cho Gemini không có — giữ NEEDS_PHOTO"
+    },
+    {
+      "at": "2026-10-18T18:22:32.881Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "np18 re-research 18/10: still no image of this exact pack"
+    },
+    {
+      "at": "2026-10-19T07:35:23Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "np19 re-research 19/10 (image search): still no image of this exact product → NEEDS_PHOTO"
+    },
+    {
+      "at": "2026-10-21T02:06:30Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "illustration 20/10: vẽ lại từ ảnh chính hãng HARIBO Thổ Nhĩ Kỳ (Altın Ayıcık 80 g) thành gói nhỏ 25 g"
+    },
+    {
+      "at": "2026-10-21T02:06:30.750Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-26T04:58:33.990Z",
+      "by": "owner",
+      "status": "IN_PROGRESS",
+      "note": "rejected on Hub by AU KHUONG DUY: Toàn ảnh bịa ra ko dùng đc"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-21T02:06:30.750Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "REJECTED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-21T12:59:26.091Z",
+    "note": "Toàn ảnh bịa ra ko dùng đc"
+  }
+}

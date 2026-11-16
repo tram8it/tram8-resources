@@ -1,0 +1,81 @@
+{
+  "kiotProductId": "68824613",
+  "code": "8936036027730",
+  "barcode": "8936036027730",
+  "name": "Kẹo dẻo Boom Orion vị nho 25g",
+  "fullName": "Kẹo dẻo Boom Orion vị nho 25g (Gói)",
+  "brand": "Orion",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2549274",
+    "name": "Kẹo dẻo / jelly",
+    "path": "Các loại kẹo > Kẹo dẻo / jelly"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://cdn2-retail-images.kiotviet.vn/2026/11/08/tram8/1342aa87c5b14374836bacc365452509.jpeg",
+    "description": null,
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "READY",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "SP mới 09/11: ảnh hãng là bao bì khác gói đang bán → vẽ lại từ ảnh chụp → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ nhỏ có thể mờ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-11-09",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet chụp hàng thật"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "viết theo bao bì + tên hàng",
+    "source": null,
+    "rubricVersion": "v18"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-11-09T06:00:31.106Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-11-09T06:16:55Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-11-09T06:17:14.519Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-11-13T01:09:35.548Z",
+      "by": "owner",
+      "status": "READY",
+      "note": "apply failed on Hub: r2_put_failed 500 <?xml version=\"1.0\" encoding=\"UTF-8\"?><Error><Code>InternalError</Code><Message>We encountered an internal error. Please try again.</Message></Error>"
+    }
+  ],
+  "submitted": {
+    "at": "2026-11-09T06:17:14.519Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "FAILED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-11-09T12:55:10.012Z",
+    "note": "r2_put_failed 500 <?xml version=\"1.0\" encoding=\"UTF-8\"?><Error><Code>InternalError</Code><Message>We encountered an internal error. Please try again.</Message></Error>"
+  }
+}

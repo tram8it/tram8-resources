@@ -1,0 +1,140 @@
+{
+  "kiotProductId": "64865668",
+  "code": "8993175564892",
+  "barcode": "8993175564892",
+  "name": "BÁNH XỐP KEM PHÔ MAI DÂU - NABATI STRAWBERRY CHEESECAKE FLAVOURED WAFER 50G",
+  "fullName": "BÁNH XỐP KEM PHÔ MAI DÂU - NABATI STRAWBERRY CHEESECAKE FLAVOURED WAFER 50G (Gói)",
+  "brand": "Nabati",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2549064",
+    "name": "Bánh xốp kem (wafer)",
+    "path": "Bánh quy & bánh đóng gói > Bánh xốp kem (wafer)"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/ce0b8046bc73a02464b5c10ce9325f6c4274d261f4124974a6a462699ce3eddb.webp",
+    "description": "Bánh xốp kem phô mai dâu Nabati (Strawberry Cheesecake Flavoured Wafer), lớp xốp giòn xen kem vị bánh phô mai dâu.\n\nQuy cách: 50 g · gói\nNhà sản xuất/thương hiệu: Nabati",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "IN_PROGRESS",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I3/I4: ảnh hiện có không đạt, không có ảnh hãng/NPP → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: line consistency 20/10: crumpled perspective pack redrawn flat like the other Nabati 50g wafers",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-20",
+      "style": "flat clean packaging render (v17)",
+      "reference": "own current image.webp (content) + sibling 64865669 image.webp (line style, reference only)"
+    },
+    "rubricVersion": "v23"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết ngắn chỉ từ tên SP và chữ in mặt trước bao bì (không có trang hãng)",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:36:29.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "b10 review: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T05:18:38Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "I1: chưa có ảnh; không tìm được ảnh mẫu nào của gói 50 g vị phô mai dâu (OFF, NPP Hương Thủy, tìm web) → không vẽ Gemini được, cần chụp"
+    },
+    {
+      "at": "2026-10-18T17:56:03Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "staff photo 2026-10-18 (Zalo); cutout + tone --vivid"
+    },
+    {
+      "at": "2026-10-18T17:56:42.038Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T02:05:27.524Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T03:19:05.400Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-20T16:43:52Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-20T16:44:35Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "line consistency 20/10: crumpled perspective -> flat like Nabati 50g line (Gemini redraw)"
+    },
+    {
+      "at": "2026-10-20T16:45:01.074Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-26T04:58:33.990Z",
+      "by": "owner",
+      "status": "IN_PROGRESS",
+      "note": "rejected on Hub by AU KHUONG DUY: Nó dài như ảnh cơ"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-20T16:45:01.074Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "REJECTED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-20T16:46:47.415Z",
+    "note": "Nó dài như ảnh cơ"
+  },
+  "uploaded": {
+    "at": "2026-10-19T01:34:40.836Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/ce0b8046bc73a02464b5c10ce9325f6c4274d261f4124974a6a462699ce3eddb.webp"
+        ],
+        "from": null
+      },
+      "description": {
+        "to": "Bánh xốp kem phô mai dâu Nabati (Strawberry Cheesecake Flavoured Wafer), lớp xốp giòn xen kem vị bánh phô mai dâu.\n\nQuy cách: 50 g · gói\nNhà sản xuất/thương hiệu: Nabati",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

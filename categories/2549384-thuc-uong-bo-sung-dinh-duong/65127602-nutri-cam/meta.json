@@ -1,0 +1,186 @@
+{
+  "kiotProductId": "65127602",
+  "code": "8935049511021",
+  "barcode": "8935049511021",
+  "name": "NUTRI cam",
+  "fullName": "NUTRI cam (Chai)",
+  "brand": "Nutriboost",
+  "unit": "Chai",
+  "category": {
+    "kiotCategoryId": "2549384",
+    "name": "Thức uống bổ sung dinh dưỡng",
+    "path": "Đồ uống đóng chai > Thức uống bổ sung dinh dưỡng"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/8b2fba610c67cdb3113333b2acf78797b0e32b79ac58110e87ca6cd430b48340.webp",
+    "description": "Nước uống sữa trái cây Nutriboost hương cam, kết hợp sữa và nước trái cây.\n\nQuy cách: 297 ml · chai\nNhà sản xuất/thương hiệu: Nutriboost · Coca-Cola Việt Nam",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I5, I7: ảnh chụp màn hình tìm kiếm (biểu tượng giao diện, viền đen, nắp sát mép); hãng không có ảnh cam bao bì Energyze Blend → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Vẽ bao bì Energyze Blend (cùng dòng với Nutri dâu đã đăng); ảnh KiotViet cũ là bao bì Immuno-Blend, trang hãng coca-cola.com/vn còn ảnh cam 'Năng lượng tiếp sức' — chưa chắc bản nào mới nhất; chữ nhỏ dưới 297 ml bị làm mờ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh Open Food Facts chai Nutriboost cam Energyze Blend (chụp tay, chỉ làm mẫu) + ảnh hãng Nutriboost dâu Energyze Blend (bố cục)",
+      "referenceUrl": "https://world.openfoodfacts.org/product/8935049511021"
+    },
+    "rubricVersion": "v17"
+  },
+  "description": {
+    "decision": "REWRITE",
+    "reason": "D1: chưa có mô tả; mô tả ngắn từ chữ in mặt trước bao bì (trang hãng chỉ có công thức của bao bì cũ nên không dùng thành phần); bỏ \"dòng Immuno-Blend\" vì ảnh mới là bao bì Energyze Blend (17/10/2026)",
+    "source": null,
+    "rubricVersion": "v17"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:39:43.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T05:15:12Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T05:15:26.741Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T05:16:19Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "description: dropped Immuno-Blend (image now shows Energyze Blend)"
+    },
+    {
+      "at": "2026-10-17T05:16:19.665Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T05:23:58.238Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T05:16:19.665Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T05:16:39.411Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T05:16:39.411Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/8b2fba610c67cdb3113333b2acf78797b0e32b79ac58110e87ca6cd430b48340.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/04/23/tram8/23590feb169c4cfe9ecfe9b5e28af834.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Nước uống sữa trái cây Nutriboost hương cam, kết hợp sữa và nước trái cây.\n\nQuy cách: 297 ml · chai\nNhà sản xuất/thương hiệu: Nutriboost · Coca-Cola Việt Nam",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {
+      "price": {
+        "to": 12037.04,
+        "from": 11818.18
+      },
+      "saleTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 65127602
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 65127602
+        }
+      },
+      "taxRate": {
+        "to": "VAT 8%",
+        "from": "VAT 10%"
+      },
+      "productTaxs": {
+        "to": [
+          {
+            "id": 0,
+            "name": "VAT 8%",
+            "taxId": 3,
+            "value": 8,
+            "productId": 65127602
+          }
+        ],
+        "from": [
+          {
+            "id": 0,
+            "name": "VAT 10%",
+            "taxId": 4,
+            "value": 10,
+            "productId": 65127602
+          }
+        ]
+      },
+      "purchaseTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 65127602
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 65127602
+        }
+      }
+    }
+  }
+}

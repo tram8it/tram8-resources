@@ -1,0 +1,132 @@
+{
+  "kiotProductId": "66552718",
+  "code": "8938503131926",
+  "barcode": "8938503131926",
+  "name": "Sữa tươi tiệt trùng ít đường Dalat Milk 180ml",
+  "fullName": "Sữa tươi tiệt trùng ít đường Dalat Milk 180ml (Hộp)",
+  "brand": "Đà Lạt Milk",
+  "unit": "Hộp",
+  "category": {
+    "kiotCategoryId": "2547906",
+    "name": "Vị nguyên bản",
+    "path": "Sữa và các sản phẩm từ sữa > Sữa tiệt trùng > Vị nguyên bản"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/916430535865a6e121b3aec83a4adf974c6cb74f3772e3d2f2ffdbd9b71d8ce1.webp",
+    "description": "Sữa tươi tiệt trùng Dalat Milk ít đường.\n\nQuy cách: 180 ml · hộp\nNhà sản xuất/thương hiệu: Dalat Milk",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "chủ 20/10: đồng bộ góc/cỡ với SP cùng dòng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: vẽ lại theo góc và cỡ của SP cùng dòng; chữ nhỏ để mờ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-20",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh hiện có + vị Có đường cùng dòng (góc, cỡ)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết ngắn chỉ từ chữ in mặt trước hộp (ảnh hiện tại)",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:19:03.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "b16 review: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T07:43:04Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T07:43:07.134Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T08:06:02.482Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-20T16:23:58Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "redo after Hub rejection:  — Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-20T16:23:58.387Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-21T08:30:34.700Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-26T04:58:33.990Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-20T16:23:58.387Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-20T16:27:09.052Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-20T16:27:09.052Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/916430535865a6e121b3aec83a4adf974c6cb74f3772e3d2f2ffdbd9b71d8ce1.webp"
+        ],
+        "from": [
+          "https://img.tram8.vn/products/d45f7e8f206aada6545364f093e9287cec8fbee7306d73b11fe025965d7e0b66.webp"
+        ]
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

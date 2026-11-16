@@ -1,0 +1,139 @@
+{
+  "kiotProductId": "64865618",
+  "code": "SP000316",
+  "barcode": "8936034878648",
+  "name": "Xúc Xích Tiệt Trùng Ponnie Vị Heo",
+  "fullName": "Xúc Xích Tiệt Trùng Ponnie Vị Heo (Cái)",
+  "brand": "Ponnie",
+  "unit": "Cái",
+  "category": {
+    "kiotCategoryId": "2549794",
+    "name": "Xúc xích tiệt trùng",
+    "path": "Xúc Xích & Thịt Nguội > Xúc xích tiệt trùng"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/c380a77bc679a2e93cd389b915b7a55abe7c0132bd928094bcd393087efe0bfe.webp",
+    "description": "Xúc xích tiệt trùng Ponnie Big Size vị heo truyền thống, cây lớn ăn liền.\n\nQuy cách: cây\nNhà sản xuất/thương hiệu: Masan MEATLife · Ponnie",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I3/I7: ảnh tự chụp cây xúc xích, có in NSX/HSD; không có ảnh hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: bỏ dòng in NSX/HSD; đoạn thành phần chữ nhỏ không đọc được; còn lại không thấy khác biệt | line consistency 20/10: nới chiều ngang cây xúc xích ×1,14 cho cùng tỉ lệ với các cây Ponnie Big Size khác",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh Kingfoodmart (chỉ làm mẫu) + ảnh KiotViet",
+      "referenceUrl": "https://storage.googleapis.com/onelife-public/8936034878648.jpg"
+    },
+    "rubricVersion": "v23"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết ngắn chỉ từ dữ kiện chắc chắn (tên SP, chữ in mặt trước bao bì); không có trang hãng có SP này",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:17:58.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "b16 review: image CROP, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-15T09:16:17Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "tone.py --vivid: white balance/levels + brand-like colour (owner request)"
+    },
+    {
+      "at": "2026-10-17T15:16:49Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 4, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T15:17:19.024Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-20T16:41:17Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "line consistency 20/10: Big Size stick ~13% slimmer than the other Ponnie Big Size sticks -> rescaled width x1.14 (PIL + make_image)"
+    },
+    {
+      "at": "2026-10-20T16:42:06.313Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-21T08:30:34.700Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-26T04:58:33.990Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-20T16:42:06.313Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-20T16:45:34.864Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-20T16:45:34.864Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/c380a77bc679a2e93cd389b915b7a55abe7c0132bd928094bcd393087efe0bfe.webp"
+        ],
+        "from": [
+          "https://img.tram8.vn/products/8af592023255c0176c64435e6b49e57fb0c5ff6b0b31be7c26f375141cb36212.webp"
+        ]
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

@@ -1,0 +1,161 @@
+{
+  "kiotProductId": "65860497",
+  "code": "8938520099261",
+  "barcode": "8938520099261",
+  "name": "Posi mực khô xé sợi 50g",
+  "fullName": "Posi mực khô xé sợi 50g (Gói)",
+  "brand": "Posi",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2549217",
+    "name": "Khô mực",
+    "path": "Đồ ăn vặt > Thịt khô và chân gà > Khô mực"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/b6e92ee56b4cb2b6a1ab1ad19acaf0176c5ffee0a12bb6f0efd3b8d4e62b22f4.webp",
+    "description": "Mực khô xé sợi Posi vị cay, đóng túi zip đứng có cửa sổ, dùng làm món ăn vặt hoặc đồ nhắm.\n\nQuy cách: 50 g · gói\nThương hiệu: Posi",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I3, I4: ảnh KiotViet chụp tay trên quầy, gói cũ 35 g; chủ 17/10: khả năng là 50 g thật, dùng bao bì 50 g mới → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ trong 4 huy hiệu tròn trên đầu gói để trơn (ảnh mẫu không đọc được); còn lại không thấy khác biệt (POSI, 말린 오징어, MỰC KHÔ XÉ SỢI, Dried Squid, Vị cay, KHỐI LƯỢNG TỊNH 50 g)",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh Kingfoodmart gói 50 g 'Vị cay', cùng mã vạch (chỉ làm mẫu)",
+      "referenceUrl": "https://storage.googleapis.com/onelife-public/8938520099261.jpg"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; mô tả ngắn từ chữ in mặt trước gói 50 g mới (Mực khô xé sợi, Dried Squid, Vị cay, khối lượng tịnh 50 g — ảnh Kingfoodmart cùng mã vạch; chủ 17/10: khả năng là 50 g)",
+    "source": null,
+    "rubricVersion": "v19"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T22:00:00.000Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "batch b14 review (rubric v4): image REPLACE, description ASK_OWNER"
+    },
+    {
+      "at": "2026-10-17T08:45:00Z",
+      "by": "owner",
+      "note": "RUBRIC v19: khối lượng tin bao bì đúng mã vạch hơn tên KiotViet; chỉ hỏi khi lệch > ~10% hoặc rõ là cỡ khác",
+      "status": "ASK_OWNER"
+    },
+    {
+      "at": "2026-10-17T09:30:00Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "gap > ~10% / other size or needs shelf check: question shortened to the two numbers (RUBRIC v19)"
+    },
+    {
+      "at": "2026-10-17T12:00:00Z",
+      "by": "owner",
+      "status": "ASK_OWNER",
+      "note": "Kiểm kệ 17/10: 50 g; trên kệ hết hàng, không có ảnh, chưa rõ vị"
+    },
+    {
+      "at": "2026-10-17T13:30:00Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "50 g confirmed, flavour unknown (only reference: 35 g spicy) → needs photo of the 50 g pack"
+    },
+    {
+      "at": "2026-10-17T13:51:52Z",
+      "by": "owner",
+      "status": "NEEDS_PHOTO",
+      "note": "Chủ trả lời 17/10: ảnh gói trên kệ (= ảnh KiotViet) in \"POSI Mực khô xé sợi, Dried Squid, SPICY, Khối lượng tịnh 35 g\" — tin bao bì: 35 g, vị cay; vẽ lại sạch từ ảnh này"
+    },
+    {
+      "at": "2026-10-17T13:52:10Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T13:52:20.555Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T13:56:00Z",
+      "by": "owner",
+      "status": "READY",
+      "note": "chủ: khả năng là 50g, dùng bao bì 50g mới"
+    },
+    {
+      "at": "2026-10-17T13:57:11Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 3, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T13:57:34.261Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T13:57:34.261Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T14:00:14.206Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T14:00:14.206Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/b6e92ee56b4cb2b6a1ab1ad19acaf0176c5ffee0a12bb6f0efd3b8d4e62b22f4.webp"
+        ],
+        "from": [
+          "https://img.tram8.vn/products/4a56b25107a66c2dcf7ff1f09141365cea3395c9af95a526713393bcbedb963b.webp"
+        ]
+      },
+      "description": {
+        "to": "Mực khô xé sợi Posi vị cay, đóng túi zip đứng có cửa sổ, dùng làm món ăn vặt hoặc đồ nhắm.\n\nQuy cách: 50 g · gói\nThương hiệu: Posi",
+        "from": "Mực khô xé sợi Posi vị cay (Spicy), đóng túi zip đứng có cửa sổ, dùng làm món ăn vặt hoặc đồ nhắm.\n\nQuy cách: 35 g · gói\nThương hiệu: Posi"
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

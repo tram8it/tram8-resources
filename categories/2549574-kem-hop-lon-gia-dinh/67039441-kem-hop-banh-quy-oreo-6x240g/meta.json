@@ -1,0 +1,124 @@
+{
+  "kiotProductId": "67039441",
+  "code": "SP877899",
+  "barcode": "8850125090514",
+  "name": "Kem hop banh quy Oreo 6x240g",
+  "fullName": "Kem hop banh quy Oreo 6x240g (Hũ)",
+  "brand": "Oreo",
+  "unit": "Hũ",
+  "category": {
+    "kiotCategoryId": "2549574",
+    "name": "Kem hộp lớn / gia đình",
+    "path": "Kem & Đồ đông lạnh > Kem hộp lớn / gia đình"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/72f93bcf0a9e249ce52cb8ae9656460f20ae5b869c47081964d346d0a52d093e.webp",
+    "description": "Kem Oreo vị kem sữa với vụn bánh quy Oreo, đóng hũ (pint) có nắp.\n\nQuy cách: 240 g · hũ\nThương hiệu: Oreo\nBảo quản: giữ đông lạnh.",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "ảnh tự chụp (nghiêng, nắp mờ, in hạn dùng); không có ảnh hãng bao bì Thái → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: bảng dinh dưỡng GDA và chữ nhỏ làm mờ (ảnh mẫu không đọc được); bỏ hạn dùng in trên nắp",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (chỉ làm mẫu)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết ngắn từ tên SP và chữ in mặt trước bao bì (không có trang hãng truy cập được)",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:25:20.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "b28 review: image CROP, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-15T09:16:17Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "tone.py --vivid: white balance/levels + brand-like colour (owner request)"
+    },
+    {
+      "at": "2026-10-17T14:12:37Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T14:13:57Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T14:14:42.228Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T14:14:42.228Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T16:16:59.348Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T16:16:59.348Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/72f93bcf0a9e249ce52cb8ae9656460f20ae5b869c47081964d346d0a52d093e.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/30/tram8/cabb816e79f5489caab895442ea9fd54.png"
+        ]
+      },
+      "description": {
+        "to": "Kem Oreo vị kem sữa với vụn bánh quy Oreo, đóng hũ (pint) có nắp.\n\nQuy cách: 240 g · hũ\nThương hiệu: Oreo\nBảo quản: giữ đông lạnh.",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

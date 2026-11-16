@@ -1,0 +1,113 @@
+{
+  "kiotProductId": "66552715",
+  "code": "8938503131834",
+  "barcode": "8938503131834",
+  "name": "Sữa tươi tiệt trùng có đường Dalat Milk 180ml/hộp",
+  "fullName": "Sữa tươi tiệt trùng có đường Dalat Milk 180ml/hộp (Hộp)",
+  "brand": "Đà Lạt Milk",
+  "unit": "Hộp",
+  "category": {
+    "kiotCategoryId": "2547906",
+    "name": "Vị nguyên bản",
+    "path": "Sữa và các sản phẩm từ sữa > Sữa tiệt trùng > Vị nguyên bản"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/fb99a890b093018d8e1a0462b41822018c8d63c9b9f36aa1d422f3fd92ba79d9.webp",
+    "description": "Sữa tươi tiệt trùng Dalat Milk có đường.\n\nQuy cách: 180 ml · hộp\nNhà sản xuất/thương hiệu: Dalat Milk",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I8: ảnh lốc 4 hộp trong khi SP bán theo hộp; dalatmilk.vn không truy cập được, không có ảnh hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: vẽ 1 hộp nghiêng nhẹ; mặt hông có chữ nhỏ và mã vạch minh hoạ (không đọc được, không phải chữ thật)",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh Kingfoodmart lốc 4 hộp (chỉ làm mẫu), cắt 1 hộp",
+      "referenceUrl": "https://storage.googleapis.com/onelife-public/8938503131834.jpg"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết ngắn chỉ từ chữ in mặt trước hộp (ảnh hiện tại)",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:19:03.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "b16 review: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T07:43:04Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T07:43:04.944Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T08:06:02.482Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T07:43:04.944Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T07:45:56.130Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T07:45:56.130Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/fb99a890b093018d8e1a0462b41822018c8d63c9b9f36aa1d422f3fd92ba79d9.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/06/18/tram8/a34b461a1fa0444495eefdbbd8cfaf08.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Sữa tươi tiệt trùng Dalat Milk có đường.\n\nQuy cách: 180 ml · hộp\nNhà sản xuất/thương hiệu: Dalat Milk",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

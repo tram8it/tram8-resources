@@ -1,0 +1,164 @@
+{
+  "kiotProductId": "65205461",
+  "code": "8934677020219",
+  "barcode": "8934677020219",
+  "name": "Kẹo Xylitol hũ 58g cool",
+  "fullName": "Kẹo Xylitol hũ 58g cool (Lọ)",
+  "brand": "Xylitol",
+  "unit": "Lọ",
+  "category": {
+    "kiotCategoryId": "2549272",
+    "name": "Kẹo cao su / singum",
+    "path": "Các loại kẹo > Kẹo cao su / singum"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/234ec2add76f6d63656ef6064f09981abd80a41ba8885c408bdb638383236228.webp",
+    "description": "Kẹo gum không đường Lotte Xylitol hương Cool (bạc hà mát lạnh), đựng trong hũ nhựa nắp bật. Trên hũ in \"Ngăn ngừa sâu răng\".\n\nQuy cách: 58 g · hũ\nNhà sản xuất/thương hiệu: Lotte · Xylitol",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "Chủ từ chối bản Super Cool (17/10); ảnh KiotViet và Kingfoodmart đúng mã vạch cho thấy hũ hàng trên kệ là bản Cool → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ nhỏ trên nắp và cờ đỏ góc trái vẽ mờ; còn lại khớp mẫu",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-18",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh Kingfoodmart hũ Xylitol Cool đúng mã vạch + ảnh KiotViet (chỉ làm mẫu)",
+      "referenceUrl": "https://storage.googleapis.com/onelife-public/8934677020219.jpg"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "REWRITE",
+    "reason": "Sửa về hương Cool theo ảnh KiotViet + Kingfoodmart đúng mã vạch (hũ trên kệ là bản Cool, không phải Super Cool)",
+    "source": {
+      "url": "https://storage.googleapis.com/onelife-public/8934677020219.jpg",
+      "fetchedAt": "2026-10-18T17:55:24.376Z"
+    },
+    "rubricVersion": "v19"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:31:48.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "review b08: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T12:00:00.000Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "Chưa vẽ: tên ghi 58g + ảnh mẫu cũ 'Cool', hãng nay chỉ có 'Super Cool' 55,1 g → hỏi chủ"
+    },
+    {
+      "at": "2026-10-17T09:05:14Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T09:05:14Z",
+      "by": "owner",
+      "status": "ASK_OWNER",
+      "note": "17/10/2026 (RUBRIC v19): dùng bao bì mới nhất; tin bao bì (55,1 g) hơn tên 58g"
+    },
+    {
+      "at": "2026-10-17T09:05:14Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini redraw of Super Cool jar (Pharmacity ref) accepted; description 55,1 g Super Cool"
+    },
+    {
+      "at": "2026-10-17T09:05:14.437Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "IN_PROGRESS",
+      "note": "rejected on Hub by AU KHUONG DUY: Đợi chụp thật, xác nhận lại đã"
+    },
+    {
+      "at": "2026-10-17T17:48:03+00:00",
+      "by": "owner",
+      "status": "NEEDS_PHOTO",
+      "note": "Hub: Đợi chụp thật, xác nhận lại đã"
+    },
+    {
+      "at": "2026-10-18T17:55:24Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-18T17:55:24.376Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "np18 re-research: description REWRITE"
+    },
+    {
+      "at": "2026-10-18T17:55:24.503Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T02:05:27.524Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T03:19:05.400Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-18T17:55:24.503Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T01:34:37.711Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T01:34:37.711Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/234ec2add76f6d63656ef6064f09981abd80a41ba8885c408bdb638383236228.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/04/26/tram8/4e85ee4dc98e4166b069123ff8cf8b6f.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Kẹo gum không đường Lotte Xylitol hương Cool (bạc hà mát lạnh), đựng trong hũ nhựa nắp bật. Trên hũ in \"Ngăn ngừa sâu răng\".\n\nQuy cách: 58 g · hũ\nNhà sản xuất/thương hiệu: Lotte · Xylitol",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

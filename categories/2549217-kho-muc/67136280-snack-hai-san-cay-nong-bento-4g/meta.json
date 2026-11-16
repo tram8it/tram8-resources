@@ -1,0 +1,119 @@
+{
+  "kiotProductId": "67136280",
+  "code": "8935342400428",
+  "barcode": "8935342400428",
+  "name": "Snack Hải Sản Cay Nồng Bento 4g (",
+  "fullName": "Snack Hải Sản Cay Nồng Bento 4g ( (Gói)",
+  "brand": "Bento",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2549217",
+    "name": "Khô mực",
+    "path": "Đồ ăn vặt > Thịt khô và chân gà > Khô mực"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/496de1d81e636fe03ccf8f64f85bdac92bbcaf43cdb13ca674773f4bb4ffc014.webp",
+    "description": "Snack hải sản Bento vị cay nồng: miếng surimi trộn mực cán mỏng, tẩm gia vị, ăn liền.\n\nQuy cách: 4 g · gói\nThương hiệu: Bento",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I2/I3: ảnh KiotViet nhỏ, chữ không đọc được → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: bố cục/màu theo ảnh KiotViet gói xanh; dòng chữ tiếng Việt 'Snack Hải Sản Cay Nồng – Surimi trộn Mực Hiệu Bento' và nhãn 'Vị Cay Nồng / Hot & Spicy' suy theo gói VN cùng dãy (mẫu không đọc được); không in khối lượng",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-18",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet gói 4 g xanh Hot & Spicy + ảnh đã duyệt của gói VN 4 g cùng dãy (Cay Ngọt) (chỉ làm mẫu)",
+      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/07/18/tram8/e77eccab025746b6b505b69f926bd2ef.png"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; không có trang hãng, mô tả ngắn chỉ từ tên SP; thành phần 'surimi trộn mực' theo chữ in trên bao bì Bento VN",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T22:00:00.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "batch b14 review (rubric v4): image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T05:27:45Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "Tìm ảnh mẫu lại (snnp.co.th, Open Food Facts, web) không thấy bao bì này → vẫn NEEDS_PHOTO"
+    },
+    {
+      "at": "2026-10-18T18:29:07Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-18T18:29:07.340Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T02:05:27.524Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T03:19:05.400Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-18T18:29:07.340Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T01:49:40.175Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T01:49:40.175Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/496de1d81e636fe03ccf8f64f85bdac92bbcaf43cdb13ca674773f4bb4ffc014.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/18/tram8/e77eccab025746b6b505b69f926bd2ef.png"
+        ]
+      },
+      "description": {
+        "to": "Snack hải sản Bento vị cay nồng: miếng surimi trộn mực cán mỏng, tẩm gia vị, ăn liền.\n\nQuy cách: 4 g · gói\nThương hiệu: Bento",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

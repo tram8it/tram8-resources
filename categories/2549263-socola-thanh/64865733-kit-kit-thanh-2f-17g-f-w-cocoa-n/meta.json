@@ -1,0 +1,153 @@
+{
+  "kiotProductId": "64865733",
+  "code": "95506500",
+  "barcode": "95506500",
+  "name": "KIT KIT THANH 2F 17G ( F/ W ) COCOA N",
+  "fullName": "KIT KIT THANH 2F 17G ( F/ W ) COCOA N (Thanh)",
+  "brand": "KitKat",
+  "unit": "Thanh",
+  "category": {
+    "kiotCategoryId": "2549263",
+    "name": "Socola thanh",
+    "path": "Đồ ăn vặt > Chocolate > Socola thanh"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/2a27322401a4f842108cebcb703993543940d8f282ca9d67e1f8c4414406102a.webp",
+    "description": "Bánh xốp KitKat 2 thanh phủ sô cô la sữa của Nestlé, giòn xốp, tiện cho bữa ăn nhẹ.\n\nQuy cách: 17 g (2 thanh) · thanh\nNhà sản xuất/thương hiệu: Nestlé · KitKat",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "chủ 19/10: ảnh KitKat nhìn chán → bộ ảnh đồng bộ: vỏ đặt chéo, to, kèm thanh bánh bóc vỏ → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: vỏ chép từ ảnh cũ; thanh bánh bên cạnh là minh hoạ; chữ nhỏ để mờ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-19",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh vỏ KitKat hiện có (hàng thật)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết từ trang Nestlé Malaysia (KitKat Milk Chocolate) + chữ in trên bao bì",
+    "source": {
+      "url": "https://www.nestle.com.my/brands/confectionery/kitkat",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:14:49.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "image CROP, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-15T02:53:13.415Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-15T09:16:17Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "tone.py --vivid: white balance/levels + brand-like colour (owner request)"
+    },
+    {
+      "at": "2026-10-15T09:18:17.016Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-15T18:09:39Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "owner flagged pending image; Gemini front-on redraw from perspective-corrected photo"
+    },
+    {
+      "at": "2026-10-15T18:09:53.102Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-16T01:38:49.852Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-19T03:06:30Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "redo after Hub rejection:  — Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-19T03:06:30.916Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T03:11:10.027Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T03:19:05.400Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-19T03:06:30.916Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T03:08:37.461Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T03:08:37.461Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/2a27322401a4f842108cebcb703993543940d8f282ca9d67e1f8c4414406102a.webp"
+        ],
+        "from": [
+          "https://img.tram8.vn/products/cf010e2035aeb3044bb2f0cd87810b5b1bf33630404585c60555c4e8733c7629.webp"
+        ]
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

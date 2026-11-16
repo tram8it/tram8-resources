@@ -1,0 +1,145 @@
+{
+  "kiotProductId": "65181834",
+  "code": "8935311103688",
+  "barcode": "8935311103688",
+  "name": "Mì VIFON thịt thật vị sườn cay Chất&Chill",
+  "fullName": "Mì VIFON thịt thật vị sườn cay Chất&Chill (Gói)",
+  "brand": "Vifon",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2549340",
+    "name": "Mì gói",
+    "path": "Đồ khô - Mì Gói > Mì gói"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/0d2d12665584efaaa0ba649435beb40d4b28a3dc1ff4bb222e15194f0b0b5cad.webp",
+    "description": "Mì Vifon Chất & Chill dòng Mì Thịt Thật vị sườn cay, có kèm gói thịt thật.\n\nQuy cách: 85 g · gói\nNhà sản xuất/thương hiệu: Công ty CP Kỹ nghệ Thực phẩm Việt Nam (VIFON)",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "line consistency 20/10 (v14): crumpled glossy photo with date print among flat Vifon renders -> flat clean render → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: bỏ mã ngày in trên gói; chữ nhỏ minh hoạ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-20",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh hiện tại của SP (nội dung) + ảnh SP cùng dòng 68412709 (góc chụp/khung/ánh sáng)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; không có trang hãng/nhãn sau — mô tả từ chữ in mặt trước bao bì: Chất & Chill, Mì Thịt Thật sườn cay, có gói thịt thật, 85 g",
+    "source": {
+      "url": "https://cdn1-retail-images.kiotviet.vn/2026/07/29/tram8/7285ac4a91fa4270ba3ae29513e3ab85.png",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v2"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T14:00:00.000Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "pilot review: image CROP, description ASK_OWNER"
+    },
+    {
+      "at": "2026-10-13T15:30:00.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "rubric v2 (owner 13/10: newest packaging, generated description when no source): image CROP, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-13T16:19:03.544Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: name, weightGram, brand, description, image"
+    },
+    {
+      "at": "2026-10-14T09:24:31.419Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-20T16:40:23Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "line consistency 20/10: crumpled glossy photo with date print among flat Vifon renders -> flat clean render (Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references)"
+    },
+    {
+      "at": "2026-10-20T16:40:46.247Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: name, weightGram, brand, description, image"
+    },
+    {
+      "at": "2026-10-21T08:30:34.700Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-26T04:58:33.990Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "master": {
+    "name": "Mì Vifon Chất & Chill sườn cay thịt thật 85g",
+    "weightGram": 85,
+    "brand": "Vifon",
+    "reason": "Mẫu tên: Loại + Thương hiệu + Vị + Khối lượng (chủ chốt 13/10); khối lượng tịnh và thương hiệu theo bao bì",
+    "rubricVersion": "v4"
+  },
+  "submitted": {
+    "at": "2026-10-20T16:40:46.247Z",
+    "fields": [
+      "name",
+      "weightGram",
+      "brand",
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-20T16:44:05.272Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-20T16:44:05.272Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/0d2d12665584efaaa0ba649435beb40d4b28a3dc1ff4bb222e15194f0b0b5cad.webp"
+        ],
+        "from": [
+          "https://img.tram8.vn/products/aa9ec10ea0fffaf7afa0d7bfe7ab57e5c95f59ae69ac203bbc9d7e4b1f202f7a.webp"
+        ]
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

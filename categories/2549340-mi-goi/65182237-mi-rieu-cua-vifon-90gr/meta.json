@@ -1,0 +1,140 @@
+{
+  "kiotProductId": "65182237",
+  "code": "8935311103268",
+  "barcode": "8935311103268",
+  "name": "Mì riêu cua Vifon 90GR",
+  "fullName": "Mì riêu cua Vifon 90GR (Gói)",
+  "brand": "Vifon",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2549340",
+    "name": "Mì gói",
+    "path": "Đồ khô - Mì Gói > Mì gói"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/3b1f755927de51416b0245d3f03ef27fc223b066432ad9e553790153bbbbd896.webp",
+    "description": "Mì Vifon vị riêu cua, có kèm gói riêu cua thật.\n\nQuy cách: 90 g · gói\nNhà sản xuất/thương hiệu: Công ty CP Kỹ nghệ Thực phẩm Việt Nam (VIFON)",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "ảnh tự chụp (gói nghiêng, cắt mép); vifon.com.vn không có SP này → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ lớn khớp (VIFON, Mì Riêu Cua, Instant noodles Crab soup, Có gói riêu cua thật, Khối lượng tịnh 90g)",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet của cửa hàng (chỉ làm mẫu)",
+      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/07/30/tram8/aaf12ff106b74d41ba8c39bda4bfad16.png"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; không có trang hãng/nhãn sau — mô tả từ chữ in mặt trước bao bì: Mì Riêu Cua, có gói riêu cua thật, 90 g",
+    "source": {
+      "url": "https://cdn1-retail-images.kiotviet.vn/2026/07/30/tram8/aaf12ff106b74d41ba8c39bda4bfad16.png",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v2"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T14:00:00.000Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "pilot review: image CROP, description ASK_OWNER"
+    },
+    {
+      "at": "2026-10-13T15:30:00.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "rubric v2 (owner 13/10: newest packaging, generated description when no source): image CROP, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-13T16:19:03.544Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: name, weightGram, brand, description, image"
+    },
+    {
+      "at": "2026-10-14T09:24:31.419Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-17T14:16:19Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T14:16:19.327Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: name, weightGram, brand, description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "master": {
+    "name": "Mì Vifon riêu cua 90g",
+    "weightGram": 90,
+    "brand": "Vifon",
+    "reason": "Mẫu tên: Loại + Thương hiệu + Vị + Khối lượng (chủ chốt 13/10); khối lượng tịnh và thương hiệu theo bao bì",
+    "rubricVersion": "v4"
+  },
+  "submitted": {
+    "at": "2026-10-17T14:16:19.327Z",
+    "fields": [
+      "name",
+      "weightGram",
+      "brand",
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T16:37:30.955Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T16:37:30.955Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/3b1f755927de51416b0245d3f03ef27fc223b066432ad9e553790153bbbbd896.webp"
+        ],
+        "from": [
+          "https://img.tram8.vn/products/fa901ab66bfce898022d592b9f3d67d1c6b881762e0734770bd971d4237f1e46.webp"
+        ]
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

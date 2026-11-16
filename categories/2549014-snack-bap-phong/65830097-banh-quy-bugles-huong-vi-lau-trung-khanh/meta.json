@@ -1,0 +1,128 @@
+{
+  "kiotProductId": "65830097",
+  "code": "6945705879336",
+  "barcode": "6945705879336",
+  "name": "BÁNH QUY BUGLES - HƯƠNG VỊ LẨU TRÙNG KHÁNH",
+  "fullName": "BÁNH QUY BUGLES - HƯƠNG VỊ LẨU TRÙNG KHÁNH (Ống)",
+  "brand": "Bugles",
+  "unit": "Ống",
+  "category": {
+    "kiotCategoryId": "2549014",
+    "name": "Snack bắp & phồng",
+    "path": "Đồ ăn vặt > Snacks > Snack bắp & phồng"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/cfb67f104f54f23b832be4d21b0f59bbb2bdcd68a8526665ec5c960d00c9fdd1.webp",
+    "description": "Bánh snack Bugles hương vị lẩu Trùng Khánh.\n\nQuy cách: ống\nThương hiệu: Bugles",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I1: chưa có ảnh; vẽ theo ảnh chủ gửi, cùng khuôn hộp với vị tôm càng cay để đồng bộ dòng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: màu hộp, chữ CHONGQING HOT POT FLAVOR, bát bánh + ớt theo ảnh chủ; chữ nhỏ để mờ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-21",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh chủ gửi qua chat 21/10 (hộp nâu đỏ Chongqing Hot Pot cạnh hộp tôm càng cay) + ảnh SP cùng dòng 65831887"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết ngắn chỉ từ tên hàng (Bugles, hương vị lẩu Trùng Khánh, đơn vị ống)",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:23:35.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "image needs staff photo, description WRITE_NEW (from name)"
+    },
+    {
+      "at": "2026-10-17T12:00:00Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "re-searched for brand/retailer references (web, barcode lookups, JD, Weee): none found for this exact pack; no Gemini call made"
+    },
+    {
+      "at": "2026-10-18T17:56:03Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "staff photo 2026-10-18 received (work/gemini/<id>/refs/2-staff.jpg) but wrinkled/tilted/glare → needs Gemini redraw; GEMINI_API_KEY not set on this machine"
+    },
+    {
+      "at": "2026-10-19T07:38:02Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "19/10 re-research with image search (owner request): no image of this exact product/variant found"
+    },
+    {
+      "at": "2026-10-21T01:52:47Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "redo after Hub rejection:  — Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-21T01:52:47.167Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-21T08:30:34.700Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-26T04:58:33.990Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-21T01:52:47.167Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-21T01:59:01.997Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-21T01:59:01.997Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/cfb67f104f54f23b832be4d21b0f59bbb2bdcd68a8526665ec5c960d00c9fdd1.webp"
+        ],
+        "from": null
+      },
+      "description": {
+        "to": "Bánh snack Bugles hương vị lẩu Trùng Khánh.\n\nQuy cách: ống\nThương hiệu: Bugles",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "kiotProductId": "66646853",
+  "code": "8938548175909",
+  "barcode": "8938548175909",
+  "name": "Khô bò sa tế mini pocket Toto Food (Gói)",
+  "fullName": "Khô bò sa tế mini pocket Toto Food (Gói) (Gói)",
+  "brand": "ToTo Food",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2549220",
+    "name": "Khô bò",
+    "path": "Đồ ăn vặt > Thịt khô và chân gà > Khô bò"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/bede2a63d719cfc911abe703813d5767c4368d52bff7bb87e41075a352a9ba56.webp",
+    "description": "Khô bò vị sa tế của ToTo Food, gói nhỏ Mini Pocket tiện mang theo, dùng làm món ăn vặt.\n\nQuy cách: gói nhỏ\nNhà sản xuất/thương hiệu: ToTo Food",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "Rà ảnh mờ 19/10: ảnh crop phóng to mờ, viền cắt răng cưa → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt nội dung",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-19",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh hiện tại (gói thật)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; mô tả ngắn từ chữ in mặt trước gói (ToTo Food, Khô bò vị sa tế, Mini Pocket, 100% thịt tươi); khối lượng không đọc được nên bỏ",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:54:44.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "image CROP, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-15T02:52:49.366Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-15T09:16:17Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "tone.py --vivid: white balance/levels + brand-like colour (owner request)"
+    },
+    {
+      "at": "2026-10-15T09:18:37.834Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-16T01:38:49.852Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-19T03:59:35Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references — owner 19/10: replace blurry/upscaled/jagged or wrinkled-photo images with crisp flat renders"
+    },
+    {
+      "at": "2026-10-19T04:00:41.083Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T07:23:08.254Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T17:15:09.663Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-19T04:00:41.083Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T05:18:25.511Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T05:18:25.511Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/bede2a63d719cfc911abe703813d5767c4368d52bff7bb87e41075a352a9ba56.webp"
+        ],
+        "from": [
+          "https://img.tram8.vn/products/e4645e78a4fb6d4b74de03b5ab9fff880e9633031a36a46d6f0555e607a7fbea.webp"
+        ]
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

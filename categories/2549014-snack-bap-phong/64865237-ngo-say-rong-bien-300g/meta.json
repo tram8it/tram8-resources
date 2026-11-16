@@ -1,0 +1,128 @@
+{
+  "kiotProductId": "64865237",
+  "code": "8936202667845",
+  "barcode": "8936202667845",
+  "name": "Ngô sấy rong biển 300g",
+  "fullName": "Ngô sấy rong biển 300g (Gói)",
+  "brand": "Phương Huyền",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2549014",
+    "name": "Snack bắp & phồng",
+    "path": "Đồ ăn vặt > Snacks > Snack bắp & phồng"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/0309f2ebe9c05ac2c0c89554408d4f58a2ffe253e9d7ca13fa1fd8d6f379b874.webp",
+    "description": "Ngô (bắp) sấy giòn vị rong biển, ăn liền như món ăn vặt.\n\nQuy cách: 300 g · gói",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "v13–v15 (chủ 19/10): ảnh nhân viên chụp đã tách nền vẫn kém ảnh các SP cùng dòng đã duyệt (nhăn/loá/nghiêng) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: túi vẽ phẳng, phẳng nếp; chữ nhỏ trên nhãn (thành phần, địa chỉ) không đọc được; vài vụn rong biển rời ở đáy túi",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-19",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh nhân viên chụp 18/10 (chỉ làm mẫu) + ảnh đã duyệt 65151021 (same shop category (dried corn snacks), chỉ làm mẫu phong cách)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết ngắn chỉ từ tên hàng (ngô sấy, rong biển, 300 g)",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:23:35.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "image needs staff photo, description WRITE_NEW (from name)"
+    },
+    {
+      "at": "2026-10-17T04:03:54.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "web search found no reference photo of this pack; Gemini redraw impossible without a reference — staff photo needed"
+    },
+    {
+      "at": "2026-10-18T17:56:03Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "staff photo 2026-10-18 (Zalo); cutout + tone --vivid"
+    },
+    {
+      "at": "2026-10-18T17:57:16.802Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T02:16:53Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-19T02:17:17.289Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T02:44:56.965Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T03:19:05.400Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-19T02:17:17.289Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T02:28:40.702Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T02:28:40.702Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/0309f2ebe9c05ac2c0c89554408d4f58a2ffe253e9d7ca13fa1fd8d6f379b874.webp"
+        ],
+        "from": null
+      },
+      "description": {
+        "to": "Ngô (bắp) sấy giòn vị rong biển, ăn liền như món ăn vặt.\n\nQuy cách: 300 g · gói",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

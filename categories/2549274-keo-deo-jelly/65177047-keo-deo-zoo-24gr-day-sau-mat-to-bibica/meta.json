@@ -1,0 +1,129 @@
+{
+  "kiotProductId": "65177047",
+  "code": "8934609103836",
+  "barcode": "8934609103836",
+  "name": "Kẹo dẻo Zoo 24GR dây sâu mắt to Bibica",
+  "fullName": "Kẹo dẻo Zoo 24GR dây sâu mắt to Bibica (Gói)",
+  "brand": "Zoo Jelly",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2549274",
+    "name": "Kẹo dẻo / jelly",
+    "path": "Các loại kẹo > Kẹo dẻo / jelly"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/ecf0c8d145caa25b509b0975f51acf1413bc3642091387b12909d174bf37ff7f.webp",
+    "description": "Kẹo dẻo Zoo Sâu Mắt To của Bibica, viên kẹo tạo hình dây sâu mắt to ngộ nghĩnh, dai mềm, ngọt thanh, là món ăn vặt bé yêu thích.\n\nQuy cách: 24 g · gói\nNhà sản xuất/thương hiệu: Bibica · Zoo Jelly\nBảo quản: nơi khô ráo, thoáng mát, tránh ánh nắng trực tiếp; đóng kín bao bì sau khi mở.",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "line consistency 20/10: bag in slight perspective and ~13% narrower than the other 24 g Zoo bags → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt chữ lớn; vẽ phẳng thẳng",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-20",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh hãng Bibica gói Sâu Mắt To (nội dung) + gói Sâu Tuyết 24 g đã duyệt (kiểu ảnh)"
+    },
+    "rubricVersion": "v23"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; theo trang Bibica (Zoo Sâu Mắt To & Sâu Tuyết)",
+    "source": {
+      "url": "https://www.bibica.com.vn/keo-deo-zoo-sau-mat-to-sau-tuyet",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:19:58.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "image REPLACE (bibica.com.vn), description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-16T06:09:11.081Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T03:59:04.373Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-20T16:39:37Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "line consistency 20/10: bag in slight perspective and ~13% narrower than the other 24 g Zoo bags -> Gemini redraw (own image for content, approved sibling for style); Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-20T16:42:00.077Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-21T08:30:34.700Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-26T04:58:33.990Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-20T16:42:00.077Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-20T16:45:24.688Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-20T16:45:24.688Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/ecf0c8d145caa25b509b0975f51acf1413bc3642091387b12909d174bf37ff7f.webp"
+        ],
+        "from": [
+          "https://img.tram8.vn/products/f16452d1f9ff88ddd637fcbe29e57d7f55207d4c13775b82befd4fbdafa8dd10.webp"
+        ]
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

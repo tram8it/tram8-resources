@@ -1,0 +1,106 @@
+{
+  "kiotProductId": "68562668",
+  "code": "6921716535034",
+  "barcode": "6921716535034",
+  "name": "Quả Thanh Mai Sấy Dẻo 35g",
+  "fullName": "Quả Thanh Mai Sấy Dẻo 35g (Gói)",
+  "brand": null,
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2549268",
+    "name": "Hoa quả sấy",
+    "path": "Đồ ăn vặt > Hạt các loại · Hoa quả sấy > Hoa quả sấy"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/9ffcd365780eb8049a4cbe6c5bff5645c6650251b0eaf714744be2cc5473a55e.webp",
+    "description": "Thanh mai sấy dẻo \"cửu chế\" (九制杨梅) của Hong Tai Kee (宏泰記), mứt quả làm theo cách truyền thống; theo chữ in trên gói: thịt quả dày, hương quả đậm.\n\nQuy cách: 35 g · gói\nNhà sản xuất/thương hiệu: Hong Tai Kee (宏泰記)",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I4: ảnh chụp nền xám, túi nhăn; không tìm được ảnh hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt đáng kể (làm phẳng túi)",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-21",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (ảnh nhân viên chụp 21/10, chỉ làm mẫu) + ảnh SP cùng dòng 68559902"
+    },
+    "rubricVersion": "v23"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; không có trang hãng — mô tả ngắn chỉ từ tên SP và chữ in mặt trước bao bì (ảnh KiotViet); không ghi khối lượng khi gói không đọc được",
+    "source": null,
+    "rubricVersion": "v23"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-21T08:30:34.700Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-21T08:42:44Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references; description WRITE_NEW from pack front"
+    },
+    {
+      "at": "2026-10-21T08:43:54.349Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-26T02:38:48.902Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-26T04:58:33.990Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-21T08:43:54.349Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-21T08:50:01.542Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-21T08:50:01.542Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/9ffcd365780eb8049a4cbe6c5bff5645c6650251b0eaf714744be2cc5473a55e.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/10/21/tram8/54f41dc36d6e45278fde6ec6c0576e82.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Thanh mai sấy dẻo \"cửu chế\" (九制杨梅) của Hong Tai Kee (宏泰記), mứt quả làm theo cách truyền thống; theo chữ in trên gói: thịt quả dày, hương quả đậm.\n\nQuy cách: 35 g · gói\nNhà sản xuất/thương hiệu: Hong Tai Kee (宏泰記)",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

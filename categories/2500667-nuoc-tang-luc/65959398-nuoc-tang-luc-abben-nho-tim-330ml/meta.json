@@ -1,0 +1,198 @@
+{
+  "kiotProductId": "65959398",
+  "code": "8936048477189",
+  "barcode": "8936048477189",
+  "name": "Nước tăng lực abben nho tím 330ml",
+  "fullName": "Nước tăng lực abben nho tím 330ml (Chai)",
+  "brand": "Abben",
+  "unit": "Chai",
+  "category": {
+    "kiotCategoryId": "2500667",
+    "name": "Nước tăng lực",
+    "path": "Đồ uống đóng chai > Nước tăng lực"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/64de6aab7aef17cc77748d6d687f76fea78f31333ddb1d8e3ba615c6ff44b0cc.webp",
+    "description": "Nước tăng lực Abben BCAA + Energy hương nho (Grape Strike), chai nhựa. Trên nhãn ghi bổ sung BCAA, caffeine, taurine, inositol và vitamin.\n\nQuy cách: 330 ml · chai\nNhà sản xuất/thương hiệu: Abben",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I3/I4/I5: ảnh chụp cận nhãn trên kệ, chai bị cắt; vẽ theo nhãn GRAPE STRIKE đang bán ở cửa hàng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: dáng chai/nắp lấy từ ảnh mẫu khác; chữ nhỏ trên nhãn là ước lượng",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet chụp chai trên kệ (nhãn GRAPE STRIKE) + ảnh allfullvietnam chỉ lấy dáng chai",
+      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/05/24/tram8/f6b9aaeb0661481d91cb00e4f1cce5a7.jpeg"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết ngắn từ tên SP và chữ in mặt trước chai, không có nguồn hãng",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:31:42.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "image NEEDS_PHOTO (no official source), description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T05:27:25.000Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "two label designs for the grape flavour (GRAPE STRIKE in shop vs NHO TÍM on retailer render) -> ask owner"
+    },
+    {
+      "at": "2026-10-17T09:15:20Z",
+      "by": "owner",
+      "status": "ASK_OWNER",
+      "note": "17/10/2026 (RUBRIC v19): dùng bao bì mới nhất của hãng nếu tìm được; tin bao bì/đơn vị KiotViet"
+    },
+    {
+      "at": "2026-10-17T09:15:20Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "still ASK_OWNER: cannot tell which grape label is the newer design (no brand page)"
+    },
+    {
+      "at": "2026-10-17T13:59:52Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T14:02:05Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "resolved without asking: the shop photo shows the GRAPE STRIKE label (RUBRIC v19: the KiotViet photo is the shelf pack); no brand page shows a newer design"
+    },
+    {
+      "at": "2026-10-17T14:02:14.362Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T14:02:14.362Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T14:10:53.855Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T14:10:53.855Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/64de6aab7aef17cc77748d6d687f76fea78f31333ddb1d8e3ba615c6ff44b0cc.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/05/24/tram8/f6b9aaeb0661481d91cb00e4f1cce5a7.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Nước tăng lực Abben BCAA + Energy hương nho (Grape Strike), chai nhựa. Trên nhãn ghi bổ sung BCAA, caffeine, taurine, inositol và vitamin.\n\nQuy cách: 330 ml · chai\nNhà sản xuất/thương hiệu: Abben",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {
+      "price": {
+        "to": 12037.04,
+        "from": 11818.18
+      },
+      "saleTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 65959398
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 65959398
+        }
+      },
+      "taxRate": {
+        "to": "VAT 8%",
+        "from": "VAT 10%"
+      },
+      "productTaxs": {
+        "to": [
+          {
+            "id": 0,
+            "name": "VAT 8%",
+            "taxId": 3,
+            "value": 8,
+            "productId": 65959398
+          }
+        ],
+        "from": [
+          {
+            "id": 0,
+            "name": "VAT 10%",
+            "taxId": 4,
+            "value": 10,
+            "productId": 65959398
+          }
+        ]
+      },
+      "purchaseTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 65959398
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 65959398
+        }
+      }
+    }
+  }
+}

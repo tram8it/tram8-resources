@@ -1,0 +1,130 @@
+{
+  "kiotProductId": "68214972",
+  "code": "8859771701096",
+  "barcode": "8859771701096",
+  "name": "Snack Mực Vị Cay Ngọt 60g",
+  "fullName": "Snack Mực Vị Cay Ngọt 60g (Gói)",
+  "brand": null,
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2549016",
+    "name": "Snack phồng tôm/mực/cua",
+    "path": "Đồ ăn vặt > Snacks > Snack phồng tôm/mực/cua"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/71dae8a29d13cca6bfb2acd76ae99295d7baf13d6164ddd65331277c42f4c5d1.webp",
+    "description": "Snack mực vị cay ngọt, món ăn vặt giòn vị hải sản.\n\nQuy cách: 60 g · gói",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "có ảnh nhân viên mới → vẽ lại sạch → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: vẽ phẳng, sạch theo ảnh chụp; chữ nhỏ để mờ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-19",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh nhân viên chụp (KiotViet 19/10)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; mô tả ngắn chỉ từ tên SP",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:48:23.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "b17: needs photo (no image, unknown brand), description from name"
+    },
+    {
+      "at": "2026-10-17T05:23:51.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "re-checked 2026-10-17: no reference image found (barcode search, OFF, brand site) -> still NEEDS_PHOTO"
+    },
+    {
+      "at": "2026-10-18T17:56:03Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "staff photo 2026-10-18 received (work/gemini/<id>/refs/2-staff.jpg) but wrinkled/tilted/glare → needs Gemini redraw; GEMINI_API_KEY not set on this machine"
+    },
+    {
+      "at": "2026-10-18T18:46:11Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "re-searched 18/10 (owner feedback, np18): no image of this exact product found; reason updated"
+    },
+    {
+      "at": "2026-10-19T03:42:32Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "redo after Hub rejection:  — Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-19T03:42:33.179Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T07:23:08.254Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T17:15:09.663Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-19T03:42:33.179Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T03:44:25.325Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T03:44:25.325Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/71dae8a29d13cca6bfb2acd76ae99295d7baf13d6164ddd65331277c42f4c5d1.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/10/19/tram8/0fafd2d250964f3bb6b9aaa76c81a6b4.png"
+        ]
+      },
+      "description": {
+        "to": "Snack mực vị cay ngọt, món ăn vặt giòn vị hải sản.\n\nQuy cách: 60 g · gói",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

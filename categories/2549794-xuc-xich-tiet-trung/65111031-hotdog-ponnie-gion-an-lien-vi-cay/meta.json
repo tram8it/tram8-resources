@@ -1,0 +1,123 @@
+{
+  "kiotProductId": "65111031",
+  "code": "8936034876491",
+  "barcode": "8936034876491",
+  "name": "Hotdog Ponnie giòn ăn liền vị cay",
+  "fullName": "Hotdog Ponnie giòn ăn liền vị cay (Gói)",
+  "brand": "Ponnie",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2549794",
+    "name": "Xúc xích tiệt trùng",
+    "path": "Xúc Xích & Thịt Nguội > Xúc xích tiệt trùng"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/2f1f725c2cf723d31b4a1870a13fd714919cbc2b0eb8753dde2de0d88b2b928b.webp",
+    "description": "Xúc xích giòn ăn liền Ponnie (Meat Snack) vị cay, gói nhỏ tiện mang theo.\n\nQuy cách: 28 g · gói\nNhà sản xuất/thương hiệu: Masan MEATLife · Ponnie",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I1: chưa có ảnh → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt chữ lớn (PÖNNIE, Hot dog giòn ăn liền, vị CAY, 28 g); thêm 1 khúc xúc xích cạnh gói như các SP cùng dãy",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-18",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh Kingfoodmart theo mã vạch (chỉ làm mẫu) + ảnh SP cùng dãy (vị bắp) cho phong cách",
+      "referenceUrl": "https://storage.googleapis.com/onelife-public/8936034876491.jpg"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: từ chữ trên gói (ảnh Kingfoodmart đúng mã vạch): Hot dog giòn ăn liền, vị cay, 28 g",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:17:58.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "b16 review: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T05:26:52.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "photo search 17/10: no usable reference found"
+    },
+    {
+      "at": "2026-10-18T18:05:56Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-18T18:05:56Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "np18 re-research: description rewritten from pack/official facts"
+    },
+    {
+      "at": "2026-10-18T18:05:59.211Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T02:05:27.524Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T03:19:05.400Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-18T18:05:59.211Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T01:35:13.565Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T01:35:13.565Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/2f1f725c2cf723d31b4a1870a13fd714919cbc2b0eb8753dde2de0d88b2b928b.webp"
+        ],
+        "from": null
+      },
+      "description": {
+        "to": "Xúc xích giòn ăn liền Ponnie (Meat Snack) vị cay, gói nhỏ tiện mang theo.\n\nQuy cách: 28 g · gói\nNhà sản xuất/thương hiệu: Masan MEATLife · Ponnie",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

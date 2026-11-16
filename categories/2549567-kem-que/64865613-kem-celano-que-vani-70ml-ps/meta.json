@@ -1,0 +1,132 @@
+{
+  "kiotProductId": "64865613",
+  "code": "8936011771504",
+  "barcode": "8936011771504",
+  "name": "Kem Celano Que Vani 70ml ( PS )",
+  "fullName": "Kem Celano Que Vani 70ml ( PS ) (Cái)",
+  "brand": "Celano",
+  "unit": "Cái",
+  "category": {
+    "kiotCategoryId": "2549567",
+    "name": "Kem que",
+    "path": "Kem & Đồ đông lạnh > Kem que"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/dbbbd64f811725d45ad9781b0b03ef2489513aef9f147feff0f80de05b4cc447.webp",
+    "description": "Kem que Celano vị caramen hương vani, phủ sô cô la và hạnh nhân.\n\nQuy cách: 1 que · 53 g\nNhà sản xuất/thương hiệu: Celano (Nutifood)\nBảo quản: Giữ đông lạnh.",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I1: chưa có ảnh; mã vạch 8936011771504 là Celano Classic 'Kem caramen hương vani' 53 g (bao bì mới nhất, chủ chốt 17/10/2026 v19: tin bao bì, không sửa tên); trang hãng không có ảnh vị này → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ nhỏ dưới đáy 'SÔ-CÔ-LA' có gạch nối (gói thật: 'SÔ CÔ LA'); không thấy khác biệt khác",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh kimphuc.net Celano Classic caramen hương vani 53g (chỉ làm mẫu) + ảnh hãng Celano sô cô la (kiểu vẽ)",
+      "referenceUrl": "https://kimphuc.net/kem-celano-caramen-vani-53g"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "REWRITE",
+    "reason": "Mô tả cũ ghi 70 ml, vị vani; bao bì đúng mã vạch (Celano Classic) là 'Kem caramen hương vani' 53 g, chữ in 'Hạnh nhân thơm giòn', 'Sô cô la hảo hạng' → sửa theo bao bì (RUBRIC v19)",
+    "source": {
+      "url": "https://kimphuc.net/kem-celano-caramen-vani-53g",
+      "fetchedAt": "2026-10-17T09:00:00Z"
+    },
+    "rubricVersion": "v19"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:11:16.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "image needs photo (no official source), description WRITE_NEW (name facts only)"
+    },
+    {
+      "at": "2026-10-17T04:12:16Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "barcode is a different flavour line; newest pack 53g vs name 70ml — not drawn, asked owner"
+    },
+    {
+      "at": "2026-10-17T08:54:47Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T08:54:48Z",
+      "by": "owner",
+      "status": "ASK_OWNER",
+      "note": "17/10/2026 (RUBRIC v19): tin bao bì đúng mã vạch (53 g) hơn tên; dùng bao bì mới nhất"
+    },
+    {
+      "at": "2026-10-17T08:54:48Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini redraw from kimphuc ref accepted; description rewritten to 53 g caramen hương vani"
+    },
+    {
+      "at": "2026-10-17T08:54:48.207Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T08:54:48.207Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T09:05:22.345Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T09:05:22.345Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/dbbbd64f811725d45ad9781b0b03ef2489513aef9f147feff0f80de05b4cc447.webp"
+        ],
+        "from": null
+      },
+      "description": {
+        "to": "Kem que Celano vị caramen hương vani, phủ sô cô la và hạnh nhân.\n\nQuy cách: 1 que · 53 g\nNhà sản xuất/thương hiệu: Celano (Nutifood)\nBảo quản: Giữ đông lạnh.",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

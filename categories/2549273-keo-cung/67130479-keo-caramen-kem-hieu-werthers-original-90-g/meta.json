@@ -1,0 +1,132 @@
+{
+  "kiotProductId": "67130479",
+  "code": "4014400918083",
+  "barcode": "4014400918083",
+  "name": "Kẹo Caramen Kem Hiệu WertherS Original 90 G",
+  "fullName": "Kẹo Caramen Kem Hiệu WertherS Original 90 G (Gói)",
+  "brand": "Werther's Original",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2549273",
+    "name": "Kẹo cứng",
+    "path": "Các loại kẹo > Kẹo cứng"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/6397a3c09db730822d3e2a9bd163d5a77823ee82d603f1ce770fe757b3a712a8.webp",
+    "description": "Kẹo caramen bơ sữa Werther's Original Classic Cream Candies của Storck, kẹo cứng vị kem bơ truyền thống, gói riêng từng viên.\n\nQuy cách: 90 g · túi\nThương hiệu: Werther's Original (Storck)",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "Rà ảnh mờ 19/10: ảnh chụp túi mềm, bóng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt nội dung",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-19",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh hiện tại (gói thật)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; không có trang hãng — mô tả ngắn chỉ từ tên SP và chữ in mặt trước bao bì (ảnh hiện tại)",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T22:00:00.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "batch b14 review (rubric v4): image CROP, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-15T09:16:17Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "tone.py --vivid: white balance/levels + brand-like colour (owner request)"
+    },
+    {
+      "at": "2026-10-18T17:50:31.789Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T02:05:27.524Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T03:19:05.400Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-19T03:59:39Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references — owner 19/10: replace blurry/upscaled/jagged or wrinkled-photo images with crisp flat renders"
+    },
+    {
+      "at": "2026-10-19T04:01:29.571Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T07:23:08.254Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T17:15:09.663Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-19T04:01:29.571Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T05:19:48.593Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T05:19:48.593Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/6397a3c09db730822d3e2a9bd163d5a77823ee82d603f1ce770fe757b3a712a8.webp"
+        ],
+        "from": [
+          "https://img.tram8.vn/products/05873fa30ebab6ffd7eeb4edeccf05d7551fbbcd3a02db282c56bd9b224495d9.webp"
+        ]
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

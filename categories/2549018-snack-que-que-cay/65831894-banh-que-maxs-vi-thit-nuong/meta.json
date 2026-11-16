@@ -1,0 +1,132 @@
+{
+  "kiotProductId": "65831894",
+  "code": "8850548010649",
+  "barcode": "8850548010649",
+  "name": "Bánh que Maxs vị Thịt Nướng",
+  "fullName": "Bánh que Maxs vị Thịt Nướng (Gói)",
+  "brand": "Maxs",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2549018",
+    "name": "Snack que / que cay",
+    "path": "Đồ ăn vặt > Snacks > Snack que / que cay"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/8afadfffeb7a6fdb74b1190a75c45b5acacc250fb2cb0bf5eb90de4c3783f85d.webp",
+    "description": "Bánh que Maxs vị thịt nướng (Barbecue Biscuit Sticks), que bánh quy giòn kiểu Thái, món ăn vặt tiện lợi.\n\nQuy cách: 55 g · gói\nNhà sản xuất/thương hiệu: Maxs",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "ảnh tự chụp (mềm, nhăn/bóng lóa); không có ảnh hãng nguyên gói dùng được → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt ở chữ lớn và khối lượng; bảng dinh dưỡng để mờ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet hiện có (ảnh tự chụp)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; mô tả ngắn chỉ từ chữ in mặt trước bao bì (Barbecue Biscuit Sticks, 55 g)",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:21:20.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "b07 review: image CROP, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-15T02:51:55.229Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-15T09:16:17Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "tone.py --vivid: white balance/levels + brand-like colour (owner request)"
+    },
+    {
+      "at": "2026-10-15T09:21:42.861Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-16T01:38:49.852Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-17T14:25:56Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T14:26:40.491Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T14:26:40.491Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T16:50:59.015Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T16:50:59.015Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/8afadfffeb7a6fdb74b1190a75c45b5acacc250fb2cb0bf5eb90de4c3783f85d.webp"
+        ],
+        "from": [
+          "https://img.tram8.vn/products/f60b5e9e6cedca7ac904c821fdfa24ab06f92ac6124f65fc016a6274040440aa.webp"
+        ]
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

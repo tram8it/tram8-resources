@@ -1,0 +1,113 @@
+{
+  "kiotProductId": "67902820",
+  "code": "80883296",
+  "barcode": "80883296",
+  "name": "KẸO NGẬM TIC TAC HƯƠNG VỊ BẠC HÀ LỤC 14.5G",
+  "fullName": "KẸO NGẬM TIC TAC HƯƠNG VỊ BẠC HÀ LỤC 14.5G (Lọ)",
+  "brand": "Tic Tac",
+  "unit": "Lọ",
+  "category": {
+    "kiotCategoryId": "2549276",
+    "name": "Viên ngậm thảo mộc / bạc hà",
+    "path": "Các loại kẹo > Viên ngậm thảo mộc / bạc hà"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/d53ac47714a4e2ed3f494c924c78a94982eb814099fd3c5f3960a7821a839648.webp",
+    "description": "Kẹo ngậm Tic Tac hương bạc hà lục (spearmint), viên nhỏ trong hộp nhựa nắp bật tiện mang theo.\n\nQuy cách: 14,5 g · lọ\nNhà sản xuất/thương hiệu: Tic Tac (Ferrero)",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I7: ảnh cũ có watermark 'SuperMart.ae' (hộp bản Trung Đông); ảnh NPP Hương Thủy đúng hộp 14,5 g nhưng chỉ 188×272 px, phóng 3,8 lần bị mờ → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Theo bản nhãn trên catalogue NPP (nhãn bạc, 'KHỐI LƯỢNG TỊNH: 14,5g'); bản nhãn mới hơn của dòng Tic Tac (nhãn màu chấm bi, '(T30)' — thấy ở vị bạc hà/cam) chưa tìm được ảnh cho vị bạc hà lục, nên có thể khác hộp đang bán ở chi tiết nhãn. Hạt kẹo/khay vẽ lại.",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh catalogue NPP Hương Thủy (188×272, quá nhỏ để đăng thẳng)",
+      "referenceUrl": "https://huongthuy.com.vn/products/cake-candy-chocolate/"
+    },
+    "rubricVersion": "v17"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; không có trang hãng/ảnh bao bì — mô tả ngắn chỉ từ tên SP và đơn vị bán",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:19:58.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "image NEEDS_PHOTO, description WRITE_NEW (name only)"
+    },
+    {
+      "at": "2026-10-17T04:37:25Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T04:43:06.361Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T05:23:58.238Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T04:43:06.361Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T04:51:56.917Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T04:51:56.917Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/d53ac47714a4e2ed3f494c924c78a94982eb814099fd3c5f3960a7821a839648.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/08/30/tram8/ee729154c9864e25a8638d9233541841.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Kẹo ngậm Tic Tac hương bạc hà lục (spearmint), viên nhỏ trong hộp nhựa nắp bật tiện mang theo.\n\nQuy cách: 14,5 g · lọ\nNhà sản xuất/thương hiệu: Tic Tac (Ferrero)",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

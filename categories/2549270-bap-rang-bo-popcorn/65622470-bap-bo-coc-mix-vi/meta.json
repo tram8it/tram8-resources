@@ -1,0 +1,148 @@
+{
+  "kiotProductId": "65622470",
+  "code": "SP877373",
+  "barcode": "8938517053139",
+  "name": "Bắp Bơ Cốc Mix Vị",
+  "fullName": "Bắp Bơ Cốc Mix Vị (Ống)",
+  "brand": "Thái Sơn",
+  "unit": "Ống",
+  "category": {
+    "kiotCategoryId": "2549270",
+    "name": "Bắp rang bơ - Popcorn",
+    "path": "Đồ ăn vặt > Bắp rang bơ - Popcorn"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/1a3d6d97d51fda6e725be1979998626df00d875d355ae944c9bba9a4309bff4d.webp",
+    "description": "Bắp rang bơ Thái Sơn Pop Corn Mix — bắp rang trộn nhiều vị (socola, hoa quả, phô mai) trong một ống nhựa trong.\n\nQuy cách: 90 g · ống\nNhà sản xuất/thương hiệu: Thái Sơn",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "chủ 19/10: hàng là cốc thon của Thái Sơn, không phải ống; web không có ảnh (đã tìm tên, mã vạch, Kingfoodmart, OFF) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: vẽ theo ảnh chủ gửi; vị Mix: nhãn lấy theo ảnh cũ, cốc theo cốc phô mai; chữ nhỏ để mờ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-19",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh cốc Thái Sơn phô mai chủ gửi 19/10 (+ ảnh nhãn Mix cũ cho vị Mix)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "REWRITE",
+    "reason": "Bổ sung theo nhãn trên ảnh KiotViet: Mix gồm vị socola, hoa quả, phô mai; KL 90g",
+    "source": null,
+    "rubricVersion": "v19"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:03:13.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "image REPLACE (phone photo), description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T12:00:00Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "Tìm web theo mã vạch/tên thương hiệu không ra ảnh mẫu; ảnh KiotViet không đủ để vẽ trọn ống (không thấy nắp) → giữ NEEDS_PHOTO"
+    },
+    {
+      "at": "2026-10-18T18:12:24Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-18T18:12:24.616Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "np18 re-research: description REWRITE"
+    },
+    {
+      "at": "2026-10-18T18:12:24.743Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T03:58:40.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "rotated to reading orientation"
+    },
+    {
+      "at": "2026-10-19T03:59:04.076Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T06:56:59Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "redo after Hub rejection:  — Gemini API redraw (attempt 3, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-19T06:56:59.418Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T07:23:08.254Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T17:15:09.663Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-19T06:56:59.418Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T06:58:02.183Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T06:58:02.183Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/1a3d6d97d51fda6e725be1979998626df00d875d355ae944c9bba9a4309bff4d.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/05/11/tram8/f523a112384544898da139b36366e0a9.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Bắp rang bơ Thái Sơn Pop Corn Mix — bắp rang trộn nhiều vị (socola, hoa quả, phô mai) trong một ống nhựa trong.\n\nQuy cách: 90 g · ống\nNhà sản xuất/thương hiệu: Thái Sơn",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

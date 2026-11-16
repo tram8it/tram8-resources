@@ -1,0 +1,128 @@
+{
+  "kiotProductId": "64865747",
+  "code": "SP000280",
+  "barcode": "9556001216236",
+  "name": "Socola MILO CHOCOBAR 30G N",
+  "fullName": "Socola MILO CHOCOBAR 30G N (Thanh)",
+  "brand": "Milo",
+  "unit": "Thanh",
+  "category": {
+    "kiotCategoryId": "2549263",
+    "name": "Socola thanh",
+    "path": "Đồ ăn vặt > Chocolate > Socola thanh"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/a9c1994ad0f3213431f3ca09d4ebe4ce3d8b9cf974bec5a7f9ff03f9606195d9.webp",
+    "description": "Thanh sô cô la Nestlé MILO Choco Bar mang hương vị MILO quen thuộc.\n\nQuy cách: 30 g · thanh\nNhà sản xuất/thương hiệu: Nestlé · MILO",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I3/I5: ảnh cũ chụp nghiêng/nhăn/méo (chủ báo chưa đạt 16/10) → nắn phối cảnh ảnh hiện tại rồi Gemini vẽ lại packshot chính diện, thẳng đứng, nền trắng (v15); đã so chữ/logo với ảnh mẫu",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Google Gemini Pro (chủ yêu cầu)",
+      "generatedAt": "2026-10-16",
+      "reference": "ảnh KiotViet hiện tại, nắn phối cảnh"
+    },
+    "rubricVersion": "v16"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết ngắn từ chữ in trên bao bì (ảnh hiện tại) + tên SP, không có trang hãng",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:14:49.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "image CROP, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-15T02:53:13.415Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-15T09:16:17Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "tone.py --vivid: white balance/levels + brand-like colour (owner request)"
+    },
+    {
+      "at": "2026-10-15T09:18:12.266Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-15T18:09:39Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "owner flagged pending image; Gemini front-on redraw from perspective-corrected photo"
+    },
+    {
+      "at": "2026-10-15T18:09:54.138Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-16T01:38:49.852Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-15T18:09:54.138Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-16T01:37:37.383Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-16T01:37:37.383Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/a9c1994ad0f3213431f3ca09d4ebe4ce3d8b9cf974bec5a7f9ff03f9606195d9.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/27/tram8/2b4f865fd9744bd698e18701b2a4040d.png"
+        ]
+      },
+      "description": {
+        "to": "Thanh sô cô la Nestlé MILO Choco Bar mang hương vị MILO quen thuộc.\n\nQuy cách: 30 g · thanh\nNhà sản xuất/thương hiệu: Nestlé · MILO",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

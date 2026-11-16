@@ -1,0 +1,4 @@
+Kem sữa vị dâu tây, dạng ly.
+
+Quy cách: ly
+Bảo quản: Giữ đông ở −18 °C hoặc lạnh hơn.

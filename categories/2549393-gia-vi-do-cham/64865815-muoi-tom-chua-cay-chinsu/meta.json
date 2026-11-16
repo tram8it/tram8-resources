@@ -1,0 +1,135 @@
+{
+  "kiotProductId": "64865815",
+  "code": "8936221043439",
+  "barcode": "8936221043439",
+  "name": "Muối tôm chua cay chinsu",
+  "fullName": "Muối tôm chua cay chinsu (Lọ)",
+  "brand": "Chin-Su",
+  "unit": "Lọ",
+  "category": {
+    "kiotCategoryId": "2549393",
+    "name": "Gia vị - Đồ chấm",
+    "path": "Đồ khô - Mì Gói > Gia vị - Đồ chấm"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/142b90a2d79cac1751d05f10294e17a438026ca81ffaf12da57ca4a356645a7c.webp",
+    "description": "Muối tôm chua cay CHIN-SU, kết hợp muối hạt mịn với tôm sấy, vị chua cay mặn ngọt cân bằng. Dùng chấm trái cây chua, trái cây ngọt, thịt luộc hoặc hải sản.\n\nQuy cách: 120 g · hũ\nXuất xứ: Việt Nam · Nhà sản xuất/thương hiệu: Masan Consumer · CHIN-SU",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "ảnh tự chụp (mềm, nhăn/bóng lóa); không có ảnh hãng nguyên gói dùng được → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt ở chữ lớn và khối lượng",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet hiện có (ảnh tự chụp)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết từ trang Masan Consumer (120 g)",
+    "source": {
+      "url": "https://masanconsumer.com/nganh-hang/gia-vi/gia-vi-bot/muoi-tom-chua-cay-chin-su-2/",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:14:49.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "b26: image CROP, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-14T07:51:34.052Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-14T08:54:33Z",
+      "by": "owner",
+      "status": "READY",
+      "note": "Chủ thấy ảnh tối; chỉnh sáng bằng tools/tone.py, gửi lại"
+    },
+    {
+      "at": "2026-10-14T08:54:42.574Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-14T09:24:31.419Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-17T14:25:58Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T14:27:50.503Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T14:27:50.503Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T16:56:43.646Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T16:56:43.646Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/142b90a2d79cac1751d05f10294e17a438026ca81ffaf12da57ca4a356645a7c.webp"
+        ],
+        "from": [
+          "https://img.tram8.vn/products/512cfc555b82edb130e20a7d29d26f9675fe1da70b7d2c2ee3b92e4080526db5.webp"
+        ]
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

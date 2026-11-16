@@ -1,0 +1,145 @@
+{
+  "kiotProductId": "67225719",
+  "code": "4902705039971",
+  "barcode": "4902705039971",
+  "name": "Kem vani Hokkaido Meiji 10X43ML",
+  "fullName": "Kem vani Hokkaido Meiji 10X43ML (Que)",
+  "brand": "Meiji",
+  "unit": "Que",
+  "category": {
+    "kiotCategoryId": "2549567",
+    "name": "Kem que",
+    "path": "Kem & Đồ đông lạnh > Kem que"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/e09e8187fd13df6fb332c67172d8279ededba5b1492ff9e36767451dc4e0f221.webp",
+    "description": "Kem que vani Hokkaido Meiji (北海道アイス バニラ) – kem vani dùng sản phẩm sữa sản xuất tại Hokkaido, vị vani béo dịu.\n\nQuy cách: bán lẻ 1 que 43 ml (tách từ hộp 10 que) · loại lacto ice (ラクトアイス)\nXuất xứ: Nhật Bản (Made in Japan) · Nhà sản xuất: Meiji Co., Ltd.\nBảo quản: giữ đông lạnh.",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "Làm lại sau khi chủ từ chối trên Hub: Kem Meiji Hokkaido: cả hộp 10 que theo góp ý của chủ → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Chữ nhỏ mặt bên chỉ minh hoạ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-3.1-flash-image",
+      "generatedAt": "2026-10-18",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet + ảnh hãng (chỉ làm mẫu)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "chưa có mô tả; viết ngắn từ dữ kiện in trên bao bì/trang SP, ghi đơn vị bán lẻ theo KiotViet (v19)",
+    "source": {
+      "url": "https://www.meiji.co.jp/corporate/pressrelease/2025/03_27/index.html",
+      "fetchedAt": "2026-10-17T09:10:24Z"
+    },
+    "rubricVersion": "v19"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:22:18.000Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "ask owner: single stick vs 10-pack"
+    },
+    {
+      "at": "2026-10-17T09:10:03Z",
+      "by": "owner",
+      "status": "ASK_OWNER",
+      "note": "Chủ trả lời (17/10/2026, RUBRIC v19): tin đơn vị KiotViet 'Que': bán lẻ 1 que 43 ml; tên giữ '10X43ML' cho khớp HĐĐT."
+    },
+    {
+      "at": "2026-10-17T09:10:03Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T09:11:11.989Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "IN_PROGRESS",
+      "note": "rejected on Hub by AU KHUONG DUY: Cần cả hộp"
+    },
+    {
+      "at": "2026-10-18T01:30:10Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-3.1-flash-image), checked by eye against references"
+    },
+    {
+      "at": "2026-10-18T01:30:10+00:00",
+      "by": "ai",
+      "status": "READY",
+      "note": "redo after Hub rejection: Kem Meiji Hokkaido: cả hộp 10 que theo góp ý của chủ"
+    },
+    {
+      "at": "2026-10-18T01:30:10.641Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-18T17:16:08.691Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T03:19:05.400Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-18T01:30:10.641Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-18T17:10:57.082Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-18T17:10:57.082Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/e09e8187fd13df6fb332c67172d8279ededba5b1492ff9e36767451dc4e0f221.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/24/tram8/63c239c741884edea0c8d979a9552ed6.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Kem que vani Hokkaido Meiji (北海道アイス バニラ) – kem vani dùng sản phẩm sữa sản xuất tại Hokkaido, vị vani béo dịu.\n\nQuy cách: bán lẻ 1 que 43 ml (tách từ hộp 10 que) · loại lacto ice (ラクトアイス)\nXuất xứ: Nhật Bản (Made in Japan) · Nhà sản xuất: Meiji Co., Ltd.\nBảo quản: giữ đông lạnh.",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

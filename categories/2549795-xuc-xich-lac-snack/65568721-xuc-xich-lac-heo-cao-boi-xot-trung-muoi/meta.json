@@ -1,0 +1,113 @@
+{
+  "kiotProductId": "65568721",
+  "code": "8936034877733",
+  "barcode": "8936034877733",
+  "name": "Xúc xích lắc Heo Cao Bồi xốt trứng muối",
+  "fullName": "Xúc xích lắc Heo Cao Bồi xốt trứng muối (Ly)",
+  "brand": "Heo Cao Bồi",
+  "unit": "Ly",
+  "category": {
+    "kiotCategoryId": "2549795",
+    "name": "Xúc xích lắc & snack",
+    "path": "Xúc Xích & Thịt Nguội > Xúc xích lắc & snack"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/0ca2844e12b70dfba7951905ad0707f77899244f98754ef115e49d36b522dd65.webp",
+    "description": "Xúc xích Heo Cao Bồi dạng hũ, dòng xốt vị trứng muối: xúc xích ăn liền kèm gói xốt, cho xốt vào hũ, đậy nắp lắc đều rồi dùng. Món ăn vặt tiện mang theo.\n\nQuy cách: hũ\nNhà sản xuất/thương hiệu: Heo Cao Bồi",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I3, I4, I8: ảnh chụp điện thoại hai hũ, bị cắt, nền không trắng; Heo Cao Bồi (SNF) không có trang hãng truy cập được → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: ảnh cửa hàng bị cắt mất nắp: màu nắp tím hồng là AI đoán theo màu đầu hũ, cần chủ xem; dòng 'vị Trứng muối' và hình trứng muối bên trái là AI dựng theo ảnh mờ; chữ nhỏ cạnh hũ nhoè",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (hũ hồng đang bán, bị cắt nắp) + ảnh render hũ cùng dòng trên Kingfoodmart chỉ để lấy dáng hũ/bố cục",
+      "referenceUrl": "https://storage.googleapis.com/onelife-public/8936034877740.jpg"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; mô tả ngắn chỉ từ dữ kiện chắc chắn (tên KiotViet, chữ mặt trước hũ), không có nguồn hãng; tên không ghi khối lượng nên bỏ",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:57:41.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "image REPLACE (no official source) → NEEDS_PHOTO, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T07:46:52Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T07:55:29.899Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T08:06:02.482Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T07:55:29.899Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T08:03:07.869Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T08:03:07.869Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/0ca2844e12b70dfba7951905ad0707f77899244f98754ef115e49d36b522dd65.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/05/08/tram8/506f261783684491ab49a90f3021a97d.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Xúc xích Heo Cao Bồi dạng hũ, dòng xốt vị trứng muối: xúc xích ăn liền kèm gói xốt, cho xốt vào hũ, đậy nắp lắc đều rồi dùng. Món ăn vặt tiện mang theo.\n\nQuy cách: hũ\nNhà sản xuất/thương hiệu: Heo Cao Bồi",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

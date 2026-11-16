@@ -1,0 +1,124 @@
+{
+  "kiotProductId": "64865730",
+  "code": "4902888210617",
+  "barcode": "4902888210617",
+  "name": "Kẹo Mềm Morinnaga - Hi Chew Hương Đào 57g",
+  "fullName": "Kẹo Mềm Morinnaga - Hi Chew Hương Đào 57g (Thanh)",
+  "brand": "Hi-Chew",
+  "unit": "Thanh",
+  "category": {
+    "kiotCategoryId": "2549275",
+    "name": "Kẹo mềm / caramen",
+    "path": "Các loại kẹo > Kẹo mềm / caramen"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/c7889fc9682edac632ccaa690da5aa379ffa04b65e98462d32f09209072828fe.webp",
+    "description": "Kẹo mềm Hi-Chew vị đào của Morinaga, làm với nước ép và mứt trái cây (Made with Real Fruit Juice & Jam), sản xuất tại Nhật Bản.\n\nQuy cách: 57 g · thỏi\nXuất xứ: Nhật Bản · Nhà sản xuất/thương hiệu: Morinaga · Hi-Chew",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "Chủ 19/10: ảnh crop KiotViet mờ/nhăn, không đạt chuẩn như SP cùng dòng đã duyệt → Gemini vẽ lại theo phong cách SP cùng dòng (v14/v15/v17) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt chữ lớn (MORINAGA, HI-CHEW, NET WT. 57g, Made with Real Fruit Juice & Jam); vẽ dạng thanh gói hai đầu răng cưa như Hi-Chew dâu đã duyệt",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-19",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet của SP (mẫu chữ/màu) + ảnh Hi-Chew dâu đã duyệt (mẫu phong cách)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết từ chữ in mặt trước thỏi kẹo",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:07:05.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "b18 review (rubric v4): image CROP, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-15T09:16:17Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "tone.py --vivid: white balance/levels + brand-like colour (owner request)"
+    },
+    {
+      "at": "2026-10-18T17:50:41.176Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T02:24:26Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-19T02:24:59.545Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T02:44:56.965Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T03:19:05.400Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-19T02:24:59.545Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T02:30:50.087Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T02:30:50.087Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/c7889fc9682edac632ccaa690da5aa379ffa04b65e98462d32f09209072828fe.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/30/tram8/4a8c584a6112457f8d252e2d72a98083.png"
+        ]
+      },
+      "description": {
+        "to": "Kẹo mềm Hi-Chew vị đào của Morinaga, làm với nước ép và mứt trái cây (Made with Real Fruit Juice & Jam), sản xuất tại Nhật Bản.\n\nQuy cách: 57 g · thỏi\nXuất xứ: Nhật Bản · Nhà sản xuất/thương hiệu: Morinaga · Hi-Chew",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

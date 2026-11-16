@@ -1,0 +1,99 @@
+{
+  "kiotProductId": "65593727",
+  "code": "SP877355",
+  "barcode": null,
+  "name": "Jager Bombbb - Rockstar",
+  "fullName": "Jager Bombbb - Rockstar (Phần)",
+  "brand": null,
+  "unit": "Phần",
+  "category": {
+    "kiotCategoryId": "2515523",
+    "name": "Combo và ưu đãi",
+    "path": "Combo và ưu đãi"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://cdn2-retail-images.kiotviet.vn/2026/05/09/tram8/41f41ab9acc6457b9cef7d65fde3b8da.png",
+    "description": null,
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "READY",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I3/I4: ảnh chụp điện thoại combo trên bàn, nền tường → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: vẽ lại trên nền trắng; chữ nhỏ trên nhãn chai Jägermeister không đọc được",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-18",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet của combo (chụp điện thoại)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết ngắn từ tên combo và ảnh hiện tại (thấy rõ thành phần), không ghi dung tích vì không đọc được; có dòng 18+",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:26:02.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "b30: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-18T18:07:04Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-18T18:08:07.915Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T02:05:27.524Z",
+      "by": "owner",
+      "status": "READY",
+      "note": "apply failed on Hub: KiotViet /products/65593727 returned HTTP 420: {\"responseStatus\":{\"errorCode\":\"KvValidateProductException\",\"message\":\"Hàng hóa SP877355 không thể cập nhật do API chưa hỗ trợ loại hàng hóa này\",\"errors\":[]}}"
+    },
+    {
+      "at": "2026-10-30T08:23:17.486Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-31T12:30:47.901Z",
+      "by": "owner",
+      "status": "READY",
+      "note": "apply failed on Hub: KiotViet /products/65593727 returned HTTP 420: {\"responseStatus\":{\"errorCode\":\"KvValidateProductException\",\"message\":\"Hàng hóa SP877355 không thể cập nhật do API chưa hỗ trợ loại hàng hóa này\",\"errors\":[]}}"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-30T08:23:17.486Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "FAILED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-30T08:38:55.457Z",
+    "note": "KiotViet /products/65593727 returned HTTP 420: {\"responseStatus\":{\"errorCode\":\"KvValidateProductException\",\"message\":\"Hàng hóa SP877355 không thể cập nhật do API chưa hỗ trợ loại hàng hóa này\",\"errors\":[]}}"
+  }
+}

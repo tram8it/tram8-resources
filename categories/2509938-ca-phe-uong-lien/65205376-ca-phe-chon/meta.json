@@ -1,0 +1,112 @@
+{
+  "kiotProductId": "65205376",
+  "code": "8936236300053",
+  "barcode": "8936236300053",
+  "name": "Cà Phê Chồn",
+  "fullName": "Cà Phê Chồn (Hộp)",
+  "brand": null,
+  "unit": "Hộp",
+  "category": {
+    "kiotCategoryId": "2509938",
+    "name": "Cà phê uống liền",
+    "path": "Đồ uống đóng chai > Cà phê uống liền"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/766a20cb37303f36ace54449302e9a7bfaee6a9f15cad3f2d5ab91ce5cc84409.webp",
+    "description": "Hộp cà phê chồn Việt Nam, bao bì minh hoạ cao nguyên Đà Lạt, hợp làm quà tặng. Trên hộp ghi đạt chứng nhận ISO 22000.\n\nQuy cách: 200 g (10 gói) · hộp\nXuất xứ: Việt Nam",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "CROP",
+    "reason": "I9: packshot nền trắng nhưng không 1:1; crop về 1:1",
+    "source": null,
+    "rubricVersion": "v4",
+    "vivid": {
+      "rubricVersion": "v10",
+      "saturationGain": 1.25,
+      "contrastGain": 1.08,
+      "toneGain": 1.047,
+      "gamma": 1
+    }
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết ngắn từ chữ in mặt trước hộp (Cà phê chồn, 10 gói 200 g), không có nguồn hãng",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:42:31.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "image CROP, description WRITE_NEW (front-of-pack facts)"
+    },
+    {
+      "at": "2026-10-15T09:16:17Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "tone.py --vivid: white balance/levels + brand-like colour (owner request)"
+    },
+    {
+      "at": "2026-10-18T17:48:03.977Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T02:05:27.524Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T03:19:05.400Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-18T17:48:03.977Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T00:15:07.739Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T00:15:07.739Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/766a20cb37303f36ace54449302e9a7bfaee6a9f15cad3f2d5ab91ce5cc84409.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/30/tram8/3f8f3d58950c49d0bfe1f605a67cbae0.png"
+        ]
+      },
+      "description": {
+        "to": "Hộp cà phê chồn Việt Nam, bao bì minh hoạ cao nguyên Đà Lạt, hợp làm quà tặng. Trên hộp ghi đạt chứng nhận ISO 22000.\n\nQuy cách: 200 g (10 gói) · hộp\nXuất xứ: Việt Nam",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

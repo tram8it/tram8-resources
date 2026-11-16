@@ -1,0 +1,115 @@
+{
+  "kiotProductId": "68645541",
+  "code": "8801062332250",
+  "barcode": "8801062332250",
+  "name": "Kẹo LOTTE Anytime Hương Chanh Bạc Hà 60g",
+  "fullName": "Kẹo LOTTE Anytime Hương Chanh Bạc Hà 60g (Gói)",
+  "brand": "Lotte",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2549273",
+    "name": "Kẹo cứng",
+    "path": "Các loại kẹo > Kẹo cứng"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/3857821664e46c782f7d316acf53f1fe6d555db8b2bbf2f5677cb218deaafc20.webp",
+    "description": "Kẹo Lotte Anytime xylitol không đường vị chanh bạc hà (Lemon Mint). Hàng nhập khẩu, nhãn chính tiếng Hàn.\n\nQuy cách: 60 g · gói\nThương hiệu: Lotte",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "SP mới 28/10: ảnh KiotViet là ảnh chụp tay (nền lộn xộn, nhăn, chéo) → vẽ lại gói phẳng chính diện nền trắng theo đúng ảnh chụp → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: gói làm phẳng, ánh sáng đều; bỏ dấu ngày NSX/HSD đóng tay; chữ nhỏ có thể mờ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-28",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh nhân viên chụp SP thật (KiotViet 28/10)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "SP mới chưa có mô tả → viết theo chữ in trên bao bì (ảnh chụp) + tên hàng; không thêm dữ kiện ngoài bao bì",
+    "source": {
+      "staffPhoto": true,
+      "takenAt": "2026-10-28"
+    },
+    "rubricVersion": "v18"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-28T12:19:24.077Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-28T12:26:02Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-28T12:25:59+00:00",
+      "by": "ai",
+      "status": "READY",
+      "note": "mô tả mới theo bao bì"
+    },
+    {
+      "at": "2026-10-28T12:26:57.722Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-30T07:46:51.387Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-30T07:47:19.672Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-28T12:26:57.722Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-28T12:39:58.143Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-28T12:39:58.143Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/3857821664e46c782f7d316acf53f1fe6d555db8b2bbf2f5677cb218deaafc20.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/10/28/tram8/a250a20d9c9a42ccac5c8ff2378aa662.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Kẹo Lotte Anytime xylitol không đường vị chanh bạc hà (Lemon Mint). Hàng nhập khẩu, nhãn chính tiếng Hàn.\n\nQuy cách: 60 g · gói\nThương hiệu: Lotte",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

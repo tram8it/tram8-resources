@@ -1,0 +1,170 @@
+{
+  "kiotProductId": "67729986",
+  "code": "8802259024538",
+  "barcode": "8802259024538",
+  "name": "Kem Lotte Tico Choco Crispy Vanilla Ice Cream (Green Tea) Kem Viên Kim Cương Lotte Socola Trà Xanh",
+  "fullName": "Kem Lotte Tico Choco Crispy Vanilla Ice Cream (Green Tea) Kem Viên Kim Cương Lotte Socola Trà Xanh (Cái)",
+  "brand": "Lotte",
+  "unit": "Cái",
+  "category": {
+    "kiotCategoryId": "2549575",
+    "name": "Kem viên / kim cương",
+    "path": "Kem & Đồ đông lạnh > Kem viên / kim cương"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/415e430d8ed247ffcfeff1e2506c74123ac67b634964650529354edb34404a40.webp",
+    "description": "Kem Tico Matcha (티코 말차) của Lotte Hàn Quốc – viên kem trà xanh nhỏ phủ sô cô la sữa, ăn gọn một miếng.\n\nQuy cách: bán lẻ 1 viên (hộp 15 viên × 30 ml gói riêng)\nXuất xứ: Hàn Quốc · Nhà sản xuất: Lotte Wellfood\nBảo quản: đông lạnh.",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "chủ 21/10: ảnh cần cho thấy quy cách đóng gói → ảnh ghép gói lẻ (đơn vị bán: Cái) + viên kem cắt đôi + hộp 15 viên phía sau; Hub chỉ nhận 1 ảnh/SP → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: gói lẻ và hộp theo ảnh chủ chụp; câu chữ trên gói lẻ thay đổi theo từng gói",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-21",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh chủ chụp 21/10: hộp Tico matcha 15 viên + gói lẻ"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: mô tả từ thông tin Tico Matcha (Kurly: hộp 15 × 30 ml, kem trà xanh phủ sô cô la sữa), mẫu theo SP cùng dòng",
+    "source": null,
+    "rubricVersion": "v20"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-14T00:44:23.000Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "batch f1: ASK_OWNER: flavour and unit unclear"
+    },
+    {
+      "at": "2026-10-17T09:10:38Z",
+      "by": "owner",
+      "status": "ASK_OWNER",
+      "note": "Chủ trả lời (17/10/2026, RUBRIC v19): tin đơn vị KiotViet 'Cái' — bán lẻ 1 viên."
+    },
+    {
+      "at": "2026-10-17T09:10:38Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "v19: đã rõ bán 1 viên, nhưng tên vừa ghi 'Vanilla' vừa 'Green Tea/Trà xanh', không tra được mã vạch → cần kiểm kệ, không đoán"
+    },
+    {
+      "at": "2026-10-17T14:02:17Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T14:02:17Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "resolved without asking: name says Green Tea twice ('(Green Tea)', 'Socola Trà Xanh'); the vanilla/milk-choco Tico is a separate SKU (67729996, other barcode) → this SKU is Tico Matcha (green tea ice cream, milk-choco coating, Kurly); unit Cái = 1 bead (v19); illustrative render like sibling"
+    },
+    {
+      "at": "2026-10-17T14:02:17.388Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "IN_PROGRESS",
+      "note": "rejected on Hub by AU KHUONG DUY: Đợi chụp ảnh vỏ, phải có cả sp kèm vỏ."
+    },
+    {
+      "at": "2026-10-17T17:48:03+00:00",
+      "by": "owner",
+      "status": "NEEDS_PHOTO",
+      "note": "Hub: Đợi chụp ảnh vỏ, phải có cả sp kèm vỏ."
+    },
+    {
+      "at": "2026-10-19T07:35:23Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "np19 re-research 19/10 (image search): still no image of this exact product → NEEDS_PHOTO"
+    },
+    {
+      "at": "2026-10-20T16:48:00Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "illustration 20/10: route 2: theo ảnh Tico sô cô la sữa cùng dòng đã duyệt, đổi nhân thành kem trà xanh"
+    },
+    {
+      "at": "2026-10-20T16:48:17.500Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-21T02:34:19Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "redo after Hub rejection: Đợi chụp ảnh vỏ, phải có cả sp kèm vỏ. — Gemini API redraw (attempt 3, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-21T02:34:19.713Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-21T08:30:34.700Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-26T04:58:33.990Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-21T02:34:19.713Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-21T02:36:42.624Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-21T02:36:42.624Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/415e430d8ed247ffcfeff1e2506c74123ac67b634964650529354edb34404a40.webp"
+        ],
+        "from": null
+      },
+      "description": {
+        "to": "Kem Tico Matcha (티코 말차) của Lotte Hàn Quốc – viên kem trà xanh nhỏ phủ sô cô la sữa, ăn gọn một miếng.\n\nQuy cách: bán lẻ 1 viên (hộp 15 viên × 30 ml gói riêng)\nXuất xứ: Hàn Quốc · Nhà sản xuất: Lotte Wellfood\nBảo quản: đông lạnh.",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

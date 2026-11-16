@@ -1,0 +1,193 @@
+{
+  "kiotProductId": "66113775",
+  "code": "8936236640067",
+  "barcode": "8936236640067",
+  "name": "Bia Camel đỏ 330ml",
+  "fullName": "Bia Camel đỏ 330ml - 4.9% (Lon)",
+  "brand": "Camel",
+  "unit": "Lon",
+  "category": {
+    "kiotCategoryId": "2549752",
+    "name": "Lager Phổ Thông",
+    "path": "Đồ uống có cồn (18+) > Bia > Lager Phổ Thông"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/7e910d39e6c26a22ad8a705066286cf7e8688f12eecfef7417bd579bc231d7eb.webp",
+    "description": "Bia Camel Premium, lon thấp màu đỏ 330 ml, độ cồn 4,9%.\n\nQuy cách: 330 ml · lon\nNhà sản xuất/thương hiệu: Camel\nSản phẩm dành cho người từ 18 tuổi trở lên.",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "chủ 21/10: ảnh các lon bia không đồng bộ → vẽ lại chính diện, ánh sáng đều, cùng cỡ trong khung như các lon khác → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: giữ thiết kế/chữ của lon; chỉ đổi góc, ánh sáng, độ nét; chữ nhỏ có thể mờ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-21",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh hiện tại của SP (KiotViet/đã duyệt) + lon cùng dòng 68505054 làm mẫu phong cách"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "REWRITE",
+    "reason": "D2/D3: mô tả cũ do chatbot sinh (HTML), có dữ kiện chưa kiểm chứng; dùng chung mô tả ngắn của SP 65960710 (cùng lon, chữ in trên lon)",
+    "source": null,
+    "rubricVersion": "v20"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:40:09.000Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "asked owner: duplicate name/photo, different barcode"
+    },
+    {
+      "at": "2026-10-17T14:00:59.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "resolved without asking: ảnh KiotViet của mã 8936236640067 giống hệt từng điểm ảnh với 65960710 (lon thấp Camel Premium đỏ 330 ml, 4,9%) → cùng SP; cặp mã ở reports/ma-trung-de-tat.md (chủ kiểm lon trên kệ trước khi tắt)"
+    },
+    {
+      "at": "2026-10-17T14:05:35.235Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-21T12:40:59Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-21T12:40:59.816Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-26T02:38:48.902Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-26T04:58:33.990Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-21T12:40:59.816Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-21T12:46:53.655Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-21T12:46:53.655Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/7e910d39e6c26a22ad8a705066286cf7e8688f12eecfef7417bd579bc231d7eb.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/09/12/tram8/4b6488b3c1254abc87a3cdf991065be3.png"
+        ]
+      }
+    },
+    "unexpectedChanges": {
+      "price": {
+        "to": 16666.67,
+        "from": 16363.64
+      },
+      "saleTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 66113775
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 66113775
+        }
+      },
+      "taxRate": {
+        "to": "VAT 8%",
+        "from": "VAT 10%"
+      },
+      "productTaxs": {
+        "to": [
+          {
+            "id": 0,
+            "name": "VAT 8%",
+            "taxId": 3,
+            "value": 8,
+            "productId": 66113775
+          }
+        ],
+        "from": [
+          {
+            "id": 0,
+            "name": "VAT 10%",
+            "taxId": 4,
+            "value": 10,
+            "productId": 66113775
+          }
+        ]
+      },
+      "purchaseTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 66113775
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 66113775
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "kiotProductId": "65192677",
+  "code": "8934680016254",
+  "barcode": "8934680016254",
+  "name": "SLIDE KHOAI TAY LAT SO DIEP BAO NGU 60GR",
+  "fullName": "SLIDE KHOAI TAY LAT SO DIEP BAO NGU 60GR (Ống)",
+  "brand": "Slide",
+  "unit": "Ống",
+  "category": {
+    "kiotCategoryId": "2549008",
+    "name": "Snack khoai tây",
+    "path": "Đồ ăn vặt > Snacks > Snack khoai tây"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/b25dc38293493adc53a776237acb819a95f6bf3bab0b4222a6adcd42e4c2c6ff.webp",
+    "description": "Bánh lát khoai tây Slide vị pizza sò điệp và bào ngư (Scallop & Abalone Pizza), các lát khoai xếp trong lon có nắp đậy.\n\nQuy cách: 60 g · lon\nThương hiệu: Slide",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I3/I4: ảnh hiện có không đạt, không có ảnh hãng/NPP → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: line consistency 20/10: can redrawn with the short wide 60g Slide can proportions of the line; print unchanged",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-20",
+      "style": "flat clean packaging render (v17)",
+      "reference": "own current image.webp (content) + sibling 66479098 image.webp (line style, reference only)"
+    },
+    "rubricVersion": "v23"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; mã vạch 8934680016254 = Slide vị pizza sò điệp & bào ngư 60 g (in trên lon)",
+    "source": null,
+    "rubricVersion": "v12"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:20:32.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "batch b01: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-15T14:08:33Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "image redrawn with Gemini from reference (v12)"
+    },
+    {
+      "at": "2026-10-15T14:09:25.639Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-16T01:38:49.852Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-20T16:43:50Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-20T16:44:35Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "line consistency 20/10: can proportions matched to Slide 60g line (Gemini redraw)"
+    },
+    {
+      "at": "2026-10-20T16:44:46.961Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-21T08:30:34.700Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-26T04:58:33.990Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-20T16:44:46.961Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-20T16:50:03.326Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-20T16:50:03.326Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/b25dc38293493adc53a776237acb819a95f6bf3bab0b4222a6adcd42e4c2c6ff.webp"
+        ],
+        "from": [
+          "https://img.tram8.vn/products/f402c0fcd962af6e85cb8b6d9834c7d94e58776c4c7eacc2c3d20a5a616ae56b.webp"
+        ]
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

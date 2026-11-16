@@ -1,0 +1,189 @@
+{
+  "kiotProductId": "65894532",
+  "code": "8801121032435",
+  "barcode": "8801121032435",
+  "name": "THỨC UỐNG SÔCÔLA HERSHEY'S 235ML*24",
+  "fullName": "THỨC UỐNG SÔCÔLA HERSHEY'S 235ML*24 (Hộp)",
+  "brand": "Hershey's",
+  "unit": "Hộp",
+  "category": {
+    "kiotCategoryId": "2549384",
+    "name": "Thức uống bổ sung dinh dưỡng",
+    "path": "Đồ uống đóng chai > Thức uống bổ sung dinh dưỡng"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/6f60bb46520322d6f8f9443550b22097d6a254dc849ad0a753c62c3659123da0.webp",
+    "description": "Thức uống sô-cô-la Hershey's Protein, hộp giấy 235 ml. Trên hộp in \"Classic HERSHEY'S Taste, Packed with Protein\" và huy hiệu \"Protein 8g\".<br><br>Quy cách: 235 ml · hộp<br>Thương hiệu: Hershey's",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I6/I9: ảnh KiotViet đúng SP (Open Food Facts xác nhận mã 8801121032435 là Hershey's Chocolate Drink with Protein) nhưng quá nhỏ, chưa 1:1 → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt; chữ nhỏ trên Nutri-Grade đã sửa về '8% sugar' như ảnh KiotViet",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (hộp Hershey's Protein 235 ml) + ảnh Open Food Facts cùng mã vạch (chỉ làm mẫu)",
+      "referenceUrl": "https://world.openfoodfacts.org/product/8801121032435"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết từ chữ in trên hộp (ảnh KiotViet, Open Food Facts cùng mã vạch); bán theo hộp lẻ (đơn vị KiotViet), tên \"*24\" là quy cách thùng",
+    "source": {
+      "url": "https://world.openfoodfacts.org/product/8801121032435",
+      "fetchedAt": "2026-10-17"
+    },
+    "rubricVersion": "v19"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:39:43.000Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "image ASK_OWNER, description ASK_OWNER"
+    },
+    {
+      "at": "2026-10-17T13:59:52Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T14:02:05Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "resolved without asking: barcode 8801121032435 = Hershey's Chocolate Drink with Protein (Open Food Facts), same as the KiotViet photo; unit Hộp = 1 carton"
+    },
+    {
+      "at": "2026-10-17T14:02:11.783Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-11-02T09:01:21.866Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T14:02:11.783Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T14:10:50.728Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T14:10:50.728Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/6f60bb46520322d6f8f9443550b22097d6a254dc849ad0a753c62c3659123da0.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/29/tram8/ba774327b3cb445dba167333169a1c96.png"
+        ]
+      },
+      "description": {
+        "to": "Thức uống sô-cô-la Hershey's Protein, hộp giấy 235 ml. Trên hộp in \"Classic HERSHEY'S Taste, Packed with Protein\" và huy hiệu \"Protein 8g\".\n\nQuy cách: 235 ml · hộp\nThương hiệu: Hershey's",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {
+      "price": {
+        "to": 30555.56,
+        "from": 30000
+      },
+      "saleTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 65894532
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 65894532
+        }
+      },
+      "taxRate": {
+        "to": "VAT 8%",
+        "from": "VAT 10%"
+      },
+      "productTaxs": {
+        "to": [
+          {
+            "id": 0,
+            "name": "VAT 8%",
+            "taxId": 3,
+            "value": 8,
+            "productId": 65894532
+          }
+        ],
+        "from": [
+          {
+            "id": 0,
+            "name": "VAT 10%",
+            "taxId": 4,
+            "value": 10,
+            "productId": 65894532
+          }
+        ]
+      },
+      "purchaseTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 65894532
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 65894532
+        }
+      }
+    }
+  }
+}

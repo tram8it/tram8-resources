@@ -1,0 +1,114 @@
+{
+  "kiotProductId": "65831377",
+  "code": "8936204410036",
+  "barcode": "8936204410036",
+  "name": "Bánh tráng phô mai cay 40g (Gói)",
+  "fullName": "Bánh tráng phô mai cay 40g (Gói) (Gói)",
+  "brand": "Ohayo",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2546102",
+    "name": "Bánh tráng trộn",
+    "path": "Đồ ăn vặt > Bánh tráng trộn"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/b9dba73c774474cd630a443b754fde6249997c1c9af59101ee4f43e213fd3430.webp",
+    "description": "Bánh tráng phô mai cay thương hiệu Ohayo, món ăn vặt đóng gói ăn liền. Vị phô mai kết hợp vị cay.\n\nQuy cách: 40 g · gói\nThương hiệu: Ohayo",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "CROP",
+    "reason": "I9: packshot nền trắng, đúng SP, chỉ chưa 1:1 → crop (phóng ~2x, xem lại đạt)",
+    "source": null,
+    "rubricVersion": "v4",
+    "vivid": {
+      "rubricVersion": "v10",
+      "saturationGain": 1.003,
+      "contrastGain": 1.001,
+      "toneGain": 1.09,
+      "gamma": 0.911
+    }
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết ngắn chỉ từ dữ kiện chắc chắn (tên SP, chữ in mặt trước bao bì), không có trang hãng/nhãn sau; khối lượng theo tên SP",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:32:10.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "batch b09 review: image CROP, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-15T02:50:29.267Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-15T09:16:17Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "tone.py --vivid: white balance/levels + brand-like colour (owner request)"
+    },
+    {
+      "at": "2026-10-15T09:16:54.569Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-16T01:38:49.852Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-15T09:16:54.569Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-15T09:27:59.736Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-15T09:27:59.736Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/b9dba73c774474cd630a443b754fde6249997c1c9af59101ee4f43e213fd3430.webp"
+        ],
+        "from": [
+          "https://img.tram8.vn/products/d306d4ec3ace8fbd2e3888f207e68ccb232d34d36d5a909f86c675944a63c607.webp"
+        ]
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "kiotProductId": "67935777",
+  "code": "SP878138",
+  "barcode": "6975698700553",
+  "name": "Bánh Gạo Sữa Belik Vị Chuối",
+  "fullName": "Bánh Gạo Sữa Belik Vị Chuối (Gói)",
+  "brand": "Hàng nội địa Trung",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2549303",
+    "name": "Bánh gạo / cơm cháy / bánh ngọt",
+    "path": "Đồ ăn vặt > Đồ nội địa Trung > Bánh gạo / cơm cháy / bánh ngọt"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/4c023632725062bcbe19e4699273d5cb62a2c368e1026c89ced1c5353459c092.webp",
+    "description": "Bánh gạo sữa Belik vị chuối, món ăn vặt nhập từ Trung Quốc.\n\nXuất xứ: Trung Quốc · Thương hiệu: Belik",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "v13–v15 (chủ 19/10): ảnh nhân viên chụp đã tách nền vẫn kém ảnh các SP cùng dòng đã duyệt (nhăn/loá/nghiêng) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: túi vẽ phẳng; chữ nhỏ không đọc được",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-19",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh nhân viên chụp 18/10 (chỉ làm mẫu) + ảnh đã duyệt 68470139 (same shop category, chỉ làm mẫu phong cách)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; không có nguồn → viết ngắn chỉ từ tên SP; xuất xứ theo mã vạch 69x (Trung Quốc) và danh mục 'Đồ nội địa Trung'",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:21:09.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "image REPLACE → NEEDS_PHOTO, description WRITE_NEW (name only)"
+    },
+    {
+      "at": "2026-10-17T08:25:59Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "retried 17/10: no usable reference, stays NEEDS_PHOTO"
+    },
+    {
+      "at": "2026-10-18T17:56:03Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "staff photo 2026-10-18 (Zalo); cutout + tone --vivid"
+    },
+    {
+      "at": "2026-10-18T17:56:50.123Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T02:17:00Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-19T02:18:34.680Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T02:44:56.965Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T03:19:05.400Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-19T02:18:34.680Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T02:30:17.491Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T02:30:17.491Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/4c023632725062bcbe19e4699273d5cb62a2c368e1026c89ced1c5353459c092.webp"
+        ],
+        "from": null
+      },
+      "description": {
+        "to": "Bánh gạo sữa Belik vị chuối, món ăn vặt nhập từ Trung Quốc.\n\nXuất xứ: Trung Quốc · Thương hiệu: Belik",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

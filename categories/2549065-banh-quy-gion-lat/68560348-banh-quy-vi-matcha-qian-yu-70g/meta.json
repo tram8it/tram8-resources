@@ -1,0 +1,107 @@
+{
+  "kiotProductId": "68560348",
+  "code": "6952767607470",
+  "barcode": "6952767607470",
+  "name": "Bánh Quy Vị MatCha QIAN YU 70G",
+  "fullName": "Bánh Quy Vị MatCha QIAN YU 70G (Cái)",
+  "brand": "Qian Yu",
+  "unit": "Cái",
+  "category": {
+    "kiotCategoryId": "2549065",
+    "name": "Bánh quy giòn / lạt",
+    "path": "Bánh quy & bánh đóng gói > Bánh quy giòn / lạt"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/0a134cbff5c8c6a90fc05f0f32a971eb85bb76706b25f379fbd1791a40651a2b.webp",
+    "description": "Bánh quy kẹp kem vị matcha QIANYU (仟语 Sandwich Cookie Matcha Flavor) của Cengreat (盛歡), bánh quy kẹp lớp kem trà xanh.\n\nQuy cách: 70 g · gói\nNhà sản xuất/thương hiệu: Cengreat (盛歡)",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I3/I8: ảnh chụp nhiều gói chồng nhau trên kệ; không tìm được ảnh hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt đáng kể",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-21",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (ảnh nhân viên chụp 21/10, chỉ làm mẫu) + ảnh gói vị sữa cùng dòng"
+    },
+    "rubricVersion": "v23"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; không có trang hãng — mô tả ngắn chỉ từ tên SP và chữ in mặt trước bao bì (ảnh KiotViet); không ghi khối lượng khi gói không đọc được",
+    "source": null,
+    "rubricVersion": "v23"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-21T08:30:34.700Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-21T08:42:44Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references; description WRITE_NEW from pack front"
+    },
+    {
+      "at": "2026-10-21T08:43:17.922Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-26T02:38:48.902Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-26T04:58:33.990Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-21T08:43:17.922Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-21T08:49:19.374Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-21T08:49:19.374Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/0a134cbff5c8c6a90fc05f0f32a971eb85bb76706b25f379fbd1791a40651a2b.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/10/21/tram8/0dd613bb091441c98a9bbd86e1d36c71.jpeg",
+          "https://cdn2-retail-images.kiotviet.vn/2026/10/21/tram8/c77647f6cd05430488a735ad585a893a.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Bánh quy kẹp kem vị matcha QIANYU (仟语 Sandwich Cookie Matcha Flavor) của Cengreat (盛歡), bánh quy kẹp lớp kem trà xanh.\n\nQuy cách: 70 g · gói\nNhà sản xuất/thương hiệu: Cengreat (盛歡)",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

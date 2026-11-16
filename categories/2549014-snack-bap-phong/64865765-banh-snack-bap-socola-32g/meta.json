@@ -1,0 +1,138 @@
+{
+  "kiotProductId": "64865765",
+  "code": "8934803071344",
+  "barcode": "8934803071344",
+  "name": "Bánh snack bắp socola 32g",
+  "fullName": "Bánh snack bắp socola 32g (Gói)",
+  "brand": "Oishi",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2549014",
+    "name": "Snack bắp & phồng",
+    "path": "Đồ ăn vặt > Snacks > Snack bắp & phồng"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/4fbd041fd6f167456461b58c83c7ade5df0c241cb1a77a264cae60db778c6ade.webp",
+    "description": "Snack bắp vị sô-cô-la Oishi làm từ nguyên liệu bắp, được nướng chứ không chiên, vị bắp kết hợp sô-cô-la ngọt, hợp với trẻ nhỏ và bữa xế.\n\nQuy cách: 32 g · gói\nNhà sản xuất/thương hiệu: Oishi",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I3: chủ muốn ảnh render phẳng, sạch hơn (16/10) → Gemini vẽ lại kiểu bao bì in phẳng, chính diện, nền trắng; đã so chữ/logo với mẫu (v15); dùng chung thiết kế gói 68g, gắn nhãn 32g (RUBRIC v16)",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Google Gemini Pro",
+      "generatedAt": "2026-10-16",
+      "style": "flat clean packaging render (owner request)",
+      "referenceUrl": "https://www.lottemart.vn/media/catalog/product/cache/0x0/8/9/8934803070347-1.jpg.webp"
+    },
+    "rubricVersion": "v16"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết từ trang hãng Oishi (tên vị, mô tả dòng) và chữ in mặt trước bao bì; khối lượng theo tên hàng",
+    "source": {
+      "url": "https://oishi.com.vn/category/Snack",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:23:35.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "image CROP, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-14T07:59:16Z",
+      "by": "ai",
+      "status": "IN_PROGRESS",
+      "note": "Giữ lại: image.webp trùng hệt ảnh của SP 64865557 (mã vạch khác) — kiểm lại vị/quy cách bằng mắt trước khi gửi"
+    },
+    {
+      "at": "2026-10-15T09:16:17Z",
+      "by": "ai",
+      "status": "IN_PROGRESS",
+      "note": "tone.py --vivid: white balance/levels + brand-like colour (owner request)"
+    },
+    {
+      "at": "2026-10-15T17:17:34.611Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "size tag \"32g\" added (RUBRIC v16): same pack as 64865557, different weight — checked by eye"
+    },
+    {
+      "at": "2026-10-15T17:18:08.057Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-16T02:18:39Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "owner: wants flatter, cleaner renders; redrawn"
+    },
+    {
+      "at": "2026-10-16T02:18:41.866Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-16T03:12:33.562Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-16T02:18:41.866Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-16T02:31:36.121Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-16T02:31:36.121Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/4fbd041fd6f167456461b58c83c7ade5df0c241cb1a77a264cae60db778c6ade.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/30/tram8/e73323d83a9147289630a76ee10f6e13.png"
+        ]
+      },
+      "description": {
+        "to": "Snack bắp vị sô-cô-la Oishi làm từ nguyên liệu bắp, được nướng chứ không chiên, vị bắp kết hợp sô-cô-la ngọt, hợp với trẻ nhỏ và bữa xế.\n\nQuy cách: 32 g · gói\nNhà sản xuất/thương hiệu: Oishi",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

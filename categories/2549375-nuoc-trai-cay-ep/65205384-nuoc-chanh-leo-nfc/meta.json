@@ -1,0 +1,113 @@
+{
+  "kiotProductId": "65205384",
+  "code": "6971897662005",
+  "barcode": "6971897662005",
+  "name": "Nước chanh LEO NFC",
+  "fullName": "Nước chanh LEO NFC (Ly)",
+  "brand": "NFC",
+  "unit": "Ly",
+  "category": {
+    "kiotCategoryId": "2549375",
+    "name": "Nước trái cây / ép",
+    "path": "Đồ uống đóng chai > Nước trái cây / ép"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/9d93b8cc0c34f29de579d5f903d25ab367787f430d6dc0750894f798ea0cfe7e.webp",
+    "description": "Nước ép trái cây NFC vị chanh leo (Passion Fruit) đựng trong cốc nhựa có nắp, uống lạnh ngon hơn.\n\nQuy cách: cốc\nThương hiệu: NFC",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I3/I4/I5: ảnh chụp cận cốc, nền cửa hàng, bị cắt khung; không có ảnh hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: phần nắp và đáy cốc vẽ theo dáng SP cùng dòng (ảnh thật bị cắt); màu nắp tím hồng có thể nhạt/đậm hơn thật; chữ nhỏ tiếng Trung chỉ đọc được '净含量:620ml'",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (chụp cận cốc) + ảnh SP cùng dòng NFC vị dâu (chỉ lấy dáng cốc)",
+      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/04/26/tram8/2da4f753cd46403ea24db2edb02bcb7c.jpeg"
+    },
+    "rubricVersion": "v17"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết ngắn chỉ từ dữ kiện chắc chắn (tên SP, chữ in mặt trước bao bì), không có trang hãng/nhãn sau",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:32:10.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "batch b09 review: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T05:08:56Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T05:09:54.401Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T05:23:58.238Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T05:09:54.401Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T05:10:49.180Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T05:10:49.180Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/9d93b8cc0c34f29de579d5f903d25ab367787f430d6dc0750894f798ea0cfe7e.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/04/26/tram8/2da4f753cd46403ea24db2edb02bcb7c.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Nước ép trái cây NFC vị chanh leo (Passion Fruit) đựng trong cốc nhựa có nắp, uống lạnh ngon hơn.\n\nQuy cách: cốc\nThương hiệu: NFC",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

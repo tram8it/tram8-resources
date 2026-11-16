@@ -1,0 +1,129 @@
+{
+  "kiotProductId": "67913131",
+  "code": "4901551357147",
+  "barcode": "4901551357147",
+  "name": "Kẹo Sáng Tạo Popin Cookin Cơm Cuộn Sushi 28.5g",
+  "fullName": "Kẹo Sáng Tạo Popin Cookin Cơm Cuộn Sushi 28.5g (Hộp)",
+  "brand": "Popin Cookin",
+  "unit": "Hộp",
+  "category": {
+    "kiotCategoryId": "2549278",
+    "name": "Kẹo sáng tạo / đồ chơi",
+    "path": "Các loại kẹo > Kẹo sáng tạo / đồ chơi"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/e6c1c543ca0565ea066e27353f7426b5e2d2d285938f654f1c4d1199fcac3cf8.webp",
+    "description": "Kẹo sáng tạo Popin Cookin \"Tiệm sushi vui vẻ\" (たのしいおすしやさん) của Kracie: chỉ cần pha bột với nước để nặn thành các miếng sushi đồ chơi ăn được — cơm (vị soda), sushi cá ngừ (vị nho), sushi trứng (vị táo), trứng cá (vị cam soda) và nước tương (vị soda).\n\nQuy cách: hộp (trang hãng ghi 1 phần 29 g)\nXuất xứ: Nhật Bản · Nhà sản xuất/thương hiệu: Kracie · Popin Cookin\nHướng dẫn sử dụng: Pha từng gói bột với nước theo hướng dẫn in trên hộp, nặn thành hình rồi dùng.",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "line consistency 20/10 (v14): 3D box (top+side visible) vs flat front Popin Cookin boxes -> flat front → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt nội dung; chữ nhỏ minh hoạ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-20",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh hiện tại của SP (nội dung) + ảnh SP cùng dòng 67912925 (góc chụp/khung/ánh sáng)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết theo trang hãng Kracie (thành phần món, vị); khối lượng: trang hãng ghi 1 phần 29 g, tên hàng ghi 28,5 g",
+    "source": {
+      "url": "https://www.kracie.co.jp/products/foods/1201512_21123.html",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:00:36.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "image REPLACE from kracie.co.jp, description WRITE_NEW from brand page"
+    },
+    {
+      "at": "2026-10-16T06:09:20.342Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T03:59:04.373Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-20T16:40:26Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "line consistency 20/10: 3D box (top+side visible) vs flat front Popin Cookin boxes -> flat front (Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references)"
+    },
+    {
+      "at": "2026-10-20T16:41:14.278Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-21T08:30:34.700Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-26T04:58:33.990Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-20T16:41:14.278Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-20T16:44:37.087Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-20T16:44:37.087Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/e6c1c543ca0565ea066e27353f7426b5e2d2d285938f654f1c4d1199fcac3cf8.webp"
+        ],
+        "from": [
+          "https://img.tram8.vn/products/cc5b81b2725422ed857cabf88474e44ab65ceca546e3b6348686d982ce1a26ca.webp"
+        ]
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

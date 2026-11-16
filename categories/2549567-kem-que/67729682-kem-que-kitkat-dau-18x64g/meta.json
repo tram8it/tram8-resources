@@ -1,0 +1,126 @@
+{
+  "kiotProductId": "67729682",
+  "code": "8850011077186",
+  "barcode": "8850011077186",
+  "name": "Kem Que KitKat Dau 18x64g",
+  "fullName": "Kem Que KitKat Dau 18x64g (Que)",
+  "brand": "KitKat",
+  "unit": "Que",
+  "category": {
+    "kiotCategoryId": "2549567",
+    "name": "Kem que",
+    "path": "Kem & Đồ đông lạnh > Kem que"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/f20a2620bd1d6aaf003e8fd5d9433b2c9551a518ab486172d77dfb4c7b570436.webp",
+    "description": "Kem que Nestlé KitKat Pink vị bánh phô mai dâu (strawberry cheesecake), hàng Thái Lan.\n\nQuy cách: 64 g · que\nNhà sản xuất/thương hiệu: Nestlé · KitKat\nBảo quản: Giữ đông ở −18 °C hoặc lạnh hơn.",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I1: chưa có ảnh; trang Nestlé Thái Lan chặn bot → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt chữ lớn (Nestlé KitKat PINK, chữ Thái vị strawberry cheesecake); vẽ phẳng, bỏ tay cầm",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-18",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh Open Food Facts theo đúng mã vạch 8850011077186 (ảnh chụp tay, chỉ làm mẫu)",
+      "referenceUrl": "https://images.openfoodfacts.org/images/products/885/001/107/7186/1.jpg"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: từ bao bì (Open Food Facts đúng mã vạch): Kit Kat Pink ice cream vị strawberry cheesecake, 64 g, Nestlé Thái Lan",
+    "source": {
+      "url": "https://world.openfoodfacts.org/product/8850011077186",
+      "fetchedAt": "2026-10-18T18:36:03Z"
+    },
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:22:18.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "image needs photo (no usable official source), description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T04:16:20Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "no pack reference found anywhere (nestle.co.th Cloudflare 403; searches by barcode/Thai/VN found nothing); staff photo needed"
+    },
+    {
+      "at": "2026-10-18T18:36:03Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-18T18:36:03Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "np18 re-research: description rewritten from pack/official facts"
+    },
+    {
+      "at": "2026-10-18T18:36:03.901Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T02:05:27.524Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T03:19:05.400Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-18T18:36:03.901Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T01:50:24.865Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T01:50:24.865Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/f20a2620bd1d6aaf003e8fd5d9433b2c9551a518ab486172d77dfb4c7b570436.webp"
+        ],
+        "from": null
+      },
+      "description": {
+        "to": "Kem que Nestlé KitKat Pink vị bánh phô mai dâu (strawberry cheesecake), hàng Thái Lan.\n\nQuy cách: 64 g · que\nNhà sản xuất/thương hiệu: Nestlé · KitKat\nBảo quản: Giữ đông ở −18 °C hoặc lạnh hơn.",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

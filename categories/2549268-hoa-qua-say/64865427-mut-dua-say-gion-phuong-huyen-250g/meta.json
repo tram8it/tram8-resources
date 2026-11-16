@@ -1,0 +1,112 @@
+{
+  "kiotProductId": "64865427",
+  "code": "8938522697960",
+  "barcode": "8938522697960",
+  "name": "Mứt dừa sấy giòn Phương Huyền 250g",
+  "fullName": "Mứt dừa sấy giòn Phương Huyền 250g (Gói)",
+  "brand": "Phương Huyền",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2549268",
+    "name": "Hoa quả sấy",
+    "path": "Đồ ăn vặt > Hạt các loại · Hoa quả sấy > Hoa quả sấy"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/735a21db742a2ea03913ca020650576f260a14119e1014a1c192c7319a69350d.webp",
+    "description": "Mứt dừa sấy giòn Phương Huyền.\n\nQuy cách: 250 g · gói\nNhà sản xuất/thương hiệu: Phương Huyền",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I3/I4: ảnh chụp điện thoại gói hàng trên bàn; không có trang hãng Phương Huyền → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: đầu và đáy túi vẽ suy ra; đã bỏ dòng in HSD; mặt trước gói không in khối lượng nên không kiểm được 250 g",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (chỉ làm mẫu)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; mô tả ngắn từ chữ in mặt trước gói và tên SP (250 g)",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:27:10.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "b26: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T08:24:16Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T08:24:45.669Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T08:24:45.669Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T08:38:07.110Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T08:38:07.110Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/735a21db742a2ea03913ca020650576f260a14119e1014a1c192c7319a69350d.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/01/23/tongpenhchtl/5055e689a5e4499cac70c8ce80d607ab.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Mứt dừa sấy giòn Phương Huyền.\n\nQuy cách: 250 g · gói\nNhà sản xuất/thương hiệu: Phương Huyền",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

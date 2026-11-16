@@ -1,0 +1,122 @@
+{
+  "kiotProductId": "65177053",
+  "code": "8934609109197",
+  "barcode": "8934609109197",
+  "name": "Kẹo dẻo dưa hấu Zoo",
+  "fullName": "Kẹo dẻo dưa hấu Zoo (Gói)",
+  "brand": "Zoo Jelly",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2549274",
+    "name": "Kẹo dẻo / jelly",
+    "path": "Các loại kẹo > Kẹo dẻo / jelly"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/6645d831990a9d1eb1db43696f05c5468a317027fec570ed2f94702a64c630e3.webp",
+    "description": "Kẹo dẻo Zoo hương dưa hấu của Bibica, cấu trúc hai lớp foam và jelly, vị dưa hấu ngọt mát, dai mềm.\n\nQuy cách: gói\nNhà sản xuất/thương hiệu: Bibica · Zoo Jelly\nBảo quản: nơi khô ráo, thoáng mát, tránh ánh nắng trực tiếp; đóng kín bao bì sau khi mở.",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "ảnh tự chụp (nhăn, in hạn dùng); ảnh hãng là gói 80g khác cỡ → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không ghi khối lượng (gói cửa hàng không đọc được số); dòng chữ minh hoạ nhỏ vẽ mờ; bỏ hạn dùng in",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh hãng Bibica gói 80g cùng thiết kế (chỉ làm mẫu) + ảnh KiotViet",
+      "referenceUrl": "https://www.bibica.com.vn/keo-deo-zoo-dua-hau"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; theo trang Bibica (Zoo Dưa Hấu); tên không ghi khối lượng nên bỏ mục khối lượng",
+    "source": {
+      "url": "https://www.bibica.com.vn/keo-deo-zoo-dua-hau",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:19:58.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "image CROP, description WRITE_NEW (bibica.com.vn)"
+    },
+    {
+      "at": "2026-10-15T09:16:17Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "tone.py --vivid: white balance/levels + brand-like colour (owner request)"
+    },
+    {
+      "at": "2026-10-17T14:12:36Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T14:14:26.301Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T14:14:26.301Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T16:16:33.886Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T16:16:33.886Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/6645d831990a9d1eb1db43696f05c5468a317027fec570ed2f94702a64c630e3.webp"
+        ],
+        "from": [
+          "https://cdn1-retail-images.kiotviet.vn/2026/07/27/tram8/fb77965cf1e4415aa9a214cd4a3eaf13.png"
+        ]
+      },
+      "description": {
+        "to": "Kẹo dẻo Zoo hương dưa hấu của Bibica, cấu trúc hai lớp foam và jelly, vị dưa hấu ngọt mát, dai mềm.\n\nQuy cách: gói\nNhà sản xuất/thương hiệu: Bibica · Zoo Jelly\nBảo quản: nơi khô ráo, thoáng mát, tránh ánh nắng trực tiếp; đóng kín bao bì sau khi mở.",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

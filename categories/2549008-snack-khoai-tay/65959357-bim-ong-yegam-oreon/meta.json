@@ -1,0 +1,106 @@
+{
+  "kiotProductId": "65959357",
+  "code": "8936029423594",
+  "barcode": "8936029423594",
+  "name": "Bim ống YeGam Oreon",
+  "fullName": "Bim ống YeGam Oreon (Ống)",
+  "brand": "Orion",
+  "unit": "Ống",
+  "category": {
+    "kiotCategoryId": "2549008",
+    "name": "Snack khoai tây",
+    "path": "Đồ ăn vặt > Snacks > Snack khoai tây"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/456c14ffe87ceb0ca22064029555bdf2aca041da146ebc64735837c7c1ce6020.webp",
+    "description": null,
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "Câu hỏi cũ tự giải theo mã vạch (chủ: làm nốt cả danh mục, 16/10); Gemini vẽ phẳng sạch — mã còn lại của cặp YeGam = vị Nguyên bản (ảnh cũ chụp 2 hộp kim chi + nguyên bản); mẫu: ảnh Orion",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Google Gemini Pro",
+      "generatedAt": "2026-10-16",
+      "style": "flat clean packaging render",
+      "referenceUrl": "https://orion.vn/media/anefcej4/1.png"
+    },
+    "rubricVersion": "v17"
+  },
+  "description": {
+    "decision": "KEEP",
+    "reason": "chưa đủ dữ kiện viết mô tả mới; giữ hiện trạng",
+    "source": null,
+    "rubricVersion": "v17"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:20:32.000Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "batch b01: image REPLACE, description ASK_OWNER"
+    },
+    {
+      "at": "2026-10-16T03:10:09Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "resolved by barcode; Gemini flat render"
+    },
+    {
+      "at": "2026-10-16T03:10:43.121Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: image"
+    },
+    {
+      "at": "2026-10-17T03:59:04.373Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-16T03:10:43.121Z",
+    "fields": [
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-16T04:58:22.614Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-16T04:58:22.614Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/456c14ffe87ceb0ca22064029555bdf2aca041da146ebc64735837c7c1ce6020.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/05/24/tram8/7348057921124567b2bae99628197d19.jpeg"
+        ]
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

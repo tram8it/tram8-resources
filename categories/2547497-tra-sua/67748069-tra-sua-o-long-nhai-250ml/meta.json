@@ -1,0 +1,173 @@
+{
+  "kiotProductId": "67748069",
+  "code": "8936186851070",
+  "barcode": "8936186851070",
+  "name": "Trà sữa Ô Long nhài 250ml",
+  "fullName": "Trà sữa Ô Long nhài 250ml (Chai)",
+  "brand": "Lạc Lạc Tea",
+  "unit": "Chai",
+  "category": {
+    "kiotCategoryId": "2547497",
+    "name": "Trà sữa",
+    "path": "Món ngon Trạm 8 > Đồ uống pha chế > Trà sữa"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/cc2599261993e3df5410cb8d9a0d1938be3be88426787058130c83e5bbdb915e.webp",
+    "description": "Trà sữa Ô Long nhài Lạc Lạc, đồ uống pha sẵn đóng chai.\n\nQuy cách: 250 ml · chai\nThương hiệu: Lạc Lạc",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "chủ 19/10: trà sữa Lạc Lạc vẽ lại bằng Gemini → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: nhãn chép từ ảnh thật; dáng chai và màu nước theo ảnh chụp",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-19",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet nhãn chai + ảnh chai trên web Trạm 8"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; không có nguồn hãng → viết ngắn chỉ từ tên SP và chữ in trên nhãn (tên vị, logo Lạc Lạc)",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:17:04.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "image REPLACE → NEEDS_PHOTO, description WRITE_NEW (name only)"
+    },
+    {
+      "at": "2026-10-19T02:39:32Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "redo after Hub rejection:  — Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-19T02:39:33.071Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T02:44:56.965Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T03:19:05.400Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-19T02:39:33.071Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T02:42:32.024Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T02:42:32.024Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/cc2599261993e3df5410cb8d9a0d1938be3be88426787058130c83e5bbdb915e.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/10/19/tram8/c36321f328ca47cfb4e7ae03f7b44b12.png"
+        ]
+      },
+      "description": {
+        "to": "Trà sữa Ô Long nhài Lạc Lạc, đồ uống pha sẵn đóng chai.\n\nQuy cách: 250 ml · chai\nThương hiệu: Lạc Lạc",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {
+      "price": {
+        "to": 25462.96,
+        "from": 25000
+      },
+      "saleTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 67748069
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 67748069
+        }
+      },
+      "taxRate": {
+        "to": "VAT 8%",
+        "from": "VAT 10%"
+      },
+      "productTaxs": {
+        "to": [
+          {
+            "id": 0,
+            "name": "VAT 8%",
+            "taxId": 3,
+            "value": 8,
+            "productId": 67748069
+          }
+        ],
+        "from": [
+          {
+            "id": 0,
+            "name": "VAT 10%",
+            "taxId": 4,
+            "value": 10,
+            "productId": 67748069
+          }
+        ]
+      },
+      "purchaseTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 67748069
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 67748069
+        }
+      }
+    }
+  }
+}

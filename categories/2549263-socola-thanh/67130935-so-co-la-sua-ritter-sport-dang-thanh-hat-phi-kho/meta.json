@@ -1,0 +1,116 @@
+{
+  "kiotProductId": "67130935",
+  "code": "4000417700001",
+  "barcode": "4000417700001",
+  "name": "Sô-Cô-La Sữa Ritter Sport Dạng Thanh, Hạt Phỉ, Không Có Nhân 100 G",
+  "fullName": "Sô-Cô-La Sữa Ritter Sport Dạng Thanh, Hạt Phỉ, Không Có Nhân 100 G (Thanh)",
+  "brand": "Ritter Sport",
+  "unit": "Thanh",
+  "category": {
+    "kiotCategoryId": "2549263",
+    "name": "Socola thanh",
+    "path": "Đồ ăn vặt > Chocolate > Socola thanh"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/b63ec76537ec95dc597b4dc5d5b0bb920aa4da2ecd75407d7bce04365f9c4784.webp",
+    "description": "Sô cô la sữa Ritter Sport dòng Nut Selection với hạt phỉ nguyên hạt rang giòn, dạng thanh vuông đặc trưng của hãng.\n\nQuy cách: 100 g · thanh\nXuất xứ: Đức · Nhà sản xuất/thương hiệu: Ritter Sport",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I2/I4: ảnh KiotViet là bao bì đời cũ/ảnh chụp tay; ảnh hãng chỉ có nền màu kèm hạt, lá, miếng socola — tách nền không sạch → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Vẽ theo ảnh hãng (bao bì mới nhất 'Nut Selection', huy hiệu 'No added flavours'); mặt trước không có dòng 'NET WEIGHT 100 g ℮' ở đáy như ảnh hãng; khối lượng chỉ in dọc hai mép '100 g' (đúng tên KiotViet 100 G); chữ nhỏ ở mép gấp đáy bị mờ. Ảnh KiotViet là bao bì cũ nhãn Trung Quốc (chưa có 'Nut Selection'); theo chủ dùng bao bì mới nhất.",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh packshot chính hãng ritter-sport.com (nền màu kèm đạo cụ; tách nền bằng cutout.py không được vì nền cùng màu bao bì) làm mẫu duy nhất cho Gemini",
+      "referenceUrl": "https://www.ritter-sport.com/product/whole-hazelnuts"
+    },
+    "rubricVersion": "v17"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết từ trang hãng ritter-sport.com; xuất xứ theo chữ 'Made in Germany' in trên bao bì",
+    "source": {
+      "url": "https://www.ritter-sport.com/product/whole-hazelnuts",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:14:49.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "image needs photo; description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T04:30:48Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T04:31:00.122Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T05:23:58.238Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T04:31:00.122Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T04:36:30.872Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T04:36:30.872Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/b63ec76537ec95dc597b4dc5d5b0bb920aa4da2ecd75407d7bce04365f9c4784.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/18/tram8/1cdc5227c2324720b9339019c6b8e2f6.png"
+        ]
+      },
+      "description": {
+        "to": "Sô cô la sữa Ritter Sport dòng Nut Selection với hạt phỉ nguyên hạt rang giòn, dạng thanh vuông đặc trưng của hãng.\n\nQuy cách: 100 g · thanh\nXuất xứ: Đức · Nhà sản xuất/thương hiệu: Ritter Sport",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

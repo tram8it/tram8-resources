@@ -1,0 +1,113 @@
+{
+  "kiotProductId": "65642188",
+  "code": "8801104170116",
+  "barcode": "8801104170116",
+  "name": "Kem Bánh Cá Sô cô la - Samanco Chocolate (150ml x 24pcs)",
+  "fullName": "Kem Bánh Cá Sô cô la - Samanco Chocolate (150ml x 24pcs) (Cái)",
+  "brand": "Binggrae",
+  "unit": "Cái",
+  "category": {
+    "kiotCategoryId": "2549569",
+    "name": "Kem bánh",
+    "path": "Kem & Đồ đông lạnh > Kem bánh"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/9a93b45597d6bc3d70b6dd894e473ae8d669a22f25de4dde373470de0460b781.webp",
+    "description": "Kem bánh cá Samanco vị sô cô la của Binggrae (Hàn Quốc): vỏ bánh hình cá, nhân kem và sốt sô cô la. Dùng ngay khi lấy ra từ ngăn đá.\n\nQuy cách: 150 ml · cái\nNhà sản xuất/thương hiệu: Binggrae (Hàn Quốc) · Samanco\nBảo quản: Giữ đông lạnh.",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I3/I4: ảnh chụp điện thoại trên mặt bàn; trang Binggrae không có bao bì xuất khẩu → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: dòng chữ nhỏ đa ngôn ngữ ở cạnh dưới vẽ gần đúng; logo Binggrae góc trái trên bị che một phần trong ảnh mẫu, vẽ theo ảnh Kingfoodmart",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (bao bì xuất khẩu đang bán) + ảnh Kingfoodmart theo mã vạch (chỉ làm mẫu)",
+      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/05/11/tram8/6eeecf35680f4622b08e8dd78c4a553f.jpeg"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; mô tả ngắn từ chữ in mặt trước bao bì",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:12:52.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "phone photo, no official export-pack image; description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T08:27:58Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T08:28:21.909Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T08:28:21.909Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T08:40:55.921Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T08:40:55.921Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/9a93b45597d6bc3d70b6dd894e473ae8d669a22f25de4dde373470de0460b781.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/05/11/tram8/6eeecf35680f4622b08e8dd78c4a553f.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Kem bánh cá Samanco vị sô cô la của Binggrae (Hàn Quốc): vỏ bánh hình cá, nhân kem và sốt sô cô la. Dùng ngay khi lấy ra từ ngăn đá.\n\nQuy cách: 150 ml · cái\nNhà sản xuất/thương hiệu: Binggrae (Hàn Quốc) · Samanco\nBảo quản: Giữ đông lạnh.",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

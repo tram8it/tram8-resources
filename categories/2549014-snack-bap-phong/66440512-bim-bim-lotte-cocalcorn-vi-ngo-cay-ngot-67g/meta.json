@@ -1,0 +1,156 @@
+{
+  "kiotProductId": "66440512",
+  "code": "8801062381937",
+  "barcode": "8801062381937",
+  "name": "Bim bim Lotte COCALCORN vị ngô cay ngọt 67G",
+  "fullName": "Bim bim Lotte COCALCORN vị ngô cay ngọt 67G (Gói)",
+  "brand": "Lotte",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2549014",
+    "name": "Snack bắp & phồng",
+    "path": "Đồ ăn vặt > Snacks > Snack bắp & phồng"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/54f5681e8855348e924c61aa1cc37f0052d652034c88194868f5e756c4abd413.webp",
+    "description": "Snack ngô hình nón Kokkalcorn (꼬깔콘) Swicy của Lotte vị cay ngọt: bánh hình nón giòn, vị ngô quyện ớt cay ngọt; bao bì phiên bản KBO.\n\nQuy cách: 67 g · gói\nXuất xứ: Hàn Quốc · Nhà sản xuất/thương hiệu: Lotte · Kokkalcorn",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "chủ 19/10: bao bì phải giống SP thật nhất có thể (giữ bản KBO đang bán) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: vẽ phẳng, sạch theo đúng gói đang bán; chữ nhỏ để mờ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-19",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh gói đang bán (bản KBO) + Kokalkon vị thường đã duyệt (khung)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết ngắn chỉ từ tên hàng và chữ in trên bao bì; không truy cập được danh mục SP trên trang Lotte Wellfood",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:23:35.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "image CROP, description WRITE_NEW (pack facts)"
+    },
+    {
+      "at": "2026-10-15T02:51:19.419Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-15T09:16:17Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "tone.py --vivid: white balance/levels + brand-like colour (owner request)"
+    },
+    {
+      "at": "2026-10-15T09:21:19.146Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-16T01:38:49.852Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-19T03:03:33Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "redo after Hub rejection:  — Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-19T03:03:33.516Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T03:11:10.027Z",
+      "by": "owner",
+      "status": "IN_PROGRESS",
+      "note": "rejected on Hub by AU KHUONG DUY: Bao bì ko giống sp, cố giống nhất có thể,"
+    },
+    {
+      "at": "2026-10-19T03:12:05Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "redo after Hub rejection: Bao bì ko giống sp, cố giống nhất có thể, — Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-19T03:12:05.285Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T03:19:05.400Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-19T03:31:45.675Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-19T03:12:05.285Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T03:13:12.668Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T03:13:12.668Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/54f5681e8855348e924c61aa1cc37f0052d652034c88194868f5e756c4abd413.webp"
+        ],
+        "from": [
+          "https://img.tram8.vn/products/0396b3a967a8f9e687bd005bbdf478e26932d3aa1ab1b0d7784aa327e7677e9c.webp"
+        ]
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

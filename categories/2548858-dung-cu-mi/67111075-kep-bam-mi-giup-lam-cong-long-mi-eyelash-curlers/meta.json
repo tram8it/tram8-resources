@@ -1,0 +1,112 @@
+{
+  "kiotProductId": "67111075",
+  "code": "6975749712900",
+  "barcode": "6975749712900",
+  "name": "Kẹp bấm mi giúp làm cong lông mi Eyelash Curlers #02, được làm bằng thép, phần tiếp xúc với mi có đệm làm bằng cao su",
+  "fullName": "Kẹp bấm mi giúp làm cong lông mi Eyelash Curlers #02, được làm bằng thép, phần tiếp xúc với mi có đệm làm bằng cao su (Cái)",
+  "brand": "Habaria",
+  "unit": "Cái",
+  "category": {
+    "kiotCategoryId": "2548858",
+    "name": "Dụng cụ mi",
+    "path": "Chăm sóc cá nhân > Dụng cụ trang điểm > Dụng cụ mi"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/ab1d381afe0a76b42471a7ff765afd5487a39c402be0cad6816fc5392937628c.webp",
+    "description": "Kẹp bấm mi Habaria Professional Eyelash Curlers #02, giúp làm cong lông mi; thân kẹp bằng thép, phần tiếp xúc với mi có đệm cao su.\n\nQuy cách: 1 cái · hộp nhựa\nNhà sản xuất/thương hiệu: Habaria",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I3/I4: ảnh tay cầm hộp chụp tại cửa hàng; không tìm được trang chính hãng Habaria → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ nhỏ trên tấm giấy xanh phía sau kẹp không đọc được (Gemini vẽ mờ); chữ Habaria, DREAM BEAUTY, PROFESSIONAL EYELASH CURLERS khớp",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (tay cầm hộp nhựa trong tại cửa hàng)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; mô tả ngắn từ chữ in trên hộp (Habaria Professional Eyelash Curlers) và tên SP (#02, thép, đệm cao su)",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:25:23.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "b26: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T08:28:54Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T08:28:56.716Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T08:28:56.716Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T08:41:36.063Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T08:41:36.063Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/ab1d381afe0a76b42471a7ff765afd5487a39c402be0cad6816fc5392937628c.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/17/tram8/08b14860c40949cd96d477d6585684d0.png"
+        ]
+      },
+      "description": {
+        "to": "Kẹp bấm mi Habaria Professional Eyelash Curlers #02, giúp làm cong lông mi; thân kẹp bằng thép, phần tiếp xúc với mi có đệm cao su.\n\nQuy cách: 1 cái · hộp nhựa\nNhà sản xuất/thương hiệu: Habaria",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

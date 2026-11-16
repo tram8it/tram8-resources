@@ -1,0 +1,136 @@
+{
+  "kiotProductId": "65227849",
+  "code": "8934588640445",
+  "barcode": "8934588640445",
+  "name": "Boss Cà phê sữa Lon 180",
+  "fullName": "Boss Cà phê sữa Lon 180 (Lon)",
+  "brand": "Boss",
+  "unit": "Lon",
+  "category": {
+    "kiotCategoryId": "2509938",
+    "name": "Cà phê uống liền",
+    "path": "Đồ uống đóng chai > Cà phê uống liền"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/a601eea95861161cfc786a2ac05393b4c4969f192db9782384d93929232fd611.webp",
+    "description": "Boss Cà Phê Sữa đóng lon của Suntory, thương hiệu cà phê lon nổi tiếng từ Nhật Bản, vị cà phê sữa thơm béo, ngọt dịu. Ngon hơn khi uống lạnh.\n\nQuy cách: 180 ml · lon\nNhà sản xuất/thương hiệu: Suntory PepsiCo Việt Nam · Boss",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "Rà ảnh mờ 19/10: ảnh KiotViet crop phóng 3,2 lần: mờ, viền răng cưa, chữ nhoè (chủ 19/10) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ nhỏ mặt bên lon (thành phần) vẽ thành chữ nhỏ không đọc được; lần 1 Gemini thêm tẩu thuốc theo bản lon khác, đã sửa về đúng mặt in đen không tẩu",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-19",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh hiện tại (gói thật) + render lon Boss trên suntorypepsico.vn (chỉ để vẽ nét logo)",
+      "referenceUrl": "https://www.suntorypepsico.vn/thuong-hieu-cua-chung-toi/boss-10"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết từ trang thương hiệu Suntory PepsiCo",
+    "source": {
+      "url": "https://www.suntorypepsico.vn/thuong-hieu-cua-chung-toi/boss-10",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:42:31.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "image CROP, description WRITE_NEW (Suntory PepsiCo brand page)"
+    },
+    {
+      "at": "2026-10-15T09:16:17Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "tone.py --vivid: white balance/levels + brand-like colour (owner request)"
+    },
+    {
+      "at": "2026-10-18T17:48:03.977Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T02:05:27.524Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T03:19:05.400Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-19T03:59:31Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references — owner 19/10: replace blurry/upscaled/jagged or wrinkled-photo images with crisp flat renders"
+    },
+    {
+      "at": "2026-10-19T03:59:58.669Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T07:23:08.254Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T17:15:09.663Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-19T03:59:58.669Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T05:17:08.795Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T05:17:08.795Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/a601eea95861161cfc786a2ac05393b4c4969f192db9782384d93929232fd611.webp"
+        ],
+        "from": [
+          "https://img.tram8.vn/products/20796f170eb6f7257c05601bf7330c9fa567b0ceb0bfc7fc6a6a405ecc36dcb6.webp"
+        ]
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

@@ -4,8 +4,9 @@
  *   node tools/review-page.mjs <category-dir | kiotCategoryId>
  *   → review/<category-dir>.html   (open it from a clone of this repo)
  *
- * Current images load from the KiotViet CDN URL in meta.json; new ones from
- * the image.webp next to it, so the page works offline only for new images.
+ * Current images load from the KiotViet CDN URL in meta.json; new ones are
+ * embedded from the image.webp next to it, so the page still shows them when
+ * the HTML file is downloaded and opened on its own.
  */
 import { existsSync } from "node:fs";
 import { readFile, writeFile } from "node:fs/promises";
@@ -47,7 +48,9 @@ products.sort(
 const cards = [];
 for (const p of products) {
   const m = p.meta;
-  const newImage = existsSync(join(p.path, "image.webp")) ? relative(reviewDir, join(p.path, "image.webp")) : null;
+  const newImage = existsSync(join(p.path, "image.webp"))
+    ? `data:image/webp;base64,${(await readFile(join(p.path, "image.webp"))).toString("base64")}`
+    : null;
   const newText = existsSync(join(p.path, "description.md"))
     ? await readFile(join(p.path, "description.md"), "utf8")
     : null;
@@ -60,6 +63,10 @@ for (const p of products) {
     <figure>${img(m.current?.imageUrl, "Ảnh hiện tại")}<figcaption>Hiện tại</figcaption></figure>
     <figure>${newImage ? img(newImage, "Ảnh mới") : `<div class="none">—</div>`}<figcaption>Mới · ${escapeHtml(m.image?.decision ?? "")}</figcaption></figure>
   </div>
+  ${m.master ? `<table class="master"><tr><th></th><th>KiotViet hiện tại</th><th>Đề xuất</th></tr>
+    <tr><td>Tên</td><td>${escapeHtml(m.name)}</td><td><b>${escapeHtml(m.master.name)}</b></td></tr>
+    <tr><td>Trọng lượng</td><td>—</td><td>${escapeHtml(m.master.weightGram)} g</td></tr>
+    <tr><td>Thương hiệu</td><td>${escapeHtml(m.brand ?? "—")}</td><td>${escapeHtml(m.master.brand)}</td></tr></table>` : ""}
   ${m.image?.reason ? `<p class="why">Ảnh: ${escapeHtml(m.image.reason)}</p>` : ""}
   ${m.image?.source?.url ? `<p class="why">Nguồn: <a href="${escapeHtml(m.image.source.url)}" rel="noreferrer noopener" target="_blank">${escapeHtml(new URL(m.image.source.url).hostname)}</a></p>` : ""}
   <details${newText ? " open" : ""}><summary>Mô tả · ${escapeHtml(m.description?.decision ?? "")}${m.description?.reason ? ` — ${escapeHtml(m.description.reason)}` : ""}</summary>
@@ -84,6 +91,7 @@ nav button.on{background:var(--text);color:var(--bg)}
 .s-READY{border-color:var(--blue)}.s-ASK_OWNER{border-color:var(--amber)}.s-NEEDS_PHOTO{border-color:var(--red)}.s-NO_CHANGE,.s-APPROVED,.s-UPLOADED{border-color:var(--green)}
 .card header{display:flex;flex-wrap:wrap;gap:4px 8px;align-items:baseline}.card header small{color:var(--muted)}
 .tag{margin-left:auto;font-size:12px;font-weight:600}
+.master{width:100%;border-collapse:collapse;margin:6px 0 8px;font-size:13px}.master th,.master td{border-top:1px solid var(--line);padding:3px 4px;text-align:left;vertical-align:top}.master th{color:var(--muted);font-weight:500}.master td:first-child{color:var(--muted);white-space:nowrap}
 .pair{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin:10px 0}
 figure{margin:0}figcaption{font-size:12px;color:var(--muted);text-align:center}
 .pair img,.none{width:100%;aspect-ratio:1;object-fit:contain;background:#fff;border:1px solid var(--line);border-radius:6px}

@@ -1,0 +1,118 @@
+{
+  "kiotProductId": "66521275",
+  "code": "8936011774031",
+  "barcode": "8936011774031",
+  "name": "Kem Merino S.Teen Socola gạo lứt 60g",
+  "fullName": "Kem Merino S.Teen Socola gạo lứt 60g (Cái)",
+  "brand": "Merino",
+  "unit": "Cái",
+  "category": {
+    "kiotCategoryId": "2549573",
+    "name": "Kem ốc quế",
+    "path": "Kem & Đồ đông lạnh > Kem ốc quế"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/b139253d6cac53246d3a5f9abaa643d926250fce796950a4c537425315e8e5f8.webp",
+    "description": "Kem ốc quế Merino vị sô cô la, phủ sô cô la gạo lứt giòn, đóng túi, bán lẻ từng cái, bảo quản đông lạnh.\n\nQuy cách: 60 g · cái\nNhà sản xuất/thương hiệu: Merino\nBảo quản: ngăn đông tủ lạnh.",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "ảnh tự chụp (vỏ nhăn, nghiêng); không có ảnh hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (ảnh tự chụp, chỉ làm mẫu)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; mô tả ngắn từ chữ in mặt trước bao bì (Merino, kem sô cô la, sô cô la gạo lứt giòn tan) + dung tích/khối lượng theo tên hàng",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:57:37.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "image CROP, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-15T09:16:17Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "tone.py --vivid: white balance/levels + brand-like colour (owner request)"
+    },
+    {
+      "at": "2026-10-17T14:18:31Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T14:18:51.216Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T14:18:51.216Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T16:47:37.328Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T16:47:37.328Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/b139253d6cac53246d3a5f9abaa643d926250fce796950a4c537425315e8e5f8.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/27/tram8/dc524e6a32d94179925bd58846d1977b.png"
+        ]
+      },
+      "description": {
+        "to": "Kem ốc quế Merino vị sô cô la, phủ sô cô la gạo lứt giòn, đóng túi, bán lẻ từng cái, bảo quản đông lạnh.\n\nQuy cách: 60 g · cái\nNhà sản xuất/thương hiệu: Merino\nBảo quản: ngăn đông tủ lạnh.",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

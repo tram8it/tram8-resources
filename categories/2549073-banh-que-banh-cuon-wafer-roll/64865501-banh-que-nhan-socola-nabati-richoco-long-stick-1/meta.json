@@ -1,0 +1,149 @@
+{
+  "kiotProductId": "64865501",
+  "code": "8993175551519",
+  "barcode": "8993175551519",
+  "name": "BÁNH QUẾ NHÂN SÔ CÔ LA - NABATI RICHOCO LONG STICK 105G",
+  "fullName": "BÁNH QUẾ NHÂN SÔ CÔ LA - NABATI RICHOCO LONG STICK 105G (Gói)",
+  "brand": "Nabati",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2549073",
+    "name": "Bánh quế / bánh cuộn (wafer roll)",
+    "path": "Bánh quy & bánh đóng gói > Bánh quế / bánh cuộn (wafer roll)"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/9fe024d405daf11b7da9078ce253480413ffda44951770e96751b39e87d7c3ec.webp",
+    "description": "Bánh quế Nabati Richoco Long Stick, que quế dài giòn nhân kem sô cô la, gói lớn tiện chia sẻ.\n\nQuy cách: 105 g · gói\nNhà sản xuất/thương hiệu: Nabati · Richoco",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I3, I4, I6: ảnh KiotViet chụp trên quầy, lóa, mờ; không có ảnh hãng gói 105 g → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: dòng khối lượng sửa thành 105 g theo chủ (ảnh mẫu cùng mã vạch in 130 g; gói 105 g có trong dữ liệu xuất khẩu Nabati sang VN); dòng nhà sản xuất nhỏ góc phải để mờ không đọc được",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh Kingfoodmart theo mã vạch 8993175551519 (chỉ làm mẫu, gói in 130 g) + ảnh KiotViet",
+      "referenceUrl": "https://storage.googleapis.com/onelife-public/8993175551519.jpg"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết ngắn từ tên SP và chữ in mặt trước gói, không có nguồn hãng",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:36:40.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "image NEEDS_PHOTO (no official source), description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T05:30:24Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "Weight on KiotViet photo reads 130 g vs name 105G; no Gemini call made"
+    },
+    {
+      "at": "2026-10-17T08:45:00Z",
+      "by": "owner",
+      "note": "RUBRIC v19: khối lượng tin bao bì đúng mã vạch hơn tên KiotViet; chỉ hỏi khi lệch > ~10% hoặc rõ là cỡ khác",
+      "status": "ASK_OWNER"
+    },
+    {
+      "at": "2026-10-17T09:30:00Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "gap > ~10% / other size or needs shelf check: question shortened to the two numbers (RUBRIC v19)"
+    },
+    {
+      "at": "2026-10-17T12:00:00Z",
+      "by": "owner",
+      "status": "ASK_OWNER",
+      "note": "Kiểm kệ 17/10: gói in 105 g (không có ảnh)"
+    },
+    {
+      "at": "2026-10-17T13:30:00Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "105 g confirmed; no reference of the 105 g pack (KiotViet photo shows 130 g, poor) → needs staff photo"
+    },
+    {
+      "at": "2026-10-17T13:51:52Z",
+      "by": "owner",
+      "status": "NEEDS_PHOTO",
+      "note": "Chủ trả lời 17/10: tự tìm gói trên web (Nabati, Kingfoodmart theo mã vạch 8993175551519, Open Food Facts, nhà bán lẻ làm mẫu) và cho Gemini vẽ gói 105 g"
+    },
+    {
+      "at": "2026-10-17T13:52:10Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 3, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T13:52:22.400Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T13:52:22.400Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T13:55:23.505Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T13:55:23.505Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/9fe024d405daf11b7da9078ce253480413ffda44951770e96751b39e87d7c3ec.webp"
+        ],
+        "from": [
+          "https://cdn1-retail-images.kiotviet.vn/2026/01/17/tongpenhchtl/2cb9079769a744e59e1826262a4863fa.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Bánh quế Nabati Richoco Long Stick, que quế dài giòn nhân kem sô cô la, gói lớn tiện chia sẻ.\n\nQuy cách: 105 g · gói\nNhà sản xuất/thương hiệu: Nabati · Richoco",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

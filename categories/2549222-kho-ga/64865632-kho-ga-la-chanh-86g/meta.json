@@ -1,0 +1,119 @@
+{
+  "kiotProductId": "64865632",
+  "code": "8938522697649",
+  "barcode": "8938522697649",
+  "name": "Khô gà lá chanh 86g",
+  "fullName": "Khô gà lá chanh 86g (Lọ)",
+  "brand": "Phương Huyền",
+  "unit": "Lọ",
+  "category": {
+    "kiotCategoryId": "2549222",
+    "name": "Khô gà",
+    "path": "Đồ ăn vặt > Thịt khô và chân gà > Khô gà"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/7167c69597340fffa022421b1bd5c6f6be7f63bc4bc1ff533768afac87dccc5b.webp",
+    "description": "Gà khô lá chanh Phương Huyền: gà khô xé sợi trộn lá chanh, giòn ngon đậm vị, không chất bảo quản (theo nhãn), đóng hũ nhựa ăn liền.\n\nQuy cách: hũ (nhãn ghi trọng lượng 130 g ± 5 g)\nNhà sản xuất: Công ty TNHH TM Thực phẩm Phương Huyền",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I2: ảnh KiotViet là gói sô cô la Fucuco → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: vẽ một hũ từ ảnh chụp 3 hũ; bỏ dấu in NSX/HSD; số điện thoại/GCN làm mờ; nhãn ghi trọng lượng 130 g ± 5 g (tên KiotViet 86 g)",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-18",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh iCheck theo mã vạch (hũ Gà Khô Lá Chanh Phương Huyền, mã vạch trên nhãn khớp, chỉ làm mẫu)",
+      "referenceUrl": "https://photos.icheckcdn.net/VEaBcRS4gRPuhPoljUov7Uo0qZw2R0ARbJJiMTayQvY.jpg"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: từ chữ trên nhãn hũ (ảnh iCheck theo mã vạch, mã vạch trên nhãn khớp)",
+    "source": null,
+    "rubricVersion": "v23"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:01:41.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "image REPLACE (photo shows another product), description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T08:24:52.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "wave3: no usable reference for a Gemini redraw"
+    },
+    {
+      "at": "2026-10-18T18:26:09Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-18T18:26:21.079Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T02:05:27.524Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T03:19:05.400Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-18T18:26:21.079Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T01:49:19.582Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T01:49:19.582Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/7167c69597340fffa022421b1bd5c6f6be7f63bc4bc1ff533768afac87dccc5b.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2025/11/28/tongpenhchtl/e7c4d5f9a2d741e99a674e3c4935f59d.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Gà khô lá chanh Phương Huyền: gà khô xé sợi trộn lá chanh, giòn ngon đậm vị, không chất bảo quản (theo nhãn), đóng hũ nhựa ăn liền.\n\nQuy cách: hũ (nhãn ghi trọng lượng 130 g ± 5 g)\nNhà sản xuất: Công ty TNHH TM Thực phẩm Phương Huyền",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

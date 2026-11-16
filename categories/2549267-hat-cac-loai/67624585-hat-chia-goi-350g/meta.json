@@ -1,0 +1,113 @@
+{
+  "kiotProductId": "67624585",
+  "code": "8936202661140",
+  "barcode": "8936202661140",
+  "name": "Hạt chia gói 350g",
+  "fullName": "Hạt chia gói 350g (Gói)",
+  "brand": "Phương Huyền",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2549267",
+    "name": "Hạt các loại",
+    "path": "Đồ ăn vặt > Hạt các loại · Hoa quả sấy > Hạt các loại"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/1b34af26182b904536a12cbbd4e9c6f4756af8b0fd77216a02067b2c427af9f7.webp",
+    "description": "Hạt chia (Chia seeds) Phương Huyền Food đóng gói.\n\nQuy cách: 350 g · gói\nThương hiệu: Phương Huyền Food",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I3, I5: ảnh chụp cận gói, gói bị khung cắt, nền không trắng; không có trang hãng Phương Huyền Food → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Chữ chép đúng (Chất Lượng Khẳng Định Thương Hiệu Số 1, Chia SEEDS Hạt Chia, ISO 22000 2018, 'OGANIC SUPERFOOD' như bao bì); bỏ dòng NSX/HSD. Mặt trước không in khối lượng nên ảnh không có 350g; mép gói AI vẽ thêm (ảnh mẫu bị cắt).",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (ảnh chụp tại cửa hàng)",
+      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/08/13/tram8/c53c696f1e1148a1a6dbac06630d853a.jpeg"
+    },
+    "rubricVersion": "v17"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; mô tả ngắn chỉ từ dữ kiện chắc chắn (tên SP, chữ in mặt trước bao bì) vì không có trang hãng",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:43:14.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T05:13:04Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T05:13:20.536Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T05:23:58.238Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T05:13:20.536Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T05:15:28.117Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T05:15:28.117Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/1b34af26182b904536a12cbbd4e9c6f4756af8b0fd77216a02067b2c427af9f7.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/08/13/tram8/c53c696f1e1148a1a6dbac06630d853a.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Hạt chia (Chia seeds) Phương Huyền Food đóng gói.\n\nQuy cách: 350 g · gói\nThương hiệu: Phương Huyền Food",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

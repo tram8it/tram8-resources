@@ -1,0 +1,112 @@
+{
+  "kiotProductId": "64865647",
+  "code": "SP000136",
+  "barcode": "8852008511239",
+  "name": "TOPPO Nhân Dâu",
+  "fullName": "TOPPO Nhân Dâu (Hộp)",
+  "brand": "Lotte",
+  "unit": "Hộp",
+  "category": {
+    "kiotCategoryId": "2549067",
+    "name": "Bánh que chấm socola",
+    "path": "Bánh quy & bánh đóng gói > Bánh que chấm socola"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/93c2854759b4d88a6d89542b000b48e8add1eff1e98412356006f9f8e2164cf0.webp",
+    "description": "Bánh que Toppo của Lotte vị dâu (Strawberry Flavor): que bánh quy giòn có nhân kem dâu chạy dọc thân que.\n\nQuy cách: 40 g · hộp\nNhà sản xuất/thương hiệu: Lotte · Toppo",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "CROP",
+    "reason": "I9: packshot nền trắng đúng SP (Toppo Strawberry 40 g) nhưng không 1:1",
+    "source": null,
+    "rubricVersion": "v4",
+    "vivid": {
+      "rubricVersion": "v10",
+      "saturationGain": 1.12,
+      "contrastGain": 1.038,
+      "toneGain": 1.026,
+      "gamma": 1
+    }
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết từ chữ in mặt trước hộp (trên ảnh hiện tại)",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:07:05.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "b18 review (rubric v4): image CROP, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-15T09:16:17Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "tone.py --vivid: white balance/levels + brand-like colour (owner request)"
+    },
+    {
+      "at": "2026-10-18T17:50:10.409Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T02:05:27.524Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T03:19:05.400Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-18T17:50:10.409Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T01:21:26.448Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T01:21:26.448Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/93c2854759b4d88a6d89542b000b48e8add1eff1e98412356006f9f8e2164cf0.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/30/tram8/0c76fbed1fc74d259d10df251eed1bf6.png"
+        ]
+      },
+      "description": {
+        "to": "Bánh que Toppo của Lotte vị dâu (Strawberry Flavor): que bánh quy giòn có nhân kem dâu chạy dọc thân que.\n\nQuy cách: 40 g · hộp\nNhà sản xuất/thương hiệu: Lotte · Toppo",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

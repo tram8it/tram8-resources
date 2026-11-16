@@ -1,0 +1,132 @@
+{
+  "kiotProductId": "66028395",
+  "code": "4902430284240",
+  "barcode": "4902430284240",
+  "name": "SFG MAT LANH NHU BANG 115g",
+  "fullName": "SFG MAT LANH NHU BANG 115g (Hộp)",
+  "brand": "Safeguard",
+  "unit": "Hộp",
+  "category": {
+    "kiotCategoryId": "2548719",
+    "name": "Xà bông",
+    "path": "Chăm sóc cá nhân > Chăm sóc cơ thể > Xà bông"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/6eb967a3cd1dc0b5be0e58684a21425a42b0caa3a2f00b0764cd8e5bcf08fc75.webp",
+    "description": "Xà bông cục Safeguard Pure White (Trắng tinh khiết) của P&G, công nghệ Germ Shield giúp làm sạch và bảo vệ khỏi vi khuẩn, dùng hằng ngày cho cả gia đình.\n\nQuy cách: 1 bánh · hộp (tên hàng ghi 115 g)\nThương hiệu: Safeguard (Procter & Gamble)",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "Đồng bộ dòng SP (chủ 20/10): kiểu ảnh theo 66028429 → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt về chữ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-19",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh hiện tại/KiotViet của SP (nội dung) + ảnh đã duyệt của SP cùng dòng 66028429 (kiểu, góc, khung)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "REWRITE",
+    "reason": "D2: tên KiotViet ghi 'mát lạnh như băng' nhưng mã vạch là Safeguard Pure White → mô tả theo hàng thật",
+    "source": null,
+    "rubricVersion": "v19"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:23:46.000Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "b26: image ASK_OWNER, description ASK_OWNER"
+    },
+    {
+      "at": "2026-10-17T14:04:30Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "resolved without asking: barcode 4902430284240 = Safeguard Pure White (iCheck, Kingfoodmart, OFF) = current image; name mismatch logged in reports/ten-can-sua-kiotviet.md"
+    },
+    {
+      "at": "2026-10-17T14:06:21.773Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T18:53:23Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "line consistency 20/10: angled box -> front 3D box like Fresh Green — Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-19T18:53:44.840Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-20T03:28:53.537Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-26T04:58:33.990Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-19T18:53:44.840Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-20T03:25:18.821Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-20T03:25:18.821Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/6eb967a3cd1dc0b5be0e58684a21425a42b0caa3a2f00b0764cd8e5bcf08fc75.webp"
+        ],
+        "from": [
+          "https://img.tram8.vn/products/c7a7a65d6b5c0773d7f48fe6c208817116bf086113e355099c323337daa157f5.webp"
+        ]
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

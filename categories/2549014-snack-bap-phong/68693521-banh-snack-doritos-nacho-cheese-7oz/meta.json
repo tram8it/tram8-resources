@@ -1,0 +1,118 @@
+{
+  "kiotProductId": "68693521",
+  "code": "028400017299",
+  "barcode": "028400017299",
+  "name": "Bánh Snack Doritos Nacho Cheese 7oz",
+  "fullName": "Bánh Snack Doritos Nacho Cheese 7oz (Gói)",
+  "brand": "Doritos",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2549014",
+    "name": "Snack bắp & phồng",
+    "path": "Đồ ăn vặt > Snacks > Snack bắp & phồng"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/32d08aba51c14c32f9a75d1507b725f20ae6de2570714f61686a8191092e2dde.webp",
+    "description": "Snack bánh tortilla Doritos vị phô mai Nacho Cheese. Hàng Mỹ.\n\nQuy cách: 7 oz (198,4 g) · gói family size\nThương hiệu: Doritos (Frito-Lay)",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "chủ 31/10: hàng family size, gói cao dài — ảnh cũ thấp làm khách nhầm cỡ → vẽ lại dáng gói cao (~1,8–2 lần chiều ngang), cả lô cùng tỉ lệ → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ nhỏ có thể mờ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-31",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet + ảnh hãng (cheetos.com/doritos.com) + ảnh chủ gửi Doritos 31/10"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "viết theo bao bì + tên hàng",
+    "source": null,
+    "rubricVersion": "v18"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-31T14:03:54.159Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-31T14:15:25Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-31T14:15:36.651Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-31T14:31:50Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 3, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-31T14:31:54.336Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-31T14:39:21.269Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-11-02T09:01:21.866Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-31T14:31:54.336Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-31T14:34:31.958Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-31T14:34:31.958Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/32d08aba51c14c32f9a75d1507b725f20ae6de2570714f61686a8191092e2dde.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/10/31/tram8/bf127830692a4b62b9d46db2129545c0.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Snack bánh tortilla Doritos vị phô mai Nacho Cheese. Hàng Mỹ.\n\nQuy cách: 7 oz (198,4 g) · gói family size\nThương hiệu: Doritos (Frito-Lay)",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

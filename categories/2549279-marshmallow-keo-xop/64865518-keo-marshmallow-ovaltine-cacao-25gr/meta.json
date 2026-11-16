@@ -1,0 +1,112 @@
+{
+  "kiotProductId": "64865518",
+  "code": "6974936460327",
+  "barcode": "6974936460327",
+  "name": "Kẹo Marshmallow Ovaltine Cacao 25gr",
+  "fullName": "Kẹo Marshmallow Ovaltine Cacao 25gr (Cái)",
+  "brand": "Ovaltine",
+  "unit": "Cái",
+  "category": {
+    "kiotCategoryId": "2549279",
+    "name": "Marshmallow/kẹo xốp",
+    "path": "Các loại kẹo > Marshmallow/kẹo xốp"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/99e4785c7d5d45561f5a2a589c3ca70152a6d3245e24c2c59b051faae79f5912.webp",
+    "description": "Kẹo marshmallow Ovaltine nhân sô-cô-la cacao, dạng thanh gói riêng.\n\nQuy cách: 25 g · cái\nThương hiệu: Ovaltine",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I3/I4/I8: ảnh hộp trưng bày nhiều thanh, nền màu; SP bán lẻ từng que → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: vẽ một que lẻ từ ảnh hộp trưng bày; hai đầu que và chữ nhỏ vẽ suy ra; dòng khối lượng trên ảnh ghi 25g theo tên KiotViet (ảnh mẫu không đọc được số)",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet hộp trưng bày (chỉ làm mẫu, vẽ một que)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; mô tả ngắn từ chữ in trên thanh kẹo và tên SP",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-14T00:28:46.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "batch f2: image REPLACE -> needs photo, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T08:21:37Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T08:21:42.528Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T08:21:42.528Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T08:36:40.517Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T08:36:40.517Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/99e4785c7d5d45561f5a2a589c3ca70152a6d3245e24c2c59b051faae79f5912.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/02/07/tongpenhchtl/b125439d661541c29f21f57ef9bdf99c.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Kẹo marshmallow Ovaltine nhân sô-cô-la cacao, dạng thanh gói riêng.\n\nQuy cách: 25 g · cái\nThương hiệu: Ovaltine",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

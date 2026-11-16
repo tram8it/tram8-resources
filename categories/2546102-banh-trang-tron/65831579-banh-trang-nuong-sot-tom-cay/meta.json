@@ -1,0 +1,132 @@
+{
+  "kiotProductId": "65831579",
+  "code": "8936204410074",
+  "barcode": "8936204410074",
+  "name": "Bánh tráng nướng sốt tôm cay",
+  "fullName": "Bánh tráng nướng sốt tôm cay (Gói)",
+  "brand": "Ohayo",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2546102",
+    "name": "Bánh tráng trộn",
+    "path": "Đồ ăn vặt > Bánh tráng trộn"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/ce3fedfdfd098bcc8771051323b9994891ef1e38dd653271db1b6f5d8fe0b274.webp",
+    "description": "Bánh tráng nướng sốt tôm cay thương hiệu Ohayo, món ăn vặt đóng gói ăn liền. Bánh tráng nướng phủ sốt tôm, vị cay.\n\nQuy cách: gói\nThương hiệu: Ohayo",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I3/I5: ảnh tự chụp gói nhăn, bóng, hơi mờ; không có ảnh hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt (chữ nhỏ vẽ gần đúng)",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết ngắn chỉ từ dữ kiện chắc chắn (tên SP, chữ in mặt trước bao bì), không có trang hãng/nhãn sau",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:32:10.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "batch b09 review: image CROP, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-15T02:50:29.267Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-15T09:16:17Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "tone.py --vivid: white balance/levels + brand-like colour (owner request)"
+    },
+    {
+      "at": "2026-10-15T09:16:57.071Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-16T01:38:49.852Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-17T15:31:19Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T15:38:47.766Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T15:38:47.766Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T17:20:48.320Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T17:20:48.320Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/ce3fedfdfd098bcc8771051323b9994891ef1e38dd653271db1b6f5d8fe0b274.webp"
+        ],
+        "from": [
+          "https://img.tram8.vn/products/d9475660302a3846433810d3da1c6dcce3312f3c0711e3c3beef20bf88d8d7c2.webp"
+        ]
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

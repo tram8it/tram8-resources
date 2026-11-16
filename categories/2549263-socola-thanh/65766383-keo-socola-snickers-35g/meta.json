@@ -1,0 +1,144 @@
+{
+  "kiotProductId": "65766383",
+  "code": "69024894",
+  "barcode": "69024894",
+  "name": "Kẹo socola Snickers 35g",
+  "fullName": "Kẹo socola Snickers 35g (Thanh)",
+  "brand": "Snickers",
+  "unit": "Thanh",
+  "category": {
+    "kiotCategoryId": "2549263",
+    "name": "Socola thanh",
+    "path": "Đồ ăn vặt > Chocolate > Socola thanh"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/b5cdec10cfacf3c299402a6a3e91a134237f29b23f62fb434c9bdb3cf4f95966.webp",
+    "description": "Thanh Snickers nhân đậu phộng phủ sô cô la.\n\nQuy cách: 35 g · thanh\nNhà sản xuất/thương hiệu: Snickers",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "chủ 19/10: làm như KitKat — vỏ đặt chéo, to, kèm thanh bánh bóc vỏ → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: vỏ chép từ ảnh cũ; thanh bánh bên cạnh là minh hoạ; chữ nhỏ để mờ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-19",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh vỏ Snickers hiện có (hàng thật) + bộ ảnh KitKat đã làm (bố cục)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết ngắn từ chữ in trên bao bì (ảnh hiện tại) + tên SP, không có trang hãng",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:14:49.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "image KEEP, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-15T02:53:13.415Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description"
+    },
+    {
+      "at": "2026-10-16T01:38:49.852Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-17T15:16:50Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T15:17:21.378Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T03:08:53Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "redo after Hub rejection:  — Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-19T03:08:53.519Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T03:11:10.027Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T03:19:05.400Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-19T03:08:53.519Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T03:09:52.219Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T03:09:52.219Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/b5cdec10cfacf3c299402a6a3e91a134237f29b23f62fb434c9bdb3cf4f95966.webp"
+        ],
+        "from": [
+          "https://img.tram8.vn/products/f393fab5b76f9b718bc366d52beec4c34483a1e62dc0c6992abd51f4241bbb5b.webp"
+        ]
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

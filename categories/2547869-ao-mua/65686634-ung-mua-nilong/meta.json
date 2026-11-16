@@ -1,0 +1,129 @@
+{
+  "kiotProductId": "65686634",
+  "code": "UM0000102",
+  "barcode": null,
+  "name": "Ủng Mưa Nilong",
+  "fullName": "Ủng Mưa Nilong (Đôi)",
+  "brand": null,
+  "unit": "Đôi",
+  "category": {
+    "kiotCategoryId": "2547869",
+    "name": "Áo mưa",
+    "path": "Gia dụng & Tiện ích > Áo mưa"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/c23a6f4d99c9ab1e5a704cf462878f5d8b17b88373eb580967a28a1a256258a9.webp",
+    "description": "Ủng đi mưa nilon màu tím, dạng bọc ngoài giày, giúp giữ giày khô khi đi mưa; mỏng nhẹ, gấp gọn dễ mang theo.\n\nQuy cách: 1 đôi",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "ảnh nhân viên chụp 19/10 là túi 5 đôi (nhãn 'ỦNG ĐI MƯA SL: 5 đôi'); đơn vị KiotViet là Đôi (v19) → vẽ 1 đôi → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: ảnh minh hoạ 1 đôi ủng nilon tím bóc khỏi túi; hình dáng ủng (cổ cao) do Gemini dựng từ màu/chất liệu trong ảnh — ảnh gốc chỉ thấy túi gấp, không thấy rõ dáng ủng",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-19",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh nhân viên chụp (KiotViet 19/10)",
+      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/10/19/tram8/eed97a93248446978850b52cdbe6de91.png"
+    },
+    "rubricVersion": "v23"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "mô tả viết từ chữ in trên bao bì trong ảnh nhân viên chụp 19/10 (mặt trước/nắp); chỉ dữ kiện đọc được, không suy diễn",
+    "source": {
+      "url": "https://cdn2-retail-images.kiotviet.vn/2026/10/19/tram8/eed97a93248446978850b52cdbe6de91.png",
+      "fetchedAt": "2026-10-19T06:34:42Z",
+      "staffPhoto": true
+    },
+    "rubricVersion": "v23"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:22:41.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "phone photo, unbranded; description from name only"
+    },
+    {
+      "at": "2026-10-17T08:32:35Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "I3/I4/I5/I8: ảnh hai chiếc khác màu (tím, xanh) bị khung cắt, không thấy nguyên một đôi; hàng không thương hiệu → cần chụp 1 đôi"
+    },
+    {
+      "at": "2026-10-19T06:33:30Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-19T06:34:42Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "nk6 19/10: staff photo → Gemini redraw accepted; description written from the pack in the photo"
+    },
+    {
+      "at": "2026-10-19T06:35:08.542Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T07:23:08.254Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T17:15:09.663Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-19T06:35:08.542Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T06:56:46.360Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T06:56:46.360Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/c23a6f4d99c9ab1e5a704cf462878f5d8b17b88373eb580967a28a1a256258a9.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/10/19/tram8/eed97a93248446978850b52cdbe6de91.png"
+        ]
+      },
+      "description": {
+        "to": "Ủng đi mưa nilon màu tím, dạng bọc ngoài giày, giúp giữ giày khô khi đi mưa; mỏng nhẹ, gấp gọn dễ mang theo.\n\nQuy cách: 1 đôi",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

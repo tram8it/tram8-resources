@@ -1,0 +1,179 @@
+{
+  "kiotProductId": "65154850",
+  "code": "8801382124528",
+  "barcode": "8801382124528",
+  "name": "Nước gạo buổi sáng (Morning Rice) 500ml",
+  "fullName": "Nước gạo buổi sáng (Morning Rice) 500ml (Chai)",
+  "brand": "Woongjin",
+  "unit": "Chai",
+  "category": {
+    "kiotCategoryId": "2549382",
+    "name": "Nước gạo / sữa hạt",
+    "path": "Đồ uống đóng chai > Nước gạo / sữa hạt"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/7f1407e0714a04d8ef756f342fa1edccc9e2a5aa78b7992bd732b970c75755ff.webp",
+    "description": "Nước gạo Hàn Quốc Woongjin Morning Rice (아침햇살 – \"nắng sớm\"), thức uống làm từ gạo, đóng chai nhựa.\n\nQuy cách: 500 ml · chai\nXuất xứ: Hàn Quốc · Nhà sản xuất/thương hiệu: Woongjin",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "ảnh tự chụp (mềm, nhăn/bóng lóa); không có ảnh hãng trong danh sách nguồn → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt ở chữ lớn; chữ nhỏ đã so với ảnh",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet hiện có (ảnh tự chụp)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; mô tả ngắn từ tên SP và chữ in trên nhãn (Morning Rice, 아침햇살); trang Woongjin không truy cập được",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:21:22.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "b26: image CROP, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-15T09:16:17Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "tone.py --vivid: white balance/levels + brand-like colour (owner request)"
+    },
+    {
+      "at": "2026-10-17T14:21:45Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T14:27:43.687Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T14:27:43.687Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T16:56:30.754Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T16:56:30.754Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/7f1407e0714a04d8ef756f342fa1edccc9e2a5aa78b7992bd732b970c75755ff.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/29/tram8/af8afa965e20452c9d3b621fe6f44894.png"
+        ]
+      },
+      "description": {
+        "to": "Nước gạo Hàn Quốc Woongjin Morning Rice (아침햇살 – \"nắng sớm\"), thức uống làm từ gạo, đóng chai nhựa.\n\nQuy cách: 500 ml · chai\nXuất xứ: Hàn Quốc · Nhà sản xuất/thương hiệu: Woongjin",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {
+      "price": {
+        "to": 29629.63,
+        "from": 29090.91
+      },
+      "saleTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 65154850
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 65154850
+        }
+      },
+      "taxRate": {
+        "to": "VAT 8%",
+        "from": "VAT 10%"
+      },
+      "productTaxs": {
+        "to": [
+          {
+            "id": 0,
+            "name": "VAT 8%",
+            "taxId": 3,
+            "value": 8,
+            "productId": 65154850
+          }
+        ],
+        "from": [
+          {
+            "id": 0,
+            "name": "VAT 10%",
+            "taxId": 4,
+            "value": 10,
+            "productId": 65154850
+          }
+        ]
+      },
+      "purchaseTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 65154850
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 65154850
+        }
+      }
+    }
+  }
+}

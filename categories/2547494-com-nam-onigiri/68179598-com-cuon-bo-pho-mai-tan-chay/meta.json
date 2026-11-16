@@ -1,0 +1,160 @@
+{
+  "kiotProductId": "68179598",
+  "code": "SP878225",
+  "barcode": null,
+  "name": "Cơm Cuộn Bò Phô Mai Tan Chảy",
+  "fullName": "Cơm Cuộn Bò Phô Mai Tan Chảy - Hâm (Cái)",
+  "brand": "Onigiri Việt",
+  "unit": "Cái",
+  "category": {
+    "kiotCategoryId": "2547494",
+    "name": "Cơm nắm Onigiri",
+    "path": "Món ngon Trạm 8 > Cơm nắm Onigiri"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/1b3be362ff84a53f5b158687fa4f3d286d2d8de9d2dda72ff79059c81ce693e6.webp",
+    "description": "Cơm cuộn bò phô mai tan chảy, món cơm cuộn ăn liền tiện lợi cho bữa sáng hoặc bữa nhẹ.\n\nQuy cách: cái",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "chủ 18/10: khay mì Ý hình chữ nhật; cơm cuộn tái tạo đúng ảnh chụp, giữ góc chéo → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: vẽ lại sạch trên nền trắng; chữ nhỏ để mờ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-18",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet của SP (hàng thật tại quầy)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết ngắn chỉ từ tên SP (chưa biết thành phần, quy cách)",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:44:35.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "image NEEDS_PHOTO (no image), description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "NEEDS_PHOTO",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:51:26Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-3.1-flash-image), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T17:51:23Z",
+      "by": "owner",
+      "status": "READY",
+      "note": "chủ 17/10: ảnh món ăn hấp dẫn, đồng bộ"
+    },
+    {
+      "at": "2026-10-17T17:52:29.892Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-18T17:16:08.691Z",
+      "by": "owner",
+      "status": "IN_PROGRESS",
+      "note": "rejected on Hub by AU KHUONG DUY: Cái cơm cuộn này là loại ngắn, ko cắt, ăn liền đừng làm ảnh thế. tái tạo ảnh sp là đc r."
+    },
+    {
+      "at": "2026-10-18T17:28:02Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "redo after Hub rejection: Cái cơm cuộn này là loại ngắn, ko cắt, ăn liền đừng làm ảnh thế. tái tạo ảnh sp là đc r. — Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-18T17:28:02.926Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-18T17:44:24.092Z",
+      "by": "owner",
+      "status": "IN_PROGRESS",
+      "note": "rejected on Hub by AU KHUONG DUY: Làm tương tự với cái còn lại"
+    },
+    {
+      "at": "2026-10-18T17:45:38Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "redo after Hub rejection: Làm tương tự với cái còn lại — Gemini API redraw (attempt 3, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-18T17:45:38.738Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T02:05:27.524Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T03:19:05.400Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-18T17:45:38.738Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-18T17:46:29.427Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-18T17:46:29.427Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/1b3be362ff84a53f5b158687fa4f3d286d2d8de9d2dda72ff79059c81ce693e6.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/10/17/tram8/0cc19685898841d1b7ecd1d2cffe3bc5.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Cơm cuộn bò phô mai tan chảy, món cơm cuộn ăn liền tiện lợi cho bữa sáng hoặc bữa nhẹ.\n\nQuy cách: cái",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

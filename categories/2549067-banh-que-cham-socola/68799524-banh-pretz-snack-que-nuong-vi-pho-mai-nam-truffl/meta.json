@@ -1,0 +1,106 @@
+{
+  "kiotProductId": "68799524",
+  "code": "8851019601465",
+  "barcode": "8851019601465",
+  "name": "BÁNH PRETZ SNACK QUE NƯỚNG VỊ PHÔ MAI NẤM TRUFFLE 26G",
+  "fullName": "BÁNH PRETZ SNACK QUE NƯỚNG VỊ PHÔ MAI NẤM TRUFFLE 26G (Hộp)",
+  "brand": null,
+  "unit": "Hộp",
+  "category": {
+    "kiotCategoryId": "2549067",
+    "name": "Bánh que chấm socola",
+    "path": "Bánh quy & bánh đóng gói > Bánh que chấm socola"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/bfa82bbd7422a7ccd7224ebb92173543b7794164fde7e8b579379001406a6df7.webp",
+    "description": "Bánh que nướng Glico Pretz vị phô mai nấm truffle. Hàng Thái Lan.\n\nQuy cách: 26 g · hộp\nThương hiệu: Glico Pretz",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "SP mới 09/11: không có ảnh hãng (web hãng không có SP này) → vẽ lại từ ảnh chụp → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ nhỏ có thể mờ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-11-09",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet chụp hàng thật"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "viết theo bao bì + tên hàng",
+    "source": null,
+    "rubricVersion": "v18"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-11-09T06:00:31.106Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-11-09T06:16:56Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-11-09T06:17:23.214Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-11-13T01:08:41.850Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-11-13T01:09:35.548Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-11-09T06:17:23.214Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-11-09T12:55:21.460Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-11-09T12:55:21.460Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/bfa82bbd7422a7ccd7224ebb92173543b7794164fde7e8b579379001406a6df7.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/11/07/tram8/3ac2de65a2c640fa8110ca9cfe04b763.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Bánh que nướng Glico Pretz vị phô mai nấm truffle. Hàng Thái Lan.\n\nQuy cách: 26 g · hộp\nThương hiệu: Glico Pretz",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

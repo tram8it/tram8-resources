@@ -1,0 +1,113 @@
+{
+  "kiotProductId": "66521269",
+  "code": "8936011772228",
+  "barcode": "8936011772228",
+  "name": "Kem Merino Kool Vani Chanh muoi 52gx30",
+  "fullName": "Kem Merino Kool Vani Chanh muoi 52gx30 (Que)",
+  "brand": "Merino",
+  "unit": "Que",
+  "category": {
+    "kiotCategoryId": "2549567",
+    "name": "Kem que",
+    "path": "Kem & Đồ đông lạnh > Kem que"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/d22c9b183a31fa51f3565e58a1b00e5d126c2dadc2ece6bc107bad9f5ea70b29.webp",
+    "description": "Kem que Merino Kool vị vani chanh muối.\n\nQuy cách: 52 g · que\nNhà sản xuất/thương hiệu: Merino (KIDO Foods)\nBảo quản: Giữ đông lạnh.",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I8: ảnh KiotViet có 2 gói chồng nhau, lại là bao bì cũ (vàng, nằm ngang, HSD 2022); không có trang hãng Merino truy cập được → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Dùng bao bì MỚI (trắng–xanh lá, đứng dọc) theo yêu cầu chủ 17/10, khác ảnh cửa hàng (bao vàng cũ). Mặt trước không in khối lượng; trang Kim Phúc ghi 52g/cây khớp tên. Tên KiotViet ghi 'Vani Chanh muối', bao in 'Kem hương Chanh Muối – Salted lemon ice-cream'. Ngoài ra không thấy khác biệt so với mẫu",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh Kim Phúc/thegioikemngon (nhà bán lẻ, chỉ làm mẫu) – bao bì Merino Kool Chanh Muối mới",
+      "referenceUrl": "https://kimphuc.net/kem-merino-chanh-muoi-60g"
+    },
+    "rubricVersion": "v17"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; không có trang hãng truy cập được — mô tả ngắn chỉ từ dữ kiện chắc chắn (tên SP, thương hiệu, vị, khối lượng; không có ảnh bao bì để đọc thêm)",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:11:16.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "image needs photo (no official source), description WRITE_NEW (name facts only)"
+    },
+    {
+      "at": "2026-10-17T04:15:09Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T04:15:16.136Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T05:23:58.238Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T04:15:16.136Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T04:18:58.501Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T04:18:58.501Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/d22c9b183a31fa51f3565e58a1b00e5d126c2dadc2ece6bc107bad9f5ea70b29.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/06/16/tram8/ccf54fc633964d4094f74b7bc3408907.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Kem que Merino Kool vị vani chanh muối.\n\nQuy cách: 52 g · que\nNhà sản xuất/thương hiệu: Merino (KIDO Foods)\nBảo quản: Giữ đông lạnh.",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

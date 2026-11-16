@@ -1,0 +1,113 @@
+{
+  "kiotProductId": "64865319",
+  "code": "8801037086195",
+  "barcode": "8801037086195",
+  "name": "Starbucks frappuccino mocha 281ml",
+  "fullName": "Starbucks frappuccino mocha 281ml (Chai)",
+  "brand": "Starbucks",
+  "unit": "Chai",
+  "category": {
+    "kiotCategoryId": "2509938",
+    "name": "Cà phê uống liền",
+    "path": "Đồ uống đóng chai > Cà phê uống liền"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/3396ba25c4ce3d0dffbcfc37eababe82a9d7fc6ab3a495007f49f4173d6e10db.webp",
+    "description": "Cà phê Starbucks Frappuccino vị mocha đóng chai thuỷ tinh, cà phê sữa hoà quyện sô cô la. Ngon hơn khi uống lạnh.\n\nQuy cách: 281 ml · chai thuỷ tinh\nNhà sản xuất/thương hiệu: Starbucks",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I2, I4: ảnh cũ là lon Lotte Let's Be Mocha Latte, không phải SP; nền cửa hàng; trang Dongsuh tải SP bằng script, không lấy được ảnh hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: nhãn bản mới ('Mocha 모카' trên dải nâu, 281 ml (160 kcal), 커피함량 0.56% 이상) theo ảnh mẫu; dòng chữ nhỏ về caffeine để mờ vì ảnh mẫu không đọc được số; hai SP cùng dãy (Dolce, Coffee) đang dùng ảnh nhãn đời cũ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh render chai Starbucks Frappuccino Mocha 281ml trên 11st.co.kr (gian hàng ghi 동서식품 공식, chỉ làm mẫu)",
+      "referenceUrl": "https://www.11st.co.kr/products/6833410918"
+    },
+    "rubricVersion": "v17"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết ngắn chỉ từ tên SP",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:42:31.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "image NEEDS_PHOTO (wrong product photo), description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T05:35:50Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T05:35:50.993Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T08:06:02.482Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T05:35:50.993Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T07:08:40.577Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T07:08:40.577Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/3396ba25c4ce3d0dffbcfc37eababe82a9d7fc6ab3a495007f49f4173d6e10db.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/03/28/tongpenhchtl/1a3a42f8e54b4650a7074773ee9210a4.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Cà phê Starbucks Frappuccino vị mocha đóng chai thuỷ tinh, cà phê sữa hoà quyện sô cô la. Ngon hơn khi uống lạnh.\n\nQuy cách: 281 ml · chai thuỷ tinh\nNhà sản xuất/thương hiệu: Starbucks",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

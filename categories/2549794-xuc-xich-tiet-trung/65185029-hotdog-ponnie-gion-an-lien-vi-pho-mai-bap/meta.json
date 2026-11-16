@@ -1,0 +1,174 @@
+{
+  "kiotProductId": "65185029",
+  "code": "8936034877917",
+  "barcode": "8936034877917",
+  "name": "Hotdog Ponnie giòn ăn liền vị phô mai bắp",
+  "fullName": "Hotdog Ponnie giòn ăn liền vị phô mai bắp (Gói)",
+  "brand": "Ponnie",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2549794",
+    "name": "Xúc xích tiệt trùng",
+    "path": "Xúc Xích & Thịt Nguội > Xúc xích tiệt trùng"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/4bdee3be9467061d1d19ed6b4fd2699e6c66a38fe334a4273fd3127a70c86c9b.webp",
+    "description": "Xúc xích giòn ăn liền Ponnie (Meat Snack) mini vị phô mai bắp.\n\nQuy cách: 20 g · gói\nNhà sản xuất/thương hiệu: Masan MEATLife · Ponnie",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "line consistency 20/10: crumpled glossy pillow-pack photo-look with no sausage beside, vs flat Ponnie hotdog renders with a cut sausage beside the pack → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: gói phẳng, không nhăn; thêm 1 khúc xúc xích cạnh gói như các vị khác (minh hoạ)",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-20",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh Gemini cũ từ ảnh KiotViet (nội dung) + gói Hotdog vị bắp đã duyệt (kiểu ảnh)"
+    },
+    "rubricVersion": "v23"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết ngắn chỉ từ dữ kiện chắc chắn (tên SP, chữ in mặt trước bao bì); không có trang hãng có SP này",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:17:58.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "b16 review: image CROP, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-15T09:16:17Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "tone.py --vivid: white balance/levels + brand-like colour (owner request)"
+    },
+    {
+      "at": "2026-10-17T14:16:12Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T14:16:12.178Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "IN_PROGRESS",
+      "note": "rejected on Hub by AU KHUONG DUY: Hơi to, ko giống kỳ vọng lắm, bên trong nó có mỗi 1 cái xúc xích mini thôi"
+    },
+    {
+      "at": "2026-10-18T11:35:26Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "redo after Hub rejection: Hơi to, ko giống kỳ vọng lắm, bên trong nó có mỗi 1 cái xúc xích mini thôi — Gemini API redraw (attempt 4, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-18T11:35:27.197Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-18T17:16:08.691Z",
+      "by": "owner",
+      "status": "IN_PROGRESS",
+      "note": "rejected on Hub by AU KHUONG DUY: Ko giống thật, cái xúc xích này là hút chân không, có 4 cái mini ở trong"
+    },
+    {
+      "at": "2026-10-18T17:28:43Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "redo after Hub rejection: Ko giống thật, cái xúc xích này là hút chân không, có 4 cái mini ở trong — Gemini API redraw (attempt 6, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-18T17:28:43.171Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-18T17:44:24.092Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T03:19:05.400Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-20T16:39:37Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "line consistency 20/10: crumpled glossy pillow-pack photo-look with no sausage beside, vs flat Ponnie hotdog renders with a cut sausage beside the pack -> Gemini redraw (own image for content, approved sibling for style); Gemini API redraw (attempt 7, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-20T16:41:57.610Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-21T08:30:34.700Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-26T04:58:33.990Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-20T16:41:57.610Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-20T16:45:21.569Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-20T16:45:21.569Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/4bdee3be9467061d1d19ed6b4fd2699e6c66a38fe334a4273fd3127a70c86c9b.webp"
+        ],
+        "from": [
+          "https://img.tram8.vn/products/92ddabb84a9711efe8045c8d14c7143316b83b6e81ccfb262a43a6774b5fb47b.webp"
+        ]
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

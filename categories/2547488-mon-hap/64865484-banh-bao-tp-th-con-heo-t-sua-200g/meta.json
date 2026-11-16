@@ -1,0 +1,134 @@
+{
+  "kiotProductId": "64865484",
+  "code": "8938502525443",
+  "barcode": "8938502525443",
+  "name": "Banh Bao TP TH Con Heo T. Sua 200g",
+  "fullName": "Banh Bao TP TH Con Heo T. Sua 200g - Hấp (Khay)",
+  "brand": "Thọ Phát",
+  "unit": "Khay",
+  "category": {
+    "kiotCategoryId": "2547488",
+    "name": "Món hấp",
+    "path": "Món ngon Trạm 8 > Món hấp"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/fe5ff0fbd82a3887a64cd88851336a09538c8528971a34fa9f5e429eda2c3c0c.webp",
+    "description": "Bánh bao tạo hình con heo nhân trứng sữa của Thọ Phát, vỏ hồng xinh xắn, nhân ngọt béo.\n\nThành phần: bột mì (38,1%), nước, đường, trứng gà (9,5%), sữa đặc (5,2%), sữa bột, nước cốt dừa, bột năng, shortening, nấm men, bột đậu nành, muối i-ốt; màu tự nhiên từ quả dành dành và ớt; chất điều chỉnh độ acid, chất tạo xốp, chất bảo quản (282). Có chứa bột mì, trứng, sữa, đậu nành.\nQuy cách: 200 g · khay\nNhà sản xuất/thương hiệu: Thọ Phát (KIDO Group)\nBảo quản: ngăn mát 0–5°C (dùng trong 30 ngày kể từ ngày sản xuất) hoặc ngăn đông -18°C (12 tháng); ngày sản xuất và hạn dùng in trên bao bì.\nHướng dẫn sử dụng: lấy bánh ra khỏi bao bì, hấp cách thủy 15–20 phút trước khi dùng.",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "v18: món hấp bán lẻ hiện cái bánh và nhân thay cho ảnh bao bì → ảnh món ăn Gemini vẽ từ ảnh bao bì (v18: món hấp bán lẻ hiện cái bánh và nhân); ảnh minh hoạ. Khác hàng thật: nhân trứng sữa (kem trứng sữa vàng) theo tên SP; thành phần trên ảnh KiotViet (gói cũ 2021) không đọc được, bao bì không có hình bánh bổ đôi; ảnh minh hoạ, bánh thật có thể khác",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "food photo, whole + cut showing filling (v18)",
+      "reference": "ảnh bao bì (ảnh KiotViet + ảnh bao bì đã vẽ) — chỉ để biết hình bánh và nhân",
+      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/02/09/tongpenhchtl/f3d6fa337ca14967a4d49ae448a20202.jpeg"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; theo trang hãng Thọ Phát (Bánh con heo 200 g, khớp bao bì)",
+    "source": {
+      "url": "https://thophat.com/products/banh-con-heo/",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T22:00:00.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "batch b14 review (rubric v4): image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T05:33:59Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T06:00:00Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "barcode digits and garbled ISO line on the red band blurred locally after accept; untouched copy in work/untouched/"
+    },
+    {
+      "at": "2026-10-17T05:36:52.943Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T07:30:23Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 3, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T07:30:32.956Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T08:06:02.482Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T07:30:32.956Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T07:32:55.258Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T07:32:55.258Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/fe5ff0fbd82a3887a64cd88851336a09538c8528971a34fa9f5e429eda2c3c0c.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/02/09/tongpenhchtl/f3d6fa337ca14967a4d49ae448a20202.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Bánh bao tạo hình con heo nhân trứng sữa của Thọ Phát, vỏ hồng xinh xắn, nhân ngọt béo.\n\nThành phần: bột mì (38,1%), nước, đường, trứng gà (9,5%), sữa đặc (5,2%), sữa bột, nước cốt dừa, bột năng, shortening, nấm men, bột đậu nành, muối i-ốt; màu tự nhiên từ quả dành dành và ớt; chất điều chỉnh độ acid, chất tạo xốp, chất bảo quản (282). Có chứa bột mì, trứng, sữa, đậu nành.\nQuy cách: 200 g · khay\nNhà sản xuất/thương hiệu: Thọ Phát (KIDO Group)\nBảo quản: ngăn mát 0–5°C (dùng trong 30 ngày kể từ ngày sản xuất) hoặc ngăn đông -18°C (12 tháng); ngày sản xuất và hạn dùng in trên bao bì.\nHướng dẫn sử dụng: lấy bánh ra khỏi bao bì, hấp cách thủy 15–20 phút trước khi dùng.",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "kiotProductId": "67912380",
+  "code": "4901551356461",
+  "barcode": "4901551356461",
+  "name": "Kẹo Sáng Tạo Popin Cookin Mì Ramen 32g",
+  "fullName": "Kẹo Sáng Tạo Popin Cookin Mì Ramen 32g (Hộp)",
+  "brand": "Popin Cookin",
+  "unit": "Hộp",
+  "category": {
+    "kiotCategoryId": "2549278",
+    "name": "Kẹo sáng tạo / đồ chơi",
+    "path": "Các loại kẹo > Kẹo sáng tạo / đồ chơi"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/fa840e7902c839e23c7ef12e862061803776c0be868e80554ccb6f840828b62b.webp",
+    "description": "Kẹo sáng tạo Popin Cookin chủ đề mì ramen của Kracie (Nhật Bản): kẹo tự làm tạo hình tô mì.\n\nQuy cách: 32 g · hộp\nNhà sản xuất/thương hiệu: Kracie · Popin Cookin",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I1: chưa có ảnh; trang Kracie không còn dòng たのしいラーメンやさん → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ nhỏ (ghi chú cuối gói, nhãn phụ) có thể khác nhẹ; mặt trước gói không in khối lượng nên không kiểm được 32 g trên ảnh",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh Kingfoodmart theo mã vạch (chỉ làm mẫu)",
+      "referenceUrl": "https://storage.googleapis.com/onelife-public/4901551356461.jpg"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; mô tả ngắn từ tên hàng (Popin Cookin là kẹo tự làm của Kracie theo trang hãng)",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:00:36.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "image REPLACE (no image), description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T08:16:18Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T08:16:27.412Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T08:16:27.412Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T08:35:04.643Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T08:35:04.643Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/fa840e7902c839e23c7ef12e862061803776c0be868e80554ccb6f840828b62b.webp"
+        ],
+        "from": null
+      },
+      "description": {
+        "to": "Kẹo sáng tạo Popin Cookin chủ đề mì ramen của Kracie (Nhật Bản): kẹo tự làm tạo hình tô mì.\n\nQuy cách: 32 g · hộp\nNhà sản xuất/thương hiệu: Kracie · Popin Cookin",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

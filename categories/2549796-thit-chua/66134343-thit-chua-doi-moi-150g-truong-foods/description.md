@@ -1,0 +1,7 @@
+Thịt chua Đổi mới Trường Foods, thịt heo trộn lá ổi tươi, thính ngô, tinh dầu tỏi và ớt tươi, lên men tự nhiên; vị thịt chua truyền thống thêm mùi thơm của lá ổi.
+
+Thành phần: thịt heo, lá ổi tươi, thính ngô, tinh dầu tỏi ớt.
+Quy cách: 150 g · gói
+Xuất xứ: Việt Nam · Nhà sản xuất/thương hiệu: Công ty CP Lita Foods · Trường Foods
+Bảo quản: ngăn mát tủ lạnh 0–5 °C; hạn dùng 2 tháng kể từ ngày sản xuất.
+Hướng dẫn sử dụng: ăn kèm lá sung, lá mơ, lá đinh lăng, chấm tương ớt.

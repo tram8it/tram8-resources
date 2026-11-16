@@ -1,0 +1,134 @@
+{
+  "kiotProductId": "65831655",
+  "code": "6970903433592",
+  "barcode": "6970903433592",
+  "name": "Tiểu Mì Cay TIAO 20g",
+  "fullName": "Tiểu Mì Cay TIAO 20g (Gói)",
+  "brand": "Hàng nội địa Trung",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2549294",
+    "name": "Que cay / tăm cay (latiao)",
+    "path": "Đồ ăn vặt > Đồ nội địa Trung > Que cay / tăm cay (latiao)"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/06d45a263a471aca2e052c6dfdcb313f848e0c16889d3697a6f895abc33f0ea6.webp",
+    "description": "Tiểu mì cay TIAO, snack mì tẩm gia vị cay dạng que, gói nhỏ ăn vặt tiện lợi.\n\nQuy cách: 20 g · gói",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "v13–v15 (chủ 19/10): ảnh nhân viên chụp đã tách nền vẫn kém ảnh các SP cùng dòng đã duyệt (nhăn/loá/nghiêng) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: gói vẽ phẳng, có viền hàn trên/dưới; chữ nhỏ không đọc được",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-19",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh nhân viên chụp 18/10 (chỉ làm mẫu) + ảnh đã duyệt 65831663 (same line (TIAO / BANG / PIAN), chỉ làm mẫu phong cách)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; mô tả ngắn chỉ từ tên hàng (không có trang hãng)",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:30:00.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "b20 review: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T07:44:46Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "re-checked 17/10: no photo, no web reference for Junzai TIAO (barcode search empty) → still NEEDS_PHOTO"
+    },
+    {
+      "at": "2026-10-18T17:56:03Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "staff photo 2026-10-18 (Zalo); cutout + tone --vivid"
+    },
+    {
+      "at": "2026-10-18T17:57:03.708Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-18T18:25:06.046Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T02:16:58Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-19T02:18:13.445Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T02:44:56.965Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T03:19:05.400Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-19T02:18:13.445Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T02:29:55.031Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T02:29:55.031Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/06d45a263a471aca2e052c6dfdcb313f848e0c16889d3697a6f895abc33f0ea6.webp"
+        ],
+        "from": null
+      },
+      "description": {
+        "to": "Tiểu mì cay TIAO, snack mì tẩm gia vị cay dạng que, gói nhỏ ăn vặt tiện lợi.\n\nQuy cách: 20 g · gói",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

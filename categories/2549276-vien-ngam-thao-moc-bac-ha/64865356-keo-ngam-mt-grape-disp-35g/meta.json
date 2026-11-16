@@ -1,0 +1,136 @@
+{
+  "kiotProductId": "64865356",
+  "code": "8935001718093",
+  "barcode": "8935001718093",
+  "name": "Kẹo Ngậm MT Grape Disp 35g",
+  "fullName": "Kẹo Ngậm MT Grape Disp 35g (Hộp)",
+  "brand": "Mentos",
+  "unit": "Hộp",
+  "category": {
+    "kiotCategoryId": "2549276",
+    "name": "Viên ngậm thảo mộc / bạc hà",
+    "path": "Các loại kẹo > Viên ngậm thảo mộc / bạc hà"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/4e001c2694014e65deb71834c9cc82e02cef4fe704f0e053cc8e666a2cdb4612.webp",
+    "description": "Kẹo ngậm không đường Mentos hương nho bạc hà, đựng trong hộp nhựa nắp bật nhỏ gọn bỏ túi, cho hơi thở thơm mát.\n\nQuy cách: 17,5 g · hộp\nNhà sản xuất/thương hiệu: Mentos (Perfetti Van Melle)",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I3/I8: ảnh KiotViet chụp kệ, khay che mặt trước; hộp đang bán in 17,5 g, hương nho bạc hà (kiểm kệ 17/10) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: bỏ màng bọc nilon trong (ảnh Mentos cùng dãy còn màng bọc)",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh nhân viên chụp 17/10"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "REWRITE",
+    "reason": "sửa khối lượng 35 g → 17,5 g theo hộp đang bán (kiểm kệ 17/10); chữ in: kẹo ngậm không đường, hương nho bạc hà",
+    "source": null,
+    "rubricVersion": "v19"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:19:58.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "image NEEDS_PHOTO, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T05:00:00.000Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "image ASK_OWNER: weight on pack unverified (name 35g; barcode/dispenser look like the 17.5g series)"
+    },
+    {
+      "at": "2026-10-17T08:45:00Z",
+      "by": "owner",
+      "note": "RUBRIC v19: khối lượng tin bao bì đúng mã vạch hơn tên KiotViet; chỉ hỏi khi lệch > ~10% hoặc rõ là cỡ khác",
+      "status": "ASK_OWNER"
+    },
+    {
+      "at": "2026-10-17T09:30:00Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "gap > ~10% / other size or needs shelf check: question shortened to the two numbers (RUBRIC v19)"
+    },
+    {
+      "at": "2026-10-17T12:00:00Z",
+      "by": "owner",
+      "status": "ASK_OWNER",
+      "note": "Kiểm kệ 17/10 (nhân viên chụp): hộp nắp bật \"Kẹo ngậm không đường mentos Hương NHO BẠC HÀ\", khối lượng tịnh 17,5 g"
+    },
+    {
+      "at": "2026-10-17T12:56:34Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T12:58:06.223Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T12:58:06.223Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T13:32:59.921Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T13:32:59.921Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/4e001c2694014e65deb71834c9cc82e02cef4fe704f0e053cc8e666a2cdb4612.webp"
+        ],
+        "from": [
+          "https://cdn1-retail-images.kiotviet.vn/2026/03/15/tongpenhchtl/5e2fa0c3e4824afbb7eac8d10aaaa798.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Kẹo ngậm không đường Mentos hương nho bạc hà, đựng trong hộp nhựa nắp bật nhỏ gọn bỏ túi, cho hơi thở thơm mát.\n\nQuy cách: 17,5 g · hộp\nNhà sản xuất/thương hiệu: Mentos (Perfetti Van Melle)",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

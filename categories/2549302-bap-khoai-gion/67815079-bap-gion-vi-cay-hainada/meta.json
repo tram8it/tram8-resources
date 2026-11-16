@@ -1,0 +1,131 @@
+{
+  "kiotProductId": "67815079",
+  "code": "8936241860290",
+  "barcode": "8936241860290",
+  "name": "Bắp Giòn Vị Cay Hainada",
+  "fullName": "Bắp Giòn Vị Cay Hainada (Gói)",
+  "brand": "Hàng nội địa Trung",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2549302",
+    "name": "Bắp & khoai giòn",
+    "path": "Đồ ăn vặt > Đồ nội địa Trung > Bắp & khoai giòn"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/3d571719724dad72d731c3b4d66cbda51a578aeb1f7fd93d96f873adf2912b11.webp",
+    "description": "Bắp giòn Hainada vị cay: hạt bắp sấy giòn tẩm vị cay, ăn liền.\n\nQuy cách: 25 g · gói\nThương hiệu: Hainada",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "v13–v15 (chủ 19/10): ảnh nhân viên chụp đã tách nền vẫn kém ảnh các SP cùng dòng đã duyệt (nhăn/loá/nghiêng) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: gói vẽ phẳng, có viền hàn trên/dưới như bản Nguyên vị",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-19",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh nhân viên chụp 18/10 (chỉ làm mẫu) + ảnh đã duyệt 66923264 (same shop category, chỉ làm mẫu phong cách)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "REWRITE",
+    "reason": "sửa theo chữ in mặt trước bao bì trong ảnh nhân viên chụp (khối lượng, vị, thương hiệu); không có trang hãng",
+    "source": {
+      "staffPhoto": true,
+      "takenAt": "2026-10-18"
+    },
+    "rubricVersion": "v22"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:14:01.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "no image, no official source; description WRITE_NEW from name"
+    },
+    {
+      "at": "2026-10-17T12:00:00Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "Đợt 3: tra Kingfoodmart, Open Food Facts và web theo mã vạch/tên — không có ảnh mẫu bao bì nào (chưa có ảnh KiotViet) → giữ NEEDS_PHOTO, cần nhân viên chụp"
+    },
+    {
+      "at": "2026-10-18T17:56:03Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "staff photo 2026-10-18 (Zalo); cutout + tone --vivid"
+    },
+    {
+      "at": "2026-10-18T17:57:05.925Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T02:16:58Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 3, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-19T02:18:19.687Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T02:44:56.965Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T03:19:05.400Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-19T02:18:19.687Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T02:30:01.433Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T02:30:01.433Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/3d571719724dad72d731c3b4d66cbda51a578aeb1f7fd93d96f873adf2912b11.webp"
+        ],
+        "from": null
+      },
+      "description": {
+        "to": "Bắp giòn Hainada vị cay: hạt bắp sấy giòn tẩm vị cay, ăn liền.\n\nQuy cách: 25 g · gói\nThương hiệu: Hainada",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

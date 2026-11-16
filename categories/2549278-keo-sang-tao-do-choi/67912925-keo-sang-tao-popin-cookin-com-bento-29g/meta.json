@@ -1,0 +1,111 @@
+{
+  "kiotProductId": "67912925",
+  "code": "4901551353958",
+  "barcode": "4901551353958",
+  "name": "Kẹo Sáng Tạo Popin Cookin Cơm Bento 29g",
+  "fullName": "Kẹo Sáng Tạo Popin Cookin Cơm Bento 29g (Hộp)",
+  "brand": "Popin Cookin",
+  "unit": "Hộp",
+  "category": {
+    "kiotCategoryId": "2549278",
+    "name": "Kẹo sáng tạo / đồ chơi",
+    "path": "Các loại kẹo > Kẹo sáng tạo / đồ chơi"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/f27b06e4268b8cdda1032d3a47ae327a532bddab552a4d59c30ece19691ca5aa.webp",
+    "description": "Kẹo sáng tạo Popin Cookin chủ đề cơm hộp bento của Kracie (Nhật Bản): kẹo tự làm tạo hình hộp cơm.\n\nQuy cách: 29 g · hộp\nNhà sản xuất/thương hiệu: Kracie · Popin Cookin",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I1: chưa có ảnh; trang Kracie không còn dòng おべんとうやさん → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt đáng kể (NET WT.29g đúng); chữ chú thích nhỏ có thể khác nhẹ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh Kingfoodmart theo mã vạch (chỉ làm mẫu)",
+      "referenceUrl": "https://storage.googleapis.com/onelife-public/4901551353958.jpg"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; mô tả ngắn từ tên hàng",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:00:36.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "image REPLACE (no image), description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T08:16:18Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T08:16:29.788Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T08:16:29.788Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T08:35:19.350Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T08:35:19.350Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/f27b06e4268b8cdda1032d3a47ae327a532bddab552a4d59c30ece19691ca5aa.webp"
+        ],
+        "from": null
+      },
+      "description": {
+        "to": "Kẹo sáng tạo Popin Cookin chủ đề cơm hộp bento của Kracie (Nhật Bản): kẹo tự làm tạo hình hộp cơm.\n\nQuy cách: 29 g · hộp\nNhà sản xuất/thương hiệu: Kracie · Popin Cookin",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

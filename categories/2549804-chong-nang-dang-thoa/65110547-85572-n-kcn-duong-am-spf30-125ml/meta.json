@@ -1,0 +1,113 @@
+{
+  "kiotProductId": "65110547",
+  "code": "4005808516179",
+  "barcode": "4005808516179",
+  "name": "85572 N KCN DUONG AM SPF30 125ML",
+  "fullName": "85572 N KCN DUONG AM SPF30 125ML (Chai)",
+  "brand": "Nivea",
+  "unit": "Chai",
+  "category": {
+    "kiotCategoryId": "2549804",
+    "name": "Chống nắng dạng thoa",
+    "path": "Chăm sóc cá nhân > Sản phẩm chống nắng > Chống nắng dạng thoa"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/d0049c12824233fee1fd14952938431fd25397671dbe6141995db42e7f9b38e5.webp",
+    "description": "Sữa chống nắng toàn thân NIVEA Sun Protect & Moisture SPF30, chống tia UVA/UVB, dưỡng ẩm cho da, không nhờn dính và kháng nước.\n\nQuy cách: 125 ml · chai\nNhà sản xuất/thương hiệu: Beiersdorf · NIVEA Sun\nHướng dẫn sử dụng: Thoa đều lên da trước khi ra nắng; thoa lại sau khi bơi hoặc ra nhiều mồ hôi.",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I3/I4: ảnh tay cầm chụp tại cửa hàng, nền không trắng; trang hãng chỉ có bản SPF50, không có packshot SPF30 125ml → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: vẽ từ chai SPF50 của hãng, đổi số thành SPF 30 và chữ dưới theo ảnh chụp chai thật; chữ nhỏ có thể khác chút",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh hãng NIVEA Philippines bản SPF50 125ml cùng chai (làm mẫu) + ảnh KiotViet bản SPF30",
+      "referenceUrl": "https://www.nivea.ph/products/protect-and-moisture-body-lotion-40058085164450264.html"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; mô tả ngắn từ chữ in mặt trước chai (SPF30, Protect & Moisture, kháng nước, 125 ml)",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:04:31.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "b26: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T08:15:10Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T08:15:13.346Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T08:15:13.346Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T08:34:56.397Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T08:34:56.397Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/d0049c12824233fee1fd14952938431fd25397671dbe6141995db42e7f9b38e5.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/04/22/tram8/b85fa527a41f44359704f2668b05759f.png"
+        ]
+      },
+      "description": {
+        "to": "Sữa chống nắng toàn thân NIVEA Sun Protect & Moisture SPF30, chống tia UVA/UVB, dưỡng ẩm cho da, không nhờn dính và kháng nước.\n\nQuy cách: 125 ml · chai\nNhà sản xuất/thương hiệu: Beiersdorf · NIVEA Sun\nHướng dẫn sử dụng: Thoa đều lên da trước khi ra nắng; thoa lại sau khi bơi hoặc ra nhiều mồ hôi.",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

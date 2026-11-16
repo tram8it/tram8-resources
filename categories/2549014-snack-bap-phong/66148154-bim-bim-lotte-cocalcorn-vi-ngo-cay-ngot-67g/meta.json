@@ -1,0 +1,130 @@
+{
+  "kiotProductId": "66148154",
+  "code": "8801062380114",
+  "barcode": "8801062380114",
+  "name": "Bim bim Lotte COCALCORN vị ngô cay ngọt 67G",
+  "fullName": "Bim bim Lotte COCALCORN vị ngô cay ngọt 67G (Gói)",
+  "brand": "Lotte",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2549014",
+    "name": "Snack bắp & phồng",
+    "path": "Đồ ăn vặt > Snacks > Snack bắp & phồng"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/b7d7808b13e920006d5018cb9c30e3f3430cdf5649bddbe88c4bde0ff46720bb.webp",
+    "description": "Snack bắp hình nón Lotte Kkokalcorn (꼬깔콘) vị nguyên bản 고소한맛 – vị bắp bùi, giòn nhẹ, hàng Hàn Quốc.\n\nQuy cách: 67 g · gói\nThương hiệu: Lotte Wellfood",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "Chủ: cần vuông vắn hơn → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt; 67 g như bao bì",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-18",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (chỉ làm mẫu)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "REWRITE",
+    "reason": "D2: tên ghi 'vị ngô cay ngọt' nhưng mã vạch là vị nguyên bản (고소한맛) → mô tả theo hàng thật",
+    "source": null,
+    "rubricVersion": "v19"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:23:35.000Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "asked owner: name cay ngọt vs original-flavour image"
+    },
+    {
+      "at": "2026-10-17T14:04:30Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "resolved without asking: barcode 8801062380114 = Kkokalcorn Original (OFF) = current image; name mismatch logged"
+    },
+    {
+      "at": "2026-10-17T14:06:25.989Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "IN_PROGRESS",
+      "note": "rejected on Hub by AU KHUONG DUY: Cần vuông vắn hơn"
+    },
+    {
+      "at": "2026-10-18T11:31:37Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "redo after Hub rejection: Cần vuông vắn hơn — Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-18T11:31:37.920Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-18T17:16:08.691Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T03:19:05.400Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-18T11:31:37.920Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-18T17:11:24.162Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-18T17:11:24.162Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/b7d7808b13e920006d5018cb9c30e3f3430cdf5649bddbe88c4bde0ff46720bb.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/27/tram8/80a4dd51283e4a56887d7942a34211b6.png"
+        ]
+      },
+      "description": {
+        "to": "Snack bắp hình nón Lotte Kkokalcorn (꼬깔콘) vị nguyên bản 고소한맛 – vị bắp bùi, giòn nhẹ, hàng Hàn Quốc.\n\nQuy cách: 67 g · gói\nThương hiệu: Lotte Wellfood",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

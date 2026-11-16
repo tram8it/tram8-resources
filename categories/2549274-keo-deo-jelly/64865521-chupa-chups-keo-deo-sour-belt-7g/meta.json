@@ -1,0 +1,111 @@
+{
+  "kiotProductId": "64865521",
+  "code": "8935001713074",
+  "barcode": "8935001713074",
+  "name": "Chupa Chups Kẹo Dẻo Sour Belt 7g",
+  "fullName": "Chupa Chups Kẹo Dẻo Sour Belt 7g (Thanh)",
+  "brand": "Chupa Chups",
+  "unit": "Thanh",
+  "category": {
+    "kiotCategoryId": "2549274",
+    "name": "Kẹo dẻo / jelly",
+    "path": "Các loại kẹo > Kẹo dẻo / jelly"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/3ad3e7883c350438236c6e8212175cc74af4b38ee472c11cf641a2e7fbaf12ac.webp",
+    "description": "Kẹo dẻo Chupa Chups Sour Belt vị chua, dạng thanh nhỏ tiện mang theo.\n\nQuy cách: 7 g · thanh\nNhà sản xuất/thương hiệu: Chupa Chups",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I1: chưa có ảnh; không có ảnh hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Gói đặt chéo cho vừa khung vuông; mặt trước không in khối lượng (7 g in ở mặt sau, đúng tên KiotViet). Không thấy khác biệt khác.",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh Open Food Facts gói Sour Belt 7g (mã vạch 8935001713074, mặt trước + nhãn sau ghi 'Khối lượng tịnh: 7 g', chỉ làm mẫu)",
+      "referenceUrl": "https://world.openfoodfacts.org/product/8935001713074"
+    },
+    "rubricVersion": "v17"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; không có trang hãng/ảnh bao bì — mô tả ngắn chỉ từ tên SP và đơn vị bán",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:19:58.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "image NEEDS_PHOTO, description WRITE_NEW (name only)"
+    },
+    {
+      "at": "2026-10-17T04:38:38Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T04:38:54.474Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T05:23:58.238Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T04:38:54.474Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T04:39:56.278Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T04:39:56.278Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/3ad3e7883c350438236c6e8212175cc74af4b38ee472c11cf641a2e7fbaf12ac.webp"
+        ],
+        "from": null
+      },
+      "description": {
+        "to": "Kẹo dẻo Chupa Chups Sour Belt vị chua, dạng thanh nhỏ tiện mang theo.\n\nQuy cách: 7 g · thanh\nNhà sản xuất/thương hiệu: Chupa Chups",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

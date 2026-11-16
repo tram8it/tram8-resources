@@ -1,0 +1,113 @@
+{
+  "kiotProductId": "65204472",
+  "code": "8938549708083",
+  "barcode": "8938549708083",
+  "name": "BTT Vị Sa Tế Tôm Miss Bánh Tráng",
+  "fullName": "BTT Vị Sa Tế Tôm Miss Bánh Tráng (Gói)",
+  "brand": "Miss Bánh Tráng",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2546102",
+    "name": "Bánh tráng trộn",
+    "path": "Đồ ăn vặt > Bánh tráng trộn"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/c3da4032ab17cb8e2269383d104122694ae8dd174f4137e518cc9b3fc88b80dc.webp",
+    "description": "Bánh tráng trộn vị sa tế tôm thương hiệu Miss Bánh Tráng, dòng cao cấp, ăn liền ngay khi mở gói.\n\nQuy cách: gói\nNhà sản xuất/thương hiệu: Công ty CP Thực phẩm Vina Snack · Miss Bánh Tráng",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I3/I4/I8: ảnh điện thoại chụp 4 gói khác vị trên nền gạch; hãng không đăng ảnh SP riêng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Bố cục, màu, chữ lớn khớp ảnh mẫu; '46 g' đọc từ ảnh banner hãng độ phân giải thấp (cùng dãy 46 g); dòng tiếng Anh nhỏ 'Mixed Rice Paper With Chilli Shrimp Paste' là suy theo gói Sa tế bò (ảnh mẫu không đọc được), có lỗi chính tả nhỏ 'Mixeıt'",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh banner của hãng trên vinasnack.com.vn (cắt phóng to, chỉ làm mẫu) + ảnh KiotViet 4 gói",
+      "referenceUrl": "https://www.vinasnack.com.vn/"
+    },
+    "rubricVersion": "v17"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết ngắn chỉ từ dữ kiện chắc chắn (tên SP, chữ in mặt trước bao bì), không có trang hãng/nhãn sau",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:32:10.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "batch b09 review: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T05:14:46Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T05:14:50.087Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T05:23:58.238Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T05:14:50.087Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T05:16:26.033Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T05:16:26.033Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/c3da4032ab17cb8e2269383d104122694ae8dd174f4137e518cc9b3fc88b80dc.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/04/25/tram8/d5bb959893584521b00af4bdc3688dda.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Bánh tráng trộn vị sa tế tôm thương hiệu Miss Bánh Tráng, dòng cao cấp, ăn liền ngay khi mở gói.\n\nQuy cách: gói\nNhà sản xuất/thương hiệu: Công ty CP Thực phẩm Vina Snack · Miss Bánh Tráng",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

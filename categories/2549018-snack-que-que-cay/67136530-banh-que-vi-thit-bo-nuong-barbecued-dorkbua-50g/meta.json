@@ -1,0 +1,137 @@
+{
+  "kiotProductId": "67136530",
+  "code": "8935342400237",
+  "barcode": "8935342400237",
+  "name": "Bánh Que Vị Thịt Bò Nướng Barbecued Dorkbua 50g VN",
+  "fullName": "Bánh Que Vị Thịt Bò Nướng Barbecued Dorkbua 50g VN (Gói)",
+  "brand": "Dorkbua",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2549018",
+    "name": "Snack que / que cay",
+    "path": "Đồ ăn vặt > Snacks > Snack que / que cay"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/005206171cf94ca99f898e408ac616cf06d811da99900509c80f7d0508491fdd.webp",
+    "description": "Bánh que Lotus của Dorkbua vị thịt bò nướng BBQ, que bánh quy giòn, món ăn vặt tiện lợi.\n\nQuy cách: 62 g · gói\nNhà sản xuất/thương hiệu: Dorkbua (Lotus)",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I3/I7: ảnh chụp gói trên nền xám, có logo cửa hàng khác góc ảnh và khối khuyến mãi; không có ảnh hãng → Gemini vẽ lại → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: bỏ khối khuyến mãi 'Trúng quà liền tay… 1,3 tỷ đồng' (v17), thay bằng hình xiên bò nướng; bỏ mã NSX/HSD và chữ in dọc mép; dòng chú thích nhỏ cuối gói bị méo chữ (không đọc được ở cỡ web); khối lượng 62 g đúng như gói",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet hiện tại (gói thật 62 g, mã vạch nhập khẩu VN)",
+      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/07/18/tram8/564d2a8a19224b8ebfdfbda1c6acdc54.png"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: mô tả ngắn từ chữ in trên gói; khối lượng 62 g theo bao bì (v19), tên KiotViet ghi 50g giữ nguyên",
+    "source": null,
+    "rubricVersion": "v20"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:21:20.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "b07 review: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T04:49:05Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "weight on pack differs from KiotViet name; not redrawn"
+    },
+    {
+      "at": "2026-10-17T08:59:38Z",
+      "by": "owner",
+      "status": "ASK_OWNER",
+      "note": "Chủ trả lời 17/10 (RUBRIC v19): tin bao bì đúng mã vạch khi lệch nhỏ; lệch lớn/cỡ khác thì vẫn hỏi"
+    },
+    {
+      "at": "2026-10-17T08:59:38Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "v19: vẫn ASK_OWNER (lệch lớn hoặc cần xem kệ); rút gọn câu hỏi"
+    },
+    {
+      "at": "2026-10-17T13:45:21Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T13:45:44Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "resolved without asking: KiotViet photo of this barcode shows the 62 g pack (v19/v20: pack on photo = shelf pack); Gemini render, promo removed"
+    },
+    {
+      "at": "2026-10-17T13:45:46.637Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T13:45:46.637Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T13:46:59.873Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T13:46:59.873Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/005206171cf94ca99f898e408ac616cf06d811da99900509c80f7d0508491fdd.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/18/tram8/564d2a8a19224b8ebfdfbda1c6acdc54.png"
+        ]
+      },
+      "description": {
+        "to": "Bánh que Lotus của Dorkbua vị thịt bò nướng BBQ, que bánh quy giòn, món ăn vặt tiện lợi.\n\nQuy cách: 62 g · gói\nNhà sản xuất/thương hiệu: Dorkbua (Lotus)",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

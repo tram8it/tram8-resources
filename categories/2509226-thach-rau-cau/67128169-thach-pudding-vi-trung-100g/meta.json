@@ -1,0 +1,111 @@
+{
+  "kiotProductId": "67128169",
+  "code": "6948839518157",
+  "barcode": "6948839518157",
+  "name": "Thạch Pudding Vị Trứng 100g",
+  "fullName": "Thạch Pudding Vị Trứng 100g (Hộp)",
+  "brand": "Clever Mama",
+  "unit": "Hộp",
+  "category": {
+    "kiotCategoryId": "2509226",
+    "name": "Thạch – Rau câu",
+    "path": "Đồ ăn vặt > Thạch – Rau câu"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/d0bedd6f6ad091d6f805245b25b9d2ddb814b88ff2551d07279db71301ea8998.webp",
+    "description": "Thạch pudding vị trứng, hộp ăn liền.\n\nQuy cách: 100 g · hộp",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I1: chưa có ảnh; không có ảnh hãng (Clever Mama) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: bao bì chữ Trung theo ảnh mẫu OFF cùng mã vạch (净含量 100克); chưa đối chiếu với hàng trên kệ — nếu cửa hàng bán bản nhãn khác thì cần chụp; bỏ dòng in ngày",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh Open Food Facts (tay cầm, chỉ làm mẫu)",
+      "referenceUrl": "https://world.openfoodfacts.org/product/6948839518157"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết ngắn chỉ từ tên hàng (không có nguồn hãng)",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:54:06.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "b19: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T07:41:16Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T07:41:30.106Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T08:06:02.482Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T07:41:30.106Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T07:45:20.355Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T07:45:20.355Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/d0bedd6f6ad091d6f805245b25b9d2ddb814b88ff2551d07279db71301ea8998.webp"
+        ],
+        "from": null
+      },
+      "description": {
+        "to": "Thạch pudding vị trứng, hộp ăn liền.\n\nQuy cách: 100 g · hộp",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

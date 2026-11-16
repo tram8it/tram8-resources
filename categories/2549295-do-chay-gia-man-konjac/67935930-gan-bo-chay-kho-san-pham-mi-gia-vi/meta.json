@@ -1,0 +1,130 @@
+{
+  "kiotProductId": "67935930",
+  "code": "6958242200044",
+  "barcode": "6958242200044",
+  "name": "Gân Bò Chay Kho",
+  "fullName": "Gân Bò Chay Kho (Gói)",
+  "brand": null,
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2549295",
+    "name": "Đồ chay giả mặn (konjac)",
+    "path": "Đồ ăn vặt > Đồ nội địa Trung > Đồ chay giả mặn (konjac)"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/65b32ceaede48b726eb4a6fb92a44fdf3632c2be4e14af95088963d6d9a50dd1.webp",
+    "description": "Gân bò chay kho, món ăn vặt dạng sản phẩm bột mì tẩm gia vị, đóng gói nhỏ.\n\nQuy cách: gói",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "chủ 19/10: xử lí theo ảnh có sẵn → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: ảnh minh hoạ: vẽ mặt túi như ảnh chụp (mặt cửa sổ trong); mặt trước in hình chưa có ảnh",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-19",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet của SP (mặt sau túi, cửa sổ trong)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; mô tả ngắn chỉ từ tên hàng (ghi 'sản phẩm mì gia vị' = sản phẩm bột mì tẩm gia vị)",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:55:32.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "image REPLACE (hand-held photo), description WRITE_NEW from name only"
+    },
+    {
+      "at": "2026-10-17T12:00:00Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "Đã tra Kingfoodmart/Open Food Facts/web theo mã vạch: không có ảnh mặt trước; giữ NEEDS_PHOTO"
+    },
+    {
+      "at": "2026-10-18T18:22:33.751Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "np18 re-research 18/10: still no image of this exact pack"
+    },
+    {
+      "at": "2026-10-19T07:35:23Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "np19 re-research 19/10 (image search): still no image of this exact product → NEEDS_PHOTO"
+    },
+    {
+      "at": "2026-10-19T17:16:03Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "redo after Hub rejection:  — Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-19T17:16:03.965Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-20T03:28:53.537Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-26T04:58:33.990Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-19T17:16:03.965Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T17:19:17.639Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T17:19:17.639Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/65b32ceaede48b726eb4a6fb92a44fdf3632c2be4e14af95088963d6d9a50dd1.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/09/02/tram8/68894fa4fb4f4b319326ffa36c9e764a.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Gân bò chay kho, món ăn vặt dạng sản phẩm bột mì tẩm gia vị, đóng gói nhỏ.\n\nQuy cách: gói",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

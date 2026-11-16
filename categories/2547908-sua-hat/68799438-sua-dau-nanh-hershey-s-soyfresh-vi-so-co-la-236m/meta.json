@@ -1,0 +1,106 @@
+{
+  "kiotProductId": "68799438",
+  "code": "9556007002154",
+  "barcode": "9556007002154",
+  "name": "SỮA ĐẬU NÀNH HERSHEY'S SOYFRESH VỊ SÔ CÔ LA 236ML",
+  "fullName": "SỮA ĐẬU NÀNH HERSHEY'S SOYFRESH VỊ SÔ CÔ LA 236ML (Hộp)",
+  "brand": "Hershey's",
+  "unit": "Hộp",
+  "category": {
+    "kiotCategoryId": "2547908",
+    "name": "Sữa hạt",
+    "path": "Sữa và các sản phẩm từ sữa > Sữa tiệt trùng > Sữa hạt"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/be0f30a2b71e952296f3c413df9c0150cc163955b723811cd3560c61d12d9b78.webp",
+    "description": "Sữa đậu nành Hershey's Soyfresh vị sô cô la, không chất bảo quản (theo bao bì).\n\nQuy cách: 236 ml · hộp\nThương hiệu: Hershey's Soyfresh",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "SP mới 09/11: không có ảnh hãng (web hãng không có SP này) → vẽ lại từ ảnh chụp → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ nhỏ có thể mờ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-11-09",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet chụp hàng thật"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "viết theo bao bì + tên hàng",
+    "source": null,
+    "rubricVersion": "v18"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-11-09T06:00:31.106Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-11-09T06:16:57Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-11-09T06:17:33.510Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-11-13T01:08:41.850Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-11-13T01:09:35.548Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-11-09T06:17:33.510Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-11-09T12:55:34.056Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-11-09T12:55:34.056Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/be0f30a2b71e952296f3c413df9c0150cc163955b723811cd3560c61d12d9b78.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/11/07/tram8/1a1ddd72d4f249c1b247583909c36487.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Sữa đậu nành Hershey's Soyfresh vị sô cô la, không chất bảo quản (theo bao bì).\n\nQuy cách: 236 ml · hộp\nThương hiệu: Hershey's Soyfresh",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

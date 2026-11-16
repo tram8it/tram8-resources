@@ -1,0 +1,180 @@
+{
+  "kiotProductId": "65176894",
+  "code": "8936024241261",
+  "barcode": "8936024241261",
+  "name": "Cà Phê Phố Lon 235ml",
+  "fullName": "Cà Phê Phố Lon 235ml (Lon)",
+  "brand": "Café Phố",
+  "unit": "Lon",
+  "category": {
+    "kiotCategoryId": "2509938",
+    "name": "Cà phê uống liền",
+    "path": "Đồ uống đóng chai > Cà phê uống liền"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/e87cef1083bbc92f7fe896a8c8f826157ecfec345e865e0d79540fd6601781fd.webp",
+    "description": "Cà phê sữa đá Việt Nam đóng lon MacCoffee Café Phố (Vietnamese Iced Milk Coffee), uống liền tiện lợi. Ngon hơn khi uống lạnh.\n\nQuy cách: 235 ml · lon\nNhà sản xuất/thương hiệu: MacCoffee · Café Phố",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "ảnh tự chụp (lon bóng, mềm); không có ảnh hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt về chữ lớn (MacCoffee CaféPHỐ, Vietnamese Iced Milk Coffee, Net volume at 20°C: 235 ml)",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet của cửa hàng (chỉ làm mẫu)",
+      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/07/29/tram8/606fd5245a304b78b941ed1e38a46678.png"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết ngắn từ tên SP và chữ in trên lon (trang cafepho.vn không truy cập được)",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:42:31.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "image CROP, description WRITE_NEW (pack facts)"
+    },
+    {
+      "at": "2026-10-15T09:16:17Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "tone.py --vivid: white balance/levels + brand-like colour (owner request)"
+    },
+    {
+      "at": "2026-10-17T14:13:00Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T14:13:00.443Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T14:13:00.443Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T16:13:46.897Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T16:13:46.897Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/e87cef1083bbc92f7fe896a8c8f826157ecfec345e865e0d79540fd6601781fd.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/29/tram8/606fd5245a304b78b941ed1e38a46678.png"
+        ]
+      },
+      "description": {
+        "to": "Cà phê sữa đá Việt Nam đóng lon MacCoffee Café Phố (Vietnamese Iced Milk Coffee), uống liền tiện lợi. Ngon hơn khi uống lạnh.\n\nQuy cách: 235 ml · lon\nNhà sản xuất/thương hiệu: MacCoffee · Café Phố",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {
+      "price": {
+        "to": 18518.52,
+        "from": 18181.82
+      },
+      "saleTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 65176894
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 65176894
+        }
+      },
+      "taxRate": {
+        "to": "VAT 8%",
+        "from": "VAT 10%"
+      },
+      "productTaxs": {
+        "to": [
+          {
+            "id": 0,
+            "name": "VAT 8%",
+            "taxId": 3,
+            "value": 8,
+            "productId": 65176894
+          }
+        ],
+        "from": [
+          {
+            "id": 0,
+            "name": "VAT 10%",
+            "taxId": 4,
+            "value": 10,
+            "productId": 65176894
+          }
+        ]
+      },
+      "purchaseTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 65176894
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 65176894
+        }
+      }
+    }
+  }
+}

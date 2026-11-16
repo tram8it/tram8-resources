@@ -1,0 +1,106 @@
+{
+  "kiotProductId": "68677119",
+  "code": "8936204013244",
+  "barcode": "K173",
+  "name": "Táo Nam Phi 150g / Trái ( Apple South Africa 150g / Piece )",
+  "fullName": "Táo Nam Phi 150g / Trái ( Apple South Africa 150g / Piece ) (Quả)",
+  "brand": "KAMEREO",
+  "unit": "Quả",
+  "category": {
+    "kiotCategoryId": "2547506",
+    "name": "Trái cây tươi",
+    "path": "Món ngon Trạm 8 > Trái cây tươi"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/e391642d7467934b74328b5bd7ee7bcde24be9b858c1754ce287d2180c589045.webp",
+    "description": "Táo Nam Phi, bán theo quả (khoảng 150 g/quả).\n\nQuy cách: quả\nNhà cung cấp: Kamereo",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "SP mới 31/10, không tìm được ảnh hãng dùng được (web hãng chặn/không có/khác nhãn) → vẽ lại từ ảnh chụp → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: bỏ tem giá; chữ nhỏ có thể mờ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-31",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet chụp hàng thật"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "viết theo nhãn trên ảnh chụp + tên hàng; không thêm dữ kiện ngoài nguồn",
+    "source": null,
+    "rubricVersion": "v18"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-31T12:31:13.488Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-31T14:11:22Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-31T14:12:04.939Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-31T14:26:35.820Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-11-02T09:01:21.866Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-31T14:12:04.939Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-31T14:17:59.497Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-31T14:17:59.497Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/e391642d7467934b74328b5bd7ee7bcde24be9b858c1754ce287d2180c589045.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/10/30/tram8/291d196c171a47a4a5dd64019a8fbd84.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Táo Nam Phi, bán theo quả (khoảng 150 g/quả).\n\nQuy cách: quả\nNhà cung cấp: Kamereo",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

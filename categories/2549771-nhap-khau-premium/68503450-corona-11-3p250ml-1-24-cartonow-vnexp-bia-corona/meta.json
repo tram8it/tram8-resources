@@ -1,0 +1,177 @@
+{
+  "kiotProductId": "68503450",
+  "code": "6915878224219",
+  "barcode": "6915878224219",
+  "name": "CORONA 11.3P250ML 1×24 CartonOW- VNEXP ( Bia Corona Chai 250ml )",
+  "fullName": "CORONA 11.3P250ML 1×24 CartonOW- VNEXP ( Bia Corona Chai 250ml ) - 4.5% (Chai)",
+  "brand": "Corona",
+  "unit": "Chai",
+  "category": {
+    "kiotCategoryId": "2549771",
+    "name": "Nhập khẩu & premium",
+    "path": "Đồ uống có cồn (18+) > Bia > Nhập khẩu & premium"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/287ff0ef5e9ff1fde99aa9626e9a42074959c42bb1f923f7e20f4c92719dab80.webp",
+    "description": "Bia Corona Extra, bia lager vàng nhạt của thương hiệu Corona (Mexico), chai thủy tinh trong nhỏ 250 ml. Ngon hơn khi uống lạnh.\n\nQuy cách: 250 ml · chai · 4,5% Alc./Vol.\nThương hiệu: Corona\nSản phẩm dành cho người từ 18 tuổi trở lên.",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I6/I9: ảnh KiotViet nhỏ, chai chỉ ~300px, lệch giữa; không có ảnh hãng chai 250 ml → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Bỏ lát chanh của ảnh mẫu; nhãn 250 ml · 4,5% Alc./Vol. đúng như ảnh mẫu Kingfoodmart; không thấy khác biệt khác",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh Kingfoodmart (chỉ làm mẫu) + ảnh KiotViet",
+      "referenceUrl": "https://storage.googleapis.com/onelife-public/6915878224219.jpg"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: KiotViet chưa có mô tả; viết ngắn từ nhãn chai (ảnh Kingfoodmart chỉ để đọc nhãn: 250 ml, 4,5% Alc./Vol.)",
+    "source": {
+      "url": "https://storage.googleapis.com/onelife-public/6915878224219.jpg",
+      "fetchedAt": "2026-10-17"
+    },
+    "rubricVersion": "v20"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-17T17:42:07Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T17:43:21Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T17:43:36.279Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T03:19:05.400Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T17:43:36.279Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T17:47:42.005Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T17:47:42.005Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/287ff0ef5e9ff1fde99aa9626e9a42074959c42bb1f923f7e20f4c92719dab80.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/10/16/tram8/232c6344b1fa4ea18862afb35591b885.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Bia Corona Extra, bia lager vàng nhạt của thương hiệu Corona (Mexico), chai thủy tinh trong nhỏ 250 ml. Ngon hơn khi uống lạnh.\n\nQuy cách: 250 ml · chai · 4,5% Alc./Vol.\nThương hiệu: Corona\nSản phẩm dành cho người từ 18 tuổi trở lên.",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {
+      "price": {
+        "to": 35648.15,
+        "from": 35000
+      },
+      "saleTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 68503450
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 68503450
+        }
+      },
+      "taxRate": {
+        "to": "VAT 8%",
+        "from": "VAT 10%"
+      },
+      "productTaxs": {
+        "to": [
+          {
+            "id": 0,
+            "name": "VAT 8%",
+            "taxId": 3,
+            "value": 8,
+            "productId": 68503450
+          }
+        ],
+        "from": [
+          {
+            "id": 0,
+            "name": "VAT 10%",
+            "taxId": 4,
+            "value": 10,
+            "productId": 68503450
+          }
+        ]
+      },
+      "purchaseTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 68503450
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 68503450
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "kiotProductId": "65162339",
+  "code": "8936114080107",
+  "barcode": "8936114080107",
+  "name": "Wrigley's Doublemint chewing gum 11.6g",
+  "fullName": "Wrigley's Doublemint chewing gum 11.6g (Vỉ)",
+  "brand": "Doublemint",
+  "unit": "Vỉ",
+  "category": {
+    "kiotCategoryId": "2549272",
+    "name": "Kẹo cao su / singum",
+    "path": "Các loại kẹo > Kẹo cao su / singum"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/9b55d833de30669659597d396c8a7537380dfdb36dacbc54560ec103eb7b04a1.webp",
+    "description": "Kẹo sing-gum Wrigley's Doublemint hương bạc hà, dạng vỉ nhỏ gọn.\n\nQuy cách: 11,6 g · vỉ\nNhà sản xuất/thương hiệu: Wrigley's · Doublemint",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I3/I4: ảnh chụp trên mặt bàn gỗ; không có ảnh hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt (gói vẽ phẳng, không nhăn)",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh Open Food Facts cùng mã vạch 8936114080107 (chỉ làm mẫu) + ảnh KiotViet",
+      "referenceUrl": "https://world.openfoodfacts.org/product/8936114080107"
+    },
+    "rubricVersion": "v17"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết ngắn từ tên SP và chữ in mặt trước bao bì (không có nguồn hãng)",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:31:48.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "review b08: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T04:54:44Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T04:54:54.456Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T05:23:58.238Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T04:54:54.456Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T05:02:07.248Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T05:02:07.248Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/9b55d833de30669659597d396c8a7537380dfdb36dacbc54560ec103eb7b04a1.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/04/24/tram8/2f42fcfcecaa441d95e7dcaba13f6f35.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Kẹo sing-gum Wrigley's Doublemint hương bạc hà, dạng vỉ nhỏ gọn.\n\nQuy cách: 11,6 g · vỉ\nNhà sản xuất/thương hiệu: Wrigley's · Doublemint",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

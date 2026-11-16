@@ -1,0 +1,126 @@
+{
+  "kiotProductId": "66922052",
+  "code": "6925678109319",
+  "barcode": "6925678109319",
+  "name": "Que cay (sản phẩm mì gia vị)",
+  "fullName": "Que cay (sản phẩm mì gia vị) (Gói)",
+  "brand": "Hàng nội địa Trung",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2549294",
+    "name": "Que cay / tăm cay (latiao)",
+    "path": "Đồ ăn vặt > Đồ nội địa Trung > Que cay / tăm cay (latiao)"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/aa93eb4c40478580c4bf4c4b185f4b20ea93037542b473d8e943affee87969fc.webp",
+    "description": "Que cay Jinmofang (金磨坊) Jingubang — que bột mì tẩm gia vị (sản phẩm mì gia vị), vị cay thơm (香辣味).\n\nQuy cách: 90 g · gói\nNhà sản xuất/thương hiệu: Jinmofang (金磨坊)",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I1: chưa có ảnh/ảnh KiotViet không đạt; không có ảnh hãng/NPP → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt đáng kể; 90 g, vị 香辣味 theo mẫu",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-18",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh Open Food Facts đúng mã vạch (chỉ làm mẫu)",
+      "referenceUrl": "https://world.openfoodfacts.org/product/6925678109319"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "REWRITE",
+    "reason": "Theo bao bì (Open Food Facts đúng mã vạch): Jinmofang 金箍棒, vị cay thơm, 90 g",
+    "source": {
+      "url": "https://world.openfoodfacts.org/product/6925678109319",
+      "fetchedAt": "2026-10-18T17:58:28.670Z"
+    },
+    "rubricVersion": "v19"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:30:00.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "b20 review: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T07:44:46Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "re-checked 17/10: no photo, flavour unknown, barcode search empty → still NEEDS_PHOTO"
+    },
+    {
+      "at": "2026-10-18T17:58:28Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-18T17:58:28.670Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "np18 re-research: description REWRITE"
+    },
+    {
+      "at": "2026-10-18T17:58:34.627Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T02:05:27.524Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T03:19:05.400Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-18T17:58:34.627Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T01:35:02.951Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T01:35:02.951Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/aa93eb4c40478580c4bf4c4b185f4b20ea93037542b473d8e943affee87969fc.webp"
+        ],
+        "from": null
+      },
+      "description": {
+        "to": "Que cay Jinmofang (金磨坊) Jingubang — que bột mì tẩm gia vị (sản phẩm mì gia vị), vị cay thơm (香辣味).\n\nQuy cách: 90 g · gói\nNhà sản xuất/thương hiệu: Jinmofang (金磨坊)",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

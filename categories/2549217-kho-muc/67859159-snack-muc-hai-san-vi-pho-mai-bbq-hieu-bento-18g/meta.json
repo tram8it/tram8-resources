@@ -1,0 +1,112 @@
+{
+  "kiotProductId": "67859159",
+  "code": "8850157408622",
+  "barcode": "8850157408622",
+  "name": "Snack Mực Hải Sản Vị Phô Mai BBQ Hiệu BenTo 18g ( Nâu )",
+  "fullName": "Snack Mực Hải Sản Vị Phô Mai BBQ Hiệu BenTo 18g ( Nâu ) (Gói)",
+  "brand": "Bento",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2549217",
+    "name": "Khô mực",
+    "path": "Đồ ăn vặt > Thịt khô và chân gà > Khô mực"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/0ecf74a3b2a0deb97b62778df54b97c4155c29309b1836f65d1dd28390d00b4a.webp",
+    "description": "Snack hải sản Bento vị phô mai BBQ: miếng surimi trộn mực cán mỏng, tẩm gia vị, ăn liền.\n\nQuy cách: 18 g · gói\nThương hiệu: Bento",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I3/I4: ảnh tay cầm trong cửa hàng; không có ảnh hãng (snnp.co.th không có vị BBQ Cheese) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: ảnh mẫu mờ nên chi tiết nhỏ là ước lượng: bảng dinh dưỡng và số FDA để mờ không đọc được; dòng 'น้ำหนักสุทธิ 18 กรัม / Net Wt. 18 g' lấy theo tên SP (mẫu không đọc được số); chữ Thái nhỏ phía trên logo có thể khác; logo 7-Eleven nhỏ góc trên giữ như gói thật",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet tay cầm trong cửa hàng (độ phân giải thấp)"
+    },
+    "rubricVersion": "v17"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; không có trang hãng, mô tả ngắn chỉ từ tên SP; thành phần 'surimi trộn mực' theo chữ in trên bao bì Bento VN",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T22:00:00.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "batch b14 review (rubric v4): image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T05:27:18Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 3, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T05:28:04.941Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T08:06:02.482Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T05:28:04.941Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T07:07:25.095Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T07:07:25.095Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/0ecf74a3b2a0deb97b62778df54b97c4155c29309b1836f65d1dd28390d00b4a.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/08/27/tram8/57eb7dc77f89458d913efef13dfde522.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Snack hải sản Bento vị phô mai BBQ: miếng surimi trộn mực cán mỏng, tẩm gia vị, ăn liền.\n\nQuy cách: 18 g · gói\nThương hiệu: Bento",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

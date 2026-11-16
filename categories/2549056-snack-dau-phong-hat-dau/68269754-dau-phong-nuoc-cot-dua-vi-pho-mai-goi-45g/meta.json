@@ -1,0 +1,119 @@
+{
+  "kiotProductId": "68269754",
+  "code": "8936101345837",
+  "barcode": "8936101345837",
+  "name": "Đậu Phộng nước Cốt Dừa Vị Phô Mai Gói 45g",
+  "fullName": "Đậu Phộng nước Cốt Dừa Vị Phô Mai Gói 45g (Gói)",
+  "brand": "Tân Tân",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2549056",
+    "name": "Snack đậu phộng / hạt‑đậu",
+    "path": "Đồ ăn vặt > Snacks > Snack đậu phộng / hạt‑đậu"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/0928edf9f8c6e5a20ec6a4e01b1b51eaa8bd1f967a76025ffbc45d07f6752e1a.webp",
+    "description": "Đậu phộng Tân Tân vị phô mai (Peanuts – Cheese Flavour Coated), hạt đậu phộng bọc bột giòn tẩm vị phô mai.\n\nQuy cách: 45 g · gói\nThương hiệu: Tân Tân",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I2: ảnh cũ là Tân Tân nước cốt dừa; mã vạch 8936101345837 là Tân Tân đậu phộng vị phô mai (Kingfoodmart) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh Kingfoodmart theo mã vạch (chỉ làm mẫu)",
+      "referenceUrl": "https://storage.googleapis.com/onelife-public/8936101345837.jpg"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết từ chữ in trên gói (Kingfoodmart theo mã vạch)",
+    "source": null,
+    "rubricVersion": "v19"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:14:56.000Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "asked owner: flavour in name (cheese) not on pack image"
+    },
+    {
+      "at": "2026-10-17T14:10:33Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T14:11:32Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "resolved without asking: barcode 8936101345837 = Tân Tân đậu phộng vị phô mai (Kingfoodmart) = name; current image was the coconut-milk variant"
+    },
+    {
+      "at": "2026-10-17T14:12:06.730Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T14:12:06.730Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T15:41:00.966Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T15:41:00.966Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/0928edf9f8c6e5a20ec6a4e01b1b51eaa8bd1f967a76025ffbc45d07f6752e1a.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/09/26/tram8/aba281308bfa4dba83de26727b95f674.png"
+        ]
+      },
+      "description": {
+        "to": "Đậu phộng Tân Tân vị phô mai (Peanuts – Cheese Flavour Coated), hạt đậu phộng bọc bột giòn tẩm vị phô mai.\n\nQuy cách: 45 g · gói\nThương hiệu: Tân Tân",
+        "from": "<p style=\"margin-bottom:0px;text-align:justify;font-style:normal;font-variant-caps:normal;font-width:normal;font-family:'Helvetica Neue';font-kerning:auto;font-variant-alternates:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variant-position:normal;font-variant-emoji:normal;font-feature-settings:normal;font-optical-sizing:auto;font-variation-settings:normal;\"></p><p style=\"margin-bottom:0px;font-style:normal;font-variant-caps:normal;font-width:normal;font-family:'Helvetica Neue';font-kerning:auto;font-variant-alternates:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variant-position:normal;font-variant-emoji:normal;font-feature-settings:normal;font-optical-sizing:auto;font-variation-settings:normal;min-height:15px;\"></p><p style=\"margin-bottom:0px;font-style:normal;font-variant-caps:normal;font-width:normal;font-family:'Helvetica Neue';font-kerning:auto;font-variant-alternates:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variant-position:normal;font-variant-emoji:normal;font-feature-settings:normal;font-optical-sizing:auto;font-variation-settings:normal;\">Sản phẩm có thể dùng ăn trực tiếp.</p>"
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

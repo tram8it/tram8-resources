@@ -1,0 +1,149 @@
+{
+  "kiotProductId": "65595890",
+  "code": "SP877360",
+  "barcode": "8938565079006",
+  "name": "Cơm nắm Bò BBQ",
+  "fullName": "Cơm nắm Bò BBQ - Hâm (Cái)",
+  "brand": "Onigiri Việt",
+  "unit": "Cái",
+  "category": {
+    "kiotCategoryId": "2547494",
+    "name": "Cơm nắm Onigiri",
+    "path": "Món ngon Trạm 8 > Cơm nắm Onigiri"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/01a1a17b947271b73ab12fe31b4bc476309e59178c22e888aaeeceaba249089b.webp",
+    "description": "Cơm nắm tam giác Onigiri Việt nhân bò BBQ, bọc rong biển, đóng gói kiểu Nhật với dải xé mở theo thứ tự 1–2–3. Tiện dùng cho bữa sáng hoặc bữa nhẹ.\n\nQuy cách: cái\nNhà sản xuất/thương hiệu: Onigiri Việt",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "NO_CHANGE",
+  "image": {
+    "decision": "KEEP",
+    "reason": "chủ 18/10: ảnh bao bì ONIGIRI Việt đang trên web là đẹp, giữ nguyên; bỏ ảnh minh hoạ món ăn v22",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet của cửa hàng (chỉ làm mẫu)",
+      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/07/30/tram8/1316f5e4c8894943b46363126277f23b.png"
+    },
+    "rubricVersion": "v23"
+  },
+  "description": {
+    "decision": "KEEP",
+    "reason": "mô tả đang trên web đã đúng (đã áp dụng 17/10)",
+    "source": null,
+    "rubricVersion": "v23"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:44:35.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "image CROP, description WRITE_NEW (front-of-pack facts)"
+    },
+    {
+      "at": "2026-10-15T09:16:17Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "tone.py --vivid: white balance/levels + brand-like colour (owner request)"
+    },
+    {
+      "at": "2026-10-17T14:22:59Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T14:22:59.291Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-17T17:51:23Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T17:51:23Z",
+      "by": "owner",
+      "status": "READY",
+      "note": "chủ 17/10: ảnh món ăn hấp dẫn, đồng bộ"
+    },
+    {
+      "at": "2026-10-17T17:51:36.590Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-18T17:16:08.691Z",
+      "by": "owner",
+      "status": "IN_PROGRESS",
+      "note": "rejected on Hub by AU KHUONG DUY: Cái hiện tại là đẹp rồi, và các cái khác nên theo phong cách của cái này"
+    },
+    {
+      "at": "2026-10-18T17:18:45.208Z",
+      "by": "owner",
+      "status": "NO_CHANGE",
+      "note": "chủ 18/10: ảnh hiện tại (bao bì Onigiri) đẹp rồi, giữ; các cơm nắm khác theo phong cách này"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T17:51:36.590Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "REJECTED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-18T16:58:25.065Z",
+    "note": "Cái hiện tại là đẹp rồi, và các cái khác nên theo phong cách của cái này"
+  },
+  "uploaded": {
+    "at": "2026-10-17T16:49:20.115Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/01a1a17b947271b73ab12fe31b4bc476309e59178c22e888aaeeceaba249089b.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/30/tram8/1316f5e4c8894943b46363126277f23b.png"
+        ]
+      },
+      "description": {
+        "to": "Cơm nắm tam giác Onigiri Việt nhân bò BBQ, bọc rong biển, đóng gói kiểu Nhật với dải xé mở theo thứ tự 1–2–3. Tiện dùng cho bữa sáng hoặc bữa nhẹ.\n\nQuy cách: cái\nNhà sản xuất/thương hiệu: Onigiri Việt",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

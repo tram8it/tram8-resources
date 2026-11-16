@@ -1,0 +1,150 @@
+{
+  "kiotProductId": "65205425",
+  "code": "8938565910293",
+  "barcode": "8938565910293",
+  "name": "Bim MIDAS rong biển cuộn 50g",
+  "fullName": "Bim MIDAS rong biển cuộn 50g (Gói)",
+  "brand": null,
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2549018",
+    "name": "Snack que / que cay",
+    "path": "Đồ ăn vặt > Snacks > Snack que / que cay"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://cdn2-retail-images.kiotviet.vn/2026/04/26/tram8/fca7410bb62045499ac562ba2101b008.jpeg",
+    "description": null,
+    "exportedAt": "2026-10-13T13:18:36.970Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "line consistency 20/10: ảnh Gemini chủ đã duyệt 18/10 nằm trên ô nền xám, khác cả dòng Midas nền trắng → tách nền (cutout.py), giữ nguyên gói, chuẩn hoá 84%",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-18",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh bán lẻ + ảnh KiotViet (chỉ làm mẫu)"
+    },
+    "rubricVersion": "v23"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; mô tả ngắn từ chữ in trên gói (ảnh KiotViet + iCheck theo mã vạch)",
+    "source": null,
+    "rubricVersion": "v20"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:21:20.000Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "b07 review: image ASK_OWNER, description ASK_OWNER"
+    },
+    {
+      "at": "2026-10-17T14:04:41.000Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "re-check v20: web/Open Food Facts/Kingfoodmart không có hai mã; ảnh KiotViet cả hai là Bò xốt mỹ vị 50 g, không đọc được mã vạch → còn hai khả năng, câu hỏi rút gọn"
+    },
+    {
+      "at": "2026-10-17T14:35:34Z",
+      "by": "ai",
+      "status": "IN_PROGRESS",
+      "note": "resolved by rule v20: shop photo + iCheck barcode = Midas Bò xốt mỹ vị 50 g (cream pack) → follow the photo; name listed for rename, pair with 65205426 listed as likely duplicate; image waits for Gemini (HTTP 402)"
+    },
+    {
+      "at": "2026-10-17T15:14:30Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T15:14:41.526Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "IN_PROGRESS",
+      "note": "rejected on Hub by AU KHUONG DUY: cái gói này hơi ảo, cảm giác k giống thật lắm"
+    },
+    {
+      "at": "2026-10-18T11:34:32Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "redo after Hub rejection: cái gói này hơi ảo, cảm giác k giống thật lắm — Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-18T11:34:32.879Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-18T17:16:08.691Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T18:32:04Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "line consistency 20/10: pack sat on a grey backdrop box unlike white-background siblings → cutout.py to white, same approved pack"
+    },
+    {
+      "at": "2026-10-19T18:32:28.545Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-26T04:58:33.990Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-19T18:32:28.545Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T18:40:57.846Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T18:40:57.846Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/b266e432491bd852b15b53b47210074a65b17ebec8ee2c9457ea24a24ec3ae75.webp"
+        ],
+        "from": [
+          "https://img.tram8.vn/products/e346fe62623b8020d0508edf7734bca94bcb47ad738561b5706dfe2ac3124f3f.webp"
+        ]
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

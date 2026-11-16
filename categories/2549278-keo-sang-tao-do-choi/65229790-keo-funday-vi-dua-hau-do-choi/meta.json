@@ -1,0 +1,112 @@
+{
+  "kiotProductId": "65229790",
+  "code": "8859533603712",
+  "barcode": "8859533603712",
+  "name": "Kẹo funday vị dưa hấu đồ chơi",
+  "fullName": "Kẹo funday vị dưa hấu đồ chơi (Hộp)",
+  "brand": "Funday",
+  "unit": "Hộp",
+  "category": {
+    "kiotCategoryId": "2549278",
+    "name": "Kẹo sáng tạo / đồ chơi",
+    "path": "Các loại kẹo > Kẹo sáng tạo / đồ chơi"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/200833f310fddfd160778389194adf72ba245d8a9cdfa8de7c3c63a7200d26f1.webp",
+    "description": "Kẹo đồ chơi Fünday vị dưa hấu, kèm đồ chơi hình chú chim mắt lồi đựng trong hộp nhựa trong.\n\nQuy cách: hộp\nNhà sản xuất/thương hiệu: Fünday",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I4, I6: ảnh nền xám, sản phẩm nhỏ giữa khung; không có trang hãng Fünday → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: vẽ lại từ ảnh KiotViet nhỏ: chi tiết logo FÜNDAY và hình in trên đế hơi khác; đồ chơi theo mẫu là chim xanh (hàng thật có thể ra mẫu khác); không thấy chữ 'vị dưa hấu' trên hộp",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (chỉ làm mẫu)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; mô tả ngắn từ tên hàng và chữ in trên hộp trong ảnh (Fünday, Pop!, đồ chơi hình chim trong hộp nhựa trong)",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:00:36.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "image REPLACE (grey background), description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T08:21:36Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T08:21:37.582Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T08:21:37.582Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T08:36:34.122Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T08:36:34.122Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/200833f310fddfd160778389194adf72ba245d8a9cdfa8de7c3c63a7200d26f1.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/04/27/tram8/811e067f846d4ca5956f32cf916a1cb2.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Kẹo đồ chơi Fünday vị dưa hấu, kèm đồ chơi hình chú chim mắt lồi đựng trong hộp nhựa trong.\n\nQuy cách: hộp\nNhà sản xuất/thương hiệu: Fünday",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

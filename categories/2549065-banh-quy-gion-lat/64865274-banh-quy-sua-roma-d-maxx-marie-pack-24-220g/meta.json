@@ -1,0 +1,113 @@
+{
+  "kiotProductId": "64865274",
+  "code": "8996001307878",
+  "barcode": "8996001307878",
+  "name": "Bánh Quy Sữa RoMa D - Maxx Marie Pack 24 × 220G",
+  "fullName": "Bánh Quy Sữa RoMa D - Maxx Marie Pack 24 × 220G (Gói)",
+  "brand": "Roma",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2549065",
+    "name": "Bánh quy giòn / lạt",
+    "path": "Bánh quy & bánh đóng gói > Bánh quy giòn / lạt"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/6722edece2d6b847e20a739733c4365725f74d68aef87c5fc174b8ac35220772.webp",
+    "description": "Bánh quy sữa Roma D-Maxx Marie, có bổ sung canxi và vitamin D, đóng 10 gói nhỏ tiện chia dùng.\n\nQuy cách: 220 g (10 gói × 22 g) · túi\nThương hiệu: Roma (Mayora)",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I3/I4: ảnh tay cầm trong cửa hàng, nền không trắng; không có ảnh hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Bỏ dòng mã số in nhỏ dọc cạnh dòng sữa; '220 g (10 gói x 22 g)', '10 Gói' đúng",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh Kingfoodmart (chỉ làm mẫu) + ảnh KiotViet",
+      "referenceUrl": "https://kingfoodmart.com/banh-quy-banh-gao/banh-quy-sua-d-maxx-marie-roma-goi-220g-1-goi"
+    },
+    "rubricVersion": "v17"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; không có trang hãng — mô tả ngắn chỉ từ tên SP và chữ in mặt trước bao bì (ảnh hiện tại)",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T22:00:00.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "batch b14 review (rubric v4): image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T05:34:49Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T05:35:45.303Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T08:06:02.482Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T05:35:45.303Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T07:08:31.785Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T07:08:31.785Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/6722edece2d6b847e20a739733c4365725f74d68aef87c5fc174b8ac35220772.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/03/20/tongpenhchtl/63611e5cc48246d28f963ae1c0cb2895.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Bánh quy sữa Roma D-Maxx Marie, có bổ sung canxi và vitamin D, đóng 10 gói nhỏ tiện chia dùng.\n\nQuy cách: 220 g (10 gói × 22 g) · túi\nThương hiệu: Roma (Mayora)",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

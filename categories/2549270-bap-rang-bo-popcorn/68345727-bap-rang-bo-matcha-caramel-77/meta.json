@@ -1,0 +1,124 @@
+{
+  "kiotProductId": "68345727",
+  "code": "8938565752022",
+  "barcode": "8938565752022",
+  "name": "Bắp Rang Bơ Matcha Caramel 77",
+  "fullName": "Bắp Rang Bơ Matcha Caramel 77 (Gói)",
+  "brand": "Proper Corn",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2549270",
+    "name": "Bắp rang bơ - Popcorn",
+    "path": "Đồ ăn vặt > Bắp rang bơ - Popcorn"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/06d337da862c8f04a00bf65ceeef9ba7d418daa651f8f867d3286fe69be21be0.webp",
+    "description": "Bắp rang bơ vị matcha caramel, món ăn vặt giòn thơm.\n\nQuy cách: gói",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "có ảnh nhân viên mới → vẽ lại sạch → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: vẽ phẳng, sạch theo ảnh chụp; chữ nhỏ để mờ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-19",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh nhân viên chụp (KiotViet 19/10)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; mô tả ngắn chỉ từ tên hàng (chưa thấy bao bì nên không ghi thương hiệu, khối lượng)",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:03:13.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "image REPLACE (no image), description WRITE_NEW from name"
+    },
+    {
+      "at": "2026-10-17T12:00:00Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "Đợt 3: tra Kingfoodmart, Open Food Facts và web theo mã vạch/tên — không có ảnh mẫu bao bì nào (chưa có ảnh KiotViet) → giữ NEEDS_PHOTO, cần nhân viên chụp"
+    },
+    {
+      "at": "2026-10-18T18:22:32.174Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "np18 re-research 18/10: still no image of this exact pack"
+    },
+    {
+      "at": "2026-10-19T03:53:45Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "redo after Hub rejection:  — Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-19T03:53:45.994Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T07:23:08.254Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T17:15:09.663Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-19T03:53:45.994Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T03:55:33.256Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T03:55:33.256Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/06d337da862c8f04a00bf65ceeef9ba7d418daa651f8f867d3286fe69be21be0.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/10/19/tram8/24c7b32c54904b1583083da676c18798.png"
+        ]
+      },
+      "description": {
+        "to": "Bắp rang bơ vị matcha caramel, món ăn vặt giòn thơm.\n\nQuy cách: gói",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

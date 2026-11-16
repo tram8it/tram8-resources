@@ -1,0 +1,128 @@
+{
+  "kiotProductId": "67136491",
+  "code": "8935342400480",
+  "barcode": "8935342400480",
+  "name": "Snack Hải Sản Cay Ngọt Bento 18g (Đỏ) VN",
+  "fullName": "Snack Hải Sản Cay Ngọt Bento 18g (Đỏ) VN (Gói)",
+  "brand": "Bento",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2549217",
+    "name": "Khô mực",
+    "path": "Đồ ăn vặt > Thịt khô và chân gà > Khô mực"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/40afdee3ffb80bebae3d9fbb091aee3e32658f5ce59010048605ebae6b4ee4a8.webp",
+    "description": "Snack hải sản Bento vị cay ngọt (Max Extreme – Sweet & Spicy): miếng surimi trộn mực cán mỏng, tẩm gia vị, ăn liền.\n\nQuy cách: 22 g (18 g + 4 g) · gói\nThương hiệu: Bento",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I3/I4: ảnh tay cầm trong cửa hàng (bao bì cũ); mã vạch ứng với gói mới Bento Max Extreme 22 g (18 g + 4 g) như SP Cay Dịu xanh ngọc đã duyệt → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: giữ cờ 'Thêm 20%' in sẵn trên gói (như SP xanh ngọc); hai dòng chữ nhỏ cạnh dấu tích là ước lượng",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh Kingfoodmart theo mã vạch 8935342400480 (chỉ làm mẫu)",
+      "referenceUrl": "https://storage.googleapis.com/onelife-public/8935342400480.jpg"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "REWRITE",
+    "reason": "D2: khối lượng theo bao bì đúng mã vạch \"Khối lượng tịnh 22 g (18 g + 4 g)\" (v19), thay cho 18 g",
+    "source": {
+      "url": "https://storage.googleapis.com/onelife-public/8935342400480.jpg",
+      "fetchedAt": "2026-10-17"
+    },
+    "rubricVersion": "v19"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T22:00:00.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "batch b14 review (rubric v4): image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T05:27:45Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "Hỏi chủ bao bì/khối lượng gói Bento Cay Ngọt đỏ bản VN"
+    },
+    {
+      "at": "2026-10-17T13:59:53Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T14:02:05Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "resolved without asking: barcode 8935342400480 = Bento Max Extreme Sweet & Spicy 22 g (18 g + 4 g) (Kingfoodmart), same as the approved sibling Cay Dịu xanh ngọc; newest pack"
+    },
+    {
+      "at": "2026-10-17T14:03:00.606Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T14:03:00.606Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T14:12:14.960Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T14:12:14.960Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/40afdee3ffb80bebae3d9fbb091aee3e32658f5ce59010048605ebae6b4ee4a8.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/18/tram8/acd37408a2614f45ac045271536f6787.png"
+        ]
+      },
+      "description": {
+        "to": "Snack hải sản Bento vị cay ngọt (Max Extreme – Sweet & Spicy): miếng surimi trộn mực cán mỏng, tẩm gia vị, ăn liền.\n\nQuy cách: 22 g (18 g + 4 g) · gói\nThương hiệu: Bento",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

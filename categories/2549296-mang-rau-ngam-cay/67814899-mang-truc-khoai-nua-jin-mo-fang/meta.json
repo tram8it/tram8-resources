@@ -1,0 +1,118 @@
+{
+  "kiotProductId": "67814899",
+  "code": "6925678117352",
+  "barcode": "6925678117352",
+  "name": "Măng Trúc Khoai Nưa (Jin Mo Fang )",
+  "fullName": "Măng Trúc Khoai Nưa (Jin Mo Fang ) (Gói)",
+  "brand": "Hàng nội địa Trung",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2549296",
+    "name": "Măng & rau ngâm cay",
+    "path": "Đồ ăn vặt > Đồ nội địa Trung > Măng & rau ngâm cay"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/8cab2a06b0215e10e036929d2db5e8a309c851158373fdf9b4cf98c231a84ca9.webp",
+    "description": "Măng trúc khoai nưa Jinmofang (鲜笋魔芋), măng tươi và khoai nưa (konjac) tẩm gia vị cay, ăn liền.\n\nQuy cách: gói\nNhà sản xuất/thương hiệu: Jinmofang (金磨坊)",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I4/I6/I8: ảnh KiotViet quá nhỏ, có cả mặt sau → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: huy hiệu vị màu xanh để trống chữ (ảnh mẫu không đọc được vị); dòng chữ nhỏ dưới tên có thể khác gói thật; tên lớn 鲜笋魔芋, logo 金磨坊 đúng",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-18",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet 209×182 (ảnh thiết kế gói mặt trước/sau, chỉ làm mẫu)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; mô tả ngắn chỉ từ tên hàng và chữ in mặt trước bao bì (không có trang hãng) ('金磨坊 鲜笋魔芋')",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:30:00.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "b20 review: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T07:45:53+00:00",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "I4/I6/I8: ảnh KiotViet 209×182 quá nhỏ, chữ nhỏ (vị trên huy hiệu xanh, khối lượng, khẩu hiệu) không đọc được; Gemini vẽ lại 3 lần vẫn bịa chữ ('含棒味', '80克', dòng phụ đề) → không dùng; cần nhân viên chụp mặt trước 1 gói (17/10/2026)"
+    },
+    {
+      "at": "2026-10-18T18:14:03Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 4, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-18T18:14:06.670Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T02:05:27.524Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T03:19:05.400Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-18T18:14:06.670Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T01:35:59.914Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T01:35:59.914Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/8cab2a06b0215e10e036929d2db5e8a309c851158373fdf9b4cf98c231a84ca9.webp"
+        ],
+        "from": [
+          "https://cdn1-retail-images.kiotviet.vn/2026/08/25/tram8/bbc4e44058ce4077a796fadad7edfa40.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Măng trúc khoai nưa Jinmofang (鲜笋魔芋), măng tươi và khoai nưa (konjac) tẩm gia vị cay, ăn liền.\n\nQuy cách: gói\nNhà sản xuất/thương hiệu: Jinmofang (金磨坊)",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

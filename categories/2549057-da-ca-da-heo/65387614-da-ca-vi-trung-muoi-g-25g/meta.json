@@ -1,0 +1,121 @@
+{
+  "kiotProductId": "65387614",
+  "code": "8936146441754",
+  "barcode": "8936146441754",
+  "name": "Da cá vị trứng muối G 25g",
+  "fullName": "Da cá vị trứng muối G 25g (Gói)",
+  "brand": "G Kitchen",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2549057",
+    "name": "Da cá / Da heo",
+    "path": "Đồ ăn vặt > Thịt khô và chân gà > Da cá / Da heo"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/bc59a1dbf40fc3139f34fb8c09e034ee6c4100c46565ef38e8d3234104bb3cc9.webp",
+    "description": "Da cá chiên giòn vị trứng muối thương hiệu G (GREENFEED), món ăn vặt ăn liền, giòn rụm thấm vị.\n\nQuy cách: 25 g · gói\nNhà sản xuất/thương hiệu: G · GREENFEED",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "ảnh KiotViet là ảnh quảng cáo (đĩa da cá che nửa dưới gói), không phải ảnh bao bì → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: nửa dưới gói bị đĩa che trên ảnh gốc nên được vẽ theo kiểu gói cùng dòng (Da cá vị trứng muối cay); chữ khớp (G, Da Cá Vị trứng muối, Giòn rụm thấm vị, Khối lượng tịnh 25 g)",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet + ảnh SP cùng dòng (Da cá trứng muối cay) làm mẫu",
+      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/05/01/tram8/67a5679fb86347b4ace8f75ed0144595.jpeg"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết ngắn từ chữ in mặt trước bao bì (không tìm được trang hãng truy cập được)",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:14:32.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "b28 review: image KEEP, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-15T02:52:31.177Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description"
+    },
+    {
+      "at": "2026-10-16T01:38:49.852Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-17T14:19:50Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T14:19:50.598Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T14:19:50.598Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T16:48:42.630Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T16:48:42.630Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/bc59a1dbf40fc3139f34fb8c09e034ee6c4100c46565ef38e8d3234104bb3cc9.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/05/01/tram8/67a5679fb86347b4ace8f75ed0144595.jpeg"
+        ]
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

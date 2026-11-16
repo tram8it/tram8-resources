@@ -1,0 +1,118 @@
+{
+  "kiotProductId": "65594739",
+  "code": "8935049502104",
+  "barcode": "8935049502104",
+  "name": "Đồ Uống Fanta Strawberry 320ml 4x6 SC SF",
+  "fullName": "Đồ Uống Fanta Strawberry 320ml 4x6 SC SF (Lon)",
+  "brand": "Fanta",
+  "unit": "Lon",
+  "category": {
+    "kiotCategoryId": "2500663",
+    "name": "Nước ngọt có gas",
+    "path": "Đồ uống đóng chai > Nước ngọt có gas"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/91f01305d0ef23bd9e9a3c3c6245c8d1abc7c8bcec168ccbe20a911e5b5200b8.webp",
+    "description": "Nước ngọt có gas Fanta hương dâu của Coca-Cola Việt Nam, vị dâu ngọt mát. Ngon hơn khi uống lạnh.\n\nQuy cách: 320 ml · lon\nNhà sản xuất/thương hiệu: Coca-Cola Việt Nam · Fanta",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "ảnh tự chụp (mềm, bóng lóa); không có ảnh hãng đúng bao bì → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet hiện có (ảnh tự chụp)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; trang hãng không có vị dâu → mô tả ngắn từ dữ kiện chắc chắn (tên, chữ \"hương dâu\" in trên lon, dung tích)",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:41:16.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "b17: image CROP, description WRITE_NEW (pack facts)"
+    },
+    {
+      "at": "2026-10-15T09:16:17Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "tone.py --vivid: white balance/levels + brand-like colour (owner request)"
+    },
+    {
+      "at": "2026-10-17T14:19:13Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T14:26:38.572Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T14:26:38.572Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T16:50:56.014Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T16:50:56.014Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/91f01305d0ef23bd9e9a3c3c6245c8d1abc7c8bcec168ccbe20a911e5b5200b8.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/29/tram8/312733ea3bfd4cebaff45d16ae2a78d2.png"
+        ]
+      },
+      "description": {
+        "to": "Nước ngọt có gas Fanta hương dâu của Coca-Cola Việt Nam, vị dâu ngọt mát. Ngon hơn khi uống lạnh.\n\nQuy cách: 320 ml · lon\nNhà sản xuất/thương hiệu: Coca-Cola Việt Nam · Fanta",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

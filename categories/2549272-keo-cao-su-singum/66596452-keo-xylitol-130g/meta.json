@@ -1,0 +1,113 @@
+{
+  "kiotProductId": "66596452",
+  "code": "8934677038016",
+  "barcode": "8934677038016",
+  "name": "Kẹo Xylitol 130g",
+  "fullName": "Kẹo Xylitol 130g (Lọ)",
+  "brand": "Xylitol",
+  "unit": "Lọ",
+  "category": {
+    "kiotCategoryId": "2549272",
+    "name": "Kẹo cao su / singum",
+    "path": "Các loại kẹo > Kẹo cao su / singum"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/78b6f841f4f16baa572676ffce7ac3061b178f52b4590b91db68cd04ac55ca6c.webp",
+    "description": "Kẹo gum không đường Lotte Xylitol.\n\nQuy cách: 130 g · hũ\nNhà sản xuất/thương hiệu: Lotte Việt Nam · Xylitol",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I3/I4/I5: ảnh chụp nắp hũ trong màng co → Gemini vẽ lại hũ gia đình hương trái cây hỗn hợp theo ảnh hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Tên ghi 130g, trang hãng ghi Hũ 130.5g (coi là làm tròn). Dáng hũ gia đình lấy theo ảnh hãng rất nhỏ (73×108); nhãn theo hũ 55,1 g cùng thiết kế. Nhãn vị trái 'PEACH MINT' (chữ trên ảnh hãng không đọc được, có thể là 'HƯƠNG PEACH MINT' quấn quanh thân). Không có màng co.",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh sản phẩm trên trang chính thức Lotte Xylitol Việt Nam lottexylitol.com.vn (làm mẫu) + ảnh KiotViet nhân viên chụp",
+      "referenceUrl": "https://lottexylitol.com.vn/product/"
+    },
+    "rubricVersion": "v17"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết ngắn chỉ từ tên SP (không có nguồn hãng; không ghi vị/khối lượng vì tên không nói rõ)",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:31:48.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "review b08: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T04:58:35Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T04:59:11.039Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T05:23:58.238Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T04:59:11.039Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T05:02:50.461Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T05:02:50.461Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/78b6f841f4f16baa572676ffce7ac3061b178f52b4590b91db68cd04ac55ca6c.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/06/20/tram8/96343eeb19624bb299dabe3bfe5c151b.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Kẹo gum không đường Lotte Xylitol.\n\nQuy cách: 130 g · hũ\nNhà sản xuất/thương hiệu: Lotte Việt Nam · Xylitol",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

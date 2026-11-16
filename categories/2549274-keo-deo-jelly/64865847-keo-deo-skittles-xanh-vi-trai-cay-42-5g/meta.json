@@ -1,0 +1,118 @@
+{
+  "kiotProductId": "64865847",
+  "code": "4894900030092",
+  "barcode": "4894900030092",
+  "name": "Kẹo dẻo Skittles xanh Vị Trái Cây 42,5g",
+  "fullName": "Kẹo dẻo Skittles xanh Vị Trái Cây 42,5g (Gói)",
+  "brand": "Skittles",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2549274",
+    "name": "Kẹo dẻo / jelly",
+    "path": "Các loại kẹo > Kẹo dẻo / jelly"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/f77afa0ac555f845a33cf31dd1fa00aa09b021dadc550040a7dfd6dcf2d9ef74.webp",
+    "description": "Kẹo dẻo Skittles Gummies vị sữa chua trái cây (Yogurt Fruit Flavour), có chứa nước ép trái cây cô đặc, túi có khóa kéo.\n\nQuy cách: 42,5 g · gói\nNhà sản xuất/thương hiệu: Skittles",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "ảnh tự chụp (nhăn, bóng, nghiêng); không có ảnh hãng đúng bao bì VN → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt; 42.5 g khớp tên SP, 141 kcal đọc được trên ảnh mẫu",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (chỉ làm mẫu)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; không có trang hãng — mô tả ngắn chỉ từ tên SP và chữ in mặt trước bao bì (ảnh hiện tại); bao bì ghi vị sữa chua trái cây (Yogurt Fruit Flavour) — tên KiotViet chỉ ghi 'Vị Trái Cây'",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:19:58.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "image CROP, description WRITE_NEW (pack front)"
+    },
+    {
+      "at": "2026-10-15T09:16:17Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "tone.py --vivid: white balance/levels + brand-like colour (owner request)"
+    },
+    {
+      "at": "2026-10-17T14:08:44Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T14:09:36.804Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T14:09:36.804Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T15:37:44.973Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T15:37:44.973Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/f77afa0ac555f845a33cf31dd1fa00aa09b021dadc550040a7dfd6dcf2d9ef74.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/27/tram8/0c8d116d6b194ef997bdccec7410766b.png"
+        ]
+      },
+      "description": {
+        "to": "Kẹo dẻo Skittles Gummies vị sữa chua trái cây (Yogurt Fruit Flavour), có chứa nước ép trái cây cô đặc, túi có khóa kéo.\n\nQuy cách: 42,5 g · gói\nNhà sản xuất/thương hiệu: Skittles",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

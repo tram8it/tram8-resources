@@ -1,0 +1,112 @@
+{
+  "kiotProductId": "64865375",
+  "code": "8938531758607",
+  "barcode": "8938531758607",
+  "name": "Khăn Lau Mặt Khô Jomi 80 miếng",
+  "fullName": "Khăn Lau Mặt Khô Jomi 80 miếng (Gói)",
+  "brand": "Jomi",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2548852",
+    "name": "Bông & khăn tẩy trang",
+    "path": "Chăm sóc cá nhân > Chăm sóc da mặt > Bông & khăn tẩy trang"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/8be67117992717c5f79cd5c40e0cdf371cabd814574f9eac8ad1ebc749c891b4.webp",
+    "description": "Khăn lau mặt khô Jomi, dùng khô hoặc làm ướt để lau mặt, gói túi rút dây.\n\nQuy cách: 80 miếng, khổ 15 × 20 cm · gói\nThương hiệu: Jomi",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I3, I4, I8: ảnh chụp điện thoại tay cầm, nhiều gói chồng nhau, nền không trắng; Jomi không có trang web chính thức → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: vẽ 1 túi từ ảnh chụp mờ; chữ nhỏ tiếng Nhật '多機能' đọc theo ảnh mẫu, có thể lệch; Pharmacity bán bản gói dẹt '80 KHĂN 15x20cm' cùng tên — nếu cửa hàng bán bản dẹt thì ảnh này sai",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (tay cầm túi rút dây đang bán)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết ngắn từ chữ in trên gói (Jomi, khăn lau mặt khô, 80 miếng); kích thước 15 × 20 cm theo quy cách in trên bao bì (đọc từ trang nhà thuốc, chỉ lấy dữ kiện)",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:27:22.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "b29: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T08:30:30Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T08:30:30.219Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T08:30:30.219Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T08:41:39.313Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T08:41:39.313Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/8be67117992717c5f79cd5c40e0cdf371cabd814574f9eac8ad1ebc749c891b4.webp"
+        ],
+        "from": [
+          "https://cdn1-retail-images.kiotviet.vn/2026/03/11/tongpenhchtl/9dd3f28a666443799d9abaa8f8e658db.jpg"
+        ]
+      },
+      "description": {
+        "to": "Khăn lau mặt khô Jomi, dùng khô hoặc làm ướt để lau mặt, gói túi rút dây.\n\nQuy cách: 80 miếng, khổ 15 × 20 cm · gói\nThương hiệu: Jomi",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

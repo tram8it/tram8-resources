@@ -1,0 +1,119 @@
+{
+  "kiotProductId": "65208832",
+  "code": "8936036025521",
+  "barcode": "8936036025521",
+  "name": "Bánh Miz Socola 2P_4Y22",
+  "fullName": "Bánh Miz Socola 2P_4Y22 (Hộp)",
+  "brand": "Orion",
+  "unit": "Hộp",
+  "category": {
+    "kiotCategoryId": "2549065",
+    "name": "Bánh quy giòn / lạt",
+    "path": "Bánh quy & bánh đóng gói > Bánh quy giòn / lạt"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/60b467e5992ce3863616a33a4b37a450175c720811e2259c5d5a768e66d8ebc5.webp",
+    "description": "Bánh quy sô cô la Miz của Orion, những miếng bánh vuông nhỏ giòn vị sô cô la, đóng 2 gói trong hộp.\n\nQuy cách: 54 g (2 gói × 27 g) · hộp\nThương hiệu: Orion",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "ảnh tự chụp: hộp chụp nghiêng thấy cạnh bên; không có ảnh hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chỉ vẽ mặt trước",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet của cửa hàng (ảnh tự chụp)",
+      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/04/26/tram8/cdfd751fb28047ecaff9f5d6cf44aaba.jpeg"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; không có trang hãng — mô tả ngắn chỉ từ tên SP và chữ in mặt trước bao bì (ảnh hiện tại)",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T22:00:00.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "batch b14 review (rubric v4): image CROP, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-15T09:16:17Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "tone.py --vivid: white balance/levels + brand-like colour (owner request)"
+    },
+    {
+      "at": "2026-10-17T14:18:11Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T14:18:11.423Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T14:18:11.423Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T16:46:44.603Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T16:46:44.603Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/60b467e5992ce3863616a33a4b37a450175c720811e2259c5d5a768e66d8ebc5.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/04/26/tram8/cdfd751fb28047ecaff9f5d6cf44aaba.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Bánh quy sô cô la Miz của Orion, những miếng bánh vuông nhỏ giòn vị sô cô la, đóng 2 gói trong hộp.\n\nQuy cách: 54 g (2 gói × 27 g) · hộp\nThương hiệu: Orion",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

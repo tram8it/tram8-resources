@@ -1,0 +1,113 @@
+{
+  "kiotProductId": "64865769",
+  "code": "8936234180565",
+  "barcode": "8936234180565",
+  "name": "Tăm cay bà tuyết gói 25g",
+  "fullName": "Tăm cay bà tuyết gói 25g (Gói)",
+  "brand": "Ăn Cùng Bà Tuyết",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2549018",
+    "name": "Snack que / que cay",
+    "path": "Đồ ăn vặt > Snacks > Snack que / que cay"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/1234af42bb76a7266425ae7f591f8d062160047a46f9281ac7ec10919bdd1884.webp",
+    "description": "Tăm cay của thương hiệu Ăn Cùng Bà Tuyết, que snack nhỏ vị cay, món ăn vặt quen thuộc.\n\nQuy cách: 25 g · gói\nNhà sản xuất/thương hiệu: Ăn Cùng Bà Tuyết",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I3/I4/I5: ảnh chụp cận nhãn bằng điện thoại, bị khung cắt; không có ảnh hãng/nhà bán lẻ trên web → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Ảnh mẫu bị cắt mép và mất phần đáy/mép hàn nên hình dáng gói, mép hàn trên/dưới và phần nền dưới đĩa tăm là AI dựng lại; ảnh mẫu không thấy dòng khối lượng nên ảnh không ghi khối lượng; chữ TĂM CAY / BÀ TUYẾT / Chiến Thần LẠC HỒNG / Mighty khớp ảnh mẫu",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet hiện tại (chụp cận, bị cắt khung)",
+      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2025/11/27/tongpenhchtl/d434c1d9a1da4874a9c17edcd12ee562.jpeg"
+    },
+    "rubricVersion": "v17"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; mô tả ngắn chỉ từ tên hàng và chữ in mặt trước bao bì",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:21:20.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "b07 review: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T04:49:56Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T04:50:12.349Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T05:23:58.238Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T04:50:12.349Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T04:53:20.562Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T04:53:20.562Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/1234af42bb76a7266425ae7f591f8d062160047a46f9281ac7ec10919bdd1884.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2025/11/27/tongpenhchtl/d434c1d9a1da4874a9c17edcd12ee562.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Tăm cay của thương hiệu Ăn Cùng Bà Tuyết, que snack nhỏ vị cay, món ăn vặt quen thuộc.\n\nQuy cách: 25 g · gói\nNhà sản xuất/thương hiệu: Ăn Cùng Bà Tuyết",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

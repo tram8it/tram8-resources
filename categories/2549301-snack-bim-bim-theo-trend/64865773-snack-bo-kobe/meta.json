@@ -1,0 +1,113 @@
+{
+  "kiotProductId": "64865773",
+  "code": "8938551654064",
+  "barcode": "8938551654064",
+  "name": "Snack bò KOBE",
+  "fullName": "Snack bò KOBE (Gói)",
+  "brand": "Ăn Cùng Bà Tuyết",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2549301",
+    "name": "Snack & bim bim theo Trend",
+    "path": "Đồ ăn vặt > Đồ nội địa Trung > Snack & bim bim theo Trend"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/5415ccb86efe80031999c3775cce995e2a0eee3fe40e33acdb8a0d776b996b94.webp",
+    "description": "Snack Bò KoBe gói 25 g do Ăn cùng Bà Tuyết phân phối độc quyền, món ăn vặt đóng gói nhỏ gọn, tiện mang theo.\n\nQuy cách: 25 g · gói\nNhà sản xuất/thương hiệu: phân phối bởi Ăn cùng Bà Tuyết",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I3, I4: ảnh chụp điện thoại trên nền gạch hoa; không có ảnh hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Theo bản bao bì trên Open Food Facts; bản trong ảnh KiotViet có thêm dải chữ 'CHẤT LƯỢNG - MUA LÀ CÓ QUÀ' phía dưới; dòng chữ nhỏ trên viên 25G là chữ mờ không đọc được; không có lỗ treo",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh Open Food Facts mã 8938551654064 (chỉ làm mẫu) + ảnh KiotViet",
+      "referenceUrl": "https://world.openfoodfacts.org/product/8938551654064"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết ngắn từ chữ in mặt trước gói (Snack Bò KoBe, 25 g, phân phối độc quyền bởi Ăn cùng Bà Tuyết)",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:20:43.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "b29: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T08:12:37Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T08:12:48.940Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T08:12:48.940Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T08:34:22.377Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T08:34:22.377Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/5415ccb86efe80031999c3775cce995e2a0eee3fe40e33acdb8a0d776b996b94.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2025/11/27/tongpenhchtl/6711dc4f9bc748faa3a910d1482515e0.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Snack Bò KoBe gói 25 g do Ăn cùng Bà Tuyết phân phối độc quyền, món ăn vặt đóng gói nhỏ gọn, tiện mang theo.\n\nQuy cách: 25 g · gói\nNhà sản xuất/thương hiệu: phân phối bởi Ăn cùng Bà Tuyết",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

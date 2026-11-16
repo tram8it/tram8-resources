@@ -1,0 +1,125 @@
+{
+  "kiotProductId": "67758732",
+  "code": "8938503131094",
+  "barcode": "8938503131094",
+  "name": "Sữa chua Dalat Milk dâu Tây 100g",
+  "fullName": "Sữa chua Dalat Milk dâu Tây 100g (Hộp)",
+  "brand": "Đà Lạt Milk",
+  "unit": "Hộp",
+  "category": {
+    "kiotCategoryId": "2547910",
+    "name": "Sữa chua ăn",
+    "path": "Sữa và các sản phẩm từ sữa > Sữa chua > Sữa chua ăn"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/4cf0354399f0c2e0615a6245c2cc3d8efcc395e00edc6fb68585fb51f6aded06.webp",
+    "description": "Sữa chua Đà Lạt Milk vị dâu tây, làm hoàn toàn từ sữa tươi cao nguyên (theo chữ in trên bao bì).\n\nQuy cách: 100 g · hộp\nXuất xứ: Việt Nam · Nhà sản xuất/thương hiệu: Đà Lạt Milk",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I2: ảnh KiotViet là hộp 'Yogus Dalat Milk' đời trước; bao bì mới nhất cùng mã vạch (Kingfoodmart) là hộp Dalat Milk mẫu mới như vị đào/nha đam — chủ chốt 17/10/2026 (v19): dùng bao bì mới nhất; dalatmilk.vn không truy cập được → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt chữ lớn; chữ nhỏ hai bên thân hộp là chữ AI vẽ, không đọc được",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh render Kingfoodmart cùng mã vạch 8938503131094 (chỉ làm mẫu)",
+      "referenceUrl": "https://storage.googleapis.com/onelife-public/8938503131094.jpg"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết từ chữ in trên bao bì mới (Kingfoodmart, cùng mã vạch): 'Sữa chua Dâu tây', 'Hoàn toàn từ sữa tươi cao nguyên', 100 g",
+    "source": null,
+    "rubricVersion": "v19"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:10:12.000Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "ask owner: Yogus packaging still current?"
+    },
+    {
+      "at": "2026-10-17T09:13:43Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T09:13:43Z",
+      "by": "owner",
+      "status": "ASK_OWNER",
+      "note": "17/10/2026 (RUBRIC v19): dùng bao bì mới nhất của hãng khi tìm được"
+    },
+    {
+      "at": "2026-10-17T09:13:43Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "new pack for same barcode found (Kingfoodmart); Gemini redraw accepted; description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T09:13:44.083Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T09:13:44.083Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T09:20:23.912Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T09:20:23.912Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/4cf0354399f0c2e0615a6245c2cc3d8efcc395e00edc6fb68585fb51f6aded06.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/08/22/tram8/fe32f1d1bf0a43ed9020538f75fe0174.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Sữa chua Đà Lạt Milk vị dâu tây, làm hoàn toàn từ sữa tươi cao nguyên (theo chữ in trên bao bì).\n\nQuy cách: 100 g · hộp\nXuất xứ: Việt Nam · Nhà sản xuất/thương hiệu: Đà Lạt Milk",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

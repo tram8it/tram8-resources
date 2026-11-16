@@ -1,0 +1,113 @@
+{
+  "kiotProductId": "64865749",
+  "code": "8996001320051",
+  "barcode": "8996001320051",
+  "name": "Kẹo Kopiko Coffee - Bag 140G ( KDNS010326_01)",
+  "fullName": "Kẹo Kopiko Coffee - Bag 140G ( KDNS010326_01) (Gói)",
+  "brand": "Kopiko",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2549273",
+    "name": "Kẹo cứng",
+    "path": "Các loại kẹo > Kẹo cứng"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/4555ec048c7101824030d0eab5afb8b79a39665ecd5f4ae3122ca63d2ac469ca.webp",
+    "description": "Kẹo cà phê Kopiko Coffee, kẹo cứng làm từ cà phê thật, gói riêng từng viên, tiện mang theo.\n\nQuy cách: 140 g · túi\nThương hiệu: Kopiko (Mayora)",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I7: có tem giá cửa hàng khác (22.000 VND) dán trên gói; không có ảnh hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Dùng bao bì mới 'Coffee Candy – BIGGER BOLDER COFFEE' (ảnh cửa hàng là bao bì cũ 'Coffee'); '140 g (40 viên x 3,5 g)' đúng",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh Kingfoodmart + Co.op Online bao bì mới (chỉ làm mẫu)",
+      "referenceUrl": "https://kingfoodmart.com/keo-cung-keo-mut/keo-coffee-kopiko-goi-140g-1-goi-60351"
+    },
+    "rubricVersion": "v17"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; không có trang hãng — mô tả ngắn chỉ từ tên SP và chữ in mặt trước bao bì (ảnh hiện tại)",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T22:00:00.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "batch b14 review (rubric v4): image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T05:35:10Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T05:36:09.528Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T08:06:02.482Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T05:36:09.528Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T07:11:49.049Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T07:11:49.049Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/4555ec048c7101824030d0eab5afb8b79a39665ecd5f4ae3122ca63d2ac469ca.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/30/tram8/d60b40d4db064f7e9a2d40017ca1b5d4.png"
+        ]
+      },
+      "description": {
+        "to": "Kẹo cà phê Kopiko Coffee, kẹo cứng làm từ cà phê thật, gói riêng từng viên, tiện mang theo.\n\nQuy cách: 140 g · túi\nThương hiệu: Kopiko (Mayora)",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

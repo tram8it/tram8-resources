@@ -1,0 +1,119 @@
+{
+  "kiotProductId": "64865463",
+  "code": "SP000647",
+  "barcode": null,
+  "name": "Bánh Mì Que Xúc Xích Phô Mai",
+  "fullName": "Bánh Mì Que Xúc Xích Phô Mai - Nướng (Cái)",
+  "brand": "Thanh Hà Foods",
+  "unit": "Cái",
+  "category": {
+    "kiotCategoryId": "2548795",
+    "name": "Bánh mì que",
+    "path": "Các loại bánh > Bánh mì que"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/136cb8a9838bcb5090ac9638479576bb512801a52e3a0cb8db3767deff1f9bd1.webp",
+    "description": "Bánh mì que nhân xúc xích và phô mai, đóng gói đông lạnh, nướng lại trước khi ăn.\n\nQuy cách: cái\nXuất xứ: Việt Nam · Nhà sản xuất: Công ty TNHH TMDV Ẩm thực Lâm Vũ\nBảo quản: Ngăn đông (−18°C) dùng trong 6 tháng; ngăn mát (2–5°C) dùng trong 2 ngày; không cấp đông lại sau khi rã đông.\nHướng dẫn sử dụng: Rã đông trong ngăn mát 6–7 giờ hoặc ở nhiệt độ thường khoảng 1 giờ, nướng hai mặt ở 180°C trong 4–5 phút tới khi vỏ vàng giòn. Nên mở khe miệng bánh khi nướng để nhân nóng đều và phô mai tan chảy.",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I3/I4/I5: ảnh KiotViet chụp cận nhãn túi; 19/10 tìm web (tên, 'Lâm Vũ', ảnh ngược Yandex) không có ảnh nào, nhưng ảnh KiotViet thấy trọn nhãn in → vẽ lại cả túi từ ảnh KiotViet (v23) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: mép túi và số que trong túi do AI dựng (ảnh mẫu bị cắt mép); chữ nhỏ (thành phần, bảng dinh dưỡng, địa chỉ) là chữ AI, không đọc theo được; ảnh là cả túi theo nhãn — nếu cửa hàng bán lẻ từng que thì cần ảnh khác",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-19",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet nhân viên chụp (chỉ làm mẫu)",
+      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/02/26/tongpenhchtl/f837514cb70a479db3866d20edea987d.jpeg"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết từ nhãn in trên túi (đọc trên ảnh hiện tại; danh sách thành phần quá mờ nên bỏ)",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-14T00:27:37.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "batch f2: image REPLACE -> needs photo, description WRITE_NEW from pack label"
+    },
+    {
+      "at": "2026-10-17T12:00:00Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "Bánh mì que không có mã vạch nhà máy (hàng tươi giao theo ngày) → không vẽ Gemini, giữ NEEDS_PHOTO, cần nhân viên chụp"
+    },
+    {
+      "at": "2026-10-19T07:33:47Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-19T07:33:57.441Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T08:50:58.958Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T17:15:09.663Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-19T07:33:57.441Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T07:36:47.394Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T07:36:47.394Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/136cb8a9838bcb5090ac9638479576bb512801a52e3a0cb8db3767deff1f9bd1.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/02/26/tongpenhchtl/f837514cb70a479db3866d20edea987d.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Bánh mì que nhân xúc xích và phô mai, đóng gói đông lạnh, nướng lại trước khi ăn.\n\nQuy cách: cái\nXuất xứ: Việt Nam · Nhà sản xuất: Công ty TNHH TMDV Ẩm thực Lâm Vũ\nBảo quản: Ngăn đông (−18°C) dùng trong 6 tháng; ngăn mát (2–5°C) dùng trong 2 ngày; không cấp đông lại sau khi rã đông.\nHướng dẫn sử dụng: Rã đông trong ngăn mát 6–7 giờ hoặc ở nhiệt độ thường khoảng 1 giờ, nướng hai mặt ở 180°C trong 4–5 phút tới khi vỏ vàng giòn. Nên mở khe miệng bánh khi nướng để nhân nóng đều và phô mai tan chảy.",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "kiotProductId": "64865636",
+  "code": "8936010532205",
+  "barcode": "8936010532205",
+  "name": "Trà Bí Đao Lon Cozy 320ml",
+  "fullName": "Trà Bí Đao Lon Cozy 320ml (Lon)",
+  "brand": "Cozy",
+  "unit": "Lon",
+  "category": {
+    "kiotCategoryId": "2549372",
+    "name": "Trà đóng chai",
+    "path": "Đồ uống đóng chai > Trà đóng chai"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/ad07811193233c06a4efc017eee4e56daf562e51532b8e1cd9104e39e730df91.webp",
+    "description": "Trà bí đao Cozy, hương vị truyền thống, ngọt dịu và thanh mát, chiết xuất từ cốt bí đao. Hợp dùng trong ngày nóng hoặc kèm bữa ăn nhiều dầu mỡ; ngon hơn khi uống lạnh.\n\nQuy cách: 320 ml · lon\nNhà sản xuất/thương hiệu: Cozy",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I3/I4: ảnh chụp tay cầm trong cửa hàng; cozy.vn chỉ có ảnh bối cảnh → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: phần dưới lon bị cắt trong ảnh chụp, AI vẽ tiếp nền xanh trơn + đáy bạc; không có dòng thể tích",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (lon cầm tay)",
+      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2025/11/27/tongpenhchtl/e73ad0f091c749859a4b89291a4f431b.jpeg"
+    },
+    "rubricVersion": "v17"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; theo trang Cozy và tên SP",
+    "source": {
+      "url": "https://cozy.vn/tra-bi-dao/",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:31:48.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "review b08: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T05:19:52Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T05:20:35.606Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T05:52:57.796Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T05:20:35.606Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T05:28:23.039Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T05:28:23.039Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/ad07811193233c06a4efc017eee4e56daf562e51532b8e1cd9104e39e730df91.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2025/11/27/tongpenhchtl/e73ad0f091c749859a4b89291a4f431b.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Trà bí đao Cozy, hương vị truyền thống, ngọt dịu và thanh mát, chiết xuất từ cốt bí đao. Hợp dùng trong ngày nóng hoặc kèm bữa ăn nhiều dầu mỡ; ngon hơn khi uống lạnh.\n\nQuy cách: 320 ml · lon\nNhà sản xuất/thương hiệu: Cozy",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

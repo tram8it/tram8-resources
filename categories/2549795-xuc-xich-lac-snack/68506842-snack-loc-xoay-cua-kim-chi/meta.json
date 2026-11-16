@@ -1,0 +1,113 @@
+{
+  "kiotProductId": "68506842",
+  "code": "8936034879096",
+  "barcode": "8936034879096",
+  "name": "Snack lốc xoáy cua kim Chi",
+  "fullName": "Snack lốc xoáy cua kim Chi (Gói)",
+  "brand": "Heo Cao Bồi",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2549795",
+    "name": "Xúc xích lắc & snack",
+    "path": "Xúc Xích & Thịt Nguội > Xúc xích lắc & snack"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/05fa4c79f7af0b6d3359aa373b3bbe76db0089b5aeeda545b1747018916564dd.webp",
+    "description": "Snack Lốc Xoáy của Heo Cao Bồi, vị cua kim chi; bao bì ghi \"Snack dinh dưỡng\".\n\nQuy cách: gói\nThương hiệu: Heo Cao Bồi",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I3/I4: ảnh KiotViet chụp tay, gói nhăn, mép phải bị cắt; không có trang hãng, không tìm được ảnh bán lẻ (mã vạch chưa có trên iCheck/OFF/Kingfoodmart) → Gemini vẽ lại (v12–v15, đồng bộ dãy Heo Cao Bồi) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: nhãn 'CUA KIM CHI' hiện đủ chữ (gói thật chạy ra mép); đã bỏ hai dòng chữ nhỏ Gemini tự thêm ở đáy; không in khối lượng; chi tiết minh hoạ có thể lệch nhẹ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet của cửa hàng + ảnh KiotViet vị Gà Phô Mai cùng dòng (hình gói)",
+      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/10/16/tram8/b5a2e104ee2c454e85a6ab4180ecc655.jpeg"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; mô tả ngắn chỉ từ dữ kiện chắc chắn (tên SP, thương hiệu, vị, chữ in mặt trước bao bì; khối lượng theo tên KiotViet nếu có); không có trang hãng truy cập được",
+    "source": null,
+    "rubricVersion": "v21"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-17T17:36:28Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T17:37:03.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "new short description from pack front + name"
+    },
+    {
+      "at": "2026-10-17T17:38:22.853Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T03:19:05.400Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T17:38:22.853Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T17:44:35.676Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T17:44:35.676Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/05fa4c79f7af0b6d3359aa373b3bbe76db0089b5aeeda545b1747018916564dd.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/10/16/tram8/b5a2e104ee2c454e85a6ab4180ecc655.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Snack Lốc Xoáy của Heo Cao Bồi, vị cua kim chi; bao bì ghi \"Snack dinh dưỡng\".\n\nQuy cách: gói\nThương hiệu: Heo Cao Bồi",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

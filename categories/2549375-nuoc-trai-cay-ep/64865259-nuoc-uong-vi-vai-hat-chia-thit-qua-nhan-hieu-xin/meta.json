@@ -1,0 +1,118 @@
+{
+  "kiotProductId": "64865259",
+  "code": "6934299832797",
+  "barcode": "6934299832797",
+  "name": "Nước uống vị vải hạt chia thịt quả nhãn hiệu XINHUYUAN",
+  "fullName": "Nước uống vị vải hạt chia thịt quả nhãn hiệu XINHUYUAN (Ly)",
+  "brand": "Hàng nội địa Trung",
+  "unit": "Ly",
+  "category": {
+    "kiotCategoryId": "2549375",
+    "name": "Nước trái cây / ép",
+    "path": "Đồ uống đóng chai > Nước trái cây / ép"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/a3944242ddf260b8015bcc049a1f36ba04f6a1b302c9814c09b425250fae6fe9.webp",
+    "description": "Nước uống trái cây vị vải có hạt chia và thịt quả, thương hiệu Xinhuyuan, chai nắp vặn tiện mang theo.\n\nQuy cách: 450 ml · cốc\nThương hiệu: Xinhuyuan",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "ảnh tự chụp (mềm, nhăn/bóng lóa); không có ảnh hãng trong danh sách nguồn → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt ở chữ lớn; chữ nhỏ đã so với ảnh",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet hiện có (ảnh tự chụp)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết ngắn từ chữ in trên nhãn (hạt chia, 450 毫升) và tên SP",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:32:10.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "batch b09 review: image CROP, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-15T09:16:17Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "tone.py --vivid: white balance/levels + brand-like colour (owner request)"
+    },
+    {
+      "at": "2026-10-17T14:21:44Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T14:27:24.102Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T14:27:24.102Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T16:55:57.817Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T16:55:57.817Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/a3944242ddf260b8015bcc049a1f36ba04f6a1b302c9814c09b425250fae6fe9.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/27/tram8/8aea5d22a2bc4980a3c8a5e1889a85b6.png"
+        ]
+      },
+      "description": {
+        "to": "Nước uống trái cây vị vải có hạt chia và thịt quả, thương hiệu Xinhuyuan, chai nắp vặn tiện mang theo.\n\nQuy cách: 450 ml · cốc\nThương hiệu: Xinhuyuan",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

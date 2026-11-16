@@ -1,0 +1,111 @@
+{
+  "kiotProductId": "66473394",
+  "code": "8859533600018",
+  "barcode": "8859533600018",
+  "name": "Kẹo thơm miệng Play candy vị Dưa hấu 12g (gói)",
+  "fullName": "Kẹo thơm miệng Play candy vị Dưa hấu 12g (gói) (Gói)",
+  "brand": "Play Candy",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2549276",
+    "name": "Viên ngậm thảo mộc / bạc hà",
+    "path": "Các loại kẹo > Viên ngậm thảo mộc / bạc hà"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/f92c28cdc6b8085b35b59d0e99554aec7d17a272b1b7274c50322320589fe9f9.webp",
+    "description": "Kẹo thơm miệng Play Candy vị dưa hấu, gói nhỏ tiện mang theo.\n\nQuy cách: 12 g · gói\nNhà sản xuất/thương hiệu: Play Candy",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I1: chưa có ảnh trên KiotViet; trang hãng không có ảnh → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt đáng kể; đã bỏ logo nhà thuốc. Mặt trước gói không in khối lượng (12g in ở mặt sau)",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh mặt trước + mặt sau trên trungtamthuoc.com (chỉ làm mẫu; mặt sau có mã vạch 8859533600018, Net weight 12g)",
+      "referenceUrl": "https://trungtamthuoc.com/keo-ngam-play-candy"
+    },
+    "rubricVersion": "v17"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; không có trang hãng/ảnh bao bì — mô tả ngắn chỉ từ tên SP và đơn vị bán",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:19:58.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "image NEEDS_PHOTO, description WRITE_NEW (name only)"
+    },
+    {
+      "at": "2026-10-17T04:41:09Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T04:43:38.552Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T05:23:58.238Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T04:43:38.552Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T04:52:28.259Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T04:52:28.259Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/f92c28cdc6b8085b35b59d0e99554aec7d17a272b1b7274c50322320589fe9f9.webp"
+        ],
+        "from": null
+      },
+      "description": {
+        "to": "Kẹo thơm miệng Play Candy vị dưa hấu, gói nhỏ tiện mang theo.\n\nQuy cách: 12 g · gói\nNhà sản xuất/thương hiệu: Play Candy",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

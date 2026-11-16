@@ -1,0 +1,125 @@
+{
+  "kiotProductId": "66207645",
+  "code": "8936034878952",
+  "barcode": "8936034878952",
+  "name": "Xúc xích",
+  "fullName": "Xúc xích (Que)",
+  "brand": "Heo Cao Bồi",
+  "unit": "Que",
+  "category": {
+    "kiotCategoryId": "2549794",
+    "name": "Xúc xích tiệt trùng",
+    "path": "Xúc Xích & Thịt Nguội > Xúc xích tiệt trùng"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/e2b1657aa527c72c27b0cc2e76c2b354a7f789477d915585ebfa9d33f15618ce.webp",
+    "description": "Xúc xích tiệt trùng Heo Cao Bồi (Snack dinh dưỡng) nhân xốt spaghetti, dạng cây ăn liền.\n\nQuy cách: cây\nNhà sản xuất/thương hiệu: Masan MEATLife · Heo Cao Bồi",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I3/I8: ảnh KiotViet chỉ thấy phần giữa cây → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ lớn khớp ảnh KiotViet (HEO CAO BỒI Snack dinh dưỡng, Nhân Xốt Spaghetti); hai đầu kẹp vẽ theo cây cùng dãy; khối lượng không thấy trên ảnh nên không vẽ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-18",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (ảnh chụp cây xúc xích thật, bị cắt hai đầu) + ảnh Minh Cầu Mart cây Heo Cao Bồi nhân phô mai cùng dãy (chỉ lấy dáng cây và hai đầu kẹp)",
+      "referenceUrl": "https://cdn1-retail-images.kiotviet.vn/2026/06/02/tram8/c81ae663164a48cbad4e12a72528c108.jpeg"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết từ chữ trên cây (ảnh KiotViet): Heo Cao Bồi Snack dinh dưỡng, Nhân Xốt Spaghetti",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:17:58.000Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "b16 review: image ASK_OWNER, description ASK_OWNER"
+    },
+    {
+      "at": "2026-10-17T14:02:05Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "no reference showing the whole stick (barcode not found online); staff photo needed"
+    },
+    {
+      "at": "2026-10-18T18:41:25Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-18T18:41:31Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "np18 re-research: description rewritten from pack/official facts"
+    },
+    {
+      "at": "2026-10-18T18:41:31.317Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T02:05:27.524Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T03:19:05.400Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-18T18:41:31.317Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T01:51:03.227Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T01:51:03.227Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/e2b1657aa527c72c27b0cc2e76c2b354a7f789477d915585ebfa9d33f15618ce.webp"
+        ],
+        "from": [
+          "https://cdn1-retail-images.kiotviet.vn/2026/06/02/tram8/c81ae663164a48cbad4e12a72528c108.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Xúc xích tiệt trùng Heo Cao Bồi (Snack dinh dưỡng) nhân xốt spaghetti, dạng cây ăn liền.\n\nQuy cách: cây\nNhà sản xuất/thương hiệu: Masan MEATLife · Heo Cao Bồi",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

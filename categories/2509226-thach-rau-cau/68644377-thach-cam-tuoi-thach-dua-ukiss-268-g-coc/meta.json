@@ -1,0 +1,115 @@
+{
+  "kiotProductId": "68644377",
+  "code": "6947988302778",
+  "barcode": "6947988302778",
+  "name": "Thạch Cam Tươi & Thạch Dừa Ukiss 268 g/ cốc",
+  "fullName": "Thạch Cam Tươi & Thạch Dừa Ukiss 268 g/ cốc (Cốc)",
+  "brand": "Ukiss",
+  "unit": "Cốc",
+  "category": {
+    "kiotCategoryId": "2509226",
+    "name": "Thạch – Rau câu",
+    "path": "Đồ ăn vặt > Thạch – Rau câu"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/012c61cc6146a719f2e0f31878a831a1d30178cdcccb07c06f691b6cf253aeb1.webp",
+    "description": "Cốc thạch Ukiss cam tươi và thạch dừa, cốc có nắp. Hàng nhập khẩu, nhãn chính tiếng Trung (桔子果冻).\n\nQuy cách: 268 g · cốc\nThương hiệu: Ukiss",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "SP mới 28/10: ảnh KiotViet là ảnh chụp tay (nền lộn xộn, nhăn, chéo) → vẽ lại gói phẳng chính diện nền trắng theo đúng ảnh chụp → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: gói làm phẳng, ánh sáng đều; bỏ dấu ngày NSX/HSD đóng tay; chữ nhỏ có thể mờ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-28",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh nhân viên chụp SP thật (KiotViet 28/10)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "SP mới chưa có mô tả → viết theo chữ in trên bao bì (ảnh chụp) + tên hàng; không thêm dữ kiện ngoài bao bì",
+    "source": {
+      "staffPhoto": true,
+      "takenAt": "2026-10-28"
+    },
+    "rubricVersion": "v18"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-28T12:19:24.077Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-28T12:26:00Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-28T12:25:59+00:00",
+      "by": "ai",
+      "status": "READY",
+      "note": "mô tả mới theo bao bì"
+    },
+    {
+      "at": "2026-10-28T12:26:31.426Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-30T07:46:51.387Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-30T07:47:19.672Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-28T12:26:31.426Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-28T12:37:35.288Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-28T12:37:35.288Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/012c61cc6146a719f2e0f31878a831a1d30178cdcccb07c06f691b6cf253aeb1.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/10/28/tram8/514d232e20c349438609ea4cfcee2b59.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Cốc thạch Ukiss cam tươi và thạch dừa, cốc có nắp. Hàng nhập khẩu, nhãn chính tiếng Trung (桔子果冻).\n\nQuy cách: 268 g · cốc\nThương hiệu: Ukiss",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

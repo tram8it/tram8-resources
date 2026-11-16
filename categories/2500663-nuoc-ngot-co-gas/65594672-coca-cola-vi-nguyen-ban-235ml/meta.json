@@ -1,0 +1,141 @@
+{
+  "kiotProductId": "65594672",
+  "code": "8935049501404",
+  "barcode": "8935049501404",
+  "name": "Coca Cola Vị Nguyên bản 235ml",
+  "fullName": "Coca Cola Vị Nguyên bản 235ml (Lon)",
+  "brand": "Coca-Cola",
+  "unit": "Lon",
+  "category": {
+    "kiotCategoryId": "2500663",
+    "name": "Nước ngọt có gas",
+    "path": "Đồ uống đóng chai > Nước ngọt có gas"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/955e6a61f9ef0ca6305e928b16757df488a8c2e57761da960ffdf4cd5d4c79c2.webp",
+    "description": "Nước ngọt có gas Coca-Cola vị nguyên bản, vị cola đặc trưng có chút caffeine, lon nhỏ 235 ml vừa một lần uống. Sản phẩm của Coca-Cola Việt Nam.\n\nThành phần: nước bão hòa CO₂, đường HFCS, đường mía, màu tự nhiên (150d), chất điều chỉnh độ acid (338), hương liệu tự nhiên, caffeine.\nQuy cách: 235 ml · lon\nNhà sản xuất/thương hiệu: Coca-Cola Việt Nam · Coca-Cola",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "ảnh tự chụp (mềm, bóng lóa); không có ảnh hãng đúng bao bì → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: lon vẽ hơi cao hơn lon 235 ml thật; ô năng lượng nhỏ bên phải chép từ lon 320 ml, có thể không khớp số của lon 235 ml · Chủ: tỉ lệ hơi béo → co ngang ảnh cho lon cao/rộng ≈ 2,06 như ảnh KiotViet lon 235 ml",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet hiện có (ảnh tự chụp) + ảnh hãng lon cao Coca-Cola VN (chỉ lấy logo/chữ)",
+      "referenceUrl": "https://www.coca-cola.com/content/dam/onexp/vn/vi/brands/coca-cola/vn-coca-cola.png",
+      "postprocess": "narrowed horizontally to can height/width 2.06 (measured on KiotViet photo)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; theo trang hãng (Coca-Cola vị nguyên bản)",
+    "source": {
+      "url": "https://www.coca-cola.com/vn/vi/brands/coca-cola",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:41:16.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "b17: image CROP, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-15T09:16:17Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "tone.py --vivid: white balance/levels + brand-like colour (owner request)"
+    },
+    {
+      "at": "2026-10-17T14:19:13Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T14:26:35.996Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "IN_PROGRESS",
+      "note": "rejected on Hub by AU KHUONG DUY: Tỉ lệ hơi béo so với thực tế"
+    },
+    {
+      "at": "2026-10-17T18:03:49Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "redo after Hub rejection: Tỉ lệ hơi béo so với thực tế — narrowed horizontally to can height/width 2.06 (measured on KiotViet photo) (no API call)"
+    },
+    {
+      "at": "2026-10-17T18:07:43.195Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-18T17:16:08.691Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T03:19:05.400Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T18:07:43.195Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-18T17:10:29.072Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-18T17:10:29.072Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/955e6a61f9ef0ca6305e928b16757df488a8c2e57761da960ffdf4cd5d4c79c2.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/27/tram8/7e8d7ced49f74e1981150aca625164d1.png"
+        ]
+      },
+      "description": {
+        "to": "Nước ngọt có gas Coca-Cola vị nguyên bản, vị cola đặc trưng có chút caffeine, lon nhỏ 235 ml vừa một lần uống. Sản phẩm của Coca-Cola Việt Nam.\n\nThành phần: nước bão hòa CO₂, đường HFCS, đường mía, màu tự nhiên (150d), chất điều chỉnh độ acid (338), hương liệu tự nhiên, caffeine.\nQuy cách: 235 ml · lon\nNhà sản xuất/thương hiệu: Coca-Cola Việt Nam · Coca-Cola",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

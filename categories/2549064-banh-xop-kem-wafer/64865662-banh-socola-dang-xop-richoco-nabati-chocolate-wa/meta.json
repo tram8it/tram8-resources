@@ -1,0 +1,136 @@
+{
+  "kiotProductId": "64865662",
+  "code": "8993175535885",
+  "barcode": "8993175535885",
+  "name": "BÁNH SÔCÔLA (DẠNG XỐP) RICHOCO NABATI CHOCOLATE WAFER 50G",
+  "fullName": "BÁNH SÔCÔLA (DẠNG XỐP) RICHOCO NABATI CHOCOLATE WAFER 50G (Gói)",
+  "brand": "Nabati",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2549064",
+    "name": "Bánh xốp kem (wafer)",
+    "path": "Bánh quy & bánh đóng gói > Bánh xốp kem (wafer)"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/2fcee51d2f54e57b4bdec45222c3b85e4b49e0c332374970236ad9d290152c13.webp",
+    "description": "Bánh sô-cô-la dạng xốp Nabati Richoco (Chocolate Wafer), lớp xốp giòn xen kem sô-cô-la.\n\nQuy cách: 50 g · gói\nNhà sản xuất/thương hiệu: Nabati",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I3/I4: ảnh KiotViet chụp thùng hàng; gói đang bán in 50 g (kiểm kệ 17/10) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: dòng chữ nhỏ 'Manufactured by…'/địa chỉ mờ, không đọc được (Gemini hay bịa chữ nhỏ)",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh nhân viên chụp 17/10 + ảnh packshot cùng thiết kế (chỉ làm mẫu bố cục)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết ngắn từ tên SP và chữ in mặt trước gói; 50 g khớp gói đang bán (kiểm kệ 17/10)",
+    "source": null,
+    "rubricVersion": "v19"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:36:29.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "b10 review: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T05:18:38Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "khối lượng chưa xác minh (OFF 37 g vs tên 50 g); ảnh Gemini còn chữ nhỏ bịa số sau 2 lần sửa → hỏi chủ"
+    },
+    {
+      "at": "2026-10-17T08:45:00Z",
+      "by": "owner",
+      "note": "RUBRIC v19: khối lượng tin bao bì đúng mã vạch hơn tên KiotViet; chỉ hỏi khi lệch > ~10% hoặc rõ là cỡ khác",
+      "status": "ASK_OWNER"
+    },
+    {
+      "at": "2026-10-17T09:30:00Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "gap > ~10% / other size or needs shelf check: question shortened to the two numbers (RUBRIC v19)"
+    },
+    {
+      "at": "2026-10-17T12:00:00Z",
+      "by": "owner",
+      "status": "ASK_OWNER",
+      "note": "Kiểm kệ 17/10 (nhân viên chụp): gói in 50 g"
+    },
+    {
+      "at": "2026-10-17T12:56:34Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 5, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T12:58:03.433Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T12:58:03.433Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T13:32:55.936Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T13:32:55.936Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/2fcee51d2f54e57b4bdec45222c3b85e4b49e0c332374970236ad9d290152c13.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2025/11/28/tongpenhchtl/e64f6ca2ba1a441286b651489365e73a.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Bánh sô-cô-la dạng xốp Nabati Richoco (Chocolate Wafer), lớp xốp giòn xen kem sô-cô-la.\n\nQuy cách: 50 g · gói\nNhà sản xuất/thương hiệu: Nabati",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

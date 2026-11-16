@@ -1,0 +1,123 @@
+{
+  "kiotProductId": "68116316",
+  "code": "SP878191",
+  "barcode": "8936186850707",
+  "name": "Mía Hấp Lá Nếp 200g",
+  "fullName": "Mía Hấp Lá Nếp 200g - Hấp (Gói)",
+  "brand": null,
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2547488",
+    "name": "Món hấp",
+    "path": "Món ngon Trạm 8 > Món hấp"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/ea57dd3829ae06730fc1b80d6bb438ec658f4df2b2378935f8b4e2e48368402d.webp",
+    "description": "Mía hấp lá nếp đóng gói, món ăn vặt dân dã.\n\nQuy cách: 200 g · gói",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "ảnh minh hoạ (chủ 20/10: SP không được để trống ảnh) — route 4: mía hấp lá nếp trong túi trong, không nhãn. Khác hàng thật: không có bao bì/nhãn thật; vẽ túi trong trơn, không ghi khối lượng; cách cắt mía/lá minh hoạ. Trước đó: ảnh minh hoạ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-21",
+      "style": "flat clean packaging render (v17)",
+      "reference": "không có ảnh mẫu (vẽ từ tên SP)",
+      "illustration": true
+    },
+    "rubricVersion": "v23"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; không có trang hãng, không có ảnh bao bì — mô tả ngắn chỉ từ tên SP",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T22:00:00.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "batch b14 review (rubric v4): image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T06:00:00Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "rechecked 17/10: no brand, no image source"
+    },
+    {
+      "at": "2026-10-19T07:38:02Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "19/10 re-research with image search (owner request): no image of this exact product/variant found"
+    },
+    {
+      "at": "2026-10-21T02:04:36Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "illustration 20/10: route 4: mía hấp lá nếp trong túi trong, không nhãn"
+    },
+    {
+      "at": "2026-10-21T02:04:37.098Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-21T08:30:34.700Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-26T04:58:33.990Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-21T02:04:37.098Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-21T02:09:17.884Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-21T02:09:17.884Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/ea57dd3829ae06730fc1b80d6bb438ec658f4df2b2378935f8b4e2e48368402d.webp"
+        ],
+        "from": null
+      },
+      "description": {
+        "to": "Mía hấp lá nếp đóng gói, món ăn vặt dân dã.\n\nQuy cách: 200 g · gói",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "kiotProductId": "65769415",
+  "code": "SP877445",
+  "barcode": "8934804054049",
+  "name": "MILO180 A2-Sữa Milo A2 180ml",
+  "fullName": "MILO180 A2-Sữa Milo A2 180ml (Hộp)",
+  "brand": "Milo",
+  "unit": "Hộp",
+  "category": {
+    "kiotCategoryId": "2549384",
+    "name": "Thức uống bổ sung dinh dưỡng",
+    "path": "Đồ uống đóng chai > Thức uống bổ sung dinh dưỡng"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/057dc8205f23126a14651e19a99d1a416cb6c2f8e7a9fb972b58bc4135ee7891.webp",
+    "description": "Thực phẩm bổ sung sữa lúa mạch Nestlé MILO Sữa mát A2 ít đường, hộp giấy uống liền. Bao bì ghi 109 kcal mỗi hộp.\n\nQuy cách: 180 ml · hộp\nNhà sản xuất/thương hiệu: MILO · Nestlé",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I1: chưa có ảnh; trang Nestlé MILO chặn truy cập → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt chữ lớn (MILO, Sữa mát A2, Ít đường, 180 ml, 109 kcal)",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-18",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh Kingfoodmart theo mã vạch (chỉ làm mẫu)",
+      "referenceUrl": "https://storage.googleapis.com/onelife-public/8934804054049.jpg"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: từ chữ trên hộp (ảnh Kingfoodmart đúng mã vạch): Sữa mát A2, ít đường, sữa lúa mạch, 180 ml, 109 kcal/hộp",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:39:43.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T12:00:00Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "searched retailer/OFF references for a Gemini redraw; none usable for this exact pack"
+    },
+    {
+      "at": "2026-10-18T18:05:56Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-18T18:05:56Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "np18 re-research: description rewritten from pack/official facts"
+    },
+    {
+      "at": "2026-10-18T18:05:56.846Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T02:05:27.524Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T03:19:05.400Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-18T18:05:56.846Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T01:35:09.867Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T01:35:09.867Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/057dc8205f23126a14651e19a99d1a416cb6c2f8e7a9fb972b58bc4135ee7891.webp"
+        ],
+        "from": null
+      },
+      "description": {
+        "to": "Thực phẩm bổ sung sữa lúa mạch Nestlé MILO Sữa mát A2 ít đường, hộp giấy uống liền. Bao bì ghi 109 kcal mỗi hộp.\n\nQuy cách: 180 ml · hộp\nNhà sản xuất/thương hiệu: MILO · Nestlé",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

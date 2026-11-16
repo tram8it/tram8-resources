@@ -1,0 +1,200 @@
+{
+  "kiotProductId": "65140174",
+  "code": "8935012413338",
+  "barcode": "8935012413338",
+  "name": "Bia lon 333 (PAT2)",
+  "fullName": "Bia lon 333 (PAT2) - 5.3% (Lon)",
+  "brand": "333",
+  "unit": "Lon",
+  "category": {
+    "kiotCategoryId": "2549752",
+    "name": "Lager Phổ Thông",
+    "path": "Đồ uống có cồn (18+) > Bia > Lager Phổ Thông"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/8565bfbe4d6bff29e92c0d450b7d13ddecdb916ed1232a01bc6470f69908acca.webp",
+    "description": "Bia 333 của SABECO được ủ từ hoa bia Hallertau của Đức theo công thức và men bia kế thừa từ Pháp, cho hương bia nồng nàn và vị đầy đặn quen thuộc. Độ cồn 5,3%.\n\nThành phần: Nước, malt đại mạch, ngũ cốc, hoa bia.\nQuy cách: 330 ml · lon\nXuất xứ: Việt Nam · Nhà sản xuất/thương hiệu: SABECO (Tổng công ty CP Bia - Rượu - Nước giải khát Sài Gòn)\nBảo quản: Nơi khô ráo, thoáng mát; tránh nguồn nhiệt và ánh nắng trực tiếp.\nHướng dẫn sử dụng: Ngon hơn khi uống lạnh, tốt nhất ở 10–15 °C.\nSản phẩm dành cho người từ 18 tuổi trở lên.",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "chủ 21/10: ảnh các lon bia không đồng bộ → vẽ lại chính diện, ánh sáng đều, cùng cỡ trong khung như các lon khác → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: giữ thiết kế/chữ của lon; chỉ đổi góc, ánh sáng, độ nét; chữ nhỏ có thể mờ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-21",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh hiện tại của SP (KiotViet/đã duyệt) + lon cùng dòng 68505054 làm mẫu phong cách"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "REWRITE",
+    "reason": "D2/D3: mô tả cũ do chatbot sinh (HTML), quảng cáo quá đà và có dữ kiện phỏng đoán/không kiểm chứng; viết lại theo trang SABECO",
+    "source": {
+      "url": "https://www.sabeco.com.vn/san-pham/bia/bia-333-nguyen-ban",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:40:09.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "rubric v4: image REPLACE, description REWRITE"
+    },
+    {
+      "at": "2026-10-17T05:19:22Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T05:19:22.582Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T05:52:57.796Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-21T12:41:42Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-21T12:41:42.616Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-26T02:38:48.902Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-26T04:58:33.990Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-21T12:41:42.616Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-21T12:47:41.301Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-21T12:47:41.301Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/8565bfbe4d6bff29e92c0d450b7d13ddecdb916ed1232a01bc6470f69908acca.webp"
+        ],
+        "from": [
+          "https://img.tram8.vn/products/5f0b465a67030096fa8f381b7b30b562b8259be395723322b70940222a28a2ee.webp"
+        ]
+      },
+      "description": {
+        "to": "Bia 333 của SABECO được ủ từ hoa bia Hallertau của Đức theo công thức và men bia kế thừa từ Pháp, cho hương bia nồng nàn và vị đầy đặn quen thuộc. Độ cồn 5,3%.\n\nThành phần: Nước, malt đại mạch, ngũ cốc, hoa bia.\nQuy cách: 330 ml · lon\nXuất xứ: Việt Nam · Nhà sản xuất/thương hiệu: SABECO (Tổng công ty CP Bia - Rượu - Nước giải khát Sài Gòn)\nBảo quản: Nơi khô ráo, thoáng mát; tránh nguồn nhiệt và ánh nắng trực tiếp.\nHướng dẫn sử dụng: Ngon hơn khi uống lạnh, tốt nhất ở 10–15 °C.\nSản phẩm dành cho người từ 18 tuổi trở lên.",
+        "from": "Bia 333 của SABECO được ủ từ hoa bia Hallertau của Đức theo công thức và men bia kế thừa từ Pháp, cho hương bia nồng nàn và vị đầy đặn quen thuộc. Độ cồn 5,3%.<br><br>Thành phần: Nước, malt đại mạch, ngũ cốc, hoa bia.<br>Quy cách: 330 ml · lon<br>Xuất xứ: Việt Nam · Nhà sản xuất/thương hiệu: SABECO (Tổng công ty CP Bia - Rượu - Nước giải khát Sài Gòn)<br>Bảo quản: Nơi khô ráo, thoáng mát; tránh nguồn nhiệt và ánh nắng trực tiếp.<br>Hướng dẫn sử dụng: Ngon hơn khi uống lạnh, tốt nhất ở 10–15 °C.<br>Sản phẩm dành cho người từ 18 tuổi trở lên."
+      }
+    },
+    "unexpectedChanges": {
+      "price": {
+        "to": 17129.63,
+        "from": 16818.18
+      },
+      "saleTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 65140174
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 65140174
+        }
+      },
+      "taxRate": {
+        "to": "VAT 8%",
+        "from": "VAT 10%"
+      },
+      "productTaxs": {
+        "to": [
+          {
+            "id": 0,
+            "name": "VAT 8%",
+            "taxId": 3,
+            "value": 8,
+            "productId": 65140174
+          }
+        ],
+        "from": [
+          {
+            "id": 0,
+            "name": "VAT 10%",
+            "taxId": 4,
+            "value": 10,
+            "productId": 65140174
+          }
+        ]
+      },
+      "purchaseTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 65140174
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 65140174
+        }
+      }
+    }
+  }
+}

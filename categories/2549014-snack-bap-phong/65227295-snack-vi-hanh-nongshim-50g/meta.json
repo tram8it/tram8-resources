@@ -1,0 +1,112 @@
+{
+  "kiotProductId": "65227295",
+  "code": "031146202119",
+  "barcode": "031146202119",
+  "name": "Snack vị hành Nongshim 50g",
+  "fullName": "Snack vị hành Nongshim 50g (Gói)",
+  "brand": "Nongshim",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2549014",
+    "name": "Snack bắp & phồng",
+    "path": "Đồ ăn vặt > Snacks > Snack bắp & phồng"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/72b432f4b9b6f72f4d5294e03081a4c5b16c5acae4df67985f3d94edf6f5d110.webp",
+    "description": "Snack vòng vị hành (Onion Flavored Rings) của Nongshim: bánh hình vòng tròn giòn xốp, thơm vị hành.\n\nQuy cách: 50 g · gói\nNhà sản xuất/thương hiệu: Nongshim",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I3/I7/I8: ảnh nhiều gói trong thùng carton, có tem cửa hàng khác; trang hãng (nongshimusa.com) không có SP này → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: bỏ tem nhập khẩu tiếng Thái dán ở góc phải dưới; chữ lớn, logo, 'NET WT. 1.76 OZ (50 g)' khớp mẫu",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh chụp gói Mỹ trên mạng (chỉ làm mẫu) + ảnh KiotViet hiện có"
+    },
+    "rubricVersion": "v17"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết ngắn chỉ từ tên hàng và chữ in mặt trước bao bì (Onion Flavored Rings)",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:23:35.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "image needs staff photo, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T03:29:07Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T03:29:15.700Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T03:59:04.373Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T03:29:15.700Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T03:33:12.827Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T03:33:12.827Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/72b432f4b9b6f72f4d5294e03081a4c5b16c5acae4df67985f3d94edf6f5d110.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/04/27/tram8/eacd63c213114724b454101040cb7bf8.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Snack vòng vị hành (Onion Flavored Rings) của Nongshim: bánh hình vòng tròn giòn xốp, thơm vị hành.\n\nQuy cách: 50 g · gói\nNhà sản xuất/thương hiệu: Nongshim",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

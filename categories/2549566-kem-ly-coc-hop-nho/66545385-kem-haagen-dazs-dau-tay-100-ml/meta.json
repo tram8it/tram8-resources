@@ -1,0 +1,138 @@
+{
+  "kiotProductId": "66545385",
+  "code": "SP877801",
+  "barcode": "074570022021",
+  "name": "Kem Haagen Dazs Dâu Tây 100 Ml",
+  "fullName": "Kem Haagen Dazs Dâu Tây 100 Ml (Ly)",
+  "brand": "Häagen-Dazs",
+  "unit": "Ly",
+  "category": {
+    "kiotCategoryId": "2549566",
+    "name": "Kem ly / cốc / hộp nhỏ",
+    "path": "Kem & Đồ đông lạnh > Kem ly / cốc / hộp nhỏ"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/388ade42f5cf514ac47bc4669fc13828b5b6ab8967c517d7c2ba7c8af0b378d4.webp",
+    "description": "Kem Häagen-Dazs vị dâu tây (Strawberry), ly nhỏ 100 ml.\n\nQuy cách: 100 ml · ly\nNhà sản xuất/thương hiệu: Häagen-Dazs\nBảo quản: Giữ đông ở −18 °C hoặc lạnh hơn.",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "Đồng bộ dòng SP 20/10: tub taller/narrower than other Häagen-Dazs minicups → same squat tub as 66545345 → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt chữ lớn (Häagen-Dazs, STRAWBERRY)",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-20",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh hiện tại của SP (nội dung) + ảnh SP cùng dòng đã duyệt (góc chụp/khung/tỉ lệ)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; mô tả ngắn từ tên hàng và chữ in trên ly (Häagen-Dazs Strawberry)",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:40:09.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "rubric v4: image CROP, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-15T09:16:17Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "tone.py --vivid: white balance/levels + brand-like colour (owner request)"
+    },
+    {
+      "at": "2026-10-17T14:12:37Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T14:14:31.582Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-20T16:42:19Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "line consistency 20/10: tub taller/narrower than other Häagen-Dazs minicups → same squat tub as 66545345; Gemini API redraw (attempt 4, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-20T16:43:09.622Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-21T08:30:34.700Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-26T04:58:33.990Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-20T16:43:09.622Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-20T16:45:51.942Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-20T16:45:51.942Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/388ade42f5cf514ac47bc4669fc13828b5b6ab8967c517d7c2ba7c8af0b378d4.webp"
+        ],
+        "from": [
+          "https://img.tram8.vn/products/bf595b2309a37d9ed9cba107d0b3660216636ce8fd0058b01205a9fd19f96126.webp"
+        ]
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

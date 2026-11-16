@@ -1,0 +1,137 @@
+{
+  "kiotProductId": "67767695",
+  "code": "8850389302835",
+  "barcode": "8850389302835",
+  "name": "Thực Phẩm Bổ Sung Nước Thạch Jelly Gumi Gumi Vitamin C Vị Vải 135g",
+  "fullName": "Thực Phẩm Bổ Sung Nước Thạch Jelly Gumi Gumi Vitamin C Vị Vải 135g (Gói)",
+  "brand": "Gumi",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2509226",
+    "name": "Thạch – Rau câu",
+    "path": "Đồ ăn vặt > Thạch – Rau câu"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/0dbf424b5826a31d6224582a4b067900fa4ee54c0fe3242316838251d2bea48c.webp",
+    "description": "Nước thạch Gumi Gumi Jelly vị vải, giàu vitamin C (High Vitamin C); túi có vòi hút uống liền.<br><br>Quy cách: 135 g · túi<br>Nhà sản xuất/thương hiệu: Gumi Gumi",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I2: ảnh KiotViet là bản cũ in 150 g, mờ; bản đúng mã vạch hiện hành in 135 g khớp tên → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ Thái nhỏ có thể sai nét; khối lượng 135 g đúng như mẫu",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh Kingfoodmart đúng mã vạch 8850389302835 (chỉ làm mẫu)",
+      "referenceUrl": "https://storage.googleapis.com/onelife-public/8850389302835.jpg"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: mô tả ngắn từ chữ in trên gói (High Vitamin C, Lychee Flavor, 135 g), cùng mẫu với vị nho",
+    "source": null,
+    "rubricVersion": "v20"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:54:06.000Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "b19: image ASK_OWNER, description ASK_OWNER"
+    },
+    {
+      "at": "2026-10-17T08:59:38Z",
+      "by": "owner",
+      "status": "ASK_OWNER",
+      "note": "Chủ trả lời 17/10 (RUBRIC v19): tin bao bì đúng mã vạch khi lệch nhỏ; lệch lớn/cỡ khác thì vẫn hỏi"
+    },
+    {
+      "at": "2026-10-17T08:59:38Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "v19: vẫn ASK_OWNER (lệch lớn hoặc cần xem kệ); rút gọn câu hỏi"
+    },
+    {
+      "at": "2026-10-17T13:55:50Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T13:55:50Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "resolved without asking: Kingfoodmart photo of this exact barcode shows the current pack printed 135 g = name; KiotViet 150 g photo is an older pack"
+    },
+    {
+      "at": "2026-10-17T13:55:51.129Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T17:15:09.663Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T13:55:51.129Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T13:56:44.490Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T13:56:44.490Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/0dbf424b5826a31d6224582a4b067900fa4ee54c0fe3242316838251d2bea48c.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/08/22/tram8/0009a133dd7b4db39b660783ba708aa5.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Nước thạch Gumi Gumi Jelly vị vải, giàu vitamin C (High Vitamin C); túi có vòi hút uống liền.\n\nQuy cách: 135 g · túi\nNhà sản xuất/thương hiệu: Gumi Gumi",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "kiotProductId": "67241096",
+  "code": "SP877940",
+  "barcode": "8935212804387",
+  "name": "Sữa tắm Enchanteur hồng 180ml",
+  "fullName": "Sữa tắm Enchanteur hồng 180ml (Chai)",
+  "brand": "Enchanteur",
+  "unit": "Chai",
+  "category": {
+    "kiotCategoryId": "2548718",
+    "name": "Sữa tắm",
+    "path": "Chăm sóc cá nhân > Chăm sóc cơ thể > Sữa tắm"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/4387d6533a918ca02b81c17f5608bef3f95eb5da79f923a299cc3d1bb79cc69e.webp",
+    "description": "Sữa tắm nước hoa dưỡng da Enchanteur Deluxe hương Romantic (chai hồng). Bổ sung dưỡng chất Silk Pro-F (protein tơ tằm) giúp da mềm mại; hương nước hoa Pháp, công nghệ khoá hương Scent-Lock giúp lưu hương lâu.\n\nQuy cách: 180 g · chai\nNhà sản xuất/thương hiệu: Enchanteur\nHướng dẫn sử dụng: Làm ướt da, cho một lượng vừa đủ ra lòng bàn tay hoặc bông tắm, thoa đều lên cơ thể theo chuyển động tròn rồi tắm sạch lại với nước.",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "Đồng bộ dòng SP (chủ 20/10): kiểu ảnh theo 67240735 → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt về chữ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-19",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh hiện tại/KiotViet của SP (nội dung) + ảnh đã duyệt của SP cùng dòng 67240735 (kiểu, góc, khung)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "REWRITE",
+    "reason": "D2/D3: mô tả cũ dạng AI dài, có dữ kiện sai/không kiểm chứng (ghi hương Charming trong khi chai hồng là Romantic); viết lại theo trang hãng | rà soát v9: Wrong variant: calls pink bottle 'Charming'; it is Deluxe Romantic",
+    "source": {
+      "url": "https://enchanteur.com.vn/product/sua-tam-nuoc-hoa-duong-da-huong-romantic",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:51:53.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "b19: image KEEP, description REWRITE"
+    },
+    {
+      "at": "2026-10-18T17:48:55.326Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description"
+    },
+    {
+      "at": "2026-10-19T02:05:27.524Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T03:19:05.400Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-19T18:53:24Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "line consistency 20/10: greyish photo-like bottle -> bright white bottle render like Charming — Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-19T18:54:07.714Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-20T03:28:53.537Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-26T04:58:33.990Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-19T18:54:07.714Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-20T03:25:45.599Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-20T03:25:45.599Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/4387d6533a918ca02b81c17f5608bef3f95eb5da79f923a299cc3d1bb79cc69e.webp"
+        ],
+        "from": [
+          "https://cdn1-retail-images.kiotviet.vn/2026/09/15/tram8/4da54e2dc2a04ce5a86ebc8a2f6200f9.png",
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/25/tram8/7579fc3c07ee49afb91fa94ca04471f7.jpeg"
+        ]
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "kiotProductId": "68562097",
+  "code": "6976286430951",
+  "barcode": "6976286430951",
+  "name": "Đậu Phụ Khô Que Diêm ( Hương Vị Sốt )",
+  "fullName": "Đậu Phụ Khô Que Diêm ( Hương Vị Sốt ) (Cái)",
+  "brand": null,
+  "unit": "Cái",
+  "category": {
+    "kiotCategoryId": "2549295",
+    "name": "Đồ chay giả mặn (konjac)",
+    "path": "Đồ ăn vặt > Đồ nội địa Trung > Đồ chay giả mặn (konjac)"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/14de8f3562d325d1d850740bba44063c9abd1261bbd0ede1b728d0fe457469f5.webp",
+    "description": "Đậu phụ khô que diêm (火柴豆干) của 素鲜日记 vị sốt tương kho (酱卤味); theo chữ in trên gói làm từ đậu nành, gói nhỏ ăn liền.\n\nQuy cách: 1 gói nhỏ (cân bán lẻ)\nNhà sản xuất/thương hiệu: 素鲜日记",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I3/I8: ảnh tay cầm gói giữa nhiều gói khác; không tìm được ảnh hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt đáng kể (vẽ một gói, bỏ tay)",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-21",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (ảnh nhân viên chụp 21/10, chỉ làm mẫu)"
+    },
+    "rubricVersion": "v23"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; không có trang hãng — mô tả ngắn chỉ từ tên SP và chữ in mặt trước bao bì (ảnh KiotViet); không ghi khối lượng khi gói không đọc được",
+    "source": null,
+    "rubricVersion": "v23"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-21T08:30:34.700Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-21T08:42:45Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references; description WRITE_NEW from pack front"
+    },
+    {
+      "at": "2026-10-21T08:43:29.141Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-26T02:38:48.902Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-26T04:58:33.990Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-21T08:43:29.141Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-21T08:49:31.983Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-21T08:49:31.983Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/14de8f3562d325d1d850740bba44063c9abd1261bbd0ede1b728d0fe457469f5.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/10/21/tram8/950d26fa8aa04ca68fdacfa57b85c382.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Đậu phụ khô que diêm (火柴豆干) của 素鲜日记 vị sốt tương kho (酱卤味); theo chữ in trên gói làm từ đậu nành, gói nhỏ ăn liền.\n\nQuy cách: 1 gói nhỏ (cân bán lẻ)\nNhà sản xuất/thương hiệu: 素鲜日记",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

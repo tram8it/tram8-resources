@@ -1,0 +1,113 @@
+{
+  "kiotProductId": "67136301",
+  "code": "8859470510128",
+  "barcode": "8859470510128",
+  "name": "Snack Mực Gia Vị Tương Ớt Sriracha Talaethong 100g",
+  "fullName": "Snack Mực Gia Vị Tương Ớt Sriracha Talaethong 100g (Gói)",
+  "brand": "Talaethong",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2549016",
+    "name": "Snack phồng tôm/mực/cua",
+    "path": "Đồ ăn vặt > Snacks > Snack phồng tôm/mực/cua"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/f4400c450d961b30ce28f4431d6f773ab870f9ef9db057665065d5efae4c4968.webp",
+    "description": "Snack mực Talaethong tẩm gia vị tương ớt Sriracha, vị cay chua ngọt kiểu Thái.\n\nQuy cách: 100 g · gói\nXuất xứ: Thái Lan · Thương hiệu: Talaethong",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I3, I4: ảnh tay cầm, nền cửa hàng; trang hãng Talaethong không truy cập được, không có ảnh hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Gemini vẽ lại từ ảnh tay cầm: dòng chữ Thái nhỏ phía trên ghi 'ข้าวเกรียบศรีราชา' (ảnh gốc bị lóa, đọc được 'เกรียบศรีราชา'); sắc đỏ dải đáy đậm hơn ảnh chụp; chữ nhỏ trên chai Sriracha và hoa văn sóng ở dải đáy có thể khác gói thật; khối lượng 100g khớp",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (ảnh tay cầm ở cửa hàng)",
+      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/07/18/tram8/9eab65a43a95459da499fa44a3be8457.png"
+    },
+    "rubricVersion": "v17"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; mô tả ngắn từ tên SP + chữ in mặt trước gói (Talaethong, Sriracha sauce, Product of Thailand, 100 g)",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:48:23.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "b17: needs photo, description from front-of-pack facts"
+    },
+    {
+      "at": "2026-10-17T05:23:34Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T05:23:34.156Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T05:52:57.796Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T05:23:34.156Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T05:28:32.909Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T05:28:32.909Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/f4400c450d961b30ce28f4431d6f773ab870f9ef9db057665065d5efae4c4968.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/18/tram8/9eab65a43a95459da499fa44a3be8457.png"
+        ]
+      },
+      "description": {
+        "to": "Snack mực Talaethong tẩm gia vị tương ớt Sriracha, vị cay chua ngọt kiểu Thái.\n\nQuy cách: 100 g · gói\nXuất xứ: Thái Lan · Thương hiệu: Talaethong",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

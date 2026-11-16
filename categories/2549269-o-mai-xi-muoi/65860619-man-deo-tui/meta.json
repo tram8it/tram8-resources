@@ -1,0 +1,105 @@
+{
+  "kiotProductId": "65860619",
+  "code": "8938520099650",
+  "barcode": "8938520099650",
+  "name": "Mận dẻo túi",
+  "fullName": "Mận dẻo túi (Gói)",
+  "brand": null,
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2549269",
+    "name": "Ô mai - Xí muội",
+    "path": "Đồ ăn vặt > Hạt các loại · Hoa quả sấy > Ô mai - Xí muội"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://cdn2-retail-images.kiotviet.vn/2026/05/20/tram8/daf6a366d06e4ea8ba26033ccecb8bc9.jpeg",
+    "description": null,
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "IN_PROGRESS",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "ảnh minh hoạ (chủ 20/10: SP không được để trống ảnh) — route 4: ảnh minh hoạ trung tính chính sản phẩm, không nhãn/chữ/thương hiệu. Khác hàng thật: ảnh minh hoạ trung tính: bao bì trong suốt không nhãn, không chữ, không logo; hình dáng/màu sản phẩm suy theo tên SP, chưa thấy bao bì thật. Trước đó: I3/I6: ảnh KiotViet chỉ là chén mận; tra lại 18/10 (mã vạch Kingfoodmart/OFF, \"Posi mận dẻo túi\", trang Behance posifood) — không rõ nhãn hiệu, không có ảnh túi → cần chụp túi · tra lại 19/10 (Yandex ảnh: \"mận dẻo túi Posi\"; \"Posi food mận dẻo\"; \"mận dẻo Posi\") — không có ảnh đúng SP/vị",
+    "source": {
+      "aiGenerated": true,
+      "illustration": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-21",
+      "reference": "ảnh KiotViet của SP (chén mận, work/gemini/65860619/refs/3-kiotviet.jpeg) cho hình quả mận"
+    },
+    "rubricVersion": "v23"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: mô tả ngắn chỉ từ dữ kiện chắc chắn (tên SP, đơn vị, khối lượng trong tên)",
+    "source": null,
+    "rubricVersion": "v23"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-14T00:28:46.000Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "batch f2: ASK_OWNER: product unidentified (image shows bowl only)"
+    },
+    {
+      "at": "2026-10-17T14:08:50Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "NEEDS_PHOTO: I3/I6: ảnh chỉ là chén mận, không có bao bì; mã 8938520099650 không tra được → cần chụp túi mận dẻo"
+    },
+    {
+      "at": "2026-10-18T18:22:31.768Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "np18 re-research 18/10: still no image of this exact pack"
+    },
+    {
+      "at": "2026-10-19T07:35:23Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "np19 re-research 19/10 (image search): still no image of this exact product → NEEDS_PHOTO"
+    },
+    {
+      "at": "2026-10-21T02:15:06Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "illustration 20/10: route 4: ảnh minh hoạ trung tính chính sản phẩm, không nhãn/chữ/thương hiệu"
+    },
+    {
+      "at": "2026-10-21T02:15:06.645Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-26T04:58:33.990Z",
+      "by": "owner",
+      "status": "IN_PROGRESS",
+      "note": "rejected on Hub by AU KHUONG DUY: Toàn ảnh bịa ra ko dùng đc"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-21T02:15:06.645Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "REJECTED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-21T12:59:31.261Z",
+    "note": "Toàn ảnh bịa ra ko dùng đc"
+  }
+}

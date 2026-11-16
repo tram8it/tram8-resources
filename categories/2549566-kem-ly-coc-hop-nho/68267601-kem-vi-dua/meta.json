@@ -1,0 +1,135 @@
+{
+  "kiotProductId": "68267601",
+  "code": "SP878257",
+  "barcode": "6970377577433",
+  "name": "Kem Vị Dứa",
+  "fullName": "Kem Vị Dứa (Ly)",
+  "brand": null,
+  "unit": "Ly",
+  "category": {
+    "kiotCategoryId": "2549566",
+    "name": "Kem ly / cốc / hộp nhỏ",
+    "path": "Kem & Đồ đông lạnh > Kem ly / cốc / hộp nhỏ"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/00cea076b5fd40454b4d3a3c7d826a1164401486efa499b591ac8a8742fc52f7.webp",
+    "description": "Kem vị dứa 3D Ice Cream Pop của Firstfood, kem tạo hình xoắn đặt trong vòm nhựa trong trên hộp giấy.\n\nQuy cách: 90 g · ly\nThương hiệu: Firstfood\nBảo quản: Giữ đông ở −18 °C hoặc lạnh hơn.",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "ảnh nhân viên chụp 19/10 (nền đá, lóa) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt ở chữ lớn (Firstfood, 3D Ice Cream Pop, Net: 90g)",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-19",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh nhân viên chụp (KiotViet 19/10)",
+      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/10/19/tram8/67430f3c28634c66a4e5f65fadcf66b2.png"
+    },
+    "rubricVersion": "v23"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "mô tả viết từ chữ in trên bao bì trong ảnh nhân viên chụp 19/10 (mặt trước/nắp); chỉ dữ kiện đọc được, không suy diễn",
+    "source": {
+      "url": "https://cdn2-retail-images.kiotviet.vn/2026/10/19/tram8/67430f3c28634c66a4e5f65fadcf66b2.png",
+      "fetchedAt": "2026-10-19T06:34:42Z",
+      "staffPhoto": true
+    },
+    "rubricVersion": "v23"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:40:09.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "rubric v4: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T05:15:38Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "re-checked brand sites/retail/OFF for references (batch 17/10): none usable"
+    },
+    {
+      "at": "2026-10-18T18:46:08Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "np18 re-research 18/10: still no usable reference for this exact pack (see image.reason)"
+    },
+    {
+      "at": "2026-10-19T06:33:32Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-19T06:34:42Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "nk6 19/10: staff photo → Gemini redraw accepted; description written from the pack in the photo"
+    },
+    {
+      "at": "2026-10-19T06:35:32.699Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T07:23:08.254Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T17:15:09.663Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-19T06:35:32.699Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T06:57:18.500Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T06:57:18.500Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/00cea076b5fd40454b4d3a3c7d826a1164401486efa499b591ac8a8742fc52f7.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/10/19/tram8/67430f3c28634c66a4e5f65fadcf66b2.png"
+        ]
+      },
+      "description": {
+        "to": "Kem vị dứa 3D Ice Cream Pop của Firstfood, kem tạo hình xoắn đặt trong vòm nhựa trong trên hộp giấy.\n\nQuy cách: 90 g · ly\nThương hiệu: Firstfood\nBảo quản: Giữ đông ở −18 °C hoặc lạnh hơn.",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

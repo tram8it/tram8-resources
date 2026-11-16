@@ -1,0 +1,119 @@
+{
+  "kiotProductId": "64865573",
+  "code": "8936202660365",
+  "barcode": "8936202660365",
+  "name": "Gh quẩy đùi gà Phương Huyền hoàn",
+  "fullName": "Gh quẩy đùi gà Phương Huyền hoàn (Gói)",
+  "brand": "Phương Huyền",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2549018",
+    "name": "Snack que / que cay",
+    "path": "Đồ ăn vặt > Snacks > Snack que / que cay"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/75a1ee4806005f0c571f086077c1414564debfee5b6a94024a61081ef3ba5446.webp",
+    "description": "Quẩy đùi gà Phương Huyền (bao bì in chữ Hàn 맛있다), bánh quẩy chiên giòn hình đùi gà nhỏ, món ăn vặt ăn trực tiếp.\n\nQuy cách: gói\nNhà sản xuất/thương hiệu: Phương Huyền Food",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I2/I3: ảnh cũ là gói Tăm cay snack cầm tay; mã vạch 8936202660365 là Quẩy đùi gà Phương Huyền (iCheck) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: vẽ 1 gói; chữ nhỏ không đọc",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh iCheck của mã vạch 8936202660365 (chỉ làm mẫu)",
+      "referenceUrl": "https://icheck.vn/san-pham/8936202660365"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết từ chữ in trên gói (iCheck theo mã vạch)",
+    "source": null,
+    "rubricVersion": "v19"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:21:20.000Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "b07 review: image ASK_OWNER, description ASK_OWNER"
+    },
+    {
+      "at": "2026-10-17T14:10:32Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T14:11:32Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "resolved without asking: barcode 8936202660365 = Quẩy đùi gà (iCheck, purple 맛있다 bag) = name; current image was the Tăm cay bag"
+    },
+    {
+      "at": "2026-10-17T14:12:02.439Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T14:12:02.439Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T15:40:57.851Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T15:40:57.851Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/75a1ee4806005f0c571f086077c1414564debfee5b6a94024a61081ef3ba5446.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/01/23/tongpenhchtl/01340612abc446c9992ef40bdd88cc64.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Quẩy đùi gà Phương Huyền (bao bì in chữ Hàn 맛있다), bánh quẩy chiên giòn hình đùi gà nhỏ, món ăn vặt ăn trực tiếp.\n\nQuy cách: gói\nNhà sản xuất/thương hiệu: Phương Huyền Food",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "kiotProductId": "68450903",
+  "code": "8850086231001",
+  "barcode": "8850086231001",
+  "name": "Bánh Xốp indo Ovaltine 100g",
+  "fullName": "Bánh Xốp indo Ovaltine 100g (Gói)",
+  "brand": "Ovaltine",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2549064",
+    "name": "Bánh xốp kem (wafer)",
+    "path": "Bánh quy & bánh đóng gói > Bánh xốp kem (wafer)"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/2dc245f95c28d83263918cae251557ae5a34b24e1e559a1aa0ccff1f6d3d2b10.webp",
+    "description": "Bánh xốp Ovaltine, gói 100 g.\n\nQuy cách: 100 g · gói\nNhà sản xuất/thương hiệu: Ovaltine",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "v13–v15 (chủ 19/10): ảnh nhân viên chụp đã tách nền vẫn kém ảnh các SP cùng dòng đã duyệt (nhăn/loá/nghiêng) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: gói vẽ phẳng; chữ nhỏ (khối lượng 100 g, số lô) giữ theo gói thật, phần nhỏ không đọc được",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-19",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh nhân viên chụp 18/10 (chỉ làm mẫu) + ảnh đã duyệt 65091338 (same brand (Ovaltine wafer), chỉ làm mẫu phong cách)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết ngắn chỉ từ tên SP (không có trang hãng, chưa có ảnh bao bì)",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:36:29.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "b10 review: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T05:18:38Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "I1: chưa có ảnh; mã vạch 8850086231001 (đầu 885 = Thái Lan, tên ghi 'indo') không có trên OFF/nguồn nào; có nhiều loại bánh xốp Ovaltine 100 g khác nhau → không biết bao bì, cần chụp"
+    },
+    {
+      "at": "2026-10-18T17:56:03Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "staff photo 2026-10-18 (Zalo); cutout + tone --vivid"
+    },
+    {
+      "at": "2026-10-18T17:56:43.083Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T02:16:55Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-19T02:17:40.403Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T02:44:56.965Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T03:19:05.400Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-19T02:17:40.403Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T02:29:06.480Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T02:29:06.480Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/2dc245f95c28d83263918cae251557ae5a34b24e1e559a1aa0ccff1f6d3d2b10.webp"
+        ],
+        "from": null
+      },
+      "description": {
+        "to": "Bánh xốp Ovaltine, gói 100 g.\n\nQuy cách: 100 g · gói\nNhà sản xuất/thương hiệu: Ovaltine",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

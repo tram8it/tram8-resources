@@ -1,0 +1,177 @@
+{
+  "kiotProductId": "68505342",
+  "code": "8594403110128",
+  "barcode": "8594403110128",
+  "name": "Bia Budweiser Budvar Chai 330ml",
+  "fullName": "Bia Budweiser Budvar Chai 330ml - 5% (Chai)",
+  "brand": "Budweiser Budvar",
+  "unit": "Chai",
+  "category": {
+    "kiotCategoryId": "2549771",
+    "name": "Nhập khẩu & premium",
+    "path": "Đồ uống có cồn (18+) > Bia > Nhập khẩu & premium"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/f31536877bbe8794589711e718648536aff90e8fb512f81a00f217cf1fc297ff.webp",
+    "description": "Bia Budweiser Budvar Original Czech Lager, bia lager Séc của nhà bia Budějovický Budvar (thành phố České Budějovice), chai thủy tinh xanh.\n\nQuy cách: 330 ml · chai\nXuất xứ: Cộng hòa Séc · Thương hiệu: Budweiser Budvar\nSản phẩm dành cho người từ 18 tuổi trở lên.",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I3/I4: ảnh chụp điện thoại trong cửa hàng, nền thùng/kệ, chai bị cắt; không có ảnh hãng dùng được → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Theo nhãn 'Original Czech Lager' trên kệ (Kingfoodmart cùng mã vạch có nhãn B:ORIGINAL); chữ nhỏ để mờ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-3.1-flash-image",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet + ảnh Kingfoodmart (chỉ lấy dáng chai)",
+      "referenceUrl": "https://storage.googleapis.com/onelife-public/8594403110128.jpg"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: KiotViet chưa có mô tả; viết ngắn từ chữ in trên nhãn chai (ảnh KiotViet, Open Food Facts: 33 cl)",
+    "source": {
+      "url": "https://world.openfoodfacts.org/product/8594403110128",
+      "fetchedAt": "2026-10-17"
+    },
+    "rubricVersion": "v20"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-17T17:42:10Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-3.1-flash-image), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T17:43:21Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T17:44:19.934Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-18T17:16:08.691Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T03:19:05.400Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T17:44:19.934Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T17:48:38.547Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T17:48:38.547Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/f31536877bbe8794589711e718648536aff90e8fb512f81a00f217cf1fc297ff.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/10/16/tram8/318c3d8a9d4649c9ba3459c7935374df.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Bia Budweiser Budvar Original Czech Lager, bia lager Séc của nhà bia Budějovický Budvar (thành phố České Budějovice), chai thủy tinh xanh.\n\nQuy cách: 330 ml · chai\nXuất xứ: Cộng hòa Séc · Thương hiệu: Budweiser Budvar\nSản phẩm dành cho người từ 18 tuổi trở lên.",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {
+      "price": {
+        "to": 72222.22,
+        "from": 70909.09
+      },
+      "saleTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 68505342
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 68505342
+        }
+      },
+      "taxRate": {
+        "to": "VAT 8%",
+        "from": "VAT 10%"
+      },
+      "productTaxs": {
+        "to": [
+          {
+            "id": 0,
+            "name": "VAT 8%",
+            "taxId": 3,
+            "value": 8,
+            "productId": 68505342
+          }
+        ],
+        "from": [
+          {
+            "id": 0,
+            "name": "VAT 10%",
+            "taxId": 4,
+            "value": 10,
+            "productId": 68505342
+          }
+        ]
+      },
+      "purchaseTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 68505342
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 68505342
+        }
+      }
+    }
+  }
+}

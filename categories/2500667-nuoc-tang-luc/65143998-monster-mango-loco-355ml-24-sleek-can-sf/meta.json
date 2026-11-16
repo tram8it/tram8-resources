@@ -1,0 +1,193 @@
+{
+  "kiotProductId": "65143998",
+  "code": "4897036693162",
+  "barcode": "4897036693162",
+  "name": "MONSTER MANGO LOCO 355ML 24 SLEEK CAN SF",
+  "fullName": "MONSTER MANGO LOCO 355ML 24 SLEEK CAN SF (Lon)",
+  "brand": "Monster Energy",
+  "unit": "Lon",
+  "category": {
+    "kiotCategoryId": "2500667",
+    "name": "Nước tăng lực",
+    "path": "Đồ uống đóng chai > Nước tăng lực"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/345081841d01e01add72f12929deb1c790fca6aed33d059afa25696e3a59a93d.webp",
+    "description": "Nước tăng lực Juice Monster Mango Loco, kết hợp nước tăng lực với nước trái cây vị xoài nhiệt đới, lon cao thon (sleek). Ngon hơn khi uống lạnh.\n\nQuy cách: 355 ml · lon\nNhà sản xuất/thương hiệu: Monster Energy",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "line consistency 20/10: Mango Loco can was a soft low-res photo (blurry edges) while Monster Green is a crisp render → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt chữ lớn; chữ nhỏ quanh đáy lon minh hoạ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-20",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh lon Mango Loco hiện có (nội dung) + lon Monster Green đã duyệt (kiểu ảnh)"
+    },
+    "rubricVersion": "v23"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết ngắn từ tên SP và chữ in mặt trước lon, không có nguồn hãng (monsterenergy.com 403)",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:31:42.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "image CROP, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-15T09:16:17Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "tone.py --vivid: white balance/levels + brand-like colour (owner request)"
+    },
+    {
+      "at": "2026-10-18T17:47:59.352Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T02:05:27.524Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T03:19:05.400Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-20T16:39:36Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "line consistency 20/10: Mango Loco can was a soft low-res photo (blurry edges) while Monster Green is a crisp render -> Gemini redraw (own image for content, approved sibling for style); Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-20T16:41:38.412Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-21T08:30:34.700Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-26T04:58:33.990Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-20T16:41:38.412Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-20T16:44:57.243Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-20T16:44:57.243Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/345081841d01e01add72f12929deb1c790fca6aed33d059afa25696e3a59a93d.webp"
+        ],
+        "from": [
+          "https://img.tram8.vn/products/a5ac80d9d6cc7a48eb78222bb4eb392fe40af191ec88ed7b62619e4c43098afc.webp"
+        ]
+      }
+    },
+    "unexpectedChanges": {
+      "price": {
+        "to": 25000,
+        "from": 24545.45
+      },
+      "saleTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 65143998
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 65143998
+        }
+      },
+      "taxRate": {
+        "to": "VAT 8%",
+        "from": "VAT 10%"
+      },
+      "productTaxs": {
+        "to": [
+          {
+            "id": 0,
+            "name": "VAT 8%",
+            "taxId": 3,
+            "value": 8,
+            "productId": 65143998
+          }
+        ],
+        "from": [
+          {
+            "id": 0,
+            "name": "VAT 10%",
+            "taxId": 4,
+            "value": 10,
+            "productId": 65143998
+          }
+        ]
+      },
+      "purchaseTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 65143998
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 65143998
+        }
+      }
+    }
+  }
+}

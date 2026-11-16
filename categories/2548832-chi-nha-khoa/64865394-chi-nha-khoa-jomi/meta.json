@@ -1,0 +1,132 @@
+{
+  "kiotProductId": "64865394",
+  "code": "8800073500276",
+  "barcode": "8800073500276",
+  "name": "Chỉ Nha Khoa Jomi",
+  "fullName": "Chỉ Nha Khoa Jomi (Cuộn)",
+  "brand": "Jomi",
+  "unit": "Cuộn",
+  "category": {
+    "kiotCategoryId": "2548832",
+    "name": "Chỉ nha khoa",
+    "path": "Chăm sóc cá nhân > Chăm sóc răng miệng > Chỉ nha khoa"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/d103a6f5eda234f35a573dfb454d6a431515abaa3057552bf51c2fff26a96356.webp",
+    "description": "Chỉ nha khoa Jomi hương bạc hà (Mint), cuộn chỉ đựng trong hộp nhựa nhỏ có lưỡi cắt, dùng làm sạch kẽ răng sau khi ăn.\n\nQuy cách: cuộn 50 m (50m/500D) · vỉ 1 hộp\nNhà sản xuất/thương hiệu: Jomi",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "Rà ảnh mờ 19/10: ảnh crop phóng to mềm, viền vỉ mờ → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt nội dung",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-19",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh hiện tại (vỉ thật)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "REWRITE",
+    "reason": "D2/D3: mô tả cũ kiểu chatbot, xuất xứ 'Nhật Bản' và thành phần không kiểm chứng (mã vạch 880 là Hàn Quốc), quy cách để trống, công dụng phòng bệnh quá đà; không có trang hãng → viết ngắn chỉ từ chữ in trên vỉ (Mint, 50m/500D) | rà soát v9: Placeholder packaging text ('update at store, e.g.'), claims Japanese brand",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:22:22.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "image CROP, description REWRITE from pack text"
+    },
+    {
+      "at": "2026-10-15T09:16:17Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "tone.py --vivid: white balance/levels + brand-like colour (owner request)"
+    },
+    {
+      "at": "2026-10-18T17:49:23.447Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T02:05:27.524Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T03:19:05.400Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-19T03:59:34Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references — owner 19/10: replace blurry/upscaled/jagged or wrinkled-photo images with crisp flat renders"
+    },
+    {
+      "at": "2026-10-19T04:00:36.021Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T07:23:08.254Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T17:15:09.663Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-19T04:00:36.021Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T05:18:11.481Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T05:18:11.481Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/d103a6f5eda234f35a573dfb454d6a431515abaa3057552bf51c2fff26a96356.webp"
+        ],
+        "from": [
+          "https://img.tram8.vn/products/b698833d4ad29420bc967a947e2cd07b0eeef8a9602e6b87ed80617d4addcdac.webp"
+        ]
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

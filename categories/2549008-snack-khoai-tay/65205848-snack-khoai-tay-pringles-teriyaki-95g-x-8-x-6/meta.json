@@ -1,0 +1,109 @@
+{
+  "kiotProductId": "65205848",
+  "code": "8886467127922",
+  "barcode": "8886467127922",
+  "name": "Snack khoai Tây Pringles teriyaki 95g x 8 x 6",
+  "fullName": "Snack khoai Tây Pringles teriyaki 95g x 8 x 6 (Ống)",
+  "brand": "Pringles",
+  "unit": "Ống",
+  "category": {
+    "kiotCategoryId": "2549008",
+    "name": "Snack khoai tây",
+    "path": "Đồ ăn vặt > Snacks > Snack khoai tây"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/4e2f31df059cf5c900608d31defa455e5882f02f9f532975c00ad333f96fac05.webp",
+    "description": "Snack khoai tây Pringles vị Teriyaki, các lát khoai xếp chồng trong ống có nắp đậy.\n\nQuy cách: 95 g · ống\nThương hiệu: Pringles",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I1/I3: không có ảnh hãng; Gemini vẽ lại bao bì theo ảnh mẫu (v12) — vẽ lại từ ảnh nhân viên chụp (mất phần trên); phần mặt Mr. P và nắp do Gemini vẽ theo kiểu lon Pringles hiện hành (mẫu: lon Seaweed Burst); đã xoá chữ '161g' Gemini tự thêm",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Google Gemini (chủ yêu cầu, 15/10/2026)",
+      "generatedAt": "2026-10-15"
+    },
+    "rubricVersion": "v12"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; mô tả ngắn chỉ từ dữ kiện chắc chắn (tên, thương hiệu, vị, khối lượng, chữ mặt trước bao bì); không có trang hãng truy cập được",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:20:32.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "batch b01: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-15T14:08:33Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "image redrawn with Gemini from reference (v12)"
+    },
+    {
+      "at": "2026-10-15T14:09:27.314Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-16T01:38:49.852Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-15T14:09:27.314Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-15T14:13:09.464Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-15T14:13:09.464Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/4e2f31df059cf5c900608d31defa455e5882f02f9f532975c00ad333f96fac05.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/04/26/tram8/4711b7239222429eb509c14bf589265c.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Snack khoai tây Pringles vị Teriyaki, các lát khoai xếp chồng trong ống có nắp đậy.\n\nQuy cách: 95 g · ống\nThương hiệu: Pringles",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

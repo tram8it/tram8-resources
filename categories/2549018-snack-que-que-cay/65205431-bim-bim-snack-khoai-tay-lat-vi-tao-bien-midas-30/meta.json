@@ -1,0 +1,119 @@
+{
+  "kiotProductId": "65205431",
+  "code": "8938507891536",
+  "barcode": "8938507891536",
+  "name": "Bim bim snack khoai Tây Lát vị tảo biển MIDAS 30g 20g/b28",
+  "fullName": "Bim bim snack khoai Tây Lát vị tảo biển MIDAS 30g 20g/b28 (Gói)",
+  "brand": null,
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2549018",
+    "name": "Snack que / que cay",
+    "path": "Đồ ăn vặt > Snacks > Snack que / que cay"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://cdn2-retail-images.kiotviet.vn/2026/04/26/tram8/02c0152346ca43ea9d7d2add4e57e735.jpeg",
+    "description": null,
+    "exportedAt": "2026-10-13T13:18:36.970Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I3/I4: ảnh chụp điện thoại nền xám, lóa; không có ảnh hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (gói thật trên kệ, khớp iCheck mã 8938507891536)",
+      "referenceUrl": "https://icheck.vn/san-pham/8938507891536"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "REWRITE",
+    "reason": "D2: mô tả cũ theo tên (lát vị tảo biển 30 g); mã vạch là Midas Panda snack hình khoai tây chiên 28 g → viết theo bao bì",
+    "source": null,
+    "rubricVersion": "v19"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:21:20.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "b07 review: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T12:00:00Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "Mã 8938507891536 'Bim bim snack khoai Tây Lát vị tảo biển MIDAS 30g': ảnh trên KiotViet là gói Midas PANDA (gấu trúc) 'Snack hình khoai tây chiên', in NET WT 28g ± 2g — khác tên cả loại (lát vị tảo biển vs que khoai tây chiên) lẫn khối lượng (30g vs 28g). Mã vạch này đúng là gói nào? (a) gói Panda khoai tây chiên 28g → sửa tên trên KiotViet, em vẽ ảnh theo gói Panda; (b) gói khoai tây lát vị tảo biển 30g → ảnh KiotViet nhầm, cần nhân viên chụp đúng gói."
+    },
+    {
+      "at": "2026-10-17T14:10:33Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T14:11:33Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "resolved without asking: barcode 8938507891536 = Midas Panda potato snack (iCheck) = current photo (28g printed); name logged"
+    },
+    {
+      "at": "2026-10-17T14:12:14.656Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T14:12:14.656Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T15:41:15.833Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T15:41:15.833Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/982995874441e2a752ade93af4d77715b50bae014d1edc30c4c8140e44fcf047.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/04/26/tram8/02c0152346ca43ea9d7d2add4e57e735.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Snack Midas PANDA hình khoai tây chiên, que snack giòn, bao bì hình gấu trúc.\n\nQuy cách: 28 g ± 2 g · gói\nNhà sản xuất/thương hiệu: Midas",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

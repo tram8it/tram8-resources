@@ -1,0 +1,174 @@
+{
+  "kiotProductId": "65127909",
+  "code": "8936048477127",
+  "barcode": "8936048477127",
+  "name": "Abben xanh mực",
+  "fullName": "Abben xanh mực (Chai)",
+  "brand": "Abben",
+  "unit": "Chai",
+  "category": {
+    "kiotCategoryId": "2500667",
+    "name": "Nước tăng lực",
+    "path": "Đồ uống đóng chai > Nước tăng lực"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/40e8eff49d25bab91ea24c06095ef0b62662d06f6d75ad607c5bb5f1d88bc325.webp",
+    "description": "Nước tăng lực Abben BCAA + Energy hương việt quất, chai nhựa. Trên nhãn ghi bổ sung BCAA, caffeine, taurine, inositol và vitamin.<br><br>Quy cách: chai<br>Nhà sản xuất/thương hiệu: Abben",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I3, I4, I5: ảnh chụp điện thoại cận nhãn, nền không trắng, chai bị cắt; trang Uniben lỗi chứng chỉ, không có ảnh hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt về chữ lớn (ABBEN, NƯỚC TĂNG LỰC, BCAA +ENERGY, Hương VIỆT QUẤT BÙNG NỔ); chữ nhỏ mặt sau/dung tích không hiện trên mặt trước",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh render chai Abben BCAA Việt quất trên allfullvietnam.com.vn (chỉ làm mẫu) + ảnh KiotViet",
+      "referenceUrl": "https://allfullvietnam.com.vn/products/nuoc-tang-luc-abben-bcaa-330ml-thung-24-chai"
+    },
+    "rubricVersion": "v17"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết ngắn từ chữ in mặt trước chai (ảnh hiện tại), không có nguồn hãng",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:31:42.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "image NEEDS_PHOTO (no official source), description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T05:27:11Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T05:27:11.459Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T08:06:02.482Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T05:27:11.459Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T07:06:55.155Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T07:06:55.155Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/40e8eff49d25bab91ea24c06095ef0b62662d06f6d75ad607c5bb5f1d88bc325.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/04/23/tram8/64020476fbb942ac805e2f0274c1daab.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Nước tăng lực Abben BCAA + Energy hương việt quất, chai nhựa. Trên nhãn ghi bổ sung BCAA, caffeine, taurine, inositol và vitamin.\n\nQuy cách: chai\nNhà sản xuất/thương hiệu: Abben",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {
+      "price": {
+        "to": 12037.04,
+        "from": 11818.18
+      },
+      "saleTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 65127909
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 65127909
+        }
+      },
+      "taxRate": {
+        "to": "VAT 8%",
+        "from": "VAT 10%"
+      },
+      "productTaxs": {
+        "to": [
+          {
+            "id": 0,
+            "name": "VAT 8%",
+            "taxId": 3,
+            "value": 8,
+            "productId": 65127909
+          }
+        ],
+        "from": [
+          {
+            "id": 0,
+            "name": "VAT 10%",
+            "taxId": 4,
+            "value": 10,
+            "productId": 65127909
+          }
+        ]
+      },
+      "purchaseTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 65127909
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 65127909
+        }
+      }
+    }
+  }
+}

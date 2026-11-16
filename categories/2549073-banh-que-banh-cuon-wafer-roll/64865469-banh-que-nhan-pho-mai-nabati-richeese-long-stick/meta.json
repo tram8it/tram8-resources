@@ -1,0 +1,132 @@
+{
+  "kiotProductId": "64865469",
+  "code": "8993175567589",
+  "barcode": "8993175567589",
+  "name": "BÁNH QUẾ NHÂN PHÔ MAI - NABATI RICHEESE LONG STICK 50G",
+  "fullName": "BÁNH QUẾ NHÂN PHÔ MAI - NABATI RICHEESE LONG STICK 50G (Hộp)",
+  "brand": "Nabati",
+  "unit": "Hộp",
+  "category": {
+    "kiotCategoryId": "2549073",
+    "name": "Bánh quế / bánh cuộn (wafer roll)",
+    "path": "Bánh quy & bánh đóng gói > Bánh quế / bánh cuộn (wafer roll)"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/a79212d45bc15d1b785e7192865086eb6497a7a76d410dfdb01de9e386afc3da.webp",
+    "description": "Bánh quế Nabati Rolls Richeese dạng que dài, vỏ quế giòn nhân kem phô mai. Hợp ăn vặt, dùng kèm trà hoặc sữa.\n\nQuy cách: 50 g · hộp\nNhà sản xuất/thương hiệu: Nabati · Richeese",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "Đồng bộ dòng SP 20/10: box wider than other Nabati Rolls 50g boxes → same narrow box as 67181639 → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: ít chấm phô mai trang trí hơn; chữ lớn khớp (nabati Rolls, WAFER STICK, Richeese, 50 g)",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-20",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh hiện tại của SP (nội dung) + ảnh SP cùng dòng đã duyệt (góc chụp/khung/tỉ lệ)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết ngắn từ tên SP và chữ in mặt trước hộp, không có nguồn hãng",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:36:40.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "image NEEDS_PHOTO (no official source), description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T05:30:09Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 3, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T05:30:32.771Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T08:06:02.482Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-20T16:42:20Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "line consistency 20/10: box wider than other Nabati Rolls 50g boxes → same narrow box as 67181639; Gemini API redraw (attempt 5, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-20T16:43:19.274Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-21T08:30:34.700Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-26T04:58:33.990Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-20T16:43:19.274Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-20T16:49:27.630Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-20T16:49:27.630Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/a79212d45bc15d1b785e7192865086eb6497a7a76d410dfdb01de9e386afc3da.webp"
+        ],
+        "from": [
+          "https://img.tram8.vn/products/9c52b6ca5d46dfe6b799b29a9e36b0f18d02b29f36a3e13c091b6d3e125bd41b.webp"
+        ]
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

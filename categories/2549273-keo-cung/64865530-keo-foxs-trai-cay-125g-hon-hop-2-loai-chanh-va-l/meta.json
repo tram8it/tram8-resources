@@ -1,0 +1,116 @@
+{
+  "kiotProductId": "64865530",
+  "code": "8997212800387",
+  "barcode": null,
+  "name": "Kẹo FoxS Trái Cây 125g Hỗn Hợp 2 Loại Chanh Và Lý Chua Đen",
+  "fullName": "Kẹo FoxS Trái Cây 125g Hỗn Hợp 2 Loại Chanh Và Lý Chua Đen (Gói)",
+  "brand": "Fox's",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2549273",
+    "name": "Kẹo cứng",
+    "path": "Các loại kẹo > Kẹo cứng"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/19860125f386596a2cd7575374827ce0b50a9cd758374c4303c52954916dc4ca.webp",
+    "description": "Kẹo trái cây FOX'S Crystal Clear Fruits, viên kẹo cứng hình oval trong suốt, hỗn hợp hai vị chanh và lý chua đen. Kẹo FOX'S dùng màu thực phẩm tự nhiên.\n\nQuy cách: 125 g · túi\nNhà sản xuất/thương hiệu: FOX'S (Savoria)",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I7: có tem giá cửa hàng khác (29.500 VND) dán trên gói; savoria.co.id chỉ có ảnh nhóm nhỏ → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Bỏ tem giá; ô dinh dưỡng để trống, bỏ chữ nhỏ; chữ lớn và 'LEMON & BLACKCURRANT' khớp mẫu",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet + ảnh Open Food Facts (mã 8997212800387, chỉ làm mẫu)",
+      "referenceUrl": "https://world.openfoodfacts.org/product/8997212800387"
+    },
+    "rubricVersion": "v17"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; theo trang thương hiệu Savoria (FOX'S) + chữ in mặt trước bao bì",
+    "source": {
+      "url": "https://www.savoria.co.id/our-brands/fox",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T22:00:00.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "batch b14 review (rubric v4): image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T05:35:10Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T05:36:02.138Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T08:06:02.482Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T05:36:02.138Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T07:11:34.484Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T07:11:34.484Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/19860125f386596a2cd7575374827ce0b50a9cd758374c4303c52954916dc4ca.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/27/tram8/3167284d0e2b447ab26739bb698d0f7d.png"
+        ]
+      },
+      "description": {
+        "to": "Kẹo trái cây FOX'S Crystal Clear Fruits, viên kẹo cứng hình oval trong suốt, hỗn hợp hai vị chanh và lý chua đen. Kẹo FOX'S dùng màu thực phẩm tự nhiên.\n\nQuy cách: 125 g · túi\nNhà sản xuất/thương hiệu: FOX'S (Savoria)",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

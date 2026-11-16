@@ -1,0 +1,106 @@
+{
+  "kiotProductId": "68556937",
+  "code": "6953837402483",
+  "barcode": "6953837402483",
+  "name": "Bánh Mì Sốt Salad",
+  "fullName": "Bánh Mì Sốt Salad (Gói)",
+  "brand": null,
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2548800",
+    "name": "Bánh mì ngọt / mềm",
+    "path": "Các loại bánh > Bánh ngọt > Bánh mì ngọt / mềm"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/f6f74654af67b1acd5f107946177a04cde911fa42f602fced128362555e5bb57.webp",
+    "description": "Bánh mì sandwich nhân sốt salad 酱芯沙拉吐司 của 两口子 (LIANGKZ), bánh mềm, lên men tươi, nhân sốt béo thơm.\n\nQuy cách: gói (bán theo cân)\nThương hiệu: 两口子 (LIANGKZ)",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "SP mới 20/10 → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: vẽ phẳng theo ảnh; bỏ mã ngày; chữ nhỏ để mờ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-20",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet của SP"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "theo chữ trên bao bì (ảnh KiotViet 20/10)",
+    "source": null,
+    "rubricVersion": "v23"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-20T16:18:11.603Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-20T16:19:47Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "redo after Hub rejection:  — Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-20T16:19:47.325Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-21T08:30:34.700Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-26T04:58:33.990Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-20T16:19:47.325Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-20T16:26:45.144Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-20T16:26:45.144Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/f6f74654af67b1acd5f107946177a04cde911fa42f602fced128362555e5bb57.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/10/20/tram8/c9a29079740b47819bed6c870ed9ddd3.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Bánh mì sandwich nhân sốt salad 酱芯沙拉吐司 của 两口子 (LIANGKZ), bánh mềm, lên men tươi, nhân sốt béo thơm.\n\nQuy cách: gói (bán theo cân)\nThương hiệu: 两口子 (LIANGKZ)",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

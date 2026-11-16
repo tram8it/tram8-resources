@@ -1,0 +1,114 @@
+{
+  "kiotProductId": "64865634",
+  "code": "8935049510857",
+  "barcode": "8935049510857",
+  "name": "Đồ uống DASANI WATER 1.5L",
+  "fullName": "Đồ uống DASANI WATER 1.5L (Chai)",
+  "brand": "Coca-Cola",
+  "unit": "Chai",
+  "category": {
+    "kiotCategoryId": "2549381",
+    "name": "Nước suối / bù khoáng / ion",
+    "path": "Đồ uống đóng chai > Nước suối / bù khoáng / ion"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/9f4934c85806c5b89d73f0d65fbc79a17e824d46dac4571f8a906638adb9070e.webp",
+    "description": "Nước uống đóng chai Dasani của Coca-Cola, nước tinh khiết.\n\nThành phần: 100% nước.\nQuy cách: 1,5 L · chai\nNhà sản xuất/thương hiệu: Coca-Cola Việt Nam · Dasani",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I1: chưa có ảnh; coca-cola.com/vn chỉ có chai 500 ml → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt đáng kể; chữ nhỏ trong giọt nước xanh không đọc được",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh Kingfoodmart (chỉ làm mẫu)",
+      "referenceUrl": "https://storage.googleapis.com/onelife-public/8935049510857.jpg"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; theo trang Coca-Cola Việt Nam (Dasani: chai 350 ml, 500 ml, 1.5 L; thành phần 100% nước)",
+    "source": {
+      "url": "https://www.coca-cola.com/vn/vi/brands/dasani",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:07:05.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "b18 review (rubric v4): image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T07:43:10Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T07:43:40.036Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T08:06:02.482Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T07:43:40.036Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T07:47:49.253Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T07:47:49.253Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/9f4934c85806c5b89d73f0d65fbc79a17e824d46dac4571f8a906638adb9070e.webp"
+        ],
+        "from": null
+      },
+      "description": {
+        "to": "Nước uống đóng chai Dasani của Coca-Cola, nước tinh khiết.\n\nThành phần: 100% nước.\nQuy cách: 1,5 L · chai\nNhà sản xuất/thương hiệu: Coca-Cola Việt Nam · Dasani",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

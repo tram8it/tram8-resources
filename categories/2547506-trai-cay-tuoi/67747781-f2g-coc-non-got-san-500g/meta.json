@@ -1,0 +1,136 @@
+{
+  "kiotProductId": "67747781",
+  "code": "8936186850400",
+  "barcode": "8936186850400",
+  "name": "F2G-CÓC non gọt sẵn 500g",
+  "fullName": "F2G-CÓC non gọt sẵn 500g (Gói)",
+  "brand": "Fresh 2Go",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2547506",
+    "name": "Trái cây tươi",
+    "path": "Món ngon Trạm 8 > Trái cây tươi"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/1fa30baf386ab15b092c6896893cd29db700aefea09b37b2d6258d4b35ea161d.webp",
+    "description": "Cóc non gọt vỏ sẵn của Fresh 2GO, đóng túi, dùng ăn ngay.\n\nThành phần: Cóc non (98,5%), muối ớt.\nQuy cách: 500 g · túi\nXuất xứ: Việt Nam · Nhà sản xuất/thương hiệu: Công ty TNHH TM và DV Fresh to Go (Hà Nội) · Fresh 2GO\nBảo quản: Nhiệt độ 5–10°C. Dùng ăn ngay; không dùng khi sản phẩm có dấu hiệu hư hỏng. Ngày sản xuất: 4 ngày trước hạn sử dụng in trên bao bì.",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "chủ 18/10: ảnh phải đúng bao bì thật; vẽ lại gói thật từ ảnh KiotViet, bỏ ảnh minh hoạ món ăn → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: vẽ lại phẳng, sạch; chữ nhỏ không đọc được để mờ; độ nhăn màng khác ảnh thật",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-18",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet của SP (hàng thật tại quầy)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết từ nhãn in trên túi (đọc trong ảnh hiện tại)",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:16:50.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "image REPLACE → NEEDS_PHOTO, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T17:51:27Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-3.1-flash-image), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T17:51:23Z",
+      "by": "owner",
+      "status": "READY",
+      "note": "chủ 17/10: ảnh món ăn hấp dẫn, đồng bộ"
+    },
+    {
+      "at": "2026-10-17T17:52:46.184Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-18T17:16:08.691Z",
+      "by": "owner",
+      "status": "IN_PROGRESS",
+      "note": "rejected on Hub by AU KHUONG DUY: Không đúng bao bì"
+    },
+    {
+      "at": "2026-10-18T17:28:24Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "redo after Hub rejection: Không đúng bao bì — Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-18T17:28:24.168Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-18T17:44:24.092Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T03:19:05.400Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-18T17:28:24.168Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-18T17:32:29.008Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-18T17:32:29.008Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/1fa30baf386ab15b092c6896893cd29db700aefea09b37b2d6258d4b35ea161d.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/08/21/tram8/128a2b7ba6234c2b9921cc7861e18a5d.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Cóc non gọt vỏ sẵn của Fresh 2GO, đóng túi, dùng ăn ngay.\n\nThành phần: Cóc non (98,5%), muối ớt.\nQuy cách: 500 g · túi\nXuất xứ: Việt Nam · Nhà sản xuất/thương hiệu: Công ty TNHH TM và DV Fresh to Go (Hà Nội) · Fresh 2GO\nBảo quản: Nhiệt độ 5–10°C. Dùng ăn ngay; không dùng khi sản phẩm có dấu hiệu hư hỏng. Ngày sản xuất: 4 ngày trước hạn sử dụng in trên bao bì.",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "kiotProductId": "65860903",
+  "code": "8938520099902",
+  "barcode": "8938520099902",
+  "name": "Cơm cháy chà bông",
+  "fullName": "Cơm cháy chà bông (Gói)",
+  "brand": "Kocori",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2549021",
+    "name": "Cơm cháy",
+    "path": "Đồ ăn vặt > Cơm cháy"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/e3d265705691a1830053e08362edf80e487b31585212628c63e1197b5d2547ce.webp",
+    "description": "Cơm cháy chà bông: miếng cơm cháy giòn phủ chà bông, có vị ớt cay theo chữ in trên gói, đóng túi zip đứng tiện ăn vặt.\n\nQuy cách: gói",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I5: ảnh túi tự chụp, nền xám → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Logo KOCORI NATURALS, Cơm Cháy Chà Bông, ớt cay khớp ảnh KiotViet. Số khối lượng trên ảnh KiotViet không đọc được nên để chữ mờ trên ảnh vẽ.",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (ảnh tự chụp)",
+      "referenceUrl": "https://cdn1-retail-images.kiotviet.vn/2026/05/20/tram8/43f172e5816b44b293d7bc0510670b22.jpeg"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; mô tả ngắn chỉ từ tên SP và chữ in mặt trước gói (không có trang hãng)",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:25:35.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "b30: image KEEP, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-15T02:52:12.011Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description"
+    },
+    {
+      "at": "2026-10-16T01:38:49.852Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-17T15:18:50Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T15:18:50.756Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T15:21:23Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T15:21:30.136Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T15:21:30.136Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T17:09:56.050Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T17:09:56.050Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/e3d265705691a1830053e08362edf80e487b31585212628c63e1197b5d2547ce.webp"
+        ],
+        "from": [
+          "https://cdn1-retail-images.kiotviet.vn/2026/05/20/tram8/43f172e5816b44b293d7bc0510670b22.jpeg"
+        ]
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

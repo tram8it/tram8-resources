@@ -1,0 +1,112 @@
+{
+  "kiotProductId": "66596316",
+  "code": "8934677043010",
+  "barcode": "8934677043010",
+  "name": "Kẹo ngậm Xylitol dâu",
+  "fullName": "Kẹo ngậm Xylitol dâu (Gói)",
+  "brand": "Xylitol",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2549276",
+    "name": "Viên ngậm thảo mộc / bạc hà",
+    "path": "Các loại kẹo > Viên ngậm thảo mộc / bạc hà"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/fcdf4b1a6438c1e54a2866ccbb70e2cd530bd7b58134d65dc50f8b76b04563b0.webp",
+    "description": "Kẹo ngậm Lotte Xylitol không đường hương dâu, bao bì hình Doraemon, kèm thẻ sưu tập tô màu.\n\nQuy cách: gói\nNhà sản xuất/thương hiệu: Lotte · Xylitol",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I3/I4: ảnh tay cầm, nền bàn/hoá đơn; không tìm được ảnh hãng/NPP/nhà bán lẻ của gói này → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Dòng chữ nhỏ góc phải dưới không đọc được trên ảnh mẫu nên để mờ; chữ trên 2 thẻ tô màu nhỏ là chữ vẽ phác.",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet nhân viên chụp (tay cầm)"
+    },
+    "rubricVersion": "v17"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; không có trang hãng — mô tả ngắn chỉ từ tên SP và chữ in mặt trước bao bì (ảnh hiện tại)",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:19:58.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "image NEEDS_PHOTO, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T04:40:34Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T04:43:19.273Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T05:23:58.238Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T04:43:19.273Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T04:52:14.801Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T04:52:14.801Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/fcdf4b1a6438c1e54a2866ccbb70e2cd530bd7b58134d65dc50f8b76b04563b0.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/06/20/tram8/42cfc828edf54913aa3bdff7ac023dcf.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Kẹo ngậm Lotte Xylitol không đường hương dâu, bao bì hình Doraemon, kèm thẻ sưu tập tô màu.\n\nQuy cách: gói\nNhà sản xuất/thương hiệu: Lotte · Xylitol",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

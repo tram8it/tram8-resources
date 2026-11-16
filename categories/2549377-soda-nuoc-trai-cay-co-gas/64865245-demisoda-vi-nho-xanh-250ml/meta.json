@@ -1,0 +1,185 @@
+{
+  "kiotProductId": "64865245",
+  "code": "8801097168800",
+  "barcode": "8801097168800",
+  "name": "Demisoda vị nho xanh 250ml",
+  "fullName": "Demisoda vị nho xanh 250ml (Lon)",
+  "brand": "Demisoda",
+  "unit": "Lon",
+  "category": {
+    "kiotCategoryId": "2549377",
+    "name": "Soda / nước trái cây có gas",
+    "path": "Đồ uống đóng chai > Soda / nước trái cây có gas"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/2b3c5af5396430f28ed5ec7cd9781303c57dfe36c093a40f7b9934826e6d308c.webp",
+    "description": "Nước giải khát có gas Demisoda vị nho xanh của Dong-A Otsuka (Hàn Quốc), vị trái cây nhẹ, bọt ga sảng khoái. Lon ghi White grape, 250 ml (85 kcal).\n\nQuy cách: 250 ml · lon\nXuất xứ: Hàn Quốc · Thương hiệu: Demisoda (Dong-A Otsuka)",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "Chủ 19/10: ảnh crop KiotViet mờ/nhăn, không đạt chuẩn như SP cùng dòng đã duyệt → Gemini vẽ lại theo phong cách SP cùng dòng (v14/v15/v17) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt chữ lớn (DEMISODA, White grape, 250 ml (85 kcal))",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-19",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet của SP (mẫu chữ/màu) + ảnh lon Milky Soda đã duyệt (chỉ mẫu phong cách)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; trang hãng Dong-A Otsuka chặn truy cập (403) → mô tả ngắn từ tên SP + chữ in trên lon (vị, 250 ml, 85 kcal)",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:53:05.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "b17: image CROP, description WRITE_NEW (pack facts)"
+    },
+    {
+      "at": "2026-10-15T09:16:17Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "tone.py --vivid: white balance/levels + brand-like colour (owner request)"
+    },
+    {
+      "at": "2026-10-18T17:50:53.780Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T02:24:25Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-19T02:25:12.129Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T02:44:56.965Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T03:19:05.400Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-19T02:25:12.129Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T02:31:07.582Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T02:31:07.582Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/2b3c5af5396430f28ed5ec7cd9781303c57dfe36c093a40f7b9934826e6d308c.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/29/tram8/7e0e96b24c304c9dbf54a9126afb4efd.png"
+        ]
+      },
+      "description": {
+        "to": "Nước giải khát có gas Demisoda vị nho xanh của Dong-A Otsuka (Hàn Quốc), vị trái cây nhẹ, bọt ga sảng khoái. Lon ghi White grape, 250 ml (85 kcal).\n\nQuy cách: 250 ml · lon\nXuất xứ: Hàn Quốc · Thương hiệu: Demisoda (Dong-A Otsuka)",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {
+      "price": {
+        "to": 26388.89,
+        "from": 25909.09
+      },
+      "saleTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 64865245
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 64865245
+        }
+      },
+      "taxRate": {
+        "to": "VAT 8%",
+        "from": "VAT 10%"
+      },
+      "productTaxs": {
+        "to": [
+          {
+            "id": 0,
+            "name": "VAT 8%",
+            "taxId": 3,
+            "value": 8,
+            "productId": 64865245
+          }
+        ],
+        "from": [
+          {
+            "id": 0,
+            "name": "VAT 10%",
+            "taxId": 4,
+            "value": 10,
+            "productId": 64865245
+          }
+        ]
+      },
+      "purchaseTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 64865245
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 64865245
+        }
+      }
+    }
+  }
+}

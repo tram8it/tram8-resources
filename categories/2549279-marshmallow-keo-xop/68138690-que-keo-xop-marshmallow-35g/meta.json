@@ -1,0 +1,139 @@
+{
+  "kiotProductId": "68138690",
+  "code": "SP878215",
+  "barcode": "8859533603316",
+  "name": "Que kẹo xốp marshmallow 35g",
+  "fullName": "Que kẹo xốp marshmallow 35g (Que)",
+  "brand": "Ovaltine",
+  "unit": "Que",
+  "category": {
+    "kiotCategoryId": "2549279",
+    "name": "Marshmallow/kẹo xốp",
+    "path": "Các loại kẹo > Marshmallow/kẹo xốp"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/fe3d2a4b346ba59bf7555a9f4e4ef5c8baf22f1cfa5f9f90ea1f2b1e3b3bdc1f.webp",
+    "description": "Que kẹo xốp marshmallow Ovaltine, nhân vị sô-cô-la mạch nha (Chocolate Flavor Filling), gói riêng từng que.\n\nQuy cách: 35 g · que\nThương hiệu: Ovaltine",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "v13–v15 (chủ 19/10): ảnh nhân viên chụp đã tách nền vẫn kém ảnh các SP cùng dòng đã duyệt (nhăn/loá/nghiêng) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: que kẹo vẽ phẳng; chữ nhỏ không đọc được",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-19",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh nhân viên chụp 18/10 (chỉ làm mẫu) + ảnh đã duyệt 64865518 (same line (Ovaltine marshmallow stick), chỉ làm mẫu phong cách)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "REWRITE",
+    "reason": "sửa theo chữ in mặt trước bao bì trong ảnh nhân viên chụp (khối lượng, vị, thương hiệu); không có trang hãng",
+    "source": {
+      "staffPhoto": true,
+      "takenAt": "2026-10-18"
+    },
+    "rubricVersion": "v22"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-14T00:28:46.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "batch f2: image REPLACE -> needs photo, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T08:25:59Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "retried 17/10: no usable reference, stays NEEDS_PHOTO"
+    },
+    {
+      "at": "2026-10-18T17:56:03Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "staff photo 2026-10-18 (Zalo); cutout + tone --vivid"
+    },
+    {
+      "at": "2026-10-18T17:57:11.749Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-18T18:25:04.159Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T02:16:58Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-19T02:18:11.172Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T02:44:56.965Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T03:19:05.400Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-19T02:18:11.172Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T02:29:51.689Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T02:29:51.689Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/fe3d2a4b346ba59bf7555a9f4e4ef5c8baf22f1cfa5f9f90ea1f2b1e3b3bdc1f.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/09/17/tram8/85cae63360634432a48ddcdac6a6932c.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Que kẹo xốp marshmallow Ovaltine, nhân vị sô-cô-la mạch nha (Chocolate Flavor Filling), gói riêng từng que.\n\nQuy cách: 35 g · que\nThương hiệu: Ovaltine",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

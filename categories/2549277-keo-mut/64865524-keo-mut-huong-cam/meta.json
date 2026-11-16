@@ -1,0 +1,118 @@
+{
+  "kiotProductId": "64865524",
+  "code": "SP000639",
+  "barcode": "8934677026112",
+  "name": "Kẹo Mút Hương Cam",
+  "fullName": "Kẹo Mút Hương Cam (Que)",
+  "brand": "Lotte",
+  "unit": "Que",
+  "category": {
+    "kiotCategoryId": "2549277",
+    "name": "Kẹo mút",
+    "path": "Các loại kẹo > Kẹo mút"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/3b323752da497ef18b2e2a563efab2265722adf6b45ccf4bc139daec1a18dde5.webp",
+    "description": "Kẹo mút hương trái cây Suku Suku của Lotte, hương cam, gói từng cây in hình Doraemon. Bao bì ghi có vitamin B1, B6, C, D3 và que kẹo làm bằng giấy.\n\nQuy cách: 1 cây · gói\nNhà sản xuất/thương hiệu: Lotte · Suku Suku",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "ảnh tự chụp (vỏ nhăn, cong, in hạn dùng); không có ảnh hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: bỏ hạn dùng in trên vỏ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (ảnh tự chụp, chỉ làm mẫu)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; không tìm trang hãng Lotte Việt Nam cho SP này, viết ngắn chỉ từ chữ in mặt trước bao bì",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-14T00:38:56.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "batch f1: image CROP, description WRITE_NEW short (orange)"
+    },
+    {
+      "at": "2026-10-15T09:16:17Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "tone.py --vivid: white balance/levels + brand-like colour (owner request)"
+    },
+    {
+      "at": "2026-10-17T14:18:33Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T14:19:11.164Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T14:19:11.164Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T16:48:10.710Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T16:48:10.710Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/3b323752da497ef18b2e2a563efab2265722adf6b45ccf4bc139daec1a18dde5.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/30/tram8/630279d0bf1e4739b439dbe2333643b9.png"
+        ]
+      },
+      "description": {
+        "to": "Kẹo mút hương trái cây Suku Suku của Lotte, hương cam, gói từng cây in hình Doraemon. Bao bì ghi có vitamin B1, B6, C, D3 và que kẹo làm bằng giấy.\n\nQuy cách: 1 cây · gói\nNhà sản xuất/thương hiệu: Lotte · Suku Suku",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

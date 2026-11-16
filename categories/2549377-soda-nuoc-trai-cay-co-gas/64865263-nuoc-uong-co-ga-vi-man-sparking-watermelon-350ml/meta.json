@@ -1,0 +1,180 @@
+{
+  "kiotProductId": "64865263",
+  "code": "8809005029571",
+  "barcode": "8809005029571",
+  "name": "Nước Uống Có Ga Vị Mận Sparking Watermelon 350ml",
+  "fullName": "Nước Uống Có Ga Vị Mận Sparking Watermelon 350ml (Lon)",
+  "brand": "SFC Bio",
+  "unit": "Lon",
+  "category": {
+    "kiotCategoryId": "2549377",
+    "name": "Soda / nước trái cây có gas",
+    "path": "Đồ uống đóng chai > Soda / nước trái cây có gas"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/8608c6c5a3250f6ec1537c01f7ad66c0d2450612c036671ad2121ce1fe238375.webp",
+    "description": "Nước ngọt có ga vị mận SFC Bio Sparkling Plum (자두소다), đóng lon.\n\nQuy cách: 350 ml · lon\nThương hiệu: SFC Bio",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I3/I4: ảnh chụp 2 lon trên kệ; mã vạch 8809005029571 là SFC Bio Sparkling Plum 350 ml (Open Food Facts, iCheck), khớp ảnh → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: giữ bản lon của cửa hàng (nhãn bát giác Mexico); chữ nhỏ và mã vạch bên hông không đọc được",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (2 lon trên kệ) + Open Food Facts",
+      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/03/15/tongpenhchtl/45903d27c02e4870b33c9b1cf3496dad.jpeg"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "source": null,
+    "rubricVersion": "v20",
+    "decision": "WRITE_NEW",
+    "reason": "mã vạch 8809005029571 = SFC Bio Sparkling Plum 350 ml (OFF, iCheck)"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:53:05.000Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "b17: asked owner (plum vs watermelon name conflict)"
+    },
+    {
+      "at": "2026-10-17T14:07:39Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T14:08:44Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "resolved without asking: barcode/evidence decides (mã vạch 8809005029571 = SFC Bio Sparkling Plum 350 ml (OFF, iCheck))"
+    },
+    {
+      "at": "2026-10-17T14:10:07.281Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T14:10:07.281Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T15:38:52.383Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T15:38:52.383Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/8608c6c5a3250f6ec1537c01f7ad66c0d2450612c036671ad2121ce1fe238375.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/03/15/tongpenhchtl/45903d27c02e4870b33c9b1cf3496dad.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Nước ngọt có ga vị mận SFC Bio Sparkling Plum (자두소다), đóng lon.\n\nQuy cách: 350 ml · lon\nThương hiệu: SFC Bio",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {
+      "price": {
+        "to": 27777.78,
+        "from": 27272.73
+      },
+      "saleTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 64865263
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 64865263
+        }
+      },
+      "taxRate": {
+        "to": "VAT 8%",
+        "from": "VAT 10%"
+      },
+      "productTaxs": {
+        "to": [
+          {
+            "id": 0,
+            "name": "VAT 8%",
+            "taxId": 3,
+            "value": 8,
+            "productId": 64865263
+          }
+        ],
+        "from": [
+          {
+            "id": 0,
+            "name": "VAT 10%",
+            "taxId": 4,
+            "value": 10,
+            "productId": 64865263
+          }
+        ]
+      },
+      "purchaseTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 64865263
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 64865263
+        }
+      }
+    }
+  }
+}

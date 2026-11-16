@@ -1,0 +1,137 @@
+{
+  "kiotProductId": "67136584",
+  "code": "8935342400053",
+  "barcode": "8935342400053",
+  "name": "Bánh Que Vị Truyền Thống Dorkbua 110g",
+  "fullName": "Bánh Que Vị Truyền Thống Dorkbua 110g (Gói)",
+  "brand": "Dorkbua",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2549018",
+    "name": "Snack que / que cay",
+    "path": "Đồ ăn vặt > Snacks > Snack que / que cay"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/b0197be9b2a4ea87054428ba0f6c768776937b98d6005e7a66714dfce7ae417e.webp",
+    "description": "Bánh que Lotus của Dorkbua vị truyền thống, que bánh quy giòn tẩm gia vị kiểu Thái.\n\nQuy cách: 110 g · gói\nNhà sản xuất/thương hiệu: Dorkbua (Lotus)",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I2: ảnh hiện tại là gói Thái 55 g, mã vạch khác (8850157…), không phải gói 110 g; không có ảnh gói 110 g → ảnh minh hoạ vẽ theo thiết kế cùng dòng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: ẢNH MINH HOẠ: thiết kế lấy từ gói 25/55 g cùng vị, khối lượng in sửa thành 110 g theo tên hàng; tỉ lệ túi 110 g thật có thể khác; bảng dinh dưỡng cố ý làm mờ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh hãng SNNP gói Lotus vị truyền thống 25 g + ảnh KiotViet gói 55 g (mẫu thiết kế) + ảnh hãng gói Mala 110 g (mẫu dòng khối lượng); chỉ làm mẫu",
+      "referenceUrl": "https://www.snnp.co.th/products/LOTUS"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: mô tả ngắn từ chữ in trên bao bì cùng dòng; khối lượng 110 g theo tên hàng (chưa có ảnh gói 110 g)",
+    "source": null,
+    "rubricVersion": "v20"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:21:20.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "b07 review: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T04:49:05Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "weight on pack differs from KiotViet name; not redrawn"
+    },
+    {
+      "at": "2026-10-17T08:59:38Z",
+      "by": "owner",
+      "status": "ASK_OWNER",
+      "note": "Chủ trả lời 17/10 (RUBRIC v19): tin bao bì đúng mã vạch khi lệch nhỏ; lệch lớn/cỡ khác thì vẫn hỏi"
+    },
+    {
+      "at": "2026-10-17T08:59:38Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "v19: vẫn ASK_OWNER (lệch lớn hoặc cần xem kệ); rút gọn câu hỏi"
+    },
+    {
+      "at": "2026-10-17T13:49:20Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T13:49:20Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "resolved without asking: no photo of the 110 g pack exists; default 'size from sibling' → illustrative render of the same red original-flavour design with 110 g (name), marked ảnh minh hoạ"
+    },
+    {
+      "at": "2026-10-17T13:49:20.291Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T13:49:20.291Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T13:54:53.298Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T13:54:53.298Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/b0197be9b2a4ea87054428ba0f6c768776937b98d6005e7a66714dfce7ae417e.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/18/tram8/9086697d5acf4e108aeab3c48dc8c641.png"
+        ]
+      },
+      "description": {
+        "to": "Bánh que Lotus của Dorkbua vị truyền thống, que bánh quy giòn tẩm gia vị kiểu Thái.\n\nQuy cách: 110 g · gói\nNhà sản xuất/thương hiệu: Dorkbua (Lotus)",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

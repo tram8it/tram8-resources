@@ -1,0 +1,187 @@
+{
+  "kiotProductId": "67970549",
+  "code": "8934588633935",
+  "barcode": "8934588633935",
+  "name": "Nước Tăng Lực Boss Coffee Chai 325ml",
+  "fullName": "Nước Tăng Lực Boss Coffee Chai 325ml (Chai)",
+  "brand": "Boss",
+  "unit": "Chai",
+  "category": {
+    "kiotCategoryId": "2500667",
+    "name": "Nước tăng lực",
+    "path": "Đồ uống đóng chai > Nước tăng lực"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/da73199e7c4b1792eca79754e97c3f438211be2034355f229497c3eee88df1d8.webp",
+    "description": "Nước tăng lực BOSS Coffee chứa cà phê thật, đóng chai nhựa 325 ml, vị tăng lực có ga hòa quyện hương cà phê Robusta. Ngon hơn khi uống lạnh.\n\nThành phần: nước có ga, đường, dextrose, maltodextrin, cà phê hòa tan, caffeine, taurine, màu caramel, chất điều chỉnh độ acid, hương liệu, chất bảo quản.\nQuy cách: 325 ml · chai\nXuất xứ: Việt Nam · Nhà sản xuất/thương hiệu: Công ty TNHH Nước Giải Khát Suntory PepsiCo Việt Nam · BOSS (Suntory, Nhật Bản)",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I1: chưa có ảnh; trang hãng suntorypepsico.vn chỉ có Boss lon 180 ml → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ nhỏ (thành phần, dòng pháp lý) không đọc được trên ảnh vẽ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-18",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh nhà bán lẻ azmart.vn + ảnh chiến dịch BOSS (chỉ làm mẫu)",
+      "referenceUrl": "https://azmart.vn/nuoc-tang-luc-ca-phe-boss-chai-300-350-ml"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết từ chữ in trên chai và trang giới thiệu SP (Suntory PepsiCo VN, thành phần đọc ở trang bán lẻ)",
+    "source": {
+      "url": "https://www.minimeinsights.com/2026/06/20/boss-coffee-expands-into-energy-drink-in-vietnam/",
+      "fetchedAt": "2026-10-18T17:55:02Z"
+    },
+    "rubricVersion": "v23"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:31:42.000Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "product identity unclear, no image"
+    },
+    {
+      "at": "2026-10-17T14:14:07Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "re-triage: barcode not found anywhere, no reference → NEEDS_PHOTO (front + back), not a question"
+    },
+    {
+      "at": "2026-10-18T17:54:47Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-18T17:55:02Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "description written (WRITE_NEW) on 18/10 re-research"
+    },
+    {
+      "at": "2026-10-18T17:55:05.678Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T02:05:27.524Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T03:19:05.400Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-18T17:55:05.678Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T01:34:34.047Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T01:34:34.047Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/da73199e7c4b1792eca79754e97c3f438211be2034355f229497c3eee88df1d8.webp"
+        ],
+        "from": null
+      },
+      "description": {
+        "to": "Nước tăng lực BOSS Coffee chứa cà phê thật, đóng chai nhựa 325 ml, vị tăng lực có ga hòa quyện hương cà phê Robusta. Ngon hơn khi uống lạnh.\n\nThành phần: nước có ga, đường, dextrose, maltodextrin, cà phê hòa tan, caffeine, taurine, màu caramel, chất điều chỉnh độ acid, hương liệu, chất bảo quản.\nQuy cách: 325 ml · chai\nXuất xứ: Việt Nam · Nhà sản xuất/thương hiệu: Công ty TNHH Nước Giải Khát Suntory PepsiCo Việt Nam · BOSS (Suntory, Nhật Bản)",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {
+      "price": {
+        "to": 11111.11,
+        "from": 10909.09
+      },
+      "saleTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 67970549
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 67970549
+        }
+      },
+      "taxRate": {
+        "to": "VAT 8%",
+        "from": "VAT 10%"
+      },
+      "productTaxs": {
+        "to": [
+          {
+            "id": 0,
+            "name": "VAT 8%",
+            "taxId": 3,
+            "value": 8,
+            "productId": 67970549
+          }
+        ],
+        "from": [
+          {
+            "id": 0,
+            "name": "VAT 10%",
+            "taxId": 4,
+            "value": 10,
+            "productId": 67970549
+          }
+        ]
+      },
+      "purchaseTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 67970549
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 67970549
+        }
+      }
+    }
+  }
+}

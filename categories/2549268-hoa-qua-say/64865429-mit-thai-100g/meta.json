@@ -1,0 +1,112 @@
+{
+  "kiotProductId": "64865429",
+  "code": "8936236140437",
+  "barcode": "8936236140437",
+  "name": "Mit Thái 100g",
+  "fullName": "Mit Thái 100g (Gói)",
+  "brand": "Quang Thanh",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2549268",
+    "name": "Hoa quả sấy",
+    "path": "Đồ ăn vặt > Hạt các loại · Hoa quả sấy > Hoa quả sấy"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/0a954650464a2c0d4f5494468ec1e2b25a4f7ac77562d4685921fe7861dd152c.webp",
+    "description": "Mít Thái sấy Quang Thanh Foods, làm từ 100% mít Thái, ăn trực tiếp như món ăn vặt.\n\nThành phần: Mít Thái 100%.\nQuy cách: 100 g · gói\nXuất xứ: Việt Nam · Nhà sản xuất/thương hiệu: Công ty TNHH Thực phẩm Quang Thanh (Hải Phòng) · Quang Thanh Foods\nBảo quản: Nhiệt độ thường, nơi khô ráo, thoáng mát, tránh ánh nắng trực tiếp.\nHướng dẫn sử dụng: Dùng ăn trực tiếp.",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I3/I4: ảnh tay cầm gói hàng; không có trang hãng Quang Thanh Foods → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: miệng túi zip và đáy túi vẽ suy ra; chữ nhỏ trên nhãn (thành phần, địa chỉ) có thể sai chính tả; mã vạch 8936236140437 đúng; trên ảnh không có khối lượng",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet tay cầm gói (chỉ làm mẫu)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết từ chữ in trên nhãn (thành phần, bảo quản, HDSD, nhà sản xuất) và tên SP (100 g)",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:27:10.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "b26: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T08:24:16Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T08:24:40.862Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T08:24:40.862Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T08:38:01.246Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T08:38:01.246Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/0a954650464a2c0d4f5494468ec1e2b25a4f7ac77562d4685921fe7861dd152c.webp"
+        ],
+        "from": [
+          "https://cdn1-retail-images.kiotviet.vn/2026/01/23/tongpenhchtl/d313f217106646688eaff0023c308e51.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Mít Thái sấy Quang Thanh Foods, làm từ 100% mít Thái, ăn trực tiếp như món ăn vặt.\n\nThành phần: Mít Thái 100%.\nQuy cách: 100 g · gói\nXuất xứ: Việt Nam · Nhà sản xuất/thương hiệu: Công ty TNHH Thực phẩm Quang Thanh (Hải Phòng) · Quang Thanh Foods\nBảo quản: Nhiệt độ thường, nơi khô ráo, thoáng mát, tránh ánh nắng trực tiếp.\nHướng dẫn sử dụng: Dùng ăn trực tiếp.",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

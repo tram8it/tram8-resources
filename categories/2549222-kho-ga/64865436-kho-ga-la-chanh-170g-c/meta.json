@@ -1,0 +1,143 @@
+{
+  "kiotProductId": "64865436",
+  "code": "8936202660853",
+  "barcode": "8936202660853",
+  "name": "Khô gà lá chanh 170g C",
+  "fullName": "Khô gà lá chanh 170g C (Gói)",
+  "brand": "Phương Huyền",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2549222",
+    "name": "Khô gà",
+    "path": "Đồ ăn vặt > Thịt khô và chân gà > Khô gà"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/eac87d81b4b723244b4060230cd7859ff5b4ce855ae7bdb7d6bb134b7b041d5f.webp",
+    "description": "Khô gà lá chanh của Phương Huyền Food, thịt gà sấy xé sợi trộn lá chanh, ớt, đóng túi zip giấy kraft có cửa sổ, dùng làm món ăn vặt hoặc đồ nhắm.\n\nQuy cách: 200 g · gói\nNhà sản xuất/thương hiệu: Phương Huyền Food",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I3, I4: ảnh chụp điện thoại, nền không trắng; không có trang hãng Phương Huyền Food → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ nhỏ trên nhãn (thành phần, tên công ty, địa chỉ, SĐT) để mờ không đọc được (AI không chép đúng); huy hiệu 'GOOD FOOD' góc phải vẽ thành chữ gần giống ('600P FOOP'); mã vạch 8936202660853 và 'Net.wt: 200g' khớp gói thật; túi kraft vẽ phẳng, đầy hơn ảnh chụp",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (gói 200 g trên kệ, chủ xác nhận 17/10)",
+      "referenceUrl": "https://cdn1-retail-images.kiotviet.vn/2026/01/23/tongpenhchtl/c12cbb44b20641cd814371e8b27d4526.jpeg"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; mô tả ngắn từ chữ in trên nhãn gói (Gà khô lá chanh, Phương Huyền Food, Net wt 200 g — chủ xác nhận 17/10)",
+    "source": null,
+    "rubricVersion": "v19"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:01:41.000Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "ask owner: weight 170 g vs label 200 g; photo needs retake"
+    },
+    {
+      "at": "2026-10-17T08:45:00Z",
+      "by": "owner",
+      "note": "RUBRIC v19: khối lượng tin bao bì đúng mã vạch hơn tên KiotViet; chỉ hỏi khi lệch > ~10% hoặc rõ là cỡ khác",
+      "status": "ASK_OWNER"
+    },
+    {
+      "at": "2026-10-17T09:30:00Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "gap > ~10% / other size or needs shelf check: question shortened to the two numbers (RUBRIC v19)"
+    },
+    {
+      "at": "2026-10-17T12:00:00Z",
+      "by": "owner",
+      "status": "ASK_OWNER",
+      "note": "Kiểm kệ 17/10: chưa trả lời, hết hàng 17/10"
+    },
+    {
+      "at": "2026-10-17T13:30:00Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "not answered, out of stock 17/10 — left ASK_OWNER"
+    },
+    {
+      "at": "2026-10-17T13:51:52Z",
+      "by": "owner",
+      "status": "ASK_OWNER",
+      "note": "Chủ trả lời 17/10: gói đang bán in 200 g; dùng ảnh KiotViet (gói 200 g) làm mẫu, ảnh + mô tả theo 200 g"
+    },
+    {
+      "at": "2026-10-17T13:52:10Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T13:52:15.247Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T13:52:15.247Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T13:55:06.863Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T13:55:06.863Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/eac87d81b4b723244b4060230cd7859ff5b4ce855ae7bdb7d6bb134b7b041d5f.webp"
+        ],
+        "from": [
+          "https://cdn1-retail-images.kiotviet.vn/2026/01/23/tongpenhchtl/c12cbb44b20641cd814371e8b27d4526.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Khô gà lá chanh của Phương Huyền Food, thịt gà sấy xé sợi trộn lá chanh, ớt, đóng túi zip giấy kraft có cửa sổ, dùng làm món ăn vặt hoặc đồ nhắm.\n\nQuy cách: 200 g · gói\nNhà sản xuất/thương hiệu: Phương Huyền Food",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

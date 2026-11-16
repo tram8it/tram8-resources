@@ -1,0 +1,119 @@
+{
+  "kiotProductId": "64865434",
+  "code": "8936202660273",
+  "barcode": "8936202660273",
+  "name": "Thịt Sấy Khô Sợi Nhỏ 218G",
+  "fullName": "Thịt Sấy Khô Sợi Nhỏ 218G (Lọ)",
+  "brand": "Phương Huyền",
+  "unit": "Lọ",
+  "category": {
+    "kiotCategoryId": "2549223",
+    "name": "Khô heo",
+    "path": "Đồ ăn vặt > Thịt khô và chân gà > Khô heo"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/5be28566c1632ae8ffe5cf0568d7f6b2f2e9972b7ee750c05fac92130e9f17f5.webp",
+    "description": "Thịt sấy khô sợi nhỏ Phương Huyền: thịt sấy khô xé sợi ăn liền, đóng hũ nhựa cao.\n\nQuy cách: 168 g · hũ (theo nhãn trên ảnh iCheck cùng mã vạch)\nNhà sản xuất: Phương Huyền Food",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I2: ảnh KiotViet là gói rong biển Hàn Quốc → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ lớn khớp (Thịt sấy khô, Sợi nhỏ, KLT: 168G, Chất lượng khẳng định thương hiệu số 1); iCheck theo mã vạch ghi 168 g, khác tên KiotViet 218 g (v19: theo bao bì); chữ nhỏ mờ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-18",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh iCheck theo mã vạch (ảnh quảng cáo hũ Phương Huyền, chỉ làm mẫu)",
+      "referenceUrl": "https://assets.icheck.vn/image/2026/app/7/27/e20e36bfc162ef85cc34c4603033badf.jpg"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: từ chữ trên nhãn hũ (ảnh iCheck theo mã vạch); khối lượng theo nhãn 168 g (tên KiotViet 218 g)",
+    "source": null,
+    "rubricVersion": "v23"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:49:09.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "b21: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T07:44:46Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "re-checked 17/10: current image is a wrong product; no web reference → still NEEDS_PHOTO"
+    },
+    {
+      "at": "2026-10-18T18:27:21Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-18T18:27:24.183Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T02:05:27.524Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T03:19:05.400Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-18T18:27:24.183Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T01:49:25.376Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T01:49:25.376Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/5be28566c1632ae8ffe5cf0568d7f6b2f2e9972b7ee750c05fac92130e9f17f5.webp"
+        ],
+        "from": [
+          "https://cdn1-retail-images.kiotviet.vn/2026/01/23/tongpenhchtl/9f17b4834f484c53b0b95398925ea5c5.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Thịt sấy khô sợi nhỏ Phương Huyền: thịt sấy khô xé sợi ăn liền, đóng hũ nhựa cao.\n\nQuy cách: 168 g · hũ (theo nhãn trên ảnh iCheck cùng mã vạch)\nNhà sản xuất: Phương Huyền Food",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "kiotProductId": "65860581",
+  "code": "8938520099612",
+  "barcode": "8938520099612",
+  "name": "Mơ xí muội",
+  "fullName": "Mơ xí muội (Gói)",
+  "brand": "Onenuts Naturals",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2549269",
+    "name": "Ô mai - Xí muội",
+    "path": "Đồ ăn vặt > Hạt các loại · Hoa quả sấy > Ô mai - Xí muội"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/34fbf94c9589019f12b718ed361bb173d51e78560238459e154cf8b33af89544.webp",
+    "description": "Mơ xí muội Onenuts Naturals, mơ sấy dẻo (Soft Dried Apricots) vị chua, mặn, ngọt, đóng túi zip.\n\nQuy cách: 100 g · gói\nThương hiệu: Onenuts Naturals",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I3/I4/I5: ảnh túi chụp điện thoại trên bàn có giấy tờ, nền không trắng, bị cắt; không có trang hãng Onenuts → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt đáng kể; đáy túi vẽ suy ra; KHỐI LƯỢNG TỊNH 100 g đúng",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (chỉ làm mẫu)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; mô tả ngắn từ chữ in mặt trước nhãn (tên, thương hiệu, khối lượng tịnh)",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-14T00:28:46.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "batch f2: image REPLACE -> needs photo, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T08:21:37Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T08:21:44.572Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T08:21:44.572Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T08:36:43.497Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T08:36:43.497Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/34fbf94c9589019f12b718ed361bb173d51e78560238459e154cf8b33af89544.webp"
+        ],
+        "from": [
+          "https://cdn1-retail-images.kiotviet.vn/2026/05/20/tram8/80a3003bffa04ad8a3efe32a20b66f29.png"
+        ]
+      },
+      "description": {
+        "to": "Mơ xí muội Onenuts Naturals, mơ sấy dẻo (Soft Dried Apricots) vị chua, mặn, ngọt, đóng túi zip.\n\nQuy cách: 100 g · gói\nThương hiệu: Onenuts Naturals",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

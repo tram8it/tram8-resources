@@ -1,0 +1,107 @@
+{
+  "kiotProductId": "68610134",
+  "code": "3073781153859",
+  "barcode": "3073781153859",
+  "name": "Phô Mai Vuông Con Bò Cười Vị Dâu 15 viên",
+  "fullName": "Phô Mai Vuông Con Bò Cười Vị Dâu 15 viên (Gói)",
+  "brand": "Con Bò Cười",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2534578",
+    "name": "Phô mai",
+    "path": "Sữa và các sản phẩm từ sữa > Phô mai"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/ae0da15c14154fc4a4375c1f13ad15affa7d2135efeeba3e92a8e420b5643a4a.webp",
+    "description": "Phô mai viên Belcube vị dâu của Con Bò Cười (La Vache qui rit): viên phô mai vuông nhỏ, ăn liền, tiện mang theo; nhãn ghi bổ sung 4 dưỡng chất: kẽm, canxi, vitamin A, vitamin D.\n\nQuy cách: 78 g · gói 15 viên\nThương hiệu: Con Bò Cười (La Vache qui rit)",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I3/I4/I7: ảnh KiotViet tay cầm trong cửa hàng, có tem giá dán tay → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: bỏ tem giá dán tay; chữ nhỏ để như mẫu",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-26",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh gói của Kingfoodmart theo mã vạch 3073781153859 + ảnh KiotViet (chỉ làm mẫu)",
+      "referenceUrl": "https://storage.googleapis.com/onelife-public/3073781153859.jpg"
+    },
+    "rubricVersion": "v23"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết từ chữ in mặt trước gói (78 g, x15, 4 dưỡng chất)",
+    "source": null,
+    "rubricVersion": "v23"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-26T02:38:48.902Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-26T02:59:10Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references; description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-26T02:59:42.328Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-26T04:58:33.990Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-27T10:02:11.418Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-26T02:59:42.328Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-26T04:57:14.528Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-26T04:57:14.528Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/ae0da15c14154fc4a4375c1f13ad15affa7d2135efeeba3e92a8e420b5643a4a.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/10/25/tram8/21d50f91c0404fc1b945751d07c333ce.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Phô mai viên Belcube vị dâu của Con Bò Cười (La Vache qui rit): viên phô mai vuông nhỏ, ăn liền, tiện mang theo; nhãn ghi bổ sung 4 dưỡng chất: kẽm, canxi, vitamin A, vitamin D.\n\nQuy cách: 78 g · gói 15 viên\nThương hiệu: Con Bò Cười (La Vache qui rit)",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

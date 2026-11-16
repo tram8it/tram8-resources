@@ -1,0 +1,136 @@
+{
+  "kiotProductId": "66116278",
+  "code": "8858223026848",
+  "barcode": "8858223026848",
+  "name": "Bánh Que MIX Vị Bắp Ngọt và Bơ 50g",
+  "fullName": "Bánh Que MIX Vị Bắp Ngọt và Bơ 50g (Gói)",
+  "brand": "Mix",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2549018",
+    "name": "Snack que / que cay",
+    "path": "Đồ ăn vặt > Snacks > Snack que / que cay"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/838735864d134dd3e2837f6453ebb07e450aa4270319e5984b9113db5df1638f.webp",
+    "description": "Bánh que Mix vị bắp bơ (Butter Corn) của VFoods (Thái Lan), que bánh quy giòn thơm vị bắp ngọt và bơ.\n\nQuy cách: 50 g · gói\nXuất xứ: Thái Lan · Nhà sản xuất/thương hiệu: Variety Foods International (VFoods) · Mix",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "ảnh tự chụp (mềm, nhăn/bóng lóa); không có ảnh hãng nguyên gói dùng được → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt ở chữ lớn và khối lượng",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh hãng VFoods (mặt trước, bị cắt mép) + ảnh KiotViet",
+      "referenceUrl": "https://www.vfoods.co.th/img/brand-packs/mix50-buttercorn.webp"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; trang hãng chỉ có tên + khối lượng, phần còn lại từ chữ in mặt trước bao bì",
+    "source": {
+      "url": "https://www.vfoods.co.th/brand?brand=Mix",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:21:20.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "b07 review: image CROP, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-15T02:51:55.229Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-15T09:16:17Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "tone.py --vivid: white balance/levels + brand-like colour (owner request)"
+    },
+    {
+      "at": "2026-10-15T09:21:32.355Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-16T01:38:49.852Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-17T14:25:55Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T14:26:48.827Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T14:26:48.827Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T16:51:09.406Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T16:51:09.406Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/838735864d134dd3e2837f6453ebb07e450aa4270319e5984b9113db5df1638f.webp"
+        ],
+        "from": [
+          "https://img.tram8.vn/products/d890a24439fa8bd9a900a95c0b934cbd8e20258e6b4ae1bfba8d9b72e3b94f9c.webp"
+        ]
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

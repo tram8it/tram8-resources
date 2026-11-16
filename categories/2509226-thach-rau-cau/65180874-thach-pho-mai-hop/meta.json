@@ -1,0 +1,129 @@
+{
+  "kiotProductId": "65180874",
+  "code": "8935357300195",
+  "barcode": "8935357300195",
+  "name": "Thạch phô mai hộp",
+  "fullName": "Thạch phô mai hộp (Hộp)",
+  "brand": null,
+  "unit": "Hộp",
+  "category": {
+    "kiotCategoryId": "2509226",
+    "name": "Thạch – Rau câu",
+    "path": "Đồ ăn vặt > Thạch – Rau câu"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/8ffb5de8d85f5d859345b8c5fb470e8edbe71ade7f1a38f758d6614aac330e98.webp",
+    "description": "Thạch phô mai đóng hộp, ăn liền, dùng làm món tráng miệng hoặc ăn vặt.\n\nQuy cách: hộp",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "ảnh minh hoạ (chủ 20/10: SP không được để trống ảnh) — route 2: vẽ theo hộp Thạch Phô mai Gia Nhất cùng dòng. Khác hàng thật: suy từ hộp cùng dòng (mã vạch khác, có thể khác cỡ hộp); không ghi khối lượng. Trước đó: ảnh minh hoạ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-21",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh minh hoạ đã làm của SP cùng dòng 65176993 (hộp Thạch Phô mai Gia Nhất)",
+      "illustration": true
+    },
+    "rubricVersion": "v23"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết ngắn chỉ từ tên hàng (không có nguồn hãng)",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:54:06.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "b19: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T12:00:00.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "Gemini pass: no usable reference found; still needs photo"
+    },
+    {
+      "at": "2026-10-18T18:11:52Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "18/10 re-research (>=3 searches): still no image of this exact product → NEEDS_PHOTO"
+    },
+    {
+      "at": "2026-10-19T07:38:02Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "19/10 re-research with image search (owner request): no image of this exact product/variant found"
+    },
+    {
+      "at": "2026-10-21T01:59:16Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "illustration 20/10: route 2: vẽ theo hộp Thạch Phô mai Gia Nhất cùng dòng"
+    },
+    {
+      "at": "2026-10-21T01:59:16.971Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-21T08:30:34.700Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-26T04:58:33.990Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-21T01:59:16.971Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-21T02:01:54.473Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-21T02:01:54.473Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/8ffb5de8d85f5d859345b8c5fb470e8edbe71ade7f1a38f758d6614aac330e98.webp"
+        ],
+        "from": null
+      },
+      "description": {
+        "to": "Thạch phô mai đóng hộp, ăn liền, dùng làm món tráng miệng hoặc ăn vặt.\n\nQuy cách: hộp",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

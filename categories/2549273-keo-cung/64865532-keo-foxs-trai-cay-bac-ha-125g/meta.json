@@ -1,0 +1,116 @@
+{
+  "kiotProductId": "64865532",
+  "code": "8997212800400",
+  "barcode": "8997212800400",
+  "name": "Kẹo FoxS Trái Cây Bạc Hà 125G",
+  "fullName": "Kẹo FoxS Trái Cây Bạc Hà 125G (Gói)",
+  "brand": "Fox's",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2549273",
+    "name": "Kẹo cứng",
+    "path": "Các loại kẹo > Kẹo cứng"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/9bbf5952f95d450c78fe9688ead7f751702d82566c9b9b7d7532a9b3a7b5f72d.webp",
+    "description": "Kẹo FOX'S Crystal Clear Fruity Mints, viên kẹo cứng hình oval trong suốt, vị trái cây kết hợp bạc hà (chanh bạc hà, táo bạc hà). Kẹo FOX'S dùng màu thực phẩm tự nhiên.\n\nQuy cách: 125 g · túi\nNhà sản xuất/thương hiệu: FOX'S (Savoria)",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I7: có tem giá cửa hàng khác (29.500 VND) dán trên gói; savoria.co.id chỉ có ảnh nhóm nhỏ → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Bỏ tem giá; ô dinh dưỡng để trống, bỏ chữ nhỏ; chữ lớn và 'LEMON MINT & APPLE MINT' khớp mẫu",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet + ảnh Open Food Facts (chỉ làm mẫu)",
+      "referenceUrl": "https://world.openfoodfacts.org/product/8997212800400"
+    },
+    "rubricVersion": "v17"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; theo trang thương hiệu Savoria (FOX'S) + chữ in mặt trước bao bì",
+    "source": {
+      "url": "https://www.savoria.co.id/our-brands/fox",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T22:00:00.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "batch b14 review (rubric v4): image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T05:35:10Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T05:36:05.014Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T08:06:02.482Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T05:36:05.014Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T07:11:40.109Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T07:11:40.109Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/9bbf5952f95d450c78fe9688ead7f751702d82566c9b9b7d7532a9b3a7b5f72d.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/27/tram8/13e392b9e93845ceadca0113a82c05e9.png"
+        ]
+      },
+      "description": {
+        "to": "Kẹo FOX'S Crystal Clear Fruity Mints, viên kẹo cứng hình oval trong suốt, vị trái cây kết hợp bạc hà (chanh bạc hà, táo bạc hà). Kẹo FOX'S dùng màu thực phẩm tự nhiên.\n\nQuy cách: 125 g · túi\nNhà sản xuất/thương hiệu: FOX'S (Savoria)",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

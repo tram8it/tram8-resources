@@ -1,0 +1,179 @@
+{
+  "kiotProductId": "65464434",
+  "code": "6922456889371",
+  "barcode": "6922456889371",
+  "name": "Nước ép lê Đài Loan 1L",
+  "fullName": "Nước ép lê Đài Loan 1L (Chai)",
+  "brand": "Hàng nội địa Trung",
+  "unit": "Chai",
+  "category": {
+    "kiotCategoryId": "2549375",
+    "name": "Nước trái cây / ép",
+    "path": "Đồ uống đóng chai > Nước trái cây / ép"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/d1eca884ad82c17f72691a0e200f5af6da755ae40f54f3108ef82801ba0a3722.webp",
+    "description": "Nước lê đường phèn thương hiệu Master Kong (Khang Sư Phụ), vị lê thanh ngọt, chai lớn dùng cho cả nhà; uống lạnh ngon hơn.\n\nQuy cách: 1 L · chai\nThương hiệu: Master Kong (康师傅)",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "ảnh tự chụp (mềm, nhăn/bóng lóa); không có ảnh hãng trong danh sách nguồn → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt ở chữ lớn; chữ nhỏ đã so với ảnh",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet hiện có (ảnh tự chụp)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết ngắn chỉ từ dữ kiện chắc chắn (tên SP, chữ in mặt trước bao bì), không có trang hãng/nhãn sau (thương hiệu Master Kong / 康师傅, 冰糖雪梨 = lê đường phèn); dung tích theo tên SP",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:32:10.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "batch b09 review: image CROP, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-15T09:16:17Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "tone.py --vivid: white balance/levels + brand-like colour (owner request)"
+    },
+    {
+      "at": "2026-10-17T14:21:45Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T14:27:35.369Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T14:27:35.369Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T16:56:17.470Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T16:56:17.470Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/d1eca884ad82c17f72691a0e200f5af6da755ae40f54f3108ef82801ba0a3722.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/05/05/tram8/9330a68138d242c0b72a614e25fba3df.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Nước lê đường phèn thương hiệu Master Kong (Khang Sư Phụ), vị lê thanh ngọt, chai lớn dùng cho cả nhà; uống lạnh ngon hơn.\n\nQuy cách: 1 L · chai\nThương hiệu: Master Kong (康师傅)",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {
+      "price": {
+        "to": 27777.78,
+        "from": 27272.73
+      },
+      "saleTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 65464434
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 65464434
+        }
+      },
+      "taxRate": {
+        "to": "VAT 8%",
+        "from": "VAT 10%"
+      },
+      "productTaxs": {
+        "to": [
+          {
+            "id": 0,
+            "name": "VAT 8%",
+            "taxId": 3,
+            "value": 8,
+            "productId": 65464434
+          }
+        ],
+        "from": [
+          {
+            "id": 0,
+            "name": "VAT 10%",
+            "taxId": 4,
+            "value": 10,
+            "productId": 65464434
+          }
+        ]
+      },
+      "purchaseTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 65464434
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 0%",
+          "taxId": 1,
+          "value": 0,
+          "productId": 65464434
+        }
+      }
+    }
+  }
+}

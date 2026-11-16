@@ -1,0 +1,138 @@
+{
+  "kiotProductId": "65089030",
+  "code": "3900000321167",
+  "barcode": "3900000321167",
+  "name": "Sô cô la Feastables MrBeast Vị Hạnh Nhân 60g ( Khuyến mại mua 1 tặng 1 hoặc hóa đơn trên 125K )",
+  "fullName": "Sô cô la Feastables MrBeast Vị Hạnh Nhân 60g ( Khuyến mại mua 1 tặng 1 hoặc hóa đơn trên 125K ) (Thanh)",
+  "brand": "Feastables",
+  "unit": "Thanh",
+  "category": {
+    "kiotCategoryId": "2549263",
+    "name": "Socola thanh",
+    "path": "Đồ ăn vặt > Chocolate > Socola thanh"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/6d853f73958957befa0a4ecf3817811d26ce5cd287064eef9750048509320c88.webp",
+    "description": "Thanh sô cô la Feastables của MrBeast vị hạnh nhân.\n\nQuy cách: 60 g · thanh\nNhà sản xuất/thương hiệu: Feastables (MrBeast)",
+    "exportedAt": "2026-10-26T02:38:41.284Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "line consistency 20/10: cả dòng Feastables 60g là gói nghiêng + thanh sô cô la bên cạnh; gói Almond là gói phẳng nằm ngang → vẽ lại theo bố cục dòng (v14) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: thanh sô cô la minh hoạ theo SP cùng dòng; chữ nhỏ mặt gói làm mờ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-19",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh image.webp hiện tại của SP (nội dung gói Almond 60g) + ảnh hãng Feastables Socola Sữa 60g 65088097 (chỉ làm mẫu bố cục)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết ngắn từ chữ in trên bao bì (ảnh hiện tại) + tên SP, không có trang hãng",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:14:49.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "image needs photo (flavour not on feastables.com); description WRITE_NEW. KiotViet name contains promo text"
+    },
+    {
+      "at": "2026-10-17T04:29:26Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T04:29:47.973Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T05:23:58.238Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-19T18:28:11Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-19T18:31:50Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "line consistency 20/10: Almond was a flat horizontal pack; line standard is tilted pack + bar beside → Gemini redraw (refs: own image + 65088097)"
+    },
+    {
+      "at": "2026-10-19T18:32:19.735Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-20T03:28:53.537Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-26T04:58:33.990Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-19T18:32:19.735Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T18:40:47.552Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T18:40:47.552Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/6d853f73958957befa0a4ecf3817811d26ce5cd287064eef9750048509320c88.webp"
+        ],
+        "from": [
+          "https://img.tram8.vn/products/16e3af949939c82da72f6998fc7f46b1cbe3fc70c3637c8c75231b4a635bac27.webp"
+        ]
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

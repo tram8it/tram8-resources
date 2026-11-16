@@ -1,0 +1,111 @@
+{
+  "kiotProductId": "64865420",
+  "code": "8936011771153",
+  "barcode": "8936011771153",
+  "name": "Kem Celano Cone Vani Dau 110mlx20",
+  "fullName": "Kem Celano Cone Vani Dau 110mlx20 (Cái)",
+  "brand": "Celano",
+  "unit": "Cái",
+  "category": {
+    "kiotCategoryId": "2549573",
+    "name": "Kem ốc quế",
+    "path": "Kem & Đồ đông lạnh > Kem ốc quế"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/e6eee71dff1d662ad05aa4436ed5a29b2be5a3f322b2ad798181c70c566629a9.webp",
+    "description": "Kem ốc quế Celano vị vani dâu, bán lẻ từng cây, bảo quản đông lạnh.\n\nQuy cách: 110 ml · cái\nNhà sản xuất/thương hiệu: Celano\nBảo quản: ngăn đông tủ lạnh.",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I1: chưa có ảnh; hãng chỉ có ảnh combo nhiều ốc → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: miệng ốc vẽ lộ phần kem như ảnh render của hãng; chữ nhỏ quanh huy hiệu vàng vẽ mờ không đọc được; bao bì mới màu hồng (ảnh Kingfoodmart cùng mã vạch là bản cũ màu đỏ 'Celano Classic')",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh hãng Nutifood Eshop (ảnh combo ốc quế ngũ vị, cắt riêng ốc dâu hương vani)",
+      "referenceUrl": "https://ngoinhadinhduong.com/products/oc-que-ngu-vi-12-que-x-66-g-3-kem-celano-cone-socola-huong-vani-3kem-celano-cone-vani-dau-66g-2kem-celano-cone-vani-66g-2kem-celano-cone-pistachio-66g-2kem-celano-cone-caramel-phomai-66g"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; mô tả ngắn chỉ từ tên hàng (Celano Cone vani dâu 110 ml)",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:57:37.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "image REPLACE (no image), description WRITE_NEW from name"
+    },
+    {
+      "at": "2026-10-17T08:24:30Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T08:24:32.708Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T08:24:32.708Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T08:37:49.565Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T08:37:49.565Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/e6eee71dff1d662ad05aa4436ed5a29b2be5a3f322b2ad798181c70c566629a9.webp"
+        ],
+        "from": null
+      },
+      "description": {
+        "to": "Kem ốc quế Celano vị vani dâu, bán lẻ từng cây, bảo quản đông lạnh.\n\nQuy cách: 110 ml · cái\nNhà sản xuất/thương hiệu: Celano\nBảo quản: ngăn đông tủ lạnh.",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

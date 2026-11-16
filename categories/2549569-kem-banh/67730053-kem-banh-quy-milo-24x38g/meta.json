@@ -1,0 +1,126 @@
+{
+  "kiotProductId": "67730053",
+  "code": "8850124070371",
+  "barcode": "8850124070371",
+  "name": "Kem Banh Quy MILO 24x38g",
+  "fullName": "Kem Banh Quy MILO 24x38g (Cái)",
+  "brand": "Milo",
+  "unit": "Cái",
+  "category": {
+    "kiotCategoryId": "2549569",
+    "name": "Kem bánh",
+    "path": "Kem & Đồ đông lạnh > Kem bánh"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/f8df9fe7ebb04bf7be9a28adc8164b50654d772d43fab1301659b5925cce49e2.webp",
+    "description": "Kem bánh quy kẹp Nestlé MILO (Milo Sandwich): kem vị Milo kẹp giữa hai bánh quy sô cô la, hàng Thái Lan.\n\nQuy cách: 38 g · cái\nNhà sản xuất/thương hiệu: Nestlé · MILO\nBảo quản: Giữ đông ở −18 °C hoặc lạnh hơn.",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I1: chưa có ảnh → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt chữ lớn (Nestlé MILO, chữ Thái 'đậm đà – sandwich'); bao bì Thái",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-18",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh Lotus's Thái Lan theo đúng mã vạch 8850124070371 (chỉ làm mẫu)",
+      "referenceUrl": "https://o2o-static.lotuss.com/products/86593/75735814.jpg"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: từ bao bì (ảnh Lotus's/Tops Thái Lan đúng mã vạch): Nestlé Milo Sandwich ice cream 38 g, hàng Thái",
+    "source": {
+      "url": "https://www.tops.co.th/en/nestle-milo-sandwich-icecream-38g-8850124070371",
+      "fetchedAt": "2026-10-18T18:37:09Z"
+    },
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:12:52.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "no image; description WRITE_NEW from name only"
+    },
+    {
+      "at": "2026-10-17T08:31:36Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "no reference image found (KFM/OFF/search); still needs staff photo"
+    },
+    {
+      "at": "2026-10-18T18:37:09Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-18T18:37:09Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "np18 re-research: description rewritten from pack/official facts"
+    },
+    {
+      "at": "2026-10-18T18:37:10.097Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T02:05:27.524Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T03:19:05.400Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-18T18:37:10.097Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T01:50:36.120Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T01:50:36.120Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/f8df9fe7ebb04bf7be9a28adc8164b50654d772d43fab1301659b5925cce49e2.webp"
+        ],
+        "from": null
+      },
+      "description": {
+        "to": "Kem bánh quy kẹp Nestlé MILO (Milo Sandwich): kem vị Milo kẹp giữa hai bánh quy sô cô la, hàng Thái Lan.\n\nQuy cách: 38 g · cái\nNhà sản xuất/thương hiệu: Nestlé · MILO\nBảo quản: Giữ đông ở −18 °C hoặc lạnh hơn.",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

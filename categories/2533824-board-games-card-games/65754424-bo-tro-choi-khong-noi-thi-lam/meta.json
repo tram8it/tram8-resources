@@ -1,0 +1,132 @@
+{
+  "kiotProductId": "65754424",
+  "code": "SP877423",
+  "barcode": "8938564564084",
+  "name": "Bộ trò chơi Không Nói Thì Làm",
+  "fullName": "Bộ trò chơi Không Nói Thì Làm (Bộ)",
+  "brand": "Toy Galaxy",
+  "unit": "Bộ",
+  "category": {
+    "kiotCategoryId": "2533824",
+    "name": "Board games/ Card games",
+    "path": "Văn phòng phẩm > Board games/ Card games"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/f3b255ea31a6c8a2f40fb2cb6a866d28f7f09f6b49b2abc5c7c902d968f24569.webp",
+    "description": "Bộ bài Không Nói Thì Làm: trò chơi thử thách cho nhóm bạn – mỗi lượt rút một lá, người chơi chọn trả lời câu hỏi hoặc thực hiện thử thách ghi trên lá bài. Hợp cho các buổi tụ tập, dã ngoại.\n\nQuy cách: bộ bài · hộp giấy",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "line consistency 20/10: staff photo with crumpled shrink-wrap among flat Toy Galaxy box renders → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: bỏ màng co; chữ lớn giữ nguyên",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-20",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh chụp tay hộp Không Nói Thì Làm Ver Trường Lớp (nội dung) + hộp Ver Công Sở đã duyệt (kiểu ảnh)"
+    },
+    "rubricVersion": "v23"
+  },
+  "description": {
+    "decision": "REWRITE",
+    "reason": "D3: mô tả cũ là văn quảng cáo kiểu chatbot (HTML, lời lẽ quá đà); viết lại ngắn từ tên SP và chữ in trên hộp",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:56:37.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "b21: image REPLACE, description REWRITE"
+    },
+    {
+      "at": "2026-10-17T07:52:21.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "cutout.py + tone.py --vivid on current KiotViet photo; same method as the Toy Galaxy siblings (v14)"
+    },
+    {
+      "at": "2026-10-17T07:52:21.766Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T08:06:02.482Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-20T16:39:36Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "line consistency 20/10: staff photo with crumpled shrink-wrap among flat Toy Galaxy box renders -> Gemini redraw (own image for content, approved sibling for style); Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-20T16:41:46.039Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-21T08:30:34.700Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-26T04:58:33.990Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-20T16:41:46.039Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-20T16:45:04.750Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-20T16:45:04.750Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/f3b255ea31a6c8a2f40fb2cb6a866d28f7f09f6b49b2abc5c7c902d968f24569.webp"
+        ],
+        "from": [
+          "https://img.tram8.vn/products/e9a42b909e7d36818d4dba8c0b837e507a66a1534f1664bf7192ddf95275d970.webp"
+        ]
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

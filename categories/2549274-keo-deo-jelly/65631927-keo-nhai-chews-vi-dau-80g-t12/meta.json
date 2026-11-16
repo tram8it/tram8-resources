@@ -1,0 +1,113 @@
+{
+  "kiotProductId": "65631927",
+  "code": "6927260916138",
+  "barcode": "6927260916138",
+  "name": "Kẹo Nhai Chews Vị Dâu 80g",
+  "fullName": "Kẹo Nhai Chews Vị Dâu 80g (Lọ)",
+  "brand": null,
+  "unit": "Lọ",
+  "category": {
+    "kiotCategoryId": "2549274",
+    "name": "Kẹo dẻo / jelly",
+    "path": "Các loại kẹo > Kẹo dẻo / jelly"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/1dbaa72aecb719fe90e63472022ac9141eb7b778a23a7fe513d8208323b0dcff.webp",
+    "description": "Kẹo nhai Crazy Scientist Chew Candy hương dâu (Strawberry flavor), đựng trong lọ nhựa hình bình thí nghiệm.\n\nQuy cách: 80 g · lọ",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I3/I4: ảnh tay cầm, nền cửa hàng; hàng nhập (mã 692…), không tìm được ảnh hãng/NPP → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Chữ mặt trước khớp ảnh thật (CRAZY SCIENTIST CHEW CANDY, STRAWBERRY FLAVOR, CHEWY NUGGETS); không có số khối lượng (mặt trước không in). Tem nắp hình quả dâu là AI suy ra theo lọ nho (ảnh thật không thấy nắp lọ dâu); mặt nhân vật hơi khác ảnh thật; chữ nhỏ mép phải nhãn không đọc được",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh nhân viên chụp tay cầm lọ dâu (ảnh KiotViet hiện có) + ảnh lọ vị nho cùng dòng (chỉ làm mẫu dáng lọ)",
+      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/05/11/tram8/fa2cde0be511474194d46a9b6922c248.jpeg"
+    },
+    "rubricVersion": "v17"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; không có trang hãng — mô tả ngắn chỉ từ tên SP và chữ in mặt trước bao bì (ảnh hiện tại)",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:19:58.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "image NEEDS_PHOTO, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T04:34:27Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T04:34:42.718Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T05:23:58.238Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T04:34:42.718Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T04:36:49.527Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T04:36:49.527Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/1dbaa72aecb719fe90e63472022ac9141eb7b778a23a7fe513d8208323b0dcff.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/05/11/tram8/fa2cde0be511474194d46a9b6922c248.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Kẹo nhai Crazy Scientist Chew Candy hương dâu (Strawberry flavor), đựng trong lọ nhựa hình bình thí nghiệm.\n\nQuy cách: 80 g · lọ",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

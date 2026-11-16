@@ -1,0 +1,138 @@
+{
+  "kiotProductId": "64865258",
+  "code": "6934299832773",
+  "barcode": "6934299832773",
+  "name": "Nước uống ĐÀO hạt chia nhãn hiệu XINHUYUAN 450ml",
+  "fullName": "Nước uống ĐÀO hạt chia nhãn hiệu XINHUYUAN 450ml (Ly)",
+  "brand": "Hàng nội địa Trung",
+  "unit": "Ly",
+  "category": {
+    "kiotCategoryId": "2549375",
+    "name": "Nước trái cây / ép",
+    "path": "Đồ uống đóng chai > Nước trái cây / ép"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/7f0547c2ec9911c89afd7a12262fd32c187352843360a60b43ae6e01d17c9d58.webp",
+    "description": "Nước uống trái cây vị đào có hạt chia và thịt quả, thương hiệu Xinhuyuan, chai nắp vặn tiện mang theo.\n\nQuy cách: 450 ml · cốc\nThương hiệu: Xinhuyuan",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "Rà ảnh mờ 19/10: ảnh vẽ cũ mờ, mềm như ảnh chụp phóng to → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt nội dung",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-19",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh hiện tại + ảnh KiotViet (chai thật)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết ngắn từ chữ in trên nhãn (hạt chia, 450 毫升) và tên SP",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:32:10.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "batch b09 review: image CROP, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-15T09:16:17Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "tone.py --vivid: white balance/levels + brand-like colour (owner request)"
+    },
+    {
+      "at": "2026-10-17T14:21:44Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T14:27:22.223Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T03:59:37Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references — owner 19/10: replace blurry/upscaled/jagged or wrinkled-photo images with crisp flat renders"
+    },
+    {
+      "at": "2026-10-19T04:01:05.286Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T07:23:08.254Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T17:15:09.663Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-19T04:01:05.286Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T05:19:15.370Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T05:19:15.370Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/7f0547c2ec9911c89afd7a12262fd32c187352843360a60b43ae6e01d17c9d58.webp"
+        ],
+        "from": [
+          "https://img.tram8.vn/products/118c0e9ed1fd722dd3beced14b33af9876707d7849f81cb27353dfff25589207.webp"
+        ]
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

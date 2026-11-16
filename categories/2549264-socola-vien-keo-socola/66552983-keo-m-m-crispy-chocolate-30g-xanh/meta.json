@@ -1,0 +1,132 @@
+{
+  "kiotProductId": "66552983",
+  "code": "9300682016278",
+  "barcode": "9300682016278",
+  "name": "Kẹo SôCôLa M&M's Crispy 30g",
+  "fullName": "Kẹo SôCôLa M&M's Crispy 30g (Gói)",
+  "brand": "M&M's",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2549264",
+    "name": "Socola viên / kẹo socola",
+    "path": "Đồ ăn vặt > Chocolate > Socola viên / kẹo socola"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/47a9983887bf62da38fa393582090041c4eb2325500eee5ed1a448214724576a.webp",
+    "description": "Kẹo M&M's Crispy: nhân giòn bọc sô cô la sữa, phủ lớp vỏ giòn mỏng nhiều màu. Gói nhỏ tiện mang theo.\n\nQuy cách: 30 g · gói\nNhà sản xuất/thương hiệu: Mars · M&M's",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "ảnh tự chụp (mềm, nhăn/bóng lóa); không có ảnh hãng nguyên gói dùng được → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt ở chữ lớn và khối lượng",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet hiện có (ảnh tự chụp)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; mô tả ngắn từ chữ in trên gói (crispy, net wt 30 g)",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:05:53.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "b26: image CROP, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-15T02:53:40.222Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-15T09:16:17Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "tone.py --vivid: white balance/levels + brand-like colour (owner request)"
+    },
+    {
+      "at": "2026-10-15T09:18:30.260Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-16T01:38:49.852Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-17T14:25:57Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T14:27:02.818Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T14:27:02.818Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T16:51:29.365Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T16:51:29.365Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/47a9983887bf62da38fa393582090041c4eb2325500eee5ed1a448214724576a.webp"
+        ],
+        "from": [
+          "https://img.tram8.vn/products/cae351fedd0d7c2b71ba34a0ecf4a3f552382ccae2cb883605324a8c58de4c44.webp"
+        ]
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

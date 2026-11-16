@@ -1,0 +1,113 @@
+{
+  "kiotProductId": "67139237",
+  "code": "8934588923555",
+  "barcode": "8934588923555",
+  "name": "Tea + Trà Ô Long Chanh Yuzu Chai Nhựa 450ml",
+  "fullName": "Tea + Trà Ô Long Chanh Yuzu Chai Nhựa 450ml (Chai)",
+  "brand": "Tea+",
+  "unit": "Chai",
+  "category": {
+    "kiotCategoryId": "2549372",
+    "name": "Trà đóng chai",
+    "path": "Đồ uống đóng chai > Trà đóng chai"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/28bc0643cab893609bdbe6b00e21d20370acff2d7c6b8206046b0a849261d340.webp",
+    "description": "Trà Ô Long TEA+ Plus Chanh Yuzu của Suntory PepsiCo, nền trà ô long thanh mát theo công thức Suntory (Nhật Bản), kết hợp vị chanh yuzu. Ngon hơn khi uống lạnh.\n\nQuy cách: 450 ml · chai\nNhà sản xuất/thương hiệu: Suntory PepsiCo Việt Nam · TEA+ Plus",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I3/I4/I5: ảnh chụp cận nhãn, bị cắt; trang Suntory PepsiCo không có vị chanh yuzu → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: nhãn vẽ theo bản 1 L thu về dáng chai 450 ml; dòng thể tích để chữ nhỏ không đọc được (chưa đối chiếu được trên nhãn 450 ml thật); nhãn ghi 'TRÀ CHANH-YUZU', tên KiotViet ghi 'Trà Ô Long Chanh Yuzu'",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh BHX lốc 3 chai TEA+ Chanh-Yuzu 1 L (chỉ làm mẫu nhãn) + ảnh hãng chai TEA+ 450 ml (dáng chai) + ảnh KiotViet cận nhãn",
+      "referenceUrl": "https://www.bachhoaxanh.com/nuoc-tra/3-chai-tra-chanh-tea-plus-yuzu-1-lit"
+    },
+    "rubricVersion": "v17"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết ngắn từ tên SP và chữ in trên chai",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:31:48.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "review b08: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T05:19:52Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T05:20:31.274Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T05:52:57.796Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T05:20:31.274Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T05:28:17.207Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T05:28:17.207Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/28bc0643cab893609bdbe6b00e21d20370acff2d7c6b8206046b0a849261d340.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/18/tram8/e2be052a5224499d901156761b8a180e.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Trà Ô Long TEA+ Plus Chanh Yuzu của Suntory PepsiCo, nền trà ô long thanh mát theo công thức Suntory (Nhật Bản), kết hợp vị chanh yuzu. Ngon hơn khi uống lạnh.\n\nQuy cách: 450 ml · chai\nNhà sản xuất/thương hiệu: Suntory PepsiCo Việt Nam · TEA+ Plus",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "kiotProductId": "64865666",
+  "code": "8993175553582",
+  "barcode": "8993175553582",
+  "name": "BÁNH QUY NHÂN PHÔ MAI - NABATI RICHOCO COOKIES 112G",
+  "fullName": "BÁNH QUY NHÂN PHÔ MAI - NABATI RICHOCO COOKIES 112G (Thanh)",
+  "brand": "Nabati",
+  "unit": "Thanh",
+  "category": {
+    "kiotCategoryId": "2549066",
+    "name": "Bánh quy kem / kẹp kem",
+    "path": "Bánh quy & bánh đóng gói > Bánh quy kem / kẹp kem"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/db0a1014f79314ae87b6c7743ab8c4c79229b9c8fa10e2aaa296f0d4ae9cc66d.webp",
+    "description": "Bánh quy Nabati nhân kem phô mai, bánh quy ca cao kẹp nhân kem vị phô mai, dạng thanh.\n\nQuy cách: 112 g · thanh\nThương hiệu: Nabati",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I3, I4: ảnh chụp điện thoại cầm tay, nền không trắng; trang Nabati không có dòng Richoco/Richeese Cookies → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: giữ băng 'EXTRA 20%' vì cả ảnh mẫu lẫn ảnh cửa hàng đều có (có thể là bản khuyến mãi, RUBRIC v17 — chủ xem có chấp nhận không); chữ nhỏ để mờ; xoay lại đúng chiều (chủ 19/10)",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh Open Food Facts (chỉ làm mẫu, đã bỏ tem giá RM 3.30) + ảnh KiotViet",
+      "referenceUrl": "https://world.openfoodfacts.org/product/8993175553582"
+    },
+    "rubricVersion": "v17"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết ngắn chỉ từ tên SP (vị, 112 g)",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:46:45.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "b13: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T05:15:45Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T05:16:06.072Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T05:23:58.238Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-19T03:58:40.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "rotated to reading orientation"
+    },
+    {
+      "at": "2026-10-19T03:58:56.447Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T07:23:08.254Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T17:15:09.663Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-19T03:58:56.447Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T05:16:36.933Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T05:16:36.933Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/db0a1014f79314ae87b6c7743ab8c4c79229b9c8fa10e2aaa296f0d4ae9cc66d.webp"
+        ],
+        "from": [
+          "https://img.tram8.vn/products/0a8568b9c384ac8cbd43070724b597960e0572260f0c27dec8ccf4ba7e04cbd4.webp"
+        ]
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

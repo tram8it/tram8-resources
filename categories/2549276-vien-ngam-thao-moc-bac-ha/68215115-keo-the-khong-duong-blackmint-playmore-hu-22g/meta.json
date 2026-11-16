@@ -1,0 +1,124 @@
+{
+  "kiotProductId": "68215115",
+  "code": "8859578603258",
+  "barcode": "8859578603258",
+  "name": "Kẹo The Không Đường Blackmint Playmore Hũ 22g",
+  "fullName": "Kẹo The Không Đường Blackmint Playmore Hũ 22g (Lọ)",
+  "brand": "Playmore",
+  "unit": "Lọ",
+  "category": {
+    "kiotCategoryId": "2549276",
+    "name": "Viên ngậm thảo mộc / bạc hà",
+    "path": "Các loại kẹo > Viên ngậm thảo mộc / bạc hà"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/d58b1e51b2b51da42671c4dde5b4f3e37c691e97ef3d83ad26bc12361b223557.webp",
+    "description": "Kẹo the không đường Playmore Black Mint, vị bạc hà the mát, đựng trong hũ nhỏ nắp vặn.\n\nQuy cách: 22 g · lọ\nNhà sản xuất/thương hiệu: Playmore",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I3/I4: ảnh chụp lẫn hộp hàng khác, nền lộn xộn; trang hãng không có ảnh → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ Thái nhỏ trên bảng dinh dưỡng và dòng chữ Thái dưới đáy vẽ lại gần đúng, có thể sai ký tự; số dinh dưỡng 0/0/0 và 0% khớp ảnh mẫu",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet nhân viên chụp (hũ Playmore Black Mint 22g)"
+    },
+    "rubricVersion": "v17"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; không có trang hãng — mô tả ngắn chỉ từ tên SP và chữ in mặt trước bao bì (ảnh hiện tại)",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:19:58.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "image NEEDS_PHOTO, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T04:43:17Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 3, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T04:43:48.929Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T05:23:58.238Z",
+      "by": "owner",
+      "status": "READY",
+      "note": "apply failed on Hub: fetch failed"
+    },
+    {
+      "at": "2026-10-17T17:48:08.067Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-18T17:16:08.691Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T03:19:05.400Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T17:48:08.067Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-18T17:10:08.906Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-18T17:10:08.906Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/d58b1e51b2b51da42671c4dde5b4f3e37c691e97ef3d83ad26bc12361b223557.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/09/23/tram8/0f360b772c704a39b0aa9406788bc983.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Kẹo the không đường Playmore Black Mint, vị bạc hà the mát, đựng trong hũ nhỏ nắp vặn.\n\nQuy cách: 22 g · lọ\nNhà sản xuất/thương hiệu: Playmore",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

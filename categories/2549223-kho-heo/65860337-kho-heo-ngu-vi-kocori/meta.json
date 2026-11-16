@@ -1,0 +1,133 @@
+{
+  "kiotProductId": "65860337",
+  "code": "8938520099865",
+  "barcode": "8938520099865",
+  "name": "Khô heo ngũ vị kocori",
+  "fullName": "Khô heo ngũ vị kocori (Gói)",
+  "brand": "Kocori",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2549223",
+    "name": "Khô heo",
+    "path": "Đồ ăn vặt > Thịt khô và chân gà > Khô heo"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/d7b334083ec3713227bc14ddf92ec1e4a4a15119c9db20803493e4a1f2a68fa2.webp",
+    "description": "Khô heo cháy tỏi vị ngũ vị của Kocori Naturals, sợi thịt heo sấy giòn kết hợp tỏi phi, ăn liền.\n\nQuy cách: 40 g · gói zip\nXuất xứ: Việt Nam · Thương hiệu: Kocori Naturals",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I3/I4: ảnh tự chụp túi nhăn, bóng; không có ảnh hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: khối lượng theo gói đang bán ở cửa hàng 40 g (ảnh Kingfoodmart in 50 g); không có lỗ treo trên đỉnh túi; tem tròn nhỏ không đọc được",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh Kingfoodmart (chỉ làm mẫu) + ảnh KiotViet",
+      "referenceUrl": "https://storage.googleapis.com/onelife-public/8938520099865.jpg"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết từ chữ in mặt trước bao bì (không có trang hãng)",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:49:09.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "b21: image CROP, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-15T02:53:00.364Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-15T09:16:17Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "tone.py --vivid: white balance/levels + brand-like colour (owner request)"
+    },
+    {
+      "at": "2026-10-15T09:19:03.624Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-16T01:38:49.852Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-17T15:12:56Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T15:13:08.241Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T15:13:08.241Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T16:57:38.262Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T16:57:38.262Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/d7b334083ec3713227bc14ddf92ec1e4a4a15119c9db20803493e4a1f2a68fa2.webp"
+        ],
+        "from": [
+          "https://img.tram8.vn/products/2c1bd50e38c5af3a5af8a5f97fd3db2b969839dc3c5718163cc6b4f3794dbe1a.webp"
+        ]
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

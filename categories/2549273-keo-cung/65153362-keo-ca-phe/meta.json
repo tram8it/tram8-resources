@@ -1,0 +1,113 @@
+{
+  "kiotProductId": "65153362",
+  "code": "8936202668415",
+  "barcode": "8936202668415",
+  "name": "Kẹo cà phê",
+  "fullName": "Kẹo cà phê (Gói)",
+  "brand": "Phương Huyền",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2549273",
+    "name": "Kẹo cứng",
+    "path": "Các loại kẹo > Kẹo cứng"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/b6721080789d157158ccc5e1ab9655ccf9b3718dc815b153f05dce9187750029.webp",
+    "description": "Kẹo cà phê Premium Coffee Candy, viên kẹo cà phê gói riêng trong túi lớn.\n\nQuy cách: túi",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I5/I9: ảnh tách nền lỗi, mép dưới có mảng đen; không rõ trang hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Vẽ lại mép đáy gói; khung nhãn trắng phía dưới chỉ còn vạch xám thay cho chữ nhỏ (không bịa thành phần/dinh dưỡng), mã vạch không có số",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (tách nền lỗi)",
+      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/07/30/tram8/cb047c0a773747ddbf48f7bebecb6a5d.png"
+    },
+    "rubricVersion": "v17"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; không có trang hãng — mô tả ngắn chỉ từ tên SP và chữ in mặt trước bao bì (ảnh hiện tại)",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T22:00:00.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "batch b14 review (rubric v4): image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T05:35:11Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 3, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T05:36:17.551Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T08:06:02.482Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T05:36:17.551Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T07:12:02.235Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T07:12:02.235Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/b6721080789d157158ccc5e1ab9655ccf9b3718dc815b153f05dce9187750029.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/30/tram8/cb047c0a773747ddbf48f7bebecb6a5d.png"
+        ]
+      },
+      "description": {
+        "to": "Kẹo cà phê Premium Coffee Candy, viên kẹo cà phê gói riêng trong túi lớn.\n\nQuy cách: túi",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

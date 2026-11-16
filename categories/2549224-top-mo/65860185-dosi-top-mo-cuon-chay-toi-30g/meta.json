@@ -1,0 +1,113 @@
+{
+  "kiotProductId": "65860185",
+  "code": "8936218560239",
+  "barcode": "8936218560239",
+  "name": "Dosi tóp mỡ cuộn cháy tỏi 30g",
+  "fullName": "Dosi tóp mỡ cuộn cháy tỏi 30g (Gói)",
+  "brand": "Dosi",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2549224",
+    "name": "Tóp mỡ",
+    "path": "Đồ ăn vặt > Thịt khô và chân gà > Tóp mỡ"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/8caa26450af05074291bdd3697626a54e5c6353d6c61c249b0d2e5cf5f7496c3.webp",
+    "description": "Tóp mỡ cuộn cháy tỏi DOSI (Garlic Fried Pork Fat): tóp mỡ cuộn chiên giòn với tỏi phi, đóng túi zip nhỏ tiện ăn vặt, nhắm cùng bạn bè.\n\nQuy cách: 30 g · gói\nNhà sản xuất/thương hiệu: DOSI",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I3/I4/I5: ảnh chụp điện thoại gói trên bàn, nền tối, gói chạm khung; không có trang hãng Dosi → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: dòng khối lượng đặt theo ảnh KiotViet ('KHỐI LƯỢNG TỊNH: 30g' góc trái dưới); chi tiết hình miếng tóp mỡ vẽ lại",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh Kingfoodmart theo mã vạch (chỉ làm mẫu) + ảnh KiotViet",
+      "referenceUrl": "https://storage.googleapis.com/onelife-public/8936218560239.jpg"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; mô tả ngắn từ chữ in mặt trước gói (không có trang hãng)",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:27:04.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "b30: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T08:11:54Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T08:11:59.016Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T08:11:59.016Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T08:34:12.755Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T08:34:12.755Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/8caa26450af05074291bdd3697626a54e5c6353d6c61c249b0d2e5cf5f7496c3.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/05/20/tram8/5aeb90a209914f6fb0c39b905d8d5083.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Tóp mỡ cuộn cháy tỏi DOSI (Garlic Fried Pork Fat): tóp mỡ cuộn chiên giòn với tỏi phi, đóng túi zip nhỏ tiện ăn vặt, nhắm cùng bạn bè.\n\nQuy cách: 30 g · gói\nNhà sản xuất/thương hiệu: DOSI",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

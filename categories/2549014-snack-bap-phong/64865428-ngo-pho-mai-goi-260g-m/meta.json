@@ -1,0 +1,113 @@
+{
+  "kiotProductId": "64865428",
+  "code": "8936202660815",
+  "barcode": "8936202660815",
+  "name": "Ngô Phô Mai Gói 260g M",
+  "fullName": "Ngô Phô Mai Gói 260g M (Gói)",
+  "brand": "Phương Huyền",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2549014",
+    "name": "Snack bắp & phồng",
+    "path": "Đồ ăn vặt > Snacks > Snack bắp & phồng"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/b3513cdaf8cc1544cf30b54523f60cb68981810633ce14e35a3cab3c966521b8.webp",
+    "description": "Ngô (bắp) sấy giòn lắc phô mai, hạt ngô giòn thơm phủ vị phô mai, ăn liền như món ăn vặt.\n\nQuy cách: 260 g · túi\nNhà sản xuất/thương hiệu: Phương Huyền Food",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I3/I4/I6: ảnh tay cầm, nền cửa hàng, cạnh ngắn 270px, mờ; hàng địa phương (Phương Huyền Food), trang hãng phuonghuyenfood.com không truy cập được, không có ảnh trên web → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Chữ lớn 'NGÔ GIÒN' / 'Lắc Phomai', logo đỏ, hình phô mai, bát ngô, huy chương giữ như ảnh gốc; chữ nhỏ (thành phần, tên/địa chỉ công ty, số mã vạch, ô đen góc phải) cố ý làm mờ không đọc được; bỏ logo tròn xanh nhỏ cạnh mã vạch; khối lượng không đọc được trên ảnh gốc nên ảnh không in khối lượng (chưa kiểm được nhãn có ghi 260g); ảnh gốc quá mờ nên chi tiết bố cục nhãn có thể khác nhẹ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (tay cầm, 270px, mờ) — không tìm được ảnh hãng/NPP/nhà bán lẻ trên web",
+      "referenceUrl": "https://cdn1-retail-images.kiotviet.vn/2026/01/23/tongpenhchtl/f7a61e8b994b4d86a1a7061d49c4d0e0.jpeg"
+    },
+    "rubricVersion": "v17"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết ngắn từ tên hàng (260 g) và chữ in trên nhãn (Ngô giòn lắc phomai)",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:23:35.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "image needs staff photo, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T04:03:45Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 3, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T04:03:52.235Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T05:23:58.238Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T04:03:52.235Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T04:05:35.050Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T04:05:35.050Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/b3513cdaf8cc1544cf30b54523f60cb68981810633ce14e35a3cab3c966521b8.webp"
+        ],
+        "from": [
+          "https://cdn1-retail-images.kiotviet.vn/2026/01/23/tongpenhchtl/f7a61e8b994b4d86a1a7061d49c4d0e0.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Ngô (bắp) sấy giòn lắc phô mai, hạt ngô giòn thơm phủ vị phô mai, ăn liền như món ăn vặt.\n\nQuy cách: 260 g · túi\nNhà sản xuất/thương hiệu: Phương Huyền Food",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

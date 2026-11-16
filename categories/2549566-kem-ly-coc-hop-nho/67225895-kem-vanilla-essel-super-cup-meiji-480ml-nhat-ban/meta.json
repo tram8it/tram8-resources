@@ -1,0 +1,139 @@
+{
+  "kiotProductId": "67225895",
+  "code": "4902705080010",
+  "barcode": "4902705080010",
+  "name": "Kem vanilla essel Super cup Meiji 480ml Nhật Bản",
+  "fullName": "Kem vanilla essel Super cup Meiji 480ml Nhật Bản (Ly)",
+  "brand": "Meiji",
+  "unit": "Ly",
+  "category": {
+    "kiotCategoryId": "2549566",
+    "name": "Kem ly / cốc / hộp nhỏ",
+    "path": "Kem & Đồ đông lạnh > Kem ly / cốc / hộp nhỏ"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/17c189737e246e43d0949c071f241a365ae614f5827d281be81bef3b243ea4e5.webp",
+    "description": "Kem vani Meiji Essel Super Cup Mini \"Chou Vanilla\" (超バニラ) – ly kem nhỏ vị vani đậm của Meiji Nhật Bản.\n\nQuy cách: bán lẻ 1 ly mini 80 ml (tách từ hộp 6 ly × 80 ml = 480 ml) · loại lacto ice (ラクトアイス)\nThành phần: sản phẩm sữa, dầu thực vật, đường, mạch nha, lòng đỏ trứng, muối; hương liệu, màu annatto.\nDị ứng: có trứng, sữa.\nNăng lượng: 150 kcal/ly 80 ml.\nXuất xứ: Nhật Bản · Nhà sản xuất: Meiji Co., Ltd.\nBảo quản: đông lạnh ở −18 °C trở xuống.",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "Chủ: không giống SP trong ảnh → vẽ lại ly mini thấp, nắp giấy bạc vàng như ảnh KiotViet → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt; bỏ mã lô in trên thân ly",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-18",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet 1 ly mini (chỉ làm mẫu)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "chưa có mô tả; viết ngắn từ dữ kiện in trên bao bì/trang SP, ghi đơn vị bán lẻ theo KiotViet (v19)",
+    "source": {
+      "url": "https://www.meiji.co.jp/products/icecream/4902705080010.html",
+      "fetchedAt": "2026-10-17T09:10:24Z"
+    },
+    "rubricVersion": "v19"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:40:09.000Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "asked owner: 480ml vs single mini cup"
+    },
+    {
+      "at": "2026-10-17T09:10:03Z",
+      "by": "owner",
+      "status": "ASK_OWNER",
+      "note": "Chủ trả lời (17/10/2026, RUBRIC v19): tin đơn vị KiotViet 'Ly': bán lẻ 1 ly mini 80 ml; tên giữ '480ml' (hộp 6 ly × 80 ml) cho khớp HĐĐT."
+    },
+    {
+      "at": "2026-10-17T09:10:03Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T09:11:09.677Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "IN_PROGRESS",
+      "note": "rejected on Hub by AU KHUONG DUY: Ko giống sp trong ảnh lắm"
+    },
+    {
+      "at": "2026-10-18T11:35:40Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "redo after Hub rejection: Ko giống sp trong ảnh lắm — Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-18T11:35:40.890Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-18T17:16:08.691Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T03:19:05.400Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-18T11:35:40.890Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-18T17:11:58.418Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-18T17:11:58.418Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/17c189737e246e43d0949c071f241a365ae614f5827d281be81bef3b243ea4e5.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/24/tram8/9c64f6310348438fb0ffd569fc5c436a.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Kem vani Meiji Essel Super Cup Mini \"Chou Vanilla\" (超バニラ) – ly kem nhỏ vị vani đậm của Meiji Nhật Bản.\n\nQuy cách: bán lẻ 1 ly mini 80 ml (tách từ hộp 6 ly × 80 ml = 480 ml) · loại lacto ice (ラクトアイス)\nThành phần: sản phẩm sữa, dầu thực vật, đường, mạch nha, lòng đỏ trứng, muối; hương liệu, màu annatto.\nDị ứng: có trứng, sữa.\nNăng lượng: 150 kcal/ly 80 ml.\nXuất xứ: Nhật Bản · Nhà sản xuất: Meiji Co., Ltd.\nBảo quản: đông lạnh ở −18 °C trở xuống.",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

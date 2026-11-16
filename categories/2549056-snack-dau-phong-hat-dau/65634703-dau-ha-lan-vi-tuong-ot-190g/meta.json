@@ -1,0 +1,150 @@
+{
+  "kiotProductId": "65634703",
+  "code": "8938503403030",
+  "barcode": "8938503403030",
+  "name": "Đậu Hà Lan vị tương ớt 190g",
+  "fullName": "Đậu Hà Lan vị tương ớt 190g (Hộp)",
+  "brand": "Snack House",
+  "unit": "Hộp",
+  "category": {
+    "kiotCategoryId": "2549056",
+    "name": "Snack đậu phộng / hạt‑đậu",
+    "path": "Đồ ăn vặt > Snacks > Snack đậu phộng / hạt‑đậu"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/a50d34e20c40c8dadea5314dfa8ecf7091fdd56e4933db11bcb2e6ce6b673526.webp",
+    "description": "Đậu Hà Lan vị tương ớt Sriracha GOODY! (Thai Sriracha) của Snack House: hạt đậu Hà Lan bọc lớp vỏ giòn (Crunchy Coated) vị tương ớt, đựng trong hũ.\n\nQuy cách: 180 g · hộp\nThương hiệu: Snack House GOODY!",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "Đồng bộ dòng SP (chủ 20/10): kiểu ảnh theo 66998653 → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: nắp vàng sạch như hũ cùng dòng; khối lượng 180g theo bao bì (tên KiotViet 190g)",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-19",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh hiện tại/KiotViet của SP (nội dung) + ảnh đã duyệt của SP cùng dòng 66998653 (kiểu, góc, khung)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết ngắn từ chữ in mặt trước hũ (180 g theo nhãn, tên KiotViet ghi 190g — chủ 17/10: theo bao bì)",
+    "source": null,
+    "rubricVersion": "v19"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:14:56.000Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "asked owner: net weight 180g (label) vs 190g (name)"
+    },
+    {
+      "at": "2026-10-17T08:45:00Z",
+      "by": "owner",
+      "note": "RUBRIC v19: khối lượng tin bao bì đúng mã vạch hơn tên KiotViet; chỉ hỏi khi lệch > ~10% hoặc rõ là cỡ khác",
+      "status": "ASK_OWNER"
+    },
+    {
+      "at": "2026-10-17T09:30:00Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "image KEEP; description WRITE_NEW from pack text (weight per pack, RUBRIC v19)"
+    },
+    {
+      "at": "2026-10-17T08:59:40.237Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description"
+    },
+    {
+      "at": "2026-10-17T14:18:31Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T14:18:54.092Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T18:53:24Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "line consistency 20/10: dull scuffed cap -> clean bright cap like the GOODY wasabi jar — Gemini API redraw (attempt 4, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-19T18:53:58.810Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-20T03:28:53.537Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-26T04:58:33.990Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-19T18:53:58.810Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-20T03:25:35.731Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-20T03:25:35.731Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/a50d34e20c40c8dadea5314dfa8ecf7091fdd56e4933db11bcb2e6ce6b673526.webp"
+        ],
+        "from": [
+          "https://img.tram8.vn/products/047c49de74d4efe81492f0e443caeac682e2b8ef7656d66e5563797bb79c3136.webp"
+        ]
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

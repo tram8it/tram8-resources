@@ -1,0 +1,133 @@
+{
+  "kiotProductId": "65267300",
+  "code": "8934841900286",
+  "barcode": "8934841900286",
+  "name": "SUA CHUA LEN MEN TN YOMOST CAM",
+  "fullName": "SUA CHUA LEN MEN TN YOMOST CAM (Hộp)",
+  "brand": "Yomost",
+  "unit": "Hộp",
+  "category": {
+    "kiotCategoryId": "2547911",
+    "name": "Sữa chua uống",
+    "path": "Sữa và các sản phẩm từ sữa > Sữa chua > Sữa chua uống"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/468e8aaee56b219dc2068c614ec8583a8925162272d0d8c786d67688e57af0bd.webp",
+    "description": "Sữa chua lên men tự nhiên Yomost hương cam của FrieslandCampina, dạng hộp giấy có ống hút.\n\nQuy cách: hộp\nNhà sản xuất/thương hiệu: FrieslandCampina Việt Nam · Yomost",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I3/I4/I8: ảnh chụp điện thoại tay cầm lốc 4 hộp; không truy cập được trang hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: vẽ 1 hộp đứng; '94 Kcal', '4%', 'Trong 170 ml', 'Thể tích thực: 170 ml' khớp ảnh thật; chữ nhỏ còn lại để mờ. Kingfoodmart có ảnh cùng mã vạch bản chữ tiếng Anh 'ORANGE FLAVOR' không có huy hiệu Yo! — đã theo bản tiếng Việt trong ảnh cửa hàng | line consistency 20/10: thu hẹp chiều ngang hộp ×0,87 cho đúng tỉ lệ hộp 170 ml như vị bạc hà việt quất",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (lốc 4 hộp chụp tay) + ảnh Kingfoodmart hộp Yomost bạc hà việt quất cùng dòng (chỉ làm mẫu bố cục)",
+      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/04/28/tram8/3f2d7a0ea455448fb942f159cd5d035b.jpeg"
+    },
+    "rubricVersion": "v23"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết ngắn chỉ từ tên SP và chữ in mặt trước bao bì (không có trang hãng)",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:36:29.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "b10 review: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T05:16:25Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T05:16:35.058Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T05:23:58.238Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-20T16:36:35Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "line consistency 20/10: carton ~15% wider than sibling 170 ml carton -> rescaled width x0.87 (PIL + make_image)"
+    },
+    {
+      "at": "2026-10-20T16:41:33.173Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-21T08:30:34.700Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-26T04:58:33.990Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-20T16:41:33.173Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-20T16:44:49.556Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-20T16:44:49.556Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/468e8aaee56b219dc2068c614ec8583a8925162272d0d8c786d67688e57af0bd.webp"
+        ],
+        "from": [
+          "https://img.tram8.vn/products/5e6eb6fe3402b4473826489aa8139e5771e59e1aea17e78a01a79bb85f68eabb.webp"
+        ]
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

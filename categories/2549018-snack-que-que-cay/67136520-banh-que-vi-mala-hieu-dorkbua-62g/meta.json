@@ -1,0 +1,113 @@
+{
+  "kiotProductId": "67136520",
+  "code": "8850157527989",
+  "barcode": "8850157527989",
+  "name": "Bánh Que Vị Mala Hiệu Dorkbua 62g",
+  "fullName": "Bánh Que Vị Mala Hiệu Dorkbua 62g (Gói)",
+  "brand": "Dorkbua",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2549018",
+    "name": "Snack que / que cay",
+    "path": "Đồ ăn vặt > Snacks > Snack que / que cay"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/56da9955ca059053bd136438e890261b68eec3e7be0221222e1015b07efef363.webp",
+    "description": "Bánh que Lotus của Dorkbua vị Mala (cay tê), que bánh quy giòn kiểu Thái.\n\nQuy cách: 62 g · gói\nNhà sản xuất/thương hiệu: Dorkbua (Lotus)",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I3/I4: ảnh tay cầm trên kệ, nhiều gói, có tem giá; trang hãng chỉ có ảnh bản 110 g → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Khối lượng sửa thành 62 g theo gói thật (ảnh hãng là 110 g); bảng dinh dưỡng GDA và chữ nhỏ cố ý làm mờ (Gemini bịa số); nhãn tiếng Nhật nhỏ dưới 'ขาไก่' dòng dưới bị méo (gốc '麻辣味'), không đọc được ở cỡ web; mã số nhỏ '74-2-04859-6-0140' khác ảnh hãng ('04659'); không có mã lô MFG/BBF",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh packshot chính hãng SNNP/Dorkbua bản 110 g (snnp.co.th, chỉ làm mẫu) + ảnh KiotViet gói 62 g",
+      "referenceUrl": "https://www.snnp.co.th/products/LOTUS"
+    },
+    "rubricVersion": "v17"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; mô tả ngắn chỉ từ tên hàng và chữ in mặt trước bao bì",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:21:20.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "b07 review: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T04:53:18Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T04:53:38.647Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T05:23:58.238Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T04:53:38.647Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T05:01:58.073Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T05:01:58.073Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/56da9955ca059053bd136438e890261b68eec3e7be0221222e1015b07efef363.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/18/tram8/7f10372e2e134b7d87e30b7b72a22c9b.png"
+        ]
+      },
+      "description": {
+        "to": "Bánh que Lotus của Dorkbua vị Mala (cay tê), que bánh quy giòn kiểu Thái.\n\nQuy cách: 62 g · gói\nNhà sản xuất/thương hiệu: Dorkbua (Lotus)",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

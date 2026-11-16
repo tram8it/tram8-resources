@@ -1,0 +1,113 @@
+{
+  "kiotProductId": "65162149",
+  "code": "8936114080961",
+  "barcode": "8936114080961",
+  "name": "Kẹo Coolair",
+  "fullName": "Kẹo Coolair (Hộp)",
+  "brand": "Cool Air",
+  "unit": "Hộp",
+  "category": {
+    "kiotCategoryId": "2549272",
+    "name": "Kẹo cao su / singum",
+    "path": "Các loại kẹo > Kẹo cao su / singum"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/b9522dfd1f7e7834a65f87c8c6a75383d48a53500b0c23435b16eb170a249d66.webp",
+    "description": "Kẹo sing-gum Wrigley's Cool Air đóng hũ.\n\nQuy cách: hộp\nNhà sản xuất/thương hiệu: Wrigley's · Cool Air",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I3/I4/I8: ảnh chụp tay cầm, nhiều SP phía sau; không có ảnh hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: nhãn tím vẽ phẳng, ít ánh kim hơn gói thật; chữ nhỏ 'Hình ảnh mang tính minh họa cho hương vị' bị cắt mép như gói thật. Hãng đã có bao bì hũ mới 55,4 g cho bạc hà/Doublemint; chưa thấy bản mới của vị quả mọng nên vẽ theo bao bì 58,4 g cửa hàng đang có",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh Open Food Facts cùng mã vạch 8936114080961 (chỉ làm mẫu) + ảnh KiotViet",
+      "referenceUrl": "https://world.openfoodfacts.org/product/8936114080961"
+    },
+    "rubricVersion": "v17"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết ngắn chỉ từ tên SP (không có nguồn hãng; không ghi vị/khối lượng vì tên không nói rõ)",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:31:48.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "review b08: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T04:54:43Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T04:54:52.099Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T05:23:58.238Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T04:54:52.099Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T05:02:04.530Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T05:02:04.530Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/b9522dfd1f7e7834a65f87c8c6a75383d48a53500b0c23435b16eb170a249d66.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/04/24/tram8/5e1daf79dba84d8ca0f2a92957e4638c.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Kẹo sing-gum Wrigley's Cool Air đóng hũ.\n\nQuy cách: hộp\nNhà sản xuất/thương hiệu: Wrigley's · Cool Air",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

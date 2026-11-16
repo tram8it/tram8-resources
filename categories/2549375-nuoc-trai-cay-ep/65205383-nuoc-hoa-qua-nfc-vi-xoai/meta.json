@@ -1,0 +1,118 @@
+{
+  "kiotProductId": "65205383",
+  "code": "6971897662159",
+  "barcode": "6971897662159",
+  "name": "Nước hoa quả NFC vị xoài",
+  "fullName": "Nước hoa quả NFC vị xoài (Ly)",
+  "brand": "NFC",
+  "unit": "Ly",
+  "category": {
+    "kiotCategoryId": "2549375",
+    "name": "Nước trái cây / ép",
+    "path": "Đồ uống đóng chai > Nước trái cây / ép"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/ea14ba41dec3be053755b7bc08a991f79eb93c6223738b1e1936297634093977.webp",
+    "description": "Nước ép trái cây NFC vị xoài (Mango) đựng trong cốc nhựa có nắp, uống lạnh ngon hơn.\n\nQuy cách: cốc\nThương hiệu: NFC",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "ảnh tự chụp (mềm, nhăn/bóng lóa); không có ảnh hãng trong danh sách nguồn → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt ở chữ lớn; chữ nhỏ đã so với ảnh",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet hiện có (ảnh tự chụp)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết ngắn chỉ từ dữ kiện chắc chắn (tên SP, chữ in mặt trước bao bì), không có trang hãng/nhãn sau",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:32:10.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "batch b09 review: image CROP, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-15T09:16:17Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "tone.py --vivid: white balance/levels + brand-like colour (owner request)"
+    },
+    {
+      "at": "2026-10-17T14:21:45Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T14:27:33.614Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T14:27:33.614Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T16:56:13.977Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T16:56:13.977Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/ea14ba41dec3be053755b7bc08a991f79eb93c6223738b1e1936297634093977.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/30/tram8/97a5a50b4aee4013a1969fb963f9362d.png"
+        ]
+      },
+      "description": {
+        "to": "Nước ép trái cây NFC vị xoài (Mango) đựng trong cốc nhựa có nắp, uống lạnh ngon hơn.\n\nQuy cách: cốc\nThương hiệu: NFC",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

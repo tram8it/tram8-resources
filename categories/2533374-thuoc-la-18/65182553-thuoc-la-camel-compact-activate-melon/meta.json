@@ -1,0 +1,176 @@
+{
+  "kiotProductId": "65182553",
+  "code": "8936031837457",
+  "barcode": "8936031837457",
+  "name": "Thuốc lá Camel Compact Activate Melon",
+  "fullName": "Thuốc lá Camel Compact Activate Melon (Bao)",
+  "brand": "Camel",
+  "unit": "Bao",
+  "category": {
+    "kiotCategoryId": "2533374",
+    "name": "Thuốc lá (18+)",
+    "path": "Thuốc lá (18+)"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/e7fc751ceb839c2be38a09b631a69c862d9365f2cc0a69db64a2ce0592c433ea.webp",
+    "description": "Thuốc lá điếu đầu lọc Camel Compact Activate Melon, bao cứng màu xanh.\n\nQuy cách: bao\nThương hiệu: Camel · Nhà sản xuất: Công ty TNHH MTV Thuốc lá Thanh Hóa (Vinataba)\n\nChỉ bán cho người từ 18 tuổi trở lên.\nHút thuốc lá có hại cho sức khỏe.",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I6/I7: ảnh KiotViet nhỏ, tem điện tử che hình cảnh báo → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: bỏ tem điện tử; phần hình cảnh báo dưới tem vẽ theo hình cảnh báo chuẩn cùng mẫu; tia sáng hồng quanh viên nang vẽ đậm hơn gốc một chút",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet + ảnh iCheck Camel Black Tea (chỉ để lấy phần hình cảnh báo bị tem che)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; mô tả ngắn chỉ từ chữ in trên bao (khuôn _category.md); nhà sản xuất theo chủ mã vạch 8936031 trên iCheck; không ghi số điếu khi bao không in",
+    "source": {
+      "url": "https://icheck.vn/san-pham/8936031837457",
+      "fetchedAt": "2026-10-17"
+    },
+    "rubricVersion": "v18"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-17T08:54:54Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T08:55:17Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "description WRITE_NEW (tobacco template: facts printed on pack, 18+ and health lines)"
+    },
+    {
+      "at": "2026-10-17T08:56:31.746Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T08:56:31.746Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T09:06:14.563Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T09:06:14.563Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/e7fc751ceb839c2be38a09b631a69c862d9365f2cc0a69db64a2ce0592c433ea.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/27/tram8/517326f885ed45119674a120c23bf65a.png"
+        ]
+      },
+      "description": {
+        "to": "Thuốc lá điếu đầu lọc Camel Compact Activate Melon, bao cứng màu xanh.\n\nQuy cách: bao\nThương hiệu: Camel · Nhà sản xuất: Công ty TNHH MTV Thuốc lá Thanh Hóa (Vinataba)\n\nChỉ bán cho người từ 18 tuổi trở lên.\nHút thuốc lá có hại cho sức khỏe.",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {
+      "price": {
+        "to": 38888.89,
+        "from": 38181.82
+      },
+      "saleTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 65182553
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 65182553
+        }
+      },
+      "taxRate": {
+        "to": "VAT 8%",
+        "from": "VAT 10%"
+      },
+      "productTaxs": {
+        "to": [
+          {
+            "id": 0,
+            "name": "VAT 8%",
+            "taxId": 3,
+            "value": 8,
+            "productId": 65182553
+          }
+        ],
+        "from": [
+          {
+            "id": 0,
+            "name": "VAT 10%",
+            "taxId": 4,
+            "value": 10,
+            "productId": 65182553
+          }
+        ]
+      },
+      "purchaseTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 65182553
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 65182553
+        }
+      }
+    }
+  }
+}

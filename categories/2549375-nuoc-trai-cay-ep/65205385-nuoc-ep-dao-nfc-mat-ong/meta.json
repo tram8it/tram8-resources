@@ -1,0 +1,113 @@
+{
+  "kiotProductId": "65205385",
+  "code": "6971897663927",
+  "barcode": "6971897663927",
+  "name": "Nước ép đào NFC mật ong",
+  "fullName": "Nước ép đào NFC mật ong (Ly)",
+  "brand": "NFC",
+  "unit": "Ly",
+  "category": {
+    "kiotCategoryId": "2549375",
+    "name": "Nước trái cây / ép",
+    "path": "Đồ uống đóng chai > Nước trái cây / ép"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/5f231dd4f2b3f26334e714975b4060a03e1df0d0478d9aa3d14f899662035219.webp",
+    "description": "Nước ép trái cây NFC vị đào mật ong (Honey Peach) đựng trong cốc nhựa có nắp, uống lạnh ngon hơn.\n\nQuy cách: cốc\nThương hiệu: NFC",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I3/I4/I5: ảnh chụp cận cốc, nền cửa hàng, bị cắt khung; không có ảnh hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: phần nắp và đáy cốc vẽ theo dáng SP cùng dòng (ảnh thật bị cắt, không thấy màu nắp — vẽ nắp hồng nhạt); chữ '果肉蜜桃饮料 净含量:620ml' khớp ảnh thật",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (chụp cận cốc) + ảnh SP cùng dòng NFC vị dâu (chỉ lấy dáng cốc)",
+      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/04/26/tram8/066131102fdd41e7a097f743f6cb0f35.jpeg"
+    },
+    "rubricVersion": "v17"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết ngắn chỉ từ dữ kiện chắc chắn (tên SP, chữ in mặt trước bao bì), không có trang hãng/nhãn sau",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:32:10.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "batch b09 review: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T05:08:56Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T05:09:56.471Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T05:23:58.238Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T05:09:56.471Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T05:10:52.272Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T05:10:52.272Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/5f231dd4f2b3f26334e714975b4060a03e1df0d0478d9aa3d14f899662035219.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/04/26/tram8/066131102fdd41e7a097f743f6cb0f35.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Nước ép trái cây NFC vị đào mật ong (Honey Peach) đựng trong cốc nhựa có nắp, uống lạnh ngon hơn.\n\nQuy cách: cốc\nThương hiệu: NFC",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

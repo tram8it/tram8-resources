@@ -1,0 +1,132 @@
+{
+  "kiotProductId": "65135536",
+  "code": "8938505549651",
+  "barcode": "8938505549651",
+  "name": "Cháo tổ yến lifes nest ly 50g thịt bằm",
+  "fullName": "Cháo tổ yến lifes nest ly 50g thịt bằm (Ly)",
+  "brand": "Lifesnest",
+  "unit": "Ly",
+  "category": {
+    "kiotCategoryId": "2549349",
+    "name": "Cháo ăn liền",
+    "path": "Đồ khô - Mì Gói > Cháo ăn liền"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/cede2596af26297e744cb97606eb8d31c8791af5902048b05ed73f24d533dce2.webp",
+    "description": "Cháo tổ yến thịt bằm Lifesnest dạng ly ăn liền, có tổ yến từ Khánh Hòa, chỉ cần thêm nước sôi.\n\nQuy cách: 50 g · ly\nNhà sản xuất/thương hiệu: Lifesnest",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "Rà ảnh mờ 19/10: ảnh hiện tại mờ, hơi nghiêng phối cảnh → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: vẽ thẳng mặt; không thấy khác biệt nội dung",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-19",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh hiện tại (ly thật)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: viết từ chữ in trên ly (Cháo tổ yến, Thịt bằm, từ Khánh Hòa, Lifesnest, 50 g)",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-14T00:28:46.000Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "batch f2: ASK_OWNER: weight on cup (60 g?) vs name 50 g"
+    },
+    {
+      "at": "2026-10-14T21:55:00.000Z",
+      "by": "owner",
+      "status": "READY",
+      "note": "owner sent cup photo; weight 50 g confirmed on pack"
+    },
+    {
+      "at": "2026-10-14T15:41:22.877Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-14T15:44:47.326Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-19T03:59:35Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references — owner 19/10: replace blurry/upscaled/jagged or wrinkled-photo images with crisp flat renders"
+    },
+    {
+      "at": "2026-10-19T04:00:38.192Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T07:23:08.254Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T17:15:09.663Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-19T04:00:38.192Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T05:18:18.146Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T05:18:18.146Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/cede2596af26297e744cb97606eb8d31c8791af5902048b05ed73f24d533dce2.webp"
+        ],
+        "from": [
+          "https://img.tram8.vn/products/8b563122697a49532cbdbedeea4436b4acefeb44f901ca8c2b400bfeded9c91d.webp"
+        ]
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

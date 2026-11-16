@@ -1,0 +1,119 @@
+{
+  "kiotProductId": "67767488",
+  "code": "8858702403672",
+  "barcode": "8858702403672",
+  "name": "Rong Biển TKN BING BANG Vị Truyền Thống 6g",
+  "fullName": "Rong Biển TKN BING BANG Vị Truyền Thống 6g (Gói)",
+  "brand": "Tao Kae Noi",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2549017",
+    "name": "Snack rong biển",
+    "path": "Đồ ăn vặt > Snacks > Snack rong biển"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/feed38b81b485f6396bf0abec380c7c9ff6cd330ac515f6ea464213e97316892.webp",
+    "description": "Rong biển Big Bang Tao Kae Noi vị truyền thống, món ăn vặt rong biển giòn ăn liền của thương hiệu Thái Lan.\n\nQuy cách: 6 g · gói\nXuất xứ: Thái Lan · Thương hiệu: Tao Kae Noi",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I8: ảnh KiotViet nhiều gói xếp chồng và sai vị; không có ảnh hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ lớn khớp (Tao Kae Noi, Big bang, Save Pack, Grilled Seaweed, Classic Flavour, Net Wt. 0.21oz (6 g)); chữ nhỏ mờ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-18",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh Kingfoodmart theo mã vạch (chỉ làm mẫu)",
+      "referenceUrl": "https://storage.googleapis.com/onelife-public/8858702403672.jpg"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; mô tả ngắn chỉ từ tên SP + chữ in mặt trước gói (trang hãng taokaenoi.co.th lỗi chứng chỉ, không dùng được)",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:51:33.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "b17: needs photo (official site unusable), description from name/front of pack"
+    },
+    {
+      "at": "2026-10-17T05:26:37.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "b-gemini: no reference image of the classic 6g sachet found"
+    },
+    {
+      "at": "2026-10-18T17:58:05Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-18T17:58:08.387Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T02:05:27.524Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T03:19:05.400Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-18T17:58:08.387Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T01:34:56.208Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T01:34:56.208Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/feed38b81b485f6396bf0abec380c7c9ff6cd330ac515f6ea464213e97316892.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/08/22/tram8/6c9a8886acde4544ba333617c5036ec9.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Rong biển Big Bang Tao Kae Noi vị truyền thống, món ăn vặt rong biển giòn ăn liền của thương hiệu Thái Lan.\n\nQuy cách: 6 g · gói\nXuất xứ: Thái Lan · Thương hiệu: Tao Kae Noi",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

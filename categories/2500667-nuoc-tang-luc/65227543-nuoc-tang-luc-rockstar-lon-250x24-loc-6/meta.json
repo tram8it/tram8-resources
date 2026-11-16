@@ -1,0 +1,183 @@
+{
+  "kiotProductId": "65227543",
+  "code": "8934588712081",
+  "barcode": "8934588712081",
+  "name": "Nước tăng lực Rockstar Lon 250x24 lốc 6",
+  "fullName": "Nước tăng lực Rockstar Lon 250x24 lốc 6 (Lon)",
+  "brand": "Pepsi",
+  "unit": "Lon",
+  "category": {
+    "kiotCategoryId": "2500667",
+    "name": "Nước tăng lực",
+    "path": "Đồ uống đóng chai > Nước tăng lực"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/d03fa0384337cc77b15905ed5b47ffe47f62e4a5a18b1b2cf801b2b640bec49e.webp",
+    "description": "Nước tăng lực Rockstar, thương hiệu đến từ Mỹ do Suntory PepsiCo Việt Nam sản xuất và phân phối. Công thức có taurine, vitamin B3, B6 và nhân sâm. Ngon hơn khi uống lạnh.\n\nQuy cách: 250 ml · lon\nNhà sản xuất/thương hiệu: Suntory PepsiCo Việt Nam · Rockstar",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "ảnh tự chụp (lon bóng lóa); không có ảnh hãng (PepsiCo không đăng Rockstar) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ lớn khớp (Công thức chứa nhân sâm, ROCKSTAR Nước tăng lực, Thương hiệu đến từ Mỹ); chữ dọc nhỏ bên phải mờ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet của cửa hàng (chỉ làm mẫu)",
+      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/07/30/tram8/f5a6874ed4f1409eb694a61ad8c0ae9a.png"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết từ trang thương hiệu của Suntory PepsiCo và chữ in trên lon",
+    "source": {
+      "url": "https://www.suntorypepsico.vn/thuong-hieu-cua-chung-toi/rock-star-12",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:31:42.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "image CROP, description WRITE_NEW (Suntory PepsiCo brand page)"
+    },
+    {
+      "at": "2026-10-15T09:16:17Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "tone.py --vivid: white balance/levels + brand-like colour (owner request)"
+    },
+    {
+      "at": "2026-10-17T14:16:03Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T14:16:03.872Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T14:16:03.872Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T16:35:40.894Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T16:35:40.894Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/d03fa0384337cc77b15905ed5b47ffe47f62e4a5a18b1b2cf801b2b640bec49e.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/30/tram8/f5a6874ed4f1409eb694a61ad8c0ae9a.png"
+        ]
+      },
+      "description": {
+        "to": "Nước tăng lực Rockstar, thương hiệu đến từ Mỹ do Suntory PepsiCo Việt Nam sản xuất và phân phối. Công thức có taurine, vitamin B3, B6 và nhân sâm. Ngon hơn khi uống lạnh.\n\nQuy cách: 250 ml · lon\nNhà sản xuất/thương hiệu: Suntory PepsiCo Việt Nam · Rockstar",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {
+      "price": {
+        "to": 13425.93,
+        "from": 13181.82
+      },
+      "saleTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 65227543
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 65227543
+        }
+      },
+      "taxRate": {
+        "to": "VAT 8%",
+        "from": "VAT 10%"
+      },
+      "productTaxs": {
+        "to": [
+          {
+            "id": 0,
+            "name": "VAT 8%",
+            "taxId": 3,
+            "value": 8,
+            "productId": 65227543
+          }
+        ],
+        "from": [
+          {
+            "id": 0,
+            "name": "VAT 10%",
+            "taxId": 4,
+            "value": 10,
+            "productId": 65227543
+          }
+        ]
+      },
+      "purchaseTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 65227543
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 65227543
+        }
+      }
+    }
+  }
+}

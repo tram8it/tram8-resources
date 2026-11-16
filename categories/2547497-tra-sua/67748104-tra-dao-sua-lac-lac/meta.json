@@ -1,0 +1,193 @@
+{
+  "kiotProductId": "67748104",
+  "code": "8936186851063",
+  "barcode": "8936186851063",
+  "name": "Trà đào sữa Lạc Lạc",
+  "fullName": "Trà đào sữa Lạc Lạc (Chai)",
+  "brand": "Lạc Lạc Tea",
+  "unit": "Chai",
+  "category": {
+    "kiotCategoryId": "2547497",
+    "name": "Trà sữa",
+    "path": "Món ngon Trạm 8 > Đồ uống pha chế > Trà sữa"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/b9f3a953110348113661a641192176090d23324edff7950c16c48349c27818ba.webp",
+    "description": "Trà đào sữa Lạc Lạc, đồ uống pha sẵn đóng chai.\n\nQuy cách: chai\nThương hiệu: Lạc Lạc",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "Đồng bộ dòng SP 20/10: bottle narrower than most Lạc Lạc 250 ml bottles → same bottle as 67748069 → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt chữ (TRÀ ĐÀO SỮA, A cup of Tea, a cup of Joy)",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-20",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh hiện tại của SP (nội dung) + ảnh SP cùng dòng đã duyệt (góc chụp/khung/tỉ lệ)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; không có nguồn hãng → viết ngắn chỉ từ tên SP và chữ in trên nhãn (tên vị, logo Lạc Lạc)",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:17:04.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "image REPLACE → NEEDS_PHOTO, description WRITE_NEW (name only)"
+    },
+    {
+      "at": "2026-10-19T02:39:35Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "redo after Hub rejection:  — Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-19T02:39:36.012Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T02:44:56.965Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T03:19:05.400Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-20T16:42:21Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "line consistency 20/10: bottle narrower than most Lạc Lạc 250 ml bottles → same bottle as 67748069; Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-20T16:43:33.296Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-21T08:30:34.700Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-26T04:58:33.990Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-20T16:43:33.296Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-20T16:49:45.935Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-20T16:49:45.935Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/b9f3a953110348113661a641192176090d23324edff7950c16c48349c27818ba.webp"
+        ],
+        "from": [
+          "https://img.tram8.vn/products/1edf94b91d6e8176387f8cfb2c0b656131218d02b3ed230334002b9824450cf9.webp"
+        ]
+      }
+    },
+    "unexpectedChanges": {
+      "price": {
+        "to": 26388.89,
+        "from": 25909.09
+      },
+      "saleTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 67748104
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 67748104
+        }
+      },
+      "taxRate": {
+        "to": "VAT 8%",
+        "from": "VAT 10%"
+      },
+      "productTaxs": {
+        "to": [
+          {
+            "id": 0,
+            "name": "VAT 8%",
+            "taxId": 3,
+            "value": 8,
+            "productId": 67748104
+          }
+        ],
+        "from": [
+          {
+            "id": 0,
+            "name": "VAT 10%",
+            "taxId": 4,
+            "value": 10,
+            "productId": 67748104
+          }
+        ]
+      },
+      "purchaseTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 67748104
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 67748104
+        }
+      }
+    }
+  }
+}

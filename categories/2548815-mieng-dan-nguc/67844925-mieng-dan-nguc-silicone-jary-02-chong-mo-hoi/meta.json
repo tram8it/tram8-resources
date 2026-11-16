@@ -1,0 +1,112 @@
+{
+  "kiotProductId": "67844925",
+  "code": "8936228460628",
+  "barcode": "8936228460628",
+  "name": "Miếng Dán Ngực Silicone Jary 02 - Chống Mồ Hôi",
+  "fullName": "Miếng Dán Ngực Silicone Jary 02 - Chống Mồ Hôi (Hộp)",
+  "brand": "Jary",
+  "unit": "Hộp",
+  "category": {
+    "kiotCategoryId": "2548815",
+    "name": "Miếng dán ngực",
+    "path": "Chăm sóc cá nhân > Vệ sinh & chăm sóc phụ nữ > Miếng dán ngực"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/905b90dd4de4ed5de2754d14319b843d743fe39cbaaa1710d875c8928cea2289.webp",
+    "description": "Miếng dán ngực silicone Jary Nipple Covers, mẫu 02 - With hole (có lỗ), hình tròn đường kính 8 cm. Hộp in \"Anti-sweat silicone nipple covers\".\n\nQuy cách: hộp 1 cặp · 8 cm × 8 cm\nNhà sản xuất/thương hiệu: Jary",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I7: ảnh có logo cửa hàng khác ('RN Cosmetics') và hình chú thích kích thước chèn thêm; không có trang hãng Jary → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chỉ vẽ hộp, bỏ logo shop, miếng dán rời và mũi tên kích thước; chữ trên hộp khớp ảnh mẫu",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (ảnh shop RN Cosmetics, chỉ làm mẫu)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết ngắn chỉ từ chữ in trên hộp (Nipple Covers, 02 - With hole, 1 pair / 8cm x 8cm, Anti-sweat silicone nipple covers)",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:28:04.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "third-party shop logo on image; no official source; description from pack text"
+    },
+    {
+      "at": "2026-10-17T08:20:53Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T08:20:53.956Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T08:20:53.956Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T08:36:19.654Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T08:36:19.654Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/905b90dd4de4ed5de2754d14319b843d743fe39cbaaa1710d875c8928cea2289.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/08/26/tram8/2e215184c61e4375ad670b9df5810c49.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Miếng dán ngực silicone Jary Nipple Covers, mẫu 02 - With hole (có lỗ), hình tròn đường kính 8 cm. Hộp in \"Anti-sweat silicone nipple covers\".\n\nQuy cách: hộp 1 cặp · 8 cm × 8 cm\nNhà sản xuất/thương hiệu: Jary",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

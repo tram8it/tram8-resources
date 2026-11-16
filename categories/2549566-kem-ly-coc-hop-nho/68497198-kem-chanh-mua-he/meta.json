@@ -1,0 +1,116 @@
+{
+  "kiotProductId": "68497198",
+  "code": "6943090420577",
+  "barcode": "6943090420577",
+  "name": "Kem Chanh Mùa Hè",
+  "fullName": "Kem Chanh Mùa Hè (Hộp)",
+  "brand": "Hàng nội địa Trung",
+  "unit": "Hộp",
+  "category": {
+    "kiotCategoryId": "2549566",
+    "name": "Kem ly / cốc / hộp nhỏ",
+    "path": "Kem & Đồ đông lạnh > Kem ly / cốc / hộp nhỏ"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/9ab7e6cf7903c63e23910b681cfed3c981122b339e90e0f660083c1741c1d172.webp",
+    "description": "Kem vị chanh 柠夏 tạo hình quả chanh, đặt trong vòm nhựa trong trên hộp giấy.\n\nQuy cách: 75 g · hộp\nNhà sản xuất: Đại Sâm Lâm (Cát Lâm, Trung Quốc)\nBảo quản: Giữ đông ở −18 °C hoặc lạnh hơn.",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I3/I4: ảnh chụp điện thoại, nền xám, đọng sương; không có trang hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ nhỏ trên hộp (khẩu hiệu, 净含量:75g) theo mẫu Weee; đã kiểm 75 g khớp mẫu",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh Weee (chỉ làm mẫu) + ảnh KiotViet",
+      "referenceUrl": "https://www.weee.com/en/product/Ningxia-Lemon-Flavored-Ice-Cream-3PC/106343"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; chữ in trên hộp (Weee/Open Food Facts: 1 cái 75 g) và nhãn hộp cùng dòng",
+    "source": {
+      "url": "https://www.weee.com/en/product/Ningxia-Lemon-Flavored-Ice-Cream-3PC/106343",
+      "fetchedAt": "2026-10-17"
+    },
+    "rubricVersion": "v20"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-17T17:40:46Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T18:00:00Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "description WRITE_NEW (chữ in trên hộp (Weee/Open Food Facts: 1 cái 75 g) và nhãn hộp cùng dòng)"
+    },
+    {
+      "at": "2026-10-17T17:41:48.992Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T03:19:05.400Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T17:41:48.992Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T17:44:45.843Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T17:44:45.843Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/9ab7e6cf7903c63e23910b681cfed3c981122b339e90e0f660083c1741c1d172.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/10/16/tram8/141cbca4f3654ce4abad6cc69423f99e.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Kem vị chanh 柠夏 tạo hình quả chanh, đặt trong vòm nhựa trong trên hộp giấy.\n\nQuy cách: 75 g · hộp\nNhà sản xuất: Đại Sâm Lâm (Cát Lâm, Trung Quốc)\nBảo quản: Giữ đông ở −18 °C hoặc lạnh hơn.",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

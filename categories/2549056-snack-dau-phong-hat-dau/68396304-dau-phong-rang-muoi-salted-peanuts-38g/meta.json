@@ -1,0 +1,131 @@
+{
+  "kiotProductId": "68396304",
+  "code": "8850291110719",
+  "barcode": "8850291110719",
+  "name": "ĐẬU PHỘNG RANG MUỐI ( Salted Peanuts 38g )",
+  "fullName": "ĐẬU PHỘNG RANG MUỐI ( Salted Peanuts 38g ) (Gói)",
+  "brand": "Tong Garden",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2549056",
+    "name": "Snack đậu phộng / hạt‑đậu",
+    "path": "Đồ ăn vặt > Snacks > Snack đậu phộng / hạt‑đậu"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/951725c1619faf5608b24ff85583f41809ba1a57b6db2e7a7652f840afcc21c3.webp",
+    "description": "Đậu phộng rang muối Tong Garden (Salted Peanuts): hạt đậu phộng nêm muối, gói nhỏ tiện ăn vặt.\n\nQuy cách: 42 g · gói\nThương hiệu: Tong Garden",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "CROP",
+    "reason": "đồng bộ dãy Tong Garden 20/10: ảnh KiotViet (packshot đạt I1–I8, gói 42 g theo bao bì) sát mép, SP chiếm 95% khung → đưa về 84% như các gói Tong Garden khác",
+    "source": null,
+    "rubricVersion": "v23"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết ngắn từ chữ in mặt trước gói (42 g theo bao bì)",
+    "source": null,
+    "rubricVersion": "v19"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:14:56.000Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "asked owner: net weight conflict (38g name / 42g photo / 40g brand)"
+    },
+    {
+      "at": "2026-10-17T08:45:00Z",
+      "by": "owner",
+      "note": "RUBRIC v19: khối lượng tin bao bì đúng mã vạch hơn tên KiotViet; chỉ hỏi khi lệch > ~10% hoặc rõ là cỡ khác",
+      "status": "ASK_OWNER"
+    },
+    {
+      "at": "2026-10-17T09:30:00Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "image KEEP; description WRITE_NEW from pack text (weight per pack, RUBRIC v19)"
+    },
+    {
+      "at": "2026-10-17T08:59:42.627Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T18:31:54Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "line consistency 20/10: re-framed KiotViet packshot from 95% to 84% fill to match the Tong Garden bags"
+    },
+    {
+      "at": "2026-10-19T18:32:52.003Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-20T03:28:53.537Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-26T04:58:33.990Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-19T18:32:52.003Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T18:41:15.854Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T18:41:15.854Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/951725c1619faf5608b24ff85583f41809ba1a57b6db2e7a7652f840afcc21c3.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/10/07/tram8/df3610eb029b47cd8362cc087742aa11.jpeg"
+        ]
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "kiotProductId": "66116201",
+  "code": "8858223013039",
+  "barcode": "8858223013039",
+  "name": "Bim bim Mix vị rong biển 60g Thái Lan",
+  "fullName": "Bim bim Mix vị rong biển 60g Thái Lan (Gói)",
+  "brand": "Mix",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2549018",
+    "name": "Snack que / que cay",
+    "path": "Đồ ăn vặt > Snacks > Snack que / que cay"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/50e1f10ea61d503bf2d2f28b0e5b29c670801528cd32c56413bebe7f4d4606f5.webp",
+    "description": "Bánh que Mix vị rong biển (Nori Seaweed Biscuit Sticks) của VFOODS, Thái Lan: que bánh giòn rắc rong biển nori, ăn liền.\n\nQuy cách: 60 g · gói\nThương hiệu: Mix (VFOODS)",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I2: ảnh KiotViet là gói 50 g; gói theo mã vạch (Kingfoodmart) in 60 g đúng tên SP → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: bảng dinh dưỡng vẽ mờ; không thấy khác biệt khác",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh Kingfoodmart theo mã vạch 8858223013039 (chỉ làm mẫu)",
+      "referenceUrl": "https://storage.googleapis.com/onelife-public/8858223013039.jpg"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết từ chữ in trên bao bì đúng mã vạch (Net Weight 60 g)",
+    "source": {
+      "url": "https://storage.googleapis.com/onelife-public/8858223013039.jpg",
+      "fetchedAt": "2026-10-17"
+    },
+    "rubricVersion": "v19"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:21:20.000Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "b07 review: image ASK_OWNER, description ASK_OWNER"
+    },
+    {
+      "at": "2026-10-17T08:59:38Z",
+      "by": "owner",
+      "status": "ASK_OWNER",
+      "note": "Chủ trả lời 17/10 (RUBRIC v19): tin bao bì đúng mã vạch khi lệch nhỏ; lệch lớn/cỡ khác thì vẫn hỏi"
+    },
+    {
+      "at": "2026-10-17T08:59:38Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "v19: vẫn ASK_OWNER (lệch lớn hoặc cần xem kệ); rút gọn câu hỏi"
+    },
+    {
+      "at": "2026-10-17T13:59:53Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T14:02:05Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "resolved without asking: barcode pack (Kingfoodmart 8858223013039) prints 60 g = name; KiotViet photo was an old 50 g pack"
+    },
+    {
+      "at": "2026-10-17T14:02:30.822Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T14:02:30.822Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T14:11:30.694Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T14:11:30.694Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/50e1f10ea61d503bf2d2f28b0e5b29c670801528cd32c56413bebe7f4d4606f5.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/29/tram8/3c2078bc7b6b4d42a2bb8a25994adeea.png"
+        ]
+      },
+      "description": {
+        "to": "Bánh que Mix vị rong biển (Nori Seaweed Biscuit Sticks) của VFOODS, Thái Lan: que bánh giòn rắc rong biển nori, ăn liền.\n\nQuy cách: 60 g · gói\nThương hiệu: Mix (VFOODS)",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

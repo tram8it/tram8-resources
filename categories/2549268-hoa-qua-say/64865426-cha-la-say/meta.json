@@ -1,0 +1,118 @@
+{
+  "kiotProductId": "64865426",
+  "code": "8936236141656",
+  "barcode": "8936236141656",
+  "name": "Cha la say",
+  "fullName": "Cha la say (Hộp)",
+  "brand": "Quang Thanh",
+  "unit": "Hộp",
+  "category": {
+    "kiotCategoryId": "2549268",
+    "name": "Hoa quả sấy",
+    "path": "Đồ ăn vặt > Hạt các loại · Hoa quả sấy > Hoa quả sấy"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/b2446fe68d1d28704f803df66c49f04a3c156e273f178dbbfe23c036a218b31c.webp",
+    "description": "Chà là sấy dẻo Quang Thanh Foods, đựng trong hộp nhựa có nắp.\n\nQuy cách: 500 g · hộp\nNhà sản xuất/thương hiệu: Quang Thanh Foods",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I3/I5: ảnh KiotViet cận nhãn, mất nắp và đáy → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: dáng hũ/nắp lấy theo SP cùng hãng Quang Thanh (Óc chó nhân); chữ nhỏ mặt bên và số mã vạch vẽ không đúng; không vẽ NSX/HSD",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-18",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet nhãn hũ (chỉ làm mẫu) + hũ Óc chó nhân Quang Thanh cùng dãy (dáng hũ/nắp)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; mô tả ngắn từ chữ in trên nhãn (Chà là sấy dẻo, TL 500 g, Quang Thanh Foods); không ghi công dụng dinh dưỡng",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:27:10.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "b26: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T08:25:58Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "retried 17/10: no usable reference, stays NEEDS_PHOTO"
+    },
+    {
+      "at": "2026-10-18T18:10:21Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-18T18:10:21.666Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T02:05:27.524Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T03:19:05.400Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-18T18:10:21.666Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T01:35:54.144Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T01:35:54.144Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/b2446fe68d1d28704f803df66c49f04a3c156e273f178dbbfe23c036a218b31c.webp"
+        ],
+        "from": [
+          "https://cdn1-retail-images.kiotviet.vn/2026/01/23/tongpenhchtl/30e07a05df6e4d35a001f92d895509bd.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Chà là sấy dẻo Quang Thanh Foods, đựng trong hộp nhựa có nắp.\n\nQuy cách: 500 g · hộp\nNhà sản xuất/thương hiệu: Quang Thanh Foods",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

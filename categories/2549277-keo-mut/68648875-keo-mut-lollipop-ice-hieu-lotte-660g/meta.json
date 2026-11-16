@@ -1,0 +1,127 @@
+{
+  "kiotProductId": "68648875",
+  "code": "8801062880096",
+  "barcode": "8801062880096",
+  "name": "Kẹo Mút Lollipop Ice Hiệu Lotte 660g",
+  "fullName": "Kẹo Mút Lollipop Ice Hiệu Lotte 660g (Que)",
+  "brand": "Lotte",
+  "unit": "Que",
+  "category": {
+    "kiotCategoryId": "2549277",
+    "name": "Kẹo mút",
+    "path": "Các loại kẹo > Kẹo mút"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/c49df5f4058e817f9f90a2da226c434ad90441089d8d8d44016c3096dcc0424c.webp",
+    "description": "Kẹo mút Lotte Lollipop Ice, bán lẻ theo que, gồm các vị in trên vỏ: Screw (스크류), Jaws (죠스), dưa hấu (수박), Double Bianco (더블 비안코). Hàng nhập khẩu, nhãn chính tiếng Hàn.\n\nQuy cách: que (hũ 660 g)\nThương hiệu: Lotte",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "chủ 28/10: bán theo que → vẽ 1 que (vị 스크류 Screw) phẳng, chính diện, nền trắng; bỏ giá cắm và các que khác → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chỉ 1 que trong 4 vị của hũ; chữ nhỏ có thể mờ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-28",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet 28/10 (que bên phải, vị Screw)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "SP mới; viết theo ảnh chụp (4 vị trên que) + tên hàng",
+    "source": {
+      "staffPhoto": true,
+      "takenAt": "2026-10-28"
+    },
+    "rubricVersion": null
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-28T12:19:24.077Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-28T12:26:13+00:00",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "Kẹo mút Lollipop Ice Lotte bán theo \"Que\" (hũ 660g nhiều vị). Ảnh KiotViet chụp 4 que khác vị cắm trên giá. Ảnh web nên vẽ 1 que (vị nào?) hay 4 que đủ vị như ảnh chụp?"
+    },
+    {
+      "at": "2026-10-28T12:37:23Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-28T12:37:23+00:00",
+      "by": "owner",
+      "status": "READY",
+      "note": "chủ 28/10: vẽ 1 que thôi"
+    },
+    {
+      "at": "2026-10-28T12:37:23.446Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-28T12:37:43.610Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-30T07:46:51.387Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-30T07:47:19.672Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-28T12:37:43.610Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-28T12:41:20.428Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-28T12:41:20.428Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/c49df5f4058e817f9f90a2da226c434ad90441089d8d8d44016c3096dcc0424c.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/10/28/tram8/ba04ee255e164364a06644f7c1ba4667.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Kẹo mút Lotte Lollipop Ice, bán lẻ theo que, gồm các vị in trên vỏ: Screw (스크류), Jaws (죠스), dưa hấu (수박), Double Bianco (더블 비안코). Hàng nhập khẩu, nhãn chính tiếng Hàn.\n\nQuy cách: que (hũ 660 g)\nThương hiệu: Lotte",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

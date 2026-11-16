@@ -1,0 +1,125 @@
+{
+  "kiotProductId": "64865275",
+  "code": "8996001355237",
+  "barcode": "8996001355046",
+  "name": "Bánh Superstar Chocolate 12×12×16g",
+  "fullName": "Bánh Superstar Chocolate 12×12×16g (Thanh)",
+  "brand": "Superstar",
+  "unit": "Thanh",
+  "category": {
+    "kiotCategoryId": "2549064",
+    "name": "Bánh xốp kem (wafer)",
+    "path": "Bánh quy & bánh đóng gói > Bánh xốp kem (wafer)"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/2bacdb945be3e516da675a8ca3a656bd4b6efa5c7161ef0d7a5cf59c68807e5c.webp",
+    "description": "Bánh xốp Superstar Triple Chocolate Sensation của Mayora: thanh wafer sô-cô-la kẹp kem sô-cô-la, phủ sô-cô-la bên ngoài.\n\nQuy cách: 1 thanh (tên hàng ghi 16 g)\nNhà sản xuất/thương hiệu: Mayora · Superstar",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I2: ảnh cũ là hộp Superstar Snaps; mã vạch 8996001355046 là thanh Superstar Triple Chocolate (OFF, iCheck); đơn vị bán là thanh → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không in khối lượng (OFF ghi 16 g, iCheck ghi 18 g); ảnh minh hoạ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh Open Food Facts + iCheck của mã vạch 8996001355046 (chỉ làm mẫu)",
+      "referenceUrl": "https://world.openfoodfacts.org/product/8996001355046"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "REWRITE",
+    "reason": "D2: mô tả cũ tả Superstar Snaps; mã vạch 8996001355046 là thanh Superstar Triple Chocolate → viết lại",
+    "source": null,
+    "rubricVersion": "v19"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:36:29.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "b10 review: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T05:18:38Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "ảnh KiotViet (Superstar Snaps) không khớp mã vạch (OFF: thanh Triple Chocolate 16 g) → hỏi chủ"
+    },
+    {
+      "at": "2026-10-17T14:10:33Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T14:11:32Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "resolved without asking: barcode 8996001355046 = single Superstar Triple Chocolate bar (OFF 16g, iCheck) = name/unit Thanh; current image was Snaps box"
+    },
+    {
+      "at": "2026-10-17T14:12:08.711Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T14:12:08.711Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T16:33:27.732Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T16:33:27.732Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/2bacdb945be3e516da675a8ca3a656bd4b6efa5c7161ef0d7a5cf59c68807e5c.webp"
+        ],
+        "from": [
+          "https://cdn1-retail-images.kiotviet.vn/2026/03/20/tongpenhchtl/9b509367ab2142439d01d126a8ddb0c5.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Bánh xốp Superstar Triple Chocolate Sensation của Mayora: thanh wafer sô-cô-la kẹp kem sô-cô-la, phủ sô-cô-la bên ngoài.\n\nQuy cách: 1 thanh (tên hàng ghi 16 g)\nNhà sản xuất/thương hiệu: Mayora · Superstar",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

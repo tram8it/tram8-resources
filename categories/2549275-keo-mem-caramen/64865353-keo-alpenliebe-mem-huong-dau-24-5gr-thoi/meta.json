@@ -1,0 +1,124 @@
+{
+  "kiotProductId": "64865353",
+  "code": "8935001712411",
+  "barcode": "8935001712411",
+  "name": "Kẹo Alpenliebe mềm Hương dâu 24,5gr /thỏi",
+  "fullName": "Kẹo Alpenliebe mềm Hương dâu 24,5gr /thỏi (Thanh)",
+  "brand": "Alpenliebe",
+  "unit": "Thanh",
+  "category": {
+    "kiotCategoryId": "2549275",
+    "name": "Kẹo mềm / caramen",
+    "path": "Các loại kẹo > Kẹo mềm / caramen"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/a3f3a10e8c1e170dff90bdd076701b09807ae0765056e94454303873a6fb4fb0.webp",
+    "description": "Kẹo mềm Alpenliebe 2Chew hương dâu, thỏi kẹo nhai mềm có nước ép trái cây.\n\nQuy cách: 24,5 g · thỏi\nNhà sản xuất/thương hiệu: Perfetti Van Melle · Alpenliebe",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "Chủ 19/10: ảnh crop KiotViet mờ/nhăn, không đạt chuẩn như SP cùng dòng đã duyệt → Gemini vẽ lại theo phong cách SP cùng dòng (v14/v15/v17) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt chữ lớn (Alpenliebe, 2CHEW, Với Nước ép trái cây, KẸO MỀM HƯƠNG DÂU)",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-19",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet của SP (mẫu chữ/màu) + ảnh Alpenliebe 2Chew chanh dây đã duyệt (mẫu phong cách)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết từ chữ in mặt trước thỏi kẹo",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:07:05.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "b18 review (rubric v4): image CROP, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-15T09:16:17Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "tone.py --vivid: white balance/levels + brand-like colour (owner request)"
+    },
+    {
+      "at": "2026-10-18T17:50:41.176Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T02:24:26Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-19T02:24:53.908Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T02:44:56.965Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T03:19:05.400Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-19T02:24:53.908Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T02:30:43.681Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T02:30:43.681Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/a3f3a10e8c1e170dff90bdd076701b09807ae0765056e94454303873a6fb4fb0.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/27/tram8/337469e5eee4414db1ba02ee0b9622d3.png"
+        ]
+      },
+      "description": {
+        "to": "Kẹo mềm Alpenliebe 2Chew hương dâu, thỏi kẹo nhai mềm có nước ép trái cây.\n\nQuy cách: 24,5 g · thỏi\nNhà sản xuất/thương hiệu: Perfetti Van Melle · Alpenliebe",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "kiotProductId": "65769460",
+  "code": "SP877448",
+  "barcode": "8934804034058",
+  "name": "180-Milo ít đường",
+  "fullName": "180-Milo ít đường (Hộp)",
+  "brand": "Milo",
+  "unit": "Hộp",
+  "category": {
+    "kiotCategoryId": "2549384",
+    "name": "Thức uống bổ sung dinh dưỡng",
+    "path": "Đồ uống đóng chai > Thức uống bổ sung dinh dưỡng"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/d0d5626c5511ce84b3a5e8cd5bb0cac6bea6fffa07ba77d4329d836a89cbe056.webp",
+    "description": "Thức uống lúa mạch MILO ít đường hộp giấy; bao bì ghi giảm 25% đường.\n\nQuy cách: 180 ml · hộp\nNhà sản xuất/thương hiệu: Nestlé · MILO",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I2: ảnh KiotViet là hộp MILO A2 ít đường; mã vạch 8934804034058 là MILO ít đường 180 ml loại thường (Kingfoodmart, ảnh mã vạch trên Open Food Facts) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh Kingfoodmart theo mã vạch (chỉ làm mẫu)",
+      "referenceUrl": "https://storage.googleapis.com/onelife-public/8934804034058.jpg"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "source": null,
+    "rubricVersion": "v20",
+    "decision": "WRITE_NEW",
+    "reason": "mã vạch 8934804034058 = MILO ít đường 180 ml (Kingfoodmart, OFF)"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:39:43.000Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "image ASK_OWNER, description ASK_OWNER"
+    },
+    {
+      "at": "2026-10-17T14:07:37Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T14:08:43Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "resolved without asking: barcode/evidence decides (mã vạch 8934804034058 = MILO ít đường 180 ml (Kingfoodmart, OFF))"
+    },
+    {
+      "at": "2026-10-17T14:10:10.973Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T14:10:10.973Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T15:38:55.982Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T15:38:55.982Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/d0d5626c5511ce84b3a5e8cd5bb0cac6bea6fffa07ba77d4329d836a89cbe056.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/30/tram8/275443c2fc25460a93c6176b6beb597f.png"
+        ]
+      },
+      "description": {
+        "to": "Thức uống lúa mạch MILO ít đường hộp giấy; bao bì ghi giảm 25% đường.\n\nQuy cách: 180 ml · hộp\nNhà sản xuất/thương hiệu: Nestlé · MILO",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

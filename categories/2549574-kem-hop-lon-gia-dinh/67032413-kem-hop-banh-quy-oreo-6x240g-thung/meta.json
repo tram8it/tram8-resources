@@ -1,0 +1,135 @@
+{
+  "kiotProductId": "67032413",
+  "code": "8850125090514-1",
+  "barcode": "8850125090514-2",
+  "name": "Kem hop banh quy Oreo 6x240g (Thùng)",
+  "fullName": "Kem hop banh quy Oreo 6x240g (Thùng) (Hộp)",
+  "brand": "Oreo",
+  "unit": "Hộp",
+  "category": {
+    "kiotCategoryId": "2549574",
+    "name": "Kem hộp lớn / gia đình",
+    "path": "Kem & Đồ đông lạnh > Kem hộp lớn / gia đình"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/72f93bcf0a9e249ce52cb8ae9656460f20ae5b869c47081964d346d0a52d093e.webp",
+    "description": "Thùng 6 hũ kem Oreo vị kem sữa với vụn bánh quy Oreo, mỗi hũ 240 g.\n\nQuy cách: 6 hũ x 240 g · thùng\nThương hiệu: Oreo\nBảo quản: giữ đông lạnh.",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "line consistency 20/10: ảnh thùng vẫn là ảnh tự chụp cũ của hũ lẻ (nắp in hạn dùng), trong khi hũ lẻ 67039441 cùng mã đã thay bằng ảnh vẽ sạch → dùng đúng ảnh image.webp của 67039441; SKU thùng 6 hũ, ảnh minh hoạ 1 hũ",
+    "source": {
+      "sameAs": "67039441",
+      "aiGenerated": true,
+      "fetchedAt": "2026-10-19"
+    },
+    "rubricVersion": "v23"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết ngắn từ tên SP và chữ in mặt trước bao bì (không có trang hãng truy cập được)",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:25:20.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "b28 review: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T08:31:36Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "carton of 6 tubs, only single-tub reference; ask whether the single-tub image is OK (RUBRIC I8)"
+    },
+    {
+      "at": "2026-10-17T14:02:05Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "resolved without asking: carton SKU: image of one tub (same image as single-tub SKU 67039441), description states 6 tubs x 240 g"
+    },
+    {
+      "at": "2026-10-17T14:02:55.695Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T18:32:04Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "line consistency 20/10: still the old self-photo (date print, dull lid) while the single-pint sibling 67039441 with the same barcode root has the clean render → copied 67039441 image.webp"
+    },
+    {
+      "at": "2026-10-19T18:32:40.219Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-20T03:28:53.537Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-26T04:58:33.990Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-19T18:32:40.219Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T18:41:13.127Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T18:41:13.127Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/72f93bcf0a9e249ce52cb8ae9656460f20ae5b869c47081964d346d0a52d093e.webp"
+        ],
+        "from": [
+          "https://img.tram8.vn/products/4ff071c49cbb8d6ba9bffac62b7c495f94fa930954cf63d2e05c7d1a60424963.webp"
+        ]
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

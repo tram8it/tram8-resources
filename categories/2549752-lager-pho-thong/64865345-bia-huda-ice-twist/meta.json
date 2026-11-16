@@ -1,0 +1,214 @@
+{
+  "kiotProductId": "64865345",
+  "code": "8934692070213",
+  "barcode": "8934692070213",
+  "name": "Bia Huda Ice twist",
+  "fullName": "Bia Huda Ice twist - 4.2% (Lon)",
+  "brand": "Huda",
+  "unit": "Lon",
+  "category": {
+    "kiotCategoryId": "2549752",
+    "name": "Lager Phổ Thông",
+    "path": "Đồ uống có cồn (18+) > Bia > Lager Phổ Thông"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/57b975d6f5e6c25d7618d03d094de2df32c77e405a7b85c46456a6e5386e9d06.webp",
+    "description": "Bia Huda Ice Twist, bia lager thơm dịu hương chanh miền Trung, công nghệ Đan Mạch (theo lon). Ngon nhất khi uống lạnh.<br><br>Quy cách: lon<br>Thương hiệu: Huda<br>Sản phẩm dành cho người từ 18 tuổi trở lên.",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "chủ 19/10: ảnh cũ là lon cũ (Ice Blast) → bao bì Ice Twist mới → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: lon vẽ theo ảnh quảng cáo; không in dung tích; chữ nhỏ để mờ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-19",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh lon mới Huda Ice Twist trên kenh14 (bài ra mắt lon mới, chỉ làm mẫu)",
+      "referenceUrl": "https://kenh14.vn/bat-lon-trendy-250ml-vui-het-y-huda-ice-twist-tung-dien-mao-moi-khuay-dong-mua-he-215260325142633702.chn"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "REWRITE",
+    "reason": "chủ 19/10: hàng là Ice Twist bao bì mới, không phải Ice Blast; dung tích/độ cồn chưa đọc được trên lon mới nên không ghi",
+    "source": {
+      "url": "https://kenh14.vn/bat-lon-trendy-250ml-vui-het-y-huda-ice-twist-tung-dien-mao-moi-khuay-dong-mua-he-215260325142633702.chn",
+      "fetchedAt": "2026-10-19T07:25:42.783Z"
+    },
+    "rubricVersion": "v23"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:40:09.000Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "asked owner: name says Ice Twist, photo shows Ice Blast"
+    },
+    {
+      "at": "2026-10-17T14:09:18Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "re-triage: iCheck title Ice Twist 330 ml but its photo is Ice Blast; both beers exist (Ice Twist 2026 blue-green can) → still ASK, question shortened"
+    },
+    {
+      "at": "2026-10-17T14:29:01Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "resolved by rule v20: shop's KiotViet photo is Huda Ice Blast (ABV 4.7%) → image KEEP, description Ice Blast; name 'Ice twist' listed for rename"
+    },
+    {
+      "at": "2026-10-17T14:35:50.917Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T07:25:14Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "redo after Hub rejection:  — Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-19T07:25:14.233Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T07:25:42.905Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T07:36:11.346Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T17:15:09.663Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-19T07:25:42.905Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T07:27:16.730Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T07:27:16.730Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/57b975d6f5e6c25d7618d03d094de2df32c77e405a7b85c46456a6e5386e9d06.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/09/12/tram8/2f3c0c0f012b41108285ee42f23d99d3.png",
+          "https://cdn2-retail-images.kiotviet.vn/2026/03/23/tongpenhchtl/d60ad293851644f0be24090ce0a44c71.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Bia Huda Ice Twist, bia lager thơm dịu hương chanh miền Trung, công nghệ Đan Mạch (theo lon). Ngon nhất khi uống lạnh.\n\nQuy cách: lon\nThương hiệu: Huda\nSản phẩm dành cho người từ 18 tuổi trở lên.",
+        "from": "Bia Huda Ice Blast, bia được ủ ở -1 °C cho vị sảng khoái (theo lon). Ngon nhất khi uống lạnh.\n\nQuy cách: 330 ml · lon\nĐộ cồn: 4,7%\nThương hiệu: Huda\nSản phẩm dành cho người từ 18 tuổi trở lên."
+      }
+    },
+    "unexpectedChanges": {
+      "price": {
+        "to": 17592.59,
+        "from": 17272.73
+      },
+      "saleTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 64865345
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 64865345
+        }
+      },
+      "taxRate": {
+        "to": "VAT 8%",
+        "from": "VAT 10%"
+      },
+      "productTaxs": {
+        "to": [
+          {
+            "id": 0,
+            "name": "VAT 8%",
+            "taxId": 3,
+            "value": 8,
+            "productId": 64865345
+          }
+        ],
+        "from": [
+          {
+            "id": 0,
+            "name": "VAT 10%",
+            "taxId": 4,
+            "value": 10,
+            "productId": 64865345
+          }
+        ]
+      },
+      "purchaseTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 64865345
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 64865345
+        }
+      }
+    }
+  }
+}

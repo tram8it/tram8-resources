@@ -1,0 +1,119 @@
+{
+  "kiotProductId": "65209718",
+  "code": "8936036028553",
+  "barcode": "8936036028553",
+  "name": "Kẹo Dẻo Boom Vị Xoài Lắc Muối Ớt",
+  "fullName": "Kẹo Dẻo Boom Vị Xoài Lắc Muối Ớt (Gói)",
+  "brand": "Orion",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2549274",
+    "name": "Kẹo dẻo / jelly",
+    "path": "Các loại kẹo > Kẹo dẻo / jelly"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/222cfa2342e9f8dfaaa331033ed159a058885a07a1e8a493af6f6c994283f8e8.webp",
+    "description": "Kẹo dẻo Boom Jelly Lắk vị xoài lắc muối ớt của Orion, có kèm gói muối ớt bên trong để lắc cùng kẹo.\n\nQuy cách: 23,5 g · gói\nNhà sản xuất/thương hiệu: Orion Vina · Boom",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I3/I6: ảnh KiotViet nhỏ, gói nhăn bóng; orion.vn không có trang Boom Jelly Lắk → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt đáng kể; mặt trước không in khối lượng (gói thật in 23,5 g ở mặt sau)",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet + ảnh iCheck của mã vạch 8936036028553 (chỉ làm mẫu)",
+      "referenceUrl": "https://icheck.vn/san-pham/8936036028553"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; theo bao bì đúng mã vạch (iCheck: Kẹo dẻo Boom Jelly Lắk xoài lắc muối ớt, 23,5 g)",
+    "source": null,
+    "rubricVersion": "v19"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:19:58.000Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "ask owner: which Boom variant"
+    },
+    {
+      "at": "2026-10-17T14:07:18Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T14:08:32Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "resolved without asking: iCheck mã 8936036028553 = Boom Jelly Lắk xoài lắc muối ớt 23,5 g, khớp ảnh KiotViet"
+    },
+    {
+      "at": "2026-10-17T14:09:20.521Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T14:09:20.521Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T15:21:18.299Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T15:21:18.299Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/222cfa2342e9f8dfaaa331033ed159a058885a07a1e8a493af6f6c994283f8e8.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/30/tram8/056b121b274b4ebda264bc470ddb2ff8.png"
+        ]
+      },
+      "description": {
+        "to": "Kẹo dẻo Boom Jelly Lắk vị xoài lắc muối ớt của Orion, có kèm gói muối ớt bên trong để lắc cùng kẹo.\n\nQuy cách: 23,5 g · gói\nNhà sản xuất/thương hiệu: Orion Vina · Boom",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

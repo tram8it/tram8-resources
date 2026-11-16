@@ -1,0 +1,126 @@
+{
+  "kiotProductId": "67652011",
+  "code": "8938541406567",
+  "barcode": "8938541406567",
+  "name": "Sữa Chua Đông Lạnh Vị Việt Quất Hộp 140ml",
+  "fullName": "Sữa Chua Đông Lạnh Vị Việt Quất Hộp 140ml (Hộp)",
+  "brand": null,
+  "unit": "Hộp",
+  "category": {
+    "kiotCategoryId": "2549568",
+    "name": "Sữa chua đông lạnh",
+    "path": "Kem & Đồ đông lạnh > Sữa chua đông lạnh"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/1897de38d2a2a4a1dde3a10c5c2a717968826bfda0404bbedd87ad7786550da8.webp",
+    "description": "Sữa chua đông lạnh vị việt quất, ăn như kem, hộp nhỏ ăn một lần. Trên hộp ghi 100% lên men tự nhiên, không chất bảo quản, không đường hóa học.\n\nQuy cách: 140 ml · hộp",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I1: chưa có ảnh → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: nắp tím, chữ SỮA CHUA tím, muỗng kem việt quất như ảnh Minh Cầu; chữ nhỏ 'Vị Việt Quất' vẽ theo bố cục SP cùng dãy, chưa đối chiếu được từng chữ nhỏ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-18",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh Minh Cầu Mart theo mã vạch (đã xem, Gemini chặn ảnh này) + ảnh vẽ SP cùng dãy vị sầu riêng",
+      "referenceUrl": "https://minhcaumart.vn/media/com_eshop/products/8938541406567.webp"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: từ chữ trên nắp hộp (ảnh theo mã vạch): Đông lạnh, 100% lên men tự nhiên, không chất bảo quản, không đường hóa học, 140 ml",
+    "source": {
+      "url": "https://minhcaumart.vn/media/com_eshop/products/8938541406567.webp",
+      "fetchedAt": "2026-10-18T18:25:13Z"
+    },
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:17:09.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "no usable image, unknown maker → NEEDS_PHOTO; description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T08:04:11.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "no reference for this flavour/size (KFM, OFF); sibling 900ml lids show the 'Sữa chua Trần Châu Hạ Long' logo; not drawn to avoid inventing"
+    },
+    {
+      "at": "2026-10-18T18:24:56Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-18T18:25:13Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "np18 re-research: description rewritten from pack/official facts"
+    },
+    {
+      "at": "2026-10-18T18:25:39.193Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T02:05:27.524Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T03:19:05.400Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-18T18:25:39.193Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T01:48:59.500Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T01:48:59.500Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/1897de38d2a2a4a1dde3a10c5c2a717968826bfda0404bbedd87ad7786550da8.webp"
+        ],
+        "from": null
+      },
+      "description": {
+        "to": "Sữa chua đông lạnh vị việt quất, ăn như kem, hộp nhỏ ăn một lần. Trên hộp ghi 100% lên men tự nhiên, không chất bảo quản, không đường hóa học.\n\nQuy cách: 140 ml · hộp",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

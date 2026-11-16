@@ -1,0 +1,106 @@
+{
+  "kiotProductId": "68824559",
+  "code": "8936029425918",
+  "barcode": "8936029425918",
+  "name": "Bánh O'star KChi 53G_10Y25_TT",
+  "fullName": "Bánh O'star KChi 53G_10Y25_TT (Gói)",
+  "brand": "Orion",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2549008",
+    "name": "Snack khoai tây",
+    "path": "Đồ ăn vặt > Snacks > Snack khoai tây"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/bc6a4207582a31c36c00e1a1f7a090eea69eeb86eaded5a408b9ae32c44295ca.webp",
+    "description": "Snack khoai tây O'Star Premium vị kim chi Hàn Quốc, làm từ khoai tây tươi (theo bao bì).\n\nQuy cách: 53 g · gói\nThương hiệu: Orion",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "SP mới 09/11: ảnh hãng là bao bì khác gói đang bán → vẽ lại từ ảnh chụp → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ nhỏ có thể mờ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-11-09",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet chụp hàng thật"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "viết theo bao bì + tên hàng",
+    "source": null,
+    "rubricVersion": "v18"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-11-09T06:00:31.106Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-11-09T06:16:54Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-11-09T06:17:03.932Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-11-13T01:08:41.850Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-11-13T01:09:35.548Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-11-09T06:17:03.932Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-11-09T12:54:38.705Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-11-09T12:54:38.705Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/bc6a4207582a31c36c00e1a1f7a090eea69eeb86eaded5a408b9ae32c44295ca.webp"
+        ],
+        "from": [
+          "https://cdn1-retail-images.kiotviet.vn/2026/11/08/tram8/46fc568bae704daa886335e40c424681.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Snack khoai tây O'Star Premium vị kim chi Hàn Quốc, làm từ khoai tây tươi (theo bao bì).\n\nQuy cách: 53 g · gói\nThương hiệu: Orion",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

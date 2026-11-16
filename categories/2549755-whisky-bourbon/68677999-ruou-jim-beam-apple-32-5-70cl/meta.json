@@ -1,0 +1,166 @@
+{
+  "kiotProductId": "68677999",
+  "code": "5010278100703",
+  "barcode": "5010278100703",
+  "name": "Rượu Jim Beam Apple 32,5% 70CL",
+  "fullName": "Rượu Jim Beam Apple 32,5% 70CL - 32,5% (Chai)",
+  "brand": "Jim Beam",
+  "unit": "Chai",
+  "category": {
+    "kiotCategoryId": "2549755",
+    "name": "Whisky & Bourbon",
+    "path": "Đồ uống có cồn (18+) > Rượu mạnh > Whisky & Bourbon"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/dfcd0d3465b138d73dfaca57e89f32da52a3e3d1c9a31c66d318dd79bc96fa71.webp",
+    "description": "Rượu Jim Beam Apple, rượu mùi pha bourbon và táo, 32,5%.\n\nQuy cách: 700 ml · chai\nThương hiệu: Jim Beam",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "ảnh tự chụp/ảnh nhỏ → ảnh hãng cùng sản phẩm; chuẩn hoá 1000×1000",
+    "source": {
+      "url": "https://www.jimbeam.com/sites/default/files/2025-04/jim-beam-bourbon-whiskey-flavor-apple.png",
+      "page": "https://www.jimbeam.com/de-de/unser-bourbon/jim-beam-apple",
+      "fetchedAt": "2026-10-31T12:56:26+00:00"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "viết theo nhãn/ảnh chụp + trang hãng; không thêm dữ kiện ngoài nguồn",
+    "source": {
+      "url": "https://www.jimbeam.com/de-de/unser-bourbon/jim-beam-apple"
+    },
+    "rubricVersion": "v18"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-31T12:31:13.488Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-31T12:56:26+00:00",
+      "by": "ai",
+      "status": "READY",
+      "note": "ảnh hãng/ảnh sẵn có, đã xem bằng mắt; mô tả mới"
+    },
+    {
+      "at": "2026-10-31T12:57:32.876Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-31T14:03:31.059Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-31T14:03:54.159Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-31T12:57:32.876Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-31T13:13:55.540Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-31T13:13:55.540Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/dfcd0d3465b138d73dfaca57e89f32da52a3e3d1c9a31c66d318dd79bc96fa71.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/10/30/tram8/6f4dff0e22f04cb5bdd075251683b25c.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Rượu Jim Beam Apple, rượu mùi pha bourbon và táo, 32,5%.\n\nQuy cách: 700 ml · chai\nThương hiệu: Jim Beam",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {
+      "price": {
+        "to": 509259.26,
+        "from": 500000
+      },
+      "saleTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 68677999
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 68677999
+        }
+      },
+      "taxRate": {
+        "to": "VAT 8%",
+        "from": "VAT 10%"
+      },
+      "productTaxs": {
+        "to": [
+          {
+            "id": 0,
+            "name": "VAT 8%",
+            "taxId": 3,
+            "value": 8,
+            "productId": 68677999
+          }
+        ],
+        "from": [
+          {
+            "id": 0,
+            "name": "VAT 10%",
+            "taxId": 4,
+            "value": 10,
+            "productId": 68677999
+          }
+        ]
+      },
+      "purchaseTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 68677999
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 68677999
+        }
+      }
+    }
+  }
+}

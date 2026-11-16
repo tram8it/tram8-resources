@@ -1,0 +1,138 @@
+{
+  "kiotProductId": "64865611",
+  "code": "8936011771306",
+  "barcode": "8936011771306",
+  "name": "Kem Celano Ly Socola Hạnh Nhân 125ml × 12",
+  "fullName": "Kem Celano Ly Socola Hạnh Nhân 125ml × 12 (Ly)",
+  "brand": "Celano",
+  "unit": "Ly",
+  "category": {
+    "kiotCategoryId": "2549566",
+    "name": "Kem ly / cốc / hộp nhỏ",
+    "path": "Kem & Đồ đông lạnh > Kem ly / cốc / hộp nhỏ"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/cccc6e30198fcf13f6787ed52e15ba521849d1c2476003ce1e47b470b29e4d2f.webp",
+    "description": "Kem Celano vị sô cô la hạnh nhân, dạng ly có nắp, 125 ml.\n\nQuy cách: 125 ml · ly\nNhà sản xuất/thương hiệu: Celano\nBảo quản: Giữ đông ở −18 °C hoặc lạnh hơn.",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "Đồng bộ dòng SP 20/10: 3/4 cup view vs top-down lid of other Celano 125 ml cups → top-down lid like 64865229 → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: nắp vẽ theo phần nắp thấy trên ảnh cũ (Celano, CHOCOLATE ALMOND, Làm từ SỮA TƯƠI); chữ nhỏ dưới banner nắp bị lược",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-20",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh hiện tại của SP (nội dung) + ảnh SP cùng dòng đã duyệt (góc chụp/khung/tỉ lệ)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; mô tả ngắn từ tên hàng và chữ in trên ly (Celano, Sô cô la hạnh nhân)",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:40:09.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "rubric v4: image CROP, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-15T09:16:17Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "tone.py --vivid: white balance/levels + brand-like colour (owner request)"
+    },
+    {
+      "at": "2026-10-17T14:12:37Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T14:14:33.698Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-20T16:42:21Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "line consistency 20/10: 3/4 cup view vs top-down lid of other Celano 125 ml cups → top-down lid like 64865229; Gemini API redraw (attempt 3, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-20T16:43:30.563Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-21T08:30:34.700Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-26T04:58:33.990Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-20T16:43:30.563Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-20T16:49:43.260Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-20T16:49:43.260Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/cccc6e30198fcf13f6787ed52e15ba521849d1c2476003ce1e47b470b29e4d2f.webp"
+        ],
+        "from": [
+          "https://img.tram8.vn/products/973fb30c773199ff0de5b3791ff7e1c0656c5934e1ddb5556627eaef9df07453.webp"
+        ]
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

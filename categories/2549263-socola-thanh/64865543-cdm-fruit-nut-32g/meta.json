@@ -1,0 +1,131 @@
+{
+  "kiotProductId": "64865543",
+  "code": "9556182104049",
+  "barcode": "9556182104049",
+  "name": "CDM FRUIT & NUT 32G",
+  "fullName": "CDM FRUIT & NUT 32G (Thanh)",
+  "brand": "Cadbury",
+  "unit": "Thanh",
+  "category": {
+    "kiotCategoryId": "2549263",
+    "name": "Socola thanh",
+    "path": "Đồ ăn vặt > Chocolate > Socola thanh"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/3ef0c2b470ac64ed724bb8417eb5c731e11ec650414cbeddd2956189bb59a6e6.webp",
+    "description": "Thanh sô cô la sữa Cadbury Dairy Milk Fruit & Nut với nho khô, hạt điều và hạnh nhân.\n\nThành phần chính: sô cô la sữa, nho khô, hạt điều, hạnh nhân\nQuy cách: 32 g · thanh\nNhà sản xuất/thương hiệu: Cadbury · Dairy Milk",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I3/I4: ảnh KiotViet tay cầm, thanh 37 g; thanh đang bán in 32 g (kiểm kệ 17/10) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: thông tin dinh dưỡng nhỏ bên trái và mã số dưới logo Halal làm mờ (Gemini bịa số; mã dưới Halal đã làm mờ thủ công)",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh Open Food Facts thanh 32 g cùng mã vạch (chỉ làm mẫu) + ảnh KiotViet",
+      "referenceUrl": "https://world.openfoodfacts.org/product/9556182104049"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết ngắn từ chữ in mặt trước thanh 32 g (ảnh Open Food Facts cùng mã vạch), khối lượng theo chủ (17/10)",
+    "source": null,
+    "rubricVersion": "v19"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:14:49.000Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "weight conflict 32g vs 37g on pack, asked owner"
+    },
+    {
+      "at": "2026-10-17T08:45:00Z",
+      "by": "owner",
+      "note": "RUBRIC v19: khối lượng tin bao bì đúng mã vạch hơn tên KiotViet; chỉ hỏi khi lệch > ~10% hoặc rõ là cỡ khác",
+      "status": "ASK_OWNER"
+    },
+    {
+      "at": "2026-10-17T09:30:00Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "gap > ~10% / other size or needs shelf check: question shortened to the two numbers (RUBRIC v19)"
+    },
+    {
+      "at": "2026-10-17T12:00:00Z",
+      "by": "owner",
+      "status": "ASK_OWNER",
+      "note": "Kiểm kệ 17/10: thanh in 32 g"
+    },
+    {
+      "at": "2026-10-17T12:56:35Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 3, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T12:58:17.435Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T12:58:17.435Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T13:33:19.714Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T13:33:19.714Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/3ef0c2b470ac64ed724bb8417eb5c731e11ec650414cbeddd2956189bb59a6e6.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/03/07/tongpenhchtl/20b3f6afdee6401a86ce621749984fbd.jpg"
+        ]
+      },
+      "description": {
+        "to": "Thanh sô cô la sữa Cadbury Dairy Milk Fruit & Nut với nho khô, hạt điều và hạnh nhân.\n\nThành phần chính: sô cô la sữa, nho khô, hạt điều, hạnh nhân\nQuy cách: 32 g · thanh\nNhà sản xuất/thương hiệu: Cadbury · Dairy Milk",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

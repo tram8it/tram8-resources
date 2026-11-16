@@ -1,0 +1,132 @@
+{
+  "kiotProductId": "67758727",
+  "code": "8938503131117",
+  "barcode": "8938503131117",
+  "name": "Sữa chua đà lạt milk nha đam 100g",
+  "fullName": "Sữa chua đà lạt milk nha đam 100g (Hộp)",
+  "brand": "Đà Lạt Milk",
+  "unit": "Hộp",
+  "category": {
+    "kiotCategoryId": "2547910",
+    "name": "Sữa chua ăn",
+    "path": "Sữa và các sản phẩm từ sữa > Sữa chua > Sữa chua ăn"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/395e8abf533f8f36967fe61b184c0113efab35e77ce0f29c12224805d4f305d2.webp",
+    "description": "Sữa chua Đà Lạt Milk nha đam, làm hoàn toàn từ sữa tươi cao nguyên (theo chữ in trên hộp).\n\nQuy cách: 100 g · hộp\nXuất xứ: Việt Nam · Nhà sản xuất/thương hiệu: Đà Lạt Milk",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "chủ 20/10: đồng bộ góc/cỡ với SP cùng dòng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: vẽ lại theo góc và cỡ của SP cùng dòng; chữ nhỏ để mờ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-20",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh hiện có + vị Đào cùng dòng (góc chụp)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; không có trang hãng → mô tả ngắn từ tên SP và chữ in trên bao bì trong ảnh",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:10:12.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "needs photo; short description"
+    },
+    {
+      "at": "2026-10-17T07:46:55Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 3, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T07:46:57.685Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T08:06:02.482Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-20T16:23:54Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "redo after Hub rejection:  — Gemini API redraw (attempt 4, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-20T16:23:55.136Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-21T08:30:34.700Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-26T04:58:33.990Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-20T16:23:55.136Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-20T16:27:02.013Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-20T16:27:02.013Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/395e8abf533f8f36967fe61b184c0113efab35e77ce0f29c12224805d4f305d2.webp"
+        ],
+        "from": [
+          "https://img.tram8.vn/products/61ab25a0dfc07b24c8caeab6f818ab830f89d1bf986c6e6e9c6c0ddee65e1065.webp"
+        ]
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

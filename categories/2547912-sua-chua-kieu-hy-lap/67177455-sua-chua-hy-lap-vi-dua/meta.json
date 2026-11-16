@@ -1,0 +1,112 @@
+{
+  "kiotProductId": "67177455",
+  "code": "8938514781189",
+  "barcode": "8938514781189",
+  "name": "Sữa chua Hy lạp vị dừa",
+  "fullName": "Sữa chua Hy lạp vị dừa (Hộp)",
+  "brand": "Lucas",
+  "unit": "Hộp",
+  "category": {
+    "kiotCategoryId": "2547912",
+    "name": "Sữa chua kiểu Hy Lạp",
+    "path": "Sữa và các sản phẩm từ sữa > Sữa chua > Sữa chua kiểu Hy Lạp"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/a6759957e9b9b07cd6e8de7893532636d6988e5aedd2d0ae6baa16740856ae7b.webp",
+    "description": "Sữa chua Hy Lạp Lucas Creamy Greek-Style vị dừa, sữa lên men tách whey theo kiểu Hy Lạp, đặc và mịn.\n\nQuy cách: 100 g · hộp\nNhà sản xuất/thương hiệu: Lucas",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I3/I4/I5: ảnh chụp cận hộp, bị khung cắt, nền lộn xộn; không có ảnh hãng (Lucas) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: phần hộp bị cắt trong ảnh mẫu được vẽ theo hộp vị cam cùng dòng; chữ nhỏ mặt bên không đọc được",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (chụp cận) + ảnh KiotViet hộp Lucas vị cam cùng dòng (chỉ làm mẫu bố cục)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; mô tả ngắn chỉ từ tên hàng và chữ in mặt trước bao bì (không có trang hãng) ('Lucas Creamy Greek-Style', 'Coconut flavor', 100 g)",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:30:00.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "b20 review: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T07:45:30Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T07:47:05.973Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T08:06:02.482Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T07:47:05.973Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T08:02:11.946Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T08:02:11.946Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/a6759957e9b9b07cd6e8de7893532636d6988e5aedd2d0ae6baa16740856ae7b.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/21/tram8/f372fdf65bbb4b27a1064cfd8b839990.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Sữa chua Hy Lạp Lucas Creamy Greek-Style vị dừa, sữa lên men tách whey theo kiểu Hy Lạp, đặc và mịn.\n\nQuy cách: 100 g · hộp\nNhà sản xuất/thương hiệu: Lucas",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

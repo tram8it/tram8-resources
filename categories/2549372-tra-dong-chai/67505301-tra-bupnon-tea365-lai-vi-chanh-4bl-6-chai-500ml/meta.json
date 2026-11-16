@@ -1,0 +1,174 @@
+{
+  "kiotProductId": "67505301",
+  "code": "8936236472651",
+  "barcode": "8936236472651",
+  "name": "Trà Bupnon TEA365 Lài Vị Chanh 4bl × 6 chai × 500ml",
+  "fullName": "Trà Bupnon TEA365 Lài Vị Chanh 4bl × 6 chai × 500ml (Chai)",
+  "brand": "Tea365",
+  "unit": "Chai",
+  "category": {
+    "kiotCategoryId": "2549372",
+    "name": "Trà đóng chai",
+    "path": "Đồ uống đóng chai > Trà đóng chai"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/b8d1142dfe3e7a336264b6843d77b6f8baa58deebdcad058557be9f7a83c3605.webp",
+    "description": "Trà lài vị chanh Bupnon Tea 365 của Masan Consumer, kết hợp hương hoa lài và vị chanh, uống liền. Ngon hơn khi uống lạnh.\n\nQuy cách: 500 ml · chai\nNhà sản xuất/thương hiệu: Masan Consumer · Bupnon Tea 365",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I3/I4: chụp tay cầm trong cửa hàng; trang Masan chặn bot, chỉ có bản 'ít đường' khác nhãn → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không có dòng thể tích ở mặt trước; huy hiệu tròn nhỏ cạnh chữ BUP NON vẽ lại không đọc được chữ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (chai cầm tay)",
+      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/08/06/tram8/a4a55cbcb27346c5853b0deb4d5cf7a4.jpeg"
+    },
+    "rubricVersion": "v17"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết ngắn từ tên SP và chữ in mặt trước chai (không có nguồn hãng khớp)",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:31:48.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "review b08: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T05:19:52Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T05:20:38.597Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T05:52:57.796Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T05:20:38.597Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T05:28:29.504Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T05:28:29.504Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/b8d1142dfe3e7a336264b6843d77b6f8baa58deebdcad058557be9f7a83c3605.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/08/06/tram8/a4a55cbcb27346c5853b0deb4d5cf7a4.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Trà lài vị chanh Bupnon Tea 365 của Masan Consumer, kết hợp hương hoa lài và vị chanh, uống liền. Ngon hơn khi uống lạnh.\n\nQuy cách: 500 ml · chai\nNhà sản xuất/thương hiệu: Masan Consumer · Bupnon Tea 365",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {
+      "price": {
+        "to": 11111.11,
+        "from": 10909.09
+      },
+      "saleTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 67505301
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 67505301
+        }
+      },
+      "taxRate": {
+        "to": "VAT 8%",
+        "from": "VAT 10%"
+      },
+      "productTaxs": {
+        "to": [
+          {
+            "id": 0,
+            "name": "VAT 8%",
+            "taxId": 3,
+            "value": 8,
+            "productId": 67505301
+          }
+        ],
+        "from": [
+          {
+            "id": 0,
+            "name": "VAT 10%",
+            "taxId": 4,
+            "value": 10,
+            "productId": 67505301
+          }
+        ]
+      },
+      "purchaseTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 67505301
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 67505301
+        }
+      }
+    }
+  }
+}

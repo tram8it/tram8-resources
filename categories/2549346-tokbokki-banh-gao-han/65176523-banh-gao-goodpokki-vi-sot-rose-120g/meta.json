@@ -1,0 +1,120 @@
+{
+  "kiotProductId": "65176523",
+  "code": "8809803870573",
+  "barcode": "8809803870573",
+  "name": "Bánh Gạo Goodpokki Vị Sốt Rose 120g",
+  "fullName": "Bánh Gạo Goodpokki Vị Sốt Rose 120g (Ly)",
+  "brand": "GoodPokki",
+  "unit": "Ly",
+  "category": {
+    "kiotCategoryId": "2549346",
+    "name": "Tokbokki & bánh gạo Hàn",
+    "path": "Đồ khô - Mì Gói > Tokbokki & bánh gạo Hàn"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/8779a3b21aab09e2f755139ac055ec152ca8bc3ed1986d8927097840c08e5d3e.webp",
+    "description": "Bánh gạo tokbokki ăn liền GoodPokki vị sốt Rosé dạng ly – bánh gạo cắt miếng nhỏ kèm sốt rosé kiểu Hàn Quốc, tiện dùng làm món ăn nhanh.\n\nQuy cách: 120 g (bánh gạo 100 g, sốt 20 g) · ly\nThương hiệu: GoodPokki · Xuất xứ: Hàn Quốc",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "ảnh tự chụp (mềm, nhăn/bóng lóa); không có ảnh hãng nguyên gói dùng được → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt ở chữ lớn và khối lượng (4.23 OZ / 120 g)",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet hiện có (ảnh tự chụp)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết từ chữ in mặt trước ly (ảnh hiện tại), không có trang hãng",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:10:45.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "b21: image CROP, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-14T09:43:08.541Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-14T11:57:03.122Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-17T14:25:58Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T14:27:11.165Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T14:27:11.165Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T16:55:38.118Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T16:55:38.118Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/8779a3b21aab09e2f755139ac055ec152ca8bc3ed1986d8927097840c08e5d3e.webp"
+        ],
+        "from": [
+          "https://img.tram8.vn/products/e03bc8ec519239c6fcf7ee89d6b387873184c38c6cec7f6059cf6dcf9a45cfb9.webp"
+        ]
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

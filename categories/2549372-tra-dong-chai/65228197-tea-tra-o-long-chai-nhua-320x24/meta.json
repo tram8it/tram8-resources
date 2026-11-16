@@ -1,0 +1,122 @@
+{
+  "kiotProductId": "65228197",
+  "code": "8934588870118",
+  "barcode": "8934588870118",
+  "name": "Tea+ Trà Ô Long Chai nhựa 320x24",
+  "fullName": "Tea+ Trà Ô Long Chai nhựa 320x24 (Chai)",
+  "brand": "Tea+",
+  "unit": "Chai",
+  "category": {
+    "kiotCategoryId": "2549372",
+    "name": "Trà đóng chai",
+    "path": "Đồ uống đóng chai > Trà đóng chai"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/647a16c93bd678b01f091f481c9ae35fd426dd416163b8340f5f1ecbe3458e44.webp",
+    "description": "Trà Ô Long TEA+ Plus truyền thống của Suntory PepsiCo, nền trà ô long thanh mát theo công thức Suntory (Nhật Bản). Ngon hơn khi uống lạnh.\n\nQuy cách: 320 ml · chai\nNhà sản xuất/thương hiệu: Suntory PepsiCo Việt Nam · TEA+ Plus",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "ảnh tự chụp (chai mềm, bóng); ảnh hãng suntorypepsico.vn chỉ có chai 450ml/1L, không có 320ml → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ lớn khớp (Trà Ô Long, OTPP, TEA+ Plus, Suntory, Chất lượng Suntory Nhật Bản, 320 ml)",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet của cửa hàng (chỉ làm mẫu)",
+      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/07/27/tram8/3f819d4a5d804555a7328b30520337a7.png"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; theo trang Suntory PepsiCo và chữ in trên chai (320 ml)",
+    "source": {
+      "url": "https://www.suntorypepsico.vn/thuong-hieu-cua-chung-toi/tea-9",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:31:48.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "review b08: image CROP, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-15T09:16:17Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "tone.py --vivid: white balance/levels + brand-like colour (owner request)"
+    },
+    {
+      "at": "2026-10-17T14:16:12Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T14:16:12.975Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T14:16:12.975Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T16:36:17.078Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T16:36:17.078Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/647a16c93bd678b01f091f481c9ae35fd426dd416163b8340f5f1ecbe3458e44.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/27/tram8/3f819d4a5d804555a7328b30520337a7.png"
+        ]
+      },
+      "description": {
+        "to": "Trà Ô Long TEA+ Plus truyền thống của Suntory PepsiCo, nền trà ô long thanh mát theo công thức Suntory (Nhật Bản). Ngon hơn khi uống lạnh.\n\nQuy cách: 320 ml · chai\nNhà sản xuất/thương hiệu: Suntory PepsiCo Việt Nam · TEA+ Plus",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "kiotProductId": "66646860",
+  "code": "8938548175893",
+  "barcode": "8938548175893",
+  "name": "Khô gà lá chanh mini",
+  "fullName": "Khô gà lá chanh mini (Gói)",
+  "brand": null,
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2549222",
+    "name": "Khô gà",
+    "path": "Đồ ăn vặt > Thịt khô và chân gà > Khô gà"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": null,
+    "description": null,
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "IN_PROGRESS",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "chủ 21/10 gửi ảnh gói thật: Khô gà lá chanh Phương Huyền Food → thay ảnh minh hoạ Toto sai hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: theo ảnh: nền vàng lửa đỏ, logo Phương Huyền, Mới!!, cửa sổ khô gà, gà trống; không ghi khối lượng",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-21",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh chủ gửi qua chat 21/10 (gói Phương Huyền Food)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; từ tên hàng + chữ in trên gói (ảnh chủ gửi 21/10: PHUONG HUYEN FOOD)",
+    "source": null,
+    "rubricVersion": "v23"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:01:41.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "image REPLACE (no image), description WRITE_NEW from name"
+    },
+    {
+      "at": "2026-10-17T08:24:52.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "wave3: no usable reference for a Gemini redraw"
+    },
+    {
+      "at": "2026-10-18T18:46:11Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "re-searched 18/10 (owner feedback, np18): no image of this exact product found; reason updated"
+    },
+    {
+      "at": "2026-10-19T07:38:02Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "19/10 re-research with image search (owner request): no image of this exact product/variant found"
+    },
+    {
+      "at": "2026-10-21T02:02:49Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "illustration 20/10: route 2: vẽ theo bố cục gói Toto Mini Pocket cùng dòng, đổi chữ vị/màu/hình"
+    },
+    {
+      "at": "2026-10-21T02:02:49.967Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-21T02:17:31Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "redo after Hub rejection:  — Gemini API redraw (attempt 3, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-21T02:17:31.555Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-21T02:17:45.937Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-26T04:58:33.990Z",
+      "by": "owner",
+      "status": "IN_PROGRESS",
+      "note": "rejected on Hub by AU KHUONG DUY: Nhầm"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-21T02:17:45.937Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "REJECTED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-21T02:18:33.736Z",
+    "note": "Nhầm"
+  }
+}

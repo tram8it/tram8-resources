@@ -1,0 +1,143 @@
+{
+  "kiotProductId": "65826588",
+  "code": "8850124041920",
+  "barcode": "8850124041920",
+  "name": "Kem Hop NESTLE KITKAT 24x48g",
+  "fullName": "Kem Hop NESTLE KITKAT 24x48g (Hộp)",
+  "brand": "KitKat",
+  "unit": "Hộp",
+  "category": {
+    "kiotCategoryId": "2549566",
+    "name": "Kem ly / cốc / hộp nhỏ",
+    "path": "Kem & Đồ đông lạnh > Kem ly / cốc / hộp nhỏ"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/e6baa76213ee100ddaac5caa1f6bab457421d48b69f009a4ae743bc541ef6669.webp",
+    "description": "Kem Nestlé KitKat vị sô cô la kèm bánh xốp KitKat, hộp nhỏ 48 g.\n\nQuy cách: 48 g · hộp\nNhà sản xuất/thương hiệu: Nestlé · KitKat\nBảo quản: Giữ đông ở −18 °C hoặc lạnh hơn.",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I3/I4: ảnh hiện có không đạt, không có ảnh hãng/NPP → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Sửa theo chủ 19/10: ảnh cũ là hộp to 240 g; vẽ lại đúng ly nhỏ 48 g (dáng thấp, rộng như ly OREO 48 g cùng dòng Nestlé). Hoạ tiết KitKat lấy từ hộp to; bảng dinh dưỡng và chữ nhỏ để mờ, không ghi khối lượng",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-19",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (hộp KitKat 240 g, chỉ lấy hoạ tiết) + ảnh đã duyệt Kem hộp OREO 24x48g (mẫu dáng ly nhỏ 48 g, phong cách)",
+      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/07/27/tram8/c743a82aa19945b9ada45a2621567c82.png"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; mô tả ngắn từ tên hàng và chữ in trên hộp (Nestlé KitKat, Chocolate and Wafer)",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:40:09.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "rubric v4: image CROP, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-15T09:16:17Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "tone.py --vivid: white balance/levels + brand-like colour (owner request)"
+    },
+    {
+      "at": "2026-10-17T14:12:38Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T14:13:57Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T14:14:38.281Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "IN_PROGRESS",
+      "note": "rejected on Hub by AU KHUONG DUY: Cái này nhầm hình ly to thì phải"
+    },
+    {
+      "at": "2026-10-19T02:15:26Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 4, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-19T02:15:26.436Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T02:44:56.965Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T03:19:05.400Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-19T02:15:26.436Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T02:28:33.707Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T02:28:33.707Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/e6baa76213ee100ddaac5caa1f6bab457421d48b69f009a4ae743bc541ef6669.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/27/tram8/c743a82aa19945b9ada45a2621567c82.png"
+        ]
+      },
+      "description": {
+        "to": "Kem Nestlé KitKat vị sô cô la kèm bánh xốp KitKat, hộp nhỏ 48 g.\n\nQuy cách: 48 g · hộp\nNhà sản xuất/thương hiệu: Nestlé · KitKat\nBảo quản: Giữ đông ở −18 °C hoặc lạnh hơn.",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

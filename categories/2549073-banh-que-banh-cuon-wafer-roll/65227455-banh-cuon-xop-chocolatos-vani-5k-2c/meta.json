@@ -1,0 +1,113 @@
+{
+  "kiotProductId": "65227455",
+  "code": "8992775004494",
+  "barcode": "8992775004494",
+  "name": "Bánh cuộn Xốp chocolatos vani 5k/2c",
+  "fullName": "Bánh cuộn Xốp chocolatos vani 5k/2c (Thanh)",
+  "brand": "Gery",
+  "unit": "Thanh",
+  "category": {
+    "kiotCategoryId": "2549073",
+    "name": "Bánh quế / bánh cuộn (wafer roll)",
+    "path": "Bánh quy & bánh đóng gói > Bánh quế / bánh cuộn (wafer roll)"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/511ed51400e3d5fc55db1b53d8742c00ba9b88c68e96667c8305b4f749f47b2e.webp",
+    "description": "Bánh cuộn xốp Chocolatos vị vani, que quế giòn nhân kem vani, gói từng que tiện mang theo.\n\nQuy cách: thanh\nNhà sản xuất/thương hiệu: Garudafood · Chocolatos",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I3, I4: ảnh tay cầm que bánh trên nền giấy tờ, thùng hàng; ảnh hãng chỉ có thanh rất nhỏ → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt ở chữ lớn/màu so với ảnh hãng và ảnh cửa hàng; chữ nhỏ đầu phải để mờ, không in khối lượng",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh hộp + thanh 'Chocolatos Wafer Stick rasa Vanilla' trên trang Garudafood (ảnh nhỏ, phóng to làm mẫu) + ảnh Open Food Facts + ảnh KiotViet tay cầm thanh",
+      "referenceUrl": "https://garudafood.co.id/chocolatos-en"
+    },
+    "rubricVersion": "v17"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết ngắn chỉ từ tên SP và chữ in trên que (ảnh hiện tại)",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:36:40.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "image NEEDS_PHOTO, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T05:30:10Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T05:30:48.925Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T08:06:02.482Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T05:30:48.925Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T07:08:05.910Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T07:08:05.910Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/511ed51400e3d5fc55db1b53d8742c00ba9b88c68e96667c8305b4f749f47b2e.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/04/27/tram8/c8603af743f14a008ba2fa6c183abed5.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Bánh cuộn xốp Chocolatos vị vani, que quế giòn nhân kem vani, gói từng que tiện mang theo.\n\nQuy cách: thanh\nNhà sản xuất/thương hiệu: Garudafood · Chocolatos",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "kiotProductId": "66623189",
+  "code": "8936034875197",
+  "barcode": "8936034875197",
+  "name": "Thịt heo viên 3 phút Heo Cao Bồi Masan hộp 200g",
+  "fullName": "Thịt heo viên 3 phút Heo Cao Bồi Masan hộp 200g (Hộp)",
+  "brand": "Heo Cao Bồi",
+  "unit": "Hộp",
+  "category": {
+    "kiotCategoryId": "2549797",
+    "name": "Ức gà & thịt ăn liền",
+    "path": "Xúc Xích & Thịt Nguội > Ức gà & thịt ăn liền"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/59d68d5b3171174e631824f96c933978d64f977fd635d71491a61fb93eb79c04.webp",
+    "description": "Thịt viên 3 phút Heo Cao Bồi (dòng \"Snack dinh dưỡng\") là thịt heo viên sốt đã nấu chín sẵn, đóng trong túi chịu nhiệt theo công nghệ in trên hộp; dùng kèm cơm, bánh mì hoặc làm món ăn nhẹ.\n\nQuy cách: 200 g · hộp\nNhà sản xuất/thương hiệu: Heo Cao Bồi\nHướng dẫn sử dụng: Làm nóng theo hướng dẫn in trên hộp trước khi dùng.",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I3/I6: ảnh tự chụp hộp giấy, mờ, có in NSX/HSD; không có ảnh hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: vẽ theo mẫu hộp trên ảnh Kingfoodmart cùng mã vạch (dòng 'Nguồn dinh dưỡng từ THỊT'); hộp ở cửa hàng ghi 'Snack dinh dưỡng'; khối lượng 200 g như hộp thật; bỏ NSX/HSD",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh Kingfoodmart (chỉ làm mẫu) + ảnh KiotViet",
+      "referenceUrl": "https://storage.googleapis.com/onelife-public/8936034875197.jpg"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; mô tả ngắn từ chữ in mặt trước hộp (không có trang hãng truy cập được cho SP này)",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:20:52.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "b30: image CROP, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-15T09:16:17Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "tone.py --vivid: white balance/levels + brand-like colour (owner request)"
+    },
+    {
+      "at": "2026-10-17T15:28:18Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T15:28:18.774Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T15:28:18.774Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T17:11:21.729Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T17:11:21.729Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/59d68d5b3171174e631824f96c933978d64f977fd635d71491a61fb93eb79c04.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/30/tram8/99a75b51824341f7ad0a853a2725dad2.png"
+        ]
+      },
+      "description": {
+        "to": "Thịt viên 3 phút Heo Cao Bồi (dòng \"Snack dinh dưỡng\") là thịt heo viên sốt đã nấu chín sẵn, đóng trong túi chịu nhiệt theo công nghệ in trên hộp; dùng kèm cơm, bánh mì hoặc làm món ăn nhẹ.\n\nQuy cách: 200 g · hộp\nNhà sản xuất/thương hiệu: Heo Cao Bồi\nHướng dẫn sử dụng: Làm nóng theo hướng dẫn in trên hộp trước khi dùng.",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

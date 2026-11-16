@@ -1,0 +1,142 @@
+{
+  "kiotProductId": "67166518",
+  "code": "SP877914",
+  "barcode": "6972203376685",
+  "name": "Bún ốc Liễu Châu – Luosifen King",
+  "fullName": "Bún ốc Liễu Châu – Luosifen King (Ly)",
+  "brand": "Hàng nội địa Trung",
+  "unit": "Ly",
+  "category": {
+    "kiotCategoryId": "2549347",
+    "name": "Bún / hủ tiếu ăn liền",
+    "path": "Đồ khô - Mì Gói > Bún / hủ tiếu ăn liền"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/f0dbb82578ecf00d6742f663bc03fe55e6f8fedb3e65af75e4e56e2509969519.webp",
+    "description": "Bún ốc Liễu Châu (luosifen) vị truyền thống Luosiking dạng ly ăn liền, kèm nước dùng ốc kiểu Liễu Châu.<br><br>Quy cách: 188 g · ly<br>Xuất xứ: Trung Quốc · Nhà sản xuất/thương hiệu: Luosiking",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "IN_PROGRESS",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "line consistency 20/10 (v14): phone-photo look (dull, greyish lid) vs clean Luosiking render -> clean render → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt nội dung; chữ nhỏ minh hoạ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-20",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh hiện tại của SP (nội dung) + ảnh SP cùng dòng 66921899 (góc chụp/khung/ánh sáng)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết từ chữ in trên ly trong ảnh chủ gửi (柳州螺蛳粉, Luosiking, 含有炸蛋, 188 g: 米粉60g 配料128g)",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-14T00:27:51.908Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "batch f3: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-14T10:00:00.000Z",
+      "by": "owner",
+      "status": "READY",
+      "note": "owner sent photo; image processed"
+    },
+    {
+      "at": "2026-10-14T11:56:27.914Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description"
+    },
+    {
+      "at": "2026-10-14T11:56:53.967Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-14T13:39:56.212Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-20T16:40:26Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "line consistency 20/10: phone-photo look (dull, greyish lid) vs clean Luosiking render -> clean render (Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references)"
+    },
+    {
+      "at": "2026-10-20T16:41:11.515Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-26T04:58:33.990Z",
+      "by": "owner",
+      "status": "IN_PROGRESS",
+      "note": "rejected on Hub by AU KHUONG DUY: Đang đúng rồi"
+    },
+    {
+      "at": "2026-11-02T09:01:21.866Z",
+      "by": "init",
+      "status": "IN_PROGRESS",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-20T16:41:11.515Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "REJECTED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-20T16:42:18.468Z",
+    "note": "Đang đúng rồi"
+  },
+  "uploaded": {
+    "at": "2026-10-14T12:07:37.416Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/f0dbb82578ecf00d6742f663bc03fe55e6f8fedb3e65af75e4e56e2509969519.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/20/tram8/b6d70848dcb54affa460a3d897b90464.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Bún ốc Liễu Châu (luosifen) vị truyền thống Luosiking dạng ly ăn liền, kèm nước dùng ốc kiểu Liễu Châu.\n\nQuy cách: 188 g · ly\nXuất xứ: Trung Quốc · Nhà sản xuất/thương hiệu: Luosiking",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

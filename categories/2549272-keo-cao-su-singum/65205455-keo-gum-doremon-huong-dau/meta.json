@@ -1,0 +1,125 @@
+{
+  "kiotProductId": "65205455",
+  "code": "8934677051213",
+  "barcode": "8934677051213",
+  "name": "Kẹo gum doremon Hương dâu",
+  "fullName": "Kẹo gum doremon Hương dâu (Thanh)",
+  "brand": "Lotte",
+  "unit": "Thanh",
+  "category": {
+    "kiotCategoryId": "2549272",
+    "name": "Kẹo cao su / singum",
+    "path": "Các loại kẹo > Kẹo cao su / singum"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/40a0fbacb68105ffceeed62995cca15f72f40f6cc0a2038019f4b76ed540a190.webp",
+    "description": "Kẹo gum Lotte Doraemon hương Mixed Berries (trái cây hỗn hợp), dạng thanh.\n\nQuy cách: thanh\nNhà sản xuất/thương hiệu: Lotte · Doraemon",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I3/I4/I8: ảnh nhiều thanh trong hũ; mã vạch 8934677051213 là kẹo gum Doraemon thanh (iCheck), thanh trên kệ ghi Hương Mixed Berries → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: ảnh minh hoạ một thanh dựng từ ảnh hũ; khối lượng không đọc được nên không ghi",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (nhiều thanh trong hũ)",
+      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/04/26/tram8/aea1b5b9075f432fa1eb758cde2092d6.jpeg"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "source": null,
+    "rubricVersion": "v20",
+    "decision": "REWRITE",
+    "reason": "D2: mô tả cũ ghi hương dâu; thanh trên kệ (ảnh KiotViet, mã 8934677051213) ghi Hương Mixed Berries"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:31:48.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "review b08: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T04:49:23+00:00",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "Pack shows \"Hương Mixed Berries\", name says hương dâu; front cropped, weight unreadable; no web reference found"
+    },
+    {
+      "at": "2026-10-17T14:07:40Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T14:08:44Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "resolved without asking: barcode/evidence decides (D2: mô tả cũ ghi hương dâu; thanh trên kệ (ảnh KiotViet, mã 8934677051213) ghi Hương Mixed Berries)"
+    },
+    {
+      "at": "2026-10-17T14:09:44.456Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T14:09:44.456Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T15:38:08.207Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T15:38:08.207Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/40a0fbacb68105ffceeed62995cca15f72f40f6cc0a2038019f4b76ed540a190.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/04/26/tram8/aea1b5b9075f432fa1eb758cde2092d6.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Kẹo gum Lotte Doraemon hương Mixed Berries (trái cây hỗn hợp), dạng thanh.\n\nQuy cách: thanh\nNhà sản xuất/thương hiệu: Lotte · Doraemon",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

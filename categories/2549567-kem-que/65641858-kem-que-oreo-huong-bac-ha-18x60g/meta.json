@@ -1,0 +1,119 @@
+{
+  "kiotProductId": "65641858",
+  "code": "8850125000063",
+  "barcode": "8850125000063",
+  "name": "Kem Que Oreo Huong Bac Ha 18x60g",
+  "fullName": "Kem Que Oreo Huong Bac Ha 18x60g (Que)",
+  "brand": "Oreo",
+  "unit": "Que",
+  "category": {
+    "kiotCategoryId": "2549567",
+    "name": "Kem que",
+    "path": "Kem & Đồ đông lạnh > Kem que"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/16dfa1524cb4a87299592beeff78d6ee434817f386042858c0fdcfe4fbed272b.webp",
+    "description": "Kem que OREO hương bạc hà: kem bạc hà trộn mẩu bánh quy Oreo.\n\nQuy cách: 60 g · que\nNhà sản xuất/thương hiệu: OREO\nBảo quản: Giữ đông lạnh.",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "ảnh tự chụp (vỏ cong, nghiêng); không có ảnh hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt về chữ lớn (OREO, OREO MINT ICE CREAM); chữ nhỏ dưới đáy mờ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet của cửa hàng (chỉ làm mẫu)",
+      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/07/27/tram8/e81bb8a339ae4e7d9713c1aa5e8a45cb.png"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; không có trang hãng — mô tả ngắn chỉ từ dữ kiện chắc chắn (tên SP, chữ in mặt trước bao bì)",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:22:18.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "image CROP, description WRITE_NEW (pack front facts)"
+    },
+    {
+      "at": "2026-10-15T09:16:17Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "tone.py --vivid: white balance/levels + brand-like colour (owner request)"
+    },
+    {
+      "at": "2026-10-17T14:12:45Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T14:12:45.199Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T14:12:45.199Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T15:53:19.348Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T15:53:19.348Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/16dfa1524cb4a87299592beeff78d6ee434817f386042858c0fdcfe4fbed272b.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/27/tram8/e81bb8a339ae4e7d9713c1aa5e8a45cb.png"
+        ]
+      },
+      "description": {
+        "to": "Kem que OREO hương bạc hà: kem bạc hà trộn mẩu bánh quy Oreo.\n\nQuy cách: 60 g · que\nNhà sản xuất/thương hiệu: OREO\nBảo quản: Giữ đông lạnh.",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

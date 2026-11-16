@@ -1,0 +1,199 @@
+{
+  "kiotProductId": "67748129",
+  "code": "8936186851049",
+  "barcode": "8936186851049",
+  "name": "Trà sữa Thái xanh 250ml",
+  "fullName": "Trà sữa Thái xanh 250ml (Chai)",
+  "brand": "Lạc Lạc Tea",
+  "unit": "Chai",
+  "category": {
+    "kiotCategoryId": "2547497",
+    "name": "Trà sữa",
+    "path": "Món ngon Trạm 8 > Đồ uống pha chế > Trà sữa"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/039bc37060d44403690409fef3b36ada4e9523f8ec56e35a18b312bb6eec2114.webp",
+    "description": "Trà sữa Thái xanh Lạc Lạc, đồ uống pha sẵn đóng chai.\n\nQuy cách: 250 ml · chai\nThương hiệu: Lạc Lạc",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "chủ 19/10: cho khớp chai Thái đỏ → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: vẽ lại sạch theo ảnh thật; cỡ chai/tem theo Thái đỏ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-19",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet chai thật + ảnh Thái đỏ cùng dòng (khuôn chai, cỡ tem)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; không có nguồn hãng → viết ngắn chỉ từ tên SP và chữ in trên nhãn (tên vị, logo Lạc Lạc)",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:17:04.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "image REPLACE → NEEDS_PHOTO, description WRITE_NEW (name only)"
+    },
+    {
+      "at": "2026-10-19T02:39:38Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "redo after Hub rejection:  — Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-19T02:39:38.823Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T02:44:56.965Z",
+      "by": "owner",
+      "status": "IN_PROGRESS",
+      "note": "rejected on Hub by AU KHUONG DUY: Cái chai nó trơn như các chai trà sữa khác"
+    },
+    {
+      "at": "2026-10-19T02:46:37Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "redo after Hub rejection: Cái chai nó trơn như các chai trà sữa khác — Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-19T02:46:38.042Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T02:55:35Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "redo after Hub rejection: Cái chai nó trơn như các chai trà sữa khác — Gemini API redraw (attempt 3, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-19T02:55:36.196Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T03:11:10.027Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T03:19:05.400Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-19T02:55:36.196Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T02:56:39.145Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T02:56:39.145Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/039bc37060d44403690409fef3b36ada4e9523f8ec56e35a18b312bb6eec2114.webp"
+        ],
+        "from": [
+          "https://img.tram8.vn/products/bf306d556337c11bcee6343ff9a5e4d5b0e9dbd750112842fa5d0ad15da57bf1.webp"
+        ]
+      }
+    },
+    "unexpectedChanges": {
+      "price": {
+        "to": 25462.96,
+        "from": 25000
+      },
+      "saleTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 67748129
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 67748129
+        }
+      },
+      "taxRate": {
+        "to": "VAT 8%",
+        "from": "VAT 10%"
+      },
+      "productTaxs": {
+        "to": [
+          {
+            "id": 0,
+            "name": "VAT 8%",
+            "taxId": 3,
+            "value": 8,
+            "productId": 67748129
+          }
+        ],
+        "from": [
+          {
+            "id": 0,
+            "name": "VAT 10%",
+            "taxId": 4,
+            "value": 10,
+            "productId": 67748129
+          }
+        ]
+      },
+      "purchaseTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 67748129
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 67748129
+        }
+      }
+    }
+  }
+}

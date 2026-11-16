@@ -1,0 +1,113 @@
+{
+  "kiotProductId": "64865624",
+  "code": "8936202668675",
+  "barcode": "8936202668675",
+  "name": "Hạt thông",
+  "fullName": "Hạt thông (Lọ)",
+  "brand": "Phương Huyền",
+  "unit": "Lọ",
+  "category": {
+    "kiotCategoryId": "2549267",
+    "name": "Hạt các loại",
+    "path": "Đồ ăn vặt > Hạt các loại · Hoa quả sấy > Hạt các loại"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/0d425df9a57807c88983b182f0930aec4e58735fa085278baf3c9c3964dd5f28.webp",
+    "description": "Hạt thông (Pine nuts) Phương Huyền Food đóng hũ nhựa nắp vặn.\n\nQuy cách: hũ\nThương hiệu: Phương Huyền Food",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I3, I5: ảnh tay cầm, chụp cận nhãn, hũ bị cắt; không có trang hãng Phương Huyền Food → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Chữ lớn chép đúng (Chất lượng khẳng định, Thương hiệu số 1, logo Phương Huyền Food, PINE NUTS); bỏ dòng ngày NSX/HSD và khối lượng (bị tay che trong ảnh mẫu). Chữ công ty nhỏ ở mép phải là AI vẽ, không đọc được đầy đủ.",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (ảnh chụp tại cửa hàng)",
+      "referenceUrl": "https://cdn1-retail-images.kiotviet.vn/2026/01/06/tongpenhchtl/1465758c15074891b0d8f90f0a896563.jpeg"
+    },
+    "rubricVersion": "v17"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; mô tả ngắn chỉ từ dữ kiện chắc chắn (tên SP, chữ in mặt trước bao bì) vì không có trang hãng",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:43:14.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T05:13:03Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T05:13:12.794Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T05:23:58.238Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T05:13:12.794Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T05:14:28.454Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T05:14:28.454Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/0d425df9a57807c88983b182f0930aec4e58735fa085278baf3c9c3964dd5f28.webp"
+        ],
+        "from": [
+          "https://cdn1-retail-images.kiotviet.vn/2026/01/06/tongpenhchtl/1465758c15074891b0d8f90f0a896563.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Hạt thông (Pine nuts) Phương Huyền Food đóng hũ nhựa nắp vặn.\n\nQuy cách: hũ\nThương hiệu: Phương Huyền Food",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

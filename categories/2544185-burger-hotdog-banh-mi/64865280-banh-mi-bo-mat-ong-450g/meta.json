@@ -1,0 +1,125 @@
+{
+  "kiotProductId": "64865280",
+  "code": "SP000803",
+  "barcode": "8938545659228",
+  "name": "Bánh Mì Bơ Mật Ong 450g",
+  "fullName": "Bánh Mì Bơ Mật Ong 450g (Gói)",
+  "brand": "Thanh Hà Foods",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2544185",
+    "name": "Burger - Hotdog - Bánh mì",
+    "path": "Các loại bánh > Burger - Hotdog - Bánh mì"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/a6f5f61a8f57bc980adbdc397f070fe57ba2df6ababad6ba2daa2d9e8471b40e.webp",
+    "description": "Bánh mì bơ mật ong Thanh Hà Foods, làm với bơ thực vật và mật ong, bảo quản đông lạnh, nướng lại trước khi ăn.\n\nThành phần: Bột mỳ (38%), bơ thực vật (15%), dầu thực vật (8%), mật ong (8%), men, muối, đường, nước.\nQuy cách: 450 g · túi\nNhà sản xuất: Công ty TNHH Thực phẩm sạch Thanh Hà (Bình Minh, Hà Nội) · Thanh Hà Foods\nBảo quản: Ngăn đông, hạn sử dụng 6 tháng từ ngày sản xuất.\nHướng dẫn sử dụng: Rã đông, sau đó nướng lò 200°C khoảng 10 phút hoặc nồi chiên không dầu 160°C khoảng 5 phút; dùng ngay sau khi chế biến.",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I3/I4/I5: ảnh KiotViet chụp cận nhãn túi; 19/10 tìm web (trang hãng thanhhafoods.com, tên SP, ảnh ngược Yandex) không có ảnh nào, nhưng ảnh KiotViet thấy trọn nhãn dán → vẽ lại cả túi từ ảnh KiotViet (v23) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: mép túi và số bánh trong túi do AI dựng (ảnh mẫu bị cắt mép); bỏ dấu ngày NSX đóng trên nhãn; vài dòng chữ nhỏ có thể lệch",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-19",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet nhân viên chụp (chỉ làm mẫu)",
+      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/03/18/tongpenhchtl/03a2539071494dbf9c2fb102068e53cf.jpeg"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết từ chữ in trên nhãn túi (đọc trong ảnh hiện tại)",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:20:44.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "image REPLACE → NEEDS_PHOTO, description WRITE_NEW (label facts)"
+    },
+    {
+      "at": "2026-10-17T08:10:42.667Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "wave3: searched web/KFM/OFF, no reference; KiotViet photo is label close-up only"
+    },
+    {
+      "at": "2026-10-18T18:46:02Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "18/10 re-research (>=3 searches): still no image of this exact product → NEEDS_PHOTO"
+    },
+    {
+      "at": "2026-10-19T07:33:48Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-19T07:34:09.394Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T08:50:58.958Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T17:15:09.663Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-19T07:34:09.394Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T07:37:06.148Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T07:37:06.148Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/a6f5f61a8f57bc980adbdc397f070fe57ba2df6ababad6ba2daa2d9e8471b40e.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/03/18/tongpenhchtl/03a2539071494dbf9c2fb102068e53cf.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Bánh mì bơ mật ong Thanh Hà Foods, làm với bơ thực vật và mật ong, bảo quản đông lạnh, nướng lại trước khi ăn.\n\nThành phần: Bột mỳ (38%), bơ thực vật (15%), dầu thực vật (8%), mật ong (8%), men, muối, đường, nước.\nQuy cách: 450 g · túi\nNhà sản xuất: Công ty TNHH Thực phẩm sạch Thanh Hà (Bình Minh, Hà Nội) · Thanh Hà Foods\nBảo quản: Ngăn đông, hạn sử dụng 6 tháng từ ngày sản xuất.\nHướng dẫn sử dụng: Rã đông, sau đó nướng lò 200°C khoảng 10 phút hoặc nồi chiên không dầu 160°C khoảng 5 phút; dùng ngay sau khi chế biến.",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

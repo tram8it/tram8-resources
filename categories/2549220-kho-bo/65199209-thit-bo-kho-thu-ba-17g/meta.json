@@ -1,0 +1,112 @@
+{
+  "kiotProductId": "65199209",
+  "code": "8938501490063",
+  "barcode": "8938501490063",
+  "name": "Thịt bò khô Thu Ba 17g",
+  "fullName": "Thịt bò khô Thu Ba 17g (Gói)",
+  "brand": "Thu Ba",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2549220",
+    "name": "Khô bò",
+    "path": "Đồ ăn vặt > Thịt khô và chân gà > Khô bò"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/aa07af051daef153209db9775bc012ce700804c732bcb2563c79910925461195.webp",
+    "description": "Thịt bò khô Thu Ba, đặc sản Quảng Ngãi, gói nhỏ tiện mang theo, dùng làm món ăn vặt.\n\nQuy cách: 17 g · gói\nNhà sản xuất/thương hiệu: Thu Ba",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I3, I4: ảnh bối cảnh (gói trên bàn kèm đĩa), nền không trắng, nhỏ; không có trang hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: vẽ theo mẫu gói 35g cùng dòng (ảnh KiotViet 17g nhỏ nhưng cùng thiết kế); dòng khối lượng để trống/mờ vì không đọc được khối lượng in trên gói 17g; tỷ lệ gói 17g có thể khác",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh SP cùng dòng 'Bò khô Thu Ba 35g' đã duyệt (làm mẫu bố cục) + ảnh KiotViet gói 17g (nhỏ)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; mô tả ngắn từ chữ in mặt trước gói (Thịt bò khô Thu Ba, đặc sản Quảng Ngãi, Beef Jerky) + khối lượng theo tên hàng",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:54:44.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "image REPLACE (lifestyle photo), description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T08:24:14Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 3, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T08:24:14.513Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T08:24:14.513Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T08:37:36.830Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T08:37:36.830Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/aa07af051daef153209db9775bc012ce700804c732bcb2563c79910925461195.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/04/25/tram8/4ffcf8da308649ca9310bb8c8422b12e.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Thịt bò khô Thu Ba, đặc sản Quảng Ngãi, gói nhỏ tiện mang theo, dùng làm món ăn vặt.\n\nQuy cách: 17 g · gói\nNhà sản xuất/thương hiệu: Thu Ba",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

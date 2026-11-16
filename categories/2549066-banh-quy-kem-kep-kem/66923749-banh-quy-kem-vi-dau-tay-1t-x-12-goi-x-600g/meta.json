@@ -1,0 +1,106 @@
+{
+  "kiotProductId": "66923749",
+  "code": "6952389223980",
+  "barcode": "6952389223980",
+  "name": "Bánh quy kem (vị dâu tây) (1T x 12 gói x 600g)",
+  "fullName": "Bánh quy kem (vị dâu tây) (1T x 12 gói x 600g) (Hộp)",
+  "brand": null,
+  "unit": "Hộp",
+  "category": {
+    "kiotCategoryId": "2549066",
+    "name": "Bánh quy kem / kẹp kem",
+    "path": "Bánh quy & bánh đóng gói > Bánh quy kem / kẹp kem"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": null,
+    "description": null,
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "IN_PROGRESS",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "ảnh minh hoạ (chủ 20/10: SP không được để trống ảnh) — route 4: hộp hồng trơn + bánh quy kẹp kem dâu, không thương hiệu. Khác hàng thật: không biết hộp thật nên vẽ hộp trơn không chữ/logo; hình bánh minh hoạ. Trước đó: ảnh minh hoạ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-21",
+      "style": "flat clean packaging render (v17)",
+      "reference": "không có ảnh mẫu (vẽ từ tên SP)",
+      "illustration": true
+    },
+    "rubricVersion": "v23"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: viết từ dữ kiện đã biết (tên, đơn vị KiotViet) — không thêm công dụng/thành phần chưa có nguồn (20/10)",
+    "source": null,
+    "rubricVersion": "v23"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:46:45.000Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "b13: ASK_OWNER"
+    },
+    {
+      "at": "2026-10-17T14:02:05Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "no photo and the barcode is not found online; staff photo needed"
+    },
+    {
+      "at": "2026-10-18T18:46:11Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "re-searched 18/10 (owner feedback, np18): no image of this exact product found; reason updated"
+    },
+    {
+      "at": "2026-10-19T07:38:02Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "19/10 re-research with image search (owner request): no image of this exact product/variant found"
+    },
+    {
+      "at": "2026-10-21T02:07:09Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "illustration 20/10: route 4: hộp hồng trơn + bánh quy kẹp kem dâu, không thương hiệu"
+    },
+    {
+      "at": "2026-10-21T02:07:09.794Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-26T04:58:33.990Z",
+      "by": "owner",
+      "status": "IN_PROGRESS",
+      "note": "rejected on Hub by AU KHUONG DUY: Toàn ảnh bịa ra ko dùng đc"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-21T02:07:09.794Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "REJECTED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-21T12:59:27.315Z",
+    "note": "Toàn ảnh bịa ra ko dùng đc"
+  }
+}

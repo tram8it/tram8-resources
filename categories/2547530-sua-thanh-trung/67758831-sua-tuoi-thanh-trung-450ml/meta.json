@@ -1,0 +1,126 @@
+{
+  "kiotProductId": "67758831",
+  "code": "8938503131742",
+  "barcode": "8938503131742",
+  "name": "Sữa Tươi Thanh Trùng 450ml",
+  "fullName": "Sữa Tươi Thanh Trùng 450ml (Hộp)",
+  "brand": "Đà Lạt Milk",
+  "unit": "Hộp",
+  "category": {
+    "kiotCategoryId": "2547530",
+    "name": "Sữa thanh trùng",
+    "path": "Sữa và các sản phẩm từ sữa > Sữa thanh trùng"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/982d5d166de267218ea9f7b0d21df3dcc615fb84c414b0fdb4657c1efe17aef4.webp",
+    "description": "Sữa tươi thanh trùng Dalat Milk nguyên chất, hộp giấy 450 ml có nắp gấp, \"hoàn toàn từ sữa tươi cao nguyên\" theo chữ in trên bao bì. Sản phẩm thanh trùng, cần giữ lạnh.\n\nQuy cách: 450 ml · hộp giấy\nNhà sản xuất/thương hiệu: Dalat Milk",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "Đồng bộ dòng SP (chủ 20/10): kiểu ảnh theo 67758839 → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: mặt bên hộp không còn thấy; giữ chữ 'NGUYÊN CHẤT'",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-19",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh hiện tại/KiotViet của SP (nội dung) + ảnh đã duyệt của SP cùng dòng 67758839 (kiểu, góc, khung)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; không truy cập được trang hãng, viết ngắn chỉ từ dữ kiện chắc chắn (tên SP và chữ in mặt trước bao bì)",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-14T00:27:22.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "batch f1: image KEEP, description WRITE_NEW short"
+    },
+    {
+      "at": "2026-10-18T17:48:26.915Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description"
+    },
+    {
+      "at": "2026-10-19T02:05:27.524Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T03:19:05.400Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-19T18:53:25Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "line consistency 20/10: 3D carton -> flat front gable-top carton like the Ít đường one — Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-19T18:54:09.585Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-20T03:28:53.537Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-26T04:58:33.990Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-19T18:54:09.585Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-20T03:25:48.865Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-20T03:25:48.865Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/982d5d166de267218ea9f7b0d21df3dcc615fb84c414b0fdb4657c1efe17aef4.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/08/22/tram8/5394f8de6b484c6eaacb9fa4b1c2695c.jpeg"
+        ]
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

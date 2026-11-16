@@ -1,0 +1,130 @@
+{
+  "kiotProductId": "65831866",
+  "code": "6970645319529",
+  "barcode": "6970645319529",
+  "name": "Bánh quy mini mỏng vị cacao",
+  "fullName": "Bánh quy mini mỏng vị cacao (Gói)",
+  "brand": null,
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2549065",
+    "name": "Bánh quy giòn / lạt",
+    "path": "Bánh quy & bánh đóng gói > Bánh quy giòn / lạt"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/05c59e501646af5004290e80280ae679cfa994781e120b5588331d3d4663e36d.webp",
+    "description": "Bánh quy mini lát mỏng vị cacao, giòn nhẹ, gói nhỏ tiện ăn vặt.\n\nQuy cách: gói",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "có ảnh nhân viên mới → vẽ lại sạch → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: vẽ phẳng, sạch theo ảnh chụp; chữ nhỏ để mờ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-19",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh nhân viên chụp (KiotViet 19/10)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; không có trang hãng, không có ảnh bao bì — mô tả ngắn chỉ từ tên SP",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T22:00:00.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "batch b14 review (rubric v4): image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T05:35:27Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "Tìm ảnh mẫu không có (OFF, web); không đoán bao bì vị cacao từ bản vị sữa"
+    },
+    {
+      "at": "2026-10-18T17:56:03Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "staff photo 2026-10-18 received (work/gemini/<id>/refs/2-staff.jpg) but wrinkled/tilted/glare → needs Gemini redraw; GEMINI_API_KEY not set on this machine"
+    },
+    {
+      "at": "2026-10-18T18:46:11Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "re-searched 18/10 (owner feedback, np18): no image of this exact product found; reason updated"
+    },
+    {
+      "at": "2026-10-19T05:20:26Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "redo after Hub rejection:  — Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-19T05:20:26.564Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T07:23:08.254Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T17:15:09.663Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-19T05:20:26.564Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T05:22:27.155Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T05:22:27.155Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/05c59e501646af5004290e80280ae679cfa994781e120b5588331d3d4663e36d.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/10/19/tram8/b9d93c1352024df8bab898cdec0bbd79.png"
+        ]
+      },
+      "description": {
+        "to": "Bánh quy mini lát mỏng vị cacao, giòn nhẹ, gói nhỏ tiện ăn vặt.\n\nQuy cách: gói",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

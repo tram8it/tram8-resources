@@ -1,0 +1,128 @@
+{
+  "kiotProductId": "65175941",
+  "code": "SP877179",
+  "barcode": null,
+  "name": "Bánh Mì Que Bò Phô Mai",
+  "fullName": "Bánh Mì Que Bò Phô Mai - Nướng (Cái)",
+  "brand": "Thanh Hà Foods",
+  "unit": "Cái",
+  "category": {
+    "kiotCategoryId": "2548795",
+    "name": "Bánh mì que",
+    "path": "Các loại bánh > Bánh mì que"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/32c1d0691027577599fd022dab99f7b017e732a33a52acfea2607eb26f357ea2.webp",
+    "description": "Bánh mì que nhân bò và phô mai của Thanh Hà Foods.\n\nQuy cách: cái\nThương hiệu: Thanh Hà Foods",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "chủ 20/10: ảnh lỗi/chưa có ảnh, khách không hình dung được SP → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: ảnh minh hoạ: bố cục theo vị cùng dòng, màu nhãn bò phô mai là suy đoán; chưa có ảnh thật",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-20",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh 2 vị bánh mì que Lâm Vũ cùng dòng"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; mô tả ngắn chỉ từ tên SP và thương hiệu (không có nguồn khác)",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-14T00:27:37.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "batch f2: image REPLACE (no image) -> needs photo, description WRITE_NEW short"
+    },
+    {
+      "at": "2026-10-17T12:00:00Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "Bánh mì que không có mã vạch nhà máy (hàng tươi giao theo ngày) → không vẽ Gemini, giữ NEEDS_PHOTO, cần nhân viên chụp"
+    },
+    {
+      "at": "2026-10-18T18:46:02Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "18/10 re-research (>=3 searches): still no image of this exact product → NEEDS_PHOTO"
+    },
+    {
+      "at": "2026-10-19T07:38:02Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "19/10 re-research with image search (owner request): no image of this exact product/variant found"
+    },
+    {
+      "at": "2026-10-20T16:22:15Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "redo after Hub rejection:  — Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-20T16:22:15.841Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-21T08:30:34.700Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-26T04:58:33.990Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-20T16:22:15.841Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-20T16:26:58.531Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-20T16:26:58.531Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/32c1d0691027577599fd022dab99f7b017e732a33a52acfea2607eb26f357ea2.webp"
+        ],
+        "from": null
+      },
+      "description": {
+        "to": "Bánh mì que nhân bò và phô mai của Thanh Hà Foods.\n\nQuy cách: cái\nThương hiệu: Thanh Hà Foods",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

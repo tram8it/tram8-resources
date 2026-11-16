@@ -1,0 +1,112 @@
+{
+  "kiotProductId": "65643361",
+  "code": "8801118253683",
+  "barcode": "8801118253683",
+  "name": "Kem sữa chua Lotte vị dâu 85ml",
+  "fullName": "Kem sữa chua Lotte vị dâu 85ml (Que)",
+  "brand": "Lotte",
+  "unit": "Que",
+  "category": {
+    "kiotCategoryId": "2549567",
+    "name": "Kem que",
+    "path": "Kem & Đồ đông lạnh > Kem que"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/e0554bc86ca08a7d621c39f48ea2d3ea58d253b22e3525172007692eef3d7f52.webp",
+    "description": "Kem que Greek Yogurt vị dâu của Lotte, kem sữa chua kiểu Hy Lạp kết hợp dâu.\n\nQuy cách: 85 ml · que\nNhà sản xuất/thương hiệu: Lotte\nBảo quản: Giữ đông lạnh dưới -18 °C.",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "CROP",
+    "reason": "I9: packshot nền trắng đúng SP (Lotte Greek Yogurt Strawberry 85 ml), chưa 1:1 → crop",
+    "source": null,
+    "rubricVersion": "v4",
+    "vivid": {
+      "rubricVersion": "v10",
+      "saturationGain": 1.25,
+      "contrastGain": 1.08,
+      "toneGain": 1.122,
+      "gamma": 1
+    }
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; không có trang hãng — mô tả ngắn chỉ từ dữ kiện chắc chắn (tên SP, chữ in mặt trước bao bì)",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:22:18.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "image CROP, description WRITE_NEW (pack front facts)"
+    },
+    {
+      "at": "2026-10-15T09:16:17Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "tone.py --vivid: white balance/levels + brand-like colour (owner request)"
+    },
+    {
+      "at": "2026-10-18T17:51:11.244Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T02:05:27.524Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T03:19:05.400Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-18T17:51:11.244Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T01:32:13.535Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T01:32:13.535Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/e0554bc86ca08a7d621c39f48ea2d3ea58d253b22e3525172007692eef3d7f52.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/30/tram8/1f19c24264aa4248afbc9aba9b46a218.png"
+        ]
+      },
+      "description": {
+        "to": "Kem que Greek Yogurt vị dâu của Lotte, kem sữa chua kiểu Hy Lạp kết hợp dâu.\n\nQuy cách: 85 ml · que\nNhà sản xuất/thương hiệu: Lotte\nBảo quản: Giữ đông lạnh dưới -18 °C.",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

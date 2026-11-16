@@ -1,0 +1,112 @@
+{
+  "kiotProductId": "65972677",
+  "code": "SP877568",
+  "barcode": "6958444997193",
+  "name": "Cáp sạc điện thoại Type-C USAMS model: SJ777 U94 dài 1m",
+  "fullName": "Cáp sạc điện thoại Type-C USAMS model: SJ777 U94 dài 1m (Cái)",
+  "brand": "USAMS",
+  "unit": "Cái",
+  "category": {
+    "kiotCategoryId": "2549578",
+    "name": "Cáp sạc & dây",
+    "path": "Phụ kiện điện tử > Cáp sạc & dây"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/8bd597382e189b2486b7f4ab181973bca9b73fe8c04c34b1dd2a9a7e72869bec.webp",
+    "description": "Cáp sạc USAMS model SJ777 (U94) đầu Type-C, hỗ trợ sạc nhanh 18W và truyền dữ liệu.\n\nQuy cách: dài 1 m · cái\nThương hiệu: USAMS",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I7: ảnh có tem giá/mã vạch của cửa hàng dán trên hộp; trang hãng USAMS không truy cập được → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: dải xanh dưới đáy chỉ còn huy hiệu '18W FAST CHARGING' (các huy hiệu khác bị tem che trên ảnh thật nên không vẽ); mã vạch 6958444997193 tra ra là cáp USAMS U94 USB-A sang Type-C 18W 1m, khớp hộp",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (hộp thật tại cửa hàng) + ảnh hộp USAMS cùng dãy (65972696, chỉ làm mẫu bố cục)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; mô tả ngắn từ chữ in trên vỏ hộp (không có trang hãng cho mã này)",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:18:56.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "price sticker on pack, USAMS site unreachable; description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T08:16:29Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T08:16:31.833Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T08:16:31.833Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T08:35:22.297Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T08:35:22.297Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/8bd597382e189b2486b7f4ab181973bca9b73fe8c04c34b1dd2a9a7e72869bec.webp"
+        ],
+        "from": [
+          "https://cdn1-retail-images.kiotviet.vn/2026/07/30/tram8/7f3a07e1027c408484e4329b44ade46e.png"
+        ]
+      },
+      "description": {
+        "to": "Cáp sạc USAMS model SJ777 (U94) đầu Type-C, hỗ trợ sạc nhanh 18W và truyền dữ liệu.\n\nQuy cách: dài 1 m · cái\nThương hiệu: USAMS",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

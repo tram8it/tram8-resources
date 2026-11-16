@@ -1,0 +1,141 @@
+{
+  "kiotProductId": "65594708",
+  "code": "8935049501657",
+  "barcode": "8935049501657",
+  "name": "Đồ Uống Fanta Grape 320ml 4×6 SF SA VING PACK",
+  "fullName": "Đồ Uống Fanta Grape 320ml 4×6 SF SA VING PACK (Lon)",
+  "brand": "Fanta",
+  "unit": "Lon",
+  "category": {
+    "kiotCategoryId": "2500663",
+    "name": "Nước ngọt có gas",
+    "path": "Đồ uống đóng chai > Nước ngọt có gas"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/3e24eff871c0b37ca2a2bf1c17683b8c100bf1c13df15d27998604d8f5f14583.webp",
+    "description": "Nước ngọt có gas Fanta hương nho của Coca-Cola Việt Nam, có bổ sung vitamin B3, B5, B6. Ngon hơn khi uống lạnh.\n\nThành phần: nước bão hòa CO₂, đường mía, đường HFCS, chất điều chỉnh độ acid (330, 331(iii), 452(i)), hương nho tự nhiên và tổng hợp, chất tạo ngọt tổng hợp (955, 950), chất bảo quản (211), màu tổng hợp (129, 133), hỗn hợp vitamin (B3, B5, B6).\nQuy cách: 320 ml · lon\nNhà sản xuất/thương hiệu: Coca-Cola Việt Nam · Fanta",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "line consistency 20/10: Fanta Hương Nho can had condensation droplets while Fanta Cam/Soda kem/Dâu cans are dry renders → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt chữ lớn; lon khô, bỏ giọt nước như các vị Fanta khác",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-20",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh hãng coca-cola.com lon Fanta Nho (nội dung) + lon Fanta Cam đã duyệt (kiểu ảnh)"
+    },
+    "rubricVersion": "v23"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; theo trang hãng (Fanta hương nho)",
+    "source": {
+      "url": "https://www.coca-cola.com/vn/vi/brands/fanta",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:41:16.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "b17: image CROP, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-15T09:16:17Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "tone.py --vivid: white balance/levels + brand-like colour (owner request)"
+    },
+    {
+      "at": "2026-10-17T13:59:53.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "image: shop photo replaced with brand packshot (www.coca-cola.com)"
+    },
+    {
+      "at": "2026-10-17T14:15:22.883Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-20T16:39:35Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "line consistency 20/10: Fanta Hương Nho can had condensation droplets while Fanta Cam/Soda kem/Dâu cans are dry renders -> Gemini redraw (own image for content, approved sibling for style); Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-20T16:41:35.956Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-21T08:30:34.700Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-26T04:58:33.990Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-20T16:41:35.956Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-20T16:44:52.869Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-20T16:44:52.869Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/3e24eff871c0b37ca2a2bf1c17683b8c100bf1c13df15d27998604d8f5f14583.webp"
+        ],
+        "from": [
+          "https://img.tram8.vn/products/bcc644fd0b9fff8330a44e683cb46653e86730fa093529e2fda05a8cce300af6.webp"
+        ]
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "kiotProductId": "67252027",
+  "code": "8935299653793",
+  "barcode": "8935299653793",
+  "name": "Bánh mì nướng bơ tỏi",
+  "fullName": "Bánh mì nướng bơ tỏi (Cái)",
+  "brand": null,
+  "unit": "Cái",
+  "category": {
+    "kiotCategoryId": "2549058",
+    "name": "Snack bánh mì nướng / crouton",
+    "path": "Đồ ăn vặt > Snacks > Snack bánh mì nướng / crouton"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": null,
+    "description": null,
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "IN_PROGRESS",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "ảnh minh hoạ (chủ 20/10: SP không được để trống ảnh) — route 4: bánh mì nướng bơ tỏi trong túi trong, không nhãn. Khác hàng thật: không biết bao bì thật nên vẽ túi trong trơn giống SP bơ đường cùng hãng; hình lát bánh minh hoạ; không ghi khối lượng. Trước đó: ảnh minh hoạ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-21",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh minh hoạ SP cùng nhà sản xuất 67247688 (bánh mì nướng bơ đường)",
+      "illustration": true
+    },
+    "rubricVersion": "v23"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết ngắn chỉ từ tên SP, không có nguồn hãng (chưa biết khối lượng, nhà sản xuất)",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-14T00:26:21.026Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "batch f3: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T12:00:00Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "Đợt 3: tra Kingfoodmart, Open Food Facts và web theo mã vạch/tên — không có ảnh mẫu bao bì nào (chưa có ảnh KiotViet) → giữ NEEDS_PHOTO, cần nhân viên chụp"
+    },
+    {
+      "at": "2026-10-18T18:46:11Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "re-searched 18/10 (owner feedback, np18): no image of this exact product found; reason updated"
+    },
+    {
+      "at": "2026-10-19T07:38:02Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "19/10 re-research with image search (owner request): no image of this exact product/variant found"
+    },
+    {
+      "at": "2026-10-21T02:08:38Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "illustration 20/10: route 4: bánh mì nướng bơ tỏi trong túi trong, không nhãn"
+    },
+    {
+      "at": "2026-10-21T02:08:38.878Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-26T04:58:33.990Z",
+      "by": "owner",
+      "status": "IN_PROGRESS",
+      "note": "rejected on Hub by AU KHUONG DUY: Toàn ảnh bịa ra ko dùng đc"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-21T02:08:38.878Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "REJECTED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-21T12:59:27.757Z",
+    "note": "Toàn ảnh bịa ra ko dùng đc"
+  }
+}

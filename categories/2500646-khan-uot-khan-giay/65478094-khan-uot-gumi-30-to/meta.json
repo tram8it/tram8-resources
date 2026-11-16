@@ -1,0 +1,122 @@
+{
+  "kiotProductId": "65478094",
+  "code": "8938545682820",
+  "barcode": "8938545682820",
+  "name": "Khăn ướt Gumi 30 tờ",
+  "fullName": "Khăn ướt Gumi 30 tờ (Gói)",
+  "brand": "Gumi",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2500646",
+    "name": "Khăn ướt – khăn giấy",
+    "path": "Gia dụng & Tiện ích > Khăn ướt – khăn giấy"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/a577c61dd51d4f08aa44a196e6ea229562aac0c349fe3365986867002a3f1c75.webp",
+    "description": "Khăn ướt Gumi gói 30 tờ, khăn dày, mềm, không mùi, dùng lau tay, lau miệng hằng ngày. Gói có nắp giữ ẩm.\n\nThành phần: vải không dệt spunlace, nước tinh khiết, lô hội, vitamin E.\nQuy cách: gói 30 tờ · khăn 150 × 200 mm\nNhà sản xuất/thương hiệu: Công ty CP Sản xuất và Phân phối Gumi",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "ảnh tự chụp: gói bóng, nhăn, hơi mờ; trang hãng gumi.vn chỉ có ảnh quảng cáo nền màu → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ nhỏ không đọc rõ, chỉ minh hoạ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh quảng cáo trên gumi.vn (trang hãng, nền hồng, chỉ làm mẫu) + ảnh KiotViet",
+      "referenceUrl": "https://gumi.vn/product/khan-uot-30-to-gumi/"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết từ trang Gumi (mã vạch 8938545682820 trùng)",
+    "source": {
+      "url": "https://gumi.vn/product/khan-uot-30-to-gumi/",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:04:56.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "image CROP, description WRITE_NEW (gumi.vn)"
+    },
+    {
+      "at": "2026-10-15T09:16:17Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "tone.py --vivid: white balance/levels + brand-like colour (owner request)"
+    },
+    {
+      "at": "2026-10-17T14:19:41Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T14:19:41.379Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T14:19:41.379Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T16:48:23.577Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T16:48:23.577Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/a577c61dd51d4f08aa44a196e6ea229562aac0c349fe3365986867002a3f1c75.webp"
+        ],
+        "from": [
+          "https://cdn1-retail-images.kiotviet.vn/2026/07/30/tram8/219246d82d8749d0b355584900fa106d.png"
+        ]
+      },
+      "description": {
+        "to": "Khăn ướt Gumi gói 30 tờ, khăn dày, mềm, không mùi, dùng lau tay, lau miệng hằng ngày. Gói có nắp giữ ẩm.\n\nThành phần: vải không dệt spunlace, nước tinh khiết, lô hội, vitamin E.\nQuy cách: gói 30 tờ · khăn 150 × 200 mm\nNhà sản xuất/thương hiệu: Công ty CP Sản xuất và Phân phối Gumi",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

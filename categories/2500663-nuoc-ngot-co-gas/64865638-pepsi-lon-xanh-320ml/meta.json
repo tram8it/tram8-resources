@@ -1,0 +1,179 @@
+{
+  "kiotProductId": "64865638",
+  "code": "8934588012112",
+  "barcode": "8934588012112",
+  "name": "Pepsi Lon Xanh 320ml",
+  "fullName": "Pepsi Lon Xanh 320ml (Lon)",
+  "brand": "Pepsi",
+  "unit": "Lon",
+  "category": {
+    "kiotCategoryId": "2500663",
+    "name": "Nước ngọt có gas",
+    "path": "Đồ uống đóng chai > Nước ngọt có gas"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/1ad274b9646c7d0f2550609c976b1f5fb89591b48c668b18f8ecf8a99dc5f5d8.webp",
+    "description": "Nước ngọt có gas Pepsi vị cola của Suntory PepsiCo Việt Nam, lon nhỏ gọn tiện mang theo. Ngon hơn khi uống lạnh.<br><br>Quy cách: 320 ml · lon<br>Nhà sản xuất/thương hiệu: Suntory PepsiCo Việt Nam · Pepsi",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "ảnh tự chụp (mềm, lóa, bản in sự kiện) → ảnh hãng lon Pepsi 320 ml bao bì thường (v17) trên trang Suntory PepsiCo; ảnh hãng nhỏ, phóng 1,7 lần",
+    "source": {
+      "url": "https://api.suntorypepsico.vn/assets/33f8d278-583b-4dcf-8c45-59eff3498d1e",
+      "fetchedAt": "2026-10-17",
+      "page": "https://www.suntorypepsico.vn/thuong-hieu-cua-chung-toi/pepsi-3"
+    },
+    "rubricVersion": "v20"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; theo trang hãng",
+    "source": {
+      "url": "https://www.suntorypepsico.vn/thuong-hieu-cua-chung-toi/pepsi-3",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:41:16.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "b17: image CROP, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-15T09:16:17Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "tone.py --vivid: white balance/levels + brand-like colour (owner request)"
+    },
+    {
+      "at": "2026-10-17T13:58:49.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "image: shop photo replaced with brand packshot (api.suntorypepsico.vn)"
+    },
+    {
+      "at": "2026-10-17T13:59:05.861Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T13:59:05.861Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T14:03:43.084Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T14:03:43.084Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/1ad274b9646c7d0f2550609c976b1f5fb89591b48c668b18f8ecf8a99dc5f5d8.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/29/tram8/e16b000e134a4f028556adfb84100e2c.png"
+        ]
+      },
+      "description": {
+        "to": "Nước ngọt có gas Pepsi vị cola của Suntory PepsiCo Việt Nam, lon nhỏ gọn tiện mang theo. Ngon hơn khi uống lạnh.\n\nQuy cách: 320 ml · lon\nNhà sản xuất/thương hiệu: Suntory PepsiCo Việt Nam · Pepsi",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {
+      "price": {
+        "to": 11574.07,
+        "from": 11363.64
+      },
+      "saleTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 64865638
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 64865638
+        }
+      },
+      "taxRate": {
+        "to": "VAT 8%",
+        "from": "VAT 10%"
+      },
+      "productTaxs": {
+        "to": [
+          {
+            "id": 0,
+            "name": "VAT 8%",
+            "taxId": 3,
+            "value": 8,
+            "productId": 64865638
+          }
+        ],
+        "from": [
+          {
+            "id": 0,
+            "name": "VAT 10%",
+            "taxId": 4,
+            "value": 10,
+            "productId": 64865638
+          }
+        ]
+      },
+      "purchaseTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 64865638
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 64865638
+        }
+      }
+    }
+  }
+}

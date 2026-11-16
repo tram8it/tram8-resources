@@ -1,0 +1,124 @@
+{
+  "kiotProductId": "67002173",
+  "code": "8850124073174",
+  "barcode": "8850124073174",
+  "name": "Kem Nestle Milo Socola Lúa Mạch 6x240g",
+  "fullName": "Kem Nestle Milo Socola Lúa Mạch 6x240g (Hũ)",
+  "brand": "Milo",
+  "unit": "Hũ",
+  "category": {
+    "kiotCategoryId": "2549574",
+    "name": "Kem hộp lớn / gia đình",
+    "path": "Kem & Đồ đông lạnh > Kem hộp lớn / gia đình"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/a75d5b9c460b4134c53605daf0dc0901e5760475b403af0db9c420397b57e455.webp",
+    "description": "Kem Nestlé MILO vị sô-cô-la lúa mạch, đóng hũ (pint) có nắp.\n\nQuy cách: 240 g · hũ\nThương hiệu: Nestlé MILO\nBảo quản: giữ đông lạnh.",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "ảnh tự chụp (nghiêng, nắp mờ, in hạn dùng); không có ảnh hãng bao bì Thái → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: bảng dinh dưỡng GDA và chữ nhỏ làm mờ (ảnh mẫu không đọc được); bỏ hạn dùng in trên nắp",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (chỉ làm mẫu)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết ngắn từ tên SP và chữ in mặt trước bao bì (không có trang hãng truy cập được)",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:25:20.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "b28 review: image CROP, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-15T09:16:17Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "tone.py --vivid: white balance/levels + brand-like colour (owner request)"
+    },
+    {
+      "at": "2026-10-17T14:12:38Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T14:13:57Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T14:14:44.620Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T14:14:44.620Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T16:17:04.915Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T16:17:04.915Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/a75d5b9c460b4134c53605daf0dc0901e5760475b403af0db9c420397b57e455.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/27/tram8/0c46f5221b8e49db8176f9b69c6fc6ee.png"
+        ]
+      },
+      "description": {
+        "to": "Kem Nestlé MILO vị sô-cô-la lúa mạch, đóng hũ (pint) có nắp.\n\nQuy cách: 240 g · hũ\nThương hiệu: Nestlé MILO\nBảo quản: giữ đông lạnh.",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

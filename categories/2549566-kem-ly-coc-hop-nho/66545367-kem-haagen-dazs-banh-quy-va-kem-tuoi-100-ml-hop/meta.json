@@ -1,0 +1,119 @@
+{
+  "kiotProductId": "66545367",
+  "code": "SP877800",
+  "barcode": "074570052028",
+  "name": "Kem Haagen Dazs Bánh Quy Và Kem Tươi 100 Ml (Hộp)",
+  "fullName": "Kem Haagen Dazs Bánh Quy Và Kem Tươi 100 Ml (Hộp) (Ly)",
+  "brand": "Häagen-Dazs",
+  "unit": "Ly",
+  "category": {
+    "kiotCategoryId": "2549566",
+    "name": "Kem ly / cốc / hộp nhỏ",
+    "path": "Kem & Đồ đông lạnh > Kem ly / cốc / hộp nhỏ"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/8237d5496a1c3c4c32ebb8768062b8109d890eddee32e06fe707410995cf0f3c.webp",
+    "description": "Kem Häagen-Dazs vị bánh quy và kem (Cookies & Cream), ly nhỏ 100 ml.\n\nQuy cách: 100 ml · ly\nNhà sản xuất/thương hiệu: Häagen-Dazs\nBảo quản: Giữ đông ở −18 °C hoặc lạnh hơn.",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "ảnh tự chụp (nghiêng, phóng to mờ); ảnh hãng có cờ khuyến mãi 'now with more cookies' → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: bỏ cờ khuyến mãi và chữ nhỏ dưới ly cho đồng bộ với các vị khác (ảnh hãng)",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh hãng Häagen-Dazs SG (chỉ làm mẫu) + ảnh KiotViet",
+      "referenceUrl": "https://www.haagendazs.com.sg/products/cookies-and-cream-minicup"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; mô tả ngắn từ tên hàng và chữ in trên ly (Häagen-Dazs Cookies & Cream)",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:40:09.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "rubric v4: image CROP, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-15T09:16:17Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "tone.py --vivid: white balance/levels + brand-like colour (owner request)"
+    },
+    {
+      "at": "2026-10-17T14:12:37Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T14:14:28.784Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T14:14:28.784Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T16:16:37.742Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T16:16:37.742Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/8237d5496a1c3c4c32ebb8768062b8109d890eddee32e06fe707410995cf0f3c.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/30/tram8/b8d40d89133b492abf67976d5d59be60.png"
+        ]
+      },
+      "description": {
+        "to": "Kem Häagen-Dazs vị bánh quy và kem (Cookies & Cream), ly nhỏ 100 ml.\n\nQuy cách: 100 ml · ly\nNhà sản xuất/thương hiệu: Häagen-Dazs\nBảo quản: Giữ đông ở −18 °C hoặc lạnh hơn.",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

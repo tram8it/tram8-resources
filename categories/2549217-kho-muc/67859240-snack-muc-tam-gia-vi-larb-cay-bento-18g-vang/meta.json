@@ -1,0 +1,113 @@
+{
+  "kiotProductId": "67859240",
+  "code": "8850157401494",
+  "barcode": "8850157401494",
+  "name": "Snack Mực Tẩm Gia Vị Larb Cay Bento 18g ( Vàng )",
+  "fullName": "Snack Mực Tẩm Gia Vị Larb Cay Bento 18g ( Vàng ) (Gói)",
+  "brand": "Bento",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2549217",
+    "name": "Khô mực",
+    "path": "Đồ ăn vặt > Thịt khô và chân gà > Khô mực"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/a6e43299edfe4e4f9663dbf8c941cd680b1827ea4d4fbbee968946443cecb137.webp",
+    "description": "Snack hải sản Bento tẩm gia vị Larb cay: miếng surimi trộn mực cán mỏng, tẩm gia vị, ăn liền.\n\nQuy cách: 18 g · gói\nThương hiệu: Bento",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I2: ảnh KiotViet cũ là gói đỏ vị Cay Ngọt (Sweet & Spicy), không phải vị Larb; trang hãng snnp.co.th chỉ có Bento MAX Larb 30g → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt chữ lớn; bảng dinh dưỡng (60/3/0/350), số FDA 74-2-04559-2-0007 và 'Net Wt. 18 g' khớp mẫu sau 1 lần sửa; chữ Thái nhỏ dòng cuối hơi khác",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh render gói vàng Spicy Larb 18g của Asian Pantry (asianpantry.com.au, chỉ làm mẫu)",
+      "referenceUrl": "https://asianpantry.com.au/products/bento-mixed-seafood-snack-spicy-larb-yellow-20g"
+    },
+    "rubricVersion": "v17"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; không có trang hãng, mô tả ngắn chỉ từ tên SP; thành phần 'surimi trộn mực' theo chữ in trên bao bì Bento VN",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T22:00:00.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "batch b14 review (rubric v4): image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T05:27:17Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T05:27:57.422Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T08:06:02.482Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T05:27:57.422Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T07:07:18.413Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T07:07:18.413Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/a6e43299edfe4e4f9663dbf8c941cd680b1827ea4d4fbbee968946443cecb137.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/08/27/tram8/9f5eff12bd5e40a4b3a538af1ac4e0b9.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Snack hải sản Bento tẩm gia vị Larb cay: miếng surimi trộn mực cán mỏng, tẩm gia vị, ăn liền.\n\nQuy cách: 18 g · gói\nThương hiệu: Bento",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

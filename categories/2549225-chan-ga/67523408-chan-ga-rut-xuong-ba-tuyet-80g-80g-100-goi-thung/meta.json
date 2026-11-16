@@ -1,0 +1,130 @@
+{
+  "kiotProductId": "67523408",
+  "code": "8938564591059",
+  "barcode": "8938564591059",
+  "name": "Chân Gà Rút Xương Bà Tuyết 80g ( 80g×100 gói / thùng )",
+  "fullName": "Chân Gà Rút Xương Bà Tuyết 80g ( 80g×100 gói / thùng ) (Gói)",
+  "brand": "Ăn Cùng Bà Tuyết",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2549225",
+    "name": "Chân gà",
+    "path": "Đồ ăn vặt > Thịt khô và chân gà > Chân gà"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/bfbe04c8efdcd5fe56c52e4d888806139688c5996e80fc8e5a7bf8955286881e.webp",
+    "description": "Chân gà rút xương Bà Tuyết, chân gà đã rút xương tẩm vị cay, gói lớn ăn vặt.\n\nQuy cách: 80 g · gói\nNhà sản xuất/thương hiệu: Ăn Cùng Bà Tuyết",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "chủ 19/10: có ảnh nhân viên → vẽ lại sạch → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: vẽ phẳng, sạch theo ảnh chụp; chữ nhỏ để mờ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-19",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh nhân viên chụp trên KiotViet 19/10"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; mô tả ngắn chỉ từ tên hàng (không có trang hãng)",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:30:00.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "b20 review: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T07:44:46Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "re-checked 17/10: no photo of the 80g pack, no brand site → still NEEDS_PHOTO"
+    },
+    {
+      "at": "2026-10-18T18:46:11Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "re-searched 18/10 (owner feedback, np18): no image of this exact product found; reason updated"
+    },
+    {
+      "at": "2026-10-19T03:18:50Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "redo after Hub rejection:  — Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-19T03:18:50.440Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T03:19:05.400Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-19T03:31:45.675Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T17:15:09.663Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-19T03:18:50.440Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T03:19:51.383Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T03:19:51.383Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/bfbe04c8efdcd5fe56c52e4d888806139688c5996e80fc8e5a7bf8955286881e.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/10/19/tram8/f55b4b17dd5f4ed88c703a359a6a9018.png"
+        ]
+      },
+      "description": {
+        "to": "Chân gà rút xương Bà Tuyết, chân gà đã rút xương tẩm vị cay, gói lớn ăn vặt.\n\nQuy cách: 80 g · gói\nNhà sản xuất/thương hiệu: Ăn Cùng Bà Tuyết",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

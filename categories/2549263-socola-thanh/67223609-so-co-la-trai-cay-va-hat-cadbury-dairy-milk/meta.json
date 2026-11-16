@@ -1,0 +1,114 @@
+{
+  "kiotProductId": "67223609",
+  "code": "7622210816665",
+  "barcode": "7622210816665",
+  "name": "Sô-cô-la trái cây và hạt Cadbury Dairy Milk",
+  "fullName": "Sô-cô-la trái cây và hạt Cadbury Dairy Milk (Thanh)",
+  "brand": "Cadbury",
+  "unit": "Thanh",
+  "category": {
+    "kiotCategoryId": "2549263",
+    "name": "Socola thanh",
+    "path": "Đồ ăn vặt > Chocolate > Socola thanh"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/d0babdeb520facf3bde84d03fd9d312d44ab0d3bf917526c2f0a7533448cb700.webp",
+    "description": "Sô cô la sữa Cadbury Dairy Milk Fruit & Nut với trái cây khô và hạt; bao bì ghi có hạt nguyên hạt.\n\nQuy cách: 100 g · thanh\nNhà sản xuất/thương hiệu: Cadbury Dairy Milk",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "CROP",
+    "reason": "I9: packshot nền trắng, không 1:1; crop, xem lại đạt",
+    "source": null,
+    "rubricVersion": "v4",
+    "vivid": {
+      "rubricVersion": "v10",
+      "saturationGain": 1.122,
+      "contrastGain": 1.039,
+      "toneGain": 1,
+      "gamma": 1
+    }
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết ngắn từ chữ in trên bao bì (ảnh hiện tại) + tên SP, không có trang hãng",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:14:49.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "image CROP, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-15T02:53:13.415Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-15T09:16:17Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "tone.py --vivid: white balance/levels + brand-like colour (owner request)"
+    },
+    {
+      "at": "2026-10-15T09:17:54.094Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-16T01:38:49.852Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-15T09:17:54.094Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-15T09:28:52.865Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-15T09:28:52.865Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/d0babdeb520facf3bde84d03fd9d312d44ab0d3bf917526c2f0a7533448cb700.webp"
+        ],
+        "from": [
+          "https://img.tram8.vn/products/243a25501d9927c310e1fda8755e9e413279b5017c3d724e9f09297f20a71a1b.webp"
+        ]
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

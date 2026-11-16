@@ -1,0 +1,130 @@
+{
+  "kiotProductId": "66201639",
+  "code": "8935001714361",
+  "barcode": "8935001714361",
+  "name": "Gói kẹo dẻo Chupa Chups Hương Cola & sourbites",
+  "fullName": "Gói kẹo dẻo Chupa Chups Hương Cola & sourbites (Gói)",
+  "brand": "Chupa Chups",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2549274",
+    "name": "Kẹo dẻo / jelly",
+    "path": "Các loại kẹo > Kẹo dẻo / jelly"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/97cf4cbbfe4ea2b57c8ee6a75d10d4911a6ad074473b03de17511f183571c958.webp",
+    "description": "Kẹo dẻo Chupa Chups Bites Sour hương trái cây, thanh kẹo dẻo nhiều màu vị chua ngọt.\n\nQuy cách: 24 g · gói\nThương hiệu: Chupa Chups",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "Chủ: chưa đẹp → vẽ lại sạch, phẳng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt; 24 g, hương trái cây như bao bì",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-18",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (chỉ làm mẫu)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "source": null,
+    "rubricVersion": "v20",
+    "decision": "WRITE_NEW",
+    "reason": "D1/D2: mã vạch 8935001714361 là Chupa Chups Bites kẹo dẻo hương trái cây (iCheck), khớp ảnh; không phải vị cola; viết từ chữ trên bao bì"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:19:58.000Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "ask owner: cola vs fruit Bites"
+    },
+    {
+      "at": "2026-10-17T14:04:10Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "resolved without asking: barcode = Chupa Chups Bites fruit (iCheck), matches current photo; name mismatch logged"
+    },
+    {
+      "at": "2026-10-17T14:09:51.297Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "IN_PROGRESS",
+      "note": "rejected on Hub by AU KHUONG DUY: Chưa đẹp"
+    },
+    {
+      "at": "2026-10-18T11:29:28Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "redo after Hub rejection: Chưa đẹp — Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-18T11:29:28.754Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-18T17:16:08.691Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T03:19:05.400Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-18T11:29:28.754Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-18T17:11:09.717Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-18T17:11:09.717Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/97cf4cbbfe4ea2b57c8ee6a75d10d4911a6ad074473b03de17511f183571c958.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/29/tram8/c12c964ca2c7490b950da3736ab13a53.png"
+        ]
+      },
+      "description": {
+        "to": "Kẹo dẻo Chupa Chups Bites Sour hương trái cây, thanh kẹo dẻo nhiều màu vị chua ngọt.\n\nQuy cách: 24 g · gói\nThương hiệu: Chupa Chups",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "kiotProductId": "65205421",
+  "code": "8801062289936",
+  "barcode": "8801062289936",
+  "name": "Bim bim cheetos vị thịt nướng BBQ 88g",
+  "fullName": "Bim bim cheetos vị thịt nướng BBQ 88g (Gói)",
+  "brand": "Cheetos",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2549014",
+    "name": "Snack bắp & phồng",
+    "path": "Đồ ăn vặt > Snacks > Snack bắp & phồng"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/3770b80775116c53ab3b374df1782a34bb0fd5d37a2f177a459248d2c44ed655.webp",
+    "description": "Snack Cheetos vị thịt nướng BBQ xông khói (스모키바베큐맛) bản Hàn Quốc, que bắp giòn tẩm gia vị BBQ; sản xuất theo giấy phép bởi Lotte.\n\nQuy cách: 82 g · gói\nXuất xứ: Hàn Quốc · Nhà sản xuất/thương hiệu: Lotte · Cheetos",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I9/I3: ảnh cũ chưa 1:1, gói nhăn/bóng; vẽ lại phẳng cho đồng bộ dãy Cheetos (SP 65497234 cũng là ảnh Gemini, v14) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt đáng kể; bỏ dòng chữ nhỏ dưới '과자 82 g (480 kcal)' vì không đọc được trên mẫu; gói in 82 g (tên KiotViet 88g, theo bao bì, v19)",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet hiện tại (packshot gói Cheetos Hàn Quốc nền trắng)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; mô tả ngắn từ chữ in mặt trước bao bì (vị, khối lượng 82 g theo gói thật, v19)",
+    "source": null,
+    "rubricVersion": "v19"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:23:35.000Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "asked owner: net weight 82g (label) vs 88g (name)"
+    },
+    {
+      "at": "2026-10-17T08:55:26Z",
+      "by": "owner",
+      "status": "ASK_OWNER",
+      "note": "Chủ trả lời 17/10 (RUBRIC v19): khối lượng theo bao bì đúng mã vạch, lệch nhỏ (≤ ~10%) không cần sửa tên"
+    },
+    {
+      "at": "2026-10-17T08:55:27Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 3, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T08:55:35Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Mô tả mới từ chữ in mặt trước bao bì, quy cách 82 g theo gói (v19)"
+    },
+    {
+      "at": "2026-10-17T08:55:36.001Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T08:55:36.001Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T09:05:26.079Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T09:05:26.079Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/3770b80775116c53ab3b374df1782a34bb0fd5d37a2f177a459248d2c44ed655.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/30/tram8/f2842bb48cb945d785dcf198dc50b395.png"
+        ]
+      },
+      "description": {
+        "to": "Snack Cheetos vị thịt nướng BBQ xông khói (스모키바베큐맛) bản Hàn Quốc, que bắp giòn tẩm gia vị BBQ; sản xuất theo giấy phép bởi Lotte.\n\nQuy cách: 82 g · gói\nXuất xứ: Hàn Quốc · Nhà sản xuất/thương hiệu: Lotte · Cheetos",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

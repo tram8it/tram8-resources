@@ -1,0 +1,128 @@
+{
+  "kiotProductId": "65205343",
+  "code": "8935358700130",
+  "barcode": "8935358700130",
+  "name": "Thực Phẩm Bổ Sung - Nước Uống Pororo Hương Vị Đào (Chai)",
+  "fullName": "Thực Phẩm Bổ Sung - Nước Uống Pororo Hương Vị Đào (Chai) (Chai)",
+  "brand": "Pororo",
+  "unit": "Chai",
+  "category": {
+    "kiotCategoryId": "2549384",
+    "name": "Thức uống bổ sung dinh dưỡng",
+    "path": "Đồ uống đóng chai > Thức uống bổ sung dinh dưỡng"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/dcf5487def855a798f4133cd81f964106b88ff189c05b99423c268c01cd8aee5.webp",
+    "description": "Nước uống Pororo hương vị đào dành cho trẻ em, chai nắp bật tiện mang theo, bao bì in \"Bổ sung kẽm\".\n\nQuy cách: 235 ml · chai\nThương hiệu: Pororo",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "line consistency 20/10: ảnh hãng Paldo Vina (chai đào, nhãn VN mới) cùng nguồn với các vị Pororo khác; thay ảnh Gemini",
+    "source": {
+      "url": "https://paldovina.com/upload/nuoc-uong/noi-dia/pororo-dao.png",
+      "fetchedAt": "2026-10-20"
+    },
+    "rubricVersion": "v23"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; mô tả ngắn từ chữ in mặt trước bao bì; dung tích 235 ml đọc trên nhãn (v3)",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:39:43.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T05:15:12Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T05:15:35.811Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T05:23:58.238Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-20T16:35:30Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "line consistency 20/10: replaced Gemini redraw with Paldo Vina brand render like the other Pororo flavours"
+    },
+    {
+      "at": "2026-10-20T16:41:28.886Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-21T08:30:34.700Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-26T04:58:33.990Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-20T16:41:28.886Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-20T16:44:46.390Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-20T16:44:46.390Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/dcf5487def855a798f4133cd81f964106b88ff189c05b99423c268c01cd8aee5.webp"
+        ],
+        "from": [
+          "https://img.tram8.vn/products/98462e882de14274f2276554305d7fb884498ce462be4639c07e57a6be5ed3fd.webp"
+        ]
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

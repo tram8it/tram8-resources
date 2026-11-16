@@ -1,0 +1,119 @@
+{
+  "kiotProductId": "64865392",
+  "code": "6972031401214",
+  "barcode": "6972031401214",
+  "name": "Tăm chỉ nha khoa Gumi 50C",
+  "fullName": "Tăm chỉ nha khoa Gumi 50C (Hộp)",
+  "brand": "Gumi",
+  "unit": "Hộp",
+  "category": {
+    "kiotCategoryId": "2548830",
+    "name": "Tăm nha khoa",
+    "path": "Chăm sóc cá nhân > Chăm sóc răng miệng > Tăm nha khoa"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/d93dd779500b10b9ba5e1e6353b510faa2312711677eef3723d87159b790c8f8.webp",
+    "description": "Tăm chỉ cao cấp gumi dạng hộp nhựa 50 cây, mỗi cây gồm sợi chỉ nha khoa căng trên tay cầm nhựa, dùng để lấy mảng bám và thức ăn giữa các kẽ răng.\n\nChất liệu: Nhựa nguyên sinh (theo bao bì).\nQuy cách: 50 cây · hộp\nNhà sản xuất/thương hiệu: gumi · Công ty CP Sản xuất và Phân phối Gumi (Hà Nội, Việt Nam) chịu trách nhiệm chất lượng và phân phối\nHướng dẫn sử dụng: Luồn nhẹ sợi chỉ vào kẽ răng, kéo lên xuống để làm sạch.",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "ảnh tự chụp: gói bóng, nhăn, hơi mờ; trang hãng gumi.vn chỉ có ảnh quảng cáo nền màu → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ nhỏ không đọc rõ, chỉ minh hoạ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh quảng cáo trên gumi.vn (trang hãng, nền hồng, chỉ làm mẫu) + ảnh KiotViet",
+      "referenceUrl": "https://gumi.vn/product/tam-chi-nha-khoa-gumi/"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; mô tả ngắn từ chữ in trên hộp (gumi.vn chỉ có banner)",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:19:21.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "b30: image CROP, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-15T09:16:17Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "tone.py --vivid: white balance/levels + brand-like colour (owner request)"
+    },
+    {
+      "at": "2026-10-17T14:19:43Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T14:19:43.379Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T14:19:43.379Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T16:48:29.767Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T16:48:29.767Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/d93dd779500b10b9ba5e1e6353b510faa2312711677eef3723d87159b790c8f8.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/27/tram8/db699bdffe08411ea56961089e5475f6.png"
+        ]
+      },
+      "description": {
+        "to": "Tăm chỉ cao cấp gumi dạng hộp nhựa 50 cây, mỗi cây gồm sợi chỉ nha khoa căng trên tay cầm nhựa, dùng để lấy mảng bám và thức ăn giữa các kẽ răng.\n\nChất liệu: Nhựa nguyên sinh (theo bao bì).\nQuy cách: 50 cây · hộp\nNhà sản xuất/thương hiệu: gumi · Công ty CP Sản xuất và Phân phối Gumi (Hà Nội, Việt Nam) chịu trách nhiệm chất lượng và phân phối\nHướng dẫn sử dụng: Luồn nhẹ sợi chỉ vào kẽ răng, kéo lên xuống để làm sạch.",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

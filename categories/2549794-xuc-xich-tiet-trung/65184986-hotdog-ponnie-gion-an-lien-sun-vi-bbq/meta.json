@@ -1,0 +1,144 @@
+{
+  "kiotProductId": "65184986",
+  "code": "8936034877399",
+  "barcode": "8936034877399",
+  "name": "Hotdog Ponnie giòn ăn liền sụn vị BBQ",
+  "fullName": "Hotdog Ponnie giòn ăn liền sụn vị BBQ (Gói)",
+  "brand": "Ponnie",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2549794",
+    "name": "Xúc xích tiệt trùng",
+    "path": "Xúc Xích & Thịt Nguội > Xúc xích tiệt trùng"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/394283366b483aa70e48793602436b11ce0be26d69e8fd967dc8ffaa35852301.webp",
+    "description": "Xúc xích giòn ăn liền Ponnie (Meat Snack) loại mini có sụn, vị BBQ, gói nhỏ tiện mang theo.\n\nQuy cách: 20 g · gói\nNhà sản xuất/thương hiệu: Masan MEATLife · Ponnie",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I3/I4: ảnh hiện có không đạt, không có ảnh hãng/NPP → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Sửa theo chủ 19/10: gói dẹt dài như gói thật, đặt 2 khúc xúc xích mini cạnh gói (minh hoạ ruột, như các hotdog Ponnie đã duyệt) cho khách thấy SP nhỏ. Chữ lớn khớp mẫu (PÖNNIE, Xúc xích giòn ăn liền, MINI, Sụn vị BBQ, 20 g)",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-19",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh Minh Cầu Mart theo đúng mã vạch (chỉ làm mẫu, qua bản vẽ lần 1) + ảnh đã duyệt Hotdog Ponnie vị cay (mẫu phong cách)",
+      "referenceUrl": "https://minhcaumart.vn/media/com_eshop/products/8936034877399.webp"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: từ chữ trên gói (ảnh theo mã vạch): Meat Snack, xúc xích giòn ăn liền, mini, sụn vị BBQ, 20 g",
+    "source": {
+      "url": "https://minhcaumart.vn/media/com_eshop/products/8936034877399.webp",
+      "fetchedAt": "2026-10-18T18:25:13Z"
+    },
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:17:58.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "b16 review: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T05:26:52.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "photo search 17/10: no usable reference found"
+    },
+    {
+      "at": "2026-10-18T18:24:53Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-18T18:25:13Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "np18 re-research: description rewritten from pack/official facts"
+    },
+    {
+      "at": "2026-10-18T18:25:13.844Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T02:05:27.524Z",
+      "by": "owner",
+      "status": "IN_PROGRESS",
+      "note": "rejected on Hub by AU KHUONG DUY: tham khảo mấy cái xúc xích ponie khác, cái này nhìn hơi to khách nhầm"
+    },
+    {
+      "at": "2026-10-19T02:11:44Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-19T02:11:44.806Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T02:44:56.965Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T03:19:05.400Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-19T02:11:44.806Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T02:19:11.834Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T02:19:11.834Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/394283366b483aa70e48793602436b11ce0be26d69e8fd967dc8ffaa35852301.webp"
+        ],
+        "from": null
+      },
+      "description": {
+        "to": "Xúc xích giòn ăn liền Ponnie (Meat Snack) loại mini có sụn, vị BBQ, gói nhỏ tiện mang theo.\n\nQuy cách: 20 g · gói\nNhà sản xuất/thương hiệu: Masan MEATLife · Ponnie",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

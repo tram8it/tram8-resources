@@ -1,0 +1,112 @@
+{
+  "kiotProductId": "67758742",
+  "code": "8938503131414",
+  "barcode": "8938503131414",
+  "name": "Sữa chua uống ĐÀ LẠT MILK 200ml",
+  "fullName": "Sữa chua uống ĐÀ LẠT MILK 200ml (Chai)",
+  "brand": "Đà Lạt Milk",
+  "unit": "Chai",
+  "category": {
+    "kiotCategoryId": "2547911",
+    "name": "Sữa chua uống",
+    "path": "Sữa và các sản phẩm từ sữa > Sữa chua > Sữa chua uống"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/9835595891f2b4f9419732350d8c93ef7f5c0567db80cdd37e078be7b56790b6.webp",
+    "description": "Sữa chua uống có đường Dalat Milk, làm hoàn toàn từ sữa tươi cao nguyên Đà Lạt.\n\nQuy cách: 200 ml · chai\nNhà sản xuất/thương hiệu: Dalat Milk",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "CROP",
+    "reason": "I9: packshot nền trắng, đúng SP Dalat Milk có đường 200 ml, chưa đúng 1:1 → crop, đã xem lại",
+    "source": null,
+    "rubricVersion": "v4",
+    "vivid": {
+      "rubricVersion": "v10",
+      "saturationGain": 1.25,
+      "contrastGain": 1.08,
+      "toneGain": 1,
+      "gamma": 1
+    }
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết ngắn từ chữ in mặt trước chai (không truy cập được trang hãng)",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:36:29.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "b10 review: image CROP, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-15T09:16:17Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "tone.py --vivid: white balance/levels + brand-like colour (owner request)"
+    },
+    {
+      "at": "2026-10-18T17:48:40.593Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T02:05:27.524Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T03:19:05.400Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-18T17:48:40.593Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T00:16:00.967Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T00:16:00.967Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/9835595891f2b4f9419732350d8c93ef7f5c0567db80cdd37e078be7b56790b6.webp"
+        ],
+        "from": [
+          "https://cdn1-retail-images.kiotviet.vn/2026/08/22/tram8/98fc65035fd24cf3b3a8f71d0cfc2281.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Sữa chua uống có đường Dalat Milk, làm hoàn toàn từ sữa tươi cao nguyên Đà Lạt.\n\nQuy cách: 200 ml · chai\nNhà sản xuất/thương hiệu: Dalat Milk",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

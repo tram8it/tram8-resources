@@ -1,0 +1,119 @@
+{
+  "kiotProductId": "67151670",
+  "code": "8936236143230",
+  "barcode": "8936236143230",
+  "name": "Tóp mỡ cuộn Quang Thành 170g",
+  "fullName": "Tóp mỡ cuộn Quang Thành 170g (Lọ)",
+  "brand": "Quang Thanh",
+  "unit": "Lọ",
+  "category": {
+    "kiotCategoryId": "2549224",
+    "name": "Tóp mỡ",
+    "path": "Đồ ăn vặt > Thịt khô và chân gà > Tóp mỡ"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/37c948fcf8f263a937f838599e8b1f9bed7eab75dd67002541a9754a951e9aae.webp",
+    "description": "Tóp mỡ cuộn muối ớt mắm tỏi Quang Thanh Foods: tóp mỡ cuộn chiên giòn tẩm muối ớt, mắm và tỏi, đựng hũ nhựa có nắp, dùng ăn vặt hoặc ăn kèm cơm.\n\nQuy cách: 170 g · lọ\nXuất xứ: Việt Nam (Hải Phòng) · Nhà sản xuất/thương hiệu: Quang Thanh Foods",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I3/I4/I5: ảnh KiotViet chụp cận nhãn, không thấy nắp → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: nhãn khớp ảnh (Quang Thanh Foods, Tóp mỡ cuộn, Muối ớt mắm tỏi); bỏ dấu in NSX/HSD; nắp hũ không thấy trong ảnh nên vẽ nắp nhựa trong; không in khối lượng",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-18",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet chụp cận nhãn hũ (chỉ làm mẫu)",
+      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/07/20/tram8/819a6cafdaf14c4fab868891a9d33049.jpeg"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; mô tả ngắn từ chữ in trên nhãn và tên SP (không có trang hãng)",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:27:04.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "b30: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T08:24:52.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "wave3: no usable reference for a Gemini redraw"
+    },
+    {
+      "at": "2026-10-18T18:43:06Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-18T18:43:14.216Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T02:05:27.524Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T03:19:05.400Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-18T18:43:14.216Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T01:51:17.119Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T01:51:17.119Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/37c948fcf8f263a937f838599e8b1f9bed7eab75dd67002541a9754a951e9aae.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/20/tram8/819a6cafdaf14c4fab868891a9d33049.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Tóp mỡ cuộn muối ớt mắm tỏi Quang Thanh Foods: tóp mỡ cuộn chiên giòn tẩm muối ớt, mắm và tỏi, đựng hũ nhựa có nắp, dùng ăn vặt hoặc ăn kèm cơm.\n\nQuy cách: 170 g · lọ\nXuất xứ: Việt Nam (Hải Phòng) · Nhà sản xuất/thương hiệu: Quang Thanh Foods",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

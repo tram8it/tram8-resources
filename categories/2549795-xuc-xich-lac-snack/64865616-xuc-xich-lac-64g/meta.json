@@ -1,0 +1,113 @@
+{
+  "kiotProductId": "64865616",
+  "code": "8936034877740",
+  "barcode": "8936034877740",
+  "name": "Xúc xích lắc -64G",
+  "fullName": "Xúc xích lắc -64G (Hộp)",
+  "brand": "Heo Cao Bồi",
+  "unit": "Hộp",
+  "category": {
+    "kiotCategoryId": "2549795",
+    "name": "Xúc xích lắc & snack",
+    "path": "Xúc Xích & Thịt Nguội > Xúc xích lắc & snack"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/4e10b09cdc2f5738d6906d628d89d98ec1cac628619c27f7f798baf633a65ee7.webp",
+    "description": "Xúc xích lắc Heo Cao Bồi đóng hũ, dòng snack dinh dưỡng: xúc xích ăn liền kèm gói gia vị để cho vào hũ, đậy nắp lắc đều rồi dùng. Tiện mang theo làm món ăn vặt.\n\nQuy cách: 64 g · hộp\nNhà sản xuất/thương hiệu: Heo Cao Bồi",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I3, I4: ảnh chụp điện thoại cầm tay, nền không trắng; Heo Cao Bồi (SNF) không có trang hãng truy cập được → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ rất nhỏ trong con dấu xanh 'Bảo quản tự nhiên' bị nhoè; mặt trước không in khối lượng (64g theo tên KiotViet)",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh render hũ trên Kingfoodmart (cùng mã vạch, chỉ làm mẫu) + ảnh KiotViet",
+      "referenceUrl": "https://storage.googleapis.com/onelife-public/8936034877740.jpg"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; mô tả ngắn chỉ từ dữ kiện chắc chắn (tên KiotViet, chữ mặt trước hũ), không có nguồn hãng; tên KiotViet không ghi vị nên không nêu vị",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:57:41.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "image REPLACE (no official source) → NEEDS_PHOTO, description WRITE_NEW from pack front"
+    },
+    {
+      "at": "2026-10-17T07:46:52Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T07:55:22.591Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T08:06:02.482Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T07:55:22.591Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T08:02:58.857Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T08:02:58.857Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/4e10b09cdc2f5738d6906d628d89d98ec1cac628619c27f7f798baf633a65ee7.webp"
+        ],
+        "from": [
+          "https://cdn1-retail-images.kiotviet.vn/2026/01/03/tongpenhchtl/585657fd64f34c60a30b4ead3db54eda.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Xúc xích lắc Heo Cao Bồi đóng hũ, dòng snack dinh dưỡng: xúc xích ăn liền kèm gói gia vị để cho vào hũ, đậy nắp lắc đều rồi dùng. Tiện mang theo làm món ăn vặt.\n\nQuy cách: 64 g · hộp\nNhà sản xuất/thương hiệu: Heo Cao Bồi",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

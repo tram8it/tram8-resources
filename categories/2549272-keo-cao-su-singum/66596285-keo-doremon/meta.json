@@ -1,0 +1,113 @@
+{
+  "kiotProductId": "66596285",
+  "code": "8934677041016",
+  "barcode": "8934677041016",
+  "name": "Kẹo đôremon",
+  "fullName": "Kẹo đôremon (Quả)",
+  "brand": "Lotte",
+  "unit": "Quả",
+  "category": {
+    "kiotCategoryId": "2549272",
+    "name": "Kẹo cao su / singum",
+    "path": "Các loại kẹo > Kẹo cao su / singum"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/9f7c18e9942171afd62e301fb7ca2e59c6ced0fe7ad0de24da86206d3802e811.webp",
+    "description": "Kẹo Lotte Doraemon đựng trong hộp hình đầu Doraemon.\n\nQuy cách: quả\nNhà sản xuất/thương hiệu: Lotte · Doraemon",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I3/I4: ảnh chụp tay cầm, nền bàn/hộp; không có ảnh hãng/NPP → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Bỏ màng co bóng lóa; AI thêm đường ráp ngang giữa quả bóng (ảnh thật không thấy rõ); mặt trước không có chữ nên không kiểm được vị/khối lượng",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (chụp tay cầm)",
+      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/06/20/tram8/93a7652f88ea493a962aa70acc333fdc.jpeg"
+    },
+    "rubricVersion": "v17"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết ngắn chỉ từ tên SP (không có nguồn hãng; không ghi vị/khối lượng vì tên không nói rõ)",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:31:48.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "review b08: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T04:49:14Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T04:49:26.381Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T05:23:58.238Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T04:49:26.381Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T04:53:10.703Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T04:53:10.703Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/9f7c18e9942171afd62e301fb7ca2e59c6ced0fe7ad0de24da86206d3802e811.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/06/20/tram8/93a7652f88ea493a962aa70acc333fdc.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Kẹo Lotte Doraemon đựng trong hộp hình đầu Doraemon.\n\nQuy cách: quả\nNhà sản xuất/thương hiệu: Lotte · Doraemon",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

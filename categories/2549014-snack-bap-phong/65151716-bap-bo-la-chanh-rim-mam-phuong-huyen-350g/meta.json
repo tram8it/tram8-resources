@@ -1,0 +1,113 @@
+{
+  "kiotProductId": "65151716",
+  "code": "8938522697472",
+  "barcode": "8938522697472",
+  "name": "Bắp bò lá chanh rim mắm Phương Huyền 350g",
+  "fullName": "Bắp bò lá chanh rim mắm Phương Huyền 350g (Gói)",
+  "brand": "Phương Huyền",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2549014",
+    "name": "Snack bắp & phồng",
+    "path": "Đồ ăn vặt > Snacks > Snack bắp & phồng"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/3ff10f4506e58563dbb7a3e816aebbea40713328534d5d0d28944fbbeda019a2.webp",
+    "description": "Bắp bò lá chanh rim mắm: món ăn vặt từ bắp (ngô) sấy giòn rim mắm cùng lá chanh.\n\nQuy cách: 350 g · túi\nNhà sản xuất/thương hiệu: Phương Huyền",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I3/I4: ảnh tay cầm, nền cửa hàng; hàng địa phương, không có trang hãng/NPP, không tìm thấy ảnh trên mạng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Chữ lớn đúng (Đặc sản ba miền, New, BẮP BÒ LÁ CHANH, Rim Mắm, KLT 350g, mã vạch 8938522697472, CÔNG TY TNHH TM TP PHƯƠNG HUYỀN). Chữ rất nhỏ (thành phần, địa chỉ, email, điện thoại dưới tên công ty, chữ trong logo vương miện) là chữ AI tự vẽ, không đọc được thật — ảnh gốc cũng không đọc được dòng này; ở cỡ web gần như không thấy. Túi trong ảnh AI có khoảng trống phía trên, ảnh thật đầy hơn gần tới mép zip.",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (tay cầm trong cửa hàng; không tìm được ảnh hãng/NPP/bán lẻ trên mạng)",
+      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/04/24/tram8/3be46d25e7814e65b2998ddd022cf507.jpeg"
+    },
+    "rubricVersion": "v17"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết ngắn từ tên hàng (350 g) và chữ in trên nhãn",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:23:35.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "image needs staff photo, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T03:32:41Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T03:32:44.366Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T03:59:04.373Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T03:32:44.366Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T03:47:18.486Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T03:47:18.486Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/3ff10f4506e58563dbb7a3e816aebbea40713328534d5d0d28944fbbeda019a2.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/04/24/tram8/3be46d25e7814e65b2998ddd022cf507.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Bắp bò lá chanh rim mắm: món ăn vặt từ bắp (ngô) sấy giòn rim mắm cùng lá chanh.\n\nQuy cách: 350 g · túi\nNhà sản xuất/thương hiệu: Phương Huyền",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

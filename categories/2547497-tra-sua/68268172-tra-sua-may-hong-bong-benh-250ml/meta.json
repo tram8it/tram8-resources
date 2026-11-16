@@ -1,0 +1,191 @@
+{
+  "kiotProductId": "68268172",
+  "code": "SP878261",
+  "barcode": "8936186851230",
+  "name": "Trà Sữa Mây Hồng Bồng Bềnh 250ml",
+  "fullName": "Trà Sữa Mây Hồng Bồng Bềnh 250ml (Chai)",
+  "brand": "Lạc Lạc Tea",
+  "unit": "Chai",
+  "category": {
+    "kiotCategoryId": "2547497",
+    "name": "Trà sữa",
+    "path": "Món ngon Trạm 8 > Đồ uống pha chế > Trà sữa"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/d8afc3801828f52a8afd9b2e838ddd6bf97b4e94f28a40cdeed998f5d40cc852.webp",
+    "description": "Trà sữa Mây Hồng Bồng Bềnh, đồ uống pha sẵn đóng chai.\n\nQuy cách: 250 ml · chai",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "chủ 19/10: theo ảnh thật (2 lớp kem, chai trơn, gói phẳng) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: vẽ lại sạch theo ảnh thật; chữ nhỏ để mờ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-19",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet chủ chụp chai/gói thật"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; không có nguồn → viết ngắn chỉ từ tên SP (vị, dung tích)",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:17:04.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "image REPLACE → NEEDS_PHOTO, description WRITE_NEW (name only)"
+    },
+    {
+      "at": "2026-10-19T02:39:49Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "redo after Hub rejection:  — Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-19T02:39:49.496Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T02:44:56.965Z",
+      "by": "owner",
+      "status": "IN_PROGRESS",
+      "note": "rejected on Hub by AU KHUONG DUY: Cần tách 2 lớp như hình, và phần tem cần giống ảnh thật"
+    },
+    {
+      "at": "2026-10-19T02:46:32Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "redo after Hub rejection: Cần tách 2 lớp như hình, và phần tem cần giống ảnh thật — Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-19T02:46:32.617Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T03:11:10.027Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T03:19:05.400Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-19T02:46:32.617Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T02:47:42.070Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T02:47:42.070Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/d8afc3801828f52a8afd9b2e838ddd6bf97b4e94f28a40cdeed998f5d40cc852.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/10/19/tram8/20e7e82cf36944278726a5f25d1ac22a.jpg"
+        ]
+      },
+      "description": {
+        "to": "Trà sữa Mây Hồng Bồng Bềnh, đồ uống pha sẵn đóng chai.\n\nQuy cách: 250 ml · chai",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {
+      "price": {
+        "to": 24537.04,
+        "from": 24090.91
+      },
+      "saleTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 68268172
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 68268172
+        }
+      },
+      "taxRate": {
+        "to": "VAT 8%",
+        "from": "VAT 10%"
+      },
+      "productTaxs": {
+        "to": [
+          {
+            "id": 0,
+            "name": "VAT 8%",
+            "taxId": 3,
+            "value": 8,
+            "productId": 68268172
+          }
+        ],
+        "from": [
+          {
+            "id": 0,
+            "name": "VAT 10%",
+            "taxId": 4,
+            "value": 10,
+            "productId": 68268172
+          }
+        ]
+      },
+      "purchaseTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 68268172
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 68268172
+        }
+      }
+    }
+  }
+}

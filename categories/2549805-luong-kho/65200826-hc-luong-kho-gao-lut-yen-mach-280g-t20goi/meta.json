@@ -1,0 +1,112 @@
+{
+  "kiotProductId": "65200826",
+  "code": "8938554662189",
+  "barcode": "8938554662189",
+  "name": "HC lương khô gạo lứt yến mạch 280g T20GÓI",
+  "fullName": "HC lương khô gạo lứt yến mạch 280g T20GÓI (Gói)",
+  "brand": "Energy Dice",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2549805",
+    "name": "Lương khô",
+    "path": "Bánh quy & bánh đóng gói > Lương khô"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/22ee8a49c74f33715e18e33ab8462afde9ec3313682e615027761a42a64ff16a.webp",
+    "description": "Lương khô ăn kiêng gạo lứt yến mạch Energy Dice, dạng viên nén, bao bì ghi giảm đường – ít ngọt. Ăn trực tiếp.\n\nQuy cách: 280 g · gói\nXuất xứ: Việt Nam · Nhà sản xuất/thương hiệu: Energy Dice",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I3/I4/I5: ảnh điện thoại chụp gói trên mặt bàn, nền không trắng, sát khung; không có trang hãng Energy Dice (Hải Châu) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: vẽ phẳng, bỏ nhăn/lóa; chữ chính khớp ảnh mẫu; chữ nhỏ (chú thích hình) vẽ lại; mặt trước không in khối lượng 280g",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (chụp gói trên bàn)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết ngắn chỉ từ chữ in mặt trước gói (Energy Dice, Lương khô ăn kiêng – gạo lứt yến mạch, giảm đường – ít ngọt) và khối lượng trong tên",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-14T00:31:15.096Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "batch f3: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T08:23:29Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T08:23:29.866Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T08:23:29.866Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T08:37:23.833Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T08:37:23.833Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/22ee8a49c74f33715e18e33ab8462afde9ec3313682e615027761a42a64ff16a.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/04/25/tram8/867cb44d5fba4ecbb7ee52ace3818af7.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Lương khô ăn kiêng gạo lứt yến mạch Energy Dice, dạng viên nén, bao bì ghi giảm đường – ít ngọt. Ăn trực tiếp.\n\nQuy cách: 280 g · gói\nXuất xứ: Việt Nam · Nhà sản xuất/thương hiệu: Energy Dice",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

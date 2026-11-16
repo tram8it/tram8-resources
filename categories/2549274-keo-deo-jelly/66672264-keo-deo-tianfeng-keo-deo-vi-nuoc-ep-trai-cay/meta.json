@@ -1,0 +1,118 @@
+{
+  "kiotProductId": "66672264",
+  "code": "SP877865",
+  "barcode": "6910289453906",
+  "name": "Kẹo dẻo Tianfeng (Kẹo dẻo vị nước ép trái cây)",
+  "fullName": "Kẹo dẻo Tianfeng (Kẹo dẻo vị nước ép trái cây) (Hộp)",
+  "brand": "Hàng nội địa Trung",
+  "unit": "Hộp",
+  "category": {
+    "kiotCategoryId": "2549274",
+    "name": "Kẹo dẻo / jelly",
+    "path": "Các loại kẹo > Kẹo dẻo / jelly"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/a49846647483997ff69d192634a7afab98a5ae6d077dd42aaeb53b5671cd1b0d.webp",
+    "description": "Kẹo dẻo hình hạt đậu Tianfeng GuoZhiDou hương trái cây hỗn hợp, có từ 20% nước ép trái cây trở lên, nhiều vị trong một hộp.\n\nQuy cách: 25 g · hộp\nNhà sản xuất/thương hiệu: Tianfeng",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "ảnh tự chụp (nhăn, bóng, nghiêng); không có ảnh hãng đúng cỡ → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: bỏ hạn dùng in bên hông hộp; 25克 khớp ảnh mẫu",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (ảnh tự chụp, chỉ làm mẫu)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; không có trang hãng — mô tả ngắn chỉ từ tên SP và chữ in mặt trước bao bì (ảnh hiện tại)",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:19:58.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "image CROP, description WRITE_NEW (pack front)"
+    },
+    {
+      "at": "2026-10-15T09:16:17Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "tone.py --vivid: white balance/levels + brand-like colour (owner request)"
+    },
+    {
+      "at": "2026-10-17T14:06:50Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T14:07:26.400Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T14:07:26.400Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T15:18:25.325Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T15:18:25.325Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/a49846647483997ff69d192634a7afab98a5ae6d077dd42aaeb53b5671cd1b0d.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/30/tram8/7a52e3db7ead4d9abfeff62146d70e99.png"
+        ]
+      },
+      "description": {
+        "to": "Kẹo dẻo hình hạt đậu Tianfeng GuoZhiDou hương trái cây hỗn hợp, có từ 20% nước ép trái cây trở lên, nhiều vị trong một hộp.\n\nQuy cách: 25 g · hộp\nNhà sản xuất/thương hiệu: Tianfeng",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

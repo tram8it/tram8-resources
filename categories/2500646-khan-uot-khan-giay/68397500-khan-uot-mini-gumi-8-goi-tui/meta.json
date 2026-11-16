@@ -1,0 +1,114 @@
+{
+  "kiotProductId": "68397500",
+  "code": "6970738999195",
+  "barcode": "6970738999195",
+  "name": "Khăn Uớt Mini Gumi 8 gói/Túi",
+  "fullName": "Khăn Uớt Mini Gumi 8 gói/Túi (Gói)",
+  "brand": "Gumi",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2500646",
+    "name": "Khăn ướt – khăn giấy",
+    "path": "Gia dụng & Tiện ích > Khăn ướt – khăn giấy"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/662ff546b8eaea31770ecbf1ec8b86e49bf04e4a2f4012c0cfdb002a7c7fb947.webp",
+    "description": "Khăn ướt mini Gumi dạng gói nhỏ bỏ túi, tiện để trong túi xách, túi quần hay xe ô tô. Khăn vải không dệt, không cồn, không mùi.\n\nQuy cách: túi 8 gói · khăn 14 × 15 cm\nNhà sản xuất/thương hiệu: Công ty CP Sản xuất và Phân phối Gumi",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I1: chưa có ảnh; trang Gumi chỉ có ảnh banner nền màu có chữ, không có packshot → Gemini vẽ lại từ banner hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: ảnh mẫu nhỏ/mờ nên chi tiết hoa văn, gói nhìn qua cửa sổ là vẽ lại gần đúng; dòng chữ nhỏ dưới '8 GÓI' không đọc được; mã vạch 6970738999195 chưa đối chiếu được với bao bì",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh banner chính hãng gumi.vn (khan-uot-gumi-mimi-hop-tui.png, cắt lấy túi 8 gói; độ phân giải thấp) + ảnh gói lẻ trên gumi.vn",
+      "referenceUrl": "https://gumi.vn/product/khan-uot-mini-bo-tui-gumi/"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết từ trang Gumi loại túi 8 gói (mã vạch trên trang khác mã của mình, chỉ lấy dữ kiện chung của dòng)",
+    "source": {
+      "url": "https://gumi.vn/product/khan-uot-mini-bo-tui-gumi/",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:04:56.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "needs photo; description WRITE_NEW (gumi.vn)"
+    },
+    {
+      "at": "2026-10-17T08:05:45Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T08:05:47.875Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T08:05:47.875Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T08:07:25.147Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T08:07:25.147Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/662ff546b8eaea31770ecbf1ec8b86e49bf04e4a2f4012c0cfdb002a7c7fb947.webp"
+        ],
+        "from": null
+      },
+      "description": {
+        "to": "Khăn ướt mini Gumi dạng gói nhỏ bỏ túi, tiện để trong túi xách, túi quần hay xe ô tô. Khăn vải không dệt, không cồn, không mùi.\n\nQuy cách: túi 8 gói · khăn 14 × 15 cm\nNhà sản xuất/thương hiệu: Công ty CP Sản xuất và Phân phối Gumi",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

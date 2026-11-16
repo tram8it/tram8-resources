@@ -1,0 +1,145 @@
+{
+  "kiotProductId": "65860463",
+  "code": "8938520099049",
+  "barcode": "8938520099049",
+  "name": "Khô gà cay posi bơ tỏi 50g",
+  "fullName": "Khô gà cay posi bơ tỏi 50g (Gói)",
+  "brand": "Posi",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2549222",
+    "name": "Khô gà",
+    "path": "Đồ ăn vặt > Thịt khô và chân gà > Khô gà"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/b752b5254c2b6879e9e579d77af788a9023567b5c35358cd119ea0bb1b7755c0.webp",
+    "description": "Khô gà cay xé sợi Posi vị bơ tỏi, đóng túi zip đứng, dùng làm món ăn vặt hoặc đồ nhắm.\n\nQuy cách: 50 g · gói\nThương hiệu: Posi",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I2: ảnh KiotViet gói cũ in 40 g; chủ 17/10: khả năng là 50 g thật, dùng bao bì 50 g mới → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: bao bì 50 g mới (1 huy hiệu ISO 22000-2018, không có dòng 'Thơm ngon-Trọn vị'); chữ nhỏ trên dải ruy băng huy hiệu để trơn; còn lại không thấy khác biệt",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh Kingfoodmart gói 50 g mới, cùng mã vạch (chỉ làm mẫu)",
+      "referenceUrl": "https://storage.googleapis.com/onelife-public/8938520099049.jpg"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết ngắn từ chữ in mặt trước gói, khối lượng 50 g theo chủ (17/10)",
+    "source": null,
+    "rubricVersion": "v19"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:01:53.000Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "ask owner: pack shows 40 g, name says 50 g"
+    },
+    {
+      "at": "2026-10-17T08:45:00Z",
+      "by": "owner",
+      "note": "RUBRIC v19: khối lượng tin bao bì đúng mã vạch hơn tên KiotViet; chỉ hỏi khi lệch > ~10% hoặc rõ là cỡ khác",
+      "status": "ASK_OWNER"
+    },
+    {
+      "at": "2026-10-17T09:30:00Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "gap > ~10% / other size or needs shelf check: question shortened to the two numbers (RUBRIC v19)"
+    },
+    {
+      "at": "2026-10-17T12:00:00Z",
+      "by": "owner",
+      "status": "ASK_OWNER",
+      "note": "Kiểm kệ 17/10: gói in 50 g"
+    },
+    {
+      "at": "2026-10-17T12:56:35Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T12:58:14.703Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T13:56:00Z",
+      "by": "owner",
+      "status": "READY",
+      "note": "chủ: khả năng là 50g, dùng bao bì 50g mới"
+    },
+    {
+      "at": "2026-10-17T13:57:11Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 4, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T13:57:28.416Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T13:57:28.416Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T14:00:05.553Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T14:00:05.553Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/b752b5254c2b6879e9e579d77af788a9023567b5c35358cd119ea0bb1b7755c0.webp"
+        ],
+        "from": [
+          "https://img.tram8.vn/products/aab353ecf3afbd7431f63057b7ab8a32824a4b1767c75cbdb482bbe9aaddbe55.webp"
+        ]
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "kiotProductId": "64865238",
+  "code": "SP000749",
+  "barcode": "8936202660174",
+  "name": "Thịt Sấy Khô Sợi Nhỏ 99G",
+  "fullName": "Thịt Sấy Khô Sợi Nhỏ 99G (Lọ)",
+  "brand": "Phương Huyền",
+  "unit": "Lọ",
+  "category": {
+    "kiotCategoryId": "2549223",
+    "name": "Khô heo",
+    "path": "Đồ ăn vặt > Thịt khô và chân gà > Khô heo"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/0b4f7c71f250e59b9d20d01f57fd451676cf25b127be404a0636785ec922158f.webp",
+    "description": "Thịt sấy khô sợi nhỏ Phương Huyền: thịt sấy khô xé sợi ăn liền, đóng hũ nhựa nắp vặn.\n\nQuy cách: 99 g · hũ\nNhà sản xuất: Công ty TNHH TM TP Phương Huyền",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I3/I4: ảnh KiotViet chụp nghiêng, không thấy mặt trước → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: ghép nhãn quấn quanh hũ thành một mặt trước; chữ lớn khớp (Thịt sấy khô, Sợi nhỏ, KLT: 99g, Chất lượng khẳng định thương hiệu số 1); chữ nhỏ (địa chỉ) mờ/không chính xác",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-18",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh iCheck theo mã vạch (ảnh quảng cáo hũ Phương Huyền 99 g, chỉ làm mẫu)",
+      "referenceUrl": "https://assets.icheck.vn/image/2026/app/1/10/4953cfe811b5865e410879ba640a6b39.jpg"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: từ chữ trên nhãn hũ (ảnh iCheck theo mã vạch)",
+    "source": null,
+    "rubricVersion": "v23"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:49:09.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "b21: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T07:44:46Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "re-checked 17/10: photo shows side/back label of the jar, front not visible; no web reference → still NEEDS_PHOTO"
+    },
+    {
+      "at": "2026-10-18T18:27:21Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-18T18:27:21.707Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T02:05:27.524Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T03:19:05.400Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-18T18:27:21.707Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T01:49:22.578Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T01:49:22.578Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/0b4f7c71f250e59b9d20d01f57fd451676cf25b127be404a0636785ec922158f.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/03/15/tongpenhchtl/9f87ba5831854a2abc478fb7a1af9006.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Thịt sấy khô sợi nhỏ Phương Huyền: thịt sấy khô xé sợi ăn liền, đóng hũ nhựa nắp vặn.\n\nQuy cách: 99 g · hũ\nNhà sản xuất: Công ty TNHH TM TP Phương Huyền",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

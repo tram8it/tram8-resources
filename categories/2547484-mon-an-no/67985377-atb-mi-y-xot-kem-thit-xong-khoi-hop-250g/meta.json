@@ -1,0 +1,116 @@
+{
+  "kiotProductId": "67985377",
+  "code": "8936087530586",
+  "barcode": "8936087530586",
+  "name": "ATB _ Mì Ý Xốt Kem Thịt Xông Khói Hộp 250g",
+  "fullName": "ATB _ Mì Ý Xốt Kem Thịt Xông Khói Hộp 250g - Hâm (Hộp)",
+  "brand": "À Table",
+  "unit": "Hộp",
+  "category": {
+    "kiotCategoryId": "2547484",
+    "name": "Món ăn no",
+    "path": "Món ngon Trạm 8 > Món ăn no"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/3b04b0de3b37ebe079c2b5ba50559d76a949a8494921e38ca38d3ee730fbc3c5.webp",
+    "description": "Mì Ý xốt kem thịt xông khói của à Table, đóng hộp.\n\nQuy cách: 250 g · hộp\nNhà sản xuất/thương hiệu: à Table (ATABLE)",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "chủ 19/10: vẽ theo hộp ATB bò bằm → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: ảnh minh hoạ: cùng hộp với vị bò bằm; món bên trong và chữ tên vị vẽ theo tên SP, nhãn thật có thể khác chi tiết",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-19",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh hộp ATB Mì Ý Bò Bằm 250g cùng dòng (chủ chỉ định)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; không có nguồn → viết ngắn chỉ từ tên SP",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:20:13.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "image REPLACE → NEEDS_PHOTO, description WRITE_NEW (name only)"
+    },
+    {
+      "at": "2026-10-18T18:46:02Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "18/10 re-research (>=3 searches): still no image of this exact product → NEEDS_PHOTO"
+    },
+    {
+      "at": "2026-10-19T02:39:57Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "redo after Hub rejection:  — Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-19T02:39:57.805Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T02:44:56.965Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T03:19:05.400Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-19T02:39:57.805Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T02:42:54.618Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T02:42:54.618Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/3b04b0de3b37ebe079c2b5ba50559d76a949a8494921e38ca38d3ee730fbc3c5.webp"
+        ],
+        "from": null
+      },
+      "description": {
+        "to": "Mì Ý xốt kem thịt xông khói của à Table, đóng hộp.\n\nQuy cách: 250 g · hộp\nNhà sản xuất/thương hiệu: à Table (ATABLE)",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "kiotProductId": "68610344",
+  "code": "8936010532427",
+  "barcode": "8936010532427",
+  "name": "Trà Vải Nhãn Hiệu CoZy 320ml",
+  "fullName": "Trà Vải Nhãn Hiệu CoZy 320ml (Lon)",
+  "brand": "Cozy",
+  "unit": "Lon",
+  "category": {
+    "kiotCategoryId": "2549372",
+    "name": "Trà đóng chai",
+    "path": "Đồ uống đóng chai > Trà đóng chai"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/0e111122360b0eeaa6a7913290f8f696457af65f1460f3c90503aa6da044b895.webp",
+    "description": "Trà vải Cozy (Cozy Tea Lychee) uống liền, hương vải thơm ngọt, ngon hơn khi uống lạnh. Lon ghi không chất bảo quản (No preservatives).\n\nQuy cách: 320 ml · lon\nNhà sản xuất/thương hiệu: Cozy (Công ty CP Sản phẩm Sinh Thái)",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I3/I4/I5: ảnh KiotViet chụp lon trên bàn làm việc, đáy lon bị cắt; cozy.vn không có ảnh lon trà vải → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: vẽ tiếp phần đáy lon bị cắt (họa tiết đỏ + đáy bạc), mã vạch để mờ; hoạ tiết vàng trên nền đỏ là thiết kế của lon đang bán (chỉ biết một mẫu này)",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-26",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet + ảnh lon Cozy cùng dòng đã duyệt (chỉ để đồng bộ kiểu vẽ)"
+    },
+    "rubricVersion": "v23"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết từ tên SP và chữ trên lon (cozy.vn không ghi thành phần cho dạng lon)",
+    "source": null,
+    "rubricVersion": "v23"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-26T02:38:48.902Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-26T02:59:11Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references; description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-26T02:59:49.833Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-26T04:58:33.990Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-27T10:02:11.418Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-26T02:59:49.833Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-26T04:57:32.280Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-26T04:57:32.280Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/0e111122360b0eeaa6a7913290f8f696457af65f1460f3c90503aa6da044b895.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/10/25/tram8/ca78121e01f2415490b9e7972c7f672a.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Trà vải Cozy (Cozy Tea Lychee) uống liền, hương vải thơm ngọt, ngon hơn khi uống lạnh. Lon ghi không chất bảo quản (No preservatives).\n\nQuy cách: 320 ml · lon\nNhà sản xuất/thương hiệu: Cozy (Công ty CP Sản phẩm Sinh Thái)",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

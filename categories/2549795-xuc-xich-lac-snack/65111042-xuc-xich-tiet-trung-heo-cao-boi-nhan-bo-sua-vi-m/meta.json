@@ -1,0 +1,138 @@
+{
+  "kiotProductId": "65111042",
+  "code": "8936034878853",
+  "barcode": "8936034878853",
+  "name": "Xúc xích tiệt trùng heo cao bồi nhân bơ sữa vị mật ong 12 túi × 15 cây × 32gr ( túi )",
+  "fullName": "Xúc xích tiệt trùng heo cao bồi nhân bơ sữa vị mật ong 12 túi × 15 cây × 32gr ( túi ) (Cái)",
+  "brand": "Heo Cao Bồi",
+  "unit": "Cái",
+  "category": {
+    "kiotCategoryId": "2549795",
+    "name": "Xúc xích lắc & snack",
+    "path": "Xúc Xích & Thịt Nguội > Xúc xích lắc & snack"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/3f69afad58331986a1f860e0e8edcbbdd2531691241133a61502484f7277f565.webp",
+    "description": "Xúc xích tiệt trùng Heo Cao Bồi nhân bơ sữa vị mật ong, dòng snack dinh dưỡng, nhân bơ tan chảy bên trong. Món ăn vặt tiện lợi, xé ăn ngay.\n\nQuy cách: 32 g · cây (bán lẻ từng cây)\nNhà sản xuất/thương hiệu: Heo Cao Bồi",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "chủ 19/10: Heo Cao Bồi là 1 cây xúc xích, không phải gói dẹt → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: ảnh minh hoạ: dáng cây theo vị cùng dòng, hoạ tiết theo ảnh chụp bị cắt; chữ nhỏ để mờ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-19",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh vị cùng dòng (dáng cây) + ảnh cũ của vị này (hoạ tiết)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; theo chữ in trên gói (ảnh KiotViet) và đơn vị KiotViet 'cái' = 1 cây 32 g (RUBRIC v19)",
+    "source": null,
+    "rubricVersion": "v19"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:57:41.000Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "sale unit unclear (cây vs túi) → ask owner; current photo fails I3/I4"
+    },
+    {
+      "at": "2026-10-17T14:07:17Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T14:08:32Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "resolved without asking: đơn vị KiotViet 'cái' = 1 cây 32 g (v19); ảnh = gói chụp tại cửa hàng, Gemini dựng lại phần bị cắt (ảnh minh hoạ)"
+    },
+    {
+      "at": "2026-10-17T14:09:09.995Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T07:18:53Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "redo after Hub rejection:  — Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-19T07:18:54.108Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T07:23:08.254Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T17:15:09.663Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-19T07:18:54.108Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T07:21:33.069Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T07:21:33.069Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/3f69afad58331986a1f860e0e8edcbbdd2531691241133a61502484f7277f565.webp"
+        ],
+        "from": [
+          "https://img.tram8.vn/products/21a337837915ee3466b24c4beb4e3446cfc36e7b6898260f71aa5b2c6c00f09d.webp"
+        ]
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

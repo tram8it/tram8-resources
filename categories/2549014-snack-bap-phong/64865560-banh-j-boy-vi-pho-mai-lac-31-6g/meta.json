@@ -1,0 +1,110 @@
+{
+  "kiotProductId": "64865560",
+  "code": "8936036028591",
+  "barcode": "8936036028591",
+  "name": "Bánh J. Boy Vị Phô Mai Lắc 31,6G",
+  "fullName": "Bánh J. Boy Vị Phô Mai Lắc 31,6G (Hộp)",
+  "brand": "Orion",
+  "unit": "Hộp",
+  "category": {
+    "kiotCategoryId": "2549014",
+    "name": "Snack bắp & phồng",
+    "path": "Đồ ăn vặt > Snacks > Snack bắp & phồng"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/52ebe4f02b0880d1d8870935560cf6ca659f95d43913aa8ad1df06d30d503a4d.webp",
+    "description": "Bánh Jungle Boy của Orion vị phô mai lắc, bánh hình thú giòn, hợp làm món ăn vặt cho bé.\n\nQuy cách: 31,6 g · hộp\nNhà sản xuất/thương hiệu: Orion · Jungle Boy",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I1/I3: ảnh cũ chụp trên kệ/không có ảnh; Gemini vẽ lại packshot chính diện theo ảnh mẫu Lotte Mart (chỉ làm mẫu) — khớp chữ/logo (v15)",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Google Gemini Pro",
+      "generatedAt": "2026-10-16",
+      "referenceUrl": "https://www.lottemart.vn/media/catalog/product/cache/0x0/8/9/8936036028591-1.jpg.webp"
+    },
+    "rubricVersion": "v15"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết ngắn chỉ từ tên hàng (tên, vị, khối lượng); trang Orion không có trang SP này",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:23:35.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "image needs staff photo, description WRITE_NEW (from name)"
+    },
+    {
+      "at": "2026-10-15T18:21:25Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini redraw from current-pack reference"
+    },
+    {
+      "at": "2026-10-15T18:21:25.545Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-16T01:38:49.852Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-15T18:21:25.545Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-16T01:37:55.626Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-16T01:37:55.626Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/52ebe4f02b0880d1d8870935560cf6ca659f95d43913aa8ad1df06d30d503a4d.webp"
+        ],
+        "from": [
+          "https://cdn1-retail-images.kiotviet.vn/2026/03/11/tongpenhchtl/37c04e7cbc9e4b169c5b9b705ee609b0.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Bánh Jungle Boy của Orion vị phô mai lắc, bánh hình thú giòn, hợp làm món ăn vặt cho bé.\n\nQuy cách: 31,6 g · hộp\nNhà sản xuất/thương hiệu: Orion · Jungle Boy",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

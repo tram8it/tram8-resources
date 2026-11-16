@@ -1,0 +1,112 @@
+{
+  "kiotProductId": "67042092",
+  "code": "8936202668392",
+  "barcode": "8936202668392",
+  "name": "Khô gà lá chanh 41g (Gói)",
+  "fullName": "Khô gà lá chanh 41g (Gói) (Gói)",
+  "brand": "Phương Huyền",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2549222",
+    "name": "Khô gà",
+    "path": "Đồ ăn vặt > Thịt khô và chân gà > Khô gà"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/1358debfc6ddd25530a803845ff8ff6cefa516d86b756db9e838d39cceb37ffe.webp",
+    "description": "Khô gà lá chanh của Phương Huyền Food, thịt gà sấy xé sợi trộn lá chanh, dùng làm món ăn vặt hoặc đồ nhắm.\n\nQuy cách: 41 g · gói\nNhà sản xuất/thương hiệu: Phương Huyền Food",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I5: gói bị khung ảnh cắt mép trên/dưới/hai bên; không có trang hãng Phương Huyền Food → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: mép gói, viền lửa phía trên/dưới vẽ thêm theo phần thấy được; mặt trước không in khối lượng (ảnh mẫu không thấy dòng 41g)",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (gói bị cắt mép)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; mô tả ngắn từ chữ in mặt trước gói (Phương Huyền Food, Khô gà lá chanh) + khối lượng theo tên hàng",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:01:41.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "image REPLACE (pack cut by frame), description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T08:20:59Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T08:21:00.114Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T08:21:00.114Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T08:36:23.271Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T08:36:23.271Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/1358debfc6ddd25530a803845ff8ff6cefa516d86b756db9e838d39cceb37ffe.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/14/tram8/9a504237b5c942918c1c6e6b47a22ab1.png"
+        ]
+      },
+      "description": {
+        "to": "Khô gà lá chanh của Phương Huyền Food, thịt gà sấy xé sợi trộn lá chanh, dùng làm món ăn vặt hoặc đồ nhắm.\n\nQuy cách: 41 g · gói\nNhà sản xuất/thương hiệu: Phương Huyền Food",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

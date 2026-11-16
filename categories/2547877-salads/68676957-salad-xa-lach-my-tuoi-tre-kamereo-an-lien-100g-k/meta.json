@@ -1,0 +1,120 @@
+{
+  "kiotProductId": "68676957",
+  "code": "K898",
+  "barcode": "K898",
+  "name": "Salad Xà Lách Mỹ Tươi Trẻ Kamereo Ăn Liền 100g ( Kamereo Sprout, Tomato , Lettuce Salad 100g )",
+  "fullName": "Salad Xà Lách Mỹ Tươi Trẻ Kamereo Ăn Liền 100g ( Kamereo Sprout, Tomato , Lettuce Salad 100g ) (Hộp)",
+  "brand": "KAMEREO",
+  "unit": "Hộp",
+  "category": {
+    "kiotCategoryId": "2547877",
+    "name": "Salads",
+    "path": "Món ngon Trạm 8 > Salads"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/65c9c0c8e460c9e8174fa93295805118dce1c91cb5eb712cc0d5cbc9308ef671.webp",
+    "description": "Salad xà lách Mỹ tươi trẻ Kamereo (mầm, cà chua, xà lách) ăn liền, kèm gói xốt salad.\n\nQuy cách: 100 g · hộp\nThương hiệu: Kamereo\nBảo quản: ngăn mát tủ lạnh.",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "chủ 31/10: salad là hộp nhựa trong túi, gói xốt Kewpie đặt trên — ảnh thẳng không thể hiện được → vẽ góc nghiêng 3/4 như ảnh chủ, 3 loại cùng bố cục → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: bỏ tem giá; chữ nhỏ có thể mờ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-31",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh chủ gửi 31/10 (góc nghiêng hộp + gói xốt)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "viết theo nhãn/ảnh chụp + trang hãng; không thêm dữ kiện ngoài nguồn",
+    "source": {
+      "url": "https://kamereo.vn/products/salad-xa-lach-my-tuoi-tre-kamereo-an-lien-100g-K898"
+    },
+    "rubricVersion": "v18"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-31T12:31:13.488Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-31T12:56:26+00:00",
+      "by": "ai",
+      "status": "READY",
+      "note": "ảnh hãng/ảnh sẵn có, đã xem bằng mắt; mô tả mới"
+    },
+    {
+      "at": "2026-10-31T12:57:12.307Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-31T14:11:22Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 3, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-31T14:12:06.708Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-31T14:26:35.820Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-11-02T09:01:21.866Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-31T14:12:06.708Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-31T14:18:03.910Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-31T14:18:03.910Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/65c9c0c8e460c9e8174fa93295805118dce1c91cb5eb712cc0d5cbc9308ef671.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/10/30/tram8/f0611c71c84940bd899e6bfb017cd517.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Salad xà lách Mỹ tươi trẻ Kamereo (mầm, cà chua, xà lách) ăn liền, kèm gói xốt salad.\n\nQuy cách: 100 g · hộp\nThương hiệu: Kamereo\nBảo quản: ngăn mát tủ lạnh.",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

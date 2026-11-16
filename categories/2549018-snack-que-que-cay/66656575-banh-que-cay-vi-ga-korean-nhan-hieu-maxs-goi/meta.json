@@ -1,0 +1,132 @@
+{
+  "kiotProductId": "66656575",
+  "code": "SP877857",
+  "barcode": "8850548010113",
+  "name": "Bánh que cay vị Gà Korean - nhãn hiệu MAXs (Gói)",
+  "fullName": "Bánh que cay vị Gà Korean - nhãn hiệu MAXs (Gói) (Gói)",
+  "brand": "Maxs",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2549018",
+    "name": "Snack que / que cay",
+    "path": "Đồ ăn vặt > Snacks > Snack que / que cay"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/f9c56bb50c1353b69f49efae6ffc5d907f5832a9fb3515138660748888f37ee6.webp",
+    "description": "Bánh que Maxs vị gà sốt cay Hàn Quốc (Korean Chicken Spicy Sauce Biscuit Sticks), que bánh quy giòn nhập khẩu Thái Lan, món ăn vặt cho người thích cay.\n\nQuy cách: 55 g · gói\nXuất xứ: Thái Lan · Nhà sản xuất/thương hiệu: Maxs",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I1: chưa có ảnh; 19/10 tìm lại theo mã vạch 8850548010113 ra ảnh gói trên minhcaumart.vn → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: ô dinh dưỡng nhỏ có số do AI vẽ (ảnh mẫu không đọc được); chữ Thái nhỏ có thể lệch",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-19",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh Minh Cầu Mart cùng mã vạch (chỉ làm mẫu) + ảnh đã duyệt của SP cùng dòng Maxs (chỉ lấy phong cách)",
+      "referenceUrl": "https://minhcaumart.vn/media/com_eshop/products/8850548010113.webp"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "REWRITE",
+    "reason": "mô tả theo chữ in trên gói (ảnh Minh Cầu Mart cùng mã vạch): Korean Chicken Spicy Sauce Biscuit Sticks, 55 g, chữ Thái + mã 885 → Thái Lan",
+    "source": {
+      "url": "https://minhcaumart.vn/media/com_eshop/products/8850548010113.webp",
+      "fetchedAt": "2026-10-19T07:31:05Z"
+    },
+    "rubricVersion": "v23"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:21:20.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "b07 review: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T12:00:00Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "Không tìm được ảnh mẫu gói vị Gà Korean để vẽ Gemini"
+    },
+    {
+      "at": "2026-10-18T18:46:11Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "re-searched 18/10 (owner feedback, np18): no image of this exact product found; reason updated"
+    },
+    {
+      "at": "2026-10-19T07:31:05Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-19T07:31:05Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "19/10 re-research: description rewritten from pack facts of the found reference"
+    },
+    {
+      "at": "2026-10-19T07:31:10.728Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T08:50:58.958Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T17:15:09.663Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-19T07:31:10.728Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T07:36:21.669Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T07:36:21.669Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/f9c56bb50c1353b69f49efae6ffc5d907f5832a9fb3515138660748888f37ee6.webp"
+        ],
+        "from": null
+      },
+      "description": {
+        "to": "Bánh que Maxs vị gà sốt cay Hàn Quốc (Korean Chicken Spicy Sauce Biscuit Sticks), que bánh quy giòn nhập khẩu Thái Lan, món ăn vặt cho người thích cay.\n\nQuy cách: 55 g · gói\nXuất xứ: Thái Lan · Nhà sản xuất/thương hiệu: Maxs",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

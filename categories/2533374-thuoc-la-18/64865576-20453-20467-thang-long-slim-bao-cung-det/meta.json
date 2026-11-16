@@ -1,0 +1,176 @@
+{
+  "kiotProductId": "64865576",
+  "code": "8935047690476",
+  "barcode": "8935047690476",
+  "name": "20453 ( 20467) Thăng Long Slim bao cứng dẹt",
+  "fullName": "20453 ( 20467) Thăng Long Slim bao cứng dẹt (Bao)",
+  "brand": "Thăng Long",
+  "unit": "Bao",
+  "category": {
+    "kiotCategoryId": "2533374",
+    "name": "Thuốc lá (18+)",
+    "path": "Thuốc lá (18+)"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/7c54229aa8f2956e6444eb26ebcd2f0e3dfb9f3831ea56c15fdf507cfe5917a5.webp",
+    "description": "Thuốc lá điếu đầu lọc Thăng Long Slim, bao cứng dẹt.\n\nQuy cách: bao\nThương hiệu: Thăng Long · Nhà sản xuất: Công ty TNHH MTV Thuốc lá Thăng Long (Vinataba)\n\nChỉ bán cho người từ 18 tuổi trở lên.\nHút thuốc lá có hại cho sức khỏe.",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I3/I5: ảnh chụp cận, mất mép bao → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: mép trái/phải và phần đáy dưới 'SINCE 1957' do AI vẽ tiếp (để trơn, không thêm chữ)",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (chụp cận, mất hai mép và đáy)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; mô tả ngắn chỉ từ chữ in trên bao (khuôn _category.md); nhà sản xuất theo chủ mã vạch 8935047 trên iCheck; không ghi số điếu khi bao không in",
+    "source": {
+      "url": "https://icheck.vn/san-pham/8935047690476",
+      "fetchedAt": "2026-10-17"
+    },
+    "rubricVersion": "v18"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-17T08:54:53Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T08:55:17Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "description WRITE_NEW (tobacco template: facts printed on pack, 18+ and health lines)"
+    },
+    {
+      "at": "2026-10-17T08:56:19.199Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T08:56:19.199Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T09:05:50.925Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T09:05:50.925Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/7c54229aa8f2956e6444eb26ebcd2f0e3dfb9f3831ea56c15fdf507cfe5917a5.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2025/12/22/tongpenhchtl/d716eb1490a1412bab4411f961a33db9.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Thuốc lá điếu đầu lọc Thăng Long Slim, bao cứng dẹt.\n\nQuy cách: bao\nThương hiệu: Thăng Long · Nhà sản xuất: Công ty TNHH MTV Thuốc lá Thăng Long (Vinataba)\n\nChỉ bán cho người từ 18 tuổi trở lên.\nHút thuốc lá có hại cho sức khỏe.",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {
+      "price": {
+        "to": 20370.37,
+        "from": 20000
+      },
+      "saleTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 64865576
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 64865576
+        }
+      },
+      "taxRate": {
+        "to": "VAT 8%",
+        "from": "VAT 10%"
+      },
+      "productTaxs": {
+        "to": [
+          {
+            "id": 0,
+            "name": "VAT 8%",
+            "taxId": 3,
+            "value": 8,
+            "productId": 64865576
+          }
+        ],
+        "from": [
+          {
+            "id": 0,
+            "name": "VAT 10%",
+            "taxId": 4,
+            "value": 10,
+            "productId": 64865576
+          }
+        ]
+      },
+      "purchaseTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 64865576
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 64865576
+        }
+      }
+    }
+  }
+}

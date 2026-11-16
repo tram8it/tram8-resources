@@ -1,0 +1,126 @@
+{
+  "kiotProductId": "64865328",
+  "code": "8934673606820",
+  "barcode": "8934673606820",
+  "name": "SCA Có Đường VNM 100g",
+  "fullName": "SCA Có Đường VNM 100g (Hộp)",
+  "brand": "Vinamilk",
+  "unit": "Hộp",
+  "category": {
+    "kiotCategoryId": "2547910",
+    "name": "Sữa chua ăn",
+    "path": "Sữa và các sản phẩm từ sữa > Sữa chua > Sữa chua ăn"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/f25638c9a793bdee2922096e98b89c500a3aa9466e8fe6b6a7beec7f00555f14.webp",
+    "description": "Sữa chua ăn Vinamilk Có đường, lên men với men Streptococcus thermophilus và Lactobacillus bulgaricus, vị ngọt dịu, dẻo mịn.\n\nThành phần: sữa 87,5% (nước, sữa bột, whey bột, chất béo sữa, sữa tươi chuẩn hóa), đường 9,5%, dầu thực vật, gelatin thực phẩm, chất ổn định (1422, 471), men Streptococcus thermophilus và Lactobacillus bulgaricus, vitamin D3, A.\nQuy cách: 100 g · hộp\nXuất xứ: Việt Nam · Nhà sản xuất/thương hiệu: Vinamilk (Công ty CP Sữa Việt Nam)",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I1: chưa có ảnh; trang Vinamilk chỉ có ảnh lốc 4 hộp, SP bán 1 hộp 100 g (đơn vị Hộp, chủ 17/10) → Gemini vẽ 1 hộp, ảnh minh hoạ: nắp 1 hộp thật chỉ in 1/4 hình của lốc, ảnh dồn cả hình lên 1 nắp → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: nắp 1 hộp mang đủ logo Vinamilk/EST 1976/Sữa chua CÓ ĐƯỜNG (hộp thật chỉ có 1/4 hình); bỏ bảng dinh dưỡng, thành phần và dòng khối lượng; mã vạch 8934673606820 đúng",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh hãng Vinamilk lốc 4 hộp bao bì mới (nhìn trên + nghiêng), chỉ làm mẫu",
+      "referenceUrl": "https://www.vinamilk.com.vn/products/sua-chua-vinamilk-co-duong"
+    },
+    "rubricVersion": "v19"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết từ trang Vinamilk (mã vạch trùng), bỏ câu quảng cáo/công dụng",
+    "source": {
+      "url": "https://www.vinamilk.com.vn/products/sua-chua-vinamilk-co-duong",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:10:12.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "needs photo; description WRITE_NEW (vinamilk.com.vn)"
+    },
+    {
+      "at": "2026-10-17T07:47:12.000Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "17/10: only 4-pack brand images exist for this single-cup SKU → ask owner"
+    },
+    {
+      "at": "2026-10-17T09:06:23Z",
+      "by": "owner",
+      "status": "ASK_OWNER",
+      "note": "owner 17/10 (RUBRIC v19): unit Hộp = one 100 g cup; only multipack image → Gemini draws one cup (illustration)"
+    },
+    {
+      "at": "2026-10-17T09:06:23Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T09:06:36.056Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T09:06:36.056Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T09:14:20.450Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T09:14:20.450Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/f25638c9a793bdee2922096e98b89c500a3aa9466e8fe6b6a7beec7f00555f14.webp"
+        ],
+        "from": null
+      },
+      "description": {
+        "to": "Sữa chua ăn Vinamilk Có đường, lên men với men Streptococcus thermophilus và Lactobacillus bulgaricus, vị ngọt dịu, dẻo mịn.\n\nThành phần: sữa 87,5% (nước, sữa bột, whey bột, chất béo sữa, sữa tươi chuẩn hóa), đường 9,5%, dầu thực vật, gelatin thực phẩm, chất ổn định (1422, 471), men Streptococcus thermophilus và Lactobacillus bulgaricus, vitamin D3, A.\nQuy cách: 100 g · hộp\nXuất xứ: Việt Nam · Nhà sản xuất/thương hiệu: Vinamilk (Công ty CP Sữa Việt Nam)",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "kiotProductId": "67136152",
+  "code": "6937821522616",
+  "barcode": "6937821522616",
+  "name": "Snack Hình Râu Bạch Tuộc Nướng Vị Cay 93g",
+  "fullName": "Snack Hình Râu Bạch Tuộc Nướng Vị Cay 93g (Gói)",
+  "brand": null,
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2549016",
+    "name": "Snack phồng tôm/mực/cua",
+    "path": "Đồ ăn vặt > Snacks > Snack phồng tôm/mực/cua"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": null,
+    "description": null,
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "IN_PROGRESS",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "ảnh minh hoạ (chủ 20/10: SP không được để trống ảnh) — route 4: snack râu bạch tuộc trong túi trong, không nhãn. Khác hàng thật: không biết bao bì thật (hàng Trung Quốc) nên vẽ túi trong trơn; hình miếng snack minh hoạ; không ghi khối lượng. Trước đó: ảnh minh hoạ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-21",
+      "style": "flat clean packaging render (v17)",
+      "reference": "không có ảnh mẫu (vẽ từ tên SP)",
+      "illustration": true
+    },
+    "rubricVersion": "v23"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; mô tả ngắn chỉ từ tên SP (không có nguồn khác)",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:48:23.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "b17: needs photo (no image, unknown brand), description from name"
+    },
+    {
+      "at": "2026-10-17T05:23:51.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "re-checked 2026-10-17: no reference image found (barcode search, OFF, brand site) -> still NEEDS_PHOTO"
+    },
+    {
+      "at": "2026-10-18T18:46:11Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "re-searched 18/10 (owner feedback, np18): no image of this exact product found; reason updated"
+    },
+    {
+      "at": "2026-10-19T07:38:02Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "19/10 re-research with image search (owner request): no image of this exact product/variant found"
+    },
+    {
+      "at": "2026-10-21T02:07:04Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "illustration 20/10: route 4: snack râu bạch tuộc trong túi trong, không nhãn"
+    },
+    {
+      "at": "2026-10-21T02:07:04.339Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-26T04:58:33.990Z",
+      "by": "owner",
+      "status": "IN_PROGRESS",
+      "note": "rejected on Hub by AU KHUONG DUY: Toàn ảnh bịa ra ko dùng đc"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-21T02:07:04.339Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "REJECTED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-21T12:59:27.128Z",
+    "note": "Toàn ảnh bịa ra ko dùng đc"
+  }
+}

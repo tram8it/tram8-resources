@@ -1,0 +1,130 @@
+{
+  "kiotProductId": "67821714",
+  "code": "6927514392480",
+  "barcode": "6927514392480",
+  "name": "Bò Bít Tết Chay Vị Tê Cay 28g",
+  "fullName": "Bò Bít Tết Chay Vị Tê Cay 28g (Gói)",
+  "brand": "Hàng nội địa Trung",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2549295",
+    "name": "Đồ chay giả mặn (konjac)",
+    "path": "Đồ ăn vặt > Đồ nội địa Trung > Đồ chay giả mặn (konjac)"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/8132baa5cfb16c52573817174d5f98e313bf3702462a4994b4c016d4e0805890.webp",
+    "description": "Bò bít tết chay (素大牛排) vị cay thơm (香辣味) của 巧大娘, món ăn vặt chay đóng gói nhỏ.\n\nQuy cách: 35 g · gói\nNhà sản xuất/thương hiệu: 巧大娘 (Qiao Da Niang)",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I3/I4/I8: ảnh tay cầm nhiều gói trước kệ; không có ảnh hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: vẽ phẳng 1 gói; hoạ tiết sừng bò/viền vẽ lại; ô khối lượng ghi 净含量:35克 như gói thật",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet của cửa hàng (tay cầm 3 gói 香辣味)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D2: mô tả cũ theo tên (tê cay 28 g); viết lại theo chữ in trên gói ảnh KiotViet (香辣味, 35 g)",
+    "source": null,
+    "rubricVersion": "v20"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:55:32.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "image REPLACE (hand-held photo), description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T12:00:00Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "Vị trên gói ảnh KiotViet (香辣味) lệch tên KiotViet (vị tê cay); chưa vẽ, hỏi chủ"
+    },
+    {
+      "at": "2026-10-17T14:09:18Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "re-triage: barcode not found online; photo pack reads 香辣味 净含量 35克, name says 麻辣/28 g (>10% gap) → still ASK, question shortened"
+    },
+    {
+      "at": "2026-10-17T14:35:33Z",
+      "by": "ai",
+      "status": "IN_PROGRESS",
+      "note": "resolved by rule v20: shop photo pack reads 香辣味 净含量 35克 → follow the photo (35 g, cay thơm); name 'tê cay 28g' listed for rename; image waits for Gemini (HTTP 402)"
+    },
+    {
+      "at": "2026-10-17T15:14:29Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T15:14:33.273Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T15:14:33.273Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T16:58:11.280Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T16:58:11.280Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/8132baa5cfb16c52573817174d5f98e313bf3702462a4994b4c016d4e0805890.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/08/25/tram8/58f3af8644ef4aa1b7b5ed2b104e3c1d.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Bò bít tết chay (素大牛排) vị cay thơm (香辣味) của 巧大娘, món ăn vặt chay đóng gói nhỏ.\n\nQuy cách: 35 g · gói\nNhà sản xuất/thương hiệu: 巧大娘 (Qiao Da Niang)",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

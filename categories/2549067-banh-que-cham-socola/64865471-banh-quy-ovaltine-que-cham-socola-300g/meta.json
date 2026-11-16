@@ -1,0 +1,142 @@
+{
+  "kiotProductId": "64865471",
+  "code": "6906791584740",
+  "barcode": "6906791584740",
+  "name": "Bánh Quy Ovaltine Que Chấm Socola 300g",
+  "fullName": "Bánh Quy Ovaltine Que Chấm Socola 300g (Ly)",
+  "brand": "Ovaltine",
+  "unit": "Ly",
+  "category": {
+    "kiotCategoryId": "2549067",
+    "name": "Bánh que chấm socola",
+    "path": "Bánh quy & bánh đóng gói > Bánh que chấm socola"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/cf51938c9afd1ccbed86694f69dc35bcd22f790e37cdbcaac33c95d68a81abc8.webp",
+    "description": "Bánh que chấm sô-cô-la Ovaltine 可脆了 (hàng nhập Trung Quốc): ly nhỏ gồm que bánh quy giòn và sốt hạt phỉ ca cao để chấm, ăn ngay khi mở nắp.\n\nThành phần chính: sốt hạt phỉ ca cao 30 g, bánh quy 20 g (theo ly).\nQuy cách: 50 g · ly\nNhà sản xuất/thương hiệu: Ovaltine (阿华田)",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I3/I4: ảnh tay cầm trong kho; không có ảnh hãng/ảnh bán lẻ của SP Ovaltine nội địa Trung Quốc này → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ nhỏ dưới tên (手指饼干) và dòng thành phần nhỏ (麦芽饼干 thay vì 全麦饼干) do AI vẽ, số 30 g/20 g/50 g đúng như ly thật; tên KiotViet ghi 300 g nhưng ảnh/mô tả theo 1 ly 50 g (đơn vị Hộp = 1 ly)",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet của cửa hàng (ly 50 g, tay cầm)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; mô tả ngắn từ chữ in trên ly (ảnh KiotViet): 1 ly 50 g gồm sốt hạt phỉ ca cao 30 g + bánh quy 20 g. Tên KiotViet ghi 300 g",
+    "source": null,
+    "rubricVersion": "v20"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:07:05.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "b18 review (rubric v4): image NEEDS_PHOTO, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T07:43:58Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "Mã 6906791584740 'Bánh Quy Ovaltine Que Chấm Socola 300g (Hộp)': ảnh cửa hàng chỉ thấy 1 ly 可脆了 ghi 净含量 50g. Hộp 300 g là hộp 6 ly 50 g phải không, và mã vạch này in trên ly hay trên hộp? Chọn: (a) dùng ảnh 1 ly 50 g (Gemini vẽ lại từ ảnh hiện có) và ghi rõ 'hộp 6 ly' trong mô tả; (b) nhân viên chụp"
+    },
+    {
+      "at": "2026-10-17T09:10:38Z",
+      "by": "owner",
+      "status": "ASK_OWNER",
+      "note": "Chủ trả lời (17/10/2026, RUBRIC v19): tin đơn vị KiotViet; khối lượng lệch lớn thì hỏi lại với 2 con số."
+    },
+    {
+      "at": "2026-10-17T09:10:38Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "v19: đơn vị 'Hộp' nhưng ảnh duy nhất là ly 50 g, tên ghi 300 g (lệch 6 lần) → vẫn hỏi chủ; chưa tìm được ảnh hộp 300 g"
+    },
+    {
+      "at": "2026-10-17T14:17:50Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "still ASK_OWNER: no 300 g box found anywhere (barcode unknown on iCheck/OFF/Kingfoodmart/web); 50 g cup vs 300 g Hộp needs the box count; question shortened"
+    },
+    {
+      "at": "2026-10-17T14:31:32Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T14:31:44Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "resolved by rule v20: shop photo is one 50 g cup (KiotViet unit = 1 unit) → Gemini image of one cup, description 1 ly 50 g; name says 300 g, listed for rename"
+    },
+    {
+      "at": "2026-10-17T14:35:55.304Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T14:35:55.304Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T16:57:15.643Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T16:57:15.643Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/cf51938c9afd1ccbed86694f69dc35bcd22f790e37cdbcaac33c95d68a81abc8.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/02/07/tongpenhchtl/7dcbbcd1f4e740f9aaf588af0d887807.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Bánh que chấm sô-cô-la Ovaltine 可脆了 (hàng nhập Trung Quốc): ly nhỏ gồm que bánh quy giòn và sốt hạt phỉ ca cao để chấm, ăn ngay khi mở nắp.\n\nThành phần chính: sốt hạt phỉ ca cao 30 g, bánh quy 20 g (theo ly).\nQuy cách: 50 g · ly\nNhà sản xuất/thương hiệu: Ovaltine (阿华田)",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

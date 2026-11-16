@@ -1,0 +1,118 @@
+{
+  "kiotProductId": "65205373",
+  "code": "4895230201633",
+  "barcode": "4895230201633",
+  "name": "Bánh que chấm chocolate Rich cocoa 38g",
+  "fullName": "Bánh que chấm chocolate Rich cocoa 38g (Hộp)",
+  "brand": "Rich Cocoa",
+  "unit": "Hộp",
+  "category": {
+    "kiotCategoryId": "2549067",
+    "name": "Bánh que chấm socola",
+    "path": "Bánh quy & bánh đóng gói > Bánh que chấm socola"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/c9bfc6211e0d57354a1ffe61f2be4cedbe547be13dfd40f293ca8ac471d3112c.webp",
+    "description": "Bánh que chấm Rich Cocoa dạng ly: que bánh quy giòn kèm ngăn sốt sô-cô-la để chấm.\n\nQuy cách: 38 g · hộp\nNhà sản xuất/thương hiệu: Rich Cocoa",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "ảnh tự chụp (nghiêng, nhăn mép); không có ảnh hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt; Net Weight 38g khớp tên SP",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (ảnh tự chụp, chỉ làm mẫu)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết ngắn từ chữ in mặt trước ly",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:07:05.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "b18 review (rubric v4): image CROP, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-15T09:16:17Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "tone.py --vivid: white balance/levels + brand-like colour (owner request)"
+    },
+    {
+      "at": "2026-10-17T14:18:32Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T14:19:05.091Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T14:19:05.091Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T16:48:00.348Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T16:48:00.348Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/c9bfc6211e0d57354a1ffe61f2be4cedbe547be13dfd40f293ca8ac471d3112c.webp"
+        ],
+        "from": [
+          "https://cdn1-retail-images.kiotviet.vn/2026/07/30/tram8/e52d87c92d784f1996d2ae0fcd8a2f94.png"
+        ]
+      },
+      "description": {
+        "to": "Bánh que chấm Rich Cocoa dạng ly: que bánh quy giòn kèm ngăn sốt sô-cô-la để chấm.\n\nQuy cách: 38 g · hộp\nNhà sản xuất/thương hiệu: Rich Cocoa",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "kiotProductId": "67281993",
+  "code": "SP877956",
+  "barcode": "8936034879126",
+  "name": "xúc xích ponnie 19g",
+  "fullName": "xúc xích ponnie 19g (Gói)",
+  "brand": "Ponnie",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2549794",
+    "name": "Xúc xích tiệt trùng",
+    "path": "Xúc Xích & Thịt Nguội > Xúc xích tiệt trùng"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/c5cde41213be064b041e82e1dc92b0f9af776ac53542c8dd9e35b29f834c9e80.webp",
+    "description": "Xúc xích dinh dưỡng Ponnie thịt heo, gói cây nhỏ 19 g.\n\nQuy cách: 19 g/cây · gói\nNhà sản xuất/thương hiệu: Masan MEATLife · Ponnie",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I3/I4: ảnh tay cầm gói, nền kho; không có trang chính hãng Ponnie → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Thiết kế lấy theo gói 280 g cùng dòng, kích thước gói theo ảnh chụp; chữ 'Khối lượng tịnh: 76 g (4 cây x 19 g)' đúng gói thật (đã sửa 1 lần vì AI vẽ sai '700 g'); có lỗ treo ở đỉnh gói",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (tay cầm gói 4 cây × 19 g) + ảnh gói 280 g cùng thiết kế từ gian hàng Masan Consumer trên Lazada (chỉ làm mẫu)",
+      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/07/27/tram8/31505f56aaf241c79eeaf969594ba75d.jpeg"
+    },
+    "rubricVersion": "v17",
+    "sizeTag": "76g"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết ngắn chỉ từ dữ kiện chắc chắn (tên SP, chữ in mặt trước bao bì); không có trang hãng có SP này",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:17:58.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "b16 review: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T05:26:20Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T05:26:33.824Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T05:27:35Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "size tag 76g (v16): Ponnie 280 g and 76 g packs look the same from the front"
+    },
+    {
+      "at": "2026-10-17T05:27:35.138Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T08:06:02.482Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T05:27:35.138Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T07:07:05.233Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T07:07:05.233Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/c5cde41213be064b041e82e1dc92b0f9af776ac53542c8dd9e35b29f834c9e80.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/27/tram8/31505f56aaf241c79eeaf969594ba75d.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Xúc xích dinh dưỡng Ponnie thịt heo, gói cây nhỏ 19 g.\n\nQuy cách: 19 g/cây · gói\nNhà sản xuất/thương hiệu: Masan MEATLife · Ponnie",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

@@ -1,0 +1,179 @@
+{
+  "kiotProductId": "65127539",
+  "code": "8850228000151",
+  "barcode": "8850228000151",
+  "name": "Nước Tăng Lực Redbull 250ml x 24",
+  "fullName": "Nước Tăng Lực Redbull 250ml x 24 (Lon)",
+  "brand": "Red Bull",
+  "unit": "Lon",
+  "category": {
+    "kiotCategoryId": "2500667",
+    "name": "Nước tăng lực",
+    "path": "Đồ uống đóng chai > Nước tăng lực"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/08f65a482a1ff8e37e855aaf20928b415bef5b72628f8bd71b454fd9fb66df8a.webp",
+    "description": "Nước tăng lực Red Bull Kratingdaeng lon vàng 250 ml, dòng Red Bull của Thái Lan với nhãn chữ Thái. Ngon hơn khi uống lạnh.\n\nQuy cách: 250 ml · lon\nXuất xứ: Thái Lan · Nhà sản xuất/thương hiệu: T.C. Pharmaceutical · Red Bull (Kratingdaeng)",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "ảnh tự chụp (lon bóng lóa) → ảnh hãng tcp.com (render lon Kratingdaeng Red Bull 250ml); ảnh hãng nhỏ, phóng ~2 lần (v4)",
+    "source": {
+      "url": "https://www.tcp.com/storage/content/product/energy-drink/kratingdaeng/kratingdaeng-7.png",
+      "page": "https://www.tcp.com/en/products/energy-drink/kratingdaeng",
+      "fetchedAt": "2026-10-17T14:04:10.568Z"
+    },
+    "rubricVersion": "v20"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết từ chữ in trên lon và trang nhà sản xuất T.C. Pharmaceutical",
+    "source": {
+      "url": "https://www.tcp.com/en/products/energy-drink/red-bull",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:31:42.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "image CROP, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-15T09:16:17Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "tone.py --vivid: white balance/levels + brand-like colour (owner request)"
+    },
+    {
+      "at": "2026-10-17T14:04:10.568Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "image REPLACE: shop photo -> brand packshot (www.tcp.com) (owner request 17/10)"
+    },
+    {
+      "at": "2026-10-17T14:04:10.717Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T14:04:10.717Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T14:12:49.946Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T14:12:49.946Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/08f65a482a1ff8e37e855aaf20928b415bef5b72628f8bd71b454fd9fb66df8a.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/24/tram8/df8ca5b367f3414eabc5b9f0d98240b6.png"
+        ]
+      },
+      "description": {
+        "to": "Nước tăng lực Red Bull Kratingdaeng lon vàng 250 ml, dòng Red Bull của Thái Lan với nhãn chữ Thái. Ngon hơn khi uống lạnh.\n\nQuy cách: 250 ml · lon\nXuất xứ: Thái Lan · Nhà sản xuất/thương hiệu: T.C. Pharmaceutical · Red Bull (Kratingdaeng)",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {
+      "price": {
+        "to": 17592.59,
+        "from": 17272.73
+      },
+      "saleTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 65127539
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 65127539
+        }
+      },
+      "taxRate": {
+        "to": "VAT 8%",
+        "from": "VAT 10%"
+      },
+      "productTaxs": {
+        "to": [
+          {
+            "id": 0,
+            "name": "VAT 8%",
+            "taxId": 3,
+            "value": 8,
+            "productId": 65127539
+          }
+        ],
+        "from": [
+          {
+            "id": 0,
+            "name": "VAT 10%",
+            "taxId": 4,
+            "value": 10,
+            "productId": 65127539
+          }
+        ]
+      },
+      "purchaseTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 65127539
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 65127539
+        }
+      }
+    }
+  }
+}

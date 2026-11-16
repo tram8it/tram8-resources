@@ -1,0 +1,112 @@
+{
+  "kiotProductId": "65623380",
+  "code": "8936193871221",
+  "barcode": "8936193871221",
+  "name": "Khăn mặt tre piper",
+  "fullName": "Khăn mặt tre piper (Cái)",
+  "brand": "Biswell",
+  "unit": "Cái",
+  "category": {
+    "kiotCategoryId": "2547536",
+    "name": "Dụng cụ tắm và vệ sinh cá nhân",
+    "path": "Chăm sóc cá nhân > Chăm sóc cơ thể > Dụng cụ tắm và vệ sinh cá nhân"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/e2b6043cf43715bf87fb8d37ca674ab9cf2d28e8bcc9f8ccc4878c8e43d771f3.webp",
+    "description": "Khăn mặt sợi tre PiPPER.\n\nQuy cách: cái\nThương hiệu: PiPPER",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I3/I4: ảnh điện thoại túi hàng trên bàn gỗ; không có trang chính hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ Thái nhỏ Gemini chép lại theo ảnh, có thể sai vài chữ; dòng ký hiệu giặt ở đáy túi vẽ thêm theo phần bị mờ trên ảnh thật; logo PiPPER, tem cờ Mỹ, hình tre khớp",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (túi hàng chụp trên bàn gỗ)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; mô tả ngắn chỉ từ tên SP và chữ đọc được trên bao bì (không có trang hãng)",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:19:32.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "needs staff photo; description WRITE_NEW from name/pack"
+    },
+    {
+      "at": "2026-10-17T08:31:18Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T08:31:19.106Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T08:31:19.106Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T08:42:02.637Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T08:42:02.637Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/e2b6043cf43715bf87fb8d37ca674ab9cf2d28e8bcc9f8ccc4878c8e43d771f3.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/05/11/tram8/1d1133c231af4d18bd77b20af209bad5.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Khăn mặt sợi tre PiPPER.\n\nQuy cách: cái\nThương hiệu: PiPPER",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

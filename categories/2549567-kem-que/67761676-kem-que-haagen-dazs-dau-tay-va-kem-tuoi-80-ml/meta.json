@@ -1,0 +1,113 @@
+{
+  "kiotProductId": "67761676",
+  "code": "3415587405181",
+  "barcode": "3415587405181",
+  "name": "Kem Que Haagen Dazs Dâu Tây Và Kem Tươi 80 Ml",
+  "fullName": "Kem Que Haagen Dazs Dâu Tây Và Kem Tươi 80 Ml (Que)",
+  "brand": "Häagen-Dazs",
+  "unit": "Que",
+  "category": {
+    "kiotCategoryId": "2549567",
+    "name": "Kem que",
+    "path": "Kem & Đồ đông lạnh > Kem que"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/155508a7500aefdc79bce4f0b3e593047aee0d5c6c3a7d6d4c97335fe0081f71.webp",
+    "description": "Kem que Häagen-Dazs vị dâu tây và kem tươi (Strawberries & Cream), đóng hộp giấy từng que.\n\nQuy cách: 80 ml · que\nXuất xứ: Pháp · Nhà sản xuất/thương hiệu: Häagen-Dazs\nBảo quản: Giữ đông lạnh.",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I3/I4: ảnh tay cầm, nền xám; trang hãng (SG) chỉ có bản hộp ngang đời trước, không có bản hộp dọc đang bán → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: đã xoá mặt nắp hộp (màu mận, logo ngược) do Gemini tự vẽ thêm — chỉ giữ mặt trước phẳng; chữ dinh dưỡng 'Per 80ml serve / 248 kcal / 12%**' khớp ảnh thật; hoạ tiết sọc đỏ–hồng và vị trí 2 quả dâu vẽ lại gần giống, không giống từng nét",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (hộp dọc đang bán, chỉ làm mẫu) + ảnh hãng Häagen-Dazs Singapore (bản hộp ngang đời trước, chỉ lấy chi tiết logo/hoạ tiết)",
+      "referenceUrl": "https://www.haagendazs.com.sg/products/strawberries-and-cream-stickbar"
+    },
+    "rubricVersion": "v17"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; không có trang hãng — mô tả ngắn chỉ từ dữ kiện chắc chắn (tên SP, chữ in mặt trước bao bì)",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:22:18.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "image needs photo (no usable official source), description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T04:16:09Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T04:16:43.834Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T05:23:58.238Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T04:16:43.834Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T04:19:28.430Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T04:19:28.430Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/155508a7500aefdc79bce4f0b3e593047aee0d5c6c3a7d6d4c97335fe0081f71.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/08/22/tram8/acdf0718d013493581a787d07f3758ab.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Kem que Häagen-Dazs vị dâu tây và kem tươi (Strawberries & Cream), đóng hộp giấy từng que.\n\nQuy cách: 80 ml · que\nXuất xứ: Pháp · Nhà sản xuất/thương hiệu: Häagen-Dazs\nBảo quản: Giữ đông lạnh.",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

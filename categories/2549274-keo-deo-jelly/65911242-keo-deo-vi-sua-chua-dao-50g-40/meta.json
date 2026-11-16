@@ -1,0 +1,118 @@
+{
+  "kiotProductId": "65911242",
+  "code": "8801206001936",
+  "barcode": "8801206001936",
+  "name": "KẸO DẺO VỊ SỮA CHUA ĐÀO 50G*40",
+  "fullName": "KẸO DẺO VỊ SỮA CHUA ĐÀO 50G*40 (Gói)",
+  "brand": "Seoju",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2549274",
+    "name": "Kẹo dẻo / jelly",
+    "path": "Các loại kẹo > Kẹo dẻo / jelly"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/65b8bdb9b35dc5b01621c3f24f75f171d345e181f41fbe7c4dfc4d53fe18342c.webp",
+    "description": "Kẹo dẻo vị sữa chua đào (Peach Yogurt Gummy) của Seoju, Hàn Quốc, kết hợp vị đào ngọt thơm và sữa chua.\n\nQuy cách: 50 g · gói\nNhà sản xuất/thương hiệu: Seoju Foods",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "ảnh tự chụp (nhăn, bóng, nghiêng); không có ảnh hãng đúng cỡ → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt; số 50g (165 kcal), 1.29%, 2.2%, 68% khớp ảnh mẫu",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (ảnh tự chụp, chỉ làm mẫu)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; không có trang hãng — mô tả ngắn chỉ từ tên SP và chữ in mặt trước bao bì (ảnh hiện tại)",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:19:58.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "image CROP, description WRITE_NEW (pack front)"
+    },
+    {
+      "at": "2026-10-15T09:16:17Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "tone.py --vivid: white balance/levels + brand-like colour (owner request)"
+    },
+    {
+      "at": "2026-10-17T14:06:49Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T14:07:19.355Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T14:07:19.355Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T15:17:57.876Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T15:17:57.876Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/65b8bdb9b35dc5b01621c3f24f75f171d345e181f41fbe7c4dfc4d53fe18342c.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/30/tram8/3f55ff5908084b4a9e166192728880f1.png"
+        ]
+      },
+      "description": {
+        "to": "Kẹo dẻo vị sữa chua đào (Peach Yogurt Gummy) của Seoju, Hàn Quốc, kết hợp vị đào ngọt thơm và sữa chua.\n\nQuy cách: 50 g · gói\nNhà sản xuất/thương hiệu: Seoju Foods",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "kiotProductId": "65831815",
+  "code": "8938520478370",
+  "barcode": "8938520478370",
+  "name": "Khô heo cháy tỏi",
+  "fullName": "Khô heo cháy tỏi (Gói)",
+  "brand": "Fansipan",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2549223",
+    "name": "Khô heo",
+    "path": "Đồ ăn vặt > Thịt khô và chân gà > Khô heo"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/b9090d10defb3374adc4a22fb64554e2dbc4d6d893b9b90d9311d0874b21d5b8.webp",
+    "description": "Khô heo cháy tỏi thương hiệu Fansipan – thịt heo sấy ăn liền, vị tỏi phi thơm, dùng làm món nhâm nhi.\n\nQuy cách: 50 g · gói\nThông tin trên bao bì: độ ẩm ≤ 20%, protein ≥ 16%\nXuất xứ: Việt Nam · Thương hiệu: Fansipan",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "ảnh tự chụp (túi nhăn, bóng lóa); không có ảnh hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: biểu tượng mạng xã hội và số CBCL làm mờ (ảnh mẫu không đọc rõ); 50g như ảnh mẫu",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (ảnh tự chụp, chỉ làm mẫu)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết từ chữ in mặt trước bao bì (không có trang hãng)",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:49:09.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "b21: image CROP, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-15T02:53:00.364Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-15T09:16:17Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "tone.py --vivid: white balance/levels + brand-like colour (owner request)"
+    },
+    {
+      "at": "2026-10-15T09:18:51.646Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-16T01:38:49.852Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-17T14:23:04Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T14:23:29.682Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T14:23:29.682Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T16:49:57.950Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T16:49:57.950Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/b9090d10defb3374adc4a22fb64554e2dbc4d6d893b9b90d9311d0874b21d5b8.webp"
+        ],
+        "from": [
+          "https://img.tram8.vn/products/7a0c0ebacf878a85c72f1f16572d9ef9e3f434c14b2b7e4e9beb055b97d94c9d.webp"
+        ]
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

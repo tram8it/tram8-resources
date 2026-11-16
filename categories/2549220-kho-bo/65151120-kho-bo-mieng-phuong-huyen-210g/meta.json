@@ -1,0 +1,117 @@
+{
+  "kiotProductId": "65151120",
+  "code": "8936202663571",
+  "barcode": "8936202663571",
+  "name": "Khô bò miếng Phương Huyền 210g",
+  "fullName": "Khô bò miếng Phương Huyền 210g (Lọ)",
+  "brand": "Phương Huyền",
+  "unit": "Lọ",
+  "category": {
+    "kiotCategoryId": "2549220",
+    "name": "Khô bò",
+    "path": "Đồ ăn vặt > Thịt khô và chân gà > Khô bò"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/402424583408354e4bc2ef268f28a336b5d5f07d579078c86327c7a5d62f8793.webp",
+    "description": "Khô bò miếng của Phương Huyền Food, đóng lọ, dùng làm món ăn vặt hoặc đồ nhắm.\n\nQuy cách: 210 g · lọ\nNhà sản xuất/thương hiệu: Phương Huyền Food",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I1: chưa có ảnh; không có trang hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: vẽ một hũ, bỏ gói tương ớt đặt cạnh trong ảnh mẫu; chữ lớn khớp (Khô Bò Miếng, Chất lượng khẳng định thương hiệu số 1, 210g); chữ nhỏ mờ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-18",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh iCheck theo mã vạch (hũ Khô Bò Miếng Phương Huyền 210 g, chỉ làm mẫu)",
+      "referenceUrl": "https://assets.icheck.vn/image/2024/app/9/20/1cead2f0c66114af7e1152f4c2ba8390.jpg"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; mô tả ngắn chỉ từ tên hàng (không có nguồn hãng/nhãn)",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:54:44.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "image REPLACE (no image, no official source), description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T08:24:52.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "wave3: no usable reference for a Gemini redraw"
+    },
+    {
+      "at": "2026-10-18T18:26:09Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-18T18:26:18.901Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T02:05:27.524Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T03:19:05.400Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-18T18:26:18.901Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T01:49:16.527Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T01:49:16.527Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/402424583408354e4bc2ef268f28a336b5d5f07d579078c86327c7a5d62f8793.webp"
+        ],
+        "from": null
+      },
+      "description": {
+        "to": "Khô bò miếng của Phương Huyền Food, đóng lọ, dùng làm món ăn vặt hoặc đồ nhắm.\n\nQuy cách: 210 g · lọ\nNhà sản xuất/thương hiệu: Phương Huyền Food",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

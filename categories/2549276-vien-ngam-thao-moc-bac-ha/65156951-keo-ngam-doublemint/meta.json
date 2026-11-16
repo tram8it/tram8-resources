@@ -1,0 +1,142 @@
+{
+  "kiotProductId": "65156951",
+  "code": "8997018480769",
+  "barcode": "8997018480769",
+  "name": "Kẹo ngậm Doublemint",
+  "fullName": "Kẹo ngậm Doublemint (Tuýp)",
+  "brand": "Doublemint",
+  "unit": "Tuýp",
+  "category": {
+    "kiotCategoryId": "2549276",
+    "name": "Viên ngậm thảo mộc / bạc hà",
+    "path": "Các loại kẹo > Viên ngậm thảo mộc / bạc hà"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/e9e7d7022009a2f1b27da03928d54748545b08e07b16c1e12391e968b781d48b.webp",
+    "description": "Kẹo ngậm Wrigley's Doublemint Mints hương bạc hà (peppermint), viên ngậm không đường, đựng trong tuýp nhỏ gọn.\n\nQuy cách: 1 tuýp 23,8 g\nThành phần: chất chống đóng vón, chất ngọt tổng hợp, hương bạc hà tự nhiên và tổng hợp, màu thực phẩm tổng hợp.\nThương hiệu: Wrigley's (Mỹ)",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I2: ảnh KiotViet là túi kẹo 39 g, sai SP — mã vạch 8997018480769 là tuýp Doublemint Mints (Open Food Facts) → Gemini vẽ 1 tuýp → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ chép đúng ảnh mẫu (WRIGLEY'S DOUBLEMINT, MINTS, Sugarfree Mints, 23.8 g, dòng tiếng Việt); ảnh mẫu Pharmacity là bản SX tại Trung Quốc, mã vạch của cửa hàng (899…) là bản Indonesia — chữ nhỏ có thể khác; xoay lại đúng chiều (chủ 19/10)",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh tuýp Doublemint 23,8 g trên Pharmacity + ảnh Open Food Facts đúng mã vạch (chỉ làm mẫu)",
+      "referenceUrl": "https://www.pharmacity.vn/keo-ngam-huong-bac-ha-doublemint-peppermint-238g.html"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "chưa có mô tả; viết ngắn từ dữ kiện in trên bao bì/trang SP, ghi đơn vị bán lẻ theo KiotViet (v19)",
+    "source": {
+      "url": "https://www.pharmacity.vn/keo-ngam-huong-bac-ha-doublemint-peppermint-238g.html",
+      "fetchedAt": "2026-10-17T09:10:24Z"
+    },
+    "rubricVersion": "v19"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:19:58.000Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "ask owner: bag vs tube"
+    },
+    {
+      "at": "2026-10-17T09:10:04Z",
+      "by": "owner",
+      "status": "ASK_OWNER",
+      "note": "Chủ trả lời (17/10/2026, RUBRIC v19): tin đơn vị KiotViet 'tuýp': SP là tuýp kẹo ngậm (mã vạch khớp tuýp Doublemint Mints trên Open Food Facts), không phải túi 39 g."
+    },
+    {
+      "at": "2026-10-17T09:10:04Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T09:11:05.040Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T03:58:40.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "rotated to reading orientation"
+    },
+    {
+      "at": "2026-10-19T03:59:11.500Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T07:23:08.254Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T17:15:09.663Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-19T03:59:11.500Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T05:16:58.796Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T05:16:58.796Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/e9e7d7022009a2f1b27da03928d54748545b08e07b16c1e12391e968b781d48b.webp"
+        ],
+        "from": [
+          "https://img.tram8.vn/products/8b643969239620cb37d6d8867b587afc36ed8edb63437e505e003b34a094fb67.webp"
+        ]
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "kiotProductId": "67136592",
+  "code": "8850157528245",
+  "barcode": "8850157528245",
+  "name": "Bánh Que Vị Mực Sốt Cay Stick Biscuit 62g",
+  "fullName": "Bánh Que Vị Mực Sốt Cay Stick Biscuit 62g (Gói)",
+  "brand": "Dorkbua",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2549018",
+    "name": "Snack que / que cay",
+    "path": "Đồ ăn vặt > Snacks > Snack que / que cay"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/97be0e01476003630259079d9a1b7fa754832f97bc15258d75d650af10550885.webp",
+    "description": "Bánh que Lotus của Dorkbua vị mực sốt cay (Squid Spicy Sauce), que bánh quy giòn.\n\nQuy cách: 62 g · gói\nNhà sản xuất/thương hiệu: Dorkbua (Lotus)",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I4/I8: hai gói khác vị trên nền phòng; không tìm được ảnh hãng/NPP cho vị này → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Ảnh mẫu nhỏ (320px) nên chi tiết hình mực/lá chanh vẽ lại có thể khác nhẹ; không thể đọc khối lượng trên gói thật nên ảnh không ghi khối lượng; chữ nhỏ dưới logo và bảng dinh dưỡng GDA cố ý làm mờ; mất logo hoa sen nhỏ góc phải trên",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (cắt lấy gói vị mực, chỉ làm mẫu)"
+    },
+    "rubricVersion": "v17"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; mô tả ngắn chỉ từ tên hàng và chữ in mặt trước bao bì (Squid Spicy Sauce)",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:21:20.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "b07 review: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T04:53:18Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 3, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T04:53:41.875Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T05:23:58.238Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T04:53:41.875Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T05:02:00.956Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T05:02:00.956Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/97be0e01476003630259079d9a1b7fa754832f97bc15258d75d650af10550885.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/18/tram8/0ce87b58eadf431d9e718129fd30f16a.png"
+        ]
+      },
+      "description": {
+        "to": "Bánh que Lotus của Dorkbua vị mực sốt cay (Squid Spicy Sauce), que bánh quy giòn.\n\nQuy cách: 62 g · gói\nNhà sản xuất/thương hiệu: Dorkbua (Lotus)",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

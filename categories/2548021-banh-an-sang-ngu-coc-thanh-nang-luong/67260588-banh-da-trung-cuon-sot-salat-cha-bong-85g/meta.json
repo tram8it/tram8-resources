@@ -1,0 +1,119 @@
+{
+  "kiotProductId": "67260588",
+  "code": "8938515491094",
+  "barcode": "8938515491094",
+  "name": "Banh da trứng cuộn sốt salat chà bông 85g",
+  "fullName": "Banh da trứng cuộn sốt salat chà bông 85g (Cái)",
+  "brand": "Deli",
+  "unit": "Cái",
+  "category": {
+    "kiotCategoryId": "2548021",
+    "name": "Bánh ăn sáng / ngũ cốc / thanh năng lượng",
+    "path": "Các loại bánh > Bánh ngọt > Bánh ăn sáng / ngũ cốc / thanh năng lượng"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/784d444458fb8d60febd8918fbb0cd7184eca92f4a6dd0bdb0bdcadd7d517f8e.webp",
+    "description": "Bánh da trứng cuộn sốt salad chà bông của thương hiệu Deli: bánh bông lan da trứng mềm cuộn sốt salad và chà bông.\n\nQuy cách: 85 g · cái\nThương hiệu: Deli",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I4/I5: ảnh chụp gói, nhăn, lóa → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Deli Bánh da trứng cuộn sốt salad chà bông, 85g khớp ảnh KiotViet.",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (ảnh tự chụp)",
+      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/09/08/tram8/d68168feeaa54be79f4bb9fcdddbb029.png"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "REWRITE",
+    "reason": "D4: mô tả cũ thiếu câu giới thiệu, có lời quảng cáo; viết lại ngắn chỉ từ chữ in mặt trước gói (tên, Deli, 85 g) | rà soát v9: Too thin (~250 chars)",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:46:45.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "b13: image CROP, description REWRITE"
+    },
+    {
+      "at": "2026-10-15T09:16:17Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "tone.py --vivid: white balance/levels + brand-like colour (owner request)"
+    },
+    {
+      "at": "2026-10-17T15:19:19Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T15:19:19.356Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T15:19:19.356Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T17:09:15.433Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T17:09:15.433Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/784d444458fb8d60febd8918fbb0cd7184eca92f4a6dd0bdb0bdcadd7d517f8e.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/09/08/tram8/d68168feeaa54be79f4bb9fcdddbb029.png"
+        ]
+      },
+      "description": {
+        "to": "Bánh da trứng cuộn sốt salad chà bông của thương hiệu Deli: bánh bông lan da trứng mềm cuộn sốt salad và chà bông.\n\nQuy cách: 85 g · cái\nThương hiệu: Deli",
+        "from": "<div aria-level=\"3\" class=\"otQkpb\" data-animation-nesting=\"\" data-copy-service-computed-style=\"font-family: \" google=\"\" sans\",=\"\" arial,=\"\" sans-serif;=\"\" font-size:=\"\" 20px;=\"\" font-weight:=\"\" 600;=\"\" margin:=\"\" 24px=\"\" 0px=\"\" 12px;=\"\" text-decoration:=\"\" none;=\"\" border-bottom:=\"\" rgb(238,=\"\" 240,=\"\" 255);\"=\"\" data-sfc-cp=\"\" data-sfc-root=\"ep\" data-wiz-attrbind=\"aria-level=kqcisf_13/fLk2Md\" jsaction=\"\" jsc jsuid=\"kqcisf_13\" role=\"heading\" style=\"font-family:'Google Sans', Arial, sans-serif;font-weight:600;margin:24px 0px 12px;border-bottom:0px rgb(238, 240, 255);\">Đặc điểm sản phẩm<!--TgQPHd|||[]--></div><ul class=\"KsbFXc U6u95\" data-copy-service-computed-style=\"font-family: \" google=\"\" sans\",=\"\" arial,=\"\" sans-serif;=\"\" font-size:=\"\" 16px;=\"\" font-weight:=\"\" 400;=\"\" margin:=\"\" 12px=\"\" 0px=\"\" text-decoration:=\"\" none;=\"\" border-bottom:=\"\" rgb(230,=\"\" 232,=\"\" 240);\"=\"\" data-hveid=\"CAIIAAgACA4QAA\" data-sfc-cp=\"\" data-sfc-root=\"ep\" data-ved=\"2ahUKEwirzLON0d6WAxWmnq8BHQhNKk8Q-7AUegoIAggACAAIDhAA\" jsaction=\"\" jsc jsuid=\"kqcisf_14\" style=\"font-family:'Google Sans', Arial, sans-serif;margin:12px 0px 16px;border-bottom:0px rgb(230, 232, 240);\"><div data-bfc=\"\" data-copy-service-computed-style=\"font-family: \" google=\"\" sans\",=\"\" arial,=\"\" sans-serif;=\"\" font-size:=\"\" 16px;=\"\" font-weight:=\"\" 400;=\"\" margin:=\"\" 0px;=\"\" text-decoration:=\"\" none;=\"\" border-bottom:=\"\" 0px=\"\" rgb(230,=\"\" 232,=\"\" 240);\"=\"\" data-hveid=\"CAIIAAgACA4QAQ\" data-ved=\"2ahUKEwirzLON0d6WAxWmnq8BHQhNKk8Qi4wTegoIAggACAAIDhAB\" style=\"margin:0px;border-bottom:0px rgb(230, 232, 240);\"><li class=\"Z1qcYe\" data-copy-service-computed-style=\"font-family: \" google=\"\" sans\",=\"\" arial,=\"\" sans-serif;=\"\" font-size:=\"\" 16px;=\"\" font-weight:=\"\" 400;=\"\" margin:=\"\" 0px=\"\" 12px;=\"\" text-decoration:=\"\" none;=\"\" border-bottom:=\"\" rgb(230,=\"\" 232,=\"\" 240);\"=\"\" data-hveid=\"CAIIAAgACA4QAg\" data-sfc-cp=\"\" data-sfc-root=\"ep\" jsaction=\"\" jsc jsuid=\"kqcisf_15\" style=\"margin:0px 0px 12px;border-bottom:0px rgb(230, 232, 240);\"><span class=\"iNqyIf\" data-copy-service-computed-style=\"font-family: \" google=\"\" sans\",=\"\" arial,=\"\" sans-serif;=\"\" font-size:=\"\" 16px;=\"\" font-weight:=\"\" 400;=\"\" margin:=\"\" 0px;=\"\" text-decoration:=\"\" none;=\"\" border-bottom:=\"\" 0px=\"\" rgb(230,=\"\" 232,=\"\" 240);\"=\"\" data-sfc-cp=\"\" data-sfc-root=\"ep\" jsaction=\"\" jsc jsuid=\"kqcisf_16\" style=\"margin:0px;border-bottom:0px rgb(230, 232, 240);\"><span class=\"rQesXe MPyX\" data-copy-service-computed-style=\"font-family: \" google=\"\" sans\",=\"\" arial,=\"\" sans-serif;=\"\" font-size:=\"\" 16px;=\"\" font-weight:=\"\" 700;=\"\" margin:=\"\" 0px;=\"\" text-decoration:=\"\" none;=\"\" border-bottom:=\"\" 0px=\"\" rgb(230,=\"\" 232,=\"\" 240);\"=\"\" data-sfc-cp=\"\" data-sfc-root=\"ep\" jsaction=\"\" jsc jsuid=\"kqcisf_17\" style=\"font-weight:700;margin:0px;border-bottom:0px rgb(230, 232, 240);\">Trọng lượng<!--TgQPHd|||[]--></span>: 85g/cái (loại to, phù hợp ăn no hoặc làm bữa phụ năng lượng).<!--TgQPHd|||[]--></span><!--TgQPHd|||[]--></li></div><div data-bfc=\"\" data-copy-service-computed-style=\"font-family: \" google=\"\" sans\",=\"\" arial,=\"\" sans-serif;=\"\" font-size:=\"\" 16px;=\"\" font-weight:=\"\" 400;=\"\" margin:=\"\" 0px;=\"\" text-decoration:=\"\" none;=\"\" border-bottom:=\"\" 0px=\"\" rgb(230,=\"\" 232,=\"\" 240);\"=\"\" data-hveid=\"CAIIAAgACA4QAw\" data-ved=\"2ahUKEwirzLON0d6WAxWmnq8BHQhNKk8Qi4wTegoIAggACAAIDhAD\" style=\"margin:0px;border-bottom:0px rgb(230, 232, 240);\"><li class=\"Z1qcYe\" data-copy-service-computed-style=\"font-family: \" google=\"\" sans\",=\"\" arial,=\"\" sans-serif;=\"\" font-size:=\"\" 16px;=\"\" font-weight:=\"\" 400;=\"\" margin:=\"\" 0px=\"\" 12px;=\"\" text-decoration:=\"\" none;=\"\" border-bottom:=\"\" rgb(230,=\"\" 232,=\"\" 240);\"=\"\" data-hveid=\"CAIIAAgACA4QBA\" data-sfc-cp=\"\" data-sfc-root=\"ep\" jsaction=\"\" jsc jsuid=\"kqcisf_18\" style=\"margin:0px 0px 12px;border-bottom:0px rgb(230, 232, 240);\"><span class=\"iNqyIf\" data-copy-service-computed-style=\"font-family: \" google=\"\" sans\",=\"\" arial,=\"\" sans-serif;=\"\" font-size:=\"\" 16px;=\"\" font-weight:=\"\" 400;=\"\" margin:=\"\" 0px;=\"\" text-decoration:=\"\" none;=\"\" border-bottom:=\"\" 0px=\"\" rgb(230,=\"\" 232,=\"\" 240);\"=\"\" data-sfc-cp=\"\" data-sfc-root=\"ep\" jsaction=\"\" jsc jsuid=\"kqcisf_19\" style=\"margin:0px;border-bottom:0px rgb(230, 232, 240);\"><span class=\"rQesXe MPyX\" data-copy-service-computed-style=\"font-family: \" google=\"\" sans\",=\"\" arial,=\"\" sans-serif;=\"\" font-size:=\"\" 16px;=\"\" font-weight:=\"\" 700;=\"\" margin:=\"\" 0px;=\"\" text-decoration:=\"\" none;=\"\" border-bottom:=\"\" 0px=\"\" rgb(230,=\"\" 232,=\"\" 240);\"=\"\" data-sfc-cp=\"\" data-sfc-root=\"ep\" jsaction=\"\" jsc jsuid=\"kqcisf_1a\" style=\"font-weight:700;margin:0px;border-bottom:0px rgb(230, 232, 240);\">Thành phần chính<!--TgQPHd|||[]--></span>: Bột mì, nước, trứng, sốt salad mặn, đường, chà bông gà.<!--TgQPHd|||[]--></span><!--TgQPHd|||[]--></li></div><div data-bfc=\"\" data-copy-service-computed-style=\"font-family: \" google=\"\" sans\",=\"\" arial,=\"\" sans-serif;=\"\" font-size:=\"\" 16px;=\"\" font-weight:=\"\" 400;=\"\" margin:=\"\" 0px;=\"\" text-decoration:=\"\" none;=\"\" border-bottom:=\"\" 0px=\"\" rgb(230,=\"\" 232,=\"\" 240);\"=\"\" data-hveid=\"CAIIAAgACA4QBQ\" data-ved=\"2ahUKEwirzLON0d6WAxWmnq8BHQhNKk8Qi4wTegoIAggACAAIDhAF\" style=\"margin:0px;border-bottom:0px rgb(230, 232, 240);\"><li class=\"Z1qcYe\" data-copy-service-computed-style=\"font-family: \" google=\"\" sans\",=\"\" arial,=\"\" sans-serif;=\"\" font-size:=\"\" 16px;=\"\" font-weight:=\"\" 400;=\"\" margin:=\"\" 0px=\"\" 12px;=\"\" text-decoration:=\"\" none;=\"\" border-bottom:=\"\" rgb(230,=\"\" 232,=\"\" 240);\"=\"\" data-hveid=\"CAIIAAgACA4QBg\" data-sfc-cp=\"\" data-sfc-root=\"ep\" jsaction=\"\" jsc jsuid=\"kqcisf_1b\" style=\"margin:0px 0px 12px;border-bottom:0px rgb(230, 232, 240);\"><span class=\"iNqyIf\" data-copy-service-computed-style=\"font-family: \" google=\"\" sans\",=\"\" arial,=\"\" sans-serif;=\"\" font-size:=\"\" 16px;=\"\" font-weight:=\"\" 400;=\"\" margin:=\"\" 0px;=\"\" text-decoration:=\"\" none;=\"\" border-bottom:=\"\" 0px=\"\" rgb(230,=\"\" 232,=\"\" 240);\"=\"\" data-sfc-cp=\"\" data-sfc-root=\"ep\" jsaction=\"\" jsc jsuid=\"kqcisf_1c\" style=\"margin:0px;border-bottom:0px rgb(230, 232, 240);\"><span class=\"rQesXe MPyX\" data-copy-service-computed-style=\"font-family: \" google=\"\" sans\",=\"\" arial,=\"\" sans-serif;=\"\" font-size:=\"\" 16px;=\"\" font-weight:=\"\" 700;=\"\" margin:=\"\" 0px;=\"\" text-decoration:=\"\" none;=\"\" border-bottom:=\"\" 0px=\"\" rgb(230,=\"\" 232,=\"\" 240);\"=\"\" data-sfc-cp=\"\" data-sfc-root=\"ep\" jsaction=\"\" jsc jsuid=\"kqcisf_1d\" style=\"font-weight:700;margin:0px;border-bottom:0px rgb(230, 232, 240);\">Hương vị<!--TgQPHd|||[]--></span>: Bánh mềm bông xốp, vị ngọt nhẹ kết hợp sốt béo và chà bông đậm đà, không ngán.</span></li></div></ul>"
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

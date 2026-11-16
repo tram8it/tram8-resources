@@ -1,0 +1,111 @@
+{
+  "kiotProductId": "67903043",
+  "code": "8851019601151",
+  "barcode": "8851019601151",
+  "name": "BÁNH QUE POCKY TRÁI CÂY NGHIỀN VỊ SỮA CHUA CHANH DÂY , XOÀI 38G",
+  "fullName": "BÁNH QUE POCKY TRÁI CÂY NGHIỀN VỊ SỮA CHUA CHANH DÂY , XOÀI 38G (Hộp)",
+  "brand": "Pocky",
+  "unit": "Hộp",
+  "category": {
+    "kiotCategoryId": "2549067",
+    "name": "Bánh que chấm socola",
+    "path": "Bánh quy & bánh đóng gói > Bánh que chấm socola"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/3fa60d6affbf1487ae772d4bc3ed40f2d10a040d8ce1a78f41fe0db36e7e2636.webp",
+    "description": "Bánh que Pocky dòng trái cây nghiền của Glico, lớp phủ vị sữa chua chanh dây và xoài.\n\nQuy cách: 38 g · hộp\nNhà sản xuất/thương hiệu: Glico · Pocky",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I1: chưa có ảnh; dòng Pocky Crushed Fruits không có trên trang Glico → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt (chữ vị Passion Fruit Yoghurt Flavour with Mango Bits, NET 38 g khớp mẫu)",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh Kingfoodmart (chỉ làm mẫu)",
+      "referenceUrl": "https://storage.googleapis.com/onelife-public/8851019601151.jpg"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết ngắn từ tên SP, không có nguồn hãng",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:07:05.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "b18 review (rubric v4): image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T07:43:37Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T07:44:03.723Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T08:06:02.482Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T07:44:03.723Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T07:48:29.862Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T07:48:29.862Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/3fa60d6affbf1487ae772d4bc3ed40f2d10a040d8ce1a78f41fe0db36e7e2636.webp"
+        ],
+        "from": null
+      },
+      "description": {
+        "to": "Bánh que Pocky dòng trái cây nghiền của Glico, lớp phủ vị sữa chua chanh dây và xoài.\n\nQuy cách: 38 g · hộp\nNhà sản xuất/thương hiệu: Glico · Pocky",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

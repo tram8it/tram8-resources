@@ -1,0 +1,112 @@
+{
+  "kiotProductId": "68504994",
+  "code": "8586003700366",
+  "barcode": "8586003700366",
+  "name": "Bia Steiger Vàng 12% 500ml",
+  "fullName": "Bia Steiger Vàng 12% 500ml - 5% (Lon)",
+  "brand": "Steiger",
+  "unit": "Lon",
+  "category": {
+    "kiotCategoryId": "2549771",
+    "name": "Nhập khẩu & premium",
+    "path": "Đồ uống có cồn (18+) > Bia > Nhập khẩu & premium"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/5405dcaa87c474e2c44b017b70a227c8d92b6077600fdb4dc49a99f5461e9bd6.webp",
+    "description": "Bia vàng Steiger của nhà bia Steiger (Slovakia, từ năm 1473), lon cao màu vàng kim; lon in dòng chữ \"Najlepšie pivo roka vo svojej kategórii\" (bia ngon nhất năm trong hạng mục).\n\nQuy cách: 500 ml · lon\nXuất xứ: Slovakia · Thương hiệu: Steiger\nSản phẩm dành cho người từ 18 tuổi trở lên.",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I3/I4: ảnh chụp điện thoại trong cửa hàng, nền thùng/kệ, lon bị cắt; không có ảnh hãng dùng được → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Nắp/đáy lon vẽ thêm; dòng chữ rất nhỏ dưới đáy để mờ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: KiotViet chưa có mô tả; viết ngắn từ chữ in trên lon (ảnh KiotViet)",
+    "source": null,
+    "rubricVersion": "v20"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-17T17:42:09Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T17:43:21Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T17:44:04.792Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-18T17:16:08.691Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T03:19:05.400Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T17:44:04.792Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T17:48:16.365Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T17:48:16.365Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/5405dcaa87c474e2c44b017b70a227c8d92b6077600fdb4dc49a99f5461e9bd6.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/10/16/tram8/ceeedb61a2dd49dbad96158bb4c66579.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Bia vàng Steiger của nhà bia Steiger (Slovakia, từ năm 1473), lon cao màu vàng kim; lon in dòng chữ \"Najlepšie pivo roka vo svojej kategórii\" (bia ngon nhất năm trong hạng mục).\n\nQuy cách: 500 ml · lon\nXuất xứ: Slovakia · Thương hiệu: Steiger\nSản phẩm dành cho người từ 18 tuổi trở lên.",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

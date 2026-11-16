@@ -1,0 +1,113 @@
+{
+  "kiotProductId": "66006136",
+  "code": "8934588063145",
+  "barcode": "8934588063145",
+  "name": "Aquafina 355ml",
+  "fullName": "Aquafina 355ml (Chai)",
+  "brand": "Aquafina",
+  "unit": "Chai",
+  "category": {
+    "kiotCategoryId": "2549381",
+    "name": "Nước suối / bù khoáng / ion",
+    "path": "Đồ uống đóng chai > Nước suối / bù khoáng / ion"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/fc63061d02be505e0587f0a18568ce4dc4e59b02fc46fc09d0c2c82e3c421ec6.webp",
+    "description": "Nước uống tinh khiết Aquafina của Suntory PepsiCo Việt Nam.\n\nQuy cách: 355 ml · chai\nNhà sản xuất/thương hiệu: Suntory PepsiCo Việt Nam · Aquafina",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I8: ảnh cũ là thùng 24 chai, SP bán theo chai; không có ảnh hãng Aquafina → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt đáng kể; chữ dung tích nhỏ ở mép nhãn không đọc được",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh Kingfoodmart chai 355 ml (chỉ làm mẫu)",
+      "referenceUrl": "https://storage.googleapis.com/onelife-public/8934588063145.jpg"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết ngắn từ tên SP (suntorypepsico.vn không có trang Aquafina)",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:07:05.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "b18 review (rubric v4): image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T07:43:25Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T07:43:43.148Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T08:06:02.482Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T07:43:43.148Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T07:48:08.945Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T07:48:08.945Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/fc63061d02be505e0587f0a18568ce4dc4e59b02fc46fc09d0c2c82e3c421ec6.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/05/26/tram8/1ac99f4ad4d34f25a44d4c8458277ba5.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Nước uống tinh khiết Aquafina của Suntory PepsiCo Việt Nam.\n\nQuy cách: 355 ml · chai\nNhà sản xuất/thương hiệu: Suntory PepsiCo Việt Nam · Aquafina",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "kiotProductId": "66728323",
+  "code": "8938549708090",
+  "barcode": "8938549708090",
+  "name": "Bánh tráng trộn rong biển",
+  "fullName": "Bánh tráng trộn rong biển (Gói)",
+  "brand": "Miss Bánh Tráng",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2546102",
+    "name": "Bánh tráng trộn",
+    "path": "Đồ ăn vặt > Bánh tráng trộn"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/7b9a9bd878817419106383ea33d58b7d0ca9c60e54d81e6e9764fb0f73691c41.webp",
+    "description": "Bánh tráng trộn vị rong biển thương hiệu Miss Bánh Tráng, dòng cao cấp, ăn liền ngay khi mở gói.\n\nQuy cách: gói\nNhà sản xuất/thương hiệu: Công ty CP Thực phẩm Vina Snack · Miss Bánh Tráng",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I1: chưa có ảnh; hãng không đăng ảnh SP riêng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Bố cục, màu, chữ lớn khớp ảnh mẫu; khối lượng '40 g' đọc từ ảnh mẫu độ phân giải thấp (khác 46 g của các vị khác) — chủ nên kiểm trên gói thật; dòng tiếng Anh nhỏ có thể sai chữ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh banner của hãng trên vinasnack.com.vn (cắt phóng to, chỉ làm mẫu) + ảnh KiotViet 4 gói",
+      "referenceUrl": "https://www.vinasnack.com.vn/"
+    },
+    "rubricVersion": "v17"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết ngắn chỉ từ dữ kiện chắc chắn (tên SP, chữ in mặt trước bao bì), không có trang hãng/nhãn sau",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:32:10.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "batch b09 review: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T05:14:47Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T05:14:52.512Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T05:23:58.238Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T05:14:52.512Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T05:16:29.307Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T05:16:29.307Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/7b9a9bd878817419106383ea33d58b7d0ca9c60e54d81e6e9764fb0f73691c41.webp"
+        ],
+        "from": null
+      },
+      "description": {
+        "to": "Bánh tráng trộn vị rong biển thương hiệu Miss Bánh Tráng, dòng cao cấp, ăn liền ngay khi mở gói.\n\nQuy cách: gói\nNhà sản xuất/thương hiệu: Công ty CP Thực phẩm Vina Snack · Miss Bánh Tráng",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

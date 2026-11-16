@@ -1,0 +1,122 @@
+{
+  "kiotProductId": "64865584",
+  "code": "8938545682875",
+  "barcode": "8938545682875",
+  "name": "Gumi khăn lau giầy",
+  "fullName": "Gumi khăn lau giầy (Gói)",
+  "brand": "Gumi",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2500646",
+    "name": "Khăn ướt – khăn giấy",
+    "path": "Gia dụng & Tiện ích > Khăn ướt – khăn giấy"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/11b7d09431511793e602101aa04edda6728f449b84703a4eb2b07d6e1854bdb3.webp",
+    "description": "Khăn ướt lau giày Gumi Sneaker Wipes dùng để lau sạch bụi bẩn, vết ố trên giày thể thao mà không cần rửa lại bằng nước; cũng dùng được cho túi xách, ví và cặp da. Khăn vải không dệt bề mặt dập nổi, có hương quế.\n\nThành phần: vải không dệt, nước tinh khiết, propylene glycol, polyhexamethylene biguanide hydrochloride (PHMB), C13 isotridecanol (10 EO), ethyl alcohol.\nQuy cách: gói · khăn 200 × 100 mm\nXuất xứ: Việt Nam · Nhà sản xuất/thương hiệu: Công ty CP Sản xuất và Phân phối Gumi",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "ảnh tự chụp: gói bóng, nhăn, hơi mờ; trang hãng gumi.vn chỉ có ảnh quảng cáo nền màu → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ nhỏ không đọc rõ, chỉ minh hoạ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh quảng cáo trên gumi.vn (trang hãng, nền hồng, chỉ làm mẫu) + ảnh KiotViet",
+      "referenceUrl": "https://gumi.vn/product/khan-uot-lau-giay-the-thao/"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết từ trang Gumi (mã vạch trùng). Trang hãng ghi 30 tờ/gói nhưng gói trong ảnh in \"25 wipes\" → bỏ số tờ",
+    "source": {
+      "url": "https://gumi.vn/product/khan-uot-lau-giay-the-thao/",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:04:56.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "image CROP, description WRITE_NEW (gumi.vn)"
+    },
+    {
+      "at": "2026-10-15T09:16:17Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "tone.py --vivid: white balance/levels + brand-like colour (owner request)"
+    },
+    {
+      "at": "2026-10-17T14:19:33Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T14:19:33.653Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T14:19:33.653Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T16:48:14.267Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T16:48:14.267Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/11b7d09431511793e602101aa04edda6728f449b84703a4eb2b07d6e1854bdb3.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/27/tram8/a4acc7587fbb471db43dfbc20248a1b3.png"
+        ]
+      },
+      "description": {
+        "to": "Khăn ướt lau giày Gumi Sneaker Wipes dùng để lau sạch bụi bẩn, vết ố trên giày thể thao mà không cần rửa lại bằng nước; cũng dùng được cho túi xách, ví và cặp da. Khăn vải không dệt bề mặt dập nổi, có hương quế.\n\nThành phần: vải không dệt, nước tinh khiết, propylene glycol, polyhexamethylene biguanide hydrochloride (PHMB), C13 isotridecanol (10 EO), ethyl alcohol.\nQuy cách: gói · khăn 200 × 100 mm\nXuất xứ: Việt Nam · Nhà sản xuất/thương hiệu: Công ty CP Sản xuất và Phân phối Gumi",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "kiotProductId": "66147786",
+  "code": "8993027164034",
+  "barcode": "8993027164034",
+  "name": "Snack Happy Tos Bắp Vị Bắp Nướng 140g",
+  "fullName": "Snack Happy Tos Bắp Vị Bắp Nướng 140g (Gói)",
+  "brand": "Happy Tos",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2549014",
+    "name": "Snack bắp & phồng",
+    "path": "Đồ ăn vặt > Snacks > Snack bắp & phồng"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/f634456fe4372319377e0e0d9a771c57f4b2ca1371f5d181bac689e492fe1554.webp",
+    "description": "Snack bắp Happy Tos vị bắp nướng (Rasa Jagung Bakar – Roasted Corn Flavor), bánh tortilla chips giòn từ bắp, nhập khẩu Indonesia. Theo bao bì: không chất béo trans.\n\nQuy cách: 140 g · gói\nNhà sản xuất/thương hiệu: PT. Sinar Kencana Agung · Happy Tos",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "Chủ: cần gói vuông vắn hơn → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ nhỏ mặt sau/đáy gói vẽ mờ; 140 g như bao bì",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-18",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (chỉ làm mẫu)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "REWRITE",
+    "reason": "D2: tên ghi 'vị cay ngọt' nhưng mã vạch là vị bắp nướng → mô tả theo hàng thật",
+    "source": null,
+    "rubricVersion": "v19"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:23:35.000Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "asked owner: name cay ngọt vs roasted-corn image"
+    },
+    {
+      "at": "2026-10-17T14:04:30Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "resolved without asking: barcode 8993027164034 = Happy Tos Jagung Bakar 140g (iCheck, OFF) = current image; name mismatch logged"
+    },
+    {
+      "at": "2026-10-17T14:06:23.577Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "IN_PROGRESS",
+      "note": "rejected on Hub by AU KHUONG DUY: Cần gói vuông vắn hơn"
+    },
+    {
+      "at": "2026-10-18T11:31:34Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "redo after Hub rejection: Cần gói vuông vắn hơn — Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-18T11:31:34.223Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-18T17:16:08.691Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T03:19:05.400Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-18T11:31:34.223Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-18T17:11:19.738Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-18T17:11:19.738Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/f634456fe4372319377e0e0d9a771c57f4b2ca1371f5d181bac689e492fe1554.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/30/tram8/0a6a8a2bcc054c4aad42cdea34593f66.png"
+        ]
+      },
+      "description": {
+        "to": "Snack bắp Happy Tos vị bắp nướng (Rasa Jagung Bakar – Roasted Corn Flavor), bánh tortilla chips giòn từ bắp, nhập khẩu Indonesia. Theo bao bì: không chất béo trans.\n\nQuy cách: 140 g · gói\nNhà sản xuất/thương hiệu: PT. Sinar Kencana Agung · Happy Tos",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "kiotProductId": "64865748",
+  "code": "8934595020254",
+  "barcode": "8934595020254",
+  "name": "Kẹo Jelly Túi 175G",
+  "fullName": "Kẹo Jelly Túi 175G (Gói)",
+  "brand": "Hải Hà",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2549274",
+    "name": "Kẹo dẻo / jelly",
+    "path": "Các loại kẹo > Kẹo dẻo / jelly"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/3a1c725b618e6a55de4c40301ac5a4c14e555ef9c6c1e58cf3b6dc369349323f.webp",
+    "description": "Kẹo dẻo Jelly Chip Chip của Hải Hà: nhiều viên kẹo dẻo màu sắc trong túi lớn, bao bì in hình trái cây.\n\nQuy cách: 175 g · gói\nNhà sản xuất/thương hiệu: Hải Hà (Haihaco)",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "ảnh tự chụp (nhăn, bóng, nghiêng); không có ảnh hãng đúng cỡ → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt; chữ nhỏ mặt sau vẽ mờ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (ảnh tự chụp, chỉ làm mẫu)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; không có trang hãng — mô tả ngắn chỉ từ tên SP và chữ in mặt trước bao bì (ảnh hiện tại)",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:19:58.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "image CROP, description WRITE_NEW (pack front)"
+    },
+    {
+      "at": "2026-10-15T09:16:17Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "tone.py --vivid: white balance/levels + brand-like colour (owner request)"
+    },
+    {
+      "at": "2026-10-17T14:06:49Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T14:07:13.627Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T14:07:13.627Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T15:17:37.142Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T15:17:37.142Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/3a1c725b618e6a55de4c40301ac5a4c14e555ef9c6c1e58cf3b6dc369349323f.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/27/tram8/68f4d1d918834a4396e13e1d7611eb1f.png"
+        ]
+      },
+      "description": {
+        "to": "Kẹo dẻo Jelly Chip Chip của Hải Hà: nhiều viên kẹo dẻo màu sắc trong túi lớn, bao bì in hình trái cây.\n\nQuy cách: 175 g · gói\nNhà sản xuất/thương hiệu: Hải Hà (Haihaco)",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

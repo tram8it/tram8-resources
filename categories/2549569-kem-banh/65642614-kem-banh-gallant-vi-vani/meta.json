@@ -1,0 +1,118 @@
+{
+  "kiotProductId": "65642614",
+  "code": "8801206000045",
+  "barcode": "8801206000045",
+  "name": "Kem bánh gallant vị vani",
+  "fullName": "Kem bánh gallant vị vani (Cái)",
+  "brand": null,
+  "unit": "Cái",
+  "category": {
+    "kiotCategoryId": "2549569",
+    "name": "Kem bánh",
+    "path": "Kem & Đồ đông lạnh > Kem bánh"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/a3d13d18b174d59b719935d5edce8c977931cbc70bb3b843ac7e2538471329dc.webp",
+    "description": "Kem bánh Bbangtteure (빵뚜르) của Hàn Quốc: kem sữa kẹp giữa hai lớp bánh bông lan castella, bản \"버터UP\" thêm vị bơ. Bảo quản đông lạnh.\n\nQuy cách: 190 ml · cái\nXuất xứ: Hàn Quốc",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I3/I4: ảnh chụp điện thoại trên nền xám; không có trang hãng (Seoju) truy cập được → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: bỏ dòng hạn dùng in phun; bảng thông tin nhỏ ở đáy và tên hãng góc trái do AI vẽ, không đọc được; chữ lớn 빵뚜르, 버터UP, 190 mL theo ảnh thật",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet của cửa hàng"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; theo chữ in trên bao bì (ảnh KiotViet: 빵뚜르, 버터UP, 190 mL, castella 25 %); Open Food Facts mã 8801206000045 = Seoju Butter Flavour Ice Cream Sandwich — tên KiotViet ghi 'vị vani'",
+    "source": null,
+    "rubricVersion": "v19"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:12:52.000Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "name \"gallant vị vani\" vs photo 빵뚜르 castella ice cream"
+    },
+    {
+      "at": "2026-10-17T14:07:18Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T14:08:33Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "resolved without asking: mã vạch (Open Food Facts) và ảnh KiotViet cùng là kem bánh 빵뚜르 vị bơ 190 ml → ảnh/mô tả theo bao bì (v19)"
+    },
+    {
+      "at": "2026-10-17T14:09:24.756Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T14:09:24.756Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T15:36:55.728Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T15:36:55.728Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/a3d13d18b174d59b719935d5edce8c977931cbc70bb3b843ac7e2538471329dc.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/05/11/tram8/ea4be24d34484dae8480fa833c84e824.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Kem bánh Bbangtteure (빵뚜르) của Hàn Quốc: kem sữa kẹp giữa hai lớp bánh bông lan castella, bản \"버터UP\" thêm vị bơ. Bảo quản đông lạnh.\n\nQuy cách: 190 ml · cái\nXuất xứ: Hàn Quốc",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

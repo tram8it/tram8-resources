@@ -1,0 +1,119 @@
+{
+  "kiotProductId": "65643392",
+  "code": "8801062416974",
+  "barcode": "8801062416974",
+  "name": "Kem dưa lưới Lotte cây 80ml",
+  "fullName": "Kem dưa lưới Lotte cây 80ml (Cái)",
+  "brand": "Lotte",
+  "unit": "Cái",
+  "category": {
+    "kiotCategoryId": "2549567",
+    "name": "Kem que",
+    "path": "Kem & Đồ đông lạnh > Kem que"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/eee4a6b12bf970a30e96fb185bac37ebea804699cfa858253870e65052b50009.webp",
+    "description": "Kem que vị dưa lưới Lotte Melonia (메로니아).\n\nQuy cách: 80 ml · cái\nXuất xứ: Hàn Quốc · Thương hiệu: Lotte",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I2: ảnh KiotViet là Melona của Binggrae; mã vạch 8801062416974 là kem Lotte Melonia 80 ml (iCheck, Open Food Facts) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: dòng chữ nhỏ 80 ml (145 kcal) màu tối, gói thật chữ trắng",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh iCheck + Open Food Facts theo mã vạch (chỉ làm mẫu)",
+      "referenceUrl": "https://icheck.vn/san-pham/8801062416974"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "source": null,
+    "rubricVersion": "v20",
+    "decision": "WRITE_NEW",
+    "reason": "mã vạch 8801062416974 = kem Lotte Melonia 80 ml (iCheck, OFF)"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:22:18.000Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "ask owner: Lotte name/barcode vs Binggrae Melona image"
+    },
+    {
+      "at": "2026-10-17T14:07:37Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T14:08:43Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "resolved without asking: barcode/evidence decides (mã vạch 8801062416974 = kem Lotte Melonia 80 ml (iCheck, OFF))"
+    },
+    {
+      "at": "2026-10-17T14:10:17.022Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T14:10:17.022Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T15:39:10.997Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T15:39:10.997Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/eee4a6b12bf970a30e96fb185bac37ebea804699cfa858253870e65052b50009.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/05/11/tram8/32f435eaddd7464d964ec43d01f9b2a0.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Kem que vị dưa lưới Lotte Melonia (메로니아).\n\nQuy cách: 80 ml · cái\nXuất xứ: Hàn Quốc · Thương hiệu: Lotte",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

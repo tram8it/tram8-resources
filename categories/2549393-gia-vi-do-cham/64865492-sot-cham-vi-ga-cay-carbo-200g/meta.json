@@ -1,0 +1,132 @@
+{
+  "kiotProductId": "64865492",
+  "code": "8801073411432",
+  "barcode": "8801073411432",
+  "name": "SỐT CHẤM VỊ GÀ CAY CARBO 200G",
+  "fullName": "SỐT CHẤM VỊ GÀ CAY CARBO 200G (Chai)",
+  "brand": "Samyang",
+  "unit": "Chai",
+  "category": {
+    "kiotCategoryId": "2549393",
+    "name": "Gia vị - Đồ chấm",
+    "path": "Đồ khô - Mì Gói > Gia vị - Đồ chấm"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/22ae05305311f98e31aeb370924b8ddbef88d5e7734ba04ec499e29d1856154d.webp",
+    "description": "Xốt ớt cay Samyang Buldak Hot Sauce vị Carbonara (chai hồng), đựng trong chai nhựa tiện dùng để chấm hoặc rưới lên món ăn. Bao bì có chứng nhận Halal.\n\nQuy cách: 200 g · chai\nNhà sản xuất/thương hiệu: Samyang · Buldak",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "ảnh tự chụp (mềm, nhăn/bóng lóa); không có ảnh hãng nguyên gói dùng được → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chai vẽ ít eo hơn chai thật; chữ và 200 g khớp ảnh",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet hiện có (ảnh tự chụp)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; mô tả ngắn từ chữ in trên chai (Net wt 200 g, Halal) và tên SP (Carbo)",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:14:49.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "b26: image CROP, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-14T07:51:34.052Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-14T08:54:33Z",
+      "by": "owner",
+      "status": "READY",
+      "note": "Chủ thấy ảnh tối; chỉnh sáng bằng tools/tone.py, gửi lại"
+    },
+    {
+      "at": "2026-10-14T08:54:53.531Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-14T09:24:31.419Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-17T14:25:59Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T14:27:48.814Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T14:27:48.814Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T16:56:39.902Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T16:56:39.902Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/22ae05305311f98e31aeb370924b8ddbef88d5e7734ba04ec499e29d1856154d.webp"
+        ],
+        "from": [
+          "https://img.tram8.vn/products/ba32ce4e3f6f663c5aafc9dc86f4fdea479525b93a576a605e169e18d10ea2e6.webp"
+        ]
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

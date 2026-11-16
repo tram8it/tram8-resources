@@ -1,0 +1,138 @@
+{
+  "kiotProductId": "65387611",
+  "code": "8936146441761",
+  "barcode": "8936146441761",
+  "name": "Da cá vị trứng muối cay G 25g",
+  "fullName": "Da cá vị trứng muối cay G 25g (Gói)",
+  "brand": "G Kitchen",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2549057",
+    "name": "Da cá / Da heo",
+    "path": "Đồ ăn vặt > Thịt khô và chân gà > Da cá / Da heo"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/0d8667b733b6fbd67fd45ebe7af12187332174e90e8fe268651d3849968fab2c.webp",
+    "description": "Da cá chiên giòn vị trứng muối cay thương hiệu G (GREENFEED), món ăn vặt ăn liền, giòn rụm thấm vị, có vị cay.\n\nQuy cách: 25 g · gói\nNhà sản xuất/thương hiệu: G · GREENFEED",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "Rà ảnh mờ 19/10: ảnh crop phóng to mờ, chữ nhỏ nhoè → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: bỏ dấu in phun NSX/HSD; chữ nhỏ không đọc được",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-19",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh hiện tại (gói thật)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết ngắn từ chữ in mặt trước bao bì (không tìm được trang hãng truy cập được)",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:14:32.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "b28 review: image CROP, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-15T02:52:31.177Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-15T09:16:17Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "tone.py --vivid: white balance/levels + brand-like colour (owner request)"
+    },
+    {
+      "at": "2026-10-15T09:17:08.278Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-16T01:38:49.852Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-19T03:59:38Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references — owner 19/10: replace blurry/upscaled/jagged or wrinkled-photo images with crisp flat renders"
+    },
+    {
+      "at": "2026-10-19T04:01:16.758Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T07:23:08.254Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T17:15:09.663Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-19T04:01:16.758Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T05:19:32.473Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T05:19:32.473Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/0d8667b733b6fbd67fd45ebe7af12187332174e90e8fe268651d3849968fab2c.webp"
+        ],
+        "from": [
+          "https://img.tram8.vn/products/a4b93ee6d3190dc0b66a3d2d14745889a45e239286683fcc56492c4c8f61c2a0.webp"
+        ]
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

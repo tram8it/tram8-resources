@@ -1,0 +1,135 @@
+{
+  "kiotProductId": "65197994",
+  "code": "8936221043545",
+  "barcode": "8936221043545",
+  "name": "Muối ớt xanh Chinsu 200g",
+  "fullName": "Muối ớt xanh Chinsu 200g (Chai)",
+  "brand": "Chin-Su",
+  "unit": "Chai",
+  "category": {
+    "kiotCategoryId": "2549393",
+    "name": "Gia vị - Đồ chấm",
+    "path": "Đồ khô - Mì Gói > Gia vị - Đồ chấm"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/d90f68c69b254907944611eb5566b7c6894f70febe41ffb63b58b70735571031.webp",
+    "description": "Xốt muối ớt xanh CHIN-SU, làm từ ớt xiêm xanh, nước cốt chanh và lá chanh, vị chua cay mặn ngọt hài hòa. Thích hợp để chấm hải sản.\n\nQuy cách: 200 g · chai\nXuất xứ: Việt Nam · Nhà sản xuất/thương hiệu: Masan Consumer · CHIN-SU",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "ảnh tự chụp (mềm, nhăn/bóng lóa); không có ảnh hãng nguyên gói dùng được → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt ở chữ lớn và khối lượng; chữ nhỏ cạnh 200 g có thể khác",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet hiện có (ảnh tự chụp)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết từ trang Masan Consumer và chữ in trên nhãn (ớt xiêm xanh, chấm hải sản)",
+    "source": {
+      "url": "https://masanconsumer.com/nganh-hang/gia-vi/xot-muoi-ot/xot-muoi-ot-xanh-chin-su/",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:14:49.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "b26: image CROP, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-14T07:51:34.052Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-14T08:54:33Z",
+      "by": "owner",
+      "status": "READY",
+      "note": "Chủ thấy ảnh tối; chỉnh sáng bằng tools/tone.py, gửi lại"
+    },
+    {
+      "at": "2026-10-14T08:54:50.323Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-14T09:24:31.419Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-17T14:25:58Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T14:27:52.349Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T14:27:52.349Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T16:56:47.219Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T16:56:47.219Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/d90f68c69b254907944611eb5566b7c6894f70febe41ffb63b58b70735571031.webp"
+        ],
+        "from": [
+          "https://img.tram8.vn/products/721b37fbb415e9e6146746fcbbc727e34403055a4d3ded728f0ac496ca0ca7b7.webp"
+        ]
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

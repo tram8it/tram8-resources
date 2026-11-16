@@ -1,0 +1,144 @@
+{
+  "kiotProductId": "66147848",
+  "code": "8993027164119",
+  "barcode": "8993027164119",
+  "name": "Snack Happy Tos Bắp Vị Cay Ngọt 140g",
+  "fullName": "Snack Happy Tos Bắp Vị Cay Ngọt 140g (Gói)",
+  "brand": "Happy Tos",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2549014",
+    "name": "Snack bắp & phồng",
+    "path": "Đồ ăn vặt > Snacks > Snack bắp & phồng"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/89853906e29c5d86e2b1bb2dc48feece1bb4a9ace1d518be137c7135c944387e.webp",
+    "description": "Bánh tortilla chips Happy Tos vị ớt cay (Hot Chili): miếng bánh bắp hình tam giác giòn rụm, tẩm gia vị ớt cay ngọt pha chút cà chua.\n\nThành phần: gia vị ớt ngọt (có bột nước tương, cá; chất điều vị mononatri glutamat, dinatri 5'-guanylat và inosinat), bắp nguyên hạt, đường, dầu cọ (chứa chất chống oxy hoá TBHQ).\nQuy cách: gói\nXuất xứ: Indonesia · Nhà sản xuất/thương hiệu: PT Sinar Kencana Agung · Happy Tos",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I3: chủ muốn ảnh render phẳng, sạch hơn (16/10) → Gemini vẽ lại kiểu bao bì in phẳng, chính diện, nền trắng; đã so chữ/logo với mẫu (v15)",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Google Gemini Pro",
+      "generatedAt": "2026-10-16",
+      "style": "flat clean packaging render (owner request)",
+      "reference": "ảnh KiotViet hiện tại, nắn phối cảnh"
+    },
+    "rubricVersion": "v16"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; thành phần dịch từ trang hãng Happy Tos (Hot Chili, gia vị ớt ngọt); tên hàng không ghi khối lượng nên bỏ",
+    "source": {
+      "url": "https://happytos.com/product/11-hot-chili",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:23:35.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "image CROP, description WRITE_NEW (official Happy Tos)"
+    },
+    {
+      "at": "2026-10-15T02:51:19.419Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-15T09:16:17Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "tone.py --vivid: white balance/levels + brand-like colour (owner request)"
+    },
+    {
+      "at": "2026-10-15T09:21:16.489Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-15T18:09:39Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "owner flagged pending image; Gemini front-on redraw from perspective-corrected photo"
+    },
+    {
+      "at": "2026-10-15T18:10:06.904Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-16T02:18:39Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "owner: wants flatter, cleaner renders; redrawn"
+    },
+    {
+      "at": "2026-10-16T02:18:49.636Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-16T03:12:33.562Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-16T02:18:49.636Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-16T02:31:59.964Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-16T02:31:59.964Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/89853906e29c5d86e2b1bb2dc48feece1bb4a9ace1d518be137c7135c944387e.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/30/tram8/8240ffc4002a44de8255533fe29c5ec1.png"
+        ]
+      },
+      "description": {
+        "to": "Bánh tortilla chips Happy Tos vị ớt cay (Hot Chili): miếng bánh bắp hình tam giác giòn rụm, tẩm gia vị ớt cay ngọt pha chút cà chua.\n\nThành phần: gia vị ớt ngọt (có bột nước tương, cá; chất điều vị mononatri glutamat, dinatri 5'-guanylat và inosinat), bắp nguyên hạt, đường, dầu cọ (chứa chất chống oxy hoá TBHQ).\nQuy cách: gói\nXuất xứ: Indonesia · Nhà sản xuất/thương hiệu: PT Sinar Kencana Agung · Happy Tos",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

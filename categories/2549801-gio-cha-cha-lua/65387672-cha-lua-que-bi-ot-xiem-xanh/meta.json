@@ -1,0 +1,113 @@
+{
+  "kiotProductId": "65387672",
+  "code": "8936146442249",
+  "barcode": "8936146442249",
+  "name": "Chả lụa que bì ớt xiêm xanh",
+  "fullName": "Chả lụa que bì ớt xiêm xanh (Que)",
+  "brand": null,
+  "unit": "Que",
+  "category": {
+    "kiotCategoryId": "2549801",
+    "name": "Giò chả / chả lụa",
+    "path": "Xúc Xích & Thịt Nguội > Giò chả / chả lụa"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/8063dede0da6138abaee5a20286438e12bba9d23af29e53911121d981904e3c1.webp",
+    "description": "Chả lụa que bì vị ớt xiêm xanh, dạng que đóng gói riêng từng cây, tiện ăn liền.\n\nQuy cách: 1 que · gói riêng",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I6: ảnh rất nhỏ (259×194, SP chỉ ~60×190 px), mờ; không có trang hãng G Kitchen dùng được → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt chữ chính (Chả lụa que bì, 50g); hoa văn nền, mặt cắt chả vẽ lại",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh Kingfoodmart theo mã vạch (chỉ làm mẫu) + ảnh KiotViet",
+      "referenceUrl": "https://storage.googleapis.com/onelife-public/8936146442249.jpg"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết ngắn chỉ từ tên SP và chữ in mặt trước gói (chả lụa que bì, ớt xiêm xanh); không ghi khối lượng vì không đọc được",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:23:49.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "tiny blurry image, no official source; description from name/front text"
+    },
+    {
+      "at": "2026-10-17T08:11:55Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T08:12:01.794Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T08:12:01.794Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T08:34:15.812Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T08:34:15.812Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/8063dede0da6138abaee5a20286438e12bba9d23af29e53911121d981904e3c1.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/05/01/tram8/95897edcfaf5430aaaa00e860a20a4a8.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Chả lụa que bì vị ớt xiêm xanh, dạng que đóng gói riêng từng cây, tiện ăn liền.\n\nQuy cách: 1 que · gói riêng",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

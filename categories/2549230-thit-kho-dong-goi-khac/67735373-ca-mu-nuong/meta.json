@@ -1,0 +1,154 @@
+{
+  "kiotProductId": "67735373",
+  "code": "8938547067182",
+  "barcode": "8938547067182",
+  "name": "Cá mú nướng",
+  "fullName": "Cá mú nướng (Hộp)",
+  "brand": "Quảng Tâm",
+  "unit": "Hộp",
+  "category": {
+    "kiotCategoryId": "2549230",
+    "name": "Thịt khô đóng gói khác",
+    "path": "Đồ ăn vặt > Thịt khô và chân gà > Thịt khô đóng gói khác"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/81de99d2d982ffc37437d01e878af07ce4ecafacf888cdd675311c68503a31fa.webp",
+    "description": "Cá mú nướng ăn liền, đặc sản Nha Trang của cơ sở Quảng Tâm, đựng trong hộp nhựa trong.\n\nThành phần: cá mú, đường, muối\nQuy cách: hộp\nXuất xứ: Việt Nam (Nha Trang) · Nhà sản xuất/thương hiệu: Quảng Tâm\nBảo quản: nơi thoáng mát, tránh ánh nắng trực tiếp. Hạn sử dụng 6 tháng.\nHướng dẫn sử dụng: ăn liền.",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "chủ 18/10: ảnh phải đúng bao bì thật; vẽ lại gói thật từ ảnh KiotViet, bỏ ảnh minh hoạ món ăn → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: vẽ lại phẳng, sạch; chữ nhỏ không đọc được để mờ; độ nhăn màng khác ảnh thật",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-18",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet của SP (hàng thật tại quầy)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết từ chữ in trên nhãn đọc được trong ảnh hiện tại (thành phần, cách dùng, bảo quản, HSD 6 tháng, cơ sở Quảng Tâm Nha Trang); không ghi khối lượng vì nhãn không có",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:24:05.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "phone photo, local producer; description from label"
+    },
+    {
+      "at": "2026-10-17T08:24:21Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T08:24:21.576Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "IN_PROGRESS",
+      "note": "rejected on Hub by AU KHUONG DUY: Ảnh ko giống sp, xem lại ảnh kiotviet"
+    },
+    {
+      "at": "2026-10-18T11:34:27Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "redo after Hub rejection: Ảnh ko giống sp, xem lại ảnh kiotviet — Gemini API redraw (attempt 4, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-18T11:34:27.650Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-18T17:16:08.691Z",
+      "by": "owner",
+      "status": "IN_PROGRESS",
+      "note": "rejected on Hub by AU KHUONG DUY: Chưa giống, check lại ảnh kiotviet để gen lại"
+    },
+    {
+      "at": "2026-10-18T17:28:38Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "redo after Hub rejection: Chưa giống, check lại ảnh kiotviet để gen lại — Gemini API redraw (attempt 6, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-18T17:28:38.178Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-18T17:44:24.092Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T03:19:05.400Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-18T17:28:38.178Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-18T17:32:44.274Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-18T17:32:44.274Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/81de99d2d982ffc37437d01e878af07ce4ecafacf888cdd675311c68503a31fa.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/10/17/tram8/5f9c650bae9844f89719696436efacc1.png"
+        ]
+      },
+      "description": {
+        "to": "Cá mú nướng ăn liền, đặc sản Nha Trang của cơ sở Quảng Tâm, đựng trong hộp nhựa trong.\n\nThành phần: cá mú, đường, muối\nQuy cách: hộp\nXuất xứ: Việt Nam (Nha Trang) · Nhà sản xuất/thương hiệu: Quảng Tâm\nBảo quản: nơi thoáng mát, tránh ánh nắng trực tiếp. Hạn sử dụng 6 tháng.\nHướng dẫn sử dụng: ăn liền.",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

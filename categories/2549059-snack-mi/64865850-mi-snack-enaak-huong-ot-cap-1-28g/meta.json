@@ -1,0 +1,138 @@
+{
+  "kiotProductId": "64865850",
+  "code": "8994834004728",
+  "barcode": "8994834004728",
+  "name": "Mi Snack Enaak Hương Ớt Cấp 1 28g",
+  "fullName": "Mi Snack Enaak Hương Ớt Cấp 1 28g (gói)",
+  "brand": null,
+  "unit": "gói",
+  "category": {
+    "kiotCategoryId": "2549059",
+    "name": "Snack mì",
+    "path": "Đồ ăn vặt > Snacks > Snack mì"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://cdn2-retail-images.kiotviet.vn/2026/07/27/tram8/57cd785323e44e6286b53ab28ba63418.png",
+    "description": null,
+    "exportedAt": "2026-10-13T13:18:36.970Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I3: chủ muốn ảnh render phẳng, sạch hơn (16/10) → Gemini vẽ lại kiểu bao bì in phẳng, chính diện, nền trắng; đã so chữ/logo với mẫu (v15)",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Google Gemini Pro",
+      "generatedAt": "2026-10-16",
+      "style": "flat clean packaging render (owner request)",
+      "referenceUrl": "https://www.lottemart.vn/media/catalog/product/cache/0x0/8/9/8994834004728-1.jpg.webp"
+    },
+    "rubricVersion": "v16"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; theo trang hãng Siantar Top (dòng Gemez Enaak Extra Spicy lv1) và chữ in trên bao bì",
+    "source": {
+      "url": "https://siantartop.co.id/portfolio/gemez-enaak-export/",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:16:41.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "image CROP, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-15T02:52:38.260Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-15T09:16:17Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "tone.py --vivid: white balance/levels + brand-like colour (owner request)"
+    },
+    {
+      "at": "2026-10-15T09:20:48.758Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-15T18:09:39Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "owner flagged pending image; Gemini front-on redraw from perspective-corrected photo"
+    },
+    {
+      "at": "2026-10-15T18:09:56.184Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-16T02:18:39Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "owner: wants flatter, cleaner renders; redrawn"
+    },
+    {
+      "at": "2026-10-16T02:18:43.322Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-16T03:12:33.562Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-16T02:18:43.322Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-16T02:31:39.692Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-16T02:31:39.692Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/d6aeda8e09988355f172ca70287cffa080a2cc7df59849113334307cd5905178.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/27/tram8/57cd785323e44e6286b53ab28ba63418.png"
+        ]
+      },
+      "description": {
+        "to": "Snack mì Gemez Enaak Extra vị cay cấp độ 1 (Chili Flavour) của Siantar Top: sợi mì giòn tẩm gia vị, ăn liền ngay từ gói.\n\nQuy cách: 28 g · gói\nXuất xứ: Indonesia · Nhà sản xuất/thương hiệu: PT Siantar Top Tbk · Gemez Enaak",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

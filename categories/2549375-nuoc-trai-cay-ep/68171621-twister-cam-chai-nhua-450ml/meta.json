@@ -1,0 +1,118 @@
+{
+  "kiotProductId": "68171621",
+  "code": "8934588193552",
+  "barcode": "8934588193552",
+  "name": "Twister Cam Chai Nhựa 450ml",
+  "fullName": "Twister Cam Chai Nhựa 450ml (Chai)",
+  "brand": "Pepsi",
+  "unit": "Chai",
+  "category": {
+    "kiotCategoryId": "2549375",
+    "name": "Nước trái cây / ép",
+    "path": "Đồ uống đóng chai > Nước trái cây / ép"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/4096b6e30536aab3fb6d7cc3949595b37d5aa4094cbefbca091dcacfc41c207a.webp",
+    "description": "Nước cam ép Tropicana Twister chai nhựa, chiết xuất từ trái cây, bổ sung vitamin A và C; uống lạnh ngon hơn.\n\nQuy cách: 450 ml · chai nhựa\nNhà sản xuất/thương hiệu: Suntory PepsiCo Việt Nam · Tropicana Twister",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "ảnh tự chụp (mềm, bao bì cũ) → ảnh hãng chai Twister Cam bao bì mới nhất 'Nước cam ép' (v19) trên trang Suntory PepsiCo; ảnh hãng không ghi dung tích, mô tả giữ 450 ml theo SP đang bán; phóng 1,6 lần",
+    "source": {
+      "url": "https://api.suntorypepsico.vn/assets/0e09040e-c771-44a1-89c4-c526ff5e38f5",
+      "fetchedAt": "2026-10-17",
+      "page": "https://www.suntorypepsico.vn/thuong-hieu-cua-chung-toi/twister-14"
+    },
+    "rubricVersion": "v20"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; theo trang hãng Suntory PepsiCo (Twister có chai nhựa 1 L, 450 ml, 320 ml và lon 320 ml)",
+    "source": {
+      "url": "https://www.suntorypepsico.vn/thuong-hieu-cua-chung-toi/twister-14",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:32:10.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "batch b09 review: image CROP, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-15T09:16:17Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "tone.py --vivid: white balance/levels + brand-like colour (owner request)"
+    },
+    {
+      "at": "2026-10-17T13:58:49.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "image: shop photo replaced with brand packshot (api.suntorypepsico.vn)"
+    },
+    {
+      "at": "2026-10-17T14:16:25.451Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T14:16:25.451Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T16:38:20.378Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T16:38:20.378Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/4096b6e30536aab3fb6d7cc3949595b37d5aa4094cbefbca091dcacfc41c207a.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/09/19/tram8/5ed2d445cdce40a2864f39ff568ca469.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Nước cam ép Tropicana Twister chai nhựa, chiết xuất từ trái cây, bổ sung vitamin A và C; uống lạnh ngon hơn.\n\nQuy cách: 450 ml · chai nhựa\nNhà sản xuất/thương hiệu: Suntory PepsiCo Việt Nam · Tropicana Twister",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

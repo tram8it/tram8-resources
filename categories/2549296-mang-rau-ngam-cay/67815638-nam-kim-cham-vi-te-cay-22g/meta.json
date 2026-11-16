@@ -1,0 +1,112 @@
+{
+  "kiotProductId": "67815638",
+  "code": "6927514392442",
+  "barcode": "6927514392442",
+  "name": "Nấm Kim Châm Vị Tê Cay 22g",
+  "fullName": "Nấm Kim Châm Vị Tê Cay 22g (Gói)",
+  "brand": "Hàng nội địa Trung",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2549296",
+    "name": "Măng & rau ngâm cay",
+    "path": "Đồ ăn vặt > Đồ nội địa Trung > Măng & rau ngâm cay"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/da151fff6ff48896ea0ce78e2876e3d40f167759b98afdb7310fc8ec07eff1e4.webp",
+    "description": "Nấm kim châm vị cay (金针菇), nấm kim châm trộn gia vị cay, gói nhỏ ăn liền.\n\nQuy cách: 22 g · gói",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I4: ảnh chụp điện thoại trên nền xám, bao bì bóng lóa; không có ảnh hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt (bỏ bóng lóa của túi nhựa)",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (ảnh chụp điện thoại nền xám)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; mô tả ngắn chỉ từ tên hàng và chữ in mặt trước bao bì (không có trang hãng) ('金针菇 Needle Mushroom 香辣味', 22 g)",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:30:00.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "b20 review: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T07:45:53Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T07:45:56.524Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T08:06:02.482Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T07:45:56.524Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T07:49:15.250Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T07:49:15.250Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/da151fff6ff48896ea0ce78e2876e3d40f167759b98afdb7310fc8ec07eff1e4.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/08/25/tram8/1a4dac37542940228c465669d8aa1dc2.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Nấm kim châm vị cay (金针菇), nấm kim châm trộn gia vị cay, gói nhỏ ăn liền.\n\nQuy cách: 22 g · gói",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

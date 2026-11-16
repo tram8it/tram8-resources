@@ -1,0 +1,179 @@
+{
+  "kiotProductId": "65960350",
+  "code": "8850228007617",
+  "barcode": "8850228007617",
+  "name": "Nước uống tăng lực Red Bull Extra 250 ml",
+  "fullName": "Nước uống tăng lực Red Bull Extra 250 ml (Lon)",
+  "brand": "Red Bull",
+  "unit": "Lon",
+  "category": {
+    "kiotCategoryId": "2500667",
+    "name": "Nước tăng lực",
+    "path": "Đồ uống đóng chai > Nước tăng lực"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/6b381624a22f01402c740976ea038a9ff3fe57114883ee1087a20eadb8e0ec2c.webp",
+    "description": "Nước tăng lực Red Bull Extra lon vàng, bổ sung vitamin B6, B12 và kẽm. Ngon hơn khi uống lạnh.\n\nQuy cách: 250 ml · lon\nXuất xứ: Thái Lan · Nhà sản xuất/thương hiệu: T.C. Pharmaceutical · Red Bull",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "ảnh tự chụp (lon bóng lóa) → ảnh hãng tcp.com (render lon Red Bull Extra B6, B12 + Zinc bản Việt Nam); bỏ bóng đổ dưới đáy, phóng ~2 lần (v4)",
+    "source": {
+      "url": "https://www.tcp.com/storage/content/product/energy-drink/red-bull-extra/redbull-extra-vietnam.png",
+      "page": "https://www.tcp.com/en/products/energy-drink/red-bull",
+      "fetchedAt": "2026-10-17T14:04:12.750Z"
+    },
+    "rubricVersion": "v20"
+  },
+  "description": {
+    "decision": "REWRITE",
+    "reason": "D4: chỉ một câu, thiếu quy cách; viết lại từ chữ in trên lon và trang nhà sản xuất | rà soát v9: Too short (36 chars)",
+    "source": {
+      "url": "https://www.tcp.com/en/products/energy-drink/red-bull",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:31:42.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "image CROP, description REWRITE"
+    },
+    {
+      "at": "2026-10-15T09:16:17Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "tone.py --vivid: white balance/levels + brand-like colour (owner request)"
+    },
+    {
+      "at": "2026-10-17T14:04:12.750Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "image REPLACE: shop photo -> brand packshot (www.tcp.com) (owner request 17/10)"
+    },
+    {
+      "at": "2026-10-17T14:04:12.850Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T14:04:12.850Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T14:13:19.611Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T14:13:19.611Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/6b381624a22f01402c740976ea038a9ff3fe57114883ee1087a20eadb8e0ec2c.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/30/tram8/866cd00d3501496eafeb74f91697f001.png"
+        ]
+      },
+      "description": {
+        "to": "Nước tăng lực Red Bull Extra lon vàng, bổ sung vitamin B6, B12 và kẽm. Ngon hơn khi uống lạnh.\n\nQuy cách: 250 ml · lon\nXuất xứ: Thái Lan · Nhà sản xuất/thương hiệu: T.C. Pharmaceutical · Red Bull",
+        "from": "<p>Nước tăng lực Redbull Extra ít đường</p>"
+      }
+    },
+    "unexpectedChanges": {
+      "price": {
+        "to": 16666.67,
+        "from": 16363.64
+      },
+      "saleTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 65960350
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 65960350
+        }
+      },
+      "taxRate": {
+        "to": "VAT 8%",
+        "from": "VAT 10%"
+      },
+      "productTaxs": {
+        "to": [
+          {
+            "id": 0,
+            "name": "VAT 8%",
+            "taxId": 3,
+            "value": 8,
+            "productId": 65960350
+          }
+        ],
+        "from": [
+          {
+            "id": 0,
+            "name": "VAT 10%",
+            "taxId": 4,
+            "value": 10,
+            "productId": 65960350
+          }
+        ]
+      },
+      "purchaseTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 65960350
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 65960350
+        }
+      }
+    }
+  }
+}

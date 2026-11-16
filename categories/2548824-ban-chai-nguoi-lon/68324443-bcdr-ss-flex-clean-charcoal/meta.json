@@ -1,0 +1,149 @@
+{
+  "kiotProductId": "68324443",
+  "code": "SP878275",
+  "barcode": "8850006332559",
+  "name": "BCDR SS Flex Clean Charcoal",
+  "fullName": "BCDR SS Flex Clean Charcoal (Cây)",
+  "brand": "Colgate",
+  "unit": "Cây",
+  "category": {
+    "kiotCategoryId": "2548824",
+    "name": "Bàn chải - Người lớn",
+    "path": "Chăm sóc cá nhân > Chăm sóc răng miệng > Bàn chải - Người lớn"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/2bf179d269f67e0c0f4f4780820da662d28de069058f5832a2c0a4a24f006961.webp",
+    "description": "Bàn chải đánh răng Colgate Slim Soft Flex Clean Charcoal, lông chải siêu mảnh màu đen than (Charcoal), siêu mềm (Ultra Soft); bao bì ghi làm sạch sâu, êm nướu. Bán lẻ 1 cây tách từ vỉ 2 cây, màu cán tuỳ cây (xanh hoặc hồng).\n\nQuy cách: 1 cây\nNhà sản xuất/thương hiệu: Colgate · Slim Soft",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "Chủ: cần bao bì → vỉ 2 bàn chải như hàng thật → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: vỉ đôi như ảnh Kingfoodmart (hàng thật trên kệ có 1 cây hồng + 1 cây xám); bỏ nhãn khuyến mãi; chữ nhỏ không đọc được",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-18",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh Kingfoodmart cùng mã vạch + ảnh KiotViet (chỉ làm mẫu)",
+      "referenceUrl": "https://storage.googleapis.com/onelife-public/8850006332559.jpg"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết theo chữ in trên vỉ (Slim Soft Flex Clean Charcoal, Ultra Soft, Deep clean, soft on gums); bán 1 cây theo đơn vị KiotViet",
+    "source": null,
+    "rubricVersion": "v19"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:03:56.000Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "2-pack vs unit 'cây' unclear; Thai pack differs from VN official → ask owner"
+    },
+    {
+      "at": "2026-10-17T09:12:16Z",
+      "by": "owner",
+      "status": "ASK_OWNER",
+      "note": "owner 17/10 (RUBRIC v19): unit cây = one brush"
+    },
+    {
+      "at": "2026-10-17T09:12:16Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T09:12:16Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "description WRITE_NEW from the pack print"
+    },
+    {
+      "at": "2026-10-17T09:12:16.379Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T09:12:23.565Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "IN_PROGRESS",
+      "note": "rejected on Hub by AU KHUONG DUY: Cần bao bì"
+    },
+    {
+      "at": "2026-10-18T00:18:54Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "redo after Hub rejection: Cần bao bì — Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-18T00:18:55.189Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-18T17:16:08.691Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T03:19:05.400Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-18T00:18:55.189Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-18T17:10:51.207Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-18T17:10:51.207Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/2bf179d269f67e0c0f4f4780820da662d28de069058f5832a2c0a4a24f006961.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/10/01/tram8/7079ae93fca444d5937f6caa895c1e37.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Bàn chải đánh răng Colgate Slim Soft Flex Clean Charcoal, lông chải siêu mảnh màu đen than (Charcoal), siêu mềm (Ultra Soft); bao bì ghi làm sạch sâu, êm nướu. Bán lẻ 1 cây tách từ vỉ 2 cây, màu cán tuỳ cây (xanh hoặc hồng).\n\nQuy cách: 1 cây\nNhà sản xuất/thương hiệu: Colgate · Slim Soft",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

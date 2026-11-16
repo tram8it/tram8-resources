@@ -1,0 +1,113 @@
+{
+  "kiotProductId": "67202222",
+  "code": "8996001306611",
+  "barcode": "8996001306611",
+  "name": "Bánh Quy Bơ & Cacao Danisa Abbracci - Box 168G",
+  "fullName": "Bánh Quy Bơ & Cacao Danisa Abbracci - Box 168G (Hộp)",
+  "brand": "Danisa",
+  "unit": "Hộp",
+  "category": {
+    "kiotCategoryId": "2549065",
+    "name": "Bánh quy giòn / lạt",
+    "path": "Bánh quy & bánh đóng gói > Bánh quy giòn / lạt"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/6c485d0f9441c011cba8e93f6230e192e7b39b621824f662bdbaa1c7211e3b42.webp",
+    "description": "Bánh quy bơ và cacao Danisa Abbracci (Butter & Cacao Cookies), bánh quy kết hợp bơ và cacao, đóng hộp.\n\nQuy cách: hộp\nThương hiệu: Danisa",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I3/I5: ảnh chụp cận một phần hộp; không có ảnh hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Chỉ vẽ mặt trước hộp; chữ và đoạn giới thiệu khớp ảnh mẫu; mặt trước không in khối lượng",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh Co.op Online hộp 168g (chỉ làm mẫu) + ảnh KiotViet chụp cận mặt hộp",
+      "referenceUrl": "https://cooponline.vn/banh-quy-bo-cacao-danisa-abbra-hop-giay-168g--s250101480"
+    },
+    "rubricVersion": "v17"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; không có trang hãng — mô tả ngắn chỉ từ tên SP và chữ in mặt trước bao bì (ảnh hiện tại)",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T22:00:00.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "batch b14 review (rubric v4): image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T05:34:49Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T05:35:51.566Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T08:06:02.482Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T05:35:51.566Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T07:08:43.998Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T07:08:43.998Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/6c485d0f9441c011cba8e93f6230e192e7b39b621824f662bdbaa1c7211e3b42.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/22/tram8/69c9cc687b684279885052ef3578af4e.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Bánh quy bơ và cacao Danisa Abbracci (Butter & Cacao Cookies), bánh quy kết hợp bơ và cacao, đóng hộp.\n\nQuy cách: hộp\nThương hiệu: Danisa",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

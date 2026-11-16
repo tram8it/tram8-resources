@@ -1,0 +1,119 @@
+{
+  "kiotProductId": "65204352",
+  "code": "6927642420659",
+  "barcode": "6927642420659",
+  "name": "Mì tôm turkey",
+  "fullName": "Mì tôm turkey (Thanh)",
+  "brand": null,
+  "unit": "Thanh",
+  "category": {
+    "kiotCategoryId": "2549059",
+    "name": "Snack mì",
+    "path": "Đồ ăn vặt > Snacks > Snack mì"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/0b03b874be28c7f63e1208eaefa00b88b1b62b224716ed6f99c1c4a480a21046.webp",
+    "description": "Snack mì giòn Turkey Noodles (Delicious Noodles – Good Taste): bánh mì giòn dạng viên tròn ăn liền, đóng thanh nhỏ.\n\nQuy cách: thanh",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I3/I4/I8: ảnh KiotViet chụp cận dải nhiều gói, đầu gói bị cắt → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: vẽ một thanh nguyên từ dải gói; chữ lớn khớp (Delicious Noodles, Turkey Noodles, Good Taste, Khối lượng tịnh); số khối lượng không đọc được nên không in; chữ nhỏ tem phụ mờ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-18",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet dải gói đen (hàng thật) + ảnh Alibaba gói đỏ cùng thiết kế (chỉ làm mẫu)",
+      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/04/25/tram8/cabab3698c9e4891a3a03c2941d0e1fd.jpeg"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: từ chữ in trên bao bì (ảnh KiotViet); khối lượng không đọc được",
+    "source": null,
+    "rubricVersion": "v23"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:16:41.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "phone photo, unknown maker → NEEDS_PHOTO; description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T08:04:11.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "shop photo cuts off the right end of the packet (net weight), no other reference found"
+    },
+    {
+      "at": "2026-10-18T18:41:23Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-18T18:41:23.656Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T02:05:27.524Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T03:19:05.400Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-18T18:41:23.656Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T01:51:00.089Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T01:51:00.089Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/0b03b874be28c7f63e1208eaefa00b88b1b62b224716ed6f99c1c4a480a21046.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/04/25/tram8/cabab3698c9e4891a3a03c2941d0e1fd.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Snack mì giòn Turkey Noodles (Delicious Noodles – Good Taste): bánh mì giòn dạng viên tròn ăn liền, đóng thanh nhỏ.\n\nQuy cách: thanh",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

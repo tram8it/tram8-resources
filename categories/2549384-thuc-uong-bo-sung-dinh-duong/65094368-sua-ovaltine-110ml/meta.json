@@ -1,0 +1,119 @@
+{
+  "kiotProductId": "65094368",
+  "code": "8936199520116",
+  "barcode": "8936199520116",
+  "name": "Sữa Ovaltine 110ml",
+  "fullName": "Sữa Ovaltine 110ml (Hộp)",
+  "brand": "Ovaltine",
+  "unit": "Hộp",
+  "category": {
+    "kiotCategoryId": "2549384",
+    "name": "Thức uống bổ sung dinh dưỡng",
+    "path": "Đồ uống đóng chai > Thức uống bổ sung dinh dưỡng"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/9a9f1336fdcee5f4bd43be487940573ec433c2f06abc5985b9f7eb04ea9c82e1.webp",
+    "description": "Thức uống Ovaltine dòng Power 10 vị sô cô la lúa mạch, hộp giấy pha sẵn tiện mang theo.\n\nQuy cách: bán lẻ 1 hộp 110 ml\nThương hiệu: Ovaltine",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I8: ảnh lốc 4 hộp; SP bán 1 hộp 110 ml → Gemini vẽ 1 hộp từ ảnh lốc (ảnh minh hoạ) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: ảnh mẫu độ phân giải thấp: chữ nhỏ trên hộp (dung tích, thành phần) bị bỏ, chỉ còn logo Ovaltine, POWER 10, hình mặt trời và sô cô la; bao bì thật có thể là bản khác",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet lốc 4 hộp (chỉ làm mẫu)",
+      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/04/22/tram8/21f519bd8456496892ef6699b37d0013.png"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "chưa có mô tả; viết ngắn từ dữ kiện in trên bao bì/trang SP, ghi đơn vị bán lẻ theo KiotViet (v19)",
+    "source": null,
+    "rubricVersion": "v19"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:39:43.000Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "image ASK_OWNER, description ASK_OWNER"
+    },
+    {
+      "at": "2026-10-17T09:10:03Z",
+      "by": "owner",
+      "status": "ASK_OWNER",
+      "note": "Chủ trả lời (17/10/2026, RUBRIC v19): tin đơn vị KiotViet: bán lẻ 1 hộp 110 ml, ảnh 1 hộp (vẽ từ ảnh lốc 4)."
+    },
+    {
+      "at": "2026-10-17T09:10:03Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T09:11:07.518Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T09:11:07.518Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T09:20:20.605Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T09:20:20.605Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/9a9f1336fdcee5f4bd43be487940573ec433c2f06abc5985b9f7eb04ea9c82e1.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/04/22/tram8/21f519bd8456496892ef6699b37d0013.png"
+        ]
+      },
+      "description": {
+        "to": "Thức uống Ovaltine dòng Power 10 vị sô cô la lúa mạch, hộp giấy pha sẵn tiện mang theo.\n\nQuy cách: bán lẻ 1 hộp 110 ml\nThương hiệu: Ovaltine",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

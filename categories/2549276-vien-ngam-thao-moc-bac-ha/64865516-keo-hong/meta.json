@@ -1,0 +1,130 @@
+{
+  "kiotProductId": "64865516",
+  "code": "8936029423679",
+  "barcode": "8936029423679",
+  "name": "Kẹo Họng",
+  "fullName": "Kẹo Họng (Viên)",
+  "brand": "Orion",
+  "unit": "Viên",
+  "category": {
+    "kiotCategoryId": "2549276",
+    "name": "Viên ngậm thảo mộc / bạc hà",
+    "path": "Các loại kẹo > Viên ngậm thảo mộc / bạc hà"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/03ed9875bd5d4bfed50140c0f74a079acba7a39e88d69b94b0d2029fb047c74b.webp",
+    "description": "Kẹo ngậm Orion Kẹo Họng, bán lẻ từng viên lấy từ hộp 2 vị: vị quất mật ong và vị gừng mật ong.\n\nQuy cách: 1 viên (vị quất mật ong hoặc gừng mật ong)\nThương hiệu: Orion",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I3: ảnh chụp cận hộp; đơn vị bán là 1 viên → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: ảnh minh hoạ 2 viên (mỗi vị một viên) vẽ theo viên kẹo in trên hộp; vỏ vị gừng mật ong lấy cùng màu vỏ vị quất vì không có ảnh vỏ thật",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (hộp Kẹo Họng 2 vị, phóng to viên kẹo in trên hộp)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết ngắn từ chữ in trên hộp (KẸO HỌNG, HỘP 2 VỊ: vị quất mật ong, vị gừng mật ong); đơn vị theo KiotViet (Viên)",
+    "source": null,
+    "rubricVersion": "v19"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:19:58.000Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "ask owner: unit/flavour of Kẹo Họng"
+    },
+    {
+      "at": "2026-10-17T09:10:38Z",
+      "by": "owner",
+      "status": "ASK_OWNER",
+      "note": "Chủ trả lời (17/10/2026, RUBRIC v19): tin đơn vị KiotViet 'Viên' — bán lẻ 1 viên."
+    },
+    {
+      "at": "2026-10-17T09:10:38Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "v19: đã rõ bán 1 viên, nhưng hộp có 2 vị → chưa biết ảnh viên vị nào; cần kiểm kệ, không đoán"
+    },
+    {
+      "at": "2026-10-17T14:17:29Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T14:17:30Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "resolved without asking: unit Viên = one candy from the 2-flavour box (v19); illustration shows one candy of each flavour and the description names both, so no shelf check is needed"
+    },
+    {
+      "at": "2026-10-17T14:17:32.233Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T14:17:32.233Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T16:46:30.746Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T16:46:30.746Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/03ed9875bd5d4bfed50140c0f74a079acba7a39e88d69b94b0d2029fb047c74b.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/02/04/tongpenhchtl/53d4c9e358ef4c98b61c50ff76d66aa2.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Kẹo ngậm Orion Kẹo Họng, bán lẻ từng viên lấy từ hộp 2 vị: vị quất mật ong và vị gừng mật ong.\n\nQuy cách: 1 viên (vị quất mật ong hoặc gừng mật ong)\nThương hiệu: Orion",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

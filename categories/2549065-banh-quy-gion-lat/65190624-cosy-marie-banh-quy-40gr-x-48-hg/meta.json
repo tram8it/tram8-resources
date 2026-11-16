@@ -1,0 +1,124 @@
+{
+  "kiotProductId": "65190624",
+  "code": "8934680113823",
+  "barcode": "8934680113823",
+  "name": "COSY MARIE BANH QUY 40GR X 48 HG",
+  "fullName": "COSY MARIE BANH QUY 40GR X 48 HG (Hộp)",
+  "brand": "Kinh Đô",
+  "unit": "Hộp",
+  "category": {
+    "kiotCategoryId": "2549065",
+    "name": "Bánh quy giòn / lạt",
+    "path": "Bánh quy & bánh đóng gói > Bánh quy giòn / lạt"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/29ac6d2b73758671e984eb6cc775a6de8248b8c46438199fab50066975dd67bd.webp",
+    "description": "Bánh quy sữa Cosy Marie của Kinh Đô: bánh quy tròn giòn, thơm vị sữa, hợp dùng với trà hoặc cà phê.\n\nQuy cách: 67 g (2 gói × 33,5 g) · hộp\nNhà sản xuất/thương hiệu: Mondelez Kinh Đô Việt Nam · Cosy",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I2: ảnh hiện có là ảnh bán lẻ, không đăng thẳng; hãng không có ảnh hộp 67 g → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ nhỏ trên hộp (dòng 'đậm vị sữa', chữ CANXI) vẽ mờ; khối lượng 67 g (2.36 oz), 2 gói x 33,5 g đúng như hộp",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (ảnh bán lẻ hộp 67 g, chỉ làm mẫu)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; mô tả ngắn từ chữ in trên hộp (ảnh KiotViet: 67 g, 2 gói × 33,5 g)",
+    "source": null,
+    "rubricVersion": "v20"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T22:00:00.000Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "batch b14 review (rubric v4): image ASK_OWNER, description ASK_OWNER"
+    },
+    {
+      "at": "2026-10-17T14:08:50Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "re-triage 17/10: câu hỏi rút gọn; 3 nguồn ra 3 cỡ khác nhau, lệch > 10%"
+    },
+    {
+      "at": "2026-10-17T14:35:33Z",
+      "by": "ai",
+      "status": "IN_PROGRESS",
+      "note": "resolved by rule v20: follow shop photo = Cosy Marie 67 g box (2 x 33,5 g); name 40 g listed for rename; image waits for Gemini (HTTP 402)"
+    },
+    {
+      "at": "2026-10-17T15:14:30Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T15:14:38.399Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T15:14:38.399Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T16:58:18.165Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T16:58:18.165Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/29ac6d2b73758671e984eb6cc775a6de8248b8c46438199fab50066975dd67bd.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/04/25/tram8/f49685179c3d4a52ae0cefdd9e87fb07.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Bánh quy sữa Cosy Marie của Kinh Đô: bánh quy tròn giòn, thơm vị sữa, hợp dùng với trà hoặc cà phê.\n\nQuy cách: 67 g (2 gói × 33,5 g) · hộp\nNhà sản xuất/thương hiệu: Mondelez Kinh Đô Việt Nam · Cosy",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "kiotProductId": "67574228",
+  "code": "SP877992",
+  "barcode": "6974682244301",
+  "name": "Bánh bông lan tam giác vị phô mai",
+  "fullName": "Bánh bông lan tam giác vị phô mai (Gói)",
+  "brand": "Hàng nội địa Trung",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2548802",
+    "name": "Bánh bông lan & phô mai",
+    "path": "Các loại bánh > Bánh ngọt > Bánh bông lan & phô mai"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/4d70481d5143046a2eaa1190c59f0b475d60b9a1fa6ba695fa767143b1c640f7.webp",
+    "description": "Bánh bông lan tam giác APIA CAKE (三角蛋糕) vị phô mai (芝士味), hai lát bông lan mềm xếp thành hình tam giác, đóng gói riêng từng cái, tiện ăn sáng hoặc ăn nhẹ.\n\nQuy cách: 100 g · gói\nNhà sản xuất/thương hiệu: APIA CAKE (阿婆) · hàng nhập khẩu, bao bì tiếng Trung",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "line consistency 20/10: pack width matched to the Apia triangle cakes (w42 -> w37) — I5: ảnh chụp gói nghiêng, mềm, có in ngày SX/HSD → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Bỏ ngày SX/HSD in trên màng; tên, vị và 净含量:100克 khớp. Dòng chữ rất nhỏ trên khối lượng là chữ mờ AI vẽ, không đúng nguyên văn.",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (ảnh tự chụp)",
+      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/09/14/tram8/f1a399fd848a40e79e95157f99babf66.png"
+    },
+    "rubricVersion": "v23"
+  },
+  "description": {
+    "decision": "REWRITE",
+    "reason": "D2/D3: mô tả cũ là HTML kiểu chatbot với thành phần tự đoán (\"sữa tươi\", \"trứng gà\"…), có mục \"gợi ý tìm kiếm\"; viết lại ngắn từ chữ in trên gói (thương hiệu trên gói là APIA CAKE 阿婆, không có trang hãng) | rà soát v9: Wrong brand (Weisiel) plus '(Dành cho KiotViet)' junk and HSD placeholder",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:21:22.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "b30: image KEEP, description REWRITE"
+    },
+    {
+      "at": "2026-10-17T15:15:29Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T15:15:29.839Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-20T16:44:25Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "line consistency 20/10: pack width matched to the Apia triangle cakes (w42 -> w37)"
+    },
+    {
+      "at": "2026-10-20T16:45:32.328Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-21T08:30:34.700Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-26T02:38:48.902Z",
+      "by": "init",
+      "status": "READY",
+      "note": "category moved 2548800-banh-mi-ngot-mem -> 2548802-banh-bong-lan-pho-mai"
+    },
+    {
+      "at": "2026-10-26T04:58:33.990Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-20T16:45:32.328Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-20T16:50:46.950Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-20T16:50:46.950Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/4d70481d5143046a2eaa1190c59f0b475d60b9a1fa6ba695fa767143b1c640f7.webp"
+        ],
+        "from": [
+          "https://img.tram8.vn/products/16dcc9643c58b48dc587129e78525cf88acc663c7e7ad76efeae8feb462cf19d.webp"
+        ]
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

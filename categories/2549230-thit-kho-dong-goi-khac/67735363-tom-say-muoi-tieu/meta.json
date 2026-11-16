@@ -1,0 +1,119 @@
+{
+  "kiotProductId": "67735363",
+  "code": "8938547067137",
+  "barcode": "8938547067137",
+  "name": "Tôm sấy muối tiêu",
+  "fullName": "Tôm sấy muối tiêu (Gói)",
+  "brand": "Fansipan",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2549230",
+    "name": "Thịt khô đóng gói khác",
+    "path": "Đồ ăn vặt > Thịt khô và chân gà > Thịt khô đóng gói khác"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/d983f2c5bf755ab26dda55772d4a6dcdcfb2c096c50ec3c27c988e672c06f8f5.webp",
+    "description": "Tôm sấy muối tiêu Fansipan Jerky: tôm sấy tẩm muối tiêu ăn liền, kèm gói nước chanh và tương ớt (theo bao bì).\n\nQuy cách: 15 ± 3 g · gói\nThương hiệu: Fansipan",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I3/I7: ảnh KiotViet là ảnh quảng cáo bối cảnh → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ lớn khớp (Fansipan Jerky, Tôm sấy muối tiêu, Kèm gói nước chanh + tương ớt, K. Lượng 15 ± 3 Gram); chữ nhỏ mờ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-18",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh iCheck theo mã vạch (ảnh gói của NSX đăng, chỉ làm mẫu)",
+      "referenceUrl": "https://assets.icheck.vn/image/2024/app/7/24/a1ba46f9379b0166bd009ec0b56c5c69.png"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: từ chữ in mặt trước bao bì (ảnh iCheck theo mã vạch)",
+    "source": null,
+    "rubricVersion": "v23"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:24:05.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "promo graphic, no official source; description from name only"
+    },
+    {
+      "at": "2026-10-17T08:24:52.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "wave3: no usable reference for a Gemini redraw"
+    },
+    {
+      "at": "2026-10-18T18:26:09Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-18T18:26:16.774Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T02:05:27.524Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T03:19:05.400Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-18T18:26:16.774Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T01:49:13.770Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T01:49:13.770Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/d983f2c5bf755ab26dda55772d4a6dcdcfb2c096c50ec3c27c988e672c06f8f5.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/08/20/tram8/80d06fe7c04f4e04a4370e0824606b84.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Tôm sấy muối tiêu Fansipan Jerky: tôm sấy tẩm muối tiêu ăn liền, kèm gói nước chanh và tương ớt (theo bao bì).\n\nQuy cách: 15 ± 3 g · gói\nThương hiệu: Fansipan",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

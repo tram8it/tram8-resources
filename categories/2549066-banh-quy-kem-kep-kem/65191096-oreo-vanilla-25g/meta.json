@@ -1,0 +1,119 @@
+{
+  "kiotProductId": "65191096",
+  "code": "6901668053121",
+  "barcode": "6901668053121",
+  "name": "Oreo Vanilla 25G",
+  "fullName": "Oreo Vanilla 25G (Gói)",
+  "brand": "Oreo",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2549066",
+    "name": "Bánh quy kem / kẹp kem",
+    "path": "Bánh quy & bánh đóng gói > Bánh quy kem / kẹp kem"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/4a115a5d70f09aaf4f69f5e63a751fd43ac7a4573445d539704c381d5d61af23.webp",
+    "description": "Bánh quy Oreo nhân kem vani (Original) gói nhỏ: bánh quy ca cao giòn kẹp kem vị vani.\n\nQuy cách: 25 g · gói\nThương hiệu: Oreo (Mondelēz)",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "ảnh tự chụp: gói nhăn, nghiêng, bóng; không có ảnh hãng cho gói 25g → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: bỏ bảng dinh dưỡng và chữ nhỏ tiếng Thái (không đọc được trên ảnh mẫu)",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet của cửa hàng (ảnh tự chụp)",
+      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/07/24/tram8/3dbad28fe54043ab95aec830eb85916b.png"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết ngắn chỉ từ dữ kiện chắc chắn (tên, vị, khối lượng theo tên SP, chữ in mặt trước gói)",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:46:45.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "b13: image CROP, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-15T09:16:17Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "tone.py --vivid: white balance/levels + brand-like colour (owner request)"
+    },
+    {
+      "at": "2026-10-17T14:11:59Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T14:11:59.227Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T14:11:59.227Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T15:40:54.039Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T15:40:54.039Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/4a115a5d70f09aaf4f69f5e63a751fd43ac7a4573445d539704c381d5d61af23.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/24/tram8/3dbad28fe54043ab95aec830eb85916b.png"
+        ]
+      },
+      "description": {
+        "to": "Bánh quy Oreo nhân kem vani (Original) gói nhỏ: bánh quy ca cao giòn kẹp kem vị vani.\n\nQuy cách: 25 g · gói\nThương hiệu: Oreo (Mondelēz)",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

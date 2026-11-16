@@ -1,0 +1,113 @@
+{
+  "kiotProductId": "67767550",
+  "code": "8857107231040",
+  "barcode": "8857107231040",
+  "name": "Rong Biển TKN CRISPY SEAWEED Vị Truyền Thống 12g",
+  "fullName": "Rong Biển TKN CRISPY SEAWEED Vị Truyền Thống 12g (Gói)",
+  "brand": "Tao Kae Noi",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2549017",
+    "name": "Snack rong biển",
+    "path": "Đồ ăn vặt > Snacks > Snack rong biển"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/2fe214e4060f512f1b10184c6ad46216dc251bc8d34060a773dee27ea8367608.webp",
+    "description": "Rong biển giòn Crispy Seaweed Tao Kae Noi vị truyền thống, món ăn vặt rong biển giòn ăn liền của thương hiệu Thái Lan.\n\nQuy cách: gói\nXuất xứ: Thái Lan · Thương hiệu: Tao Kae Noi",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I3, I4: ảnh tay cầm, nền bàn làm việc; trang hãng taokaenoi.co.th lỗi TLS → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: dòng khối lượng bỏ trống: ảnh mẫu in 15g (0.52 oz), tên KiotViet và OFF ghi 12g — không ghi số để khỏi sai; chữ Trung nhỏ (脆紫菜, góc trên phải) hơi méo",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh Open Food Facts (gói lẻ, chỉ làm mẫu) + ảnh KiotViet",
+      "referenceUrl": "https://world.openfoodfacts.org/product/8857107231040"
+    },
+    "rubricVersion": "v17"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; mô tả ngắn chỉ từ tên SP + chữ in mặt trước gói (trang hãng taokaenoi.co.th lỗi chứng chỉ, không dùng được); bỏ khối lượng vì tên ghi 12 g nhưng gói trong ảnh ghi 15 g",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:51:33.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "b17: needs photo (official site unusable), description from name/front of pack"
+    },
+    {
+      "at": "2026-10-17T05:26:09Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T05:27:09.252Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T08:06:02.482Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T05:27:09.252Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T07:06:52.096Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T07:06:52.096Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/2fe214e4060f512f1b10184c6ad46216dc251bc8d34060a773dee27ea8367608.webp"
+        ],
+        "from": [
+          "https://cdn1-retail-images.kiotviet.vn/2026/08/22/tram8/82c5a72241cf414ca2e94b7389da0cd5.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Rong biển giòn Crispy Seaweed Tao Kae Noi vị truyền thống, món ăn vặt rong biển giòn ăn liền của thương hiệu Thái Lan.\n\nQuy cách: gói\nXuất xứ: Thái Lan · Thương hiệu: Tao Kae Noi",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

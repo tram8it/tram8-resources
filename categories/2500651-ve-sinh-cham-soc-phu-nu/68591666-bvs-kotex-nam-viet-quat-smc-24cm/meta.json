@@ -1,0 +1,107 @@
+{
+  "kiotProductId": "68591666",
+  "code": "6923589489100",
+  "barcode": "6923589489100",
+  "name": "BVS Kotex Nam Việt Quất SMC 24cm",
+  "fullName": "BVS Kotex Nam Việt Quất SMC 24cm (Gói)",
+  "brand": "kotex",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2500651",
+    "name": "Vệ sinh & chăm sóc phụ nữ",
+    "path": "Chăm sóc cá nhân > Vệ sinh & chăm sóc phụ nữ"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/3ce40fe58f9d93f4052c1541acaae4514c4ba07646e9bb6dcae23e9b09f813f9.webp",
+    "description": "Băng vệ sinh Kotex siêu mỏng có cánh, chiết xuất nam việt quất, bổ sung lợi khuẩn L19 (theo nhãn). Gói nhập khẩu, nhãn chính tiếng Trung (高洁丝 Kotex).\n\nQuy cách: 24 cm (240 mm) · gói 8 miếng\nThương hiệu: Kotex",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I3/I4/I8: ảnh KiotViet chụp nhiều gói trên kệ kèm băng \"Mua 1 tặng 1\"; kotex.com.vn chặn bot (Cloudflare) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: một gói, bỏ băng \"Mua 1 tặng 1\"; chữ Trung nhỏ ở đáy gói để mờ/khó đọc",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-26",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh gói của Kingfoodmart theo mã vạch 6923589489100 + ảnh KiotViet (chỉ làm mẫu)",
+      "referenceUrl": "https://storage.googleapis.com/onelife-public/6923589489100.jpg"
+    },
+    "rubricVersion": "v23"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết từ chữ in trên mặt gói (ảnh KiotViet, ảnh Kingfoodmart theo mã vạch)",
+    "source": null,
+    "rubricVersion": "v23"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-26T02:38:48.902Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-26T02:59:09Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references; description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-26T02:59:25.991Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-26T04:58:33.990Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-27T10:02:11.418Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-26T02:59:25.991Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-26T04:55:59.902Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-26T04:55:59.902Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/3ce40fe58f9d93f4052c1541acaae4514c4ba07646e9bb6dcae23e9b09f813f9.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/10/23/tram8/62817d64efa345a3a14035a2d5bfe65c.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Băng vệ sinh Kotex siêu mỏng có cánh, chiết xuất nam việt quất, bổ sung lợi khuẩn L19 (theo nhãn). Gói nhập khẩu, nhãn chính tiếng Trung (高洁丝 Kotex).\n\nQuy cách: 24 cm (240 mm) · gói 8 miếng\nThương hiệu: Kotex",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

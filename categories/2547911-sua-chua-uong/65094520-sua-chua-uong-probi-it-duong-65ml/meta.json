@@ -1,0 +1,137 @@
+{
+  "kiotProductId": "65094520",
+  "code": "8934673303507",
+  "barcode": "8934673303507",
+  "name": "Sữa chua uống Probi ít đường 65ml",
+  "fullName": "Sữa chua uống Probi ít đường 65ml (Lọ)",
+  "brand": "Vinamilk",
+  "unit": "Lọ",
+  "category": {
+    "kiotCategoryId": "2547911",
+    "name": "Sữa chua uống",
+    "path": "Sữa và các sản phẩm từ sữa > Sữa chua > Sữa chua uống"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/c7cdc505245e19ddf1b42457c71d8b83256c84ac0acd15df27f482aadf7e480e.webp",
+    "description": "Sữa chua uống men sống Vinamilk Probi ít đường (giảm 35% đường theo bao bì), chứa lợi khuẩn Probiotic L. Casei 431™, không chất bảo quản.\n\nQuy cách: 65 ml · lọ\nXuất xứ: Việt Nam · Nhà sản xuất/thương hiệu: Công ty CP Sữa Việt Nam (Vinamilk) · Probi\nBảo quản: Bảo quản lạnh ở 2–8 °C; dùng hết sau khi mở.\nHướng dẫn sử dụng: Lắc đều trước khi uống.",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I8 + v19: đơn vị trống = 1 lọ; ảnh hiện có là lốc 5; hãng chưa có ảnh lọ ít đường kiểu mới → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: nhãn lọ ít đường dựng theo kiểu chai mới của các vị Probi khác (chữ xanh 'SỮA CHUA UỐNG MEN SỐNG / ÍT ĐƯỜNG'); chưa thấy ảnh hãng lọ ít đường bản mới để đối chiếu",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh hãng Vinamilk chai Probi 65 ml kiểu mới (vị truyền thống, chỉ làm mẫu) + ảnh lốc ít đường Kingfoodmart/KiotViet",
+      "referenceUrl": "https://www.vinamilk.com.vn/products/sua-chua-uong-probi-co-duong"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết từ chữ in trên lốc (ảnh KiotViet + Kingfoodmart theo mã vạch 8934673303507) và trang Vinamilk Probi; đơn vị trống → 1 lọ 65 ml (v19)",
+    "source": null,
+    "rubricVersion": "v20"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:36:29.000Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "b10 review: needs owner answer, nothing changed"
+    },
+    {
+      "at": "2026-10-17T09:15:20Z",
+      "by": "owner",
+      "status": "ASK_OWNER",
+      "note": "17/10/2026 (RUBRIC v19): dùng bao bì mới nhất của hãng nếu tìm được; tin bao bì/đơn vị KiotViet"
+    },
+    {
+      "at": "2026-10-17T09:15:20Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "still ASK_OWNER: unit missing in KiotViet and barcode shows a 5-pack; newest pack found (Kingfoodmart) — draw after unit is known"
+    },
+    {
+      "at": "2026-10-17T14:17:50Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "still ASK_OWNER: unit empty; barcode photos (KiotViet, Kingfoodmart, OFF) all show the 5-bottle pack while sibling Probi 65 ml SKUs are sold per lọ with single-bottle images; newest pack (65 tỷ, ít đường 35%) found on Kingfoodmart for drawing once answered"
+    },
+    {
+      "at": "2026-10-17T14:35:33Z",
+      "by": "ai",
+      "status": "IN_PROGRESS",
+      "note": "resolved by rule v20: blank unit = one single 65 ml bottle like the other Probi SKUs; newest Probi bottle style; image waits for Gemini (HTTP 402)"
+    },
+    {
+      "at": "2026-10-17T15:14:30Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T15:14:36.698Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T15:14:36.698Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T16:58:14.400Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T16:58:14.400Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/c7cdc505245e19ddf1b42457c71d8b83256c84ac0acd15df27f482aadf7e480e.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/04/22/tram8/e0f3599e3f38492cb11b84e17cc25201.png"
+        ]
+      },
+      "description": {
+        "to": "Sữa chua uống men sống Vinamilk Probi ít đường (giảm 35% đường theo bao bì), chứa lợi khuẩn Probiotic L. Casei 431™, không chất bảo quản.\n\nQuy cách: 65 ml · lọ\nXuất xứ: Việt Nam · Nhà sản xuất/thương hiệu: Công ty CP Sữa Việt Nam (Vinamilk) · Probi\nBảo quản: Bảo quản lạnh ở 2–8 °C; dùng hết sau khi mở.\nHướng dẫn sử dụng: Lắc đều trước khi uống.",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

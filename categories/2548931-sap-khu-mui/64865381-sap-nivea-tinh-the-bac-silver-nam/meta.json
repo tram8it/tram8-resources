@@ -1,0 +1,132 @@
+{
+  "kiotProductId": "64865381",
+  "code": "4005900926715",
+  "barcode": "4005900926715",
+  "name": "83181 N NAM SNM PHAN TU BAC 50ML",
+  "fullName": "83181 N NAM SNM PHAN TU BAC 50ML (Thỏi)",
+  "brand": "Nivea",
+  "unit": "Thỏi",
+  "category": {
+    "kiotCategoryId": "2548931",
+    "name": "Sáp khử mùi",
+    "path": "Chăm sóc cá nhân > Khử mùi và ngăn mồ hôi > Sáp khử mùi"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/82349ecde251803567bdc050e249afac72c002c5e8228ed574e5a451a8165d35.webp",
+    "description": "Sáp ngăn mùi NIVEA MEN Silver Protect dành cho nam, dạng thỏi, dùng cho vùng da dưới cánh tay. Nhãn ghi: Anti-bacterial, Anti-perspirant, khô nhanh (Quick dry), bảo vệ 72 giờ.<br><br>Quy cách: 50 ml · thỏi<br>Nhà sản xuất/thương hiệu: NIVEA MEN (Beiersdorf)",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "Rà ảnh mờ 19/10: ảnh crop phóng to mờ, chữ nhỏ nhoè → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt nội dung",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-19",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh hiện tại (lọ thật)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; nivea.com.vn không có thỏi Silver Protect → viết ngắn chỉ từ chữ in mặt trước thỏi (tên dòng, 72H, Quick dry, 50ml)",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:20:01.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "image CROP, description WRITE_NEW from front-of-pack text"
+    },
+    {
+      "at": "2026-10-15T09:16:17Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "tone.py --vivid: white balance/levels + brand-like colour (owner request)"
+    },
+    {
+      "at": "2026-10-18T17:49:59.401Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T02:05:27.524Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T03:19:05.400Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-19T03:59:33Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references — owner 19/10: replace blurry/upscaled/jagged or wrinkled-photo images with crisp flat renders"
+    },
+    {
+      "at": "2026-10-19T04:00:20.895Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T07:23:08.254Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T17:15:09.663Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-19T04:00:20.895Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T05:17:48.430Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T05:17:48.430Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/82349ecde251803567bdc050e249afac72c002c5e8228ed574e5a451a8165d35.webp"
+        ],
+        "from": [
+          "https://img.tram8.vn/products/f9056cab89ed090b8e8ed9b18528daf2fc4378483c3c6bb63cf447400287fec4.webp"
+        ]
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

@@ -1,0 +1,176 @@
+{
+  "kiotProductId": "65092170",
+  "code": "8935047670256",
+  "barcode": "8935047670256",
+  "name": "20444 Thăng Long bao cứng (Bao)",
+  "fullName": "20444 Thăng Long bao cứng (Bao) (Bao)",
+  "brand": "Thăng Long",
+  "unit": "Bao",
+  "category": {
+    "kiotCategoryId": "2533374",
+    "name": "Thuốc lá (18+)",
+    "path": "Thuốc lá (18+)"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/5c6ffc17edc5b1ed80bf4e852ce362cfe5a9d2994048533f3d7d64015a4a5cba.webp",
+    "description": "Thuốc lá điếu đầu lọc Thăng Long bao cứng màu vàng.\n\nQuy cách: bao\nThương hiệu: Thăng Long · Nhà sản xuất: Công ty TNHH MTV Thuốc lá Thăng Long (Vinataba)\n\nChỉ bán cho người từ 18 tuổi trở lên.\nHút thuốc lá có hại cho sức khỏe.",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I6: ảnh KiotViet nhỏ (bao ~175px), không có ảnh hãng (thuốc lá không được quảng cáo) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt; ảnh iCheck cùng mã vạch là bao bì đời cũ (cảnh báo chữ), dùng bao mới có cảnh báo hình",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (chụp mặt trước)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; mô tả ngắn chỉ từ chữ in trên bao (khuôn _category.md); nhà sản xuất theo chủ mã vạch 8935047 trên iCheck; không ghi số điếu khi bao không in",
+    "source": {
+      "url": "https://icheck.vn/san-pham/8935047670256",
+      "fetchedAt": "2026-10-17"
+    },
+    "rubricVersion": "v18"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-17T08:54:51Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T08:55:17Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "description WRITE_NEW (tobacco template: facts printed on pack, 18+ and health lines)"
+    },
+    {
+      "at": "2026-10-17T08:56:25.657Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T08:56:25.657Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T09:06:04.343Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T09:06:04.343Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/5c6ffc17edc5b1ed80bf4e852ce362cfe5a9d2994048533f3d7d64015a4a5cba.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/29/tram8/af131ab17d0f44f7bcf91e9e74a0d553.png"
+        ]
+      },
+      "description": {
+        "to": "Thuốc lá điếu đầu lọc Thăng Long bao cứng màu vàng.\n\nQuy cách: bao\nThương hiệu: Thăng Long · Nhà sản xuất: Công ty TNHH MTV Thuốc lá Thăng Long (Vinataba)\n\nChỉ bán cho người từ 18 tuổi trở lên.\nHút thuốc lá có hại cho sức khỏe.",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {
+      "price": {
+        "to": 17592.59,
+        "from": 17272.73
+      },
+      "saleTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 65092170
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 65092170
+        }
+      },
+      "taxRate": {
+        "to": "VAT 8%",
+        "from": "VAT 10%"
+      },
+      "productTaxs": {
+        "to": [
+          {
+            "id": 0,
+            "name": "VAT 8%",
+            "taxId": 3,
+            "value": 8,
+            "productId": 65092170
+          }
+        ],
+        "from": [
+          {
+            "id": 0,
+            "name": "VAT 10%",
+            "taxId": 4,
+            "value": 10,
+            "productId": 65092170
+          }
+        ]
+      },
+      "purchaseTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 65092170
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 65092170
+        }
+      }
+    }
+  }
+}

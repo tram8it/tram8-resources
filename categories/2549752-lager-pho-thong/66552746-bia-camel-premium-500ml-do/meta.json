@@ -1,0 +1,191 @@
+{
+  "kiotProductId": "66552746",
+  "code": "8936236640326",
+  "barcode": "8936236640326",
+  "name": "Bia Camel Premium 500ml đỏ",
+  "fullName": "Bia Camel Premium 500ml đỏ - 4.9% (Lon)",
+  "brand": "Camel",
+  "unit": "Lon",
+  "category": {
+    "kiotCategoryId": "2549752",
+    "name": "Lager Phổ Thông",
+    "path": "Đồ uống có cồn (18+) > Bia > Lager Phổ Thông"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/7cfb6081bf31f3318ad1f637f8ba48e40ee5f60b941a73314e4bd0a556072213.webp",
+    "description": "Bia Camel Premium lon đỏ, lon cao 500 ml, độ cồn 4,9%. Ngon hơn khi uống lạnh.<br><br>Quy cách: 500 ml · lon · độ cồn 4,9% V/V<br>Thương hiệu: Camel<br>Sản phẩm dành cho người từ 18 tuổi trở lên.",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I2: ảnh KiotViet là lon 330 ml; lon đang bán 500 ml, 4,9% (kiểm kệ 17/10) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ nhỏ ở mép lon (thông tin nhà SX) bỏ đi",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh nhân viên chụp 17/10 + ảnh KiotViet lon Camel đỏ 330 ml (chỉ làm mẫu màu/thiết kế)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "REWRITE",
+    "reason": "mô tả KiotViet kiểu chatbot, có dữ kiện chưa kiểm (nhà SX, nhiệt độ uống); viết ngắn từ chữ in trên lon 500 ml (ảnh nhân viên chụp 17/10) + dòng 18+",
+    "source": null,
+    "rubricVersion": "v19"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:40:09.000Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "asked owner: name 500ml vs photo 330ml"
+    },
+    {
+      "at": "2026-10-17T08:45:00Z",
+      "by": "owner",
+      "note": "RUBRIC v19: khối lượng tin bao bì đúng mã vạch hơn tên KiotViet; chỉ hỏi khi lệch > ~10% hoặc rõ là cỡ khác",
+      "status": "ASK_OWNER"
+    },
+    {
+      "at": "2026-10-17T09:30:00Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "gap > ~10% / other size or needs shelf check: question shortened to the two numbers (RUBRIC v19)"
+    },
+    {
+      "at": "2026-10-17T12:00:00Z",
+      "by": "owner",
+      "status": "ASK_OWNER",
+      "note": "Kiểm kệ 17/10 (nhân viên chụp): lon 500 ml, \"BIA PREMIUM 500 ml Độ cồn 4,9% V/V\""
+    },
+    {
+      "at": "2026-10-17T12:56:34Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T12:58:08.778Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T12:58:08.778Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T13:33:03.937Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T13:33:03.937Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/7cfb6081bf31f3318ad1f637f8ba48e40ee5f60b941a73314e4bd0a556072213.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/07/27/tram8/e7ba6e4ab1ec472796c9b47d5290112c.png"
+        ]
+      },
+      "description": {
+        "to": "Bia Camel Premium lon đỏ, lon cao 500 ml, độ cồn 4,9%. Ngon hơn khi uống lạnh.\n\nQuy cách: 500 ml · lon · độ cồn 4,9% V/V\nThương hiệu: Camel\nSản phẩm dành cho người từ 18 tuổi trở lên.",
+        "from": "<p data-path-to-node=\"6\"><strong>1. Giới thiệu sản phẩm</strong></p><ul data-path-to-node=\"7\"><li><p data-path-to-node=\"7,0,0\"><strong>Bia Camel Premium Đỏ 500ml</strong> là sản phẩm nổi bật đến từ <strong>Công ty TNHH A&B Việt Nam</strong>, được sản xuất trên dây chuyền công nghệ hiện đại tiêu chuẩn Châu Âu kết hợp với nguồn nguyên liệu chọn lọc khắt khe.</p></li><li><p data-path-to-node=\"7,1,0\">Sở hữu thiết kế lon lớn 500ml cùng sắc đỏ sang trọng, mạnh mẽ, sản phẩm mang đến hương vị đậm đà, sảng khoái, là sự lựa chọn lý tưởng cho các bữa tiệc sum họp gia đình, liên hoan hay các cuộc vui cùng bạn bè.</p></li></ul><p data-path-to-node=\"10\"><strong>2. Thông tin chi tiết</strong></p><ul data-path-to-node=\"11\"><li><p data-path-to-node=\"11,0,0\"><strong>Thương hiệu:</strong> Camel (A&B Vietnam)</p></li><li><p data-path-to-node=\"11,1,0\"><strong>Công ty sản xuất:</strong> Công ty TNHH A&B Việt Nam</p></li><li><p data-path-to-node=\"11,2,0\"><strong>Xuất xứ:</strong> Việt Nam</p></li><li><p data-path-to-node=\"11,3,0\"><strong>Loại bia:</strong> Bia Lager / Bia vàng cao cấp</p></li><li><p data-path-to-node=\"11,4,0\"><strong>Dung tích:</strong> 500ml / lon</p></li><li><p data-path-to-node=\"11,5,0\"><strong>Quy cách đóng gói:</strong> 24 lon / thùng</p></li><li><p data-path-to-node=\"11,6,0\"><strong>Hạn sử dụng:</strong> In rõ trên bao bì sản phẩm</p></li></ul><p data-path-to-node=\"12\"><strong>3. Hướng dẫn sử dụng và bảo quản</strong></p><ul data-path-to-node=\"13\"><li><p data-path-to-node=\"13,0,0\"><strong>Cách dùng:</strong> Ngon hơn khi uống lạnh, nhiệt độ thưởng thức lý tưởng từ 8°C - 12°C. Nên ướp lạnh trước khi uống, hạn chế dùng kèm đá trực tiếp để trọn vẹn hương vị đậm đà ban đầu.</p></li><li><p data-path-to-node=\"13,1,0\"><strong>Bảo quản:</strong> Nơi khô ráo, thoáng mát, tránh ánh nắng trực tiếp hoặc nơi có nhiệt độ cao.</p></li><li><p data-path-to-node=\"13,2,0\"><strong>Lưu ý:</strong> Sản phẩm không dành cho người dưới 18 tuổi và phụ nữ có thai hoặc đang cho con bú. <em>\"Đã uống rượu bia – Không lái xe\"</em>.</p></li></ul>"
+      }
+    },
+    "unexpectedChanges": {
+      "price": {
+        "to": 23148.15,
+        "from": 22727.27
+      },
+      "saleTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 66552746
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 66552746
+        }
+      },
+      "taxRate": {
+        "to": "VAT 8%",
+        "from": "VAT 10%"
+      },
+      "productTaxs": {
+        "to": [
+          {
+            "id": 0,
+            "name": "VAT 8%",
+            "taxId": 3,
+            "value": 8,
+            "productId": 66552746
+          }
+        ],
+        "from": [
+          {
+            "id": 0,
+            "name": "VAT 10%",
+            "taxId": 4,
+            "value": 10,
+            "productId": 66552746
+          }
+        ]
+      },
+      "purchaseTax": {
+        "to": {
+          "id": 0,
+          "name": "VAT 8%",
+          "taxId": 3,
+          "value": 8,
+          "productId": 66552746
+        },
+        "from": {
+          "id": 0,
+          "name": "VAT 10%",
+          "taxId": 4,
+          "value": 10,
+          "productId": 66552746
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "kiotProductId": "64865605",
+  "code": "8936011770606",
+  "barcode": "8936011770606",
+  "name": "Kem Sữa Chua Quế Nho Đỏ Celano 65g × 20",
+  "fullName": "Kem Sữa Chua Quế Nho Đỏ Celano 65g × 20 (Que)",
+  "brand": "Celano",
+  "unit": "Que",
+  "category": {
+    "kiotCategoryId": "2549567",
+    "name": "Kem que",
+    "path": "Kem & Đồ đông lạnh > Kem que"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/e3d71b3bf727a9bbe40eb55d35dd3ec7160b13c14546478896977a277cbefe3b.webp",
+    "description": "Kem sữa chua que Celano vị nho đỏ, vị chua nhẹ của sữa chua kết hợp nho đỏ.\n\nQuy cách: 65 g · que\nNhà sản xuất/thương hiệu: Celano (KIDO Foods)\nBảo quản: Giữ đông lạnh.",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I1: chưa có ảnh trên KiotViet; packshot chính hãng chỉ 540px (gói ~330px cao), phóng lên 1000px bị mờ, chữ nhỏ không đọc được → Gemini vẽ lại nét theo packshot hãng; trang SP hãng ghi mã vạch 8936011770606, khối lượng tịnh 65 g; mặt trước không in khối lượng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt đáng kể so với packshot hãng (logo, chữ KEM SỮA CHUA / TRÁI CÂY / NHO ĐỎ, DẺO MỊN / THƠM MÁT, màu, quả nho); chi tiết nhỏ (vân kem, giọt sữa chua) vẽ lại nên có thể lệch nhẹ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "packshot chính hãng Nho Đỏ (Nutifood Eshop, độ phân giải thấp 540px) + packshot chính hãng vị Dâu cùng dòng (chỉ làm mẫu bố cục/độ nét)",
+      "referenceUrl": "https://ngoinhadinhduong.com/products/kem-celano-que-sua-chua-nho-do-65gx20"
+    },
+    "rubricVersion": "v17"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; không có trang hãng truy cập được — mô tả ngắn chỉ từ dữ kiện chắc chắn (tên SP, thương hiệu, vị, khối lượng; không có ảnh bao bì để đọc thêm)",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:11:16.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "image needs photo (no official source), description WRITE_NEW (name facts only)"
+    },
+    {
+      "at": "2026-10-17T04:16:29Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T04:16:38.666Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T05:23:58.238Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T04:16:38.666Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T04:19:19.111Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T04:19:19.111Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/e3d71b3bf727a9bbe40eb55d35dd3ec7160b13c14546478896977a277cbefe3b.webp"
+        ],
+        "from": null
+      },
+      "description": {
+        "to": "Kem sữa chua que Celano vị nho đỏ, vị chua nhẹ của sữa chua kết hợp nho đỏ.\n\nQuy cách: 65 g · que\nNhà sản xuất/thương hiệu: Celano (KIDO Foods)\nBảo quản: Giữ đông lạnh.",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

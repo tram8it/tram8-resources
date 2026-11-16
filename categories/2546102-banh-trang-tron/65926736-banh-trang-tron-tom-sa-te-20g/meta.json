@@ -1,0 +1,112 @@
+{
+  "kiotProductId": "65926736",
+  "code": "8938548175862",
+  "barcode": "8938548175862",
+  "name": "Bánh tráng trộn tôm SA tế 20g",
+  "fullName": "Bánh tráng trộn tôm SA tế 20g (Gói)",
+  "brand": "Mèo Food",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2546102",
+    "name": "Bánh tráng trộn",
+    "path": "Đồ ăn vặt > Bánh tráng trộn"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/ed1118c3a11e1b9168e5b5b85561f2f27913e19fdd628d305f52c2348cb8dccc.webp",
+    "description": "Bánh tráng trộn tôm sa tế thương hiệu Mèo Food, món ăn vặt đóng gói ăn liền. Bánh tráng vị tôm và sa tế.\n\nQuy cách: 20 g · gói\nThương hiệu: Mèo Food",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I3/I4: ảnh điện thoại chụp cận gói, nền không trắng; Mèo Food không có trang hãng tìm được → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Phần giữa (mèo đen, băng chữ BÁNH TRÁNG / TÔM SA TẾ, ô tròn) theo ảnh thật; logo MEO FOOD, mép gói, hình tôm/ớt hai bên và phần đáy do AI suy ra theo khuôn gói cùng dãy (ảnh thật không chụp tới); không có chữ khối lượng 20g trên mặt trước — cần chủ so với gói thật",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet chụp cận phần giữa gói + ảnh hãng Mèo Food của SP cùng dãy (Muối siêu cay, chỉ để lấy khuôn gói)"
+    },
+    "rubricVersion": "v17"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết ngắn chỉ từ dữ kiện chắc chắn (tên SP, chữ in mặt trước bao bì), không có trang hãng/nhãn sau; 20 g theo tên SP",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:32:10.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "batch b09 review: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T05:11:12Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T05:11:16.272Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T05:23:58.238Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T05:11:16.272Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T05:13:18.495Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T05:13:18.495Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/ed1118c3a11e1b9168e5b5b85561f2f27913e19fdd628d305f52c2348cb8dccc.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/05/23/tram8/dff2a413eeaa4bc49f631127edcdd5bd.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Bánh tráng trộn tôm sa tế thương hiệu Mèo Food, món ăn vặt đóng gói ăn liền. Bánh tráng vị tôm và sa tế.\n\nQuy cách: 20 g · gói\nThương hiệu: Mèo Food",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

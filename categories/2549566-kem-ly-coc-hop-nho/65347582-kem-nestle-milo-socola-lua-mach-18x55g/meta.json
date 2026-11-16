@@ -1,0 +1,142 @@
+{
+  "kiotProductId": "65347582",
+  "code": "8850453016217",
+  "barcode": "8850453016217",
+  "name": "Kem Nestle Milo socola lua mach 18x55g",
+  "fullName": "Kem Nestle Milo socola lua mach 18x55g (Ly)",
+  "brand": "Milo",
+  "unit": "Ly",
+  "category": {
+    "kiotCategoryId": "2549566",
+    "name": "Kem ly / cốc / hộp nhỏ",
+    "path": "Kem & Đồ đông lạnh > Kem ly / cốc / hộp nhỏ"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/aafbdee00936b6212376dc4a1aa88ad05b8ac61d130a44f18929d9726575a104.webp",
+    "description": "Kem ly Nestlé MILO vị sô cô la lúa mạch, ly nhỏ ăn liền.\n\nQuy cách: 55 g · ly\nNhà sản xuất/thương hiệu: Nestlé · MILO",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "Chủ: không giống ảnh → vẽ ly nắp đóng như ảnh KiotViet → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: bỏ dấu ngày/lô; nhãn tiếng Việt + bảng dinh dưỡng Thái chép theo ảnh KiotViet; ly in 60 g (tên ghi 18x55g — theo bao bì, v19)",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-18",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet ly kem nắp đóng + ảnh bán lẻ (chỉ làm mẫu)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết ngắn từ tên SP và chữ in trên ly; ly 55 g (bao bì mới, theo ảnh Kingfoodmart chỉ đọc dữ kiện)",
+    "source": null,
+    "rubricVersion": "v19"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:40:09.000Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "asked owner: name 55g vs label 60g"
+    },
+    {
+      "at": "2026-10-17T08:45:00Z",
+      "by": "owner",
+      "note": "RUBRIC v19: khối lượng tin bao bì đúng mã vạch hơn tên KiotViet; chỉ hỏi khi lệch > ~10% hoặc rõ là cỡ khác",
+      "status": "ASK_OWNER"
+    },
+    {
+      "at": "2026-10-17T08:56:55Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T09:30:00Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "description WRITE_NEW: weight per pack (RUBRIC v19)"
+    },
+    {
+      "at": "2026-10-17T08:59:59.086Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "IN_PROGRESS",
+      "note": "rejected on Hub by AU KHUONG DUY: Không giống ảnh"
+    },
+    {
+      "at": "2026-10-18T11:32:06Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "redo after Hub rejection: Không giống ảnh — Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-18T11:32:07.164Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-18T17:16:08.691Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T03:19:05.400Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-18T11:32:07.164Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-18T17:11:37.739Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-18T17:11:37.739Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/aafbdee00936b6212376dc4a1aa88ad05b8ac61d130a44f18929d9726575a104.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/04/30/tram8/94df8fa269d6498e96cd26564d31bced.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Kem ly Nestlé MILO vị sô cô la lúa mạch, ly nhỏ ăn liền.\n\nQuy cách: 55 g · ly\nNhà sản xuất/thương hiệu: Nestlé · MILO",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

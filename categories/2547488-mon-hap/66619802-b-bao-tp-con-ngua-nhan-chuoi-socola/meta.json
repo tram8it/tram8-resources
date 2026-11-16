@@ -1,0 +1,125 @@
+{
+  "kiotProductId": "66619802",
+  "code": "SP877851",
+  "barcode": "8935335403085",
+  "name": "B.Bao TP Con Ngựa Nhân Chuối Socola",
+  "fullName": "B.Bao TP Con Ngựa Nhân Chuối Socola - Hấp (Khay)",
+  "brand": "Thọ Phát",
+  "unit": "Khay",
+  "category": {
+    "kiotCategoryId": "2547488",
+    "name": "Món hấp",
+    "path": "Món ngon Trạm 8 > Món hấp"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/0687a61f1a5617159cfc7edfccc8ff6b7b00c2200af7508d5bded7ff2eb473cf.webp",
+    "description": "Bánh bao tạo hình con ngựa của Thọ Phát, nhân chuối sô cô la, vỏ bánh vàng ngộ nghĩnh.\n\nQuy cách: 240 g · khay\nNhà sản xuất/thương hiệu: Thọ Phát (KIDO Group)\nHướng dẫn sử dụng: hấp nóng trước khi dùng (thời gian theo hướng dẫn trên bao bì); bảo quản lạnh theo bao bì.",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "v18: món hấp bán lẻ hiện cái bánh và nhân thay cho ảnh bao bì; nền xám nhạt của ảnh Gemini đã tách và làm trắng bằng tools/cutout.py (mất bóng mềm) → ảnh món ăn Gemini vẽ từ ảnh bao bì (v18: món hấp bán lẻ hiện cái bánh và nhân); ảnh minh hoạ. Khác hàng thật: nhân chuối sô cô la theo tên SP và thành phần in trên bao bì (chuối 8,5%, đậu trắng, sữa đặc, kem whipping, sô cô la compound đen 0,2%); bao bì không có hình bánh bổ đôi; ảnh minh hoạ, bánh thật có thể khác",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "food photo, whole + cut showing filling (v18)",
+      "reference": "ảnh bao bì (ảnh render bao bì trên Lotte Mart cùng mã vạch + ảnh bao bì đã vẽ; ảnh KiotViet để đối chiếu) — chỉ để biết hình bánh và nhân",
+      "referenceUrl": "https://www.lottemart.vn/vi-bdg/product/banh-bao-chuoi-soco-ngua-tp-240g-8935335403085-p239865"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; không có trang hãng — mô tả ngắn chỉ từ tên SP và chữ in mặt trước bao bì (ảnh hiện tại)",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T22:00:00.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "batch b14 review (rubric v4): image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T05:28:40Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T05:37:23.959Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T07:30:24Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 3, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T07:30:46.077Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T08:06:02.482Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T07:30:46.077Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T07:33:17.062Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T07:33:17.062Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/0687a61f1a5617159cfc7edfccc8ff6b7b00c2200af7508d5bded7ff2eb473cf.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/06/22/tram8/011679de0a2a489c987c53cb2ec62249.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Bánh bao tạo hình con ngựa của Thọ Phát, nhân chuối sô cô la, vỏ bánh vàng ngộ nghĩnh.\n\nQuy cách: 240 g · khay\nNhà sản xuất/thương hiệu: Thọ Phát (KIDO Group)\nHướng dẫn sử dụng: hấp nóng trước khi dùng (thời gian theo hướng dẫn trên bao bì); bảo quản lạnh theo bao bì.",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

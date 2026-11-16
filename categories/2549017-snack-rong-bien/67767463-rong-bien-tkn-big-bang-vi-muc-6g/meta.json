@@ -1,0 +1,119 @@
+{
+  "kiotProductId": "67767463",
+  "code": "8858702403689",
+  "barcode": "8858702403689",
+  "name": "Rong Biển TKN BIG BANG Vị Mực 6g",
+  "fullName": "Rong Biển TKN BIG BANG Vị Mực 6g (Gói)",
+  "brand": "Tao Kae Noi",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2549017",
+    "name": "Snack rong biển",
+    "path": "Đồ ăn vặt > Snacks > Snack rong biển"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/4db76be4108b5812361a91c8dcc861e9541995f5c148554ef47102469c4f7126.webp",
+    "description": "Rong biển Big Bang Tao Kae Noi vị mực, món ăn vặt rong biển giòn ăn liền của thương hiệu Thái Lan.\n\nQuy cách: 6 g · gói\nXuất xứ: Thái Lan · Thương hiệu: Tao Kae Noi",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I8: ảnh KiotViet nhiều gói xếp chồng; không có ảnh hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ lớn khớp (Tao Kae Noi, Big bang, Save Pack, Grilled Squid Flavour, Net Wt. 0.21oz (6g)); chữ nhỏ mặt trước mờ",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-18",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh Kingfoodmart theo mã vạch (chỉ làm mẫu)",
+      "referenceUrl": "https://storage.googleapis.com/onelife-public/8858702403689.jpg"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; mô tả ngắn chỉ từ tên SP + chữ in mặt trước gói (trang hãng taokaenoi.co.th lỗi chứng chỉ, không dùng được)",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:51:33.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "b17: needs photo (official site unusable), description from name/front of pack"
+    },
+    {
+      "at": "2026-10-17T05:26:37.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "b-gemini: no usable reference for this flavour/6g sachet; Gemini attempt (67767463) invented Thai text, not accepted"
+    },
+    {
+      "at": "2026-10-18T17:57:32Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-18T17:58:05.530Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T02:44:56.965Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T03:19:05.400Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-18T17:58:05.530Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T02:28:29.919Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T02:28:29.919Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/4db76be4108b5812361a91c8dcc861e9541995f5c148554ef47102469c4f7126.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/08/22/tram8/380c9df12d5a4ec4ad1f8e9a409e5a5a.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Rong biển Big Bang Tao Kae Noi vị mực, món ăn vặt rong biển giòn ăn liền của thương hiệu Thái Lan.\n\nQuy cách: 6 g · gói\nXuất xứ: Thái Lan · Thương hiệu: Tao Kae Noi",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

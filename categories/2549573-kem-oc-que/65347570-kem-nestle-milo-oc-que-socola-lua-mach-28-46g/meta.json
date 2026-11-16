@@ -1,0 +1,113 @@
+{
+  "kiotProductId": "65347570",
+  "code": "8850453016835",
+  "barcode": "8850453016835",
+  "name": "Kem Nestle Milo Ốc Quế Socola Lúa Mạch 28 × 46g",
+  "fullName": "Kem Nestle Milo Ốc Quế Socola Lúa Mạch 28 × 46g (Cây)",
+  "brand": "Milo",
+  "unit": "Cây",
+  "category": {
+    "kiotCategoryId": "2549573",
+    "name": "Kem ốc quế",
+    "path": "Kem & Đồ đông lạnh > Kem ốc quế"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/047dbdd9c28b2a2eec04e26f65bcbc1a57d0a54fa46495539c3e016975757fc7.webp",
+    "description": "Kem ốc quế Nestlé MILO vị sô cô la lúa mạch, bán lẻ từng cây, bảo quản đông lạnh.\n\nQuy cách: 46 g · cây\nNhà sản xuất/thương hiệu: Nestlé · MILO\nBảo quản: ngăn đông tủ lạnh.",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I3/I4: ảnh tay cầm, nền không trắng; trang Nestlé chặn tải → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: đỉnh ốc vẽ phẳng gọn (bao thật bị nhàu); dải biểu tượng dinh dưỡng gần mũi ốc vẽ mờ, không có số; ảnh mẫu không đọc được khối lượng nên không kiểm được 46 g",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (ảnh chụp tay của cửa hàng)",
+      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/04/30/tram8/60b2f1b33c1b410e8b40b403fde1868d.jpeg"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; mô tả ngắn từ chữ in mặt trước bao bì (Nestlé MILO, kem ốc quế) + dung tích/khối lượng theo tên hàng",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:57:37.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "image REPLACE (hand-held photo), description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T08:27:58Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 3, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T08:28:19.461Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T08:28:19.461Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T08:40:52.431Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T08:40:52.431Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/047dbdd9c28b2a2eec04e26f65bcbc1a57d0a54fa46495539c3e016975757fc7.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/04/30/tram8/60b2f1b33c1b410e8b40b403fde1868d.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Kem ốc quế Nestlé MILO vị sô cô la lúa mạch, bán lẻ từng cây, bảo quản đông lạnh.\n\nQuy cách: 46 g · cây\nNhà sản xuất/thương hiệu: Nestlé · MILO\nBảo quản: ngăn đông tủ lạnh.",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

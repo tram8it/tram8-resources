@@ -1,0 +1,86 @@
+<!doctype html><html lang="vi"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Duyệt Cơm cháy</title><style>
+:root{--bg:#f5f5f5;--card:#fff;--text:#1a1a1a;--muted:#666;--line:#ddd;--red:#ef2c28;--amber:#b7791f;--green:#2f855a;--blue:#2b6cb0}
+@media (prefers-color-scheme:dark){:root{--bg:#141414;--card:#1f1f1f;--text:#eee;--muted:#aaa;--line:#333}}
+body{margin:0;padding:16px;font:14px/1.45 system-ui,sans-serif;background:var(--bg);color:var(--text)}
+h1{font-size:18px;margin:0 0 4px}.sub{color:var(--muted);margin:0 0 12px}
+nav button{border:1px solid var(--line);background:var(--card);color:var(--text);border-radius:999px;padding:6px 12px;margin:0 6px 6px 0;cursor:pointer}
+nav button.on{background:var(--text);color:var(--bg)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,340px),1fr));gap:12px}
+.card{background:var(--card);border-radius:10px;padding:12px;border-top:4px solid var(--line)}
+.s-READY{border-color:var(--blue)}.s-ASK_OWNER{border-color:var(--amber)}.s-NEEDS_PHOTO{border-color:var(--red)}.s-NO_CHANGE,.s-APPROVED,.s-UPLOADED{border-color:var(--green)}
+.card header{display:flex;flex-wrap:wrap;gap:4px 8px;align-items:baseline}.card header small{color:var(--muted)}
+.tag{margin-left:auto;font-size:12px;font-weight:600}
+.master{width:100%;border-collapse:collapse;margin:6px 0 8px;font-size:13px}.master th,.master td{border-top:1px solid var(--line);padding:3px 4px;text-align:left;vertical-align:top}.master th{color:var(--muted);font-weight:500}.master td:first-child{color:var(--muted);white-space:nowrap}
+.pair{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin:10px 0}
+figure{margin:0}figcaption{font-size:12px;color:var(--muted);text-align:center}
+.pair img,.none{width:100%;aspect-ratio:1;object-fit:contain;background:#fff;border:1px solid var(--line);border-radius:6px}
+.none{display:flex;align-items:center;justify-content:center;color:#888;font-size:12px}
+.why{margin:2px 0;color:var(--muted);font-size:13px}.ask{margin:6px 0 0;color:var(--amber);font-weight:600}
+.texts{display:grid;gap:8px}h4{margin:6px 0 2px;font-size:12px;color:var(--muted)}
+pre{white-space:pre-wrap;font:inherit;margin:0;padding:8px;border:1px solid var(--line);border-radius:6px}
+summary{cursor:pointer}
+</style></head><body>
+<h1>Đồ ăn vặt &gt; Cơm cháy</h1>
+<p class="sub">3 SP · trái là ảnh đang trên web, phải là ảnh mới (chưa đưa lên đâu cả)</p>
+<nav><button data-f="all" class="on">Tất cả</button><button data-f="READY">Chờ duyệt (1)</button><button data-f="ASK_OWNER">Hỏi chủ (1)</button><button data-f="NEEDS_PHOTO">Cần chụp (1)</button></nav>
+<div class="grid"><article class="card s-READY" data-status="READY">
+  <header><b>Cơm cháy chà bông</b><small>8938520099902 · 65860903</small>
+  <span class="tag">Chờ duyệt</span></header>
+  <div class="pair">
+    <figure><img loading="lazy" src="https://cdn1-retail-images.kiotviet.vn/2026/05/20/tram8/43f172e5816b44b293d7bc0510670b22.jpeg" alt="Ảnh hiện tại"><figcaption>Hiện tại</figcaption></figure>
+    <figure><div class="none">—</div><figcaption>Mới · KEEP</figcaption></figure>
+  </div>
+  
+  <p class="why">Ảnh: Đạt I1–I9: ảnh gói nền trắng, 1:1 (320×320 ≥ 300), căn giữa</p>
+  
+  <details open><summary>Mô tả · WRITE_NEW — D1: chưa có mô tả; mô tả ngắn chỉ từ tên SP và chữ in mặt trước gói (không có trang hãng)</summary>
+    <div class="texts"><div><h4>Hiện tại</h4><pre>(trống)</pre></div>
+    <div><h4>Mới</h4><pre>Cơm cháy chà bông: miếng cơm cháy giòn phủ chà bông, có vị ớt cay theo chữ in trên gói, đóng túi zip đứng tiện ăn vặt.
+
+Quy cách: gói
+</pre></div></div>
+  </details>
+  
+</article>
+<article class="card s-ASK_OWNER" data-status="ASK_OWNER">
+  <header><b>Cơm cháy đáy nồi 20g (Gói)</b><small>SP877850 · 66618667</small>
+  <span class="tag">Hỏi chủ</span></header>
+  <div class="pair">
+    <figure><img loading="lazy" src="https://cdn2-retail-images.kiotviet.vn/2026/07/27/tram8/a9d590c0627d48ff86261727fffd89a2.png" alt="Ảnh hiện tại"><figcaption>Hiện tại</figcaption></figure>
+    <figure><div class="none">—</div><figcaption>Mới · ASK_OWNER</figcaption></figure>
+  </div>
+  
+  <p class="why">Ảnh: I2: tên ghi &quot;20g (Gói)&quot; nhưng ảnh là túi lớn nhiều miếng cơm cháy đáy nồi siêu chà bông; không chắc quy cách</p>
+  
+  <details><summary>Mô tả · ASK_OWNER — Chờ chủ xác nhận quy cách</summary>
+    <div class="texts"><div><h4>Hiện tại</h4><pre>(trống)</pre></div>
+    </div>
+  </details>
+  <p class="ask">❓ &quot;Cơm cháy đáy nồi 20g (Gói)&quot; (mã vạch 8936236143124): ảnh hiện tại là túi lớn chứa nhiều miếng &quot;Cơm cháy đáy nồi siêu chà bông&quot;. Hàng bán là gói nhỏ 20 g hay túi lớn này (nặng bao nhiêu)? Nếu là gói 20 g thì cần nhân viên chụp gói đó.</p>
+</article>
+<article class="card s-NEEDS_PHOTO" data-status="NEEDS_PHOTO">
+  <header><b>Cơm cháy siêu chà bông 220g</b><small>8936202660969 · 67207852</small>
+  <span class="tag">Cần chụp</span></header>
+  <div class="pair">
+    <figure><img loading="lazy" src="https://cdn2-retail-images.kiotviet.vn/2026/07/23/tram8/1178cd5e2d134241b51ef682bc31647e.jpeg" alt="Ảnh hiện tại"><figcaption>Hiện tại</figcaption></figure>
+    <figure><div class="none">—</div><figcaption>Mới · REPLACE</figcaption></figure>
+  </div>
+  
+  <p class="why">Ảnh: I4/I5: ảnh chụp điện thoại, nền xám, gói bị khung cắt hai bên; không tìm thấy trang hãng → cần chụp</p>
+  
+  <details open><summary>Mô tả · WRITE_NEW — D1: chưa có mô tả; mô tả ngắn chỉ từ tên SP và chữ in mặt trước gói (không có trang hãng)</summary>
+    <div class="texts"><div><h4>Hiện tại</h4><pre>(trống)</pre></div>
+    <div><h4>Mới</h4><pre>Cơm cháy siêu chà bông: cơm cháy giòn trộn nhiều chà bông, đóng túi lớn dùng ăn vặt hoặc chia sẻ.
+
+Quy cách: 220 g · gói
+</pre></div></div>
+  </details>
+  
+</article></div>
+<script>
+document.querySelectorAll("nav button").forEach(b=>b.onclick=()=>{
+  document.querySelectorAll("nav button").forEach(x=>x.classList.toggle("on",x===b));
+  document.querySelectorAll(".card").forEach(c=>{c.style.display=b.dataset.f==="all"||c.dataset.status===b.dataset.f?"":"none"});
+});
+</script></body></html>

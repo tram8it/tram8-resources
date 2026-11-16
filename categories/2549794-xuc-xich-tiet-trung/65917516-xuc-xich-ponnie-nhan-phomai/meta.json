@@ -1,0 +1,125 @@
+{
+  "kiotProductId": "65917516",
+  "code": "8936034875357",
+  "barcode": "8936034875357",
+  "name": "Xúc xích Ponnie nhân phômai",
+  "fullName": "Xúc xích Ponnie nhân phômai (Cái)",
+  "brand": "Ponnie",
+  "unit": "Cái",
+  "category": {
+    "kiotCategoryId": "2549794",
+    "name": "Xúc xích tiệt trùng",
+    "path": "Xúc Xích & Thịt Nguội > Xúc xích tiệt trùng"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/059bc3e1bbc2b8e2160613a8f39ac4858be4e8f4ccc0ed5a68b0ca205e0657cf.webp",
+    "description": "Xúc xích Ponnie nhân phô mai, làm từ thịt heo xông khói, vỏ dễ bóc mở, ăn liền.\n\nQuy cách: 45 g · cây\nNhà sản xuất/thương hiệu: Masan MEATLife · Ponnie",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I3/I8: ảnh KiotViet là hộp trưng bày → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt chữ lớn (PÖNNIE, Dễ bóc mở, Nhân phô mai, Thịt heo xông khói, 45 g)",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-18",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh Kingfoodmart theo mã vạch (chỉ làm mẫu); khớp gói lẻ trên ảnh KiotViet",
+      "referenceUrl": "https://storage.googleapis.com/onelife-public/8936034875357.jpg"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: từ chữ trên gói (ảnh Kingfoodmart đúng mã vạch): nhân phô mai, thịt heo xông khói, dễ bóc mở, 45 g",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:17:58.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "b16 review: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T05:26:52.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "photo search 17/10: no usable reference found"
+    },
+    {
+      "at": "2026-10-18T18:05:56Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-18T18:05:56Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "np18 re-research: description rewritten from pack/official facts"
+    },
+    {
+      "at": "2026-10-18T18:06:01.973Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-19T02:05:27.524Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-19T03:19:05.400Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-18T18:06:01.973Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T01:35:16.587Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T01:35:16.587Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/059bc3e1bbc2b8e2160613a8f39ac4858be4e8f4ccc0ed5a68b0ca205e0657cf.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/05/23/tram8/69c27a544df04471b89d68e7a3ffedf8.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Xúc xích Ponnie nhân phô mai, làm từ thịt heo xông khói, vỏ dễ bóc mở, ăn liền.\n\nQuy cách: 45 g · cây\nNhà sản xuất/thương hiệu: Masan MEATLife · Ponnie",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

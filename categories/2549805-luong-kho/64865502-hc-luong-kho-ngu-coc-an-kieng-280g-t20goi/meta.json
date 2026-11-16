@@ -1,0 +1,112 @@
+{
+  "kiotProductId": "64865502",
+  "code": "8938554662202",
+  "barcode": "8938554662202",
+  "name": "HC lương khô ngũ cốc ăn kiêng 280g T20GÓI",
+  "fullName": "HC lương khô ngũ cốc ăn kiêng 280g T20GÓI (Gói)",
+  "brand": "Energy Dice",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2549805",
+    "name": "Lương khô",
+    "path": "Bánh quy & bánh đóng gói > Lương khô"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/39ac6aa029de319f8ed7f96589ff87d6b6bc353ab1d9ba86ead107ca4fe11333.webp",
+    "description": "Lương khô ăn kiêng vị ngũ cốc Energy Dice, dạng viên nén, bao bì ghi giảm đường – ít ngọt. Ăn trực tiếp.\n\nQuy cách: 280 g · gói\nXuất xứ: Việt Nam · Nhà sản xuất/thương hiệu: Energy Dice",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I3/I4/I5: ảnh điện thoại chụp gói trên mặt bàn, nền không trắng, sát khung; không có trang hãng Energy Dice (Hải Châu) → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: vẽ phẳng, bỏ nhăn/lóa; chữ chính khớp ảnh mẫu; chữ nhỏ (chú thích hình) vẽ lại; mặt trước không in khối lượng 280g",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (chụp gói trên bàn)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết ngắn chỉ từ chữ in mặt trước gói (Energy Dice, Lương khô ăn kiêng – ngũ cốc ăn kiêng, giảm đường – ít ngọt) và khối lượng trong tên",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-14T00:31:15.096Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "batch f3: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T08:23:27Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T08:23:27.449Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T08:23:27.449Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T08:37:20.711Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T08:37:20.711Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/39ac6aa029de319f8ed7f96589ff87d6b6bc353ab1d9ba86ead107ca4fe11333.webp"
+        ],
+        "from": [
+          "https://cdn1-retail-images.kiotviet.vn/2026/01/23/tongpenhchtl/255932f5a3c44c029c0f57afaff1be47.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Lương khô ăn kiêng vị ngũ cốc Energy Dice, dạng viên nén, bao bì ghi giảm đường – ít ngọt. Ăn trực tiếp.\n\nQuy cách: 280 g · gói\nXuất xứ: Việt Nam · Nhà sản xuất/thương hiệu: Energy Dice",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

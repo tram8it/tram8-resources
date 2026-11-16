@@ -1,0 +1,114 @@
+{
+  "kiotProductId": "65217218",
+  "code": "8997240600942",
+  "barcode": "8997240600942",
+  "name": "Sữa yến mạch oatside socola lúa mạch 180ml",
+  "fullName": "Sữa yến mạch oatside socola lúa mạch 180ml (Hộp)",
+  "brand": "Oatside",
+  "unit": "Hộp",
+  "category": {
+    "kiotCategoryId": "2547908",
+    "name": "Sữa hạt",
+    "path": "Sữa và các sản phẩm từ sữa > Sữa tiệt trùng > Sữa hạt"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/6014f69420976771145e8bd0dd6093eaee3ab8f012ee3c8017cd0f716454a23d.webp",
+    "description": "Sữa yến mạch Oatside vị sô cô la lúa mạch (Chocolate Malt), làm từ yến mạch rang, ca cao và chiết xuất mạch nha, không dùng hương liệu nhân tạo; vị béo, thơm mạch nha.\n\nQuy cách: 180 ml · hộp\nNhà sản xuất/thương hiệu: Oatside",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I1: chưa có ảnh; oatside.com chỉ có hộp bản Singapore → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: hộp hơi nghiêng thấy cạnh trái; chữ khớp ảnh mẫu (180 ml, Sô-cô-la Lúa Mạch, 3 nhãn vitamin)",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh Kingfoodmart hộp 180 ml bản Việt Nam (chỉ làm mẫu)",
+      "referenceUrl": "https://storage.googleapis.com/onelife-public/8997240600942.jpg"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết theo trang hãng (cùng vị Chocolate Malt)",
+    "source": {
+      "url": "https://oatside.com/products/chocolate-malt/",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:09:58.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "b19: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T07:43:26Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T07:43:49.127Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T08:06:02.482Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T07:43:49.127Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T07:48:20.155Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T07:48:20.155Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/6014f69420976771145e8bd0dd6093eaee3ab8f012ee3c8017cd0f716454a23d.webp"
+        ],
+        "from": null
+      },
+      "description": {
+        "to": "Sữa yến mạch Oatside vị sô cô la lúa mạch (Chocolate Malt), làm từ yến mạch rang, ca cao và chiết xuất mạch nha, không dùng hương liệu nhân tạo; vị béo, thơm mạch nha.\n\nQuy cách: 180 ml · hộp\nNhà sản xuất/thương hiệu: Oatside",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

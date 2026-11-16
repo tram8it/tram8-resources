@@ -1,0 +1,138 @@
+{
+  "kiotProductId": "66922065",
+  "code": "6925678105281",
+  "barcode": "6925678105281",
+  "name": "Que cay (Vị thịt bò cay Tứ Xuyên)",
+  "fullName": "Que cay (Vị thịt bò cay Tứ Xuyên) (Gói)",
+  "brand": "Hàng nội địa Trung",
+  "unit": "Gói",
+  "category": {
+    "kiotCategoryId": "2549294",
+    "name": "Que cay / tăm cay (latiao)",
+    "path": "Đồ ăn vặt > Đồ nội địa Trung > Que cay / tăm cay (latiao)"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/1ce56c0bd2a11c25ba7db62ce7e5b2067a6ef7740096f3255ea4ba2441a40219.webp",
+    "description": "Que cay Jinmofang Zhenxinbang vị thịt bò cay kiểu Tứ Xuyên, que bột mì tẩm gia vị cay thơm, món ăn vặt đậm vị.\n\nQuy cách: 120 g · gói\nNhà sản xuất/thương hiệu: Jinmofang (金磨坊)",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "Đồng bộ dãy 20/10: ảnh cũ là ảnh chụp gói nhăn, xỉn trong khi các SP Jinmofang cùng dãy là render phẳng → Gemini vẽ lại theo phong cách SP 66921963 → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: nhãn vị 川香牛肉味, mã vạch 6925678105321, 120克 khớp ảnh cũ; chữ nhỏ dưới mã vạch đơn giản hoá",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-19",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh hiện tại của SP (nội dung) + ảnh đã duyệt SP cùng dãy 66921963 (phong cách)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; mô tả ngắn chỉ từ tên hàng và chữ in mặt trước bao bì (không có trang hãng) (gói 真心棒 川香牛肉味 120g, mã 6925678105281, thấy trên ảnh của SP 66921963)",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T20:30:00.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "b20 review: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T07:38:16Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "image REPLACE from packshot mis-attached to 66921963 (barcode verified), make_image + tone --vivid like Jinmofang siblings"
+    },
+    {
+      "at": "2026-10-17T07:41:03.637Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T08:06:02.482Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-19T18:26:44Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-19T18:26:52Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "line consistency 20/10: Gemini redraw, flat render like sibling 66921963 (was dull crinkled pack photo)"
+    },
+    {
+      "at": "2026-10-19T18:27:02.542Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-20T03:28:53.537Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-26T04:58:33.990Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-19T18:27:02.542Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-19T18:40:18.568Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-19T18:40:18.568Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/1ce56c0bd2a11c25ba7db62ce7e5b2067a6ef7740096f3255ea4ba2441a40219.webp"
+        ],
+        "from": [
+          "https://img.tram8.vn/products/56662284ccc1b2805e1dcac8204c9b9c488b5f5c1da089690a4bd1ccfc389925.webp"
+        ]
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

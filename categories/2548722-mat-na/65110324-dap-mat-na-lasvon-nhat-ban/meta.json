@@ -1,0 +1,120 @@
+{
+  "kiotProductId": "65110324",
+  "code": "4582192960912",
+  "barcode": "4582192960912",
+  "name": "Đắp mặt nạ lasvon Nhật Bản",
+  "fullName": "Đắp mặt nạ lasvon Nhật Bản (Miếng)",
+  "brand": "Lasvon",
+  "unit": "Miếng",
+  "category": {
+    "kiotCategoryId": "2548722",
+    "name": "Mặt nạ",
+    "path": "Chăm sóc cá nhân > Chăm sóc da mặt > Mặt nạ"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/c2792dcc10baed248e0bceeed8475339b67a6951a3fc01f39a780974acd57604.webp",
+    "description": "Mặt nạ giấy Lasvon Green Tea Natural Serum Mask tinh chất trà xanh; gói ghi hỗ trợ làm dịu, ngăn mụn, kiểm soát dầu; không cồn, không hương liệu, không chất tạo màu; sản xuất tại Nhật Bản.\n\nQuy cách: 1 miếng (gói)\nXuất xứ: Nhật Bản · Thương hiệu: Lasvon",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I1: chưa có ảnh → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chỉ vẽ 1 gói; chữ nhỏ mờ; mẫu chỉ có ảnh dàn trang, chưa so được với gói thật",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh iCheck theo mã vạch 4582192960912 (chỉ làm mẫu)",
+      "referenceUrl": "https://icheck.vn/san-pham/4582192960912"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết ngắn từ chữ in trên gói đúng mã vạch (iCheck: mặt nạ serum tinh chất trà xanh Nhật Bản)",
+    "source": {
+      "url": "https://icheck.vn/san-pham/4582192960912",
+      "fetchedAt": "2026-10-17"
+    },
+    "rubricVersion": "v19"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:45:42.000Z",
+      "by": "ai",
+      "status": "ASK_OWNER",
+      "note": "b19: image ASK_OWNER, description ASK_OWNER"
+    },
+    {
+      "at": "2026-10-17T14:03:15Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T14:03:58Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "resolved without asking: iCheck names barcode 4582192960912 as Lasvon green tea serum mask; one sachet drawn from the brand layout shown there"
+    },
+    {
+      "at": "2026-10-17T14:04:21.695Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T14:04:21.695Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T14:13:33.780Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T14:13:33.780Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/c2792dcc10baed248e0bceeed8475339b67a6951a3fc01f39a780974acd57604.webp"
+        ],
+        "from": null
+      },
+      "description": {
+        "to": "Mặt nạ giấy Lasvon Green Tea Natural Serum Mask tinh chất trà xanh; gói ghi hỗ trợ làm dịu, ngăn mụn, kiểm soát dầu; không cồn, không hương liệu, không chất tạo màu; sản xuất tại Nhật Bản.\n\nQuy cách: 1 miếng (gói)\nXuất xứ: Nhật Bản · Thương hiệu: Lasvon",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

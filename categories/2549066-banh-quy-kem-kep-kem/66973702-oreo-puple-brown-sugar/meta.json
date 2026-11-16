@@ -1,0 +1,113 @@
+{
+  "kiotProductId": "66973702",
+  "code": "7622202838125",
+  "barcode": "7622202838125",
+  "name": "OREO Puple Brown sugar",
+  "fullName": "OREO Puple Brown sugar (Thanh)",
+  "brand": "Oreo",
+  "unit": "Thanh",
+  "category": {
+    "kiotCategoryId": "2549066",
+    "name": "Bánh quy kem / kẹp kem",
+    "path": "Bánh quy & bánh đóng gói > Bánh quy kem / kẹp kem"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/347d6fb4cd755852924798bb5efb8952a5046405c82c1922addc2b807aafd41d.webp",
+    "description": "Bánh quy Oreo phiên bản BTS vị bánh Hotteok đường nâu (Brown Sugar Pancake Flavour): bánh quy kẹp kem màu tím vị đường nâu kiểu bánh Hotteok Hàn Quốc.\n\nQuy cách: thanh\nThương hiệu: Oreo (Mondelēz)",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I3, I4, I5: ảnh chụp điện thoại cầm tay trên thùng carton, gói bị cắt; không có trên trang Mondelez VN → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: là bao bì phiên bản giới hạn Oreo x BTS (vị Hotteok chỉ có bản này, không có bản thường); dòng chữ Việt nhỏ ở mép trên và chữ cạnh mã QR để mờ; không thấy khối lượng trên mặt trước",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh Open Food Facts (chỉ làm mẫu) + ảnh KiotViet",
+      "referenceUrl": "https://world.openfoodfacts.org/product/7622202838125"
+    },
+    "rubricVersion": "v17"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết ngắn chỉ từ chữ in mặt trước gói",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:46:45.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "b13: image REPLACE, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T05:15:46Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T05:16:10.049Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T05:23:58.238Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T05:16:10.049Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T05:21:24.460Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T05:21:24.460Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/347d6fb4cd755852924798bb5efb8952a5046405c82c1922addc2b807aafd41d.webp"
+        ],
+        "from": [
+          "https://cdn1-retail-images.kiotviet.vn/2026/07/09/tram8/0d9d648074694252b7458b937896f261.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Bánh quy Oreo phiên bản BTS vị bánh Hotteok đường nâu (Brown Sugar Pancake Flavour): bánh quy kẹp kem màu tím vị đường nâu kiểu bánh Hotteok Hàn Quốc.\n\nQuy cách: thanh\nThương hiệu: Oreo (Mondelēz)",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

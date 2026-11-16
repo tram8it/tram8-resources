@@ -1,0 +1,113 @@
+{
+  "kiotProductId": "65868119",
+  "code": "8934572352224",
+  "barcode": "8934572352224",
+  "name": "Xúc xích Heo Cao Bồi lắc Vissan xốt Tamarind Vissan 62g 4 cây",
+  "fullName": "Xúc xích Heo Cao Bồi lắc Vissan xốt Tamarind Vissan 62g 4 cây (Ly)",
+  "brand": "Vissan",
+  "unit": "Ly",
+  "category": {
+    "kiotCategoryId": "2549795",
+    "name": "Xúc xích lắc & snack",
+    "path": "Xúc Xích & Thịt Nguội > Xúc xích lắc & snack"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/c415234dd1988fe77c0cbb673400dc7200e2edd1ee232ee2ccd292f3cc85c4dd.webp",
+    "description": "Xúc xích Trộn Đều xốt Tamarind (xốt me) của VISSAN, đóng ly có nắp gồm 4 cây xúc xích kèm xốt: cho xốt vào ly, đậy nắp lắc đều rồi dùng. Món ăn vặt tiện mang theo.\n\nQuy cách: 62 g (4 cây) · ly\nXuất xứ: Việt Nam · Nhà sản xuất/thương hiệu: VISSAN (Công ty CP Việt Nam Kỹ nghệ Súc sản)",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I2 (v2): ảnh hiện tại là bao bì cũ (không có nhãn '4 cây'); dùng ảnh bao bì mới trên vissanmart.com (cửa hàng trực tuyến của VISSAN), tách nền xám bằng cutout.py (v5), không vẽ lại",
+    "source": {
+      "url": "https://vissanmart.com/pub/media/catalog/product/x/x/xx_tr_n_u_tamarin_4_c_y.png",
+      "page": "https://vissanmart.com/xx-tr-n-d-u-x-t-tamarind-vissan-62g-4-cay.html",
+      "fetchedAt": "2026-10-17",
+      "cutout": true
+    },
+    "rubricVersion": "v17"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; theo tên SP trên cửa hàng trực tuyến của VISSAN (62 g, 4 cây)",
+    "source": {
+      "url": "https://vissanmart.com/xx-tr-n-d-u-x-t-tamarind-vissan-62g-4-cay.html",
+      "fetchedAt": "2026-10-13"
+    },
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:57:41.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "current photo is old packaging; official new-pack image has grey background → NEEDS_PHOTO; description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T07:44:03.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "brand image from vissanmart.com, grey background removed with cutout.py --erode 2; matches sibling Vissan BBQ (brand image)"
+    },
+    {
+      "at": "2026-10-17T07:55:32.522Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T08:06:02.482Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T07:55:32.522Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T08:03:11.347Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T08:03:11.347Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/c415234dd1988fe77c0cbb673400dc7200e2edd1ee232ee2ccd292f3cc85c4dd.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/05/20/tram8/1aa196c5863b4c5a9f284e835964fe8a.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Xúc xích Trộn Đều xốt Tamarind (xốt me) của VISSAN, đóng ly có nắp gồm 4 cây xúc xích kèm xốt: cho xốt vào ly, đậy nắp lắc đều rồi dùng. Món ăn vặt tiện mang theo.\n\nQuy cách: 62 g (4 cây) · ly\nXuất xứ: Việt Nam · Nhà sản xuất/thương hiệu: VISSAN (Công ty CP Việt Nam Kỹ nghệ Súc sản)",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

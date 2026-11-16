@@ -1,0 +1,113 @@
+{
+  "kiotProductId": "65631953",
+  "code": "6927260916145",
+  "barcode": "6927260916145",
+  "name": "Kẹo Nhai Chew Vị Nho 80g",
+  "fullName": "Kẹo Nhai Chew Vị Nho 80g (Lọ)",
+  "brand": null,
+  "unit": "Lọ",
+  "category": {
+    "kiotCategoryId": "2549274",
+    "name": "Kẹo dẻo / jelly",
+    "path": "Các loại kẹo > Kẹo dẻo / jelly"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/2a6f155012c79c2225cc87176d63d4d74f74779045493f0892a5d2d832aa821d.webp",
+    "description": "Kẹo nhai Crazy Scientist Chew Candy hương nho (Grape flavor), đựng trong lọ nhựa hình bình thí nghiệm.\n\nQuy cách: 80 g · lọ",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "I3/I4: ảnh chụp điện thoại, nền tường/bàn không trắng; hàng nhập (mã 692…), không tìm được ảnh hãng/NPP → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: Chữ mặt trước khớp ảnh thật (CHEWY NUGGETS, CRAZY SCIENTIST CHEW CANDY, GRAPE FLAVOR); mặt trước không in khối lượng nên ảnh cũng không có số. Hoạ tiết nhỏ (biểu tượng khoa học) và chữ nhỏ mép nhãn là vẽ lại, không đọc được — không thấy khác biệt đáng kể",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-10-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh nhân viên chụp lọ thật (ảnh KiotViet hiện có)",
+      "referenceUrl": "https://cdn2-retail-images.kiotviet.vn/2026/05/11/tram8/457c365973e948048a3a789b5cafeb7c.jpeg"
+    },
+    "rubricVersion": "v17"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; không có trang hãng — mô tả ngắn chỉ từ tên SP và chữ in mặt trước bao bì (ảnh hiện tại)",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:19:58.000Z",
+      "by": "ai",
+      "status": "NEEDS_PHOTO",
+      "note": "image NEEDS_PHOTO, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-17T04:34:27Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T04:34:39.868Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T05:23:58.238Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-17T04:34:39.868Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-17T04:36:46.162Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-17T04:36:46.162Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/2a6f155012c79c2225cc87176d63d4d74f74779045493f0892a5d2d832aa821d.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/05/11/tram8/457c365973e948048a3a789b5cafeb7c.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Kẹo nhai Crazy Scientist Chew Candy hương nho (Grape flavor), đựng trong lọ nhựa hình bình thí nghiệm.\n\nQuy cách: 80 g · lọ",
+        "from": ""
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}

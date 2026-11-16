@@ -1,0 +1,134 @@
+{
+  "kiotProductId": "65205345",
+  "code": "8935358700147",
+  "barcode": "8935358700147",
+  "name": "Nước uống Pororo hương vị nho sữa (Chai)",
+  "fullName": "Nước uống Pororo hương vị nho sữa (Chai) (Chai)",
+  "brand": "Pororo",
+  "unit": "Chai",
+  "category": {
+    "kiotCategoryId": "2549384",
+    "name": "Thức uống bổ sung dinh dưỡng",
+    "path": "Đồ uống đóng chai > Thức uống bổ sung dinh dưỡng"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://img.tram8.vn/products/c98939803512b9a4c0f57a9c1193496bb0d68c556b81b5ce54108c8a5ba3ce55.webp",
+    "description": "Nước uống Pororo hương vị nho sữa dành cho trẻ em, chai nắp bật tiện mang theo, bao bì in \"Bổ sung kẽm\".\n\nQuy cách: 235 ml · chai\nThương hiệu: Pororo",
+    "exportedAt": "2026-11-13T01:08:38.982Z"
+  },
+  "status": "UPLOADED",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "line consistency 20/10: ảnh hãng Paldo Vina (chai nho sữa, nhãn VN mới) cùng nguồn với các vị Pororo khác; thay ảnh Gemini vẽ từ ảnh chụp tay",
+    "source": {
+      "url": "https://paldovina.com/upload/nuoc-uong/noi-dia/pororo-nho-sua.png",
+      "fetchedAt": "2026-10-20"
+    },
+    "rubricVersion": "v23"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; mô tả ngắn từ chữ in mặt trước bao bì; dung tích 235 ml đọc trên nhãn (v3)",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-10-13T13:18:41.836Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-10-13T19:39:43.000Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "image CROP, description WRITE_NEW"
+    },
+    {
+      "at": "2026-10-15T09:16:17Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "tone.py --vivid: white balance/levels + brand-like colour (owner request)"
+    },
+    {
+      "at": "2026-10-17T14:13:39Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-10-17T14:13:39.994Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-17T17:24:29.704Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-17T17:47:40.629Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-10-20T16:35:30Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "line consistency 20/10: replaced Gemini redraw (older-looking full-colour label) with Paldo Vina brand render like the other Pororo flavours"
+    },
+    {
+      "at": "2026-10-20T16:41:26.574Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-10-21T08:30:34.700Z",
+      "by": "init",
+      "status": "READY",
+      "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-10-26T04:58:33.990Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    }
+  ],
+  "submitted": {
+    "at": "2026-10-20T16:41:26.574Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-10-20T16:44:43.641Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-10-20T16:44:43.641Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/c98939803512b9a4c0f57a9c1193496bb0d68c556b81b5ce54108c8a5ba3ce55.webp"
+        ],
+        "from": [
+          "https://img.tram8.vn/products/9960e1a1cd9a248c74e7c4487e29930b612cc0104ab3e7ff54292e69dd6dddaf.webp"
+        ]
+      }
+    },
+    "unexpectedChanges": {}
+  }
+}
