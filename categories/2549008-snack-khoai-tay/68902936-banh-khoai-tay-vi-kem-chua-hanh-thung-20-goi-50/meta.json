@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-11-16T16:56:14.850Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "ảnh nhân viên chụp (nền kho/cầm tay) → ảnh hãng cùng bao bì đang bán",
@@ -56,6 +56,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-11-17T05:49:41.517Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -65,5 +71,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-11-17T05:40:13.177Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-11-17T05:40:13.177Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/a20ad6d063e07957fb7d160ff68358f6957ee849b288e643e072883598ea49a1.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/11/14/tram8/9481e0c9120c45d19b7362331160fd9d.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Bánh khoai tây Oishi Tater vị kem chua hành, nướng không chiên, giòn tan; túi zip đóng lại được.\n\nQuy cách: 50 g · gói\nThương hiệu: Oishi",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-11-16T16:56:14.850Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "ảnh nhân viên chụp (nền kho/cầm tay) → ảnh hãng cùng bao bì đang bán",
@@ -56,6 +56,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-11-17T05:49:41.517Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -65,5 +71,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-11-17T05:38:58.370Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-11-17T05:38:58.370Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/e6c21b39c922a33abfa955b76372253ec5353ea3f189efde1f3c4b50a7851d4c.webp"
+        ],
+        "from": [
+          "https://cdn1-retail-images.kiotviet.vn/2026/11/16/tram8/1150b521b1d941539eea1ef87fabc630.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Thức uống sữa trái cây nho tự nhiên có thạch dừa TH true JUICE milk Mistori, thạch dừa giòn ngon.\n\nQuy cách: 180 ml · hộp\nNhà sản xuất/thương hiệu: TH · TH true JUICE milk",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

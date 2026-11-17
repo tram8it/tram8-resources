@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-11-16T16:56:14.850Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "CROP",
     "reason": "ảnh KiotViet đã là ảnh sản phẩm sạch (ảnh render đúng bao bì đang bán); chỉ chuẩn hoá nền trắng/khung 1000×1000",
@@ -49,6 +49,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-11-17T05:49:41.517Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -58,5 +64,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-11-17T05:41:11.392Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-11-17T05:41:11.392Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/d2fa19860ebc03a2c665afe9fc55c38dd9f95a1d8446f98af4d3d561ab9cee27.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/11/15/tram8/72f2455db46f481599bf1828d591eb12.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Kẹo the Playmore vị dâu tây, không đường, hũ nhỏ tiện mang theo.\n\nQuy cách: 22 g · hũ\nThương hiệu: Playmore",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

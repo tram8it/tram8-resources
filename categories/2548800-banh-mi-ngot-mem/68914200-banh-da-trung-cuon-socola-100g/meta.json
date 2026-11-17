@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-11-16T16:56:14.850Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "ảnh cắt mất đầu trái gói, nền tối; không tìm được trang hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: đầu trái gói vẽ hoàn chỉnh; chữ nhỏ có thể khác",
@@ -56,6 +56,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-11-17T05:49:41.517Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -65,5 +71,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-11-17T05:39:38.081Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-11-17T05:39:38.081Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/6ab506b5594e198fc45fb24b6e3cdd674f59084f694a58c4e6d1fb1d5f8affc9.webp"
+        ],
+        "from": [
+          "https://cdn1-retail-images.kiotviet.vn/2026/11/15/tram8/4bc3c6944fde4ed69911a452c20acfc8.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Bánh da trứng cuộn sô cô la O'Deli: lớp da trứng mềm cuộn nhân kem, có sô cô la chip; tiện lợi cho bữa ăn nhẹ.\n\nQuy cách: 100 g · gói",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

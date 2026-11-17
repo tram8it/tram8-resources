@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-11-16T16:56:14.850Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "CROP",
     "reason": "ảnh KiotViet đã là ảnh sản phẩm sạch (ảnh render đúng bao bì đang bán); chỉ chuẩn hoá nền trắng/khung 1000×1000",
@@ -49,6 +49,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-11-17T05:49:41.517Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -58,5 +64,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-11-17T05:41:39.017Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-11-17T05:41:39.017Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/51f3b99b037b808a02e82565d13d4c2f85c032e85035e6e44d272e587e907d67.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/11/16/tram8/545ed9f476814cd6a6134a93e13cd7f2.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Kem sô cô la nguyên chất TH true ICE CREAM, ly nhỏ ăn liền.\n\nQuy cách: 50 g · ly\nNhà sản xuất/thương hiệu: TH · TH true ICE CREAM\nBảo quản: ngăn đá, −18°C.",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-11-16T16:56:14.850Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "CROP",
     "reason": "ảnh KiotViet đã là ảnh sản phẩm sạch (ảnh render đúng bao bì đang bán); chỉ chuẩn hoá nền trắng/khung 1000×1000",
@@ -49,6 +49,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-11-17T05:49:41.517Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -58,5 +64,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-11-17T05:39:31.233Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-11-17T05:39:31.233Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/ef6ee39fb458346748af96a624b82d184c5a082b405c5bf5f1e9a9d798076819.webp"
+        ],
+        "from": [
+          "https://cdn1-retail-images.kiotviet.vn/2026/11/14/tram8/1203495d97f2494599aaae5d1a6001c7.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Bao cao su Durex Fetherlite, mỏng cho cảm giác nhạy hơn.\n\nQuy cách: hộp 12 bao\nThương hiệu: Durex",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-11-16T16:56:14.850Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "ảnh nhân viên có in ngày HSD; không có trang hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: đã bỏ dòng HSD; chữ nhỏ trên nhãn trắng vẽ lại, không đọc được",
@@ -56,6 +56,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-11-17T05:49:41.517Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -65,5 +71,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-11-17T05:38:35.427Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-11-17T05:38:35.427Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/b2f539aecda01b48fb854459f265784ee4e94dc05995ea61b02798eed7e5e0a0.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/11/09/tram8/e3893d7b72434eb7b16c43449eea766d.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Bưởi da xanh bóc sẵn, đóng khay kèm muối ớt, ăn liền.\n\nThành phần: bưởi da xanh, muối ớt.\nQuy cách: 150 g · khay\nNhà sản xuất: Công ty TNHH TM và DV Fresh to Go · Fresh 2Go\nBảo quản: 5–10°C; dùng ngay sau khi mở.",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

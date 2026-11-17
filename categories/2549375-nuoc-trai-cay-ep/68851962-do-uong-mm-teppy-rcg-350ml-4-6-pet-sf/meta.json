@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-11-16T16:56:14.850Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "ảnh hãng ghi 'Trong 327 ml', chai 350 ml thật không có nhãn tròn này → Gemini bỏ nhãn dinh dưỡng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt ngoài nhãn tròn dinh dưỡng đã bỏ",
@@ -57,6 +57,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-11-17T05:49:41.517Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -66,5 +72,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-11-17T05:38:27.011Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-11-17T05:38:27.011Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/d300f7cab2a32c1d11fb10f31ba6fcf677c206d38561956089b1c6b657c06d48.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/11/11/tram8/334c9c3b336a4cccbb259900356f3cc9.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Nước cam có tép Minute Maid Teppy, có tép cam thật trong từng ngụm; uống lạnh ngon hơn.\n\nQuy cách: 350 ml · chai nhựa\nNhà sản xuất/thương hiệu: Coca-Cola Việt Nam · Minute Maid",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

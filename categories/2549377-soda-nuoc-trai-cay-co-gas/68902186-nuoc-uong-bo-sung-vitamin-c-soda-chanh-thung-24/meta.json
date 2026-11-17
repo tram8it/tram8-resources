@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-11-16T16:56:14.850Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "ảnh hãng nhãn tiếng Anh; chai bán ở cửa hàng nhãn tiếng Việt → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ nhỏ vẽ lại có thể khác; logo, tên, hình theo mẫu",
@@ -59,6 +59,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-11-17T05:49:41.517Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -68,5 +74,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-11-17T05:41:28.793Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-11-17T05:41:28.793Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/bea9af28dc4b319c44ee978c000036424b6f3690afc22da00987996360650313.webp"
+        ],
+        "from": [
+          "https://cdn1-retail-images.kiotviet.vn/2026/11/14/tram8/74ce8b4f41424bc5970cecc2e8f079f1.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Nước uống bổ sung vitamin C Oishi C+ Plus vị soda chanh.\n\nQuy cách: 350 ml · chai\nThương hiệu: Oishi",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

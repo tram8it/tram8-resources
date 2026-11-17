@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-11-16T16:56:14.850Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "ảnh nhân viên chụp (nền kho/cầm tay) → ảnh hãng cùng bao bì đang bán",
@@ -56,6 +56,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-11-17T05:49:41.517Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -65,5 +71,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-11-17T05:41:49.767Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-11-17T05:41:49.767Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/41eba0e7bf6680856da30cd8559340d8f93ef7c564baebf97ec176beb843ef6f.webp"
+        ],
+        "from": [
+          "https://cdn1-retail-images.kiotviet.vn/2026/11/16/tram8/23a02f5a6dc547aaa4b8c6c53c10986c.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Kem que 2 vị hương vanilla – xoài tự nhiên TH true ICE CREAM.\n\nQuy cách: 50 g · que\nNhà sản xuất/thương hiệu: TH · TH true ICE CREAM\nBảo quản: ngăn đá, −18°C.",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

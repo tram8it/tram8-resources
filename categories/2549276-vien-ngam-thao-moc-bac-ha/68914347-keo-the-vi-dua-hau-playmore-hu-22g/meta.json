@@ -19,11 +19,15 @@
   },
   "status": "READY",
   "image": {
-    "decision": "CROP",
-    "reason": "ảnh nhân viên chụp thẳng, rõ chữ → tách nền + chuẩn hoá + cân sáng (v10); không có ảnh hãng phù hợp",
+    "decision": "REPLACE",
+    "reason": "ảnh tách nền trước bị chủ chê không đạt (17/11) → vẽ lại sạch, thẳng từ ảnh thật; không có ảnh hãng phù hợp → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ nhỏ vẽ lại có thể khác; tên, logo, hình theo ảnh thật",
     "source": {
-      "staffPhoto": true,
-      "takenAt": "2026-11-16"
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-11-17",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (ảnh nhân viên chụp)"
     },
     "rubricVersion": "v18"
   },
@@ -52,10 +56,22 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-11-17T05:48:51Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-11-17T05:49:26.067Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-11-16T17:37:52.741Z",
+    "at": "2026-11-17T05:49:26.067Z",
     "fields": [
       "description",
       "image"

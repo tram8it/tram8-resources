@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-11-16T16:56:14.850Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "ảnh gốc nghiêng, có watermark SMARCO; không có ảnh hãng cho thanh 28g → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ nhỏ vẽ lại có thể khác; logo, tên, hình theo mẫu",
@@ -56,6 +56,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-11-17T05:49:41.517Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -65,5 +71,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-11-17T05:40:39.441Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-11-17T05:40:39.441Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/bf9f2e2246d70eab44a3fe7f62097b93a4a1d706fb00a7c4371ec3cd210e891e.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/11/15/tram8/e53108c04ab94e2bad63bd9e915894e7.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Sô cô la sữa Hershey's Nuggets nhân hạnh nhân, thanh nhỏ.\n\nQuy cách: 28 g · thanh\nThương hiệu: Hershey's",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

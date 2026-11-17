@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-11-16T16:56:14.850Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "ảnh chụp nghiêng/nhăn, có thùng hàng phía sau; hàng nội địa Trung, không có trang hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ Hán, logo, hình theo ảnh; chữ nhỏ không đọc được để trống",
@@ -56,6 +56,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-11-17T05:49:41.517Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -65,5 +71,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-11-17T05:41:24.778Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-11-17T05:41:24.778Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/56f9457b7eafe9370c7c43b6c7ea66efc59f1933f99da4362c0a5a5e7af3a310.webp"
+        ],
+        "from": [
+          "https://cdn1-retail-images.kiotviet.vn/2026/11/15/tram8/b9e120615ea6465bb847993868c9f48f.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Măng xanh cay (绿笋) vị ớt rừng (山椒) hiệu 零零邦 BOOM, búp măng nguyên ăn liền, vị chua cay giòn.\n\nQuy cách: gói",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

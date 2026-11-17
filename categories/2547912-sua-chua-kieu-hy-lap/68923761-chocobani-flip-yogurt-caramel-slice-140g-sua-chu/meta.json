@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-11-16T16:56:14.850Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "ảnh nhân viên chụp (nền kho/cầm tay) → ảnh hãng cùng bao bì đang bán",
@@ -56,6 +56,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-11-17T05:49:41.517Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -65,5 +71,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-11-17T05:39:11.295Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-11-17T05:39:11.295Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/0906643d8e02612f8ba77a99c8043dceb8a31f6ea27d5f1b1ad78fe8e7ed9ff9.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/11/16/tram8/8a2146a59b434f11bd3d6ef3c74e6652.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Sữa chua Hy Lạp Chobani Flip Caramel Slice: sữa chua Hy Lạp ít béo vị caramel kèm ngăn topping vụn bánh quy, fudge caramel và sô cô la sữa. Giàu đạm tự nhiên. Hàng nhập khẩu Úc.\n\nQuy cách: 140 g · hộp\nThương hiệu: Chobani\nBảo quản: ngăn mát tủ lạnh.",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

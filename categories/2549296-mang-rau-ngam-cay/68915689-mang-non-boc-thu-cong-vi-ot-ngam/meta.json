@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-11-16T16:56:14.850Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "ảnh chụp nghiêng/nhăn, có thùng hàng phía sau; hàng nội địa Trung, không có trang hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ Hán, logo, hình theo ảnh; chữ nhỏ không đọc được để trống",
@@ -56,6 +56,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-11-17T05:49:41.517Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -65,5 +71,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-11-17T05:41:17.304Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-11-17T05:41:17.304Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/1d66c9548c01cf0e14def3991900fe8435cc08665970c0afc1508024f88c2a89.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/11/15/tram8/1340c2947db647cb8c2b29e3bc8c583a.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Măng non bóc thủ công vị ớt ngâm (手剥嫩笋 泡椒味) hiệu 笋同学, ăn liền, vị chua cay giòn.\n\nQuy cách: 50 g · gói",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-11-16T16:56:14.850Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "CROP",
     "reason": "ảnh KiotViet đã là ảnh sản phẩm sạch (ảnh render đúng bao bì đang bán); chỉ chuẩn hoá nền trắng/khung 1000×1000",
@@ -49,6 +49,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-11-17T05:49:41.517Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -58,5 +64,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-11-17T05:40:48.905Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-11-17T05:40:48.905Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/65852c8d7bd41f2c9282e43818b669de58057aeac1ec43c38c4dbc66bf18d60c.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/11/13/tram8/aa4427f1010f4ff7943d6471cf91ca1e.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Hộp quà Tết KitKat Trà Xanh 'Khai Xuân thêm Phúc' — bánh xốp KitKat 2 ngón phủ sô cô la trà xanh, hộp nhiều thanh.\n\nQuy cách: hộp\nThương hiệu: Nestlé · KitKat",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

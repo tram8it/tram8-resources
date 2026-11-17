@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-11-16T16:56:14.850Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "ảnh quảng cáo; vẽ một hộp sạch → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: dáng ly theo ảnh quảng cáo (chưa đối chiếu ly 55g thật)",
@@ -56,6 +56,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-11-17T05:49:41.517Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -65,5 +71,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-11-17T05:38:47.876Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-11-17T05:38:47.876Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/334b32a302633ab940dff6bb3db0d2893e1a5f139c182ddef0235056a1199a4a.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/11/15/tram8/01fe1a589c1046b989849563211b2573.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Kem Bliss Premium Gelato vị trà xanh Nhật (Matcha).\n\nQuy cách: 55 g · ly\nThương hiệu: Bliss\nBảo quản: ngăn đá, −18°C.",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

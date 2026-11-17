@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-11-16T16:56:14.850Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "ảnh có nhiều gói chồng; không có trang hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ nhỏ vẽ lại có thể khác; logo, tên, hình theo mẫu",
@@ -56,6 +56,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-11-17T05:49:41.517Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -65,5 +71,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-11-17T05:40:31.985Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-11-17T05:40:31.985Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/5f36e21ddb992329668b81006f84edca170fda40002f310e7facab148bde0322.webp"
+        ],
+        "from": [
+          "https://cdn1-retail-images.kiotviet.vn/2026/11/15/tram8/213da7efe4914a38885fa0ecf720a300.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Thịt sấy hương vị thịt gác bếp Fansipan Jerry, ăn liền.\n\nQuy cách: 25 g · gói\nThương hiệu: Fansipan Jerry",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

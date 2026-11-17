@@ -17,7 +17,7 @@
     "description": null,
     "exportedAt": "2026-11-16T16:56:14.850Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "CROP",
     "reason": "ảnh KiotViet đã là ảnh sản phẩm sạch (ảnh render đúng bao bì đang bán); chỉ chuẩn hoá nền trắng/khung 1000×1000",
@@ -49,6 +49,12 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-11-17T05:49:41.517Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
     }
   ],
   "submitted": {
@@ -58,5 +64,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-11-17T05:39:34.493Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-11-17T05:39:34.493Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/a82a10814ae2245c9bb2f0e8683db77b82cf6a295be7bd927efd2f715fac9ddf.webp"
+        ],
+        "from": [
+          "https://cdn1-retail-images.kiotviet.vn/2026/11/14/tram8/1aaf756d82654cf1963ce79a579b49c4.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Bao cao su Durex Invisible Extra Thin Extra Lubricated, siêu mỏng và thêm chất bôi trơn.\n\nQuy cách: hộp 10 bao\nThương hiệu: Durex",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }
