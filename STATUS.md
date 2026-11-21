@@ -260,4 +260,3 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 - categories/2549263-socola-thanh/65267695-so-co-la-sua-44-40g-thanh: NO_CHANGE requires both decisions KEEP
 - categories/2549347-bun-hu-tieu-an-lien/66921899-bun-oc-lieu-chau-vi-rau-luosifen-king: NO_CHANGE requires both decisions KEEP
 - categories/2549391-rong-bien-an-lien/68030135-bbg-rong-bien-cha-bong-tom-30g: NO_CHANGE requires both decisions KEEP
-- categories/2556332-dich-vu/68948613-hop-giay-tho-phat: reviewed but image/description decision missing
