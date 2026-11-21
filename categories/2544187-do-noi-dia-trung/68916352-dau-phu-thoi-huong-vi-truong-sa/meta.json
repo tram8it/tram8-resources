@@ -13,11 +13,11 @@
   },
   "revenue90d": 0,
   "current": {
-    "imageUrl": "https://cdn2-retail-images.kiotviet.vn/2026/11/15/tram8/dc6f30ff4eb44bc29a16060bb45fabf3.jpeg",
-    "description": null,
-    "exportedAt": "2026-11-16T16:56:14.850Z"
+    "imageUrl": "https://img.tram8.vn/products/75260ac92e2ed2aadb6ad2817aa31c04daaa5b074bdc856082f53709b6fa2a4c.webp",
+    "description": "Đậu phụ thối hương vị Trường Sa (老长沙风味 臭干子), vị thơm cay (香辣味), miếng đậu tẩm gia vị ăn liền. Hàng nội địa Trung Quốc.\n\nQuy cách: gói",
+    "exportedAt": "2026-11-21T06:28:37.372Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "ảnh chụp nghiêng/nhăn, có thùng hàng phía sau; hàng nội địa Trung, không có trang hãng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ Hán, logo, hình theo ảnh; chữ nhỏ không đọc được để trống",
@@ -56,6 +56,18 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-11-21T06:28:15.821Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-11-21T06:28:38.372Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
     }
   ],
   "submitted": {
@@ -65,5 +77,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-11-17T05:57:55.101Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-11-17T05:57:55.101Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/75260ac92e2ed2aadb6ad2817aa31c04daaa5b074bdc856082f53709b6fa2a4c.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/11/15/tram8/dc6f30ff4eb44bc29a16060bb45fabf3.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Đậu phụ thối hương vị Trường Sa (老长沙风味 臭干子), vị thơm cay (香辣味), miếng đậu tẩm gia vị ăn liền. Hàng nội địa Trung Quốc.\n\nQuy cách: gói",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

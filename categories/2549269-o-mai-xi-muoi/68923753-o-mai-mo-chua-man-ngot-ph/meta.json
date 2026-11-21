@@ -13,11 +13,11 @@
   },
   "revenue90d": 0,
   "current": {
-    "imageUrl": "https://cdn1-retail-images.kiotviet.vn/2026/11/16/tram8/cb29a25075ca43cf99eb456eb29bb611.jpeg",
-    "description": null,
-    "exportedAt": "2026-11-16T16:56:14.850Z"
+    "imageUrl": "https://img.tram8.vn/products/92730e882fbef4e0aed7b8d54cb7641f875885af734c49e1b773663985e7d05e.webp",
+    "description": "Ô mai mơ chua mặn ngọt Phương Huyền, hũ nhựa nắp vặn.\n\nQuy cách: hũ\nThương hiệu: Phương Huyền Food",
+    "exportedAt": "2026-11-21T06:28:37.372Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "ảnh tách nền trước bị chủ chê không đạt (17/11) → vẽ lại sạch, thẳng từ ảnh thật; không có ảnh hãng phù hợp → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ nhỏ vẽ lại có thể khác; tên, logo, hình theo ảnh thật",
@@ -68,6 +68,18 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-11-21T06:28:15.821Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-11-21T06:28:38.372Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
     }
   ],
   "submitted": {
@@ -77,5 +89,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-11-17T05:58:19.441Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-11-17T05:58:19.441Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/92730e882fbef4e0aed7b8d54cb7641f875885af734c49e1b773663985e7d05e.webp"
+        ],
+        "from": [
+          "https://cdn1-retail-images.kiotviet.vn/2026/11/16/tram8/cb29a25075ca43cf99eb456eb29bb611.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Ô mai mơ chua mặn ngọt Phương Huyền, hũ nhựa nắp vặn.\n\nQuy cách: hũ\nThương hiệu: Phương Huyền Food",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

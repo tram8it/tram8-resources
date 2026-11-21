@@ -13,11 +13,11 @@
   },
   "revenue90d": 0,
   "current": {
-    "imageUrl": "https://cdn2-retail-images.kiotviet.vn/2026/11/16/tram8/1e4dee39424643239cab8461de791a7c.jpeg",
-    "description": null,
-    "exportedAt": "2026-11-16T16:56:14.850Z"
+    "imageUrl": "https://img.tram8.vn/products/3c53ddd8146460cd236091d070c4ed94bc2a9d9ca967b330b0600fed132f10c7.webp",
+    "description": "Thức uống sữa lúa mạch có thạch dừa TH true CHOCOMALT Mistori, thạch dừa giòn ngon.\n\nQuy cách: 180 ml · hộp\nNhà sản xuất/thương hiệu: TH · TH true CHOCOMALT",
+    "exportedAt": "2026-11-21T06:28:37.372Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "ảnh nhân viên nền kho; ảnh hãng chụp nghiêng → vẽ thẳng → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ nhỏ vẽ lại có thể khác; logo, tên, hình theo mẫu",
@@ -59,6 +59,18 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-11-21T06:28:15.821Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-11-21T06:28:38.372Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
     }
   ],
   "submitted": {
@@ -68,5 +80,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-11-17T05:57:58.321Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-11-17T05:57:58.321Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/3c53ddd8146460cd236091d070c4ed94bc2a9d9ca967b330b0600fed132f10c7.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/11/16/tram8/1e4dee39424643239cab8461de791a7c.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Thức uống sữa lúa mạch có thạch dừa TH true CHOCOMALT Mistori, thạch dừa giòn ngon.\n\nQuy cách: 180 ml · hộp\nNhà sản xuất/thương hiệu: TH · TH true CHOCOMALT",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

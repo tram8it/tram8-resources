@@ -13,11 +13,11 @@
   },
   "revenue90d": 0,
   "current": {
-    "imageUrl": "https://cdn1-retail-images.kiotviet.vn/2026/11/15/tram8/d02876f857e643a996ac26f8fa1a0063.jpeg",
-    "description": null,
-    "exportedAt": "2026-11-16T16:56:14.850Z"
+    "imageUrl": "https://img.tram8.vn/products/e0951dbcd47a6515552d4b32cbe720f438b88e60f6fa7613d1ac45a6abb1c289.webp",
+    "description": "Kẹo the Playmore vị dưa hấu, không đường, hũ nhỏ tiện mang theo.\n\nQuy cách: 22 g · hũ\nThương hiệu: Playmore",
+    "exportedAt": "2026-11-21T06:28:37.372Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "ảnh tách nền trước bị chủ chê không đạt (17/11) → vẽ lại sạch, thẳng từ ảnh thật; không có ảnh hãng phù hợp → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ nhỏ vẽ lại có thể khác; tên, logo, hình theo ảnh thật",
@@ -68,6 +68,18 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-11-21T06:28:15.821Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-11-21T06:28:38.372Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
     }
   ],
   "submitted": {
@@ -77,5 +89,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-11-17T05:58:23.913Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-11-17T05:58:23.913Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/e0951dbcd47a6515552d4b32cbe720f438b88e60f6fa7613d1ac45a6abb1c289.webp"
+        ],
+        "from": [
+          "https://cdn1-retail-images.kiotviet.vn/2026/11/15/tram8/d02876f857e643a996ac26f8fa1a0063.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Kẹo the Playmore vị dưa hấu, không đường, hũ nhỏ tiện mang theo.\n\nQuy cách: 22 g · hũ\nThương hiệu: Playmore",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

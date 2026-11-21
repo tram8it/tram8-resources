@@ -1,0 +1,69 @@
+{
+  "kiotProductId": "68966654",
+  "code": "8886467037344",
+  "barcode": "8886467037344",
+  "name": "Son Dưỡng Môi Có Màu VASELINE KISSING RED 3G",
+  "fullName": "Son Dưỡng Môi Có Màu VASELINE KISSING RED 3G (Thỏi)",
+  "brand": "Vaseline",
+  "unit": "Thỏi",
+  "category": {
+    "kiotCategoryId": "2548860",
+    "name": "Son dưỡng môi",
+    "path": "Chăm sóc cá nhân > Dụng cụ trang điểm > Son dưỡng môi"
+  },
+  "revenue90d": 0,
+  "current": {
+    "imageUrl": "https://cdn1-retail-images.kiotviet.vn/2026/11/19/tram8/d3ef5e6b074a4723a9aa3db317e6eb7f.jpeg",
+    "description": null,
+    "exportedAt": "2026-11-21T06:28:37.372Z"
+  },
+  "status": "READY",
+  "image": {
+    "decision": "REPLACE",
+    "reason": "ảnh chụp tại cửa hàng (nền, cầm tay, lóa); không có ảnh hãng truy cập được cho đúng gói này → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ nhỏ vẽ lại có thể khác; tên, logo, hình theo ảnh thật",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-11-21",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet (ảnh nhân viên chụp)"
+    },
+    "rubricVersion": "v18"
+  },
+  "description": {
+    "decision": "WRITE_NEW",
+    "reason": "D1: chưa có mô tả; viết theo chữ trên bao bì, không thêm dữ kiện",
+    "source": null,
+    "rubricVersion": "v4"
+  },
+  "question": null,
+  "history": [
+    {
+      "at": "2026-11-21T06:28:38.372Z",
+      "by": "init",
+      "status": "TODO",
+      "note": "created from export"
+    },
+    {
+      "at": "2026-11-21T06:36:29Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 1, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-11-21T06:37:23.367Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
+    }
+  ],
+  "submitted": {
+    "at": "2026-11-21T06:37:23.367Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
+}
