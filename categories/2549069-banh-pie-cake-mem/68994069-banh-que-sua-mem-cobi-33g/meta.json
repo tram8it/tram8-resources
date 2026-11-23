@@ -13,11 +13,11 @@
   },
   "revenue90d": 0,
   "current": {
-    "imageUrl": "https://cdn2-retail-images.kiotviet.vn/2026/11/21/tram8/b4200351910a43139249c4b13fbbe539.jpeg",
-    "description": null,
-    "exportedAt": "2026-11-21T06:28:37.372Z"
+    "imageUrl": "https://img.tram8.vn/products/8347184bb9b187335eb96b203613c86b5c620557197cbe79bf6cf38cc28fd4c3.webp",
+    "description": "Bánh que sữa mềm Cobi Stick, bánh mì que mềm có nhân sữa.\n\nQuy cách: 33 g · cái\nThương hiệu: Cobi Bread",
+    "exportedAt": "2026-11-23T11:48:16.499Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "ảnh chụp tại cửa hàng (nền, cầm tay, lóa); không có ảnh hãng truy cập được cho đúng gói này → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ nhỏ vẽ lại có thể khác; tên, logo, hình theo ảnh thật",
@@ -56,6 +56,18 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-11-23T11:47:54.676Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-11-23T11:48:17.499Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
     }
   ],
   "submitted": {
@@ -65,5 +77,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-11-23T11:46:55.186Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-11-23T11:46:55.186Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/8347184bb9b187335eb96b203613c86b5c620557197cbe79bf6cf38cc28fd4c3.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/11/21/tram8/b4200351910a43139249c4b13fbbe539.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Bánh que sữa mềm Cobi Stick, bánh mì que mềm có nhân sữa.\n\nQuy cách: 33 g · cái\nThương hiệu: Cobi Bread",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

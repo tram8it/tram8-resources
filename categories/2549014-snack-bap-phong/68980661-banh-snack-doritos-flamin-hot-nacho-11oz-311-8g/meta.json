@@ -13,11 +13,11 @@
   },
   "revenue90d": 0,
   "current": {
-    "imageUrl": "https://cdn2-retail-images.kiotviet.vn/2026/11/19/tram8/bc922bcc313c4a7ea2695438eb63380d.jpeg",
-    "description": null,
-    "exportedAt": "2026-11-21T06:28:37.372Z"
+    "imageUrl": "https://img.tram8.vn/products/5cd97c8180e085453940de5e928ec78975519e7976f08efb22b763832dfec74c.webp",
+    "description": "Bánh snack ngô Doritos Flamin' Hot Nacho vị cay nồng, gói lớn (party size). Hàng Mỹ.\n\nQuy cách: 11 oz (311,8 g) · gói\nNhà sản xuất/thương hiệu: Frito-Lay · Doritos",
+    "exportedAt": "2026-11-23T11:48:16.499Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "chủ 31/10: gói family size phải cao; ảnh KiotViet nền/không đồng bộ lô Doritos → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ nhỏ có thể mờ",
@@ -56,6 +56,18 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-11-23T11:47:54.676Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-11-23T11:48:17.499Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
     }
   ],
   "submitted": {
@@ -65,5 +77,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-11-23T11:46:23.646Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-11-23T11:46:23.646Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/5cd97c8180e085453940de5e928ec78975519e7976f08efb22b763832dfec74c.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/11/19/tram8/bc922bcc313c4a7ea2695438eb63380d.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Bánh snack ngô Doritos Flamin' Hot Nacho vị cay nồng, gói lớn (party size). Hàng Mỹ.\n\nQuy cách: 11 oz (311,8 g) · gói\nNhà sản xuất/thương hiệu: Frito-Lay · Doritos",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }

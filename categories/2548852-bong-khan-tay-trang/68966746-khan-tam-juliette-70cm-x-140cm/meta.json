@@ -13,11 +13,11 @@
   },
   "revenue90d": 0,
   "current": {
-    "imageUrl": "https://cdn2-retail-images.kiotviet.vn/2026/11/19/tram8/30c4408b4d0c4e3aa7acf3b1f000a08e.jpeg",
-    "description": null,
-    "exportedAt": "2026-11-21T06:28:37.372Z"
+    "imageUrl": "https://img.tram8.vn/products/107529fe08e41f5738d7d923e4b05023e050853b6a0a73d4b5ee987e6fd1872d.webp",
+    "description": "Khăn tắm cotton cao cấp Juliette.\n\nQuy cách: 70 × 140 cm · cái\nThương hiệu: Juliette",
+    "exportedAt": "2026-11-23T11:48:16.499Z"
   },
-  "status": "READY",
+  "status": "UPLOADED",
   "image": {
     "decision": "REPLACE",
     "reason": "ảnh chụp tại cửa hàng (nền, cầm tay, lóa); không có ảnh hãng truy cập được cho đúng gói này → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: chữ nhỏ vẽ lại có thể khác; tên, logo, hình theo ảnh thật",
@@ -56,6 +56,18 @@
       "by": "ai",
       "status": "READY",
       "note": "submitted to Hub review: description, image"
+    },
+    {
+      "at": "2026-11-23T11:47:54.676Z",
+      "by": "owner",
+      "status": "UPLOADED",
+      "note": "applied on Hub by AU KHUONG DUY"
+    },
+    {
+      "at": "2026-11-23T11:48:17.499Z",
+      "by": "init",
+      "status": "UPLOADED",
+      "note": "current image/description changed in the Hub since review"
     }
   ],
   "submitted": {
@@ -65,5 +77,30 @@
       "image"
     ],
     "hubStatus": "PENDING"
+  },
+  "review": {
+    "status": "APPLIED",
+    "reviewedBy": "AU KHUONG DUY",
+    "reviewedAt": "2026-11-23T11:46:08.042Z",
+    "note": null
+  },
+  "uploaded": {
+    "at": "2026-11-23T11:46:08.042Z",
+    "by": "AU KHUONG DUY",
+    "kiotviet": {
+      "images": {
+        "to": [
+          "https://img.tram8.vn/products/107529fe08e41f5738d7d923e4b05023e050853b6a0a73d4b5ee987e6fd1872d.webp"
+        ],
+        "from": [
+          "https://cdn2-retail-images.kiotviet.vn/2026/11/19/tram8/30c4408b4d0c4e3aa7acf3b1f000a08e.jpeg"
+        ]
+      },
+      "description": {
+        "to": "Khăn tắm cotton cao cấp Juliette.\n\nQuy cách: 70 × 140 cm · cái\nThương hiệu: Juliette",
+        "from": null
+      }
+    },
+    "unexpectedChanges": {}
   }
 }
