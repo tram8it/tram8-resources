@@ -20,14 +20,14 @@
   "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "ảnh cầm tay, nền cửa hàng; Bliss không có trang SP truy cập được → vẽ nắp nhìn thẳng từ trên → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt ở chữ/logo trên nắp",
+    "reason": "chủ 23/11: ảnh nắp nhìn thẳng không đạt, phải nghiêng thấy rõ cỡ ly/hộp → vẽ lại bám ảnh chụp thật, bỏ tuyết bám và nền → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt ở chữ/màu; đã bỏ dòng chữ rất nhỏ dưới tên vị (không đọc được trong ảnh)",
     "source": {
       "aiGenerated": true,
       "tool": "Gemini API",
       "model": "gemini-nano-banana-2.1",
-      "generatedAt": "2026-11-16",
+      "generatedAt": "2026-11-23",
       "style": "flat clean packaging render (v17)",
-      "reference": "ảnh KiotViet (nắp ly cầm tay)"
+      "reference": "ảnh KiotViet chụp thật ly/hộp (23/11)"
     },
     "rubricVersion": "v18"
   },
@@ -62,10 +62,22 @@
       "by": "init",
       "status": "READY",
       "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-11-23T14:28:09Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-11-23T14:29:08.910Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
   ],
   "submitted": {
-    "at": "2026-11-16T17:35:17.108Z",
+    "at": "2026-11-23T14:29:08.910Z",
     "fields": [
       "description",
       "image"

@@ -17,11 +17,18 @@
     "description": null,
     "exportedAt": "2026-11-23T14:10:17.030Z"
   },
-  "status": "NEEDS_PHOTO",
+  "status": "READY",
   "image": {
     "decision": "REPLACE",
-    "reason": "ảnh KiotViet chụp nhầm nắp ly Rum Nho (Rhum Raisin), không phải vị của SP này; Bliss không có trang SP truy cập được → cần ảnh chụp đúng hộp",
-    "source": null,
+    "reason": "chủ 23/11: ảnh nắp nhìn thẳng không đạt, phải nghiêng thấy rõ cỡ ly/hộp → vẽ lại bám ảnh chụp thật, bỏ tuyết bám và nền → Gemini vẽ lại từ ảnh mẫu (v12–v15); đã so chữ/logo với mẫu. Khác gói thật: không thấy khác biệt ở chữ/màu; đã bỏ dòng chữ rất nhỏ dưới tên vị (không đọc được trong ảnh)",
+    "source": {
+      "aiGenerated": true,
+      "tool": "Gemini API",
+      "model": "gemini-nano-banana-2.1",
+      "generatedAt": "2026-11-23",
+      "style": "flat clean packaging render (v17)",
+      "reference": "ảnh KiotViet chụp thật ly/hộp (23/11)"
+    },
     "rubricVersion": "v18"
   },
   "description": {
@@ -49,6 +56,26 @@
       "by": "init",
       "status": "NEEDS_PHOTO",
       "note": "current image/description changed in the Hub since review"
+    },
+    {
+      "at": "2026-11-23T14:28:11Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "Gemini API redraw (attempt 2, gemini-nano-banana-2.1), checked by eye against references"
+    },
+    {
+      "at": "2026-11-23T14:29:36.698Z",
+      "by": "ai",
+      "status": "READY",
+      "note": "submitted to Hub review: description, image"
     }
-  ]
+  ],
+  "submitted": {
+    "at": "2026-11-23T14:29:36.698Z",
+    "fields": [
+      "description",
+      "image"
+    ],
+    "hubStatus": "PENDING"
+  }
 }

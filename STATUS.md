@@ -2,7 +2,7 @@
 
 > Sinh tự động bởi `node tools/status.mjs`. **Không sửa tay.** Nguồn sự thật là `meta.json` của từng SP.
 
-Tổng 2843 SP · đã xem 2834 (100%) · xong 2770 · chờ chủ duyệt 14 · cần chụp 4 · hỏi chủ 2
+Tổng 2843 SP · đã xem 2843 (100%) · xong 2770 · chờ chủ duyệt 26 · cần chụp 1 · hỏi chủ 2
 
 Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` = giữ nguyên + đã lên web.
 
@@ -15,14 +15,14 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 | 5 | Kẹo dẻo / jelly | 0.0tr | 50 | 0 | 0 | 5 | 0 | 0 | 1 | 0 | 44 |
 | 6 | Viên ngậm thảo mộc / bạc hà | 0.0tr | 48 | 0 | 0 | 1 | 0 | 0 | 0 | 0 | 47 |
 | 7 | Trà đóng chai | 0.0tr | 45 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 44 |
-| 8 | Kẹo cao su / singum | 0.0tr | 44 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 43 |
+| 8 | Kẹo cao su / singum | 0.0tr | 44 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 43 |
 | 9 | Snack đậu phộng / hạt‑đậu | 0.0tr | 39 | 0 | 0 | 3 | 0 | 0 | 0 | 0 | 36 |
 | 10 | Mì ly / tô / cốc | 0.0tr | 38 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 38 |
 | 11 | Snack que / que cay | 0.0tr | 43 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 42 |
 | 12 | Bánh tráng trộn | 0.0tr | 37 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 37 |
 | 13 | Bánh quy kem / kẹp kem | 0.0tr | 34 | 0 | 0 | 1 | 0 | 0 | 0 | 0 | 33 |
 | 14 | Nước trái cây / ép | 0.0tr | 36 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 36 |
-| 15 | Kem ly / cốc / hộp nhỏ | 0.0tr | 32 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 31 |
+| 15 | Kem ly / cốc / hộp nhỏ | 0.0tr | 32 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 31 |
 | 16 | Kẹo cứng | 0.0tr | 30 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 30 |
 | 17 | Mì gói | 0.0tr | 30 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 29 |
 | 18 | Sữa chua uống | 0.0tr | 30 | 0 | 0 | 1 | 0 | 0 | 0 | 0 | 29 |
@@ -71,7 +71,7 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 | 61 | Kombucha / lên men | 0.0tr | 16 | 0 | 0 | 1 | 0 | 0 | 0 | 0 | 15 |
 | 62 | Mặt nạ | 0.0tr | 16 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 16 |
 | 63 | Xịt khử mùi | 0.0tr | 16 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 16 |
-| 64 | Kem & Đồ đông lạnh | 0.0tr | 16 | 1 | 0 | 0 | 3 | 0 | 9 | 0 | 3 |
+| 64 | Kem & Đồ đông lạnh | 0.0tr | 16 | 0 | 0 | 0 | 0 | 0 | 13 | 0 | 3 |
 | 65 | Bánh gạo | 0.0tr | 16 | 0 | 0 | 1 | 0 | 0 | 0 | 0 | 15 |
 | 66 | Bao cao su | 0.0tr | 15 | 0 | 6 | 0 | 0 | 0 | 0 | 0 | 9 |
 | 67 | Cáp sạc & dây | 0.0tr | 15 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 15 |
@@ -85,7 +85,7 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 | 75 | Khô bò | 0.0tr | 14 | 0 | 1 | 2 | 0 | 0 | 0 | 0 | 11 |
 | 76 | Sữa tắm | 0.0tr | 14 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 13 |
 | 77 | Kem ốc quế | 0.0tr | 14 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 14 |
-| 78 | Ô mai - Xí muội | 0.0tr | 14 | 4 | 0 | 1 | 0 | 0 | 0 | 0 | 9 |
+| 78 | Ô mai - Xí muội | 0.0tr | 14 | 0 | 0 | 1 | 0 | 0 | 4 | 0 | 9 |
 | 79 | Tokbokki & bánh gạo Hàn | 0.0tr | 13 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 13 |
 | 80 | Bánh mì kem tươi | 0.0tr | 13 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 13 |
 | 81 | Củ / bộ sạc | 0.0tr | 13 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 13 |
@@ -95,7 +95,7 @@ Thứ tự làm: từ trên xuống (doanh số 90 ngày giảm dần). `xong` =
 | 85 | Dầu gội - Dành cho nam | 0.0tr | 13 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 12 |
 | 86 | Khăn ướt – khăn giấy | 0.0tr | 13 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 13 |
 | 87 | Kem bánh | 0.0tr | 13 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 13 |
-| 88 | Kem hộp lớn / gia đình | 0.0tr | 14 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 12 |
+| 88 | Kem hộp lớn / gia đình | 0.0tr | 14 | 0 | 0 | 0 | 0 | 0 | 2 | 0 | 12 |
 | 89 | Phô mai | 0.0tr | 13 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 13 |
 | 90 | Sữa chua ăn | 0.0tr | 13 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 13 |
 | 91 | Nước ngọt có gas | 0.0tr | 12 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 12 |
